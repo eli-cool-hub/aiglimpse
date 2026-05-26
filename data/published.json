@@ -1,6 +1,30 @@
 {
   "articles": [
     {
+      "slug": "rag-vs-fine-tuning-vs-prompt-engineering",
+      "title": "Fine-tuning vs RAG vs Prompt Engineering: A Decision Framework",
+      "subtitle": "When to customize an LLM: cost, latency, and accuracy tradeoffs explained for engineering leaders.",
+      "category": "research",
+      "publishedAt": "2026-05-26T23:39:14.726Z",
+      "sourceUrl": null,
+      "sourceName": "AI Glimpse Newsroom",
+      "sourceTier": 0,
+      "image": "/images/articles/rag-vs-fine-tuning-vs-prompt-engineering.jpg",
+      "evergreen": true
+    },
+    {
+      "slug": "what-is-retrieval-augmented-generation-rag",
+      "title": "What is Retrieval-Augmented Generation (RAG)? A 2026 Guide",
+      "subtitle": "How RAG fixes LLM hallucinations by letting models fetch real data before generating answers.",
+      "category": "research",
+      "publishedAt": "2026-05-26T23:38:27.206Z",
+      "sourceUrl": null,
+      "sourceName": "AI Glimpse Newsroom",
+      "sourceTier": 0,
+      "image": "/images/articles/what-is-retrieval-augmented-generation-rag.jpg",
+      "evergreen": true
+    },
+    {
       "slug": "turning-chores-into-ai-training-data-the-hidden-cost-eeb43980",
       "title": "Turning Chores Into AI Training Data: The Hidden Cost",
       "subtitle": "As companies recruit everyday people to record household tasks for robot training, participants face unforeseen consequences of monetizing their daily routines.",

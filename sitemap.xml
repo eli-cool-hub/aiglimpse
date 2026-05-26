@@ -11,6 +11,24 @@
   <url><loc>https://aiglimpse.ai/pages/about.html</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
   <url><loc>https://aiglimpse.ai/pages/contact.html</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
   <url>
+    <loc>https://aiglimpse.ai/articles/rag-vs-fine-tuning-vs-prompt-engineering.html</loc>
+    <news:news>
+      <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-05-26T23:39:14.726Z</news:publication_date>
+      <news:title>Fine-tuning vs RAG vs Prompt Engineering: A Decision Framework</news:title>
+    </news:news>
+    <changefreq>daily</changefreq><priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://aiglimpse.ai/articles/what-is-retrieval-augmented-generation-rag.html</loc>
+    <news:news>
+      <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-05-26T23:38:27.206Z</news:publication_date>
+      <news:title>What is Retrieval-Augmented Generation (RAG)? A 2026 Guide</news:title>
+    </news:news>
+    <changefreq>daily</changefreq><priority>0.9</priority>
+  </url>
+  <url>
     <loc>https://aiglimpse.ai/articles/turning-chores-into-ai-training-data-the-hidden-cost-eeb43980.html</loc>
     <news:news>
       <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
@@ -33,7 +51,7 @@
     <news:news>
       <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-05-25T14:23:45.000Z</news:publication_date>
-      <news:title>Manufacturing's Digital Divide: When to Deploy Simulation vs. Digital Twins</news:title>
+      <news:title>Manufacturing&#39;s Digital Divide: When to Deploy Simulation vs. Digital Twins</news:title>
     </news:news>
     <changefreq>daily</changefreq><priority>0.8</priority>
   </url>
@@ -159,7 +177,7 @@
     <news:news>
       <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-05-25T17:55:39.000Z</news:publication_date>
-      <news:title>Researchers Propose 'Sleep' Mechanism to Fix LLM Context Limits</news:title>
+      <news:title>Researchers Propose &#39;Sleep&#39; Mechanism to Fix LLM Context Limits</news:title>
     </news:news>
     <changefreq>daily</changefreq><priority>0.8</priority>
   </url>
@@ -240,7 +258,7 @@
     <news:news>
       <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-05-25T17:59:22.000Z</news:publication_date>
-      <news:title>Helix4D Tackles Video-to-4D Mesh Generation's Hardest Problems</news:title>
+      <news:title>Helix4D Tackles Video-to-4D Mesh Generation&#39;s Hardest Problems</news:title>
     </news:news>
     <changefreq>daily</changefreq><priority>0.8</priority>
   </url>

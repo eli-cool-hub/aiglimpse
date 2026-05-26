@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fine-tuning vs RAG vs Prompt Engineering: A Decision Framework | AI Glimpse</title>
+  <meta name="description" content="Choose between fine-tuning, RAG, and prompt engineering. This guide explains cost, latency, accuracy tradeoffs and provides a decision framework for LLM customization.">
+  <meta name="keywords" content="fine-tuning, RAG, prompt engineering, LoRA, instruction tuning, LLM customization, retrieval-augmented generation">
+  <link rel="canonical" href="https://aiglimpse.ai/articles/rag-vs-fine-tuning-vs-prompt-engineering.html">
+  <meta property="og:type" content="article"><meta property="og:site_name" content="AI Glimpse">
+  <meta property="og:title" content="Fine-tuning vs RAG vs Prompt Engineering: A Decision Framework">
+  <meta property="og:description" content="Choose between fine-tuning, RAG, and prompt engineering. This guide explains cost, latency, accuracy tradeoffs and provides a decision framework for LLM customization.">
+  <meta property="og:url" content="https://aiglimpse.ai/articles/rag-vs-fine-tuning-vs-prompt-engineering.html">
+  <meta property="og:image" content="https://aiglimpse.ai/images/articles/rag-vs-fine-tuning-vs-prompt-engineering.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="article:published_time" content="2026-05-26T23:39:14.726Z">
+  <meta property="article:section" content="AI Research">
+  <meta property="article:tag" content="fine-tuning">
+  <meta property="article:tag" content="RAG">
+  <meta property="article:tag" content="prompt engineering">
+  <meta property="article:tag" content="LoRA">
+  <meta property="article:tag" content="instruction tuning">
+  <meta property="article:tag" content="LLM customization">
+  <meta property="article:tag" content="retrieval-augmented generation">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Fine-tuning vs RAG vs Prompt Engineering: A Decision Framework">
+  <meta name="twitter:description" content="Choose between fine-tuning, RAG, and prompt engineering. This guide explains cost, latency, accuracy tradeoffs and provides a decision framework for LLM customization.">
+  <meta name="twitter:image" content="https://aiglimpse.ai/images/articles/rag-vs-fine-tuning-vs-prompt-engineering.jpg">
+  <link rel="icon" type="image/svg+xml" href="/images/favicon.svg">
+  <link rel="alternate" type="application/rss+xml" title="AI Glimpse RSS" href="/rss.xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="/css/main.css">
+  <style>.reading-progress{position:fixed;top:0;left:0;height:3px;background:var(--color-accent);width:0%;z-index:200;transition:width 100ms linear;}</style>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","mainEntityOfPage":{"@type":"WebPage","@id":"https://aiglimpse.ai/articles/rag-vs-fine-tuning-vs-prompt-engineering.html"},"headline":"Fine-tuning vs RAG vs Prompt Engineering: A Decision Framework","description":"Choose between fine-tuning, RAG, and prompt engineering. This guide explains cost, latency, accuracy tradeoffs and provides a decision framework for LLM customization.","image":["https://aiglimpse.ai/images/articles/rag-vs-fine-tuning-vs-prompt-engineering.jpg"],"datePublished":"2026-05-26T23:39:14.726Z","dateModified":"2026-05-26T23:39:14.726Z","author":{"@type":"Organization","name":"AI Glimpse Newsroom"},"publisher":{"@type":"Organization","name":"AI Glimpse","logo":{"@type":"ImageObject","url":"https://aiglimpse.ai/images/logo.svg"}},"articleSection":"AI Research","keywords":"fine-tuning, RAG, prompt engineering, LoRA, instruction tuning, LLM customization, retrieval-augmented generation"}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Can you combine fine-tuning with RAG?","acceptedAnswer":{"@type":"Answer","text":"Yes, and it is often a good idea. Fine-tune your model for general task competence, then use RAG to inject domain-specific or proprietary data at inference time. This gives you high baseline accuracy plus up-to-date context. The downside is added complexity and latency from the retrieval step. Only combine them if you need both the accuracy from fine-tuning and the freshness from RAG."}},{"@type":"Question","name":"How much labeled data do you need to fine-tune effectively?","acceptedAnswer":{"@type":"Answer","text":"A minimum of 500 examples is needed to see noticeable gains, but 1,000 to 5,000 is the sweet spot for most tasks. Below 500 examples, prompt engineering or few-shot prompting usually works better. Above 10,000 examples, you can start to specialize on very narrow tasks. Data quality matters more than quantity; 1,000 well-labeled examples beat 10,000 noisy ones."}},{"@type":"Question","name":"Does fine-tuning make inference faster?","acceptedAnswer":{"@type":"Answer","text":"Not necessarily. Fine-tuning updates the model's weights but does not reduce model size. A fine-tuned 7B parameter model runs at the same speed as the base 7B model. However, if you fine-tune a smaller model (say, 1B parameters) instead of using the base 13B model, inference will be faster. You trade accuracy for speed, not the other way around."}},{"@type":"Question","name":"What is the latency cost of RAG?","acceptedAnswer":{"@type":"Answer","text":"Retrieval typically adds 10 to 100 milliseconds, depending on your vector database and network. The retrieved context then increases your input token count by 500 to 2,000 tokens, which adds 200 to 500 milliseconds of generation latency. Total added latency is usually 250 to 600 milliseconds. This is acceptable for offline tasks but problematic for real-time applications like autocomplete."}},{"@type":"Question","name":"Should I fine-tune on a smaller model or use RAG with a larger one?","acceptedAnswer":{"@type":"Answer","text":"Generally, RAG with a larger model is safer for production. A 13B model with RAG is more likely to correctly understand and synthesize retrieved context than a fine-tuned 7B model. Fine-tuning a smaller model makes sense only if latency or cost constraints are severe. Benchmark both on your test set before deciding."}},{"@type":"Question","name":"How do you know if your prompt engineering has hit its ceiling?","acceptedAnswer":{"@type":"Answer","text":"Track accuracy and latency of your prompted baseline for two to four weeks. If accuracy plateaus despite iterative prompt improvements, you have likely hit the ceiling. Also profile where the model fails; if failures are on specialized knowledge or domain-specific patterns, prompt engineering has topped out and RAG or fine-tuning is needed."}},{"@type":"Question","name":"What is the typical cost breakdown for fine-tuning a production model?","acceptedAnswer":{"@type":"Answer","text":"Expect 40 to 60% of cost on data labeling and preparation, 30 to 40% on training compute, and 10 to 20% on evaluation and iteration. For a 10,000-example fine-tune, total cost is often $15,000 to $40,000. Using third-party APIs (OpenAI's fine-tuning service) is more expensive per token but reduces operational overhead. Running on your own GPU cluster is cheaper upfront but requires engineering and maintenance."}}]}</script>
+  <meta name="google-site-verification" content="B132aMlqf1nssWYhjOSKUgSjmfwNWgPgtozZsHDxWlU" />
+  <meta name="msvalidate.01" content="F3762E555B3E685836AE39C90B79ECBF" />
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4263484717830850" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div class="reading-progress" aria-hidden="true"></div>
+  <div id="site-header-slot"></div>
+  <main>
+    <article>
+      <section class="article-hero">
+        <div class="container container--narrow">
+          <nav aria-label="Breadcrumb" style="margin-bottom:var(--space-4);font-size:var(--text-xs);color:var(--color-ink-muted);">
+            <a href="/" style="color:inherit;">Home</a> /
+            <a href="/categories/research.html" style="color:inherit;">AI Research</a> /
+            <span>Explainer</span>
+          </nav>
+          <div class="article-hero-meta">
+            <span class="tag tag--research">AI Research</span>
+            <span class="eyebrow eyebrow--accent">Explainer</span>
+            <span class="eyebrow">11 min read</span>
+          </div>
+          <h1 class="article-hero-title">Fine-tuning vs RAG vs Prompt Engineering: A Decision Framework</h1>
+          <p class="article-hero-subtitle">When to customize an LLM: cost, latency, and accuracy tradeoffs explained for engineering leaders.</p>
+          <div class="article-byline">
+            <div>By <strong>AI Glimpse Newsroom</strong></div><div>·</div>
+            <div><time datetime="2026-05-26T23:39:14.726Z" data-relative="false">May 26, 2026</time></div>
+          </div>
+        </div>
+      </section>
+      <section style="padding: var(--space-7) 0;">
+        <div class="container container--narrow">
+          <figure class="article-image"><img src="/images/articles/rag-vs-fine-tuning-vs-prompt-engineering.jpg" alt="Fine-tuning vs RAG vs Prompt Engineering: A Decision Framework" loading="eager" width="1200" height="630"></figure>
+          <div class="article-body"><p>There are three main ways to customize a <a href="/categories/llms.html">large language model</a> to your specific task: prompt engineering, retrieval-augmented generation (RAG), and fine-tuning. Each trades off cost, latency, accuracy, and operational complexity in different ways. Choosing the right one depends on your data, your budget, your latency requirements, and how much the model's default behavior misaligns with what you need. This guide walks engineering leaders through that decision.</p>
+
+<h2>Why this matters now</h2>
+
+<p>In 2026, off-the-shelf LLMs are powerful enough to handle many tasks without modification, but they are rarely optimal. A customer service chatbot trained on general internet text will hallucinate product details. A legal document analyzer will miss domain-specific nuance. A code generation tool will produce idioms that don't match your team's style. The question is no longer whether you should customize, but how.</p>
+
+<p>The explosion of production LLM deployments has also made this decision material. A 500-millisecond latency increase across 10 million daily requests compounds into frustrated users. A 3x cost increase on inference can turn a profitable product unprofitable. And a 2% accuracy regression on a high-stakes task like loan underwriting can mean regulatory liability. The engineering lead choosing a customization strategy must weigh all three.</p>
+
+<h2>What each technique does (in 30 seconds)</h2>
+
+<p><strong>Prompt engineering</strong> means writing better instructions and examples in the system prompt or message context. You are not changing the model weights; you are changing the input. Cost is minimal (just extra tokens). Latency is negligible. Effectiveness is bounded by what the base model already knows.</p>
+
+<p><strong>RAG (retrieval-augmented generation)</strong> means augmenting the prompt with relevant documents or data retrieved from your own sources at inference time. The model stays unchanged. Cost is moderate (retrieval overhead plus extra input tokens). Latency rises measurably (you must query a vector database or search index). Effectiveness depends on retrieval quality and the model's ability to synthesize retrieved context.</p>
+
+<p><strong>Fine-tuning</strong> means updating the model's weights on your task-specific data. You are changing the model itself. Upfront cost is high (training compute). Inference cost per token may fall (smaller or more efficient model). Latency is predictable. Effectiveness can be very high but requires quality data and careful evaluation.</p>
+
+<h2>Prompt engineering: the starting point</h2>
+
+<p>Start here. Always. Prompt engineering is the fastest, cheapest, and most reversible customization. In many cases, it is sufficient.</p>
+
+<p>Good prompt engineering includes clear task description, role-playing instructions ("You are a legal contract reviewer"), output format specification, and one or two in-context examples (few-shot prompting). A system prompt might look like this:</p>
+
+<blockquote>"You are a support agent for a SaaS platform. Respond only to questions about billing, uptime, and API limits. If the user asks about features not yet released, say 'That feature is in development. I can't provide details yet.' Keep responses under 100 words."</blockquote>
+
+<p>The cost of prompt engineering is the extra input tokens. If your base prompt is 300 tokens and you add 5 examples at 50 tokens each, you have paid 550 tokens total. At current pricing (roughly $0.005 to $0.015 per 1M input tokens for GPT-4 class models), that is negligible per request. Latency is unchanged. The model generates output at the same speed whether the input is 300 or 550 tokens.</p>
+
+<p>Prompt engineering fails when the model fundamentally does not know the domain. A system prompt cannot teach GPT-4 medical diagnosis if GPT-4 has never seen similar training examples. Prompt engineering also fails when you need the model to follow very specific, idiosyncratic rules that conflict with its training. A prompt saying "always respond in Pig Latin" will work for simple tasks but will degrade on complex reasoning.</p>
+
+<p>When prompt engineering is sufficient, stay with it. The operational overhead is near zero. You can change the prompt in seconds. You do not need to hold a fine-tuned model in memory or manage versioning.</p>
+
+<h2>RAG: adding context at inference time</h2>
+
+<p>RAG shines when you need the model to answer questions about proprietary or recent data that was not in its training set.</p>
+
+<p>A customer support agent needs to reference your company's knowledge base. A financial analyst needs to pull current earnings reports. A legal researcher needs to cite specific case law. Rather than fine-tune the model on all of this data (which is expensive and becomes stale), you retrieve the relevant chunks at query time and append them to the prompt.</p>
+
+<p>The cost of RAG has two components: retrieval infrastructure and extra input tokens. A vector database (Pinecone, Weaviate, or PostgreSQL with pgvector) costs $100 to $5,000 per month depending on scale. Retrieval itself is fast, typically 10 to 100 milliseconds for a single query. The retrieved context typically adds 500 to 2,000 tokens to your prompt, which is more expensive than unaugmented prompts but still cheap in absolute terms.</p>
+
+<p>Latency is the real cost of RAG. If your inference endpoint expects 100 milliseconds and your vector database adds 50 milliseconds and your LLM response adds 2,000 milliseconds, your total is now 2,150 milliseconds instead of 2,100 milliseconds. That is about 2.4% slower. In many use cases this is fine. In real-time systems (autocomplete, live transcription) it becomes material.</p>
+
+<p>RAG also introduces retrieval quality as a failure mode. If your retriever returns the wrong documents, the model will hallucinate based on irrelevant context. A study on RAG systems found that retrieval accuracy below 50% for the top-1 document degraded model accuracy by 5 to 15 percentage points. Debugging retrieval failures is harder than debugging a single model's behavior because you must profile two systems.</p>
+
+<p>RAG works best when your data is structured, your retriever is high quality, and you can tolerate 50 to 500 milliseconds of added latency. It is the standard choice for knowledge-grounded QA, customer support, and document analysis.</p>
+
+<h2>Fine-tuning: when you own the data and the model</h2>
+
+<p>Fine-tuning updates model weights to specialize on your task. It is the most powerful but most expensive option.</p>
+
+<p>Fine-tuning makes sense when you have 1,000 to 100,000 high-quality labeled examples of your task, your task is significantly different from general LLM behavior, and you have the budget to train and serve a custom model. Examples include customer churn prediction (classification on structured data and documents), specialized code generation (your internal libraries and patterns), and domain-specific translation or summarization.</p>
+
+<p>The cost of fine-tuning has several parts. Data preparation (labeling, cleaning, formatting) is typically 40% to 60% of the project cost and is often underestimated. Training compute for a modest fine-tune on GPT-4 runs $5,000 to $50,000 depending on data size and desired quality. Lower-cost options like fine-tuning Llama 2 on your own GPU cluster run $500 to $5,000. Once you have a fine-tuned model, inference costs are the same as the base model.</p>
+
+<p>LoRA (Low-Rank Adaptation) and other parameter-efficient fine-tuning methods reduce the number of trainable weights. Instead of updating all of a model's billions of parameters, LoRA updates small adapter matrices. This cuts training time and memory by 60 to 80% and makes it possible to maintain multiple task-specific LoRA weights that compose on top of a single base model. LoRA is increasingly the default choice for fine-tuning at scale.</p>
+
+<p>Instruction tuning is a specific type of fine-tuning focused on making a model follow task instructions better. Rather than training on task-specific data, you train on diverse tasks with explicit instructions ("Given a product review, classify it as positive, neutral, or negative"). This improves zero-shot and few-shot performance on new tasks. It is more expensive than vanilla fine-tuning but can be worth it if you have many diverse downstream tasks.</p>
+
+<p>The upside of fine-tuning is accuracy. Fine-tuned models often achieve 2 to 10 percentage point gains over prompt engineering or RAG on well-specified tasks. A fine-tuned spam classifier might reach 94% accuracy where a prompted base model reached 87%. A fine-tuned code generator might produce syntactically correct code 15% more often. Inference latency is identical to the base model, so you get accuracy with no speed penalty.</p>
+
+<p>The downsides are operational. You must version and serve a custom model. You must monitor for drift (the model's performance degrades as new data arrives). You cannot instantly update the model the way you can change a prompt. If you discover an error in your training data, you must retrain. Updating a fine-tuned model takes days or weeks; updating a prompt takes minutes.</p>
+
+<h2>The decision framework</h2>
+
+<p>Use this flowchart to choose.</p>
+
+<ol>
+<li>Can prompt engineering + in-context examples solve this? If yes, stop. Ship the prompt.</li>
+<li>Is your data proprietary, recent, or constantly changing? If yes, use RAG. If no, continue.</li>
+<li>Do you have 1,000+ labeled examples of your task? If no, go back to prompt engineering or RAG.</li>
+<li>Is your task performance-critical (medical, legal, high-value transactions)? If yes, fine-tune. If no, try RAG first and fine-tune only if RAG misses your accuracy target.</li>
+<li>Can you afford the operational overhead of a custom model (versioning, monitoring, retraining)? If no, use RAG. If yes, fine-tune.</li>
+</ol>
+
+<p>Real-world example: A fintech company building a loan underwriting assistant could approach this three ways:</p>
+
+<ul>
+<li><strong>Prompt engineering only:</strong> Write a detailed system prompt and provide 3 to 5 loan examples in the message context. Cost: near zero. Latency: negligible. Accuracy: 75% on edge cases. Operational overhead: minimal. Works for a prototype.</li>
+<li><strong>RAG:</strong> Embed loan documents, guidelines, and regulatory frameworks. Retrieve relevant docs at query time. Cost: $5,000 to $10,000 per month for retrieval infrastructure. Latency: +100ms. Accuracy: 82%. Operational overhead: low. Works for production if retrieval quality is high.</li>
+<li><strong>Fine-tuning:</strong> Collect 2,000 labeled underwriting decisions from your underwriters. Fine-tune a model on these examples. Cost: $10,000 to $30,000 upfront. Latency: negligible. Accuracy: 88%. Operational overhead: medium. Required to hit compliance standards.</li>
+</ul>
+
+<p>The company might start with RAG, monitor accuracy, and fine-tune if regulatory or business requirements demand higher precision.</p>
+
+<h2>Common pitfalls and when customization fails</h2>
+
+<p>Prompt engineering fails when the model genuinely lacks knowledge. You cannot prompt-engineer medical expertise into a <a href="/categories/llms.html">language model</a> that has never seen medical training data. The model can follow your format instructions, but it will hallucinate diagnoses.</p>
+
+<p>RAG fails when retrieval is poor or when synthesis is hard. If your vector database returns the wrong documents 30% of the time, the model will be confidently wrong 30% of the time. RAG also fails on tasks requiring complex reasoning across many documents. A retriever might find 5 relevant contracts, but synthesizing a contradictory clause buried in page 12 of contract 3 requires understanding that is not in the retrieved chunks.</p>
+
+<p>Fine-tuning fails when your labeled data is biased or too small. If you fine-tune on 500 examples of underwriting decisions that are 90% from wealthy neighborhoods, the fine-tuned model will learn that bias. Fine-tuning also fails when you do not adequately separate train and test data. If 20% of your training data leaks into your test set, you will measure accuracy higher than reality.</p>
+
+<p>A common mistake is treating these as either/or decisions. Many production systems layer all three. A loan underwriting system might use a fine-tuned model as the base (high accuracy), augment it with RAG over recent regulatory documents (up-to-date context), and allow humans to prompt-engineer special cases (regulatory exceptions). The art is knowing when each layer is paying for itself.</p>
+
+<h2>Next steps</h2>
+
+<p>Start with a small prompt engineering experiment. Write a detailed system prompt and three in-context examples. Measure accuracy and latency. If accuracy is sufficient and latency is acceptable, ship it. If accuracy is 5 to 15 percentage points below your target, implement RAG on top of your existing prompt and retrieval infrastructure. Measure again. If you still miss your target and you have 1,000+ labeled examples, start a fine-tuning project. Expect it to take 4 to 8 weeks from data collection to evaluation. Do not skip the evaluation phase; a 2% accuracy gain on a biased test set is worse than useless.</p></div>
+
+      <section style="margin-top: var(--space-8);">
+        <h2 style="margin-bottom: var(--space-5);">Frequently asked questions</h2>
+        <div class="faq-list">
+    <details class="faq-item" style="border-bottom:1px solid var(--color-rule);padding:var(--space-4) 0;">
+      <summary style="cursor:pointer;font-weight:600;font-size:var(--text-md);list-style:none;display:flex;justify-content:space-between;align-items:flex-start;gap:var(--space-3);">
+        <span>Can you combine fine-tuning with RAG?</span>
+        <span aria-hidden="true" style="color:var(--color-ink-faint);font-weight:400;flex-shrink:0;">+</span>
+      </summary>
+      <div style="margin-top:var(--space-3);color:var(--color-ink-muted);line-height:1.7;">
+        <p>Yes, and it is often a good idea. Fine-tune your model for general task competence, then use RAG to inject domain-specific or proprietary data at inference time. This gives you high baseline accuracy plus up-to-date context. The downside is added complexity and latency from the retrieval step. Only combine them if you need both the accuracy from fine-tuning and the freshness from RAG.</p>
+      </div>
+    </details>
+
+    <details class="faq-item" style="border-bottom:1px solid var(--color-rule);padding:var(--space-4) 0;">
+      <summary style="cursor:pointer;font-weight:600;font-size:var(--text-md);list-style:none;display:flex;justify-content:space-between;align-items:flex-start;gap:var(--space-3);">
+        <span>How much labeled data do you need to fine-tune effectively?</span>
+        <span aria-hidden="true" style="color:var(--color-ink-faint);font-weight:400;flex-shrink:0;">+</span>
+      </summary>
+      <div style="margin-top:var(--space-3);color:var(--color-ink-muted);line-height:1.7;">
+        <p>A minimum of 500 examples is needed to see noticeable gains, but 1,000 to 5,000 is the sweet spot for most tasks. Below 500 examples, prompt engineering or few-shot prompting usually works better. Above 10,000 examples, you can start to specialize on very narrow tasks. Data quality matters more than quantity; 1,000 well-labeled examples beat 10,000 noisy ones.</p>
+      </div>
+    </details>
+
+    <details class="faq-item" style="border-bottom:1px solid var(--color-rule);padding:var(--space-4) 0;">
+      <summary style="cursor:pointer;font-weight:600;font-size:var(--text-md);list-style:none;display:flex;justify-content:space-between;align-items:flex-start;gap:var(--space-3);">
+        <span>Does fine-tuning make inference faster?</span>
+        <span aria-hidden="true" style="color:var(--color-ink-faint);font-weight:400;flex-shrink:0;">+</span>
+      </summary>
+      <div style="margin-top:var(--space-3);color:var(--color-ink-muted);line-height:1.7;">
+        <p>Not necessarily. Fine-tuning updates the model&#39;s weights but does not reduce model size. A fine-tuned 7B parameter model runs at the same speed as the base 7B model. However, if you fine-tune a smaller model (say, 1B parameters) instead of using the base 13B model, inference will be faster. You trade accuracy for speed, not the other way around.</p>
+      </div>
+    </details>
+
+    <details class="faq-item" style="border-bottom:1px solid var(--color-rule);padding:var(--space-4) 0;">
+      <summary style="cursor:pointer;font-weight:600;font-size:var(--text-md);list-style:none;display:flex;justify-content:space-between;align-items:flex-start;gap:var(--space-3);">
+        <span>What is the latency cost of RAG?</span>
+        <span aria-hidden="true" style="color:var(--color-ink-faint);font-weight:400;flex-shrink:0;">+</span>
+      </summary>
+      <div style="margin-top:var(--space-3);color:var(--color-ink-muted);line-height:1.7;">
+        <p>Retrieval typically adds 10 to 100 milliseconds, depending on your vector database and network. The retrieved context then increases your input token count by 500 to 2,000 tokens, which adds 200 to 500 milliseconds of generation latency. Total added latency is usually 250 to 600 milliseconds. This is acceptable for offline tasks but problematic for real-time applications like autocomplete.</p>
+      </div>
+    </details>
+
+    <details class="faq-item" style="border-bottom:1px solid var(--color-rule);padding:var(--space-4) 0;">
+      <summary style="cursor:pointer;font-weight:600;font-size:var(--text-md);list-style:none;display:flex;justify-content:space-between;align-items:flex-start;gap:var(--space-3);">
+        <span>Should I fine-tune on a smaller model or use RAG with a larger one?</span>
+        <span aria-hidden="true" style="color:var(--color-ink-faint);font-weight:400;flex-shrink:0;">+</span>
+      </summary>
+      <div style="margin-top:var(--space-3);color:var(--color-ink-muted);line-height:1.7;">
+        <p>Generally, RAG with a larger model is safer for production. A 13B model with RAG is more likely to correctly understand and synthesize retrieved context than a fine-tuned 7B model. Fine-tuning a smaller model makes sense only if latency or cost constraints are severe. Benchmark both on your test set before deciding.</p>
+      </div>
+    </details>
+
+    <details class="faq-item" style="border-bottom:1px solid var(--color-rule);padding:var(--space-4) 0;">
+      <summary style="cursor:pointer;font-weight:600;font-size:var(--text-md);list-style:none;display:flex;justify-content:space-between;align-items:flex-start;gap:var(--space-3);">
+        <span>How do you know if your prompt engineering has hit its ceiling?</span>
+        <span aria-hidden="true" style="color:var(--color-ink-faint);font-weight:400;flex-shrink:0;">+</span>
+      </summary>
+      <div style="margin-top:var(--space-3);color:var(--color-ink-muted);line-height:1.7;">
+        <p>Track accuracy and latency of your prompted baseline for two to four weeks. If accuracy plateaus despite iterative prompt improvements, you have likely hit the ceiling. Also profile where the model fails; if failures are on specialized knowledge or domain-specific patterns, prompt engineering has topped out and RAG or fine-tuning is needed.</p>
+      </div>
+    </details>
+
+    <details class="faq-item" style="border-bottom:1px solid var(--color-rule);padding:var(--space-4) 0;">
+      <summary style="cursor:pointer;font-weight:600;font-size:var(--text-md);list-style:none;display:flex;justify-content:space-between;align-items:flex-start;gap:var(--space-3);">
+        <span>What is the typical cost breakdown for fine-tuning a production model?</span>
+        <span aria-hidden="true" style="color:var(--color-ink-faint);font-weight:400;flex-shrink:0;">+</span>
+      </summary>
+      <div style="margin-top:var(--space-3);color:var(--color-ink-muted);line-height:1.7;">
+        <p>Expect 40 to 60% of cost on data labeling and preparation, 30 to 40% on training compute, and 10 to 20% on evaluation and iteration. For a 10,000-example fine-tune, total cost is often $15,000 to $40,000. Using third-party APIs (OpenAI&#39;s fine-tuning service) is more expensive per token but reduces operational overhead. Running on your own GPU cluster is cheaper upfront but requires engineering and maintenance.</p>
+      </div>
+    </details></div>
+      </section>
+          <p style="font-size:var(--text-xs);color:var(--color-ink-faint);margin-top:var(--space-6);padding-top:var(--space-4);border-top:1px solid var(--color-rule);">
+            An <strong>AI Glimpse</strong> explainer. We update this guide as the field evolves.
+          </p>
+        </div>
+      </section>
+    </article>
+  </main>
+  <div id="site-footer-slot"></div>
+  <script src="/js/chrome.js"></script>
+  <script src="/js/main.js"></script>
+</body>
+</html>

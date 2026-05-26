@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>What is Retrieval-Augmented Generation (RAG)? A 2026 Guide | AI Glimpse</title>
+  <meta name="description" content="Retrieval-augmented generation (RAG) lets LLMs fetch real data before generating answers, reducing hallucinations. Learn how RAG works, when to use it, and what the trade-offs are.">
+  <meta name="keywords" content="retrieval-augmented generation, RAG, vector database, embeddings, context window, hallucination, LLM retrieval">
+  <link rel="canonical" href="https://aiglimpse.ai/articles/what-is-retrieval-augmented-generation-rag.html">
+  <meta property="og:type" content="article"><meta property="og:site_name" content="AI Glimpse">
+  <meta property="og:title" content="What is Retrieval-Augmented Generation (RAG)? A 2026 Guide">
+  <meta property="og:description" content="Retrieval-augmented generation (RAG) lets LLMs fetch real data before generating answers, reducing hallucinations. Learn how RAG works, when to use it, and what the trade-offs are.">
+  <meta property="og:url" content="https://aiglimpse.ai/articles/what-is-retrieval-augmented-generation-rag.html">
+  <meta property="og:image" content="https://aiglimpse.ai/images/articles/what-is-retrieval-augmented-generation-rag.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="article:published_time" content="2026-05-26T23:38:27.206Z">
+  <meta property="article:section" content="AI Research">
+  <meta property="article:tag" content="retrieval-augmented generation">
+  <meta property="article:tag" content="RAG">
+  <meta property="article:tag" content="vector database">
+  <meta property="article:tag" content="embeddings">
+  <meta property="article:tag" content="context window">
+  <meta property="article:tag" content="hallucination">
+  <meta property="article:tag" content="LLM retrieval">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="What is Retrieval-Augmented Generation (RAG)? A 2026 Guide">
+  <meta name="twitter:description" content="Retrieval-augmented generation (RAG) lets LLMs fetch real data before generating answers, reducing hallucinations. Learn how RAG works, when to use it, and what the trade-offs are.">
+  <meta name="twitter:image" content="https://aiglimpse.ai/images/articles/what-is-retrieval-augmented-generation-rag.jpg">
+  <link rel="icon" type="image/svg+xml" href="/images/favicon.svg">
+  <link rel="alternate" type="application/rss+xml" title="AI Glimpse RSS" href="/rss.xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="/css/main.css">
+  <style>.reading-progress{position:fixed;top:0;left:0;height:3px;background:var(--color-accent);width:0%;z-index:200;transition:width 100ms linear;}</style>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","mainEntityOfPage":{"@type":"WebPage","@id":"https://aiglimpse.ai/articles/what-is-retrieval-augmented-generation-rag.html"},"headline":"What is Retrieval-Augmented Generation (RAG)? A 2026 Guide","description":"Retrieval-augmented generation (RAG) lets LLMs fetch real data before generating answers, reducing hallucinations. Learn how RAG works, when to use it, and what the trade-offs are.","image":["https://aiglimpse.ai/images/articles/what-is-retrieval-augmented-generation-rag.jpg"],"datePublished":"2026-05-26T23:38:27.206Z","dateModified":"2026-05-26T23:38:27.206Z","author":{"@type":"Organization","name":"AI Glimpse Newsroom"},"publisher":{"@type":"Organization","name":"AI Glimpse","logo":{"@type":"ImageObject","url":"https://aiglimpse.ai/images/logo.svg"}},"articleSection":"AI Research","keywords":"retrieval-augmented generation, RAG, vector database, embeddings, context window, hallucination, LLM retrieval"}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How is RAG different from fine-tuning a language model?","acceptedAnswer":{"@type":"Answer","text":"Fine-tuning modifies the model's weights using training examples, baking domain knowledge directly into the model. RAG leaves the model unchanged and retrieves external knowledge at query time. Fine-tuning is best for narrow domains where you have high-quality training data; RAG is best when your knowledge base changes frequently or you want to use the same base model across multiple domains without retraining."}},{"@type":"Question","name":"What's the difference between a vector database and a regular database?","acceptedAnswer":{"@type":"Answer","text":"A vector database is optimized for storing and searching high-dimensional numerical vectors (embeddings) using approximate nearest-neighbor algorithms. A regular database (SQL, NoSQL) is optimized for storing structured or unstructured data and querying by exact match or range. Vector databases return the K most similar items; regular databases return exact matches. For RAG, you need a vector database."}},{"@type":"Question","name":"Can RAG systems hallucinate even with retrieved context?","acceptedAnswer":{"@type":"Answer","text":"Yes. A model can ignore retrieved context and hallucinate anyway, or the retrieved context itself can be incomplete or incorrect. RAG dramatically reduces hallucination rates (from 20-40% to 5-10% in many cases) but does not eliminate it. Always measure hallucination rates empirically on your use case and implement safeguards like citation verification."}},{"@type":"Question","name":"What embedding model should I use for RAG?","acceptedAnswer":{"@type":"Answer","text":"OpenAI's text-embedding-3-small is a solid default: cheap, reliable, and 1536-dimensional. Open-source alternatives like BAAI BGE-base are also excellent and avoid vendor lock-in. Choose based on cost, latency budget, and whether you need specialized embeddings (e.g., multilingual). Always use the same embedding model for both indexing and query time."}},{"@type":"Question","name":"How many documents should I retrieve (K) for a RAG query?","acceptedAnswer":{"@type":"Answer","text":"Start with K=5 to K=10. More retrieved context doesn't always improve accuracy; irrelevant chunks can distract the model. Measure empirically on your test set. If retrieval precision is high (most chunks are relevant), you might increase K; if it's low (many irrelevant chunks), decrease K or improve your embedding model instead."}},{"@type":"Question","name":"What's the latency overhead of adding RAG to an LLM call?","acceptedAnswer":{"@type":"Answer","text":"Retrieval typically adds 200-500ms depending on your vector database, network latency, and the size of your index. Generation time is unchanged. Total end-to-end latency is roughly retrieval time plus generation time. If latency is critical (under 500ms), measure the overhead in your environment before committing to RAG."}},{"@type":"Question","name":"Do I need to reindex my vector database when my source documents change?","acceptedAnswer":{"@type":"Answer","text":"Not necessarily for small changes. You can upsert (update or insert) individual vectors when a document changes. Full reindexing is needed only when you change your embedding model, chunking strategy, or have large-scale document updates. Most systems do periodic full reindexing (e.g., weekly) and incremental updates in between."}}]}</script>
+  <meta name="google-site-verification" content="B132aMlqf1nssWYhjOSKUgSjmfwNWgPgtozZsHDxWlU" />
+  <meta name="msvalidate.01" content="F3762E555B3E685836AE39C90B79ECBF" />
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4263484717830850" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div class="reading-progress" aria-hidden="true"></div>
+  <div id="site-header-slot"></div>
+  <main>
+    <article>
+      <section class="article-hero">
+        <div class="container container--narrow">
+          <nav aria-label="Breadcrumb" style="margin-bottom:var(--space-4);font-size:var(--text-xs);color:var(--color-ink-muted);">
+            <a href="/" style="color:inherit;">Home</a> /
+            <a href="/categories/research.html" style="color:inherit;">AI Research</a> /
+            <span>Explainer</span>
+          </nav>
+          <div class="article-hero-meta">
+            <span class="tag tag--research">AI Research</span>
+            <span class="eyebrow eyebrow--accent">Explainer</span>
+            <span class="eyebrow">13 min read</span>
+          </div>
+          <h1 class="article-hero-title">What is Retrieval-Augmented Generation (RAG)? A 2026 Guide</h1>
+          <p class="article-hero-subtitle">How RAG fixes LLM hallucinations by letting models fetch real data before generating answers.</p>
+          <div class="article-byline">
+            <div>By <strong>AI Glimpse Newsroom</strong></div><div>·</div>
+            <div><time datetime="2026-05-26T23:38:27.206Z" data-relative="false">May 26, 2026</time></div>
+          </div>
+        </div>
+      </section>
+      <section style="padding: var(--space-7) 0;">
+        <div class="container container--narrow">
+          <figure class="article-image"><img src="/images/articles/what-is-retrieval-augmented-generation-rag.jpg" alt="What is Retrieval-Augmented Generation (RAG)? A 2026 Guide" loading="eager" width="1200" height="630"></figure>
+          <div class="article-body"><p>Retrieval-augmented generation (RAG) is an architecture that lets <a href="/categories/llms.html">large language models</a> fetch relevant information from external sources before generating a response. Instead of relying only on knowledge baked into its training weights, a RAG system retrieves factual data from a database or document store, then passes that context to the <a href="/categories/llms.html">language model</a>. The result is more accurate, grounded, and verifiable answers, especially for questions about recent events, proprietary data, or specialized domains where the model's training data is stale or incomplete.</p>
+
+<p>RAG has become the de facto standard for building production AI systems because it solves a critical problem: large <a href="/categories/llms.html">language models</a> are confident hallucinators. They generate plausible-sounding but false information at scale. RAG doesn't eliminate this risk entirely, but it dramatically reduces it by anchoring the model's output to real, retrievable facts. A developer building a customer support chatbot, internal knowledge base, or research assistant today almost always reaches for RAG rather than trying to fine-tune a model on proprietary data or hoping a larger model will know your company's product details.</p>
+
+<h2>Why this matters now</h2>
+
+<p>In 2026, the RAG pattern has matured from an academic curiosity to a production standard. The emergence of purpose-built vector databases (Pinecone, Weaviate, Milvus) and open-source frameworks (LangChain, LlamaIndex) has lowered the barrier to implementation. Meanwhile, context windows have exploded: GPT-4 Turbo ships with 128,000 tokens, Claude 3 with 200,000 tokens. This means developers can now retrieve and pass significantly more context without hitting the model's attention limits, making RAG retrieval more flexible and allowing for longer, richer context chains.</p>
+
+<p>But maturity also means sobering clarity about trade-offs. RAG is not a silver bullet. It adds latency (you have to retrieve before generating), introduces failure modes (retrieving the wrong document), and requires careful tuning of retrieval parameters and prompt engineering. Teams that deploy RAG carelessly end up with systems that are slower, more complex, and only marginally more accurate than a fine-tuned baseline. The 2026 reality is that RAG works best when the use case is a genuine fit: when you have a well-structured knowledge base, when factuality matters more than speed, and when you can measure whether the retrieved context is actually helping.</p>
+
+<h2>The core anatomy of a RAG system</h2>
+
+<p>A RAG pipeline has three main stages: indexing, retrieval, and generation.</p>
+
+<p>In the indexing phase, your source documents (PDFs, web pages, database records, code files, whatever) are split into chunks, converted into vector embeddings (high-dimensional numerical representations), and stored in a vector database. An embedding model, often something like OpenAI's text-embedding-3-small or an open-source model like BAAI's BGE, turns text into a 1536-dimensional vector that captures semantic meaning. Two texts with similar meanings will have embeddings that are mathematically close to each other in vector space. This indexing step is a one-time cost, though you'll likely reindex when your source data changes significantly.</p>
+
+<p>When a user asks a question, the retrieval phase kicks in. The same embedding model encodes the user's query into a vector. The vector database then performs a nearest-neighbor search to find the K most semantically similar document chunks (K is typically 5 to 20, depending on your context window and retrieval strategy). These chunks are the "context." They get inserted into a prompt along with the user's original question, and the whole thing goes to the language model.</p>
+
+<p>In the generation phase, the LLM reads the retrieved context and the query, then generates an answer. Because the model now has access to grounded facts, it's far less likely to confabulate. If the retrieved context doesn't contain relevant information, a well-tuned model should say "I don't know" rather than inventing an answer.</p>
+
+<h2>Embeddings and vector databases explained</h2>
+
+<p>Embeddings are the mechanical heart of retrieval, so understanding them is non-negotiable.</p>
+
+<p>An embedding is a list of numbers (a vector) that represents the semantic meaning of text. If you embed the phrases "golden retriever" and "dog breed," their embeddings will be mathematically similar because the phrases are semantically related. The embedding model learns this relationship during training on large text corpora. Models like OpenAI's text-embedding-3-small or the open-source BGE-base are fine-tuned on millions of text pairs and have learned to position semantically similar texts close to each other in vector space.</p>
+
+<p>The distance between two embeddings (usually measured via cosine similarity, which ranges from 0 to 1) tells you how semantically related the corresponding texts are. A similarity score of 0.9 means "very similar", 0.5 means "somewhat related", 0.1 means "unrelated." This distance metric is what powers retrieval: the vector database finds all document chunks whose embeddings are closest to the query embedding.</p>
+
+<p>A vector database is specialized infrastructure that stores embeddings and performs efficient nearest-neighbor searches at scale. You can technically store embeddings in Postgres or SQLite, but vector databases like Pinecone, Weaviate, or Qdrant are optimized for this exact task. They use algorithms like approximate nearest neighbors (HNSW, LSH) to return results in milliseconds even when searching millions of vectors. Most expose a simple API: insert this vector, search for neighbors, delete, upsert.</p>
+
+<p>One critical detail: the embedding model you use during indexing must match the one you use at query time. If you embed your documents with BGE but query with OpenAI's embeddings, the similarity scores will be meaningless. It's a common source of frustration in production RAG systems.</p>
+
+<h2>Context window and the limits of retrieval</h2>
+
+<p>The context window of a language model is the total number of tokens (roughly, words) it can ingest in a single request. Larger context windows mean you can pass more retrieved context to the model, which sounds universally good, but it's not.</p>
+
+<p>Today's frontier models have enormous context windows: GPT-4 Turbo has 128,000 tokens (roughly 100,000 words), Claude 3 Opus has 200,000. In theory, this means you could retrieve 50 document chunks (each 2000 tokens) and still have room for the user's query and your system prompt. In practice, models often suffer from "context bloat." Larger context windows can lead to longer latency, higher API costs, and paradoxically, worse performance. Studies have shown that LLMs sometimes attend to irrelevant information in the middle of a long context and hallucinate based on it rather than staying focused on what matters.</p>
+
+<p>Best practice is to retrieve only the most relevant chunks (K = 5 to 10 is a good starting point) and spend effort on making sure those chunks are genuinely relevant. A system that retrieves 3 highly relevant chunks usually beats one that retrieves 20 mediocre ones, even though the latter has more total information. This is why tuning your retrieval strategy (which embedding model to use, how to chunk documents, what K to set) often matters more than tuning the language model prompt.</p>
+
+<h2>Hallucination and why RAG reduces (but doesn't eliminate) the problem</h2>
+
+<p>A hallucination in an LLM is a confident false statement. "What is the CEO of Anthropic?" If the model says "John Smith," and that's incorrect, it has hallucinated. Large language models hallucinate because they are next-token prediction machines trained to output statistically likely text given an input. They have no internal mechanism to verify factuality; they only know what looks plausible given their training distribution.</p>
+
+<p>RAG directly addresses this. By retrieving factual source material before generation, the model has grounded information to draw from. If your retrieved context explicitly states "The CEO of Anthropic is Dario Amodei," the model is far more likely to output that name. It still might hallucinate (models can ignore context and confabulate anyway), but the probability drops dramatically. Studies on RAG systems show hallucination rates dropping from 20-40% for models without context to 5-10% with properly retrieved context, depending on the domain and retrieval quality.</p>
+
+<p>However, RAG doesn't eliminate hallucination for three reasons. First, retrieval can fail: if your document store doesn't contain the right information, the model can't help but guess. Second, retrieval can be wrong: the vector database might return semantically similar but factually incorrect chunks. Third, the model might ignore the retrieved context anyway. A well-constructed prompt and a well-behaved model mitigate this, but they don't eliminate it. RAG is noise reduction, not a guarantee.</p>
+
+<h2>Implementation patterns and trade-offs</h2>
+
+<p>There are several ways to build a RAG system, each with different trade-offs.</p>
+
+<p><strong>Basic RAG:</strong> Retrieve K chunks, concatenate them into a single context, pass to the LLM. Simple, low latency (typically 200-500ms for retrieval plus generation), but brittle. If the retrieval fails, the model has nothing to work with. Most teams start here.</p>
+
+<p><strong>Iterative retrieval:</strong> Use the LLM's output to iteratively refine the query and retrieve again. The model might say "I need more information about X," triggering a second retrieval pass. This catches cases where the initial retrieval missed relevant information, but it adds latency (you're now doing multiple round trips to the database and model) and complexity. Reserve this for use cases where accuracy is critical enough to justify the latency cost.</p>
+
+<p><strong>Hybrid retrieval:</strong> Combine vector similarity search with keyword matching or structured metadata filters. You might use BM25 (a traditional full-text search algorithm) to retrieve candidates, then rerank them using vector similarity. This can be more robust than pure vector search, especially for queries with specific named entities, but it requires maintaining both indices.</p>
+
+<p><strong>Re-ranking:</strong> After retrieval, use a cross-encoder model to re-rank the results. Instead of just using cosine similarity (which is computationally cheap but sometimes unreliable), a cross-encoder sees all candidate chunks at once and outputs a relevance score. This is more accurate but slower. Most production systems use bi-encoders for initial retrieval (fast) and optionally re-rank with a cross-encoder (slower but more accurate) on the top-K results.</p>
+
+<p>The choice depends on your constraints. If you have a 100ms latency budget, basic RAG is your friend. If you can afford 2 seconds and hallucination is costly, invest in hybrid retrieval and re-ranking.</p>
+
+<h2>When RAG fails and when to use alternatives</h2>
+
+<p>RAG is not suitable for every problem. Consider its limitations honestly before committing to the pattern.</p>
+
+<p><strong>RAG fails when your knowledge base is unstructured or incorrect.</strong> If your document store is a dump of loosely organized PDFs, retrieval will be noisy. You'll spend months tuning chunking strategies and embedding models and never quite fix the underlying problem. Consider cleaning and structuring your data before indexing. If your source data is itself full of errors, RAG amplifies the damage by confidently propagating those errors.</p>
+
+<p><strong>RAG fails when the query requires multi-hop reasoning.</strong> Suppose a user asks "What products did the CEO of the company that acquired TechStartup X recommend?" This requires finding TechStartup X, identifying its acquirer, finding the CEO, then finding their product recommendations. A single retrieval pass usually can't handle this. Multi-hop reasoning requires iterative retrieval, which adds latency and failure modes. For complex questions, consider fine-tuning a model on a curated training set or building a more structured knowledge graph instead.</p>
+
+<p><strong>RAG adds latency.</strong> A vanilla language model call takes 100-300ms. A RAG call adds 200-500ms for retrieval. If your application has a 200ms latency budget, RAG is not an option. For real-time applications (chat, autocomplete, live translation), the latency overhead of retrieval might outweigh the accuracy benefit.</p>
+
+<p><strong>Fine-tuning and domain-specific models are sometimes better.</strong> If you have 1000s of high-quality training examples in a narrow domain (e.g., medical diagnosis, legal research), fine-tuning a smaller model (Mistral 7B, Llama 2 13B) might be cheaper, faster, and more accurate than RAG with a large model. Fine-tuned models bake domain knowledge into weights, eliminating retrieval latency. The trade-off is that fine-tuning requires quality training data and iteration, whereas RAG works with raw documents immediately.</p>
+
+<p>Honest assessment: many teams use RAG because it's trendy and because off-the-shelf frameworks make it easy, not because it's the best solution for their problem. Before building, clarify your constraints: latency, accuracy target, data freshness requirements, and whether you actually have a useful knowledge base to retrieve from.</p>
+
+<h2>Measuring RAG quality</h2>
+
+<p>Evaluating a RAG system is harder than evaluating a standalone LLM because there are more moving parts. A common framework breaks it into two components: retrieval quality and generation quality.</p>
+
+<p><strong>Retrieval quality</strong> is typically measured by recall: did the retrieved chunks contain the information needed to answer the question? Precision also matters: did the retrieved chunks include a lot of irrelevant noise? Standard metrics are precision@K (what fraction of the top-K results were relevant) and mean reciprocal rank (how highly ranked was the first relevant result). To measure this, you need a test set of questions with labeled relevant documents, which is time-consuming but essential.</p>
+
+<p><strong>Generation quality</strong> given retrieved context is often measured using metrics like ROUGE (overlap with a reference answer), BERTScore (semantic similarity), or human evaluation. Better still, use task-specific metrics: for a customer support system, measure whether the generated answer resolved the user's issue. For a research assistant, measure whether the sources cited are actually relevant.</p>
+
+<p>In practice, measure end-to-end: start with a representative test set of user questions, run the full RAG pipeline, and evaluate the final answer for correctness and relevance. Then, break it down: does retrieval get the right documents? Does generation use those documents correctly? This drill-down helps identify whether failures are retrieval problems (maybe your embedding model is weak) or generation problems (maybe your prompt is ambiguous).</p>
+
+<p>One more thing: hallucination rate is not one metric. Measure it by category. A RAG system might hallucinate 5% of the time overall, but hallucinate 20% of the time when the query is about recent events or 15% of the time when the retrieved context is ambiguous. Breaking it down helps you fix the right thing.</p>
+
+<h2>Getting started: practical next steps</h2>
+
+<p>If you're building a RAG system, start minimal. Pick a simple use case (FAQ bot, document Q&A), grab an open-source framework like LangChain or LlamaIndex, and use a free or cheap embedding model and vector database. Pinecone has a free tier, as does Qdrant. OpenAI's text-embedding-3-small is cheap (2 cents per million tokens) and reliable. Don't spend two months optimizing retrieval strategies before you've measured a baseline.</p>
+
+<p>Once you have a working prototype, measure it. Build a small test set (50 to 100 questions with expected answers). Run your system on it. Count hallucinations, measure latency, measure retrieval precision. Only then should you optimize: better embedding models, re-ranking, hybrid retrieval, iterative refinement, whatever. Most teams over-engineer RAG before they've proven the fundamentals work.</p>
+
+<p>Finally, accept that RAG is not a solved problem. It's a pattern that solves a real problem (hallucination, knowledge freshness) but introduces new ones (retrieval failure, added latency, complexity). The 2026 best practice is to use RAG where it genuinely fits, measure its impact, and have the humility to switch approaches if it's not working.</p></div>
+
+      <section style="margin-top: var(--space-8);">
+        <h2 style="margin-bottom: var(--space-5);">Frequently asked questions</h2>
+        <div class="faq-list">
+    <details class="faq-item" style="border-bottom:1px solid var(--color-rule);padding:var(--space-4) 0;">
+      <summary style="cursor:pointer;font-weight:600;font-size:var(--text-md);list-style:none;display:flex;justify-content:space-between;align-items:flex-start;gap:var(--space-3);">
+        <span>How is RAG different from fine-tuning a language model?</span>
+        <span aria-hidden="true" style="color:var(--color-ink-faint);font-weight:400;flex-shrink:0;">+</span>
+      </summary>
+      <div style="margin-top:var(--space-3);color:var(--color-ink-muted);line-height:1.7;">
+        <p>Fine-tuning modifies the model&#39;s weights using training examples, baking domain knowledge directly into the model. RAG leaves the model unchanged and retrieves external knowledge at query time. Fine-tuning is best for narrow domains where you have high-quality training data; RAG is best when your knowledge base changes frequently or you want to use the same base model across multiple domains without retraining.</p>
+      </div>
+    </details>
+
+    <details class="faq-item" style="border-bottom:1px solid var(--color-rule);padding:var(--space-4) 0;">
+      <summary style="cursor:pointer;font-weight:600;font-size:var(--text-md);list-style:none;display:flex;justify-content:space-between;align-items:flex-start;gap:var(--space-3);">
+        <span>What&#39;s the difference between a vector database and a regular database?</span>
+        <span aria-hidden="true" style="color:var(--color-ink-faint);font-weight:400;flex-shrink:0;">+</span>
+      </summary>
+      <div style="margin-top:var(--space-3);color:var(--color-ink-muted);line-height:1.7;">
+        <p>A vector database is optimized for storing and searching high-dimensional numerical vectors (embeddings) using approximate nearest-neighbor algorithms. A regular database (SQL, NoSQL) is optimized for storing structured or unstructured data and querying by exact match or range. Vector databases return the K most similar items; regular databases return exact matches. For RAG, you need a vector database.</p>
+      </div>
+    </details>
+
+    <details class="faq-item" style="border-bottom:1px solid var(--color-rule);padding:var(--space-4) 0;">
+      <summary style="cursor:pointer;font-weight:600;font-size:var(--text-md);list-style:none;display:flex;justify-content:space-between;align-items:flex-start;gap:var(--space-3);">
+        <span>Can RAG systems hallucinate even with retrieved context?</span>
+        <span aria-hidden="true" style="color:var(--color-ink-faint);font-weight:400;flex-shrink:0;">+</span>
+      </summary>
+      <div style="margin-top:var(--space-3);color:var(--color-ink-muted);line-height:1.7;">
+        <p>Yes. A model can ignore retrieved context and hallucinate anyway, or the retrieved context itself can be incomplete or incorrect. RAG dramatically reduces hallucination rates (from 20-40% to 5-10% in many cases) but does not eliminate it. Always measure hallucination rates empirically on your use case and implement safeguards like citation verification.</p>
+      </div>
+    </details>
+
+    <details class="faq-item" style="border-bottom:1px solid var(--color-rule);padding:var(--space-4) 0;">
+      <summary style="cursor:pointer;font-weight:600;font-size:var(--text-md);list-style:none;display:flex;justify-content:space-between;align-items:flex-start;gap:var(--space-3);">
+        <span>What embedding model should I use for RAG?</span>
+        <span aria-hidden="true" style="color:var(--color-ink-faint);font-weight:400;flex-shrink:0;">+</span>
+      </summary>
+      <div style="margin-top:var(--space-3);color:var(--color-ink-muted);line-height:1.7;">
+        <p>OpenAI&#39;s text-embedding-3-small is a solid default: cheap, reliable, and 1536-dimensional. Open-source alternatives like BAAI BGE-base are also excellent and avoid vendor lock-in. Choose based on cost, latency budget, and whether you need specialized embeddings (e.g., multilingual). Always use the same embedding model for both indexing and query time.</p>
+      </div>
+    </details>
+
+    <details class="faq-item" style="border-bottom:1px solid var(--color-rule);padding:var(--space-4) 0;">
+      <summary style="cursor:pointer;font-weight:600;font-size:var(--text-md);list-style:none;display:flex;justify-content:space-between;align-items:flex-start;gap:var(--space-3);">
+        <span>How many documents should I retrieve (K) for a RAG query?</span>
+        <span aria-hidden="true" style="color:var(--color-ink-faint);font-weight:400;flex-shrink:0;">+</span>
+      </summary>
+      <div style="margin-top:var(--space-3);color:var(--color-ink-muted);line-height:1.7;">
+        <p>Start with K=5 to K=10. More retrieved context doesn&#39;t always improve accuracy; irrelevant chunks can distract the model. Measure empirically on your test set. If retrieval precision is high (most chunks are relevant), you might increase K; if it&#39;s low (many irrelevant chunks), decrease K or improve your embedding model instead.</p>
+      </div>
+    </details>
+
+    <details class="faq-item" style="border-bottom:1px solid var(--color-rule);padding:var(--space-4) 0;">
+      <summary style="cursor:pointer;font-weight:600;font-size:var(--text-md);list-style:none;display:flex;justify-content:space-between;align-items:flex-start;gap:var(--space-3);">
+        <span>What&#39;s the latency overhead of adding RAG to an LLM call?</span>
+        <span aria-hidden="true" style="color:var(--color-ink-faint);font-weight:400;flex-shrink:0;">+</span>
+      </summary>
+      <div style="margin-top:var(--space-3);color:var(--color-ink-muted);line-height:1.7;">
+        <p>Retrieval typically adds 200-500ms depending on your vector database, network latency, and the size of your index. Generation time is unchanged. Total end-to-end latency is roughly retrieval time plus generation time. If latency is critical (under 500ms), measure the overhead in your environment before committing to RAG.</p>
+      </div>
+    </details>
+
+    <details class="faq-item" style="border-bottom:1px solid var(--color-rule);padding:var(--space-4) 0;">
+      <summary style="cursor:pointer;font-weight:600;font-size:var(--text-md);list-style:none;display:flex;justify-content:space-between;align-items:flex-start;gap:var(--space-3);">
+        <span>Do I need to reindex my vector database when my source documents change?</span>
+        <span aria-hidden="true" style="color:var(--color-ink-faint);font-weight:400;flex-shrink:0;">+</span>
+      </summary>
+      <div style="margin-top:var(--space-3);color:var(--color-ink-muted);line-height:1.7;">
+        <p>Not necessarily for small changes. You can upsert (update or insert) individual vectors when a document changes. Full reindexing is needed only when you change your embedding model, chunking strategy, or have large-scale document updates. Most systems do periodic full reindexing (e.g., weekly) and incremental updates in between.</p>
+      </div>
+    </details></div>
+      </section>
+          <p style="font-size:var(--text-xs);color:var(--color-ink-faint);margin-top:var(--space-6);padding-top:var(--space-4);border-top:1px solid var(--color-rule);">
+            An <strong>AI Glimpse</strong> explainer. We update this guide as the field evolves.
+          </p>
+        </div>
+      </section>
+    </article>
+  </main>
+  <div id="site-footer-slot"></div>
+  <script src="/js/chrome.js"></script>
+  <script src="/js/main.js"></script>
+</body>
+</html>
