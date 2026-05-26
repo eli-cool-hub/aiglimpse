@@ -5,12 +5,9 @@
   const SITE_NAME = 'AI Glimpse';
   const DOMAIN = 'aiglimpse.ai';
 
-  const LOGO_SVG = `<svg class="logo-mark" viewBox="0 0 32 32" fill="none" aria-hidden="true">
-    <rect width="32" height="32" rx="7" fill="#0a0a0a"/>
-    <path d="M4 16 C 9 8.5, 23 8.5, 28 16 C 23 23.5, 9 23.5, 4 16 Z" stroke="#fafaf7" stroke-width="1.6" stroke-linejoin="round"/>
-    <circle cx="16" cy="16" r="4" fill="#ff4d2e"/>
-    <circle cx="14.4" cy="14.4" r="1.1" fill="#fafaf7" fill-opacity="0.75"/>
-  </svg>`;
+  // W1 wordmark: "A" + dotless i + " Glimpse", with an orange iris dot above the dotless i.
+  // Rendered as semantic HTML so it scales with type and ships an accessible label.
+  const WORDMARK = `<span class="logo-wordmark" aria-label="AI Glimpse">A<span class="iris-i" aria-hidden="true">\u0131</span><span aria-hidden="true"> Glimpse</span></span>`;
 
   const NAV_LINKS = [
     { href: '/categories/llms.html', label: 'LLMs' },
@@ -40,8 +37,7 @@
         <div class="container">
           <div class="header-bar">
             <a href="/" class="logo" aria-label="${SITE_NAME} home">
-              ${LOGO_SVG}
-              <span class="logo-text">AI Glimpse</span>
+              ${WORDMARK}
             </a>
             <nav class="nav-primary" aria-label="Primary">
               ${buildNav()}
@@ -65,8 +61,7 @@
       <aside class="mobile-menu" aria-label="Mobile menu">
         <div class="mobile-menu-header">
           <a href="/" class="logo">
-            ${LOGO_SVG}
-            <span class="logo-text">AI Glimpse</span>
+            ${WORDMARK}
           </a>
           <button class="mobile-menu-close" aria-label="Close menu" style="font-size:24px;">×</button>
         </div>
@@ -84,8 +79,7 @@
           <div class="footer-top">
             <div class="footer-brand">
               <a href="/" class="logo">
-                ${LOGO_SVG}
-                <span class="logo-text">AI Glimpse</span>
+                ${WORDMARK}
               </a>
               <p>Your daily glimpse into AI. Independent reporting and analysis on the people, products, and policies shaping artificial intelligence.</p>
             </div>

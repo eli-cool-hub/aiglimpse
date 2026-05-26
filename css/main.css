@@ -188,6 +188,44 @@ p { margin: 0; }
 
 .logo-text { line-height: 1; }
 
+/* ----------  W1 WORDMARK (iris-dot on the i of "Ai")  ---------- */
+.logo-wordmark {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: var(--text-xl);
+  letter-spacing: -0.025em;
+  line-height: 1;
+  color: var(--color-ink);
+  display: inline-flex;
+  align-items: baseline;
+  font-feature-settings: 'kern', 'liga';
+}
+
+.logo-wordmark .iris-i {
+  position: relative;
+  display: inline-block;
+  line-height: 1;
+}
+
+.logo-wordmark .iris-i::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0.22em;
+  height: 0.22em;
+  border-radius: 50%;
+  background: var(--color-accent);
+  top: -0.12em;
+}
+
+/* Dark surfaces (footer, mobile menu over dark) — wordmark goes paper-white */
+.site-footer .logo-wordmark,
+.mobile-menu.is-dark .logo-wordmark { color: var(--color-paper); }
+
+/* Footer uses a larger, more confident lockup */
+.site-footer .logo-wordmark { font-size: var(--text-2xl); }
+
 .nav-primary {
   display: none;
   align-items: center;

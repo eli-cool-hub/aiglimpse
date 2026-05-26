@@ -4,3 +4,7 @@ node_modules/
 .DS_Store
 *.log
 .netlify/
+
+# Local design preview pages (kept out of the public site)
+logo-options.html
+wordmark-options.html
