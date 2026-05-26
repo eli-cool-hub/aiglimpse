@@ -335,7 +335,7 @@ function generateArticleHtml({ rewritten, source, slug, category, publishedAt, r
         <div class="container container--narrow">
           <figure class="article-image"><img src="${imagePath}" alt="${escapeHtml(rewritten.title)}" loading="eager" width="1200" height="630"></figure>
           <div class="article-body">${rewritten.body_html}</div>
-          <div class="ad-zone ad-zone--inline"><span style="color:var(--color-ink-faint);font-size:0.75rem;">Ad zone</span></div>
+          <!-- Inline ad slot, will be re-enabled once AdSense is approved -->
           <p style="font-size:var(--text-xs);color:var(--color-ink-faint);margin-top:var(--space-6);padding-top:var(--space-4);border-top:1px solid var(--color-rule);">
             Based on reporting from <a href="${source.url}" rel="nofollow noopener" target="_blank" style="color:inherit;text-decoration:underline;">${escapeHtml(source.source?.title || 'source')}</a>.
           </p>

@@ -203,11 +203,7 @@ ${itemListSchema ? `  <script type="application/ld+json">${JSON.stringify(itemLi
       </div>
     </section>
 
-    <div class="container">
-      <div class="ad-zone ad-zone--leaderboard">
-        <span style="color:var(--color-ink-faint);font-size:0.75rem;">Ad zone, Leaderboard</span>
-      </div>
-    </div>
+    <!-- Leaderboard ad slot, will be re-enabled once AdSense is approved -->
 
     <!-- Article grid -->
     <section class="section" style="border-bottom: none;">

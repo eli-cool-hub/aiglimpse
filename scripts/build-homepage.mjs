@@ -349,15 +349,7 @@ function renderPage(articles) {
       </div>
     </section>
 
-    <!-- Leaderboard ad -->
-    <div class="container">
-      <div class="ad-zone ad-zone--leaderboard">
-        <!-- AdSense leaderboard 728x90 -->
-        <!-- <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-XXXX" data-ad-slot="XXXX" data-ad-format="auto" data-full-width-responsive="true"></ins>
-        <script>(adsbygoogle = window.adsbygoogle || []).push({});</script> -->
-        <span style="color:var(--color-ink-faint);font-size:0.75rem;">Ad zone, Leaderboard 728×90</span>
-      </div>
-    </div>
+    <!-- Leaderboard ad slot, will be re-enabled once AdSense is approved -->
 ${renderLatest(articles)}${renderDeepDives(articles)}
 
     <!-- NEWSLETTER -->
