@@ -11,6 +11,78 @@
   <url><loc>https://aiglimpse.ai/pages/about.html</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
   <url><loc>https://aiglimpse.ai/pages/contact.html</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
   <url>
+    <loc>https://aiglimpse.ai/articles/researchers-propose-sleep-mechanism-to-fix-llm-context-limits-94675ebb.html</loc>
+    <news:news>
+      <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-05-25T17:55:39.000Z</news:publication_date>
+      <news:title>Researchers Propose 'Sleep' Mechanism to Fix LLM Context Limits</news:title>
+    </news:news>
+    <changefreq>daily</changefreq><priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://aiglimpse.ai/articles/llms-transform-code-review-by-labeling-patch-structure-78e840ad.html</loc>
+    <news:news>
+      <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-05-25T17:56:46.000Z</news:publication_date>
+      <news:title>LLMs Transform Code Review by Labeling Patch Structure</news:title>
+    </news:news>
+    <changefreq>daily</changefreq><priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://aiglimpse.ai/articles/new-framework-lets-ai-segment-objects-using-natural-language-ffa522c5.html</loc>
+    <news:news>
+      <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-05-25T17:58:03.000Z</news:publication_date>
+      <news:title>New Framework Lets AI Segment Objects Using Natural Language</news:title>
+    </news:news>
+    <changefreq>daily</changefreq><priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://aiglimpse.ai/articles/hybrid-3d-vision-pipeline-bridges-classical-and-ai-methods-f91fba4b.html</loc>
+    <news:news>
+      <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-05-25T17:58:03.000Z</news:publication_date>
+      <news:title>Hybrid 3D Vision Pipeline Bridges Classical and AI Methods</news:title>
+    </news:news>
+    <changefreq>daily</changefreq><priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://aiglimpse.ai/articles/new-framework-fixes-ai-video-search-when-switching-domains-1897ae40.html</loc>
+    <news:news>
+      <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-05-25T17:58:11.000Z</news:publication_date>
+      <news:title>New Framework Fixes AI Video Search When Switching Domains</news:title>
+    </news:news>
+    <changefreq>daily</changefreq><priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://aiglimpse.ai/articles/new-method-lets-ai-systems-distill-video-models-without-teacher-access-859cf3d6.html</loc>
+    <news:news>
+      <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-05-25T17:58:12.000Z</news:publication_date>
+      <news:title>New Method Lets AI Systems Distill Video Models Without Teacher Access</news:title>
+    </news:news>
+    <changefreq>daily</changefreq><priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://aiglimpse.ai/articles/looped-diffusion-models-match-autoregressive-performance-with-far-less-compute-cb661905.html</loc>
+    <news:news>
+      <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-05-25T17:58:24.000Z</news:publication_date>
+      <news:title>Looped Diffusion Models Match Autoregressive Performance With Far Less Compute</news:title>
+    </news:news>
+    <changefreq>daily</changefreq><priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://aiglimpse.ai/articles/new-method-balances-text-understanding-with-face-identity-in-ai-image-generation-9c2e81fe.html</loc>
+    <news:news>
+      <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-05-25T17:59:35.000Z</news:publication_date>
+      <news:title>New Method Balances Text Understanding With Face Identity in AI Image Generation</news:title>
+    </news:news>
+    <changefreq>daily</changefreq><priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://aiglimpse.ai/articles/new-technique-speeds-up-ai-image-generation-while-boosting-quality-7fd44e35.html</loc>
     <news:news>
       <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>

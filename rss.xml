@@ -7,6 +7,70 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Researchers Propose 'Sleep' Mechanism to Fix LLM Context Limits</title>
+      <link>https://aiglimpse.ai/articles/researchers-propose-sleep-mechanism-to-fix-llm-context-limits-94675ebb.html</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/researchers-propose-sleep-mechanism-to-fix-llm-context-limits-94675ebb.html</guid>
+      <description>A new consolidation technique lets language models compress long conversations into persistent memory, solving a critical scaling bottleneck.</description>
+      <pubDate>Mon, 25 May 2026 17:55:39 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
+      <title>LLMs Transform Code Review by Labeling Patch Structure</title>
+      <link>https://aiglimpse.ai/articles/llms-transform-code-review-by-labeling-patch-structure-78e840ad.html</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/llms-transform-code-review-by-labeling-patch-structure-78e840ad.html</guid>
+      <description>Researchers demonstrate AI can categorize code changes with 84% recall, enabling faster reviews without manual taxonomy engineering.</description>
+      <pubDate>Mon, 25 May 2026 17:56:46 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
+      <title>New Framework Lets AI Segment Objects Using Natural Language</title>
+      <link>https://aiglimpse.ai/articles/new-framework-lets-ai-segment-objects-using-natural-language-ffa522c5.html</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-framework-lets-ai-segment-objects-using-natural-language-ffa522c5.html</guid>
+      <description>Researchers bridge vision-language models and segmentation AI to enable instruction-driven instance detection in a single pass.</description>
+      <pubDate>Mon, 25 May 2026 17:58:03 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
+      <title>Hybrid 3D Vision Pipeline Bridges Classical and AI Methods</title>
+      <link>https://aiglimpse.ai/articles/hybrid-3d-vision-pipeline-bridges-classical-and-ai-methods-f91fba4b.html</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/hybrid-3d-vision-pipeline-bridges-classical-and-ai-methods-f91fba4b.html</guid>
+      <description>Researchers combine traditional geometry with neural networks to solve long-standing reconstruction challenges across diverse imaging conditions.</description>
+      <pubDate>Mon, 25 May 2026 17:58:03 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
+      <title>New Framework Fixes AI Video Search When Switching Domains</title>
+      <link>https://aiglimpse.ai/articles/new-framework-fixes-ai-video-search-when-switching-domains-1897ae40.html</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-framework-fixes-ai-video-search-when-switching-domains-1897ae40.html</guid>
+      <description>Researchers propose entity-focused approach to keep multimodal models accurate across different video datasets.</description>
+      <pubDate>Mon, 25 May 2026 17:58:11 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
+      <title>New Method Lets AI Systems Distill Video Models Without Teacher Access</title>
+      <link>https://aiglimpse.ai/articles/new-method-lets-ai-systems-distill-video-models-without-teacher-access-859cf3d6.html</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-method-lets-ai-systems-distill-video-models-without-teacher-access-859cf3d6.html</guid>
+      <description>Researchers develop a technique to compress powerful video generators into faster versions that work with incomplete information.</description>
+      <pubDate>Mon, 25 May 2026 17:58:12 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
+      <title>Looped Diffusion Models Match Autoregressive Performance With Far Less Compute</title>
+      <link>https://aiglimpse.ai/articles/looped-diffusion-models-match-autoregressive-performance-with-far-less-compute-cb661905.html</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/looped-diffusion-models-match-autoregressive-performance-with-far-less-compute-cb661905.html</guid>
+      <description>Researchers demonstrate that selectively repeating transformer layers in masked diffusion models cuts training costs by 70% while improving reasoning capabilities.</description>
+      <pubDate>Mon, 25 May 2026 17:58:24 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
+      <title>New Method Balances Text Understanding With Face Identity in AI Image Generation</title>
+      <link>https://aiglimpse.ai/articles/new-method-balances-text-understanding-with-face-identity-in-ai-image-generation-9c2e81fe.html</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-method-balances-text-understanding-with-face-identity-in-ai-image-generation-9c2e81fe.html</guid>
+      <description>Researchers tackle a fundamental tradeoff in subject-driven synthesis by leveraging multimodal language models alongside specialized identity conditioning.</description>
+      <pubDate>Mon, 25 May 2026 17:59:35 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
       <title>New Technique Speeds Up AI Image Generation While Boosting Quality</title>
       <link>https://aiglimpse.ai/articles/new-technique-speeds-up-ai-image-generation-while-boosting-quality-7fd44e35.html</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/new-technique-speeds-up-ai-image-generation-while-boosting-quality-7fd44e35.html</guid>

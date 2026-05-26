@@ -1,6 +1,94 @@
 {
   "articles": [
     {
+      "slug": "researchers-propose-sleep-mechanism-to-fix-llm-context-limits-94675ebb",
+      "title": "Researchers Propose 'Sleep' Mechanism to Fix LLM Context Limits",
+      "subtitle": "A new consolidation technique lets language models compress long conversations into persistent memory, solving a critical scaling bottleneck.",
+      "category": "research",
+      "publishedAt": "2026-05-25T17:55:39.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2605.26099v1",
+      "sourceName": "arXiv (Sangyun Lee, Sean McLeish, Tom Goldstein, Giulia Fanti)",
+      "sourceTier": 1,
+      "image": "/images/articles/researchers-propose-sleep-mechanism-to-fix-llm-context-limits-94675ebb.svg"
+    },
+    {
+      "slug": "llms-transform-code-review-by-labeling-patch-structure-78e840ad",
+      "title": "LLMs Transform Code Review by Labeling Patch Structure",
+      "subtitle": "Researchers demonstrate AI can categorize code changes with 84% recall, enabling faster reviews without manual taxonomy engineering.",
+      "category": "research",
+      "publishedAt": "2026-05-25T17:56:46.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2605.26100v1",
+      "sourceName": "arXiv (Bar Weiss, Antonio Abu-Nassar, Adi Sosnovich, Karen Yorav)",
+      "sourceTier": 1,
+      "image": "/images/articles/llms-transform-code-review-by-labeling-patch-structure-78e840ad.svg"
+    },
+    {
+      "slug": "new-framework-lets-ai-segment-objects-using-natural-language-ffa522c5",
+      "title": "New Framework Lets AI Segment Objects Using Natural Language",
+      "subtitle": "Researchers bridge vision-language models and segmentation AI to enable instruction-driven instance detection in a single pass.",
+      "category": "research",
+      "publishedAt": "2026-05-25T17:58:03.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2605.26102v1",
+      "sourceName": "arXiv (Yuqian Yuan, Wentong Li, Zhaocheng Li, Yutong Lin, Juncheng …)",
+      "sourceTier": 1,
+      "image": "/images/articles/new-framework-lets-ai-segment-objects-using-natural-language-ffa522c5.svg"
+    },
+    {
+      "slug": "hybrid-3d-vision-pipeline-bridges-classical-and-ai-methods-f91fba4b",
+      "title": "Hybrid 3D Vision Pipeline Bridges Classical and AI Methods",
+      "subtitle": "Researchers combine traditional geometry with neural networks to solve long-standing reconstruction challenges across diverse imaging conditions.",
+      "category": "research",
+      "publishedAt": "2026-05-25T17:58:03.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2605.26103v1",
+      "sourceName": "arXiv (Linfei Pan, Johannes Schönberge, Marc Pollefeys)",
+      "sourceTier": 1,
+      "image": "/images/articles/hybrid-3d-vision-pipeline-bridges-classical-and-ai-methods-f91fba4b.svg"
+    },
+    {
+      "slug": "new-framework-fixes-ai-video-search-when-switching-domains-1897ae40",
+      "title": "New Framework Fixes AI Video Search When Switching Domains",
+      "subtitle": "Researchers propose entity-focused approach to keep multimodal models accurate across different video datasets.",
+      "category": "research",
+      "publishedAt": "2026-05-25T17:58:11.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2605.26104v1",
+      "sourceName": "arXiv (Geo Ahn, Jiwook Han, Youngrae Kim, Joonseok Lee, Jinwoo Choi)",
+      "sourceTier": 1,
+      "image": "/images/articles/new-framework-fixes-ai-video-search-when-switching-domains-1897ae40.svg"
+    },
+    {
+      "slug": "new-method-lets-ai-systems-distill-video-models-without-teacher-access-859cf3d6",
+      "title": "New Method Lets AI Systems Distill Video Models Without Teacher Access",
+      "subtitle": "Researchers develop a technique to compress powerful video generators into faster versions that work with incomplete information.",
+      "category": "research",
+      "publishedAt": "2026-05-25T17:58:12.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2605.26105v1",
+      "sourceName": "arXiv (Yang Luo, Shengju Qian, Xiaohang Tang, Zirui Zhu, Yong Liu, …)",
+      "sourceTier": 1,
+      "image": "/images/articles/new-method-lets-ai-systems-distill-video-models-without-teacher-access-859cf3d6.svg"
+    },
+    {
+      "slug": "looped-diffusion-models-match-autoregressive-performance-with-far-less-compute-cb661905",
+      "title": "Looped Diffusion Models Match Autoregressive Performance With Far Less Compute",
+      "subtitle": "Researchers demonstrate that selectively repeating transformer layers in masked diffusion models cuts training costs by 70% while improving reasoning capabilities.",
+      "category": "research",
+      "publishedAt": "2026-05-25T17:58:24.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2605.26106v1",
+      "sourceName": "arXiv (Sanghyun Lee, Chunsan Hong, Seungryong Kim, Jonghyun Lee, Jo…)",
+      "sourceTier": 1,
+      "image": "/images/articles/looped-diffusion-models-match-autoregressive-performance-with-far-less-compute-cb661905.svg"
+    },
+    {
+      "slug": "new-method-balances-text-understanding-with-face-identity-in-ai-image-generation-9c2e81fe",
+      "title": "New Method Balances Text Understanding With Face Identity in AI Image Generation",
+      "subtitle": "Researchers tackle a fundamental tradeoff in subject-driven synthesis by leveraging multimodal language models alongside specialized identity conditioning.",
+      "category": "research",
+      "publishedAt": "2026-05-25T17:59:35.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2605.26111v1",
+      "sourceName": "arXiv (Shuhong Zheng, Aashish Kumar Misraa, Yu-Teng Li, Yu-Jhe Li, …)",
+      "sourceTier": 1,
+      "image": "/images/articles/new-method-balances-text-understanding-with-face-identity-in-ai-image-generation-9c2e81fe.jpg"
+    },
+    {
       "slug": "new-technique-speeds-up-ai-image-generation-while-boosting-quality-7fd44e35",
       "title": "New Technique Speeds Up AI Image Generation While Boosting Quality",
       "subtitle": "Researchers combine distillation and reinforcement learning to create faster text-to-image models that align better with human preferences.",
@@ -85,6 +173,14 @@
     "645c1ef2bd16779f",
     "f5bf9aacba8aafa4",
     "1e0eb59c9ec51200",
-    "7fd44e35fd991168"
+    "7fd44e35fd991168",
+    "9c2e81fe6b6c1895",
+    "cb661905690d3a1a",
+    "859cf3d64aeb6ccb",
+    "1897ae402096e3c2",
+    "f91fba4ba071571b",
+    "ffa522c5cb142979",
+    "78e840adf4acb8c2",
+    "94675ebb39ced2f3"
   ]
 }
