@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none" aria-label="AI Glimpse, dawn horizon">
+  <rect width="32" height="32" rx="7" fill="#0a0a0a"/>
+  <!-- Sun rising above horizon -->
+  <path d="M9 20 A7 7 0 0 1 23 20 Z" fill="#ff4d2e"/>
+  <!-- Horizon line -->
+  <line x1="5" y1="20" x2="27" y2="20" stroke="#fafaf7" stroke-width="1.7" stroke-linecap="round"/>
+  <!-- Three data-point stars above -->
+  <circle cx="11" cy="11" r="0.9" fill="#fafaf7"/>
+  <circle cx="16" cy="8" r="0.9" fill="#fafaf7"/>
+  <circle cx="21" cy="12" r="0.9" fill="#fafaf7"/>
+</svg>

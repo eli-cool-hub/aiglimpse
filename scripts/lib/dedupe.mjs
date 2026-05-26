@@ -1,5 +1,5 @@
 // Cross-source deduplication
-// Same story often appears on multiple sources within minutes — we keep only the highest-tier (most authoritative) version.
+// Same story often appears on multiple sources within minutes, we keep only the highest-tier (most authoritative) version.
 
 import crypto from 'crypto';
 
@@ -14,7 +14,7 @@ function normalizeTitle(title) {
     .trim();
 }
 
-// Jaccard similarity on word sets (0–1, higher = more similar)
+// Jaccard similarity on word sets (0-1, higher = more similar)
 function similarity(a, b) {
   const setA = new Set(a.split(' ').filter(w => w.length > 2));
   const setB = new Set(b.split(' ').filter(w => w.length > 2));

@@ -1,4 +1,4 @@
-// RSS source aggregator — fetches from official AI company blogs and quality publications
+// RSS source aggregator, fetches from official AI company blogs and quality publications
 // Free. Hours faster than aggregators. Authoritative.
 
 import { XMLParser } from 'fast-xml-parser';
@@ -9,7 +9,7 @@ const parser = new XMLParser({
   textNodeName: '#text'
 });
 
-// Curated RSS feeds — the actual primary sources for AI news
+// Curated RSS feeds, the actual primary sources for AI news
 export const RSS_SOURCES = [
   // === Tier 1: Frontier labs (highest priority) ===
   { name: 'OpenAI', url: 'https://openai.com/blog/rss.xml', tier: 1, category: 'llms' },

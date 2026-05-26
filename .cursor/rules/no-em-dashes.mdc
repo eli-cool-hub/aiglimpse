@@ -1,0 +1,38 @@
+---
+description: Never use em dashes anywhere in AI Glimpse code, content, or copy
+alwaysApply: true
+---
+
+# No em dashes anywhere on AI Glimpse
+
+The user has explicitly banned em dashes (`—`, U+2014) from this project. This applies to:
+
+- All HTML page copy and headings
+- Article body content (so all Claude rewriting prompts must enforce this)
+- README, SETUP-GUIDE, comments, commit messages
+- Logos, taglines, brand language
+- Any new code, prose, or generated content
+
+## Replace em dashes with:
+
+- **Comma** for parenthetical / soft pause: `OpenAI ships GPT-5 Turbo, claims 40% gain`
+- **Period** for hard break / new thought: `Fresh AI news. Every 30 minutes.`
+- **Colon** for label / introduction: `The pipeline: fetch, dedupe, publish.`
+- **Parentheses** for asides: `(the lab\'s latest round)`
+- **Hyphen** only for compound words: `state-of-the-art`, never as a sentence separator
+
+## Examples
+
+❌ `The new model debuts with a 2M-token context — putting fresh pressure on Anthropic.`
+✅ `The new model debuts with a 2M-token context, putting fresh pressure on Anthropic.`
+
+❌ `Your daily glimpse into AI — premium reporting, every morning.`
+✅ `Your daily glimpse into AI. Premium reporting, every morning.`
+
+## Enforcement in the pipeline
+
+When updating `scripts/fetch-and-publish.mjs`, the Claude rewrite prompt MUST include an instruction forbidding em dashes in `body_html`, `title`, `subtitle`, and `meta_description`. After Claude returns, also do a programmatic `.replace(/—/g, ',')` (or context-appropriate replacement) as a safety net.
+
+## En dashes (`–`, U+2013)
+
+Also avoid. Use a hyphen or a word like "to" instead: `2024 to 2026`, not `2024–2026`.

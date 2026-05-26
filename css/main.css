@@ -1,5 +1,5 @@
 /* ==========================================================================
-   AI GLIMPSE — Design System
+   AI GLIMPSE, Design System
    Editorial · Premium · SEO-Optimized
    ========================================================================== */
 
@@ -18,7 +18,7 @@ ul, ol { list-style: none; }
 
 /* ----------  DESIGN TOKENS  ---------- */
 :root {
-  /* Colors — Editorial palette: warm whites, deep blacks, single bold accent */
+  /* Colors, Editorial palette: warm whites, deep blacks, single bold accent */
   --color-ink: #0a0a0a;             /* near-black, main text */
   --color-ink-soft: #2a2a2a;        /* secondary text */
   --color-ink-muted: #6b6b6b;       /* tertiary, captions */
@@ -29,7 +29,7 @@ ul, ol { list-style: none; }
   --color-rule: #e8e6df;            /* borders, dividers */
   --color-rule-strong: #1a1a1a;     /* editorial strong rules */
 
-  /* Brand accent — single, bold, electric */
+  /* Brand accent, single, bold, electric */
   --color-accent: #ff4d2e;          /* signature glimpse-orange */
   --color-accent-soft: #fff0eb;
   --color-accent-deep: #d63812;
@@ -1005,3 +1005,180 @@ p { margin: 0; }
   .site-header, .site-footer, .ad-zone, .newsletter, .breaking-bar { display: none; }
   body { background: white; color: black; }
 }
+
+/* ==========================================================================
+   PREMIUM POLISH PASS
+   Editorial weight + tactile interactions. Layered at the end so it overrides
+   earlier rules without rewriting them.
+   ========================================================================== */
+
+/* Slightly warmer paper, a touch more depth in shadows */
+:root {
+  --shadow-card: 0 1px 0 rgba(10,10,10,.03), 0 12px 32px rgba(10,10,10,.04);
+  --shadow-card-hover: 0 2px 0 rgba(10,10,10,.04), 0 24px 48px rgba(10,10,10,.10);
+}
+
+body {
+  background:
+    radial-gradient(1200px 600px at 100% -10%, rgba(255, 77, 46, 0.04), transparent 60%),
+    radial-gradient(1000px 500px at -10% 0%, rgba(91, 58, 255, 0.025), transparent 60%),
+    var(--color-paper);
+}
+
+/* Header refinement: deeper backdrop, hairline border */
+.site-header {
+  background: rgba(250, 250, 247, 0.78);
+  border-bottom-color: rgba(10, 10, 10, 0.06);
+}
+
+/* Cards: tactile, editorial. Subtle image frame, lift + shadow on hover. */
+.card-image {
+  border-radius: 8px;
+  box-shadow: 0 0 0 1px rgba(10, 10, 10, 0.04) inset;
+}
+
+.card { gap: var(--space-4); }
+.card:hover { transform: translateY(-3px); }
+
+/* Featured card: stronger editorial weight */
+.card--featured .card-title {
+  font-size: clamp(1.875rem, 3.4vw, 2.625rem);
+  letter-spacing: -0.03em;
+  font-weight: 700;
+}
+.card--featured .card-image { aspect-ratio: 16 / 9; }
+
+/* Secondary hero cards: accent left-rule on hover */
+.hero-secondary .card {
+  padding-left: 0;
+  position: relative;
+  transition: padding-left var(--transition);
+}
+.hero-secondary .card::before {
+  content: '';
+  position: absolute;
+  left: -1px;
+  top: 0; bottom: 0;
+  width: 2px;
+  background: var(--color-accent);
+  opacity: 0;
+  transition: opacity var(--transition);
+}
+.hero-secondary .card:hover { padding-left: var(--space-3); transform: translateY(0); }
+.hero-secondary .card:hover::before { opacity: 1; }
+.hero-secondary .card:hover .card-image img { transform: none; }
+
+/* Section header: more confident hairline */
+.section-header { border-bottom-width: 1px; padding-bottom: var(--space-5); }
+.section-title { font-weight: 700; letter-spacing: -0.025em; }
+
+/* Tags: refined, less heavy */
+.tag {
+  border-radius: 999px;
+  font-weight: 600;
+  font-size: 0.6875rem;
+  padding: 3px 9px;
+}
+
+/* Category pills: more lift, accent on hover */
+.category-pill {
+  transition: transform var(--transition), box-shadow var(--transition), border-color var(--transition);
+}
+.category-pill:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-card-hover);
+  border-color: rgba(255, 77, 46, 0.4);
+}
+
+/* Breaking ticker: cleaner spacing + nicer pulse */
+.breaking-bar { padding: var(--space-3) 0; }
+.breaking-ticker-track { animation-duration: 80s; }
+
+/* Newsletter: layered gradient, subtle texture */
+.newsletter {
+  background:
+    radial-gradient(800px 400px at 90% 100%, rgba(255, 77, 46, 0.10), transparent 60%),
+    radial-gradient(600px 300px at 0% 0%, rgba(91, 58, 255, 0.06), transparent 60%),
+    #0a0a0a;
+  color: var(--color-paper);
+  border-radius: 0;
+  position: relative;
+  overflow: hidden;
+}
+.newsletter::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image:
+    linear-gradient(rgba(255,255,255,0.015) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,0.015) 1px, transparent 1px);
+  background-size: 32px 32px;
+  pointer-events: none;
+  mask-image: radial-gradient(circle at 50% 50%, black, transparent 70%);
+}
+.newsletter > * { position: relative; z-index: 1; }
+
+/* Article body: better measure, drop cap polish */
+.article-body p {
+  font-size: 1.0625rem;
+  line-height: 1.75;
+  color: var(--color-ink-soft);
+  margin-bottom: var(--space-5);
+}
+.article-body h2 {
+  font-size: var(--text-xl);
+  margin-top: var(--space-7);
+  margin-bottom: var(--space-4);
+}
+.article-body a {
+  color: var(--color-accent-deep);
+  border-bottom: 1px solid color-mix(in srgb, var(--color-accent-deep) 30%, transparent);
+  transition: border-color var(--transition);
+}
+.article-body a:hover { border-bottom-color: var(--color-accent-deep); }
+
+/* Article hero: stronger, more cinematic */
+.article-hero-title {
+  font-size: clamp(2rem, 5vw, 3.5rem);
+  font-weight: 700;
+  letter-spacing: -0.03em;
+}
+
+/* Page fade-in on first paint, no FOUC */
+@keyframes ag-fade-in {
+  from { opacity: 0; transform: translateY(4px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+main { animation: ag-fade-in 0.4s ease-out both; }
+
+/* Tabular nums for time/byline alignment */
+.card-byline, .article-byline time { font-variant-numeric: tabular-nums; }
+
+/* Focus rings: refined */
+:focus-visible {
+  outline-color: var(--color-accent);
+  outline-offset: 4px;
+}
+
+/* Empty-state cards live happily on warm paper */
+.empty-state { background: var(--color-paper-elevated); }
+
+/* Selection retains brand */
+::selection { background: var(--color-accent); color: white; }
+
+/* Ad zone: subtle dotted texture instead of flat */
+.ad-zone {
+  background-image:
+    radial-gradient(rgba(10,10,10,0.04) 1px, transparent 1px);
+  background-size: 12px 12px;
+  background-position: 0 0;
+}
+
+/* Reduced motion: respect user preference */
+@media (prefers-reduced-motion: reduce) {
+  main { animation: none; }
+  .breaking-ticker-track { animation: none; }
+  .breaking-dot { animation: none; }
+  *, *::before, *::after { transition-duration: 0.01ms !important; animation-duration: 0.01ms !important; }
+}
+

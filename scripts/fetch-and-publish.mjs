@@ -1,14 +1,14 @@
 #!/usr/bin/env node
 /**
- * AI Glimpse — Multi-Source News Pipeline
+ * AI Glimpse, Multi-Source News Pipeline
  *
  * Aggregates from:
- *   1. RSS feeds from frontier AI labs (OpenAI, Anthropic, DeepMind, Meta, etc.) — Tier 1
- *   2. AI-focused publications (MIT Tech Review, VentureBeat, Verge, TechCrunch) — Tier 2
- *   3. arXiv research papers — Tier 1 for research category
- *   4. Hacker News (AI stories with 50+ points) — Tier 2 signal
- *   5. GitHub Trending AI repos — Tier 2 for tools
- *   6. NewsAPI.ai (optional) — Tier 3 breadth backup
+ *   1. RSS feeds from frontier AI labs (OpenAI, Anthropic, DeepMind, Meta, etc.), Tier 1
+ *   2. AI-focused publications (MIT Tech Review, VentureBeat, Verge, TechCrunch), Tier 2
+ *   3. arXiv research papers, Tier 1 for research category
+ *   4. Hacker News (AI stories with 50+ points), Tier 2 signal
+ *   5. GitHub Trending AI repos, Tier 2 for tools
+ *   6. NewsAPI.ai (optional), Tier 3 breadth backup
  *
  * Dedupes across sources, prioritizes authoritative sources, rewrites with Claude.
  *
@@ -97,6 +97,13 @@ Requirements:
 - If this is a GitHub repo, frame as a new tool launch
 - If this is a Hacker News story, frame as community-driven AI news
 
+STYLE RULES (strictly enforced):
+- NEVER use em dashes (the character "—" / U+2014). Use a comma, period, colon, or parentheses instead.
+- NEVER use en dashes (the character "–" / U+2013). Use a hyphen or the word "to".
+- Do not use the em dash for parenthetical pauses, lists, or attribution. A comma works for parentheticals; a period for hard breaks; a colon to introduce a list or quote.
+- Standard ASCII hyphen "-" is fine for compound words.
+- Use straight quotes ("..." and '...'), not curly quotes.
+
 Return ONLY valid JSON (no markdown fences, no preamble):
 {
   "title": "Headline (max 75 chars)",
@@ -115,7 +122,24 @@ Return ONLY valid JSON (no markdown fences, no preamble):
   if (!res.ok) throw new Error(`Claude API: ${res.status} ${await res.text()}`);
   const data = await res.json();
   const clean = data.content[0].text.trim().replace(/^```(?:json)?\s*|\s*```$/g, '');
-  return JSON.parse(clean);
+  const parsed = JSON.parse(clean);
+  return scrubDashes(parsed);
+}
+
+// Safety net: even if the model slips an em or en dash through, scrub it before publish.
+// Em dash -> comma, en dash -> hyphen, also normalize curly quotes to straight.
+function scrubDashes(obj) {
+  const scrub = (s) => typeof s === 'string'
+    ? s.replace(/—/g, ',').replace(/–/g, '-').replace(/[“”]/g, '"').replace(/[‘’]/g, "'")
+    : s;
+  return {
+    ...obj,
+    title: scrub(obj.title),
+    subtitle: scrub(obj.subtitle),
+    body_html: scrub(obj.body_html),
+    meta_description: scrub(obj.meta_description),
+    keywords: Array.isArray(obj.keywords) ? obj.keywords.map(scrub) : obj.keywords
+  };
 }
 
 function generateArticleHtml({ rewritten, source, slug, category, publishedAt, readingMinutes, imagePath }) {
@@ -139,7 +163,7 @@ function generateArticleHtml({ rewritten, source, slug, category, publishedAt, r
 <html lang="en">
 <head>
   <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>${escapeHtml(rewritten.title)} — AI Glimpse</title>
+  <title>${escapeHtml(rewritten.title)} | AI Glimpse</title>
   <meta name="description" content="${escapeHtml(rewritten.meta_description)}">
   <meta name="keywords" content="${escapeHtml(rewritten.keywords.join(', '))}">
   <link rel="canonical" href="${SITE_URL}/articles/${slug}.html">
@@ -269,7 +293,7 @@ async function pingIndexNow(urls) {
 
 async function main() {
   console.log('═══════════════════════════════════════════');
-  console.log('  AI Glimpse — Multi-Source Pipeline');
+  console.log('  AI Glimpse, Multi-Source Pipeline');
   console.log('═══════════════════════════════════════════\n');
 
   await fs.mkdir(ARTICLES_DIR, { recursive: true });

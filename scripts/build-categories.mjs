@@ -24,15 +24,15 @@ const CATEGORIES = {
     name: 'LLMs & Chatbots',
     tag: 'llm',
     short: 'LLMs',
-    description: 'The latest news, releases, and analysis on large language models — ChatGPT, Claude, Gemini, Llama, and the labs building them.',
-    intro: 'Coverage of large language models — releases, benchmarks, technical analysis, and the labs building them. GPT, Claude, Gemini, Llama, and what\'s next.',
+    description: 'The latest news, releases, and analysis on large language models, ChatGPT, Claude, Gemini, Llama, and the labs building them.',
+    intro: 'Coverage of large language models, releases, benchmarks, technical analysis, and the labs building them. GPT, Claude, Gemini, Llama, and what\'s next.',
     keywords: 'LLM news, large language models, ChatGPT, Claude, Gemini, Llama, GPT, Anthropic, OpenAI'
   },
   research: {
     name: 'AI Research',
     tag: 'research',
     short: 'Research',
-    description: 'Cutting-edge AI research — papers, breakthroughs, benchmarks, and the long-arc trends shaping artificial intelligence.',
+    description: 'Cutting-edge AI research, papers, breakthroughs, benchmarks, and the long-arc trends shaping artificial intelligence.',
     intro: 'Papers, breakthroughs, benchmarks, and the long-arc trends shaping artificial intelligence. arXiv highlights and lab announcements, distilled.',
     keywords: 'AI research, arXiv, machine learning research, AI papers, deep learning, neural networks'
   },
@@ -40,8 +40,8 @@ const CATEGORIES = {
     name: 'AI Tools & Products',
     tag: 'tools',
     short: 'Tools',
-    description: 'Launches, releases, and hands-on coverage of the AI tools you\'ll actually use — coding assistants, agents, creative tools, and more.',
-    intro: 'Launches, releases, and hands-on coverage of the AI tools you\'ll actually use — coding assistants, agents, creative tools, and the infrastructure underneath.',
+    description: 'Launches, releases, and hands-on coverage of the AI tools you\'ll actually use, coding assistants, agents, creative tools, and more.',
+    intro: 'Launches, releases, and hands-on coverage of the AI tools you\'ll actually use, coding assistants, agents, creative tools, and the infrastructure underneath.',
     keywords: 'AI tools, AI products, Cursor, Copilot, AI apps, AI software'
   },
   business: {
@@ -65,7 +65,7 @@ const CATEGORIES = {
     tag: 'industry',
     short: 'Industry',
     description: 'AI deployments across healthcare, finance, manufacturing, and enterprise. What\'s actually working in the wild.',
-    intro: 'AI deployments across healthcare, finance, manufacturing, retail, and enterprise. What\'s actually working in the wild — and what isn\'t.',
+    intro: 'AI deployments across healthcare, finance, manufacturing, retail, and enterprise. What\'s actually working in the wild, and what isn\'t.',
     keywords: 'AI industry, enterprise AI, AI deployment, AI healthcare, AI finance, AI manufacturing'
   },
   robotics: {
@@ -117,7 +117,7 @@ function emptyState(catName) {
   return `<div style="padding:var(--space-9) var(--space-5);text-align:center;border:1px dashed var(--color-rule);border-radius:12px;background:var(--color-paper-elevated);">
           <p class="eyebrow eyebrow--accent" style="margin-bottom:var(--space-3);">Coming soon</p>
           <h2 style="font-family:var(--font-display);font-size:var(--text-2xl);font-weight:600;margin-bottom:var(--space-3);">${escapeHtml(catName)} coverage is loading.</h2>
-          <p style="color:var(--color-ink-muted);max-width:520px;margin:0 auto;">We're aggregating the latest stories now. Check back in a few minutes — or <a href="#newsletter" style="color:var(--color-accent);">subscribe</a> to get them by email.</p>
+          <p style="color:var(--color-ink-muted);max-width:520px;margin:0 auto;">We're aggregating the latest stories now. Check back in a few minutes, or <a href="#newsletter" style="color:var(--color-accent);">subscribe</a> to get them by email.</p>
         </div>`;
 }
 
@@ -132,7 +132,7 @@ ${articles.map(a => card(a, cat)).join('\n')}
   const itemListSchema = articles.length ? {
     '@context': 'https://schema.org',
     '@type': 'ItemList',
-    name: `${cat.name} — AI Glimpse`,
+    name: `${cat.name} | AI Glimpse`,
     itemListElement: articles.slice(0, 10).map((a, i) => ({
       '@type': 'ListItem',
       position: i + 1,
@@ -146,21 +146,21 @@ ${articles.map(a => card(a, cat)).join('\n')}
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>${escapeHtml(cat.name)} — Latest News &amp; Analysis | AI Glimpse</title>
+  <title>${escapeHtml(cat.name)}: Latest News &amp; Analysis | AI Glimpse</title>
   <meta name="description" content="${escapeHtml(cat.description)}">
   <meta name="keywords" content="${escapeHtml(cat.keywords)}">
   <link rel="canonical" href="${url}">
 
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="AI Glimpse">
-  <meta property="og:title" content="${escapeHtml(cat.name)} — AI Glimpse">
+  <meta property="og:title" content="${escapeHtml(cat.name)} | AI Glimpse">
   <meta property="og:description" content="${escapeHtml(cat.description)}">
   <meta property="og:url" content="${url}">
   <meta property="og:image" content="${SITE_URL}/images/og-default.png">
 
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:site" content="@aiglimpse">
-  <meta name="twitter:title" content="${escapeHtml(cat.name)} — AI Glimpse">
+  <meta name="twitter:title" content="${escapeHtml(cat.name)} | AI Glimpse">
   <meta name="twitter:description" content="${escapeHtml(cat.description)}">
 
   <link rel="icon" type="image/svg+xml" href="/images/favicon.svg">
@@ -201,7 +201,7 @@ ${itemListSchema ? `  <script type="application/ld+json">${JSON.stringify(itemLi
 
     <div class="container">
       <div class="ad-zone ad-zone--leaderboard">
-        <span style="color:var(--color-ink-faint);font-size:0.75rem;">Ad zone — Leaderboard</span>
+        <span style="color:var(--color-ink-faint);font-size:0.75rem;">Ad zone, Leaderboard</span>
       </div>
     </div>
 
@@ -219,7 +219,7 @@ ${itemListSchema ? `  <script type="application/ld+json">${JSON.stringify(itemLi
           <div>
             <span class="newsletter-eyebrow">AI Glimpse Daily</span>
             <h2 class="newsletter-title">Never miss a ${escapeHtml(cat.short)} story.</h2>
-            <p class="newsletter-subtitle">Daily roundup of the AI stories that matter — straight to your inbox.</p>
+            <p class="newsletter-subtitle">Daily roundup of the AI stories that matter, straight to your inbox.</p>
           </div>
           <form class="newsletter-form" novalidate>
             <label class="sr-only" for="newsletter-email">Email address</label>

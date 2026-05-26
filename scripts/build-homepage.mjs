@@ -118,7 +118,7 @@ function emptyHero() {
         <div style="padding:var(--space-9) var(--space-5);text-align:center;border:1px dashed var(--color-rule);border-radius:12px;background:var(--color-paper-elevated);">
           <p class="eyebrow eyebrow--accent" style="margin-bottom:var(--space-3);">Coming soon</p>
           <h1 style="font-family:var(--font-display);font-size:var(--text-3xl);font-weight:600;margin-bottom:var(--space-3);">Your daily glimpse into AI is loading.</h1>
-          <p style="color:var(--color-ink-muted);max-width:520px;margin:0 auto;">We're publishing our first stories now. Check back in a few minutes — or subscribe below for the morning brief.</p>
+          <p style="color:var(--color-ink-muted);max-width:520px;margin:0 auto;">We're publishing our first stories now. Check back in a few minutes, or subscribe below for the morning brief.</p>
         </div>
       </div>`;
 }
@@ -126,7 +126,7 @@ function emptyHero() {
 function renderTicker(articles) {
   const top = articles.slice(0, Math.min(4, articles.length));
   if (top.length === 0) {
-    return `<a href="#newsletter">Subscribe to AI Glimpse Daily — the AI news that matters, in five minutes.</a>`;
+    return `<a href="#newsletter">Subscribe to AI Glimpse Daily, the AI news that matters, in five minutes.</a>`;
   }
   const item = (a) => `<a href="${articleUrl(a)}">${escapeHtml(a.title)}</a>`;
   return [...top, ...top].map(item).join('\n          ');
@@ -209,7 +209,7 @@ function renderPage(articles) {
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <!-- Primary SEO -->
-  <title>AI Glimpse — Your Daily Glimpse Into Artificial Intelligence</title>
+  <title>AI Glimpse: Your Daily Glimpse Into Artificial Intelligence</title>
   <meta name="description" content="Independent AI news, research, and analysis. Daily reporting on LLMs, AI tools, business, ethics, and the future of artificial intelligence.">
   <meta name="keywords" content="AI news, artificial intelligence, ChatGPT, Claude, OpenAI, Anthropic, machine learning, AI research, AI tools, AI business">
   <link rel="canonical" href="https://aiglimpse.ai/">
@@ -217,7 +217,7 @@ function renderPage(articles) {
   <!-- Open Graph -->
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="AI Glimpse">
-  <meta property="og:title" content="AI Glimpse — Your Daily Glimpse Into Artificial Intelligence">
+  <meta property="og:title" content="AI Glimpse: Your Daily Glimpse Into Artificial Intelligence">
   <meta property="og:description" content="Independent AI news, research, and analysis. Daily reporting on LLMs, AI tools, business, ethics, and the future of artificial intelligence.">
   <meta property="og:url" content="https://aiglimpse.ai/">
   <meta property="og:image" content="https://aiglimpse.ai/images/og-default.png">
@@ -226,7 +226,7 @@ function renderPage(articles) {
   <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:site" content="@aiglimpse">
-  <meta name="twitter:title" content="AI Glimpse — Your Daily Glimpse Into Artificial Intelligence">
+  <meta name="twitter:title" content="AI Glimpse: Your Daily Glimpse Into Artificial Intelligence">
   <meta name="twitter:description" content="Independent AI news, research, and analysis. Daily reporting on LLMs, AI tools, business, ethics, and the future of artificial intelligence.">
   <meta name="twitter:image" content="https://aiglimpse.ai/images/og-default.png">
 
@@ -279,10 +279,10 @@ function renderPage(articles) {
   }
   </script>
 
-  <!-- Google AdSense — replace ca-pub-XXXX with your publisher ID after approval -->
+  <!-- Google AdSense, replace ca-pub-XXXX with your publisher ID after approval -->
   <!-- <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXXXXXX" crossorigin="anonymous"></script> -->
 
-  <!-- Google Analytics 4 — replace G-XXXX with your measurement ID -->
+  <!-- Google Analytics 4, replace G-XXXX with your measurement ID -->
   <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
   <script>window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-XXXXXXXXXX');</script> -->
 </head>
@@ -351,7 +351,7 @@ function renderPage(articles) {
         <!-- AdSense leaderboard 728x90 -->
         <!-- <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-XXXX" data-ad-slot="XXXX" data-ad-format="auto" data-full-width-responsive="true"></ins>
         <script>(adsbygoogle = window.adsbygoogle || []).push({});</script> -->
-        <span style="color:var(--color-ink-faint);font-size:0.75rem;">Ad zone — Leaderboard 728×90</span>
+        <span style="color:var(--color-ink-faint);font-size:0.75rem;">Ad zone, Leaderboard 728×90</span>
       </div>
     </div>
 ${renderLatest(articles)}${renderDeepDives(articles)}
@@ -363,7 +363,7 @@ ${renderLatest(articles)}${renderDeepDives(articles)}
           <div>
             <span class="newsletter-eyebrow">AI Glimpse Daily</span>
             <h2 class="newsletter-title">The AI news that matters, in five minutes.</h2>
-            <p class="newsletter-subtitle">One email each morning. No hype, no fluff — just the stories that will shape your next week in AI.</p>
+            <p class="newsletter-subtitle">One email each morning. No hype, no fluff, just the stories that will shape your next week in AI.</p>
           </div>
           <form class="newsletter-form" novalidate>
             <label class="sr-only" for="newsletter-email">Email address</label>
@@ -392,7 +392,7 @@ ${renderMore(articles)}
 export async function buildHomepage() {
   let idx = { articles: [] };
   try { idx = JSON.parse(await fs.readFile(PUBLISHED_PATH, 'utf8')); }
-  catch { /* no published.json yet — render empty state */ }
+  catch { /* no published.json yet, render empty state */ }
   const articles = idx.articles || [];
   const html = renderPage(articles);
   await fs.writeFile(OUTPUT_PATH, html);

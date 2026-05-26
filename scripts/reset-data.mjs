@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * Clears data/published.json — use this before going live to wipe any demo data
+ * Clears data/published.json, use this before going live to wipe any demo data
  * seeded via `npm run seed-demo`. Also rebuilds index.html to reflect the empty state.
  */
 

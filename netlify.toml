@@ -8,7 +8,7 @@
   status = 301
   force = true
 
-# Pretty URLs (optional — remove if you prefer .html)
+# Pretty URLs (optional, remove if you prefer .html)
 [[redirects]]
   from = "/articles/*/"
   to = "/articles/:splat.html"
@@ -46,13 +46,13 @@
   [headers.values]
     Cache-Control = "public, max-age=31536000, immutable"
 
-# HTML — short cache for fast updates
+# HTML, short cache for fast updates
 [[headers]]
   for = "/*.html"
   [headers.values]
     Cache-Control = "public, max-age=300, must-revalidate"
 
-# Sitemap & RSS — short cache so search engines see fresh data
+# Sitemap & RSS, short cache so search engines see fresh data
 [[headers]]
   for = "/sitemap.xml"
   [headers.values]

@@ -1,4 +1,4 @@
-// Hacker News API + GitHub Trending — community signals for AI
+// Hacker News API + GitHub Trending, community signals for AI
 
 const HN_API = 'https://hn.algolia.com/api/v1/search_by_date';
 
@@ -72,7 +72,7 @@ export async function fetchGitHubTrending() {
         url: r.html_url,
         publishedAt: new Date(r.created_at).toISOString(),
         summary: r.description || '',
-        body: `${r.name} — ${r.description}\n\nLanguage: ${r.language || 'Mixed'}\nStars: ${r.stargazers_count}\nCreated by ${r.owner.login}.`,
+        body: `${r.name}, ${r.description}\n\nLanguage: ${r.language || 'Mixed'}\nStars: ${r.stargazers_count}\nCreated by ${r.owner.login}.`,
         source: { title: `GitHub (${r.stargazers_count}⭐)`, tier: 2 },
         suggestedCategory: 'tools'
       }));

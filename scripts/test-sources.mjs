@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * Diagnostic — fetch from all sources, report counts, do NOT publish.
+ * Diagnostic, fetch from all sources, report counts, do NOT publish.
  * Use this to verify everything works before enabling the workflow.
  *
  * Run: npm run test-sources
@@ -13,7 +13,7 @@ import { fetchNewsAPI } from './lib/newsapi.mjs';
 import { deduplicate } from './lib/dedupe.mjs';
 
 async function main() {
-  console.log('🔍 AI Glimpse — Source Diagnostic\n');
+  console.log('🔍 AI Glimpse, Source Diagnostic\n');
 
   const [rss, arxiv, hn, github, newsapi] = await Promise.all([
     fetchAllRSS(48),

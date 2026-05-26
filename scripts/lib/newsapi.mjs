@@ -1,5 +1,5 @@
-// NewsAPI.ai (Event Registry) — aggregator source
-// Backup / breadth source. Optional — pipeline works without an API key.
+// NewsAPI.ai (Event Registry), aggregator source
+// Backup / breadth source. Optional, pipeline works without an API key.
 
 export async function fetchNewsAPI(apiKey, maxAgeHours = 24) {
   if (!apiKey) {

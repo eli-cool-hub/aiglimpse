@@ -1,4 +1,4 @@
-// arXiv API — free, authoritative source of AI research papers
+// arXiv API, free, authoritative source of AI research papers
 // Pulls from cs.AI, cs.LG, cs.CL categories
 
 import { XMLParser } from 'fast-xml-parser';

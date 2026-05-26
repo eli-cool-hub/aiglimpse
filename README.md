@@ -1,4 +1,4 @@
-# AI Glimpse — Multi-Source Automated AI News
+# AI Glimpse, Multi-Source Automated AI News
 
 Your daily glimpse into AI. Independent reporting powered by 20+ premium sources, all aggregated, deduplicated, and rewritten into original content every 30 minutes.
 
@@ -47,11 +47,11 @@ Netlify → **Domain settings** → **Add custom domain** → `aiglimpse.ai`. Ea
 
 | Service | Purpose | Cost | Required? |
 |---|---|---|---|
-| **Anthropic API** | Rewrite articles with Claude Haiku 4.5 | ~$10–25/mo | ✅ Yes |
+| **Anthropic API** | Rewrite articles with Claude Haiku 4.5 | ~$10-25/mo | ✅ Yes |
 | **NewsAPI.ai** | Extra breadth from licensed aggregator | ~$90/mo | ⚠️ Optional* |
 | **IndexNow** | Instant indexing on Bing/Yandex | Free | ⚠️ Optional |
 
-*The pipeline works without NewsAPI.ai — RSS + arXiv + Hacker News + GitHub already give you 50-100 quality items per run for free.
+*The pipeline works without NewsAPI.ai, RSS + arXiv + Hacker News + GitHub already give you 50-100 quality items per run for free.
 
 ### B) Add GitHub Secrets
 
@@ -68,7 +68,7 @@ npm install
 ANTHROPIC_API_KEY=sk-ant-xxx npm run test-sources
 ```
 
-This fetches from all sources, prints counts, and shows the top 10 candidates — without publishing anything. If it works, you're ready.
+This fetches from all sources, prints counts, and shows the top 10 candidates, without publishing anything. If it works, you're ready.
 
 ### Preview the homepage locally with demo content
 
@@ -148,14 +148,14 @@ Push to GitHub → the workflow auto-runs every 30 minutes. To trigger it manual
        └─────────────────────┘
 ```
 
-**Cost per run:** ~$0.02–0.05 in Claude API calls (8 articles × ~$0.003 each)
-**Cost per month** at 30-min intervals: ~$30–60 total
+**Cost per run:** ~$0.02-0.05 in Claude API calls (8 articles × ~$0.003 each)
+**Cost per month** at 30-min intervals: ~$30-60 total
 
 ---
 
 ## 📈 Day 1 SEO checklist
 
-Do these in order — each builds on the previous.
+Do these in order, each builds on the previous.
 
 1. **Google Search Console** ([search.google.com/search-console](https://search.google.com/search-console))
    - Add property: `aiglimpse.ai`
@@ -170,7 +170,7 @@ Do these in order — each builds on the previous.
 3. **Google News inclusion** ([publishercenter.google.com](https://publishercenter.google.com))
    - Wait until you have 30+ articles (~1 week)
    - Add publication: "AI Glimpse" · upload logo · submit RSS feed
-   - Review takes 2-4 weeks — worth it, Google News drives massive volume
+   - Review takes 2-4 weeks, worth it, Google News drives massive volume
 
 4. **Google AdSense** ([adsense.google.com](https://adsense.google.com))
    - Apply after ~50 articles (~1 week of auto-publishing)
@@ -181,8 +181,8 @@ Do these in order — each builds on the previous.
    - Create property, get `G-XXXX` measurement ID
    - Replace in `index.html` (look for `G-XXXX`) and uncomment
 
-6. **Newsletter provider** — currently a placeholder in `js/main.js`. Connect:
-   - **Beehiiv** (best for AI media — has built-in monetization, free to 2.5K subs)
+6. **Newsletter provider**, currently a placeholder in `js/main.js`. Connect:
+   - **Beehiiv** (best for AI media, has built-in monetization, free to 2.5K subs)
    - **ConvertKit** (best deliverability)
    - **Mailchimp** (most familiar)
 
@@ -193,20 +193,20 @@ Do these in order — each builds on the previous.
 Things to do in your first 7 days, in priority order:
 
 ### Build topical authority
-Let the automation publish 30-50+ articles. Google's 2026 algorithm heavily rewards topical depth + freshness — the multi-source pipeline is built exactly for this.
+Let the automation publish 30-50+ articles. Google's 2026 algorithm heavily rewards topical depth + freshness, the multi-source pipeline is built exactly for this.
 
 ### First backlinks
 - **AI directories:** [There's An AI For That](https://theresanaiforthat.com) · [Futurepedia](https://www.futurepedia.io) · [aitools.directory](https://aitools.directory)
-- **Hacker News:** Submit your single best deep-dive article — high-quality submissions get backlinks worth gold for SEO
-- **Reddit:** r/MachineLearning · r/artificial · r/LocalLLaMA — contribute genuinely first, link sparingly
+- **Hacker News:** Submit your single best deep-dive article, high-quality submissions get backlinks worth gold for SEO
+- **Reddit:** r/MachineLearning · r/artificial · r/LocalLLaMA, contribute genuinely first, link sparingly
 - **Cross-promotion:** Email 5-10 small AI newsletter operators offering a swap
 
 ### Brand search prime-pump
 - Tweet from `@aiglimpse` daily linking your top story
-- Get 10 friends to type `aiglimpse.ai` into Google — signals brand demand to Google
+- Get 10 friends to type `aiglimpse.ai` into Google, signals brand demand to Google
 
 ### Technical health check
-- [PageSpeed Insights](https://pagespeed.web.dev) on homepage — target 90+ mobile
+- [PageSpeed Insights](https://pagespeed.web.dev) on homepage, target 90+ mobile
 - [Schema.org Validator](https://validator.schema.org) on homepage + an article
 - Verify `aiglimpse.ai/sitemap.xml` loads and lists articles
 
@@ -242,8 +242,8 @@ I want to be upfront about gaps. Here's my honest list of what's *not* in this i
    - Sticky bottom bar for first-time visitors
    - 3-5× conversion lift over single form
 
-3. **Real search functionality.** Currently `window.prompt()` — placeholder. Options:
-   - **Pagefind** (free, static, perfect for this site) — recommended
+3. **Real search functionality.** Currently `window.prompt()`, placeholder. Options:
+   - **Pagefind** (free, static, perfect for this site), recommended
    - **Algolia** (free tier, more powerful)
    - **Lunr.js** (no external dep)
 
@@ -258,7 +258,7 @@ I want to be upfront about gaps. Here's my honest list of what's *not* in this i
 
 ### Lower impact (when you have time)
 8. **A/B headline testing.** Generate 3 headlines per article, test which gets more clicks.
-9. **Push notifications** for breaking news (OneSignal — free up to 10K subs).
+9. **Push notifications** for breaking news (OneSignal, free up to 10K subs).
 10. **Multi-language.** Auto-translate top stories with Claude. Each language is a separate sitemap = separate Google ranking surface.
 
 ---
@@ -274,14 +274,14 @@ Edit `scripts/lib/rss-sources.mjs` → add to `RSS_SOURCES` array:
 ### Change publish frequency
 `.github/workflows/fetch-news.yml`:
 - Every 15 min: `'*/15 * * * *'`
-- Every hour: `'0 * * * *'` (recommended once site is stable — saves API costs)
+- Every hour: `'0 * * * *'` (recommended once site is stable, saves API costs)
 - Once a day: `'0 14 * * *'`
 
 ### Change articles per run
 Set `MAX_PER_RUN` in the workflow env (default 8).
 
 ### Change brand colors
-`css/main.css` → search `--color-accent` (currently `#ff4d2e` — the signature orange).
+`css/main.css` → search `--color-accent` (currently `#ff4d2e`, the signature orange).
 
 ---
 
@@ -291,10 +291,10 @@ Set `MAX_PER_RUN` in the workflow env (default 8).
 |---|---|
 | Workflow fails with "401" | Anthropic API key invalid or out of credits |
 | Workflow runs but no commits | No new articles passed dedupe (normal between runs) |
-| Articles look bad | Check `body_html` in Claude response — may need prompt tweak |
+| Articles look bad | Check `body_html` in Claude response, may need prompt tweak |
 | Site slow | Real images in `/images/` should be < 200KB · use WebP/AVIF |
 | Newsletter signup doesn't work | Wire up `js/main.js` `newsletterForm` to your provider |
-| Search button does nothing useful | Currently `window.prompt()` placeholder — install Pagefind |
+| Search button does nothing useful | Currently `window.prompt()` placeholder, install Pagefind |
 
 ---
 
@@ -303,7 +303,7 @@ Set `MAX_PER_RUN` in the workflow env (default 8).
 - **Rewriting:** All content is rewritten by Claude into original prose. We never reproduce source articles.
 - **Attribution:** Every article links to its source at the bottom with `rel="nofollow"`.
 - **Image rights:** Placeholder SVGs only. If you add image generation or scraping, review the source's licensing.
-- **GDPR/CCPA:** Privacy policy is in `/pages/privacy.html` — review with a lawyer if you operate at scale.
+- **GDPR/CCPA:** Privacy policy is in `/pages/privacy.html`, review with a lawyer if you operate at scale.
 
 ---
 

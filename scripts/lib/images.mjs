@@ -15,7 +15,7 @@ const ROOT = path.resolve(process.cwd());
 const IMAGES_DIR = path.join(ROOT, 'images', 'articles');
 const FALLBACK = '/images/placeholder.svg';
 
-// Visual style per category — keeps the brand coherent while giving each topic a flavor.
+// Visual style per category, keeps the brand coherent while giving each topic a flavor.
 const CATEGORY_STYLE = {
   llms:     'abstract neural network with glowing data flows and interconnected nodes',
   research: 'minimalist scientific abstract concept, geometric shapes, technical diagram aesthetic',
@@ -37,7 +37,7 @@ function buildPrompt(title, category) {
   // Strip article-specific symbols & numbers that confuse image gen; keep nouns/themes.
   const themed = String(title || '')
     .replace(/["'""''']/g, '')
-    .replace(/[—–]/g, '-')
+    .replace(/[,-]/g, '-')
     .replace(/\d+(\.\d+)?%?/g, '')
     .replace(/\s+/g, ' ')
     .trim();
@@ -52,10 +52,10 @@ export function seedFromSlug(slug) {
 /**
  * Generate (or reuse) an article hero image.
  *
- * @param {string} slug      — article slug, also used as filename and seed source
- * @param {string} title     — article headline, used to derive the prompt
- * @param {string} category  — category slug (llms/research/tools/business/ethics/industry/robotics)
- * @returns {Promise<string>} — site-absolute URL of the image, e.g. /images/articles/foo.jpg
+ * @param {string} slug     , article slug, also used as filename and seed source
+ * @param {string} title    , article headline, used to derive the prompt
+ * @param {string} category , category slug (llms/research/tools/business/ethics/industry/robotics)
+ * @returns {Promise<string>}, site-absolute URL of the image, e.g. /images/articles/foo.jpg
  */
 export async function generateArticleImage(slug, title, category) {
   await fs.mkdir(IMAGES_DIR, { recursive: true });

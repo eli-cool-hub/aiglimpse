@@ -1,4 +1,4 @@
-// AI Glimpse — site JS
+// AI Glimpse, site JS
 (function() {
   'use strict';
 
@@ -51,7 +51,7 @@
 
       // Replace with your real endpoint (Beehiiv, ConvertKit, Mailchimp, etc.)
       try {
-        // Example placeholder — wire up your provider here
+        // Example placeholder, wire up your provider here
         await new Promise(r => setTimeout(r, 600));
         btn.textContent = '✓ Subscribed!';
         input.value = '';
