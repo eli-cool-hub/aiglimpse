@@ -75,6 +75,24 @@ const EVERGREEN_TOPICS = [
       'Definitive 2026 overview of AI agents. Reader wants to know what an agent actually is (versus a chatbot), what frameworks exist, what real production use cases look like, and where agents reliably break.',
     keyword_focus: ['AI agents', 'agentic AI', 'autonomous agents', 'tool use', 'function calling', 'multi-agent'],
     audience: 'Software engineers and CTOs evaluating agentic systems'
+  },
+  {
+    slug: 'gpt-5-vs-claude-4-5-vs-gemini-ultra-2026',
+    title_seed: 'GPT-5 vs Claude 4.5 vs Gemini Ultra: how to choose in 2026',
+    category: 'llms',
+    intent:
+      'High-volume head-to-head comparison. Reader is choosing between the three frontier models for production work and wants strengths, weaknesses, pricing, latency, context window, tool use, and concrete use-case verdicts. Update-friendly so we can refresh as new versions ship.',
+    keyword_focus: ['GPT-5 vs Claude', 'GPT vs Gemini', 'Claude vs GPT', 'best LLM 2026', 'frontier model comparison', 'LLM pricing'],
+    audience: 'Product leads and engineers picking a frontier LLM for production'
+  },
+  {
+    slug: 'how-large-language-models-work-clear-explainer',
+    title_seed: 'How large language models work: a clear visual explainer',
+    category: 'research',
+    intent:
+      'Beginner-friendly walkthrough of LLM mechanics for technical-curious non-experts. Reader wants tokens to attention to next-token prediction without hand-waving but without graduate math. The piece should anchor topical authority on the most-searched LLM question.',
+    keyword_focus: ['how LLMs work', 'how language models work', 'transformer architecture', 'tokens', 'attention mechanism', 'next-token prediction'],
+    audience: 'Technical-curious readers who want to understand LLMs without a PhD'
   }
 ];
 
@@ -368,6 +386,8 @@ function generateEvergreenHtml({ piece, slug, category, publishedAt, readingMinu
   ${faqSchema ? `<script type="application/ld+json">${JSON.stringify(faqSchema)}</script>` : ''}
   <meta name="google-site-verification" content="B132aMlqf1nssWYhjOSKUgSjmfwNWgPgtozZsHDxWlU" />
   <meta name="msvalidate.01" content="F3762E555B3E685836AE39C90B79ECBF" />
+  <!-- aiglimpse-consent-default v1: must run before AdSense, defaults all ad/analytics storage to denied -->
+  <script>(function(){window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}window.gtag=gtag;gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'denied',functionality_storage:'granted',security_storage:'granted',wait_for_update:500});try{var s=JSON.parse(localStorage.getItem('aiglimpse-consent')||'null');if(s&&s.choice==='granted'){gtag('consent','update',{ad_storage:'granted',ad_user_data:'granted',ad_personalization:'granted',analytics_storage:'granted'});}}catch(e){}})();</script>
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4263484717830850" crossorigin="anonymous"></script>
 </head>
 <body>

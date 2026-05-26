@@ -103,6 +103,7 @@
               <ul>
                 <li><a href="/pages/privacy.html">Privacy Policy</a></li>
                 <li><a href="/pages/terms.html">Terms of Service</a></li>
+                <li><a href="#" data-consent-open>Cookie preferences</a></li>
                 <li><a href="/rss.xml">RSS Feed</a></li>
                 <li><a href="/sitemap.xml">Sitemap</a></li>
               </ul>
@@ -121,7 +122,85 @@
     `;
   }
 
-  // Inject on load
+  // ─── Cookie consent (Google Consent Mode v2) ─────────────────────────
+  // Pairs with the inline gtag('consent','default') snippet in the page
+  // <head>. That snippet sets all ad and analytics storage to "denied" by
+  // default and restores a saved "granted" choice from localStorage so the
+  // banner does not flash for returning visitors.
+  //
+  // This block renders the banner UI on first visit (or after a saved
+  // decision becomes stale, default 12 months) and exposes
+  // window.AIGconsent.open() so the footer "Cookie preferences" link can
+  // reopen it later.
+  const CONSENT_KEY = 'aiglimpse-consent';
+  const CONSENT_STALE_MS = 365 * 24 * 60 * 60 * 1000; // 12 months
+
+  function readConsent() {
+    try {
+      const raw = localStorage.getItem(CONSENT_KEY);
+      if (!raw) return null;
+      const obj = JSON.parse(raw);
+      if (!obj || typeof obj !== 'object') return null;
+      if (!obj.ts || (Date.now() - obj.ts) > CONSENT_STALE_MS) return null;
+      return obj;
+    } catch { return null; }
+  }
+
+  function writeConsent(choice) {
+    const payload = { choice, ts: Date.now(), version: 1 };
+    try { localStorage.setItem(CONSENT_KEY, JSON.stringify(payload)); } catch {}
+    if (typeof window.gtag === 'function') {
+      const granted = choice === 'granted';
+      window.gtag('consent', 'update', {
+        'ad_storage': granted ? 'granted' : 'denied',
+        'ad_user_data': granted ? 'granted' : 'denied',
+        'ad_personalization': granted ? 'granted' : 'denied',
+        'analytics_storage': granted ? 'granted' : 'denied'
+      });
+    }
+  }
+
+  function buildConsentBanner() {
+    return `
+      <div class="consent-banner" role="dialog" aria-live="polite" aria-label="Cookie consent">
+        <div class="consent-banner-inner">
+          <div class="consent-banner-text">
+            <strong>We use cookies.</strong>
+            We use cookies to deliver relevant ads via Google AdSense and to understand how readers use AI Glimpse.
+            You can accept all, reject non-essential cookies, or read our
+            <a href="/pages/privacy.html">Privacy Policy</a>.
+          </div>
+          <div class="consent-banner-actions">
+            <button type="button" class="btn btn--ghost btn--sm" data-consent="denied">Reject non-essential</button>
+            <button type="button" class="btn btn--primary btn--sm" data-consent="granted">Accept all</button>
+          </div>
+        </div>
+      </div>`;
+  }
+
+  function showBanner() {
+    if (document.querySelector('.consent-banner')) return;
+    const wrap = document.createElement('div');
+    wrap.innerHTML = buildConsentBanner().trim();
+    const banner = wrap.firstChild;
+    document.body.appendChild(banner);
+    banner.querySelectorAll('button[data-consent]').forEach(btn => {
+      btn.addEventListener('click', () => {
+        writeConsent(btn.getAttribute('data-consent'));
+        banner.remove();
+      });
+    });
+  }
+
+  // Public API used by the "Cookie preferences" footer link.
+  window.AIGconsent = {
+    open: () => {
+      try { localStorage.removeItem(CONSENT_KEY); } catch {}
+      showBanner();
+    }
+  };
+
+  // Inject header/footer/banner on load.
   document.addEventListener('DOMContentLoaded', () => {
     const headerSlot = document.getElementById('site-header-slot');
     const footerSlot = document.getElementById('site-footer-slot');
@@ -129,5 +208,13 @@
     if (footerSlot) footerSlot.outerHTML = buildFooter();
     const yearEl = document.getElementById('year');
     if (yearEl) yearEl.textContent = new Date().getFullYear();
+
+    // Wire the footer "Cookie preferences" link added in buildFooter().
+    document.querySelectorAll('a[data-consent-open]').forEach(a => {
+      a.addEventListener('click', (e) => { e.preventDefault(); window.AIGconsent.open(); });
+    });
+
+    // Show the banner if the visitor hasn't decided yet.
+    if (!readConsent()) showBanner();
   });
 })();

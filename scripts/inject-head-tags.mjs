@@ -25,6 +25,14 @@ const SNIPPETS = [
   {
     marker: 'msvalidate.01',
     snippet: '<meta name="msvalidate.01" content="F3762E555B3E685836AE39C90B79ECBF" />'
+  },
+  {
+    // Inline gtag('consent','default') so all AdSense + Analytics storage is
+    // denied until the visitor accepts via the banner. Required for AdSense
+    // EEA/UK consent rules and GDPR. Must run before AdSense fires its first
+    // ad request, putting it inline in <head> guarantees that.
+    marker: 'aiglimpse-consent-default v1',
+    snippet: `<!-- aiglimpse-consent-default v1: must run before AdSense, defaults all ad/analytics storage to denied -->\n  <script>(function(){window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}window.gtag=gtag;gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'denied',functionality_storage:'granted',security_storage:'granted',wait_for_update:500});try{var s=JSON.parse(localStorage.getItem('aiglimpse-consent')||'null');if(s&&s.choice==='granted'){gtag('consent','update',{ad_storage:'granted',ad_user_data:'granted',ad_personalization:'granted',analytics_storage:'granted'});}}catch(e){}})();</script>`
   }
 ];
 

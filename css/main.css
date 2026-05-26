@@ -1228,3 +1228,56 @@ main { animation: ag-fade-in 0.4s ease-out both; }
   *, *::before, *::after { transition-duration: 0.01ms !important; animation-duration: 0.01ms !important; }
 }
 
+/* ────────────  COOKIE CONSENT BANNER  ────────────
+   Pinned to the bottom of the viewport on first visit. Sits above all
+   content until the visitor accepts or rejects. Uses the same surface
+   colors as the rest of the site, no garish "GDPR yellow" boxes.
+   The banner is removed from the DOM after a decision is recorded. */
+.consent-banner {
+  position: fixed;
+  left: 0; right: 0; bottom: 0;
+  z-index: 1000;
+  background: var(--color-paper-elevated);
+  border-top: 1px solid var(--color-rule);
+  box-shadow: 0 -8px 32px rgba(10, 10, 10, 0.08);
+  padding: var(--space-4) var(--space-5);
+  animation: consent-rise 220ms ease-out;
+}
+@keyframes consent-rise {
+  from { transform: translateY(8px); opacity: 0; }
+  to   { transform: translateY(0);   opacity: 1; }
+}
+.consent-banner-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  gap: var(--space-5);
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.consent-banner-text {
+  flex: 1 1 360px;
+  font-size: var(--text-sm);
+  line-height: 1.55;
+  color: var(--color-ink-muted);
+}
+.consent-banner-text strong {
+  color: var(--color-ink);
+  margin-right: 0.4em;
+}
+.consent-banner-text a {
+  color: var(--color-ink);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+.consent-banner-actions {
+  display: flex;
+  gap: var(--space-3);
+  flex-shrink: 0;
+}
+@media (max-width: 640px) {
+  .consent-banner-actions { width: 100%; }
+  .consent-banner-actions .btn { flex: 1; justify-content: center; }
+}
+
