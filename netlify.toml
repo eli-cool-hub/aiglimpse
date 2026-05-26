@@ -1,0 +1,64 @@
+[build]
+  publish = "."
+
+# Force HTTPS + canonical domain
+[[redirects]]
+  from = "https://www.aiglimpse.ai/*"
+  to = "https://aiglimpse.ai/:splat"
+  status = 301
+  force = true
+
+# Pretty URLs (optional — remove if you prefer .html)
+[[redirects]]
+  from = "/articles/*/"
+  to = "/articles/:splat.html"
+  status = 200
+
+# 404 fallback
+[[redirects]]
+  from = "/*"
+  to = "/404.html"
+  status = 404
+
+# Security + performance headers
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    Permissions-Policy = "camera=(), microphone=(), geolocation=()"
+    Strict-Transport-Security = "max-age=31536000; includeSubDomains; preload"
+
+# Aggressive caching for static assets
+[[headers]]
+  for = "/css/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/js/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/images/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+# HTML — short cache for fast updates
+[[headers]]
+  for = "/*.html"
+  [headers.values]
+    Cache-Control = "public, max-age=300, must-revalidate"
+
+# Sitemap & RSS — short cache so search engines see fresh data
+[[headers]]
+  for = "/sitemap.xml"
+  [headers.values]
+    Cache-Control = "public, max-age=600"
+
+[[headers]]
+  for = "/rss.xml"
+  [headers.values]
+    Cache-Control = "public, max-age=600"

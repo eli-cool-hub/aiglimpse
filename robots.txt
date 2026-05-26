@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /scripts/
+Disallow: /data/
+
+Sitemap: https://aiglimpse.ai/sitemap.xml

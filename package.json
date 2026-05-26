@@ -1,0 +1,23 @@
+{
+  "name": "aiglimpse",
+  "version": "1.0.0",
+  "description": "AI Glimpse — automated AI news site",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "fetch": "node scripts/fetch-and-publish.mjs",
+    "test-sources": "node scripts/test-sources.mjs",
+    "build-homepage": "node scripts/build-homepage.mjs",
+    "build-categories": "node scripts/build-categories.mjs",
+    "build-all": "node scripts/build-homepage.mjs && node scripts/build-categories.mjs",
+    "seed-demo": "node scripts/seed-demo.mjs",
+    "reset-data": "node scripts/reset-data.mjs",
+    "serve": "python3 -m http.server 8000"
+  },
+  "dependencies": {
+    "fast-xml-parser": "^4.5.0"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

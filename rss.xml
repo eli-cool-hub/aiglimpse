@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>AI Glimpse</title>
+    <link>https://aiglimpse.ai/</link>
+    <description>Your daily glimpse into AI. Independent reporting on the people, products, and policies shaping artificial intelligence.</description>
+    <language>en-us</language>
+    <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
+    <image>
+      <url>https://aiglimpse.ai/images/logo.svg</url>
+      <title>AI Glimpse</title>
+      <link>https://aiglimpse.ai/</link>
+    </image>
+    <item>
+      <title>OpenAI ships GPT-5 Turbo, claims 40% gain on complex reasoning benchmarks</title>
+      <link>https://aiglimpse.ai/articles/sample-1.html</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/sample-1.html</guid>
+      <description>GPT-5 Turbo debuts with a 2M-token context, sharper reasoning, and aggressive pricing — putting fresh pressure on Anthropic and Google.</description>
+      <pubDate>Mon, 25 May 2026 14:30:00 GMT</pubDate>
+      <category>LLMs &amp; Chatbots</category>
+    </item>
+  </channel>
+</rss>

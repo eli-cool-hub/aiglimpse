@@ -1,0 +1,44 @@
+name: Fetch AI News
+
+on:
+  schedule:
+    # Every 30 minutes
+    - cron: '*/30 * * * *'
+  workflow_dispatch: # allows manual trigger from GitHub UI
+
+jobs:
+  fetch-and-publish:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm install --no-fund --no-audit
+
+      - name: Fetch and publish articles
+        env:
+          NEWSAPI_KEY: ${{ secrets.NEWSAPI_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          INDEXNOW_KEY: ${{ secrets.INDEXNOW_KEY }}
+          SITE_URL: https://aiglimpse.ai
+        run: npm run fetch
+
+      - name: Commit and push
+        run: |
+          git config user.name "AI Glimpse Bot"
+          git config user.email "bot@aiglimpse.ai"
+          git add articles/ data/ sitemap.xml rss.xml index.html categories/ images/articles/
+          if git diff --staged --quiet; then
+            echo "No new articles to commit."
+          else
+            git commit -m "🤖 Auto-publish: $(date -u +'%Y-%m-%d %H:%M UTC')"
+            git push
+          fi
