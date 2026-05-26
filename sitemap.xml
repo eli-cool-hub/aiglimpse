@@ -11,6 +11,15 @@
   <url><loc>https://aiglimpse.ai/pages/about.html</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
   <url><loc>https://aiglimpse.ai/pages/contact.html</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
   <url>
+    <loc>https://aiglimpse.ai/articles/what-are-ai-agents-practical-guide-2026.html</loc>
+    <news:news>
+      <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-05-26T23:46:57.909Z</news:publication_date>
+      <news:title>What Are AI Agents? A Practical Guide for Builders in 2026</news:title>
+    </news:news>
+    <changefreq>daily</changefreq><priority>0.9</priority>
+  </url>
+  <url>
     <loc>https://aiglimpse.ai/articles/rag-vs-fine-tuning-vs-prompt-engineering.html</loc>
     <news:news>
       <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>

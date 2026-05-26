@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>What Are AI Agents? A Practical Guide for Builders in 2026 | AI Glimpse</title>
+  <meta name="description" content="Definitive 2026 guide to AI agents for engineers. Learn what agents are, frameworks, production use cases, and real limitations.">
+  <meta name="keywords" content="AI agents, agentic AI, autonomous agents, tool use, function calling, multi-agent systems, agent frameworks">
+  <link rel="canonical" href="https://aiglimpse.ai/articles/what-are-ai-agents-practical-guide-2026.html">
+  <meta property="og:type" content="article"><meta property="og:site_name" content="AI Glimpse">
+  <meta property="og:title" content="What Are AI Agents? A Practical Guide for Builders in 2026">
+  <meta property="og:description" content="Definitive 2026 guide to AI agents for engineers. Learn what agents are, frameworks, production use cases, and real limitations.">
+  <meta property="og:url" content="https://aiglimpse.ai/articles/what-are-ai-agents-practical-guide-2026.html">
+  <meta property="og:image" content="https://aiglimpse.ai/images/articles/what-are-ai-agents-practical-guide-2026.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="article:published_time" content="2026-05-26T23:46:57.909Z">
+  <meta property="article:section" content="AI Tools & Products">
+  <meta property="article:tag" content="AI agents">
+  <meta property="article:tag" content="agentic AI">
+  <meta property="article:tag" content="autonomous agents">
+  <meta property="article:tag" content="tool use">
+  <meta property="article:tag" content="function calling">
+  <meta property="article:tag" content="multi-agent systems">
+  <meta property="article:tag" content="agent frameworks">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="What Are AI Agents? A Practical Guide for Builders in 2026">
+  <meta name="twitter:description" content="Definitive 2026 guide to AI agents for engineers. Learn what agents are, frameworks, production use cases, and real limitations.">
+  <meta name="twitter:image" content="https://aiglimpse.ai/images/articles/what-are-ai-agents-practical-guide-2026.jpg">
+  <link rel="icon" type="image/svg+xml" href="/images/favicon.svg">
+  <link rel="alternate" type="application/rss+xml" title="AI Glimpse RSS" href="/rss.xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="/css/main.css">
+  <style>.reading-progress{position:fixed;top:0;left:0;height:3px;background:var(--color-accent);width:0%;z-index:200;transition:width 100ms linear;}</style>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","mainEntityOfPage":{"@type":"WebPage","@id":"https://aiglimpse.ai/articles/what-are-ai-agents-practical-guide-2026.html"},"headline":"What Are AI Agents? A Practical Guide for Builders in 2026","description":"Definitive 2026 guide to AI agents for engineers. Learn what agents are, frameworks, production use cases, and real limitations.","image":["https://aiglimpse.ai/images/articles/what-are-ai-agents-practical-guide-2026.jpg"],"datePublished":"2026-05-26T23:46:57.909Z","dateModified":"2026-05-26T23:46:57.909Z","author":{"@type":"Organization","name":"AI Glimpse Newsroom"},"publisher":{"@type":"Organization","name":"AI Glimpse","logo":{"@type":"ImageObject","url":"https://aiglimpse.ai/images/logo.svg"}},"articleSection":"AI Tools & Products","keywords":"AI agents, agentic AI, autonomous agents, tool use, function calling, multi-agent systems, agent frameworks"}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What is the difference between an AI agent and a chatbot?","acceptedAnswer":{"@type":"Answer","text":"A chatbot responds to user input within a single conversation turn. An AI agent operates autonomously, breaking goals into subtasks, calling tools or APIs, observing outcomes, and adjusting strategy without human intervention between steps. Agents have memory, planning capability, and can iterate."}},{"@type":"Question","name":"Do AI agents require special models or frameworks?","acceptedAnswer":{"@type":"Answer","text":"No. Any LLM with function calling (GPT-4, Claude, Llama 2+) can power an agent. Frameworks like LangChain, Anthropic's SDK, and AutoGen simplify implementation, but you can build agents with basic API calls and a state machine."}},{"@type":"Question","name":"What real production use cases exist for AI agents in 2026?","acceptedAnswer":{"@type":"Answer","text":"Customer support automation (routing, knowledge retrieval, escalation), code generation and debugging, financial analysis and reporting, supply chain monitoring, and IT ticket triage. Most are hybrid: agents handle 60-80% of cases, humans handle edge cases."}},{"@type":"Question","name":"Why do AI agents fail in production?","acceptedAnswer":{"@type":"Answer","text":"Common failures include hallucinated tool calls, infinite loops, cost overruns (agents make many API calls), context window exhaustion, and inability to handle ambiguous or novel requests. Agents also struggle with multi-step reasoning across unreliable external systems."}},{"@type":"Question","name":"What is function calling and why does it matter for agents?","acceptedAnswer":{"@type":"Answer","text":"Function calling lets an LLM decide when and how to invoke external code, APIs, or databases by returning structured output. It's the mechanism that lets agents take actions beyond text generation. Without it, agents are just chatbots."}},{"@type":"Question","name":"How much does it cost to run an AI agent in production?","acceptedAnswer":{"@type":"Answer","text":"Costs vary widely. A simple support agent using GPT-4 turbo might cost $0.01 to $0.10 per ticket if it solves it in 1 to 5 API calls. Complex agents with long reasoning chains or many tool calls can cost dollars per interaction. Budget for 5 to 10x the cost of a single LLM call."}},{"@type":"Question","name":"Should I use an existing agent framework or build from scratch?","acceptedAnswer":{"@type":"Answer","text":"Use a framework (LangChain, Anthropic, AutoGen) if you need rapid deployment and don't have hard latency constraints. Build from scratch if you need tight control over cost, latency, or behavior. Most teams start with a framework and migrate later."}}]}</script>
+  <meta name="google-site-verification" content="B132aMlqf1nssWYhjOSKUgSjmfwNWgPgtozZsHDxWlU" />
+  <meta name="msvalidate.01" content="F3762E555B3E685836AE39C90B79ECBF" />
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4263484717830850" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div class="reading-progress" aria-hidden="true"></div>
+  <div id="site-header-slot"></div>
+  <main>
+    <article>
+      <section class="article-hero">
+        <div class="container container--narrow">
+          <nav aria-label="Breadcrumb" style="margin-bottom:var(--space-4);font-size:var(--text-xs);color:var(--color-ink-muted);">
+            <a href="/" style="color:inherit;">Home</a> /
+            <a href="/categories/tools.html" style="color:inherit;">AI Tools & Products</a> /
+            <span>Explainer</span>
+          </nav>
+          <div class="article-hero-meta">
+            <span class="tag tag--tools">AI Tools & Products</span>
+            <span class="eyebrow eyebrow--accent">Explainer</span>
+            <span class="eyebrow">10 min read</span>
+          </div>
+          <h1 class="article-hero-title">What Are AI Agents? A Practical Guide for Builders in 2026</h1>
+          <p class="article-hero-subtitle">How autonomous agents differ from chatbots, what frameworks actually work, and where they reliably fail.</p>
+          <div class="article-byline">
+            <div>By <strong>AI Glimpse Newsroom</strong></div><div>·</div>
+            <div><time datetime="2026-05-26T23:46:57.909Z" data-relative="false">May 26, 2026</time></div>
+          </div>
+        </div>
+      </section>
+      <section style="padding: var(--space-7) 0;">
+        <div class="container container--narrow">
+          <figure class="article-image"><img src="/images/articles/what-are-ai-agents-practical-guide-2026.jpg" alt="What Are AI Agents? A Practical Guide for Builders in 2026" loading="eager" width="1200" height="630"></figure>
+          <div class="article-body"><p>An AI agent is a system that perceives its environment through sensors or APIs, formulates a goal, breaks that goal into discrete tasks, executes those tasks by calling tools or functions, observes the outcomes, and adapts its strategy based on feedback. Unlike a chatbot, which responds to a single user query and stops, an agent operates autonomously across multiple steps, retrying failed actions, delegating to other agents, and persisting toward a goal without human intervention between each decision.</p>
+
+<h2>Why this matters now</h2>
+
+<p>In 2024 and 2025, LLMs became reliable enough at function calling that production agentic systems moved from research demos to operating real workloads. By early 2026, hundreds of enterprises have deployed agents in customer support, internal operations, and data pipelines, generating measurable ROI. The inflection point was not a breakthrough in model capability, but a shift in engineering practice: teams learned how to instrument agents with proper error handling, cost controls, and human oversight. The question is no longer whether agents work, but which problems they solve better than supervised automation or traditional software.</p>
+
+<p>For engineers and CTOs, this means agentic AI is now a category to evaluate alongside RPA, workflow engines, and APIs. Builders are asking: Should we use an agent or a state machine? When do we add a human loop? How do we measure agent reliability? These are practical questions with real cost and latency implications, not theoretical ones.</p>
+
+<h2>What actually defines an AI agent</h2>
+
+<p>An agent is defined by four properties: perception, planning, action, and feedback.</p>
+
+<ul>
+<li><strong>Perception:</strong> The agent reads its environment. This might be user input, database records, API responses, or sensor data. The key is that the agent sees outcomes of its previous actions.</li>
+<li><strong>Planning:</strong> The agent decides what to do next. For LLM-based agents, this means the model decides to call a function, ask for clarification, escalate, or report a result. Planning can be explicit (reasoning chains, step-by-step prompts) or implicit (emergent from the model's training).</li>
+<li><strong>Action:</strong> The agent does something in the world. It calls an API, writes to a database, sends an email, or triggers another system. Action is the agent's primary mechanism for making progress toward the goal.</li>
+<li><strong>Feedback:</strong> The agent observes the result of its action. Did the API call succeed? Did the database write work? Is the goal closer to complete? The feedback loop is critical. Without it, you have a one-shot tool, not an agent.</li>
+</ul>
+
+<p>This separates agents from related categories. A chatbot has perception and planning, but no autonomous action or feedback loop. A cron job or scheduled task has action but no perception or planning. An agent has all four, in sequence, usually multiple times before the goal is reached.</p>
+
+<h2>The role of tool use and function calling</h2>
+
+<p>Function calling is the technical mechanism that enables action. When you design an agent, you first define the tools it can use: a search function, a database query, a payment API, a code interpreter. You pass these tool definitions (name, description, parameters) to the LLM. The model, if it has been trained to support function calling, can output a request to invoke a specific function with specific arguments. The agent framework then executes that function, captures the result, and feeds it back to the model as context for the next decision.</p>
+
+<p>Without function calling, an LLM can only generate text. With it, the LLM becomes a planner that can reason about which tool to use, in which order, with which inputs. This is not autonomy in a philosophical sense, but it is autonomy in a practical sense: the system makes decisions without a human confirming each step.</p>
+
+<p>Modern LLMs, including Claude 3.5, GPT-4 turbo, and Llama 3, all support function calling. The format varies (OpenAI uses "tools" and "function_call", Anthropic uses "tools" and "tool_use" content blocks), but the pattern is consistent: define tools, let the model decide to call them, handle the result, loop.</p>
+
+<h2>Popular agent frameworks and when to use them</h2>
+
+<p>Several frameworks abstract away the repetitive work of building the perception-planning-action-feedback loop. The most used are LangChain, Anthropic's native tools API, and AutoGen. Each has different strengths.</p>
+
+<ul>
+<li><strong>LangChain:</strong> The most mature and widely adopted framework. Supports multiple LLM providers, extensive tool integrations, memory management, and callback hooks for logging. Good for prototyping and when you need flexibility. Downside: it's heavy and abstraction can hide performance issues. Many teams start with LangChain and migrate to something lighter once they understand their use case.</li>
+<li><strong>Anthropic SDK with tools:</strong> Lightweight, explicitly designed for function calling. No magic. You define tools, you write the loop. Faster and cheaper than LangChain for simple agents, steeper learning curve, less ecosystem. Best for teams already on Anthropic and okay with lower-level control.</li>
+<li><strong>AutoGen (Microsoft):</strong> Specializes in multi-agent systems where agents collaborate. Each agent can talk to other agents and to the user. Good for complex workflows where you want to separate concerns (e.g., one agent researches, one writes, one reviews). Slower and more complex than single-agent systems but handles coordination.</li>
+<li><strong>Crew AI and LlamaIndex:</strong> Newer entrants focused on specific domains (Crew AI on structured workflows, LlamaIndex on RAG). Growing adoption but smaller ecosystems than LangChain.</li>
+<li><strong>Homegrown:</strong> Many teams with strong ML/infra teams build custom agents using Python and basic API calls. This is viable if you understand your tool set, control costs, and have time for maintenance. Not recommended for one or two engineers.</li>
+</ul>
+
+<p>For most engineers evaluating agents in 2026, start with LangChain (if you need ecosystem) or the Anthropic SDK (if you want control and lower cost). Both have solid production examples and active communities. Avoid building from scratch unless you have a specific performance or cost constraint that off-the-shelf tools can't meet.</p>
+
+<h2>Where agents succeed in production</h2>
+
+<p>The clearest wins are in domains where problems are well-defined but high-volume, where the cost of human handling is high, and where errors are recoverable. Real examples from 2025 and early 2026 deployments include:</p>
+
+<ul>
+<li><strong>Customer support:</strong> An agent reads a ticket, searches a knowledge base, retrieves relevant docs, drafts a response, and either sends it or escalates if confidence is low. Success rates (full resolution without escalation) range from 40% to 70% depending on domain. Cost per resolution: $0.05 to $0.20 vs. $10 to $50 for human. Used by Stripe, Shopify, and dozens of SaaS companies.</li>
+<li><strong>Internal IT and HR:</strong> Employee asks for a password reset or checks leave balance. Agent authenticates, queries the HR system, confirms, and processes. Success rate above 85% because the problem space is narrow and well-documented. Cost reduction: 60 to 80%.</li>
+<li><strong>Data extraction and classification:</strong> Agent reads an email or document, extracts fields (invoice number, amount, vendor), validates against schema, and logs to database. Reliability: 90%+ for clean documents, 50% to 70% for messy ones. Hybrid approach (agent pre-processes, human reviews) is standard.</li>
+<li><strong>Code generation and review:</strong> Engineer describes a feature. Agent writes code using an LLM, runs tests, flags failures. Success rate highly dependent on task scope. Simple fixes and unit test generation: 60%+. Large features: 10% to 30%.</li>
+<li><strong>Supply chain and inventory monitoring:</strong> Agent polls supplier APIs, detects anomalies (price changes, stock shortages), generates alerts, and suggests actions. Reliability: good as long as external APIs are stable.</li>
+</ul>
+
+<p>Common thread: all of these have clear success criteria, available tools or APIs, and well-defined failure modes. None require deep world knowledge or long-horizon reasoning across uncertain environments.</p>
+
+<h2>Where agents reliably break</h2>
+
+<p>Agents fail predictably in several scenarios, and engineering teams need to design for these failures rather than pretend they won't happen.</p>
+
+<ul>
+<li><strong>Hallucinated tool calls:</strong> The agent "decides" to call a function that doesn't exist, or calls a real function with invalid arguments, or invents data that was never returned. This happens because the LLM is predicting text, not reasoning formally. In production, you must validate all function calls before executing them, and gracefully handle when the model suggests an action you can't fulfill.</li>
+<li><strong>Infinite loops:</strong> The agent calls a function, gets a response, and then repeats the same call. Or it tries three different tools in sequence, all failing, and doesn't know how to exit. Protection: hard limits on the number of tool calls per goal (typically 5 to 15), timeout on total execution time, and explicit exit conditions ("if you've tried X times, report failure").</li>
+<li><strong>Cost explosions:</strong> A chatbot can answer one question for $0.01. An agent with 10 function calls, each triggering LLM inference, can cost $1 or more. In production, agents often burn through API budgets on rare edge cases or infinite loops. Mitigation: per-agent cost budgets, per-interaction caps, cheaper models for early reasoning steps, and careful monitoring.</li>
+<li><strong>Context window exhaustion:</strong> The agent accumulates information from tool calls. Each API response consumes tokens. By the 15th function call, the LLM has seen 50 KB of context and starts to lose coherence. Long workflows blow up the context window. Solutions: summarize tool results before feeding them back, use cheaper long-context models (Claude 200K), or break agents into smaller sub-agents with separate contexts.</li>
+<li><strong>Unreliable external systems:</strong> An agent is only as reliable as its tools. If the API it calls is down 1% of the time, the agent fails 1% of the time. If it has 10 dependencies, failure rate compounds. No amount of agentic sophistication fixes a flaky database or a rate-limited API. Design agents for graceful degradation: cache results, retry with backoff, have fallbacks.</li>
+<li><strong>Ambiguity and novel requests:</strong> Agents are pattern matchers trained on common scenarios. A user request that doesn't fit the training distribution (e.g., "I need something that's both urgent and not urgent") confuses the agent. It may spin in confusion or pick an arbitrary path. Human judgment is irreplaceable here.</li>
+</ul>
+
+<p>The harsh truth: agents are not more robust than traditional software. They are more flexible and require less code to build, but they fail in different ways and often in ways that are harder to debug. Budget for this. Design clear escalation paths to humans. Test extensively on edge cases before deploying to production.</p>
+
+<h2>The practical next steps for builders</h2>
+
+<p>If you are evaluating whether to build an agent for your team, follow this sequence.</p>
+
+<ol>
+<li><strong>Define the goal and success metrics clearly.</strong> "Reduce support tickets by 50%" is measurable. "Make customer support better" is not. If you can't define success, the agent will not help you achieve it.</li>
+<li><strong>Map the tool set.</strong> What data or APIs will the agent need access to? If the tools don't exist or are unreliable, the agent won't work. Build or stabilize the tools first.</li>
+<li><strong>Prototype in a framework (LangChain or Anthropic SDK) on a small dataset.</strong> Aim for a working agent in a few days, not a perfect one. Test it on 50 to 100 real examples from your domain.</li>
+<li><strong>Measure the baseline.</strong> What is the success rate on those 100 examples? 80%? 30%? This tells you if the problem is even suitable for agentic AI. If success rate is below 50%, the agent is not ready for production and may not ever be.</li>
+<li><strong>Plan for humans.</strong> No agent should run fully unsupervised in production on day one. Build a review or escalation path where humans see a sample of agent outputs and flag failures. Use that feedback to improve prompts or tool definitions.</li>
+<li><strong>Monitor relentlessly.</strong> Track cost per interaction, success rate over time, common failure modes. Agents degrade subtly: the model updates, API behavior changes, user input distribution shifts. You need observability to catch it.</li>
+</ol>
+
+<p>Agents are a legitimate tool for engineers in 2026, but they are not a magic solution. They excel at high-volume, well-defined, recoverable tasks where external tools are available and reliable. They fail when the problem is novel, ambiguous, or depends on tools that are flaky. Build with eyes open to both strengths and limitations, and design systems that degrade gracefully when agents reach their limits.</p></div>
+
+      <section style="margin-top: var(--space-8);">
+        <h2 style="margin-bottom: var(--space-5);">Frequently asked questions</h2>
+        <div class="faq-list">
+    <details class="faq-item" style="border-bottom:1px solid var(--color-rule);padding:var(--space-4) 0;">
+      <summary style="cursor:pointer;font-weight:600;font-size:var(--text-md);list-style:none;display:flex;justify-content:space-between;align-items:flex-start;gap:var(--space-3);">
+        <span>What is the difference between an AI agent and a chatbot?</span>
+        <span aria-hidden="true" style="color:var(--color-ink-faint);font-weight:400;flex-shrink:0;">+</span>
+      </summary>
+      <div style="margin-top:var(--space-3);color:var(--color-ink-muted);line-height:1.7;">
+        <p>A chatbot responds to user input within a single conversation turn. An AI agent operates autonomously, breaking goals into subtasks, calling tools or APIs, observing outcomes, and adjusting strategy without human intervention between steps. Agents have memory, planning capability, and can iterate.</p>
+      </div>
+    </details>
+
+    <details class="faq-item" style="border-bottom:1px solid var(--color-rule);padding:var(--space-4) 0;">
+      <summary style="cursor:pointer;font-weight:600;font-size:var(--text-md);list-style:none;display:flex;justify-content:space-between;align-items:flex-start;gap:var(--space-3);">
+        <span>Do AI agents require special models or frameworks?</span>
+        <span aria-hidden="true" style="color:var(--color-ink-faint);font-weight:400;flex-shrink:0;">+</span>
+      </summary>
+      <div style="margin-top:var(--space-3);color:var(--color-ink-muted);line-height:1.7;">
+        <p>No. Any LLM with function calling (GPT-4, Claude, Llama 2+) can power an agent. Frameworks like LangChain, Anthropic&#39;s SDK, and AutoGen simplify implementation, but you can build agents with basic API calls and a state machine.</p>
+      </div>
+    </details>
+
+    <details class="faq-item" style="border-bottom:1px solid var(--color-rule);padding:var(--space-4) 0;">
+      <summary style="cursor:pointer;font-weight:600;font-size:var(--text-md);list-style:none;display:flex;justify-content:space-between;align-items:flex-start;gap:var(--space-3);">
+        <span>What real production use cases exist for AI agents in 2026?</span>
+        <span aria-hidden="true" style="color:var(--color-ink-faint);font-weight:400;flex-shrink:0;">+</span>
+      </summary>
+      <div style="margin-top:var(--space-3);color:var(--color-ink-muted);line-height:1.7;">
+        <p>Customer support automation (routing, knowledge retrieval, escalation), code generation and debugging, financial analysis and reporting, supply chain monitoring, and IT ticket triage. Most are hybrid: agents handle 60-80% of cases, humans handle edge cases.</p>
+      </div>
+    </details>
+
+    <details class="faq-item" style="border-bottom:1px solid var(--color-rule);padding:var(--space-4) 0;">
+      <summary style="cursor:pointer;font-weight:600;font-size:var(--text-md);list-style:none;display:flex;justify-content:space-between;align-items:flex-start;gap:var(--space-3);">
+        <span>Why do AI agents fail in production?</span>
+        <span aria-hidden="true" style="color:var(--color-ink-faint);font-weight:400;flex-shrink:0;">+</span>
+      </summary>
+      <div style="margin-top:var(--space-3);color:var(--color-ink-muted);line-height:1.7;">
+        <p>Common failures include hallucinated tool calls, infinite loops, cost overruns (agents make many API calls), context window exhaustion, and inability to handle ambiguous or novel requests. Agents also struggle with multi-step reasoning across unreliable external systems.</p>
+      </div>
+    </details>
+
+    <details class="faq-item" style="border-bottom:1px solid var(--color-rule);padding:var(--space-4) 0;">
+      <summary style="cursor:pointer;font-weight:600;font-size:var(--text-md);list-style:none;display:flex;justify-content:space-between;align-items:flex-start;gap:var(--space-3);">
+        <span>What is function calling and why does it matter for agents?</span>
+        <span aria-hidden="true" style="color:var(--color-ink-faint);font-weight:400;flex-shrink:0;">+</span>
+      </summary>
+      <div style="margin-top:var(--space-3);color:var(--color-ink-muted);line-height:1.7;">
+        <p>Function calling lets an LLM decide when and how to invoke external code, APIs, or databases by returning structured output. It&#39;s the mechanism that lets agents take actions beyond text generation. Without it, agents are just chatbots.</p>
+      </div>
+    </details>
+
+    <details class="faq-item" style="border-bottom:1px solid var(--color-rule);padding:var(--space-4) 0;">
+      <summary style="cursor:pointer;font-weight:600;font-size:var(--text-md);list-style:none;display:flex;justify-content:space-between;align-items:flex-start;gap:var(--space-3);">
+        <span>How much does it cost to run an AI agent in production?</span>
+        <span aria-hidden="true" style="color:var(--color-ink-faint);font-weight:400;flex-shrink:0;">+</span>
+      </summary>
+      <div style="margin-top:var(--space-3);color:var(--color-ink-muted);line-height:1.7;">
+        <p>Costs vary widely. A simple support agent using GPT-4 turbo might cost $0.01 to $0.10 per ticket if it solves it in 1 to 5 API calls. Complex agents with long reasoning chains or many tool calls can cost dollars per interaction. Budget for 5 to 10x the cost of a single LLM call.</p>
+      </div>
+    </details>
+
+    <details class="faq-item" style="border-bottom:1px solid var(--color-rule);padding:var(--space-4) 0;">
+      <summary style="cursor:pointer;font-weight:600;font-size:var(--text-md);list-style:none;display:flex;justify-content:space-between;align-items:flex-start;gap:var(--space-3);">
+        <span>Should I use an existing agent framework or build from scratch?</span>
+        <span aria-hidden="true" style="color:var(--color-ink-faint);font-weight:400;flex-shrink:0;">+</span>
+      </summary>
+      <div style="margin-top:var(--space-3);color:var(--color-ink-muted);line-height:1.7;">
+        <p>Use a framework (LangChain, Anthropic, AutoGen) if you need rapid deployment and don&#39;t have hard latency constraints. Build from scratch if you need tight control over cost, latency, or behavior. Most teams start with a framework and migrate later.</p>
+      </div>
+    </details></div>
+      </section>
+          <p style="font-size:var(--text-xs);color:var(--color-ink-faint);margin-top:var(--space-6);padding-top:var(--space-4);border-top:1px solid var(--color-rule);">
+            An <strong>AI Glimpse</strong> explainer. We update this guide as the field evolves.
+          </p>
+        </div>
+      </section>
+    </article>
+  </main>
+  <div id="site-footer-slot"></div>
+  <script src="/js/chrome.js"></script>
+  <script src="/js/main.js"></script>
+</body>
+</html>

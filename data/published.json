@@ -1,6 +1,18 @@
 {
   "articles": [
     {
+      "slug": "what-are-ai-agents-practical-guide-2026",
+      "title": "What Are AI Agents? A Practical Guide for Builders in 2026",
+      "subtitle": "How autonomous agents differ from chatbots, what frameworks actually work, and where they reliably fail.",
+      "category": "tools",
+      "publishedAt": "2026-05-26T23:46:57.909Z",
+      "sourceUrl": null,
+      "sourceName": "AI Glimpse Newsroom",
+      "sourceTier": 0,
+      "image": "/images/articles/what-are-ai-agents-practical-guide-2026.jpg",
+      "evergreen": true
+    },
+    {
       "slug": "rag-vs-fine-tuning-vs-prompt-engineering",
       "title": "Fine-tuning vs RAG vs Prompt Engineering: A Decision Framework",
       "subtitle": "When to customize an LLM: cost, latency, and accuracy tradeoffs explained for engineering leaders.",
