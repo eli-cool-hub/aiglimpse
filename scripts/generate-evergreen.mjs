@@ -222,25 +222,48 @@ Return ONLY valid JSON (no markdown fences, no preamble):
   "meta_description": "Search snippet, 150 to 160 chars, must contain primary keyword"
 }`;
 
-  const res = await fetch('https://api.anthropic.com/v1/messages', {
-    method: 'POST',
-    headers: {
-      'Content-Type': 'application/json',
-      'x-api-key': ANTHROPIC_API_KEY,
-      'anthropic-version': '2023-06-01'
-    },
-    body: JSON.stringify({
-      model: 'claude-haiku-4-5-20251001',
-      max_tokens: 8000,
-      messages: [{ role: 'user', content: prompt }]
-    })
-  });
+  // Two attempts. Claude Haiku occasionally fumbles JSON escaping inside long
+  // body_html (stray unescaped quote or newline). Second attempt uses a stricter
+  // wrapper that emphasizes JSON correctness.
+  const attempts = [
+    prompt,
+    prompt + `\n\nIMPORTANT: Your last response had invalid JSON. The body_html field is a JSON STRING, every double quote inside it must be escaped as \\". Every newline must be escaped as \\n or omitted. Do not include literal newlines inside string values. Validate the JSON yourself before returning it.`
+  ];
 
-  if (!res.ok) throw new Error(`Claude API ${res.status}: ${await res.text()}`);
-  const data = await res.json();
-  const clean = data.content[0].text.trim().replace(/^```(?:json)?\s*|\s*```$/g, '');
-  const parsed = JSON.parse(clean);
-  return scrubDashes(parsed);
+  let lastError;
+  for (let i = 0; i < attempts.length; i++) {
+    const res = await fetch('https://api.anthropic.com/v1/messages', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'x-api-key': ANTHROPIC_API_KEY,
+        'anthropic-version': '2023-06-01'
+      },
+      body: JSON.stringify({
+        model: 'claude-haiku-4-5-20251001',
+        max_tokens: 8000,
+        messages: [{ role: 'user', content: attempts[i] }]
+      })
+    });
+
+    if (!res.ok) throw new Error(`Claude API ${res.status}: ${await res.text()}`);
+    const data = await res.json();
+    let clean = data.content[0].text.trim().replace(/^```(?:json)?\s*|\s*```$/g, '');
+    // Trim to outer braces in case the model included any stray text.
+    const firstBrace = clean.indexOf('{');
+    const lastBrace = clean.lastIndexOf('}');
+    if (firstBrace >= 0 && lastBrace > firstBrace) {
+      clean = clean.slice(firstBrace, lastBrace + 1);
+    }
+    try {
+      return scrubDashes(JSON.parse(clean));
+    } catch (e) {
+      lastError = e;
+      console.warn(`  ⚠ JSON parse failed (attempt ${i + 1}/${attempts.length}): ${e.message}`);
+      if (i === attempts.length - 1) throw new Error(`Claude returned invalid JSON after ${attempts.length} attempts: ${e.message}`);
+    }
+  }
+  throw lastError;
 }
 
 // ────────────────────────────────────────────────────────────────────────
