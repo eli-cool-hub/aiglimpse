@@ -234,6 +234,8 @@ function generateArticleHtml({ rewritten, source, slug, category, publishedAt, r
   <link rel="stylesheet" href="/css/main.css">
   <style>.reading-progress{position:fixed;top:0;left:0;height:3px;background:var(--color-accent);width:0%;z-index:200;transition:width 100ms linear;}</style>
   <script type="application/ld+json">${JSON.stringify(schema)}</script>
+  <meta name="google-site-verification" content="B132aMlqf1nssWYhjOSKUgSjmfwNWgPgtozZsHDxWlU" />
+  <meta name="msvalidate.01" content="F3762E555B3E685836AE39C90B79ECBF" />
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4263484717830850" crossorigin="anonymous"></script>
 </head>
 <body>

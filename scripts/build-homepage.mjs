@@ -279,6 +279,10 @@ function renderPage(articles) {
   }
   </script>
 
+  <!-- Search engine site ownership verification -->
+  <meta name="google-site-verification" content="B132aMlqf1nssWYhjOSKUgSjmfwNWgPgtozZsHDxWlU" />
+  <meta name="msvalidate.01" content="F3762E555B3E685836AE39C90B79ECBF" />
+
   <!-- Google AdSense (publisher ca-pub-4263484717830850) -->
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4263484717830850" crossorigin="anonymous"></script>
 
