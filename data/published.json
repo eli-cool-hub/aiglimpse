@@ -1,6 +1,94 @@
 {
   "articles": [
     {
+      "slug": "vatican-signals-shift-on-ai-ethics-by-elevating-anthropic-1dad1cc2",
+      "title": "Vatican Signals Shift on AI Ethics by Elevating Anthropic",
+      "subtitle": "The Catholic Church's first papal statement on artificial intelligence featured a major AI safety company, marking a rare convergence of religious authority and Silicon Valley.",
+      "category": "tools",
+      "publishedAt": "2026-05-26T20:46:03.000Z",
+      "sourceUrl": "https://www.wired.com/story/anthropic-christopher-olah-pope-ai-encyclical/",
+      "sourceName": "Wired AI",
+      "sourceTier": 2,
+      "image": "/images/articles/vatican-signals-shift-on-ai-ethics-by-elevating-anthropic-1dad1cc2.jpg"
+    },
+    {
+      "slug": "researchers-propose-sleep-like-memory-process-for-large-language-models-dc32a346",
+      "title": "Researchers Propose Sleep-Like Memory Process for Large Language Models",
+      "subtitle": "A new consolidation mechanism could help AI systems retain and organize information more efficiently, mimicking biological learning patterns.",
+      "category": "llms",
+      "publishedAt": "2026-05-26T15:36:24.000Z",
+      "sourceUrl": "https://arxiv.org/abs/2605.26099",
+      "sourceName": "Hacker News (157 pts)",
+      "sourceTier": 2,
+      "image": "/images/articles/researchers-propose-sleep-like-memory-process-for-large-language-models-dc32a346.jpg"
+    },
+    {
+      "slug": "intbot-and-certis-deploy-social-robots-across-singapore-cbb21cde",
+      "title": "IntBot and Certis Deploy Social Robots Across Singapore",
+      "subtitle": "A major partnership signals that humanoid robots are moving from pilot programs to real-world commercial deployment in service industries.",
+      "category": "robotics",
+      "publishedAt": "2026-05-26T13:00:30.000Z",
+      "sourceUrl": "https://www.therobotreport.com/intbot-certis-group-partner-scale-physical-ai-enterprises-across-singapore/",
+      "sourceName": "The Robot Report",
+      "sourceTier": 3,
+      "image": "/images/articles/intbot-and-certis-deploy-social-robots-across-singapore-cbb21cde.jpg"
+    },
+    {
+      "slug": "enterprise-ai-agents-demand-fundamental-organizational-overhaul-445a6a5e",
+      "title": "Enterprise AI Agents Demand Fundamental Organizational Overhaul",
+      "subtitle": "Most companies want to deploy autonomous AI systems but lack the structural readiness, forcing executives to rethink workflows from the ground up.",
+      "category": "research",
+      "publishedAt": "2026-05-26T14:54:10.000Z",
+      "sourceUrl": "https://www.technologyreview.com/2026/05/26/1137584/rethinking-organizational-design-in-the-age-of-agentic-ai/",
+      "sourceName": "MIT Technology Review AI",
+      "sourceTier": 2,
+      "image": "/images/articles/enterprise-ai-agents-demand-fundamental-organizational-overhaul-445a6a5e.jpg"
+    },
+    {
+      "slug": "affordable-3d-printed-robot-legs-open-new-frontiers-for-ai-research-4e103816",
+      "title": "Affordable 3D-Printed Robot Legs Open New Frontiers for AI Research",
+      "subtitle": "Hugging Face releases affordable humanoid legs built from accessible components, democratizing physical robotics experimentation for researchers worldwide.",
+      "category": "tools",
+      "publishedAt": "2026-05-26T17:16:07.000Z",
+      "sourceUrl": "https://arstechnica.com/ai/2026/05/3d-printable-humanoid-legs-let-robotics-experiments-run-wild/",
+      "sourceName": "Ars Technica AI",
+      "sourceTier": 2,
+      "image": "/images/articles/affordable-3d-printed-robot-legs-open-new-frontiers-for-ai-research-4e103816.jpg"
+    },
+    {
+      "slug": "openrouter-reaches-13b-valuation-as-multi-model-ai-adoption-accelerates-dffcea3d",
+      "title": "OpenRouter Reaches $1.3B Valuation as Multi-Model AI Adoption Accelerates",
+      "subtitle": "The API abstraction layer has secured $113M in new funding, reflecting explosive demand for flexible access to competing AI systems.",
+      "category": "business",
+      "publishedAt": "2026-05-26T18:33:01.000Z",
+      "sourceUrl": "https://techcrunch.com/2026/05/26/openrouter-more-than-doubles-valuation-to-1-3b-in-a-year/",
+      "sourceName": "TechCrunch AI",
+      "sourceTier": 2,
+      "image": "/images/articles/openrouter-reaches-13b-valuation-as-multi-model-ai-adoption-accelerates-dffcea3d.jpg"
+    },
+    {
+      "slug": "defining-ai-agent-architecture-key-terminology-every-developer-needs-a479bf7f",
+      "title": "Defining AI Agent Architecture: Key Terminology Every Developer Needs",
+      "subtitle": "Industry clarity on foundational concepts like harnesses and scaffolding is reshaping how teams build autonomous AI systems.",
+      "category": "tools",
+      "publishedAt": "2026-05-25T00:00:00.000Z",
+      "sourceUrl": "https://huggingface.co/blog/agent-glossary",
+      "sourceName": "Hugging Face",
+      "sourceTier": 1,
+      "image": "/images/articles/defining-ai-agent-architecture-key-terminology-every-developer-needs-a479bf7f.jpg"
+    },
+    {
+      "slug": "openai-integrates-major-brazilian-news-outlets-into-chatgpt-d5890e0e",
+      "title": "OpenAI Integrates Major Brazilian News Outlets Into ChatGPT",
+      "subtitle": "ChatGPT users now access journalism from Grupo Folha and Grupo UOL with full attribution, marking OpenAI's expansion into Latin American media partnerships.",
+      "category": "llms",
+      "publishedAt": "2026-05-25T00:00:00.000Z",
+      "sourceUrl": "https://openai.com/index/grupo-folha-grupo-uol-partnership",
+      "sourceName": "OpenAI",
+      "sourceTier": 1,
+      "image": "/images/articles/openai-integrates-major-brazilian-news-outlets-into-chatgpt-d5890e0e.jpg"
+    },
+    {
       "slug": "researchers-propose-sleep-mechanism-to-fix-llm-context-limits-94675ebb",
       "title": "Researchers Propose 'Sleep' Mechanism to Fix LLM Context Limits",
       "subtitle": "A new consolidation technique lets language models compress long conversations into persistent memory, solving a critical scaling bottleneck.",
@@ -181,6 +269,14 @@
     "f91fba4ba071571b",
     "ffa522c5cb142979",
     "78e840adf4acb8c2",
-    "94675ebb39ced2f3"
+    "94675ebb39ced2f3",
+    "d5890e0e7459c23d",
+    "a479bf7fca084d7a",
+    "dffcea3deb796c64",
+    "4e1038168cdfa2d7",
+    "445a6a5e4c96c9c9",
+    "cbb21cde47fd9617",
+    "dc32a346e0e0071d",
+    "1dad1cc20a9d21a9"
   ]
 }
