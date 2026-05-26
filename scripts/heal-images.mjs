@@ -1,12 +1,16 @@
 #!/usr/bin/env node
-// Heal articles that fell back to /images/placeholder.svg in earlier pipeline runs.
+// Heal articles whose hero image fell back to something less ideal in earlier runs.
 //
-// Reads data/published.json, finds every article whose `image` points at the generic
-// placeholder, regenerates a proper image via lib/images.mjs (which now uses turbo+flux
-// with a branded SVG fallback), updates published.json, rewrites the article HTML to
-// reference the new image, then rebuilds the homepage and category pages.
+// Targets:
+//   1. /images/placeholder.svg (the very first generic fallback)
+//   2. /images/articles/<slug>.svg (the branded SVG card, generated when AI services
+//      were unavailable). Once a real Pexels key is set, we can swap these for real
+//      topical photos.
 //
-// Idempotent: safe to run any time. Only touches articles still using the placeholder.
+// Usage:
+//   node scripts/heal-images.mjs              , only heal generic placeholders
+//   node scripts/heal-images.mjs --svg        , also re-attempt SVG-fallback articles
+//                                                (use after setting PEXELS_API_KEY)
 
 import fs from 'fs/promises';
 import path from 'path';
@@ -17,7 +21,9 @@ import { buildCategories } from './build-categories.mjs';
 const ROOT = path.resolve(process.cwd());
 const DATA_PATH = path.join(ROOT, 'data', 'published.json');
 const ARTICLES_DIR = path.join(ROOT, 'articles');
+const IMAGES_DIR = path.join(ROOT, 'images', 'articles');
 const PLACEHOLDER = '/images/placeholder.svg';
+const HEAL_SVG = process.argv.includes('--svg');
 
 async function rewriteArticleHtml(slug, oldUrl, newUrl) {
   const file = path.join(ARTICLES_DIR, `${slug}.html`);
@@ -35,23 +41,35 @@ async function rewriteArticleHtml(slug, oldUrl, newUrl) {
 
 const raw = await fs.readFile(DATA_PATH, 'utf8');
 const data = JSON.parse(raw);
-const targets = data.articles.filter(a => a.image === PLACEHOLDER);
+
+const targets = data.articles.filter(a => {
+  if (a.image === PLACEHOLDER) return true;
+  if (HEAL_SVG && typeof a.image === 'string' && a.image.endsWith('.svg') && a.image.startsWith('/images/articles/')) return true;
+  return false;
+});
 
 if (!targets.length) {
   console.log('Nothing to heal: all articles already have proper images.');
   process.exit(0);
 }
 
-console.log(`\nHealing ${targets.length} article(s) with placeholder images...\n`);
+console.log(`\nHealing ${targets.length} article(s)${HEAL_SVG ? ' (including SVG fallbacks)' : ''}...\n`);
 
 for (const a of targets) {
+  const oldUrl = a.image;
+  // When re-healing SVG fallbacks, we have to delete the existing .svg first so the
+  // generator does not short-circuit on the idempotency check.
+  if (HEAL_SVG && oldUrl !== PLACEHOLDER && oldUrl.endsWith('.svg')) {
+    const oldFile = path.join(IMAGES_DIR, path.basename(oldUrl));
+    try { await fs.unlink(oldFile); } catch {}
+  }
   const newUrl = await generateArticleImage(a.slug, a.title, a.category);
-  if (newUrl === PLACEHOLDER) {
-    console.log(`  ⚠ ${a.slug}: still failed`);
+  if (newUrl === oldUrl) {
+    console.log(`  = ${a.slug}: unchanged (${newUrl})`);
     continue;
   }
   a.image = newUrl;
-  const rewrote = await rewriteArticleHtml(a.slug, PLACEHOLDER, newUrl);
+  const rewrote = await rewriteArticleHtml(a.slug, oldUrl, newUrl);
   console.log(`  ✓ ${a.slug}: ${newUrl}${rewrote ? '' : ' (html not updated, file missing?)'}`);
 }
 

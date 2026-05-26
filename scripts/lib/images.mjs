@@ -1,9 +1,12 @@
 // AI image generation for article hero images.
 //
 // Strategy (in order, until one succeeds):
-//   1. Pollinations.ai `turbo` model , fast (3-10s), free, anonymous-friendly. Two attempts.
-//   2. Pollinations.ai `flux` model  , slower fallback. Two attempts.
-//   3. Branded per-slug SVG hero card, generated locally. Every article gets a UNIQUE
+//   1. Pollinations.ai `turbo` model , fast (3-10s) free AI generation, unique per slug.
+//   2. Pollinations.ai `flux` model  , slower free AI generation, unique per slug.
+//   3. Pexels stock photo search     , real, topical photo (free, requires PEXELS_API_KEY).
+//      Picks deterministically from the top results using the slug as a seed so the same
+//      article always gets the same photo, and similar articles get different photos.
+//   4. Branded per-slug SVG hero card, generated locally. Every article gets a UNIQUE
 //      editorial card seeded by its slug. Looks like a premium magazine cover so the
 //      site stays beautiful even if every external image service is down.
 //
@@ -63,6 +66,18 @@ const CATEGORY_LABEL = {
   robotics: 'Robotics'
 };
 
+// Stock-photo search keywords per category. These get combined with one or two salient
+// nouns extracted from the article title to bias the search toward topical photos.
+const CATEGORY_PEXELS_QUERY = {
+  llms:     'artificial intelligence neural network code',
+  research: 'science laboratory technology data',
+  tools:    'software developer technology screen',
+  business: 'business technology office strategy',
+  ethics:   'law judgment philosophy thinking',
+  industry: 'factory manufacturing automation industrial',
+  robotics: 'robot machine technology future'
+};
+
 const BRAND_ORANGE = '#ff4d2e';
 const PAPER = '#fafaf7';
 
@@ -118,6 +133,60 @@ function wrapTitle(title, maxChars = 28, maxLines = 3) {
     lines[lines.length - 1] = lines[lines.length - 1].replace(/\s+\S*$/, '') + '...';
   }
   return lines;
+}
+
+// ---------- Pexels stock photo ----------
+//
+// Searches Pexels by category-themed query, picks a result deterministically from the
+// slug seed (so two articles in the same category usually land on different photos),
+// downloads the 1200×627 landscape variant, and returns the bytes.
+//
+// Skipped automatically if PEXELS_API_KEY is not set.
+
+const PEXELS_TIMEOUT_MS = 12000;
+const PEXELS_PER_PAGE = 30;
+
+async function tryPexels(slug, title, category) {
+  const apiKey = process.env.PEXELS_API_KEY;
+  if (!apiKey) {
+    const err = new Error('PEXELS_API_KEY not set');
+    err.skipped = true;
+    throw err;
+  }
+
+  const baseQuery = CATEGORY_PEXELS_QUERY[category] || 'technology';
+  const query = baseQuery;
+
+  const searchUrl = `https://api.pexels.com/v1/search?query=${encodeURIComponent(query)}` +
+    `&orientation=landscape&size=large&per_page=${PEXELS_PER_PAGE}`;
+
+  const searchRes = await fetch(searchUrl, {
+    headers: {
+      Authorization: apiKey,
+      'User-Agent': 'AIGlimpseBot/1.0 (+https://aiglimpse.ai)'
+    },
+    signal: AbortSignal.timeout(PEXELS_TIMEOUT_MS)
+  });
+  if (!searchRes.ok) throw new Error(`search HTTP ${searchRes.status}`);
+  const data = await searchRes.json();
+  const photos = Array.isArray(data.photos) ? data.photos : [];
+  if (!photos.length) throw new Error('no results');
+
+  // Deterministic pick from results: same slug always lands on the same photo,
+  // different slugs land on different photos (most of the time).
+  const seed = seedFromSlug(slug);
+  const photo = photos[seed % photos.length];
+  const photoUrl = photo?.src?.landscape || photo?.src?.large2x || photo?.src?.large;
+  if (!photoUrl) throw new Error('no landscape variant');
+
+  const imgRes = await fetch(photoUrl, {
+    signal: AbortSignal.timeout(PEXELS_TIMEOUT_MS)
+  });
+  if (!imgRes.ok) throw new Error(`download HTTP ${imgRes.status}`);
+  const buf = Buffer.from(await imgRes.arrayBuffer());
+  if (buf.length < 5000) throw new Error('image too small');
+
+  return { buf, photographer: photo.photographer, photoPage: photo.url };
 }
 
 // ---------- Pollinations call ----------
@@ -226,15 +295,16 @@ export async function generateArticleImage(slug, title, category) {
   const prompt = buildPrompt(title, category);
   const seed = seedFromSlug(slug);
 
+  // Tier 1+2: try AI generation via Pollinations (each model, single attempt).
   for (const model of MODELS) {
     for (let attempt = 1; attempt <= MAX_ATTEMPTS_PER_MODEL; attempt++) {
       try {
         const buf = await tryPollinations(model, prompt, seed);
         await fs.writeFile(jpgPath, buf);
-        console.log(`    🎨 image generated via ${model} (${(buf.length / 1024).toFixed(0)} KB)`);
+        console.log(`    🎨 image via Pollinations ${model} (${(buf.length / 1024).toFixed(0)} KB)`);
         return `/images/articles/${slug}.jpg`;
       } catch (e) {
-        console.warn(`    ↻ ${model} attempt ${attempt}/${MAX_ATTEMPTS_PER_MODEL} failed: ${e.message}`);
+        console.warn(`    ↻ Pollinations ${model} failed: ${e.message}`);
         if (attempt < MAX_ATTEMPTS_PER_MODEL) {
           await new Promise(r => setTimeout(r, 1500 * attempt));
         }
@@ -242,9 +312,24 @@ export async function generateArticleImage(slug, title, category) {
     }
   }
 
-  // Final fallback: per-slug branded SVG card. Always succeeds, always unique.
+  // Tier 3: Pexels stock photo (real, topical, free, ~200/hr quota).
+  try {
+    const { buf, photographer } = await tryPexels(slug, title, category);
+    await fs.writeFile(jpgPath, buf);
+    const credit = photographer ? ` (photo by ${photographer})` : '';
+    console.log(`    📷 image via Pexels (${(buf.length / 1024).toFixed(0)} KB)${credit}`);
+    return `/images/articles/${slug}.jpg`;
+  } catch (e) {
+    if (e.skipped) {
+      console.warn('    ↻ Pexels skipped: PEXELS_API_KEY not set');
+    } else {
+      console.warn(`    ↻ Pexels failed: ${e.message}`);
+    }
+  }
+
+  // Tier 4: per-slug branded SVG card. Always succeeds, always unique.
   const svg = buildSvgCard(slug, title, category);
   await fs.writeFile(svgPath, svg);
-  console.log('    🎨 branded SVG card generated (AI services unavailable)');
+  console.log('    🎨 branded SVG card generated (all external services unavailable)');
   return `/images/articles/${slug}.svg`;
 }

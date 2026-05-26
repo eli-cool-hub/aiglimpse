@@ -12,6 +12,9 @@
     "build-all": "node scripts/build-homepage.mjs && node scripts/build-categories.mjs",
     "seed-demo": "node scripts/seed-demo.mjs",
     "reset-data": "node scripts/reset-data.mjs",
+    "heal-images": "node scripts/heal-images.mjs",
+    "heal-images-svg": "node scripts/heal-images.mjs --svg",
+    "test-images": "node scripts/test-images.mjs",
     "serve": "python3 -m http.server 8000"
   },
   "dependencies": {

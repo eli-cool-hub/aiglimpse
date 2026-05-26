@@ -48,16 +48,30 @@ Netlify → **Domain settings** → **Add custom domain** → `aiglimpse.ai`. Ea
 | Service | Purpose | Cost | Required? |
 |---|---|---|---|
 | **Anthropic API** | Rewrite articles with Claude Haiku 4.5 | ~$10-25/mo | ✅ Yes |
-| **NewsAPI.ai** | Extra breadth from licensed aggregator | ~$90/mo | ⚠️ Optional* |
-| **IndexNow** | Instant indexing on Bing/Yandex | Free | ⚠️ Optional |
+| **Pexels API** | Topical stock photos when AI image gen is rate-limited | Free, 200/hr | ⭐ Recommended |
+| **Netlify** | Auto-deploy fresh content after each cron run | Free | ⭐ Recommended |
+| **NewsAPI.ai** | Extra breadth from licensed aggregator | ~$90/mo | Optional* |
+| **IndexNow** | Instant indexing on Bing/Yandex | Free | Optional |
 
 *The pipeline works without NewsAPI.ai, RSS + arXiv + Hacker News + GitHub already give you 50-100 quality items per run for free.
+
+#### Get a Pexels API key (recommended, 60 seconds, free forever)
+
+1. Go to [pexels.com/api](https://www.pexels.com/api/)
+2. Click **Get Started**, sign in (Google/email/Facebook)
+3. Fill the form (any reasonable values, e.g. application name `AI Glimpse`, description `news site image fallback`)
+4. Copy the long key it shows (starts with letters and digits, ~56 chars)
+5. Add it as the GitHub Secret `PEXELS_API_KEY`
+
+The image pipeline tries Pollinations AI first (unique generative images); when Pollinations is rate-limited or slow, it falls back to a topical Pexels photo; if both fail, it generates a unique branded SVG card. Every article gets a hero image, every time.
 
 ### B) Add GitHub Secrets
 
 GitHub repo → **Settings** → **Secrets and variables** → **Actions** → **New repository secret**
 
 - `ANTHROPIC_API_KEY` *(required)*
+- `PEXELS_API_KEY` *(recommended)*
+- `NETLIFY_AUTH_TOKEN` + `NETLIFY_SITE_ID` *(recommended, enables auto-deploy)*
 - `NEWSAPI_KEY` *(optional)*
 - `INDEXNOW_KEY` *(optional)*
 

@@ -28,6 +28,7 @@ jobs:
           NEWSAPI_KEY: ${{ secrets.NEWSAPI_KEY }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           INDEXNOW_KEY: ${{ secrets.INDEXNOW_KEY }}
+          PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
           SITE_URL: https://aiglimpse.ai
         run: npm run fetch
 
