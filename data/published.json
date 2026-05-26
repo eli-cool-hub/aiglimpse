@@ -1,6 +1,94 @@
 {
   "articles": [
     {
+      "slug": "turning-chores-into-ai-training-data-the-hidden-cost-eeb43980",
+      "title": "Turning Chores Into AI Training Data: The Hidden Cost",
+      "subtitle": "As companies recruit everyday people to record household tasks for robot training, participants face unforeseen consequences of monetizing their daily routines.",
+      "category": "tools",
+      "publishedAt": "2026-05-26T10:00:00.000Z",
+      "sourceUrl": "https://www.wired.com/story/household-chores-training-robots/",
+      "sourceName": "Wired AI",
+      "sourceTier": 2,
+      "image": "/images/articles/turning-chores-into-ai-training-data-the-hidden-cost-eeb43980.jpg"
+    },
+    {
+      "slug": "critical-flaw-in-popular-python-framework-exposes-ai-agents-globally-dba2f662",
+      "title": "Critical Flaw in Popular Python Framework Exposes AI Agents Globally",
+      "subtitle": "A severe vulnerability in Starlette threatens millions of AI deployments and the credentials they manage for external services.",
+      "category": "tools",
+      "publishedAt": "2026-05-26T19:50:33.000Z",
+      "sourceUrl": "https://arstechnica.com/information-technology/2026/05/millions-of-ai-agents-imperiled-by-critical-vulnerability-in-open-source-package/",
+      "sourceName": "Ars Technica AI",
+      "sourceTier": 2,
+      "image": "/images/articles/critical-flaw-in-popular-python-framework-exposes-ai-agents-globally-dba2f662.jpg"
+    },
+    {
+      "slug": "manufacturings-digital-divide-when-to-deploy-simulation-vs-digital-twins-3104388d",
+      "title": "Manufacturing's Digital Divide: When to Deploy Simulation vs. Digital Twins",
+      "subtitle": "As factories embrace virtual tools, understanding the strategic differences between simulations and digital twins becomes critical for smart technology investment.",
+      "category": "robotics",
+      "publishedAt": "2026-05-25T14:23:45.000Z",
+      "sourceUrl": "https://www.therobotreport.com/simulation-versus-digital-twin-strategic-lens-on-virtual-manufacturing/",
+      "sourceName": "The Robot Report",
+      "sourceTier": 3,
+      "image": "/images/articles/manufacturings-digital-divide-when-to-deploy-simulation-vs-digital-twins-3104388d.jpg"
+    },
+    {
+      "slug": "three-major-ai-teams-unite-on-eagle-31-inference-acceleration-62073e49",
+      "title": "Three Major AI Teams Unite on Eagle 3.1 Inference Acceleration",
+      "subtitle": "Cross-team collaboration brings new optimization capabilities to open-source language model deployment infrastructure.",
+      "category": "tools",
+      "publishedAt": "2026-05-26T11:46:10.000Z",
+      "sourceUrl": "https://vllm.ai/blog/2026-05-26-eagle-3-1",
+      "sourceName": "Hacker News (63 pts)",
+      "sourceTier": 2,
+      "image": "/images/articles/three-major-ai-teams-unite-on-eagle-31-inference-acceleration-62073e49.jpg"
+    },
+    {
+      "slug": "ai-powered-thermal-system-shields-san-francisco-whales-from-ship-strikes-974c8504",
+      "title": "AI-Powered Thermal System Shields San Francisco Whales From Ship Strikes",
+      "subtitle": "A new detection network combining thermal imaging and machine learning aims to prevent collisions as climate-displaced gray whales increasingly stop in busy Bay Area waters.",
+      "category": "research",
+      "publishedAt": "2026-05-26T12:00:01.000Z",
+      "sourceUrl": "https://spectrum.ieee.org/whales-ai-thermal-camera-tracking",
+      "sourceName": "IEEE Spectrum AI",
+      "sourceTier": 2,
+      "image": "/images/articles/ai-powered-thermal-system-shields-san-francisco-whales-from-ship-strikes-974c8504.jpg"
+    },
+    {
+      "slug": "umg-and-tiktok-extend-partnership-to-police-ai-generated-music-756c4525",
+      "title": "UMG and TikTok Extend Partnership to Police AI-Generated Music",
+      "subtitle": "The music industry's largest label reinforces protections against unauthorized synthetic tracks on social platforms.",
+      "category": "business",
+      "publishedAt": "2026-05-26T14:55:05.000Z",
+      "sourceUrl": "https://techcrunch.com/2026/05/26/universal-music-group-and-tiktok-renew-agreement-to-combat-unauthorized-ai-music/",
+      "sourceName": "TechCrunch AI",
+      "sourceTier": 2,
+      "image": "/images/articles/umg-and-tiktok-extend-partnership-to-police-ai-generated-music-756c4525.jpg"
+    },
+    {
+      "slug": "indian-gig-workers-become-data-collectors-for-global-robot-training-bb04c84a",
+      "title": "Indian Gig Workers Become Data Collectors for Global Robot Training",
+      "subtitle": "A Berkeley-Stanford team is leveraging Asia's largest freelance workforce to gather physical AI training data at scale.",
+      "category": "business",
+      "publishedAt": "2026-05-26T16:00:00.000Z",
+      "sourceUrl": "https://techcrunch.com/2026/05/26/human-archive-taps-into-indias-services-startups-to-collect-data-for-physical-ai/",
+      "sourceName": "TechCrunch AI",
+      "sourceTier": 2,
+      "image": "/images/articles/indian-gig-workers-become-data-collectors-for-global-robot-training-bb04c84a.jpg"
+    },
+    {
+      "slug": "vatican-warns-against-ai-monopolies-in-historic-papal-letter-c91a6e9b",
+      "title": "Vatican Warns Against AI Monopolies in Historic Papal Letter",
+      "subtitle": "Pope Leo XIV's inaugural encyclical raises alarms about technological concentration among multinational corporations.",
+      "category": "tools",
+      "publishedAt": "2026-05-26T20:17:47.000Z",
+      "sourceUrl": "https://www.wired.com/story/what-pope-leo-xivs-first-encyclical-says-about-the-power-of-ai/",
+      "sourceName": "Wired AI",
+      "sourceTier": 2,
+      "image": "/images/articles/vatican-warns-against-ai-monopolies-in-historic-papal-letter-c91a6e9b.jpg"
+    },
+    {
       "slug": "vatican-signals-shift-on-ai-ethics-by-elevating-anthropic-1dad1cc2",
       "title": "Vatican Signals Shift on AI Ethics by Elevating Anthropic",
       "subtitle": "The Catholic Church's first papal statement on artificial intelligence featured a major AI safety company, marking a rare convergence of religious authority and Silicon Valley.",
@@ -277,6 +365,14 @@
     "445a6a5e4c96c9c9",
     "cbb21cde47fd9617",
     "dc32a346e0e0071d",
-    "1dad1cc20a9d21a9"
+    "1dad1cc20a9d21a9",
+    "c91a6e9b9a7fabe3",
+    "bb04c84a5fe66a5e",
+    "756c4525ef4303a1",
+    "974c85045ab4e298",
+    "62073e49f4f04a9d",
+    "3104388d94a10a03",
+    "dba2f66217af5051",
+    "eeb4398038c45d2f"
   ]
 }
