@@ -172,6 +172,76 @@ Return ONLY valid JSON (no markdown fences, no preamble):
   return scrubDashes(parsed);
 }
 
+// Internal cross-linking: rewrite the first occurrence of select topical phrases
+// inside an article body into a link to the matching category page. Boosts crawl
+// depth (Googlebot follows links across articles), improves topical clustering for
+// SEO, and helps readers discover related coverage.
+//
+// Conservative on purpose:
+//   • Only the FIRST occurrence of each phrase is linked (no link-spam look)
+//   • At most 3 internal links added per article
+//   • Never link inside existing <a> tags, headings, or blockquotes
+//   • Longest phrases checked first so "large language model" wins over "model"
+const INTERNAL_LINK_MAP = [
+  { phrase: 'large language models', url: '/categories/llms.html' },
+  { phrase: 'large language model', url: '/categories/llms.html' },
+  { phrase: 'language models', url: '/categories/llms.html' },
+  { phrase: 'language model', url: '/categories/llms.html' },
+  { phrase: 'humanoid robot', url: '/categories/robotics.html' },
+  { phrase: 'humanoid robots', url: '/categories/robotics.html' },
+  { phrase: 'AI research', url: '/categories/research.html' },
+  { phrase: 'AI safety', url: '/categories/ethics.html' },
+  { phrase: 'AI ethics', url: '/categories/ethics.html' },
+  { phrase: 'AI regulation', url: '/categories/ethics.html' },
+  { phrase: 'AI tools', url: '/categories/tools.html' },
+  { phrase: 'AI agents', url: '/categories/tools.html' },
+  { phrase: 'AI funding', url: '/categories/business.html' },
+  { phrase: 'AI startups', url: '/categories/business.html' },
+  { phrase: 'enterprise AI', url: '/categories/industry.html' }
+];
+
+function escapeRegex(s) {
+  return s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+}
+
+function addInternalLinks(html, currentCategory) {
+  if (typeof html !== 'string' || !html.length) return html;
+
+  // Step 1: hide existing anchors, headings, blockquotes behind placeholders so
+  // we never touch them. The list grows as we go, every link we add later also
+  // becomes a placeholder so subsequent phrases cannot match inside it (avoids
+  // nested-anchor invalid HTML).
+  const protectedSegments = [];
+  const stash = (snippet) => {
+    protectedSegments.push(snippet);
+    return `__PROTECT_${protectedSegments.length - 1}__`;
+  };
+  const protectByRegex = (re) => { html = html.replace(re, m => stash(m)); };
+  protectByRegex(/<a\b[^>]*>[\s\S]*?<\/a>/gi);
+  protectByRegex(/<h[1-6]\b[^>]*>[\s\S]*?<\/h[1-6]>/gi);
+  protectByRegex(/<blockquote\b[^>]*>[\s\S]*?<\/blockquote>/gi);
+
+  // Step 2: walk phrases longest-first. Replace first match of each phrase, then
+  // immediately stash the newly-created link so it cannot be nested into later.
+  let added = 0;
+  for (const { phrase, url } of INTERNAL_LINK_MAP) {
+    if (added >= 3) break;
+    if (currentCategory && url === `/categories/${currentCategory}.html`) continue;
+    const re = new RegExp(`\\b(${escapeRegex(phrase)})\\b`, 'i');
+    let inserted = false;
+    html = html.replace(re, (m) => {
+      if (inserted) return m;
+      inserted = true;
+      return stash(`<a href="${url}">${m}</a>`);
+    });
+    if (inserted) added++;
+  }
+
+  // Step 3: restore.
+  html = html.replace(/__PROTECT_(\d+)__/g, (_, i) => protectedSegments[parseInt(i, 10)]);
+  return html;
+}
+
 // Safety net: even if the model slips an em or en dash through, scrub it before publish.
 // Em dash -> comma, en dash -> hyphen, also normalize curly quotes to straight.
 function scrubDashes(obj) {
@@ -330,14 +400,27 @@ ${rssItems}
 async function pingIndexNow(urls) {
   const key = process.env.INDEXNOW_KEY;
   if (!key) return;
+  const host = new URL(SITE_URL).hostname;
+  const body = {
+    host,
+    key,
+    keyLocation: `${SITE_URL}/${key}.txt`,
+    urlList: urls
+  };
   try {
-    await fetch('https://api.indexnow.org/indexnow', {
+    const res = await fetch('https://api.indexnow.org/indexnow', {
       method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ host: new URL(SITE_URL).hostname, key, urlList: urls })
+      headers: { 'Content-Type': 'application/json; charset=utf-8' },
+      body: JSON.stringify(body)
     });
-    console.log(`✓ Pinged IndexNow with ${urls.length} URLs`);
-  } catch (e) { console.warn('IndexNow ping failed:', e.message); }
+    if (res.ok) {
+      console.log(`✓ IndexNow pinged ${urls.length} URLs (${res.status})`);
+    } else {
+      console.warn(`IndexNow returned ${res.status}: ${await res.text()}`);
+    }
+  } catch (e) {
+    console.warn('IndexNow ping failed:', e.message);
+  }
 }
 
 async function main() {
@@ -384,6 +467,7 @@ async function main() {
     try {
       const rewritten = await rewriteArticle(item);
       const category = classify(`${rewritten.title} ${rewritten.body_html}`, item.suggestedCategory);
+      rewritten.body_html = addInternalLinks(rewritten.body_html, category);
       const hash = contentHash(item);
       const slug = slugify(rewritten.title) + '-' + hash.substring(0, 8);
       const publishedAt = new Date(item.publishedAt);
