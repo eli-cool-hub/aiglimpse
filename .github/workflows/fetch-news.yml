@@ -32,13 +32,24 @@ jobs:
         run: npm run fetch
 
       - name: Commit and push
+        id: commit
         run: |
           git config user.name "AI Glimpse Bot"
           git config user.email "bot@aiglimpse.ai"
           git add articles/ data/ sitemap.xml rss.xml index.html categories/ images/articles/
           if git diff --staged --quiet; then
             echo "No new articles to commit."
+            echo "changed=false" >> "$GITHUB_OUTPUT"
           else
             git commit -m "🤖 Auto-publish: $(date -u +'%Y-%m-%d %H:%M UTC')"
             git push
+            echo "changed=true" >> "$GITHUB_OUTPUT"
           fi
+
+      - name: Deploy to Netlify
+        if: steps.commit.outputs.changed == 'true' && env.NETLIFY_AUTH_TOKEN != '' && env.NETLIFY_SITE_ID != ''
+        env:
+          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
+        run: |
+          npx --yes netlify-cli@latest deploy --prod --dir . --message "Auto-publish $(date -u +'%Y-%m-%d %H:%M UTC')"
