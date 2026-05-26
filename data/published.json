@@ -1,6 +1,30 @@
 {
   "articles": [
     {
+      "slug": "how-large-language-models-work-clear-explainer",
+      "title": "How Large Language Models Work: A Technical Explainer",
+      "subtitle": "Understand tokens, attention, and next-token prediction without the PhD-level math.",
+      "category": "research",
+      "publishedAt": "2026-05-26T23:59:02.514Z",
+      "sourceUrl": null,
+      "sourceName": "AI Glimpse Newsroom",
+      "sourceTier": 0,
+      "image": "/images/articles/how-large-language-models-work-clear-explainer.jpg",
+      "evergreen": true
+    },
+    {
+      "slug": "gpt-5-vs-claude-4-5-vs-gemini-ultra-2026",
+      "title": "GPT-5 vs Claude 4.5 vs Gemini Ultra: Choose the Right LLM",
+      "subtitle": "A technical comparison for production teams selecting a frontier model in 2026",
+      "category": "llms",
+      "publishedAt": "2026-05-26T23:58:17.710Z",
+      "sourceUrl": null,
+      "sourceName": "AI Glimpse Newsroom",
+      "sourceTier": 0,
+      "image": "/images/articles/gpt-5-vs-claude-4-5-vs-gemini-ultra-2026.jpg",
+      "evergreen": true
+    },
+    {
       "slug": "what-are-ai-agents-practical-guide-2026",
       "title": "What Are AI Agents? A Practical Guide for Builders in 2026",
       "subtitle": "How autonomous agents differ from chatbots, what frameworks actually work, and where they reliably fail.",
