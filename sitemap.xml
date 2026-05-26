@@ -1,65 +1,76 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
+  <url><loc>https://aiglimpse.ai/</loc><changefreq>hourly</changefreq><priority>1</priority></url>
+  <url><loc>https://aiglimpse.ai/categories/llms.html</loc><changefreq>hourly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://aiglimpse.ai/categories/research.html</loc><changefreq>hourly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://aiglimpse.ai/categories/tools.html</loc><changefreq>hourly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://aiglimpse.ai/categories/business.html</loc><changefreq>hourly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://aiglimpse.ai/categories/ethics.html</loc><changefreq>hourly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://aiglimpse.ai/categories/industry.html</loc><changefreq>hourly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://aiglimpse.ai/categories/robotics.html</loc><changefreq>hourly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://aiglimpse.ai/pages/about.html</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://aiglimpse.ai/pages/contact.html</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
   <url>
-    <loc>https://aiglimpse.ai/</loc>
-    <changefreq>hourly</changefreq>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://aiglimpse.ai/categories/llms.html</loc>
-    <changefreq>hourly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://aiglimpse.ai/categories/research.html</loc>
-    <changefreq>hourly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://aiglimpse.ai/categories/tools.html</loc>
-    <changefreq>hourly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://aiglimpse.ai/categories/business.html</loc>
-    <changefreq>hourly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://aiglimpse.ai/categories/ethics.html</loc>
-    <changefreq>hourly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://aiglimpse.ai/categories/industry.html</loc>
-    <changefreq>hourly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://aiglimpse.ai/categories/robotics.html</loc>
-    <changefreq>hourly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://aiglimpse.ai/pages/about.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://aiglimpse.ai/pages/contact.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://aiglimpse.ai/articles/sample-1.html</loc>
+    <loc>https://aiglimpse.ai/articles/new-technique-speeds-up-ai-image-generation-while-boosting-quality-7fd44e35.html</loc>
     <news:news>
-      <news:publication>
-        <news:name>AI Glimpse</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-25T14:30:00Z</news:publication_date>
-      <news:title>OpenAI ships GPT-5 Turbo, claims 40% gain on complex reasoning benchmarks</news:title>
+      <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-05-25T17:59:21.000Z</news:publication_date>
+      <news:title>New Technique Speeds Up AI Image Generation While Boosting Quality</news:title>
     </news:news>
+    <changefreq>daily</changefreq><priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://aiglimpse.ai/articles/helix4d-tackles-video-to-4d-mesh-generations-hardest-problems-1e0eb59c.html</loc>
+    <news:news>
+      <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-05-25T17:59:22.000Z</news:publication_date>
+      <news:title>Helix4D Tackles Video-to-4D Mesh Generation's Hardest Problems</news:title>
+    </news:news>
+    <changefreq>daily</changefreq><priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://aiglimpse.ai/articles/new-framework-accelerates-development-of-multimodal-ai-models-f5bf9aac.html</loc>
+    <news:news>
+      <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-05-25T17:59:28.000Z</news:publication_date>
+      <news:title>New Framework Accelerates Development of Multimodal AI Models</news:title>
+    </news:news>
+    <changefreq>daily</changefreq><priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://aiglimpse.ai/articles/ai-research-building-better-agent-architecture-beyond-raw-model-power-645c1ef2.html</loc>
+    <news:news>
+      <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-05-25T17:59:36.000Z</news:publication_date>
+      <news:title>AI Research: Building Better Agent Architecture Beyond Raw Model Power</news:title>
+    </news:news>
+    <changefreq>daily</changefreq><priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://aiglimpse.ai/articles/new-framework-generates-photorealistic-driving-scenarios-for-ai-training-1f4050cb.html</loc>
+    <news:news>
+      <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-05-25T17:59:48.000Z</news:publication_date>
+      <news:title>New Framework Generates Photorealistic Driving Scenarios for AI Training</news:title>
+    </news:news>
+    <changefreq>daily</changefreq><priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://aiglimpse.ai/articles/new-platform-lets-ai-agents-train-on-mobile-apps-at-scale-c85911de.html</loc>
+    <news:news>
+      <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-05-25T17:59:49.000Z</news:publication_date>
+      <news:title>New Platform Lets AI Agents Train on Mobile Apps at Scale</news:title>
+    </news:news>
+    <changefreq>daily</changefreq><priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://aiglimpse.ai/articles/new-ai-method-turns-3d-scene-images-into-physics-ready-models-b4629f45.html</loc>
+    <news:news>
+      <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-05-25T17:59:53.000Z</news:publication_date>
+      <news:title>New AI Method Turns 3D Scene Images Into Physics-Ready Models</news:title>
+    </news:news>
+    <changefreq>daily</changefreq><priority>0.8</priority>
   </url>
 </urlset>

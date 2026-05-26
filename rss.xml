@@ -1,23 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>AI Glimpse</title>
     <link>https://aiglimpse.ai/</link>
-    <description>Your daily glimpse into AI. Independent reporting on the people, products, and policies shaping artificial intelligence.</description>
+    <description>Your daily glimpse into AI</description>
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
-    <image>
-      <url>https://aiglimpse.ai/images/logo.svg</url>
-      <title>AI Glimpse</title>
-      <link>https://aiglimpse.ai/</link>
-    </image>
     <item>
-      <title>OpenAI ships GPT-5 Turbo, claims 40% gain on complex reasoning benchmarks</title>
-      <link>https://aiglimpse.ai/articles/sample-1.html</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/sample-1.html</guid>
-      <description>GPT-5 Turbo debuts with a 2M-token context, sharper reasoning, and aggressive pricing, putting fresh pressure on Anthropic and Google.</description>
-      <pubDate>Mon, 25 May 2026 14:30:00 GMT</pubDate>
-      <category>LLMs &amp; Chatbots</category>
+      <title>New Technique Speeds Up AI Image Generation While Boosting Quality</title>
+      <link>https://aiglimpse.ai/articles/new-technique-speeds-up-ai-image-generation-while-boosting-quality-7fd44e35.html</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-technique-speeds-up-ai-image-generation-while-boosting-quality-7fd44e35.html</guid>
+      <description>Researchers combine distillation and reinforcement learning to create faster text-to-image models that align better with human preferences.</description>
+      <pubDate>Mon, 25 May 2026 17:59:21 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
+      <title>Helix4D Tackles Video-to-4D Mesh Generation's Hardest Problems</title>
+      <link>https://aiglimpse.ai/articles/helix4d-tackles-video-to-4d-mesh-generations-hardest-problems-1e0eb59c.html</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/helix4d-tackles-video-to-4d-mesh-generations-hardest-problems-1e0eb59c.html</guid>
+      <description>New framework handles transparent materials and complex topology shifts that have stymied previous video-to-4D systems.</description>
+      <pubDate>Mon, 25 May 2026 17:59:22 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
+      <title>New Framework Accelerates Development of Multimodal AI Models</title>
+      <link>https://aiglimpse.ai/articles/new-framework-accelerates-development-of-multimodal-ai-models-f5bf9aac.html</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-framework-accelerates-development-of-multimodal-ai-models-f5bf9aac.html</guid>
+      <description>Researchers release Prism, a modular toolkit designed to streamline continuous learning in vision-language systems without requiring code rewrites.</description>
+      <pubDate>Mon, 25 May 2026 17:59:28 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
+      <title>AI Research: Building Better Agent Architecture Beyond Raw Model Power</title>
+      <link>https://aiglimpse.ai/articles/ai-research-building-better-agent-architecture-beyond-raw-model-power-645c1ef2.html</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/ai-research-building-better-agent-architecture-beyond-raw-model-power-645c1ef2.html</guid>
+      <description>New research argues that scaling AI agents depends as much on system design as foundation model improvements.</description>
+      <pubDate>Mon, 25 May 2026 17:59:36 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
+      <title>New Framework Generates Photorealistic Driving Scenarios for AI Training</title>
+      <link>https://aiglimpse.ai/articles/new-framework-generates-photorealistic-driving-scenarios-for-ai-training-1f4050cb.html</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-framework-generates-photorealistic-driving-scenarios-for-ai-training-1f4050cb.html</guid>
+      <description>Researchers develop a controllable system that synthesizes complex traffic scenes from simple layouts, advancing autonomous vehicle safety testing.</description>
+      <pubDate>Mon, 25 May 2026 17:59:48 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
+      <title>New Platform Lets AI Agents Train on Mobile Apps at Scale</title>
+      <link>https://aiglimpse.ai/articles/new-platform-lets-ai-agents-train-on-mobile-apps-at-scale-c85911de.html</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-platform-lets-ai-agents-train-on-mobile-apps-at-scale-c85911de.html</guid>
+      <description>Researchers release MobileGym, enabling faster training of AI systems that navigate smartphone interfaces through parallel simulation.</description>
+      <pubDate>Mon, 25 May 2026 17:59:49 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
+      <title>New AI Method Turns 3D Scene Images Into Physics-Ready Models</title>
+      <link>https://aiglimpse.ai/articles/new-ai-method-turns-3d-scene-images-into-physics-ready-models-b4629f45.html</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-ai-method-turns-3d-scene-images-into-physics-ready-models-b4629f45.html</guid>
+      <description>TriSplat eliminates expensive post-processing steps by directly generating simulation-compatible meshes from sparse camera views.</description>
+      <pubDate>Mon, 25 May 2026 17:59:53 GMT</pubDate>
+      <category>AI Research</category>
     </item>
   </channel>
 </rss>

@@ -1,4 +1,90 @@
 {
-  "articles": [],
-  "hashes": []
+  "articles": [
+    {
+      "slug": "new-technique-speeds-up-ai-image-generation-while-boosting-quality-7fd44e35",
+      "title": "New Technique Speeds Up AI Image Generation While Boosting Quality",
+      "subtitle": "Researchers combine distillation and reinforcement learning to create faster text-to-image models that align better with human preferences.",
+      "category": "research",
+      "publishedAt": "2026-05-25T17:59:21.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2605.26108v1",
+      "sourceName": "arXiv (Yushi Huang, Xiangxin Zhou, Ruoyu Wang, Chi Zhang, Jun Zhang…)",
+      "sourceTier": 1,
+      "image": "/images/placeholder.svg"
+    },
+    {
+      "slug": "helix4d-tackles-video-to-4d-mesh-generations-hardest-problems-1e0eb59c",
+      "title": "Helix4D Tackles Video-to-4D Mesh Generation's Hardest Problems",
+      "subtitle": "New framework handles transparent materials and complex topology shifts that have stymied previous video-to-4D systems.",
+      "category": "research",
+      "publishedAt": "2026-05-25T17:59:22.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2605.26109v1",
+      "sourceName": "arXiv (Jiraphon Yenphraphai, Jianqi Chen, Jian Wang, Gordon Qian, S…)",
+      "sourceTier": 1,
+      "image": "/images/placeholder.svg"
+    },
+    {
+      "slug": "new-framework-accelerates-development-of-multimodal-ai-models-f5bf9aac",
+      "title": "New Framework Accelerates Development of Multimodal AI Models",
+      "subtitle": "Researchers release Prism, a modular toolkit designed to streamline continuous learning in vision-language systems without requiring code rewrites.",
+      "category": "research",
+      "publishedAt": "2026-05-25T17:59:28.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2605.26110v1",
+      "sourceName": "arXiv (Jun-Tao Tang, Yu-Cheng Shi, Zhen-Hao Xie, Da-Wei Zhou)",
+      "sourceTier": 1,
+      "image": "/images/placeholder.svg"
+    },
+    {
+      "slug": "ai-research-building-better-agent-architecture-beyond-raw-model-power-645c1ef2",
+      "title": "AI Research: Building Better Agent Architecture Beyond Raw Model Power",
+      "subtitle": "New research argues that scaling AI agents depends as much on system design as foundation model improvements.",
+      "category": "research",
+      "publishedAt": "2026-05-25T17:59:36.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2605.26112v1",
+      "sourceName": "arXiv (Shangding Gu)",
+      "sourceTier": 1,
+      "image": "/images/placeholder.svg"
+    },
+    {
+      "slug": "new-framework-generates-photorealistic-driving-scenarios-for-ai-training-1f4050cb",
+      "title": "New Framework Generates Photorealistic Driving Scenarios for AI Training",
+      "subtitle": "Researchers develop a controllable system that synthesizes complex traffic scenes from simple layouts, advancing autonomous vehicle safety testing.",
+      "category": "research",
+      "publishedAt": "2026-05-25T17:59:48.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2605.26113v1",
+      "sourceName": "arXiv (Haiming Zhang, Junfei Zhou, Feng Jiang, Jingzhong Li, Zhengl…)",
+      "sourceTier": 1,
+      "image": "/images/placeholder.svg"
+    },
+    {
+      "slug": "new-platform-lets-ai-agents-train-on-mobile-apps-at-scale-c85911de",
+      "title": "New Platform Lets AI Agents Train on Mobile Apps at Scale",
+      "subtitle": "Researchers release MobileGym, enabling faster training of AI systems that navigate smartphone interfaces through parallel simulation.",
+      "category": "research",
+      "publishedAt": "2026-05-25T17:59:49.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2605.26114v1",
+      "sourceName": "arXiv (Dingbang Wu, Rui Hao, Haiyang Wang, Shuzhe Wu, Han Xiao, Zhe…)",
+      "sourceTier": 1,
+      "image": "/images/placeholder.svg"
+    },
+    {
+      "slug": "new-ai-method-turns-3d-scene-images-into-physics-ready-models-b4629f45",
+      "title": "New AI Method Turns 3D Scene Images Into Physics-Ready Models",
+      "subtitle": "TriSplat eliminates expensive post-processing steps by directly generating simulation-compatible meshes from sparse camera views.",
+      "category": "research",
+      "publishedAt": "2026-05-25T17:59:53.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2605.26115v1",
+      "sourceName": "arXiv (Weijie Wang, Zimu Li, Jinchuan Shi, Zeyu Zhang, Botao Ye, Ma…)",
+      "sourceTier": 1,
+      "image": "/images/articles/new-ai-method-turns-3d-scene-images-into-physics-ready-models-b4629f45.jpg"
+    }
+  ],
+  "hashes": [
+    "b4629f458020a0c7",
+    "c85911de54477d9a",
+    "1f4050cbec2c36cf",
+    "645c1ef2bd16779f",
+    "f5bf9aacba8aafa4",
+    "1e0eb59c9ec51200",
+    "7fd44e35fd991168"
+  ]
 }
