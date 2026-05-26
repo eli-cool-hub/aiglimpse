@@ -179,6 +179,11 @@ const CATEGORY_LABELS = {
 async function generateEvergreen(topic) {
   if (!ANTHROPIC_API_KEY) throw new Error('ANTHROPIC_API_KEY required');
 
+  // Two-section response format. The long body_html lives OUTSIDE the JSON
+  // envelope, separated by a literal "===BODY===" marker. This avoids the
+  // class of bug where Haiku drops a backslash-escape inside a multi-thousand-
+  // character JSON string, which is the most common failure mode for
+  // longform structured generation.
   const prompt = `You are a senior editor for AI Glimpse, an independent AI news publication competing with The Verge and The Information. You are writing an evergreen explainer, not breaking news.
 
 Topic: ${topic.title_seed}
@@ -188,82 +193,89 @@ Primary keywords (use naturally, never stuff): ${topic.keyword_focus.join(', ')}
 
 Write a definitive longform explainer that will rank for years.
 
-Length: 1500 to 2500 words in body_html (excluding the FAQ).
+Length: 1500 to 2500 words of body content (excluding the FAQ).
 
-Structure (use this exact skeleton, but substitute the topic):
+Structure:
 1. Lead paragraph: a clear, direct definition or thesis. No throat-clearing.
 2. Section "Why this matters now": 1 to 2 paragraphs anchoring the topic in 2026 reality.
 3. 4 to 6 H2 sections that walk through the substance. Each section opens with a one-sentence summary, then expands.
 4. A "Common pitfalls" or "When this fails" section. Be honest about limitations.
 5. A short closing paragraph that points to the practical next step.
-6. Separately, return a faq array with 5 to 7 question/answer pairs that capture long-tail queries adjacent to the topic. Answers should be 2 to 4 sentences each.
 
-Tone: authoritative, technically honest, slightly skeptical. We respect the reader's time. We don't oversell, we don't hand-wave. We use concrete numbers when we can.
+Tone: authoritative, technically honest, slightly skeptical. Respect the reader's time. Do not oversell, do not hand-wave. Use concrete numbers when you can.
 
-Format: HTML in body_html. Use <p>, <h2>, <ul>/<li>, <ol>/<li>, <blockquote>, <strong>. No <h1> (the page already has one). Do not include the FAQ inside body_html, return it separately in the faq field.
+Format: HTML for the body. Use <p>, <h2>, <ul>/<li>, <ol>/<li>, <blockquote>, <strong>. No <h1>. No FAQ inside the body.
 
 STYLE RULES (strictly enforced):
 - NEVER use em dashes ("—" / U+2014). Use a comma, period, colon, or parentheses.
 - NEVER use en dashes ("–" / U+2013). Use a hyphen or the word "to".
 - Standard ASCII hyphen "-" is fine for compound words.
 - Use straight quotes ("..." and '...'), not curly quotes.
-- No first-person plural marketing voice ("we believe", "we think"). Editorial third person.
+- Editorial third person, no first-person marketing voice.
 
-Return ONLY valid JSON (no markdown fences, no preamble):
+OUTPUT FORMAT (exact, no deviation):
+
+===META===
 {
-  "title": "Final headline, max 75 chars, must contain the primary keyword naturally",
-  "subtitle": "One-sentence deck explaining what this guide answers, max 200 chars",
-  "body_html": "<p>...</p><h2>...</h2>... (1500 to 2500 words, no FAQ, no h1)",
-  "faq": [
-    {"q": "Question phrased exactly how someone would search for it", "a": "2 to 4 sentence answer"},
-    ...
-  ],
+  "title": "Headline, max 75 chars, contains the primary keyword naturally",
+  "subtitle": "One-sentence deck, max 200 chars",
   "keywords": ["k1", "k2", "k3", "k4", "k5", "k6", "k7"],
-  "meta_description": "Search snippet, 150 to 160 chars, must contain primary keyword"
-}`;
+  "meta_description": "150 to 160 chars, contains primary keyword",
+  "faq": [
+    {"q": "Question as it would be searched", "a": "2 to 4 sentence answer"}
+  ]
+}
+===BODY===
+<p>Lead paragraph...</p>
+<h2>Why this matters now</h2>
+<p>...</p>
+<h2>Section heading</h2>
+<p>...</p>
+... (full HTML body, 1500 to 2500 words)
+===END===
 
-  // Two attempts. Claude Haiku occasionally fumbles JSON escaping inside long
-  // body_html (stray unescaped quote or newline). Second attempt uses a stricter
-  // wrapper that emphasizes JSON correctness.
-  const attempts = [
-    prompt,
-    prompt + `\n\nIMPORTANT: Your last response had invalid JSON. The body_html field is a JSON STRING, every double quote inside it must be escaped as \\". Every newline must be escaped as \\n or omitted. Do not include literal newlines inside string values. Validate the JSON yourself before returning it.`
-  ];
+Rules:
+- The META block contains ONLY valid JSON. Keep faq answers short, escape internal quotes as \\".
+- The BODY block is raw HTML with no JSON escaping needed.
+- Output the markers exactly as shown: "===META===", "===BODY===", "===END===" each on their own line.
+- Provide 5 to 7 FAQ items.`;
 
-  let lastError;
-  for (let i = 0; i < attempts.length; i++) {
-    const res = await fetch('https://api.anthropic.com/v1/messages', {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-        'x-api-key': ANTHROPIC_API_KEY,
-        'anthropic-version': '2023-06-01'
-      },
-      body: JSON.stringify({
-        model: 'claude-haiku-4-5-20251001',
-        max_tokens: 8000,
-        messages: [{ role: 'user', content: attempts[i] }]
-      })
-    });
+  const res = await fetch('https://api.anthropic.com/v1/messages', {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+      'x-api-key': ANTHROPIC_API_KEY,
+      'anthropic-version': '2023-06-01'
+    },
+    body: JSON.stringify({
+      model: 'claude-haiku-4-5-20251001',
+      max_tokens: 8000,
+      messages: [{ role: 'user', content: prompt }]
+    })
+  });
 
-    if (!res.ok) throw new Error(`Claude API ${res.status}: ${await res.text()}`);
-    const data = await res.json();
-    let clean = data.content[0].text.trim().replace(/^```(?:json)?\s*|\s*```$/g, '');
-    // Trim to outer braces in case the model included any stray text.
-    const firstBrace = clean.indexOf('{');
-    const lastBrace = clean.lastIndexOf('}');
-    if (firstBrace >= 0 && lastBrace > firstBrace) {
-      clean = clean.slice(firstBrace, lastBrace + 1);
-    }
-    try {
-      return scrubDashes(JSON.parse(clean));
-    } catch (e) {
-      lastError = e;
-      console.warn(`  ⚠ JSON parse failed (attempt ${i + 1}/${attempts.length}): ${e.message}`);
-      if (i === attempts.length - 1) throw new Error(`Claude returned invalid JSON after ${attempts.length} attempts: ${e.message}`);
-    }
+  if (!res.ok) throw new Error(`Claude API ${res.status}: ${await res.text()}`);
+  const data = await res.json();
+  const raw = data.content[0].text;
+
+  const metaMatch = raw.match(/===META===\s*([\s\S]*?)\s*===BODY===/);
+  const bodyMatch = raw.match(/===BODY===\s*([\s\S]*?)\s*===END===/);
+  if (!metaMatch || !bodyMatch) {
+    throw new Error(`Response did not contain META/BODY markers. First 400 chars: ${raw.slice(0, 400)}`);
   }
-  throw lastError;
+  let metaJson = metaMatch[1].trim().replace(/^```(?:json)?\s*|\s*```$/g, '');
+  const firstBrace = metaJson.indexOf('{');
+  const lastBrace = metaJson.lastIndexOf('}');
+  if (firstBrace >= 0 && lastBrace > firstBrace) metaJson = metaJson.slice(firstBrace, lastBrace + 1);
+
+  let meta;
+  try {
+    meta = JSON.parse(metaJson);
+  } catch (e) {
+    throw new Error(`META JSON parse failed: ${e.message}. Content: ${metaJson.slice(0, 300)}`);
+  }
+  meta.body_html = bodyMatch[1].trim();
+  return scrubDashes(meta);
 }
 
 // ────────────────────────────────────────────────────────────────────────
