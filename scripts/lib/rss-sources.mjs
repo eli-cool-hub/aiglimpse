@@ -1,47 +1,71 @@
 // RSS source aggregator, fetches from official AI company blogs and quality publications
 // Free. Hours faster than aggregators. Authoritative.
+//
+// IMPORTANT: Many publishers (Substack, Cloudflare-fronted sites, some CDNs) block
+// obvious bot User-Agents with 403 or 404. We use a real browser UA + Accept headers
+// to look like a normal reader fetching the feed.
 
 import { XMLParser } from 'fast-xml-parser';
 
 const parser = new XMLParser({
   ignoreAttributes: false,
   attributeNamePrefix: '@_',
-  textNodeName: '#text'
+  textNodeName: '#text',
+  // Disable entity expansion entirely. Some publisher feeds (Google Blogger via
+  // FeedBurner, for example) exceed the default 1000-entity limit. We don't rely
+  // on HTML entity decoding here anyway, stripHtml() handles that downstream.
+  processEntities: false
 });
 
-// Curated RSS feeds, the actual primary sources for AI news
+const BROWSER_UA = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36';
+
+// Curated RSS feeds. Diversified across 7 categories so the homepage doesn't get
+// dominated by a single topic when arXiv has a busy day.
+//
+// Removed (no longer publish RSS): Anthropic, Mistral AI, Meta AI.
+// Replaced with quality substacks + Crunchbase + dedicated robotics feeds.
 export const RSS_SOURCES = [
-  // === Tier 1: Frontier labs (highest priority) ===
-  { name: 'OpenAI', url: 'https://openai.com/blog/rss.xml', tier: 1, category: 'llms' },
-  { name: 'Anthropic', url: 'https://www.anthropic.com/news/rss.xml', tier: 1, category: 'llms' },
+  // === Tier 1: Frontier labs and authoritative publishers ===
+  { name: 'OpenAI', url: 'https://openai.com/news/rss.xml', tier: 1, category: 'llms' },
   { name: 'Google DeepMind', url: 'https://deepmind.google/blog/rss.xml', tier: 1, category: 'research' },
-  { name: 'Meta AI', url: 'https://ai.meta.com/blog/rss/', tier: 1, category: 'research' },
-  { name: 'Google AI Blog', url: 'https://blog.research.google/feeds/posts/default', tier: 1, category: 'research' },
+  { name: 'Google AI Blog', url: 'https://feeds.feedburner.com/blogspot/gJZg', tier: 1, category: 'research' },
   { name: 'Microsoft AI', url: 'https://blogs.microsoft.com/ai/feed/', tier: 1, category: 'business' },
   { name: 'Hugging Face', url: 'https://huggingface.co/blog/feed.xml', tier: 1, category: 'tools' },
-  { name: 'Mistral AI', url: 'https://mistral.ai/news/rss.xml', tier: 1, category: 'llms' },
 
   // === Tier 2: Quality AI-focused publications ===
   { name: 'MIT Technology Review AI', url: 'https://www.technologyreview.com/topic/artificial-intelligence/feed', tier: 2, category: 'research' },
   { name: 'VentureBeat AI', url: 'https://venturebeat.com/category/ai/feed/', tier: 2, category: 'business' },
   { name: 'The Verge AI', url: 'https://www.theverge.com/rss/ai-artificial-intelligence/index.xml', tier: 2, category: 'tools' },
   { name: 'TechCrunch AI', url: 'https://techcrunch.com/category/artificial-intelligence/feed/', tier: 2, category: 'business' },
-  { name: 'Ars Technica AI', url: 'https://arstechnica.com/ai/feed/', tier: 2, category: 'research' },
+  { name: 'Ars Technica AI', url: 'https://arstechnica.com/ai/feed/', tier: 2, category: 'tools' },
   { name: 'Wired AI', url: 'https://www.wired.com/feed/tag/ai/latest/rss', tier: 2, category: 'tools' },
   { name: 'IEEE Spectrum AI', url: 'https://spectrum.ieee.org/feeds/topic/artificial-intelligence.rss', tier: 2, category: 'research' },
+  { name: 'IEEE Spectrum Robotics', url: 'https://spectrum.ieee.org/feeds/topic/robotics.rss', tier: 2, category: 'robotics' },
+  { name: 'Crunchbase News', url: 'https://news.crunchbase.com/feed/', tier: 2, category: 'business' },
 
   // === Tier 3: Specialized + community ===
   { name: 'Import AI (Jack Clark)', url: 'https://importai.substack.com/feed', tier: 3, category: 'research' },
   { name: 'The Gradient', url: 'https://thegradient.pub/rss/', tier: 3, category: 'research' },
-  { name: 'Stratechery AI', url: 'https://stratechery.com/feed/', tier: 3, category: 'business' },
+  { name: 'Stratechery', url: 'https://stratechery.com/feed/', tier: 3, category: 'business' },
+  { name: 'Interconnects (Nathan Lambert)', url: 'https://www.interconnects.ai/feed', tier: 3, category: 'llms' },
+  { name: 'The Algorithmic Bridge', url: 'https://thealgorithmicbridge.substack.com/feed', tier: 3, category: 'llms' },
+  { name: 'One Useful Thing (Ethan Mollick)', url: 'https://www.oneusefulthing.org/feed', tier: 3, category: 'llms' },
+  { name: 'AI Snake Oil', url: 'https://www.aisnakeoil.com/feed', tier: 3, category: 'ethics' },
+  { name: 'Robohub', url: 'https://robohub.org/feed/', tier: 3, category: 'robotics' },
+  { name: 'The Robot Report', url: 'https://www.therobotreport.com/feed/', tier: 3, category: 'robotics' },
 ];
 
 // Parse a single RSS or Atom feed
 async function parseFeed(source) {
   try {
     const res = await fetch(source.url, {
-      headers: { 'User-Agent': 'AI Glimpse Newsroom Bot/1.0 (+https://aiglimpse.ai)' },
-      signal: AbortSignal.timeout(15000)
+      headers: {
+        'User-Agent': BROWSER_UA,
+        'Accept': 'application/rss+xml, application/atom+xml, application/xml;q=0.9, */*;q=0.8',
+        'Accept-Language': 'en-US,en;q=0.9'
+      },
+      signal: AbortSignal.timeout(15000),
+      redirect: 'follow'
     });
     if (!res.ok) {
       console.warn(`  ⚠ ${source.name}: HTTP ${res.status}`);

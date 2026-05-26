@@ -14,7 +14,7 @@
 
 import fs from 'fs/promises';
 import path from 'path';
-import { generateArticleImage } from './lib/images.mjs';
+import { generateArticleImage, resetImageSession } from './lib/images.mjs';
 import { buildHomepage } from './build-homepage.mjs';
 import { buildCategories } from './build-categories.mjs';
 
@@ -54,6 +54,7 @@ if (!targets.length) {
 }
 
 console.log(`\nHealing ${targets.length} article(s)${HEAL_SVG ? ' (including SVG fallbacks)' : ''}...\n`);
+resetImageSession();
 
 for (const a of targets) {
   const oldUrl = a.image;

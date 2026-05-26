@@ -23,7 +23,7 @@ import { fetchArxiv } from './lib/arxiv.mjs';
 import { fetchHackerNews, fetchGitHubTrending } from './lib/community.mjs';
 import { fetchNewsAPI } from './lib/newsapi.mjs';
 import { deduplicate, contentHash } from './lib/dedupe.mjs';
-import { generateArticleImage } from './lib/images.mjs';
+import { generateArticleImage, resetImageSession } from './lib/images.mjs';
 import { buildHomepage } from './build-homepage.mjs';
 import { buildCategories } from './build-categories.mjs';
 
@@ -35,6 +35,11 @@ const ANTHROPIC_API_KEY = process.env.ANTHROPIC_API_KEY;
 const NEWSAPI_KEY = process.env.NEWSAPI_KEY;
 const PUBLISHED_INDEX = path.join(DATA_DIR, 'published.json');
 const MAX_PER_RUN = parseInt(process.env.MAX_PER_RUN || '8', 10);
+
+// Per-category cap per cron run. Prevents a single source (arXiv on a busy day,
+// for example) from flooding the homepage with one topic. With cap=2 and
+// MAX_PER_RUN=8, every run reaches at least 4 different categories.
+const PER_CATEGORY_CAP = parseInt(process.env.PER_CATEGORY_CAP || '2', 10);
 
 const CATEGORIES = {
   llms: { name: 'LLMs & Chatbots', tag: 'llm', keywords: ['chatgpt', 'claude', 'gemini', 'llama', 'gpt', 'llm', 'language model', 'chatbot', 'mistral', 'deepseek', 'qwen'] },
@@ -48,13 +53,54 @@ const CATEGORIES = {
 
 function classify(text, suggested) {
   if (suggested && CATEGORIES[suggested]) return suggested;
-  const t = text.toLowerCase();
+  return classifyByKeywords(text);
+}
+
+// Pure keyword classification, ignores the source's `suggested` hint. We use this
+// pre-rewrite so a strong title signal (e.g. "EU AI Act") can override the source's
+// default category (e.g. arXiv defaults to research) before per-category caps apply.
+function classifyByKeywords(text) {
+  const t = String(text).toLowerCase();
   let best = 'tools', bestScore = 0;
   for (const [slug, cat] of Object.entries(CATEGORIES)) {
     const score = cat.keywords.reduce((s, kw) => s + (t.includes(kw) ? 1 : 0), 0);
     if (score > bestScore) { best = slug; bestScore = score; }
   }
   return best;
+}
+
+// Pre-rewrite category guess. Lets the round-robin distributor make a balanced pick
+// before we spend Claude tokens on rewriting. Final category (post-Claude) may differ.
+function preClassify(item) {
+  const titleHit = classifyByKeywords(item.title || '');
+  if (titleHit !== 'tools') return titleHit;
+  return item.suggestedCategory || 'tools';
+}
+
+// Round-robin pick from ranked items so the homepage shows a balanced category mix
+// instead of (for example) 8 arXiv research papers in a row.
+function distributeAcrossCategories(items, totalCap, perCatCap) {
+  const buckets = {};
+  for (const item of items) {
+    const cat = preClassify(item);
+    (buckets[cat] = buckets[cat] || []).push(item);
+  }
+  const selected = [];
+  const picks = {};
+  while (selected.length < totalCap) {
+    let pickedThisLoop = false;
+    for (const cat of Object.keys(buckets)) {
+      if (selected.length >= totalCap) break;
+      const bucket = buckets[cat];
+      if (!bucket.length) continue;
+      if ((picks[cat] || 0) >= perCatCap) continue;
+      selected.push(bucket.shift());
+      picks[cat] = (picks[cat] || 0) + 1;
+      pickedThisLoop = true;
+    }
+    if (!pickedThisLoop) break;
+  }
+  return { selected, picks };
 }
 
 function slugify(s) {
@@ -316,19 +362,22 @@ async function main() {
   const fresh = unique.filter(item => !published.hashes.includes(contentHash(item)));
   console.log(`  ✓ ${fresh.length} fresh items after cross-check with published index\n`);
 
-  console.log('PHASE 3: Rank & Select');
+  console.log('PHASE 3: Rank & Distribute');
   const ranked = fresh.sort((a, b) => {
     const tierDiff = (a.source.tier || 99) - (b.source.tier || 99);
     if (tierDiff !== 0) return tierDiff;
     return new Date(b.publishedAt) - new Date(a.publishedAt);
-  }).slice(0, MAX_PER_RUN);
-  console.log(`  ✓ Selected top ${ranked.length} for publication\n`);
+  });
+  const { selected, picks } = distributeAcrossCategories(ranked, MAX_PER_RUN, PER_CATEGORY_CAP);
+  const distribution = Object.entries(picks).map(([c, n]) => `${c}=${n}`).join(' ');
+  console.log(`  ✓ Selected ${selected.length} for publication (per-cat cap ${PER_CATEGORY_CAP}): ${distribution}\n`);
 
   console.log('PHASE 4: Rewrite & Publish');
   const newUrls = [];
   let count = 0;
+  resetImageSession();
 
-  for (const item of ranked) {
+  for (const item of selected) {
     try {
       const rewritten = await rewriteArticle(item);
       const category = classify(`${rewritten.title} ${rewritten.body_html}`, item.suggestedCategory);

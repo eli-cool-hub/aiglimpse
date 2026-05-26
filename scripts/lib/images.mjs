@@ -66,17 +66,56 @@ const CATEGORY_LABEL = {
   robotics: 'Robotics'
 };
 
-// Stock-photo search keywords per category. These get combined with one or two salient
-// nouns extracted from the article title to bias the search toward topical photos.
+// Stock-photo search keywords per category. These get combined with topical nouns
+// extracted from the article title so two articles in the same category don't end
+// up with similar-looking photos.
 const CATEGORY_PEXELS_QUERY = {
-  llms:     'artificial intelligence neural network code',
-  research: 'science laboratory technology data',
-  tools:    'software developer technology screen',
-  business: 'business technology office strategy',
-  ethics:   'law judgment philosophy thinking',
-  industry: 'factory manufacturing automation industrial',
-  robotics: 'robot machine technology future'
+  llms:     'artificial intelligence',
+  research: 'science laboratory',
+  tools:    'software developer',
+  business: 'business technology',
+  ethics:   'law policy',
+  industry: 'factory industrial',
+  robotics: 'robot technology'
 };
+
+// Stopwords stripped from article titles before they become Pexels search terms.
+// Two sets: generic English filler + AI-domain words that match boring stock photos.
+const TITLE_STOPWORDS = new Set([
+  'the','a','an','of','to','in','for','with','on','at','by','as','is','are','it','this','that','these','those','and','or','but','from','into','about','new','first','second','third','says','said','will','can','could','should','would','may','might','must','make','makes','made','let','lets','letting','use','uses','used','using','take','takes','taken','best','better','bigger','huge','massive','launches','launched','launching','releases','released','releasing','unveils','announces','announced','introduces','introduced','reports','report','reveals','revealed','tackles','fixes','speeds','accelerates','generates','propose','proposes','proposed','through','across','beyond','between','more','most','less','their','your','our','its','than','also','very','much','lets','helps','helping','help','build','builds','building','built','works','worked'
+]);
+const AI_STOPWORDS = new Set([
+  'ai','llm','llms','model','models','system','systems','approach','approaches','method','methods','technique','techniques','framework','frameworks','tool','tools','agent','agents','machine','learning','deep','neural','algorithm','algorithms','data','dataset','datasets','training','trained','train','inference','generative','generation','large','small','foundation','transformer','architecture','platform','platforms','research','researchers','study','paper','papers','benchmark','benchmarks'
+]);
+
+// Module-level set of Pexels photo IDs used during the current pipeline run.
+// Cleared by resetImageSession() at the start of a run, used by tryPexels to skip
+// any photo already shown for a different article in the same run.
+const _usedPhotoIds = new Set();
+export function resetImageSession() { _usedPhotoIds.clear(); }
+
+function extractTitleKeywords(title, maxWords = 3) {
+  const words = String(title || '')
+    .toLowerCase()
+    .replace(/[^\w\s-]/g, ' ')
+    .split(/\s+/)
+    .filter(w =>
+      w.length >= 4 &&
+      !/^\d+$/.test(w) &&
+      !TITLE_STOPWORDS.has(w) &&
+      !AI_STOPWORDS.has(w)
+    );
+  const seen = new Set();
+  const out = [];
+  for (const w of words) {
+    if (!seen.has(w)) {
+      seen.add(w);
+      out.push(w);
+    }
+    if (out.length >= maxWords) break;
+  }
+  return out;
+}
 
 const BRAND_ORANGE = '#ff4d2e';
 const PAPER = '#fafaf7';
@@ -146,6 +185,21 @@ function wrapTitle(title, maxChars = 28, maxLines = 3) {
 const PEXELS_TIMEOUT_MS = 12000;
 const PEXELS_PER_PAGE = 30;
 
+async function pexelsSearch(apiKey, query) {
+  const url = `https://api.pexels.com/v1/search?query=${encodeURIComponent(query)}` +
+    `&orientation=landscape&size=large&per_page=${PEXELS_PER_PAGE}`;
+  const res = await fetch(url, {
+    headers: {
+      Authorization: apiKey,
+      'User-Agent': 'AIGlimpseBot/1.0 (+https://aiglimpse.ai)'
+    },
+    signal: AbortSignal.timeout(PEXELS_TIMEOUT_MS)
+  });
+  if (!res.ok) throw new Error(`search HTTP ${res.status}`);
+  const data = await res.json();
+  return Array.isArray(data.photos) ? data.photos : [];
+}
+
 async function tryPexels(slug, title, category) {
   const apiKey = process.env.PEXELS_API_KEY;
   if (!apiKey) {
@@ -154,29 +208,41 @@ async function tryPexels(slug, title, category) {
     throw err;
   }
 
-  const baseQuery = CATEGORY_PEXELS_QUERY[category] || 'technology';
-  const query = baseQuery;
+  // Build a topical query: 2-3 meaningful nouns from the title + the category seed.
+  // If extraction yields nothing usable (very short or all-stopword title), fall
+  // back to just the category seed.
+  const keywords = extractTitleKeywords(title, 3);
+  const categorySeed = CATEGORY_PEXELS_QUERY[category] || 'technology';
+  const primaryQuery = [keywords.join(' '), categorySeed].filter(Boolean).join(' ').trim() || categorySeed;
+  const fallbackQuery = categorySeed;
 
-  const searchUrl = `https://api.pexels.com/v1/search?query=${encodeURIComponent(query)}` +
-    `&orientation=landscape&size=large&per_page=${PEXELS_PER_PAGE}`;
-
-  const searchRes = await fetch(searchUrl, {
-    headers: {
-      Authorization: apiKey,
-      'User-Agent': 'AIGlimpseBot/1.0 (+https://aiglimpse.ai)'
-    },
-    signal: AbortSignal.timeout(PEXELS_TIMEOUT_MS)
-  });
-  if (!searchRes.ok) throw new Error(`search HTTP ${searchRes.status}`);
-  const data = await searchRes.json();
-  const photos = Array.isArray(data.photos) ? data.photos : [];
+  // Try the topical query first, then the broader category-only query if the topical
+  // one returned no results. Many AI-specific terms (model names, paper acronyms) have
+  // zero Pexels matches, so the fallback keeps every article landing on a real photo.
+  let photos = await pexelsSearch(apiKey, primaryQuery);
+  let usedQuery = primaryQuery;
+  if (!photos.length && primaryQuery !== fallbackQuery) {
+    photos = await pexelsSearch(apiKey, fallbackQuery);
+    usedQuery = fallbackQuery;
+  }
   if (!photos.length) throw new Error('no results');
 
-  // Deterministic pick from results: same slug always lands on the same photo,
-  // different slugs land on different photos (most of the time).
+  // Pick a photo deterministically by slug seed, but skip any photo already used
+  // in this pipeline run so the homepage never shows the same image twice.
   const seed = seedFromSlug(slug);
-  const photo = photos[seed % photos.length];
-  const photoUrl = photo?.src?.landscape || photo?.src?.large2x || photo?.src?.large;
+  let chosen = null;
+  for (let offset = 0; offset < photos.length; offset++) {
+    const candidate = photos[(seed + offset) % photos.length];
+    if (candidate && !_usedPhotoIds.has(candidate.id)) {
+      chosen = candidate;
+      break;
+    }
+  }
+  // If every result has been used (rare: would need 30+ articles in one run on the
+  // same query), just take the seeded pick anyway, dupes are better than failures.
+  if (!chosen) chosen = photos[seed % photos.length];
+
+  const photoUrl = chosen?.src?.landscape || chosen?.src?.large2x || chosen?.src?.large;
   if (!photoUrl) throw new Error('no landscape variant');
 
   const imgRes = await fetch(photoUrl, {
@@ -186,7 +252,8 @@ async function tryPexels(slug, title, category) {
   const buf = Buffer.from(await imgRes.arrayBuffer());
   if (buf.length < 5000) throw new Error('image too small');
 
-  return { buf, photographer: photo.photographer, photoPage: photo.url };
+  _usedPhotoIds.add(chosen.id);
+  return { buf, photographer: chosen.photographer, photoPage: chosen.url, query: usedQuery };
 }
 
 // ---------- Pollinations call ----------
@@ -314,10 +381,10 @@ export async function generateArticleImage(slug, title, category) {
 
   // Tier 3: Pexels stock photo (real, topical, free, ~200/hr quota).
   try {
-    const { buf, photographer } = await tryPexels(slug, title, category);
+    const { buf, photographer, query } = await tryPexels(slug, title, category);
     await fs.writeFile(jpgPath, buf);
-    const credit = photographer ? ` (photo by ${photographer})` : '';
-    console.log(`    📷 image via Pexels (${(buf.length / 1024).toFixed(0)} KB)${credit}`);
+    const credit = photographer ? `, photo by ${photographer}` : '';
+    console.log(`    📷 Pexels [${query}] ${(buf.length / 1024).toFixed(0)} KB${credit}`);
     return `/images/articles/${slug}.jpg`;
   } catch (e) {
     if (e.skipped) {

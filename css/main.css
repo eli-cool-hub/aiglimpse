@@ -791,6 +791,14 @@ p { margin: 0; }
 .ad-zone--sidebar { min-height: 600px; }
 .ad-zone--inline { min-height: 280px; margin: var(--space-7) 0; }
 
+/* ----------  AD ZONES HIDDEN UNTIL ADSENSE APPROVAL  ----------
+   AI Glimpse is pre-monetization. Empty ad placeholders look broken to readers,
+   so all `.ad-zone` slots are hidden site-wide. When AdSense is approved:
+   1. Add the publisher script + slot IDs to the existing markup
+   2. Delete this block (the slots automatically reappear)
+   ------------------------------------------------------------- */
+.ad-zone { display: none !important; }
+
 /* ----------  ARTICLE PAGE  ---------- */
 .article-hero {
   padding: var(--space-7) 0 var(--space-6);
