@@ -2,8 +2,9 @@ name: Fetch AI News
 
 on:
   schedule:
-    # Every 30 minutes
-    - cron: '*/30 * * * *'
+    # Every 2 hours, top of the hour. Steady drip, not bursts.
+    # Google prefers consistent newsroom cadence over flooding for new domains.
+    - cron: '0 */2 * * *'
   workflow_dispatch: # allows manual trigger from GitHub UI
 
 jobs:
@@ -30,6 +31,10 @@ jobs:
           INDEXNOW_KEY: ${{ secrets.INDEXNOW_KEY }}
           PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
           SITE_URL: https://aiglimpse.ai
+          # Steady drip: 2 articles per run, max 1 per category per run.
+          # Times 12 runs/day = ~24 articles/day, balanced across topics.
+          MAX_PER_RUN: '2'
+          PER_CATEGORY_CAP: '1'
         run: npm run fetch
 
       - name: Commit and push
