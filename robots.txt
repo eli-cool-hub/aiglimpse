@@ -1,6 +1,71 @@
+# AI Glimpse, https://aiglimpse.ai
+# We welcome all major crawlers, search engines, and AI bots.
+# Articles are static HTML, free to index and reference with attribution.
+
 User-agent: *
 Allow: /
 Disallow: /scripts/
 Disallow: /data/
+
+# Major search engines (explicit allow for clarity)
+User-agent: Googlebot
+Allow: /
+User-agent: Googlebot-News
+Allow: /
+User-agent: Googlebot-Image
+Allow: /
+User-agent: Bingbot
+Allow: /
+User-agent: DuckDuckBot
+Allow: /
+User-agent: Applebot
+Allow: /
+User-agent: YandexBot
+Allow: /
+User-agent: Baiduspider
+Allow: /
+
+# AI / LLM training and answer-engine crawlers (explicit allow)
+User-agent: GPTBot
+Allow: /
+User-agent: ChatGPT-User
+Allow: /
+User-agent: OAI-SearchBot
+Allow: /
+User-agent: ClaudeBot
+Allow: /
+User-agent: Claude-Web
+Allow: /
+User-agent: anthropic-ai
+Allow: /
+User-agent: PerplexityBot
+Allow: /
+User-agent: Perplexity-User
+Allow: /
+User-agent: Google-Extended
+Allow: /
+User-agent: CCBot
+Allow: /
+User-agent: Bytespider
+Allow: /
+User-agent: meta-externalagent
+Allow: /
+User-agent: FacebookBot
+Allow: /
+User-agent: Amazonbot
+Allow: /
+User-agent: Applebot-Extended
+Allow: /
+User-agent: cohere-ai
+Allow: /
+User-agent: Diffbot
+Allow: /
+User-agent: YouBot
+Allow: /
+User-agent: ImagesiftBot
+Allow: /
+
+# Crawl politely, our pages are cheap to serve.
+Crawl-delay: 1
 
 Sitemap: https://aiglimpse.ai/sitemap.xml
