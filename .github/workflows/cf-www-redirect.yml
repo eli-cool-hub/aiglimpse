@@ -1,0 +1,86 @@
+name: "Cloudflare - Add www to apex 301 redirect"
+
+# Adds a Cloudflare Redirect Rule on the aiglimpse.ai zone so every
+# request to www.aiglimpse.ai/* is 301'd to https://aiglimpse.ai/<same path>.
+# Idempotent: if a rule with the same description already exists the
+# previous entrypoint ruleset is replaced cleanly with the canonical one.
+#
+# Required token scopes: Zone:Zone Settings:Edit (or Zone:Rulesets:Edit)
+# on the aiglimpse.ai zone, plus the existing Account:Pages:Edit.
+on:
+  workflow_dispatch:
+
+jobs:
+  redirect:
+    runs-on: ubuntu-latest
+    env:
+      CF_API: https://api.cloudflare.com/client/v4
+      CF_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+      ZONE_NAME: aiglimpse.ai
+    steps:
+      - name: Resolve zone id
+        id: zone
+        run: |
+          set -euo pipefail
+          ZONE_JSON=$(curl -sS -H "Authorization: Bearer $CF_TOKEN" \
+            "$CF_API/zones?name=$ZONE_NAME")
+          ZONE_ID=$(echo "$ZONE_JSON" | jq -r '.result[0].id // empty')
+          if [ -z "$ZONE_ID" ]; then
+            echo "::error::Could not resolve zone id for $ZONE_NAME"
+            echo "$ZONE_JSON" | jq .
+            exit 1
+          fi
+          echo "Zone id: $ZONE_ID"
+          echo "zone_id=$ZONE_ID" >> "$GITHUB_OUTPUT"
+
+      - name: Show current dynamic-redirect ruleset (before)
+        env:
+          ZONE_ID: ${{ steps.zone.outputs.zone_id }}
+        run: |
+          curl -sS -H "Authorization: Bearer $CF_TOKEN" \
+            "$CF_API/zones/$ZONE_ID/rulesets/phases/http_request_dynamic_redirect/entrypoint" \
+            | jq '{success, rules: .result.rules // []}'
+
+      - name: Install www -> apex redirect rule
+        env:
+          ZONE_ID: ${{ steps.zone.outputs.zone_id }}
+        run: |
+          set -euo pipefail
+          # PUT the entrypoint ruleset with our single rule. PUT replaces
+          # the whole ruleset for this phase, which is exactly what we
+          # want for idempotency.
+          BODY=$(cat <<'JSON'
+          {
+            "rules": [
+              {
+                "action": "redirect",
+                "action_parameters": {
+                  "from_value": {
+                    "status_code": 301,
+                    "target_url": {
+                      "expression": "concat(\"https://aiglimpse.ai\", http.request.uri.path)"
+                    },
+                    "preserve_query_string": true
+                  }
+                },
+                "expression": "(http.host eq \"www.aiglimpse.ai\")",
+                "description": "www to apex 301",
+                "enabled": true
+              }
+            ]
+          }
+          JSON
+          )
+          curl -sS -X PUT \
+            -H "Authorization: Bearer $CF_TOKEN" \
+            -H "Content-Type: application/json" \
+            "$CF_API/zones/$ZONE_ID/rulesets/phases/http_request_dynamic_redirect/entrypoint" \
+            -d "$BODY" | jq '{success, errors, rule_count: (.result.rules|length), first_rule: .result.rules[0]}'
+
+      - name: Verify
+        env:
+          ZONE_ID: ${{ steps.zone.outputs.zone_id }}
+        run: |
+          curl -sS -H "Authorization: Bearer $CF_TOKEN" \
+            "$CF_API/zones/$ZONE_ID/rulesets/phases/http_request_dynamic_redirect/entrypoint" \
+            | jq '.result.rules'
