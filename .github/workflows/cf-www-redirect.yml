@@ -46,10 +46,10 @@ jobs:
           ZONE_ID: ${{ steps.zone.outputs.zone_id }}
         run: |
           set -euo pipefail
-          # PUT the entrypoint ruleset with our single rule. PUT replaces
-          # the whole ruleset for this phase, which is exactly what we
-          # want for idempotency.
-          BODY=$(cat <<'JSON'
+          # Write the body to a file so curl reads it byte-for-byte from
+          # disk. Heredoc + bash variable expansion was eating indentation
+          # in CI and CF accepted "rules: []" silently.
+          cat > /tmp/rule.json <<'JSON'
           {
             "rules": [
               {
@@ -70,12 +70,18 @@ jobs:
             ]
           }
           JSON
-          )
+          # GitHub Actions heredoc preserves the leading spaces from
+          # block indentation. Strip them so the JSON parses.
+          sed -i 's/^          //' /tmp/rule.json
+          echo "--- payload sent ---"
+          cat /tmp/rule.json
+          echo "--- response ---"
           curl -sS -X PUT \
             -H "Authorization: Bearer $CF_TOKEN" \
             -H "Content-Type: application/json" \
             "$CF_API/zones/$ZONE_ID/rulesets/phases/http_request_dynamic_redirect/entrypoint" \
-            -d "$BODY" | jq '{success, errors, rule_count: (.result.rules|length), first_rule: .result.rules[0]}'
+            --data-binary @/tmp/rule.json \
+            | tee /tmp/rule-response.json | jq .
 
       - name: Verify
         env:
