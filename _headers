@@ -48,8 +48,11 @@
   Cache-Control: public, max-age=3600
 
 # IndexNow key file must be plain text so Bing/Yandex bots verify ownership.
-# Cloudflare evaluates /*.txt AFTER the more specific paths above, so the
-# robots/ads/llms blocks still win for those exact paths.
-/*.txt
+# Hardcoded by filename because Cloudflare _headers wildcards APPEND to the
+# more specific rules above instead of overriding them, which would have
+# duplicated Content-Type / Cache-Control on robots.txt and friends. The
+# IndexNow key is intentionally exposed at this URL anyway: that is how the
+# protocol proves domain ownership to Bing and Yandex.
+/9b162084f1a130c4f43ed483fff7458e.txt
   Content-Type: text/plain; charset=utf-8
   Cache-Control: public, max-age=86400
