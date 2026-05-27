@@ -1,0 +1,139 @@
+name: Cloudflare: attach custom domain (one-shot)
+
+# One-time job. Attaches aiglimpse.ai + www.aiglimpse.ai to the Pages
+# project and replaces the imported NS1/Netlify A records with the
+# CNAME records Cloudflare Pages actually wants. After it runs once
+# successfully, this workflow file can be deleted from the repo.
+#
+# Requires existing secrets CLOUDFLARE_API_TOKEN and CLOUDFLARE_ACCOUNT_ID.
+on:
+  workflow_dispatch:
+    inputs:
+      delete_workflow_after:
+        description: "Delete this workflow file once it succeeds (true/false)"
+        required: false
+        default: "false"
+        type: string
+
+jobs:
+  attach:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    env:
+      CF_API: https://api.cloudflare.com/client/v4
+      CF_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+      CF_ACCOUNT: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+      PROJECT: aiglimpse
+      APEX: aiglimpse.ai
+      WWW: www.aiglimpse.ai
+      PAGES_TARGET: aiglimpse.pages.dev
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Find zone id for ${{ env.APEX }}
+        id: zone
+        run: |
+          set -euo pipefail
+          ZONE_JSON=$(curl -sS -H "Authorization: Bearer $CF_TOKEN" \
+            "$CF_API/zones?name=$APEX")
+          echo "$ZONE_JSON" | jq -c '{success: .success, count: (.result|length), errors: .errors}'
+          ZONE_ID=$(echo "$ZONE_JSON" | jq -r '.result[0].id // empty')
+          if [ -z "$ZONE_ID" ]; then
+            echo "::error::Zone $APEX not found. Has it been added to this Cloudflare account?"
+            exit 1
+          fi
+          echo "zone_id=$ZONE_ID" >> "$GITHUB_OUTPUT"
+          echo "Zone id: $ZONE_ID"
+
+      - name: Attach apex domain to Pages project
+        run: |
+          set -euo pipefail
+          RES=$(curl -sS -X POST \
+            -H "Authorization: Bearer $CF_TOKEN" \
+            -H "Content-Type: application/json" \
+            "$CF_API/accounts/$CF_ACCOUNT/pages/projects/$PROJECT/domains" \
+            -d "{\"name\":\"$APEX\"}")
+          echo "$RES" | jq .
+          OK=$(echo "$RES" | jq -r '.success')
+          # Tolerate "already exists" so the workflow stays idempotent.
+          if [ "$OK" != "true" ] && ! echo "$RES" | grep -qi "already"; then
+            echo "::error::Failed to attach $APEX"
+            exit 1
+          fi
+
+      - name: Attach www domain to Pages project
+        run: |
+          set -euo pipefail
+          RES=$(curl -sS -X POST \
+            -H "Authorization: Bearer $CF_TOKEN" \
+            -H "Content-Type: application/json" \
+            "$CF_API/accounts/$CF_ACCOUNT/pages/projects/$PROJECT/domains" \
+            -d "{\"name\":\"$WWW\"}")
+          echo "$RES" | jq .
+          OK=$(echo "$RES" | jq -r '.success')
+          if [ "$OK" != "true" ] && ! echo "$RES" | grep -qi "already"; then
+            echo "::error::Failed to attach $WWW"
+            exit 1
+          fi
+
+      - name: Delete legacy A/AAAA/CNAME records for apex + www
+        env:
+          ZONE_ID: ${{ steps.zone.outputs.zone_id }}
+        run: |
+          set -euo pipefail
+          for HOST in "$APEX" "$WWW"; do
+            for TYPE in A AAAA CNAME; do
+              IDS=$(curl -sS \
+                -H "Authorization: Bearer $CF_TOKEN" \
+                "$CF_API/zones/$ZONE_ID/dns_records?type=$TYPE&name=$HOST" \
+                | jq -r '.result[].id')
+              for ID in $IDS; do
+                echo "Deleting $TYPE record $ID for $HOST"
+                curl -sS -X DELETE \
+                  -H "Authorization: Bearer $CF_TOKEN" \
+                  "$CF_API/zones/$ZONE_ID/dns_records/$ID" | jq -c '.success'
+              done
+            done
+          done
+
+      - name: Create CNAME apex -> ${{ env.PAGES_TARGET }} (CNAME flattening)
+        env:
+          ZONE_ID: ${{ steps.zone.outputs.zone_id }}
+        run: |
+          set -euo pipefail
+          curl -sS -X POST \
+            -H "Authorization: Bearer $CF_TOKEN" \
+            -H "Content-Type: application/json" \
+            "$CF_API/zones/$ZONE_ID/dns_records" \
+            -d "{\"type\":\"CNAME\",\"name\":\"$APEX\",\"content\":\"$PAGES_TARGET\",\"proxied\":true,\"ttl\":1}" \
+            | jq .
+
+      - name: Create CNAME www -> ${{ env.PAGES_TARGET }}
+        env:
+          ZONE_ID: ${{ steps.zone.outputs.zone_id }}
+        run: |
+          set -euo pipefail
+          curl -sS -X POST \
+            -H "Authorization: Bearer $CF_TOKEN" \
+            -H "Content-Type: application/json" \
+            "$CF_API/zones/$ZONE_ID/dns_records" \
+            -d "{\"type\":\"CNAME\",\"name\":\"$WWW\",\"content\":\"$PAGES_TARGET\",\"proxied\":true,\"ttl\":1}" \
+            | jq .
+
+      - name: Summarize
+        env:
+          ZONE_ID: ${{ steps.zone.outputs.zone_id }}
+        run: |
+          echo "== Pages custom domains =="
+          curl -sS -H "Authorization: Bearer $CF_TOKEN" \
+            "$CF_API/accounts/$CF_ACCOUNT/pages/projects/$PROJECT/domains" \
+            | jq '.result[] | {name, status, certificate_authority}'
+          echo "== DNS records after =="
+          curl -sS -H "Authorization: Bearer $CF_TOKEN" \
+            "$CF_API/zones/$ZONE_ID/dns_records?type=CNAME&name=$APEX" \
+            | jq '.result[] | {type, name, content, proxied}'
+          curl -sS -H "Authorization: Bearer $CF_TOKEN" \
+            "$CF_API/zones/$ZONE_ID/dns_records?type=CNAME&name=$WWW" \
+            | jq '.result[] | {type, name, content, proxied}'
