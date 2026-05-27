@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "openai-prepares-election-safeguards-for-2026-global-voting-7a69697a",
+      "title": "OpenAI Prepares Election Safeguards for 2026 Global Voting",
+      "subtitle": "The AI company launches initiatives to combat misinformation, strengthen cybersecurity, and boost transparency ahead of worldwide elections.",
+      "category": "llms",
+      "publishedAt": "2026-05-27T00:00:00.000Z",
+      "sourceUrl": "https://openai.com/index/election-safeguards-2026",
+      "sourceName": "OpenAI",
+      "sourceTier": 1,
+      "image": "/images/articles/openai-prepares-election-safeguards-for-2026-global-voting-7a69697a.jpg"
+    },
+    {
+      "slug": "cisco-taps-openai-codex-to-accelerate-enterprise-software-development-9f506aa6",
+      "title": "Cisco Taps OpenAI Codex to Accelerate Enterprise Software Development",
+      "subtitle": "The networking giant leverages AI code generation to streamline engineering workflows and enhance security defect detection at scale.",
+      "category": "llms",
+      "publishedAt": "2026-05-27T11:00:00.000Z",
+      "sourceUrl": "https://openai.com/index/cisco",
+      "sourceName": "OpenAI",
+      "sourceTier": 1,
+      "image": "/images/articles/cisco-taps-openai-codex-to-accelerate-enterprise-software-development-9f506aa6.jpg"
+    },
+    {
       "slug": "reachy-mini-robot-now-runs-conversations-entirely-on-device-89801fac",
       "title": "Reachy Mini Robot Now Runs Conversations Entirely On-Device",
       "subtitle": "A robotic arm achieves fully local AI inference, eliminating cloud dependency for interactive dialogue and expanding possibilities for edge computing applications.",
@@ -553,6 +575,8 @@
     "d6596e16ba311cb7",
     "8f187d34630a3636",
     "879c2f38b03067b0",
-    "89801fac14c33f01"
+    "89801fac14c33f01",
+    "9f506aa6e5525f50",
+    "7a69697aa4a1d8fb"
   ]
 }

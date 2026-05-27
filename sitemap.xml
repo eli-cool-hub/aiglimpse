@@ -11,6 +11,24 @@
   <url><loc>https://aiglimpse.ai/pages/about</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
   <url><loc>https://aiglimpse.ai/pages/contact</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
   <url>
+    <loc>https://aiglimpse.ai/articles/openai-prepares-election-safeguards-for-2026-global-voting-7a69697a</loc>
+    <news:news>
+      <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-05-27T00:00:00.000Z</news:publication_date>
+      <news:title>OpenAI Prepares Election Safeguards for 2026 Global Voting</news:title>
+    </news:news>
+    <changefreq>daily</changefreq><priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://aiglimpse.ai/articles/cisco-taps-openai-codex-to-accelerate-enterprise-software-development-9f506aa6</loc>
+    <news:news>
+      <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-05-27T11:00:00.000Z</news:publication_date>
+      <news:title>Cisco Taps OpenAI Codex to Accelerate Enterprise Software Development</news:title>
+    </news:news>
+    <changefreq>daily</changefreq><priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://aiglimpse.ai/articles/reachy-mini-robot-now-runs-conversations-entirely-on-device-89801fac</loc>
     <news:news>
       <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
