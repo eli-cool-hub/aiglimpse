@@ -23,7 +23,7 @@ import { fetchArxiv } from './lib/arxiv.mjs';
 import { fetchHackerNews, fetchGitHubTrending } from './lib/community.mjs';
 import { fetchNewsAPI } from './lib/newsapi.mjs';
 import { deduplicate, contentHash } from './lib/dedupe.mjs';
-import { generateArticleImage, resetImageSession } from './lib/images.mjs';
+import { generateArticleImage, generateInlineImages, injectInlineImages, resetImageSession } from './lib/images.mjs';
 import { buildHomepage } from './build-homepage.mjs';
 import { buildCategories } from './build-categories.mjs';
 
@@ -477,6 +477,14 @@ async function main() {
       const readingMinutes = Math.max(2, Math.round(wordCount / 220));
 
       const imagePath = await generateArticleImage(slug, rewritten.title, category);
+
+      // Inline image: only for longer news articles (3+ H2s, ~500+ words).
+      // Shorter pieces stay hero-only to avoid over-imaging brief news.
+      const h2Count = (rewritten.body_html.match(/<h2\b/gi) || []).length;
+      if (h2Count >= 3 && wordCount >= 500) {
+        const inline = await generateInlineImages(slug, rewritten.title, category, 1);
+        rewritten.body_html = injectInlineImages(rewritten.body_html, inline);
+      }
 
       const html = generateArticleHtml({ rewritten, source: item, slug, category, publishedAt, readingMinutes, imagePath });
       await fs.writeFile(path.join(ARTICLES_DIR, `${slug}.html`), html);
