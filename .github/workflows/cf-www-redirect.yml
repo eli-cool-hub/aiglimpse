@@ -39,7 +39,7 @@ jobs:
         run: |
           curl -sS -H "Authorization: Bearer $CF_TOKEN" \
             "$CF_API/zones/$ZONE_ID/rulesets/phases/http_request_dynamic_redirect/entrypoint" \
-            | jq '{success, rules: .result.rules // []}'
+            | jq '{success: .success, rules: (.result.rules // [])}'
 
       - name: Install www -> apex redirect rule
         env:
