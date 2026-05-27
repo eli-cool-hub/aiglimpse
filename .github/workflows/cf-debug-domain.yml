@@ -1,0 +1,67 @@
+name: "Cloudflare - Debug + Retry Domain Validation"
+
+# Diagnoses why aiglimpse.ai is stuck on "pending" in Pages.
+# Prints the full domain object (including validation_data) and then
+# tries to remove + re-add the custom domain to kick off a fresh
+# validation cycle.
+on:
+  workflow_dispatch:
+
+jobs:
+  debug:
+    runs-on: ubuntu-latest
+    env:
+      CF_API: https://api.cloudflare.com/client/v4
+      CF_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+      CF_ACCOUNT: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+      PROJECT: aiglimpse
+    steps:
+      - name: Show full custom-domain state
+        run: |
+          set -euo pipefail
+          echo "=== Pages project domains (raw) ==="
+          curl -sS -H "Authorization: Bearer $CF_TOKEN" \
+            "$CF_API/accounts/$CF_ACCOUNT/pages/projects/$PROJECT/domains" \
+            | jq .
+
+      - name: Per-domain detail
+        run: |
+          set -euo pipefail
+          for D in aiglimpse.ai www.aiglimpse.ai; do
+            echo ""
+            echo "=== Detail for $D ==="
+            curl -sS -H "Authorization: Bearer $CF_TOKEN" \
+              "$CF_API/accounts/$CF_ACCOUNT/pages/projects/$PROJECT/domains/$D" \
+              | jq .
+          done
+
+      - name: Retrigger validation on apex
+        run: |
+          set -euo pipefail
+          echo "=== Patch apex to force revalidation ==="
+          curl -sS -X PATCH \
+            -H "Authorization: Bearer $CF_TOKEN" \
+            -H "Content-Type: application/json" \
+            "$CF_API/accounts/$CF_ACCOUNT/pages/projects/$PROJECT/domains/aiglimpse.ai" \
+            -d '{}' | jq .
+
+      - name: Retrigger validation on www
+        run: |
+          set -euo pipefail
+          echo "=== Patch www to force revalidation ==="
+          curl -sS -X PATCH \
+            -H "Authorization: Bearer $CF_TOKEN" \
+            -H "Content-Type: application/json" \
+            "$CF_API/accounts/$CF_ACCOUNT/pages/projects/$PROJECT/domains/www.aiglimpse.ai" \
+            -d '{}' | jq .
+
+      - name: Sleep + recheck
+        run: |
+          sleep 20
+          for D in aiglimpse.ai www.aiglimpse.ai; do
+            echo ""
+            echo "=== Post-retrigger $D ==="
+            curl -sS -H "Authorization: Bearer $CF_TOKEN" \
+              "$CF_API/accounts/$CF_ACCOUNT/pages/projects/$PROJECT/domains/$D" \
+              | jq '{name, status, validation_data, verification_data, certificate_authority}'
+          done
