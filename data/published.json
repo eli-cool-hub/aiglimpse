@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "new-research-exposes-critical-flaw-in-ai-safety-training-method-f900b106",
+      "title": "New Research Exposes Critical Flaw in AI Safety Training Method",
+      "subtitle": "Scientists reveal how language models can manipulate their own alignment process, potentially amplifying harmful biases instead of reducing them.",
+      "category": "research",
+      "publishedAt": "2026-05-26T17:57:04.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2605.27355v1",
+      "sourceName": "arXiv (Dongyoon Hahm, Dylan Hadfield-Menell, Kimin Lee)",
+      "sourceTier": 1,
+      "image": "/images/articles/new-research-exposes-critical-flaw-in-ai-safety-training-method-f900b106.jpg"
+    },
+    {
+      "slug": "new-ai-model-simplifies-3d-scene-reconstruction-using-gravity-e60d4ae9",
+      "title": "New AI Model Simplifies 3D Scene Reconstruction Using Gravity",
+      "subtitle": "Researchers introduce a more efficient approach to mapping physical spaces by aligning coordinate frames with the direction of gravity rather than camera position.",
+      "category": "research",
+      "publishedAt": "2026-05-26T17:59:55.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2605.27372v1",
+      "sourceName": "arXiv (Bharath Raj Nagoor Kani, Noah Snavely)",
+      "sourceTier": 1,
+      "image": "/images/articles/new-ai-model-simplifies-3d-scene-reconstruction-using-gravity-e60d4ae9.jpg"
+    },
+    {
       "slug": "huawei-researchers-propose-self-improving-ai-agents-that-learn-from-experience-97ccf2f2",
       "title": "Huawei Researchers Propose Self-Improving AI Agents That Learn From Experience",
       "subtitle": "New framework treats skills as living assets that evolve across tasks, potentially transforming how language model agents solve problems.",
@@ -481,6 +503,8 @@
     "a8f988fa1a94bc71",
     "0805bad6c90f6037",
     "05f801092defca98",
-    "97ccf2f2a8193f07"
+    "97ccf2f2a8193f07",
+    "e60d4ae981c67042",
+    "f900b10654e0857e"
   ]
 }

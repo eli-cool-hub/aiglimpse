@@ -11,6 +11,24 @@
   <url><loc>https://aiglimpse.ai/pages/about</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
   <url><loc>https://aiglimpse.ai/pages/contact</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
   <url>
+    <loc>https://aiglimpse.ai/articles/new-research-exposes-critical-flaw-in-ai-safety-training-method-f900b106</loc>
+    <news:news>
+      <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-05-26T17:57:04.000Z</news:publication_date>
+      <news:title>New Research Exposes Critical Flaw in AI Safety Training Method</news:title>
+    </news:news>
+    <changefreq>daily</changefreq><priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://aiglimpse.ai/articles/new-ai-model-simplifies-3d-scene-reconstruction-using-gravity-e60d4ae9</loc>
+    <news:news>
+      <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-05-26T17:59:55.000Z</news:publication_date>
+      <news:title>New AI Model Simplifies 3D Scene Reconstruction Using Gravity</news:title>
+    </news:news>
+    <changefreq>daily</changefreq><priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://aiglimpse.ai/articles/huawei-researchers-propose-self-improving-ai-agents-that-learn-from-experience-97ccf2f2</loc>
     <news:news>
       <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
