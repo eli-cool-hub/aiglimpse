@@ -78,31 +78,43 @@ jobs:
             exit 1
           fi
 
+      # The next three steps are best-effort: they require the API token
+      # to include Zone:DNS:Edit scope in addition to Pages. If the token
+      # is Pages-only the user has to clean up the legacy records by hand
+      # in the Cloudflare dashboard, so we tolerate every failure and
+      # always run the summary step at the end.
       - name: Delete legacy A/AAAA/CNAME records for apex + www
+        continue-on-error: true
         env:
           ZONE_ID: ${{ steps.zone.outputs.zone_id }}
         run: |
-          set -euo pipefail
+          set +e
           for HOST in "$APEX" "$WWW"; do
             for TYPE in A AAAA CNAME; do
-              IDS=$(curl -sS \
+              LIST=$(curl -sS \
                 -H "Authorization: Bearer $CF_TOKEN" \
-                "$CF_API/zones/$ZONE_ID/dns_records?type=$TYPE&name=$HOST" \
-                | jq -r '.result[].id')
+                "$CF_API/zones/$ZONE_ID/dns_records?type=$TYPE&name=$HOST")
+              OK=$(echo "$LIST" | jq -r '.success // false')
+              if [ "$OK" != "true" ]; then
+                echo "::warning::Cannot list $TYPE records for $HOST (token likely lacks Zone:DNS:Read). Skipping."
+                echo "$LIST" | jq -c '.errors // empty'
+                continue
+              fi
+              IDS=$(echo "$LIST" | jq -r '.result[]?.id')
               for ID in $IDS; do
                 echo "Deleting $TYPE record $ID for $HOST"
                 curl -sS -X DELETE \
                   -H "Authorization: Bearer $CF_TOKEN" \
-                  "$CF_API/zones/$ZONE_ID/dns_records/$ID" | jq -c '.success'
+                  "$CF_API/zones/$ZONE_ID/dns_records/$ID" | jq -c '.success, .errors // empty'
               done
             done
           done
 
       - name: Create CNAME apex -> ${{ env.PAGES_TARGET }} (CNAME flattening)
+        continue-on-error: true
         env:
           ZONE_ID: ${{ steps.zone.outputs.zone_id }}
         run: |
-          set -euo pipefail
           curl -sS -X POST \
             -H "Authorization: Bearer $CF_TOKEN" \
             -H "Content-Type: application/json" \
@@ -111,10 +123,10 @@ jobs:
             | jq .
 
       - name: Create CNAME www -> ${{ env.PAGES_TARGET }}
+        continue-on-error: true
         env:
           ZONE_ID: ${{ steps.zone.outputs.zone_id }}
         run: |
-          set -euo pipefail
           curl -sS -X POST \
             -H "Authorization: Bearer $CF_TOKEN" \
             -H "Content-Type: application/json" \
@@ -122,18 +134,23 @@ jobs:
             -d "{\"type\":\"CNAME\",\"name\":\"$WWW\",\"content\":\"$PAGES_TARGET\",\"proxied\":true,\"ttl\":1}" \
             | jq .
 
-      - name: Summarize
+      - name: Summarize state
+        if: always()
         env:
           ZONE_ID: ${{ steps.zone.outputs.zone_id }}
         run: |
           echo "== Pages custom domains =="
           curl -sS -H "Authorization: Bearer $CF_TOKEN" \
             "$CF_API/accounts/$CF_ACCOUNT/pages/projects/$PROJECT/domains" \
-            | jq '.result[] | {name, status, certificate_authority}'
-          echo "== DNS records after =="
-          curl -sS -H "Authorization: Bearer $CF_TOKEN" \
-            "$CF_API/zones/$ZONE_ID/dns_records?type=CNAME&name=$APEX" \
-            | jq '.result[] | {type, name, content, proxied}'
-          curl -sS -H "Authorization: Bearer $CF_TOKEN" \
-            "$CF_API/zones/$ZONE_ID/dns_records?type=CNAME&name=$WWW" \
-            | jq '.result[] | {type, name, content, proxied}'
+            | jq '.result[]? | {name, status, certificate_authority, validation_data}' || true
+          echo ""
+          echo "== DNS records for apex + www (token may not be able to read; that is OK) =="
+          for HOST in "$APEX" "$WWW"; do
+            for TYPE in A AAAA CNAME; do
+              RES=$(curl -sS -H "Authorization: Bearer $CF_TOKEN" \
+                "$CF_API/zones/$ZONE_ID/dns_records?type=$TYPE&name=$HOST")
+              echo "-- $TYPE $HOST --"
+              echo "$RES" | jq -c '.result[]? | {type, name, content, proxied}' 2>/dev/null \
+                || echo "$RES" | jq -c '.errors // .messages'
+            done
+          done
