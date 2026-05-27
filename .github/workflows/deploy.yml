@@ -1,0 +1,29 @@
+name: Deploy to Cloudflare Pages
+
+# Manual deploy of whatever currently lives on main. Useful for:
+#   - the very first deploy (auto-creates the Pages project)
+#   - CSS / template-only changes that the cron would otherwise skip
+#     because nothing in articles/ changed
+#   - re-running a failed deploy without waiting for the next cron tick
+#
+# The scheduled fetch-news, evergreen, and heal-inline-images workflows
+# all deploy on their own when they produce a content commit, so this
+# workflow is intentionally manual-only.
+on:
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Deploy to Cloudflare Pages
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          # On the first run the project does not exist yet; wrangler
+          # creates it automatically when --project-name is supplied.
+          command: pages deploy . --project-name=aiglimpse --branch=main --commit-dirty=true
