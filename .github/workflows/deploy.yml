@@ -24,6 +24,9 @@ jobs:
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          # On the first run the project does not exist yet; wrangler
-          # creates it automatically when --project-name is supplied.
+          # First-run safety: try to create the Pages project. Wrangler 3
+          # exits non-zero when the project already exists; the `|| true`
+          # makes the step idempotent so every subsequent deploy still
+          # passes this gate without complaint.
+          preCommands: wrangler pages project create aiglimpse --production-branch=main || true
           command: pages deploy . --project-name=aiglimpse --branch=main --commit-dirty=true

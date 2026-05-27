@@ -53,4 +53,5 @@ jobs:
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          preCommands: wrangler pages project create aiglimpse --production-branch=main || true
           command: pages deploy . --project-name=aiglimpse --branch=main --commit-dirty=true
