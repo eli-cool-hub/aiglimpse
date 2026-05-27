@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "search-users-flee-to-alternatives-as-google-overhauls-results-0805bad6",
+      "title": "Search Users Flee to Alternatives as Google Overhauls Results",
+      "subtitle": "A major redesign of Google Search centered on AI agents has triggered a 30% spike in competitor adoption, signaling user dissatisfaction with the new direction.",
+      "category": "business",
+      "publishedAt": "2026-05-26T22:32:56.000Z",
+      "sourceUrl": "https://techcrunch.com/2026/05/26/duckduckgo-installs-are-up-30-as-users-reject-being-force-fed-googles-ai-search/",
+      "sourceName": "TechCrunch AI",
+      "sourceTier": 2,
+      "image": "/images/articles/search-users-flee-to-alternatives-as-google-overhauls-results-0805bad6.jpg"
+    },
+    {
+      "slug": "researchers-restore-youthful-brain-function-in-mice-using-nasal-spray-a8f988fa",
+      "title": "Researchers Restore Youthful Brain Function in Mice Using Nasal Spray",
+      "subtitle": "A breakthrough delivery method could accelerate treatments for age-related cognitive decline in humans.",
+      "category": "research",
+      "publishedAt": "2026-05-27T01:52:16.000Z",
+      "sourceUrl": "https://www.sciencedaily.com/releases/2026/05/260526022018.htm",
+      "sourceName": "Hacker News (56 pts)",
+      "sourceTier": 2,
+      "image": "/images/articles/researchers-restore-youthful-brain-function-in-mice-using-nasal-spray-a8f988fa.jpg"
+    },
+    {
       "slug": "how-large-language-models-work-clear-explainer",
       "title": "How Large Language Models Work: A Technical Explainer",
       "subtitle": "Understand tokens, attention, and next-token prediction without the PhD-level math.",
@@ -433,6 +455,8 @@
     "62073e49f4f04a9d",
     "3104388d94a10a03",
     "dba2f66217af5051",
-    "eeb4398038c45d2f"
+    "eeb4398038c45d2f",
+    "a8f988fa1a94bc71",
+    "0805bad6c90f6037"
   ]
 }

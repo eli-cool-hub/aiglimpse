@@ -11,13 +11,31 @@
   <url><loc>https://aiglimpse.ai/pages/about.html</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
   <url><loc>https://aiglimpse.ai/pages/contact.html</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
   <url>
+    <loc>https://aiglimpse.ai/articles/search-users-flee-to-alternatives-as-google-overhauls-results-0805bad6.html</loc>
+    <news:news>
+      <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-05-26T22:32:56.000Z</news:publication_date>
+      <news:title>Search Users Flee to Alternatives as Google Overhauls Results</news:title>
+    </news:news>
+    <changefreq>daily</changefreq><priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://aiglimpse.ai/articles/researchers-restore-youthful-brain-function-in-mice-using-nasal-spray-a8f988fa.html</loc>
+    <news:news>
+      <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-05-27T01:52:16.000Z</news:publication_date>
+      <news:title>Researchers Restore Youthful Brain Function in Mice Using Nasal Spray</news:title>
+    </news:news>
+    <changefreq>daily</changefreq><priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://aiglimpse.ai/articles/how-large-language-models-work-clear-explainer.html</loc>
     <news:news>
       <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-05-26T23:59:02.514Z</news:publication_date>
       <news:title>How Large Language Models Work: A Technical Explainer</news:title>
     </news:news>
-    <changefreq>daily</changefreq><priority>0.9</priority>
+    <changefreq>daily</changefreq><priority>0.8</priority>
   </url>
   <url>
     <loc>https://aiglimpse.ai/articles/gpt-5-vs-claude-4-5-vs-gemini-ultra-2026.html</loc>
@@ -26,7 +44,7 @@
       <news:publication_date>2026-05-26T23:58:17.710Z</news:publication_date>
       <news:title>GPT-5 vs Claude 4.5 vs Gemini Ultra: Choose the Right LLM</news:title>
     </news:news>
-    <changefreq>daily</changefreq><priority>0.9</priority>
+    <changefreq>daily</changefreq><priority>0.8</priority>
   </url>
   <url>
     <loc>https://aiglimpse.ai/articles/what-are-ai-agents-practical-guide-2026.html</loc>
@@ -35,7 +53,7 @@
       <news:publication_date>2026-05-26T23:46:57.909Z</news:publication_date>
       <news:title>What Are AI Agents? A Practical Guide for Builders in 2026</news:title>
     </news:news>
-    <changefreq>daily</changefreq><priority>0.9</priority>
+    <changefreq>daily</changefreq><priority>0.8</priority>
   </url>
   <url>
     <loc>https://aiglimpse.ai/articles/rag-vs-fine-tuning-vs-prompt-engineering.html</loc>
@@ -44,7 +62,7 @@
       <news:publication_date>2026-05-26T23:39:14.726Z</news:publication_date>
       <news:title>Fine-tuning vs RAG vs Prompt Engineering: A Decision Framework</news:title>
     </news:news>
-    <changefreq>daily</changefreq><priority>0.9</priority>
+    <changefreq>daily</changefreq><priority>0.8</priority>
   </url>
   <url>
     <loc>https://aiglimpse.ai/articles/what-is-retrieval-augmented-generation-rag.html</loc>
@@ -53,7 +71,7 @@
       <news:publication_date>2026-05-26T23:38:27.206Z</news:publication_date>
       <news:title>What is Retrieval-Augmented Generation (RAG)? A 2026 Guide</news:title>
     </news:news>
-    <changefreq>daily</changefreq><priority>0.9</priority>
+    <changefreq>daily</changefreq><priority>0.8</priority>
   </url>
   <url>
     <loc>https://aiglimpse.ai/articles/turning-chores-into-ai-training-data-the-hidden-cost-eeb43980.html</loc>
@@ -78,7 +96,7 @@
     <news:news>
       <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-05-25T14:23:45.000Z</news:publication_date>
-      <news:title>Manufacturing&#39;s Digital Divide: When to Deploy Simulation vs. Digital Twins</news:title>
+      <news:title>Manufacturing's Digital Divide: When to Deploy Simulation vs. Digital Twins</news:title>
     </news:news>
     <changefreq>daily</changefreq><priority>0.8</priority>
   </url>
@@ -204,7 +222,7 @@
     <news:news>
       <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-05-25T17:55:39.000Z</news:publication_date>
-      <news:title>Researchers Propose &#39;Sleep&#39; Mechanism to Fix LLM Context Limits</news:title>
+      <news:title>Researchers Propose 'Sleep' Mechanism to Fix LLM Context Limits</news:title>
     </news:news>
     <changefreq>daily</changefreq><priority>0.8</priority>
   </url>
@@ -285,7 +303,7 @@
     <news:news>
       <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-05-25T17:59:22.000Z</news:publication_date>
-      <news:title>Helix4D Tackles Video-to-4D Mesh Generation&#39;s Hardest Problems</news:title>
+      <news:title>Helix4D Tackles Video-to-4D Mesh Generation's Hardest Problems</news:title>
     </news:news>
     <changefreq>daily</changefreq><priority>0.8</priority>
   </url>
