@@ -1,4 +1,4 @@
-name: Cloudflare: attach custom domain (one-shot)
+name: "Cloudflare - Attach Custom Domain (one-shot)"
 
 # One-time job. Attaches aiglimpse.ai + www.aiglimpse.ai to the Pages
 # project and replaces the imported NS1/Netlify A records with the
