@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "huawei-researchers-propose-self-improving-ai-agents-that-learn-from-experience-97ccf2f2",
+      "title": "Huawei Researchers Propose Self-Improving AI Agents That Learn From Experience",
+      "subtitle": "New framework treats skills as living assets that evolve across tasks, potentially transforming how language model agents solve problems.",
+      "category": "research",
+      "publishedAt": "2026-05-26T17:59:19.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2605.27366v1",
+      "sourceName": "arXiv (Huawei Lin, Peng Li, Jie Song, Fuxin Jiang, Tieying Zhang)",
+      "sourceTier": 1,
+      "image": "/images/articles/huawei-researchers-propose-self-improving-ai-agents-that-learn-from-experience-97ccf2f2.jpg"
+    },
+    {
+      "slug": "concentration-of-hiring-algorithms-creates-racial-disparities-05f80109",
+      "title": "Concentration of Hiring Algorithms Creates Racial Disparities",
+      "subtitle": "New research reveals how reliance on a single vendor's screening technology produces consistent rejection patterns across demographic groups.",
+      "category": "research",
+      "publishedAt": "2026-05-26T17:59:55.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2605.27371v1",
+      "sourceName": "arXiv (Rishi Bommasani, Sarah H. Bana, Kathleen A. Creel, Dan Juraf…)",
+      "sourceTier": 1,
+      "image": "/images/articles/concentration-of-hiring-algorithms-creates-racial-disparities-05f80109.jpg"
+    },
+    {
       "slug": "search-users-flee-to-alternatives-as-google-overhauls-results-0805bad6",
       "title": "Search Users Flee to Alternatives as Google Overhauls Results",
       "subtitle": "A major redesign of Google Search centered on AI agents has triggered a 30% spike in competitor adoption, signaling user dissatisfaction with the new direction.",
@@ -457,6 +479,8 @@
     "dba2f66217af5051",
     "eeb4398038c45d2f",
     "a8f988fa1a94bc71",
-    "0805bad6c90f6037"
+    "0805bad6c90f6037",
+    "05f801092defca98",
+    "97ccf2f2a8193f07"
   ]
 }
