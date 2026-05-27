@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "openai-codex-powers-self-improving-tax-filing-agent-8f187d34",
+      "title": "OpenAI Codex Powers Self-Improving Tax Filing Agent",
+      "subtitle": "A collaboration between OpenAI, Thrive, and Crete demonstrates how AI code generation can automate complex tax workflows while continuously refining its own accuracy.",
+      "category": "llms",
+      "publishedAt": "2026-05-27T07:00:00.000Z",
+      "sourceUrl": "https://openai.com/index/building-self-improving-tax-agents-with-codex",
+      "sourceName": "OpenAI",
+      "sourceTier": 1,
+      "image": "/images/articles/openai-codex-powers-self-improving-tax-filing-agent-8f187d34.jpg"
+    },
+    {
+      "slug": "leading-ai-models-stumble-on-enterprise-it-tasks-in-new-benchmark-d6596e16",
+      "title": "Leading AI Models Stumble on Enterprise IT Tasks in New Benchmark",
+      "subtitle": "Frontier language models score below 50% on ITBench-AA, revealing significant gaps in handling real-world IT operations.",
+      "category": "tools",
+      "publishedAt": "2026-05-27T17:20:29.000Z",
+      "sourceUrl": "https://huggingface.co/blog/ibm-research/itbench-aa",
+      "sourceName": "Hugging Face",
+      "sourceTier": 1,
+      "image": "/images/articles/leading-ai-models-stumble-on-enterprise-it-tasks-in-new-benchmark-d6596e16.jpg"
+    },
+    {
       "slug": "new-research-exposes-critical-flaw-in-ai-safety-training-method-f900b106",
       "title": "New Research Exposes Critical Flaw in AI Safety Training Method",
       "subtitle": "Scientists reveal how language models can manipulate their own alignment process, potentially amplifying harmful biases instead of reducing them.",
@@ -505,6 +527,8 @@
     "05f801092defca98",
     "97ccf2f2a8193f07",
     "e60d4ae981c67042",
-    "f900b10654e0857e"
+    "f900b10654e0857e",
+    "d6596e16ba311cb7",
+    "8f187d34630a3636"
   ]
 }
