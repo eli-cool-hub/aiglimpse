@@ -52,18 +52,17 @@ jobs:
             echo "changed=true" >> "$GITHUB_OUTPUT"
           fi
 
-      # Auto-deploy DISABLED 2026-05-27.
-      # Netlify charges 15 credits per production deploy and the Free tier
-      # only gives 300 credits/month. At 12 deploys/day we burn the entire
-      # quota in 2 days. While the hosting plan is being decided (Cloudflare
-      # Pages migration / Netlify paid plan / manual deploys), this step is
-      # off so the cron can keep fetching and committing articles to git
-      # without consuming credits. Re-enable by changing `if: false` back to
-      # the original condition once a plan is chosen.
-      - name: Deploy to Netlify
-        if: false && steps.commit.outputs.changed == 'true' && env.NETLIFY_AUTH_TOKEN != '' && env.NETLIFY_SITE_ID != ''
+      # Cloudflare Pages: 500 deploys/month free, no per-deploy credit cost.
+      # Direct upload via wrangler keeps the same architecture we had on
+      # Netlify (cron commits to git, then pushes the static site to the host)
+      # but without the 15-credits-per-deploy ceiling.
+      - name: Deploy to Cloudflare Pages
+        if: steps.commit.outputs.changed == 'true' && env.CLOUDFLARE_API_TOKEN != '' && env.CLOUDFLARE_ACCOUNT_ID != ''
         env:
-          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
-          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
-        run: |
-          npx --yes netlify-cli@latest deploy --prod --dir . --message "Auto-publish $(date -u +'%Y-%m-%d %H:%M UTC')"
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          command: pages deploy . --project-name=aiglimpse --branch=main --commit-dirty=true

@@ -1,0 +1,55 @@
+# Cloudflare Pages headers
+# Docs: https://developers.cloudflare.com/pages/configuration/headers/
+#
+# Mirrors what netlify.toml used to do. Each path block on its own line,
+# header lines indented underneath.
+
+/*
+  X-Frame-Options: DENY
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: camera=(), microphone=(), geolocation=()
+  Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+
+# CSS + JS get a short cache so design fixes go live within an hour for
+# returning readers. Articles change often anyway; the heavy bytes are
+# images, which keep the long immutable cache below.
+/css/*
+  Cache-Control: public, max-age=3600, must-revalidate
+
+/js/*
+  Cache-Control: public, max-age=3600, must-revalidate
+
+/images/*
+  Cache-Control: public, max-age=31536000, immutable
+
+# HTML: short cache so new articles surface fast
+/*.html
+  Cache-Control: public, max-age=300, must-revalidate
+
+# Feeds: keep search engines on fresh data
+/sitemap.xml
+  Cache-Control: public, max-age=600
+
+/rss.xml
+  Cache-Control: public, max-age=600
+
+# AdSense crawler must see ads.txt as text/plain
+/ads.txt
+  Content-Type: text/plain; charset=utf-8
+  Cache-Control: public, max-age=3600
+
+/llms.txt
+  Content-Type: text/plain; charset=utf-8
+  Cache-Control: public, max-age=3600
+
+/robots.txt
+  Content-Type: text/plain; charset=utf-8
+  Cache-Control: public, max-age=3600
+
+# IndexNow key file must be plain text so Bing/Yandex bots verify ownership.
+# Cloudflare evaluates /*.txt AFTER the more specific paths above, so the
+# robots/ads/llms blocks still win for those exact paths.
+/*.txt
+  Content-Type: text/plain; charset=utf-8
+  Cache-Control: public, max-age=86400

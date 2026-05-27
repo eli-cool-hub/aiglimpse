@@ -1,0 +1,14 @@
+# Cloudflare Pages redirects
+# Docs: https://developers.cloudflare.com/pages/configuration/redirects/
+#
+# Format: <from> <to> <status>
+# Cloudflare Pages already serves /articles/foo for /articles/foo.html
+# automatically, so we only need the trailing-slash rewrite for old links
+# that the wild has indexed with the slash.
+
+/articles/*/  /articles/:splat.html  200
+/categories/*/  /categories/:splat.html  200
+
+# www -> apex is handled at the Cloudflare DNS/Bulk-Redirect layer once both
+# hostnames are attached to the Pages project, so it is intentionally
+# omitted here.
