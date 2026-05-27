@@ -40,7 +40,7 @@ function escapeHtml(s) {
 }
 
 function articleUrl(a) {
-  return a.href || `/articles/${a.slug}.html`;
+  return a.href || `/articles/${a.slug}`;
 }
 
 function articleImage(a) {
@@ -320,31 +320,31 @@ function renderPage(articles) {
     <section class="categories-strip" aria-label="Browse categories">
       <div class="container">
         <div class="categories-grid">
-          <a href="/categories/llms.html" class="category-pill">
+          <a href="/categories/llms" class="category-pill">
             <span class="category-pill-icon">💬</span>
             <span class="category-pill-name">LLMs &amp; Chatbots</span>
           </a>
-          <a href="/categories/research.html" class="category-pill">
+          <a href="/categories/research" class="category-pill">
             <span class="category-pill-icon">🔬</span>
             <span class="category-pill-name">AI Research</span>
           </a>
-          <a href="/categories/tools.html" class="category-pill">
+          <a href="/categories/tools" class="category-pill">
             <span class="category-pill-icon">🛠</span>
             <span class="category-pill-name">Tools &amp; Products</span>
           </a>
-          <a href="/categories/business.html" class="category-pill">
+          <a href="/categories/business" class="category-pill">
             <span class="category-pill-icon">📈</span>
             <span class="category-pill-name">Business</span>
           </a>
-          <a href="/categories/ethics.html" class="category-pill">
+          <a href="/categories/ethics" class="category-pill">
             <span class="category-pill-icon">⚖️</span>
             <span class="category-pill-name">Ethics &amp; Policy</span>
           </a>
-          <a href="/categories/industry.html" class="category-pill">
+          <a href="/categories/industry" class="category-pill">
             <span class="category-pill-icon">🏭</span>
             <span class="category-pill-name">Industry</span>
           </a>
-          <a href="/categories/robotics.html" class="category-pill">
+          <a href="/categories/robotics" class="category-pill">
             <span class="category-pill-icon">🤖</span>
             <span class="category-pill-name">Robotics</span>
           </a>

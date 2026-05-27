@@ -10,13 +10,13 @@
   const WORDMARK = `<span class="logo-wordmark" aria-label="AI Glimpse">A<span class="iris-i" aria-hidden="true">\u0131</span><span aria-hidden="true"> Glimpse</span></span>`;
 
   const NAV_LINKS = [
-    { href: '/categories/llms.html', label: 'LLMs' },
-    { href: '/categories/research.html', label: 'Research' },
-    { href: '/categories/tools.html', label: 'Tools' },
-    { href: '/categories/business.html', label: 'Business' },
-    { href: '/categories/ethics.html', label: 'Ethics' },
-    { href: '/categories/industry.html', label: 'Industry' },
-    { href: '/categories/robotics.html', label: 'Robotics' }
+    { href: '/categories/llms', label: 'LLMs' },
+    { href: '/categories/research', label: 'Research' },
+    { href: '/categories/tools', label: 'Tools' },
+    { href: '/categories/business', label: 'Business' },
+    { href: '/categories/ethics', label: 'Ethics' },
+    { href: '/categories/industry', label: 'Industry' },
+    { href: '/categories/robotics', label: 'Robotics' }
   ];
 
   function currentPath() {
@@ -27,7 +27,7 @@
   function buildNav() {
     const path = currentPath();
     return NAV_LINKS.map(l =>
-      `<a href="${l.href}"${path.startsWith(l.href.replace('.html','')) || path === l.href ? ' class="active"' : ''}>${l.label}</a>`
+      `<a href="${l.href}"${path === l.href || path.startsWith(l.href + '/') ? ' class="active"' : ''}>${l.label}</a>`
     ).join('');
   }
 
@@ -66,7 +66,7 @@
           <button class="mobile-menu-close" aria-label="Close menu" style="font-size:24px;">×</button>
         </div>
         ${NAV_LINKS.map(l => `<a href="${l.href}">${l.label}</a>`).join('')}
-        <a href="/pages/about.html">About</a>
+        <a href="/pages/about">About</a>
         <a href="#newsletter">Subscribe</a>
       </aside>
     `;
@@ -92,17 +92,17 @@
             <div class="footer-col">
               <h5>About</h5>
               <ul>
-                <li><a href="/pages/about.html">About AI Glimpse</a></li>
-                <li><a href="/pages/contact.html">Contact</a></li>
-                <li><a href="/pages/editorial.html">Editorial Standards</a></li>
-                <li><a href="/pages/advertise.html">Advertise</a></li>
+                <li><a href="/pages/about">About AI Glimpse</a></li>
+                <li><a href="/pages/contact">Contact</a></li>
+                <li><a href="/pages/editorial">Editorial Standards</a></li>
+                <li><a href="/pages/advertise">Advertise</a></li>
               </ul>
             </div>
             <div class="footer-col">
               <h5>Legal</h5>
               <ul>
-                <li><a href="/pages/privacy.html">Privacy Policy</a></li>
-                <li><a href="/pages/terms.html">Terms of Service</a></li>
+                <li><a href="/pages/privacy">Privacy Policy</a></li>
+                <li><a href="/pages/terms">Terms of Service</a></li>
                 <li><a href="#" data-consent-open>Cookie preferences</a></li>
                 <li><a href="/rss.xml">RSS Feed</a></li>
                 <li><a href="/sitemap.xml">Sitemap</a></li>
@@ -168,7 +168,7 @@
             <strong>We use cookies.</strong>
             We use cookies to deliver relevant ads via Google AdSense and to understand how readers use AI Glimpse.
             You can accept all, reject non-essential cookies, or read our
-            <a href="/pages/privacy.html">Privacy Policy</a>.
+            <a href="/pages/privacy">Privacy Policy</a>.
           </div>
           <div class="consent-banner-actions">
             <button type="button" class="btn btn--ghost btn--sm" data-consent="denied">Reject non-essential</button>

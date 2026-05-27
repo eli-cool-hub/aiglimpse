@@ -5,11 +5,11 @@
   <title>How Large Language Models Work: A Technical Explainer | AI Glimpse</title>
   <meta name="description" content="Clear technical explainer of how large language models work: tokens, transformer architecture, attention mechanism, and next-token prediction.">
   <meta name="keywords" content="how LLMs work, large language models, transformer architecture, attention mechanism, tokens, next-token prediction, language model">
-  <link rel="canonical" href="https://aiglimpse.ai/articles/how-large-language-models-work-clear-explainer.html">
+  <link rel="canonical" href="https://aiglimpse.ai/articles/how-large-language-models-work-clear-explainer">
   <meta property="og:type" content="article"><meta property="og:site_name" content="AI Glimpse">
   <meta property="og:title" content="How Large Language Models Work: A Technical Explainer">
   <meta property="og:description" content="Clear technical explainer of how large language models work: tokens, transformer architecture, attention mechanism, and next-token prediction.">
-  <meta property="og:url" content="https://aiglimpse.ai/articles/how-large-language-models-work-clear-explainer.html">
+  <meta property="og:url" content="https://aiglimpse.ai/articles/how-large-language-models-work-clear-explainer">
   <meta property="og:image" content="https://aiglimpse.ai/images/articles/how-large-language-models-work-clear-explainer.jpg">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
@@ -32,7 +32,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="/css/main.css">
   <style>.reading-progress{position:fixed;top:0;left:0;height:3px;background:var(--color-accent);width:0%;z-index:200;transition:width 100ms linear;}</style>
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","mainEntityOfPage":{"@type":"WebPage","@id":"https://aiglimpse.ai/articles/how-large-language-models-work-clear-explainer.html"},"headline":"How Large Language Models Work: A Technical Explainer","description":"Clear technical explainer of how large language models work: tokens, transformer architecture, attention mechanism, and next-token prediction.","image":["https://aiglimpse.ai/images/articles/how-large-language-models-work-clear-explainer.jpg"],"datePublished":"2026-05-26T23:59:02.514Z","dateModified":"2026-05-26T23:59:02.514Z","author":{"@type":"Organization","name":"AI Glimpse Newsroom"},"publisher":{"@type":"Organization","name":"AI Glimpse","logo":{"@type":"ImageObject","url":"https://aiglimpse.ai/images/logo.svg"}},"articleSection":"AI Research","keywords":"how LLMs work, large language models, transformer architecture, attention mechanism, tokens, next-token prediction, language model"}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","mainEntityOfPage":{"@type":"WebPage","@id":"https://aiglimpse.ai/articles/how-large-language-models-work-clear-explainer"},"headline":"How Large Language Models Work: A Technical Explainer","description":"Clear technical explainer of how large language models work: tokens, transformer architecture, attention mechanism, and next-token prediction.","image":["https://aiglimpse.ai/images/articles/how-large-language-models-work-clear-explainer.jpg"],"datePublished":"2026-05-26T23:59:02.514Z","dateModified":"2026-05-26T23:59:02.514Z","author":{"@type":"Organization","name":"AI Glimpse Newsroom"},"publisher":{"@type":"Organization","name":"AI Glimpse","logo":{"@type":"ImageObject","url":"https://aiglimpse.ai/images/logo.svg"}},"articleSection":"AI Research","keywords":"how LLMs work, large language models, transformer architecture, attention mechanism, tokens, next-token prediction, language model"}</script>
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What exactly is a token in LLMs?","acceptedAnswer":{"@type":"Answer","text":"A token is a small chunk of text that an LLM processes as a unit. It can be a single character, a word, or part of a word. GPT-4 processes roughly four characters per token on average. The tokenizer splits your input text into tokens before the model processes them."}},{"@type":"Question","name":"Why is the transformer architecture important for LLMs?","acceptedAnswer":{"@type":"Answer","text":"The transformer architecture, introduced in 2017, enabled parallel processing of text and the attention mechanism. This made training much faster and models much larger than previous approaches. Nearly all modern LLMs, including GPT and Claude, are built on transformer architecture."}},{"@type":"Question","name":"How does the attention mechanism actually work?","acceptedAnswer":{"@type":"Answer","text":"Attention allows the model to weigh the importance of different tokens when processing each word. When processing a pronoun, attention helps the model figure out which noun it refers to by scoring relevance. It does this through learned weights applied to all tokens in the sequence simultaneously."}},{"@type":"Question","name":"What does it mean that LLMs predict the next token?","acceptedAnswer":{"@type":"Answer","text":"LLMs work by predicting the most likely next word (or token) given all previous words. It generates text one token at a time, using its prediction as input for the next step. This is why LLMs can sometimes produce incoherent text if early predictions are weak."}},{"@type":"Question","name":"Can LLMs understand meaning or are they just pattern matching?","acceptedAnswer":{"@type":"Answer","text":"This remains contested. LLMs clearly learn statistical patterns that correlate with meaning, but whether they truly understand remains philosophical. They perform well on reasoning tasks, but they also make systematic errors that suggest brittle understanding. The honest answer is: we do not fully know."}},{"@type":"Question","name":"What is the context window and why does it matter?","acceptedAnswer":{"@type":"Answer","text":"The context window is the maximum amount of text the model can consider at once, typically measured in tokens. GPT-4 has a 128k token context window. Longer windows let models reference more prior information but increase computational cost and sometimes reduce quality."}},{"@type":"Question","name":"Why do LLMs sometimes hallucinate or make confident mistakes?","acceptedAnswer":{"@type":"Answer","text":"LLMs optimize for predicting likely tokens, not for accuracy. During training, they never learn to say 'I do not know.' They also lack access to real-time information and cannot verify facts. The model produces plausible-sounding text even when it is wrong."}}]}</script>
   <meta name="google-site-verification" content="B132aMlqf1nssWYhjOSKUgSjmfwNWgPgtozZsHDxWlU" />
   <meta name="msvalidate.01" content="F3762E555B3E685836AE39C90B79ECBF" />
@@ -49,7 +49,7 @@
         <div class="container container--narrow">
           <nav aria-label="Breadcrumb" style="margin-bottom:var(--space-4);font-size:var(--text-xs);color:var(--color-ink-muted);">
             <a href="/" style="color:inherit;">Home</a> /
-            <a href="/categories/research.html" style="color:inherit;">AI Research</a> /
+            <a href="/categories/research" style="color:inherit;">AI Research</a> /
             <span>Explainer</span>
           </nav>
           <div class="article-hero-meta">
@@ -68,7 +68,7 @@
       <section style="padding: var(--space-7) 0;">
         <div class="container container--narrow">
           <figure class="article-image"><img src="/images/articles/how-large-language-models-work-clear-explainer.jpg" alt="How Large Language Models Work: A Technical Explainer" loading="eager" width="1200" height="630"></figure>
-          <div class="article-body"><p><a href="/categories/llms.html">Large language models</a> work by predicting one token at a time, guided by learned patterns in how human text relates to itself. Every response ChatGPT gives, every email Gmail autocompletes, every Copilot suggestion originates from the same core process: the model takes what you have written, breaks it into small pieces called tokens, processes those pieces through layers of mathematical transformations called a transformer, and outputs a probability distribution over the next likely token. Repeat that process hundreds of times, and you get coherent text. Understanding how LLMs work requires understanding three things: what tokens are, how the transformer processes them through an attention mechanism, and why the model predicts the next token instead of trying to directly answer your question.</p>
+          <div class="article-body"><p><a href="/categories/llms">Large language models</a> work by predicting one token at a time, guided by learned patterns in how human text relates to itself. Every response ChatGPT gives, every email Gmail autocompletes, every Copilot suggestion originates from the same core process: the model takes what you have written, breaks it into small pieces called tokens, processes those pieces through layers of mathematical transformations called a transformer, and outputs a probability distribution over the next likely token. Repeat that process hundreds of times, and you get coherent text. Understanding how LLMs work requires understanding three things: what tokens are, how the transformer processes them through an attention mechanism, and why the model predicts the next token instead of trying to directly answer your question.</p>
 
 <h2>Why this matters now</h2>
 
@@ -76,7 +76,7 @@
 
 <h2>Tokens: How LLMs chunk language into units</h2>
 
-<p>Before a <a href="/categories/llms.html">language model</a> can process text, it must break it into manageable pieces called tokens. A token is not a word. It is a unit assigned by a tokenizer, a piece of software that maps strings of characters to integer IDs that the model understands.</p>
+<p>Before a <a href="/categories/llms">language model</a> can process text, it must break it into manageable pieces called tokens. A token is not a word. It is a unit assigned by a tokenizer, a piece of software that maps strings of characters to integer IDs that the model understands.</p>
 
 <p>The relationship between tokens and words depends on the language and the word itself. The word "understand" might be one token. The word "unbelievable" might be three tokens: "unbe", "liev", "able". Punctuation, numbers, and special characters each usually get their own tokens. When you write "ChatGPT" in English to GPT-4, the tokenizer typically produces three tokens: "Chat", "G", "PT".</p>
 
@@ -86,7 +86,7 @@
 
 <h2>The transformer architecture: parallel processing through layers</h2>
 
-<p>The transformer, introduced by researchers at Google in 2017, made large <a href="/categories/llms.html">language models</a> possible. It is a neural network architecture built on stacking layers of mathematical operations that process tokens in parallel.</p>
+<p>The transformer, introduced by researchers at Google in 2017, made large <a href="/categories/llms">language models</a> possible. It is a neural network architecture built on stacking layers of mathematical operations that process tokens in parallel.</p>
 
 <p>When you input a prompt, here is what happens at a high level: the tokenizer converts your text to integer IDs. Those IDs are then converted to embeddings, which are vectors (lists of numbers) that represent each token in a high-dimensional space. Those embeddings are fed into the first transformer layer.</p>
 

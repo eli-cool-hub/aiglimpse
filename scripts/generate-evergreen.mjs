@@ -131,20 +131,20 @@ function scrubDashes(obj) {
 
 // Internal cross-linking, same conservative rules as the news pipeline.
 const INTERNAL_LINK_MAP = [
-  { phrase: 'large language models', url: '/categories/llms.html' },
-  { phrase: 'large language model', url: '/categories/llms.html' },
-  { phrase: 'language models', url: '/categories/llms.html' },
-  { phrase: 'language model', url: '/categories/llms.html' },
-  { phrase: 'humanoid robot', url: '/categories/robotics.html' },
-  { phrase: 'AI research', url: '/categories/research.html' },
-  { phrase: 'AI safety', url: '/categories/ethics.html' },
-  { phrase: 'AI ethics', url: '/categories/ethics.html' },
-  { phrase: 'AI regulation', url: '/categories/ethics.html' },
-  { phrase: 'AI tools', url: '/categories/tools.html' },
-  { phrase: 'AI agents', url: '/categories/tools.html' },
-  { phrase: 'AI funding', url: '/categories/business.html' },
-  { phrase: 'AI startups', url: '/categories/business.html' },
-  { phrase: 'enterprise AI', url: '/categories/industry.html' }
+  { phrase: 'large language models', url: '/categories/llms' },
+  { phrase: 'large language model', url: '/categories/llms' },
+  { phrase: 'language models', url: '/categories/llms' },
+  { phrase: 'language model', url: '/categories/llms' },
+  { phrase: 'humanoid robot', url: '/categories/robotics' },
+  { phrase: 'AI research', url: '/categories/research' },
+  { phrase: 'AI safety', url: '/categories/ethics' },
+  { phrase: 'AI ethics', url: '/categories/ethics' },
+  { phrase: 'AI regulation', url: '/categories/ethics' },
+  { phrase: 'AI tools', url: '/categories/tools' },
+  { phrase: 'AI agents', url: '/categories/tools' },
+  { phrase: 'AI funding', url: '/categories/business' },
+  { phrase: 'AI startups', url: '/categories/business' },
+  { phrase: 'enterprise AI', url: '/categories/industry' }
 ];
 
 function escapeRegex(s) {
@@ -167,7 +167,7 @@ function addInternalLinks(html, currentCategory) {
   // Evergreens are longer, allow up to 4 internal links (still spread thin).
   for (const { phrase, url } of INTERNAL_LINK_MAP) {
     if (added >= 4) break;
-    if (currentCategory && url === `/categories/${currentCategory}.html`) continue;
+    if (currentCategory && url === `/categories/${currentCategory}`) continue;
     const re = new RegExp(`\\b(${escapeRegex(phrase)})\\b`, 'i');
     let inserted = false;
     html = html.replace(re, (m) => {
@@ -323,7 +323,7 @@ function generateEvergreenHtml({ piece, slug, category, publishedAt, readingMinu
   const isoDate = publishedAt.toISOString();
   const displayDate = publishedAt.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
   const imageUrl = `${SITE_URL}${imagePath}`;
-  const canonical = `${SITE_URL}/articles/${slug}.html`;
+  const canonical = `${SITE_URL}/articles/${slug}`;
 
   const articleSchema = {
     '@context': 'https://schema.org',
@@ -399,7 +399,7 @@ function generateEvergreenHtml({ piece, slug, category, publishedAt, readingMinu
         <div class="container container--narrow">
           <nav aria-label="Breadcrumb" style="margin-bottom:var(--space-4);font-size:var(--text-xs);color:var(--color-ink-muted);">
             <a href="/" style="color:inherit;">Home</a> /
-            <a href="/categories/${category}.html" style="color:inherit;">${cat.name}</a> /
+            <a href="/categories/${category}" style="color:inherit;">${cat.name}</a> /
             <span>Explainer</span>
           </nav>
           <div class="article-hero-meta">
@@ -456,12 +456,12 @@ async function regenerateSitemap(published) {
   const categoriesList = ['llms','research','tools','business','ethics','industry','robotics'];
   const staticUrls = [
     { loc: `${SITE_URL}/`, priority: 1.0, changefreq: 'hourly' },
-    ...categoriesList.map(c => ({ loc: `${SITE_URL}/categories/${c}.html`, priority: 0.9, changefreq: 'hourly' })),
-    { loc: `${SITE_URL}/pages/about.html`, priority: 0.5, changefreq: 'monthly' },
-    { loc: `${SITE_URL}/pages/contact.html`, priority: 0.5, changefreq: 'monthly' }
+    ...categoriesList.map(c => ({ loc: `${SITE_URL}/categories/${c}`, priority: 0.9, changefreq: 'hourly' })),
+    { loc: `${SITE_URL}/pages/about`, priority: 0.5, changefreq: 'monthly' },
+    { loc: `${SITE_URL}/pages/contact`, priority: 0.5, changefreq: 'monthly' }
   ];
   const articleEntries = recent.map(a => `  <url>
-    <loc>${SITE_URL}/articles/${a.slug}.html</loc>
+    <loc>${SITE_URL}/articles/${a.slug}</loc>
     <news:news>
       <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>${a.publishedAt}</news:publication_date>
@@ -580,7 +580,7 @@ async function main() {
       evergreen: true
     });
 
-    newUrls.push(`${SITE_URL}/articles/${fileSlug}.html`);
+    newUrls.push(`${SITE_URL}/articles/${fileSlug}`);
     written++;
     console.log(`    ✓ ${piece.title.substring(0, 70)} (${wordCount} words, ${readingMinutes} min)`);
   }

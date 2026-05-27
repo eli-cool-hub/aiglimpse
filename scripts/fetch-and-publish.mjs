@@ -183,21 +183,21 @@ Return ONLY valid JSON (no markdown fences, no preamble):
 //   • Never link inside existing <a> tags, headings, or blockquotes
 //   • Longest phrases checked first so "large language model" wins over "model"
 const INTERNAL_LINK_MAP = [
-  { phrase: 'large language models', url: '/categories/llms.html' },
-  { phrase: 'large language model', url: '/categories/llms.html' },
-  { phrase: 'language models', url: '/categories/llms.html' },
-  { phrase: 'language model', url: '/categories/llms.html' },
-  { phrase: 'humanoid robot', url: '/categories/robotics.html' },
-  { phrase: 'humanoid robots', url: '/categories/robotics.html' },
-  { phrase: 'AI research', url: '/categories/research.html' },
-  { phrase: 'AI safety', url: '/categories/ethics.html' },
-  { phrase: 'AI ethics', url: '/categories/ethics.html' },
-  { phrase: 'AI regulation', url: '/categories/ethics.html' },
-  { phrase: 'AI tools', url: '/categories/tools.html' },
-  { phrase: 'AI agents', url: '/categories/tools.html' },
-  { phrase: 'AI funding', url: '/categories/business.html' },
-  { phrase: 'AI startups', url: '/categories/business.html' },
-  { phrase: 'enterprise AI', url: '/categories/industry.html' }
+  { phrase: 'large language models', url: '/categories/llms' },
+  { phrase: 'large language model', url: '/categories/llms' },
+  { phrase: 'language models', url: '/categories/llms' },
+  { phrase: 'language model', url: '/categories/llms' },
+  { phrase: 'humanoid robot', url: '/categories/robotics' },
+  { phrase: 'humanoid robots', url: '/categories/robotics' },
+  { phrase: 'AI research', url: '/categories/research' },
+  { phrase: 'AI safety', url: '/categories/ethics' },
+  { phrase: 'AI ethics', url: '/categories/ethics' },
+  { phrase: 'AI regulation', url: '/categories/ethics' },
+  { phrase: 'AI tools', url: '/categories/tools' },
+  { phrase: 'AI agents', url: '/categories/tools' },
+  { phrase: 'AI funding', url: '/categories/business' },
+  { phrase: 'AI startups', url: '/categories/business' },
+  { phrase: 'enterprise AI', url: '/categories/industry' }
 ];
 
 function escapeRegex(s) {
@@ -226,7 +226,7 @@ function addInternalLinks(html, currentCategory) {
   let added = 0;
   for (const { phrase, url } of INTERNAL_LINK_MAP) {
     if (added >= 3) break;
-    if (currentCategory && url === `/categories/${currentCategory}.html`) continue;
+    if (currentCategory && url === `/categories/${currentCategory}`) continue;
     const re = new RegExp(`\\b(${escapeRegex(phrase)})\\b`, 'i');
     let inserted = false;
     html = html.replace(re, (m) => {
@@ -266,7 +266,7 @@ function generateArticleHtml({ rewritten, source, slug, category, publishedAt, r
 
   const schema = {
     '@context': 'https://schema.org', '@type': 'NewsArticle',
-    mainEntityOfPage: { '@type': 'WebPage', '@id': `${SITE_URL}/articles/${slug}.html` },
+    mainEntityOfPage: { '@type': 'WebPage', '@id': `${SITE_URL}/articles/${slug}` },
     headline: rewritten.title, description: rewritten.meta_description,
     image: [imageUrl],
     datePublished: isoDate, dateModified: isoDate,
@@ -282,11 +282,11 @@ function generateArticleHtml({ rewritten, source, slug, category, publishedAt, r
   <title>${escapeHtml(rewritten.title)} | AI Glimpse</title>
   <meta name="description" content="${escapeHtml(rewritten.meta_description)}">
   <meta name="keywords" content="${escapeHtml(rewritten.keywords.join(', '))}">
-  <link rel="canonical" href="${SITE_URL}/articles/${slug}.html">
+  <link rel="canonical" href="${SITE_URL}/articles/${slug}">
   <meta property="og:type" content="article"><meta property="og:site_name" content="AI Glimpse">
   <meta property="og:title" content="${escapeHtml(rewritten.title)}">
   <meta property="og:description" content="${escapeHtml(rewritten.meta_description)}">
-  <meta property="og:url" content="${SITE_URL}/articles/${slug}.html">
+  <meta property="og:url" content="${SITE_URL}/articles/${slug}">
   <meta property="og:image" content="${imageUrl}">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
@@ -319,7 +319,7 @@ function generateArticleHtml({ rewritten, source, slug, category, publishedAt, r
         <div class="container container--narrow">
           <nav aria-label="Breadcrumb" style="margin-bottom:var(--space-4);font-size:var(--text-xs);color:var(--color-ink-muted);">
             <a href="/" style="color:inherit;">Home</a> /
-            <a href="/categories/${category}.html" style="color:inherit;">${cat.name}</a>
+            <a href="/categories/${category}" style="color:inherit;">${cat.name}</a>
           </nav>
           <div class="article-hero-meta">
             <span class="tag tag--${cat.tag}">${cat.name}</span>
@@ -356,13 +356,13 @@ async function regenerateSitemap(published) {
   const recent = published.articles.slice(0, 1000);
   const staticUrls = [
     { loc: `${SITE_URL}/`, priority: 1.0, changefreq: 'hourly' },
-    ...Object.keys(CATEGORIES).map(c => ({ loc: `${SITE_URL}/categories/${c}.html`, priority: 0.9, changefreq: 'hourly' })),
-    { loc: `${SITE_URL}/pages/about.html`, priority: 0.5, changefreq: 'monthly' },
-    { loc: `${SITE_URL}/pages/contact.html`, priority: 0.5, changefreq: 'monthly' },
+    ...Object.keys(CATEGORIES).map(c => ({ loc: `${SITE_URL}/categories/${c}`, priority: 0.9, changefreq: 'hourly' })),
+    { loc: `${SITE_URL}/pages/about`, priority: 0.5, changefreq: 'monthly' },
+    { loc: `${SITE_URL}/pages/contact`, priority: 0.5, changefreq: 'monthly' },
   ];
 
   const articleEntries = recent.map(a => `  <url>
-    <loc>${SITE_URL}/articles/${a.slug}.html</loc>
+    <loc>${SITE_URL}/articles/${a.slug}</loc>
     <news:news>
       <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>${a.publishedAt}</news:publication_date>
@@ -379,8 +379,8 @@ ${articleEntries}
 
   const rssItems = recent.slice(0, 50).map(a => `    <item>
       <title>${escapeHtml(a.title)}</title>
-      <link>${SITE_URL}/articles/${a.slug}.html</link>
-      <guid isPermaLink="true">${SITE_URL}/articles/${a.slug}.html</guid>
+      <link>${SITE_URL}/articles/${a.slug}</link>
+      <guid isPermaLink="true">${SITE_URL}/articles/${a.slug}</guid>
       <description>${escapeHtml(a.subtitle || a.title)}</description>
       <pubDate>${new Date(a.publishedAt).toUTCString()}</pubDate>
       <category>${escapeHtml(CATEGORIES[a.category]?.name || 'AI')}</category>
@@ -496,7 +496,7 @@ async function main() {
         image: imagePath
       });
       published.hashes.push(hash);
-      newUrls.push(`${SITE_URL}/articles/${slug}.html`);
+      newUrls.push(`${SITE_URL}/articles/${slug}`);
       count++;
       console.log(`  ✓ [${item.source.title}] ${rewritten.title.substring(0, 70)}`);
     } catch (e) {

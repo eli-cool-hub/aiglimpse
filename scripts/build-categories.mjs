@@ -88,7 +88,7 @@ function escapeHtml(s) {
     .replace(/"/g, '&quot;');
 }
 
-function articleUrl(a) { return a.href || `/articles/${a.slug}.html`; }
+function articleUrl(a) { return a.href || `/articles/${a.slug}`; }
 function articleImage(a) { return a.image || '/images/placeholder.svg'; }
 
 function displayDate(iso) {
@@ -122,7 +122,7 @@ function emptyState(catName) {
 }
 
 function renderPage(slug, cat, articles) {
-  const url = `${SITE_URL}/categories/${slug}.html`;
+  const url = `${SITE_URL}/categories/${slug}`;
   const articleCards = articles.length
     ? `<div class="grid grid-3">
 ${articles.map(a => card(a, cat)).join('\n')}
@@ -136,7 +136,7 @@ ${articles.map(a => card(a, cat)).join('\n')}
     itemListElement: articles.slice(0, 10).map((a, i) => ({
       '@type': 'ListItem',
       position: i + 1,
-      url: `${SITE_URL}/articles/${a.slug}.html`,
+      url: `${SITE_URL}/articles/${a.slug}`,
       name: a.title
     }))
   } : null;
