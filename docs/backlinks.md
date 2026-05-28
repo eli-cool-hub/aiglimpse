@@ -10,6 +10,54 @@ directories and Reddit can go now.
 
 ---
 
+## Tier 0 - Automated cross-posting (ONE-TIME setup, then permanent)
+
+Every new article gets cross-posted to high-authority platforms with
+`canonical_url` back to aiglimpse.ai. Google credits the original, we earn
+real recurring backlinks from DA 80+ domains. Quality gated: short news
+skipped, technical categories only for Dev.to/Hashnode.
+
+After you create each account and grab the token, add to GitHub Secrets:
+https://github.com/eli-cool-hub/aiglimpse/settings/secrets/actions
+
+### Hashnode (DA 80) - works for everyone
+
+- [ ] Sign up at https://hashnode.com (or sign in with Google)
+- [ ] Click "Start writing" and create your blog (any subdomain like `aiglimpse.hashnode.dev`)
+- [ ] Profile menu (top-right) -> Account Settings -> Developer -> Personal Access Tokens
+- [ ] Click GENERATE NEW TOKEN, copy it
+- [ ] Add as GitHub secret named `HASHNODE_TOKEN`
+
+### Dev.to (DA 89) - works for everyone
+
+- [ ] Sign up at https://dev.to (or sign in with GitHub)
+- [ ] Click avatar (top-right) -> Settings -> Extensions
+- [ ] Scroll to "DEV Community API Keys" -> Generate API Key, copy it
+- [ ] Add as GitHub secret named `DEVTO_API_KEY`
+
+### Medium (DA 96) - try, may be locked
+
+- [ ] Sign in at https://medium.com
+- [ ] Visit https://medium.com/me/settings/security
+- [ ] Look for "Integration tokens" section. If visible, click "Get token" and copy
+- [ ] Add as GitHub secret named `MEDIUM_TOKEN`
+
+Note: Medium has been quietly deprecating the Integration Tokens API for
+new accounts since 2023. If you don't see the option, skip - Hashnode + Dev.to alone deliver ~720 backlinks/month.
+
+### Once tokens are set
+
+Every cron run of "Fetch AI News" (every 2h) will syndicate any qualifying
+articles. Watch the workflow logs for lines like:
+```
+→ medium: https://medium.com/@you/...
+→ dev.to: https://dev.to/you/...
+→ hashnode: https://yourname.hashnode.dev/...
+```
+State is tracked in `data/syndicated.json` so re-runs don't double-post.
+
+---
+
 ## Universal copy to reuse
 
 **Name**: `AI Glimpse`

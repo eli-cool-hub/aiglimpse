@@ -27,6 +27,7 @@ import path from 'path';
 import { generateArticleImage, generateInlineImages, injectInlineImages, resetImageSession } from './lib/images.mjs';
 import { buildHomepage } from './build-homepage.mjs';
 import { buildCategories } from './build-categories.mjs';
+import { syndicate } from './lib/syndicate.mjs';
 
 const ROOT = path.resolve(process.cwd());
 const ARTICLES_DIR = path.join(ROOT, 'articles');
@@ -586,6 +587,27 @@ async function main() {
     newUrls.push(`${SITE_URL}/articles/${fileSlug}`);
     written++;
     console.log(`    ✓ ${piece.title.substring(0, 70)} (${wordCount} words, ${readingMinutes} min)`);
+
+    // Evergreens are 1500+ word originals, perfect for syndication.
+    try {
+      const synd = await syndicate({
+        slug: fileSlug,
+        title: piece.title,
+        subtitle: piece.subtitle,
+        excerpt: piece.subtitle || piece.title,
+        html_body: piece.body_html,
+        canonical_url: `${SITE_URL}/articles/${fileSlug}`,
+        tags: [topic.category, 'AI', 'machine learning', 'tutorial'],
+        word_count: wordCount,
+        category: topic.category
+      });
+      if (synd.medium) console.log(`      → medium: ${synd.medium}`);
+      if (synd.devto) console.log(`      → dev.to: ${synd.devto}`);
+      if (synd.hashnode) console.log(`      → hashnode: ${synd.hashnode}`);
+      if (synd.errors) for (const [p, m] of Object.entries(synd.errors)) console.warn(`      ! ${p}: ${m}`);
+    } catch (e) {
+      console.warn(`      ! syndication: ${e.message}`);
+    }
   }
 
   if (written) {

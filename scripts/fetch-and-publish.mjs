@@ -26,6 +26,7 @@ import { deduplicate, contentHash } from './lib/dedupe.mjs';
 import { generateArticleImage, generateInlineImages, injectInlineImages, resetImageSession } from './lib/images.mjs';
 import { buildHomepage } from './build-homepage.mjs';
 import { buildCategories } from './build-categories.mjs';
+import { syndicate, syndicationStats } from './lib/syndicate.mjs';
 
 const ROOT = path.resolve(process.cwd());
 const ARTICLES_DIR = path.join(ROOT, 'articles');
@@ -502,6 +503,29 @@ async function main() {
       newUrls.push(`${SITE_URL}/articles/${slug}`);
       count++;
       console.log(`  ✓ [${item.source.title}] ${rewritten.title.substring(0, 70)}`);
+
+      // Syndicate to Medium / Dev.to / Hashnode with canonical_url back to
+      // aiglimpse.ai. Quality gates inside syndicate() skip short news
+      // and non-technical categories per platform. Never blocks publishing.
+      try {
+        const synd = await syndicate({
+          slug,
+          title: rewritten.title,
+          subtitle: rewritten.subtitle,
+          excerpt: rewritten.subtitle || rewritten.title,
+          html_body: rewritten.body_html,
+          canonical_url: `${SITE_URL}/articles/${slug}`,
+          tags: [category, 'AI', 'machine learning'],
+          word_count: wordCount,
+          category
+        });
+        if (synd.medium) console.log(`    → medium: ${synd.medium}`);
+        if (synd.devto) console.log(`    → dev.to: ${synd.devto}`);
+        if (synd.hashnode) console.log(`    → hashnode: ${synd.hashnode}`);
+        if (synd.errors) for (const [p, m] of Object.entries(synd.errors)) console.warn(`    ! ${p}: ${m}`);
+      } catch (e) {
+        console.warn(`    ! syndication: ${e.message}`);
+      }
     } catch (e) {
       console.error(`  ✗ Failed on "${item.title?.substring(0, 60)}": ${e.message}`);
     }

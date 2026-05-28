@@ -30,6 +30,9 @@ jobs:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           INDEXNOW_KEY: ${{ secrets.INDEXNOW_KEY }}
           PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
+          MEDIUM_TOKEN: ${{ secrets.MEDIUM_TOKEN }}
+          DEVTO_API_KEY: ${{ secrets.DEVTO_API_KEY }}
+          HASHNODE_TOKEN: ${{ secrets.HASHNODE_TOKEN }}
           SITE_URL: https://aiglimpse.ai
           # Steady drip: 2 articles per run, max 1 per category per run.
           # Times 12 runs/day = ~24 articles/day, balanced across topics.

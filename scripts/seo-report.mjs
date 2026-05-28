@@ -13,6 +13,7 @@
 import { JWT } from 'google-auth-library';
 import fs from 'node:fs/promises';
 import path from 'node:path';
+import { syndicationStats } from './lib/syndicate.mjs';
 
 const SA_JSON = process.env.GOOGLE_SERVICE_ACCOUNT_JSON;
 if (!SA_JSON) { console.error('GOOGLE_SERVICE_ACCOUNT_JSON missing'); process.exit(1); }
@@ -328,6 +329,14 @@ if (snapshot.ga4.totals.bounce_rate > 0.75 && snapshot.ga4.totals.sessions >= 20
 }
 
 snapshot.recommendations = recommendations;
+
+// Syndication stats
+try {
+  const synState = JSON.parse(await fs.readFile(path.join(process.cwd(), 'data', 'syndicated.json'), 'utf8'));
+  snapshot.syndication = syndicationStats(synState);
+} catch {
+  snapshot.syndication = { total: 0, medium: 0, devto: 0, hashnode: 0 };
+}
 
 // ----------------------------------------------------------------------
 // History (30-day rolling KPI series)

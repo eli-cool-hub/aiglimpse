@@ -81,6 +81,9 @@
   <h2>At a glance</h2>
   <div class="kpis" id="kpis"></div>
 
+  <h2>Backlink syndication</h2>
+  <div class="kpis" id="synd-kpis"></div>
+
   <h2>Trends - last 30 days</h2>
   <div class="grid-2">
     <div class="card">
@@ -174,6 +177,17 @@ const kpis = [
 ];
 document.getElementById('kpis').innerHTML = kpis.map(k =>
   `<div class="kpi ${k.cls}"><div class="kpi-label">${k.label}</div><div class="kpi-value">${k.value}</div></div>`
+).join('');
+
+const synd = SNAPSHOT.syndication || { total: 0, medium: 0, devto: 0, hashnode: 0 };
+const syndKpis = [
+  { label: 'Total articles cross-posted', value: fmt(synd.total) },
+  { label: 'Medium (DA 96)', value: fmt(synd.medium) },
+  { label: 'Dev.to (DA 89)', value: fmt(synd.devto) },
+  { label: 'Hashnode (DA 80)', value: fmt(synd.hashnode) }
+];
+document.getElementById('synd-kpis').innerHTML = syndKpis.map(k =>
+  `<div class="kpi"><div class="kpi-label">${k.label}</div><div class="kpi-value">${k.value}</div></div>`
 ).join('');
 
 const recs = SNAPSHOT.recommendations || [];
