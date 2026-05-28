@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "ai-models-absorb-false-claims-despite-explicit-warning-labels-60b8d887",
+      "title": "AI Models Absorb False Claims Despite Explicit Warning Labels",
+      "subtitle": "Research reveals large language models internalize misinformation even when training data clearly marks statements as false, raising concerns about hallucination and data quality.",
+      "category": "tools",
+      "publishedAt": "2026-05-28T21:29:43.000Z",
+      "sourceUrl": "https://arstechnica.com/ai/2026/05/llms-believe-false-statements-even-after-explicit-warnings-that-theyre-false/",
+      "sourceName": "Ars Technica AI",
+      "sourceTier": 2,
+      "image": "/images/articles/ai-models-absorb-false-claims-despite-explicit-warning-labels-60b8d887.jpg"
+    },
+    {
+      "slug": "new-ai-model-stabilizes-video-lighting-effects-with-temporal-precision-7757ce88",
+      "title": "New AI Model Stabilizes Video Lighting Effects with Temporal Precision",
+      "subtitle": "Researchers introduce HarmoVid, a diffusion-based system that automatically matches foreground video lighting to background scenes while eliminating temporal flickering artifacts.",
+      "category": "research",
+      "publishedAt": "2026-05-27T17:59:02.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2605.28811v1",
+      "sourceName": "arXiv (Jun Myeong Choi, Jae Shin Yoon, Luchao Qi, Roni Sengupta, Jo…)",
+      "sourceTier": 1,
+      "image": "/images/articles/new-ai-model-stabilizes-video-lighting-effects-with-temporal-precision-7757ce88.jpg"
+    },
+    {
       "slug": "new-search-method-lets-ai-models-improve-themselves-beyond-training-a37b1030",
       "title": "New Search Method Lets AI Models Improve Themselves Beyond Training",
       "subtitle": "Researchers introduce a bidirectional framework that helps language models escape limitations of standard search techniques during both training and inference.",
@@ -757,6 +779,8 @@
     "57d5b2b721da3cad",
     "0f5eae845f5bea34",
     "2a5a65e515344f96",
-    "a37b10306b5577dd"
+    "a37b10306b5577dd",
+    "7757ce88f59d235c",
+    "60b8d8879892849a"
   ]
 }

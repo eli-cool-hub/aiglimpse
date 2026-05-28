@@ -7,6 +7,22 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>AI Models Absorb False Claims Despite Explicit Warning Labels</title>
+      <link>https://aiglimpse.ai/articles/ai-models-absorb-false-claims-despite-explicit-warning-labels-60b8d887</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/ai-models-absorb-false-claims-despite-explicit-warning-labels-60b8d887</guid>
+      <description>Research reveals large language models internalize misinformation even when training data clearly marks statements as false, raising concerns about hallucination and data quality.</description>
+      <pubDate>Thu, 28 May 2026 21:29:43 GMT</pubDate>
+      <category>AI Tools &amp; Products</category>
+    </item>
+    <item>
+      <title>New AI Model Stabilizes Video Lighting Effects with Temporal Precision</title>
+      <link>https://aiglimpse.ai/articles/new-ai-model-stabilizes-video-lighting-effects-with-temporal-precision-7757ce88</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-ai-model-stabilizes-video-lighting-effects-with-temporal-precision-7757ce88</guid>
+      <description>Researchers introduce HarmoVid, a diffusion-based system that automatically matches foreground video lighting to background scenes while eliminating temporal flickering artifacts.</description>
+      <pubDate>Wed, 27 May 2026 17:59:02 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
       <title>New Search Method Lets AI Models Improve Themselves Beyond Training</title>
       <link>https://aiglimpse.ai/articles/new-search-method-lets-ai-models-improve-themselves-beyond-training-a37b1030</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/new-search-method-lets-ai-models-improve-themselves-beyond-training-a37b1030</guid>
@@ -389,22 +405,6 @@
       <description>ChatGPT users now access journalism from Grupo Folha and Grupo UOL with full attribution, marking OpenAI's expansion into Latin American media partnerships.</description>
       <pubDate>Mon, 25 May 2026 00:00:00 GMT</pubDate>
       <category>LLMs &amp; Chatbots</category>
-    </item>
-    <item>
-      <title>Researchers Propose 'Sleep' Mechanism to Fix LLM Context Limits</title>
-      <link>https://aiglimpse.ai/articles/researchers-propose-sleep-mechanism-to-fix-llm-context-limits-94675ebb</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/researchers-propose-sleep-mechanism-to-fix-llm-context-limits-94675ebb</guid>
-      <description>A new consolidation technique lets language models compress long conversations into persistent memory, solving a critical scaling bottleneck.</description>
-      <pubDate>Mon, 25 May 2026 17:55:39 GMT</pubDate>
-      <category>AI Research</category>
-    </item>
-    <item>
-      <title>LLMs Transform Code Review by Labeling Patch Structure</title>
-      <link>https://aiglimpse.ai/articles/llms-transform-code-review-by-labeling-patch-structure-78e840ad</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/llms-transform-code-review-by-labeling-patch-structure-78e840ad</guid>
-      <description>Researchers demonstrate AI can categorize code changes with 84% recall, enabling faster reviews without manual taxonomy engineering.</description>
-      <pubDate>Mon, 25 May 2026 17:56:46 GMT</pubDate>
-      <category>AI Research</category>
     </item>
   </channel>
 </rss>

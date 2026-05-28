@@ -11,6 +11,24 @@
   <url><loc>https://aiglimpse.ai/pages/about</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
   <url><loc>https://aiglimpse.ai/pages/contact</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
   <url>
+    <loc>https://aiglimpse.ai/articles/ai-models-absorb-false-claims-despite-explicit-warning-labels-60b8d887</loc>
+    <news:news>
+      <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-05-28T21:29:43.000Z</news:publication_date>
+      <news:title>AI Models Absorb False Claims Despite Explicit Warning Labels</news:title>
+    </news:news>
+    <changefreq>daily</changefreq><priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://aiglimpse.ai/articles/new-ai-model-stabilizes-video-lighting-effects-with-temporal-precision-7757ce88</loc>
+    <news:news>
+      <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-05-27T17:59:02.000Z</news:publication_date>
+      <news:title>New AI Model Stabilizes Video Lighting Effects with Temporal Precision</news:title>
+    </news:news>
+    <changefreq>daily</changefreq><priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://aiglimpse.ai/articles/new-search-method-lets-ai-models-improve-themselves-beyond-training-a37b1030</loc>
     <news:news>
       <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
