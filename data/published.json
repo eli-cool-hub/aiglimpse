@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "vertu-launches-ai-powered-foldable-for-enterprise-leaders-a501228c",
+      "title": "Vertu Launches AI-Powered Foldable for Enterprise Leaders",
+      "subtitle": "Luxury device maker enters competitive AI hardware market with executive-focused foldable starting at $6,880, built on open-source Hermes foundation.",
+      "category": "business",
+      "publishedAt": "2026-05-28T07:00:00.000Z",
+      "sourceUrl": "https://techcrunch.com/2026/05/28/vertu-wants-ceos-to-run-companies-from-an-ai-foldable-starting-at-6880/",
+      "sourceName": "TechCrunch AI",
+      "sourceTier": 2,
+      "image": "/images/articles/vertu-launches-ai-powered-foldable-for-enterprise-leaders-a501228c.jpg"
+    },
+    {
+      "slug": "hugging-face-tackles-massive-model-distribution-with-delta-sync-7c0535cb",
+      "title": "Hugging Face Tackles Massive Model Distribution With Delta Sync",
+      "subtitle": "New technique dramatically reduces bandwidth needed to ship trillion-parameter AI models by only transferring weight changes.",
+      "category": "tools",
+      "publishedAt": "2026-05-27T00:00:00.000Z",
+      "sourceUrl": "https://huggingface.co/blog/delta-weight-sync",
+      "sourceName": "Hugging Face",
+      "sourceTier": 1,
+      "image": "/images/articles/hugging-face-tackles-massive-model-distribution-with-delta-sync-7c0535cb.jpg"
+    },
+    {
       "slug": "googles-latest-ai-model-struggles-with-basic-spelling-tasks-7e847648",
       "title": "Google's Latest AI Model Struggles With Basic Spelling Tasks",
       "subtitle": "A newly discovered flaw exposes fundamental limitations in how leading language models process and reproduce written characters.",
@@ -589,6 +611,8 @@
     "89801fac14c33f01",
     "9f506aa6e5525f50",
     "7a69697aa4a1d8fb",
-    "7e847648a8c47c06"
+    "7e847648a8c47c06",
+    "7c0535cb3907f522",
+    "a501228c9299e025"
   ]
 }
