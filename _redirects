@@ -9,6 +9,7 @@
 /articles/*/  /articles/:splat.html  200
 /categories/*/  /categories/:splat.html  200
 
-# www -> apex is handled at the Cloudflare DNS/Bulk-Redirect layer once both
-# hostnames are attached to the Pages project, so it is intentionally
-# omitted here.
+# www -> apex 301. Cloudflare Pages supports full-URL source patterns in
+# _redirects so we do not need any Cloudflare API scope to install this.
+https://www.aiglimpse.ai/*  https://aiglimpse.ai/:splat  301
+http://www.aiglimpse.ai/*  https://aiglimpse.ai/:splat  301

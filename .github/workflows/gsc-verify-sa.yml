@@ -1,0 +1,28 @@
+name: "GSC - Verify service account via DNS TXT (one-shot)"
+
+# Workaround for Google Search Console's UI rejecting service account
+# emails as "email not found". Calls the Site Verification API to claim
+# ownership of aiglimpse.ai via a DNS TXT record that this workflow
+# installs on Cloudflare automatically.
+
+on:
+  workflow_dispatch:
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install google-auth-library
+        run: npm install --no-save google-auth-library
+
+      - name: Run verify
+        env:
+          GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+        run: node scripts/gsc-verify-sa.mjs
