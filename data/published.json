@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "apples-reimagined-siri-aims-to-compete-in-generative-ai-race-83428ac9",
+      "title": "Apple's Reimagined Siri Aims to Compete in Generative AI Race",
+      "subtitle": "Leaked interface designs show Cupertino preparing a standalone conversational AI assistant for iOS 27, signaling serious ambitions to challenge ChatGPT.",
+      "category": "business",
+      "publishedAt": "2026-05-28T14:45:13.000Z",
+      "sourceUrl": "https://techcrunch.com/2026/05/28/sneak-peek-at-new-siri-app-reveals-apples-plans-to-take-on-chatgpt-and-more/",
+      "sourceName": "TechCrunch AI",
+      "sourceTier": 2,
+      "image": "/images/articles/apples-reimagined-siri-aims-to-compete-in-generative-ai-race-83428ac9.jpg"
+    },
+    {
+      "slug": "waymo-launches-chinese-built-robotaxi-service-across-two-states-d118b3d4",
+      "title": "Waymo Launches Chinese-Built Robotaxi Service Across Two States",
+      "subtitle": "The tech giant's new Ojai vehicles begin ferrying passengers in California and Arizona, marking a significant shift in autonomous vehicle manufacturing.",
+      "category": "tools",
+      "publishedAt": "2026-05-28T15:00:00.000Z",
+      "sourceUrl": "https://www.wired.com/story/here-comes-ojai-waymos-new-chinese-made-robotaxi/",
+      "sourceName": "Wired AI",
+      "sourceTier": 2,
+      "image": "/images/articles/waymo-launches-chinese-built-robotaxi-service-across-two-states-d118b3d4.jpg"
+    },
+    {
       "slug": "vision-language-models-dont-universally-beat-text-only-ai-on-human-alignment-07ef8287",
       "title": "Vision-Language Models Don't Universally Beat Text-Only AI on Human Alignment",
       "subtitle": "New neuroscience study challenges assumptions about multimodal training, finding visual pretraining helps only in specific linguistic contexts.",
@@ -637,6 +659,8 @@
     "7c0535cb3907f522",
     "a501228c9299e025",
     "bc6fd5e5190c5881",
-    "07ef82872413ce92"
+    "07ef82872413ce92",
+    "d118b3d42e3f3383",
+    "83428ac96f0048b8"
   ]
 }

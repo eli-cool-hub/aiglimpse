@@ -11,6 +11,24 @@
   <url><loc>https://aiglimpse.ai/pages/about</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
   <url><loc>https://aiglimpse.ai/pages/contact</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
   <url>
+    <loc>https://aiglimpse.ai/articles/apples-reimagined-siri-aims-to-compete-in-generative-ai-race-83428ac9</loc>
+    <news:news>
+      <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-05-28T14:45:13.000Z</news:publication_date>
+      <news:title>Apple's Reimagined Siri Aims to Compete in Generative AI Race</news:title>
+    </news:news>
+    <changefreq>daily</changefreq><priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://aiglimpse.ai/articles/waymo-launches-chinese-built-robotaxi-service-across-two-states-d118b3d4</loc>
+    <news:news>
+      <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-05-28T15:00:00.000Z</news:publication_date>
+      <news:title>Waymo Launches Chinese-Built Robotaxi Service Across Two States</news:title>
+    </news:news>
+    <changefreq>daily</changefreq><priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://aiglimpse.ai/articles/vision-language-models-dont-universally-beat-text-only-ai-on-human-alignment-07ef8287</loc>
     <news:news>
       <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
