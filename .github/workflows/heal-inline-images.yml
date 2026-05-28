@@ -5,6 +5,9 @@ name: Heal Inline Images
 # CSS or template change). Idempotent, safe to re-run.
 on:
   workflow_dispatch:
+  schedule:
+    # Sundays at 04:15 UTC - quiet hour, before Monday morning publishing.
+    - cron: '15 4 * * 0'
 
 jobs:
   heal:

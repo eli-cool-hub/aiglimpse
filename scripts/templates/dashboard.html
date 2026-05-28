@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>AI Glimpse Dashboard</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+<style>
+  :root {
+    --paper: #f9f5ec;
+    --paper-elev: #f3ecdc;
+    --ink: #1a1a1a;
+    --muted: #6b6157;
+    --line: #d9cfb8;
+    --accent: #ff5b1f;
+    --good: #2d8c47;
+    --warn: #c97200;
+    --bad: #c2410c;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; background: var(--paper); color: var(--ink); font-family: 'Plus Jakarta Sans', sans-serif; }
+  body { padding: 32px 24px 80px; }
+  .container { max-width: 1200px; margin: 0 auto; }
+  header { display: flex; align-items: center; justify-content: space-between; margin-bottom: 32px; padding-bottom: 24px; border-bottom: 1px solid var(--line); flex-wrap: wrap; gap: 16px; }
+  .wordmark { font-weight: 800; font-size: 28px; letter-spacing: -0.02em; }
+  .wordmark .dot { color: var(--accent); }
+  .meta { color: var(--muted); font-size: 14px; }
+  h1 { margin: 0; font-size: 24px; font-weight: 700; }
+  h2 { margin: 40px 0 16px; font-size: 18px; font-weight: 700; letter-spacing: -0.01em; }
+  h3 { margin: 24px 0 12px; font-size: 14px; font-weight: 600; color: var(--muted); text-transform: uppercase; letter-spacing: 0.05em; }
+  .kpis { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 12px; }
+  .kpi { background: var(--paper-elev); border: 1px solid var(--line); border-radius: 6px; padding: 18px; }
+  .kpi-label { font-size: 11px; color: var(--muted); text-transform: uppercase; letter-spacing: 0.08em; font-weight: 600; }
+  .kpi-value { font-size: 28px; font-weight: 700; margin-top: 6px; letter-spacing: -0.02em; }
+  .kpi-sub { font-size: 12px; color: var(--muted); margin-top: 2px; }
+  .kpi.gsc { border-left: 3px solid #4285f4; }
+  .kpi.ga4 { border-left: 3px solid #f4b400; }
+  .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; }
+  @media (max-width: 900px) { .grid-2 { grid-template-columns: 1fr; } }
+  .card { background: var(--paper-elev); border: 1px solid var(--line); border-radius: 6px; padding: 20px; }
+  table { width: 100%; border-collapse: collapse; font-size: 13px; }
+  th, td { text-align: left; padding: 8px 10px; border-bottom: 1px solid var(--line); }
+  th { font-weight: 600; color: var(--muted); font-size: 11px; text-transform: uppercase; letter-spacing: 0.05em; }
+  td.num { text-align: right; font-variant-numeric: tabular-nums; font-family: 'JetBrains Mono', monospace; font-size: 12px; }
+  td.path { max-width: 380px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-family: 'JetBrains Mono', monospace; font-size: 12px; }
+  tr:hover { background: rgba(0,0,0,0.02); }
+  .recs { display: flex; flex-direction: column; gap: 8px; }
+  .rec { display: flex; gap: 10px; padding: 12px 14px; background: var(--paper-elev); border: 1px solid var(--line); border-radius: 6px; border-left: 3px solid var(--muted); font-size: 14px; line-height: 1.5; }
+  .rec.priority-high { border-left-color: var(--bad); }
+  .rec.priority-medium { border-left-color: var(--warn); }
+  .rec.priority-info { border-left-color: var(--muted); }
+  .rec-badge { display: inline-block; font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; padding: 2px 6px; border-radius: 3px; background: var(--ink); color: var(--paper); }
+  .rec.priority-high .rec-badge { background: var(--bad); color: white; }
+  .rec.priority-medium .rec-badge { background: var(--warn); color: white; }
+  .empty { color: var(--muted); font-size: 14px; text-align: center; padding: 32px; }
+  .chart-wrap { height: 240px; margin-top: 12px; }
+  .chip { display: inline-block; padding: 2px 8px; background: var(--paper); border: 1px solid var(--line); border-radius: 999px; font-size: 11px; color: var(--muted); margin-right: 4px; }
+  .footer { margin-top: 64px; padding-top: 24px; border-top: 1px solid var(--line); font-size: 12px; color: var(--muted); text-align: center; }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+</style>
+</head>
+<body>
+<div class="container">
+
+  <header>
+    <div>
+      <div class="wordmark">AI Glimpse<span class="dot">.</span></div>
+      <div class="meta">Dashboard - <span id="generated"></span></div>
+    </div>
+    <div class="meta">
+      <span class="chip">7-day window</span>
+      <span class="chip" id="property-chip"></span>
+    </div>
+  </header>
+
+  <h2>At a glance</h2>
+  <div class="kpis" id="kpis"></div>
+
+  <h2>Trends - last 30 days</h2>
+  <div class="grid-2">
+    <div class="card">
+      <h3>Search Console</h3>
+      <div class="chart-wrap"><canvas id="gscChart"></canvas></div>
+    </div>
+    <div class="card">
+      <h3>Google Analytics</h3>
+      <div class="chart-wrap"><canvas id="ga4Chart"></canvas></div>
+    </div>
+  </div>
+
+  <h2>Recommendations <span id="rec-count" class="chip"></span></h2>
+  <div class="recs" id="recs"></div>
+
+  <h2>Search Console</h2>
+  <div class="grid-2">
+    <div class="card">
+      <h3>Top queries</h3>
+      <table id="gsc-queries"><thead><tr><th>Query</th><th class="num">Clicks</th><th class="num">Impr.</th><th class="num">CTR</th><th class="num">Pos.</th></tr></thead><tbody></tbody></table>
+    </div>
+    <div class="card">
+      <h3>Top landing pages</h3>
+      <table id="gsc-pages"><thead><tr><th>Page</th><th class="num">Clicks</th><th class="num">Impr.</th><th class="num">Pos.</th></tr></thead><tbody></tbody></table>
+    </div>
+  </div>
+
+  <div class="grid-2" style="margin-top: 24px;">
+    <div class="card">
+      <h3>Countries</h3>
+      <table id="gsc-countries"><thead><tr><th>Country</th><th class="num">Clicks</th><th class="num">Impr.</th></tr></thead><tbody></tbody></table>
+    </div>
+    <div class="card">
+      <h3>Devices</h3>
+      <table id="gsc-devices"><thead><tr><th>Device</th><th class="num">Clicks</th><th class="num">Impr.</th></tr></thead><tbody></tbody></table>
+    </div>
+  </div>
+
+  <h2>Google Analytics</h2>
+  <div class="grid-2">
+    <div class="card">
+      <h3>Top pages</h3>
+      <table id="ga4-pages"><thead><tr><th>Page</th><th class="num">Views</th><th class="num">Users</th></tr></thead><tbody></tbody></table>
+    </div>
+    <div class="card">
+      <h3>Traffic sources</h3>
+      <table id="ga4-sources"><thead><tr><th>Channel / Source</th><th class="num">Sessions</th><th class="num">Users</th></tr></thead><tbody></tbody></table>
+    </div>
+  </div>
+
+  <div class="grid-2" style="margin-top: 24px;">
+    <div class="card">
+      <h3>Countries</h3>
+      <table id="ga4-countries"><thead><tr><th>Country</th><th class="num">Sessions</th><th class="num">Users</th></tr></thead><tbody></tbody></table>
+    </div>
+    <div class="card">
+      <h3>Devices</h3>
+      <table id="ga4-devices"><thead><tr><th>Device</th><th class="num">Sessions</th></tr></thead><tbody></tbody></table>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div>Live data from Google Search Console and Google Analytics 4 - regenerated daily at 07:30 UTC</div>
+    <div style="margin-top: 8px;">
+      Sitemap: <span id="sitemap-info"></span>
+    </div>
+  </footer>
+
+</div>
+
+<script>
+const SNAPSHOT = /*__SNAPSHOT__*/null;
+const HISTORY = /*__HISTORY__*/null;
+
+const fmt = (n) => n == null ? '-' : (typeof n === 'number' && !Number.isInteger(n) ? n.toFixed(1) : Number(n).toLocaleString());
+const pct = (n) => n == null ? '-' : (n * 100).toFixed(1) + '%';
+const dur = (s) => s == null ? '-' : s < 60 ? s.toFixed(1) + 's' : Math.floor(s / 60) + 'm ' + Math.round(s % 60) + 's';
+
+document.getElementById('generated').textContent = new Date(SNAPSHOT.generated_at).toLocaleString();
+document.getElementById('property-chip').textContent = SNAPSHOT.ga4_property;
+
+const kpis = [
+  { label: 'GSC clicks', value: fmt(SNAPSHOT.gsc.totals.clicks), cls: 'gsc' },
+  { label: 'GSC impressions', value: fmt(SNAPSHOT.gsc.totals.impressions), cls: 'gsc' },
+  { label: 'Avg position', value: SNAPSHOT.gsc.totals.position ? SNAPSHOT.gsc.totals.position.toFixed(1) : '-', cls: 'gsc' },
+  { label: 'CTR', value: pct(SNAPSHOT.gsc.totals.ctr), cls: 'gsc' },
+  { label: 'GA4 sessions', value: fmt(SNAPSHOT.ga4.totals.sessions), cls: 'ga4' },
+  { label: 'GA4 users', value: fmt(SNAPSHOT.ga4.totals.users), cls: 'ga4' },
+  { label: 'Pageviews', value: fmt(SNAPSHOT.ga4.totals.pageviews), cls: 'ga4' },
+  { label: 'Avg session', value: dur(SNAPSHOT.ga4.totals.avg_session_duration), cls: 'ga4' }
+];
+document.getElementById('kpis').innerHTML = kpis.map(k =>
+  `<div class="kpi ${k.cls}"><div class="kpi-label">${k.label}</div><div class="kpi-value">${k.value}</div></div>`
+).join('');
+
+const recs = SNAPSHOT.recommendations || [];
+document.getElementById('rec-count').textContent = recs.length + ' open';
+document.getElementById('recs').innerHTML = recs.length === 0
+  ? '<div class="empty">No recommendations - keep publishing.</div>'
+  : recs.map(r => `<div class="rec priority-${r.priority}"><span class="rec-badge">${r.priority}</span><div>${r.message}${r.page ? '<br><span class="chip">' + r.page + '</span>' : ''}${r.query ? '<br><span class="chip">' + r.query + '</span>' : ''}</div></div>`).join('');
+
+function renderTable(id, rows, render) {
+  const tbody = document.querySelector('#' + id + ' tbody');
+  if (!rows || rows.length === 0) {
+    const cols = document.querySelectorAll('#' + id + ' thead th').length;
+    tbody.innerHTML = `<tr><td colspan="${cols}" class="empty" style="padding: 24px;">no data yet</td></tr>`;
+    return;
+  }
+  tbody.innerHTML = rows.map(render).join('');
+}
+
+renderTable('gsc-queries', SNAPSHOT.gsc.queries.slice(0, 15), r =>
+  `<tr><td>${r.key}</td><td class="num">${fmt(r.clicks)}</td><td class="num">${fmt(r.impressions)}</td><td class="num">${pct(r.ctr)}</td><td class="num">${r.position.toFixed(1)}</td></tr>`);
+
+renderTable('gsc-pages', SNAPSHOT.gsc.pages.slice(0, 15), r =>
+  `<tr><td class="path" title="${r.key}">${r.key.replace(SNAPSHOT.site, '/')}</td><td class="num">${fmt(r.clicks)}</td><td class="num">${fmt(r.impressions)}</td><td class="num">${r.position.toFixed(1)}</td></tr>`);
+
+renderTable('gsc-countries', SNAPSHOT.gsc.countries, r =>
+  `<tr><td>${r.key.toUpperCase()}</td><td class="num">${fmt(r.clicks)}</td><td class="num">${fmt(r.impressions)}</td></tr>`);
+
+renderTable('gsc-devices', SNAPSHOT.gsc.devices, r =>
+  `<tr><td>${r.key}</td><td class="num">${fmt(r.clicks)}</td><td class="num">${fmt(r.impressions)}</td></tr>`);
+
+renderTable('ga4-pages', SNAPSHOT.ga4.pages.slice(0, 15), r =>
+  `<tr><td class="path" title="${r.title || r.path}">${r.path}</td><td class="num">${fmt(r.views)}</td><td class="num">${fmt(r.users)}</td></tr>`);
+
+renderTable('ga4-sources', SNAPSHOT.ga4.sources, r =>
+  `<tr><td>${r.channel} <span class="chip">${r.source}</span></td><td class="num">${fmt(r.sessions)}</td><td class="num">${fmt(r.users)}</td></tr>`);
+
+renderTable('ga4-countries', SNAPSHOT.ga4.countries, r =>
+  `<tr><td>${r.country}</td><td class="num">${fmt(r.sessions)}</td><td class="num">${fmt(r.users)}</td></tr>`);
+
+renderTable('ga4-devices', SNAPSHOT.ga4.devices, r =>
+  `<tr><td>${r.device}</td><td class="num">${fmt(r.sessions)}</td></tr>`);
+
+const sm = SNAPSHOT.sitemap;
+if (sm && sm.ok && !sm.missing) {
+  document.getElementById('sitemap-info').innerHTML = `${sm.submitted_urls} URLs submitted - ${sm.indexed_urls} indexed - last crawled ${new Date(sm.last_downloaded).toLocaleDateString()}`;
+} else {
+  document.getElementById('sitemap-info').textContent = 'not submitted';
+}
+
+const days = (HISTORY.daily || []).slice(-30);
+const labels = days.map(d => d.date.slice(5));
+
+new Chart(document.getElementById('gscChart'), {
+  type: 'line',
+  data: {
+    labels,
+    datasets: [
+      { label: 'Clicks', data: days.map(d => d.gsc_clicks_7d), borderColor: '#ff5b1f', backgroundColor: '#ff5b1f22', tension: 0.3 },
+      { label: 'Impressions', data: days.map(d => d.gsc_impressions_7d), borderColor: '#4285f4', backgroundColor: '#4285f422', tension: 0.3, yAxisID: 'y2' }
+    ]
+  },
+  options: {
+    responsive: true, maintainAspectRatio: false,
+    plugins: { legend: { position: 'bottom', labels: { font: { family: 'Plus Jakarta Sans', size: 11 } } } },
+    scales: {
+      y: { position: 'left', title: { display: true, text: 'clicks' } },
+      y2: { position: 'right', title: { display: true, text: 'impressions' }, grid: { drawOnChartArea: false } }
+    }
+  }
+});
+
+new Chart(document.getElementById('ga4Chart'), {
+  type: 'line',
+  data: {
+    labels,
+    datasets: [
+      { label: 'Sessions', data: days.map(d => d.ga4_sessions_7d), borderColor: '#ff5b1f', backgroundColor: '#ff5b1f22', tension: 0.3 },
+      { label: 'Pageviews', data: days.map(d => d.ga4_pageviews_7d), borderColor: '#f4b400', backgroundColor: '#f4b40022', tension: 0.3 }
+    ]
+  },
+  options: {
+    responsive: true, maintainAspectRatio: false,
+    plugins: { legend: { position: 'bottom', labels: { font: { family: 'Plus Jakarta Sans', size: 11 } } } }
+  }
+});
+</script>
+</body>
+</html>

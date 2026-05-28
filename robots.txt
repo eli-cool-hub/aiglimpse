@@ -6,6 +6,9 @@ User-agent: *
 Allow: /
 Disallow: /scripts/
 Disallow: /data/
+Disallow: /dashboard.html
+Disallow: /dashboard/
+Disallow: /reports/
 
 # Major search engines (explicit allow for clarity)
 User-agent: Googlebot

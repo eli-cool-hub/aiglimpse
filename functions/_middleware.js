@@ -8,6 +8,7 @@
 
 export const onRequest = async (context) => {
   const url = new URL(context.request.url);
+
   if (url.hostname === 'www.aiglimpse.ai') {
     const target = `https://aiglimpse.ai${url.pathname}${url.search}`;
     return new Response(null, {
@@ -18,5 +19,31 @@ export const onRequest = async (context) => {
       }
     });
   }
+
+  // Basic Auth on the private dashboard and its data files. Credentials
+  // live in Cloudflare Pages env vars DASHBOARD_USER and DASHBOARD_PASS
+  // so the dashboard.html itself can be safely committed to the repo.
+  if (url.pathname === '/dashboard.html' || url.pathname.startsWith('/dashboard/') || url.pathname.startsWith('/data/')) {
+    const user = context.env.DASHBOARD_USER;
+    const pass = context.env.DASHBOARD_PASS;
+    if (!user || !pass) {
+      return new Response(
+        'Dashboard auth is not configured yet. Open Cloudflare Pages -> aiglimpse -> Settings -> Environment variables and add DASHBOARD_USER and DASHBOARD_PASS, then redeploy.',
+        { status: 503, headers: { 'content-type': 'text/plain; charset=utf-8' } }
+      );
+    }
+    const expected = 'Basic ' + btoa(`${user}:${pass}`);
+    const got = context.request.headers.get('Authorization');
+    if (got !== expected) {
+      return new Response('Unauthorized', {
+        status: 401,
+        headers: {
+          'WWW-Authenticate': 'Basic realm="AI Glimpse Dashboard", charset="UTF-8"',
+          'content-type': 'text/plain; charset=utf-8'
+        }
+      });
+    }
+  }
+
   return context.next();
 };
