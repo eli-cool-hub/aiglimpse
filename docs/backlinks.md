@@ -35,15 +35,24 @@ https://github.com/eli-cool-hub/aiglimpse/settings/secrets/actions
 - [ ] Scroll to "DEV Community API Keys" -> Generate API Key, copy it
 - [ ] Add as GitHub secret named `DEVTO_API_KEY`
 
-### Medium (DA 96) - try, may be locked
+### Medium (DA 96) - confirmed unavailable
 
-- [ ] Sign in at https://medium.com
-- [ ] Visit https://medium.com/me/settings/security
-- [ ] Look for "Integration tokens" section. If visible, click "Get token" and copy
-- [ ] Add as GitHub secret named `MEDIUM_TOKEN`
+Medium has deprecated the Integration Tokens API for accounts created after
+2023. The "Integration tokens" section no longer appears under Security
+and apps. Skip - the code still gracefully no-ops if MEDIUM_TOKEN is unset.
 
-Note: Medium has been quietly deprecating the Integration Tokens API for
-new accounts since 2023. If you don't see the option, skip - Hashnode + Dev.to alone deliver ~720 backlinks/month.
+### Optional: WordPress.com (DA 92) - for additional reach
+
+If you want a fourth platform, WordPress.com still has a public REST API.
+Free tier hosts at `yoursite.wordpress.com`.
+
+- [ ] Sign up at https://wordpress.com (free plan is fine)
+- [ ] Pick a subdomain like `aiglimpse.wordpress.com`
+- [ ] Visit https://developer.wordpress.com/apps/
+- [ ] Click CREATE NEW APPLICATION, set redirect URL to `https://aiglimpse.ai` (anything works for token use)
+- [ ] After creation, visit https://developer.wordpress.com/docs/oauth2/ to generate a token, OR use https://wpcc.io/ as a token generator
+- [ ] Add token as `WORDPRESS_TOKEN` and site as `WORDPRESS_SITE` (just the subdomain part, e.g. `aiglimpse.wordpress.com`)
+- [ ] Tell me you set them and I will wire WordPress into syndicate.mjs
 
 ### Once tokens are set
 

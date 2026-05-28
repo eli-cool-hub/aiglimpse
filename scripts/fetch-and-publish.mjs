@@ -519,10 +519,19 @@ async function main() {
           word_count: wordCount,
           category
         });
-        if (synd.medium) console.log(`    → medium: ${synd.medium}`);
-        if (synd.devto) console.log(`    → dev.to: ${synd.devto}`);
-        if (synd.hashnode) console.log(`    → hashnode: ${synd.hashnode}`);
-        if (synd.errors) for (const [p, m] of Object.entries(synd.errors)) console.warn(`    ! ${p}: ${m}`);
+        if (synd.skipped) {
+          console.log(`    · syndication skipped: ${synd.reason}`);
+        } else {
+          if (synd.medium) console.log(`    → medium: ${synd.medium}`);
+          if (synd.devto) console.log(`    → dev.to: ${synd.devto}`);
+          if (synd.hashnode) console.log(`    → hashnode: ${synd.hashnode}`);
+          if (synd.gates) {
+            const decided = Object.entries(synd.gates).map(([p, ok]) => `${p}=${ok ? '✓' : '×'}`).join(' ');
+            const tokens = Object.entries(synd.tokens_present || {}).map(([p, ok]) => `${p}${ok ? '' : '(no token)'}`).filter(s => s.includes('(')).join(' ');
+            console.log(`    · gates: ${decided} | wc=${synd.word_count} cat=${synd.category}${tokens ? ' | ' + tokens : ''}`);
+          }
+          if (synd.errors) for (const [p, m] of Object.entries(synd.errors)) console.warn(`    ! ${p}: ${m}`);
+        }
       } catch (e) {
         console.warn(`    ! syndication: ${e.message}`);
       }

@@ -183,11 +183,15 @@ async function crosspostHashnode(article, token, publicationId) {
 
 const TECHNICAL_CATEGORIES = new Set(['llms', 'tools', 'research', 'industry']);
 
+// Dev.to and Hashnode happily accept short technical posts (their own
+// community publishes 200-400 word notes all the time). News-length
+// articles are valuable backlinks even if brief, as long as they fit the
+// technical audience. Medium keeps a higher bar.
 function shouldSyndicate(article) {
   return {
     medium: article.word_count >= 600,
-    devto: article.word_count >= 500 && TECHNICAL_CATEGORIES.has(article.category),
-    hashnode: article.word_count >= 500 && TECHNICAL_CATEGORIES.has(article.category)
+    devto: article.word_count >= 300 && TECHNICAL_CATEGORIES.has(article.category),
+    hashnode: article.word_count >= 300 && TECHNICAL_CATEGORIES.has(article.category)
   };
 }
 
@@ -215,7 +219,9 @@ export async function syndicate(article) {
   }
 
   const gates = shouldSyndicate(article);
-  const results = { medium: null, devto: null, hashnode: null, errors: {} };
+  const results = { medium: null, devto: null, hashnode: null, errors: {}, gates, word_count: article.word_count, category: article.category };
+  const haveTokens = { medium: !!mediumToken, devto: !!devtoKey, hashnode: !!hashnodeToken };
+  results.tokens_present = haveTokens;
 
   if (mediumToken && gates.medium) {
     try { results.medium = await crosspostMedium(article, mediumToken); }
