@@ -7,6 +7,22 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Vision-Language Models Don't Universally Beat Text-Only AI on Human Alignment</title>
+      <link>https://aiglimpse.ai/articles/vision-language-models-dont-universally-beat-text-only-ai-on-human-alignment-07ef8287</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/vision-language-models-dont-universally-beat-text-only-ai-on-human-alignment-07ef8287</guid>
+      <description>New neuroscience study challenges assumptions about multimodal training, finding visual pretraining helps only in specific linguistic contexts.</description>
+      <pubDate>Wed, 27 May 2026 17:59:34 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
+      <title>New Native Vision Model Merges Image and Language Without Separate Encoders</title>
+      <link>https://aiglimpse.ai/articles/new-native-vision-model-merges-image-and-language-without-separate-encoders-bc6fd5e5</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-native-vision-model-merges-image-and-language-without-separate-encoders-bc6fd5e5</guid>
+      <description>Researchers demonstrate that unified neural architectures can match modular vision-language systems while excelling at spatial reasoning.</description>
+      <pubDate>Wed, 27 May 2026 17:59:55 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
       <title>Vertu Launches AI-Powered Foldable for Enterprise Leaders</title>
       <link>https://aiglimpse.ai/articles/vertu-launches-ai-powered-foldable-for-enterprise-leaders-a501228c</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/vertu-launches-ai-powered-foldable-for-enterprise-leaders-a501228c</guid>
@@ -388,22 +404,6 @@
       <guid isPermaLink="true">https://aiglimpse.ai/articles/ai-research-building-better-agent-architecture-beyond-raw-model-power-645c1ef2</guid>
       <description>New research argues that scaling AI agents depends as much on system design as foundation model improvements.</description>
       <pubDate>Mon, 25 May 2026 17:59:36 GMT</pubDate>
-      <category>AI Research</category>
-    </item>
-    <item>
-      <title>New Framework Generates Photorealistic Driving Scenarios for AI Training</title>
-      <link>https://aiglimpse.ai/articles/new-framework-generates-photorealistic-driving-scenarios-for-ai-training-1f4050cb</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-framework-generates-photorealistic-driving-scenarios-for-ai-training-1f4050cb</guid>
-      <description>Researchers develop a controllable system that synthesizes complex traffic scenes from simple layouts, advancing autonomous vehicle safety testing.</description>
-      <pubDate>Mon, 25 May 2026 17:59:48 GMT</pubDate>
-      <category>AI Research</category>
-    </item>
-    <item>
-      <title>New Platform Lets AI Agents Train on Mobile Apps at Scale</title>
-      <link>https://aiglimpse.ai/articles/new-platform-lets-ai-agents-train-on-mobile-apps-at-scale-c85911de</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-platform-lets-ai-agents-train-on-mobile-apps-at-scale-c85911de</guid>
-      <description>Researchers release MobileGym, enabling faster training of AI systems that navigate smartphone interfaces through parallel simulation.</description>
-      <pubDate>Mon, 25 May 2026 17:59:49 GMT</pubDate>
       <category>AI Research</category>
     </item>
   </channel>

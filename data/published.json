@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "vision-language-models-dont-universally-beat-text-only-ai-on-human-alignment-07ef8287",
+      "title": "Vision-Language Models Don't Universally Beat Text-Only AI on Human Alignment",
+      "subtitle": "New neuroscience study challenges assumptions about multimodal training, finding visual pretraining helps only in specific linguistic contexts.",
+      "category": "research",
+      "publishedAt": "2026-05-27T17:59:34.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2605.28818v1",
+      "sourceName": "arXiv (Jinzhou Wu, Zhengwu Ma, Jixing Li, Baoping Tang, Zitong Lu)",
+      "sourceTier": 1,
+      "image": "/images/articles/vision-language-models-dont-universally-beat-text-only-ai-on-human-alignment-07ef8287.jpg"
+    },
+    {
+      "slug": "new-native-vision-model-merges-image-and-language-without-separate-encoders-bc6fd5e5",
+      "title": "New Native Vision Model Merges Image and Language Without Separate Encoders",
+      "subtitle": "Researchers demonstrate that unified neural architectures can match modular vision-language systems while excelling at spatial reasoning.",
+      "category": "research",
+      "publishedAt": "2026-05-27T17:59:55.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2605.28820v1",
+      "sourceName": "arXiv (Haiwen Diao, Jiahao Wang, Penghao Wu, Yuhao Dong, Yuwei Niu,…)",
+      "sourceTier": 1,
+      "image": "/images/articles/new-native-vision-model-merges-image-and-language-without-separate-encoders-bc6fd5e5.jpg"
+    },
+    {
       "slug": "vertu-launches-ai-powered-foldable-for-enterprise-leaders-a501228c",
       "title": "Vertu Launches AI-Powered Foldable for Enterprise Leaders",
       "subtitle": "Luxury device maker enters competitive AI hardware market with executive-focused foldable starting at $6,880, built on open-source Hermes foundation.",
@@ -613,6 +635,8 @@
     "7a69697aa4a1d8fb",
     "7e847648a8c47c06",
     "7c0535cb3907f522",
-    "a501228c9299e025"
+    "a501228c9299e025",
+    "bc6fd5e5190c5881",
+    "07ef82872413ce92"
   ]
 }

@@ -11,6 +11,24 @@
   <url><loc>https://aiglimpse.ai/pages/about</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
   <url><loc>https://aiglimpse.ai/pages/contact</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
   <url>
+    <loc>https://aiglimpse.ai/articles/vision-language-models-dont-universally-beat-text-only-ai-on-human-alignment-07ef8287</loc>
+    <news:news>
+      <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-05-27T17:59:34.000Z</news:publication_date>
+      <news:title>Vision-Language Models Don't Universally Beat Text-Only AI on Human Alignment</news:title>
+    </news:news>
+    <changefreq>daily</changefreq><priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://aiglimpse.ai/articles/new-native-vision-model-merges-image-and-language-without-separate-encoders-bc6fd5e5</loc>
+    <news:news>
+      <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-05-27T17:59:55.000Z</news:publication_date>
+      <news:title>New Native Vision Model Merges Image and Language Without Separate Encoders</news:title>
+    </news:news>
+    <changefreq>daily</changefreq><priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://aiglimpse.ai/articles/vertu-launches-ai-powered-foldable-for-enterprise-leaders-a501228c</loc>
     <news:news>
       <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
