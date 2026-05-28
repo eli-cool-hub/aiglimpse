@@ -33,7 +33,7 @@ const ROLES = ['predefinedRoles/viewer'];
 
 const auth = new GoogleAuth({
   scopes: [
-    'https://www.googleapis.com/auth/analytics.edit',
+    'https://www.googleapis.com/auth/analytics.manage.users',
     'https://www.googleapis.com/auth/analytics.readonly'
   ]
 });
@@ -112,8 +112,11 @@ if (existing.status === 200) {
 }
 
 console.log(`\nAdding ${SA_EMAIL} with roles ${ROLES.join(', ')} to ${target.property}...`);
+// The accessBindings.create method only exists in v1alpha. v1beta lists
+// bindings but returns HTML 404 on create. See:
+// https://developers.google.com/analytics/devguides/config/admin/v1/rest/v1alpha/properties.accessBindings/create
 const create = await ga(
-  `https://analyticsadmin.googleapis.com/v1beta/${target.property}/accessBindings`,
+  `https://analyticsadmin.googleapis.com/v1alpha/${target.property}/accessBindings`,
   {
     method: 'POST',
     body: JSON.stringify({ user: SA_EMAIL, roles: ROLES })
