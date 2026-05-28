@@ -32,6 +32,15 @@ async function saveState(state) {
 // a regex-based converter is sufficient and avoids pulling in a 200KB
 // dependency for the build runner.
 
+// Make every href/src absolute so internal links survive when rendered on
+// another domain. Without this, `/categories/llms` becomes
+// `dev.to/categories/llms` and we lose the inbound link to aiglimpse.ai.
+function absolutizeUrls(html, canonicalUrl) {
+  let origin;
+  try { origin = new URL(canonicalUrl).origin; } catch { return html; }
+  return html.replace(/(href|src)="\/(?!\/)([^"]*)"/g, (_, attr, path) => `${attr}="${origin}/${path}"`);
+}
+
 function htmlToMarkdown(html) {
   let md = html;
   md = md.replace(/<figure[^>]*>\s*<img[^>]*src="([^"]+)"[^>]*alt="([^"]*)"[^>]*>\s*(?:<figcaption[^>]*>([\s\S]*?)<\/figcaption>)?\s*<\/figure>/gi,
@@ -219,6 +228,11 @@ export async function syndicate(article) {
   if (state.articles[article.slug]) {
     return { skipped: true, reason: 'already syndicated', existing: state.articles[article.slug] };
   }
+
+  // Make all internal /path links absolute so they point back to
+  // aiglimpse.ai instead of becoming dev.to/categories/llms when rendered
+  // on the syndication target.
+  article.html_body = absolutizeUrls(article.html_body, article.canonical_url);
 
   // Convert HTML body to markdown once (Dev.to + Hashnode need it).
   if (!article.markdown_body) {
