@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "new-benchmark-reveals-hidden-trade-offs-in-ai-model-tuning-methods-0f5eae84",
+      "title": "New Benchmark Reveals Hidden Trade-offs in AI Model Tuning Methods",
+      "subtitle": "Researchers uncover how popular parameter-efficient finetuning techniques balance learning new tasks against forgetting existing capabilities.",
+      "category": "research",
+      "publishedAt": "2026-05-27T17:59:51.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2605.28819v1",
+      "sourceName": "arXiv (Yangyi Huang, Ruotian Peng, Zeju Qiu, Jiale Kang, Yandong We…)",
+      "sourceTier": 1,
+      "image": "/images/articles/new-benchmark-reveals-hidden-trade-offs-in-ai-model-tuning-methods-0f5eae84.jpg"
+    },
+    {
+      "slug": "openai-unveils-governance-framework-aligned-with-global-ai-rules-57d5b2b7",
+      "title": "OpenAI Unveils Governance Framework Aligned With Global AI Rules",
+      "subtitle": "The company outlines how its safety and security protocols meet emerging regulatory requirements from the EU and California.",
+      "category": "llms",
+      "publishedAt": "2026-05-28T00:00:00.000Z",
+      "sourceUrl": "https://openai.com/index/openai-frontier-governance-framework",
+      "sourceName": "OpenAI",
+      "sourceTier": 1,
+      "image": "/images/articles/openai-unveils-governance-framework-aligned-with-global-ai-rules-57d5b2b7.jpg"
+    },
+    {
       "slug": "enterprise-ai-shifts-focus-safety-now-trumps-innovation-4f1596b8",
       "title": "Enterprise AI Shifts Focus: Safety Now Trumps Innovation",
       "subtitle": "Corporate buyers have moved past evaluating AI's potential and are now prioritizing deployment security and risk management.",
@@ -709,6 +731,8 @@
     "690d2e411572799b",
     "634635390182bc95",
     "571f268272e57b8d",
-    "4f1596b89cd12b8b"
+    "4f1596b89cd12b8b",
+    "57d5b2b721da3cad",
+    "0f5eae845f5bea34"
   ]
 }

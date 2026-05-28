@@ -7,6 +7,22 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>New Benchmark Reveals Hidden Trade-offs in AI Model Tuning Methods</title>
+      <link>https://aiglimpse.ai/articles/new-benchmark-reveals-hidden-trade-offs-in-ai-model-tuning-methods-0f5eae84</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-benchmark-reveals-hidden-trade-offs-in-ai-model-tuning-methods-0f5eae84</guid>
+      <description>Researchers uncover how popular parameter-efficient finetuning techniques balance learning new tasks against forgetting existing capabilities.</description>
+      <pubDate>Wed, 27 May 2026 17:59:51 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
+      <title>OpenAI Unveils Governance Framework Aligned With Global AI Rules</title>
+      <link>https://aiglimpse.ai/articles/openai-unveils-governance-framework-aligned-with-global-ai-rules-57d5b2b7</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/openai-unveils-governance-framework-aligned-with-global-ai-rules-57d5b2b7</guid>
+      <description>The company outlines how its safety and security protocols meet emerging regulatory requirements from the EU and California.</description>
+      <pubDate>Thu, 28 May 2026 00:00:00 GMT</pubDate>
+      <category>LLMs &amp; Chatbots</category>
+    </item>
+    <item>
       <title>Enterprise AI Shifts Focus: Safety Now Trumps Innovation</title>
       <link>https://aiglimpse.ai/articles/enterprise-ai-shifts-focus-safety-now-trumps-innovation-4f1596b8</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/enterprise-ai-shifts-focus-safety-now-trumps-innovation-4f1596b8</guid>
@@ -388,22 +404,6 @@
       <guid isPermaLink="true">https://aiglimpse.ai/articles/hybrid-3d-vision-pipeline-bridges-classical-and-ai-methods-f91fba4b</guid>
       <description>Researchers combine traditional geometry with neural networks to solve long-standing reconstruction challenges across diverse imaging conditions.</description>
       <pubDate>Mon, 25 May 2026 17:58:03 GMT</pubDate>
-      <category>AI Research</category>
-    </item>
-    <item>
-      <title>New Framework Fixes AI Video Search When Switching Domains</title>
-      <link>https://aiglimpse.ai/articles/new-framework-fixes-ai-video-search-when-switching-domains-1897ae40</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-framework-fixes-ai-video-search-when-switching-domains-1897ae40</guid>
-      <description>Researchers propose entity-focused approach to keep multimodal models accurate across different video datasets.</description>
-      <pubDate>Mon, 25 May 2026 17:58:11 GMT</pubDate>
-      <category>AI Research</category>
-    </item>
-    <item>
-      <title>New Method Lets AI Systems Distill Video Models Without Teacher Access</title>
-      <link>https://aiglimpse.ai/articles/new-method-lets-ai-systems-distill-video-models-without-teacher-access-859cf3d6</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-method-lets-ai-systems-distill-video-models-without-teacher-access-859cf3d6</guid>
-      <description>Researchers develop a technique to compress powerful video generators into faster versions that work with incomplete information.</description>
-      <pubDate>Mon, 25 May 2026 17:58:12 GMT</pubDate>
       <category>AI Research</category>
     </item>
   </channel>
