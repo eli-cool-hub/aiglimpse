@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "googles-latest-ai-model-struggles-with-basic-spelling-tasks-7e847648",
+      "title": "Google's Latest AI Model Struggles With Basic Spelling Tasks",
+      "subtitle": "A newly discovered flaw exposes fundamental limitations in how leading language models process and reproduce written characters.",
+      "category": "business",
+      "publishedAt": "2026-05-28T00:17:41.000Z",
+      "sourceUrl": "https://techcrunch.com/2026/05/27/why-googles-ai-cant-spell-google-or-anything-else/",
+      "sourceName": "TechCrunch AI",
+      "sourceTier": 2,
+      "image": "/images/articles/googles-latest-ai-model-struggles-with-basic-spelling-tasks-7e847648.jpg"
+    },
+    {
       "slug": "openai-prepares-election-safeguards-for-2026-global-voting-7a69697a",
       "title": "OpenAI Prepares Election Safeguards for 2026 Global Voting",
       "subtitle": "The AI company launches initiatives to combat misinformation, strengthen cybersecurity, and boost transparency ahead of worldwide elections.",
@@ -577,6 +588,7 @@
     "879c2f38b03067b0",
     "89801fac14c33f01",
     "9f506aa6e5525f50",
-    "7a69697aa4a1d8fb"
+    "7a69697aa4a1d8fb",
+    "7e847648a8c47c06"
   ]
 }
