@@ -175,7 +175,20 @@ if (insertRes.status !== 200) {
   process.exit(1);
 }
 
-console.log('\n--- Step 5: confirm by listing GSC sites the SA can see ---');
+console.log('\n--- Step 5: register the site in the SA\'s Search Console account ---');
+// Site Verification proves ownership but the SA also needs to "claim" the
+// site in its own Search Console account by calling sites.add. This is a
+// no-op idempotent PUT when the site is already in the account.
+for (const target of ['https://aiglimpse.ai/', 'sc-domain:aiglimpse.ai']) {
+  const encoded = encodeURIComponent(target);
+  const add = await googleFetch(
+    `https://searchconsole.googleapis.com/webmasters/v3/sites/${encoded}`,
+    { method: 'PUT' }
+  );
+  console.log(`  PUT ${target}  ->  ${add.status}  ${JSON.stringify(add.body)}`);
+}
+
+console.log('\n--- Step 6: confirm by listing GSC sites the SA can see ---');
 const sitesRes = await googleFetch('https://searchconsole.googleapis.com/webmasters/v3/sites');
 console.log('Status:', sitesRes.status);
 const entries = sitesRes.body?.siteEntry || [];
