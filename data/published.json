@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "new-search-method-lets-ai-models-improve-themselves-beyond-training-a37b1030",
+      "title": "New Search Method Lets AI Models Improve Themselves Beyond Training",
+      "subtitle": "Researchers introduce a bidirectional framework that helps language models escape limitations of standard search techniques during both training and inference.",
+      "category": "research",
+      "publishedAt": "2026-05-27T17:59:15.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2605.28814v1",
+      "sourceName": "arXiv (Guowei Xu, Zhenting Qi, Huangyuan Su, Weirui Ye, Himabindu L…)",
+      "sourceTier": 1,
+      "image": "/images/articles/new-search-method-lets-ai-models-improve-themselves-beyond-training-a37b1030.jpg"
+    },
+    {
+      "slug": "new-ai-model-tackles-multi-agent-world-simulation-at-scale-2a5a65e5",
+      "title": "New AI Model Tackles Multi-Agent World Simulation at Scale",
+      "subtitle": "Researchers introduce techniques to generate interactive environments with multiple controllable agents, overcoming computational bottlenecks that have limited prior work.",
+      "category": "research",
+      "publishedAt": "2026-05-27T17:59:31.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2605.28816v1",
+      "sourceName": "arXiv (Fangfu Liu, Kai He, Tianchang Shen, Tianshi Cao, Sanja Fidle…)",
+      "sourceTier": 1,
+      "image": "/images/articles/new-ai-model-tackles-multi-agent-world-simulation-at-scale-2a5a65e5.jpg"
+    },
+    {
       "slug": "new-benchmark-reveals-hidden-trade-offs-in-ai-model-tuning-methods-0f5eae84",
       "title": "New Benchmark Reveals Hidden Trade-offs in AI Model Tuning Methods",
       "subtitle": "Researchers uncover how popular parameter-efficient finetuning techniques balance learning new tasks against forgetting existing capabilities.",
@@ -733,6 +755,8 @@
     "571f268272e57b8d",
     "4f1596b89cd12b8b",
     "57d5b2b721da3cad",
-    "0f5eae845f5bea34"
+    "0f5eae845f5bea34",
+    "2a5a65e515344f96",
+    "a37b10306b5577dd"
   ]
 }
