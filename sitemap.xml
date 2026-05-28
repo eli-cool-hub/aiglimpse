@@ -11,6 +11,24 @@
   <url><loc>https://aiglimpse.ai/pages/about</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
   <url><loc>https://aiglimpse.ai/pages/contact</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
   <url>
+    <loc>https://aiglimpse.ai/articles/enterprise-ai-shifts-focus-safety-now-trumps-innovation-4f1596b8</loc>
+    <news:news>
+      <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-05-28T14:30:00.000Z</news:publication_date>
+      <news:title>Enterprise AI Shifts Focus: Safety Now Trumps Innovation</news:title>
+    </news:news>
+    <changefreq>daily</changefreq><priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://aiglimpse.ai/articles/musks-reframing-of-anthropic-deal-contradicts-spacex-filing-571f2682</loc>
+    <news:news>
+      <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-05-28T15:36:00.000Z</news:publication_date>
+      <news:title>Musk's Reframing of Anthropic Deal Contradicts SpaceX Filing</news:title>
+    </news:news>
+    <changefreq>daily</changefreq><priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://aiglimpse.ai/articles/self-improving-ai-systems-become-the-new-frontier-as-labs-chase-rsi-63463539</loc>
     <news:news>
       <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>

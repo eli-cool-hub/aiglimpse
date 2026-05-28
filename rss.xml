@@ -7,6 +7,22 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Enterprise AI Shifts Focus: Safety Now Trumps Innovation</title>
+      <link>https://aiglimpse.ai/articles/enterprise-ai-shifts-focus-safety-now-trumps-innovation-4f1596b8</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/enterprise-ai-shifts-focus-safety-now-trumps-innovation-4f1596b8</guid>
+      <description>Corporate buyers have moved past evaluating AI's potential and are now prioritizing deployment security and risk management.</description>
+      <pubDate>Thu, 28 May 2026 14:30:00 GMT</pubDate>
+      <category>AI Business</category>
+    </item>
+    <item>
+      <title>Musk's Reframing of Anthropic Deal Contradicts SpaceX Filing</title>
+      <link>https://aiglimpse.ai/articles/musks-reframing-of-anthropic-deal-contradicts-spacex-filing-571f2682</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/musks-reframing-of-anthropic-deal-contradicts-spacex-filing-571f2682</guid>
+      <description>Public statements about xAI's compute arrangement clash with regulatory documents, raising questions about the partnership's true scope.</description>
+      <pubDate>Thu, 28 May 2026 15:36:00 GMT</pubDate>
+      <category>AI Business</category>
+    </item>
+    <item>
       <title>Self-Improving AI Systems Become the New Frontier as Labs Chase RSI</title>
       <link>https://aiglimpse.ai/articles/self-improving-ai-systems-become-the-new-frontier-as-labs-chase-rsi-63463539</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/self-improving-ai-systems-become-the-new-frontier-as-labs-chase-rsi-63463539</guid>
@@ -388,22 +404,6 @@
       <guid isPermaLink="true">https://aiglimpse.ai/articles/new-method-lets-ai-systems-distill-video-models-without-teacher-access-859cf3d6</guid>
       <description>Researchers develop a technique to compress powerful video generators into faster versions that work with incomplete information.</description>
       <pubDate>Mon, 25 May 2026 17:58:12 GMT</pubDate>
-      <category>AI Research</category>
-    </item>
-    <item>
-      <title>Looped Diffusion Models Match Autoregressive Performance With Far Less Compute</title>
-      <link>https://aiglimpse.ai/articles/looped-diffusion-models-match-autoregressive-performance-with-far-less-compute-cb661905</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/looped-diffusion-models-match-autoregressive-performance-with-far-less-compute-cb661905</guid>
-      <description>Researchers demonstrate that selectively repeating transformer layers in masked diffusion models cuts training costs by 70% while improving reasoning capabilities.</description>
-      <pubDate>Mon, 25 May 2026 17:58:24 GMT</pubDate>
-      <category>AI Research</category>
-    </item>
-    <item>
-      <title>New Method Balances Text Understanding With Face Identity in AI Image Generation</title>
-      <link>https://aiglimpse.ai/articles/new-method-balances-text-understanding-with-face-identity-in-ai-image-generation-9c2e81fe</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-method-balances-text-understanding-with-face-identity-in-ai-image-generation-9c2e81fe</guid>
-      <description>Researchers tackle a fundamental tradeoff in subject-driven synthesis by leveraging multimodal language models alongside specialized identity conditioning.</description>
-      <pubDate>Mon, 25 May 2026 17:59:35 GMT</pubDate>
       <category>AI Research</category>
     </item>
   </channel>

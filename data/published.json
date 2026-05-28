@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "enterprise-ai-shifts-focus-safety-now-trumps-innovation-4f1596b8",
+      "title": "Enterprise AI Shifts Focus: Safety Now Trumps Innovation",
+      "subtitle": "Corporate buyers have moved past evaluating AI's potential and are now prioritizing deployment security and risk management.",
+      "category": "business",
+      "publishedAt": "2026-05-28T14:30:00.000Z",
+      "sourceUrl": "https://techcrunch.com/2026/05/28/techcrunch-disrupt-2026-databricks-co-founder-on-what-kills-enterprise-ai-deals/",
+      "sourceName": "TechCrunch AI",
+      "sourceTier": 2,
+      "image": "/images/articles/enterprise-ai-shifts-focus-safety-now-trumps-innovation-4f1596b8.jpg"
+    },
+    {
+      "slug": "musks-reframing-of-anthropic-deal-contradicts-spacex-filing-571f2682",
+      "title": "Musk's Reframing of Anthropic Deal Contradicts SpaceX Filing",
+      "subtitle": "Public statements about xAI's compute arrangement clash with regulatory documents, raising questions about the partnership's true scope.",
+      "category": "business",
+      "publishedAt": "2026-05-28T15:36:00.000Z",
+      "sourceUrl": "https://techcrunch.com/2026/05/28/how-long-is-anthropics-lease-with-spacex-opinions-vary/",
+      "sourceName": "TechCrunch AI",
+      "sourceTier": 2,
+      "image": "/images/articles/musks-reframing-of-anthropic-deal-contradicts-spacex-filing-571f2682.jpg"
+    },
+    {
       "slug": "self-improving-ai-systems-become-the-new-frontier-as-labs-chase-rsi-63463539",
       "title": "Self-Improving AI Systems Become the New Frontier as Labs Chase RSI",
       "subtitle": "Recursive self-improvement has replaced AGI as the defining challenge for AI research, but defining success remains as nebulous as ever.",
@@ -685,6 +707,8 @@
     "d118b3d42e3f3383",
     "83428ac96f0048b8",
     "690d2e411572799b",
-    "634635390182bc95"
+    "634635390182bc95",
+    "571f268272e57b8d",
+    "4f1596b89cd12b8b"
   ]
 }
