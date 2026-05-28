@@ -20,20 +20,20 @@ skipped, technical categories only for Dev.to/Hashnode.
 After you create each account and grab the token, add to GitHub Secrets:
 https://github.com/eli-cool-hub/aiglimpse/settings/secrets/actions
 
-### Hashnode (DA 80) - works for everyone
+### Dev.to (DA 89) - CONFIRMED WORKING
 
-- [ ] Sign up at https://hashnode.com (or sign in with Google)
-- [ ] Click "Start writing" and create your blog (any subdomain like `aiglimpse.hashnode.dev`)
-- [ ] Profile menu (top-right) -> Account Settings -> Developer -> Personal Access Tokens
-- [ ] Click GENERATE NEW TOKEN, copy it
-- [ ] Add as GitHub secret named `HASHNODE_TOKEN`
+- [x] Sign up at https://dev.to
+- [x] Settings -> Extensions -> DEV Community API Keys -> Generate
+- [x] Saved as `DEVTO_API_KEY` GitHub secret
 
-### Dev.to (DA 89) - works for everyone
+Verified live with post: https://dev.to/eli_9c82b7dfe52c1bc371ffe/apples-ios-27-siri-redesign-takes-cues-from-chatgpt-155m
 
-- [ ] Sign up at https://dev.to (or sign in with GitHub)
-- [ ] Click avatar (top-right) -> Settings -> Extensions
-- [ ] Scroll to "DEV Community API Keys" -> Generate API Key, copy it
-- [ ] Add as GitHub secret named `DEVTO_API_KEY`
+### Hashnode (DA 80) - retired May 2026, now Pro-plan-only
+
+Hashnode pulled free API access on 2026-05-13. Every API call requires
+a paid Pro plan. The syndicate code stays in place, so if you ever
+upgrade (https://hashnode.com/billing) just re-add `HASHNODE_TOKEN` to
+GH secrets and posts resume.
 
 ### Medium (DA 96) - confirmed unavailable
 

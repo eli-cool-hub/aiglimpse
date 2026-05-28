@@ -139,6 +139,13 @@ async function hashnodeGetPublicationId(token) {
     headers: { Authorization: token, 'Content-Type': 'application/json' },
     body: JSON.stringify({ query: q })
   });
+  // Hashnode retired free GraphQL API access on 2026-05-13. Unpaid
+  // requests now 301 to the announcement page, so we receive HTML instead
+  // of JSON. Surface a useful error rather than the JSON parser barf.
+  const ctype = res.headers.get('content-type') || '';
+  if (!ctype.includes('application/json')) {
+    throw new Error('hashnode API is now Pro-plan-only. Upgrade at hashnode.com/billing or unset HASHNODE_TOKEN to skip.');
+  }
   if (!res.ok) throw new Error(`hashnode me ${res.status}: ${await res.text()}`);
   const json = await res.json();
   const edge = json?.data?.me?.publications?.edges?.[0];
