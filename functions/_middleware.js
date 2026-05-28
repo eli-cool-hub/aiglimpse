@@ -23,7 +23,8 @@ export const onRequest = async (context) => {
   // Basic Auth on the private dashboard and its data files. Credentials
   // live in Cloudflare Pages env vars DASHBOARD_USER and DASHBOARD_PASS
   // so the dashboard.html itself can be safely committed to the repo.
-  if (url.pathname === '/dashboard.html' || url.pathname.startsWith('/dashboard/') || url.pathname.startsWith('/data/')) {
+  const p = url.pathname;
+  if (p === '/dashboard' || p === '/dashboard.html' || p.startsWith('/dashboard/') || p.startsWith('/data/')) {
     const user = context.env.DASHBOARD_USER;
     const pass = context.env.DASHBOARD_PASS;
     if (!user || !pass) {
