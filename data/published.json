@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "self-improving-ai-systems-become-the-new-frontier-as-labs-chase-rsi-63463539",
+      "title": "Self-Improving AI Systems Become the New Frontier as Labs Chase RSI",
+      "subtitle": "Recursive self-improvement has replaced AGI as the defining challenge for AI research, but defining success remains as nebulous as ever.",
+      "category": "business",
+      "publishedAt": "2026-05-28T14:30:17.000Z",
+      "sourceUrl": "https://techcrunch.com/2026/05/28/rsi-is-the-new-agi-and-its-just-as-hard-to-pin-down/",
+      "sourceName": "TechCrunch AI",
+      "sourceTier": 2,
+      "image": "/images/articles/self-improving-ai-systems-become-the-new-frontier-as-labs-chase-rsi-63463539.jpg"
+    },
+    {
+      "slug": "apples-ios-27-siri-redesign-takes-cues-from-chatgpt-690d2e41",
+      "title": "Apple's iOS 27 Siri Redesign Takes Cues From ChatGPT",
+      "subtitle": "New interface renderings suggest a major evolution for Apple's voice assistant, with a chat-based design poised to debut at WWDC.",
+      "category": "tools",
+      "publishedAt": "2026-05-28T14:33:31.000Z",
+      "sourceUrl": "https://www.theverge.com/tech/938915/ios-27-siri-renders-bloomberg",
+      "sourceName": "The Verge AI",
+      "sourceTier": 2,
+      "image": "/images/articles/apples-ios-27-siri-redesign-takes-cues-from-chatgpt-690d2e41.jpg"
+    },
+    {
       "slug": "apples-reimagined-siri-aims-to-compete-in-generative-ai-race-83428ac9",
       "title": "Apple's Reimagined Siri Aims to Compete in Generative AI Race",
       "subtitle": "Leaked interface designs show Cupertino preparing a standalone conversational AI assistant for iOS 27, signaling serious ambitions to challenge ChatGPT.",
@@ -661,6 +683,8 @@
     "bc6fd5e5190c5881",
     "07ef82872413ce92",
     "d118b3d42e3f3383",
-    "83428ac96f0048b8"
+    "83428ac96f0048b8",
+    "690d2e411572799b",
+    "634635390182bc95"
   ]
 }
