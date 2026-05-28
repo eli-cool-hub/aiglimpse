@@ -1,0 +1,53 @@
+name: Daily SEO + traffic report
+
+# Pulls GSC indexing/search-analytics + GA4 sessions/pages/sources every
+# morning. Writes reports/seo/YYYY-MM-DD.md and appends the same markdown
+# to the workflow run's step summary. Commits the snapshot back to main
+# so the history is browsable from GitHub directly.
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Daily at 07:30 UTC (after most overnight European traffic + before
+    # the morning cron at 08:00 that triggers fetch-news).
+    - cron: '30 7 * * *'
+
+permissions:
+  contents: write
+
+jobs:
+  report:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm ci || npm install
+
+      - name: Generate report
+        env:
+          GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
+        run: node scripts/seo-report.mjs
+
+      - name: Commit snapshot
+        id: commit
+        run: |
+          set -euo pipefail
+          git config user.name "aiglimpse-bot"
+          git config user.email "bot@aiglimpse.ai"
+          git add reports/seo/
+          if git diff --staged --quiet; then
+            echo "No new report to commit"
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            git commit -m "chore(seo): daily report $(date -u +'%Y-%m-%d')"
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Push
+        if: steps.commit.outputs.changed == 'true'
+        run: git push
