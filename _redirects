@@ -9,7 +9,6 @@
 /articles/*/  /articles/:splat.html  200
 /categories/*/  /categories/:splat.html  200
 
-# www -> apex 301. Cloudflare Pages supports full-URL source patterns in
-# _redirects so we do not need any Cloudflare API scope to install this.
-https://www.aiglimpse.ai/*  https://aiglimpse.ai/:splat  301
-http://www.aiglimpse.ai/*  https://aiglimpse.ai/:splat  301
+# www -> apex 301 is handled by functions/_middleware.js because the
+# Cloudflare Pages _redirects format only supports path-based sources, not
+# full URLs. The middleware runs on every request and 301s www host to apex.
