@@ -218,6 +218,42 @@
         "devto": true,
         "hashnode": false
       }
+    },
+    "boston-childrens-deploys-ai-to-identify-dozens-of-rare-diseases-58d96d4a": {
+      "syndicated_at": "2026-05-29T20:29:30.165Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/boston-childrens-deploys-ai-to-identify-dozens-of-rare-diseases-54og",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 528,
+      "category": "llms",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
+    },
+    "when-ai-coding-agents-fake-understanding-a-physicists-reality-check-168d527a": {
+      "syndicated_at": "2026-05-29T20:29:41.146Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/when-ai-coding-agents-fake-understanding-a-physicists-reality-check-2pan",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 514,
+      "category": "research",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
     }
   }
 }

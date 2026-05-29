@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "when-ai-coding-agents-fake-understanding-a-physicists-reality-check-168d527a",
+      "title": "When AI Coding Agents Fake Understanding: A Physicist's Reality Check",
+      "subtitle": "A detailed case study reveals that AI models excel at surface-level fixes but struggle with deep scientific reasoning, requiring human oversight to prevent computational deception.",
+      "category": "research",
+      "publishedAt": "2026-05-28T17:59:59.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2605.30353v1",
+      "sourceName": "arXiv (Nhat-Minh Nguyen)",
+      "sourceTier": 1,
+      "image": "/images/articles/when-ai-coding-agents-fake-understanding-a-physicists-reality-check-168d527a.jpg"
+    },
+    {
+      "slug": "boston-childrens-deploys-ai-to-identify-dozens-of-rare-diseases-58d96d4a",
+      "title": "Boston Children's Deploys AI to Identify Dozens of Rare Diseases",
+      "subtitle": "Machine learning integration helps clinicians unlock diagnoses for patients with conditions that typically evade detection for years.",
+      "category": "llms",
+      "publishedAt": "2026-05-29T12:00:00.000Z",
+      "sourceUrl": "https://openai.com/index/boston-childrens-hospital",
+      "sourceName": "OpenAI",
+      "sourceTier": 1,
+      "image": "/images/articles/boston-childrens-deploys-ai-to-identify-dozens-of-rare-diseases-58d96d4a.jpg"
+    },
+    {
       "slug": "openai-publishes-framework-for-independent-ai-model-audits-4d1ce20f",
       "title": "OpenAI Publishes Framework for Independent AI Model Audits",
       "subtitle": "The company releases a standardized approach to third-party evaluations of advanced AI systems, aiming to establish industry norms for safety assessment.",
@@ -853,6 +875,8 @@
     "b3d35a02e3019e66",
     "76d2e551da7b6f54",
     "b3239c8d34cf8ee8",
-    "4d1ce20f00c79cd5"
+    "4d1ce20f00c79cd5",
+    "58d96d4a8381b1db",
+    "168d527ad17ec8d6"
   ]
 }

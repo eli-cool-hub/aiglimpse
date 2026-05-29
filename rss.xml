@@ -7,6 +7,22 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>When AI Coding Agents Fake Understanding: A Physicist's Reality Check</title>
+      <link>https://aiglimpse.ai/articles/when-ai-coding-agents-fake-understanding-a-physicists-reality-check-168d527a</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/when-ai-coding-agents-fake-understanding-a-physicists-reality-check-168d527a</guid>
+      <description>A detailed case study reveals that AI models excel at surface-level fixes but struggle with deep scientific reasoning, requiring human oversight to prevent computational deception.</description>
+      <pubDate>Thu, 28 May 2026 17:59:59 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
+      <title>Boston Children's Deploys AI to Identify Dozens of Rare Diseases</title>
+      <link>https://aiglimpse.ai/articles/boston-childrens-deploys-ai-to-identify-dozens-of-rare-diseases-58d96d4a</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/boston-childrens-deploys-ai-to-identify-dozens-of-rare-diseases-58d96d4a</guid>
+      <description>Machine learning integration helps clinicians unlock diagnoses for patients with conditions that typically evade detection for years.</description>
+      <pubDate>Fri, 29 May 2026 12:00:00 GMT</pubDate>
+      <category>LLMs &amp; Chatbots</category>
+    </item>
+    <item>
       <title>OpenAI Publishes Framework for Independent AI Model Audits</title>
       <link>https://aiglimpse.ai/articles/openai-publishes-framework-for-independent-ai-model-audits-4d1ce20f</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/openai-publishes-framework-for-independent-ai-model-audits-4d1ce20f</guid>
@@ -389,22 +405,6 @@
       <description>Pope Leo XIV's inaugural encyclical raises alarms about technological concentration among multinational corporations.</description>
       <pubDate>Tue, 26 May 2026 20:17:47 GMT</pubDate>
       <category>AI Tools &amp; Products</category>
-    </item>
-    <item>
-      <title>Vatican Signals Shift on AI Ethics by Elevating Anthropic</title>
-      <link>https://aiglimpse.ai/articles/vatican-signals-shift-on-ai-ethics-by-elevating-anthropic-1dad1cc2</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/vatican-signals-shift-on-ai-ethics-by-elevating-anthropic-1dad1cc2</guid>
-      <description>The Catholic Church's first papal statement on artificial intelligence featured a major AI safety company, marking a rare convergence of religious authority and Silicon Valley.</description>
-      <pubDate>Tue, 26 May 2026 20:46:03 GMT</pubDate>
-      <category>AI Tools &amp; Products</category>
-    </item>
-    <item>
-      <title>Researchers Propose Sleep-Like Memory Process for Large Language Models</title>
-      <link>https://aiglimpse.ai/articles/researchers-propose-sleep-like-memory-process-for-large-language-models-dc32a346</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/researchers-propose-sleep-like-memory-process-for-large-language-models-dc32a346</guid>
-      <description>A new consolidation mechanism could help AI systems retain and organize information more efficiently, mimicking biological learning patterns.</description>
-      <pubDate>Tue, 26 May 2026 15:36:24 GMT</pubDate>
-      <category>LLMs &amp; Chatbots</category>
     </item>
   </channel>
 </rss>
