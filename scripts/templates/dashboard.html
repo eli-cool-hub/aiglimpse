@@ -58,6 +58,19 @@
   .rec.priority-medium .rec-badge { background: var(--warn); color: white; }
   .empty { color: var(--muted); font-size: 14px; text-align: center; padding: 32px; }
   .chart-wrap { height: 240px; margin-top: 12px; }
+  .chart-wrap-lg { height: 320px; }
+  .chart-wrap-sm { height: 72px; margin-top: 10px; }
+  .trend-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 16px; }
+  .trend-card { background: var(--paper-elev); border: 1px solid var(--line); border-radius: 6px; padding: 16px 16px 12px; }
+  .trend-head { display: flex; align-items: flex-start; justify-content: space-between; gap: 8px; }
+  .trend-title { font-size: 11px; color: var(--muted); text-transform: uppercase; letter-spacing: 0.08em; font-weight: 600; }
+  .trend-value { font-size: 22px; font-weight: 700; margin-top: 4px; letter-spacing: -0.02em; }
+  .delta { font-size: 11px; font-weight: 700; padding: 3px 8px; border-radius: 999px; white-space: nowrap; }
+  .delta.up { background: #e6f4ea; color: var(--good); }
+  .delta.down { background: #fce8e6; color: var(--bad); }
+  .delta.flat { background: var(--paper); color: var(--muted); border: 1px solid var(--line); }
+  .delta.new { background: #fff3e0; color: var(--warn); }
+  .section-note { color: var(--muted); font-size: 13px; margin: -8px 0 16px; line-height: 1.5; }
   .chip { display: inline-block; padding: 2px 8px; background: var(--paper); border: 1px solid var(--line); border-radius: 999px; font-size: 11px; color: var(--muted); margin-right: 4px; }
   .footer { margin-top: 64px; padding-top: 24px; border-top: 1px solid var(--line); font-size: 12px; color: var(--muted); text-align: center; }
   a { color: var(--accent); text-decoration: none; }
@@ -83,6 +96,16 @@
 
   <h2>Backlink syndication</h2>
   <div class="kpis" id="synd-kpis"></div>
+
+  <h2>KPI growth</h2>
+  <p class="section-note">Each card shows the current 7-day value and a mini trend from daily snapshots. Green = improving (for ranking, lower position is green).</p>
+  <div class="trend-grid" id="trend-grid"></div>
+
+  <h2>Combined growth index</h2>
+  <p class="section-note">All metrics normalized to day 1 = 100 so you can compare momentum on one chart. Only days with history are shown.</p>
+  <div class="card">
+    <div class="chart-wrap chart-wrap-lg"><canvas id="growthIndexChart"></canvas></div>
+  </div>
 
   <h2>Trends - last 30 days</h2>
   <div class="grid-2">
@@ -165,19 +188,43 @@ const dur = (s) => s == null ? '-' : s < 60 ? s.toFixed(1) + 's' : Math.floor(s 
 document.getElementById('generated').textContent = new Date(SNAPSHOT.generated_at).toLocaleString();
 document.getElementById('property-chip').textContent = SNAPSHOT.ga4_property;
 
-const kpis = [
-  { label: 'GSC clicks', value: fmt(SNAPSHOT.gsc.totals.clicks), cls: 'gsc' },
-  { label: 'GSC impressions', value: fmt(SNAPSHOT.gsc.totals.impressions), cls: 'gsc' },
-  { label: 'Avg position', value: SNAPSHOT.gsc.totals.position ? SNAPSHOT.gsc.totals.position.toFixed(1) : '-', cls: 'gsc' },
-  { label: 'CTR', value: pct(SNAPSHOT.gsc.totals.ctr), cls: 'gsc' },
-  { label: 'GA4 sessions', value: fmt(SNAPSHOT.ga4.totals.sessions), cls: 'ga4' },
-  { label: 'GA4 users', value: fmt(SNAPSHOT.ga4.totals.users), cls: 'ga4' },
-  { label: 'Pageviews', value: fmt(SNAPSHOT.ga4.totals.pageviews), cls: 'ga4' },
-  { label: 'Avg session', value: dur(SNAPSHOT.ga4.totals.avg_session_duration), cls: 'ga4' }
-];
-document.getElementById('kpis').innerHTML = kpis.map(k =>
-  `<div class="kpi ${k.cls}"><div class="kpi-label">${k.label}</div><div class="kpi-value">${k.value}</div></div>`
-).join('');
+const days = (HISTORY.daily || []).slice(-30);
+const labels = days.map(d => d.date.slice(5));
+const prev = days.length >= 2 ? days[days.length - 2] : null;
+const latest = days.length ? days[days.length - 1] : null;
+
+function delta(current, previous, invert = false) {
+  if (previous == null || previous === undefined) return { label: 'new', cls: 'new' };
+  if (previous === 0 && current === 0) return { label: '0%', cls: 'flat' };
+  if (previous === 0) return { label: '+new', cls: 'new' };
+  const pct = ((current - previous) / previous) * 100;
+  const improving = invert ? pct < 0 : pct > 0;
+  const flat = Math.abs(pct) < 0.05;
+  return {
+    label: `${pct >= 0 ? '+' : ''}${pct.toFixed(1)}%`,
+    cls: flat ? 'flat' : improving ? 'up' : 'down'
+  };
+}
+
+function hist(key, fmtVal = v => v) {
+  return days.map(d => d[key] ?? null);
+}
+
+function renderKpiCard(label, value, d, cls = '') {
+  const badge = d ? `<span class="delta ${d.cls}">${d.label}</span>` : '';
+  return `<div class="kpi ${cls}"><div class="kpi-label">${label}</div><div style="display:flex;align-items:center;justify-content:space-between;gap:8px;margin-top:6px;"><div class="kpi-value">${value}</div>${badge}</div></div>`;
+}
+
+document.getElementById('kpis').innerHTML = [
+  renderKpiCard('GSC clicks', fmt(SNAPSHOT.gsc.totals.clicks), delta(SNAPSHOT.gsc.totals.clicks, prev?.gsc_clicks_7d), 'gsc'),
+  renderKpiCard('GSC impressions', fmt(SNAPSHOT.gsc.totals.impressions), delta(SNAPSHOT.gsc.totals.impressions, prev?.gsc_impressions_7d), 'gsc'),
+  renderKpiCard('Avg position', SNAPSHOT.gsc.totals.position ? SNAPSHOT.gsc.totals.position.toFixed(1) : '-', delta(SNAPSHOT.gsc.totals.position, prev?.gsc_avg_position_7d, true), 'gsc'),
+  renderKpiCard('CTR', pct(SNAPSHOT.gsc.totals.ctr), delta(SNAPSHOT.gsc.totals.ctr, prev?.gsc_ctr_7d), 'gsc'),
+  renderKpiCard('GA4 sessions', fmt(SNAPSHOT.ga4.totals.sessions), delta(SNAPSHOT.ga4.totals.sessions, prev?.ga4_sessions_7d), 'ga4'),
+  renderKpiCard('GA4 users', fmt(SNAPSHOT.ga4.totals.users), delta(SNAPSHOT.ga4.totals.users, prev?.ga4_users_7d), 'ga4'),
+  renderKpiCard('Pageviews', fmt(SNAPSHOT.ga4.totals.pageviews), delta(SNAPSHOT.ga4.totals.pageviews, prev?.ga4_pageviews_7d), 'ga4'),
+  renderKpiCard('Avg session', dur(SNAPSHOT.ga4.totals.avg_session_duration), null, 'ga4')
+].join('');
 
 const synd = SNAPSHOT.syndication || { total: 0, medium: 0, devto: 0, hashnode: 0 };
 const syndKpis = [
@@ -237,24 +284,134 @@ if (sm && sm.ok && !sm.missing) {
   document.getElementById('sitemap-info').textContent = 'not submitted';
 }
 
-const days = (HISTORY.daily || []).slice(-30);
-const labels = days.map(d => d.date.slice(5));
+const chartFont = { family: 'Plus Jakarta Sans', size: 11 };
+const chartDefaults = {
+  responsive: true,
+  maintainAspectRatio: false,
+  plugins: { legend: { labels: { font: chartFont } } },
+  interaction: { mode: 'index', intersect: false }
+};
+
+function normalizeIndex(values) {
+  const base = values.find(v => v != null && v > 0);
+  if (base == null) return values.map(() => 0);
+  return values.map(v => v == null ? null : Math.round((v / base) * 100));
+}
+
+function makeSparkline(canvas, data, color) {
+  return new Chart(canvas, {
+    type: 'line',
+    data: {
+      labels,
+      datasets: [{
+        data,
+        borderColor: color,
+        backgroundColor: color + '28',
+        fill: true,
+        tension: 0.35,
+        pointRadius: data.length <= 8 ? 2 : 0,
+        borderWidth: 2
+      }]
+    },
+    options: {
+      ...chartDefaults,
+      plugins: { legend: { display: false }, tooltip: { enabled: data.length > 1 } },
+      scales: { x: { display: false }, y: { display: false } }
+    }
+  });
+}
+
+const METRICS = [
+  { key: 'gsc_clicks_7d', label: 'GSC clicks', color: '#ff5b1f', format: v => fmt(v), invert: false },
+  { key: 'gsc_impressions_7d', label: 'GSC impressions', color: '#4285f4', format: v => fmt(v), invert: false },
+  { key: 'gsc_ctr_7d', label: 'GSC CTR', color: '#1a73e8', format: v => pct(v), invert: false },
+  { key: 'gsc_avg_position_7d', label: 'Avg position', color: '#8b5cf6', format: v => v?.toFixed(1) ?? '-', invert: true },
+  { key: 'ga4_sessions_7d', label: 'GA4 sessions', color: '#f4b400', format: v => fmt(v), invert: false },
+  { key: 'ga4_users_7d', label: 'GA4 users', color: '#ea8600', format: v => fmt(v), invert: false },
+  { key: 'ga4_pageviews_7d', label: 'Pageviews', color: '#ff5b1f', format: v => fmt(v), invert: false },
+  { key: 'sitemap_submitted', label: 'Sitemap URLs', color: '#2d8c47', format: v => fmt(v), invert: false },
+  { key: 'synd_devto', label: 'Dev.to posts', color: '#0a0a0a', format: v => fmt(v), invert: false }
+];
+
+const trendGrid = document.getElementById('trend-grid');
+trendGrid.innerHTML = METRICS.map((m, i) => {
+  const series = hist(m.key);
+  const current = series[series.length - 1] ?? 0;
+  const previous = series.length >= 2 ? series[series.length - 2] : null;
+  const d = delta(current ?? 0, previous, m.invert);
+  return `<div class="trend-card">
+    <div class="trend-head">
+      <div><div class="trend-title">${m.label}</div><div class="trend-value">${m.format(current ?? 0)}</div></div>
+      <span class="delta ${d.cls}">${d.label}</span>
+    </div>
+    <div class="chart-wrap-sm"><canvas id="spark-${i}"></canvas></div>
+  </div>`;
+}).join('');
+
+METRICS.forEach((m, i) => {
+  makeSparkline(document.getElementById(`spark-${i}`), hist(m.key), m.color);
+});
+
+const indexMetrics = [
+  { key: 'gsc_impressions_7d', label: 'Impressions', color: '#4285f4' },
+  { key: 'ga4_sessions_7d', label: 'Sessions', color: '#f4b400' },
+  { key: 'ga4_pageviews_7d', label: 'Pageviews', color: '#ff5b1f' },
+  { key: 'ga4_users_7d', label: 'Users', color: '#ea8600' },
+  { key: 'sitemap_submitted', label: 'Sitemap URLs', color: '#2d8c47' },
+  { key: 'synd_devto', label: 'Dev.to posts', color: '#0a0a0a' }
+];
+
+new Chart(document.getElementById('growthIndexChart'), {
+  type: 'line',
+  data: {
+    labels,
+    datasets: indexMetrics.map(m => ({
+      label: m.label,
+      data: normalizeIndex(hist(m.key)),
+      borderColor: m.color,
+      backgroundColor: m.color + '18',
+      tension: 0.35,
+      pointRadius: labels.length <= 10 ? 3 : 1,
+      borderWidth: 2
+    }))
+  },
+  options: {
+    ...chartDefaults,
+    plugins: {
+      legend: { position: 'bottom', labels: { font: chartFont, boxWidth: 12 } },
+      tooltip: {
+        callbacks: {
+          label: ctx => `${ctx.dataset.label}: ${ctx.parsed.y} (index)`
+        }
+      }
+    },
+    scales: {
+      y: {
+        beginAtZero: true,
+        title: { display: true, text: 'Index (day 1 = 100)', font: chartFont },
+        ticks: { font: chartFont }
+      },
+      x: { ticks: { font: chartFont, maxRotation: 0 } }
+    }
+  }
+});
 
 new Chart(document.getElementById('gscChart'), {
   type: 'line',
   data: {
     labels,
     datasets: [
-      { label: 'Clicks', data: days.map(d => d.gsc_clicks_7d), borderColor: '#ff5b1f', backgroundColor: '#ff5b1f22', tension: 0.3 },
-      { label: 'Impressions', data: days.map(d => d.gsc_impressions_7d), borderColor: '#4285f4', backgroundColor: '#4285f422', tension: 0.3, yAxisID: 'y2' }
+      { label: 'Clicks', data: hist('gsc_clicks_7d'), borderColor: '#ff5b1f', backgroundColor: '#ff5b1f22', tension: 0.3, fill: true },
+      { label: 'Impressions', data: hist('gsc_impressions_7d'), borderColor: '#4285f4', backgroundColor: '#4285f422', tension: 0.3, fill: true, yAxisID: 'y2' }
     ]
   },
   options: {
-    responsive: true, maintainAspectRatio: false,
-    plugins: { legend: { position: 'bottom', labels: { font: { family: 'Plus Jakarta Sans', size: 11 } } } },
+    ...chartDefaults,
+    plugins: { legend: { position: 'bottom', labels: { font: chartFont } } },
     scales: {
-      y: { position: 'left', title: { display: true, text: 'clicks' } },
-      y2: { position: 'right', title: { display: true, text: 'impressions' }, grid: { drawOnChartArea: false } }
+      y: { position: 'left', title: { display: true, text: 'clicks', font: chartFont }, ticks: { font: chartFont } },
+      y2: { position: 'right', title: { display: true, text: 'impressions', font: chartFont }, grid: { drawOnChartArea: false }, ticks: { font: chartFont } },
+      x: { ticks: { font: chartFont } }
     }
   }
 });
@@ -264,13 +421,18 @@ new Chart(document.getElementById('ga4Chart'), {
   data: {
     labels,
     datasets: [
-      { label: 'Sessions', data: days.map(d => d.ga4_sessions_7d), borderColor: '#ff5b1f', backgroundColor: '#ff5b1f22', tension: 0.3 },
-      { label: 'Pageviews', data: days.map(d => d.ga4_pageviews_7d), borderColor: '#f4b400', backgroundColor: '#f4b40022', tension: 0.3 }
+      { label: 'Sessions', data: hist('ga4_sessions_7d'), borderColor: '#ff5b1f', backgroundColor: '#ff5b1f22', tension: 0.3, fill: true },
+      { label: 'Users', data: hist('ga4_users_7d'), borderColor: '#ea8600', backgroundColor: '#ea860022', tension: 0.3, fill: true },
+      { label: 'Pageviews', data: hist('ga4_pageviews_7d'), borderColor: '#f4b400', backgroundColor: '#f4b40022', tension: 0.3, fill: true }
     ]
   },
   options: {
-    responsive: true, maintainAspectRatio: false,
-    plugins: { legend: { position: 'bottom', labels: { font: { family: 'Plus Jakarta Sans', size: 11 } } } }
+    ...chartDefaults,
+    plugins: { legend: { position: 'bottom', labels: { font: chartFont } } },
+    scales: {
+      y: { ticks: { font: chartFont } },
+      x: { ticks: { font: chartFont } }
+    }
   }
 });
 </script>

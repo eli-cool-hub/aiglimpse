@@ -351,12 +351,16 @@ const todayEntry = {
   date: dISO,
   gsc_clicks_7d: snapshot.gsc.totals.clicks,
   gsc_impressions_7d: snapshot.gsc.totals.impressions,
+  gsc_ctr_7d: snapshot.gsc.totals.ctr,
   gsc_avg_position_7d: snapshot.gsc.totals.position,
   ga4_sessions_7d: snapshot.ga4.totals.sessions,
   ga4_users_7d: snapshot.ga4.totals.users,
   ga4_pageviews_7d: snapshot.ga4.totals.pageviews,
+  ga4_bounce_rate: snapshot.ga4.totals.bounce_rate,
   sitemap_submitted: snapshot.sitemap.submitted_urls || 0,
-  sitemap_indexed: snapshot.sitemap.indexed_urls || 0
+  sitemap_indexed: snapshot.sitemap.indexed_urls || 0,
+  synd_total: snapshot.syndication?.total || 0,
+  synd_devto: snapshot.syndication?.devto || 0
 };
 history.daily = history.daily.filter(d => d.date !== dISO);
 history.daily.push(todayEntry);
