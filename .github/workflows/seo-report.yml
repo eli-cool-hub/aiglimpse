@@ -50,7 +50,9 @@ jobs:
 
       - name: Push
         if: steps.commit.outputs.changed == 'true'
-        run: git push
+        run: |
+          git pull --rebase origin main
+          git push
 
       - name: Deploy dashboard to Cloudflare Pages
         if: steps.commit.outputs.changed == 'true' && env.CLOUDFLARE_API_TOKEN != '' && env.CLOUDFLARE_ACCOUNT_ID != ''
