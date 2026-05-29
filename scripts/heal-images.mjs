@@ -10,7 +10,8 @@
 // Usage:
 //   node scripts/heal-images.mjs              , only heal generic placeholders
 //   node scripts/heal-images.mjs --svg        , also re-attempt SVG-fallback articles
-//                                                (use after setting PEXELS_API_KEY)
+//   node scripts/heal-images.mjs --refresh      , re-pick Pexels hero for ALL .jpg articles
+//                                                using improved article-specific queries
 
 import fs from 'fs/promises';
 import path from 'path';
@@ -24,6 +25,14 @@ const ARTICLES_DIR = path.join(ROOT, 'articles');
 const IMAGES_DIR = path.join(ROOT, 'images', 'articles');
 const PLACEHOLDER = '/images/placeholder.svg';
 const HEAL_SVG = process.argv.includes('--svg');
+const REFRESH = process.argv.includes('--refresh');
+
+function parseArticleContext(html) {
+  const subtitle = (html.match(/class="article-hero-subtitle"[^>]*>([\s\S]*?)<\/p>/i) || [])[1]
+    ?.replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim() || '';
+  const bodyMatch = html.match(/<div class="article-body">([\s\S]*?)<\/div>(\s*<!--|\s*<section|\s*<p style)/);
+  return { subtitle, bodyHtml: bodyMatch?.[1] || '' };
+}
 
 async function rewriteArticleHtml(slug, oldUrl, newUrl) {
   const file = path.join(ARTICLES_DIR, `${slug}.html`);
@@ -42,29 +51,44 @@ async function rewriteArticleHtml(slug, oldUrl, newUrl) {
 const raw = await fs.readFile(DATA_PATH, 'utf8');
 const data = JSON.parse(raw);
 
-const targets = data.articles.filter(a => {
-  if (a.image === PLACEHOLDER) return true;
-  if (HEAL_SVG && typeof a.image === 'string' && a.image.endsWith('.svg') && a.image.startsWith('/images/articles/')) return true;
-  return false;
-});
+const targets = REFRESH
+  ? data.articles.filter(a => typeof a.image === 'string' && a.image.endsWith('.jpg'))
+  : data.articles.filter(a => {
+      if (a.image === PLACEHOLDER) return true;
+      if (HEAL_SVG && typeof a.image === 'string' && a.image.endsWith('.svg') && a.image.startsWith('/images/articles/')) return true;
+      return false;
+    });
 
 if (!targets.length) {
-  console.log('Nothing to heal: all articles already have proper images.');
+  console.log(REFRESH ? 'Nothing to refresh: no articles with Pexels hero images.' : 'Nothing to heal: all articles already have proper images.');
   process.exit(0);
 }
 
-console.log(`\nHealing ${targets.length} article(s)${HEAL_SVG ? ' (including SVG fallbacks)' : ''}...\n`);
+console.log(`\n${REFRESH ? 'Refreshing' : 'Healing'} ${targets.length} article(s)${HEAL_SVG ? ' (including SVG fallbacks)' : ''}...\n`);
 resetImageSession();
 
 for (const a of targets) {
   const oldUrl = a.image;
-  // When re-healing SVG fallbacks, we have to delete the existing .svg first so the
-  // generator does not short-circuit on the idempotency check.
-  if (HEAL_SVG && oldUrl !== PLACEHOLDER && oldUrl.endsWith('.svg')) {
-    const oldFile = path.join(IMAGES_DIR, path.basename(oldUrl));
-    try { await fs.unlink(oldFile); } catch {}
+  const htmlPath = path.join(ARTICLES_DIR, `${a.slug}.html`);
+  let html = '';
+  try { html = await fs.readFile(htmlPath, 'utf8'); } catch {}
+
+  if (REFRESH && oldUrl.endsWith('.jpg')) {
+    try { await fs.unlink(path.join(IMAGES_DIR, path.basename(oldUrl))); } catch {}
   }
-  const newUrl = await generateArticleImage(a.slug, a.title, a.category);
+  if (HEAL_SVG && oldUrl !== PLACEHOLDER && oldUrl.endsWith('.svg')) {
+    try { await fs.unlink(path.join(IMAGES_DIR, path.basename(oldUrl))); } catch {}
+  }
+
+  const ctx = parseArticleContext(html);
+  const imageOpts = {
+    title: a.title,
+    subtitle: ctx.subtitle,
+    keywords: [],
+    bodyHtml: ctx.bodyHtml,
+    category: a.category
+  };
+  const newUrl = await generateArticleImage(a.slug, imageOpts);
   if (newUrl === oldUrl) {
     console.log(`  = ${a.slug}: unchanged (${newUrl})`);
     continue;

@@ -11,6 +11,10 @@
 //
 // Required env: PEXELS_API_KEY (no key, script no-ops with a warning)
 
+// Usage:
+//   node scripts/heal-inline-images.mjs         , only articles missing inline images
+//   node scripts/heal-inline-images.mjs --force   , replace existing inline images too
+
 import fs from 'fs/promises';
 import path from 'path';
 import { generateInlineImages, injectInlineImages, resetImageSession } from './lib/images.mjs';
@@ -18,6 +22,8 @@ import { generateInlineImages, injectInlineImages, resetImageSession } from './l
 const ROOT = path.resolve(process.cwd());
 const ARTICLES_DIR = path.join(ROOT, 'articles');
 const DATA_PATH = path.join(ROOT, 'data', 'published.json');
+const IMAGES_DIR = path.join(ROOT, 'images', 'articles');
+const FORCE = process.argv.includes('--force');
 
 if (!process.env.PEXELS_API_KEY) {
   console.warn('⚠ PEXELS_API_KEY not set, nothing to heal.');
@@ -32,13 +38,29 @@ let skippedNoBody = 0;
 let skippedAlreadyHasInline = 0;
 let skippedTooShort = 0;
 
+function parseArticleContext(html) {
+  const subtitle = (html.match(/class="article-hero-subtitle"[^>]*>([\s\S]*?)<\/p>/i) || [])[1]
+    ?.replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim() || '';
+  const bodyMatch = html.match(/<div class="article-body">([\s\S]*?)<\/div>(\s*<!--|\s*<section|\s*<p style)/);
+  return { subtitle, bodyHtml: bodyMatch?.[1] || '' };
+}
+
+async function stripInlineImages(html, slug) {
+  let out = html.replace(/<figure class="article-image article-image--inline">[\s\S]*?<\/figure>\s*/g, '');
+  for (let i = 1; i <= 3; i++) {
+    try { await fs.unlink(path.join(IMAGES_DIR, `${slug}-inline-${i}.jpg`)); } catch {}
+  }
+  return out;
+}
+
 for (const article of data.articles) {
   const filePath = path.join(ARTICLES_DIR, `${article.slug}.html`);
   let html;
   try { html = await fs.readFile(filePath, 'utf8'); }
   catch { continue; }
 
-  if (html.includes('article-image--inline')) {
+  const hasInline = html.includes('article-image--inline');
+  if (hasInline && !FORCE) {
     skippedAlreadyHasInline++;
     continue;
   }
@@ -63,11 +85,20 @@ for (const article of data.articles) {
 
   if (!imageCount) { skippedTooShort++; continue; }
 
-  const inline = await generateInlineImages(article.slug, article.title, article.category, imageCount);
+  const ctx = parseArticleContext(html);
+  const imageOpts = {
+    title: article.title,
+    subtitle: ctx.subtitle,
+    keywords: [],
+    bodyHtml: FORCE ? await stripInlineImages(bodyHtml, article.slug) : bodyHtml,
+    category: article.category
+  };
+
+  const inline = await generateInlineImages(article.slug, imageOpts, null, imageCount);
   if (!inline.length) { skippedTooShort++; continue; }
 
-  const newBody = injectInlineImages(bodyHtml, inline);
-  if (newBody === bodyHtml) { skippedTooShort++; continue; }
+  const newBody = injectInlineImages(imageOpts.bodyHtml, inline);
+  if (newBody === imageOpts.bodyHtml) { skippedTooShort++; continue; }
 
   // Reassemble with the original wrapper; everything outside our captured group
   // stays byte-identical so we don't perturb other markup.

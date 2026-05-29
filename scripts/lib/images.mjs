@@ -1,24 +1,15 @@
 // Article imagery for AI Glimpse.
 //
 // Strategy (in order, until one succeeds):
-//   1. Pexels stock photo search.   Real, topical, free, ~200 req/hour quota.
-//      Picks deterministically from the top results using the slug as a seed
-//      so identical builds reuse the same photo and similar articles in one run
-//      do NOT collide on the same photo.
-//   2. Branded per-slug SVG hero card. Always succeeds, always unique. Only fires
-//      if Pexels is unreachable or PEXELS_API_KEY is missing. Looks like a
-//      premium magazine cover so the site stays visually whole even offline.
+//   1. Pexels stock photo search. Real, topical, free.
+//      Queries are built from article-specific signals (Claude keywords,
+//      proper nouns, subtitle, H2 headings) instead of generic category
+//      buckets like "science laboratory" that made every research article
+//      look the same.
+//   2. Branded per-slug SVG hero card if Pexels is unavailable.
 //
-// We removed the Pollinations.ai tier in May 2026: the model timed out
-// frequently on GitHub-hosted runners and its prompted style ("warm dark
-// background with orange and amber highlights") made every article hero
-// look the same orange-tinted shade. Real photos beat orange AI art for an
-// editorial publication.
-//
-// Each article's image filename is deterministic (slug-based), so:
-//   • Identical builds produce identical images (idempotent)
-//   • Two different articles can NEVER collide on the same filename
-//   • Re-running the pipeline never re-downloads existing healthy images
+// Each article's image filename is deterministic (slug-based), so builds
+// are idempotent and filenames never collide across articles.
 
 import fs from 'fs/promises';
 import path from 'path';
@@ -30,7 +21,6 @@ const IMAGES_DIR = path.join(ROOT, 'images', 'articles');
 const HERO_W = 1200;
 const HERO_H = 630;
 
-// Color palette per category, used in the SVG fallback so each topic still feels distinct.
 const CATEGORY_PALETTE = {
   llms:     { bg: '#0a0f1f', accent: '#4f8cff', glow: '#9ec3ff' },
   research: { bg: '#0f0a1f', accent: '#a06bff', glow: '#d1b4ff' },
@@ -47,45 +37,124 @@ const CATEGORY_LABEL = {
   robotics: 'Robotics'
 };
 
-// Primary Pexels query per category, used for the hero photo.
-const CATEGORY_PEXELS_QUERY = {
-  llms:     'artificial intelligence',
-  research: 'science laboratory',
-  tools:    'software developer',
-  business: 'business technology',
-  ethics:   'law policy',
-  industry: 'factory industrial',
-  robotics: 'robot technology'
-};
-
-// Alternative Pexels queries per category for INLINE images. Cycled so a
-// 2500-word evergreen on, say, robotics gets three visually distinct photos
-// (one per slot) instead of three near-identical robot factory shots.
-const CATEGORY_PEXELS_INLINE = {
-  llms:     ['computer code', 'data visualization', 'futuristic technology'],
-  research: ['scientist working', 'data analysis', 'modern research'],
-  tools:    ['workspace desk', 'modern office', 'startup workspace'],
-  business: ['business meeting', 'startup team', 'corporate finance'],
-  ethics:   ['government building', 'legal documents', 'judge gavel'],
-  industry: ['warehouse logistics', 'manufacturing line', 'industrial worker'],
-  robotics: ['robot hand', 'mechanical engineer', 'autonomous machine']
+// Last-resort fallbacks only. Specific article queries are tried first.
+const CATEGORY_PEXELS_FALLBACK = {
+  llms:     'person using laptop technology',
+  research: 'technology team office',
+  tools:    'software developer workspace',
+  business: 'business meeting technology',
+  ethics:   'digital privacy security',
+  industry: 'modern industrial technology',
+  robotics: 'robot automation factory'
 };
 
 const TITLE_STOPWORDS = new Set([
-  'the','a','an','of','to','in','for','with','on','at','by','as','is','are','it','this','that','these','those','and','or','but','from','into','about','new','first','second','third','says','said','will','can','could','should','would','may','might','must','make','makes','made','let','lets','letting','use','uses','used','using','take','takes','taken','best','better','bigger','huge','massive','launches','launched','launching','releases','released','releasing','unveils','announces','announced','introduces','introduced','reports','report','reveals','revealed','tackles','fixes','speeds','accelerates','generates','propose','proposes','proposed','through','across','beyond','between','more','most','less','their','your','our','its','than','also','very','much','helps','helping','help','build','builds','building','built','works','worked'
-]);
-const AI_STOPWORDS = new Set([
-  'ai','llm','llms','model','models','system','systems','approach','approaches','method','methods','technique','techniques','framework','frameworks','tool','tools','agent','agents','machine','learning','deep','neural','algorithm','algorithms','data','dataset','datasets','training','trained','train','inference','generative','generation','large','small','foundation','transformer','architecture','platform','platforms','research','researchers','study','paper','papers','benchmark','benchmarks'
+  'the','a','an','of','to','in','for','with','on','at','by','as','is','are','it','this','that','these','those','and','or','but','from','into','about','new','first','second','third','says','said','will','can','could','should','would','may','might','must','make','makes','made','let','lets','letting','use','uses','used','using','take','takes','taken','best','better','bigger','huge','massive','launches','launched','launching','releases','released','releasing','unveils','announces','announced','introduces','introduced','reports','report','reveals','revealed','tackles','fixes','speeds','accelerates','generates','propose','proposes','proposed','through','across','beyond','between','more','most','less','their','your','our','its','than','also','very','much','helps','helping','help','build','builds','building','built','works','worked','what','why','how','when','where','who','which','while','after','before','during','under','over','being','been','have','has','had','not','all','any','each','every','both','few','many','some','such','only','own','same','than','too','very','just','now','here','there','then','once','still','even','back','well','way','part','full','top','key','major','latest','update','updates','updated','shows','show','shown','finds','found','face','faces','facing','aims','aim','aimed','plans','plan','planned','need','needs','needed','set','sets','setting','gets','got','getting','become','becomes','becoming','turns','turn','turned','push','pushes','pushed','drive','drives','driven','lead','leads','leading','led','move','moves','moving','moved','keep','keeps','keeping','kept','start','starts','starting','started','stop','stops','stopping','stopped','run','runs','running','ran','open','opens','opening','opened','close','closes','closing','closed','call','calls','calling','called','add','adds','adding','added','bring','brings','bringing','brought','offer','offers','offering','offered','create','creates','creating','created','change','changes','changing','changed','grow','grows','growing','grew','rise','rises','rising','rose','fall','falls','falling','fell','drop','drops','dropping','dropped','gain','gains','gaining','gained','lose','loses','losing','lost','win','wins','winning','won','beat','beats','beating','hit','hits','hitting','miss','misses','missing','missed','meet','meets','meeting','met','join','joins','joining','joined','leave','leaves','leaving','left','send','sends','sending','sent','give','gives','giving','gave','put','puts','putting','pay','pays','paying','paid','buy','buys','buying','bought','sell','sells','selling','sold','hold','holds','holding','held','look','looks','looking','looked','see','sees','seeing','saw','know','knows','knowing','knew','think','thinks','thinking','thought','want','wants','wanting','wanted','try','tries','trying','tried','come','comes','coming','came','go','goes','going','went','do','does','doing','did','say','say','tell','tells','telling','told'
 ]);
 
-// Module-level dedupe of Pexels photo IDs across ONE pipeline run. Reset by
-// resetImageSession() at the start of a run. Pixel-identical photos never
-// appear twice on the homepage in the same run thanks to this.
+const AI_STOPWORDS = new Set([
+  'ai','llm','llms','model','models','system','systems','approach','approaches','method','methods','technique','techniques','framework','frameworks','tool','tools','agent','agents','machine','learning','deep','neural','algorithm','algorithms','data','dataset','datasets','training','trained','train','inference','generative','generation','large','small','foundation','transformer','architecture','platform','platforms','research','researchers','study','paper','papers','benchmark','benchmarks','artificial','intelligence','technology','technologies','digital','software','hardware','computing','computer','computers','innovation','innovations','solution','solutions','industry','industries','sector','sectors','market','markets','company','companies','startup','startups','firm','firms','world','global','future','next','today','year','years','week','weeks','month','months','day','days','time','times','news','story','stories','article','articles','report','reports','analysis','analyses','overview','guide','explainer','breakdown','roundup','update','updates'
+]);
+
+const GENERIC_H2 = new Set([
+  'what this means','key takeaways','key takeaway','background','looking ahead',
+  'why it matters','the bottom line','what happens next','what to watch',
+  'how it works','in summary','conclusion','final thoughts','overview',
+  'introduction','getting started','next steps','frequently asked questions','faq'
+]);
+
+// Concrete visual hints when title/body mentions these topics.
+const VISUAL_HINTS = [
+  { re: /\b(siri|iphone|ipad|macos|ios|apple watch)\b/i, q: 'apple iphone smartphone screen' },
+  { re: /\b(waymo|robotaxi|autonomous (car|taxi|vehicle|driving))\b/i, q: 'self driving taxi city street' },
+  { re: /\b(openai|chatgpt|gpt-?\d|codex)\b/i, q: 'chatbot laptop screen office' },
+  { re: /\b(google|gemini|deepmind|alphabet)\b/i, q: 'google office campus technology' },
+  { re: /\b(microsoft|copilot|azure)\b/i, q: 'microsoft office laptop workspace' },
+  { re: /\b(meta|facebook|instagram|whatsapp)\b/i, q: 'social media smartphone app' },
+  { re: /\b(nvidia|gpu|graphics card)\b/i, q: 'computer server room lights' },
+  { re: /\b(amazon|aws|alexa)\b/i, q: 'warehouse logistics technology' },
+  { re: /\b(tesla|optimus|cybertruck)\b/i, q: 'electric car factory robot' },
+  { re: /\b(humanoid|boston dynamics|figure ai|robot arm)\b/i, q: 'humanoid robot warehouse' },
+  { re: /\b(drone|uav|quadcopter)\b/i, q: 'delivery drone flying sky' },
+  { re: /\b(3d print|additive manufactur)\b/i, q: '3d printer manufacturing prototype' },
+  { re: /\b(cybersecurity|hack|breach|malware|ransomware)\b/i, q: 'cybersecurity hacker screen code' },
+  { re: /\b(privacy|gdpr|regulation|compliance)\b/i, q: 'privacy law documents desk' },
+  { re: /\b(chip|semiconductor|tsmc|intel|amd)\b/i, q: 'semiconductor chip manufacturing' },
+  { re: /\b(hospital|medical|healthcare|diagnos)\b/i, q: 'doctor using medical technology' },
+  { re: /\b(video|film|cinema|movie)\b/i, q: 'video production editing studio' },
+  { re: /\b(voice|speech|audio|podcast)\b/i, q: 'microphone podcast recording studio' },
+  { re: /\b(image|photo|vision|camera)\b/i, q: 'camera photographer urban street' },
+  { re: /\b(code|coding|programming|developer|github)\b/i, q: 'programmer coding laptop desk' },
+  { re: /\b(startup|venture|funding|investment)\b/i, q: 'startup team pitch meeting' },
+  { re: /\b(law|legal|court|lawsuit|antitrust)\b/i, q: 'courtroom gavel legal documents' },
+  { re: /\b(climate|energy|solar|wind power)\b/i, q: 'solar panels renewable energy' },
+  { re: /\b(space|satellite|nasa|rocket)\b/i, q: 'rocket launch space technology' },
+  { re: /\b(game|gaming|esports)\b/i, q: 'video game controller neon lights' },
+  { re: /\b(education|school|student|university)\b/i, q: 'students laptop classroom' },
+  { re: /\b(finance|bank|trading|stock market)\b/i, q: 'stock market trading screens' },
+  { re: /\b(retail|shopping|ecommerce|store)\b/i, q: 'online shopping smartphone payment' },
+  { re: /\b(farm|agriculture|crop)\b/i, q: 'smart farming drone field' },
+  { re: /\b(music|spotify|audio model)\b/i, q: 'music studio headphones producer' },
+  { re: /\b(translation|language learning)\b/i, q: 'language learning app globe' },
+  { re: /\b(whale|ocean|marine|ship)\b/i, q: 'whale ocean ship aerial' },
+  { re: /\b(brain|neuroscience|cognitive)\b/i, q: 'brain scan medical research' },
+  { re: /\b(protein|biology|genome|dna)\b/i, q: 'dna laboratory microscope' },
+  { re: /\b(arxiv|paper|benchmark)\b/i, q: 'scientist writing notes laptop' }
+];
+
 const _usedPhotoIds = new Set();
 export function resetImageSession() { _usedPhotoIds.clear(); }
 
-function extractTitleKeywords(title, maxWords = 3) {
-  const words = String(title || '')
+function normalizeOpts(titleOrOpts, categoryMaybe) {
+  if (titleOrOpts && typeof titleOrOpts === 'object') {
+    return {
+      title: titleOrOpts.title || '',
+      subtitle: titleOrOpts.subtitle || '',
+      keywords: Array.isArray(titleOrOpts.keywords) ? titleOrOpts.keywords : [],
+      bodyHtml: titleOrOpts.bodyHtml || titleOrOpts.body_html || '',
+      category: titleOrOpts.category || categoryMaybe || 'tools'
+    };
+  }
+  return {
+    title: String(titleOrOpts || ''),
+    subtitle: '',
+    keywords: [],
+    bodyHtml: '',
+    category: categoryMaybe || 'tools'
+  };
+}
+
+function dedupeQueries(queries) {
+  const seen = new Set();
+  const out = [];
+  for (const q of queries) {
+    const key = q.toLowerCase().replace(/\s+/g, ' ').trim();
+    if (key.length < 3 || seen.has(key)) continue;
+    seen.add(key);
+    out.push(key);
+  }
+  return out;
+}
+
+function extractProperNouns(...texts) {
+  const out = [];
+  const seen = new Set();
+  for (const text of texts) {
+    if (!text) continue;
+    for (const raw of String(text).split(/\s+/)) {
+      const w = raw.replace(/^[^\w]+|[^\w'-]+$/g, '');
+      if (w.length < 2) continue;
+      if (!/^[A-Z][a-zA-Z0-9'-]*$/.test(w)) continue;
+      if (['The', 'A', 'An', 'New', 'AI', 'It', 'This', 'That', 'How', 'Why', 'What'].includes(w)) continue;
+      const lower = w.toLowerCase();
+      if (!seen.has(lower)) { seen.add(lower); out.push(w); }
+    }
+  }
+  return out;
+}
+
+function extractTitleKeywords(text, maxWords = 4) {
+  const words = String(text || '')
     .toLowerCase()
     .replace(/[^\w\s-]/g, ' ')
     .split(/\s+/)
@@ -104,12 +173,83 @@ function extractTitleKeywords(title, maxWords = 3) {
   return out;
 }
 
+function extractH2Headings(bodyHtml) {
+  if (!bodyHtml) return [];
+  const re = /<h2[^>]*>([\s\S]*?)<\/h2>/gi;
+  const out = [];
+  let m;
+  while ((m = re.exec(bodyHtml)) !== null) {
+    const text = m[1].replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim();
+    if (!text) continue;
+    if (GENERIC_H2.has(text.toLowerCase())) continue;
+    out.push(text);
+  }
+  return out;
+}
+
+function visualHintsFromText(...texts) {
+  const blob = texts.filter(Boolean).join(' ');
+  const out = [];
+  for (const { re, q } of VISUAL_HINTS) {
+    if (re.test(blob)) out.push(q);
+  }
+  return out;
+}
+
+function queryFromHeading(heading) {
+  const nouns = extractProperNouns(heading);
+  const kw = extractTitleKeywords(heading, 4);
+  if (nouns.length && kw.length) return `${nouns.slice(0, 2).join(' ')} ${kw.slice(0, 2).join(' ')}`.trim();
+  if (nouns.length) return nouns.slice(0, 3).join(' ');
+  if (kw.length >= 2) return kw.join(' ');
+  return extractTitleKeywords(heading, 3).join(' ');
+}
+
+function buildHeroQueries(opts) {
+  const { title, subtitle, keywords, bodyHtml, category } = opts;
+  const firstPara = (bodyHtml.match(/<p[^>]*>([\s\S]*?)<\/p>/i) || [])[1]?.replace(/<[^>]+>/g, ' ').trim() || '';
+  const nouns = extractProperNouns(title, subtitle);
+  const titleKw = extractTitleKeywords(title, 4);
+  const subKw = extractTitleKeywords(subtitle, 3);
+
+  const queries = [
+    ...visualHintsFromText(title, subtitle, firstPara),
+    keywords.length ? keywords.slice(0, 3).join(' ') : '',
+    keywords.length ? keywords.slice(0, 2).join(' ') : '',
+    nouns.length ? nouns.slice(0, 3).join(' ') : '',
+    nouns.length && titleKw.length ? `${nouns.slice(0, 2).join(' ')} ${titleKw[0]}` : '',
+    titleKw.length ? titleKw.join(' ') : '',
+    subKw.length ? subKw.join(' ') : '',
+    nouns.length ? nouns.slice(0, 2).join(' ') : '',
+    CATEGORY_PEXELS_FALLBACK[category] || 'technology workspace'
+  ];
+  return dedupeQueries(queries);
+}
+
+function buildInlineQueries(opts, slot) {
+  const { title, subtitle, keywords, bodyHtml, category } = opts;
+  const headings = extractH2Headings(bodyHtml);
+  const firstPara = (bodyHtml.match(/<p[^>]*>([\s\S]*?)<\/p>/i) || [])[1]?.replace(/<[^>]+>/g, ' ').trim() || '';
+  const nouns = extractProperNouns(title, subtitle);
+  const heading = headings[slot] || headings[slot + 1] || headings[0];
+
+  const queries = [
+    heading ? queryFromHeading(heading) : '',
+    ...visualHintsFromText(heading || '', title, firstPara),
+    keywords.length ? keywords.slice(slot % keywords.length, slot % keywords.length + 2).join(' ') : '',
+    keywords.length ? keywords[slot % keywords.length] : '',
+    nouns.length ? `${nouns.slice(0, 2).join(' ')} ${extractTitleKeywords(heading || title, 2).join(' ')}`.trim() : '',
+    extractTitleKeywords(title, 3).join(' '),
+    CATEGORY_PEXELS_FALLBACK[category] || 'technology workspace'
+  ];
+  return dedupeQueries(queries);
+}
+
 export function seedFromSlug(slug) {
   const hash = crypto.createHash('sha256').update(String(slug)).digest('hex');
   return parseInt(hash.substring(0, 8), 16) % 1_000_000_000;
 }
 
-// Deterministic PRNG so each slug produces the same SVG variation forever.
 function rand(seed, idx) {
   const x = Math.sin(seed * 9301 + idx * 49297) * 233280;
   return x - Math.floor(x);
@@ -144,8 +284,6 @@ function wrapTitle(title, maxChars = 28, maxLines = 3) {
   return lines;
 }
 
-// ---------- Pexels ----------
-
 const PEXELS_TIMEOUT_MS = 12000;
 const PEXELS_PER_PAGE = 30;
 
@@ -164,16 +302,13 @@ async function pexelsSearch(apiKey, query) {
   return Array.isArray(data.photos) ? data.photos : [];
 }
 
-// Pick a photo from results deterministically, skipping any already used in this run.
 function pickUnusedPhoto(photos, slug, slot = 0) {
   if (!photos.length) return null;
-  const seed = seedFromSlug(slug) + slot * 7919; // 7919 is prime, decorrelates slots
+  const seed = seedFromSlug(slug) + slot * 7919;
   for (let offset = 0; offset < photos.length; offset++) {
     const candidate = photos[(seed + offset) % photos.length];
     if (candidate && !_usedPhotoIds.has(candidate.id)) return candidate;
   }
-  // Every result in this query was used. Take the seeded pick anyway:
-  // a duplicate is acceptable in the rare case of 30+ articles on the same query.
   return photos[seed % photos.length];
 }
 
@@ -187,32 +322,30 @@ async function downloadPexelsPhoto(photo) {
   return buf;
 }
 
-async function fetchPexelsForQuery(apiKey, query, fallbackQuery) {
-  let photos = await pexelsSearch(apiKey, query);
-  let usedQuery = query;
-  if (!photos.length && query !== fallbackQuery) {
-    photos = await pexelsSearch(apiKey, fallbackQuery);
-    usedQuery = fallbackQuery;
+async function fetchPexelsForQueries(apiKey, queries) {
+  let lastError;
+  for (const query of queries) {
+    try {
+      const photos = await pexelsSearch(apiKey, query);
+      if (photos.length) return { photos, usedQuery: query };
+    } catch (e) {
+      lastError = e;
+    }
   }
-  return { photos, usedQuery };
+  throw lastError || new Error('no results for any query');
 }
 
-async function tryPexelsHero(slug, title, category) {
+async function tryPexelsHero(slug, opts) {
   const apiKey = process.env.PEXELS_API_KEY;
   if (!apiKey) {
     const err = new Error('PEXELS_API_KEY not set');
     err.skipped = true;
     throw err;
   }
-  const keywords = extractTitleKeywords(title, 3);
-  const categorySeed = CATEGORY_PEXELS_QUERY[category] || 'technology';
-  const primaryQuery = [keywords.join(' '), categorySeed].filter(Boolean).join(' ').trim() || categorySeed;
-  const { photos, usedQuery } = await fetchPexelsForQuery(apiKey, primaryQuery, categorySeed);
-  if (!photos.length) throw new Error('no results');
-
+  const queries = buildHeroQueries(opts);
+  const { photos, usedQuery } = await fetchPexelsForQueries(apiKey, queries);
   const chosen = pickUnusedPhoto(photos, slug, 0);
   if (!chosen) throw new Error('no candidate');
-
   const buf = await downloadPexelsPhoto(chosen);
   _usedPhotoIds.add(chosen.id);
   return {
@@ -224,8 +357,6 @@ async function tryPexelsHero(slug, title, category) {
   };
 }
 
-// ---------- SVG fallback (always succeeds, always unique) ----------
-
 const BRAND_ORANGE = '#ff4d2e';
 const PAPER = '#fafaf7';
 
@@ -233,7 +364,6 @@ function buildSvgCard(slug, title, category) {
   const seed = seedFromSlug(slug);
   const palette = CATEGORY_PALETTE[category] || CATEGORY_PALETTE.tools;
   const label = (CATEGORY_LABEL[category] || 'AI Glimpse').toUpperCase();
-
   const cx1 = Math.floor(150 + rand(seed, 1) * 500);
   const cy1 = Math.floor(80 + rand(seed, 2) * 300);
   const r1  = Math.floor(220 + rand(seed, 3) * 200);
@@ -241,13 +371,11 @@ function buildSvgCard(slug, title, category) {
   const cy2 = Math.floor(250 + rand(seed, 5) * 280);
   const r2  = Math.floor(180 + rand(seed, 6) * 220);
   const angle = Math.floor(rand(seed, 7) * 360);
-
   const lines = wrapTitle(title, 28, 3);
   const titleY = HERO_H - 140 - (lines.length - 1) * 64;
   const tspans = lines.map((line, i) =>
     `<tspan x="64" dy="${i === 0 ? 0 : 64}">${escapeXml(line)}</tspan>`
   ).join('');
-
   return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${HERO_W} ${HERO_H}" role="img" aria-label="${escapeXml(title || 'AI Glimpse')}">
   <defs>
     <linearGradient id="bg" gradientTransform="rotate(${angle})" x1="0" y1="0" x2="1" y2="1">
@@ -284,22 +412,16 @@ function buildSvgCard(slug, title, category) {
 </svg>`;
 }
 
-// ---------- main hero API ----------
-
 /**
  * Generate (or reuse) the hero image for an article.
- *
- * @param {string} slug      slug used as filename and dedupe seed
- * @param {string} title     headline used to derive the Pexels query
- * @param {string} category  one of llms/research/tools/business/ethics/industry/robotics
- * @returns {Promise<string>} site-absolute URL, e.g. /images/articles/foo.jpg
+ * Accepts either (slug, title, category) or (slug, { title, subtitle, keywords, bodyHtml, category }).
  */
-export async function generateArticleImage(slug, title, category) {
+export async function generateArticleImage(slug, titleOrOpts, categoryMaybe) {
+  const opts = normalizeOpts(titleOrOpts, categoryMaybe);
   await fs.mkdir(IMAGES_DIR, { recursive: true });
   const jpgPath = path.join(IMAGES_DIR, `${slug}.jpg`);
   const svgPath = path.join(IMAGES_DIR, `${slug}.svg`);
 
-  // Idempotent: if a healthy hero already exists on disk, reuse it.
   try {
     const stat = await fs.stat(jpgPath);
     if (stat.size > 5000) return `/images/articles/${slug}.jpg`;
@@ -309,9 +431,8 @@ export async function generateArticleImage(slug, title, category) {
     return `/images/articles/${slug}.svg`;
   } catch {}
 
-  // Tier 1: Pexels real photo, topical query.
   try {
-    const { buf, photographer, query } = await tryPexelsHero(slug, title, category);
+    const { buf, photographer, query } = await tryPexelsHero(slug, opts);
     await fs.writeFile(jpgPath, buf);
     const credit = photographer ? `, photo by ${photographer}` : '';
     console.log(`    📷 Pexels hero [${query}] ${(buf.length / 1024).toFixed(0)} KB${credit}`);
@@ -321,96 +442,68 @@ export async function generateArticleImage(slug, title, category) {
     else console.warn(`    ↻ Pexels failed: ${e.message}`);
   }
 
-  // Tier 2: per-slug branded SVG card. Always unique, always succeeds.
-  const svg = buildSvgCard(slug, title, category);
+  const svg = buildSvgCard(slug, opts.title, opts.category);
   await fs.writeFile(svgPath, svg);
   console.log('    🎨 branded SVG card generated (Pexels unavailable)');
   return `/images/articles/${slug}.svg`;
 }
 
-// ---------- inline images ----------
-//
-// Long-form articles get visual relief: 1 to 2 inline photos placed at H2
-// boundaries inside the body. Each inline slot uses a different Pexels query
-// from CATEGORY_PEXELS_INLINE so the article does not show three near-
-// identical photos. Returns a list of {url, photographer, photoPage, alt}
-// objects, the caller decides where to inject them.
-
 /**
- * Fetch up to `count` inline Pexels photos for an article. Returns an array
- * of { url, photographer, photoPage, alt, query }. If Pexels is unavailable
- * or yields no usable photos, returns an empty array, the caller silently
- * falls back to "no inline image".
- *
- * @param {string} slug      article slug, used as filename + dedupe seed
- * @param {string} title     article title, used for alt text
- * @param {string} category  category slug
- * @param {number} count     desired inline image count (will return up to this)
+ * Fetch inline Pexels photos. Each slot uses H2 headings + keywords for
+ * article-specific queries instead of generic category stock photos.
  */
-export async function generateInlineImages(slug, title, category, count = 2) {
+export async function generateInlineImages(slug, titleOrOpts, categoryMaybe, count = 2) {
+  const opts = normalizeOpts(titleOrOpts, categoryMaybe);
   if (!count) return [];
   const apiKey = process.env.PEXELS_API_KEY;
   if (!apiKey) return [];
 
   await fs.mkdir(IMAGES_DIR, { recursive: true });
-  const queries = CATEGORY_PEXELS_INLINE[category] || CATEGORY_PEXELS_INLINE.tools;
-  const fallbackQuery = CATEGORY_PEXELS_QUERY[category] || 'technology';
   const out = [];
 
   for (let slot = 0; slot < count; slot++) {
-    const query = queries[slot % queries.length];
     const filename = `${slug}-inline-${slot + 1}.jpg`;
     const filePath = path.join(IMAGES_DIR, filename);
     const url = `/images/articles/${filename}`;
 
-    // Idempotent: reuse if a healthy file is already on disk.
     try {
       const stat = await fs.stat(filePath);
       if (stat.size > 5000) {
-        out.push({ url, photographer: null, photoPage: null, alt: title, query, reused: true });
+        out.push({ url, photographer: null, photoPage: null, alt: opts.title, query: null, reused: true });
         continue;
       }
     } catch {}
 
+    const queries = buildInlineQueries(opts, slot);
     try {
-      const { photos } = await fetchPexelsForQuery(apiKey, query, fallbackQuery);
-      if (!photos.length) continue;
+      const { photos, usedQuery } = await fetchPexelsForQueries(apiKey, queries);
       const chosen = pickUnusedPhoto(photos, slug, slot + 1);
       if (!chosen) continue;
       const buf = await downloadPexelsPhoto(chosen);
       await fs.writeFile(filePath, buf);
       _usedPhotoIds.add(chosen.id);
+      const heading = extractH2Headings(opts.bodyHtml)[slot];
       out.push({
         url,
         photographer: chosen.photographer || null,
         photographerUrl: chosen.photographer_url || null,
         photoPage: chosen.url || null,
-        alt: title,
-        query,
+        alt: heading || opts.title,
+        query: usedQuery,
         reused: false
       });
-      console.log(`    📷 Pexels inline ${slot + 1} [${query}] ${(buf.length / 1024).toFixed(0)} KB`);
+      console.log(`    📷 Pexels inline ${slot + 1} [${usedQuery}] ${(buf.length / 1024).toFixed(0)} KB`);
     } catch (e) {
-      console.warn(`    ↻ inline ${slot + 1} failed: ${e.message}`);
+      console.warn(`    ↻ inline ${slot + 1} failed (${queries.slice(0, 2).join(' | ')}): ${e.message}`);
     }
   }
 
   return out;
 }
 
-/**
- * Inject inline figure elements into an article body at H2 boundaries.
- * Targets every other H2 starting from the second one, so a 5-H2 article gets
- * images after H2 #2 and #4. Skips if the body has fewer than 3 H2s (too short
- * for inline photos). Returns the (possibly modified) body HTML.
- *
- * @param {string} bodyHtml   article body HTML
- * @param {Array}  images     [{ url, photographer, photoPage, alt, query }, ...]
- */
 export function injectInlineImages(bodyHtml, images) {
   if (!bodyHtml || !Array.isArray(images) || !images.length) return bodyHtml;
 
-  // Find all H2 closing-tag positions.
   const closeH2Re = /<\/h2>/gi;
   const positions = [];
   let m;
@@ -419,16 +512,13 @@ export function injectInlineImages(bodyHtml, images) {
   }
   if (positions.length < 3) return bodyHtml;
 
-  // Slot indices: place images after the 2nd, 4th, 6th H2 etc.
   const slotIndices = [];
   for (let i = 0; i < images.length; i++) {
-    const slotPos = 1 + i * 2; // 1-based: H2 #2, #4, #6 ...
+    const slotPos = 1 + i * 2;
     if (slotPos < positions.length) slotIndices.push(positions[slotPos]);
   }
-
   if (!slotIndices.length) return bodyHtml;
 
-  // Insert from last to first so earlier indices stay valid.
   let out = bodyHtml;
   for (let i = slotIndices.length - 1; i >= 0; i--) {
     const img = images[i];

@@ -555,12 +555,17 @@ async function main() {
       + (piece.faq || []).reduce((n, qa) => n + (qa.a || '').split(/\s+/).length, 0);
     const readingMinutes = Math.max(5, Math.round(wordCount / 220));
 
-    const imagePath = await generateArticleImage(fileSlug, piece.title, topic.category);
+    const imageOpts = {
+      title: piece.title,
+      subtitle: piece.subtitle,
+      keywords: piece.keywords || [],
+      bodyHtml: piece.body_html,
+      category: topic.category
+    };
 
-    // Evergreens are 1500 to 2500 words. Inject 2 inline photos at H2 boundaries
-    // for visual relief. Each inline slot uses a different Pexels query so photos
-    // do not look near-identical.
-    const inline = await generateInlineImages(fileSlug, piece.title, topic.category, 2);
+    const imagePath = await generateArticleImage(fileSlug, imageOpts);
+
+    const inline = await generateInlineImages(fileSlug, imageOpts, null, 2);
     piece.body_html = injectInlineImages(piece.body_html, inline);
 
     const html = generateEvergreenHtml({

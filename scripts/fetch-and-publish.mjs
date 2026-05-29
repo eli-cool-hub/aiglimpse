@@ -480,13 +480,20 @@ async function main() {
       const wordCount = rewritten.body_html.replace(/<[^>]+>/g, ' ').split(/\s+/).length;
       const readingMinutes = Math.max(2, Math.round(wordCount / 220));
 
-      const imagePath = await generateArticleImage(slug, rewritten.title, category);
+      const imageOpts = {
+        title: rewritten.title,
+        subtitle: rewritten.subtitle,
+        keywords: rewritten.keywords || [],
+        bodyHtml: rewritten.body_html,
+        category
+      };
+
+      const imagePath = await generateArticleImage(slug, imageOpts);
 
       // Inline image: only for longer news articles (3+ H2s, ~500+ words).
-      // Shorter pieces stay hero-only to avoid over-imaging brief news.
       const h2Count = (rewritten.body_html.match(/<h2\b/gi) || []).length;
       if (h2Count >= 3 && wordCount >= 500) {
-        const inline = await generateInlineImages(slug, rewritten.title, category, 1);
+        const inline = await generateInlineImages(slug, imageOpts, null, 1);
         rewritten.body_html = injectInlineImages(rewritten.body_html, inline);
       }
 
