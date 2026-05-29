@@ -5,6 +5,11 @@ name: Heal Inline Images
 # CSS or template change). Idempotent, safe to re-run.
 on:
   workflow_dispatch:
+    inputs:
+      force:
+        description: Replace existing inline images (recommended after query improvements)
+        type: boolean
+        default: true
   schedule:
     # Sundays at 04:15 UTC - quiet hour, before Monday morning publishing.
     - cron: '15 4 * * 0'
@@ -30,7 +35,12 @@ jobs:
         env:
           PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
           SITE_URL: https://aiglimpse.ai
-        run: node scripts/heal-inline-images.mjs
+        run: |
+          ARGS=""
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ] && [ "${{ inputs.force }}" = "true" ]; then
+            ARGS="--force"
+          fi
+          node scripts/heal-inline-images.mjs $ARGS
 
       - name: Commit and push
         id: commit

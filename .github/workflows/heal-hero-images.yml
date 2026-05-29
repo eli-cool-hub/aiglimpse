@@ -1,0 +1,53 @@
+name: Heal Hero Images
+
+# Re-picks Pexels hero photos using article-specific queries (title, subtitle,
+# body context) instead of generic category stock. Safe to run after image
+# matching improvements.
+
+on:
+  workflow_dispatch:
+
+jobs:
+  heal:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - run: npm install --no-fund --no-audit
+
+      - name: Refresh hero images
+        env:
+          PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
+        run: node scripts/heal-images.mjs --refresh
+
+      - name: Commit and push
+        id: commit
+        run: |
+          git config user.name "AI Glimpse Bot"
+          git config user.email "bot@aiglimpse.ai"
+          git add articles/ data/published.json images/articles/ index.html categories/
+          if git diff --staged --quiet; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            git commit -m "🖼 Refresh hero images with article-specific Pexels queries ($(date -u +'%Y-%m-%d'))"
+            git push
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Deploy to Cloudflare Pages
+        if: steps.commit.outputs.changed == 'true'
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          preCommands: wrangler pages project create aiglimpse --production-branch=main || true
+          command: pages deploy . --project-name=aiglimpse --branch=main --commit-dirty=true
