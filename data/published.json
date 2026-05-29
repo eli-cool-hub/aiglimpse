@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "san-francisco-robotics-startup-faces-lawsuit-over-airbnb-testing-b3d35a02",
+      "title": "San Francisco Robotics Startup Faces Lawsuit Over Airbnb Testing",
+      "subtitle": "A legal complaint alleges an AI-powered robotics firm conducted undisclosed experiments in rental properties, causing significant property damage.",
+      "category": "tools",
+      "publishedAt": "2026-05-28T23:42:47.000Z",
+      "sourceUrl": "https://sfstandard.com/2026/05/28/sf-startup-secretly-testing-robots-airbnbs-trashing-lawsuit-claims/",
+      "sourceName": "Hacker News (193 pts)",
+      "sourceTier": 2,
+      "image": "/images/articles/san-francisco-robotics-startup-faces-lawsuit-over-airbnb-testing-b3d35a02.jpg"
+    },
+    {
+      "slug": "unknown-ai-model-hy3-dominates-openrouter-rankings-d85b52d6",
+      "title": "Unknown AI Model Hy3 Dominates OpenRouter Rankings",
+      "subtitle": "A mysterious large language model has surpassed established competitors on a major inference platform, raising questions about its origins and capabilities.",
+      "category": "research",
+      "publishedAt": "2026-05-29T00:09:35.000Z",
+      "sourceUrl": "https://minimaxir.com/2026/05/openrouter-hy3/",
+      "sourceName": "Hacker News (66 pts)",
+      "sourceTier": 2,
+      "image": "/images/articles/unknown-ai-model-hy3-dominates-openrouter-rankings-d85b52d6.jpg"
+    },
+    {
       "slug": "enterprise-ai-search-startup-glean-hits-300m-revenue-472eb66b",
       "title": "Enterprise AI Search Startup Glean Hits $300M Revenue",
       "subtitle": "The company has tripled annual revenue by positioning itself as a cost-conscious alternative to large language model deployments.",
@@ -793,6 +815,8 @@
     "a37b10306b5577dd",
     "7757ce88f59d235c",
     "60b8d8879892849a",
-    "472eb66b47c7e802"
+    "472eb66b47c7e802",
+    "d85b52d647941997",
+    "b3d35a02e3019e66"
   ]
 }

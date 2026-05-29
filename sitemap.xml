@@ -11,6 +11,24 @@
   <url><loc>https://aiglimpse.ai/pages/about</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
   <url><loc>https://aiglimpse.ai/pages/contact</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
   <url>
+    <loc>https://aiglimpse.ai/articles/san-francisco-robotics-startup-faces-lawsuit-over-airbnb-testing-b3d35a02</loc>
+    <news:news>
+      <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-05-28T23:42:47.000Z</news:publication_date>
+      <news:title>San Francisco Robotics Startup Faces Lawsuit Over Airbnb Testing</news:title>
+    </news:news>
+    <changefreq>daily</changefreq><priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://aiglimpse.ai/articles/unknown-ai-model-hy3-dominates-openrouter-rankings-d85b52d6</loc>
+    <news:news>
+      <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-05-29T00:09:35.000Z</news:publication_date>
+      <news:title>Unknown AI Model Hy3 Dominates OpenRouter Rankings</news:title>
+    </news:news>
+    <changefreq>daily</changefreq><priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://aiglimpse.ai/articles/enterprise-ai-search-startup-glean-hits-300m-revenue-472eb66b</loc>
     <news:news>
       <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>

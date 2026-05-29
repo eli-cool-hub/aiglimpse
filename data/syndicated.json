@@ -128,6 +128,42 @@
         "devto": true,
         "hashnode": false
       }
+    },
+    "unknown-ai-model-hy3-dominates-openrouter-rankings-d85b52d6": {
+      "syndicated_at": "2026-05-29T08:00:46.599Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/unknown-ai-model-hy3-dominates-openrouter-rankings-86h",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 507,
+      "category": "research",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
+    },
+    "san-francisco-robotics-startup-faces-lawsuit-over-airbnb-testing-b3d35a02": {
+      "syndicated_at": "2026-05-29T08:00:57.450Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/san-francisco-robotics-startup-faces-lawsuit-over-airbnb-testing-2d9i",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 459,
+      "category": "tools",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
     }
   }
 }
