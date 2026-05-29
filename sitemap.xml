@@ -11,6 +11,24 @@
   <url><loc>https://aiglimpse.ai/pages/about</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
   <url><loc>https://aiglimpse.ai/pages/contact</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
   <url>
+    <loc>https://aiglimpse.ai/articles/understanding-pytorch-performance-a-guide-to-built-in-profiling-b3239c8d</loc>
+    <news:news>
+      <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-05-29T00:00:00.000Z</news:publication_date>
+      <news:title>Understanding PyTorch Performance: A Guide to Built-in Profiling</news:title>
+    </news:news>
+    <changefreq>daily</changefreq><priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://aiglimpse.ai/articles/openai-unveils-rosalind-biodefense-program-for-public-health-ai-76d2e551</loc>
+    <news:news>
+      <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-05-29T03:00:00.000Z</news:publication_date>
+      <news:title>OpenAI Unveils Rosalind Biodefense Program for Public Health AI</news:title>
+    </news:news>
+    <changefreq>daily</changefreq><priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://aiglimpse.ai/articles/san-francisco-robotics-startup-faces-lawsuit-over-airbnb-testing-b3d35a02</loc>
     <news:news>
       <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>

@@ -164,6 +164,42 @@
         "devto": true,
         "hashnode": false
       }
+    },
+    "openai-unveils-rosalind-biodefense-program-for-public-health-ai-76d2e551": {
+      "syndicated_at": "2026-05-29T12:48:31.502Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/openai-unveils-rosalind-biodefense-program-for-public-health-ai-2e15",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 452,
+      "category": "llms",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
+    },
+    "understanding-pytorch-performance-a-guide-to-built-in-profiling-b3239c8d": {
+      "syndicated_at": "2026-05-29T12:48:42.547Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/understanding-pytorch-performance-a-guide-to-built-in-profiling-5f60",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 477,
+      "category": "tools",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
     }
   }
 }
