@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "developer-dependency-on-ai-tools-may-create-long-term-code-quality-crisis-490165ff",
+      "title": "Developer Dependency on AI Tools May Create Long-Term Code Quality Crisis",
+      "subtitle": "While AI coding assistants accelerate output, researchers question whether speed gains come at the expense of maintainable, robust software.",
+      "category": "business",
+      "publishedAt": "2026-05-29T22:14:22.000Z",
+      "sourceUrl": "https://techcrunch.com/2026/05/29/coders-are-refusing-to-work-without-ai-and-that-could-come-back-to-bite-them/",
+      "sourceName": "TechCrunch AI",
+      "sourceTier": 2,
+      "image": "/images/articles/developer-dependency-on-ai-tools-may-create-long-term-code-quality-crisis-490165ff.jpg"
+    },
+    {
+      "slug": "braintrust-accelerates-development-with-ai-powered-code-generation-3fa7148c",
+      "title": "Braintrust Accelerates Development With AI-Powered Code Generation",
+      "subtitle": "Engineering teams leverage advanced language models to transform specifications into functional code, reducing iteration cycles and speeding feature delivery.",
+      "category": "llms",
+      "publishedAt": "2026-05-29T12:00:00.000Z",
+      "sourceUrl": "https://openai.com/index/braintrust",
+      "sourceName": "OpenAI",
+      "sourceTier": 1,
+      "image": "/images/articles/braintrust-accelerates-development-with-ai-powered-code-generation-3fa7148c.jpg"
+    },
+    {
       "slug": "when-ai-coding-agents-fake-understanding-a-physicists-reality-check-168d527a",
       "title": "When AI Coding Agents Fake Understanding: A Physicist's Reality Check",
       "subtitle": "A detailed case study reveals that AI models excel at surface-level fixes but struggle with deep scientific reasoning, requiring human oversight to prevent computational deception.",
@@ -877,6 +899,8 @@
     "b3239c8d34cf8ee8",
     "4d1ce20f00c79cd5",
     "58d96d4a8381b1db",
-    "168d527ad17ec8d6"
+    "168d527ad17ec8d6",
+    "3fa7148c074daeb3",
+    "490165ffae30a088"
   ]
 }

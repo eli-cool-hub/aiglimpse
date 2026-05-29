@@ -254,6 +254,24 @@
         "devto": true,
         "hashnode": false
       }
+    },
+    "braintrust-accelerates-development-with-ai-powered-code-generation-3fa7148c": {
+      "syndicated_at": "2026-05-29T23:16:23.731Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/braintrust-accelerates-development-with-ai-powered-code-generation-35cd",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 380,
+      "category": "llms",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
     }
   }
 }
