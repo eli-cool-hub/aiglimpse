@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "enterprise-ai-search-startup-glean-hits-300m-revenue-472eb66b",
+      "title": "Enterprise AI Search Startup Glean Hits $300M Revenue",
+      "subtitle": "The company has tripled annual revenue by positioning itself as a cost-conscious alternative to large language model deployments.",
+      "category": "business",
+      "publishedAt": "2026-05-29T00:44:37.000Z",
+      "sourceUrl": "https://techcrunch.com/2026/05/28/gleans-top-line-crosses-300m-as-ai-budget-cutting-becomes-its-major-selling-point/",
+      "sourceName": "TechCrunch AI",
+      "sourceTier": 2,
+      "image": "/images/articles/enterprise-ai-search-startup-glean-hits-300m-revenue-472eb66b.jpg"
+    },
+    {
       "slug": "ai-models-absorb-false-claims-despite-explicit-warning-labels-60b8d887",
       "title": "AI Models Absorb False Claims Despite Explicit Warning Labels",
       "subtitle": "Research reveals large language models internalize misinformation even when training data clearly marks statements as false, raising concerns about hallucination and data quality.",
@@ -781,6 +792,7 @@
     "2a5a65e515344f96",
     "a37b10306b5577dd",
     "7757ce88f59d235c",
-    "60b8d8879892849a"
+    "60b8d8879892849a",
+    "472eb66b47c7e802"
   ]
 }
