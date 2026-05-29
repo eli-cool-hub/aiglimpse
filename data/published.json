@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "openai-publishes-framework-for-independent-ai-model-audits-4d1ce20f",
+      "title": "OpenAI Publishes Framework for Independent AI Model Audits",
+      "subtitle": "The company releases a standardized approach to third-party evaluations of advanced AI systems, aiming to establish industry norms for safety assessment.",
+      "category": "llms",
+      "publishedAt": "2026-05-29T00:00:00.000Z",
+      "sourceUrl": "https://openai.com/index/trustworthy-third-party-evaluations-foundations",
+      "sourceName": "OpenAI",
+      "sourceTier": 1,
+      "image": "/images/articles/openai-publishes-framework-for-independent-ai-model-audits-4d1ce20f.jpg"
+    },
+    {
       "slug": "understanding-pytorch-performance-a-guide-to-built-in-profiling-b3239c8d",
       "title": "Understanding PyTorch Performance: A Guide to Built-in Profiling",
       "subtitle": "Developers can now systematically measure and optimize model efficiency using PyTorch's native profiling tools.",
@@ -841,6 +852,7 @@
     "d85b52d647941997",
     "b3d35a02e3019e66",
     "76d2e551da7b6f54",
-    "b3239c8d34cf8ee8"
+    "b3239c8d34cf8ee8",
+    "4d1ce20f00c79cd5"
   ]
 }

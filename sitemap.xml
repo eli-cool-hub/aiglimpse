@@ -11,6 +11,15 @@
   <url><loc>https://aiglimpse.ai/pages/about</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
   <url><loc>https://aiglimpse.ai/pages/contact</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
   <url>
+    <loc>https://aiglimpse.ai/articles/openai-publishes-framework-for-independent-ai-model-audits-4d1ce20f</loc>
+    <news:news>
+      <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-05-29T00:00:00.000Z</news:publication_date>
+      <news:title>OpenAI Publishes Framework for Independent AI Model Audits</news:title>
+    </news:news>
+    <changefreq>daily</changefreq><priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://aiglimpse.ai/articles/understanding-pytorch-performance-a-guide-to-built-in-profiling-b3239c8d</loc>
     <news:news>
       <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>

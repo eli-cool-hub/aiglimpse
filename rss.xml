@@ -7,6 +7,14 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>OpenAI Publishes Framework for Independent AI Model Audits</title>
+      <link>https://aiglimpse.ai/articles/openai-publishes-framework-for-independent-ai-model-audits-4d1ce20f</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/openai-publishes-framework-for-independent-ai-model-audits-4d1ce20f</guid>
+      <description>The company releases a standardized approach to third-party evaluations of advanced AI systems, aiming to establish industry norms for safety assessment.</description>
+      <pubDate>Fri, 29 May 2026 00:00:00 GMT</pubDate>
+      <category>LLMs &amp; Chatbots</category>
+    </item>
+    <item>
       <title>Understanding PyTorch Performance: A Guide to Built-in Profiling</title>
       <link>https://aiglimpse.ai/articles/understanding-pytorch-performance-a-guide-to-built-in-profiling-b3239c8d</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/understanding-pytorch-performance-a-guide-to-built-in-profiling-b3239c8d</guid>
@@ -397,14 +405,6 @@
       <description>A new consolidation mechanism could help AI systems retain and organize information more efficiently, mimicking biological learning patterns.</description>
       <pubDate>Tue, 26 May 2026 15:36:24 GMT</pubDate>
       <category>LLMs &amp; Chatbots</category>
-    </item>
-    <item>
-      <title>IntBot and Certis Deploy Social Robots Across Singapore</title>
-      <link>https://aiglimpse.ai/articles/intbot-and-certis-deploy-social-robots-across-singapore-cbb21cde</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/intbot-and-certis-deploy-social-robots-across-singapore-cbb21cde</guid>
-      <description>A major partnership signals that humanoid robots are moving from pilot programs to real-world commercial deployment in service industries.</description>
-      <pubDate>Tue, 26 May 2026 13:00:30 GMT</pubDate>
-      <category>Robotics</category>
     </item>
   </channel>
 </rss>
