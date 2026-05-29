@@ -82,6 +82,11 @@
 <p>But maturity also means sobering clarity about trade-offs. RAG is not a silver bullet. It adds latency (you have to retrieve before generating), introduces failure modes (retrieving the wrong document), and requires careful tuning of retrieval parameters and prompt engineering. Teams that deploy RAG carelessly end up with systems that are slower, more complex, and only marginally more accurate than a fine-tuned baseline. The 2026 reality is that RAG works best when the use case is a genuine fit: when you have a well-structured knowledge base, when factuality matters more than speed, and when you can measure whether the retrieved context is actually helping.</p>
 
 <h2>The core anatomy of a RAG system</h2>
+<figure class="article-image article-image--inline">
+  <img src="/images/articles/what-is-retrieval-augmented-generation-rag-inline-1.jpg" alt="Why this matters now" loading="lazy" width="1200" height="630">
+  <figcaption class="article-image-credit">Photo by <a href="https://www.pexels.com/photo/empty-orange-cup-lying-down-on-ground-20307176/" rel="nofollow noopener" target="_blank">Chris F</a> on Pexels.</figcaption>
+</figure>
+
 
 <p>A RAG pipeline has three main stages: indexing, retrieval, and generation.</p>
 
@@ -104,6 +109,11 @@
 <p>One critical detail: the embedding model you use during indexing must match the one you use at query time. If you embed your documents with BGE but query with OpenAI's embeddings, the similarity scores will be meaningless. It's a common source of frustration in production RAG systems.</p>
 
 <h2>Context window and the limits of retrieval</h2>
+<figure class="article-image article-image--inline">
+  <img src="/images/articles/what-is-retrieval-augmented-generation-rag-inline-2.jpg" alt="The core anatomy of a RAG system" loading="lazy" width="1200" height="630">
+  <figcaption class="article-image-credit">Photo by <a href="https://www.pexels.com/photo/white-spider-web-in-close-up-photography-8386726/" rel="nofollow noopener" target="_blank">Tara Winstead</a> on Pexels.</figcaption>
+</figure>
+
 
 <p>The context window of a language model is the total number of tokens (roughly, words) it can ingest in a single request. Larger context windows mean you can pass more retrieved context to the model, which sounds universally good, but it's not.</p>
 

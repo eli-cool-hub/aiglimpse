@@ -78,6 +78,11 @@
 <p>By 2026, LLMs are embedded in productivity software that millions of people use daily. Developers are building applications that depend on understanding LLM behavior, limitations, and failure modes. Business leaders are making investment decisions around whether to build versus buy LLM infrastructure. Yet most explanations of how LLMs work either resort to misleading analogies (they are not actually "next-word guessing games") or jump straight to graduate-level linear algebra that requires months of study. The gap between accurate and accessible is wide. Understanding the actual mechanics of how LLMs work, without the magic thinking or the PhD math, is now table stakes for anyone making technical or strategic decisions in AI.</p>
 
 <h2>Tokens: How LLMs chunk language into units</h2>
+<figure class="article-image article-image--inline">
+  <img src="/images/articles/how-large-language-models-work-clear-explainer-inline-1.jpg" alt="Why this matters now" loading="lazy" width="1200" height="630">
+  <figcaption class="article-image-credit">Photo by <a href="https://www.pexels.com/photo/vibrant-fall-leaves-in-sunlight-36358045/" rel="nofollow noopener" target="_blank">Debdutta Dhara</a> on Pexels.</figcaption>
+</figure>
+
 
 <p>Before a <a href="/categories/llms">language model</a> can process text, it must break it into manageable pieces called tokens. A token is not a word. It is a unit assigned by a tokenizer, a piece of software that maps strings of characters to integer IDs that the model understands.</p>
 
@@ -100,6 +105,11 @@
 <p>The deeper the model (more layers), and the wider the model (more numbers in each vector), the larger the model is. This directly correlates with performance, up to a point. GPT-4 is believed to have several hundred billion parameters. Smaller models like Llama 2-7B have 7 billion parameters. The relationship between model size and capability is roughly logarithmic: going from 7B to 70B parameters improves performance, but going from 70B to 700B would improve it further but with diminishing returns.</p>
 
 <h2>Attention: Weighting what matters in context</h2>
+<figure class="article-image article-image--inline">
+  <img src="/images/articles/how-large-language-models-work-clear-explainer-inline-2.jpg" alt="Tokens: How LLMs chunk language into units" loading="lazy" width="1200" height="630">
+  <figcaption class="article-image-credit">Photo by <a href="https://www.pexels.com/photo/bitcoin-on-person-s-hand-7567430/" rel="nofollow noopener" target="_blank">Tima Miroshnichenko</a> on Pexels.</figcaption>
+</figure>
+
 
 <p>Attention is the mechanism that lets a language model figure out which parts of the input are relevant to predicting the next token. It answers the question: when I predict the next word, which previous words should I focus on?</p>
 
