@@ -7,6 +7,10 @@ name: Heal Hero Images
 on:
   workflow_dispatch:
 
+concurrency:
+  group: aiglimpse-content-push
+  cancel-in-progress: false
+
 jobs:
   heal:
     runs-on: ubuntu-latest
@@ -36,6 +40,7 @@ jobs:
             echo "changed=false" >> "$GITHUB_OUTPUT"
           else
             git commit -m "🖼 Refresh hero images with article-specific Pexels queries ($(date -u +'%Y-%m-%d'))"
+            git pull --rebase origin main
             git push
             echo "changed=true" >> "$GITHUB_OUTPUT"
           fi
