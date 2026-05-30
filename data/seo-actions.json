@@ -1,0 +1,14 @@
+{
+  "actions": {
+    "low_ctr_page|https://aiglimpse.ai/articles/critical-flaw-in-popular-python-framework-exposes-ai-agents-globally-dba2f662|": {
+      "status": "done",
+      "applied_at": "2026-05-30T13:40:13.600Z",
+      "applied_note": "Updated title + meta for top queries (Starlette / FastAPI). Added inbound links from 2 related articles."
+    },
+    "near_page_one|https://aiglimpse.ai/articles/critical-flaw-in-popular-python-framework-exposes-ai-agents-globally-dba2f662|": {
+      "status": "done",
+      "applied_at": "2026-05-30T13:40:13.621Z",
+      "applied_note": "Added inbound links from 3 related article(s): defining-ai-agent-architecture-key-terminology-every-developer-needs-a479bf7f, enterprise-ai-agents-demand-fundamental-organizational-overhaul-445a6a5e, how-endava-transformed-workflows-with-ai-powered-code-generation-aaa854d5."
+    }
+  }
+}

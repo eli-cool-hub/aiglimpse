@@ -39,7 +39,7 @@ jobs:
           set -euo pipefail
           git config user.name "aiglimpse-bot"
           git config user.email "bot@aiglimpse.ai"
-          git add reports/seo/ data/seo-history.json dashboard.html
+          git add reports/seo/ data/seo-history.json data/seo-actions.json dashboard.html articles/
           if git diff --staged --quiet; then
             echo "No new report to commit"
             echo "changed=false" >> "$GITHUB_OUTPUT"

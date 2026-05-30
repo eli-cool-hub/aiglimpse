@@ -53,6 +53,9 @@
   .rec.priority-high { border-left-color: var(--bad); }
   .rec.priority-medium { border-left-color: var(--warn); }
   .rec.priority-info { border-left-color: var(--muted); }
+  .rec.status-done { opacity: 0.88; border-left-color: var(--good); background: #f4faf6; }
+  .rec-badge.done { background: var(--good); color: white; }
+  .rec-applied { margin-top: 6px; font-size: 12px; color: var(--good); }
   .rec-badge { display: inline-block; font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; padding: 2px 6px; border-radius: 3px; background: var(--ink); color: var(--paper); }
   .rec.priority-high .rec-badge { background: var(--bad); color: white; }
   .rec.priority-medium .rec-badge { background: var(--warn); color: white; }
@@ -75,6 +78,14 @@
   .footer { margin-top: 64px; padding-top: 24px; border-top: 1px solid var(--line); font-size: 12px; color: var(--muted); text-align: center; }
   a { color: var(--accent); text-decoration: none; }
   a:hover { text-decoration: underline; }
+  .table-toolbar { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-bottom: 10px; flex-wrap: wrap; }
+  .table-toolbar label { font-size: 11px; color: var(--muted); text-transform: uppercase; letter-spacing: 0.06em; font-weight: 600; }
+  .table-toolbar select { font: inherit; font-size: 12px; padding: 4px 8px; border: 1px solid var(--line); border-radius: 4px; background: var(--paper); color: var(--ink); }
+  th.sortable { cursor: pointer; user-select: none; white-space: nowrap; }
+  th.sortable:hover { color: var(--ink); }
+  th.sortable .sort-mark { margin-left: 4px; opacity: 0.55; font-size: 10px; }
+  th.sortable.active { color: var(--ink); }
+  .trend-sort { margin: -8px 0 16px; display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
 </style>
 </head>
 <body>
@@ -99,6 +110,15 @@
 
   <h2>KPI growth</h2>
   <p class="section-note">Each card shows the current 7-day value and a mini trend from daily snapshots. Green = improving (for ranking, lower position is green).</p>
+  <div class="trend-sort">
+    <label for="trend-sort-by">Sort cards by</label>
+    <select id="trend-sort-by">
+      <option value="default">Dashboard order</option>
+      <option value="value-desc">Biggest value</option>
+      <option value="delta-desc">Best day-over-day %</option>
+      <option value="combined">Combined score</option>
+    </select>
+  </div>
   <div class="trend-grid" id="trend-grid"></div>
 
   <h2>Combined growth index</h2>
@@ -121,6 +141,7 @@
 
   <h2>Recommendations <span id="rec-count" class="chip"></span></h2>
   <div class="recs" id="recs"></div>
+  <div id="recs-done" class="recs" style="margin-top:12px;"></div>
 
   <h2>Search Console</h2>
   <div class="grid-2">
@@ -238,44 +259,202 @@ document.getElementById('synd-kpis').innerHTML = syndKpis.map(k =>
 ).join('');
 
 const recs = SNAPSHOT.recommendations || [];
-document.getElementById('rec-count').textContent = recs.length + ' open';
-document.getElementById('recs').innerHTML = recs.length === 0
-  ? '<div class="empty">No recommendations - keep publishing.</div>'
-  : recs.map(r => `<div class="rec priority-${r.priority}"><span class="rec-badge">${r.priority}</span><div>${r.message}${r.page ? '<br><span class="chip">' + r.page + '</span>' : ''}${r.query ? '<br><span class="chip">' + r.query + '</span>' : ''}</div></div>`).join('');
+const openRecs = recs.filter(r => r.status !== 'done');
+const doneRecs = recs.filter(r => r.status === 'done');
+document.getElementById('rec-count').textContent = `${openRecs.length} open · ${doneRecs.length} done`;
 
-function renderTable(id, rows, render) {
-  const tbody = document.querySelector('#' + id + ' tbody');
-  if (!rows || rows.length === 0) {
-    const cols = document.querySelectorAll('#' + id + ' thead th').length;
-    tbody.innerHTML = `<tr><td colspan="${cols}" class="empty" style="padding: 24px;">no data yet</td></tr>`;
-    return;
-  }
-  tbody.innerHTML = rows.map(render).join('');
+function renderRec(r) {
+  const done = r.status === 'done';
+  return `<div class="rec priority-${r.priority}${done ? ' status-done' : ''}">
+    <span class="rec-badge ${done ? 'done' : r.priority}">${done ? 'done' : r.priority}</span>
+    <div>${r.message}${r.page ? '<br><span class="chip">' + r.page.replace(SNAPSHOT.site, '/') + '</span>' : ''}${r.query ? '<br><span class="chip">' + r.query + '</span>' : ''}${r.applied_note ? '<div class="rec-applied">✓ ' + r.applied_note + '</div>' : ''}</div>
+  </div>`;
 }
 
-renderTable('gsc-queries', SNAPSHOT.gsc.queries.slice(0, 15), r =>
-  `<tr><td>${r.key}</td><td class="num">${fmt(r.clicks)}</td><td class="num">${fmt(r.impressions)}</td><td class="num">${pct(r.ctr)}</td><td class="num">${r.position.toFixed(1)}</td></tr>`);
+document.getElementById('recs').innerHTML = openRecs.length === 0
+  ? '<div class="empty">No open recommendations — keep publishing.</div>'
+  : openRecs.map(renderRec).join('');
 
-renderTable('gsc-pages', SNAPSHOT.gsc.pages.slice(0, 15), r =>
-  `<tr><td class="path" title="${r.key}">${r.key.replace(SNAPSHOT.site, '/')}</td><td class="num">${fmt(r.clicks)}</td><td class="num">${fmt(r.impressions)}</td><td class="num">${r.position.toFixed(1)}</td></tr>`);
+document.getElementById('recs-done').innerHTML = doneRecs.length === 0
+  ? ''
+  : `<h3 style="margin:0 0 12px;font-size:14px;color:var(--muted);text-transform:uppercase;letter-spacing:0.05em;">Auto-applied</h3>${doneRecs.map(renderRec).join('')}`;
 
-renderTable('gsc-countries', SNAPSHOT.gsc.countries, r =>
-  `<tr><td>${r.key.toUpperCase()}</td><td class="num">${fmt(r.clicks)}</td><td class="num">${fmt(r.impressions)}</td></tr>`);
+function combinedScore(row, numericKeys, invertKeys = []) {
+  return numericKeys.reduce((sum, key) => {
+    const v = Number(row[key] ?? 0);
+    const weight = key.includes('ctr') || key.includes('views') || key.includes('sessions') || key.includes('impressions') || key.includes('clicks') ? 1 : 1;
+    const adjusted = invertKeys.includes(key) ? Math.max(0, 100 - v) : v;
+    return sum + adjusted * weight;
+  }, 0);
+}
 
-renderTable('gsc-devices', SNAPSHOT.gsc.devices, r =>
-  `<tr><td>${r.key}</td><td class="num">${fmt(r.clicks)}</td><td class="num">${fmt(r.impressions)}</td></tr>`);
+const tableState = {};
 
-renderTable('ga4-pages', SNAPSHOT.ga4.pages.slice(0, 15), r =>
-  `<tr><td class="path" title="${r.title || r.path}">${r.path}</td><td class="num">${fmt(r.views)}</td><td class="num">${fmt(r.users)}</td></tr>`);
+function sortRows(rows, sortKey, dir, config) {
+  const copy = [...rows];
+  const invert = config.invertKeys?.includes(sortKey);
+  copy.sort((a, b) => {
+    let av, bv;
+    if (sortKey === '__combined__') {
+      av = combinedScore(a, config.numericKeys, config.invertKeys);
+      bv = combinedScore(b, config.numericKeys, config.invertKeys);
+    } else {
+      av = a[sortKey];
+      bv = b[sortKey];
+      if (typeof av === 'string') {
+        av = av.toLowerCase(); bv = (bv || '').toLowerCase();
+        return dir === 'asc' ? av.localeCompare(bv) : bv.localeCompare(av);
+      }
+      av = Number(av ?? 0); bv = Number(bv ?? 0);
+      if (invert) { const t = av; av = bv; bv = t; }
+    }
+    return dir === 'asc' ? av - bv : bv - av;
+  });
+  return copy;
+}
 
-renderTable('ga4-sources', SNAPSHOT.ga4.sources, r =>
-  `<tr><td>${r.channel} <span class="chip">${r.source}</span></td><td class="num">${fmt(r.sessions)}</td><td class="num">${fmt(r.users)}</td></tr>`);
+function renderSortableTable(id, rows, config) {
+  const table = document.getElementById(id);
+  const card = table.closest('.card');
+  if (!tableState[id]) tableState[id] = { key: config.defaultSort, dir: 'desc' };
+  const st = tableState[id];
 
-renderTable('ga4-countries', SNAPSHOT.ga4.countries, r =>
-  `<tr><td>${r.country}</td><td class="num">${fmt(r.sessions)}</td><td class="num">${fmt(r.users)}</td></tr>`);
+  let toolbar = card.querySelector('.table-toolbar');
+  if (!toolbar) {
+    toolbar = document.createElement('div');
+    toolbar.className = 'table-toolbar';
+    card.insertBefore(toolbar, table);
+  }
 
-renderTable('ga4-devices', SNAPSHOT.ga4.devices, r =>
-  `<tr><td>${r.device}</td><td class="num">${fmt(r.sessions)}</td></tr>`);
+  const sortOptions = [
+    ...config.columns.filter(c => c.sortKey).map(c => ({ value: c.sortKey, label: c.label })),
+    { value: '__combined__', label: 'Combined' }
+  ];
+  toolbar.innerHTML = `<label for="${id}-sort">Sort by</label>
+    <select id="${id}-sort">${sortOptions.map(o => `<option value="${o.value}"${st.key === o.value ? ' selected' : ''}>${o.label}${o.value === '__combined__' ? ' (all metrics)' : ''}</option>`).join('')}</select>`;
+
+  const select = toolbar.querySelector('select');
+  select.addEventListener('change', () => {
+    tableState[id].key = select.value;
+    renderSortableTable(id, rows, config);
+  });
+
+  const thead = table.querySelector('thead tr');
+  thead.innerHTML = config.columns.map(col => {
+    if (!col.sortKey) return `<th>${col.label}</th>`;
+    const active = st.key === col.sortKey;
+    const mark = active ? (st.dir === 'desc' ? '▼' : '▲') : '↕';
+    return `<th class="sortable${active ? ' active' : ''}" data-key="${col.sortKey}">${col.label}<span class="sort-mark">${mark}</span></th>`;
+  }).join('');
+
+  thead.querySelectorAll('th.sortable').forEach(th => {
+    th.addEventListener('click', () => {
+      const key = th.dataset.key;
+      if (st.key === key) st.dir = st.dir === 'desc' ? 'asc' : 'desc';
+      else { st.key = key; st.dir = 'desc'; }
+      select.value = key;
+      renderSortableTable(id, rows, config);
+    });
+  });
+
+  const tbody = table.querySelector('tbody');
+  if (!rows || rows.length === 0) {
+    tbody.innerHTML = `<tr><td colspan="${config.columns.length}" class="empty" style="padding: 24px;">no data yet</td></tr>`;
+    return;
+  }
+
+  const sorted = sortRows(rows, st.key, st.dir, config).slice(0, config.limit || rows.length);
+  tbody.innerHTML = sorted.map(row => `<tr>${config.columns.map(col => col.render(row)).join('')}</tr>`).join('');
+}
+
+const siteRoot = SNAPSHOT.site;
+
+renderSortableTable('gsc-queries', SNAPSHOT.gsc.queries, {
+  limit: 25,
+  defaultSort: 'impressions',
+  numericKeys: ['clicks', 'impressions', 'ctr', 'position'],
+  invertKeys: ['position'],
+  columns: [
+    { label: 'Query', render: r => `<td>${r.key}</td>` },
+    { label: 'Clicks', sortKey: 'clicks', render: r => `<td class="num">${fmt(r.clicks)}</td>` },
+    { label: 'Impr.', sortKey: 'impressions', render: r => `<td class="num">${fmt(r.impressions)}</td>` },
+    { label: 'CTR', sortKey: 'ctr', render: r => `<td class="num">${pct(r.ctr)}</td>` },
+    { label: 'Pos.', sortKey: 'position', render: r => `<td class="num">${r.position.toFixed(1)}</td>` }
+  ]
+});
+
+renderSortableTable('gsc-pages', SNAPSHOT.gsc.pages, {
+  limit: 25,
+  defaultSort: 'impressions',
+  numericKeys: ['clicks', 'impressions', 'position'],
+  invertKeys: ['position'],
+  columns: [
+    { label: 'Page', sortKey: 'key', render: r => `<td class="path" title="${r.key}">${r.key.replace(siteRoot, '/')}</td>` },
+    { label: 'Clicks', sortKey: 'clicks', render: r => `<td class="num">${fmt(r.clicks)}</td>` },
+    { label: 'Impr.', sortKey: 'impressions', render: r => `<td class="num">${fmt(r.impressions)}</td>` },
+    { label: 'Pos.', sortKey: 'position', render: r => `<td class="num">${r.position.toFixed(1)}</td>` }
+  ]
+});
+
+renderSortableTable('gsc-countries', SNAPSHOT.gsc.countries, {
+  defaultSort: 'impressions',
+  numericKeys: ['clicks', 'impressions'],
+  columns: [
+    { label: 'Country', sortKey: 'key', render: r => `<td>${r.key.toUpperCase()}</td>` },
+    { label: 'Clicks', sortKey: 'clicks', render: r => `<td class="num">${fmt(r.clicks)}</td>` },
+    { label: 'Impr.', sortKey: 'impressions', render: r => `<td class="num">${fmt(r.impressions)}</td>` }
+  ]
+});
+
+renderSortableTable('gsc-devices', SNAPSHOT.gsc.devices, {
+  defaultSort: 'impressions',
+  numericKeys: ['clicks', 'impressions'],
+  columns: [
+    { label: 'Device', sortKey: 'key', render: r => `<td>${r.key}</td>` },
+    { label: 'Clicks', sortKey: 'clicks', render: r => `<td class="num">${fmt(r.clicks)}</td>` },
+    { label: 'Impr.', sortKey: 'impressions', render: r => `<td class="num">${fmt(r.impressions)}</td>` }
+  ]
+});
+
+renderSortableTable('ga4-pages', SNAPSHOT.ga4.pages, {
+  limit: 25,
+  defaultSort: 'views',
+  numericKeys: ['views', 'users', 'avg_duration'],
+  columns: [
+    { label: 'Page', sortKey: 'path', render: r => `<td class="path" title="${r.title || r.path}">${r.path}</td>` },
+    { label: 'Views', sortKey: 'views', render: r => `<td class="num">${fmt(r.views)}</td>` },
+    { label: 'Users', sortKey: 'users', render: r => `<td class="num">${fmt(r.users)}</td>` }
+  ]
+});
+
+renderSortableTable('ga4-sources', SNAPSHOT.ga4.sources, {
+  defaultSort: 'sessions',
+  numericKeys: ['sessions', 'users'],
+  columns: [
+    { label: 'Channel / Source', sortKey: 'channel', render: r => `<td>${r.channel} <span class="chip">${r.source}</span></td>` },
+    { label: 'Sessions', sortKey: 'sessions', render: r => `<td class="num">${fmt(r.sessions)}</td>` },
+    { label: 'Users', sortKey: 'users', render: r => `<td class="num">${fmt(r.users)}</td>` }
+  ]
+});
+
+renderSortableTable('ga4-countries', SNAPSHOT.ga4.countries, {
+  defaultSort: 'sessions',
+  numericKeys: ['sessions', 'users'],
+  columns: [
+    { label: 'Country', sortKey: 'country', render: r => `<td>${r.country}</td>` },
+    { label: 'Sessions', sortKey: 'sessions', render: r => `<td class="num">${fmt(r.sessions)}</td>` },
+    { label: 'Users', sortKey: 'users', render: r => `<td class="num">${fmt(r.users)}</td>` }
+  ]
+});
+
+renderSortableTable('ga4-devices', SNAPSHOT.ga4.devices, {
+  defaultSort: 'sessions',
+  numericKeys: ['sessions'],
+  columns: [
+    { label: 'Device', sortKey: 'device', render: r => `<td>${r.device}</td>` },
+    { label: 'Sessions', sortKey: 'sessions', render: r => `<td class="num">${fmt(r.sessions)}</td>` }
+  ]
+});
 
 const sm = SNAPSHOT.sitemap;
 if (sm && sm.ok && !sm.missing) {
@@ -334,23 +513,51 @@ const METRICS = [
 ];
 
 const trendGrid = document.getElementById('trend-grid');
-trendGrid.innerHTML = METRICS.map((m, i) => {
-  const series = hist(m.key);
-  const current = series[series.length - 1] ?? 0;
-  const previous = series.length >= 2 ? series[series.length - 2] : null;
-  const d = delta(current ?? 0, previous, m.invert);
-  return `<div class="trend-card">
-    <div class="trend-head">
-      <div><div class="trend-title">${m.label}</div><div class="trend-value">${m.format(current ?? 0)}</div></div>
-      <span class="delta ${d.cls}">${d.label}</span>
-    </div>
-    <div class="chart-wrap-sm"><canvas id="spark-${i}"></canvas></div>
-  </div>`;
-}).join('');
+const trendSortSelect = document.getElementById('trend-sort-by');
+const sparkCharts = [];
 
-METRICS.forEach((m, i) => {
-  makeSparkline(document.getElementById(`spark-${i}`), hist(m.key), m.color);
-});
+function trendCardHtml(m, idx, stats) {
+  const d = stats.d;
+  return `<div class="trend-card" data-metric="${m.key}">
+      <div class="trend-head">
+        <div><div class="trend-title">${m.label}</div><div class="trend-value">${m.format(stats.current ?? 0)}</div></div>
+        <span class="delta ${d.cls}">${d.label}</span>
+      </div>
+      <div class="chart-wrap-sm"><canvas id="spark-${idx}"></canvas></div>
+    </div>`;
+}
+
+function renderTrendGrid(sortMode = 'default') {
+  sparkCharts.forEach(c => c.destroy());
+  sparkCharts.length = 0;
+
+  let cards = METRICS.map(m => {
+    const series = hist(m.key);
+    const current = series[series.length - 1] ?? 0;
+    const previous = series.length >= 2 ? series[series.length - 2] : null;
+    const d = delta(current ?? 0, previous, m.invert);
+    const deltaPct = previous == null || previous === 0 ? (current > 0 ? 999 : 0) : ((current - previous) / previous) * 100;
+    return {
+      metric: m,
+      current: Number(current ?? 0),
+      deltaPct: m.invert ? -deltaPct : deltaPct,
+      combined: Number(current ?? 0) + Math.abs(deltaPct),
+      d
+    };
+  });
+
+  if (sortMode === 'value-desc') cards.sort((a, b) => b.current - a.current);
+  else if (sortMode === 'delta-desc') cards.sort((a, b) => b.deltaPct - a.deltaPct);
+  else if (sortMode === 'combined') cards.sort((a, b) => b.combined - a.combined);
+
+  trendGrid.innerHTML = cards.map((c, idx) => trendCardHtml(c.metric, idx, c)).join('');
+  cards.forEach((c, idx) => {
+    sparkCharts.push(makeSparkline(document.getElementById(`spark-${idx}`), hist(c.metric.key), c.metric.color));
+  });
+}
+
+renderTrendGrid('default');
+trendSortSelect.addEventListener('change', () => renderTrendGrid(trendSortSelect.value));
 
 const indexMetrics = [
   { key: 'gsc_impressions_7d', label: 'Impressions', color: '#4285f4' },

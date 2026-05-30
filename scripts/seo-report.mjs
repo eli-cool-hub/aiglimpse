@@ -14,6 +14,7 @@ import { JWT } from 'google-auth-library';
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import { syndicationStats } from './lib/syndicate.mjs';
+import { applySeoRecommendations } from './lib/seo-actions.mjs';
 
 const SA_JSON = process.env.GOOGLE_SERVICE_ACCOUNT_JSON;
 if (!SA_JSON) { console.error('GOOGLE_SERVICE_ACCOUNT_JSON missing'); process.exit(1); }
@@ -330,6 +331,11 @@ if (snapshot.ga4.totals.bounce_rate > 0.75 && snapshot.ga4.totals.sessions >= 20
 
 snapshot.recommendations = recommendations;
 
+// Auto-apply actionable recommendations (internal links, title/meta tweaks).
+const { recommendations: enrichedRecs, filesChanged: seoActionsChanged } =
+  await applySeoRecommendations(recommendations, snapshot);
+snapshot.recommendations = enrichedRecs;
+
 // Syndication stats
 try {
   const synState = JSON.parse(await fs.readFile(path.join(process.cwd(), 'data', 'syndicated.json'), 'utf8'));
@@ -408,8 +414,9 @@ if (snapshot.sitemap.ok && !snapshot.sitemap.missing) {
 if (recommendations.length > 0) {
   md('## Recommendations');
   md('');
-  for (const r of recommendations) {
-    md(`- **[${r.priority}]** ${r.message}`);
+  for (const r of enrichedRecs) {
+    const status = r.status === 'done' ? ' ✓ done' : '';
+    md(`- **[${r.priority}]${status}** ${r.message}${r.applied_note ? ` _(${r.applied_note})_` : ''}`);
   }
   md('');
 }
@@ -480,4 +487,5 @@ const dashboard = dashboardTpl
 
 await fs.writeFile(path.join(process.cwd(), 'dashboard.html'), dashboard);
 console.log('Wrote dashboard.html');
-console.log(`Snapshot: ${snapshot.gsc.totals.impressions} GSC impressions, ${snapshot.ga4.totals.sessions} GA4 sessions, ${recommendations.length} recommendations`);
+console.log(`Snapshot: ${snapshot.gsc.totals.impressions} GSC impressions, ${snapshot.ga4.totals.sessions} GA4 sessions, ${enrichedRecs.filter(r => r.status === 'open').length} open / ${enrichedRecs.filter(r => r.status === 'done').length} done recommendations`);
+if (seoActionsChanged) console.log('SEO auto-actions modified article files');
