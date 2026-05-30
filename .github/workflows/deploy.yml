@@ -1,16 +1,23 @@
 name: Deploy to Cloudflare Pages
 
-# Manual deploy of whatever currently lives on main. Useful for:
-#   - the very first deploy (auto-creates the Pages project)
-#   - CSS / template-only changes that the cron would otherwise skip
-#     because nothing in articles/ changed
-#   - re-running a failed deploy without waiting for the next cron tick
-#
-# The scheduled fetch-news, evergreen, and heal-inline-images workflows
-# all deploy on their own when they produce a content commit, so this
-# workflow is intentionally manual-only.
+# Manual deploy of whatever currently lives on main. Also runs automatically
+# when dashboard, middleware, or site chrome changes — those paths are not
+# picked up by fetch-news deploy (articles-only commit gate).
 on:
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'dashboard.html'
+      - 'scripts/templates/dashboard.html'
+      - 'data/seo-actions.json'
+      - 'data/seo-history.json'
+      - 'reports/seo/**'
+      - 'functions/**'
+      - 'css/**'
+      - 'js/**'
+      - '_headers'
+      - '_redirects'
 
 jobs:
   deploy:
