@@ -7,6 +7,22 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Lean AI Model Detects Hidden Patterns in Time-Series Data</title>
+      <link>https://aiglimpse.ai/articles/lean-ai-model-detects-hidden-patterns-in-time-series-data-5453ead4</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/lean-ai-model-detects-hidden-patterns-in-time-series-data-5453ead4</guid>
+      <description>Researchers build interpretable anomaly detection system that rivals larger models while using a fraction of the parameters.</description>
+      <pubDate>Thu, 28 May 2026 17:59:50 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
+      <title>New Framework Teaches Robots to Perceive Motion, Not Just Objects</title>
+      <link>https://aiglimpse.ai/articles/new-framework-teaches-robots-to-perceive-motion-not-just-objects-73a93525</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-framework-teaches-robots-to-perceive-motion-not-just-objects-73a93525</guid>
+      <description>DynaFLIP embeds action-awareness into visual perception, helping robots generalize better to real-world manipulation tasks.</description>
+      <pubDate>Thu, 28 May 2026 17:59:53 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
       <title>New Tool Reveals Hidden Training Data Recipes of Major AI Models</title>
       <link>https://aiglimpse.ai/articles/new-tool-reveals-hidden-training-data-recipes-of-major-ai-models-5f7d317c</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/new-tool-reveals-hidden-training-data-recipes-of-major-ai-models-5f7d317c</guid>
@@ -389,22 +405,6 @@
       <description>Understand tokens, attention, and next-token prediction without the PhD-level math.</description>
       <pubDate>Tue, 26 May 2026 23:59:02 GMT</pubDate>
       <category>AI Research</category>
-    </item>
-    <item>
-      <title>GPT-5 vs Claude 4.5 vs Gemini Ultra: Choose the Right LLM</title>
-      <link>https://aiglimpse.ai/articles/gpt-5-vs-claude-4-5-vs-gemini-ultra-2026</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/gpt-5-vs-claude-4-5-vs-gemini-ultra-2026</guid>
-      <description>A technical comparison for production teams selecting a frontier model in 2026</description>
-      <pubDate>Tue, 26 May 2026 23:58:17 GMT</pubDate>
-      <category>LLMs &amp; Chatbots</category>
-    </item>
-    <item>
-      <title>What Are AI Agents? A Practical Guide for Builders in 2026</title>
-      <link>https://aiglimpse.ai/articles/what-are-ai-agents-practical-guide-2026</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/what-are-ai-agents-practical-guide-2026</guid>
-      <description>How autonomous agents differ from chatbots, what frameworks actually work, and where they reliably fail.</description>
-      <pubDate>Tue, 26 May 2026 23:46:57 GMT</pubDate>
-      <category>AI Tools &amp; Products</category>
     </item>
   </channel>
 </rss>

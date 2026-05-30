@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "lean-ai-model-detects-hidden-patterns-in-time-series-data-5453ead4",
+      "title": "Lean AI Model Detects Hidden Patterns in Time-Series Data",
+      "subtitle": "Researchers build interpretable anomaly detection system that rivals larger models while using a fraction of the parameters.",
+      "category": "research",
+      "publishedAt": "2026-05-28T17:59:50.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2605.30344v1",
+      "sourceName": "arXiv (Xiaona Zhou, Muntasir Wahed, Tianjiao Yu, Constantin Brif, I…)",
+      "sourceTier": 1,
+      "image": "/images/articles/lean-ai-model-detects-hidden-patterns-in-time-series-data-5453ead4.jpg"
+    },
+    {
+      "slug": "new-framework-teaches-robots-to-perceive-motion-not-just-objects-73a93525",
+      "title": "New Framework Teaches Robots to Perceive Motion, Not Just Objects",
+      "subtitle": "DynaFLIP embeds action-awareness into visual perception, helping robots generalize better to real-world manipulation tasks.",
+      "category": "research",
+      "publishedAt": "2026-05-28T17:59:53.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2605.30350v1",
+      "sourceName": "arXiv (Jusuk Lee, Seungjae Lee, Jonghun Shin, Hoseong Jung, Sungha …)",
+      "sourceTier": 1,
+      "image": "/images/articles/new-framework-teaches-robots-to-perceive-motion-not-just-objects-73a93525.jpg"
+    },
+    {
       "slug": "new-tool-reveals-hidden-training-data-recipes-of-major-ai-models-5f7d317c",
       "title": "New Tool Reveals Hidden Training Data Recipes of Major AI Models",
       "subtitle": "Researchers develop a method to reverse-engineer what public and proprietary language models learned from during training, addressing a major AI transparency gap.",
@@ -997,6 +1019,8 @@
     "cbd965416d1b5be3",
     "c4267498931277e1",
     "fbd3f9766b43d684",
-    "5f7d317ca415479f"
+    "5f7d317ca415479f",
+    "73a93525e503beb6",
+    "5453ead41a580815"
   ]
 }
