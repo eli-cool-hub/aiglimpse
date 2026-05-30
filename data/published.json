@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "amazon-adapts-licensed-character-into-ai-animated-series-without-creator-approva-0cd854d2",
+      "title": "Amazon Adapts Licensed Character Into AI-Animated Series Without Creator Approval",
+      "subtitle": "A dispute over intellectual property rights and AI-generated content raises questions about creator protections in streaming deals.",
+      "category": "tools",
+      "publishedAt": "2026-05-29T20:56:59.000Z",
+      "sourceUrl": "https://www.wired.com/story/story/amazon-is-making-an-ai-animated-good-advice-cupcake-tv-show-its-original-creator-is-furious/",
+      "sourceName": "Wired AI",
+      "sourceTier": 2,
+      "image": "/images/articles/amazon-adapts-licensed-character-into-ai-animated-series-without-creator-approva-0cd854d2.jpg"
+    },
+    {
+      "slug": "how-endava-transformed-workflows-with-ai-powered-code-generation-aaa854d5",
+      "title": "How Endava Transformed Workflows With AI-Powered Code Generation",
+      "subtitle": "Enterprise software firm cuts requirements analysis time from weeks to hours by deploying autonomous AI agents across its development operations.",
+      "category": "llms",
+      "publishedAt": "2026-05-28T12:00:00.000Z",
+      "sourceUrl": "https://openai.com/index/endava",
+      "sourceName": "OpenAI",
+      "sourceTier": 1,
+      "image": "/images/articles/how-endava-transformed-workflows-with-ai-powered-code-generation-aaa854d5.jpg"
+    },
+    {
       "slug": "developer-dependency-on-ai-tools-may-create-long-term-code-quality-crisis-490165ff",
       "title": "Developer Dependency on AI Tools May Create Long-Term Code Quality Crisis",
       "subtitle": "While AI coding assistants accelerate output, researchers question whether speed gains come at the expense of maintainable, robust software.",
@@ -901,6 +923,8 @@
     "58d96d4a8381b1db",
     "168d527ad17ec8d6",
     "3fa7148c074daeb3",
-    "490165ffae30a088"
+    "490165ffae30a088",
+    "aaa854d53fa1ccf7",
+    "0cd854d2305b2b32"
   ]
 }
