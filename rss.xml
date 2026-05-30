@@ -7,6 +7,14 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>New Framework Adds 3D Awareness to Video Object Tracking</title>
+      <link>https://aiglimpse.ai/articles/new-framework-adds-3d-awareness-to-video-object-tracking-c4267498</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-framework-adds-3d-awareness-to-video-object-tracking-c4267498</guid>
+      <description>Researchers tackle fundamental gaps in motion detection by grounding segmentation in spatiotemporal coordinates rather than relying on pre-computed 2D approximations.</description>
+      <pubDate>Thu, 28 May 2026 17:59:58 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
       <title>The Real Cost of AI Transcription: Free Tools vs. Paid Plans</title>
       <link>https://aiglimpse.ai/articles/the-real-cost-of-ai-transcription-free-tools-vs-paid-plans-cbd96541</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/the-real-cost-of-ai-transcription-free-tools-vs-paid-plans-cbd96541</guid>
@@ -397,14 +405,6 @@
       <description>How RAG fixes LLM hallucinations by letting models fetch real data before generating answers.</description>
       <pubDate>Tue, 26 May 2026 23:38:27 GMT</pubDate>
       <category>AI Research</category>
-    </item>
-    <item>
-      <title>Turning Chores Into AI Training Data: The Hidden Cost</title>
-      <link>https://aiglimpse.ai/articles/turning-chores-into-ai-training-data-the-hidden-cost-eeb43980</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/turning-chores-into-ai-training-data-the-hidden-cost-eeb43980</guid>
-      <description>As companies recruit everyday people to record household tasks for robot training, participants face unforeseen consequences of monetizing their daily routines.</description>
-      <pubDate>Tue, 26 May 2026 10:00:00 GMT</pubDate>
-      <category>AI Tools &amp; Products</category>
     </item>
   </channel>
 </rss>

@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "new-framework-adds-3d-awareness-to-video-object-tracking-c4267498",
+      "title": "New Framework Adds 3D Awareness to Video Object Tracking",
+      "subtitle": "Researchers tackle fundamental gaps in motion detection by grounding segmentation in spatiotemporal coordinates rather than relying on pre-computed 2D approximations.",
+      "category": "research",
+      "publishedAt": "2026-05-28T17:59:58.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2605.30352v1",
+      "sourceName": "arXiv (Junyu Xie, Tengda Han, Weidi Xie, Andrew Zisserman)",
+      "sourceTier": 1,
+      "image": "/images/articles/new-framework-adds-3d-awareness-to-video-object-tracking-c4267498.jpg"
+    },
+    {
       "slug": "the-real-cost-of-ai-transcription-free-tools-vs-paid-plans-cbd96541",
       "title": "The Real Cost of AI Transcription: Free Tools vs. Paid Plans",
       "subtitle": "Testing premium transcription software reveals whether subscription fees justify their features against robust free alternatives.",
@@ -961,6 +972,7 @@
     "0cd854d2305b2b32",
     "51c7c42fb6503967",
     "bb085420bcaa174e",
-    "cbd965416d1b5be3"
+    "cbd965416d1b5be3",
+    "c4267498931277e1"
   ]
 }
