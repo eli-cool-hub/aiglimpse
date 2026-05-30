@@ -42,6 +42,8 @@ export const RSS_SOURCES = [
   { name: 'IEEE Spectrum AI', url: 'https://spectrum.ieee.org/feeds/topic/artificial-intelligence.rss', tier: 2, category: 'research' },
   { name: 'IEEE Spectrum Robotics', url: 'https://spectrum.ieee.org/feeds/topic/robotics.rss', tier: 2, category: 'robotics' },
   { name: 'Crunchbase News', url: 'https://news.crunchbase.com/feed/', tier: 2, category: 'business' },
+  { name: "Becker's Hospital Review", url: 'https://www.beckershospitalreview.com/feed/', tier: 2, category: 'industry' },
+  { name: 'MobiHealthNews', url: 'https://www.mobihealthnews.com/rss/xml', tier: 2, category: 'industry' },
 
   // === Tier 3: Specialized + community ===
   { name: 'Import AI (Jack Clark)', url: 'https://importai.substack.com/feed', tier: 3, category: 'research' },
