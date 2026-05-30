@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "speaking-up-on-ai-ethics-risks-professional-isolation-bbfaf576",
+      "title": "Speaking Up on AI Ethics Risks Professional Isolation",
+      "subtitle": "Tech workers and researchers face social costs for raising concerns about artificial intelligence development and deployment.",
+      "category": "tools",
+      "publishedAt": "2026-05-30T16:04:00.000Z",
+      "sourceUrl": "https://musings.martyn.berlin/to-have-a-moral-stance-on-ai-is-to-be-an-outcast-and-it-sucks",
+      "sourceName": "Hacker News (82 pts)",
+      "sourceTier": 2,
+      "image": "/images/articles/speaking-up-on-ai-ethics-risks-professional-isolation-bbfaf576.jpg"
+    },
+    {
+      "slug": "github-copilots-pricing-shift-triggers-backlash-from-developer-community-46a06796",
+      "title": "GitHub Copilot's Pricing Shift Triggers Backlash From Developer Community",
+      "subtitle": "Microsoft's move to token-based billing for its AI coding assistant has sparked widespread criticism over cost and value.",
+      "category": "business",
+      "publishedAt": "2026-05-30T16:30:00.000Z",
+      "sourceUrl": "https://techcrunch.com/2026/05/30/what-a-joke-github-copilots-new-token-based-billing-spurs-consternation-among-devs/",
+      "sourceName": "TechCrunch AI",
+      "sourceTier": 2,
+      "image": "/images/articles/github-copilots-pricing-shift-triggers-backlash-from-developer-community-46a06796.jpg"
+    },
+    {
       "slug": "lean-ai-model-detects-hidden-patterns-in-time-series-data-5453ead4",
       "title": "Lean AI Model Detects Hidden Patterns in Time-Series Data",
       "subtitle": "Researchers build interpretable anomaly detection system that rivals larger models while using a fraction of the parameters.",
@@ -1021,6 +1043,8 @@
     "fbd3f9766b43d684",
     "5f7d317ca415479f",
     "73a93525e503beb6",
-    "5453ead41a580815"
+    "5453ead41a580815",
+    "46a0679601d83f4b",
+    "bbfaf5764c8850c3"
   ]
 }

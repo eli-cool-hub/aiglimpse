@@ -7,6 +7,22 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Speaking Up on AI Ethics Risks Professional Isolation</title>
+      <link>https://aiglimpse.ai/articles/speaking-up-on-ai-ethics-risks-professional-isolation-bbfaf576</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/speaking-up-on-ai-ethics-risks-professional-isolation-bbfaf576</guid>
+      <description>Tech workers and researchers face social costs for raising concerns about artificial intelligence development and deployment.</description>
+      <pubDate>Sat, 30 May 2026 16:04:00 GMT</pubDate>
+      <category>AI Tools &amp; Products</category>
+    </item>
+    <item>
+      <title>GitHub Copilot's Pricing Shift Triggers Backlash From Developer Community</title>
+      <link>https://aiglimpse.ai/articles/github-copilots-pricing-shift-triggers-backlash-from-developer-community-46a06796</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/github-copilots-pricing-shift-triggers-backlash-from-developer-community-46a06796</guid>
+      <description>Microsoft's move to token-based billing for its AI coding assistant has sparked widespread criticism over cost and value.</description>
+      <pubDate>Sat, 30 May 2026 16:30:00 GMT</pubDate>
+      <category>AI Business</category>
+    </item>
+    <item>
       <title>Lean AI Model Detects Hidden Patterns in Time-Series Data</title>
       <link>https://aiglimpse.ai/articles/lean-ai-model-detects-hidden-patterns-in-time-series-data-5453ead4</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/lean-ai-model-detects-hidden-patterns-in-time-series-data-5453ead4</guid>
@@ -389,22 +405,6 @@
       <description>A major redesign of Google Search centered on AI agents has triggered a 30% spike in competitor adoption, signaling user dissatisfaction with the new direction.</description>
       <pubDate>Tue, 26 May 2026 22:32:56 GMT</pubDate>
       <category>AI Business</category>
-    </item>
-    <item>
-      <title>Researchers Restore Youthful Brain Function in Mice Using Nasal Spray</title>
-      <link>https://aiglimpse.ai/articles/researchers-restore-youthful-brain-function-in-mice-using-nasal-spray-a8f988fa</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/researchers-restore-youthful-brain-function-in-mice-using-nasal-spray-a8f988fa</guid>
-      <description>A breakthrough delivery method could accelerate treatments for age-related cognitive decline in humans.</description>
-      <pubDate>Wed, 27 May 2026 01:52:16 GMT</pubDate>
-      <category>AI Research</category>
-    </item>
-    <item>
-      <title>How Large Language Models Work: A Technical Explainer</title>
-      <link>https://aiglimpse.ai/articles/how-large-language-models-work-clear-explainer</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/how-large-language-models-work-clear-explainer</guid>
-      <description>Understand tokens, attention, and next-token prediction without the PhD-level math.</description>
-      <pubDate>Tue, 26 May 2026 23:59:02 GMT</pubDate>
-      <category>AI Research</category>
     </item>
   </channel>
 </rss>
