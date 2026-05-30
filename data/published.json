@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "new-tool-reveals-hidden-training-data-recipes-of-major-ai-models-5f7d317c",
+      "title": "New Tool Reveals Hidden Training Data Recipes of Major AI Models",
+      "subtitle": "Researchers develop a method to reverse-engineer what public and proprietary language models learned from during training, addressing a major AI transparency gap.",
+      "category": "research",
+      "publishedAt": "2026-05-28T17:59:53.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2605.30348v1",
+      "sourceName": "arXiv (Yaxin Luo, Jiacheng Cui, Xiaohan Zhao, Xinyi Shang, Jiacheng…)",
+      "sourceTier": 1,
+      "image": "/images/articles/new-tool-reveals-hidden-training-data-recipes-of-major-ai-models-5f7d317c.jpg"
+    },
+    {
+      "slug": "new-method-slashes-video-ai-memory-use-by-93-while-boosting-speed-fbd3f976",
+      "title": "New Method Slashes Video AI Memory Use by 93% While Boosting Speed",
+      "subtitle": "Researchers introduce a compression technique that lets video diffusion models generate longer sequences without the typical memory and latency penalties.",
+      "category": "research",
+      "publishedAt": "2026-05-28T17:59:57.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2605.30351v1",
+      "sourceName": "arXiv (Hidir Yesiltepe, Jiazhen Hu, Tuna Han Salih Meral, Adil Kaan…)",
+      "sourceTier": 1,
+      "image": "/images/articles/new-method-slashes-video-ai-memory-use-by-93-while-boosting-speed-fbd3f976.jpg"
+    },
+    {
       "slug": "new-framework-adds-3d-awareness-to-video-object-tracking-c4267498",
       "title": "New Framework Adds 3D Awareness to Video Object Tracking",
       "subtitle": "Researchers tackle fundamental gaps in motion detection by grounding segmentation in spatiotemporal coordinates rather than relying on pre-computed 2D approximations.",
@@ -973,6 +995,8 @@
     "51c7c42fb6503967",
     "bb085420bcaa174e",
     "cbd965416d1b5be3",
-    "c4267498931277e1"
+    "c4267498931277e1",
+    "fbd3f9766b43d684",
+    "5f7d317ca415479f"
   ]
 }

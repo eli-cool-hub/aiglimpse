@@ -7,6 +7,22 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>New Tool Reveals Hidden Training Data Recipes of Major AI Models</title>
+      <link>https://aiglimpse.ai/articles/new-tool-reveals-hidden-training-data-recipes-of-major-ai-models-5f7d317c</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-tool-reveals-hidden-training-data-recipes-of-major-ai-models-5f7d317c</guid>
+      <description>Researchers develop a method to reverse-engineer what public and proprietary language models learned from during training, addressing a major AI transparency gap.</description>
+      <pubDate>Thu, 28 May 2026 17:59:53 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
+      <title>New Method Slashes Video AI Memory Use by 93% While Boosting Speed</title>
+      <link>https://aiglimpse.ai/articles/new-method-slashes-video-ai-memory-use-by-93-while-boosting-speed-fbd3f976</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-method-slashes-video-ai-memory-use-by-93-while-boosting-speed-fbd3f976</guid>
+      <description>Researchers introduce a compression technique that lets video diffusion models generate longer sequences without the typical memory and latency penalties.</description>
+      <pubDate>Thu, 28 May 2026 17:59:57 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
       <title>New Framework Adds 3D Awareness to Video Object Tracking</title>
       <link>https://aiglimpse.ai/articles/new-framework-adds-3d-awareness-to-video-object-tracking-c4267498</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/new-framework-adds-3d-awareness-to-video-object-tracking-c4267498</guid>
@@ -389,22 +405,6 @@
       <description>How autonomous agents differ from chatbots, what frameworks actually work, and where they reliably fail.</description>
       <pubDate>Tue, 26 May 2026 23:46:57 GMT</pubDate>
       <category>AI Tools &amp; Products</category>
-    </item>
-    <item>
-      <title>Fine-tuning vs RAG vs Prompt Engineering: A Decision Framework</title>
-      <link>https://aiglimpse.ai/articles/rag-vs-fine-tuning-vs-prompt-engineering</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/rag-vs-fine-tuning-vs-prompt-engineering</guid>
-      <description>When to customize an LLM: cost, latency, and accuracy tradeoffs explained for engineering leaders.</description>
-      <pubDate>Tue, 26 May 2026 23:39:14 GMT</pubDate>
-      <category>AI Research</category>
-    </item>
-    <item>
-      <title>What is Retrieval-Augmented Generation (RAG)? A 2026 Guide</title>
-      <link>https://aiglimpse.ai/articles/what-is-retrieval-augmented-generation-rag</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/what-is-retrieval-augmented-generation-rag</guid>
-      <description>How RAG fixes LLM hallucinations by letting models fetch real data before generating answers.</description>
-      <pubDate>Tue, 26 May 2026 23:38:27 GMT</pubDate>
-      <category>AI Research</category>
     </item>
   </channel>
 </rss>
