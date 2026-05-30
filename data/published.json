@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "the-real-cost-of-ai-transcription-free-tools-vs-paid-plans-cbd96541",
+      "title": "The Real Cost of AI Transcription: Free Tools vs. Paid Plans",
+      "subtitle": "Testing premium transcription software reveals whether subscription fees justify their features against robust free alternatives.",
+      "category": "tools",
+      "publishedAt": "2026-05-30T09:30:00.000Z",
+      "sourceUrl": "https://www.wired.com/story/do-you-actually-need-to-pay-for-transcription-software/",
+      "sourceName": "Wired AI",
+      "sourceTier": 2,
+      "image": "/images/articles/the-real-cost-of-ai-transcription-free-tools-vs-paid-plans-cbd96541.jpg"
+    },
+    {
       "slug": "startup-offers-free-home-cleaning-to-gather-robot-training-data-bb085420",
       "title": "Startup Offers Free Home Cleaning to Gather Robot Training Data",
       "subtitle": "A novel approach to AI data collection trades household services for the behavioral footage needed to teach robots real-world tasks.",
@@ -949,6 +960,7 @@
     "aaa854d53fa1ccf7",
     "0cd854d2305b2b32",
     "51c7c42fb6503967",
-    "bb085420bcaa174e"
+    "bb085420bcaa174e",
+    "cbd965416d1b5be3"
   ]
 }
