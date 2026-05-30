@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "googles-gemini-spark-tackles-daily-tasks-with-surprising-effectiveness-2af9ce50",
+      "title": "Google's Gemini Spark Tackles Daily Tasks with Surprising Effectiveness",
+      "subtitle": "The tech giant's new AI assistant handles email management and event discovery, but its product strategy remains puzzling.",
+      "category": "business",
+      "publishedAt": "2026-05-30T15:30:00.000Z",
+      "sourceUrl": "https://techcrunch.com/2026/05/30/i-put-googles-24-7-ai-assistant-gemini-spark-to-work-and-its-actually-pretty-useful/",
+      "sourceName": "TechCrunch AI",
+      "sourceTier": 2,
+      "image": "/images/articles/googles-gemini-spark-tackles-daily-tasks-with-surprising-effectiveness-2af9ce50.jpg"
+    },
+    {
+      "slug": "openrouter-secures-113m-in-series-b-funding-round-d24961a9",
+      "title": "OpenRouter Secures $113M in Series B Funding Round",
+      "subtitle": "The API routing platform raises significant capital as demand grows for flexible access to multiple AI models.",
+      "category": "tools",
+      "publishedAt": "2026-05-30T17:27:28.000Z",
+      "sourceUrl": "https://openrouter.ai/announcements/series-b",
+      "sourceName": "Hacker News (160 pts)",
+      "sourceTier": 2,
+      "image": "/images/articles/openrouter-secures-113m-in-series-b-funding-round-d24961a9.jpg"
+    },
+    {
       "slug": "speaking-up-on-ai-ethics-risks-professional-isolation-bbfaf576",
       "title": "Speaking Up on AI Ethics Risks Professional Isolation",
       "subtitle": "Tech workers and researchers face social costs for raising concerns about artificial intelligence development and deployment.",
@@ -1045,6 +1067,8 @@
     "73a93525e503beb6",
     "5453ead41a580815",
     "46a0679601d83f4b",
-    "bbfaf5764c8850c3"
+    "bbfaf5764c8850c3",
+    "d24961a913934acd",
+    "2af9ce50efa09ad6"
   ]
 }
