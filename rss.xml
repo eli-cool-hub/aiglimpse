@@ -7,6 +7,22 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Startup Offers Free Home Cleaning to Gather Robot Training Data</title>
+      <link>https://aiglimpse.ai/articles/startup-offers-free-home-cleaning-to-gather-robot-training-data-bb085420</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/startup-offers-free-home-cleaning-to-gather-robot-training-data-bb085420</guid>
+      <description>A novel approach to AI data collection trades household services for the behavioral footage needed to teach robots real-world tasks.</description>
+      <pubDate>Fri, 29 May 2026 19:16:32 GMT</pubDate>
+      <category>AI Tools &amp; Products</category>
+    </item>
+    <item>
+      <title>Developers Launch Tiny-vLLM, a Lightweight Engine for Fast AI Model Inference</title>
+      <link>https://aiglimpse.ai/articles/developers-launch-tiny-vllm-a-lightweight-engine-for-fast-ai-model-inference-51c7c42f</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/developers-launch-tiny-vllm-a-lightweight-engine-for-fast-ai-model-inference-51c7c42f</guid>
+      <description>A new open-source C++ and CUDA framework aims to democratize efficient language model deployment for resource-constrained environments.</description>
+      <pubDate>Fri, 29 May 2026 19:38:27 GMT</pubDate>
+      <category>AI Tools &amp; Products</category>
+    </item>
+    <item>
       <title>Amazon Adapts Licensed Character Into AI-Animated Series Without Creator Approval</title>
       <link>https://aiglimpse.ai/articles/amazon-adapts-licensed-character-into-ai-animated-series-without-creator-approva-0cd854d2</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/amazon-adapts-licensed-character-into-ai-animated-series-without-creator-approva-0cd854d2</guid>
@@ -388,22 +404,6 @@
       <guid isPermaLink="true">https://aiglimpse.ai/articles/critical-flaw-in-popular-python-framework-exposes-ai-agents-globally-dba2f662</guid>
       <description>A severe vulnerability in Starlette threatens millions of AI deployments and the credentials they manage for external services.</description>
       <pubDate>Tue, 26 May 2026 19:50:33 GMT</pubDate>
-      <category>AI Tools &amp; Products</category>
-    </item>
-    <item>
-      <title>Manufacturing's Digital Divide: When to Deploy Simulation vs. Digital Twins</title>
-      <link>https://aiglimpse.ai/articles/manufacturings-digital-divide-when-to-deploy-simulation-vs-digital-twins-3104388d</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/manufacturings-digital-divide-when-to-deploy-simulation-vs-digital-twins-3104388d</guid>
-      <description>As factories embrace virtual tools, understanding the strategic differences between simulations and digital twins becomes critical for smart technology investment.</description>
-      <pubDate>Mon, 25 May 2026 14:23:45 GMT</pubDate>
-      <category>Robotics</category>
-    </item>
-    <item>
-      <title>Three Major AI Teams Unite on Eagle 3.1 Inference Acceleration</title>
-      <link>https://aiglimpse.ai/articles/three-major-ai-teams-unite-on-eagle-31-inference-acceleration-62073e49</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/three-major-ai-teams-unite-on-eagle-31-inference-acceleration-62073e49</guid>
-      <description>Cross-team collaboration brings new optimization capabilities to open-source language model deployment infrastructure.</description>
-      <pubDate>Tue, 26 May 2026 11:46:10 GMT</pubDate>
       <category>AI Tools &amp; Products</category>
     </item>
   </channel>

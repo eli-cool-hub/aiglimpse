@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "startup-offers-free-home-cleaning-to-gather-robot-training-data-bb085420",
+      "title": "Startup Offers Free Home Cleaning to Gather Robot Training Data",
+      "subtitle": "A novel approach to AI data collection trades household services for the behavioral footage needed to teach robots real-world tasks.",
+      "category": "tools",
+      "publishedAt": "2026-05-29T19:16:32.000Z",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/939765/ai-training-data-startup-shift-free-cleaning",
+      "sourceName": "Hacker News (117 pts)",
+      "sourceTier": 2,
+      "image": "/images/articles/startup-offers-free-home-cleaning-to-gather-robot-training-data-bb085420.jpg"
+    },
+    {
+      "slug": "developers-launch-tiny-vllm-a-lightweight-engine-for-fast-ai-model-inference-51c7c42f",
+      "title": "Developers Launch Tiny-vLLM, a Lightweight Engine for Fast AI Model Inference",
+      "subtitle": "A new open-source C++ and CUDA framework aims to democratize efficient language model deployment for resource-constrained environments.",
+      "category": "tools",
+      "publishedAt": "2026-05-29T19:38:27.000Z",
+      "sourceUrl": "https://github.com/jmaczan/tiny-vllm",
+      "sourceName": "Hacker News (129 pts)",
+      "sourceTier": 2,
+      "image": "/images/articles/developers-launch-tiny-vllm-a-lightweight-engine-for-fast-ai-model-inference-51c7c42f.jpg"
+    },
+    {
       "slug": "amazon-adapts-licensed-character-into-ai-animated-series-without-creator-approva-0cd854d2",
       "title": "Amazon Adapts Licensed Character Into AI-Animated Series Without Creator Approval",
       "subtitle": "A dispute over intellectual property rights and AI-generated content raises questions about creator protections in streaming deals.",
@@ -925,6 +947,8 @@
     "3fa7148c074daeb3",
     "490165ffae30a088",
     "aaa854d53fa1ccf7",
-    "0cd854d2305b2b32"
+    "0cd854d2305b2b32",
+    "51c7c42fb6503967",
+    "bb085420bcaa174e"
   ]
 }
