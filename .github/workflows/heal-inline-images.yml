@@ -49,6 +49,7 @@ jobs:
       - name: Commit and push
         id: commit
         run: |
+          set -euo pipefail
           git config user.name "AI Glimpse Bot"
           git config user.email "bot@aiglimpse.ai"
           git add articles/ images/articles/

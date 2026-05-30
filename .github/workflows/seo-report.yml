@@ -12,6 +12,10 @@ on:
     # the morning cron at 08:00 that triggers fetch-news).
     - cron: '30 7 * * *'
 
+concurrency:
+  group: aiglimpse-content-push
+  cancel-in-progress: false
+
 permissions:
   contents: write
 
@@ -51,6 +55,7 @@ jobs:
       - name: Push
         if: steps.commit.outputs.changed == 'true'
         run: |
+          set -euo pipefail
           git pull --rebase origin main
           git push
 

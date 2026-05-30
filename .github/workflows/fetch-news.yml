@@ -7,6 +7,10 @@ on:
     - cron: '0 */2 * * *'
   workflow_dispatch: # allows manual trigger from GitHub UI
 
+concurrency:
+  group: aiglimpse-content-push
+  cancel-in-progress: false
+
 jobs:
   fetch-and-publish:
     runs-on: ubuntu-latest
@@ -43,6 +47,7 @@ jobs:
       - name: Commit and push
         id: commit
         run: |
+          set -euo pipefail
           git config user.name "AI Glimpse Bot"
           git config user.email "bot@aiglimpse.ai"
           git add articles/ data/ sitemap.xml rss.xml index.html categories/ images/articles/
@@ -51,6 +56,7 @@ jobs:
             echo "changed=false" >> "$GITHUB_OUTPUT"
           else
             git commit -m "🤖 Auto-publish: $(date -u +'%Y-%m-%d %H:%M UTC')"
+            git pull --rebase origin main
             git push
             echo "changed=true" >> "$GITHUB_OUTPUT"
           fi

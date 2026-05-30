@@ -16,6 +16,10 @@ on:
         default: false
         type: boolean
 
+concurrency:
+  group: aiglimpse-content-push
+  cancel-in-progress: false
+
 jobs:
   evergreen:
     runs-on: ubuntu-latest
@@ -55,6 +59,7 @@ jobs:
       - name: Commit and push
         id: commit
         run: |
+          set -euo pipefail
           git config user.name "AI Glimpse Bot"
           git config user.email "bot@aiglimpse.ai"
           git add articles/ data/ sitemap.xml rss.xml index.html categories/ images/articles/
@@ -63,6 +68,7 @@ jobs:
             echo "changed=false" >> "$GITHUB_OUTPUT"
           else
             git commit -m "📚 Evergreen: $(date -u +'%Y-%m-%d %H:%M UTC')"
+            git pull --rebase origin main
             git push
             echo "changed=true" >> "$GITHUB_OUTPUT"
           fi
