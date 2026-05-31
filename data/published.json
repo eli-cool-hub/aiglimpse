@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "creatine-may-slow-brain-aging-new-research-suggests-d0dda633",
+      "title": "Creatine May Slow Brain Aging, New Research Suggests",
+      "subtitle": "A recent study indicates the popular muscle-building supplement could bolster brain energy and protect against early cognitive decline.",
+      "category": "tools",
+      "publishedAt": "2026-05-31T16:19:34.000Z",
+      "sourceUrl": "https://thesciverse.org/scientists-found-that-the-creatine-supplement-millions-take-for-muscle-gains-is-quietly-raising-brain-energy-levels-and-slowing-early-alzheimers-cognitive-decline-by-30/",
+      "sourceName": "Hacker News (347 pts)",
+      "sourceTier": 2,
+      "image": "/images/articles/creatine-may-slow-brain-aging-new-research-suggests-d0dda633.jpg"
+    },
+    {
+      "slug": "how-ai-is-collapsing-development-timelines-for-software-startups-9fd8ef02",
+      "title": "How AI Is Collapsing Development Timelines for Software Startups",
+      "subtitle": "Developers are shipping working prototypes in days instead of weeks, forcing the industry to rethink what's possible in product development.",
+      "category": "tools",
+      "publishedAt": "2026-05-31T16:37:34.000Z",
+      "sourceUrl": "https://darylcecile.net/notes/speed-of-prototyping-age-of-ai",
+      "sourceName": "Hacker News (72 pts)",
+      "sourceTier": 2,
+      "image": "/images/articles/how-ai-is-collapsing-development-timelines-for-software-startups-9fd8ef02.jpg"
+    },
+    {
       "slug": "odysseus-offers-self-hosted-alternative-to-cloud-ai-workspaces-f33c693e",
       "title": "Odysseus Offers Self-Hosted Alternative to Cloud AI Workspaces",
       "subtitle": "A new open-source project promises privacy-first AI development without vendor lock-in or cloud dependencies.",
@@ -1261,6 +1283,8 @@
     "b5fe909c13e08050",
     "8d0f82c1f75e9a7b",
     "6359ec5a85d49500",
-    "f33c693edc8ea6f5"
+    "f33c693edc8ea6f5",
+    "9fd8ef02644f0865",
+    "d0dda633395ad352"
   ]
 }
