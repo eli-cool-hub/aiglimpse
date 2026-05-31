@@ -614,6 +614,24 @@
         "devto": true,
         "hashnode": false
       }
+    },
+    "bonsai-image-4b-brings-text-to-image-generation-to-edge-devices-8d0f82c1": {
+      "syndicated_at": "2026-05-31T17:09:51.344Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/bonsai-image-4b-brings-text-to-image-generation-to-edge-devices-521k",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 471,
+      "category": "tools",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
     }
   }
 }

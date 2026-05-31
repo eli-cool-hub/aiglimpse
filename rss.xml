@@ -7,6 +7,22 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Bonsai Image 4B Brings Text-to-Image Generation to Edge Devices</title>
+      <link>https://aiglimpse.ai/articles/bonsai-image-4b-brings-text-to-image-generation-to-edge-devices-8d0f82c1</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/bonsai-image-4b-brings-text-to-image-generation-to-edge-devices-8d0f82c1</guid>
+      <description>A new quantized model reduces computational demands, enabling AI image synthesis on consumer hardware without cloud dependency.</description>
+      <pubDate>Sun, 31 May 2026 15:04:52 GMT</pubDate>
+      <category>AI Tools &amp; Products</category>
+    </item>
+    <item>
+      <title>Are Tech Leaders Falling Into an AI Reality Trap?</title>
+      <link>https://aiglimpse.ai/articles/are-tech-leaders-falling-into-an-ai-reality-trap-b5fe909c</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/are-tech-leaders-falling-into-an-ai-reality-trap-b5fe909c</guid>
+      <description>Industry insiders question whether startup founders and executives suffer from distorted thinking about artificial intelligence's capabilities and risks.</description>
+      <pubDate>Sun, 31 May 2026 15:30:00 GMT</pubDate>
+      <category>AI Business</category>
+    </item>
+    <item>
       <title>SpaceX's Trillion-Dollar IPO Raises Questions About Market Reality</title>
       <link>https://aiglimpse.ai/articles/spacexs-trillion-dollar-ipo-raises-questions-about-market-reality-90b0ef82</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/spacexs-trillion-dollar-ipo-raises-questions-about-market-reality-90b0ef82</guid>
@@ -389,22 +405,6 @@
       <description>The tech giant's new Ojai vehicles begin ferrying passengers in California and Arizona, marking a significant shift in autonomous vehicle manufacturing.</description>
       <pubDate>Thu, 28 May 2026 15:00:00 GMT</pubDate>
       <category>AI Tools &amp; Products</category>
-    </item>
-    <item>
-      <title>Vision-Language Models Don't Universally Beat Text-Only AI on Human Alignment</title>
-      <link>https://aiglimpse.ai/articles/vision-language-models-dont-universally-beat-text-only-ai-on-human-alignment-07ef8287</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/vision-language-models-dont-universally-beat-text-only-ai-on-human-alignment-07ef8287</guid>
-      <description>New neuroscience study challenges assumptions about multimodal training, finding visual pretraining helps only in specific linguistic contexts.</description>
-      <pubDate>Wed, 27 May 2026 17:59:34 GMT</pubDate>
-      <category>AI Research</category>
-    </item>
-    <item>
-      <title>New Native Vision Model Merges Image and Language Without Separate Encoders</title>
-      <link>https://aiglimpse.ai/articles/new-native-vision-model-merges-image-and-language-without-separate-encoders-bc6fd5e5</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-native-vision-model-merges-image-and-language-without-separate-encoders-bc6fd5e5</guid>
-      <description>Researchers demonstrate that unified neural architectures can match modular vision-language systems while excelling at spatial reasoning.</description>
-      <pubDate>Wed, 27 May 2026 17:59:55 GMT</pubDate>
-      <category>AI Research</category>
     </item>
   </channel>
 </rss>

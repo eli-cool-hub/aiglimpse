@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "bonsai-image-4b-brings-text-to-image-generation-to-edge-devices-8d0f82c1",
+      "title": "Bonsai Image 4B Brings Text-to-Image Generation to Edge Devices",
+      "subtitle": "A new quantized model reduces computational demands, enabling AI image synthesis on consumer hardware without cloud dependency.",
+      "category": "tools",
+      "publishedAt": "2026-05-31T15:04:52.000Z",
+      "sourceUrl": "https://prismml.com/news/bonsai-image-4b",
+      "sourceName": "Hacker News (87 pts)",
+      "sourceTier": 2,
+      "image": "/images/articles/bonsai-image-4b-brings-text-to-image-generation-to-edge-devices-8d0f82c1.jpg"
+    },
+    {
+      "slug": "are-tech-leaders-falling-into-an-ai-reality-trap-b5fe909c",
+      "title": "Are Tech Leaders Falling Into an AI Reality Trap?",
+      "subtitle": "Industry insiders question whether startup founders and executives suffer from distorted thinking about artificial intelligence's capabilities and risks.",
+      "category": "business",
+      "publishedAt": "2026-05-31T15:30:00.000Z",
+      "sourceUrl": "https://techcrunch.com/2026/05/31/making-sense-of-the-debate-over-ai-psychosis/",
+      "sourceName": "TechCrunch AI",
+      "sourceTier": 2,
+      "image": "/images/articles/are-tech-leaders-falling-into-an-ai-reality-trap-b5fe909c.jpg"
+    },
+    {
       "slug": "spacexs-trillion-dollar-ipo-raises-questions-about-market-reality-90b0ef82",
       "title": "SpaceX's Trillion-Dollar IPO Raises Questions About Market Reality",
       "subtitle": "As Elon Musk prepares to take SpaceX public at an eye-watering valuation, investors should scrutinize whether the asking price reflects actual business fundamentals.",
@@ -1213,6 +1235,8 @@
     "a32e3a71851185b3",
     "4f97eed3198b01c7",
     "7c73500745719c4c",
-    "90b0ef821f0c806c"
+    "90b0ef821f0c806c",
+    "b5fe909c13e08050",
+    "8d0f82c1f75e9a7b"
   ]
 }
