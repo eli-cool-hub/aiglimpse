@@ -36,7 +36,8 @@ async function googleApi(url, opts = {}) {
       ...(opts.headers || {}),
       Authorization: `Bearer ${token}`,
       'Content-Type': 'application/json'
-    }
+    },
+    signal: opts.signal || AbortSignal.timeout(30000)
   });
   const text = await res.text();
   let body;
@@ -77,48 +78,64 @@ console.log(indexNow.skipped
     ? `✓ IndexNow pinged ${indexNow.count} URLs`
     : `⚠ IndexNow HTTP ${indexNow.status}: ${indexNow.body}`);
 
+async function inspectOne(url) {
+  const r = await googleApi('https://searchconsole.googleapis.com/v1/urlInspection/index:inspect', {
+    method: 'POST',
+    body: JSON.stringify({ inspectionUrl: url, siteUrl: SITE_URL }),
+    signal: AbortSignal.timeout(30000)
+  });
+
+  if (r.status === 429) return { url, rateLimited: true };
+
+  const idx = r.body?.inspectionResult?.indexStatusResult || {};
+  const coverageState = idx.coverageState || (r.ok ? 'Unknown' : `HTTP ${r.status}`);
+  return {
+    url,
+    rateLimited: false,
+    entry: {
+      url: url.replace(SITE_URL, '/'),
+      verdict: idx.verdict || null,
+      coverageState,
+      bucket: summarizeCoverage(coverageState),
+      robotsTxtState: idx.robotsTxtState || null,
+      indexingState: idx.indexingState || null,
+      lastCrawlTime: idx.lastCrawlTime || null,
+      pageFetchState: idx.pageFetchState || null
+    }
+  };
+}
+
 console.log(`Inspecting ${urls.length} URLs via Search Console (URL Inspection API)...`);
 const inspected = [];
 let indexed = 0;
 let waiting = 0;
 let notIndexed = 0;
 let unknown = 0;
+const BATCH = 8;
 
-for (let i = 0; i < urls.length; i++) {
-  const url = urls[i];
-  const r = await googleApi('https://searchconsole.googleapis.com/v1/urlInspection/index:inspect', {
-    method: 'POST',
-    body: JSON.stringify({ inspectionUrl: url, siteUrl: SITE_URL })
-  });
+for (let i = 0; i < urls.length; i += BATCH) {
+  const batch = urls.slice(i, i + BATCH);
+  let results = await Promise.all(batch.map(inspectOne));
 
-  if (r.status === 429) {
+  if (results.some(r => r.rateLimited)) {
     console.warn('Rate limited — pausing 60s');
     await sleep(60000);
-    i--;
-    continue;
+    results = await Promise.all(batch.map(inspectOne));
   }
 
-  const idx = r.body?.inspectionResult?.indexStatusResult || {};
-  const coverageState = idx.coverageState || 'Unknown';
-  const bucket = summarizeCoverage(coverageState);
-  if (bucket === 'indexed') indexed++;
-  else if (bucket === 'waiting') waiting++;
-  else if (bucket === 'not_indexed') notIndexed++;
-  else unknown++;
+  for (const r of results) {
+    if (!r.entry) continue;
+    inspected.push(r.entry);
+    if (r.entry.bucket === 'indexed') indexed++;
+    else if (r.entry.bucket === 'waiting') waiting++;
+    else if (r.entry.bucket === 'not_indexed') notIndexed++;
+    else unknown++;
+  }
 
-  inspected.push({
-    url: url.replace(SITE_URL, '/'),
-    verdict: idx.verdict || null,
-    coverageState,
-    bucket,
-    robotsTxtState: idx.robotsTxtState || null,
-    indexingState: idx.indexingState || null,
-    lastCrawlTime: idx.lastCrawlTime || null,
-    pageFetchState: idx.pageFetchState || null
-  });
-
-  if ((i + 1) % 25 === 0) console.log(`  … ${i + 1}/${urls.length}`);
-  await sleep(150);
+  if ((i + BATCH) % 40 === 0 || i + BATCH >= urls.length) {
+    console.log(`  … ${Math.min(i + BATCH, urls.length)}/${urls.length}`);
+  }
+  await sleep(400);
 }
 
 const report = {
