@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "odysseus-offers-self-hosted-alternative-to-cloud-ai-workspaces-f33c693e",
+      "title": "Odysseus Offers Self-Hosted Alternative to Cloud AI Workspaces",
+      "subtitle": "A new open-source project promises privacy-first AI development without vendor lock-in or cloud dependencies.",
+      "category": "tools",
+      "publishedAt": "2026-05-31T15:50:34.000Z",
+      "sourceUrl": "https://github.com/pewdiepie-archdaemon/odysseus",
+      "sourceName": "Hacker News (53 pts)",
+      "sourceTier": 2,
+      "image": "/images/articles/odysseus-offers-self-hosted-alternative-to-cloud-ai-workspaces-f33c693e.jpg"
+    },
+    {
+      "slug": "creatine-shows-promise-in-slowing-alzheimers-progression-6359ec5a",
+      "title": "Creatine Shows Promise in Slowing Alzheimer's Progression",
+      "subtitle": "Emerging research suggests the popular fitness supplement may bolster brain metabolism and preserve cognitive function in early-stage dementia patients.",
+      "category": "tools",
+      "publishedAt": "2026-05-31T16:19:34.000Z",
+      "sourceUrl": "https://thesciverse.org/scientists-found-that-the-creatine-supplement-millions-take-for-muscle-gains-is-quietly-raising-brain-energy-levels-and-slowing-early-alzheimers-cognitive-decline-by-30/",
+      "sourceName": "Hacker News (265 pts)",
+      "sourceTier": 2,
+      "image": "/images/articles/creatine-shows-promise-in-slowing-alzheimers-progression-6359ec5a.jpg"
+    },
+    {
       "slug": "bonsai-image-4b-brings-text-to-image-generation-to-edge-devices-8d0f82c1",
       "title": "Bonsai Image 4B Brings Text-to-Image Generation to Edge Devices",
       "subtitle": "A new quantized model reduces computational demands, enabling AI image synthesis on consumer hardware without cloud dependency.",
@@ -1237,6 +1259,8 @@
     "7c73500745719c4c",
     "90b0ef821f0c806c",
     "b5fe909c13e08050",
-    "8d0f82c1f75e9a7b"
+    "8d0f82c1f75e9a7b",
+    "6359ec5a85d49500",
+    "f33c693edc8ea6f5"
   ]
 }
