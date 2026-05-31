@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "meta-pivots-to-wearable-ai-with-reported-pendant-device-69cbfecc",
+      "title": "Meta Pivots to Wearable AI with Reported Pendant Device",
+      "subtitle": "The social media giant expands its hardware ambitions beyond glasses, signaling a broader strategy to embed AI into everyday personal devices.",
+      "category": "business",
+      "publishedAt": "2026-05-30T15:59:58.000Z",
+      "sourceUrl": "https://techcrunch.com/2026/05/30/meta-is-reportedly-developing-an-ai-pendant/",
+      "sourceName": "TechCrunch AI",
+      "sourceTier": 2,
+      "image": "/images/articles/meta-pivots-to-wearable-ai-with-reported-pendant-device-69cbfecc.jpg"
+    },
+    {
+      "slug": "tech-community-questions-core-principles-behind-generative-ai-4e437e8d",
+      "title": "Tech Community Questions Core Principles Behind Generative AI",
+      "subtitle": "A Hacker News discussion highlights growing skepticism about the foundational values and direction of the generative AI movement.",
+      "category": "ethics",
+      "publishedAt": "2026-05-30T23:17:52.000Z",
+      "sourceUrl": "https://lpcvoid.com/blog/0018_why_i_am_against_genai/index.html",
+      "sourceName": "Hacker News (54 pts)",
+      "sourceTier": 2,
+      "image": "/images/articles/tech-community-questions-core-principles-behind-generative-ai-4e437e8d.jpg"
+    },
+    {
       "slug": "academic-community-explores-computational-approaches-to-infrastructure-7644d2bc",
       "title": "Academic Community Explores Computational Approaches to Infrastructure",
       "subtitle": "A novel research paper gains traction on Hacker News for its creative approach to algorithmic problem-solving in complex systems.",
@@ -1117,6 +1139,8 @@
     "1021c0066a6c38af",
     "103656d1fcd712c8",
     "86a63eec9e70f937",
-    "7644d2bc1ad92a5b"
+    "7644d2bc1ad92a5b",
+    "4e437e8d2a62e5a6",
+    "69cbfeccd2445dfa"
   ]
 }
