@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "academic-community-explores-computational-approaches-to-infrastructure-7644d2bc",
+      "title": "Academic Community Explores Computational Approaches to Infrastructure",
+      "subtitle": "A novel research paper gains traction on Hacker News for its creative approach to algorithmic problem-solving in complex systems.",
+      "category": "research",
+      "publishedAt": "2026-05-30T15:15:23.000Z",
+      "sourceUrl": "https://sigbovik.org/2026/proceedings.pdf#%5B%7B%22num%22%3A13%2C%22gen%22%3A0%7D%2C%7B%22name%22%3A%22XYZ%22%7D%2C72%2C720%2Cnull%5D",
+      "sourceName": "Hacker News (87 pts)",
+      "sourceTier": 2,
+      "image": "/images/articles/academic-community-explores-computational-approaches-to-infrastructure-7644d2bc.jpg"
+    },
+    {
+      "slug": "softbank-commits-75b-to-french-data-center-expansion-86a63eec",
+      "title": "SoftBank Commits €75B to French Data Center Expansion",
+      "subtitle": "Japanese conglomerate plans massive infrastructure investment to meet surging AI compute demand across Europe.",
+      "category": "business",
+      "publishedAt": "2026-05-30T21:45:00.000Z",
+      "sourceUrl": "https://techcrunch.com/2026/05/30/softbank-says-it-will-invest-up-to-e75-billion-to-build-french-data-centers/",
+      "sourceName": "TechCrunch AI",
+      "sourceTier": 2,
+      "image": "/images/articles/softbank-commits-75b-to-french-data-center-expansion-86a63eec.jpg"
+    },
+    {
       "slug": "why-specialized-knowledge-remains-ais-most-defensible-asset-103656d1",
       "title": "Why Specialized Knowledge Remains AI's Most Defensible Asset",
       "subtitle": "As generative AI commoditizes, industry expertise emerges as the critical differentiator between market leaders and replaceable tools.",
@@ -1093,6 +1115,8 @@
     "d24961a913934acd",
     "2af9ce50efa09ad6",
     "1021c0066a6c38af",
-    "103656d1fcd712c8"
+    "103656d1fcd712c8",
+    "86a63eec9e70f937",
+    "7644d2bc1ad92a5b"
   ]
 }
