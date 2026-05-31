@@ -27,6 +27,7 @@ import { generateArticleImage, generateInlineImages, injectInlineImages, resetIm
 import { buildHomepage } from './build-homepage.mjs';
 import { buildCategories } from './build-categories.mjs';
 import { syndicate, syndicationStats } from './lib/syndicate.mjs';
+import { regenerateSitemap as writeSitemap, pingIndexNow } from './lib/sitemap.mjs';
 
 const ROOT = path.resolve(process.cwd());
 const ARTICLES_DIR = path.join(ROOT, 'articles');
@@ -356,31 +357,10 @@ function generateArticleHtml({ rewritten, source, slug, category, publishedAt, r
 </html>`;
 }
 
-async function regenerateSitemap(published) {
+async function regenerateSitemapAndRss(published) {
+  await writeSitemap(published, SITE_URL, ROOT);
+
   const recent = published.articles.slice(0, 1000);
-  const staticUrls = [
-    { loc: `${SITE_URL}/`, priority: 1.0, changefreq: 'hourly' },
-    ...Object.keys(CATEGORIES).map(c => ({ loc: `${SITE_URL}/categories/${c}`, priority: 0.9, changefreq: 'hourly' })),
-    { loc: `${SITE_URL}/pages/about`, priority: 0.5, changefreq: 'monthly' },
-    { loc: `${SITE_URL}/pages/contact`, priority: 0.5, changefreq: 'monthly' },
-  ];
-
-  const articleEntries = recent.map(a => `  <url>
-    <loc>${SITE_URL}/articles/${a.slug}</loc>
-    <news:news>
-      <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>${a.publishedAt}</news:publication_date>
-      <news:title>${escapeHtml(a.title)}</news:title>
-    </news:news>
-    <changefreq>daily</changefreq><priority>0.8</priority>
-  </url>`).join('\n');
-
-  await fs.writeFile(path.join(ROOT, 'sitemap.xml'), `<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
-${staticUrls.map(u => `  <url><loc>${u.loc}</loc><changefreq>${u.changefreq}</changefreq><priority>${u.priority}</priority></url>`).join('\n')}
-${articleEntries}
-</urlset>`);
-
   const rssItems = recent.slice(0, 50).map(a => `    <item>
       <title>${escapeHtml(a.title)}</title>
       <link>${SITE_URL}/articles/${a.slug}</link>
@@ -401,32 +381,6 @@ ${articleEntries}
 ${rssItems}
   </channel>
 </rss>`);
-}
-
-async function pingIndexNow(urls) {
-  const key = process.env.INDEXNOW_KEY;
-  if (!key) return;
-  const host = new URL(SITE_URL).hostname;
-  const body = {
-    host,
-    key,
-    keyLocation: `${SITE_URL}/${key}.txt`,
-    urlList: urls
-  };
-  try {
-    const res = await fetch('https://api.indexnow.org/indexnow', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json; charset=utf-8' },
-      body: JSON.stringify(body)
-    });
-    if (res.ok) {
-      console.log(`✓ IndexNow pinged ${urls.length} URLs (${res.status})`);
-    } else {
-      console.warn(`IndexNow returned ${res.status}: ${await res.text()}`);
-    }
-  } catch (e) {
-    console.warn('IndexNow ping failed:', e.message);
-  }
 }
 
 async function main() {
@@ -552,11 +506,15 @@ async function main() {
     published.hashes = published.hashes.slice(-1500);
   }
   await savePublished(published);
-  await regenerateSitemap(published);
+  await regenerateSitemapAndRss(published);
   await buildHomepage();
   await buildCategories();
 
-  if (newUrls.length > 0) await pingIndexNow([SITE_URL + '/', ...newUrls]);
+  if (newUrls.length > 0) {
+    const ping = await pingIndexNow([`${SITE_URL}/`, ...newUrls], SITE_URL);
+    if (ping.ok) console.log(`✓ IndexNow pinged ${ping.count} new URLs (${ping.status})`);
+    else if (!ping.skipped) console.warn(`IndexNow returned ${ping.status}: ${ping.body || ''}`);
+  }
 
   console.log(`\n═══════════════════════════════════════════`);
   console.log(`  ✓ Pipeline complete: ${count} articles published`);

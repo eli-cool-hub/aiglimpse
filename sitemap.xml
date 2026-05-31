@@ -10,6 +10,10 @@
   <url><loc>https://aiglimpse.ai/categories/robotics</loc><changefreq>hourly</changefreq><priority>0.9</priority></url>
   <url><loc>https://aiglimpse.ai/pages/about</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
   <url><loc>https://aiglimpse.ai/pages/contact</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://aiglimpse.ai/pages/editorial</loc><changefreq>monthly</changefreq><priority>0.4</priority></url>
+  <url><loc>https://aiglimpse.ai/pages/advertise</loc><changefreq>monthly</changefreq><priority>0.3</priority></url>
+  <url><loc>https://aiglimpse.ai/pages/privacy</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
+  <url><loc>https://aiglimpse.ai/pages/terms</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
   <url>
     <loc>https://aiglimpse.ai/articles/bonsai-image-4b-brings-text-to-image-generation-to-edge-devices-8d0f82c1</loc>
     <news:news>
@@ -620,7 +624,7 @@
       <news:publication_date>2026-05-26T23:59:02.514Z</news:publication_date>
       <news:title>How Large Language Models Work: A Technical Explainer</news:title>
     </news:news>
-    <changefreq>daily</changefreq><priority>0.8</priority>
+    <changefreq>daily</changefreq><priority>0.9</priority>
   </url>
   <url>
     <loc>https://aiglimpse.ai/articles/gpt-5-vs-claude-4-5-vs-gemini-ultra-2026</loc>
@@ -629,7 +633,7 @@
       <news:publication_date>2026-05-26T23:58:17.710Z</news:publication_date>
       <news:title>GPT-5 vs Claude 4.5 vs Gemini Ultra: Choose the Right LLM</news:title>
     </news:news>
-    <changefreq>daily</changefreq><priority>0.8</priority>
+    <changefreq>daily</changefreq><priority>0.9</priority>
   </url>
   <url>
     <loc>https://aiglimpse.ai/articles/what-are-ai-agents-practical-guide-2026</loc>
@@ -638,7 +642,7 @@
       <news:publication_date>2026-05-26T23:46:57.909Z</news:publication_date>
       <news:title>What Are AI Agents? A Practical Guide for Builders in 2026</news:title>
     </news:news>
-    <changefreq>daily</changefreq><priority>0.8</priority>
+    <changefreq>daily</changefreq><priority>0.9</priority>
   </url>
   <url>
     <loc>https://aiglimpse.ai/articles/rag-vs-fine-tuning-vs-prompt-engineering</loc>
@@ -647,7 +651,7 @@
       <news:publication_date>2026-05-26T23:39:14.726Z</news:publication_date>
       <news:title>Fine-tuning vs RAG vs Prompt Engineering: A Decision Framework</news:title>
     </news:news>
-    <changefreq>daily</changefreq><priority>0.8</priority>
+    <changefreq>daily</changefreq><priority>0.9</priority>
   </url>
   <url>
     <loc>https://aiglimpse.ai/articles/what-is-retrieval-augmented-generation-rag</loc>
@@ -656,7 +660,7 @@
       <news:publication_date>2026-05-26T23:38:27.206Z</news:publication_date>
       <news:title>What is Retrieval-Augmented Generation (RAG)? A 2026 Guide</news:title>
     </news:news>
-    <changefreq>daily</changefreq><priority>0.8</priority>
+    <changefreq>daily</changefreq><priority>0.9</priority>
   </url>
   <url>
     <loc>https://aiglimpse.ai/articles/turning-chores-into-ai-training-data-the-hidden-cost-eeb43980</loc>

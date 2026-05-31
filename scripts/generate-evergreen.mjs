@@ -27,6 +27,7 @@ import path from 'path';
 import { generateArticleImage, generateInlineImages, injectInlineImages, resetImageSession } from './lib/images.mjs';
 import { buildHomepage } from './build-homepage.mjs';
 import { buildCategories } from './build-categories.mjs';
+import { regenerateSitemap, pingIndexNow } from './lib/sitemap.mjs';
 import { syndicate } from './lib/syndicate.mjs';
 
 const ROOT = path.resolve(process.cwd());
@@ -454,55 +455,6 @@ async function savePublished(idx) {
   await fs.writeFile(PUBLISHED_INDEX, JSON.stringify(idx, null, 2));
 }
 
-async function regenerateSitemap(published) {
-  // Same shape as fetch-and-publish.mjs to keep sitemaps consistent.
-  const recent = published.articles.slice(0, 1000);
-  const categoriesList = ['llms','research','tools','business','ethics','industry','robotics'];
-  const staticUrls = [
-    { loc: `${SITE_URL}/`, priority: 1.0, changefreq: 'hourly' },
-    ...categoriesList.map(c => ({ loc: `${SITE_URL}/categories/${c}`, priority: 0.9, changefreq: 'hourly' })),
-    { loc: `${SITE_URL}/pages/about`, priority: 0.5, changefreq: 'monthly' },
-    { loc: `${SITE_URL}/pages/contact`, priority: 0.5, changefreq: 'monthly' }
-  ];
-  const articleEntries = recent.map(a => `  <url>
-    <loc>${SITE_URL}/articles/${a.slug}</loc>
-    <news:news>
-      <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>${a.publishedAt}</news:publication_date>
-      <news:title>${escapeHtml(a.title)}</news:title>
-    </news:news>
-    <changefreq>daily</changefreq><priority>${a.evergreen ? '0.9' : '0.8'}</priority>
-  </url>`).join('\n');
-
-  await fs.writeFile(path.join(ROOT, 'sitemap.xml'), `<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
-${staticUrls.map(u => `  <url><loc>${u.loc}</loc><changefreq>${u.changefreq}</changefreq><priority>${u.priority}</priority></url>`).join('\n')}
-${articleEntries}
-</urlset>`);
-}
-
-async function pingIndexNow(urls) {
-  const key = process.env.INDEXNOW_KEY;
-  if (!key || !urls.length) return;
-  const body = {
-    host: new URL(SITE_URL).hostname,
-    key,
-    keyLocation: `${SITE_URL}/${key}.txt`,
-    urlList: urls
-  };
-  try {
-    const res = await fetch('https://api.indexnow.org/indexnow', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json; charset=utf-8' },
-      body: JSON.stringify(body)
-    });
-    if (res.ok) console.log(`  ✓ IndexNow pinged ${urls.length} URLs (${res.status})`);
-    else console.warn(`  IndexNow returned ${res.status}: ${await res.text()}`);
-  } catch (e) {
-    console.warn('  IndexNow ping failed:', e.message);
-  }
-}
-
 async function main() {
   console.log('═══════════════════════════════════════════');
   console.log('  AI Glimpse, Evergreen Explainer Pipeline');
@@ -617,10 +569,12 @@ async function main() {
 
   if (written) {
     await savePublished(published);
-    await regenerateSitemap(published);
+    await regenerateSitemap(published, SITE_URL, ROOT);
     await buildHomepage();
     await buildCategories();
-    await pingIndexNow([SITE_URL + '/', ...newUrls]);
+    const ping = await pingIndexNow([`${SITE_URL}/`, ...newUrls], SITE_URL);
+    if (ping.ok) console.log(`  ✓ IndexNow pinged ${ping.count} URLs (${ping.status})`);
+    else if (!ping.skipped) console.warn(`  IndexNow returned ${ping.status}: ${ping.body || ''}`);
   }
 
   console.log(`\n═══════════════════════════════════════════`);

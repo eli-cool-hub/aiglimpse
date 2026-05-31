@@ -1,0 +1,68 @@
+name: Submit URLs for indexing
+
+# Refreshes sitemap.xml, resubmits it to Google Search Console, pings
+# IndexNow (Google/Bing/Yandex), and records URL Inspection status for
+# every public page so we know what is indexed vs waiting in the queue.
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Daily at 08:15 UTC — after SEO report (07:30) and before fetch-news (08:00+).
+    - cron: '15 8 * * *'
+
+permissions:
+  contents: write
+
+jobs:
+  indexing:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm ci || npm install
+
+      - name: Submit sitemap and inspect URLs
+        env:
+          GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
+          INDEXNOW_KEY: ${{ secrets.INDEXNOW_KEY }}
+          SITE_URL: https://aiglimpse.ai
+        run: node scripts/submit-indexing.mjs
+
+      - name: Commit indexing report
+        id: commit
+        run: |
+          set -euo pipefail
+          git config user.name "aiglimpse-bot"
+          git config user.email "bot@aiglimpse.ai"
+          git add sitemap.xml reports/indexing/ data/indexing-status.json
+          if git diff --staged --quiet; then
+            echo "No indexing report changes"
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            git commit -m "chore(indexing): daily sitemap + status $(date -u +'%Y-%m-%d')"
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Push
+        if: steps.commit.outputs.changed == 'true'
+        run: |
+          set -euo pipefail
+          git pull --rebase origin main
+          git push
+
+      - name: Deploy to Cloudflare Pages
+        if: steps.commit.outputs.changed == 'true' && env.CLOUDFLARE_API_TOKEN != '' && env.CLOUDFLARE_ACCOUNT_ID != ''
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          preCommands: wrangler pages project create aiglimpse --production-branch=main || true
+          command: pages deploy . --project-name=aiglimpse --branch=main --commit-dirty=true
