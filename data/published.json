@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "the-browser-market-shifts-as-challengers-target-chromes-dominance-77c38d71",
+      "title": "The Browser Market Shifts as Challengers Target Chrome's Dominance",
+      "subtitle": "A new wave of alternative browsers is gaining traction in 2026, offering users privacy-focused and performance-driven options to Google and Apple's market leaders.",
+      "category": "business",
+      "publishedAt": "2026-05-30T13:00:00.000Z",
+      "sourceUrl": "https://techcrunch.com/2026/05/30/as-the-browser-wars-heat-up-here-are-the-hottest-alternatives-to-chrome-and-safari-in-2026/",
+      "sourceName": "TechCrunch AI",
+      "sourceTier": 2,
+      "image": "/images/articles/the-browser-market-shifts-as-challengers-target-chromes-dominance-77c38d71.jpg"
+    },
+    {
+      "slug": "turkeys-hair-transplant-boom-how-tech-innovation-built-a-billion-dollar-industry-376bc5e2",
+      "title": "Turkey's Hair Transplant Boom: How Tech Innovation Built a Billion-Dollar Industry",
+      "subtitle": "Precision engineering and artificial intelligence have transformed Turkey into a global leader in cosmetic surgery, reshaping the market through rapid technological advancement.",
+      "category": "tools",
+      "publishedAt": "2026-05-31T09:00:00.000Z",
+      "sourceUrl": "https://www.wired.com/story/how-turkey-hacked-the-hair-transplant-industry/",
+      "sourceName": "Wired AI",
+      "sourceTier": 2,
+      "image": "/images/articles/turkeys-hair-transplant-boom-how-tech-innovation-built-a-billion-dollar-industry-376bc5e2.jpg"
+    },
+    {
       "slug": "meta-pivots-to-wearable-ai-with-reported-pendant-device-69cbfecc",
       "title": "Meta Pivots to Wearable AI with Reported Pendant Device",
       "subtitle": "The social media giant expands its hardware ambitions beyond glasses, signaling a broader strategy to embed AI into everyday personal devices.",
@@ -1141,6 +1163,8 @@
     "86a63eec9e70f937",
     "7644d2bc1ad92a5b",
     "4e437e8d2a62e5a6",
-    "69cbfeccd2445dfa"
+    "69cbfeccd2445dfa",
+    "376bc5e29f8c599d",
+    "77c38d71d3cce1f6"
   ]
 }
