@@ -812,6 +812,24 @@
         "devto": true,
         "hashnode": false
       }
+    },
+    "openai-builds-1gw-data-center-in-michigan-for-ai-infrastructure-63ee8086": {
+      "syndicated_at": "2026-06-01T21:35:53.935Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/openai-builds-1gw-data-center-in-michigan-for-ai-infrastructure-m04",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 470,
+      "category": "llms",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
     }
   }
 }

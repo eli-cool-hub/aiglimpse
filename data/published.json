@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "nvidia-eyes-cpu-market-dominance-with-ai-agent-pc-push-1426e0a4",
+      "title": "Nvidia Eyes CPU Market Dominance with AI Agent PC Push",
+      "subtitle": "Major PC makers prepare to deploy autonomous AI agents on consumer hardware, potentially reshaping how users interact with their devices.",
+      "category": "business",
+      "publishedAt": "2026-06-01T21:35:00.000Z",
+      "sourceUrl": "https://techcrunch.com/2026/06/01/nvidia-chases-200b-cpu-market-with-ai-agent-pcs-from-microsoft-dell-and-hp/",
+      "sourceName": "TechCrunch AI",
+      "sourceTier": 2,
+      "image": "/images/articles/nvidia-eyes-cpu-market-dominance-with-ai-agent-pc-push-1426e0a4.jpg"
+    },
+    {
+      "slug": "openai-builds-1gw-data-center-in-michigan-for-ai-infrastructure-63ee8086",
+      "title": "OpenAI Builds 1GW Data Center in Michigan for AI Infrastructure",
+      "subtitle": "The company's Stargate project breaks ground on massive computational facility to expand AI access and drive regional economic growth.",
+      "category": "llms",
+      "publishedAt": "2026-06-01T12:00:00.000Z",
+      "sourceUrl": "https://openai.com/index/stargate-michigan-data-center",
+      "sourceName": "OpenAI",
+      "sourceTier": 1,
+      "image": "/images/articles/openai-builds-1gw-data-center-in-michigan-for-ai-infrastructure-63ee8086.jpg"
+    },
+    {
       "slug": "enterprise-ai-needs-smarter-agents-not-just-bigger-language-models-ed058bf4",
       "title": "Enterprise AI Needs Smarter Agents, Not Just Bigger Language Models",
       "subtitle": "Research suggests autonomous agent logic, not raw model scale, holds the key to practical AI deployment at enterprise scale.",
@@ -1293,6 +1315,8 @@
     "1670e12bee468afa",
     "7571e78450154a55",
     "c58a6a51084fa7c5",
-    "ed058bf4c773a5ba"
+    "ed058bf4c773a5ba",
+    "63ee808613809b84",
+    "1426e0a4517e89c9"
   ]
 }

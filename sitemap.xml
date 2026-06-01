@@ -15,6 +15,24 @@
   <url><loc>https://aiglimpse.ai/pages/privacy</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
   <url><loc>https://aiglimpse.ai/pages/terms</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
   <url>
+    <loc>https://aiglimpse.ai/articles/nvidia-eyes-cpu-market-dominance-with-ai-agent-pc-push-1426e0a4</loc>
+    <news:news>
+      <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-06-01T21:35:00.000Z</news:publication_date>
+      <news:title>Nvidia Eyes CPU Market Dominance with AI Agent PC Push</news:title>
+    </news:news>
+    <changefreq>daily</changefreq><priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://aiglimpse.ai/articles/openai-builds-1gw-data-center-in-michigan-for-ai-infrastructure-63ee8086</loc>
+    <news:news>
+      <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-06-01T12:00:00.000Z</news:publication_date>
+      <news:title>OpenAI Builds 1GW Data Center in Michigan for AI Infrastructure</news:title>
+    </news:news>
+    <changefreq>daily</changefreq><priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://aiglimpse.ai/articles/enterprise-ai-needs-smarter-agents-not-just-bigger-language-models-ed058bf4</loc>
     <news:news>
       <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
