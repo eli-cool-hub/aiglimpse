@@ -1,7 +1,33 @@
 # AI Glimpse SEO + Traffic Report
-_Generated 2026-06-01T10:00:11.531Z_
+_Generated 2026-06-01T10:39:18.302Z_
 
 Dashboard: https://aiglimpse.ai/dashboard.html (Basic Auth required)
+
+## Morning briefing — Watch
+
+Growth continues but a few items need attention. Search visibility +14.4% DoD (111 impressions), traffic +28.6% DoD (27 sessions). Organic search is still minimal while Google indexes new URLs. 5 item(s) on the watch list.
+
+### Wins
+
+- GSC impressions +14.4% since yesterday (97 → 111).
+- GA4 sessions +28.6% since yesterday (21 → 27).
+- 8 article(s) published in the last 24h — steady cadence.
+- 5 URL(s) confirmed indexed in Search Console.
+- 42 articles syndicated (Dev.to 42, Medium 0).
+
+### Watch list
+
+- No organic search sessions in GA4 yet — most traffic is direct/referral while Google indexes.
+- 111 search impressions but 0 clicks — improve titles/meta (see recommendations).
+- "Industry" category is empty — add feeds or adjust classification.
+- 112 URLs still "unknown" to Google (5 indexed) — normal for a young site, keep submitting sitemap.
+- Sitemap lists 216 URLs but published index has 103 — run indexing refresh.
+
+### Operations snapshot
+
+- Articles on site: **103** (8 in last 24h)
+- Organic sessions (7d): **0**
+- Indexing: **5** indexed, **112** unknown
 
 ## At a glance (last 7 days)
 
