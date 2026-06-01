@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "enterprise-ai-needs-smarter-agents-not-just-bigger-language-models-ed058bf4",
+      "title": "Enterprise AI Needs Smarter Agents, Not Just Bigger Language Models",
+      "subtitle": "Research suggests autonomous agent logic, not raw model scale, holds the key to practical AI deployment at enterprise scale.",
+      "category": "tools",
+      "publishedAt": "2026-06-01T13:51:18.000Z",
+      "sourceUrl": "https://huggingface.co/blog/ibm-research/agent-logic-and-scalable-ai-adoption",
+      "sourceName": "Hugging Face",
+      "sourceTier": 1,
+      "image": "/images/articles/enterprise-ai-needs-smarter-agents-not-just-bigger-language-models-ed058bf4.jpg"
+    },
+    {
+      "slug": "jetbrains-unveils-mellum2-a-12b-mixture-of-experts-llm-c58a6a51",
+      "title": "JetBrains Unveils Mellum2, a 12B Mixture-of-Experts LLM",
+      "subtitle": "The developer-focused AI model uses sparse architecture to balance efficiency and capability, signaling renewed competition in the open-source LLM space.",
+      "category": "tools",
+      "publishedAt": "2026-06-01T15:45:17.000Z",
+      "sourceUrl": "https://huggingface.co/blog/JetBrains/mellum2-launch",
+      "sourceName": "Hugging Face",
+      "sourceTier": 1,
+      "image": "/images/articles/jetbrains-unveils-mellum2-a-12b-mixture-of-experts-llm-c58a6a51.jpg"
+    },
+    {
       "slug": "bostons-startup-scene-eclipsed-by-ai-gold-rush-in-silicon-valley-7571e784",
       "title": "Boston's Startup Scene Eclipsed by AI Gold Rush in Silicon Valley",
       "subtitle": "Despite solid funding gains, Massachusetts startups are being outpaced by unprecedented capital flowing to generative AI companies on the West Coast.",
@@ -1269,6 +1291,8 @@
     "e6f6357df7d3bff8",
     "e93608ef53964264",
     "1670e12bee468afa",
-    "7571e78450154a55"
+    "7571e78450154a55",
+    "c58a6a51084fa7c5",
+    "ed058bf4c773a5ba"
   ]
 }

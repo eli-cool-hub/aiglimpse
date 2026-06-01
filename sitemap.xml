@@ -15,6 +15,24 @@
   <url><loc>https://aiglimpse.ai/pages/privacy</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
   <url><loc>https://aiglimpse.ai/pages/terms</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
   <url>
+    <loc>https://aiglimpse.ai/articles/enterprise-ai-needs-smarter-agents-not-just-bigger-language-models-ed058bf4</loc>
+    <news:news>
+      <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-06-01T13:51:18.000Z</news:publication_date>
+      <news:title>Enterprise AI Needs Smarter Agents, Not Just Bigger Language Models</news:title>
+    </news:news>
+    <changefreq>daily</changefreq><priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://aiglimpse.ai/articles/jetbrains-unveils-mellum2-a-12b-mixture-of-experts-llm-c58a6a51</loc>
+    <news:news>
+      <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-06-01T15:45:17.000Z</news:publication_date>
+      <news:title>JetBrains Unveils Mellum2, a 12B Mixture-of-Experts LLM</news:title>
+    </news:news>
+    <changefreq>daily</changefreq><priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://aiglimpse.ai/articles/bostons-startup-scene-eclipsed-by-ai-gold-rush-in-silicon-valley-7571e784</loc>
     <news:news>
       <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>

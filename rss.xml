@@ -7,6 +7,22 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Enterprise AI Needs Smarter Agents, Not Just Bigger Language Models</title>
+      <link>https://aiglimpse.ai/articles/enterprise-ai-needs-smarter-agents-not-just-bigger-language-models-ed058bf4</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/enterprise-ai-needs-smarter-agents-not-just-bigger-language-models-ed058bf4</guid>
+      <description>Research suggests autonomous agent logic, not raw model scale, holds the key to practical AI deployment at enterprise scale.</description>
+      <pubDate>Mon, 01 Jun 2026 13:51:18 GMT</pubDate>
+      <category>AI Tools &amp; Products</category>
+    </item>
+    <item>
+      <title>JetBrains Unveils Mellum2, a 12B Mixture-of-Experts LLM</title>
+      <link>https://aiglimpse.ai/articles/jetbrains-unveils-mellum2-a-12b-mixture-of-experts-llm-c58a6a51</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/jetbrains-unveils-mellum2-a-12b-mixture-of-experts-llm-c58a6a51</guid>
+      <description>The developer-focused AI model uses sparse architecture to balance efficiency and capability, signaling renewed competition in the open-source LLM space.</description>
+      <pubDate>Mon, 01 Jun 2026 15:45:17 GMT</pubDate>
+      <category>AI Tools &amp; Products</category>
+    </item>
+    <item>
       <title>Boston's Startup Scene Eclipsed by AI Gold Rush in Silicon Valley</title>
       <link>https://aiglimpse.ai/articles/bostons-startup-scene-eclipsed-by-ai-gold-rush-in-silicon-valley-7571e784</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/bostons-startup-scene-eclipsed-by-ai-gold-rush-in-silicon-valley-7571e784</guid>
@@ -388,22 +404,6 @@
       <guid isPermaLink="true">https://aiglimpse.ai/articles/enterprise-ai-shifts-focus-safety-now-trumps-innovation-4f1596b8</guid>
       <description>Corporate buyers have moved past evaluating AI's potential and are now prioritizing deployment security and risk management.</description>
       <pubDate>Thu, 28 May 2026 14:30:00 GMT</pubDate>
-      <category>AI Business</category>
-    </item>
-    <item>
-      <title>Musk's Reframing of Anthropic Deal Contradicts SpaceX Filing</title>
-      <link>https://aiglimpse.ai/articles/musks-reframing-of-anthropic-deal-contradicts-spacex-filing-571f2682</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/musks-reframing-of-anthropic-deal-contradicts-spacex-filing-571f2682</guid>
-      <description>Public statements about xAI's compute arrangement clash with regulatory documents, raising questions about the partnership's true scope.</description>
-      <pubDate>Thu, 28 May 2026 15:36:00 GMT</pubDate>
-      <category>AI Business</category>
-    </item>
-    <item>
-      <title>Self-Improving AI Systems Become the New Frontier as Labs Chase RSI</title>
-      <link>https://aiglimpse.ai/articles/self-improving-ai-systems-become-the-new-frontier-as-labs-chase-rsi-63463539</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/self-improving-ai-systems-become-the-new-frontier-as-labs-chase-rsi-63463539</guid>
-      <description>Recursive self-improvement has replaced AGI as the defining challenge for AI research, but defining success remains as nebulous as ever.</description>
-      <pubDate>Thu, 28 May 2026 14:30:17 GMT</pubDate>
       <category>AI Business</category>
     </item>
   </channel>
