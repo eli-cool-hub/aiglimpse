@@ -15,6 +15,24 @@
   <url><loc>https://aiglimpse.ai/pages/privacy</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
   <url><loc>https://aiglimpse.ai/pages/terms</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
   <url>
+    <loc>https://aiglimpse.ai/articles/bostons-startup-scene-eclipsed-by-ai-gold-rush-in-silicon-valley-7571e784</loc>
+    <news:news>
+      <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-06-01T11:00:05.000Z</news:publication_date>
+      <news:title>Boston's Startup Scene Eclipsed by AI Gold Rush in Silicon Valley</news:title>
+    </news:news>
+    <changefreq>daily</changefreq><priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://aiglimpse.ai/articles/nvidia-unveils-cosmos-3-open-source-model-for-robot-reasoning-1670e12b</loc>
+    <news:news>
+      <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-06-01T04:44:55.000Z</news:publication_date>
+      <news:title>NVIDIA Unveils Cosmos 3, Open-Source Model for Robot Reasoning</news:title>
+    </news:news>
+    <changefreq>daily</changefreq><priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://aiglimpse.ai/articles/popular-google-sheets-chatgpt-plugin-quietly-transmits-user-data-e6f6357d</loc>
     <news:news>
       <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>

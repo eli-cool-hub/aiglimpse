@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "bostons-startup-scene-eclipsed-by-ai-gold-rush-in-silicon-valley-7571e784",
+      "title": "Boston's Startup Scene Eclipsed by AI Gold Rush in Silicon Valley",
+      "subtitle": "Despite solid funding gains, Massachusetts startups are being outpaced by unprecedented capital flowing to generative AI companies on the West Coast.",
+      "category": "business",
+      "publishedAt": "2026-06-01T11:00:05.000Z",
+      "sourceUrl": "https://news.crunchbase.com/venture/boston-startup-funding-gains-ai-biotech-healthcare-whoop/",
+      "sourceName": "Crunchbase News",
+      "sourceTier": 2,
+      "image": "/images/articles/bostons-startup-scene-eclipsed-by-ai-gold-rush-in-silicon-valley-7571e784.jpg"
+    },
+    {
+      "slug": "nvidia-unveils-cosmos-3-open-source-model-for-robot-reasoning-1670e12b",
+      "title": "NVIDIA Unveils Cosmos 3, Open-Source Model for Robot Reasoning",
+      "subtitle": "New foundation model enables machines to understand physics and act in the real world, potentially accelerating robotics development.",
+      "category": "tools",
+      "publishedAt": "2026-06-01T04:44:55.000Z",
+      "sourceUrl": "https://huggingface.co/blog/nvidia/cosmos-3-for-physical-ai",
+      "sourceName": "Hugging Face",
+      "sourceTier": 1,
+      "image": "/images/articles/nvidia-unveils-cosmos-3-open-source-model-for-robot-reasoning-1670e12b.jpg"
+    },
+    {
       "slug": "popular-google-sheets-chatgpt-plugin-quietly-transmits-user-data-e6f6357d",
       "title": "Popular Google Sheets ChatGPT Plugin Quietly Transmits User Data",
       "subtitle": "Security researchers uncover how a widely-used AI integration leaks sensitive spreadsheet contents to external servers.",
@@ -1245,6 +1267,8 @@
     "a724d9332ccea0e7",
     "66baafcff05631b0",
     "e6f6357df7d3bff8",
-    "e93608ef53964264"
+    "e93608ef53964264",
+    "1670e12bee468afa",
+    "7571e78450154a55"
   ]
 }
