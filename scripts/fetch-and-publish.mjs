@@ -23,6 +23,7 @@ import { fetchArxiv } from './lib/arxiv.mjs';
 import { fetchHackerNews, fetchGitHubTrending } from './lib/community.mjs';
 import { fetchNewsAPI } from './lib/newsapi.mjs';
 import { deduplicate, contentHash } from './lib/dedupe.mjs';
+import { isAiRelevant } from './lib/ai-relevance.mjs';
 import { generateArticleImage, generateInlineImages, injectInlineImages, resetImageSession } from './lib/images.mjs';
 import { buildHomepage } from './build-homepage.mjs';
 import { buildCategories } from './build-categories.mjs';
@@ -138,6 +139,7 @@ ${(source.body || source.summary || '').substring(0, 4500)}
 
 Requirements:
 - Original headline (max 75 chars), SEO-optimized, factual, no clickbait
+- The story MUST be substantively about artificial intelligence, machine learning, LLMs, AI products, AI research, AI policy, robotics, or AI industry. If the source is not really about AI, return JSON with {"reject": true, "reason": "..."} and no other fields.
 - Compelling deck sentence explaining significance
 - 400-700 word body in HTML using <p>, <h2>, <ul>/<li>, <blockquote>
 - Cite the source ONCE inline: "According to [Source publication]..."
@@ -171,6 +173,11 @@ Return ONLY valid JSON (no markdown fences, no preamble):
   const data = await res.json();
   const clean = data.content[0].text.trim().replace(/^```(?:json)?\s*|\s*```$/g, '');
   const parsed = JSON.parse(clean);
+  if (parsed.reject) {
+    const err = new Error(`Claude rejected non-AI story: ${parsed.reason || 'not AI-related'}`);
+    err.skipped = true;
+    throw err;
+  }
   return scrubDashes(parsed);
 }
 
@@ -406,10 +413,15 @@ async function main() {
   console.log('PHASE 2: Dedupe');
   const unique = deduplicate(all);
   const fresh = unique.filter(item => !published.hashes.includes(contentHash(item)));
-  console.log(`  ✓ ${fresh.length} fresh items after cross-check with published index\n`);
+  const relevant = fresh.filter(item => {
+    if (isAiRelevant(item)) return true;
+    console.log(`  ↪ skip non-AI: ${item.title?.substring(0, 70)} [${item.source?.title}]`);
+    return false;
+  });
+  console.log(`  ✓ ${relevant.length} AI-relevant items (${fresh.length - relevant.length} filtered) after cross-check with published index\n`);
 
   console.log('PHASE 3: Rank & Distribute');
-  const ranked = fresh.sort((a, b) => {
+  const ranked = relevant.sort((a, b) => {
     const tierDiff = (a.source.tier || 99) - (b.source.tier || 99);
     if (tierDiff !== 0) return tierDiff;
     return new Date(b.publishedAt) - new Date(a.publishedAt);
@@ -426,6 +438,14 @@ async function main() {
   for (const item of selected) {
     try {
       const rewritten = await rewriteArticle(item);
+      if (!isAiRelevant({
+        title: rewritten.title,
+        summary: rewritten.subtitle,
+        body: `${rewritten.body_html || ''} ${(rewritten.keywords || []).join(' ')}`
+      }, { minScore: 3 })) {
+        console.log(`  ↪ skip after rewrite (not AI): ${rewritten.title?.substring(0, 70)}`);
+        continue;
+      }
       const category = classify(`${rewritten.title} ${rewritten.body_html}`, item.suggestedCategory);
       rewritten.body_html = addInternalLinks(rewritten.body_html, category);
       const hash = contentHash(item);
@@ -497,7 +517,8 @@ async function main() {
         console.warn(`    ! syndication: ${e.message}`);
       }
     } catch (e) {
-      console.error(`  ✗ Failed on "${item.title?.substring(0, 60)}": ${e.message}`);
+      if (e.skipped) console.log(`  ↪ skipped: ${e.message}`);
+      else console.error(`  ✗ Failed on "${item.title?.substring(0, 60)}": ${e.message}`);
     }
   }
 

@@ -63,6 +63,14 @@ const GENERIC_H2 = new Set([
   'introduction','getting started','next steps','frequently asked questions','faq'
 ]);
 
+const METAPHORICAL_H2 = /\b(breaking ground|groundbreaking|difficult disease|looking ahead|what happens next|broader implications|significance|why it matters|key takeaways|next steps|in summary|final thoughts|the bottom line|what this means|what to watch|how it works)\b/i;
+
+const WEAK_IMAGE_TERMS = new Set([
+  'ground', 'breaking', 'difficult', 'disease', 'ahead', 'matters', 'significance',
+  'implications', 'takeaway', 'takeaways', 'summary', 'background', 'overview',
+  'introduction', 'conclusion', 'watch', 'works', 'means', 'bottom', 'line', 'steps'
+]);
+
 // Concrete visual hints when title/body mentions these topics.
 const VISUAL_HINTS = [
   { re: /\b(siri|iphone|ipad|macos|ios|apple watch)\b/i, q: 'apple iphone smartphone screen' },
@@ -81,6 +89,9 @@ const VISUAL_HINTS = [
   { re: /\b(privacy|gdpr|regulation|compliance)\b/i, q: 'privacy law documents desk' },
   { re: /\b(chip|semiconductor|tsmc|intel|amd)\b/i, q: 'semiconductor chip manufacturing' },
   { re: /\b(hospital|medical|healthcare|diagnos)\b/i, q: 'doctor using medical technology' },
+  { re: /\b(cancer|oncolog|tumor|chemotherapy|radiation therapy)\b/i, q: 'oncology research medical laboratory' },
+  { re: /\b(clinical trial|phase [123]|drug trial)\b/i, q: 'clinical trial medical research hospital' },
+  { re: /\b(pill|medication|pharmaceutical|drug (?:trial|therapy))\b/i, q: 'medicine pills pharmacy healthcare' },
   { re: /\b(video|film|cinema|movie)\b/i, q: 'video production editing studio' },
   { re: /\b(voice|speech|audio|podcast)\b/i, q: 'microphone podcast recording studio' },
   { re: /\b(image|photo|vision|camera)\b/i, q: 'camera photographer urban street' },
@@ -128,12 +139,25 @@ function dedupeQueries(queries) {
   const seen = new Set();
   const out = [];
   for (const q of queries) {
+    if (!q || typeof q !== 'string') continue;
     const key = q.toLowerCase().replace(/\s+/g, ' ').trim();
-    if (key.length < 3 || seen.has(key)) continue;
+    if (key.length < 3 || seen.has(key) || isWeakImageQuery(key)) continue;
     seen.add(key);
     out.push(key);
   }
   return out;
+}
+
+function isMetaphoricalHeading(heading) {
+  return METAPHORICAL_H2.test(String(heading || ''));
+}
+
+function isWeakImageQuery(query) {
+  const words = String(query || '').toLowerCase().split(/\s+/).filter(Boolean);
+  if (!words.length) return true;
+  if (words.length === 1 && WEAK_IMAGE_TERMS.has(words[0])) return true;
+  if (words.every(w => WEAK_IMAGE_TERMS.has(w) || w.length < 4)) return true;
+  return false;
 }
 
 function extractProperNouns(...texts) {
@@ -197,12 +221,19 @@ function visualHintsFromText(...texts) {
 }
 
 function queryFromHeading(heading) {
+  if (!heading || isMetaphoricalHeading(heading)) return '';
   const nouns = extractProperNouns(heading);
   const kw = extractTitleKeywords(heading, 4);
   if (nouns.length && kw.length) return `${nouns.slice(0, 2).join(' ')} ${kw.slice(0, 2).join(' ')}`.trim();
   if (nouns.length) return nouns.slice(0, 3).join(' ');
   if (kw.length >= 2) return kw.join(' ');
-  return extractTitleKeywords(heading, 3).join(' ');
+  const fallback = extractTitleKeywords(heading, 3).join(' ');
+  return isWeakImageQuery(fallback) ? '' : fallback;
+}
+
+function inlineHeadingForSlot(headings, slot) {
+  // Inline slot 0 is inserted after the 2nd H2, slot 1 after the 4th, etc.
+  return headings[1 + slot * 2] || headings[slot + 1] || headings[slot] || headings[0] || '';
 }
 
 function buildHeroQueries(opts) {
@@ -231,14 +262,17 @@ function buildInlineQueries(opts, slot) {
   const headings = extractH2Headings(bodyHtml);
   const firstPara = (bodyHtml.match(/<p[^>]*>([\s\S]*?)<\/p>/i) || [])[1]?.replace(/<[^>]+>/g, ' ').trim() || '';
   const nouns = extractProperNouns(title, subtitle);
-  const heading = headings[slot] || headings[slot + 1] || headings[0];
+  const heading = inlineHeadingForSlot(headings, slot);
+  const keywordBlob = keywords.join(' ');
 
   const queries = [
-    heading ? queryFromHeading(heading) : '',
-    ...visualHintsFromText(heading || '', title, firstPara),
-    keywords.length ? keywords.slice(slot % keywords.length, slot % keywords.length + 2).join(' ') : '',
+    keywords.length ? keywords.slice(0, 3).join(' ') : '',
+    keywords.length ? keywords.slice(0, 2).join(' ') : '',
     keywords.length ? keywords[slot % keywords.length] : '',
-    nouns.length ? `${nouns.slice(0, 2).join(' ')} ${extractTitleKeywords(heading || title, 2).join(' ')}`.trim() : '',
+    ...visualHintsFromText(title, subtitle, keywordBlob, firstPara),
+    heading && !isMetaphoricalHeading(heading) ? queryFromHeading(heading) : '',
+    ...visualHintsFromText(heading || ''),
+    nouns.length ? `${nouns.slice(0, 2).join(' ')} ${extractTitleKeywords(title, 2).join(' ')}`.trim() : '',
     extractTitleKeywords(title, 3).join(' '),
     CATEGORY_PEXELS_FALLBACK[category] || 'technology workspace'
   ];
@@ -482,7 +516,7 @@ export async function generateInlineImages(slug, titleOrOpts, categoryMaybe, cou
       const buf = await downloadPexelsPhoto(chosen);
       await fs.writeFile(filePath, buf);
       _usedPhotoIds.add(chosen.id);
-      const heading = extractH2Headings(opts.bodyHtml)[slot];
+      const heading = inlineHeadingForSlot(extractH2Headings(opts.bodyHtml), slot);
       out.push({
         url,
         photographer: chosen.photographer || null,

@@ -1,11 +1,8 @@
 // Hacker News API + GitHub Trending, community signals for AI
 
-const HN_API = 'https://hn.algolia.com/api/v1/search_by_date';
+import { isAiRelevantForCommunity } from './ai-relevance.mjs';
 
-const AI_QUERY_TERMS = [
-  'AI', 'artificial intelligence', 'LLM', 'GPT', 'Claude',
-  'OpenAI', 'Anthropic', 'machine learning', 'neural network'
-];
+const HN_API = 'https://hn.algolia.com/api/v1/search_by_date';
 
 export async function fetchHackerNews(maxAgeHours = 24, minPoints = 50) {
   console.log('▶ Fetching Hacker News...');
@@ -24,8 +21,13 @@ export async function fetchHackerNews(maxAgeHours = 24, minPoints = 50) {
     const data = await res.json();
     const items = (data.hits || [])
       .filter(h => {
-        const text = `${h.title || ''} ${h.story_text || ''}`.toLowerCase();
-        return AI_QUERY_TERMS.some(t => text.includes(t.toLowerCase())) && h.url;
+        if (!h.url) return false;
+        const item = {
+          title: h.title,
+          summary: h.story_text ? stripHtml(h.story_text).substring(0, 400) : '',
+          body: h.story_text || ''
+        };
+        return isAiRelevantForCommunity(item);
       })
       .map(h => ({
         title: h.title,
