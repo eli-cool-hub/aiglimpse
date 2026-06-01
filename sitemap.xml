@@ -15,6 +15,24 @@
   <url><loc>https://aiglimpse.ai/pages/privacy</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
   <url><loc>https://aiglimpse.ai/pages/terms</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
   <url>
+    <loc>https://aiglimpse.ai/articles/alphabet-to-deploy-80b-capital-for-ai-infrastructure-expansion-c3c39518</loc>
+    <news:news>
+      <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-06-01T22:55:09.000Z</news:publication_date>
+      <news:title>Alphabet to Deploy $80B Capital for AI Infrastructure Expansion</news:title>
+    </news:news>
+    <changefreq>daily</changefreq><priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://aiglimpse.ai/articles/openais-advanced-models-arrive-on-aws-for-enterprise-users-d925a057</loc>
+    <news:news>
+      <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-06-01T10:00:00.000Z</news:publication_date>
+      <news:title>OpenAI's Advanced Models Arrive on AWS for Enterprise Users</news:title>
+    </news:news>
+    <changefreq>daily</changefreq><priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://aiglimpse.ai/articles/nvidia-eyes-cpu-market-dominance-with-ai-agent-pc-push-1426e0a4</loc>
     <news:news>
       <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>

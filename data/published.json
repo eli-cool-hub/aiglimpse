@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "alphabet-to-deploy-80b-capital-for-ai-infrastructure-expansion-c3c39518",
+      "title": "Alphabet to Deploy $80B Capital for AI Infrastructure Expansion",
+      "subtitle": "Google parent signals massive investment push as enterprise demand for AI services outpaces current capacity.",
+      "category": "business",
+      "publishedAt": "2026-06-01T22:55:09.000Z",
+      "sourceUrl": "https://techcrunch.com/2026/06/01/alphabet-plans-to-raise-80-billion-to-pay-for-ai-buildout/",
+      "sourceName": "TechCrunch AI",
+      "sourceTier": 2,
+      "image": "/images/articles/alphabet-to-deploy-80b-capital-for-ai-infrastructure-expansion-c3c39518.jpg"
+    },
+    {
+      "slug": "openais-advanced-models-arrive-on-aws-for-enterprise-users-d925a057",
+      "title": "OpenAI's Advanced Models Arrive on AWS for Enterprise Users",
+      "subtitle": "The partnership streamlines access to frontier AI systems within familiar cloud infrastructure, accelerating enterprise adoption of large language models.",
+      "category": "llms",
+      "publishedAt": "2026-06-01T10:00:00.000Z",
+      "sourceUrl": "https://openai.com/index/openai-frontier-models-and-codex-are-now-available-on-aws",
+      "sourceName": "OpenAI",
+      "sourceTier": 1,
+      "image": "/images/articles/openais-advanced-models-arrive-on-aws-for-enterprise-users-d925a057.jpg"
+    },
+    {
       "slug": "nvidia-eyes-cpu-market-dominance-with-ai-agent-pc-push-1426e0a4",
       "title": "Nvidia Eyes CPU Market Dominance with AI Agent PC Push",
       "subtitle": "Major PC makers prepare to deploy autonomous AI agents on consumer hardware, potentially reshaping how users interact with their devices.",
@@ -1317,6 +1339,8 @@
     "c58a6a51084fa7c5",
     "ed058bf4c773a5ba",
     "63ee808613809b84",
-    "1426e0a4517e89c9"
+    "1426e0a4517e89c9",
+    "d925a05749fa1297",
+    "c3c395189b8d8c41"
   ]
 }

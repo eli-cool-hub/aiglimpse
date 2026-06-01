@@ -7,6 +7,22 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Alphabet to Deploy $80B Capital for AI Infrastructure Expansion</title>
+      <link>https://aiglimpse.ai/articles/alphabet-to-deploy-80b-capital-for-ai-infrastructure-expansion-c3c39518</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/alphabet-to-deploy-80b-capital-for-ai-infrastructure-expansion-c3c39518</guid>
+      <description>Google parent signals massive investment push as enterprise demand for AI services outpaces current capacity.</description>
+      <pubDate>Mon, 01 Jun 2026 22:55:09 GMT</pubDate>
+      <category>AI Business</category>
+    </item>
+    <item>
+      <title>OpenAI's Advanced Models Arrive on AWS for Enterprise Users</title>
+      <link>https://aiglimpse.ai/articles/openais-advanced-models-arrive-on-aws-for-enterprise-users-d925a057</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/openais-advanced-models-arrive-on-aws-for-enterprise-users-d925a057</guid>
+      <description>The partnership streamlines access to frontier AI systems within familiar cloud infrastructure, accelerating enterprise adoption of large language models.</description>
+      <pubDate>Mon, 01 Jun 2026 10:00:00 GMT</pubDate>
+      <category>LLMs &amp; Chatbots</category>
+    </item>
+    <item>
       <title>Nvidia Eyes CPU Market Dominance with AI Agent PC Push</title>
       <link>https://aiglimpse.ai/articles/nvidia-eyes-cpu-market-dominance-with-ai-agent-pc-push-1426e0a4</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/nvidia-eyes-cpu-market-dominance-with-ai-agent-pc-push-1426e0a4</guid>
@@ -388,22 +404,6 @@
       <guid isPermaLink="true">https://aiglimpse.ai/articles/new-search-method-lets-ai-models-improve-themselves-beyond-training-a37b1030</guid>
       <description>Researchers introduce a bidirectional framework that helps language models escape limitations of standard search techniques during both training and inference.</description>
       <pubDate>Wed, 27 May 2026 17:59:15 GMT</pubDate>
-      <category>AI Research</category>
-    </item>
-    <item>
-      <title>New AI Model Tackles Multi-Agent World Simulation at Scale</title>
-      <link>https://aiglimpse.ai/articles/new-ai-model-tackles-multi-agent-world-simulation-at-scale-2a5a65e5</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-ai-model-tackles-multi-agent-world-simulation-at-scale-2a5a65e5</guid>
-      <description>Researchers introduce techniques to generate interactive environments with multiple controllable agents, overcoming computational bottlenecks that have limited prior work.</description>
-      <pubDate>Wed, 27 May 2026 17:59:31 GMT</pubDate>
-      <category>AI Research</category>
-    </item>
-    <item>
-      <title>New Benchmark Reveals Hidden Trade-offs in AI Model Tuning Methods</title>
-      <link>https://aiglimpse.ai/articles/new-benchmark-reveals-hidden-trade-offs-in-ai-model-tuning-methods-0f5eae84</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-benchmark-reveals-hidden-trade-offs-in-ai-model-tuning-methods-0f5eae84</guid>
-      <description>Researchers uncover how popular parameter-efficient finetuning techniques balance learning new tasks against forgetting existing capabilities.</description>
-      <pubDate>Wed, 27 May 2026 17:59:51 GMT</pubDate>
       <category>AI Research</category>
     </item>
   </channel>
