@@ -86,6 +86,23 @@
   th.sortable .sort-mark { margin-left: 4px; opacity: 0.55; font-size: 10px; }
   th.sortable.active { color: var(--ink); }
   .trend-sort { margin: -8px 0 16px; display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+  .briefing { background: var(--paper-elev); border: 1px solid var(--line); border-radius: 8px; padding: 22px 24px; margin-bottom: 8px; border-left: 4px solid var(--good); }
+  .briefing.status-watch { border-left-color: var(--warn); }
+  .briefing.status-concern { border-left-color: var(--bad); }
+  .briefing-head { display: flex; align-items: flex-start; justify-content: space-between; gap: 16px; flex-wrap: wrap; margin-bottom: 12px; }
+  .briefing-status { font-size: 11px; font-weight: 800; text-transform: uppercase; letter-spacing: 0.08em; padding: 4px 10px; border-radius: 999px; background: #e6f4ea; color: var(--good); }
+  .briefing.status-watch .briefing-status { background: #fff3e0; color: var(--warn); }
+  .briefing.status-concern .briefing-status { background: #fce8e6; color: var(--bad); }
+  .briefing-summary { font-size: 15px; line-height: 1.6; margin: 0 0 16px; max-width: 900px; }
+  .briefing-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 16px; }
+  .briefing-col h3 { margin: 0 0 8px; font-size: 12px; }
+  .briefing-col ul { margin: 0; padding-left: 18px; font-size: 13px; line-height: 1.55; color: var(--ink); }
+  .briefing-col li { margin-bottom: 6px; }
+  .briefing-col.wins h3 { color: var(--good); }
+  .briefing-col.watch h3 { color: var(--warn); }
+  .briefing-col.issues h3 { color: var(--bad); }
+  .briefing-col.empty-col { color: var(--muted); font-size: 13px; font-style: italic; }
+  .ops-row { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 16px; padding-top: 14px; border-top: 1px solid var(--line); }
 </style>
 </head>
 <body>
@@ -101,6 +118,8 @@
       <span class="chip" id="property-chip"></span>
     </div>
   </header>
+
+  <section id="briefing" class="briefing" aria-label="Morning briefing"></section>
 
   <h2>At a glance</h2>
   <div class="kpis" id="kpis"></div>
@@ -140,6 +159,7 @@
   </div>
 
   <h2>Recommendations <span id="rec-count" class="chip"></span></h2>
+  <p class="section-note">Actionable SEO fixes (title/meta, internal links). The morning briefing above covers growth trends and site health; this section is for specific page-level work.</p>
   <div class="recs" id="recs"></div>
   <div id="recs-done" class="recs" style="margin-top:12px;"></div>
 
@@ -209,6 +229,42 @@ const dur = (s) => s == null ? '-' : s < 60 ? s.toFixed(1) + 's' : Math.floor(s 
 document.getElementById('generated').textContent = new Date(SNAPSHOT.generated_at).toLocaleString();
 document.getElementById('property-chip').textContent = SNAPSHOT.ga4_property;
 
+(function renderBriefing() {
+  const b = SNAPSHOT.briefing;
+  const el = document.getElementById('briefing');
+  if (!b) { el.style.display = 'none'; return; }
+
+  const statusLabels = { good: 'On track', watch: 'Watch list', concern: 'Needs attention' };
+  el.classList.add(`status-${b.status || 'good'}`);
+
+  function col(title, cls, items) {
+    if (!items?.length) return `<div class="briefing-col ${cls} empty-col">Nothing flagged</div>`;
+    return `<div class="briefing-col ${cls}"><h3>${title}</h3><ul>${items.map(i => `<li>${i}</li>`).join('')}</ul></div>`;
+  }
+
+  const op = b.operations || {};
+  const ops = [
+    op.articles_total != null ? `${op.articles_total} articles` : null,
+    op.articles_24h != null ? `${op.articles_24h} in 24h` : null,
+    SNAPSHOT.organic_sessions_7d != null ? `${SNAPSHOT.organic_sessions_7d} organic sessions (7d)` : null,
+    op.indexing ? `${op.indexing.indexed || 0} indexed / ${op.indexing.unknown || 0} unknown` : null
+  ].filter(Boolean);
+
+  el.innerHTML = `
+    <div class="briefing-head">
+      <h2 style="margin:0;font-size:20px;">Morning briefing</h2>
+      <span class="briefing-status">${statusLabels[b.status] || b.status}</span>
+    </div>
+    <p class="briefing-summary">${b.summary || ''}</p>
+    <div class="briefing-grid">
+      ${col('Wins', 'wins', b.wins)}
+      ${col('Watch', 'watch', b.watches)}
+      ${col('Issues', 'issues', b.issues)}
+    </div>
+    ${ops.length ? `<div class="ops-row">${ops.map(o => `<span class="chip">${o}</span>`).join('')}</div>` : ''}
+  `;
+})();
+
 const days = (HISTORY.daily || []).slice(-30);
 const labels = days.map(d => d.date.slice(5));
 const prev = days.length >= 2 ? days[days.length - 2] : null;
@@ -242,6 +298,7 @@ document.getElementById('kpis').innerHTML = [
   renderKpiCard('Avg position', SNAPSHOT.gsc.totals.position ? SNAPSHOT.gsc.totals.position.toFixed(1) : '-', delta(SNAPSHOT.gsc.totals.position, prev?.gsc_avg_position_7d, true), 'gsc'),
   renderKpiCard('CTR', pct(SNAPSHOT.gsc.totals.ctr), delta(SNAPSHOT.gsc.totals.ctr, prev?.gsc_ctr_7d), 'gsc'),
   renderKpiCard('GA4 sessions', fmt(SNAPSHOT.ga4.totals.sessions), delta(SNAPSHOT.ga4.totals.sessions, prev?.ga4_sessions_7d), 'ga4'),
+  renderKpiCard('Organic sessions', fmt(SNAPSHOT.organic_sessions_7d ?? 0), delta(SNAPSHOT.organic_sessions_7d ?? 0, prev?.ga4_organic_sessions_7d), 'ga4'),
   renderKpiCard('GA4 users', fmt(SNAPSHOT.ga4.totals.users), delta(SNAPSHOT.ga4.totals.users, prev?.ga4_users_7d), 'ga4'),
   renderKpiCard('Pageviews', fmt(SNAPSHOT.ga4.totals.pageviews), delta(SNAPSHOT.ga4.totals.pageviews, prev?.ga4_pageviews_7d), 'ga4'),
   renderKpiCard('Avg session', dur(SNAPSHOT.ga4.totals.avg_session_duration), null, 'ga4')
@@ -506,6 +563,7 @@ const METRICS = [
   { key: 'gsc_ctr_7d', label: 'GSC CTR', color: '#1a73e8', format: v => pct(v), invert: false },
   { key: 'gsc_avg_position_7d', label: 'Avg position', color: '#8b5cf6', format: v => v?.toFixed(1) ?? '-', invert: true },
   { key: 'ga4_sessions_7d', label: 'GA4 sessions', color: '#f4b400', format: v => fmt(v), invert: false },
+  { key: 'ga4_organic_sessions_7d', label: 'Organic sessions', color: '#2d8c47', format: v => fmt(v), invert: false },
   { key: 'ga4_users_7d', label: 'GA4 users', color: '#ea8600', format: v => fmt(v), invert: false },
   { key: 'ga4_pageviews_7d', label: 'Pageviews', color: '#ff5b1f', format: v => fmt(v), invert: false },
   { key: 'sitemap_submitted', label: 'Sitemap URLs', color: '#2d8c47', format: v => fmt(v), invert: false },

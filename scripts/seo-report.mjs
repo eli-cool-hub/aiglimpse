@@ -15,6 +15,7 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 import { syndicationStats } from './lib/syndicate.mjs';
 import { applySeoRecommendations } from './lib/seo-actions.mjs';
+import { buildMorningBriefing, briefingToMarkdown } from './lib/morning-briefing.mjs';
 
 const SA_JSON = process.env.GOOGLE_SERVICE_ACCOUNT_JSON;
 if (!SA_JSON) { console.error('GOOGLE_SERVICE_ACCOUNT_JSON missing'); process.exit(1); }
@@ -353,6 +354,11 @@ let history;
 try { history = JSON.parse(await fs.readFile(historyPath, 'utf8')); }
 catch { history = { daily: [] }; }
 
+const organicSessions7d = (snapshot.ga4.sources || [])
+  .filter(s => s.channel === 'Organic Search')
+  .reduce((sum, s) => sum + (s.sessions || 0), 0);
+snapshot.organic_sessions_7d = organicSessions7d;
+
 const todayEntry = {
   date: dISO,
   gsc_clicks_7d: snapshot.gsc.totals.clicks,
@@ -363,6 +369,7 @@ const todayEntry = {
   ga4_users_7d: snapshot.ga4.totals.users,
   ga4_pageviews_7d: snapshot.ga4.totals.pageviews,
   ga4_bounce_rate: snapshot.ga4.totals.bounce_rate,
+  ga4_organic_sessions_7d: organicSessions7d,
   sitemap_submitted: snapshot.sitemap.submitted_urls || 0,
   sitemap_indexed: snapshot.sitemap.indexed_urls || 0,
   synd_total: snapshot.syndication?.total || 0,
@@ -376,6 +383,23 @@ if (history.daily.length > 365) history.daily = history.daily.slice(-365);
 await fs.mkdir(path.dirname(historyPath), { recursive: true });
 await fs.writeFile(historyPath, JSON.stringify(history, null, 2));
 
+// Morning briefing: growth + operational health (after history is current).
+let publishedIndex = { articles: [] };
+let indexingStatus = null;
+try {
+  publishedIndex = JSON.parse(await fs.readFile(path.join(process.cwd(), 'data', 'published.json'), 'utf8'));
+} catch { /* empty site */ }
+try {
+  indexingStatus = JSON.parse(await fs.readFile(path.join(process.cwd(), 'data', 'indexing-status.json'), 'utf8'));
+} catch { /* not run yet */ }
+
+snapshot.briefing = buildMorningBriefing({
+  snapshot,
+  history,
+  published: publishedIndex,
+  indexingStatus
+});
+
 // ----------------------------------------------------------------------
 // Markdown report
 // ----------------------------------------------------------------------
@@ -388,6 +412,10 @@ md(`_Generated ${snapshot.generated_at}_`);
 md('');
 md(`Dashboard: https://aiglimpse.ai/dashboard.html (Basic Auth required)`);
 md('');
+
+if (snapshot.briefing) {
+  md(briefingToMarkdown(snapshot.briefing));
+}
 
 md('## At a glance (last 7 days)');
 md('');
@@ -487,5 +515,5 @@ const dashboard = dashboardTpl
 
 await fs.writeFile(path.join(process.cwd(), 'dashboard.html'), dashboard);
 console.log('Wrote dashboard.html');
-console.log(`Snapshot: ${snapshot.gsc.totals.impressions} GSC impressions, ${snapshot.ga4.totals.sessions} GA4 sessions, ${enrichedRecs.filter(r => r.status === 'open').length} open / ${enrichedRecs.filter(r => r.status === 'done').length} done recommendations`);
+console.log(`Snapshot: ${snapshot.gsc.totals.impressions} GSC impressions, ${snapshot.ga4.totals.sessions} GA4 sessions (${organicSessions7d} organic), briefing=${snapshot.briefing?.status}, ${enrichedRecs.filter(r => r.status === 'open').length} open / ${enrichedRecs.filter(r => r.status === 'done').length} done recommendations`);
 if (seoActionsChanged) console.log('SEO auto-actions modified article files');
