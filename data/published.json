@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "experimental-pill-shows-promise-in-extending-pancreatic-cancer-survival-e93608ef",
+      "title": "Experimental Pill Shows Promise in Extending Pancreatic Cancer Survival",
+      "subtitle": "A daily oral medication demonstrates the ability to significantly extend survival in patients with one of oncology's most difficult-to-treat malignancies.",
+      "category": "tools",
+      "publishedAt": "2026-05-31T15:43:29.000Z",
+      "sourceUrl": "https://www.theguardian.com/society/2026/may/31/daily-pill-daraxonrasib-double-survival-time-pancreatic-pancreas-cancer-clinical-trial",
+      "sourceName": "Hacker News (152 pts)",
+      "sourceTier": 2,
+      "image": "/images/articles/experimental-pill-shows-promise-in-extending-pancreatic-cancer-survival-e93608ef.jpg"
+    },
+    {
+      "slug": "popular-google-sheets-chatgpt-plugin-quietly-transmits-user-data-e6f6357d",
+      "title": "Popular Google Sheets ChatGPT Plugin Quietly Transmits User Data",
+      "subtitle": "Security researchers uncover how a widely-used AI integration leaks sensitive spreadsheet contents to external servers.",
+      "category": "tools",
+      "publishedAt": "2026-05-31T20:35:38.000Z",
+      "sourceUrl": "https://www.promptarmor.com/resources/gpt-for-google-sheets-data-exfiltration",
+      "sourceName": "Hacker News (115 pts)",
+      "sourceTier": 2,
+      "image": "/images/articles/popular-google-sheets-chatgpt-plugin-quietly-transmits-user-data-e6f6357d.jpg"
+    },
+    {
       "slug": "brockovich-demands-transparency-in-ai-data-center-operations-66baafcf",
       "title": "Brockovich Demands Transparency in AI Data Center Operations",
       "subtitle": "The legendary environmental litigator is pushing back against the opacity surrounding massive computing facilities powering artificial intelligence.",
@@ -1309,6 +1331,8 @@
     "9fd8ef02644f0865",
     "d0dda633395ad352",
     "a724d9332ccea0e7",
-    "66baafcff05631b0"
+    "66baafcff05631b0",
+    "e6f6357df7d3bff8",
+    "e93608ef53964264"
   ]
 }

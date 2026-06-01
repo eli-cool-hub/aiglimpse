@@ -7,6 +7,22 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Experimental Pill Shows Promise in Extending Pancreatic Cancer Survival</title>
+      <link>https://aiglimpse.ai/articles/experimental-pill-shows-promise-in-extending-pancreatic-cancer-survival-e93608ef</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/experimental-pill-shows-promise-in-extending-pancreatic-cancer-survival-e93608ef</guid>
+      <description>A daily oral medication demonstrates the ability to significantly extend survival in patients with one of oncology's most difficult-to-treat malignancies.</description>
+      <pubDate>Sun, 31 May 2026 15:43:29 GMT</pubDate>
+      <category>AI Tools &amp; Products</category>
+    </item>
+    <item>
+      <title>Popular Google Sheets ChatGPT Plugin Quietly Transmits User Data</title>
+      <link>https://aiglimpse.ai/articles/popular-google-sheets-chatgpt-plugin-quietly-transmits-user-data-e6f6357d</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/popular-google-sheets-chatgpt-plugin-quietly-transmits-user-data-e6f6357d</guid>
+      <description>Security researchers uncover how a widely-used AI integration leaks sensitive spreadsheet contents to external servers.</description>
+      <pubDate>Sun, 31 May 2026 20:35:38 GMT</pubDate>
+      <category>AI Tools &amp; Products</category>
+    </item>
+    <item>
       <title>Brockovich Demands Transparency in AI Data Center Operations</title>
       <link>https://aiglimpse.ai/articles/brockovich-demands-transparency-in-ai-data-center-operations-66baafcf</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/brockovich-demands-transparency-in-ai-data-center-operations-66baafcf</guid>
@@ -389,22 +405,6 @@
       <description>Researchers introduce techniques to generate interactive environments with multiple controllable agents, overcoming computational bottlenecks that have limited prior work.</description>
       <pubDate>Wed, 27 May 2026 17:59:31 GMT</pubDate>
       <category>AI Research</category>
-    </item>
-    <item>
-      <title>New Benchmark Reveals Hidden Trade-offs in AI Model Tuning Methods</title>
-      <link>https://aiglimpse.ai/articles/new-benchmark-reveals-hidden-trade-offs-in-ai-model-tuning-methods-0f5eae84</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-benchmark-reveals-hidden-trade-offs-in-ai-model-tuning-methods-0f5eae84</guid>
-      <description>Researchers uncover how popular parameter-efficient finetuning techniques balance learning new tasks against forgetting existing capabilities.</description>
-      <pubDate>Wed, 27 May 2026 17:59:51 GMT</pubDate>
-      <category>AI Research</category>
-    </item>
-    <item>
-      <title>OpenAI Unveils Governance Framework Aligned With Global AI Rules</title>
-      <link>https://aiglimpse.ai/articles/openai-unveils-governance-framework-aligned-with-global-ai-rules-57d5b2b7</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/openai-unveils-governance-framework-aligned-with-global-ai-rules-57d5b2b7</guid>
-      <description>The company outlines how its safety and security protocols meet emerging regulatory requirements from the EU and California.</description>
-      <pubDate>Thu, 28 May 2026 00:00:00 GMT</pubDate>
-      <category>LLMs &amp; Chatbots</category>
     </item>
   </channel>
 </rss>
