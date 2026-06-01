@@ -117,7 +117,7 @@ export function isTrustedAiSource(item) {
     'openai', 'deepmind', 'google ai', 'microsoft ai', 'hugging face',
     'mit technology review', 'venturebeat', 'the verge', 'techcrunch',
     'ars technica', 'wired', 'ieee spectrum', 'import ai', 'the gradient',
-    'interconnects', 'one useful thing', 'ai snake oil', 'robohub'
+    'interconnects', 'one useful thing', 'ai snake oil', 'robohub', 'ai weekly'
   ];
   return trusted.some(t => name.includes(t));
 }

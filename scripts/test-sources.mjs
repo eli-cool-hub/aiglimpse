@@ -7,6 +7,7 @@
  */
 
 import { fetchAllRSS } from './lib/rss-sources.mjs';
+import { fetchAIWeekly } from './lib/aiweekly.mjs';
 import { fetchArxiv } from './lib/arxiv.mjs';
 import { fetchHackerNews, fetchGitHubTrending } from './lib/community.mjs';
 import { fetchNewsAPI } from './lib/newsapi.mjs';
@@ -15,8 +16,9 @@ import { deduplicate } from './lib/dedupe.mjs';
 async function main() {
   console.log('🔍 AI Glimpse, Source Diagnostic\n');
 
-  const [rss, arxiv, hn, github, newsapi] = await Promise.all([
+  const [rss, aiweekly, arxiv, hn, github, newsapi] = await Promise.all([
     fetchAllRSS(48),
+    fetchAIWeekly(48, 18),
     fetchArxiv(15, 48),
     fetchHackerNews(24, 50),
     fetchGitHubTrending(),
@@ -25,12 +27,13 @@ async function main() {
 
   console.log('\n📊 Source Counts:');
   console.log(`  RSS feeds:        ${rss.length}`);
+  console.log(`  AI Weekly:        ${aiweekly.length}`);
   console.log(`  arXiv papers:     ${arxiv.length}`);
   console.log(`  Hacker News:      ${hn.length}`);
   console.log(`  GitHub trending:  ${github.length}`);
   console.log(`  NewsAPI.ai:       ${newsapi.length}`);
   console.log(`  ─────────────────────────`);
-  const all = [...rss, ...arxiv, ...hn, ...github, ...newsapi];
+  const all = [...rss, ...aiweekly, ...arxiv, ...hn, ...github, ...newsapi];
   console.log(`  Total raw:        ${all.length}`);
 
   const unique = deduplicate(all);

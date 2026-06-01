@@ -19,6 +19,7 @@
 import fs from 'fs/promises';
 import path from 'path';
 import { fetchAllRSS } from './lib/rss-sources.mjs';
+import { fetchAIWeekly } from './lib/aiweekly.mjs';
 import { fetchArxiv } from './lib/arxiv.mjs';
 import { fetchHackerNews, fetchGitHubTrending } from './lib/community.mjs';
 import { fetchNewsAPI } from './lib/newsapi.mjs';
@@ -399,15 +400,16 @@ async function main() {
   const published = await loadPublished();
 
   console.log('PHASE 1: Gather\n');
-  const [rss, arxiv, hn, github, newsapi] = await Promise.all([
+  const [rss, aiweekly, arxiv, hn, github, newsapi] = await Promise.all([
     fetchAllRSS(48),
+    fetchAIWeekly(48, 18),
     fetchArxiv(15, 48),
     fetchHackerNews(24, 50),
     fetchGitHubTrending(),
     fetchNewsAPI(NEWSAPI_KEY, 24)
   ]);
 
-  const all = [...rss, ...arxiv, ...hn, ...github, ...newsapi];
+  const all = [...rss, ...aiweekly, ...arxiv, ...hn, ...github, ...newsapi];
   console.log(`\n  TOTAL collected: ${all.length} items\n`);
 
   console.log('PHASE 2: Dedupe');
