@@ -7,6 +7,14 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>New AI Model Cuts Robot Training Data Needs by Generating Synthetic Demonstrations</title>
+      <link>https://aiglimpse.ai/articles/new-ai-model-cuts-robot-training-data-needs-by-generating-synthetic-demonstratio-c6a60980</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-ai-model-cuts-robot-training-data-needs-by-generating-synthetic-demonstratio-c6a60980</guid>
+      <description>Researchers introduce a method that synthesizes realistic robot training footage to reduce expensive real-world data collection for manipulation tasks.</description>
+      <pubDate>Mon, 01 Jun 2026 17:59:38 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
       <title>Alphabet to Deploy $80B Capital for AI Infrastructure Expansion</title>
       <link>https://aiglimpse.ai/articles/alphabet-to-deploy-80b-capital-for-ai-infrastructure-expansion-c3c39518</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/alphabet-to-deploy-80b-capital-for-ai-infrastructure-expansion-c3c39518</guid>
@@ -396,14 +404,6 @@
       <guid isPermaLink="true">https://aiglimpse.ai/articles/new-ai-model-stabilizes-video-lighting-effects-with-temporal-precision-7757ce88</guid>
       <description>Researchers introduce HarmoVid, a diffusion-based system that automatically matches foreground video lighting to background scenes while eliminating temporal flickering artifacts.</description>
       <pubDate>Wed, 27 May 2026 17:59:02 GMT</pubDate>
-      <category>AI Research</category>
-    </item>
-    <item>
-      <title>New Search Method Lets AI Models Improve Themselves Beyond Training</title>
-      <link>https://aiglimpse.ai/articles/new-search-method-lets-ai-models-improve-themselves-beyond-training-a37b1030</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-search-method-lets-ai-models-improve-themselves-beyond-training-a37b1030</guid>
-      <description>Researchers introduce a bidirectional framework that helps language models escape limitations of standard search techniques during both training and inference.</description>
-      <pubDate>Wed, 27 May 2026 17:59:15 GMT</pubDate>
       <category>AI Research</category>
     </item>
   </channel>
