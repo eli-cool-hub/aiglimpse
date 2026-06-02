@@ -938,6 +938,24 @@
         "devto": true,
         "hashnode": false
       }
+    },
+    "openai-pushes-for-global-framework-to-protect-youth-from-ai-risks-4d6ee39c": {
+      "syndicated_at": "2026-06-02T23:48:05.426Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/openai-pushes-for-global-framework-to-protect-youth-from-ai-risks-3klh",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 519,
+      "category": "llms",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
     }
   }
 }
