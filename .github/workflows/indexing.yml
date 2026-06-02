@@ -7,7 +7,7 @@ name: Submit URLs for indexing
 on:
   workflow_dispatch:
   schedule:
-    # Daily at 08:15 UTC — after SEO report (07:30) and before fetch-news (08:00+).
+    # Daily at 08:15 UTC — after SEO report (05:30 / backup 07:30) and before fetch-news.
     - cron: '15 8 * * *'
 
 permissions:

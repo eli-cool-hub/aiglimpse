@@ -8,10 +8,10 @@ name: Daily SEO + traffic report
 on:
   workflow_dispatch:
   schedule:
-    # Primary: 07:30 UTC. GitHub cron often fires 1–3h late on free tier.
+    # Primary: 05:30 UTC — early morning refresh before you check the dashboard.
+    - cron: '30 5 * * *'
+    # Backup: 07:30 UTC if today's report file is still missing (GitHub cron can be late).
     - cron: '30 7 * * *'
-    # Backup: only runs if today's report file is still missing (see skip step).
-    - cron: '0 11 * * *'
 
 concurrency:
   # Do not share the content-push queue — fetch/heal jobs can delay this for hours.
