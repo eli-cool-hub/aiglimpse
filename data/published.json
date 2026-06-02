@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "travelers-deploys-openai-powered-claims-assistant-nationwide-2bdcacd7",
+      "title": "Travelers Deploys OpenAI-Powered Claims Assistant Nationwide",
+      "subtitle": "Major insurer automates claim filing with large language models, offering round-the-clock support and scaling capacity during peak periods.",
+      "category": "llms",
+      "publishedAt": "2026-06-02T12:00:00.000Z",
+      "sourceUrl": "https://openai.com/index/travelers",
+      "sourceName": "OpenAI",
+      "sourceTier": 1,
+      "image": "/images/articles/travelers-deploys-openai-powered-claims-assistant-nationwide-2bdcacd7.jpg"
+    },
+    {
+      "slug": "hugging-face-releases-holo31-a-faster-local-ai-agent-for-computer-tasks-14fd9645",
+      "title": "Hugging Face Releases Holo3.1: A Faster Local AI Agent for Computer Tasks",
+      "subtitle": "New open-source model enables autonomous AI agents to execute desktop and web tasks on consumer hardware without cloud dependency.",
+      "category": "tools",
+      "publishedAt": "2026-06-02T14:13:23.000Z",
+      "sourceUrl": "https://huggingface.co/blog/Hcompany/holo31",
+      "sourceName": "Hugging Face",
+      "sourceTier": 1,
+      "image": "/images/articles/hugging-face-releases-holo31-a-faster-local-ai-agent-for-computer-tasks-14fd9645.jpg"
+    },
+    {
       "slug": "new-framework-fixes-a-critical-flaw-in-how-ai-models-learn-multiple-tasks-4c14310c",
       "title": "New Framework Fixes a Critical Flaw in How AI Models Learn Multiple Tasks",
       "subtitle": "Researchers propose a smarter way for multimodal AI systems to acquire new vision-language skills without corrupting existing knowledge.",
@@ -1365,6 +1387,8 @@
     "d925a05749fa1297",
     "c3c395189b8d8c41",
     "c6a6098019408457",
-    "4c14310c56637d33"
+    "4c14310c56637d33",
+    "14fd9645ab2928f4",
+    "2bdcacd703ee168f"
   ]
 }

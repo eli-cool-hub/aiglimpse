@@ -15,6 +15,24 @@
   <url><loc>https://aiglimpse.ai/pages/privacy</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
   <url><loc>https://aiglimpse.ai/pages/terms</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
   <url>
+    <loc>https://aiglimpse.ai/articles/travelers-deploys-openai-powered-claims-assistant-nationwide-2bdcacd7</loc>
+    <news:news>
+      <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-06-02T12:00:00.000Z</news:publication_date>
+      <news:title>Travelers Deploys OpenAI-Powered Claims Assistant Nationwide</news:title>
+    </news:news>
+    <changefreq>daily</changefreq><priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://aiglimpse.ai/articles/hugging-face-releases-holo31-a-faster-local-ai-agent-for-computer-tasks-14fd9645</loc>
+    <news:news>
+      <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-06-02T14:13:23.000Z</news:publication_date>
+      <news:title>Hugging Face Releases Holo3.1: A Faster Local AI Agent for Computer Tasks</news:title>
+    </news:news>
+    <changefreq>daily</changefreq><priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://aiglimpse.ai/articles/new-framework-fixes-a-critical-flaw-in-how-ai-models-learn-multiple-tasks-4c14310c</loc>
     <news:news>
       <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
