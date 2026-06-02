@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "openai-expands-codex-ecosystem-with-role-specific-tools-3bd6a18f",
+      "title": "OpenAI Expands Codex Ecosystem with Role-Specific Tools",
+      "subtitle": "New plugins and integrations bring AI-assisted coding to analysts, marketers, and enterprise teams.",
+      "category": "llms",
+      "publishedAt": "2026-06-02T09:00:00.000Z",
+      "sourceUrl": "https://openai.com/index/codex-for-every-role-tool-workflow",
+      "sourceName": "OpenAI",
+      "sourceTier": 1,
+      "image": "/images/articles/openai-expands-codex-ecosystem-with-role-specific-tools-3bd6a18f.jpg"
+    },
+    {
       "slug": "travelers-deploys-openai-powered-claims-assistant-nationwide-2bdcacd7",
       "title": "Travelers Deploys OpenAI-Powered Claims Assistant Nationwide",
       "subtitle": "Major insurer automates claim filing with large language models, offering round-the-clock support and scaling capacity during peak periods.",
@@ -1389,6 +1400,7 @@
     "c6a6098019408457",
     "4c14310c56637d33",
     "14fd9645ab2928f4",
-    "2bdcacd703ee168f"
+    "2bdcacd703ee168f",
+    "3bd6a18fb688567d"
   ]
 }
