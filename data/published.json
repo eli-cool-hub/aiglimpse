@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "new-framework-fixes-a-critical-flaw-in-how-ai-models-learn-multiple-tasks-4c14310c",
+      "title": "New Framework Fixes a Critical Flaw in How AI Models Learn Multiple Tasks",
+      "subtitle": "Researchers propose a smarter way for multimodal AI systems to acquire new vision-language skills without corrupting existing knowledge.",
+      "category": "research",
+      "publishedAt": "2026-06-01T17:59:13.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2606.02576v1",
+      "sourceName": "arXiv (Yu-Cheng Shi, Zhen-Hao Xie, Jun-Tao Tang, Da-Wei Zhou)",
+      "sourceTier": 1,
+      "image": "/images/articles/new-framework-fixes-a-critical-flaw-in-how-ai-models-learn-multiple-tasks-4c14310c.jpg"
+    },
+    {
       "slug": "new-ai-model-cuts-robot-training-data-needs-by-generating-synthetic-demonstratio-c6a60980",
       "title": "New AI Model Cuts Robot Training Data Needs by Generating Synthetic Demonstrations",
       "subtitle": "Researchers introduce a method that synthesizes realistic robot training footage to reduce expensive real-world data collection for manipulation tasks.",
@@ -1353,6 +1364,7 @@
     "1426e0a4517e89c9",
     "d925a05749fa1297",
     "c3c395189b8d8c41",
-    "c6a6098019408457"
+    "c6a6098019408457",
+    "4c14310c56637d33"
   ]
 }

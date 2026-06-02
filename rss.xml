@@ -7,6 +7,14 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>New Framework Fixes a Critical Flaw in How AI Models Learn Multiple Tasks</title>
+      <link>https://aiglimpse.ai/articles/new-framework-fixes-a-critical-flaw-in-how-ai-models-learn-multiple-tasks-4c14310c</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-framework-fixes-a-critical-flaw-in-how-ai-models-learn-multiple-tasks-4c14310c</guid>
+      <description>Researchers propose a smarter way for multimodal AI systems to acquire new vision-language skills without corrupting existing knowledge.</description>
+      <pubDate>Mon, 01 Jun 2026 17:59:13 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
       <title>New AI Model Cuts Robot Training Data Needs by Generating Synthetic Demonstrations</title>
       <link>https://aiglimpse.ai/articles/new-ai-model-cuts-robot-training-data-needs-by-generating-synthetic-demonstratio-c6a60980</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/new-ai-model-cuts-robot-training-data-needs-by-generating-synthetic-demonstratio-c6a60980</guid>
@@ -397,14 +405,6 @@
       <description>Research reveals large language models internalize misinformation even when training data clearly marks statements as false, raising concerns about hallucination and data quality.</description>
       <pubDate>Thu, 28 May 2026 21:29:43 GMT</pubDate>
       <category>AI Tools &amp; Products</category>
-    </item>
-    <item>
-      <title>New AI Model Stabilizes Video Lighting Effects with Temporal Precision</title>
-      <link>https://aiglimpse.ai/articles/new-ai-model-stabilizes-video-lighting-effects-with-temporal-precision-7757ce88</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-ai-model-stabilizes-video-lighting-effects-with-temporal-precision-7757ce88</guid>
-      <description>Researchers introduce HarmoVid, a diffusion-based system that automatically matches foreground video lighting to background scenes while eliminating temporal flickering artifacts.</description>
-      <pubDate>Wed, 27 May 2026 17:59:02 GMT</pubDate>
-      <category>AI Research</category>
     </item>
   </channel>
 </rss>
