@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "new-training-method-teaches-ai-models-to-reason-about-hidden-spaces-7dc430ae",
+      "title": "New Training Method Teaches AI Models to Reason About Hidden Spaces",
+      "subtitle": "Researchers introduce a supervision technique that helps vision-language models imagine unseen perspectives, outperforming traditional text-based reasoning approaches.",
+      "category": "research",
+      "publishedAt": "2026-06-02T17:59:17.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2606.03988v1",
+      "sourceName": "arXiv (Mahtab Bigverdi, Lindsey Li, Weikai Huang, Yiming Liu, Jaemi…)",
+      "sourceTier": 1,
+      "image": "/images/articles/new-training-method-teaches-ai-models-to-reason-about-hidden-spaces-7dc430ae.jpg"
+    },
+    {
+      "slug": "simple-tweaks-revive-older-lidar-models-challenge-ai-scene-understanding-5b95d638",
+      "title": "Simple Tweaks Revive Older Lidar Models, Challenge AI Scene Understanding",
+      "subtitle": "Researchers show that basic input enhancements let legacy architectures match state-of-the-art performance without major redesigns.",
+      "category": "research",
+      "publishedAt": "2026-06-02T17:59:59.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2606.03992v1",
+      "sourceName": "arXiv (Tetiana Martyniuk, Jonathan Seele, Alexandre Boulch, Gilles …)",
+      "sourceTier": 1,
+      "image": "/images/articles/simple-tweaks-revive-older-lidar-models-challenge-ai-scene-understanding-5b95d638.jpg"
+    },
+    {
       "slug": "openai-pushes-for-global-framework-to-protect-youth-from-ai-risks-4d6ee39c",
       "title": "OpenAI Pushes for Global Framework to Protect Youth From AI Risks",
       "subtitle": "The AI lab calls for an international institute to establish safety standards and ensure young people benefit from artificial intelligence development.",
@@ -1413,6 +1435,8 @@
     "14fd9645ab2928f4",
     "2bdcacd703ee168f",
     "3bd6a18fb688567d",
-    "4d6ee39cf9517c10"
+    "4d6ee39cf9517c10",
+    "5b95d6383c9fbdeb",
+    "7dc430ae16fe9ea0"
   ]
 }

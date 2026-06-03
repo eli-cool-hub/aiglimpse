@@ -7,6 +7,22 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>New Training Method Teaches AI Models to Reason About Hidden Spaces</title>
+      <link>https://aiglimpse.ai/articles/new-training-method-teaches-ai-models-to-reason-about-hidden-spaces-7dc430ae</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-training-method-teaches-ai-models-to-reason-about-hidden-spaces-7dc430ae</guid>
+      <description>Researchers introduce a supervision technique that helps vision-language models imagine unseen perspectives, outperforming traditional text-based reasoning approaches.</description>
+      <pubDate>Tue, 02 Jun 2026 17:59:17 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
+      <title>Simple Tweaks Revive Older Lidar Models, Challenge AI Scene Understanding</title>
+      <link>https://aiglimpse.ai/articles/simple-tweaks-revive-older-lidar-models-challenge-ai-scene-understanding-5b95d638</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/simple-tweaks-revive-older-lidar-models-challenge-ai-scene-understanding-5b95d638</guid>
+      <description>Researchers show that basic input enhancements let legacy architectures match state-of-the-art performance without major redesigns.</description>
+      <pubDate>Tue, 02 Jun 2026 17:59:59 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
       <title>OpenAI Pushes for Global Framework to Protect Youth From AI Risks</title>
       <link>https://aiglimpse.ai/articles/openai-pushes-for-global-framework-to-protect-youth-from-ai-risks-4d6ee39c</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/openai-pushes-for-global-framework-to-protect-youth-from-ai-risks-4d6ee39c</guid>
@@ -388,22 +404,6 @@
       <guid isPermaLink="true">https://aiglimpse.ai/articles/openai-publishes-framework-for-independent-ai-model-audits-4d1ce20f</guid>
       <description>The company releases a standardized approach to third-party evaluations of advanced AI systems, aiming to establish industry norms for safety assessment.</description>
       <pubDate>Fri, 29 May 2026 00:00:00 GMT</pubDate>
-      <category>LLMs &amp; Chatbots</category>
-    </item>
-    <item>
-      <title>Understanding PyTorch Performance: A Guide to Built-in Profiling</title>
-      <link>https://aiglimpse.ai/articles/understanding-pytorch-performance-a-guide-to-built-in-profiling-b3239c8d</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/understanding-pytorch-performance-a-guide-to-built-in-profiling-b3239c8d</guid>
-      <description>Developers can now systematically measure and optimize model efficiency using PyTorch's native profiling tools.</description>
-      <pubDate>Fri, 29 May 2026 00:00:00 GMT</pubDate>
-      <category>AI Tools &amp; Products</category>
-    </item>
-    <item>
-      <title>OpenAI Unveils Rosalind Biodefense Program for Public Health AI</title>
-      <link>https://aiglimpse.ai/articles/openai-unveils-rosalind-biodefense-program-for-public-health-ai-76d2e551</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/openai-unveils-rosalind-biodefense-program-for-public-health-ai-76d2e551</guid>
-      <description>The initiative grants vetted researchers and federal agencies early access to advanced AI capabilities designed to strengthen pandemic preparedness and biodefense efforts.</description>
-      <pubDate>Fri, 29 May 2026 03:00:00 GMT</pubDate>
       <category>LLMs &amp; Chatbots</category>
     </item>
   </channel>
