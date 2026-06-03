@@ -1100,6 +1100,24 @@
         "devto": true,
         "hashnode": false
       }
+    },
+    "wasmer-deploys-ai-assisted-development-to-speed-edge-runtime-609a6c1a": {
+      "syndicated_at": "2026-06-03T23:46:26.709Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/wasmer-deploys-ai-assisted-development-to-speed-edge-runtime-386d",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 434,
+      "category": "llms",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
     }
   }
 }

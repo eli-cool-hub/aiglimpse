@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "wasmer-deploys-ai-assisted-development-to-speed-edge-runtime-609a6c1a",
+      "title": "Wasmer Deploys AI-Assisted Development to Speed Edge Runtime",
+      "subtitle": "Using OpenAI's code generation models, the WebAssembly platform accelerated Node.js runtime creation by 10x to 20x, completing months of work in weeks.",
+      "category": "llms",
+      "publishedAt": "2026-06-03T12:00:00.000Z",
+      "sourceUrl": "https://openai.com/index/wasmer",
+      "sourceName": "OpenAI",
+      "sourceTier": 1,
+      "image": "/images/articles/wasmer-deploys-ai-assisted-development-to-speed-edge-runtime-609a6c1a.jpg"
+    },
+    {
       "slug": "openai-proposes-federal-framework-for-advanced-ai-safety-9f358e7b",
       "title": "OpenAI Proposes Federal Framework for Advanced AI Safety",
       "subtitle": "The company releases a governance blueprint aimed at balancing innovation with national security concerns in frontier AI development.",
@@ -1509,6 +1520,7 @@
     "af32879389127aef",
     "e8ed93219e87a516",
     "35577243f358cc03",
-    "9f358e7b183ffd70"
+    "9f358e7b183ffd70",
+    "609a6c1a45335e78"
   ]
 }

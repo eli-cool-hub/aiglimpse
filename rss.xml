@@ -7,6 +7,14 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Wasmer Deploys AI-Assisted Development to Speed Edge Runtime</title>
+      <link>https://aiglimpse.ai/articles/wasmer-deploys-ai-assisted-development-to-speed-edge-runtime-609a6c1a</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/wasmer-deploys-ai-assisted-development-to-speed-edge-runtime-609a6c1a</guid>
+      <description>Using OpenAI's code generation models, the WebAssembly platform accelerated Node.js runtime creation by 10x to 20x, completing months of work in weeks.</description>
+      <pubDate>Wed, 03 Jun 2026 12:00:00 GMT</pubDate>
+      <category>LLMs &amp; Chatbots</category>
+    </item>
+    <item>
       <title>OpenAI Proposes Federal Framework for Advanced AI Safety</title>
       <link>https://aiglimpse.ai/articles/openai-proposes-federal-framework-for-advanced-ai-safety-9f358e7b</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/openai-proposes-federal-framework-for-advanced-ai-safety-9f358e7b</guid>
@@ -396,14 +404,6 @@
       <guid isPermaLink="true">https://aiglimpse.ai/articles/developers-launch-tiny-vllm-a-lightweight-engine-for-fast-ai-model-inference-51c7c42f</guid>
       <description>A new open-source C++ and CUDA framework aims to democratize efficient language model deployment for resource-constrained environments.</description>
       <pubDate>Fri, 29 May 2026 19:38:27 GMT</pubDate>
-      <category>AI Tools &amp; Products</category>
-    </item>
-    <item>
-      <title>Amazon Adapts Licensed Character Into AI-Animated Series Without Creator Approval</title>
-      <link>https://aiglimpse.ai/articles/amazon-adapts-licensed-character-into-ai-animated-series-without-creator-approva-0cd854d2</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/amazon-adapts-licensed-character-into-ai-animated-series-without-creator-approva-0cd854d2</guid>
-      <description>A dispute over intellectual property rights and AI-generated content raises questions about creator protections in streaming deals.</description>
-      <pubDate>Fri, 29 May 2026 20:56:59 GMT</pubDate>
       <category>AI Tools &amp; Products</category>
     </item>
   </channel>
