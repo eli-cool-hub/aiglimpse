@@ -7,6 +7,22 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>OpenAI Proposes Federal Framework for Advanced AI Safety</title>
+      <link>https://aiglimpse.ai/articles/openai-proposes-federal-framework-for-advanced-ai-safety-9f358e7b</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/openai-proposes-federal-framework-for-advanced-ai-safety-9f358e7b</guid>
+      <description>The company releases a governance blueprint aimed at balancing innovation with national security concerns in frontier AI development.</description>
+      <pubDate>Wed, 03 Jun 2026 10:00:00 GMT</pubDate>
+      <category>LLMs &amp; Chatbots</category>
+    </item>
+    <item>
+      <title>OpenAI Expands GPT-Rosalind for Drug Discovery and Genomics</title>
+      <link>https://aiglimpse.ai/articles/openai-expands-gpt-rosalind-for-drug-discovery-and-genomics-35577243</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/openai-expands-gpt-rosalind-for-drug-discovery-and-genomics-35577243</guid>
+      <description>New AI system brings specialized reasoning to life sciences, targeting molecular design and genetic analysis workflows.</description>
+      <pubDate>Wed, 03 Jun 2026 13:15:00 GMT</pubDate>
+      <category>LLMs &amp; Chatbots</category>
+    </item>
+    <item>
       <title>Reachy Mini Robot Gains AI Integration via Model Context Protocol</title>
       <link>https://aiglimpse.ai/articles/reachy-mini-robot-gains-ai-integration-via-model-context-protocol-e8ed9321</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/reachy-mini-robot-gains-ai-integration-via-model-context-protocol-e8ed9321</guid>
@@ -389,22 +405,6 @@
       <description>A dispute over intellectual property rights and AI-generated content raises questions about creator protections in streaming deals.</description>
       <pubDate>Fri, 29 May 2026 20:56:59 GMT</pubDate>
       <category>AI Tools &amp; Products</category>
-    </item>
-    <item>
-      <title>How Endava Transformed Workflows With AI-Powered Code Generation</title>
-      <link>https://aiglimpse.ai/articles/how-endava-transformed-workflows-with-ai-powered-code-generation-aaa854d5</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/how-endava-transformed-workflows-with-ai-powered-code-generation-aaa854d5</guid>
-      <description>Enterprise software firm cuts requirements analysis time from weeks to hours by deploying autonomous AI agents across its development operations.</description>
-      <pubDate>Thu, 28 May 2026 12:00:00 GMT</pubDate>
-      <category>LLMs &amp; Chatbots</category>
-    </item>
-    <item>
-      <title>Developer Dependency on AI Tools May Create Long-Term Code Quality Crisis</title>
-      <link>https://aiglimpse.ai/articles/developer-dependency-on-ai-tools-may-create-long-term-code-quality-crisis-490165ff</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/developer-dependency-on-ai-tools-may-create-long-term-code-quality-crisis-490165ff</guid>
-      <description>While AI coding assistants accelerate output, researchers question whether speed gains come at the expense of maintainable, robust software.</description>
-      <pubDate>Fri, 29 May 2026 22:14:22 GMT</pubDate>
-      <category>AI Business</category>
     </item>
   </channel>
 </rss>

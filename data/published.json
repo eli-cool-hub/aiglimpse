@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "openai-proposes-federal-framework-for-advanced-ai-safety-9f358e7b",
+      "title": "OpenAI Proposes Federal Framework for Advanced AI Safety",
+      "subtitle": "The company releases a governance blueprint aimed at balancing innovation with national security concerns in frontier AI development.",
+      "category": "llms",
+      "publishedAt": "2026-06-03T10:00:00.000Z",
+      "sourceUrl": "https://openai.com/index/frontier-safety-blueprint",
+      "sourceName": "OpenAI",
+      "sourceTier": 1,
+      "image": "/images/articles/openai-proposes-federal-framework-for-advanced-ai-safety-9f358e7b.jpg"
+    },
+    {
+      "slug": "openai-expands-gpt-rosalind-for-drug-discovery-and-genomics-35577243",
+      "title": "OpenAI Expands GPT-Rosalind for Drug Discovery and Genomics",
+      "subtitle": "New AI system brings specialized reasoning to life sciences, targeting molecular design and genetic analysis workflows.",
+      "category": "llms",
+      "publishedAt": "2026-06-03T13:15:00.000Z",
+      "sourceUrl": "https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind",
+      "sourceName": "OpenAI",
+      "sourceTier": 1,
+      "image": "/images/articles/openai-expands-gpt-rosalind-for-drug-discovery-and-genomics-35577243.jpg"
+    },
+    {
       "slug": "reachy-mini-robot-gains-ai-integration-via-model-context-protocol-e8ed9321",
       "title": "Reachy Mini Robot Gains AI Integration via Model Context Protocol",
       "subtitle": "Hugging Face bridges robotics and language models, enabling AI assistants to control physical hardware through standardized tool protocols.",
@@ -1485,6 +1507,8 @@
     "7305241d3b564f84",
     "df06e4e7745e6c47",
     "af32879389127aef",
-    "e8ed93219e87a516"
+    "e8ed93219e87a516",
+    "35577243f358cc03",
+    "9f358e7b183ffd70"
   ]
 }
