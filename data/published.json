@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "reachy-mini-robot-gains-ai-integration-via-model-context-protocol-e8ed9321",
+      "title": "Reachy Mini Robot Gains AI Integration via Model Context Protocol",
+      "subtitle": "Hugging Face bridges robotics and language models, enabling AI assistants to control physical hardware through standardized tool protocols.",
+      "category": "tools",
+      "publishedAt": "2026-06-03T00:00:00.000Z",
+      "sourceUrl": "https://huggingface.co/blog/adding-mcp-tools-to-reachy-mini",
+      "sourceName": "Hugging Face",
+      "sourceTier": 1,
+      "image": "/images/articles/reachy-mini-robot-gains-ai-integration-via-model-context-protocol-e8ed9321.jpg"
+    },
+    {
+      "slug": "training-method-beyond-chat-models-shows-promise-for-ai-systems-af328793",
+      "title": "Training Method Beyond Chat Models Shows Promise for AI Systems",
+      "subtitle": "Researchers expand preference optimization techniques to broader AI applications, moving past conversational interfaces.",
+      "category": "tools",
+      "publishedAt": "2026-06-03T12:55:11.000Z",
+      "sourceUrl": "https://huggingface.co/blog/Dharma-AI/direct-preference-optimization-beyond-chatbots",
+      "sourceName": "Hugging Face",
+      "sourceTier": 1,
+      "image": "/images/articles/training-method-beyond-chat-models-shows-promise-for-ai-systems-af328793.jpg"
+    },
+    {
       "slug": "openai-charts-independent-course-on-ai-regulation-and-ethics-df06e4e7",
       "title": "OpenAI Charts Independent Course on AI Regulation and Ethics",
       "subtitle": "The AI lab outlines its stance on policy advocacy, rejecting outside political influence while backing measured oversight of the technology.",
@@ -1461,6 +1483,8 @@
     "5b95d6383c9fbdeb",
     "7dc430ae16fe9ea0",
     "7305241d3b564f84",
-    "df06e4e7745e6c47"
+    "df06e4e7745e6c47",
+    "af32879389127aef",
+    "e8ed93219e87a516"
   ]
 }

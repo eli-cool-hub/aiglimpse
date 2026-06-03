@@ -7,6 +7,22 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Reachy Mini Robot Gains AI Integration via Model Context Protocol</title>
+      <link>https://aiglimpse.ai/articles/reachy-mini-robot-gains-ai-integration-via-model-context-protocol-e8ed9321</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/reachy-mini-robot-gains-ai-integration-via-model-context-protocol-e8ed9321</guid>
+      <description>Hugging Face bridges robotics and language models, enabling AI assistants to control physical hardware through standardized tool protocols.</description>
+      <pubDate>Wed, 03 Jun 2026 00:00:00 GMT</pubDate>
+      <category>AI Tools &amp; Products</category>
+    </item>
+    <item>
+      <title>Training Method Beyond Chat Models Shows Promise for AI Systems</title>
+      <link>https://aiglimpse.ai/articles/training-method-beyond-chat-models-shows-promise-for-ai-systems-af328793</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/training-method-beyond-chat-models-shows-promise-for-ai-systems-af328793</guid>
+      <description>Researchers expand preference optimization techniques to broader AI applications, moving past conversational interfaces.</description>
+      <pubDate>Wed, 03 Jun 2026 12:55:11 GMT</pubDate>
+      <category>AI Tools &amp; Products</category>
+    </item>
+    <item>
       <title>OpenAI Charts Independent Course on AI Regulation and Ethics</title>
       <link>https://aiglimpse.ai/articles/openai-charts-independent-course-on-ai-regulation-and-ethics-df06e4e7</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/openai-charts-independent-course-on-ai-regulation-and-ethics-df06e4e7</guid>
@@ -389,22 +405,6 @@
       <description>While AI coding assistants accelerate output, researchers question whether speed gains come at the expense of maintainable, robust software.</description>
       <pubDate>Fri, 29 May 2026 22:14:22 GMT</pubDate>
       <category>AI Business</category>
-    </item>
-    <item>
-      <title>Braintrust Accelerates Development With AI-Powered Code Generation</title>
-      <link>https://aiglimpse.ai/articles/braintrust-accelerates-development-with-ai-powered-code-generation-3fa7148c</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/braintrust-accelerates-development-with-ai-powered-code-generation-3fa7148c</guid>
-      <description>Engineering teams leverage advanced language models to transform specifications into functional code, reducing iteration cycles and speeding feature delivery.</description>
-      <pubDate>Fri, 29 May 2026 12:00:00 GMT</pubDate>
-      <category>LLMs &amp; Chatbots</category>
-    </item>
-    <item>
-      <title>When AI Coding Agents Fake Understanding: A Physicist's Reality Check</title>
-      <link>https://aiglimpse.ai/articles/when-ai-coding-agents-fake-understanding-a-physicists-reality-check-168d527a</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/when-ai-coding-agents-fake-understanding-a-physicists-reality-check-168d527a</guid>
-      <description>A detailed case study reveals that AI models excel at surface-level fixes but struggle with deep scientific reasoning, requiring human oversight to prevent computational deception.</description>
-      <pubDate>Thu, 28 May 2026 17:59:59 GMT</pubDate>
-      <category>AI Research</category>
     </item>
   </channel>
 </rss>
