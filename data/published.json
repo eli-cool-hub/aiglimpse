@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "openai-charts-independent-course-on-ai-regulation-and-ethics-df06e4e7",
+      "title": "OpenAI Charts Independent Course on AI Regulation and Ethics",
+      "subtitle": "The AI lab outlines its stance on policy advocacy, rejecting outside political influence while backing measured oversight of the technology.",
+      "category": "llms",
+      "publishedAt": "2026-06-01T17:00:00.000Z",
+      "sourceUrl": "https://openai.com/index/our-views-on-ai-policy-and-political-advocacy",
+      "sourceName": "OpenAI",
+      "sourceTier": 1,
+      "image": "/images/articles/openai-charts-independent-course-on-ai-regulation-and-ethics-df06e4e7.jpg"
+    },
+    {
+      "slug": "openais-codex-expands-beyond-developers-into-general-office-work-7305241d",
+      "title": "OpenAI's Codex Expands Beyond Developers Into General Office Work",
+      "subtitle": "New research shows AI coding assistants are reshaping how knowledge workers handle research, analysis, and content creation tasks.",
+      "category": "llms",
+      "publishedAt": "2026-06-02T02:00:00.000Z",
+      "sourceUrl": "https://openai.com/index/codex-for-knowledge-work",
+      "sourceName": "OpenAI",
+      "sourceTier": 1,
+      "image": "/images/articles/openais-codex-expands-beyond-developers-into-general-office-work-7305241d.jpg"
+    },
+    {
       "slug": "new-training-method-teaches-ai-models-to-reason-about-hidden-spaces-7dc430ae",
       "title": "New Training Method Teaches AI Models to Reason About Hidden Spaces",
       "subtitle": "Researchers introduce a supervision technique that helps vision-language models imagine unseen perspectives, outperforming traditional text-based reasoning approaches.",
@@ -1437,6 +1459,8 @@
     "3bd6a18fb688567d",
     "4d6ee39cf9517c10",
     "5b95d6383c9fbdeb",
-    "7dc430ae16fe9ea0"
+    "7dc430ae16fe9ea0",
+    "7305241d3b564f84",
+    "df06e4e7745e6c47"
   ]
 }
