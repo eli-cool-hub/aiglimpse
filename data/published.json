@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "quantum-computing-startups-attract-billions-despite-losses-8cc9037d",
+      "title": "Quantum Computing Startups Attract Billions Despite Losses",
+      "subtitle": "Wall Street's appetite for quantum ventures signals confidence in AI-powered computing's future, even as companies hemorrhage cash.",
+      "category": "tools",
+      "publishedAt": "2026-06-04T09:34:23.000Z",
+      "sourceUrl": "https://www.wired.com/story/quantum-computing-is-having-its-public-market-moment-quantinuum/",
+      "sourceName": "Wired AI",
+      "sourceTier": 2,
+      "image": "/images/articles/quantum-computing-startups-attract-billions-despite-losses-8cc9037d.jpg"
+    },
+    {
       "slug": "major-ai-labs-push-congress-to-regulate-synthetic-dna-tracking-e948149b",
       "title": "Major AI Labs Push Congress to Regulate Synthetic DNA Tracking",
       "subtitle": "OpenAI, Anthropic, and other leaders urge lawmakers to close security gaps that could enable AI-assisted bioweapon development.",
@@ -1545,6 +1556,7 @@
     "9f358e7b183ffd70",
     "609a6c1a45335e78",
     "28ca46c71a837478",
-    "e948149ba483b482"
+    "e948149ba483b482",
+    "8cc9037df299c87b"
   ]
 }
