@@ -83,10 +83,9 @@
 
 <h2>The core anatomy of a RAG system</h2>
 <figure class="article-image article-image--inline">
-  <img src="/images/articles/what-is-retrieval-augmented-generation-rag-inline-1.jpg" alt="Why this matters now" loading="lazy" width="1200" height="630">
-  <figcaption class="article-image-credit">Photo by <a href="https://www.pexels.com/photo/empty-orange-cup-lying-down-on-ground-20307176/" rel="nofollow noopener" target="_blank">Chris F</a> on Pexels.</figcaption>
+  <img src="/images/articles/what-is-retrieval-augmented-generation-rag-inline-1.jpg" alt="The core anatomy of a RAG system" loading="lazy" width="1200" height="630">
+  <figcaption class="article-image-credit">Photo by <a href="https://www.pexels.com/photo/a-woman-using-a-virtual-reality-headset-7562050/" rel="nofollow noopener" target="_blank">SHVETS production</a> on Pexels.</figcaption>
 </figure>
-
 
 <p>A RAG pipeline has three main stages: indexing, retrieval, and generation.</p>
 
@@ -109,12 +108,6 @@
 <p>One critical detail: the embedding model you use during indexing must match the one you use at query time. If you embed your documents with BGE but query with OpenAI's embeddings, the similarity scores will be meaningless. It's a common source of frustration in production RAG systems.</p>
 
 <h2>Context window and the limits of retrieval</h2>
-<figure class="article-image article-image--inline">
-  <img src="/images/articles/what-is-retrieval-augmented-generation-rag-inline-2.jpg" alt="The core anatomy of a RAG system" loading="lazy" width="1200" height="630">
-  <figcaption class="article-image-credit">Photo by <a href="https://www.pexels.com/photo/white-spider-web-in-close-up-photography-8386726/" rel="nofollow noopener" target="_blank">Tara Winstead</a> on Pexels.</figcaption>
-</figure>
-
-
 <p>The context window of a language model is the total number of tokens (roughly, words) it can ingest in a single request. Larger context windows mean you can pass more retrieved context to the model, which sounds universally good, but it's not.</p>
 
 <p>Today's frontier models have enormous context windows: GPT-4 Turbo has 128,000 tokens (roughly 100,000 words), Claude 3 Opus has 200,000. In theory, this means you could retrieve 50 document chunks (each 2000 tokens) and still have room for the user's query and your system prompt. In practice, models often suffer from "context bloat." Larger context windows can lead to longer latency, higher API costs, and paradoxically, worse performance. Studies have shown that LLMs sometimes attend to irrelevant information in the middle of a long context and hallucinate based on it rather than staying focused on what matters.</p>

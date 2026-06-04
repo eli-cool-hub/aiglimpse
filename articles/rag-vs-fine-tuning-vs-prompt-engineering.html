@@ -81,10 +81,9 @@
 
 <h2>What each technique does (in 30 seconds)</h2>
 <figure class="article-image article-image--inline">
-  <img src="/images/articles/rag-vs-fine-tuning-vs-prompt-engineering-inline-1.jpg" alt="Why this matters now" loading="lazy" width="1200" height="630">
-  <figcaption class="article-image-credit">Photo by <a href="https://www.pexels.com/photo/calendar-and-a-text-saying-balls-matter-too-on-light-background-7857904/" rel="nofollow noopener" target="_blank">Leeloo The First</a> on Pexels.</figcaption>
+  <img src="/images/articles/rag-vs-fine-tuning-vs-prompt-engineering-inline-1.jpg" alt="What each technique does (in 30 seconds)" loading="lazy" width="1200" height="630">
+  <figcaption class="article-image-credit">Photo by <a href="https://www.pexels.com/photo/close-up-of-car-engine-under-hood-17042851/" rel="nofollow noopener" target="_blank">Matheus Bertelli</a> on Pexels.</figcaption>
 </figure>
-
 
 <p><strong>Prompt engineering</strong> means writing better instructions and examples in the system prompt or message context. You are not changing the model weights; you are changing the input. Cost is minimal (just extra tokens). Latency is negligible. Effectiveness is bounded by what the base model already knows.</p>
 
@@ -107,12 +106,6 @@
 <p>When prompt engineering is sufficient, stay with it. The operational overhead is near zero. You can change the prompt in seconds. You do not need to hold a fine-tuned model in memory or manage versioning.</p>
 
 <h2>RAG: adding context at inference time</h2>
-<figure class="article-image article-image--inline">
-  <img src="/images/articles/rag-vs-fine-tuning-vs-prompt-engineering-inline-2.jpg" alt="What each technique does (in 30 seconds)" loading="lazy" width="1200" height="630">
-  <figcaption class="article-image-credit">Photo by <a href="https://www.pexels.com/photo/white-and-brown-wall-clock-reading-at-4-48-834964/" rel="nofollow noopener" target="_blank">Lisa from Pexels</a> on Pexels.</figcaption>
-</figure>
-
-
 <p>RAG shines when you need the model to answer questions about proprietary or recent data that was not in its training set.</p>
 
 <p>A customer support agent needs to reference your company's knowledge base. A financial analyst needs to pull current earnings reports. A legal researcher needs to cite specific case law. Rather than fine-tune the model on all of this data (which is expensive and becomes stale), you retrieve the relevant chunks at query time and append them to the prompt.</p>
