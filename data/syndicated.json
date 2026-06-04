@@ -1190,6 +1190,42 @@
         "devto": true,
         "hashnode": false
       }
+    },
+    "nvidia-releases-tools-to-customize-speech-recognition-for-any-language-6830b206": {
+      "syndicated_at": "2026-06-04T16:56:02.073Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/nvidia-releases-tools-to-customize-speech-recognition-for-any-language-1c9l",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 482,
+      "category": "tools",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
+    },
+    "endava-restructures-development-operations-with-ai-agent-technology-a9ceef8c": {
+      "syndicated_at": "2026-06-04T16:56:11.414Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/endava-restructures-development-operations-with-ai-agent-technology-kj1",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 436,
+      "category": "llms",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
     }
   }
 }

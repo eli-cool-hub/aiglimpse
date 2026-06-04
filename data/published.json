@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "endava-restructures-development-operations-with-ai-agent-technology-a9ceef8c",
+      "title": "Endava Restructures Development Operations With AI Agent Technology",
+      "subtitle": "The software services firm deploys autonomous AI systems to streamline engineering workflows and reshape how enterprises deliver code.",
+      "category": "llms",
+      "publishedAt": "2026-06-04T12:00:00.000Z",
+      "sourceUrl": "https://openai.com/index/endava-frontiers",
+      "sourceName": "OpenAI",
+      "sourceTier": 1,
+      "image": "/images/articles/endava-restructures-development-operations-with-ai-agent-technology-a9ceef8c.jpg"
+    },
+    {
+      "slug": "nvidia-releases-tools-to-customize-speech-recognition-for-any-language-6830b206",
+      "title": "Nvidia Releases Tools to Customize Speech Recognition for Any Language",
+      "subtitle": "Nemotron 3.5 ASR model enables developers to adapt speech systems to regional dialects and specialized domains without building from scratch.",
+      "category": "tools",
+      "publishedAt": "2026-06-04T12:59:35.000Z",
+      "sourceUrl": "https://huggingface.co/blog/nvidia/fine-tuning-nemotron-35-asr",
+      "sourceName": "Hugging Face",
+      "sourceTier": 1,
+      "image": "/images/articles/nvidia-releases-tools-to-customize-speech-recognition-for-any-language-6830b206.jpg"
+    },
+    {
       "slug": "new-benchmark-suite-evaluates-ai-agents-across-213-real-world-tasks-3aa17841",
       "title": "New Benchmark Suite Evaluates AI Agents Across 213 Real-World Tasks",
       "subtitle": "ServiceNow releases expanded evaluation framework covering 3 domains and 121 tools to measure AI system capabilities in practical scenarios.",
@@ -1569,6 +1591,8 @@
     "28ca46c71a837478",
     "e948149ba483b482",
     "8cc9037df299c87b",
-    "3aa17841d460378b"
+    "3aa17841d460378b",
+    "6830b206d01e7da1",
+    "a9ceef8ca4867f48"
   ]
 }

@@ -7,6 +7,22 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Endava Restructures Development Operations With AI Agent Technology</title>
+      <link>https://aiglimpse.ai/articles/endava-restructures-development-operations-with-ai-agent-technology-a9ceef8c</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/endava-restructures-development-operations-with-ai-agent-technology-a9ceef8c</guid>
+      <description>The software services firm deploys autonomous AI systems to streamline engineering workflows and reshape how enterprises deliver code.</description>
+      <pubDate>Thu, 04 Jun 2026 12:00:00 GMT</pubDate>
+      <category>LLMs &amp; Chatbots</category>
+    </item>
+    <item>
+      <title>Nvidia Releases Tools to Customize Speech Recognition for Any Language</title>
+      <link>https://aiglimpse.ai/articles/nvidia-releases-tools-to-customize-speech-recognition-for-any-language-6830b206</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/nvidia-releases-tools-to-customize-speech-recognition-for-any-language-6830b206</guid>
+      <description>Nemotron 3.5 ASR model enables developers to adapt speech systems to regional dialects and specialized domains without building from scratch.</description>
+      <pubDate>Thu, 04 Jun 2026 12:59:35 GMT</pubDate>
+      <category>AI Tools &amp; Products</category>
+    </item>
+    <item>
       <title>New Benchmark Suite Evaluates AI Agents Across 213 Real-World Tasks</title>
       <link>https://aiglimpse.ai/articles/new-benchmark-suite-evaluates-ai-agents-across-213-real-world-tasks-3aa17841</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/new-benchmark-suite-evaluates-ai-agents-across-213-real-world-tasks-3aa17841</guid>
@@ -388,22 +404,6 @@
       <guid isPermaLink="true">https://aiglimpse.ai/articles/new-framework-teaches-robots-to-perceive-motion-not-just-objects-73a93525</guid>
       <description>DynaFLIP embeds action-awareness into visual perception, helping robots generalize better to real-world manipulation tasks.</description>
       <pubDate>Thu, 28 May 2026 17:59:53 GMT</pubDate>
-      <category>AI Research</category>
-    </item>
-    <item>
-      <title>New Tool Reveals Hidden Training Data Recipes of Major AI Models</title>
-      <link>https://aiglimpse.ai/articles/new-tool-reveals-hidden-training-data-recipes-of-major-ai-models-5f7d317c</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-tool-reveals-hidden-training-data-recipes-of-major-ai-models-5f7d317c</guid>
-      <description>Researchers develop a method to reverse-engineer what public and proprietary language models learned from during training, addressing a major AI transparency gap.</description>
-      <pubDate>Thu, 28 May 2026 17:59:53 GMT</pubDate>
-      <category>AI Research</category>
-    </item>
-    <item>
-      <title>New Method Slashes Video AI Memory Use by 93% While Boosting Speed</title>
-      <link>https://aiglimpse.ai/articles/new-method-slashes-video-ai-memory-use-by-93-while-boosting-speed-fbd3f976</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-method-slashes-video-ai-memory-use-by-93-while-boosting-speed-fbd3f976</guid>
-      <description>Researchers introduce a compression technique that lets video diffusion models generate longer sequences without the typical memory and latency penalties.</description>
-      <pubDate>Thu, 28 May 2026 17:59:57 GMT</pubDate>
       <category>AI Research</category>
     </item>
   </channel>
