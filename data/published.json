@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "hugging-face-unveils-cli-tool-built-for-ai-agent-workflows-05982956",
+      "title": "Hugging Face Unveils CLI Tool Built for AI Agent Workflows",
+      "subtitle": "New command-line interface prioritizes agent-friendly operations on the Model Hub, streamlining how autonomous AI systems interact with model repositories.",
+      "category": "tools",
+      "publishedAt": "2026-06-04T00:00:00.000Z",
+      "sourceUrl": "https://huggingface.co/blog/hf-cli-for-agents",
+      "sourceName": "Hugging Face",
+      "sourceTier": 1,
+      "image": "/images/articles/hugging-face-unveils-cli-tool-built-for-ai-agent-workflows-05982956.jpg"
+    },
+    {
+      "slug": "ai-systems-could-transform-biological-defense-strategy-91a69374",
+      "title": "AI Systems Could Transform Biological Defense Strategy",
+      "subtitle": "Machine learning frameworks offer new pathways for detecting and responding to biosecurity threats, shifting how governments prepare for biological risks.",
+      "category": "llms",
+      "publishedAt": "2026-06-04T00:00:00.000Z",
+      "sourceUrl": "https://openai.com/index/biodefense-in-the-intelligence-age",
+      "sourceName": "OpenAI",
+      "sourceTier": 1,
+      "image": "/images/articles/ai-systems-could-transform-biological-defense-strategy-91a69374.jpg"
+    },
+    {
       "slug": "chatgpt-gets-persistent-memory-to-improve-long-term-user-understanding-740532bc",
       "title": "ChatGPT Gets Persistent Memory to Improve Long-Term User Understanding",
       "subtitle": "OpenAI's new memory feature enables ChatGPT to retain user preferences across sessions, reshaping how conversational AI maintains context.",
@@ -1617,6 +1639,8 @@
     "6830b206d01e7da1",
     "a9ceef8ca4867f48",
     "8814366451dbee28",
-    "740532bc02abe693"
+    "740532bc02abe693",
+    "91a6937411cb2341",
+    "059829560769baf9"
   ]
 }
