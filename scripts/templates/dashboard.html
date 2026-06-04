@@ -103,6 +103,8 @@
   .briefing-col.issues h3 { color: var(--bad); }
   .briefing-col.empty-col { color: var(--muted); font-size: 13px; font-style: italic; }
   .ops-row { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 16px; padding-top: 14px; border-top: 1px solid var(--line); }
+  .briefing-actions { margin-top: 12px; font-size: 13px; }
+  .briefing-actions a { font-weight: 600; }
 </style>
 </head>
 <body>
@@ -262,6 +264,7 @@ document.getElementById('property-chip').textContent = SNAPSHOT.ga4_property;
       ${col('Issues', 'issues', b.issues)}
     </div>
     ${ops.length ? `<div class="ops-row">${ops.map(o => `<span class="chip">${o}</span>`).join('')}</div>` : ''}
+    ${(b.actions || []).length ? `<div class="briefing-actions">${b.actions.map(a => `<div><a href="${a.href}">${a.label}</a></div>`).join('')}</div>` : ''}
   `;
 })();
 

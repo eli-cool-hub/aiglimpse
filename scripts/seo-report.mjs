@@ -16,6 +16,7 @@ import path from 'node:path';
 import { syndicationStats } from './lib/syndicate.mjs';
 import { applySeoRecommendations } from './lib/seo-actions.mjs';
 import { buildMorningBriefing, briefingToMarkdown } from './lib/morning-briefing.mjs';
+import { collectIndexableUrls } from './lib/sitemap.mjs';
 
 const SA_JSON = process.env.GOOGLE_SERVICE_ACCOUNT_JSON;
 if (!SA_JSON) { console.error('GOOGLE_SERVICE_ACCOUNT_JSON missing'); process.exit(1); }
@@ -393,11 +394,13 @@ try {
   indexingStatus = JSON.parse(await fs.readFile(path.join(process.cwd(), 'data', 'indexing-status.json'), 'utf8'));
 } catch { /* not run yet */ }
 
+const sitemapUrlCount = collectIndexableUrls(publishedIndex, GSC_SITE).length;
 snapshot.briefing = buildMorningBriefing({
   snapshot,
   history,
   published: publishedIndex,
-  indexingStatus
+  indexingStatus,
+  sitemapUrlCount
 });
 
 // ----------------------------------------------------------------------

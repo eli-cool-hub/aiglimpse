@@ -263,6 +263,69 @@ async function addInboundInternalLinks(pageUrl, maxLinks = 3) {
 
 const AUTO_APPLY_TYPES = new Set(['near_page_one', 'low_ctr_page']);
 
+const PINNED_CTR_SLUG = 'critical-flaw-in-popular-python-framework-exposes-ai-agents-globally-dba2f662';
+const PINNED_PAGE = `https://aiglimpse.ai/articles/${PINNED_CTR_SLUG}`;
+
+function buildPinnedStarletteFastApiMeta(snapshot) {
+  const queries = (snapshot?.gsc?.queries || [])
+    .filter(q => /starlette|fastapi|python|arstechnica/i.test(q.key))
+    .sort((a, b) => b.impressions - a.impressions);
+  const topQuery = queries[0]?.key || 'starlette python fastapi arstechnica';
+
+  const title = 'Starlette / FastAPI Python Security Flaw Exposes AI Agents | AI Glimpse';
+  const description = `${topQuery} — Critical Starlette and FastAPI vulnerability exposes production AI agents; patch guidance for Python developers.`.slice(0, 158);
+
+  return { title, description, topQuery };
+}
+
+/** Always refresh GSC landing-page meta for the Starlette/FastAPI security article. */
+export async function applyPinnedPageOptimizations(snapshot) {
+  const improved = buildPinnedStarletteFastApiMeta(snapshot);
+  const slug = PINNED_CTR_SLUG;
+  const filePath = path.join(ARTICLES_DIR, `${slug}.html`);
+  let html;
+  try {
+    html = await fs.readFile(filePath, 'utf8');
+  } catch {
+    return { changed: false, note: 'Pinned article file not found.' };
+  }
+
+  const titleMatch = html.match(/<title>([^<]*)<\/title>/);
+  const descMatch = html.match(/<meta name="description" content="([^"]*)">/);
+  const currentTitle = titleMatch?.[1] || '';
+  const currentDescription = descMatch?.[1] || '';
+
+  if (currentTitle === improved.title && currentDescription === improved.description) {
+    return { changed: false, note: 'Pinned Starlette/FastAPI meta already current.' };
+  }
+
+  let next = html;
+  next = replaceMeta(next, 'title', improved.title);
+  next = replaceMeta(next, 'description', improved.description);
+  next = replaceMeta(next, 'ogTitle', improved.title.replace(/ \| AI Glimpse$/, ''));
+  next = replaceMeta(next, 'ogDescription', improved.description);
+  next = replaceMeta(next, 'twitterTitle', improved.title.replace(/ \| AI Glimpse$/, ''));
+  next = replaceMeta(next, 'twitterDescription', improved.description);
+  next = replaceJsonLdHeadline(next, improved.title, improved.description);
+
+  await fs.writeFile(filePath, next);
+
+  const state = await loadState();
+  const id = `low_ctr_page|${PINNED_PAGE}|`;
+  state.actions[id] = {
+    status: 'done',
+    applied_at: new Date().toISOString(),
+    applied_note: `Pinned CTR meta (${improved.topQuery}).`
+  };
+  await saveState(state);
+
+  const links = await addInboundInternalLinks(PINNED_PAGE, 2);
+  return {
+    changed: true,
+    note: `Pinned Starlette/FastAPI title/meta for "${improved.topQuery}".${links.changed ? ` ${links.note}` : ''}`
+  };
+}
+
 async function applyOne(rec, snapshot, state) {
   const id = recId(rec);
   const existing = state.actions[id];
@@ -307,8 +370,9 @@ async function applyOne(rec, snapshot, state) {
 }
 
 export async function applySeoRecommendations(recommendations, snapshot) {
+  const pinned = await applyPinnedPageOptimizations(snapshot);
   const state = await loadState();
-  let filesChanged = false;
+  let filesChanged = pinned.changed;
   const enriched = [];
 
   for (const rec of recommendations) {

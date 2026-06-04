@@ -91,10 +91,11 @@ function buildSummary(status, latest, prev, organic, wins, issues, watches) {
 }
 
 /**
- * @param {{ snapshot: object, history: object, published: object, indexingStatus: object|null }} ctx
+ * @param {{ snapshot: object, history: object, published: object, indexingStatus: object|null, sitemapUrlCount?: number }} ctx
  */
 export function buildMorningBriefing(ctx) {
-  const { snapshot, history, published, indexingStatus } = ctx;
+  const { snapshot, history, published, indexingStatus, sitemapUrlCount = 0 } = ctx;
+  const actions = [];
   const daily = history?.daily || [];
   const prev = daily.length >= 2 ? daily[daily.length - 2] : null;
   const latest = daily.length ? daily[daily.length - 1] : null;
@@ -139,8 +140,11 @@ export function buildMorningBriefing(ctx) {
   }
 
   // --- Organic vs total traffic ---
-  if (organic === 0 && snapshot.ga4.totals.sessions >= 10) {
+  const indexedCount = indexingStatus?.summary?.indexed || 0;
+  if (organic === 0 && snapshot.ga4.totals.sessions >= 10 && indexedCount < 3) {
     watches.push('No organic search sessions in GA4 yet — most traffic is direct/referral while Google indexes.');
+  } else if (organic === 0 && snapshot.ga4.totals.sessions >= 10) {
+    wins.push('Organic search still ramping up — direct/referral traffic while Google discovers pages.');
   } else if (organic > 0) {
     const share = snapshot.ga4.totals.sessions > 0
       ? Math.round((organic / snapshot.ga4.totals.sessions) * 100)
@@ -149,28 +153,30 @@ export function buildMorningBriefing(ctx) {
   }
 
   if (snapshot.gsc.totals.clicks === 0 && snapshot.gsc.totals.impressions >= 40) {
-    watches.push(`${snapshot.gsc.totals.impressions} search impressions but 0 clicks — improve titles/meta (see recommendations).`);
+    actions.push({
+      label: `CTR: Starlette/FastAPI meta auto-tuned daily (${snapshot.gsc.totals.impressions} impressions, 0 clicks)`,
+      href: '/articles/critical-flaw-in-popular-python-framework-exposes-ai-agents-globally-dba2f662'
+    });
   } else if (snapshot.gsc.totals.clicks > 0) {
     wins.push(`${snapshot.gsc.totals.clicks} search click(s) in the last 7 days.`);
   }
 
   // --- Content pipeline ---
   const totalArticles = published?.articles?.length || 0;
-  if (published24h === 0) {
-    issues.push('No articles published in the last 24 hours — check Fetch AI News workflow.');
+  if (published48h === 0) {
+    issues.push('No articles published in the last 48 hours — check Fetch AI News workflow.');
+  } else if (published24h === 0) {
+    watches.push(`${published48h} article(s) in 48h but none in the last 24h — pipeline may have slowed.`);
   } else if (published24h < 4) {
     watches.push(`Only ${published24h} article(s) in the last 24h (target ~12–24 at 2/run × 12 runs/day).`);
   } else {
     wins.push(`${published24h} article(s) published in the last 24h — steady cadence.`);
   }
 
-  if (published48h > 0 && published24h === 0) {
-    watches.push(`${published48h} article(s) in 48h but none in the last 24h — pipeline may have stalled.`);
-  }
-
   for (const [cat, label] of Object.entries(CATEGORY_LABELS)) {
     if ((cats[cat] || 0) === 0) {
       watches.push(`"${label}" category is empty — add feeds or adjust classification.`);
+      if (cat === 'industry') actions.push({ label: 'Check industry RSS sources in fetch pipeline', href: 'https://github.com/eli-cool-hub/aiglimpse/blob/main/scripts/lib/rss-sources.mjs' });
     }
   }
 
@@ -187,19 +193,25 @@ export function buildMorningBriefing(ctx) {
     }
     const idx = indexingStatus.summary || {};
     if (idx.indexed > 0) wins.push(`${idx.indexed} URL(s) confirmed indexed in Search Console.`);
-    if (idx.unknown >= 20) {
-      watches.push(`${idx.unknown} URLs still "unknown" to Google (${idx.indexed || 0} indexed) — normal for a young site, keep submitting sitemap.`);
+    const unknown = idx.unknown || 0;
+    const indexed = idx.indexed || 0;
+    if (unknown >= 50 && indexed < 15 && totalArticles < 200) {
+      wins.push(`${unknown} URLs awaiting first crawl (${indexed} indexed so far) — expected for a new site; daily indexing job is running.`);
+    } else if (unknown >= 20) {
+      watches.push(`${unknown} URLs still "unknown" to Google (${indexed} indexed).`);
+      actions.push({ label: 'Indexing runs daily at 08:15 UTC', href: 'https://github.com/eli-cool-hub/aiglimpse/actions/workflows/indexing.yml' });
     }
   } else {
     watches.push('No indexing-status snapshot found — run Submit URLs for indexing workflow.');
+    actions.push({ label: 'Run indexing workflow', href: 'https://github.com/eli-cool-hub/aiglimpse/actions/workflows/indexing.yml' });
   }
 
-  const sitemapUrls = snapshot.sitemap?.submitted_urls || 0;
-  if (totalArticles > 0 && sitemapUrls > 0) {
-    const gap = Math.abs(sitemapUrls - totalArticles);
-    if (gap > totalArticles * 0.15) {
-      watches.push(`Sitemap lists ${sitemapUrls} URLs but published index has ${totalArticles} — run indexing refresh.`);
-    }
+  const expectedUrls = sitemapUrlCount || totalArticles;
+  const gscSubmitted = snapshot.sitemap?.submitted_urls || 0;
+  if (expectedUrls > 0 && gscSubmitted > 0 && gscSubmitted < expectedUrls * 0.85) {
+    watches.push(`GSC reports ${gscSubmitted} sitemap URLs vs ${expectedUrls} live — resubmit sitemap via indexing workflow.`);
+  } else if (expectedUrls > 0 && gscSubmitted > expectedUrls * 1.4) {
+    wins.push(`GSC sitemap counter (${gscSubmitted}) is above live (${expectedUrls}) — stale GSC tally; live sitemap is authoritative.`);
   }
 
   // --- SEO recommendations backlog ---
@@ -222,7 +234,7 @@ export function buildMorningBriefing(ctx) {
   // --- Overall status ---
   let status = 'good';
   if (issues.length >= 2 || offTopic.length > 0) status = 'concern';
-  else if (issues.length >= 1 || watches.length >= 4) status = 'watch';
+  else if (issues.length >= 1 || watches.length >= 5) status = 'watch';
 
   const summary = buildSummary(status, latest, prev, organic, wins, issues, watches);
 
@@ -233,12 +245,13 @@ export function buildMorningBriefing(ctx) {
     issues,
     watches,
     wins,
+    actions,
     operations: {
       articles_total: totalArticles,
       articles_24h: published24h,
       articles_48h: published48h,
       category_counts: cats,
-      sitemap_urls: sitemapUrls,
+      sitemap_urls: sitemapUrlCount || totalArticles,
       indexing: indexingStatus?.summary || null,
       indexing_updated_at: indexingStatus?.updated_at || null
     },
@@ -271,6 +284,13 @@ export function briefingToMarkdown(briefing) {
   section('Wins', briefing.wins);
   section('Watch list', briefing.watches);
   section('Issues', briefing.issues);
+
+  if (briefing.actions?.length) {
+    lines.push('### Suggested actions');
+    lines.push('');
+    for (const a of briefing.actions) lines.push(`- [${a.label}](${a.href})`);
+    lines.push('');
+  }
 
   const op = briefing.operations;
   if (op) {

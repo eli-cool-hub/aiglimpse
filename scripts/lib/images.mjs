@@ -321,6 +321,53 @@ function wrapTitle(title, maxChars = 28, maxLines = 3) {
 const PEXELS_TIMEOUT_MS = 12000;
 const PEXELS_PER_PAGE = 30;
 
+// Reject stock photos whose Pexels alt text clearly mismatches the article topic.
+const IRRELEVANT_ALT = /\b(coffee|espresso|moka|latte|cappuccino|barista|breakfast|pancake|croissant|salad|pizza|beer|wine glass|cocktail|yoga mat|hair salon|makeup artist|wedding bouquet|engagement ring|pet dog|cat sleeping|beach sunset|mountain hike|fitness gym dumbbell)\b/i;
+
+const TOPIC_HINTS = [
+  { re: /\b(nvidia|gpu|chip|semiconductor|rubin|cosmos|cuda)\b/i, want: /\b(chip|computer|server|data center|circuit|technology|robot|factory)\b/i },
+  { re: /\b(hospital|medical|healthcare|clinical|diagnos|patient|pharma)\b/i, want: /\b(hospital|doctor|medical|healthcare|laboratory|clinic|nurse)\b/i },
+  { re: /\b(robot|humanoid|robotics|warehouse)\b/i, want: /\b(robot|automation|factory|warehouse|arm)\b/i },
+  { re: /\b(security|vulnerability|hack|breach|malware)\b/i, want: /\b(code|computer|security|hacker|developer|laptop|server)\b/i },
+  { re: /\b(fastapi|starlette|python|code|developer|github)\b/i, want: /\b(code|programming|laptop|developer|computer|software)\b/i },
+  { re: /\b(openai|chatgpt|llm|claude|gemini)\b/i, want: /\b(laptop|chat|technology|office|computer|ai)\b/i }
+];
+
+function articleContextBlob(opts) {
+  return `${opts.title || ''} ${opts.subtitle || ''} ${(opts.keywords || []).join(' ')} ${opts.bodyHtml || ''}`.toLowerCase();
+}
+
+function photoAltMatchesArticle(photo, query, opts) {
+  const alt = String(photo?.alt || '').toLowerCase();
+  if (!alt) return true;
+  if (IRRELEVANT_ALT.test(alt) && !IRRELEVANT_ALT.test(query) && !IRRELEVANT_ALT.test(articleContextBlob(opts))) {
+    return false;
+  }
+  const blob = articleContextBlob(opts);
+  for (const { re, want } of TOPIC_HINTS) {
+    if (re.test(blob) || re.test(query)) {
+      if (!want.test(alt) && IRRELEVANT_ALT.test(alt)) return false;
+      if (want.test(alt)) return true;
+    }
+  }
+  return true;
+}
+
+function pickRelevantPhoto(photos, slug, slot, query, opts) {
+  if (!photos.length) return null;
+  const seed = seedFromSlug(slug) + slot * 7919;
+  for (let offset = 0; offset < photos.length; offset++) {
+    const candidate = photos[(seed + offset) % photos.length];
+    if (!candidate || _usedPhotoIds.has(candidate.id)) continue;
+    if (photoAltMatchesArticle(candidate, query, opts)) return candidate;
+  }
+  for (let offset = 0; offset < photos.length; offset++) {
+    const candidate = photos[(seed + offset) % photos.length];
+    if (candidate && !_usedPhotoIds.has(candidate.id)) return candidate;
+  }
+  return null;
+}
+
 async function pexelsSearch(apiKey, query) {
   const url = `https://api.pexels.com/v1/search?query=${encodeURIComponent(query)}` +
     `&orientation=landscape&size=large&per_page=${PEXELS_PER_PAGE}`;
@@ -356,12 +403,14 @@ async function downloadPexelsPhoto(photo) {
   return buf;
 }
 
-async function fetchPexelsForQueries(apiKey, queries) {
+async function fetchPexelsForQueries(apiKey, queries, opts = {}) {
   let lastError;
   for (const query of queries) {
     try {
       const photos = await pexelsSearch(apiKey, query);
-      if (photos.length) return { photos, usedQuery: query };
+      const relevant = photos.filter(p => photoAltMatchesArticle(p, query, opts));
+      const pool = relevant.length ? relevant : photos;
+      if (pool.length) return { photos: pool, usedQuery: query };
     } catch (e) {
       lastError = e;
     }
@@ -377,8 +426,8 @@ async function tryPexelsHero(slug, opts) {
     throw err;
   }
   const queries = buildHeroQueries(opts);
-  const { photos, usedQuery } = await fetchPexelsForQueries(apiKey, queries);
-  const chosen = pickUnusedPhoto(photos, slug, 0);
+  const { photos, usedQuery } = await fetchPexelsForQueries(apiKey, queries, opts);
+  const chosen = pickRelevantPhoto(photos, slug, 0, usedQuery, opts);
   if (!chosen) throw new Error('no candidate');
   const buf = await downloadPexelsPhoto(chosen);
   _usedPhotoIds.add(chosen.id);
@@ -510,8 +559,8 @@ export async function generateInlineImages(slug, titleOrOpts, categoryMaybe, cou
 
     const queries = buildInlineQueries(opts, slot);
     try {
-      const { photos, usedQuery } = await fetchPexelsForQueries(apiKey, queries);
-      const chosen = pickUnusedPhoto(photos, slug, slot + 1);
+      const { photos, usedQuery } = await fetchPexelsForQueries(apiKey, queries, opts);
+      const chosen = pickRelevantPhoto(photos, slug, slot + 1, usedQuery, opts);
       if (!chosen) continue;
       const buf = await downloadPexelsPhoto(chosen);
       await fs.writeFile(filePath, buf);
