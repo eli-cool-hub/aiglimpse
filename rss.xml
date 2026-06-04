@@ -7,6 +7,14 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>New Benchmark Suite Evaluates AI Agents Across 213 Real-World Tasks</title>
+      <link>https://aiglimpse.ai/articles/new-benchmark-suite-evaluates-ai-agents-across-213-real-world-tasks-3aa17841</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-benchmark-suite-evaluates-ai-agents-across-213-real-world-tasks-3aa17841</guid>
+      <description>ServiceNow releases expanded evaluation framework covering 3 domains and 121 tools to measure AI system capabilities in practical scenarios.</description>
+      <pubDate>Thu, 04 Jun 2026 12:24:58 GMT</pubDate>
+      <category>AI Tools &amp; Products</category>
+    </item>
+    <item>
       <title>Quantum Computing Startups Attract Billions Despite Losses</title>
       <link>https://aiglimpse.ai/articles/quantum-computing-startups-attract-billions-despite-losses-8cc9037d</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/quantum-computing-startups-attract-billions-despite-losses-8cc9037d</guid>
@@ -396,14 +404,6 @@
       <guid isPermaLink="true">https://aiglimpse.ai/articles/new-method-slashes-video-ai-memory-use-by-93-while-boosting-speed-fbd3f976</guid>
       <description>Researchers introduce a compression technique that lets video diffusion models generate longer sequences without the typical memory and latency penalties.</description>
       <pubDate>Thu, 28 May 2026 17:59:57 GMT</pubDate>
-      <category>AI Research</category>
-    </item>
-    <item>
-      <title>New Framework Adds 3D Awareness to Video Object Tracking</title>
-      <link>https://aiglimpse.ai/articles/new-framework-adds-3d-awareness-to-video-object-tracking-c4267498</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-framework-adds-3d-awareness-to-video-object-tracking-c4267498</guid>
-      <description>Researchers tackle fundamental gaps in motion detection by grounding segmentation in spatiotemporal coordinates rather than relying on pre-computed 2D approximations.</description>
-      <pubDate>Thu, 28 May 2026 17:59:58 GMT</pubDate>
       <category>AI Research</category>
     </item>
   </channel>

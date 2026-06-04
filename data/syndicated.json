@@ -1172,6 +1172,24 @@
         "devto": true,
         "hashnode": false
       }
+    },
+    "new-benchmark-suite-evaluates-ai-agents-across-213-real-world-tasks-3aa17841": {
+      "syndicated_at": "2026-06-04T12:53:45.752Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/new-benchmark-suite-evaluates-ai-agents-across-213-real-world-tasks-5d12",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 431,
+      "category": "tools",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
     }
   }
 }
