@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "major-ai-labs-push-congress-to-regulate-synthetic-dna-tracking-e948149b",
+      "title": "Major AI Labs Push Congress to Regulate Synthetic DNA Tracking",
+      "subtitle": "OpenAI, Anthropic, and other leaders urge lawmakers to close security gaps that could enable AI-assisted bioweapon development.",
+      "category": "tools",
+      "publishedAt": "2026-06-04T01:01:00.000Z",
+      "sourceUrl": "https://www.wired.com/story/openai-anthropic-letter-ai-biological-weapons/",
+      "sourceName": "Wired AI",
+      "sourceTier": 2,
+      "image": "/images/articles/major-ai-labs-push-congress-to-regulate-synthetic-dna-tracking-e948149b.jpg"
+    },
+    {
+      "slug": "openai-charts-multi-pronged-policy-roadmap-for-ai-governance-28ca46c7",
+      "title": "OpenAI Charts Multi-Pronged Policy Roadmap for AI Governance",
+      "subtitle": "The AI lab proposes a framework addressing safety, child welfare, labor shifts, and international coordination as artificial intelligence deployment accelerates.",
+      "category": "llms",
+      "publishedAt": "2026-06-03T10:00:00.000Z",
+      "sourceUrl": "https://openai.com/index/public-policy-agenda",
+      "sourceName": "OpenAI",
+      "sourceTier": 1,
+      "image": "/images/articles/openai-charts-multi-pronged-policy-roadmap-for-ai-governance-28ca46c7.jpg"
+    },
+    {
       "slug": "wasmer-deploys-ai-assisted-development-to-speed-edge-runtime-609a6c1a",
       "title": "Wasmer Deploys AI-Assisted Development to Speed Edge Runtime",
       "subtitle": "Using OpenAI's code generation models, the WebAssembly platform accelerated Node.js runtime creation by 10x to 20x, completing months of work in weeks.",
@@ -1521,6 +1543,8 @@
     "e8ed93219e87a516",
     "35577243f358cc03",
     "9f358e7b183ffd70",
-    "609a6c1a45335e78"
+    "609a6c1a45335e78",
+    "28ca46c71a837478",
+    "e948149ba483b482"
   ]
 }

@@ -1118,6 +1118,42 @@
         "devto": true,
         "hashnode": false
       }
+    },
+    "openai-charts-multi-pronged-policy-roadmap-for-ai-governance-28ca46c7": {
+      "syndicated_at": "2026-06-04T04:17:06.821Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/openai-charts-multi-pronged-policy-roadmap-for-ai-governance-b53",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 497,
+      "category": "llms",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
+    },
+    "major-ai-labs-push-congress-to-regulate-synthetic-dna-tracking-e948149b": {
+      "syndicated_at": "2026-06-04T04:17:16.107Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/major-ai-labs-push-congress-to-regulate-synthetic-dna-tracking-4h4l",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 400,
+      "category": "tools",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
     }
   }
 }
