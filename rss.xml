@@ -7,6 +7,22 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>ChatGPT Gets Persistent Memory to Improve Long-Term User Understanding</title>
+      <link>https://aiglimpse.ai/articles/chatgpt-gets-persistent-memory-to-improve-long-term-user-understanding-740532bc</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/chatgpt-gets-persistent-memory-to-improve-long-term-user-understanding-740532bc</guid>
+      <description>OpenAI's new memory feature enables ChatGPT to retain user preferences across sessions, reshaping how conversational AI maintains context.</description>
+      <pubDate>Thu, 04 Jun 2026 09:00:00 GMT</pubDate>
+      <category>LLMs &amp; Chatbots</category>
+    </item>
+    <item>
+      <title>Nvidia Releases Customizable Safety Framework for Enterprise AI Models</title>
+      <link>https://aiglimpse.ai/articles/nvidia-releases-customizable-safety-framework-for-enterprise-ai-models-88143664</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/nvidia-releases-customizable-safety-framework-for-enterprise-ai-models-88143664</guid>
+      <description>New Nemotron 3.5 tools let companies adjust content policies without retraining, addressing growing demand for localized AI governance.</description>
+      <pubDate>Thu, 04 Jun 2026 18:57:45 GMT</pubDate>
+      <category>AI Tools &amp; Products</category>
+    </item>
+    <item>
       <title>Endava Restructures Development Operations With AI Agent Technology</title>
       <link>https://aiglimpse.ai/articles/endava-restructures-development-operations-with-ai-agent-technology-a9ceef8c</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/endava-restructures-development-operations-with-ai-agent-technology-a9ceef8c</guid>
@@ -389,22 +405,6 @@
       <description>Microsoft's move to token-based billing for its AI coding assistant has sparked widespread criticism over cost and value.</description>
       <pubDate>Sat, 30 May 2026 16:30:00 GMT</pubDate>
       <category>AI Business</category>
-    </item>
-    <item>
-      <title>Lean AI Model Detects Hidden Patterns in Time-Series Data</title>
-      <link>https://aiglimpse.ai/articles/lean-ai-model-detects-hidden-patterns-in-time-series-data-5453ead4</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/lean-ai-model-detects-hidden-patterns-in-time-series-data-5453ead4</guid>
-      <description>Researchers build interpretable anomaly detection system that rivals larger models while using a fraction of the parameters.</description>
-      <pubDate>Thu, 28 May 2026 17:59:50 GMT</pubDate>
-      <category>AI Research</category>
-    </item>
-    <item>
-      <title>New Framework Teaches Robots to Perceive Motion, Not Just Objects</title>
-      <link>https://aiglimpse.ai/articles/new-framework-teaches-robots-to-perceive-motion-not-just-objects-73a93525</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-framework-teaches-robots-to-perceive-motion-not-just-objects-73a93525</guid>
-      <description>DynaFLIP embeds action-awareness into visual perception, helping robots generalize better to real-world manipulation tasks.</description>
-      <pubDate>Thu, 28 May 2026 17:59:53 GMT</pubDate>
-      <category>AI Research</category>
     </item>
   </channel>
 </rss>

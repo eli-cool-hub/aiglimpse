@@ -1226,6 +1226,42 @@
         "devto": true,
         "hashnode": false
       }
+    },
+    "nvidia-releases-customizable-safety-framework-for-enterprise-ai-models-88143664": {
+      "syndicated_at": "2026-06-04T20:09:18.282Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/nvidia-releases-customizable-safety-framework-for-enterprise-ai-models-3eaf",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 485,
+      "category": "tools",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
+    },
+    "chatgpt-gets-persistent-memory-to-improve-long-term-user-understanding-740532bc": {
+      "syndicated_at": "2026-06-04T20:09:27.983Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/chatgpt-gets-persistent-memory-to-improve-long-term-user-understanding-4ii9",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 415,
+      "category": "llms",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
     }
   }
 }

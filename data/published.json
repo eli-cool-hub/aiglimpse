@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "chatgpt-gets-persistent-memory-to-improve-long-term-user-understanding-740532bc",
+      "title": "ChatGPT Gets Persistent Memory to Improve Long-Term User Understanding",
+      "subtitle": "OpenAI's new memory feature enables ChatGPT to retain user preferences across sessions, reshaping how conversational AI maintains context.",
+      "category": "llms",
+      "publishedAt": "2026-06-04T09:00:00.000Z",
+      "sourceUrl": "https://openai.com/index/chatgpt-memory-dreaming",
+      "sourceName": "OpenAI",
+      "sourceTier": 1,
+      "image": "/images/articles/chatgpt-gets-persistent-memory-to-improve-long-term-user-understanding-740532bc.jpg"
+    },
+    {
+      "slug": "nvidia-releases-customizable-safety-framework-for-enterprise-ai-models-88143664",
+      "title": "Nvidia Releases Customizable Safety Framework for Enterprise AI Models",
+      "subtitle": "New Nemotron 3.5 tools let companies adjust content policies without retraining, addressing growing demand for localized AI governance.",
+      "category": "tools",
+      "publishedAt": "2026-06-04T18:57:45.000Z",
+      "sourceUrl": "https://huggingface.co/blog/nvidia/nemotron-3-5-content-safety",
+      "sourceName": "Hugging Face",
+      "sourceTier": 1,
+      "image": "/images/articles/nvidia-releases-customizable-safety-framework-for-enterprise-ai-models-88143664.jpg"
+    },
+    {
       "slug": "endava-restructures-development-operations-with-ai-agent-technology-a9ceef8c",
       "title": "Endava Restructures Development Operations With AI Agent Technology",
       "subtitle": "The software services firm deploys autonomous AI systems to streamline engineering workflows and reshape how enterprises deliver code.",
@@ -1593,6 +1615,8 @@
     "8cc9037df299c87b",
     "3aa17841d460378b",
     "6830b206d01e7da1",
-    "a9ceef8ca4867f48"
+    "a9ceef8ca4867f48",
+    "8814366451dbee28",
+    "740532bc02abe693"
   ]
 }
