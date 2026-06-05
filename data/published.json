@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "defense-legal-ai-emerges-as-venture-capitals-next-frontier-03cf606c",
+      "title": "Defense Legal AI Emerges as Venture Capital's Next Frontier",
+      "subtitle": "While plaintiff-side legal tech has captured billions in funding, corporate defense workflows remain fragmented and ripe for AI-driven disruption.",
+      "category": "business",
+      "publishedAt": "2026-06-05T11:00:55.000Z",
+      "sourceUrl": "https://news.crunchbase.com/ai/defense-legal-tech-venture-funding-ip-theo/",
+      "sourceName": "Crunchbase News",
+      "sourceTier": 2,
+      "image": "/images/articles/defense-legal-ai-emerges-as-venture-capitals-next-frontier-03cf606c.jpg"
+    },
+    {
       "slug": "developers-train-llms-to-generate-documentation-in-retro-style-51270825",
       "title": "Developers Train LLMs to Generate Documentation in Retro Style",
       "subtitle": "A hands-on approach shows how fine-tuning can reshape AI writing toward specific aesthetic and functional goals.",
@@ -1677,6 +1688,7 @@
     "059829560769baf9",
     "d8a6af4c94ef5c3b",
     "0075318f10aff8d8",
-    "51270825a8d8a74f"
+    "51270825a8d8a74f",
+    "03cf606c5dc8100d"
   ]
 }
