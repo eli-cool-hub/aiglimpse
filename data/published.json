@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "new-framework-lets-robots-adjust-movement-speed-on-the-fly-c77c7f0b",
+      "title": "New Framework Lets Robots Adjust Movement Speed on the Fly",
+      "subtitle": "Researchers introduce TempoVLA, enabling single AI models to control robot execution speeds dynamically for safer, more efficient manipulation tasks.",
+      "category": "research",
+      "publishedAt": "2026-06-04T17:59:40.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2606.06491v1",
+      "sourceName": "arXiv (Dong Jing, Jingchen Nie, Tianqi Zhang, Jiaqi Liu, Huaxiu Yao…)",
+      "sourceTier": 1,
+      "image": "/images/articles/new-framework-lets-robots-adjust-movement-speed-on-the-fly-c77c7f0b.jpg"
+    },
+    {
+      "slug": "researchers-solve-code-models-repository-problem-with-adapter-networks-ff4ac8d5",
+      "title": "Researchers Solve Code Model's Repository Problem With Adapter Networks",
+      "subtitle": "New hypernetwork approach generates lightweight adapters that let AI coding tools understand evolving codebases without expensive retraining.",
+      "category": "research",
+      "publishedAt": "2026-06-04T17:59:46.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2606.06492v1",
+      "sourceName": "arXiv (Liliana Hotsko, Yinxi Li, Yuntian Deng, Pengyu Nie)",
+      "sourceTier": 1,
+      "image": "/images/articles/researchers-solve-code-models-repository-problem-with-adapter-networks-ff4ac8d5.jpg"
+    },
+    {
       "slug": "new-framework-helps-humanoid-robots-learn-complex-tasks-a7ae2321",
       "title": "New Framework Helps Humanoid Robots Learn Complex Tasks",
       "subtitle": "Researchers develop a unified control system that enables robots to perform diverse manipulation skills without task-specific training.",
@@ -1725,6 +1747,8 @@
     "03cf606c5dc8100d",
     "ed93d171d65803a8",
     "b56c4998cd8370ea",
-    "a7ae23219b4d103b"
+    "a7ae23219b4d103b",
+    "ff4ac8d5b4d5093b",
+    "c77c7f0b8de371f1"
   ]
 }

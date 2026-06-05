@@ -7,6 +7,22 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>New Framework Lets Robots Adjust Movement Speed on the Fly</title>
+      <link>https://aiglimpse.ai/articles/new-framework-lets-robots-adjust-movement-speed-on-the-fly-c77c7f0b</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-framework-lets-robots-adjust-movement-speed-on-the-fly-c77c7f0b</guid>
+      <description>Researchers introduce TempoVLA, enabling single AI models to control robot execution speeds dynamically for safer, more efficient manipulation tasks.</description>
+      <pubDate>Thu, 04 Jun 2026 17:59:40 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
+      <title>Researchers Solve Code Model's Repository Problem With Adapter Networks</title>
+      <link>https://aiglimpse.ai/articles/researchers-solve-code-models-repository-problem-with-adapter-networks-ff4ac8d5</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/researchers-solve-code-models-repository-problem-with-adapter-networks-ff4ac8d5</guid>
+      <description>New hypernetwork approach generates lightweight adapters that let AI coding tools understand evolving codebases without expensive retraining.</description>
+      <pubDate>Thu, 04 Jun 2026 17:59:46 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
       <title>New Framework Helps Humanoid Robots Learn Complex Tasks</title>
       <link>https://aiglimpse.ai/articles/new-framework-helps-humanoid-robots-learn-complex-tasks-a7ae2321</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/new-framework-helps-humanoid-robots-learn-complex-tasks-a7ae2321</guid>
@@ -389,22 +405,6 @@
       <description>An investigation into a cryptocurrency-powered smoking device reveals how dubious tech claims can proliferate across the internet.</description>
       <pubDate>Sun, 31 May 2026 13:00:00 GMT</pubDate>
       <category>AI Tools &amp; Products</category>
-    </item>
-    <item>
-      <title>1980s DIY Roboticists Built Walking Humanoid Using Pneumatic Muscles</title>
-      <link>https://aiglimpse.ai/articles/1980s-diy-roboticists-built-walking-humanoid-using-pneumatic-muscles-a32e3a71</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/1980s-diy-roboticists-built-walking-humanoid-using-pneumatic-muscles-a32e3a71</guid>
-      <description>An amateur engineering group in Britain created an innovative bipedal robot that challenged assumptions about what unconventional propulsion systems could achieve.</description>
-      <pubDate>Sun, 31 May 2026 13:00:01 GMT</pubDate>
-      <category>Robotics</category>
-    </item>
-    <item>
-      <title>The Browser Market Shifts as Challengers Target Chrome's Dominance</title>
-      <link>https://aiglimpse.ai/articles/the-browser-market-shifts-as-challengers-target-chromes-dominance-77c38d71</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/the-browser-market-shifts-as-challengers-target-chromes-dominance-77c38d71</guid>
-      <description>A new wave of alternative browsers is gaining traction in 2026, offering users privacy-focused and performance-driven options to Google and Apple's market leaders.</description>
-      <pubDate>Sat, 30 May 2026 13:00:00 GMT</pubDate>
-      <category>AI Business</category>
     </item>
   </channel>
 </rss>
