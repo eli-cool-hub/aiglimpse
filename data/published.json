@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "why-viral-robot-videos-mislead-the-public-on-ai-capabilities-0075318f",
+      "title": "Why Viral Robot Videos Mislead the Public on AI Capabilities",
+      "subtitle": "Humanoid robots generate hype through acrobatics and household tasks, but researchers warn the gap between demos and real-world reliability remains vast.",
+      "category": "tools",
+      "publishedAt": "2026-06-04T22:23:36.000Z",
+      "sourceUrl": "https://arstechnica.com/ai/2026/06/the-skeptics-guide-to-humanoid-robots-going-viral-on-the-internet/",
+      "sourceName": "Ars Technica AI",
+      "sourceTier": 2,
+      "image": "/images/articles/why-viral-robot-videos-mislead-the-public-on-ai-capabilities-0075318f.jpg"
+    },
+    {
+      "slug": "anthropics-revenue-surge-tests-ipo-confidence-in-ai-economics-d8a6af4c",
+      "title": "Anthropic's Revenue Surge Tests IPO Confidence in AI Economics",
+      "subtitle": "The AI startup's $47 billion annualized run rate masks persistent questions about profitability and return on investment ahead of its public debut.",
+      "category": "business",
+      "publishedAt": "2026-06-04T22:43:26.000Z",
+      "sourceUrl": "https://techcrunch.com/2026/06/04/ahead-of-its-ipo-anthropics-daniela-amodei-shrugs-off-doubts-about-ais-returns/",
+      "sourceName": "TechCrunch AI",
+      "sourceTier": 2,
+      "image": "/images/articles/anthropics-revenue-surge-tests-ipo-confidence-in-ai-economics-d8a6af4c.jpg"
+    },
+    {
       "slug": "hugging-face-unveils-cli-tool-built-for-ai-agent-workflows-05982956",
       "title": "Hugging Face Unveils CLI Tool Built for AI Agent Workflows",
       "subtitle": "New command-line interface prioritizes agent-friendly operations on the Model Hub, streamlining how autonomous AI systems interact with model repositories.",
@@ -1641,6 +1663,8 @@
     "8814366451dbee28",
     "740532bc02abe693",
     "91a6937411cb2341",
-    "059829560769baf9"
+    "059829560769baf9",
+    "d8a6af4c94ef5c3b",
+    "0075318f10aff8d8"
   ]
 }

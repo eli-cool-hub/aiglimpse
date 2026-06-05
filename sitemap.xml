@@ -15,6 +15,24 @@
   <url><loc>https://aiglimpse.ai/pages/privacy</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
   <url><loc>https://aiglimpse.ai/pages/terms</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
   <url>
+    <loc>https://aiglimpse.ai/articles/why-viral-robot-videos-mislead-the-public-on-ai-capabilities-0075318f</loc>
+    <news:news>
+      <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-06-04T22:23:36.000Z</news:publication_date>
+      <news:title>Why Viral Robot Videos Mislead the Public on AI Capabilities</news:title>
+    </news:news>
+    <changefreq>daily</changefreq><priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://aiglimpse.ai/articles/anthropics-revenue-surge-tests-ipo-confidence-in-ai-economics-d8a6af4c</loc>
+    <news:news>
+      <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-06-04T22:43:26.000Z</news:publication_date>
+      <news:title>Anthropic's Revenue Surge Tests IPO Confidence in AI Economics</news:title>
+    </news:news>
+    <changefreq>daily</changefreq><priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://aiglimpse.ai/articles/hugging-face-unveils-cli-tool-built-for-ai-agent-workflows-05982956</loc>
     <news:news>
       <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
