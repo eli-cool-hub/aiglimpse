@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "developers-train-llms-to-generate-documentation-in-retro-style-51270825",
+      "title": "Developers Train LLMs to Generate Documentation in Retro Style",
+      "subtitle": "A hands-on approach shows how fine-tuning can reshape AI writing toward specific aesthetic and functional goals.",
+      "category": "tools",
+      "publishedAt": "2026-06-05T05:46:06.000Z",
+      "sourceUrl": "https://passo.uno/fine-tuning-docs-llm/",
+      "sourceName": "Hacker News (66 pts)",
+      "sourceTier": 2,
+      "image": "/images/articles/developers-train-llms-to-generate-documentation-in-retro-style-51270825.jpg"
+    },
+    {
       "slug": "why-viral-robot-videos-mislead-the-public-on-ai-capabilities-0075318f",
       "title": "Why Viral Robot Videos Mislead the Public on AI Capabilities",
       "subtitle": "Humanoid robots generate hype through acrobatics and household tasks, but researchers warn the gap between demos and real-world reliability remains vast.",
@@ -1665,6 +1676,7 @@
     "91a6937411cb2341",
     "059829560769baf9",
     "d8a6af4c94ef5c3b",
-    "0075318f10aff8d8"
+    "0075318f10aff8d8",
+    "51270825a8d8a74f"
   ]
 }

@@ -1316,6 +1316,24 @@
         "devto": true,
         "hashnode": false
       }
+    },
+    "developers-train-llms-to-generate-documentation-in-retro-style-51270825": {
+      "syndicated_at": "2026-06-05T09:55:59.033Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/developers-train-llms-to-generate-documentation-in-retro-style-84f",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 529,
+      "category": "tools",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
     }
   }
 }
