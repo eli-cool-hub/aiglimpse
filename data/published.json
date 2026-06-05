@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "new-framework-helps-humanoid-robots-learn-complex-tasks-a7ae2321",
+      "title": "New Framework Helps Humanoid Robots Learn Complex Tasks",
+      "subtitle": "Researchers develop a unified control system that enables robots to perform diverse manipulation skills without task-specific training.",
+      "category": "research",
+      "publishedAt": "2026-06-04T17:59:50.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2606.06493v1",
+      "sourceName": "arXiv (Lizhi Yang, Junheng Li, Nehar Poddar, Yiling Hou, Gio Huh, R…)",
+      "sourceTier": 1,
+      "image": "/images/articles/new-framework-helps-humanoid-robots-learn-complex-tasks-a7ae2321.jpg"
+    },
+    {
+      "slug": "new-method-shields-ai-models-from-forgetting-during-continuous-learning-b56c4998",
+      "title": "New Method Shields AI Models From Forgetting During Continuous Learning",
+      "subtitle": "Researchers introduce TailLoR, a technique that preserves core knowledge while efficiently adapting neural networks to new tasks.",
+      "category": "research",
+      "publishedAt": "2026-06-04T17:59:55.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2606.06494v1",
+      "sourceName": "arXiv (Marius Dragoi, Ioana Pintilie, Alexandra Dragomir, Antonio B…)",
+      "sourceTier": 1,
+      "image": "/images/articles/new-method-shields-ai-models-from-forgetting-during-continuous-learning-b56c4998.jpg"
+    },
+    {
       "slug": "ai-startups-capture-record-funding-as-investors-bet-billions-on-automation-ed93d171",
       "title": "AI Startups Capture Record Funding as Investors Bet Billions on Automation",
       "subtitle": "Generative AI tools and robotics companies lead a wave of mega-rounds, signaling investor confidence in artificial intelligence as a transformative industry.",
@@ -1701,6 +1723,8 @@
     "0075318f10aff8d8",
     "51270825a8d8a74f",
     "03cf606c5dc8100d",
-    "ed93d171d65803a8"
+    "ed93d171d65803a8",
+    "b56c4998cd8370ea",
+    "a7ae23219b4d103b"
   ]
 }
