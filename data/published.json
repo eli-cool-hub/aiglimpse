@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "apples-ai-overhaul-siri-gets-deep-learning-upgrade-at-wwdc-2026-fc23a884",
+      "title": "Apple's AI Overhaul: Siri Gets Deep Learning Upgrade at WWDC 2026",
+      "subtitle": "The company plans major enhancements to its voice assistant and broader AI capabilities, signaling a shift in how Siri handles complex tasks.",
+      "category": "business",
+      "publishedAt": "2026-06-06T18:13:36.000Z",
+      "sourceUrl": "https://techcrunch.com/2026/06/06/what-to-expect-from-wwdc-2026-siris-highly-anticipated-revamp-and-apple-intelligence-updates/",
+      "sourceName": "TechCrunch AI",
+      "sourceTier": 2,
+      "image": "/images/articles/apples-ai-overhaul-siri-gets-deep-learning-upgrade-at-wwdc-2026-fc23a884.jpg"
+    },
+    {
+      "slug": "researchers-build-financial-simulations-using-compact-ai-models-e4465e5a",
+      "title": "Researchers Build Financial Simulations Using Compact AI Models",
+      "subtitle": "A collaborative effort demonstrates how smaller language models can power complex domain-specific applications without massive computational overhead.",
+      "category": "tools",
+      "publishedAt": "2026-06-06T19:02:33.000Z",
+      "sourceUrl": "https://huggingface.co/blog/build-small-hackathon/thousand-token-wood-sim-v2",
+      "sourceName": "Hugging Face",
+      "sourceTier": 1,
+      "image": "/images/articles/researchers-build-financial-simulations-using-compact-ai-models-e4465e5a.jpg"
+    },
+    {
       "slug": "indiana-mayors-remarks-expose-class-tensions-in-data-center-debate-b2d3cb0d",
       "title": "Indiana Mayor's Remarks Expose Class Tensions in Data Center Debate",
       "subtitle": "Shelbyville official's comments about opposing residents reveal broader conflicts over AI infrastructure siting and community representation.",
@@ -1869,6 +1891,8 @@
     "9b88bc8070bfd5cd",
     "661f7c5b8c7628ba",
     "6992741b3990b2c8",
-    "b2d3cb0d9bfbc1e9"
+    "b2d3cb0d9bfbc1e9",
+    "e4465e5a7220516d",
+    "fc23a8843cb2be02"
   ]
 }
