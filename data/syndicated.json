@@ -1550,6 +1550,24 @@
         "devto": true,
         "hashnode": false
       }
+    },
+    "metas-ai-app-now-generates-clickbait-news-feed-content-5d1ef809": {
+      "syndicated_at": "2026-06-06T23:07:01.281Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/metas-ai-app-now-generates-clickbait-news-feed-content-50n5",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 551,
+      "category": "tools",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
     }
   }
 }

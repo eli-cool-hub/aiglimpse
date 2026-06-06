@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "metas-ai-app-now-generates-clickbait-news-feed-content-5d1ef809",
+      "title": "Meta's AI App Now Generates Clickbait News Feed Content",
+      "subtitle": "The company is automating low-quality news curation, raising questions about AI-generated misinformation at scale.",
+      "category": "tools",
+      "publishedAt": "2026-06-06T14:00:00.000Z",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/944235/meta-app-ai-clickbait-articles",
+      "sourceName": "The Verge AI",
+      "sourceTier": 2,
+      "image": "/images/articles/metas-ai-app-now-generates-clickbait-news-feed-content-5d1ef809.jpg"
+    },
+    {
+      "slug": "white-house-ai-advisor-krishnan-departs-to-launch-new-policy-institute-63732d3b",
+      "title": "White House AI Advisor Krishnan Departs to Launch New Policy Institute",
+      "subtitle": "The Trump administration's chief artificial intelligence strategist is stepping down to establish an independent organization focused on shaping future AI governance.",
+      "category": "business",
+      "publishedAt": "2026-06-06T17:42:15.000Z",
+      "sourceUrl": "https://techcrunch.com/2026/06/06/sriram-krishnan-is-leaving-his-role-as-white-house-ai-advisor/",
+      "sourceName": "TechCrunch AI",
+      "sourceTier": 2,
+      "image": "/images/articles/white-house-ai-advisor-krishnan-departs-to-launch-new-policy-institute-63732d3b.jpg"
+    },
+    {
       "slug": "openai-introduces-lockdown-mode-to-defend-against-prompt-injection-attacks-8fe34c61",
       "title": "OpenAI Introduces Lockdown Mode to Defend Against Prompt Injection Attacks",
       "subtitle": "New security feature aims to reduce the risk of sensitive data exposure, though vulnerabilities may still persist.",
@@ -1905,6 +1927,8 @@
     "b2d3cb0d9bfbc1e9",
     "e4465e5a7220516d",
     "fc23a8843cb2be02",
-    "8fe34c6159265ab8"
+    "8fe34c6159265ab8",
+    "63732d3beaaf5fd3",
+    "5d1ef8090fb732f5"
   ]
 }
