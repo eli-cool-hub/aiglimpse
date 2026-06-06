@@ -7,6 +7,22 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>New AI Model Teaches Machines to Understand 3D Scenes at the Part Level</title>
+      <link>https://aiglimpse.ai/articles/new-ai-model-teaches-machines-to-understand-3d-scenes-at-the-part-level-709c98cb</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-ai-model-teaches-machines-to-understand-3d-scenes-at-the-part-level-709c98cb</guid>
+      <description>Researchers introduce PAR3D, a framework that helps AI systems recognize and reason about individual components of objects, not just whole objects.</description>
+      <pubDate>Thu, 04 Jun 2026 17:59:04 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
+      <title>New Framework Helps AI Agents Learn Cooperation in Competitive Games</title>
+      <link>https://aiglimpse.ai/articles/new-framework-helps-ai-agents-learn-cooperation-in-competitive-games-49bd64f3</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-framework-helps-ai-agents-learn-cooperation-in-competitive-games-49bd64f3</guid>
+      <description>Researchers introduce a game-theoretic metric that better captures how AI systems adapt to strategic opponents in repeated interactions.</description>
+      <pubDate>Thu, 04 Jun 2026 17:59:08 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
       <title>TechCrunch's AI Startup Competition Enters Final Days</title>
       <link>https://aiglimpse.ai/articles/techcrunchs-ai-startup-competition-enters-final-days-640d7ed9</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/techcrunchs-ai-startup-competition-enters-final-days-640d7ed9</guid>
@@ -389,22 +405,6 @@
       <description>A new open-source project promises privacy-first AI development without vendor lock-in or cloud dependencies.</description>
       <pubDate>Sun, 31 May 2026 15:50:34 GMT</pubDate>
       <category>AI Tools &amp; Products</category>
-    </item>
-    <item>
-      <title>Bonsai Image 4B Brings Text-to-Image Generation to Edge Devices</title>
-      <link>https://aiglimpse.ai/articles/bonsai-image-4b-brings-text-to-image-generation-to-edge-devices-8d0f82c1</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/bonsai-image-4b-brings-text-to-image-generation-to-edge-devices-8d0f82c1</guid>
-      <description>A new quantized model reduces computational demands, enabling AI image synthesis on consumer hardware without cloud dependency.</description>
-      <pubDate>Sun, 31 May 2026 15:04:52 GMT</pubDate>
-      <category>AI Tools &amp; Products</category>
-    </item>
-    <item>
-      <title>Are Tech Leaders Falling Into an AI Reality Trap?</title>
-      <link>https://aiglimpse.ai/articles/are-tech-leaders-falling-into-an-ai-reality-trap-b5fe909c</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/are-tech-leaders-falling-into-an-ai-reality-trap-b5fe909c</guid>
-      <description>Industry insiders question whether startup founders and executives suffer from distorted thinking about artificial intelligence's capabilities and risks.</description>
-      <pubDate>Sun, 31 May 2026 15:30:00 GMT</pubDate>
-      <category>AI Business</category>
     </item>
   </channel>
 </rss>
