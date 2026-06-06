@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "techcrunchs-ai-startup-competition-enters-final-days-640d7ed9",
+      "title": "TechCrunch's AI Startup Competition Enters Final Days",
+      "subtitle": "Emerging AI companies have 72 hours to submit applications for a chance to pitch at the industry's largest annual conference.",
+      "category": "business",
+      "publishedAt": "2026-06-05T20:00:00.000Z",
+      "sourceUrl": "https://techcrunch.com/2026/06/05/startup-battlefield-200-applications-officially-close-in-3-days/",
+      "sourceName": "TechCrunch AI",
+      "sourceTier": 2,
+      "image": "/images/articles/techcrunchs-ai-startup-competition-enters-final-days-640d7ed9.jpg"
+    },
+    {
+      "slug": "researchers-demonstrate-multi-agent-ai-economy-on-compact-3b-model-90d3c3f4",
+      "title": "Researchers Demonstrate Multi-Agent AI Economy on Compact 3B Model",
+      "subtitle": "A new approach shows how smaller language models can coordinate complex economic simulations, challenging assumptions about scale requirements for emergent behaviors.",
+      "category": "tools",
+      "publishedAt": "2026-06-05T22:18:46.000Z",
+      "sourceUrl": "https://huggingface.co/blog/build-small-hackathon/thousand-token-wood-sim",
+      "sourceName": "Hugging Face",
+      "sourceTier": 1,
+      "image": "/images/articles/researchers-demonstrate-multi-agent-ai-economy-on-compact-3b-model-90d3c3f4.jpg"
+    },
+    {
       "slug": "new-framework-lets-robots-adjust-movement-speed-on-the-fly-c77c7f0b",
       "title": "New Framework Lets Robots Adjust Movement Speed on the Fly",
       "subtitle": "Researchers introduce TempoVLA, enabling single AI models to control robot execution speeds dynamically for safer, more efficient manipulation tasks.",
@@ -1749,6 +1771,8 @@
     "b56c4998cd8370ea",
     "a7ae23219b4d103b",
     "ff4ac8d5b4d5093b",
-    "c77c7f0b8de371f1"
+    "c77c7f0b8de371f1",
+    "90d3c3f4e5fef723",
+    "640d7ed9ddf97a7a"
   ]
 }
