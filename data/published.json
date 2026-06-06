@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "diffusion-models-learn-to-self-retrieve-beating-standard-rag-661f7c5b",
+      "title": "Diffusion Models Learn to Self-Retrieve, Beating Standard RAG",
+      "subtitle": "New framework uses a model's own uncertain predictions to fetch better information mid-generation, achieving 8x faster inference.",
+      "category": "research",
+      "publishedAt": "2026-06-04T17:56:27.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2606.06474v1",
+      "sourceName": "arXiv (Paul Jünger, Justin Lovelace, Linxi Zhao, Dongyoung Go, Kili…)",
+      "sourceTier": 1,
+      "image": "/images/articles/diffusion-models-learn-to-self-retrieve-beating-standard-rag-661f7c5b.jpg"
+    },
+    {
+      "slug": "new-benchmark-reveals-how-ai-writing-becomes-detectable-during-editing-9b88bc80",
+      "title": "New Benchmark Reveals How AI Writing Becomes Detectable During Editing",
+      "subtitle": "Researchers expose critical gaps in AI detection by studying how algorithms perform across progressive human-AI document revisions.",
+      "category": "research",
+      "publishedAt": "2026-06-04T17:58:05.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2606.06481v1",
+      "sourceName": "arXiv (Sondos Mahmoud Bsharat, Jiacheng Liu, Xiaohan Zhao, Tianjun …)",
+      "sourceTier": 1,
+      "image": "/images/articles/new-benchmark-reveals-how-ai-writing-becomes-detectable-during-editing-9b88bc80.jpg"
+    },
+    {
       "slug": "new-framework-lets-developers-map-personalities-into-ai-models-c9919e11",
       "title": "New Framework Lets Developers Map Personalities Into AI Models",
       "subtitle": "Researchers build toolkit to embed distinct behavioral traits into language models, opening new possibilities for personalized AI applications.",
@@ -1821,6 +1843,8 @@
     "49bd64f3bbcedc9e",
     "709c98cb53320c5a",
     "36d571b5a481380a",
-    "c9919e118b6fda11"
+    "c9919e118b6fda11",
+    "9b88bc8070bfd5cd",
+    "661f7c5b8c7628ba"
   ]
 }

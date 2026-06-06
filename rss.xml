@@ -7,6 +7,22 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Diffusion Models Learn to Self-Retrieve, Beating Standard RAG</title>
+      <link>https://aiglimpse.ai/articles/diffusion-models-learn-to-self-retrieve-beating-standard-rag-661f7c5b</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/diffusion-models-learn-to-self-retrieve-beating-standard-rag-661f7c5b</guid>
+      <description>New framework uses a model's own uncertain predictions to fetch better information mid-generation, achieving 8x faster inference.</description>
+      <pubDate>Thu, 04 Jun 2026 17:56:27 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
+      <title>New Benchmark Reveals How AI Writing Becomes Detectable During Editing</title>
+      <link>https://aiglimpse.ai/articles/new-benchmark-reveals-how-ai-writing-becomes-detectable-during-editing-9b88bc80</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-benchmark-reveals-how-ai-writing-becomes-detectable-during-editing-9b88bc80</guid>
+      <description>Researchers expose critical gaps in AI detection by studying how algorithms perform across progressive human-AI document revisions.</description>
+      <pubDate>Thu, 04 Jun 2026 17:58:05 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
       <title>New Framework Lets Developers Map Personalities Into AI Models</title>
       <link>https://aiglimpse.ai/articles/new-framework-lets-developers-map-personalities-into-ai-models-c9919e11</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/new-framework-lets-developers-map-personalities-into-ai-models-c9919e11</guid>
@@ -389,22 +405,6 @@
       <description>New foundation model enables machines to understand physics and act in the real world, potentially accelerating robotics development.</description>
       <pubDate>Mon, 01 Jun 2026 04:44:55 GMT</pubDate>
       <category>AI Tools &amp; Products</category>
-    </item>
-    <item>
-      <title>Popular Google Sheets ChatGPT Plugin Quietly Transmits User Data</title>
-      <link>https://aiglimpse.ai/articles/popular-google-sheets-chatgpt-plugin-quietly-transmits-user-data-e6f6357d</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/popular-google-sheets-chatgpt-plugin-quietly-transmits-user-data-e6f6357d</guid>
-      <description>Security researchers uncover how a widely-used AI integration leaks sensitive spreadsheet contents to external servers.</description>
-      <pubDate>Sun, 31 May 2026 20:35:38 GMT</pubDate>
-      <category>AI Tools &amp; Products</category>
-    </item>
-    <item>
-      <title>Brockovich Demands Transparency in AI Data Center Operations</title>
-      <link>https://aiglimpse.ai/articles/brockovich-demands-transparency-in-ai-data-center-operations-66baafcf</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/brockovich-demands-transparency-in-ai-data-center-operations-66baafcf</guid>
-      <description>The legendary environmental litigator is pushing back against the opacity surrounding massive computing facilities powering artificial intelligence.</description>
-      <pubDate>Sun, 31 May 2026 21:05:14 GMT</pubDate>
-      <category>AI Business</category>
     </item>
   </channel>
 </rss>
