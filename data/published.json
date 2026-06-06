@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "google-taps-spacex-for-11b-annual-ai-compute-in-major-infrastructure-deal-36d571b5",
+      "title": "Google Taps SpaceX for $11B Annual AI Compute in Major Infrastructure Deal",
+      "subtitle": "Mountain View's surging demand for AI services prompts landmark partnership to secure satellite-based computational capacity.",
+      "category": "business",
+      "publishedAt": "2026-06-05T18:57:20.000Z",
+      "sourceUrl": "https://techcrunch.com/2026/06/05/google-will-pay-spacex-920m-per-month-for-compute/",
+      "sourceName": "TechCrunch AI",
+      "sourceTier": 2,
+      "image": "/images/articles/google-taps-spacex-for-11b-annual-ai-compute-in-major-infrastructure-deal-36d571b5.jpg"
+    },
+    {
       "slug": "new-ai-model-teaches-machines-to-understand-3d-scenes-at-the-part-level-709c98cb",
       "title": "New AI Model Teaches Machines to Understand 3D Scenes at the Part Level",
       "subtitle": "Researchers introduce PAR3D, a framework that helps AI systems recognize and reason about individual components of objects, not just whole objects.",
@@ -1797,6 +1808,7 @@
     "90d3c3f4e5fef723",
     "640d7ed9ddf97a7a",
     "49bd64f3bbcedc9e",
-    "709c98cb53320c5a"
+    "709c98cb53320c5a",
+    "36d571b5a481380a"
   ]
 }
