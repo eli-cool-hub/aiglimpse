@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "openai-introduces-lockdown-mode-to-defend-against-prompt-injection-attacks-8fe34c61",
+      "title": "OpenAI Introduces Lockdown Mode to Defend Against Prompt Injection Attacks",
+      "subtitle": "New security feature aims to reduce the risk of sensitive data exposure, though vulnerabilities may still persist.",
+      "category": "business",
+      "publishedAt": "2026-06-06T20:32:24.000Z",
+      "sourceUrl": "https://techcrunch.com/2026/06/06/openai-unveils-lockdown-mode-to-protect-sensitive-data-from-prompt-injection-attacks/",
+      "sourceName": "TechCrunch AI",
+      "sourceTier": 2,
+      "image": "/images/articles/openai-introduces-lockdown-mode-to-defend-against-prompt-injection-attacks-8fe34c61.jpg"
+    },
+    {
       "slug": "apples-ai-overhaul-siri-gets-deep-learning-upgrade-at-wwdc-2026-fc23a884",
       "title": "Apple's AI Overhaul: Siri Gets Deep Learning Upgrade at WWDC 2026",
       "subtitle": "The company plans major enhancements to its voice assistant and broader AI capabilities, signaling a shift in how Siri handles complex tasks.",
@@ -1893,6 +1904,7 @@
     "6992741b3990b2c8",
     "b2d3cb0d9bfbc1e9",
     "e4465e5a7220516d",
-    "fc23a8843cb2be02"
+    "fc23a8843cb2be02",
+    "8fe34c6159265ab8"
   ]
 }
