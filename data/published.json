@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "new-framework-lets-developers-map-personalities-into-ai-models-c9919e11",
+      "title": "New Framework Lets Developers Map Personalities Into AI Models",
+      "subtitle": "Researchers build toolkit to embed distinct behavioral traits into language models, opening new possibilities for personalized AI applications.",
+      "category": "tools",
+      "publishedAt": "2026-06-06T11:42:01.000Z",
+      "sourceUrl": "https://huggingface.co/blog/build-small-hackathon/persona-atlas",
+      "sourceName": "Hugging Face",
+      "sourceTier": 1,
+      "image": "/images/articles/new-framework-lets-developers-map-personalities-into-ai-models-c9919e11.jpg"
+    },
+    {
       "slug": "google-taps-spacex-for-11b-annual-ai-compute-in-major-infrastructure-deal-36d571b5",
       "title": "Google Taps SpaceX for $11B Annual AI Compute in Major Infrastructure Deal",
       "subtitle": "Mountain View's surging demand for AI services prompts landmark partnership to secure satellite-based computational capacity.",
@@ -1809,6 +1820,7 @@
     "640d7ed9ddf97a7a",
     "49bd64f3bbcedc9e",
     "709c98cb53320c5a",
-    "36d571b5a481380a"
+    "36d571b5a481380a",
+    "c9919e118b6fda11"
   ]
 }
