@@ -7,6 +7,22 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>A New Wave of Startups Rejects Digital-First Culture</title>
+      <link>https://aiglimpse.ai/articles/a-new-wave-of-startups-rejects-digital-first-culture-a37776d2</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/a-new-wave-of-startups-rejects-digital-first-culture-a37776d2</guid>
+      <description>As AI funding surges, founders are building experiences designed to pull users away from screens and back into physical spaces.</description>
+      <pubDate>Fri, 05 Jun 2026 17:17:06 GMT</pubDate>
+      <category>AI Business</category>
+    </item>
+    <item>
+      <title>OpenAI Expands Developer Access Through Sponsored Hackathon Credits</title>
+      <link>https://aiglimpse.ai/articles/openai-expands-developer-access-through-sponsored-hackathon-credits-20f33854</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/openai-expands-developer-access-through-sponsored-hackathon-credits-20f33854</guid>
+      <description>Major AI company pledges free API vouchers to democratize code generation tools for emerging developers and researchers.</description>
+      <pubDate>Sun, 07 Jun 2026 11:38:54 GMT</pubDate>
+      <category>AI Tools &amp; Products</category>
+    </item>
+    <item>
       <title>Developers Increasingly Use AI Chatbots Over Design Tools</title>
       <link>https://aiglimpse.ai/articles/developers-increasingly-use-ai-chatbots-over-design-tools-25f13439</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/developers-increasingly-use-ai-chatbots-over-design-tools-25f13439</guid>
@@ -389,22 +405,6 @@
       <description>Major insurer automates claim filing with large language models, offering round-the-clock support and scaling capacity during peak periods.</description>
       <pubDate>Tue, 02 Jun 2026 12:00:00 GMT</pubDate>
       <category>LLMs &amp; Chatbots</category>
-    </item>
-    <item>
-      <title>Hugging Face Releases Holo3.1: A Faster Local AI Agent for Computer Tasks</title>
-      <link>https://aiglimpse.ai/articles/hugging-face-releases-holo31-a-faster-local-ai-agent-for-computer-tasks-14fd9645</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/hugging-face-releases-holo31-a-faster-local-ai-agent-for-computer-tasks-14fd9645</guid>
-      <description>New open-source model enables autonomous AI agents to execute desktop and web tasks on consumer hardware without cloud dependency.</description>
-      <pubDate>Tue, 02 Jun 2026 14:13:23 GMT</pubDate>
-      <category>AI Tools &amp; Products</category>
-    </item>
-    <item>
-      <title>New Framework Fixes a Critical Flaw in How AI Models Learn Multiple Tasks</title>
-      <link>https://aiglimpse.ai/articles/new-framework-fixes-a-critical-flaw-in-how-ai-models-learn-multiple-tasks-4c14310c</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-framework-fixes-a-critical-flaw-in-how-ai-models-learn-multiple-tasks-4c14310c</guid>
-      <description>Researchers propose a smarter way for multimodal AI systems to acquire new vision-language skills without corrupting existing knowledge.</description>
-      <pubDate>Mon, 01 Jun 2026 17:59:13 GMT</pubDate>
-      <category>AI Research</category>
     </item>
   </channel>
 </rss>

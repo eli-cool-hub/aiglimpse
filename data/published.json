@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "a-new-wave-of-startups-rejects-digital-first-culture-a37776d2",
+      "title": "A New Wave of Startups Rejects Digital-First Culture",
+      "subtitle": "As AI funding surges, founders are building experiences designed to pull users away from screens and back into physical spaces.",
+      "category": "business",
+      "publishedAt": "2026-06-05T17:17:06.000Z",
+      "sourceUrl": "https://techcrunch.com/video/the-most-interesting-startups-right-now-want-to-get-you-off-your-phone/",
+      "sourceName": "TechCrunch AI",
+      "sourceTier": 2,
+      "image": "/images/articles/a-new-wave-of-startups-rejects-digital-first-culture-a37776d2.jpg"
+    },
+    {
+      "slug": "openai-expands-developer-access-through-sponsored-hackathon-credits-20f33854",
+      "title": "OpenAI Expands Developer Access Through Sponsored Hackathon Credits",
+      "subtitle": "Major AI company pledges free API vouchers to democratize code generation tools for emerging developers and researchers.",
+      "category": "tools",
+      "publishedAt": "2026-06-07T11:38:54.000Z",
+      "sourceUrl": "https://huggingface.co/blog/build-small-hackathon/sponsors-vouchers",
+      "sourceName": "Hugging Face",
+      "sourceTier": 1,
+      "image": "/images/articles/openai-expands-developer-access-through-sponsored-hackathon-credits-20f33854.jpg"
+    },
+    {
       "slug": "developers-increasingly-use-ai-chatbots-over-design-tools-25f13439",
       "title": "Developers Increasingly Use AI Chatbots Over Design Tools",
       "subtitle": "A shift in creative workflows suggests large language models are reshaping how professionals approach interface design and prototyping tasks.",
@@ -1953,6 +1975,8 @@
     "63732d3beaaf5fd3",
     "5d1ef8090fb732f5",
     "6bb3ab5f6e2cc0c3",
-    "25f1343956057297"
+    "25f1343956057297",
+    "20f338544e741264",
+    "a37776d27b1696cd"
   ]
 }

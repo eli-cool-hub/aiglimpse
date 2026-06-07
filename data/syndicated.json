@@ -1604,6 +1604,24 @@
         "devto": true,
         "hashnode": false
       }
+    },
+    "openai-expands-developer-access-through-sponsored-hackathon-credits-20f33854": {
+      "syndicated_at": "2026-06-07T11:50:12.850Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/openai-expands-developer-access-through-sponsored-hackathon-credits-2ih9",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 457,
+      "category": "tools",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
     }
   }
 }
