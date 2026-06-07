@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "notion-restores-claude-integration-after-brief-outage-8405ce40",
+      "title": "Notion Restores Claude Integration After Brief Outage",
+      "subtitle": "The productivity platform quickly resolved connectivity issues with Anthropic's AI assistant, drawing attention to growing enterprise dependencies on LLM integrations.",
+      "category": "business",
+      "publishedAt": "2026-06-07T17:56:22.000Z",
+      "sourceUrl": "https://techcrunch.com/2026/06/07/notion-restores-access-to-anthropic-after-service-disruption/",
+      "sourceName": "TechCrunch AI",
+      "sourceTier": 2,
+      "image": "/images/articles/notion-restores-claude-integration-after-brief-outage-8405ce40.jpg"
+    },
+    {
       "slug": "digital-impostors-why-spotting-ai-influencers-is-getting-harder-94c90844",
       "title": "Digital Impostors: Why Spotting AI Influencers Is Getting Harder",
       "subtitle": "As synthetic social media personalities become more sophisticated, the line between human creators and algorithmic content is rapidly blurring.",
@@ -2037,6 +2048,7 @@
     "f58770a76fc22a2f",
     "dce59b146da79bee",
     "a11e27792093b1c4",
-    "94c908448bd5c88e"
+    "94c908448bd5c88e",
+    "8405ce40915fb77d"
   ]
 }
