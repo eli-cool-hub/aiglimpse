@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "linux-users-push-anthropic-to-release-official-claude-desktop-client-14fd9a1a",
+      "title": "Linux Users Push Anthropic to Release Official Claude Desktop Client",
+      "subtitle": "Community pressure mounts on AI company to expand Claude's desktop application beyond macOS and Windows platforms.",
+      "category": "tools",
+      "publishedAt": "2026-06-07T13:06:52.000Z",
+      "sourceUrl": "https://github.com/anthropics/claude-code/issues/65697",
+      "sourceName": "Hacker News (52 pts)",
+      "sourceTier": 2,
+      "image": "/images/articles/linux-users-push-anthropic-to-release-official-claude-desktop-client-14fd9a1a.jpg"
+    },
+    {
       "slug": "a-new-wave-of-startups-rejects-digital-first-culture-a37776d2",
       "title": "A New Wave of Startups Rejects Digital-First Culture",
       "subtitle": "As AI funding surges, founders are building experiences designed to pull users away from screens and back into physical spaces.",
@@ -1977,6 +1988,7 @@
     "6bb3ab5f6e2cc0c3",
     "25f1343956057297",
     "20f338544e741264",
-    "a37776d27b1696cd"
+    "a37776d27b1696cd",
+    "14fd9a1a6739aa16"
   ]
 }

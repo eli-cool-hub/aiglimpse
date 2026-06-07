@@ -1622,6 +1622,24 @@
         "devto": true,
         "hashnode": false
       }
+    },
+    "linux-users-push-anthropic-to-release-official-claude-desktop-client-14fd9a1a": {
+      "syndicated_at": "2026-06-07T13:58:40.495Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/linux-users-push-anthropic-to-release-official-claude-desktop-client-3lj9",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 400,
+      "category": "tools",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
     }
   }
 }
