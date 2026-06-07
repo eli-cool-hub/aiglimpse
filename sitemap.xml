@@ -15,6 +15,24 @@
   <url><loc>https://aiglimpse.ai/pages/privacy</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
   <url><loc>https://aiglimpse.ai/pages/terms</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
   <url>
+    <loc>https://aiglimpse.ai/articles/digital-impostors-why-spotting-ai-influencers-is-getting-harder-94c90844</loc>
+    <news:news>
+      <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-06-07T12:00:00.000Z</news:publication_date>
+      <news:title>Digital Impostors: Why Spotting AI Influencers Is Getting Harder</news:title>
+    </news:news>
+    <changefreq>daily</changefreq><priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://aiglimpse.ai/articles/openai-shifts-strategy-beyond-chat-as-company-pursues-integrated-platform-a11e2779</loc>
+    <news:news>
+      <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-06-07T16:23:22.000Z</news:publication_date>
+      <news:title>OpenAI Shifts Strategy Beyond Chat as Company Pursues Integrated Platform</news:title>
+    </news:news>
+    <changefreq>daily</changefreq><priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://aiglimpse.ai/articles/software-engineers-grapple-with-career-uncertainty-as-llms-reshape-coding-work-dce59b14</loc>
     <news:news>
       <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>

@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "digital-impostors-why-spotting-ai-influencers-is-getting-harder-94c90844",
+      "title": "Digital Impostors: Why Spotting AI Influencers Is Getting Harder",
+      "subtitle": "As synthetic social media personalities become more sophisticated, the line between human creators and algorithmic content is rapidly blurring.",
+      "category": "tools",
+      "publishedAt": "2026-06-07T12:00:00.000Z",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/943187/ai-content-creators",
+      "sourceName": "The Verge AI",
+      "sourceTier": 2,
+      "image": "/images/articles/digital-impostors-why-spotting-ai-influencers-is-getting-harder-94c90844.jpg"
+    },
+    {
+      "slug": "openai-shifts-strategy-beyond-chat-as-company-pursues-integrated-platform-a11e2779",
+      "title": "OpenAI Shifts Strategy Beyond Chat as Company Pursues Integrated Platform",
+      "subtitle": "The AI maker is building a broader ecosystem as traditional conversational interfaces face pressure to evolve into multi-functional tools.",
+      "category": "business",
+      "publishedAt": "2026-06-07T16:23:22.000Z",
+      "sourceUrl": "https://techcrunch.com/2026/06/07/openai-is-still-working-on-that-super-app/",
+      "sourceName": "TechCrunch AI",
+      "sourceTier": 2,
+      "image": "/images/articles/openai-shifts-strategy-beyond-chat-as-company-pursues-integrated-platform-a11e2779.jpg"
+    },
+    {
       "slug": "software-engineers-grapple-with-career-uncertainty-as-llms-reshape-coding-work-dce59b14",
       "title": "Software Engineers Grapple with Career Uncertainty as LLMs Reshape Coding Work",
       "subtitle": "A growing community conversation reveals deep anxieties about how AI coding assistants are fundamentally transforming employment prospects in software development.",
@@ -2013,6 +2035,8 @@
     "a37776d27b1696cd",
     "14fd9a1a6739aa16",
     "f58770a76fc22a2f",
-    "dce59b146da79bee"
+    "dce59b146da79bee",
+    "a11e27792093b1c4",
+    "94c908448bd5c88e"
   ]
 }
