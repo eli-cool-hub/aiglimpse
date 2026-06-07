@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "developers-increasingly-use-ai-chatbots-over-design-tools-25f13439",
+      "title": "Developers Increasingly Use AI Chatbots Over Design Tools",
+      "subtitle": "A shift in creative workflows suggests large language models are reshaping how professionals approach interface design and prototyping tasks.",
+      "category": "tools",
+      "publishedAt": "2026-06-07T05:04:24.000Z",
+      "sourceUrl": "https://blog.janestreet.com/i-design-with-claude-code-more-than-figma-now-index/",
+      "sourceName": "Hacker News (138 pts)",
+      "sourceTier": 2,
+      "image": "/images/articles/developers-increasingly-use-ai-chatbots-over-design-tools-25f13439.jpg"
+    },
+    {
       "slug": "nvidias-blackwell-chip-arrives-on-windows-pcs-challenging-apple-and-amd-6bb3ab5f",
       "title": "Nvidia's Blackwell Chip Arrives on Windows PCs, Challenging Apple and AMD",
       "subtitle": "RTX Spark laptops could reshape AI computing on consumer devices by leveraging Nvidia's software dominance and industry relationships.",
@@ -1941,6 +1952,7 @@
     "8fe34c6159265ab8",
     "63732d3beaaf5fd3",
     "5d1ef8090fb732f5",
-    "6bb3ab5f6e2cc0c3"
+    "6bb3ab5f6e2cc0c3",
+    "25f1343956057297"
   ]
 }

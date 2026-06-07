@@ -7,6 +7,14 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Developers Increasingly Use AI Chatbots Over Design Tools</title>
+      <link>https://aiglimpse.ai/articles/developers-increasingly-use-ai-chatbots-over-design-tools-25f13439</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/developers-increasingly-use-ai-chatbots-over-design-tools-25f13439</guid>
+      <description>A shift in creative workflows suggests large language models are reshaping how professionals approach interface design and prototyping tasks.</description>
+      <pubDate>Sun, 07 Jun 2026 05:04:24 GMT</pubDate>
+      <category>AI Tools &amp; Products</category>
+    </item>
+    <item>
       <title>Nvidia's Blackwell Chip Arrives on Windows PCs, Challenging Apple and AMD</title>
       <link>https://aiglimpse.ai/articles/nvidias-blackwell-chip-arrives-on-windows-pcs-challenging-apple-and-amd-6bb3ab5f</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/nvidias-blackwell-chip-arrives-on-windows-pcs-challenging-apple-and-amd-6bb3ab5f</guid>
@@ -396,14 +404,6 @@
       <guid isPermaLink="true">https://aiglimpse.ai/articles/new-framework-fixes-a-critical-flaw-in-how-ai-models-learn-multiple-tasks-4c14310c</guid>
       <description>Researchers propose a smarter way for multimodal AI systems to acquire new vision-language skills without corrupting existing knowledge.</description>
       <pubDate>Mon, 01 Jun 2026 17:59:13 GMT</pubDate>
-      <category>AI Research</category>
-    </item>
-    <item>
-      <title>New AI Model Cuts Robot Training Data Needs by Generating Synthetic Demonstrations</title>
-      <link>https://aiglimpse.ai/articles/new-ai-model-cuts-robot-training-data-needs-by-generating-synthetic-demonstratio-c6a60980</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-ai-model-cuts-robot-training-data-needs-by-generating-synthetic-demonstratio-c6a60980</guid>
-      <description>Researchers introduce a method that synthesizes realistic robot training footage to reduce expensive real-world data collection for manipulation tasks.</description>
-      <pubDate>Mon, 01 Jun 2026 17:59:38 GMT</pubDate>
       <category>AI Research</category>
     </item>
   </channel>
