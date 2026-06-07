@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "researchers-challenge-claims-of-human-like-intelligence-in-ai-models-ff6e91b2",
+      "title": "Researchers Challenge Claims of Human-Like Intelligence in AI Models",
+      "subtitle": "A new paper questions whether large language models truly possess human-like attributes or whether we're applying flawed reasoning to their capabilities.",
+      "category": "research",
+      "publishedAt": "2026-06-07T18:54:55.000Z",
+      "sourceUrl": "https://arxiv.org/abs/2605.31514",
+      "sourceName": "Hacker News (82 pts)",
+      "sourceTier": 2,
+      "image": "/images/articles/researchers-challenge-claims-of-human-like-intelligence-in-ai-models-ff6e91b2.jpg"
+    },
+    {
+      "slug": "how-a-hackathon-project-exposed-the-limits-of-ai-in-healthcare-6d51ed92",
+      "title": "How a Hackathon Project Exposed the Limits of AI in Healthcare",
+      "subtitle": "A dental tech startup's failed attempt to build smart dentures reveals where machine learning still struggles with real-world complexity.",
+      "category": "tools",
+      "publishedAt": "2026-06-07T19:44:27.000Z",
+      "sourceUrl": "https://huggingface.co/blog/build-small-hackathon/amazingdigitaldentures",
+      "sourceName": "Hugging Face",
+      "sourceTier": 1,
+      "image": "/images/articles/how-a-hackathon-project-exposed-the-limits-of-ai-in-healthcare-6d51ed92.jpg"
+    },
+    {
       "slug": "ai-giants-face-pricing-pressure-as-ipo-plans-accelerate-b22386fb",
       "title": "AI Giants Face Pricing Pressure as IPO Plans Accelerate",
       "subtitle": "Major artificial intelligence companies are expected to raise costs for their services as they prepare for public market debuts, signaling mounting financial pressures in the sector.",
@@ -2061,6 +2083,8 @@
     "a11e27792093b1c4",
     "94c908448bd5c88e",
     "8405ce40915fb77d",
-    "b22386fbe34dfe97"
+    "b22386fbe34dfe97",
+    "6d51ed921d4d4a24",
+    "ff6e91b215c2d45e"
   ]
 }

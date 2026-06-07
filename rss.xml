@@ -7,6 +7,22 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Researchers Challenge Claims of Human-Like Intelligence in AI Models</title>
+      <link>https://aiglimpse.ai/articles/researchers-challenge-claims-of-human-like-intelligence-in-ai-models-ff6e91b2</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/researchers-challenge-claims-of-human-like-intelligence-in-ai-models-ff6e91b2</guid>
+      <description>A new paper questions whether large language models truly possess human-like attributes or whether we're applying flawed reasoning to their capabilities.</description>
+      <pubDate>Sun, 07 Jun 2026 18:54:55 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
+      <title>How a Hackathon Project Exposed the Limits of AI in Healthcare</title>
+      <link>https://aiglimpse.ai/articles/how-a-hackathon-project-exposed-the-limits-of-ai-in-healthcare-6d51ed92</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/how-a-hackathon-project-exposed-the-limits-of-ai-in-healthcare-6d51ed92</guid>
+      <description>A dental tech startup's failed attempt to build smart dentures reveals where machine learning still struggles with real-world complexity.</description>
+      <pubDate>Sun, 07 Jun 2026 19:44:27 GMT</pubDate>
+      <category>AI Tools &amp; Products</category>
+    </item>
+    <item>
       <title>AI Giants Face Pricing Pressure as IPO Plans Accelerate</title>
       <link>https://aiglimpse.ai/articles/ai-giants-face-pricing-pressure-as-ipo-plans-accelerate-b22386fb</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/ai-giants-face-pricing-pressure-as-ipo-plans-accelerate-b22386fb</guid>
@@ -389,22 +405,6 @@
       <description>New AI system brings specialized reasoning to life sciences, targeting molecular design and genetic analysis workflows.</description>
       <pubDate>Wed, 03 Jun 2026 13:15:00 GMT</pubDate>
       <category>LLMs &amp; Chatbots</category>
-    </item>
-    <item>
-      <title>Reachy Mini Robot Gains AI Integration via Model Context Protocol</title>
-      <link>https://aiglimpse.ai/articles/reachy-mini-robot-gains-ai-integration-via-model-context-protocol-e8ed9321</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/reachy-mini-robot-gains-ai-integration-via-model-context-protocol-e8ed9321</guid>
-      <description>Hugging Face bridges robotics and language models, enabling AI assistants to control physical hardware through standardized tool protocols.</description>
-      <pubDate>Wed, 03 Jun 2026 00:00:00 GMT</pubDate>
-      <category>AI Tools &amp; Products</category>
-    </item>
-    <item>
-      <title>Training Method Beyond Chat Models Shows Promise for AI Systems</title>
-      <link>https://aiglimpse.ai/articles/training-method-beyond-chat-models-shows-promise-for-ai-systems-af328793</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/training-method-beyond-chat-models-shows-promise-for-ai-systems-af328793</guid>
-      <description>Researchers expand preference optimization techniques to broader AI applications, moving past conversational interfaces.</description>
-      <pubDate>Wed, 03 Jun 2026 12:55:11 GMT</pubDate>
-      <category>AI Tools &amp; Products</category>
     </item>
   </channel>
 </rss>
