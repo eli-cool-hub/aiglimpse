@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "nvidias-blackwell-chip-arrives-on-windows-pcs-challenging-apple-and-amd-6bb3ab5f",
+      "title": "Nvidia's Blackwell Chip Arrives on Windows PCs, Challenging Apple and AMD",
+      "subtitle": "RTX Spark laptops could reshape AI computing on consumer devices by leveraging Nvidia's software dominance and industry relationships.",
+      "category": "research",
+      "publishedAt": "2026-06-06T12:00:01.000Z",
+      "sourceUrl": "https://spectrum.ieee.org/nvidia-rtx-spark-windows-pc",
+      "sourceName": "IEEE Spectrum AI",
+      "sourceTier": 2,
+      "image": "/images/articles/nvidias-blackwell-chip-arrives-on-windows-pcs-challenging-apple-and-amd-6bb3ab5f.jpg"
+    },
+    {
       "slug": "metas-ai-app-now-generates-clickbait-news-feed-content-5d1ef809",
       "title": "Meta's AI App Now Generates Clickbait News Feed Content",
       "subtitle": "The company is automating low-quality news curation, raising questions about AI-generated misinformation at scale.",
@@ -1929,6 +1940,7 @@
     "fc23a8843cb2be02",
     "8fe34c6159265ab8",
     "63732d3beaaf5fd3",
-    "5d1ef8090fb732f5"
+    "5d1ef8090fb732f5",
+    "6bb3ab5f6e2cc0c3"
   ]
 }
