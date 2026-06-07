@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "software-engineers-grapple-with-career-uncertainty-as-llms-reshape-coding-work-dce59b14",
+      "title": "Software Engineers Grapple with Career Uncertainty as LLMs Reshape Coding Work",
+      "subtitle": "A growing community conversation reveals deep anxieties about how AI coding assistants are fundamentally transforming employment prospects in software development.",
+      "category": "tools",
+      "publishedAt": "2026-06-07T12:49:29.000Z",
+      "sourceUrl": "https://human-in-the-loop.bearblog.dev/llms-are-eroding-my-software-engineering-career-and-i-dont-know-what-to-do/",
+      "sourceName": "Hacker News (387 pts)",
+      "sourceTier": 2,
+      "image": "/images/articles/software-engineers-grapple-with-career-uncertainty-as-llms-reshape-coding-work-dce59b14.jpg"
+    },
+    {
+      "slug": "ai-giants-face-massive-unit-economics-challenges-f58770a7",
+      "title": "AI Giants Face Massive Unit Economics Challenges",
+      "subtitle": "Analysis suggests leading AI companies may be operating at severe losses relative to customer revenue.",
+      "category": "business",
+      "publishedAt": "2026-06-07T12:54:54.000Z",
+      "sourceUrl": "https://ea.rna.nl/2026/06/07/anthropic-openai-may-be-spending-more-than-1000-for-every-100-you-pay-them/",
+      "sourceName": "Hacker News (51 pts)",
+      "sourceTier": 2,
+      "image": "/images/articles/ai-giants-face-massive-unit-economics-challenges-f58770a7.jpg"
+    },
+    {
       "slug": "linux-users-push-anthropic-to-release-official-claude-desktop-client-14fd9a1a",
       "title": "Linux Users Push Anthropic to Release Official Claude Desktop Client",
       "subtitle": "Community pressure mounts on AI company to expand Claude's desktop application beyond macOS and Windows platforms.",
@@ -1989,6 +2011,8 @@
     "25f1343956057297",
     "20f338544e741264",
     "a37776d27b1696cd",
-    "14fd9a1a6739aa16"
+    "14fd9a1a6739aa16",
+    "f58770a76fc22a2f",
+    "dce59b146da79bee"
   ]
 }
