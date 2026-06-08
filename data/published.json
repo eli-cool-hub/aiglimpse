@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "lawsuit-exposes-limits-of-ai-weapon-detection-in-school-safety-c79944d5",
+      "title": "Lawsuit Exposes Limits of AI Weapon Detection in School Safety",
+      "subtitle": "A shooting survivor's legal action reveals critical gaps in automated gun detection systems deployed to protect students.",
+      "category": "tools",
+      "publishedAt": "2026-06-07T11:08:30.000Z",
+      "sourceUrl": "https://arstechnica.com/tech-policy/2026/06/school-shooting-survivor-sues-ai-gun-detection-firm-after-system-failed-to-spot-weapon/",
+      "sourceName": "Ars Technica AI",
+      "sourceTier": 2,
+      "image": "/images/articles/lawsuit-exposes-limits-of-ai-weapon-detection-in-school-safety-c79944d5.jpg"
+    },
+    {
+      "slug": "deepseek-v4-pro-outperforms-openais-latest-model-on-accuracy-tests-6fc739a3",
+      "title": "DeepSeek V4 Pro Outperforms OpenAI's Latest Model on Accuracy Tests",
+      "subtitle": "Chinese AI startup's newest release demonstrates measurable gains in precision benchmarks, intensifying competition in the large language model market.",
+      "category": "tools",
+      "publishedAt": "2026-06-08T01:39:30.000Z",
+      "sourceUrl": "https://runtimewire.com/article/deepseek-v4-pro-beats-gpt-5-5-pro-on-precision",
+      "sourceName": "Hacker News (142 pts)",
+      "sourceTier": 2,
+      "image": "/images/articles/deepseek-v4-pro-outperforms-openais-latest-model-on-accuracy-tests-6fc739a3.jpg"
+    },
+    {
       "slug": "researchers-challenge-claims-of-human-like-intelligence-in-ai-models-ff6e91b2",
       "title": "Researchers Challenge Claims of Human-Like Intelligence in AI Models",
       "subtitle": "A new paper questions whether large language models truly possess human-like attributes or whether we're applying flawed reasoning to their capabilities.",
@@ -2085,6 +2107,8 @@
     "8405ce40915fb77d",
     "b22386fbe34dfe97",
     "6d51ed921d4d4a24",
-    "ff6e91b215c2d45e"
+    "ff6e91b215c2d45e",
+    "6fc739a3821f1254",
+    "c79944d53612039d"
   ]
 }
