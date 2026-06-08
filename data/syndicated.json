@@ -1802,6 +1802,42 @@
         "devto": true,
         "hashnode": false
       }
+    },
+    "openai-files-confidential-ipo-registration-with-sec-d9671d85": {
+      "syndicated_at": "2026-06-08T21:51:56.299Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/openai-files-confidential-ipo-registration-with-sec-34jo",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 444,
+      "category": "llms",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
+    },
+    "openai-moves-toward-public-markets-with-confidential-sec-filing-d1446357": {
+      "syndicated_at": "2026-06-08T21:52:05.773Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/openai-moves-toward-public-markets-with-confidential-sec-filing-1ngc",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 456,
+      "category": "tools",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
     }
   }
 }

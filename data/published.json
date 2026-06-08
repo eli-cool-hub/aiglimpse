@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "openai-moves-toward-public-markets-with-confidential-sec-filing-d1446357",
+      "title": "OpenAI Moves Toward Public Markets With Confidential SEC Filing",
+      "subtitle": "The AI leader joins Anthropic in pursuing IPO registration, escalating competition between the industry's two most prominent startups.",
+      "category": "tools",
+      "publishedAt": "2026-06-08T21:38:29.000Z",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/946335/openai-ipo-s-1-confidential",
+      "sourceName": "The Verge AI",
+      "sourceTier": 2,
+      "image": "/images/articles/openai-moves-toward-public-markets-with-confidential-sec-filing-d1446357.jpg"
+    },
+    {
+      "slug": "openai-files-confidential-ipo-registration-with-sec-d9671d85",
+      "title": "OpenAI Files Confidential IPO Registration With SEC",
+      "subtitle": "The AI leader takes a major step toward public markets, signaling confidence in its business model and future growth prospects.",
+      "category": "llms",
+      "publishedAt": "2026-06-08T14:00:00.000Z",
+      "sourceUrl": "https://openai.com/index/openai-submits-confidential-s-1",
+      "sourceName": "OpenAI",
+      "sourceTier": 1,
+      "image": "/images/articles/openai-files-confidential-ipo-registration-with-sec-d9671d85.jpg"
+    },
+    {
       "slug": "open-source-community-rallies-behind-openenv-for-reinforcement-learning-32d3e22c",
       "title": "Open Source Community Rallies Behind OpenEnv for Reinforcement Learning",
       "subtitle": "A new collaborative framework aims to standardize how AI agents learn through interaction, gaining momentum across the developer ecosystem.",
@@ -2169,6 +2191,8 @@
     "f92ffaafc7fc555f",
     "89500bece0393f14",
     "de12e22b609032b4",
-    "32d3e22cb11bb8de"
+    "32d3e22cb11bb8de",
+    "d9671d85ca14e5e7",
+    "d1446357f1216b4d"
   ]
 }
