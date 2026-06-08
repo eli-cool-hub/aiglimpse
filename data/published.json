@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "open-source-community-rallies-behind-openenv-for-reinforcement-learning-32d3e22c",
+      "title": "Open Source Community Rallies Behind OpenEnv for Reinforcement Learning",
+      "subtitle": "A new collaborative framework aims to standardize how AI agents learn through interaction, gaining momentum across the developer ecosystem.",
+      "category": "tools",
+      "publishedAt": "2026-06-08T00:00:00.000Z",
+      "sourceUrl": "https://huggingface.co/blog/openenv-agentic-rl",
+      "sourceName": "Hugging Face",
+      "sourceTier": 1,
+      "image": "/images/articles/open-source-community-rallies-behind-openenv-for-reinforcement-learning-32d3e22c.jpg"
+    },
+    {
+      "slug": "openai-launches-economic-research-exchange-to-study-ai-labor-impact-de12e22b",
+      "title": "OpenAI Launches Economic Research Exchange to Study AI Labor Impact",
+      "subtitle": "New initiative aims to rigorously investigate how artificial intelligence reshapes employment, worker productivity, and broader economic outcomes.",
+      "category": "llms",
+      "publishedAt": "2026-06-08T00:00:00.000Z",
+      "sourceUrl": "https://openai.com/index/economic-research-exchange",
+      "sourceName": "OpenAI",
+      "sourceTier": 1,
+      "image": "/images/articles/openai-launches-economic-research-exchange-to-study-ai-labor-impact-de12e22b.jpg"
+    },
+    {
       "slug": "amazon-integrates-ai-design-tools-into-shopping-app-for-custom-merchandise-89500bec",
       "title": "Amazon Integrates AI Design Tools Into Shopping App for Custom Merchandise",
       "subtitle": "The e-commerce giant leverages generative AI to let shoppers create personalized apparel and accessories without design experience.",
@@ -2145,6 +2167,8 @@
     "c79944d53612039d",
     "97329c2c9c9c6ae8",
     "f92ffaafc7fc555f",
-    "89500bece0393f14"
+    "89500bece0393f14",
+    "de12e22b609032b4",
+    "32d3e22cb11bb8de"
   ]
 }
