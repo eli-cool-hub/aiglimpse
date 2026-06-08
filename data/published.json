@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "amazon-integrates-ai-design-tools-into-shopping-app-for-custom-merchandise-89500bec",
+      "title": "Amazon Integrates AI Design Tools Into Shopping App for Custom Merchandise",
+      "subtitle": "The e-commerce giant leverages generative AI to let shoppers create personalized apparel and accessories without design experience.",
+      "category": "business",
+      "publishedAt": "2026-06-08T15:49:12.000Z",
+      "sourceUrl": "https://techcrunch.com/2026/06/08/amazon-now-lets-you-design-custom-merch-using-ai/",
+      "sourceName": "TechCrunch AI",
+      "sourceTier": 2,
+      "image": "/images/articles/amazon-integrates-ai-design-tools-into-shopping-app-for-custom-merchandise-89500bec.jpg"
+    },
+    {
+      "slug": "how-multiple-ai-models-behave-in-simulated-economies-f92ffaaf",
+      "title": "How Multiple AI Models Behave in Simulated Economies",
+      "subtitle": "Researchers explore what happens when language models interact within shared digital marketplaces, revealing surprising patterns of coordination and control.",
+      "category": "tools",
+      "publishedAt": "2026-06-08T13:10:48.000Z",
+      "sourceUrl": "https://huggingface.co/blog/build-small-hackathon/thousand-token-wood-sim-v3",
+      "sourceName": "Hugging Face",
+      "sourceTier": 1,
+      "image": "/images/articles/how-multiple-ai-models-behave-in-simulated-economies-f92ffaaf.jpg"
+    },
+    {
       "slug": "deepseek-v4-ignites-price-war-that-widens-us-china-ai-cost-gap-97329c2c",
       "title": "DeepSeek V4 Ignites Price War That Widens US-China AI Cost Gap",
       "subtitle": "Aggressive pricing by Chinese startup forces competitors into steep cuts, reshaping the economics of AI inference globally.",
@@ -2121,6 +2143,8 @@
     "ff6e91b215c2d45e",
     "6fc739a3821f1254",
     "c79944d53612039d",
-    "97329c2c9c9c6ae8"
+    "97329c2c9c9c6ae8",
+    "f92ffaafc7fc555f",
+    "89500bece0393f14"
   ]
 }
