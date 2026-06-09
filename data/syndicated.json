@@ -1838,6 +1838,24 @@
         "devto": true,
         "hashnode": false
       }
+    },
+    "openai-outlines-strategy-to-democratize-ai-while-tackling-safety-risks-d6cf24e8": {
+      "syndicated_at": "2026-06-09T03:43:05.128Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/openai-outlines-strategy-to-democratize-ai-while-tackling-safety-risks-g93",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 451,
+      "category": "llms",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
     }
   }
 }

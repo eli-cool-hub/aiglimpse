@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "apples-measured-ai-strategy-proves-competitive-as-industry-shifts-3f25ab41",
+      "title": "Apple's Measured AI Strategy Proves Competitive as Industry Shifts",
+      "subtitle": "After years of measured investment, Apple's artificial intelligence roadmap is reshaping perceptions of the company's position in a rapidly evolving tech landscape.",
+      "category": "business",
+      "publishedAt": "2026-06-09T01:56:48.000Z",
+      "sourceUrl": "https://techcrunch.com/2026/06/08/why-apples-slow-and-steady-ai-bet-is-starting-to-look-pretty-smart/",
+      "sourceName": "TechCrunch AI",
+      "sourceTier": 2,
+      "image": "/images/articles/apples-measured-ai-strategy-proves-competitive-as-industry-shifts-3f25ab41.jpg"
+    },
+    {
+      "slug": "openai-outlines-strategy-to-democratize-ai-while-tackling-safety-risks-d6cf24e8",
+      "title": "OpenAI Outlines Strategy to Democratize AI While Tackling Safety Risks",
+      "subtitle": "The AI lab releases a comprehensive roadmap for ensuring advanced systems serve broad populations rather than concentrating power among a few actors.",
+      "category": "llms",
+      "publishedAt": "2026-06-08T01:30:00.000Z",
+      "sourceUrl": "https://openai.com/index/built-to-benefit-everyone-our-plan",
+      "sourceName": "OpenAI",
+      "sourceTier": 1,
+      "image": "/images/articles/openai-outlines-strategy-to-democratize-ai-while-tackling-safety-risks-d6cf24e8.jpg"
+    },
+    {
       "slug": "altmans-biometric-startup-cuts-staff-amid-revenue-struggles-5ba2c865",
       "title": "Altman's Biometric Startup Cuts Staff Amid Revenue Struggles",
       "subtitle": "Tools for Humanity, the iris-scanning verification platform backed by OpenAI's CEO, is downsizing as it struggles to achieve commercial traction.",
@@ -2205,6 +2227,8 @@
     "32d3e22cb11bb8de",
     "d9671d85ca14e5e7",
     "d1446357f1216b4d",
-    "5ba2c865f7b78832"
+    "5ba2c865f7b78832",
+    "d6cf24e86ad4c3aa",
+    "3f25ab4162790b6f"
   ]
 }
