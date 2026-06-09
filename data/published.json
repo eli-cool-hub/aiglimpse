@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "new-framework-gives-robots-memory-and-foresight-for-complex-tasks-28071e77",
+      "title": "New Framework Gives Robots Memory and Foresight for Complex Tasks",
+      "subtitle": "Researchers introduce MemoryVLA++, a system that equips vision-language models with temporal reasoning to handle long-horizon robotic manipulation.",
+      "category": "research",
+      "publishedAt": "2026-06-08T17:59:53.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2606.09827v1",
+      "sourceName": "arXiv (Hao Shi, Weiye Li, Bin Xie, Yulin Wang, Renping Zhou, Tianca…)",
+      "sourceTier": 1,
+      "image": "/images/articles/new-framework-gives-robots-memory-and-foresight-for-complex-tasks-28071e77.jpg"
+    },
+    {
+      "slug": "hugging-face-introduces-modular-agent-framework-for-ai-assistants-9ce815e8",
+      "title": "Hugging Face Introduces Modular Agent Framework for AI Assistants",
+      "subtitle": "New building-block approach lets developers compose custom AI agents from reusable components without starting from scratch.",
+      "category": "tools",
+      "publishedAt": "2026-06-09T10:46:19.000Z",
+      "sourceUrl": "https://huggingface.co/blog/mishig/spaces-agents-md",
+      "sourceName": "Hugging Face",
+      "sourceTier": 1,
+      "image": "/images/articles/hugging-face-introduces-modular-agent-framework-for-ai-assistants-9ce815e8.jpg"
+    },
+    {
       "slug": "researchers-accelerate-video-generation-with-latent-memory-model-21641bfc",
       "title": "Researchers Accelerate Video Generation With Latent Memory Model",
       "subtitle": "New framework cuts computational costs tenfold by storing scene data in AI latent space instead of pixel space.",
@@ -2241,6 +2263,8 @@
     "5ba2c865f7b78832",
     "d6cf24e86ad4c3aa",
     "3f25ab4162790b6f",
-    "21641bfc3556122a"
+    "21641bfc3556122a",
+    "9ce815e86becfc97",
+    "28071e77f41ea5ec"
   ]
 }
