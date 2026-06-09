@@ -7,6 +7,22 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Hugging Face Launches Native CI Pipeline Tool to Rival GitHub Actions</title>
+      <link>https://aiglimpse.ai/articles/hugging-face-launches-native-ci-pipeline-tool-to-rival-github-actions-ff09968a</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/hugging-face-launches-native-ci-pipeline-tool-to-rival-github-actions-ff09968a</guid>
+      <description>A new job scheduling system lets ML teams run training and inference workloads directly on Hugging Face infrastructure, reducing vendor lock-in.</description>
+      <pubDate>Tue, 09 Jun 2026 00:00:00 GMT</pubDate>
+      <category>AI Tools &amp; Products</category>
+    </item>
+    <item>
+      <title>Google Debuts Real-Time Speech Translation in Gemini 3.5</title>
+      <link>https://aiglimpse.ai/articles/google-debuts-real-time-speech-translation-in-gemini-35-0d975606</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/google-debuts-real-time-speech-translation-in-gemini-35-0d975606</guid>
+      <description>New Live Translate feature brings instantaneous, conversational voice interpretation to productivity and communication apps.</description>
+      <pubDate>Tue, 09 Jun 2026 15:16:25 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
       <title>Cohere Launches North Mini Code for Developer-Focused AI</title>
       <link>https://aiglimpse.ai/articles/cohere-launches-north-mini-code-for-developer-focused-ai-d9cd1181</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/cohere-launches-north-mini-code-for-developer-focused-ai-d9cd1181</guid>
@@ -389,22 +405,6 @@
       <description>A new approach shows how smaller language models can coordinate complex economic simulations, challenging assumptions about scale requirements for emergent behaviors.</description>
       <pubDate>Fri, 05 Jun 2026 22:18:46 GMT</pubDate>
       <category>AI Tools &amp; Products</category>
-    </item>
-    <item>
-      <title>New Framework Lets Robots Adjust Movement Speed on the Fly</title>
-      <link>https://aiglimpse.ai/articles/new-framework-lets-robots-adjust-movement-speed-on-the-fly-c77c7f0b</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-framework-lets-robots-adjust-movement-speed-on-the-fly-c77c7f0b</guid>
-      <description>Researchers introduce TempoVLA, enabling single AI models to control robot execution speeds dynamically for safer, more efficient manipulation tasks.</description>
-      <pubDate>Thu, 04 Jun 2026 17:59:40 GMT</pubDate>
-      <category>AI Research</category>
-    </item>
-    <item>
-      <title>Researchers Solve Code Model's Repository Problem With Adapter Networks</title>
-      <link>https://aiglimpse.ai/articles/researchers-solve-code-models-repository-problem-with-adapter-networks-ff4ac8d5</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/researchers-solve-code-models-repository-problem-with-adapter-networks-ff4ac8d5</guid>
-      <description>New hypernetwork approach generates lightweight adapters that let AI coding tools understand evolving codebases without expensive retraining.</description>
-      <pubDate>Thu, 04 Jun 2026 17:59:46 GMT</pubDate>
-      <category>AI Research</category>
     </item>
   </channel>
 </rss>

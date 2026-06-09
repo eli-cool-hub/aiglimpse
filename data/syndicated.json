@@ -2000,6 +2000,42 @@
         "devto": true,
         "hashnode": false
       }
+    },
+    "google-debuts-real-time-speech-translation-in-gemini-35-0d975606": {
+      "syndicated_at": "2026-06-09T23:18:15.502Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/google-debuts-real-time-speech-translation-in-gemini-35-34ih",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 433,
+      "category": "research",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
+    },
+    "hugging-face-launches-native-ci-pipeline-tool-to-rival-github-actions-ff09968a": {
+      "syndicated_at": "2026-06-09T23:18:26.580Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/hugging-face-launches-native-ci-pipeline-tool-to-rival-github-actions-3ead",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 462,
+      "category": "tools",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
     }
   }
 }

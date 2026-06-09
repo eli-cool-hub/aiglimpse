@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "hugging-face-launches-native-ci-pipeline-tool-to-rival-github-actions-ff09968a",
+      "title": "Hugging Face Launches Native CI Pipeline Tool to Rival GitHub Actions",
+      "subtitle": "A new job scheduling system lets ML teams run training and inference workloads directly on Hugging Face infrastructure, reducing vendor lock-in.",
+      "category": "tools",
+      "publishedAt": "2026-06-09T00:00:00.000Z",
+      "sourceUrl": "https://huggingface.co/blog/github-ci-hf-jobs",
+      "sourceName": "Hugging Face",
+      "sourceTier": 1,
+      "image": "/images/articles/hugging-face-launches-native-ci-pipeline-tool-to-rival-github-actions-ff09968a.jpg"
+    },
+    {
+      "slug": "google-debuts-real-time-speech-translation-in-gemini-35-0d975606",
+      "title": "Google Debuts Real-Time Speech Translation in Gemini 3.5",
+      "subtitle": "New Live Translate feature brings instantaneous, conversational voice interpretation to productivity and communication apps.",
+      "category": "research",
+      "publishedAt": "2026-06-09T15:16:25.000Z",
+      "sourceUrl": "https://deepmind.google/blog/fluid-natural-voice-translation-with-gemini-35-live-translate/",
+      "sourceName": "Google DeepMind",
+      "sourceTier": 1,
+      "image": "/images/articles/google-debuts-real-time-speech-translation-in-gemini-35-0d975606.jpg"
+    },
+    {
       "slug": "cohere-launches-north-mini-code-for-developer-focused-ai-d9cd1181",
       "title": "Cohere Launches North Mini Code for Developer-Focused AI",
       "subtitle": "The startup's compact coding model aims to bring specialized language capabilities to programmers building with limited resources.",
@@ -2325,6 +2347,8 @@
     "893b7c4d0b89ad07",
     "5dcb81235d4b114c",
     "06dccd73ca4f131a",
-    "d9cd11817785cf63"
+    "d9cd11817785cf63",
+    "0d9756060e214b97",
+    "ff09968a075e9e82"
   ]
 }
