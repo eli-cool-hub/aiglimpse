@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "cohere-launches-north-mini-code-for-developer-focused-ai-d9cd1181",
+      "title": "Cohere Launches North Mini Code for Developer-Focused AI",
+      "subtitle": "The startup's compact coding model aims to bring specialized language capabilities to programmers building with limited resources.",
+      "category": "tools",
+      "publishedAt": "2026-06-09T15:56:23.000Z",
+      "sourceUrl": "https://huggingface.co/blog/CohereLabs/introducing-north-mini-code",
+      "sourceName": "Hugging Face",
+      "sourceTier": 1,
+      "image": "/images/articles/cohere-launches-north-mini-code-for-developer-focused-ai-d9cd1181.jpg"
+    },
+    {
+      "slug": "voice-ai-struggles-with-bilingual-speech-new-benchmark-reveals-06dccd73",
+      "title": "Voice AI Struggles With Bilingual Speech, New Benchmark Reveals",
+      "subtitle": "Testing exposes critical gaps in how speech recognition handles code-switching, a challenge for global voice assistant deployment.",
+      "category": "tools",
+      "publishedAt": "2026-06-09T19:38:28.000Z",
+      "sourceUrl": "https://huggingface.co/blog/ServiceNow-AI/code-switching",
+      "sourceName": "Hugging Face",
+      "sourceTier": 1,
+      "image": "/images/articles/voice-ai-struggles-with-bilingual-speech-new-benchmark-reveals-06dccd73.jpg"
+    },
+    {
       "slug": "ai-agent-automates-3d-gallery-creation-by-chaining-multiple-tools-5dcb8123",
       "title": "AI Agent Automates 3D Gallery Creation by Chaining Multiple Tools",
       "subtitle": "Researchers demonstrate how autonomous agents can coordinate between separate AI services to generate complex visual outputs without human intervention.",
@@ -2301,6 +2323,8 @@
     "28071e77f41ea5ec",
     "312d0c304018ab8a",
     "893b7c4d0b89ad07",
-    "5dcb81235d4b114c"
+    "5dcb81235d4b114c",
+    "06dccd73ca4f131a",
+    "d9cd11817785cf63"
   ]
 }

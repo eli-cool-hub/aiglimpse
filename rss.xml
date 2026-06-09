@@ -7,6 +7,22 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Cohere Launches North Mini Code for Developer-Focused AI</title>
+      <link>https://aiglimpse.ai/articles/cohere-launches-north-mini-code-for-developer-focused-ai-d9cd1181</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/cohere-launches-north-mini-code-for-developer-focused-ai-d9cd1181</guid>
+      <description>The startup's compact coding model aims to bring specialized language capabilities to programmers building with limited resources.</description>
+      <pubDate>Tue, 09 Jun 2026 15:56:23 GMT</pubDate>
+      <category>AI Tools &amp; Products</category>
+    </item>
+    <item>
+      <title>Voice AI Struggles With Bilingual Speech, New Benchmark Reveals</title>
+      <link>https://aiglimpse.ai/articles/voice-ai-struggles-with-bilingual-speech-new-benchmark-reveals-06dccd73</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/voice-ai-struggles-with-bilingual-speech-new-benchmark-reveals-06dccd73</guid>
+      <description>Testing exposes critical gaps in how speech recognition handles code-switching, a challenge for global voice assistant deployment.</description>
+      <pubDate>Tue, 09 Jun 2026 19:38:28 GMT</pubDate>
+      <category>AI Tools &amp; Products</category>
+    </item>
+    <item>
       <title>AI Agent Automates 3D Gallery Creation by Chaining Multiple Tools</title>
       <link>https://aiglimpse.ai/articles/ai-agent-automates-3d-gallery-creation-by-chaining-multiple-tools-5dcb8123</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/ai-agent-automates-3d-gallery-creation-by-chaining-multiple-tools-5dcb8123</guid>
@@ -388,22 +404,6 @@
       <guid isPermaLink="true">https://aiglimpse.ai/articles/researchers-solve-code-models-repository-problem-with-adapter-networks-ff4ac8d5</guid>
       <description>New hypernetwork approach generates lightweight adapters that let AI coding tools understand evolving codebases without expensive retraining.</description>
       <pubDate>Thu, 04 Jun 2026 17:59:46 GMT</pubDate>
-      <category>AI Research</category>
-    </item>
-    <item>
-      <title>New Framework Helps Humanoid Robots Learn Complex Tasks</title>
-      <link>https://aiglimpse.ai/articles/new-framework-helps-humanoid-robots-learn-complex-tasks-a7ae2321</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-framework-helps-humanoid-robots-learn-complex-tasks-a7ae2321</guid>
-      <description>Researchers develop a unified control system that enables robots to perform diverse manipulation skills without task-specific training.</description>
-      <pubDate>Thu, 04 Jun 2026 17:59:50 GMT</pubDate>
-      <category>AI Research</category>
-    </item>
-    <item>
-      <title>New Method Shields AI Models From Forgetting During Continuous Learning</title>
-      <link>https://aiglimpse.ai/articles/new-method-shields-ai-models-from-forgetting-during-continuous-learning-b56c4998</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-method-shields-ai-models-from-forgetting-during-continuous-learning-b56c4998</guid>
-      <description>Researchers introduce TailLoR, a technique that preserves core knowledge while efficiently adapting neural networks to new tasks.</description>
-      <pubDate>Thu, 04 Jun 2026 17:59:55 GMT</pubDate>
       <category>AI Research</category>
     </item>
   </channel>
