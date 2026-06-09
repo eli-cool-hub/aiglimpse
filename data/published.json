@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "ai-agent-automates-3d-gallery-creation-by-chaining-multiple-tools-5dcb8123",
+      "title": "AI Agent Automates 3D Gallery Creation by Chaining Multiple Tools",
+      "subtitle": "Researchers demonstrate how autonomous agents can coordinate between separate AI services to generate complex visual outputs without human intervention.",
+      "category": "tools",
+      "publishedAt": "2026-06-09T10:46:19.000Z",
+      "sourceUrl": "https://huggingface.co/blog/mishig/spaces-agents-md",
+      "sourceName": "Hugging Face",
+      "sourceTier": 1,
+      "image": "/images/articles/ai-agent-automates-3d-gallery-creation-by-chaining-multiple-tools-5dcb8123.jpg"
+    },
+    {
       "slug": "google-deepmind-backs-european-robotics-push-with-ai-investment-893b7c4d",
       "title": "Google DeepMind Backs European Robotics Push With AI Investment",
       "subtitle": "Tech giant commits resources to advance machine learning capabilities for robotic systems across Europe's emerging automation sector.",
@@ -2289,6 +2300,7 @@
     "9ce815e86becfc97",
     "28071e77f41ea5ec",
     "312d0c304018ab8a",
-    "893b7c4d0b89ad07"
+    "893b7c4d0b89ad07",
+    "5dcb81235d4b114c"
   ]
 }

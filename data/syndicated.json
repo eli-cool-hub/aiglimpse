@@ -1946,6 +1946,24 @@
         "devto": true,
         "hashnode": false
       }
+    },
+    "ai-agent-automates-3d-gallery-creation-by-chaining-multiple-tools-5dcb8123": {
+      "syndicated_at": "2026-06-09T18:08:55.680Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/ai-agent-automates-3d-gallery-creation-by-chaining-multiple-tools-3df6",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 488,
+      "category": "tools",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
     }
   }
 }
