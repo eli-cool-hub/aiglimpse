@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "google-deepmind-backs-european-robotics-push-with-ai-investment-893b7c4d",
+      "title": "Google DeepMind Backs European Robotics Push With AI Investment",
+      "subtitle": "Tech giant commits resources to advance machine learning capabilities for robotic systems across Europe's emerging automation sector.",
+      "category": "research",
+      "publishedAt": "2026-06-09T14:02:33.000Z",
+      "sourceUrl": "https://deepmind.google/blog/powering-the-future-of-robotics-in-europe/",
+      "sourceName": "Google DeepMind",
+      "sourceTier": 1,
+      "image": "/images/articles/google-deepmind-backs-european-robotics-push-with-ai-investment-893b7c4d.jpg"
+    },
+    {
+      "slug": "google-deepmind-unveils-gemma-4-12b-streamlined-multimodal-ai-model-312d0c30",
+      "title": "Google DeepMind Unveils Gemma 4 12B, Streamlined Multimodal AI Model",
+      "subtitle": "New compact architecture combines vision and language processing without separate encoders, reshaping efficiency standards for edge deployment.",
+      "category": "research",
+      "publishedAt": "2026-06-09T14:10:19.000Z",
+      "sourceUrl": "https://deepmind.google/blog/introducing-gemma-4-12b-a-unified-encoder-free-multimodal-model/",
+      "sourceName": "Google DeepMind",
+      "sourceTier": 1,
+      "image": "/images/articles/google-deepmind-unveils-gemma-4-12b-streamlined-multimodal-ai-model-312d0c30.jpg"
+    },
+    {
       "slug": "new-framework-gives-robots-memory-and-foresight-for-complex-tasks-28071e77",
       "title": "New Framework Gives Robots Memory and Foresight for Complex Tasks",
       "subtitle": "Researchers introduce MemoryVLA++, a system that equips vision-language models with temporal reasoning to handle long-horizon robotic manipulation.",
@@ -2265,6 +2287,8 @@
     "3f25ab4162790b6f",
     "21641bfc3556122a",
     "9ce815e86becfc97",
-    "28071e77f41ea5ec"
+    "28071e77f41ea5ec",
+    "312d0c304018ab8a",
+    "893b7c4d0b89ad07"
   ]
 }
