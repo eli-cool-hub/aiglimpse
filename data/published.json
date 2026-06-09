@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "researchers-accelerate-video-generation-with-latent-memory-model-21641bfc",
+      "title": "Researchers Accelerate Video Generation With Latent Memory Model",
+      "subtitle": "New framework cuts computational costs tenfold by storing scene data in AI latent space instead of pixel space.",
+      "category": "research",
+      "publishedAt": "2026-06-08T17:59:54.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2606.09828v1",
+      "sourceName": "arXiv (Weijie Wang, Haoyu Zhao, Yifan Yang, Feng Chen, Zeyu Zhang, …)",
+      "sourceTier": 1,
+      "image": "/images/articles/researchers-accelerate-video-generation-with-latent-memory-model-21641bfc.jpg"
+    },
+    {
       "slug": "apples-measured-ai-strategy-proves-competitive-as-industry-shifts-3f25ab41",
       "title": "Apple's Measured AI Strategy Proves Competitive as Industry Shifts",
       "subtitle": "After years of measured investment, Apple's artificial intelligence roadmap is reshaping perceptions of the company's position in a rapidly evolving tech landscape.",
@@ -2229,6 +2240,7 @@
     "d1446357f1216b4d",
     "5ba2c865f7b78832",
     "d6cf24e86ad4c3aa",
-    "3f25ab4162790b6f"
+    "3f25ab4162790b6f",
+    "21641bfc3556122a"
   ]
 }

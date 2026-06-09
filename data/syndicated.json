@@ -1856,6 +1856,24 @@
         "devto": true,
         "hashnode": false
       }
+    },
+    "researchers-accelerate-video-generation-with-latent-memory-model-21641bfc": {
+      "syndicated_at": "2026-06-09T07:52:46.633Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/researchers-accelerate-video-generation-with-latent-memory-model-57j3",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 481,
+      "category": "research",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
     }
   }
 }
