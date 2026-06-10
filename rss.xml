@@ -7,6 +7,22 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>New AI Model Unifies Image Understanding, Generation and Editing</title>
+      <link>https://aiglimpse.ai/articles/new-ai-model-unifies-image-understanding-generation-and-editing-21a12b05</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-ai-model-unifies-image-understanding-generation-and-editing-21a12b05</guid>
+      <description>Researchers demonstrate how discrete token representations and preference optimization enable a single model to handle multiple vision tasks.</description>
+      <pubDate>Tue, 09 Jun 2026 17:59:28 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
+      <title>LSEG Deploys OpenAI to Accelerate Decision-Making Across 4,000 Workers</title>
+      <link>https://aiglimpse.ai/articles/lseg-deploys-openai-to-accelerate-decision-making-across-4000-workers-6e0cab93</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/lseg-deploys-openai-to-accelerate-decision-making-across-4000-workers-6e0cab93</guid>
+      <description>Financial infrastructure giant scales generative AI to compress development timelines and unlock insights from vast data reserves.</description>
+      <pubDate>Wed, 10 Jun 2026 00:00:00 GMT</pubDate>
+      <category>LLMs &amp; Chatbots</category>
+    </item>
+    <item>
       <title>Rethinking How AI Models Learn: New Framework Challenges Standard Fine-Tuning</title>
       <link>https://aiglimpse.ai/articles/rethinking-how-ai-models-learn-new-framework-challenges-standard-fine-tuning-1d5f2b81</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/rethinking-how-ai-models-learn-new-framework-challenges-standard-fine-tuning-1d5f2b81</guid>
@@ -389,22 +405,6 @@
       <description>Mountain View's surging demand for AI services prompts landmark partnership to secure satellite-based computational capacity.</description>
       <pubDate>Fri, 05 Jun 2026 18:57:20 GMT</pubDate>
       <category>AI Business</category>
-    </item>
-    <item>
-      <title>New AI Model Teaches Machines to Understand 3D Scenes at the Part Level</title>
-      <link>https://aiglimpse.ai/articles/new-ai-model-teaches-machines-to-understand-3d-scenes-at-the-part-level-709c98cb</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-ai-model-teaches-machines-to-understand-3d-scenes-at-the-part-level-709c98cb</guid>
-      <description>Researchers introduce PAR3D, a framework that helps AI systems recognize and reason about individual components of objects, not just whole objects.</description>
-      <pubDate>Thu, 04 Jun 2026 17:59:04 GMT</pubDate>
-      <category>AI Research</category>
-    </item>
-    <item>
-      <title>New Framework Helps AI Agents Learn Cooperation in Competitive Games</title>
-      <link>https://aiglimpse.ai/articles/new-framework-helps-ai-agents-learn-cooperation-in-competitive-games-49bd64f3</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-framework-helps-ai-agents-learn-cooperation-in-competitive-games-49bd64f3</guid>
-      <description>Researchers introduce a game-theoretic metric that better captures how AI systems adapt to strategic opponents in repeated interactions.</description>
-      <pubDate>Thu, 04 Jun 2026 17:59:08 GMT</pubDate>
-      <category>AI Research</category>
     </item>
   </channel>
 </rss>

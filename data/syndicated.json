@@ -2072,6 +2072,42 @@
         "devto": true,
         "hashnode": false
       }
+    },
+    "lseg-deploys-openai-to-accelerate-decision-making-across-4000-workers-6e0cab93": {
+      "syndicated_at": "2026-06-10T12:58:59.351Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/lseg-deploys-openai-to-accelerate-decision-making-across-4000-workers-4h9a",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 491,
+      "category": "llms",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
+    },
+    "new-ai-model-unifies-image-understanding-generation-and-editing-21a12b05": {
+      "syndicated_at": "2026-06-10T12:59:08.804Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/new-ai-model-unifies-image-understanding-generation-and-editing-5f4i",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 419,
+      "category": "research",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
     }
   }
 }
