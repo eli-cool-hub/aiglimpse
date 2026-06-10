@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "rethinking-how-ai-models-learn-new-framework-challenges-standard-fine-tuning-1d5f2b81",
+      "title": "Rethinking How AI Models Learn: New Framework Challenges Standard Fine-Tuning",
+      "subtitle": "Researchers propose a unified approach to supervised fine-tuning that moves beyond rigid token matching, potentially improving how language models absorb training data.",
+      "category": "research",
+      "publishedAt": "2026-06-09T17:59:54.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2606.11189v1",
+      "sourceName": "arXiv (Tong Xie, Yuanhao Ban, Yunqi Hong, Sohyun An, Yihang Chen, C…)",
+      "sourceTier": 1,
+      "image": "/images/articles/rethinking-how-ai-models-learn-new-framework-challenges-standard-fine-tuning-1d5f2b81.jpg"
+    },
+    {
       "slug": "new-framework-shows-when-to-use-alignment-vs-prediction-in-ai-models-8e2587da",
       "title": "New Framework Shows When to Use Alignment vs. Prediction in AI Models",
       "subtitle": "Researchers develop a diagnostic tool to help practitioners choose the right multimodal learning approach before training.",
@@ -2361,6 +2372,7 @@
     "d9cd11817785cf63",
     "0d9756060e214b97",
     "ff09968a075e9e82",
-    "8e2587da6f8dee92"
+    "8e2587da6f8dee92",
+    "1d5f2b81c149ee8d"
   ]
 }

@@ -7,6 +7,14 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Rethinking How AI Models Learn: New Framework Challenges Standard Fine-Tuning</title>
+      <link>https://aiglimpse.ai/articles/rethinking-how-ai-models-learn-new-framework-challenges-standard-fine-tuning-1d5f2b81</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/rethinking-how-ai-models-learn-new-framework-challenges-standard-fine-tuning-1d5f2b81</guid>
+      <description>Researchers propose a unified approach to supervised fine-tuning that moves beyond rigid token matching, potentially improving how language models absorb training data.</description>
+      <pubDate>Tue, 09 Jun 2026 17:59:54 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
       <title>New Framework Shows When to Use Alignment vs. Prediction in AI Models</title>
       <link>https://aiglimpse.ai/articles/new-framework-shows-when-to-use-alignment-vs-prediction-in-ai-models-8e2587da</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/new-framework-shows-when-to-use-alignment-vs-prediction-in-ai-models-8e2587da</guid>
@@ -397,14 +405,6 @@
       <description>Researchers introduce a game-theoretic metric that better captures how AI systems adapt to strategic opponents in repeated interactions.</description>
       <pubDate>Thu, 04 Jun 2026 17:59:08 GMT</pubDate>
       <category>AI Research</category>
-    </item>
-    <item>
-      <title>TechCrunch's AI Startup Competition Enters Final Days</title>
-      <link>https://aiglimpse.ai/articles/techcrunchs-ai-startup-competition-enters-final-days-640d7ed9</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/techcrunchs-ai-startup-competition-enters-final-days-640d7ed9</guid>
-      <description>Emerging AI companies have 72 hours to submit applications for a chance to pitch at the industry's largest annual conference.</description>
-      <pubDate>Fri, 05 Jun 2026 20:00:00 GMT</pubDate>
-      <category>AI Business</category>
     </item>
   </channel>
 </rss>
