@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "study-challenges-claims-that-ai-models-match-expert-performance-2bc408d6",
+      "title": "Study Challenges Claims That AI Models Match Expert Performance",
+      "subtitle": "New research reveals frontier LLMs fall short of human experts when measured for consistency and error magnitude, not just accuracy.",
+      "category": "research",
+      "publishedAt": "2026-06-09T17:46:10.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2606.11166v1",
+      "sourceName": "arXiv (George Perrett, Javae Elliott, Jennifer Hill, Marc Scott)",
+      "sourceTier": 1,
+      "image": "/images/articles/study-challenges-claims-that-ai-models-match-expert-performance-2bc408d6.jpg"
+    },
+    {
+      "slug": "google-deepmind-achieves-4x-speedup-in-ai-text-generation-ddd8a289",
+      "title": "Google DeepMind Achieves 4x Speedup in AI Text Generation",
+      "subtitle": "New diffusion-based approach to language models promises faster inference without sacrificing output quality.",
+      "category": "research",
+      "publishedAt": "2026-06-10T16:24:11.000Z",
+      "sourceUrl": "https://deepmind.google/blog/diffusiongemma-4x-faster-text-generation/",
+      "sourceName": "Google DeepMind",
+      "sourceTier": 1,
+      "image": "/images/articles/google-deepmind-achieves-4x-speedup-in-ai-text-generation-ddd8a289.jpg"
+    },
+    {
       "slug": "new-ai-model-unifies-image-understanding-generation-and-editing-21a12b05",
       "title": "New AI Model Unifies Image Understanding, Generation and Editing",
       "subtitle": "Researchers demonstrate how discrete token representations and preference optimization enable a single model to handle multiple vision tasks.",
@@ -2397,6 +2419,8 @@
     "8e2587da6f8dee92",
     "1d5f2b81c149ee8d",
     "6e0cab93d01f0b22",
-    "21a12b054b7f2f13"
+    "21a12b054b7f2f13",
+    "ddd8a2895730e9b3",
+    "2bc408d6ef4dc5bc"
   ]
 }

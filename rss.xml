@@ -7,6 +7,22 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Study Challenges Claims That AI Models Match Expert Performance</title>
+      <link>https://aiglimpse.ai/articles/study-challenges-claims-that-ai-models-match-expert-performance-2bc408d6</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/study-challenges-claims-that-ai-models-match-expert-performance-2bc408d6</guid>
+      <description>New research reveals frontier LLMs fall short of human experts when measured for consistency and error magnitude, not just accuracy.</description>
+      <pubDate>Tue, 09 Jun 2026 17:46:10 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
+      <title>Google DeepMind Achieves 4x Speedup in AI Text Generation</title>
+      <link>https://aiglimpse.ai/articles/google-deepmind-achieves-4x-speedup-in-ai-text-generation-ddd8a289</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/google-deepmind-achieves-4x-speedup-in-ai-text-generation-ddd8a289</guid>
+      <description>New diffusion-based approach to language models promises faster inference without sacrificing output quality.</description>
+      <pubDate>Wed, 10 Jun 2026 16:24:11 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
       <title>New AI Model Unifies Image Understanding, Generation and Editing</title>
       <link>https://aiglimpse.ai/articles/new-ai-model-unifies-image-understanding-generation-and-editing-21a12b05</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/new-ai-model-unifies-image-understanding-generation-and-editing-21a12b05</guid>
@@ -389,22 +405,6 @@
       <description>Researchers expose critical gaps in AI detection by studying how algorithms perform across progressive human-AI document revisions.</description>
       <pubDate>Thu, 04 Jun 2026 17:58:05 GMT</pubDate>
       <category>AI Research</category>
-    </item>
-    <item>
-      <title>New Framework Lets Developers Map Personalities Into AI Models</title>
-      <link>https://aiglimpse.ai/articles/new-framework-lets-developers-map-personalities-into-ai-models-c9919e11</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-framework-lets-developers-map-personalities-into-ai-models-c9919e11</guid>
-      <description>Researchers build toolkit to embed distinct behavioral traits into language models, opening new possibilities for personalized AI applications.</description>
-      <pubDate>Sat, 06 Jun 2026 11:42:01 GMT</pubDate>
-      <category>AI Tools &amp; Products</category>
-    </item>
-    <item>
-      <title>Google Taps SpaceX for $11B Annual AI Compute in Major Infrastructure Deal</title>
-      <link>https://aiglimpse.ai/articles/google-taps-spacex-for-11b-annual-ai-compute-in-major-infrastructure-deal-36d571b5</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/google-taps-spacex-for-11b-annual-ai-compute-in-major-infrastructure-deal-36d571b5</guid>
-      <description>Mountain View's surging demand for AI services prompts landmark partnership to secure satellite-based computational capacity.</description>
-      <pubDate>Fri, 05 Jun 2026 18:57:20 GMT</pubDate>
-      <category>AI Business</category>
     </item>
   </channel>
 </rss>

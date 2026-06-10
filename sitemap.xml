@@ -15,6 +15,24 @@
   <url><loc>https://aiglimpse.ai/pages/privacy</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
   <url><loc>https://aiglimpse.ai/pages/terms</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
   <url>
+    <loc>https://aiglimpse.ai/articles/study-challenges-claims-that-ai-models-match-expert-performance-2bc408d6</loc>
+    <news:news>
+      <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-06-09T17:46:10.000Z</news:publication_date>
+      <news:title>Study Challenges Claims That AI Models Match Expert Performance</news:title>
+    </news:news>
+    <changefreq>daily</changefreq><priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://aiglimpse.ai/articles/google-deepmind-achieves-4x-speedup-in-ai-text-generation-ddd8a289</loc>
+    <news:news>
+      <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-06-10T16:24:11.000Z</news:publication_date>
+      <news:title>Google DeepMind Achieves 4x Speedup in AI Text Generation</news:title>
+    </news:news>
+    <changefreq>daily</changefreq><priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://aiglimpse.ai/articles/new-ai-model-unifies-image-understanding-generation-and-editing-21a12b05</loc>
     <news:news>
       <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
