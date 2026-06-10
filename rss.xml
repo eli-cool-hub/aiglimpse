@@ -7,6 +7,22 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Researchers Accelerate AI Video Generation With Multi-Horizon Prediction</title>
+      <link>https://aiglimpse.ai/articles/researchers-accelerate-ai-video-generation-with-multi-horizon-prediction-d379aebc</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/researchers-accelerate-ai-video-generation-with-multi-horizon-prediction-d379aebc</guid>
+      <description>A new training framework cuts convergence time in half while improving accuracy for world models that predict future video frames.</description>
+      <pubDate>Tue, 09 Jun 2026 17:59:22 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
+      <title>Beijing-Linked Actors Deploy AI in Covert US Tech Policy Campaign</title>
+      <link>https://aiglimpse.ai/articles/beijing-linked-actors-deploy-ai-in-covert-us-tech-policy-campaign-9286f71a</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/beijing-linked-actors-deploy-ai-in-covert-us-tech-policy-campaign-9286f71a</guid>
+      <description>State-sponsored influence operations are leveraging artificial intelligence to shape American debates on data centers, trade policy, and AI safety.</description>
+      <pubDate>Wed, 10 Jun 2026 12:00:00 GMT</pubDate>
+      <category>LLMs &amp; Chatbots</category>
+    </item>
+    <item>
       <title>Study Challenges Claims That AI Models Match Expert Performance</title>
       <link>https://aiglimpse.ai/articles/study-challenges-claims-that-ai-models-match-expert-performance-2bc408d6</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/study-challenges-claims-that-ai-models-match-expert-performance-2bc408d6</guid>
@@ -389,22 +405,6 @@
       <description>Government consideration of ownership position in leading AI firm signals shift in how Washington approaches artificial intelligence commercialization.</description>
       <pubDate>Sat, 06 Jun 2026 16:17:21 GMT</pubDate>
       <category>AI Business</category>
-    </item>
-    <item>
-      <title>Diffusion Models Learn to Self-Retrieve, Beating Standard RAG</title>
-      <link>https://aiglimpse.ai/articles/diffusion-models-learn-to-self-retrieve-beating-standard-rag-661f7c5b</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/diffusion-models-learn-to-self-retrieve-beating-standard-rag-661f7c5b</guid>
-      <description>New framework uses a model's own uncertain predictions to fetch better information mid-generation, achieving 8x faster inference.</description>
-      <pubDate>Thu, 04 Jun 2026 17:56:27 GMT</pubDate>
-      <category>AI Research</category>
-    </item>
-    <item>
-      <title>New Benchmark Reveals How AI Writing Becomes Detectable During Editing</title>
-      <link>https://aiglimpse.ai/articles/new-benchmark-reveals-how-ai-writing-becomes-detectable-during-editing-9b88bc80</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-benchmark-reveals-how-ai-writing-becomes-detectable-during-editing-9b88bc80</guid>
-      <description>Researchers expose critical gaps in AI detection by studying how algorithms perform across progressive human-AI document revisions.</description>
-      <pubDate>Thu, 04 Jun 2026 17:58:05 GMT</pubDate>
-      <category>AI Research</category>
     </item>
   </channel>
 </rss>

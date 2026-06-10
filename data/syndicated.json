@@ -2144,6 +2144,42 @@
         "devto": true,
         "hashnode": false
       }
+    },
+    "beijing-linked-actors-deploy-ai-in-covert-us-tech-policy-campaign-9286f71a": {
+      "syndicated_at": "2026-06-10T20:33:59.544Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/beijing-linked-actors-deploy-ai-in-covert-us-tech-policy-campaign-14do",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 474,
+      "category": "llms",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
+    },
+    "researchers-accelerate-ai-video-generation-with-multi-horizon-prediction-d379aebc": {
+      "syndicated_at": "2026-06-10T20:34:12.088Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/researchers-accelerate-ai-video-generation-with-multi-horizon-prediction-59da",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 477,
+      "category": "research",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
     }
   }
 }

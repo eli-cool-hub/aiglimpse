@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "researchers-accelerate-ai-video-generation-with-multi-horizon-prediction-d379aebc",
+      "title": "Researchers Accelerate AI Video Generation With Multi-Horizon Prediction",
+      "subtitle": "A new training framework cuts convergence time in half while improving accuracy for world models that predict future video frames.",
+      "category": "research",
+      "publishedAt": "2026-06-09T17:59:22.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2606.11187v1",
+      "sourceName": "arXiv (Gangwei Xu, Qihang Zhang, Jiaming Zhou, Xing Zhu, Yujun Shen…)",
+      "sourceTier": 1,
+      "image": "/images/articles/researchers-accelerate-ai-video-generation-with-multi-horizon-prediction-d379aebc.jpg"
+    },
+    {
+      "slug": "beijing-linked-actors-deploy-ai-in-covert-us-tech-policy-campaign-9286f71a",
+      "title": "Beijing-Linked Actors Deploy AI in Covert US Tech Policy Campaign",
+      "subtitle": "State-sponsored influence operations are leveraging artificial intelligence to shape American debates on data centers, trade policy, and AI safety.",
+      "category": "llms",
+      "publishedAt": "2026-06-10T12:00:00.000Z",
+      "sourceUrl": "https://openai.com/index/prc-linked-influence-operations-ai-debates",
+      "sourceName": "OpenAI",
+      "sourceTier": 1,
+      "image": "/images/articles/beijing-linked-actors-deploy-ai-in-covert-us-tech-policy-campaign-9286f71a.jpg"
+    },
+    {
       "slug": "study-challenges-claims-that-ai-models-match-expert-performance-2bc408d6",
       "title": "Study Challenges Claims That AI Models Match Expert Performance",
       "subtitle": "New research reveals frontier LLMs fall short of human experts when measured for consistency and error magnitude, not just accuracy.",
@@ -2421,6 +2443,8 @@
     "6e0cab93d01f0b22",
     "21a12b054b7f2f13",
     "ddd8a2895730e9b3",
-    "2bc408d6ef4dc5bc"
+    "2bc408d6ef4dc5bc",
+    "9286f71a749ba979",
+    "d379aebccc17d64d"
   ]
 }
