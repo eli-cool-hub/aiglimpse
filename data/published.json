@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "ai-coding-tools-help-astrophysicists-model-black-hole-physics-cd878838",
+      "title": "AI Coding Tools Help Astrophysicists Model Black Hole Physics",
+      "subtitle": "OpenAI's Codex enables researchers to accelerate computational simulations of extreme cosmic phenomena, advancing tests of Einstein's theories.",
+      "category": "llms",
+      "publishedAt": "2026-06-11T00:00:00.000Z",
+      "sourceUrl": "https://openai.com/index/using-codex-to-simulate-black-holes",
+      "sourceName": "OpenAI",
+      "sourceTier": 1,
+      "image": "/images/articles/ai-coding-tools-help-astrophysicists-model-black-hole-physics-cd878838.jpg"
+    },
+    {
       "slug": "researchers-accelerate-ai-video-generation-with-multi-horizon-prediction-d379aebc",
       "title": "Researchers Accelerate AI Video Generation With Multi-Horizon Prediction",
       "subtitle": "A new training framework cuts convergence time in half while improving accuracy for world models that predict future video frames.",
@@ -2445,6 +2456,7 @@
     "ddd8a2895730e9b3",
     "2bc408d6ef4dc5bc",
     "9286f71a749ba979",
-    "d379aebccc17d64d"
+    "d379aebccc17d64d",
+    "cd878838ab3f98f1"
   ]
 }
