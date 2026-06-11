@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "bbva-deploys-chatgpt-enterprise-across-100000-employees-bd6fdb19",
+      "title": "BBVA Deploys ChatGPT Enterprise Across 100,000 Employees",
+      "subtitle": "Spain's largest bank scales OpenAI's enterprise AI platform to transform operations and reshape how financial institutions adopt generative AI.",
+      "category": "llms",
+      "publishedAt": "2026-06-11T00:00:00.000Z",
+      "sourceUrl": "https://openai.com/index/bbva",
+      "sourceName": "OpenAI",
+      "sourceTier": 1,
+      "image": "/images/articles/bbva-deploys-chatgpt-enterprise-across-100000-employees-bd6fdb19.jpg"
+    },
+    {
+      "slug": "openai-acquires-ona-to-power-long-running-ai-agents-8ae138ef",
+      "title": "OpenAI Acquires Ona to Power Long-Running AI Agents",
+      "subtitle": "The acquisition bolsters OpenAI's infrastructure for enterprise deployments requiring persistent, secure cloud environments.",
+      "category": "llms",
+      "publishedAt": "2026-06-11T00:00:00.000Z",
+      "sourceUrl": "https://openai.com/index/openai-to-acquire-ona",
+      "sourceName": "OpenAI",
+      "sourceTier": 1,
+      "image": "/images/articles/openai-acquires-ona-to-power-long-running-ai-agents-8ae138ef.jpg"
+    },
+    {
       "slug": "new-method-recovers-discarded-visual-data-in-ai-image-understanding-18db7c29",
       "title": "New Method Recovers Discarded Visual Data in AI Image Understanding",
       "subtitle": "Researchers propose dynamic token routing to preserve image details that static pruning methods permanently lose during processing.",
@@ -2529,6 +2551,8 @@
     "d07423da23ce949a",
     "3abd61f8dc419782",
     "154d4b0e2be88740",
-    "18db7c29eba02a36"
+    "18db7c29eba02a36",
+    "8ae138effc9b47bc",
+    "bd6fdb198acf5769"
   ]
 }

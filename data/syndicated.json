@@ -2288,6 +2288,42 @@
         "devto": true,
         "hashnode": false
       }
+    },
+    "openai-acquires-ona-to-power-long-running-ai-agents-8ae138ef": {
+      "syndicated_at": "2026-06-11T20:25:28.756Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/openai-acquires-ona-to-power-long-running-ai-agents-7gn",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 489,
+      "category": "llms",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
+    },
+    "bbva-deploys-chatgpt-enterprise-across-100000-employees-bd6fdb19": {
+      "syndicated_at": "2026-06-11T20:25:38.592Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/bbva-deploys-chatgpt-enterprise-across-100000-employees-4j9l",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 439,
+      "category": "llms",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
     }
   }
 }

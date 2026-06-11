@@ -15,6 +15,24 @@
   <url><loc>https://aiglimpse.ai/pages/privacy</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
   <url><loc>https://aiglimpse.ai/pages/terms</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
   <url>
+    <loc>https://aiglimpse.ai/articles/bbva-deploys-chatgpt-enterprise-across-100000-employees-bd6fdb19</loc>
+    <news:news>
+      <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-06-11T00:00:00.000Z</news:publication_date>
+      <news:title>BBVA Deploys ChatGPT Enterprise Across 100,000 Employees</news:title>
+    </news:news>
+    <changefreq>daily</changefreq><priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://aiglimpse.ai/articles/openai-acquires-ona-to-power-long-running-ai-agents-8ae138ef</loc>
+    <news:news>
+      <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-06-11T00:00:00.000Z</news:publication_date>
+      <news:title>OpenAI Acquires Ona to Power Long-Running AI Agents</news:title>
+    </news:news>
+    <changefreq>daily</changefreq><priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://aiglimpse.ai/articles/new-method-recovers-discarded-visual-data-in-ai-image-understanding-18db7c29</loc>
     <news:news>
       <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
