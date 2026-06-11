@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "new-method-gives-cheap-robot-arms-force-sensing-without-costly-hardware-460b4644",
+      "title": "New Method Gives Cheap Robot Arms Force Sensing Without Costly Hardware",
+      "subtitle": "Researchers developed a software-based approach that lets standard industrial robots feel contact and pressure, opening doors for more dexterous manipulation tasks.",
+      "category": "research",
+      "publishedAt": "2026-06-10T17:59:35.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2606.12406v1",
+      "sourceName": "arXiv (Steven Oh, Jason Jingzhou Liu, Tony Tao, Philip Han, Kenneth…)",
+      "sourceTier": 1,
+      "image": "/images/articles/new-method-gives-cheap-robot-arms-force-sensing-without-costly-hardware-460b4644.jpg"
+    },
+    {
+      "slug": "minor-tweaks-to-image-processing-unlock-major-gains-for-ai-pathology-edf970d2",
+      "title": "Minor Tweaks to Image Processing Unlock Major Gains for AI Pathology",
+      "subtitle": "Research shows general-purpose language models close the gap with specialized systems through optimized input configurations, not architectural changes.",
+      "category": "research",
+      "publishedAt": "2026-06-10T17:59:39.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2606.12407v1",
+      "sourceName": "arXiv (Kian R. Weihrauch, Thomas A. Buckley, William Lotter, Arjun …)",
+      "sourceTier": 1,
+      "image": "/images/articles/minor-tweaks-to-image-processing-unlock-major-gains-for-ai-pathology-edf970d2.jpg"
+    },
+    {
       "slug": "bbva-deploys-chatgpt-enterprise-across-100000-employees-bd6fdb19",
       "title": "BBVA Deploys ChatGPT Enterprise Across 100,000 Employees",
       "subtitle": "Spain's largest bank scales OpenAI's enterprise AI platform to transform operations and reshape how financial institutions adopt generative AI.",
@@ -2553,6 +2575,8 @@
     "154d4b0e2be88740",
     "18db7c29eba02a36",
     "8ae138effc9b47bc",
-    "bd6fdb198acf5769"
+    "bd6fdb198acf5769",
+    "edf970d286907d2f",
+    "460b4644dcab2d57"
   ]
 }

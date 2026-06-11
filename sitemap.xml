@@ -15,6 +15,24 @@
   <url><loc>https://aiglimpse.ai/pages/privacy</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
   <url><loc>https://aiglimpse.ai/pages/terms</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
   <url>
+    <loc>https://aiglimpse.ai/articles/new-method-gives-cheap-robot-arms-force-sensing-without-costly-hardware-460b4644</loc>
+    <news:news>
+      <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-06-10T17:59:35.000Z</news:publication_date>
+      <news:title>New Method Gives Cheap Robot Arms Force Sensing Without Costly Hardware</news:title>
+    </news:news>
+    <changefreq>daily</changefreq><priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://aiglimpse.ai/articles/minor-tweaks-to-image-processing-unlock-major-gains-for-ai-pathology-edf970d2</loc>
+    <news:news>
+      <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-06-10T17:59:39.000Z</news:publication_date>
+      <news:title>Minor Tweaks to Image Processing Unlock Major Gains for AI Pathology</news:title>
+    </news:news>
+    <changefreq>daily</changefreq><priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://aiglimpse.ai/articles/bbva-deploys-chatgpt-enterprise-across-100000-employees-bd6fdb19</loc>
     <news:news>
       <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
