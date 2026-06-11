@@ -2198,6 +2198,24 @@
         "devto": true,
         "hashnode": false
       }
+    },
+    "openai-models-now-accessible-through-oracle-cloud-deployments-e484d7ea": {
+      "syndicated_at": "2026-06-11T04:11:31.432Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/openai-models-now-accessible-through-oracle-cloud-deployments-5d5a",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 413,
+      "category": "llms",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
     }
   }
 }

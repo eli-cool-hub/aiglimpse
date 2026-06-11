@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "opendoors-india-pullback-signals-shift-in-ai-outsourcing-strategy-9976006a",
+      "title": "Opendoor's India Pullback Signals Shift in AI Outsourcing Strategy",
+      "subtitle": "Real estate tech firm's exit raises questions about offshore AI development as India dominates global shared services market.",
+      "category": "business",
+      "publishedAt": "2026-06-11T04:02:19.000Z",
+      "sourceUrl": "https://techcrunch.com/2026/06/10/opendoors-india-exit-is-fueling-a-bigger-conversation-about-ai-and-outsourcing/",
+      "sourceName": "TechCrunch AI",
+      "sourceTier": 2,
+      "image": "/images/articles/opendoors-india-pullback-signals-shift-in-ai-outsourcing-strategy-9976006a.jpg"
+    },
+    {
+      "slug": "openai-models-now-accessible-through-oracle-cloud-deployments-e484d7ea",
+      "title": "OpenAI Models Now Accessible Through Oracle Cloud Deployments",
+      "subtitle": "Enterprise customers can now leverage OpenAI's AI capabilities within Oracle infrastructure, streamlining deployment for organizations with existing cloud commitments.",
+      "category": "llms",
+      "publishedAt": "2026-06-10T20:00:00.000Z",
+      "sourceUrl": "https://openai.com/index/openai-on-oracle-cloud",
+      "sourceName": "OpenAI",
+      "sourceTier": 1,
+      "image": "/images/articles/openai-models-now-accessible-through-oracle-cloud-deployments-e484d7ea.jpg"
+    },
+    {
       "slug": "ai-coding-tools-help-astrophysicists-model-black-hole-physics-cd878838",
       "title": "AI Coding Tools Help Astrophysicists Model Black Hole Physics",
       "subtitle": "OpenAI's Codex enables researchers to accelerate computational simulations of extreme cosmic phenomena, advancing tests of Einstein's theories.",
@@ -2457,6 +2479,8 @@
     "2bc408d6ef4dc5bc",
     "9286f71a749ba979",
     "d379aebccc17d64d",
-    "cd878838ab3f98f1"
+    "cd878838ab3f98f1",
+    "e484d7ea7f19c8c9",
+    "9976006a92eae9c3"
   ]
 }
