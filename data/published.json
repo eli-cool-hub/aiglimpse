@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "new-method-recovers-discarded-visual-data-in-ai-image-understanding-18db7c29",
+      "title": "New Method Recovers Discarded Visual Data in AI Image Understanding",
+      "subtitle": "Researchers propose dynamic token routing to preserve image details that static pruning methods permanently lose during processing.",
+      "category": "research",
+      "publishedAt": "2026-06-10T17:59:57.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2606.12412v1",
+      "sourceName": "arXiv (Cheng-Yu Yang, Shao-Yuan Lo, Yu-Lun Liu)",
+      "sourceTier": 1,
+      "image": "/images/articles/new-method-recovers-discarded-visual-data-in-ai-image-understanding-18db7c29.jpg"
+    },
+    {
+      "slug": "pytorch-optimization-techniques-accelerate-neural-network-training-154d4b0e",
+      "title": "PyTorch Optimization Techniques Accelerate Neural Network Training",
+      "subtitle": "Engineers demonstrate how kernel fusion and compiler-level optimizations can significantly reduce computational overhead in deep learning models.",
+      "category": "tools",
+      "publishedAt": "2026-06-11T00:00:00.000Z",
+      "sourceUrl": "https://huggingface.co/blog/torch-mlp-fusion",
+      "sourceName": "Hugging Face",
+      "sourceTier": 1,
+      "image": "/images/articles/pytorch-optimization-techniques-accelerate-neural-network-training-154d4b0e.jpg"
+    },
+    {
       "slug": "researchers-propose-new-method-to-solve-chatbot-memory-problem-3abd61f8",
       "title": "Researchers Propose New Method to Solve Chatbot Memory Problem",
       "subtitle": "A compression technique called C-DIC could help conversational AI systems maintain quality during long exchanges without slowing down.",
@@ -2505,6 +2527,8 @@
     "e484d7ea7f19c8c9",
     "9976006a92eae9c3",
     "d07423da23ce949a",
-    "3abd61f8dc419782"
+    "3abd61f8dc419782",
+    "154d4b0e2be88740",
+    "18db7c29eba02a36"
   ]
 }
