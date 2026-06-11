@@ -2216,6 +2216,42 @@
         "devto": true,
         "hashnode": false
       }
+    },
+    "openai-backs-eu-push-for-ai-transparency-standards-d07423da": {
+      "syndicated_at": "2026-06-11T10:40:43.365Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/openai-backs-eu-push-for-ai-transparency-standards-3gg0",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 436,
+      "category": "llms",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
+    },
+    "researchers-propose-new-method-to-solve-chatbot-memory-problem-3abd61f8": {
+      "syndicated_at": "2026-06-11T10:40:54.234Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/researchers-propose-new-method-to-solve-chatbot-memory-problem-4m5d",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 375,
+      "category": "research",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
     }
   }
 }

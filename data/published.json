@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "researchers-propose-new-method-to-solve-chatbot-memory-problem-3abd61f8",
+      "title": "Researchers Propose New Method to Solve Chatbot Memory Problem",
+      "subtitle": "A compression technique called C-DIC could help conversational AI systems maintain quality during long exchanges without slowing down.",
+      "category": "research",
+      "publishedAt": "2026-06-10T17:59:54.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2606.12411v1",
+      "sourceName": "arXiv (Yeongseo Jung, Jaehyeok Kim, Eunseo Jung, Jiachuan Wang, Yon…)",
+      "sourceTier": 1,
+      "image": "/images/articles/researchers-propose-new-method-to-solve-chatbot-memory-problem-3abd61f8.jpg"
+    },
+    {
+      "slug": "openai-backs-eu-push-for-ai-transparency-standards-d07423da",
+      "title": "OpenAI Backs EU Push for AI Transparency Standards",
+      "subtitle": "The AI firm endorses new content labeling codes aimed at helping European consumers identify synthetic media.",
+      "category": "llms",
+      "publishedAt": "2026-06-11T00:00:00.000Z",
+      "sourceUrl": "https://openai.com/index/supporting-eu-trustworthy-ai-ecosystem",
+      "sourceName": "OpenAI",
+      "sourceTier": 1,
+      "image": "/images/articles/openai-backs-eu-push-for-ai-transparency-standards-d07423da.jpg"
+    },
+    {
       "slug": "opendoors-india-pullback-signals-shift-in-ai-outsourcing-strategy-9976006a",
       "title": "Opendoor's India Pullback Signals Shift in AI Outsourcing Strategy",
       "subtitle": "Real estate tech firm's exit raises questions about offshore AI development as India dominates global shared services market.",
@@ -2481,6 +2503,8 @@
     "d379aebccc17d64d",
     "cd878838ab3f98f1",
     "e484d7ea7f19c8c9",
-    "9976006a92eae9c3"
+    "9976006a92eae9c3",
+    "d07423da23ce949a",
+    "3abd61f8dc419782"
   ]
 }
