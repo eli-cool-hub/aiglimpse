@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "theker-secures-85m-to-develop-adaptable-factory-robots-4f139cc7",
+      "title": "Theker Secures $85M to Develop Adaptable Factory Robots",
+      "subtitle": "A new manufacturing robotics startup challenges the specialized-robot model with machines designed for rapid reconfiguration across multiple tasks.",
+      "category": "business",
+      "publishedAt": "2026-06-12T01:48:07.000Z",
+      "sourceUrl": "https://techcrunch.com/2026/06/11/theker-just-raised-85m-to-build-the-factory-robot-that-doesnt-specialize-in-anything/",
+      "sourceName": "TechCrunch AI",
+      "sourceTier": 2,
+      "image": "/images/articles/theker-secures-85m-to-develop-adaptable-factory-robots-4f139cc7.jpg"
+    },
+    {
+      "slug": "deepmind-backs-multi-agent-ai-safety-with-10m-research-fund-e23c322f",
+      "title": "DeepMind Backs Multi-Agent AI Safety With $10M Research Fund",
+      "subtitle": "Google's AI lab launches major initiative to study risks of coordinated autonomous systems as multi-agent AI grows in complexity.",
+      "category": "research",
+      "publishedAt": "2026-06-10T10:21:19.000Z",
+      "sourceUrl": "https://deepmind.google/blog/investing-in-multi-agent-ai-safety-research/",
+      "sourceName": "Google DeepMind",
+      "sourceTier": 1,
+      "image": "/images/articles/deepmind-backs-multi-agent-ai-safety-with-10m-research-fund-e23c322f.jpg"
+    },
+    {
       "slug": "new-method-gives-cheap-robot-arms-force-sensing-without-costly-hardware-460b4644",
       "title": "New Method Gives Cheap Robot Arms Force Sensing Without Costly Hardware",
       "subtitle": "Researchers developed a software-based approach that lets standard industrial robots feel contact and pressure, opening doors for more dexterous manipulation tasks.",
@@ -2577,6 +2599,8 @@
     "8ae138effc9b47bc",
     "bd6fdb198acf5769",
     "edf970d286907d2f",
-    "460b4644dcab2d57"
+    "460b4644dcab2d57",
+    "e23c322fc5a280b0",
+    "4f139cc71b05427a"
   ]
 }
