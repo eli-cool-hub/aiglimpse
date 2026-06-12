@@ -2396,6 +2396,42 @@
         "devto": true,
         "hashnode": false
       }
+    },
+    "preply-harnesses-openai-models-to-scale-personalized-language-tutoring-9d5adbe8": {
+      "syndicated_at": "2026-06-12T15:19:59.385Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/preply-harnesses-openai-models-to-scale-personalized-language-tutoring-53pf",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 405,
+      "category": "llms",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
+    },
+    "new-framework-enables-ai-image-generators-to-create-mixed-text-image-sequences-550232ef": {
+      "syndicated_at": "2026-06-12T15:20:08.825Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/new-framework-enables-ai-image-generators-to-create-mixed-text-image-sequences-36j2",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 449,
+      "category": "research",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
     }
   }
 }

@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "new-framework-enables-ai-image-generators-to-create-mixed-text-image-sequences-550232ef",
+      "title": "New Framework Enables AI Image Generators to Create Mixed Text-Image Sequences",
+      "subtitle": "InterleaveThinker uses multi-agent planning to unlock sequential visual storytelling capabilities in existing image models.",
+      "category": "research",
+      "publishedAt": "2026-06-11T17:59:50.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2606.13679v1",
+      "sourceName": "arXiv (Dian Zheng, Harry Lee, Manyuan Zhang, Kaituo Feng, Zoey Guo,…)",
+      "sourceTier": 1,
+      "image": "/images/articles/new-framework-enables-ai-image-generators-to-create-mixed-text-image-sequences-550232ef.jpg"
+    },
+    {
+      "slug": "preply-harnesses-openai-models-to-scale-personalized-language-tutoring-9d5adbe8",
+      "title": "Preply Harnesses OpenAI Models to Scale Personalized Language Tutoring",
+      "subtitle": "The education platform deploys AI-powered lesson synthesis and adaptive feedback to enhance human instruction at scale.",
+      "category": "llms",
+      "publishedAt": "2026-06-12T00:00:00.000Z",
+      "sourceUrl": "https://openai.com/index/preply",
+      "sourceName": "OpenAI",
+      "sourceTier": 1,
+      "image": "/images/articles/preply-harnesses-openai-models-to-scale-personalized-language-tutoring-9d5adbe8.jpg"
+    },
+    {
       "slug": "new-framework-teaches-ai-models-to-reason-through-analogies-43b3aa97",
       "title": "New Framework Teaches AI Models to Reason Through Analogies",
       "subtitle": "Researchers develop retrieval method that helps language models solve complex problems by finding structurally similar examples rather than semantically matching ones.",
@@ -2613,6 +2635,8 @@
     "460b4644dcab2d57",
     "e23c322fc5a280b0",
     "4f139cc71b05427a",
-    "43b3aa973ca54a05"
+    "43b3aa973ca54a05",
+    "9d5adbe8da9a6aa6",
+    "550232ef8a16937a"
   ]
 }
