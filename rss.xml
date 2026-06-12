@@ -7,6 +7,22 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Researchers Teach Robots to Master Complex Tools Through Animation</title>
+      <link>https://aiglimpse.ai/articles/researchers-teach-robots-to-master-complex-tools-through-animation-c13d0bf3</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/researchers-teach-robots-to-master-complex-tools-through-animation-c13d0bf3</guid>
+      <description>New framework enables robots to grasp and manipulate articulated tools by treating the problem as motion animation rather than traditional manipulation.</description>
+      <pubDate>Thu, 11 Jun 2026 17:59:49 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
+      <title>New Benchmark Exposes AI Agents' Struggle With Changing Environments</title>
+      <link>https://aiglimpse.ai/articles/new-benchmark-exposes-ai-agents-struggle-with-changing-environments-480b27c3</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-benchmark-exposes-ai-agents-struggle-with-changing-environments-480b27c3</guid>
+      <description>Researchers reveal that language model agents fail to adapt effectively when conditions shift, proposing a memory-tracking solution to improve real-world deployment.</description>
+      <pubDate>Thu, 11 Jun 2026 17:59:59 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
       <title>OpenAI Launches Skill-Building Academy to Train Workers on AI</title>
       <link>https://aiglimpse.ai/articles/openai-launches-skill-building-academy-to-train-workers-on-ai-54f756ce</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/openai-launches-skill-building-academy-to-train-workers-on-ai-54f756ce</guid>
@@ -388,22 +404,6 @@
       <guid isPermaLink="true">https://aiglimpse.ai/articles/deepseek-v4-pro-outperforms-openais-latest-model-on-accuracy-tests-6fc739a3</guid>
       <description>Chinese AI startup's newest release demonstrates measurable gains in precision benchmarks, intensifying competition in the large language model market.</description>
       <pubDate>Mon, 08 Jun 2026 01:39:30 GMT</pubDate>
-      <category>AI Tools &amp; Products</category>
-    </item>
-    <item>
-      <title>Researchers Challenge Claims of Human-Like Intelligence in AI Models</title>
-      <link>https://aiglimpse.ai/articles/researchers-challenge-claims-of-human-like-intelligence-in-ai-models-ff6e91b2</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/researchers-challenge-claims-of-human-like-intelligence-in-ai-models-ff6e91b2</guid>
-      <description>A new paper questions whether large language models truly possess human-like attributes or whether we're applying flawed reasoning to their capabilities.</description>
-      <pubDate>Sun, 07 Jun 2026 18:54:55 GMT</pubDate>
-      <category>AI Research</category>
-    </item>
-    <item>
-      <title>How a Hackathon Project Exposed the Limits of AI in Healthcare</title>
-      <link>https://aiglimpse.ai/articles/how-a-hackathon-project-exposed-the-limits-of-ai-in-healthcare-6d51ed92</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/how-a-hackathon-project-exposed-the-limits-of-ai-in-healthcare-6d51ed92</guid>
-      <description>A dental tech startup's failed attempt to build smart dentures reveals where machine learning still struggles with real-world complexity.</description>
-      <pubDate>Sun, 07 Jun 2026 19:44:27 GMT</pubDate>
       <category>AI Tools &amp; Products</category>
     </item>
   </channel>

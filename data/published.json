@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "researchers-teach-robots-to-master-complex-tools-through-animation-c13d0bf3",
+      "title": "Researchers Teach Robots to Master Complex Tools Through Animation",
+      "subtitle": "New framework enables robots to grasp and manipulate articulated tools by treating the problem as motion animation rather than traditional manipulation.",
+      "category": "research",
+      "publishedAt": "2026-06-11T17:59:49.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2606.13677v1",
+      "sourceName": "arXiv (Zhao-Heng Yin, Guanya Shi, Pieter Abbeel, C. Karen Liu)",
+      "sourceTier": 1,
+      "image": "/images/articles/researchers-teach-robots-to-master-complex-tools-through-animation-c13d0bf3.jpg"
+    },
+    {
+      "slug": "new-benchmark-exposes-ai-agents-struggle-with-changing-environments-480b27c3",
+      "title": "New Benchmark Exposes AI Agents' Struggle With Changing Environments",
+      "subtitle": "Researchers reveal that language model agents fail to adapt effectively when conditions shift, proposing a memory-tracking solution to improve real-world deployment.",
+      "category": "research",
+      "publishedAt": "2026-06-11T17:59:59.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2606.13681v1",
+      "sourceName": "arXiv (Jundong Xu, Qingchuan Li, Jiaying Wu, Yihuai Lan, Shuyue Ste…)",
+      "sourceTier": 1,
+      "image": "/images/articles/new-benchmark-exposes-ai-agents-struggle-with-changing-environments-480b27c3.jpg"
+    },
+    {
       "slug": "openai-launches-skill-building-academy-to-train-workers-on-ai-54f756ce",
       "title": "OpenAI Launches Skill-Building Academy to Train Workers on AI",
       "subtitle": "New structured courses aim to equip professionals with hands-on expertise in applying large language models and autonomous agents to workplace tasks.",
@@ -2661,6 +2683,8 @@
     "9d5adbe8da9a6aa6",
     "550232ef8a16937a",
     "b197ef1ad899e548",
-    "54f756ce9b2c5acc"
+    "54f756ce9b2c5acc",
+    "480b27c3d0df9aa6",
+    "c13d0bf3090642aa"
   ]
 }
