@@ -2432,6 +2432,42 @@
         "devto": true,
         "hashnode": false
       }
+    },
+    "allen-institute-releases-open-evaluation-framework-for-llm-development-b197ef1a": {
+      "syndicated_at": "2026-06-12T18:09:35.921Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/allen-institute-releases-open-evaluation-framework-for-llm-development-i0g",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 430,
+      "category": "tools",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
+    },
+    "openai-launches-skill-building-academy-to-train-workers-on-ai-54f756ce": {
+      "syndicated_at": "2026-06-12T18:09:47.239Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/openai-launches-skill-building-academy-to-train-workers-on-ai-m7n",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 500,
+      "category": "llms",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
     }
   }
 }

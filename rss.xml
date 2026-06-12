@@ -7,6 +7,22 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>OpenAI Launches Skill-Building Academy to Train Workers on AI</title>
+      <link>https://aiglimpse.ai/articles/openai-launches-skill-building-academy-to-train-workers-on-ai-54f756ce</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/openai-launches-skill-building-academy-to-train-workers-on-ai-54f756ce</guid>
+      <description>New structured courses aim to equip professionals with hands-on expertise in applying large language models and autonomous agents to workplace tasks.</description>
+      <pubDate>Fri, 12 Jun 2026 10:00:00 GMT</pubDate>
+      <category>LLMs &amp; Chatbots</category>
+    </item>
+    <item>
+      <title>Allen Institute Releases Open Evaluation Framework for LLM Development</title>
+      <link>https://aiglimpse.ai/articles/allen-institute-releases-open-evaluation-framework-for-llm-development-b197ef1a</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/allen-institute-releases-open-evaluation-framework-for-llm-development-b197ef1a</guid>
+      <description>New benchmarking tool aims to streamline how researchers test and iterate on language models throughout their development cycle.</description>
+      <pubDate>Fri, 12 Jun 2026 15:56:10 GMT</pubDate>
+      <category>AI Tools &amp; Products</category>
+    </item>
+    <item>
       <title>New Framework Enables AI Image Generators to Create Mixed Text-Image Sequences</title>
       <link>https://aiglimpse.ai/articles/new-framework-enables-ai-image-generators-to-create-mixed-text-image-sequences-550232ef</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/new-framework-enables-ai-image-generators-to-create-mixed-text-image-sequences-550232ef</guid>
@@ -389,22 +405,6 @@
       <description>A dental tech startup's failed attempt to build smart dentures reveals where machine learning still struggles with real-world complexity.</description>
       <pubDate>Sun, 07 Jun 2026 19:44:27 GMT</pubDate>
       <category>AI Tools &amp; Products</category>
-    </item>
-    <item>
-      <title>AI Giants Face Pricing Pressure as IPO Plans Accelerate</title>
-      <link>https://aiglimpse.ai/articles/ai-giants-face-pricing-pressure-as-ipo-plans-accelerate-b22386fb</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/ai-giants-face-pricing-pressure-as-ipo-plans-accelerate-b22386fb</guid>
-      <description>Major artificial intelligence companies are expected to raise costs for their services as they prepare for public market debuts, signaling mounting financial pressures in the sector.</description>
-      <pubDate>Sun, 07 Jun 2026 20:26:13 GMT</pubDate>
-      <category>AI Business</category>
-    </item>
-    <item>
-      <title>Notion Restores Claude Integration After Brief Outage</title>
-      <link>https://aiglimpse.ai/articles/notion-restores-claude-integration-after-brief-outage-8405ce40</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/notion-restores-claude-integration-after-brief-outage-8405ce40</guid>
-      <description>The productivity platform quickly resolved connectivity issues with Anthropic's AI assistant, drawing attention to growing enterprise dependencies on LLM integrations.</description>
-      <pubDate>Sun, 07 Jun 2026 17:56:22 GMT</pubDate>
-      <category>AI Business</category>
     </item>
   </channel>
 </rss>

@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "openai-launches-skill-building-academy-to-train-workers-on-ai-54f756ce",
+      "title": "OpenAI Launches Skill-Building Academy to Train Workers on AI",
+      "subtitle": "New structured courses aim to equip professionals with hands-on expertise in applying large language models and autonomous agents to workplace tasks.",
+      "category": "llms",
+      "publishedAt": "2026-06-12T10:00:00.000Z",
+      "sourceUrl": "https://openai.com/index/academy-courses-applying-ai-at-work",
+      "sourceName": "OpenAI",
+      "sourceTier": 1,
+      "image": "/images/articles/openai-launches-skill-building-academy-to-train-workers-on-ai-54f756ce.jpg"
+    },
+    {
+      "slug": "allen-institute-releases-open-evaluation-framework-for-llm-development-b197ef1a",
+      "title": "Allen Institute Releases Open Evaluation Framework for LLM Development",
+      "subtitle": "New benchmarking tool aims to streamline how researchers test and iterate on language models throughout their development cycle.",
+      "category": "tools",
+      "publishedAt": "2026-06-12T15:56:10.000Z",
+      "sourceUrl": "https://huggingface.co/blog/allenai/olmo-eval",
+      "sourceName": "Hugging Face",
+      "sourceTier": 1,
+      "image": "/images/articles/allen-institute-releases-open-evaluation-framework-for-llm-development-b197ef1a.jpg"
+    },
+    {
       "slug": "new-framework-enables-ai-image-generators-to-create-mixed-text-image-sequences-550232ef",
       "title": "New Framework Enables AI Image Generators to Create Mixed Text-Image Sequences",
       "subtitle": "InterleaveThinker uses multi-agent planning to unlock sequential visual storytelling capabilities in existing image models.",
@@ -2637,6 +2659,8 @@
     "4f139cc71b05427a",
     "43b3aa973ca54a05",
     "9d5adbe8da9a6aa6",
-    "550232ef8a16937a"
+    "550232ef8a16937a",
+    "b197ef1ad899e548",
+    "54f756ce9b2c5acc"
   ]
 }
