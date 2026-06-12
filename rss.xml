@@ -7,6 +7,22 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>AI Models Show Promise in Automating Scientific Reproducibility Checks</title>
+      <link>https://aiglimpse.ai/articles/ai-models-show-promise-in-automating-scientific-reproducibility-checks-5e8b8636</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/ai-models-show-promise-in-automating-scientific-reproducibility-checks-5e8b8636</guid>
+      <description>Researchers find large language models can verify research findings at scale, outperforming human reviewers on some metrics.</description>
+      <pubDate>Thu, 11 Jun 2026 17:58:36 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
+      <title>New Training Method Unlocks Depth Perception in Image Generation AI</title>
+      <link>https://aiglimpse.ai/articles/new-training-method-unlocks-depth-perception-in-image-generation-ai-79476b0d</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-training-method-unlocks-depth-perception-in-image-generation-ai-79476b0d</guid>
+      <description>Researchers show that scaling image models with sparse depth data produces competitive 3D scene understanding, without dense annotation requirements.</description>
+      <pubDate>Thu, 11 Jun 2026 17:59:45 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
       <title>Researchers Teach Robots to Master Complex Tools Through Animation</title>
       <link>https://aiglimpse.ai/articles/researchers-teach-robots-to-master-complex-tools-through-animation-c13d0bf3</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/researchers-teach-robots-to-master-complex-tools-through-animation-c13d0bf3</guid>
@@ -389,22 +405,6 @@
       <description>Aggressive pricing by Chinese startup forces competitors into steep cuts, reshaping the economics of AI inference globally.</description>
       <pubDate>Mon, 08 Jun 2026 00:00:00 GMT</pubDate>
       <category>AI Business</category>
-    </item>
-    <item>
-      <title>Lawsuit Exposes Limits of AI Weapon Detection in School Safety</title>
-      <link>https://aiglimpse.ai/articles/lawsuit-exposes-limits-of-ai-weapon-detection-in-school-safety-c79944d5</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/lawsuit-exposes-limits-of-ai-weapon-detection-in-school-safety-c79944d5</guid>
-      <description>A shooting survivor's legal action reveals critical gaps in automated gun detection systems deployed to protect students.</description>
-      <pubDate>Sun, 07 Jun 2026 11:08:30 GMT</pubDate>
-      <category>AI Tools &amp; Products</category>
-    </item>
-    <item>
-      <title>DeepSeek V4 Pro Outperforms OpenAI's Latest Model on Accuracy Tests</title>
-      <link>https://aiglimpse.ai/articles/deepseek-v4-pro-outperforms-openais-latest-model-on-accuracy-tests-6fc739a3</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/deepseek-v4-pro-outperforms-openais-latest-model-on-accuracy-tests-6fc739a3</guid>
-      <description>Chinese AI startup's newest release demonstrates measurable gains in precision benchmarks, intensifying competition in the large language model market.</description>
-      <pubDate>Mon, 08 Jun 2026 01:39:30 GMT</pubDate>
-      <category>AI Tools &amp; Products</category>
     </item>
   </channel>
 </rss>

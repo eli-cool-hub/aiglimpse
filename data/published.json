@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "ai-models-show-promise-in-automating-scientific-reproducibility-checks-5e8b8636",
+      "title": "AI Models Show Promise in Automating Scientific Reproducibility Checks",
+      "subtitle": "Researchers find large language models can verify research findings at scale, outperforming human reviewers on some metrics.",
+      "category": "research",
+      "publishedAt": "2026-06-11T17:58:36.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2606.13670v1",
+      "sourceName": "arXiv (Tobias Holtdirk, Pietro Marcolongo, Anna Steinberg Schulten,…)",
+      "sourceTier": 1,
+      "image": "/images/articles/ai-models-show-promise-in-automating-scientific-reproducibility-checks-5e8b8636.jpg"
+    },
+    {
+      "slug": "new-training-method-unlocks-depth-perception-in-image-generation-ai-79476b0d",
+      "title": "New Training Method Unlocks Depth Perception in Image Generation AI",
+      "subtitle": "Researchers show that scaling image models with sparse depth data produces competitive 3D scene understanding, without dense annotation requirements.",
+      "category": "research",
+      "publishedAt": "2026-06-11T17:59:45.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2606.13676v1",
+      "sourceName": "arXiv (Bardienus Pieter Duisterhof, Deva Ramanan, Jeffrey Ichnowski…)",
+      "sourceTier": 1,
+      "image": "/images/articles/new-training-method-unlocks-depth-perception-in-image-generation-ai-79476b0d.jpg"
+    },
+    {
       "slug": "researchers-teach-robots-to-master-complex-tools-through-animation-c13d0bf3",
       "title": "Researchers Teach Robots to Master Complex Tools Through Animation",
       "subtitle": "New framework enables robots to grasp and manipulate articulated tools by treating the problem as motion animation rather than traditional manipulation.",
@@ -2685,6 +2707,8 @@
     "b197ef1ad899e548",
     "54f756ce9b2c5acc",
     "480b27c3d0df9aa6",
-    "c13d0bf3090642aa"
+    "c13d0bf3090642aa",
+    "79476b0d4139b127",
+    "5e8b8636d05fd50c"
   ]
 }
