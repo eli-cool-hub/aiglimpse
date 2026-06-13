@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "amazon-chiefs-government-meetings-preceded-regulatory-action-against-anthropic-f5392fc1",
+      "title": "Amazon Chief's Government Meetings Preceded Regulatory Action Against Anthropic",
+      "subtitle": "Recent U.S. oversight of AI safety practices may have been influenced by corporate competitive dynamics, raising questions about policy neutrality.",
+      "category": "ethics",
+      "publishedAt": "2026-06-13T16:57:49.000Z",
+      "sourceUrl": "https://www.wsj.com/tech/ai/amazon-ceos-talks-with-u-s-officials-triggered-crackdown-on-anthropic-models-dcc90578",
+      "sourceName": "Hacker News (197 pts)",
+      "sourceTier": 2,
+      "image": "/images/articles/amazon-chiefs-government-meetings-preceded-regulatory-action-against-anthropic-f5392fc1.jpg"
+    },
+    {
       "slug": "state-officials-launch-broad-inquiry-into-openai-practices-8de1a78f",
       "title": "State Officials Launch Broad Inquiry Into OpenAI Practices",
       "subtitle": "Multiple state attorneys general are examining the AI company's advertising and medical data policies, marking a significant escalation in regulatory scrutiny.",
@@ -2841,6 +2852,7 @@
     "6b28d9b412e3cc48",
     "ada8f7dad9faea89",
     "9b9847b23fb591e1",
-    "8de1a78fb2ffaac3"
+    "8de1a78fb2ffaac3",
+    "f5392fc1c114f548"
   ]
 }

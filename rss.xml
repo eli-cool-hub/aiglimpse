@@ -7,6 +7,14 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Amazon Chief's Government Meetings Preceded Regulatory Action Against Anthropic</title>
+      <link>https://aiglimpse.ai/articles/amazon-chiefs-government-meetings-preceded-regulatory-action-against-anthropic-f5392fc1</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/amazon-chiefs-government-meetings-preceded-regulatory-action-against-anthropic-f5392fc1</guid>
+      <description>Recent U.S. oversight of AI safety practices may have been influenced by corporate competitive dynamics, raising questions about policy neutrality.</description>
+      <pubDate>Sat, 13 Jun 2026 16:57:49 GMT</pubDate>
+      <category>Ethics &amp; Policy</category>
+    </item>
+    <item>
       <title>State Officials Launch Broad Inquiry Into OpenAI Practices</title>
       <link>https://aiglimpse.ai/articles/state-officials-launch-broad-inquiry-into-openai-practices-8de1a78f</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/state-officials-launch-broad-inquiry-into-openai-practices-8de1a78f</guid>
@@ -397,14 +405,6 @@
       <description>Researchers introduce MemoryVLA++, a system that equips vision-language models with temporal reasoning to handle long-horizon robotic manipulation.</description>
       <pubDate>Mon, 08 Jun 2026 17:59:53 GMT</pubDate>
       <category>AI Research</category>
-    </item>
-    <item>
-      <title>Hugging Face Introduces Modular Agent Framework for AI Assistants</title>
-      <link>https://aiglimpse.ai/articles/hugging-face-introduces-modular-agent-framework-for-ai-assistants-9ce815e8</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/hugging-face-introduces-modular-agent-framework-for-ai-assistants-9ce815e8</guid>
-      <description>New building-block approach lets developers compose custom AI agents from reusable components without starting from scratch.</description>
-      <pubDate>Tue, 09 Jun 2026 10:46:19 GMT</pubDate>
-      <category>AI Tools &amp; Products</category>
     </item>
   </channel>
 </rss>
