@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "new-framework-shifts-focus-to-environment-design-for-ai-research-agents-1217442f",
+      "title": "New Framework Shifts Focus to Environment Design for AI Research Agents",
+      "subtitle": "Researchers argue that sculpting computational environments, not just algorithms, is key to unlocking autonomous scientific breakthroughs.",
+      "category": "research",
+      "publishedAt": "2026-06-11T17:56:35.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2606.13662v1",
+      "sourceName": "arXiv (Amy Xin, Jiening Siow, Junjie Wang, Zijun Yao, Fanjin Zhang,…)",
+      "sourceTier": 1,
+      "image": "/images/articles/new-framework-shifts-focus-to-environment-design-for-ai-research-agents-1217442f.jpg"
+    },
+    {
+      "slug": "new-ai-model-teaches-robots-to-understand-action-through-semantic-tokens-0039ebff",
+      "title": "New AI Model Teaches Robots to Understand Action Through Semantic Tokens",
+      "subtitle": "RepWAM advances robot learning by prioritizing meaningful action representations over pixel-perfect reconstruction.",
+      "category": "research",
+      "publishedAt": "2026-06-11T17:59:43.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2606.13674v1",
+      "sourceName": "arXiv (Junke Wang, Qihang Zhang, Shuai Yang, Yiming Luo, Yujun Shen…)",
+      "sourceTier": 1,
+      "image": "/images/articles/new-ai-model-teaches-robots-to-understand-action-through-semantic-tokens-0039ebff.jpg"
+    },
+    {
       "slug": "government-halts-anthropics-advanced-ai-model-over-security-concerns-0494a8d5",
       "title": "Government Halts Anthropic's Advanced AI Model Over Security Concerns",
       "subtitle": "A regulatory intervention over potential vulnerabilities reignites debate about safety disclosure versus market deployment in AI development.",
@@ -2733,6 +2755,8 @@
     "79476b0d4139b127",
     "5e8b8636d05fd50c",
     "11f43b1849db8536",
-    "0494a8d55f5fd373"
+    "0494a8d55f5fd373",
+    "0039ebffecd14180",
+    "1217442f14e15cb0"
   ]
 }
