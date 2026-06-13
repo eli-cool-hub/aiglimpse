@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FastAPI and Starlette Security for AI Agents: Production Hardening | AI Glimpse</title>
+  <meta name="description" content="Guide to FastAPI and Starlette security flaws, patching strategies, and production hardening for AI agent backends. Covers MCP exposure and ASGI risks.">
+  <meta name="keywords" content="FastAPI security, Starlette vulnerability, AI agents Python, MCP servers, ASGI security, production hardening, Python web framework security">
+  <link rel="canonical" href="https://aiglimpse.ai/articles/fastapi-starlette-security-ai-agents-guide">
+  <meta property="og:type" content="article"><meta property="og:site_name" content="AI Glimpse">
+  <meta property="og:title" content="FastAPI and Starlette Security for AI Agents: Production Hardening">
+  <meta property="og:description" content="Guide to FastAPI and Starlette security flaws, patching strategies, and production hardening for AI agent backends. Covers MCP exposure and ASGI risks.">
+  <meta property="og:url" content="https://aiglimpse.ai/articles/fastapi-starlette-security-ai-agents-guide">
+  <meta property="og:image" content="https://aiglimpse.ai/images/articles/fastapi-starlette-security-ai-agents-guide.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="article:published_time" content="2026-06-13T14:59:17.147Z">
+  <meta property="article:section" content="AI Tools & Products">
+  <meta property="article:tag" content="FastAPI security">
+  <meta property="article:tag" content="Starlette vulnerability">
+  <meta property="article:tag" content="AI agents Python">
+  <meta property="article:tag" content="MCP servers">
+  <meta property="article:tag" content="ASGI security">
+  <meta property="article:tag" content="production hardening">
+  <meta property="article:tag" content="Python web framework security">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="FastAPI and Starlette Security for AI Agents: Production Hardening">
+  <meta name="twitter:description" content="Guide to FastAPI and Starlette security flaws, patching strategies, and production hardening for AI agent backends. Covers MCP exposure and ASGI risks.">
+  <meta name="twitter:image" content="https://aiglimpse.ai/images/articles/fastapi-starlette-security-ai-agents-guide.jpg">
+  <link rel="icon" type="image/svg+xml" href="/images/favicon.svg">
+  <link rel="alternate" type="application/rss+xml" title="AI Glimpse RSS" href="/rss.xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="/css/main.css">
+  <style>.reading-progress{position:fixed;top:0;left:0;height:3px;background:var(--color-accent);width:0%;z-index:200;transition:width 100ms linear;}</style>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","mainEntityOfPage":{"@type":"WebPage","@id":"https://aiglimpse.ai/articles/fastapi-starlette-security-ai-agents-guide"},"headline":"FastAPI and Starlette Security for AI Agents: Production Hardening","description":"Guide to FastAPI and Starlette security flaws, patching strategies, and production hardening for AI agent backends. Covers MCP exposure and ASGI risks.","image":["https://aiglimpse.ai/images/articles/fastapi-starlette-security-ai-agents-guide.jpg"],"datePublished":"2026-06-13T14:59:17.147Z","dateModified":"2026-06-13T14:59:17.147Z","author":{"@type":"Organization","name":"AI Glimpse Newsroom"},"publisher":{"@type":"Organization","name":"AI Glimpse","logo":{"@type":"ImageObject","url":"https://aiglimpse.ai/images/logo.svg"}},"articleSection":"AI Tools & Products","keywords":"FastAPI security, Starlette vulnerability, AI agents Python, MCP servers, ASGI security, production hardening, Python web framework security"}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What are the most common FastAPI security vulnerabilities?","acceptedAnswer":{"@type":"Answer","text":"The most frequent issues are path traversal via unvalidated route parameters, dependency injection bypass when using Depends() without proper scoping, CORS misconfiguration exposing agent APIs to untrusted origins, and unencrypted WebSocket connections. SQL injection and deserialization attacks are rarer but critical if your agent accepts arbitrary JSON payloads."}},{"@type":"Question","name":"How do I know if my Starlette version has known CVEs?","acceptedAnswer":{"@type":"Answer","text":"Check the official CVE database and Starlette's GitHub security advisories. Use 'pip show starlette' to see your version, then visit github.com/encode/starlette/security/advisories. For FastAPI, check the Starlette version it depends on, since FastAPI inherits Starlette's ASGI middleware stack."}},{"@type":"Question","name":"What is MCP server exposure and how do I prevent it?","acceptedAnswer":{"@type":"Answer","text":"MCP (Model Context Protocol) servers expose tool definitions and execution endpoints that agents call directly. Exposure happens when these are publicly routable without authentication. Prevent this by: never binding MCP endpoints to 0.0.0.0, requiring API key or JWT auth on all MCP routes, and using network segmentation so only the agent process can reach the MCP server."}},{"@type":"Question","name":"Can I use FastAPI dependency injection securely with agents?","acceptedAnswer":{"@type":"Answer","text":"Yes, but scoping matters. Use Depends() with proper scope definition (request, app, or lifespan), avoid storing mutable state in global variables, and always validate inputs within the dependency function. For agent tools that accept external parameters, never pass unauthenticated user input directly to a Depends() function that connects to a database or external service."}},{"@type":"Question","name":"What is the minimal production hardening checklist?","acceptedAnswer":{"@type":"Answer","text":"Update to latest Starlette and FastAPI, enable HTTPS/TLS, add authentication (API key or OAuth2) to all agent endpoints, disable DEBUG mode, configure CORS to specific origins, use environment variables for secrets (never hardcode), enable request rate limiting, log all agent tool calls, and run the app in a non-root container."}},{"@type":"Question","name":"Should I expose my AI agent API directly to the internet?","acceptedAnswer":{"@type":"Answer","text":"Generally no. Instead, place the agent behind a reverse proxy (nginx, AWS ALB) that handles TLS termination, rate limiting, and authentication. This decouples infrastructure security from application code and makes credential rotation easier. Only expose well-defined, versioned endpoints; never expose internal MCP or debug routes."}},{"@type":"Question","name":"How do I secure WebSocket connections for agent streaming?","acceptedAnswer":{"@type":"Answer","text":"Use wss:// (WebSocket Secure) with valid TLS certificates. Validate the origin header and require authentication tokens in the WebSocket upgrade request. Set a reasonable message size limit and timeout. Avoid streaming sensitive data unencrypted; if an agent streams API keys or credentials, encrypt or redact them before transmission."}}]}</script>
+  <meta name="google-site-verification" content="B132aMlqf1nssWYhjOSKUgSjmfwNWgPgtozZsHDxWlU" />
+  <meta name="msvalidate.01" content="F3762E555B3E685836AE39C90B79ECBF" />
+  <!-- aiglimpse-consent-default v1: must run before AdSense, defaults all ad/analytics storage to denied -->
+  <script>(function(){window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}window.gtag=gtag;gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'denied',functionality_storage:'granted',security_storage:'granted',wait_for_update:500});try{var s=JSON.parse(localStorage.getItem('aiglimpse-consent')||'null');if(s&&s.choice==='granted'){gtag('consent','update',{ad_storage:'granted',ad_user_data:'granted',ad_personalization:'granted',analytics_storage:'granted'});}}catch(e){}})();</script>
+  <!-- aiglimpse-ga4 v1: gtag.js loaded after consent default, so it buffers events until consent is granted -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-EVZ52DNQ8S"></script>
+  <script>gtag('js', new Date()); gtag('config', 'G-EVZ52DNQ8S', { anonymize_ip: true });</script>
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4263484717830850" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div class="reading-progress" aria-hidden="true"></div>
+  <div id="site-header-slot"></div>
+  <main>
+    <article>
+      <section class="article-hero">
+        <div class="container container--narrow">
+          <nav aria-label="Breadcrumb" style="margin-bottom:var(--space-4);font-size:var(--text-xs);color:var(--color-ink-muted);">
+            <a href="/" style="color:inherit;">Home</a> /
+            <a href="/categories/tools" style="color:inherit;">AI Tools & Products</a> /
+            <span>Explainer</span>
+          </nav>
+          <div class="article-hero-meta">
+            <span class="tag tag--tools">AI Tools & Products</span>
+            <span class="eyebrow eyebrow--accent">Explainer</span>
+            <span class="eyebrow">11 min read</span>
+          </div>
+          <h1 class="article-hero-title">FastAPI and Starlette Security for AI Agents: Production Hardening</h1>
+          <p class="article-hero-subtitle">Vulnerabilities, patches, and a hardening checklist for Python teams deploying AI agent backends.</p>
+          <div class="article-byline">
+            <div>By <strong>AI Glimpse Newsroom</strong></div><div>·</div>
+            <div><time datetime="2026-06-13T14:59:17.147Z" data-relative="false">June 13, 2026</time></div>
+          </div>
+        </div>
+      </section>
+      <section style="padding: var(--space-7) 0;">
+        <div class="container container--narrow">
+          <figure class="article-image"><img src="/images/articles/fastapi-starlette-security-ai-agents-guide.jpg" alt="FastAPI and Starlette Security for AI Agents: Production Hardening" loading="eager" width="1200" height="630"></figure>
+          <div class="article-body"><p>FastAPI and Starlette are the default Python frameworks for deploying AI agent backends, but they inherit a legacy of web framework vulnerabilities that take on new meaning when agents have permission to call external APIs, modify databases, or execute tool code. This guide covers the specific vulnerabilities that matter to agent deployments, current patch status, and a hardening checklist for teams moving to production in 2026.</p>
+
+<h2>Why this matters now</h2>
+
+<p><a href="/articles/what-are-ai-agents-practical-guide-2026">AI agents</a> are no longer experimental. Teams are running production multi-agent systems that execute real actions via tool calls, and those tools often talk to FastAPI or Starlette backends. A path traversal vulnerability or CORS misconfiguration in a simple tool API becomes a security incident when an untrusted agent (or a prompt-injected trusted agent) can read files, modify data, or invoke unintended tools.</p>
+
+<p>The risk profile is asymmetric: your Starlette app might be well-intentioned and tightly scoped, but the agents calling it are not. They are incentivized to probe endpoints, try parameter injection, and escalate privilege. Unlike a traditional API attack, agent-driven exploitation is automated, rapid, and often invisible until logs are reviewed days later. FastAPI's documentation is excellent for basic use cases, but it does not emphasize threat modeling for agent-driven access patterns or the interaction between ASGI middleware, dependency injection, and untrusted input.</p>
+
+<h2>Common FastAPI and Starlette vulnerabilities in agent deployments</h2>
+<figure class="article-image article-image--inline">
+  <img src="/images/articles/fastapi-starlette-security-ai-agents-guide-inline-1.jpg" alt="Common FastAPI and Starlette vulnerabilities in agent deployments" loading="lazy" width="1200" height="630">
+  <figcaption class="article-image-credit">Photo by <a href="https://www.pexels.com/photo/woman-programming-on-a-notebook-1181359/" rel="nofollow noopener" target="_blank">Christina Morillo</a> on Pexels.</figcaption>
+</figure>
+
+
+<p>FastAPI sits on top of Starlette's ASGI middleware stack. Understanding the surface area means understanding both layers.</p>
+
+<p>Path traversal via route parameters is the most common vulnerability. When a route handler accepts a string parameter (e.g., `/file/{filename}`) without validation, an agent can send `/file/../../etc/passwd` and read arbitrary files if the handler passes the parameter directly to a file operation. FastAPI does not validate path segments by default.</p>
+
+<p>Dependency injection bypasses occur when a Depends() function is used for authentication but the function is memoized or cached incorrectly. For example, if a user ID is cached at the app level instead of the request level, a second request from a different user may reuse the cached identity. This is rare in modern FastAPI but happens when developers mix async and sync code or use global state inside dependency functions.</p>
+
+<p>CORS (Cross-Origin Resource Sharing) misconfiguration is endemic. Setting CORS allow_origins to "*" or a broad list allows any JavaScript in a browser to call your agent API. If the agent API also sets credentials to true, or if authentication is passed via cookies, an attacker's website can make authenticated requests on behalf of the user. Many teams enable CORS permissively to "make development easier" and never tighten it in production.</p>
+
+<p>Unencrypted WebSocket connections (ws:// instead of wss://) are used frequently in agent systems for streaming responses. A WebSocket upgrade request can leak authentication tokens in the URL or headers, and the connection itself carries unencrypted tool results and agent reasoning.</p>
+
+<p>Deserialization of untrusted JSON via Pydantic is generally safe (Pydantic does not execute code during parsing), but complex nested models with validators that call external services can be exploited. An agent sending a deeply nested JSON payload with thousands of objects can trigger a DoS if validators run for each object.</p>
+
+<p>DEBUG mode left enabled in production is a catastrophic vulnerability. FastAPI/Starlette's debug mode serves the Starlette debug toolbar at /__debug__, which exposes request history, local variables, and source code. This should never be enabled in production, but teams sometimes deploy with DEBUG=True in environment variables by accident.</p>
+
+<h2>Starlette CVEs and patch status</h2>
+
+<p>Starlette 0.x and early 1.x versions had several notable issues. The most significant was CVE-2021-41773 (inherited from Uvicorn), which allowed path traversal in static file serving when using path_regex patterns without anchors. This was patched in Starlette 0.20.2 and later.</p>
+
+<p>Starlette 0.26.0 through 0.28.0 had a minor vulnerability in the `TestClient` where session cookies were not properly isolated between test cases, but this only affects test code, not production deployments.</p>
+
+<p>As of early 2026, Starlette 1.x (released in 2024) is the stable version and has no critical outstanding vulnerabilities. However, "no known vulnerabilities" does not mean "unhackable." The framework's design assumes developers will validate inputs, configure middleware correctly, and not expose internal APIs.</p>
+
+<p>The practical guidance: upgrade to Starlette 1.x and FastAPI 0.115.x or later. If you are on 0.x, you must upgrade. Check the release notes for your current version at github.com/encode/starlette/releases and github.com/tiangolo/fastapi/releases. Use `pip list | grep -E 'starlette|fastapi'` to audit your current versions across all services.</p>
+
+<h2>MCP server exposure and agent-specific risks</h2>
+<figure class="article-image article-image--inline">
+  <img src="/images/articles/fastapi-starlette-security-ai-agents-guide-inline-2.jpg" alt="MCP server exposure and agent-specific risks" loading="lazy" width="1200" height="630">
+  <figcaption class="article-image-credit">Photo by <a href="https://www.pexels.com/photo/person-typing-on-macbook-pro-1181282/" rel="nofollow noopener" target="_blank">Christina Morillo</a> on Pexels.</figcaption>
+</figure>
+
+
+<p>MCP (Model Context Protocol) servers are a common pattern in agent systems. An agent calls a single FastAPI endpoint that defines available tools, then calls additional endpoints to execute those tools. The vulnerability comes from exposing these tool execution endpoints without authentication or rate limiting.</p>
+
+<p>Consider a simple example: an agent calls `/api/tools/execute` with a body like `{"tool": "read_file", "path": "/home/user/data.csv"}`. If this endpoint is world-readable (bound to 0.0.0.0 and reachable from the internet), any attacker can enumerate tools and call them. Even if the endpoint requires an API key, a leaked key (via logs, error messages, or a compromised client) gives full agent capability to an attacker.</p>
+
+<p>The hardening approach:</p>
+
+<ul>
+<li>Never bind MCP tool endpoints to 0.0.0.0:8000. Bind to 127.0.0.1 or a private network only, and use a reverse proxy on a different machine to route authenticated requests inbound.</li>
+<li>Require API key rotation on a short schedule (weekly or monthly, not annually). Store keys in a secrets manager (HashiCorp Vault, AWS Secrets Manager, 1Password) and rotate them without redeploying the app.</li>
+<li>Implement per-tool rate limiting. If an agent can call `delete_user` 1000 times per hour, the first 100 calls should trigger an alert.</li>
+<li>Log every tool call with the agent ID, timestamp, parameters, and result. Use structured logging (JSON) so security teams can query the logs later.</li>
+<li>Use JWT tokens with a short expiration (5 to 15 minutes) instead of static API keys. Agents must refresh tokens by calling an auth endpoint, which is another place to check rate limits and agent status.</li>
+</ul>
+
+<h2>ASGI middleware security and the order of operations</h2>
+
+<p>FastAPI's middleware stack processes requests in the order they are added. A common mistake is adding security middleware after business logic middleware, which means the business logic sees the request before authentication happens. This is easy to do because the middleware is added in reverse order of decoration in the code.</p>
+
+<p>For example:</p>
+
+<blockquote>
+<code>app.add_middleware(CORSMiddleware, ...)</code>
+<code>app.add_middleware(CustomLoggingMiddleware)</code>
+<code>app.add_middleware(AuthenticationMiddleware)</code>
+</blockquote>
+
+<p>Requests are processed in reverse order: AuthenticationMiddleware first, then CustomLoggingMiddleware, then CORSMiddleware. If CustomLoggingMiddleware logs the request body, it sees the raw (unauthenticated) data. If AuthenticationMiddleware is missing from the stack entirely, requests bypass authentication.</p>
+
+<p>The safer pattern is to use FastAPI's dependency injection for per-route authentication instead of global middleware. Define a Depends() function that checks the Authorization header, validate it, and attach the user to the request state. This is more explicit and easier to audit.</p>
+
+<blockquote>
+<code>async def verify_api_key(request: Request) -> str:</code>
+<code>&nbsp;&nbsp;&nbsp;&nbsp;key = request.headers.get("X-API-Key")</code>
+<code>&nbsp;&nbsp;&nbsp;&nbsp;if not key or key not in VALID_KEYS:</code>
+<code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;raise HTTPException(status_code=403, detail="Forbidden")</code>
+<code>&nbsp;&nbsp;&nbsp;&nbsp;return key</code>
+<code></code>
+<code>@app.post("/api/tools/execute")</code>
+<code>async def execute_tool(body: ToolRequest, key: str = Depends(verify_api_key)):</code>
+<code>&nbsp;&nbsp;&nbsp;&nbsp;# Now you know the request is authenticated</code>
+<code>&nbsp;&nbsp;&nbsp;&nbsp;return {"result": "..."}</code>
+</blockquote>
+
+<p>This approach also allows different routes to have different authentication levels. An internal health check endpoint might not require a key, while the tool execution endpoint does.</p>
+
+<h2>Production hardening: a concrete checklist</h2>
+
+<p>Start with these items and expand based on your threat model:</p>
+
+<ol>
+<li><strong>Update dependencies.</strong> Run `pip install -U starlette fastapi uvicorn` and test in a staging environment before deploying to production. Use `pip-audit` or Snyk to scan for known vulnerabilities in your dependency tree.</li>
+<li><strong>Disable DEBUG mode.</strong> Set DEBUG=False (or omit the DEBUG variable) in all production environments. Never rely on environment variables to toggle debug mode, as mistakes are common. Explicitly check in code: `if os.getenv("ENVIRONMENT") != "production": DEBUG = True`.</li>
+<li><strong>Enable HTTPS/TLS.</strong> Bind the app to 127.0.0.1:8000 and run a reverse proxy (nginx, Caddy, or AWS ALB) in front that handles TLS termination. Let's Encrypt provides free certificates. Never serve an agent API over plain HTTP in production, even internally, because monitoring tools and logs may transmit URLs.</li>
+<li><strong>Configure CORS correctly.</strong> Instead of allow_origins=["*"], specify the exact origins that need access: `allow_origins=["https://agent-frontend.example.com", "https://dashboard.example.com"]`. Set allow_credentials=False unless you specifically need cross-origin cookies.</li>
+<li><strong>Implement authentication on all agent endpoints.</strong> Use API keys with a short expiration, JWT tokens, or OAuth2. Store keys in a secrets manager, not in source code or environment files checked into git. Rotate keys on a fixed schedule independent of deployment.</li>
+<li><strong>Add rate limiting.</strong> Use a library like `slowapi` (based on Flask-Limiter) to limit requests per agent or IP. Set conservative limits: 10 requests per second per agent, 100 per minute for public endpoints. Monitor for unusual patterns and alert.</li>
+<li><strong>Log all agent tool calls.</strong> Include the agent ID, tool name, parameters (redacted if sensitive), timestamp, and result. Use structured logging (JSON) and forward logs to a centralized store (ELK, Datadog, CloudWatch). Review logs daily or set up alerts for unauthorized tool use.</li>
+<li><strong>Run in a container, not as root.</strong> Create a non-root user in your Dockerfile and run the app as that user. This limits the blast radius if the process is compromised.</li>
+<li><strong>Validate all input.</strong> Use Pydantic models with strict validation. Set max_length on string fields, min and max on numeric fields, and regex patterns on identifiers. This prevents both DoS attacks (huge payloads) and injection attacks (special characters).</li>
+<li><strong>Isolate MCP endpoints.</strong> If your agent calls tool execution endpoints, bind them to a private network or localhost only. Use a different port from the public-facing API, or use a routing rule in the reverse proxy to require special headers before forwarding to the tool endpoint.</li>
+<li><strong>Use environment variables for secrets, but not as global state.</strong> Load secrets at startup, validate them, and pass them to functions as arguments. Never store secrets in global variables that might be logged or cached.</li>
+<li><strong>Implement request timeouts.</strong> Set a timeout on all external API calls (to other services, databases, or agent-driven requests). An agent that stalls a request indefinitely can exhaust worker threads and cause a DoS. Use asyncio.wait_for() or httpx.AsyncClient with timeout parameters.</li>
+</ol>
+
+<h2>When this fails: real incidents and limitations</h2>
+
+<p>Even with a hardened setup, several attack vectors remain difficult to prevent at the application level.</p>
+
+<p>Prompt injection is the canonical example. If an agent reads user-supplied data (from a file, database, or API), then includes that data in a prompt sent to an LLM, an attacker can inject instructions into the LLM that cause it to call tools incorrectly. No amount of FastAPI security stops this, because the attack happens at the LLM layer, not the HTTP layer. Mitigation requires model-level controls (instruction hierarchies, tool allowlisting per agent, prompt filtering).</p>
+
+<p>Side-channel attacks via timing analysis are theoretically possible if an agent times how long an endpoint takes to respond and infers information about data existence. For example, if `/api/check_user/{username}` takes 50ms for valid usernames and 10ms for invalid ones, an attacker can enumerate valid usernames. This is hard to prevent at the application level without adding artificial delays to all responses, which hurts performance.</p>
+
+<p>Distributed DoS (DDoS) attacks that overwhelm your reverse proxy are beyond application-level mitigation. You need a DDoS protection service (Cloudflare, AWS Shield) or infrastructure-level rate limiting (at the network edge).</p>
+
+<p>Compromised dependencies are a systemic risk. If a transitive dependency in your requirements.txt is compromised, you inherit its vulnerabilities. Use `pip-audit` regularly and subscribe to security advisories for your core dependencies. Consider using a software composition analysis (SCA) tool in your CI/CD pipeline.</p>
+
+<p>Misconfigurations in production are the most common failure mode. A team hardens the code perfectly but misconfigures the reverse proxy, or enables CORS for debugging and forgets to disable it. Use infrastructure-as-code tools (Terraform, CDK) and enforce code review on infrastructure changes, just as you do for application code.</p>
+
+<h2>Conclusion and next steps</h2>
+
+<p>FastAPI and Starlette are production-ready frameworks, but agent deployments carry asymmetric risk because agents are not human users. They are automated, tireless, and incentivized to find edge cases. Start by upgrading to the latest Starlette and FastAPI, then work through the hardening checklist above. Bind internal APIs to localhost, use a reverse proxy for public traffic, implement per-agent rate limiting and authentication, and log all tool calls. None of these steps are novel, but their combination is what separates a research project from a production system that teams can rely on. After that, focus on the agent layer: validate outputs from external APIs before passing them to the LLM, implement instruction hierarchies so agents cannot redefine their own permissions, and monitor for anomalous tool use patterns. Security is a process, not a checklist.</p></div>
+
+      <section style="margin-top: var(--space-8);">
+        <h2 style="margin-bottom: var(--space-5);">Frequently asked questions</h2>
+        <div class="faq-list">
+    <details class="faq-item" style="border-bottom:1px solid var(--color-rule);padding:var(--space-4) 0;">
+      <summary style="cursor:pointer;font-weight:600;font-size:var(--text-md);list-style:none;display:flex;justify-content:space-between;align-items:flex-start;gap:var(--space-3);">
+        <span>What are the most common FastAPI security vulnerabilities?</span>
+        <span aria-hidden="true" style="color:var(--color-ink-faint);font-weight:400;flex-shrink:0;">+</span>
+      </summary>
+      <div style="margin-top:var(--space-3);color:var(--color-ink-muted);line-height:1.7;">
+        <p>The most frequent issues are path traversal via unvalidated route parameters, dependency injection bypass when using Depends() without proper scoping, CORS misconfiguration exposing agent APIs to untrusted origins, and unencrypted WebSocket connections. SQL injection and deserialization attacks are rarer but critical if your agent accepts arbitrary JSON payloads.</p>
+      </div>
+    </details>
+
+    <details class="faq-item" style="border-bottom:1px solid var(--color-rule);padding:var(--space-4) 0;">
+      <summary style="cursor:pointer;font-weight:600;font-size:var(--text-md);list-style:none;display:flex;justify-content:space-between;align-items:flex-start;gap:var(--space-3);">
+        <span>How do I know if my Starlette version has known CVEs?</span>
+        <span aria-hidden="true" style="color:var(--color-ink-faint);font-weight:400;flex-shrink:0;">+</span>
+      </summary>
+      <div style="margin-top:var(--space-3);color:var(--color-ink-muted);line-height:1.7;">
+        <p>Check the official CVE database and Starlette&#39;s GitHub security advisories. Use &#39;pip show starlette&#39; to see your version, then visit github.com/encode/starlette/security/advisories. For FastAPI, check the Starlette version it depends on, since FastAPI inherits Starlette&#39;s ASGI middleware stack.</p>
+      </div>
+    </details>
+
+    <details class="faq-item" style="border-bottom:1px solid var(--color-rule);padding:var(--space-4) 0;">
+      <summary style="cursor:pointer;font-weight:600;font-size:var(--text-md);list-style:none;display:flex;justify-content:space-between;align-items:flex-start;gap:var(--space-3);">
+        <span>What is MCP server exposure and how do I prevent it?</span>
+        <span aria-hidden="true" style="color:var(--color-ink-faint);font-weight:400;flex-shrink:0;">+</span>
+      </summary>
+      <div style="margin-top:var(--space-3);color:var(--color-ink-muted);line-height:1.7;">
+        <p>MCP (Model Context Protocol) servers expose tool definitions and execution endpoints that agents call directly. Exposure happens when these are publicly routable without authentication. Prevent this by: never binding MCP endpoints to 0.0.0.0, requiring API key or JWT auth on all MCP routes, and using network segmentation so only the agent process can reach the MCP server.</p>
+      </div>
+    </details>
+
+    <details class="faq-item" style="border-bottom:1px solid var(--color-rule);padding:var(--space-4) 0;">
+      <summary style="cursor:pointer;font-weight:600;font-size:var(--text-md);list-style:none;display:flex;justify-content:space-between;align-items:flex-start;gap:var(--space-3);">
+        <span>Can I use FastAPI dependency injection securely with agents?</span>
+        <span aria-hidden="true" style="color:var(--color-ink-faint);font-weight:400;flex-shrink:0;">+</span>
+      </summary>
+      <div style="margin-top:var(--space-3);color:var(--color-ink-muted);line-height:1.7;">
+        <p>Yes, but scoping matters. Use Depends() with proper scope definition (request, app, or lifespan), avoid storing mutable state in global variables, and always validate inputs within the dependency function. For agent tools that accept external parameters, never pass unauthenticated user input directly to a Depends() function that connects to a database or external service.</p>
+      </div>
+    </details>
+
+    <details class="faq-item" style="border-bottom:1px solid var(--color-rule);padding:var(--space-4) 0;">
+      <summary style="cursor:pointer;font-weight:600;font-size:var(--text-md);list-style:none;display:flex;justify-content:space-between;align-items:flex-start;gap:var(--space-3);">
+        <span>What is the minimal production hardening checklist?</span>
+        <span aria-hidden="true" style="color:var(--color-ink-faint);font-weight:400;flex-shrink:0;">+</span>
+      </summary>
+      <div style="margin-top:var(--space-3);color:var(--color-ink-muted);line-height:1.7;">
+        <p>Update to latest Starlette and FastAPI, enable HTTPS/TLS, add authentication (API key or OAuth2) to all agent endpoints, disable DEBUG mode, configure CORS to specific origins, use environment variables for secrets (never hardcode), enable request rate limiting, log all agent tool calls, and run the app in a non-root container.</p>
+      </div>
+    </details>
+
+    <details class="faq-item" style="border-bottom:1px solid var(--color-rule);padding:var(--space-4) 0;">
+      <summary style="cursor:pointer;font-weight:600;font-size:var(--text-md);list-style:none;display:flex;justify-content:space-between;align-items:flex-start;gap:var(--space-3);">
+        <span>Should I expose my AI agent API directly to the internet?</span>
+        <span aria-hidden="true" style="color:var(--color-ink-faint);font-weight:400;flex-shrink:0;">+</span>
+      </summary>
+      <div style="margin-top:var(--space-3);color:var(--color-ink-muted);line-height:1.7;">
+        <p>Generally no. Instead, place the agent behind a reverse proxy (nginx, AWS ALB) that handles TLS termination, rate limiting, and authentication. This decouples infrastructure security from application code and makes credential rotation easier. Only expose well-defined, versioned endpoints; never expose internal MCP or debug routes.</p>
+      </div>
+    </details>
+
+    <details class="faq-item" style="border-bottom:1px solid var(--color-rule);padding:var(--space-4) 0;">
+      <summary style="cursor:pointer;font-weight:600;font-size:var(--text-md);list-style:none;display:flex;justify-content:space-between;align-items:flex-start;gap:var(--space-3);">
+        <span>How do I secure WebSocket connections for agent streaming?</span>
+        <span aria-hidden="true" style="color:var(--color-ink-faint);font-weight:400;flex-shrink:0;">+</span>
+      </summary>
+      <div style="margin-top:var(--space-3);color:var(--color-ink-muted);line-height:1.7;">
+        <p>Use wss:// (WebSocket Secure) with valid TLS certificates. Validate the origin header and require authentication tokens in the WebSocket upgrade request. Set a reasonable message size limit and timeout. Avoid streaming sensitive data unencrypted; if an agent streams API keys or credentials, encrypt or redact them before transmission.</p>
+      </div>
+    </details></div>
+      </section>
+          <p style="font-size:var(--text-xs);color:var(--color-ink-faint);margin-top:var(--space-6);padding-top:var(--space-4);border-top:1px solid var(--color-rule);">
+            An <strong>AI Glimpse</strong> explainer. We update this guide as the field evolves.
+          </p>
+        </div>
+      </section>
+    </article>
+  </main>
+  <div id="site-footer-slot"></div>
+  <script src="/js/chrome.js"></script>
+  <script src="/js/main.js"></script>
+</body>
+</html>

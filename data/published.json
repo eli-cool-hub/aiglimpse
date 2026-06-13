@@ -1,6 +1,18 @@
 {
   "articles": [
     {
+      "slug": "fastapi-starlette-security-ai-agents-guide",
+      "title": "FastAPI and Starlette Security for AI Agents: Production Hardening",
+      "subtitle": "Vulnerabilities, patches, and a hardening checklist for Python teams deploying AI agent backends.",
+      "category": "tools",
+      "publishedAt": "2026-06-13T14:59:17.147Z",
+      "sourceUrl": null,
+      "sourceName": "AI Glimpse Newsroom",
+      "sourceTier": 0,
+      "image": "/images/articles/fastapi-starlette-security-ai-agents-guide.jpg",
+      "evergreen": true
+    },
+    {
       "slug": "robot-emotion-recognition-hits-wall-tech-beats-facial-analysis-fails-trust-test-ada8f7da",
       "title": "Robot Emotion Recognition Hits Wall: Tech Beats Facial Analysis, Fails Trust Test",
       "subtitle": "New research shows vision language models can read human feelings better than traditional AI, but emotional intelligence alone cannot overcome performance failures.",
