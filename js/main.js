@@ -37,34 +37,43 @@
   });
 
   // ----- Newsletter form -----
-  const newsletterForm = document.querySelector('.newsletter-form');
-  if (newsletterForm) {
+  document.querySelectorAll('.newsletter-form').forEach(newsletterForm => {
     newsletterForm.addEventListener('submit', async (e) => {
       e.preventDefault();
       const input = newsletterForm.querySelector('input[type="email"]');
       const btn = newsletterForm.querySelector('button[type="submit"]');
-      const email = input.value.trim();
-      if (!email) return;
+      const note = newsletterForm.querySelector('.newsletter-note');
+      const email = input?.value.trim();
+      if (!email || !input || !btn) return;
 
+      const defaultLabel = btn.textContent;
       btn.disabled = true;
       btn.textContent = 'Subscribing...';
 
-      // Replace with your real endpoint (Beehiiv, ConvertKit, Mailchimp, etc.)
       try {
-        // Example placeholder, wire up your provider here
-        await new Promise(r => setTimeout(r, 600));
-        btn.textContent = '✓ Subscribed!';
+        const res = await fetch('/api/newsletter/subscribe', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ email })
+        });
+        const data = await res.json().catch(() => ({}));
+        if (!res.ok) throw new Error(data.error || 'Subscribe failed');
+
+        btn.textContent = 'Check your inbox';
+        if (note) note.textContent = 'We sent a confirmation link. Click it to start AI Glimpse Daily.';
         input.value = '';
         setTimeout(() => {
           btn.disabled = false;
-          btn.textContent = 'Subscribe';
-        }, 2500);
+          btn.textContent = defaultLabel;
+          if (note) note.textContent = 'Free forever. Unsubscribe in one click. We never sell your data.';
+        }, 8000);
       } catch (err) {
         btn.textContent = 'Try again';
         btn.disabled = false;
+        if (note) note.textContent = err.message || 'Something went wrong. Please try again.';
       }
     });
-  }
+  });
 
   // ----- Reading progress (article pages) -----
   const progressBar = document.querySelector('.reading-progress');

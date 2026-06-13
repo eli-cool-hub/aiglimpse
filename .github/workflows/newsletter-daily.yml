@@ -1,0 +1,45 @@
+name: Send AI Glimpse Daily newsletter
+
+on:
+  workflow_dispatch:
+  schedule:
+    # 07:00 UTC — after overnight publishing, before US morning
+    - cron: '0 7 * * *'
+
+concurrency:
+  group: aiglimpse-newsletter-daily
+  cancel-in-progress: false
+
+jobs:
+  send:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Send digest via Resend
+        env:
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+          RESEND_FROM_EMAIL: ${{ secrets.RESEND_FROM_EMAIL }}
+          RESEND_AUDIENCE_ID: ${{ secrets.RESEND_AUDIENCE_ID }}
+          SITE_URL: https://aiglimpse.ai
+        run: node scripts/send-daily-newsletter.mjs
+
+      - name: Commit send state
+        run: |
+          set -euo pipefail
+          git config user.name "AI Glimpse Bot"
+          git config user.email "bot@aiglimpse.ai"
+          git add data/newsletter-state.json
+          if git diff --staged --quiet; then
+            echo "No state change"
+          else
+            git commit -m "chore(newsletter): daily send $(date -u +'%Y-%m-%d')"
+            git pull --rebase origin main
+            git push
+          fi

@@ -18,6 +18,8 @@
     "test-images": "node scripts/test-images.mjs",
     "evergreen": "node scripts/generate-evergreen.mjs",
     "evergreen:weekly": "node scripts/generate-evergreen.mjs --weekly",
+    "send-newsletter": "node scripts/send-daily-newsletter.mjs",
+    "setup-resend-audience": "node scripts/setup-resend-audience.mjs",
     "build-guides": "node scripts/build-guides.mjs",
     "serve": "python3 -m http.server 8000"
   },
