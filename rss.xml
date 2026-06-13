@@ -7,6 +7,22 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Google's Gemini Generates Working Apps from Text, But Still Needs Human Help</title>
+      <link>https://aiglimpse.ai/articles/googles-gemini-generates-working-apps-from-text-but-still-needs-human-help-c18dfe1e</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/googles-gemini-generates-working-apps-from-text-but-still-needs-human-help-c18dfe1e</guid>
+      <description>An experiment shows AI can build functional software in minutes, yet struggles with basic debugging without user intervention.</description>
+      <pubDate>Sat, 13 Jun 2026 13:00:00 GMT</pubDate>
+      <category>AI Tools &amp; Products</category>
+    </item>
+    <item>
+      <title>KPMG Withdraws AI Report After Finding Fabricated Data</title>
+      <link>https://aiglimpse.ai/articles/kpmg-withdraws-ai-report-after-finding-fabricated-data-dbc1c4f2</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/kpmg-withdraws-ai-report-after-finding-fabricated-data-dbc1c4f2</guid>
+      <description>Major consulting firm's study on artificial intelligence usage contained false information, highlighting persistent reliability challenges in AI-generated analysis.</description>
+      <pubDate>Sat, 13 Jun 2026 20:42:31 GMT</pubDate>
+      <category>AI Business</category>
+    </item>
+    <item>
       <title>Amazon Chief's Government Meetings Preceded Regulatory Action Against Anthropic</title>
       <link>https://aiglimpse.ai/articles/amazon-chiefs-government-meetings-preceded-regulatory-action-against-anthropic-f5392fc1</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/amazon-chiefs-government-meetings-preceded-regulatory-action-against-anthropic-f5392fc1</guid>
@@ -388,22 +404,6 @@
       <guid isPermaLink="true">https://aiglimpse.ai/articles/google-deepmind-backs-european-robotics-push-with-ai-investment-893b7c4d</guid>
       <description>Tech giant commits resources to advance machine learning capabilities for robotic systems across Europe's emerging automation sector.</description>
       <pubDate>Tue, 09 Jun 2026 14:02:33 GMT</pubDate>
-      <category>AI Research</category>
-    </item>
-    <item>
-      <title>Google DeepMind Unveils Gemma 4 12B, Streamlined Multimodal AI Model</title>
-      <link>https://aiglimpse.ai/articles/google-deepmind-unveils-gemma-4-12b-streamlined-multimodal-ai-model-312d0c30</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/google-deepmind-unveils-gemma-4-12b-streamlined-multimodal-ai-model-312d0c30</guid>
-      <description>New compact architecture combines vision and language processing without separate encoders, reshaping efficiency standards for edge deployment.</description>
-      <pubDate>Tue, 09 Jun 2026 14:10:19 GMT</pubDate>
-      <category>AI Research</category>
-    </item>
-    <item>
-      <title>New Framework Gives Robots Memory and Foresight for Complex Tasks</title>
-      <link>https://aiglimpse.ai/articles/new-framework-gives-robots-memory-and-foresight-for-complex-tasks-28071e77</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-framework-gives-robots-memory-and-foresight-for-complex-tasks-28071e77</guid>
-      <description>Researchers introduce MemoryVLA++, a system that equips vision-language models with temporal reasoning to handle long-horizon robotic manipulation.</description>
-      <pubDate>Mon, 08 Jun 2026 17:59:53 GMT</pubDate>
       <category>AI Research</category>
     </item>
   </channel>

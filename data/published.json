@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "googles-gemini-generates-working-apps-from-text-but-still-needs-human-help-c18dfe1e",
+      "title": "Google's Gemini Generates Working Apps from Text, But Still Needs Human Help",
+      "subtitle": "An experiment shows AI can build functional software in minutes, yet struggles with basic debugging without user intervention.",
+      "category": "tools",
+      "publishedAt": "2026-06-13T13:00:00.000Z",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/942119/vibecoding-backyard-app-gardening-organizing",
+      "sourceName": "The Verge AI",
+      "sourceTier": 2,
+      "image": "/images/articles/googles-gemini-generates-working-apps-from-text-but-still-needs-human-help-c18dfe1e.jpg"
+    },
+    {
+      "slug": "kpmg-withdraws-ai-report-after-finding-fabricated-data-dbc1c4f2",
+      "title": "KPMG Withdraws AI Report After Finding Fabricated Data",
+      "subtitle": "Major consulting firm's study on artificial intelligence usage contained false information, highlighting persistent reliability challenges in AI-generated analysis.",
+      "category": "business",
+      "publishedAt": "2026-06-13T20:42:31.000Z",
+      "sourceUrl": "https://techcrunch.com/2026/06/13/kpmg-pulls-report-on-ai-usage-due-to-apparent-hallucinations/",
+      "sourceName": "TechCrunch AI",
+      "sourceTier": 2,
+      "image": "/images/articles/kpmg-withdraws-ai-report-after-finding-fabricated-data-dbc1c4f2.jpg"
+    },
+    {
       "slug": "amazon-chiefs-government-meetings-preceded-regulatory-action-against-anthropic-f5392fc1",
       "title": "Amazon Chief's Government Meetings Preceded Regulatory Action Against Anthropic",
       "subtitle": "Recent U.S. oversight of AI safety practices may have been influenced by corporate competitive dynamics, raising questions about policy neutrality.",
@@ -2853,6 +2875,8 @@
     "ada8f7dad9faea89",
     "9b9847b23fb591e1",
     "8de1a78fb2ffaac3",
-    "f5392fc1c114f548"
+    "f5392fc1c114f548",
+    "dbc1c4f2e2557408",
+    "c18dfe1e1c6f8b0f"
   ]
 }

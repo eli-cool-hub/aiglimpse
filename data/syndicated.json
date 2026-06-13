@@ -2702,6 +2702,24 @@
         "devto": true,
         "hashnode": false
       }
+    },
+    "googles-gemini-generates-working-apps-from-text-but-still-needs-human-help-c18dfe1e": {
+      "syndicated_at": "2026-06-13T21:19:48.694Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/googles-gemini-generates-working-apps-from-text-but-still-needs-human-help-4496",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 428,
+      "category": "tools",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
     }
   }
 }

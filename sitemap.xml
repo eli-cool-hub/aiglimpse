@@ -16,6 +16,24 @@
   <url><loc>https://aiglimpse.ai/pages/privacy</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
   <url><loc>https://aiglimpse.ai/pages/terms</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
   <url>
+    <loc>https://aiglimpse.ai/articles/googles-gemini-generates-working-apps-from-text-but-still-needs-human-help-c18dfe1e</loc>
+    <news:news>
+      <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-06-13T13:00:00.000Z</news:publication_date>
+      <news:title>Google's Gemini Generates Working Apps from Text, But Still Needs Human Help</news:title>
+    </news:news>
+    <changefreq>daily</changefreq><priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://aiglimpse.ai/articles/kpmg-withdraws-ai-report-after-finding-fabricated-data-dbc1c4f2</loc>
+    <news:news>
+      <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-06-13T20:42:31.000Z</news:publication_date>
+      <news:title>KPMG Withdraws AI Report After Finding Fabricated Data</news:title>
+    </news:news>
+    <changefreq>daily</changefreq><priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://aiglimpse.ai/articles/amazon-chiefs-government-meetings-preceded-regulatory-action-against-anthropic-f5392fc1</loc>
     <news:news>
       <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
