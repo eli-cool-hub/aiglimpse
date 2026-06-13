@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "state-officials-launch-broad-inquiry-into-openai-practices-8de1a78f",
+      "title": "State Officials Launch Broad Inquiry Into OpenAI Practices",
+      "subtitle": "Multiple state attorneys general are examining the AI company's advertising and medical data policies, marking a significant escalation in regulatory scrutiny.",
+      "category": "business",
+      "publishedAt": "2026-06-13T16:47:18.000Z",
+      "sourceUrl": "https://techcrunch.com/2026/06/13/openai-faces-investigation-from-state-attorneys-general/",
+      "sourceName": "TechCrunch AI",
+      "sourceTier": 2,
+      "image": "/images/articles/state-officials-launch-broad-inquiry-into-openai-practices-8de1a78f.jpg"
+    },
+    {
+      "slug": "new-ai-system-transforms-scientific-papers-into-knowledge-graphs-9b9847b2",
+      "title": "New AI System Transforms Scientific Papers Into Knowledge Graphs",
+      "subtitle": "Researchers build pipeline that extracts deep structural knowledge from research documents to power more capable AI agents.",
+      "category": "research",
+      "publishedAt": "2026-06-11T17:58:35.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2606.13669v1",
+      "sourceName": "arXiv (Zongsheng Cao, Bihao Zhan, Jinxin Shi, Jiong Wang, Fangchen …)",
+      "sourceTier": 1,
+      "image": "/images/articles/new-ai-system-transforms-scientific-papers-into-knowledge-graphs-9b9847b2.jpg"
+    },
+    {
       "slug": "fastapi-starlette-security-ai-agents-guide",
       "title": "FastAPI and Starlette Security for AI Agents: Production Hardening",
       "subtitle": "Vulnerabilities, patches, and a hardening checklist for Python teams deploying AI agent backends.",
@@ -2817,6 +2839,8 @@
     "9d55c67687127c50",
     "3638e672fd7d8501",
     "6b28d9b412e3cc48",
-    "ada8f7dad9faea89"
+    "ada8f7dad9faea89",
+    "9b9847b23fb591e1",
+    "8de1a78fb2ffaac3"
   ]
 }

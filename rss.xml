@@ -7,6 +7,30 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>State Officials Launch Broad Inquiry Into OpenAI Practices</title>
+      <link>https://aiglimpse.ai/articles/state-officials-launch-broad-inquiry-into-openai-practices-8de1a78f</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/state-officials-launch-broad-inquiry-into-openai-practices-8de1a78f</guid>
+      <description>Multiple state attorneys general are examining the AI company's advertising and medical data policies, marking a significant escalation in regulatory scrutiny.</description>
+      <pubDate>Sat, 13 Jun 2026 16:47:18 GMT</pubDate>
+      <category>AI Business</category>
+    </item>
+    <item>
+      <title>New AI System Transforms Scientific Papers Into Knowledge Graphs</title>
+      <link>https://aiglimpse.ai/articles/new-ai-system-transforms-scientific-papers-into-knowledge-graphs-9b9847b2</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-ai-system-transforms-scientific-papers-into-knowledge-graphs-9b9847b2</guid>
+      <description>Researchers build pipeline that extracts deep structural knowledge from research documents to power more capable AI agents.</description>
+      <pubDate>Thu, 11 Jun 2026 17:58:35 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
+      <title>FastAPI and Starlette Security for AI Agents: Production Hardening</title>
+      <link>https://aiglimpse.ai/articles/fastapi-starlette-security-ai-agents-guide</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/fastapi-starlette-security-ai-agents-guide</guid>
+      <description>Vulnerabilities, patches, and a hardening checklist for Python teams deploying AI agent backends.</description>
+      <pubDate>Sat, 13 Jun 2026 14:59:17 GMT</pubDate>
+      <category>AI Tools &amp; Products</category>
+    </item>
+    <item>
       <title>Robot Emotion Recognition Hits Wall: Tech Beats Facial Analysis, Fails Trust Test</title>
       <link>https://aiglimpse.ai/articles/robot-emotion-recognition-hits-wall-tech-beats-facial-analysis-fails-trust-test-ada8f7da</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/robot-emotion-recognition-hits-wall-tech-beats-facial-analysis-fails-trust-test-ada8f7da</guid>
@@ -381,30 +405,6 @@
       <description>New building-block approach lets developers compose custom AI agents from reusable components without starting from scratch.</description>
       <pubDate>Tue, 09 Jun 2026 10:46:19 GMT</pubDate>
       <category>AI Tools &amp; Products</category>
-    </item>
-    <item>
-      <title>Researchers Accelerate Video Generation With Latent Memory Model</title>
-      <link>https://aiglimpse.ai/articles/researchers-accelerate-video-generation-with-latent-memory-model-21641bfc</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/researchers-accelerate-video-generation-with-latent-memory-model-21641bfc</guid>
-      <description>New framework cuts computational costs tenfold by storing scene data in AI latent space instead of pixel space.</description>
-      <pubDate>Mon, 08 Jun 2026 17:59:54 GMT</pubDate>
-      <category>AI Research</category>
-    </item>
-    <item>
-      <title>Apple's Measured AI Strategy Proves Competitive as Industry Shifts</title>
-      <link>https://aiglimpse.ai/articles/apples-measured-ai-strategy-proves-competitive-as-industry-shifts-3f25ab41</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/apples-measured-ai-strategy-proves-competitive-as-industry-shifts-3f25ab41</guid>
-      <description>After years of measured investment, Apple's artificial intelligence roadmap is reshaping perceptions of the company's position in a rapidly evolving tech landscape.</description>
-      <pubDate>Tue, 09 Jun 2026 01:56:48 GMT</pubDate>
-      <category>AI Business</category>
-    </item>
-    <item>
-      <title>OpenAI Outlines Strategy to Democratize AI While Tackling Safety Risks</title>
-      <link>https://aiglimpse.ai/articles/openai-outlines-strategy-to-democratize-ai-while-tackling-safety-risks-d6cf24e8</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/openai-outlines-strategy-to-democratize-ai-while-tackling-safety-risks-d6cf24e8</guid>
-      <description>The AI lab releases a comprehensive roadmap for ensuring advanced systems serve broad populations rather than concentrating power among a few actors.</description>
-      <pubDate>Mon, 08 Jun 2026 01:30:00 GMT</pubDate>
-      <category>LLMs &amp; Chatbots</category>
     </item>
   </channel>
 </rss>
