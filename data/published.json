@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "government-halts-anthropics-advanced-ai-model-over-security-concerns-0494a8d5",
+      "title": "Government Halts Anthropic's Advanced AI Model Over Security Concerns",
+      "subtitle": "A regulatory intervention over potential vulnerabilities reignites debate about safety disclosure versus market deployment in AI development.",
+      "category": "business",
+      "publishedAt": "2026-06-13T02:26:30.000Z",
+      "sourceUrl": "https://techcrunch.com/2026/06/12/anthropics-safety-warnings-may-have-just-backfired-the-government-has-pulled-the-plug-on-its-most-powerful-ai/",
+      "sourceName": "TechCrunch AI",
+      "sourceTier": 2,
+      "image": "/images/articles/government-halts-anthropics-advanced-ai-model-over-security-concerns-0494a8d5.jpg"
+    },
+    {
+      "slug": "anthropic-pulls-new-ai-models-after-us-security-concerns-11f43b18",
+      "title": "Anthropic Pulls New AI Models After US Security Concerns",
+      "subtitle": "Export controls and reported safety vulnerabilities force sudden shutdown of Fable 5 and Mythos 5, raising questions about AI deployment oversight.",
+      "category": "tools",
+      "publishedAt": "2026-06-13T03:00:34.000Z",
+      "sourceUrl": "https://arstechnica.com/ai/2026/06/anthropic-shuts-down-fable-mythos-models-following-trump-admin-directive/",
+      "sourceName": "Ars Technica AI",
+      "sourceTier": 2,
+      "image": "/images/articles/anthropic-pulls-new-ai-models-after-us-security-concerns-11f43b18.jpg"
+    },
+    {
       "slug": "ai-models-show-promise-in-automating-scientific-reproducibility-checks-5e8b8636",
       "title": "AI Models Show Promise in Automating Scientific Reproducibility Checks",
       "subtitle": "Researchers find large language models can verify research findings at scale, outperforming human reviewers on some metrics.",
@@ -2709,6 +2731,8 @@
     "480b27c3d0df9aa6",
     "c13d0bf3090642aa",
     "79476b0d4139b127",
-    "5e8b8636d05fd50c"
+    "5e8b8636d05fd50c",
+    "11f43b1849db8536",
+    "0494a8d55f5fd373"
   ]
 }
