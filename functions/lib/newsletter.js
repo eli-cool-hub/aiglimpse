@@ -120,29 +120,56 @@ export async function resendSend(apiKey, payload) {
   return { ok: res.ok, status: res.status, data };
 }
 
-export async function resendAddContact(apiKey, audienceId, email) {
-  const res = await fetch(`https://api.resend.com/audiences/${audienceId}/contacts`, {
+export async function resendAddToSegment(apiKey, segmentId, email) {
+  const normalized = normalizeEmail(email);
+  // Create or update global contact and attach to segment (Resend segments model).
+  const createRes = await fetch('https://api.resend.com/contacts', {
     method: 'POST',
     headers: {
       Authorization: `Bearer ${apiKey}`,
       'Content-Type': 'application/json'
     },
-    body: JSON.stringify({ email: normalizeEmail(email), unsubscribed: false })
+    body: JSON.stringify({
+      email: normalized,
+      unsubscribed: false,
+      segments: [segmentId]
+    })
   });
-  const data = await res.json().catch(() => null);
-  // 409 = already on list — treat as success
-  return { ok: res.ok || res.status === 409, status: res.status, data };
+  const created = await createRes.json().catch(() => null);
+  if (createRes.ok || createRes.status === 409) {
+    return { ok: true, status: createRes.status, data: created };
+  }
+
+  const addRes = await fetch(
+    `https://api.resend.com/contacts/${encodeURIComponent(normalized)}/segments/${encodeURIComponent(segmentId)}`,
+    {
+      method: 'POST',
+      headers: { Authorization: `Bearer ${apiKey}` }
+    }
+  );
+  const added = await addRes.json().catch(() => null);
+  return { ok: addRes.ok || addRes.status === 409, status: addRes.status, data: added || created };
 }
 
-export async function resendRemoveContact(apiKey, audienceId, email) {
+export async function resendRemoveFromSegment(apiKey, segmentId, email) {
   const res = await fetch(
-    `https://api.resend.com/audiences/${audienceId}/contacts/${encodeURIComponent(normalizeEmail(email))}`,
+    `https://api.resend.com/contacts/${encodeURIComponent(normalizeEmail(email))}/segments/${encodeURIComponent(segmentId)}`,
     {
       method: 'DELETE',
       headers: { Authorization: `Bearer ${apiKey}` }
     }
   );
   return { ok: res.ok || res.status === 404, status: res.status };
+}
+
+/** @deprecated use resendAddToSegment */
+export async function resendAddContact(apiKey, audienceId, email) {
+  return resendAddToSegment(apiKey, audienceId, email);
+}
+
+/** @deprecated use resendRemoveFromSegment */
+export async function resendRemoveContact(apiKey, audienceId, email) {
+  return resendRemoveFromSegment(apiKey, audienceId, email);
 }
 
 export { UNSUB_TTL_MS };

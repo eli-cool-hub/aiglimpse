@@ -1,14 +1,14 @@
-import { htmlPage, parseToken, resendRemoveContact } from '../../lib/newsletter.js';
+import { htmlPage, parseToken, resendRemoveFromSegment } from '../../lib/newsletter.js';
 
 export async function onRequestGet(context) {
   const { request, env } = context;
 
   try {
     const apiKey = env.RESEND_API_KEY;
-    const audienceId = env.RESEND_AUDIENCE_ID;
+    const segmentId = env.RESEND_SEGMENT_ID || env.RESEND_AUDIENCE_ID;
     const secret = env.NEWSLETTER_SECRET;
 
-    if (!apiKey || !secret || !audienceId) {
+    if (!apiKey || !secret || !segmentId) {
       return new Response(htmlPage({
         title: 'Not configured',
         body: 'Unsubscribe is not available right now.',
@@ -28,7 +28,7 @@ export async function onRequestGet(context) {
       }), { status: 400, headers: { 'Content-Type': 'text/html; charset=utf-8' } });
     }
 
-    await resendRemoveContact(apiKey, audienceId, parsed.email);
+    await resendRemoveFromSegment(apiKey, segmentId, parsed.email);
 
     return new Response(htmlPage({
       title: 'Unsubscribed',

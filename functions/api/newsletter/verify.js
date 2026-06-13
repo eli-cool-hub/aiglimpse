@@ -3,7 +3,7 @@ import {
   escapeHtml,
   htmlPage,
   parseToken,
-  resendAddContact,
+  resendAddToSegment,
   resendSend,
   UNSUB_TTL_MS
 } from '../../lib/newsletter.js';
@@ -14,10 +14,10 @@ export async function onRequestGet(context) {
   try {
     const apiKey = env.RESEND_API_KEY;
     const from = env.RESEND_FROM_EMAIL;
-    const audienceId = env.RESEND_AUDIENCE_ID;
+    const segmentId = env.RESEND_SEGMENT_ID || env.RESEND_AUDIENCE_ID;
     const secret = env.NEWSLETTER_SECRET;
 
-    if (!apiKey || !from || !secret || !audienceId) {
+    if (!apiKey || !from || !secret || !segmentId) {
       return new Response(htmlPage({
         title: 'Not configured',
         body: 'Newsletter signup is not fully configured yet. Please try again later.',
@@ -38,7 +38,7 @@ export async function onRequestGet(context) {
     }
 
     const { email } = parsed;
-    const added = await resendAddContact(apiKey, audienceId, email);
+    const added = await resendAddToSegment(apiKey, segmentId, email);
     if (!added.ok) {
       return new Response(htmlPage({
         title: 'Could not subscribe',

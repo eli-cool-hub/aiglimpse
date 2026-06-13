@@ -16,10 +16,10 @@ import path from 'path';
 const SITE = (process.env.SITE_URL || 'https://aiglimpse.ai').replace(/\/$/, '');
 const apiKey = process.env.RESEND_API_KEY;
 const from = process.env.RESEND_FROM_EMAIL;
-const audienceId = process.env.RESEND_AUDIENCE_ID;
+const segmentId = process.env.RESEND_SEGMENT_ID || process.env.RESEND_AUDIENCE_ID;
 
-if (!apiKey || !from || !audienceId) {
-  console.error('RESEND_API_KEY, RESEND_FROM_EMAIL, and RESEND_AUDIENCE_ID required');
+if (!apiKey || !from || !segmentId) {
+  console.error('RESEND_API_KEY, RESEND_FROM_EMAIL, and RESEND_SEGMENT_ID (or RESEND_AUDIENCE_ID) required');
   process.exit(1);
 }
 
@@ -117,7 +117,7 @@ const createRes = await fetch('https://api.resend.com/broadcasts', {
     'Content-Type': 'application/json'
   },
   body: JSON.stringify({
-    audience_id: audienceId,
+    segment_id: segmentId,
     from,
     subject,
     html
