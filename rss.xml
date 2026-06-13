@@ -7,6 +7,22 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Robot Emotion Recognition Hits Wall: Tech Beats Facial Analysis, Fails Trust Test</title>
+      <link>https://aiglimpse.ai/articles/robot-emotion-recognition-hits-wall-tech-beats-facial-analysis-fails-trust-test-ada8f7da</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/robot-emotion-recognition-hits-wall-tech-beats-facial-analysis-fails-trust-test-ada8f7da</guid>
+      <description>New research shows vision language models can read human feelings better than traditional AI, but emotional intelligence alone cannot overcome performance failures.</description>
+      <pubDate>Sat, 13 Jun 2026 13:00:01 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
+      <title>Researchers Uncover Hidden Limits of Truncated Encodings in Graph AI</title>
+      <link>https://aiglimpse.ai/articles/researchers-uncover-hidden-limits-of-truncated-encodings-in-graph-ai-6b28d9b4</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/researchers-uncover-hidden-limits-of-truncated-encodings-in-graph-ai-6b28d9b4</guid>
+      <description>New study reveals that practical shortcuts used in graph neural networks sacrifice theoretical power in ways previously unknown to the field.</description>
+      <pubDate>Thu, 11 Jun 2026 17:58:56 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
       <title>How AI Models Learn From Teachers Without Rewriting Themselves</title>
       <link>https://aiglimpse.ai/articles/how-ai-models-learn-from-teachers-without-rewriting-themselves-3638e672</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/how-ai-models-learn-from-teachers-without-rewriting-themselves-3638e672</guid>
@@ -389,22 +405,6 @@
       <description>The AI lab releases a comprehensive roadmap for ensuring advanced systems serve broad populations rather than concentrating power among a few actors.</description>
       <pubDate>Mon, 08 Jun 2026 01:30:00 GMT</pubDate>
       <category>LLMs &amp; Chatbots</category>
-    </item>
-    <item>
-      <title>Altman's Biometric Startup Cuts Staff Amid Revenue Struggles</title>
-      <link>https://aiglimpse.ai/articles/altmans-biometric-startup-cuts-staff-amid-revenue-struggles-5ba2c865</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/altmans-biometric-startup-cuts-staff-amid-revenue-struggles-5ba2c865</guid>
-      <description>Tools for Humanity, the iris-scanning verification platform backed by OpenAI's CEO, is downsizing as it struggles to achieve commercial traction.</description>
-      <pubDate>Mon, 08 Jun 2026 22:41:45 GMT</pubDate>
-      <category>AI Business</category>
-    </item>
-    <item>
-      <title>OpenAI Moves Toward Public Markets With Confidential SEC Filing</title>
-      <link>https://aiglimpse.ai/articles/openai-moves-toward-public-markets-with-confidential-sec-filing-d1446357</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/openai-moves-toward-public-markets-with-confidential-sec-filing-d1446357</guid>
-      <description>The AI leader joins Anthropic in pursuing IPO registration, escalating competition between the industry's two most prominent startups.</description>
-      <pubDate>Mon, 08 Jun 2026 21:38:29 GMT</pubDate>
-      <category>AI Tools &amp; Products</category>
     </item>
   </channel>
 </rss>

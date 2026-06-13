@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "robot-emotion-recognition-hits-wall-tech-beats-facial-analysis-fails-trust-test-ada8f7da",
+      "title": "Robot Emotion Recognition Hits Wall: Tech Beats Facial Analysis, Fails Trust Test",
+      "subtitle": "New research shows vision language models can read human feelings better than traditional AI, but emotional intelligence alone cannot overcome performance failures.",
+      "category": "research",
+      "publishedAt": "2026-06-13T13:00:01.000Z",
+      "sourceUrl": "https://spectrum.ieee.org/robot-emotions-visual-language-models",
+      "sourceName": "IEEE Spectrum AI",
+      "sourceTier": 2,
+      "image": "/images/articles/robot-emotion-recognition-hits-wall-tech-beats-facial-analysis-fails-trust-test-ada8f7da.jpg"
+    },
+    {
+      "slug": "researchers-uncover-hidden-limits-of-truncated-encodings-in-graph-ai-6b28d9b4",
+      "title": "Researchers Uncover Hidden Limits of Truncated Encodings in Graph AI",
+      "subtitle": "New study reveals that practical shortcuts used in graph neural networks sacrifice theoretical power in ways previously unknown to the field.",
+      "category": "research",
+      "publishedAt": "2026-06-11T17:58:56.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2606.13671v1",
+      "sourceName": "arXiv (James Flora, Mitchell Black, Weng-Keen Wong, Amir Nayyeri)",
+      "sourceTier": 1,
+      "image": "/images/articles/researchers-uncover-hidden-limits-of-truncated-encodings-in-graph-ai-6b28d9b4.jpg"
+    },
+    {
       "slug": "how-ai-models-learn-from-teachers-without-rewriting-themselves-3638e672",
       "title": "How AI Models Learn From Teachers Without Rewriting Themselves",
       "subtitle": "New research reveals that knowledge distillation preserves sparse, geometrically distinct parameter changes rather than dense overwriting.",
@@ -2781,6 +2803,8 @@
     "0039ebffecd14180",
     "1217442f14e15cb0",
     "9d55c67687127c50",
-    "3638e672fd7d8501"
+    "3638e672fd7d8501",
+    "6b28d9b412e3cc48",
+    "ada8f7dad9faea89"
   ]
 }
