@@ -7,6 +7,22 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>How AI Models Learn From Teachers Without Rewriting Themselves</title>
+      <link>https://aiglimpse.ai/articles/how-ai-models-learn-from-teachers-without-rewriting-themselves-3638e672</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/how-ai-models-learn-from-teachers-without-rewriting-themselves-3638e672</guid>
+      <description>New research reveals that knowledge distillation preserves sparse, geometrically distinct parameter changes rather than dense overwriting.</description>
+      <pubDate>Thu, 11 Jun 2026 17:54:09 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
+      <title>New Framework Lets AI Agents Reason About 3D Space More Flexibly</title>
+      <link>https://aiglimpse.ai/articles/new-framework-lets-ai-agents-reason-about-3d-space-more-flexibly-9d55c676</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-framework-lets-ai-agents-reason-about-3d-space-more-flexibly-9d55c676</guid>
+      <description>Researchers propose SpatialClaw, which uses executable code to help vision-language models understand complex spatial relationships and adapt reasoning on the fly.</description>
+      <pubDate>Thu, 11 Jun 2026 17:59:36 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
       <title>New Framework Shifts Focus to Environment Design for AI Research Agents</title>
       <link>https://aiglimpse.ai/articles/new-framework-shifts-focus-to-environment-design-for-ai-research-agents-1217442f</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/new-framework-shifts-focus-to-environment-design-for-ai-research-agents-1217442f</guid>
@@ -388,22 +404,6 @@
       <guid isPermaLink="true">https://aiglimpse.ai/articles/openai-moves-toward-public-markets-with-confidential-sec-filing-d1446357</guid>
       <description>The AI leader joins Anthropic in pursuing IPO registration, escalating competition between the industry's two most prominent startups.</description>
       <pubDate>Mon, 08 Jun 2026 21:38:29 GMT</pubDate>
-      <category>AI Tools &amp; Products</category>
-    </item>
-    <item>
-      <title>OpenAI Files Confidential IPO Registration With SEC</title>
-      <link>https://aiglimpse.ai/articles/openai-files-confidential-ipo-registration-with-sec-d9671d85</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/openai-files-confidential-ipo-registration-with-sec-d9671d85</guid>
-      <description>The AI leader takes a major step toward public markets, signaling confidence in its business model and future growth prospects.</description>
-      <pubDate>Mon, 08 Jun 2026 14:00:00 GMT</pubDate>
-      <category>LLMs &amp; Chatbots</category>
-    </item>
-    <item>
-      <title>Open Source Community Rallies Behind OpenEnv for Reinforcement Learning</title>
-      <link>https://aiglimpse.ai/articles/open-source-community-rallies-behind-openenv-for-reinforcement-learning-32d3e22c</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/open-source-community-rallies-behind-openenv-for-reinforcement-learning-32d3e22c</guid>
-      <description>A new collaborative framework aims to standardize how AI agents learn through interaction, gaining momentum across the developer ecosystem.</description>
-      <pubDate>Mon, 08 Jun 2026 00:00:00 GMT</pubDate>
       <category>AI Tools &amp; Products</category>
     </item>
   </channel>

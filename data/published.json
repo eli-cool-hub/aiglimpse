@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "how-ai-models-learn-from-teachers-without-rewriting-themselves-3638e672",
+      "title": "How AI Models Learn From Teachers Without Rewriting Themselves",
+      "subtitle": "New research reveals that knowledge distillation preserves sparse, geometrically distinct parameter changes rather than dense overwriting.",
+      "category": "research",
+      "publishedAt": "2026-06-11T17:54:09.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2606.13657v1",
+      "sourceName": "arXiv (Guo Yu, Wenlin Liu, Yulan Hu, Hao-Xuan Ma, Jun-Peng Jiang, H…)",
+      "sourceTier": 1,
+      "image": "/images/articles/how-ai-models-learn-from-teachers-without-rewriting-themselves-3638e672.jpg"
+    },
+    {
+      "slug": "new-framework-lets-ai-agents-reason-about-3d-space-more-flexibly-9d55c676",
+      "title": "New Framework Lets AI Agents Reason About 3D Space More Flexibly",
+      "subtitle": "Researchers propose SpatialClaw, which uses executable code to help vision-language models understand complex spatial relationships and adapt reasoning on the fly.",
+      "category": "research",
+      "publishedAt": "2026-06-11T17:59:36.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2606.13673v1",
+      "sourceName": "arXiv (Seokju Cho, Ryo Hachiuma, Abhishek Badki, Hang Su, Byung-Kwa…)",
+      "sourceTier": 1,
+      "image": "/images/articles/new-framework-lets-ai-agents-reason-about-3d-space-more-flexibly-9d55c676.jpg"
+    },
+    {
       "slug": "new-framework-shifts-focus-to-environment-design-for-ai-research-agents-1217442f",
       "title": "New Framework Shifts Focus to Environment Design for AI Research Agents",
       "subtitle": "Researchers argue that sculpting computational environments, not just algorithms, is key to unlocking autonomous scientific breakthroughs.",
@@ -2757,6 +2779,8 @@
     "11f43b1849db8536",
     "0494a8d55f5fd373",
     "0039ebffecd14180",
-    "1217442f14e15cb0"
+    "1217442f14e15cb0",
+    "9d55c67687127c50",
+    "3638e672fd7d8501"
   ]
 }

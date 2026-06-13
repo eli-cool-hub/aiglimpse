@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>How AI Models Learn From Teachers Without Rewriting Themselves | AI Glimpse</title>
+  <meta name="description" content="Researchers reveal how dense teacher supervision shapes model learning through sparse, geometrically distinct parameter updates rather than wholesale rewrites.">
+  <meta name="keywords" content="on-policy distillation, parameter sparsity, knowledge distillation, model optimization, machine learning training">
+  <link rel="canonical" href="https://aiglimpse.ai/articles/how-ai-models-learn-from-teachers-without-rewriting-themselves-3638e672">
+  <meta property="og:type" content="article"><meta property="og:site_name" content="AI Glimpse">
+  <meta property="og:title" content="How AI Models Learn From Teachers Without Rewriting Themselves">
+  <meta property="og:description" content="Researchers reveal how dense teacher supervision shapes model learning through sparse, geometrically distinct parameter updates rather than wholesale rewrites.">
+  <meta property="og:url" content="https://aiglimpse.ai/articles/how-ai-models-learn-from-teachers-without-rewriting-themselves-3638e672">
+  <meta property="og:image" content="https://aiglimpse.ai/images/articles/how-ai-models-learn-from-teachers-without-rewriting-themselves-3638e672.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="article:published_time" content="2026-06-11T17:54:09.000Z">
+  <meta property="article:section" content="AI Research">
+  <meta property="article:tag" content="on-policy distillation">
+  <meta property="article:tag" content="parameter sparsity">
+  <meta property="article:tag" content="knowledge distillation">
+  <meta property="article:tag" content="model optimization">
+  <meta property="article:tag" content="machine learning training">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="How AI Models Learn From Teachers Without Rewriting Themselves">
+  <meta name="twitter:description" content="Researchers reveal how dense teacher supervision shapes model learning through sparse, geometrically distinct parameter updates rather than wholesale rewrites.">
+  <meta name="twitter:image" content="https://aiglimpse.ai/images/articles/how-ai-models-learn-from-teachers-without-rewriting-themselves-3638e672.jpg">
+  <link rel="icon" type="image/svg+xml" href="/images/favicon.svg">
+  <link rel="alternate" type="application/rss+xml" title="AI Glimpse RSS" href="/rss.xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="/css/main.css">
+  <style>.reading-progress{position:fixed;top:0;left:0;height:3px;background:var(--color-accent);width:0%;z-index:200;transition:width 100ms linear;}</style>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"NewsArticle","mainEntityOfPage":{"@type":"WebPage","@id":"https://aiglimpse.ai/articles/how-ai-models-learn-from-teachers-without-rewriting-themselves-3638e672"},"headline":"How AI Models Learn From Teachers Without Rewriting Themselves","description":"Researchers reveal how dense teacher supervision shapes model learning through sparse, geometrically distinct parameter updates rather than wholesale rewrites.","image":["https://aiglimpse.ai/images/articles/how-ai-models-learn-from-teachers-without-rewriting-themselves-3638e672.jpg"],"datePublished":"2026-06-11T17:54:09.000Z","dateModified":"2026-06-11T17:54:09.000Z","author":{"@type":"Organization","name":"AI Glimpse Newsroom"},"publisher":{"@type":"Organization","name":"AI Glimpse","logo":{"@type":"ImageObject","url":"https://aiglimpse.ai/images/logo.svg"}},"articleSection":"AI Research","keywords":"on-policy distillation, parameter sparsity, knowledge distillation, model optimization, machine learning training"}</script>
+  <meta name="google-site-verification" content="B132aMlqf1nssWYhjOSKUgSjmfwNWgPgtozZsHDxWlU" />
+  <meta name="msvalidate.01" content="F3762E555B3E685836AE39C90B79ECBF" />
+  <!-- aiglimpse-consent-default v1: must run before AdSense, defaults all ad/analytics storage to denied -->
+  <script>(function(){window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}window.gtag=gtag;gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'denied',functionality_storage:'granted',security_storage:'granted',wait_for_update:500});try{var s=JSON.parse(localStorage.getItem('aiglimpse-consent')||'null');if(s&&s.choice==='granted'){gtag('consent','update',{ad_storage:'granted',ad_user_data:'granted',ad_personalization:'granted',analytics_storage:'granted'});}}catch(e){}})();</script>
+  <!-- aiglimpse-ga4 v1: gtag.js loaded after consent default, so it buffers events until consent is granted -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-EVZ52DNQ8S"></script>
+  <script>gtag('js', new Date()); gtag('config', 'G-EVZ52DNQ8S', { anonymize_ip: true });</script>
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4263484717830850" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div class="reading-progress" aria-hidden="true"></div>
+  <div id="site-header-slot"></div>
+  <main>
+    <article>
+      <section class="article-hero">
+        <div class="container container--narrow">
+          <nav aria-label="Breadcrumb" style="margin-bottom:var(--space-4);font-size:var(--text-xs);color:var(--color-ink-muted);">
+            <a href="/" style="color:inherit;">Home</a> /
+            <a href="/categories/research" style="color:inherit;">AI Research</a>
+          </nav>
+          <div class="article-hero-meta">
+            <span class="tag tag--research">AI Research</span>
+            <span class="eyebrow">2 min read</span>
+          </div>
+          <h1 class="article-hero-title">How AI Models Learn From Teachers Without Rewriting Themselves</h1>
+          <p class="article-hero-subtitle">New research reveals that knowledge distillation preserves sparse, geometrically distinct parameter changes rather than dense overwriting.</p>
+          <div class="article-byline">
+            <div>By <strong>AI Glimpse Newsroom</strong></div><div>·</div>
+            <div><time datetime="2026-06-11T17:54:09.000Z" data-relative="false">June 11, 2026</time></div>
+          </div>
+        </div>
+      </section>
+      <section style="padding: var(--space-7) 0;">
+        <div class="container container--narrow">
+          <figure class="article-image"><img src="/images/articles/how-ai-models-learn-from-teachers-without-rewriting-themselves-3638e672.jpg" alt="How AI Models Learn From Teachers Without Rewriting Themselves" loading="eager" width="1200" height="630"></figure>
+          <div class="article-body"><p>Researchers have uncovered fundamental insights into how large language and vision-<a href="/categories/llms">language models</a> absorb knowledge from teacher models during a training process called on-policy distillation, challenging assumptions about how deeply this technique reshapes neural networks.</p>
+
+<p>The work, led by a collaborative team of machine learning researchers, examines what happens when student models learn from dense supervision provided by teacher models while maintaining their own exploration trajectories. According to arXiv, the investigation across multiple model pairs and application domains reveals two surprising characteristics of how parameters actually change during this process.</p>
+
+<h2>Sparse Updates Across Layers</h2>
+
+<p>The research identifies that parameter modifications during on-policy distillation are remarkably small and concentrated in specific coordinates rather than distributed evenly. These updates tend to cluster in feed-forward network layers while remaining sparse across the model architecture. Perhaps most practically, the team discovered that training only the identified subnetwork achieves nearly identical performance to updating the entire model, suggesting significant computational efficiency gains.</p>
+
+<p>However, the findings include an optimization challenge. While sparse update structures theoretically favor simpler optimizers like stochastic gradient descent, the researchers found that AdamW, a more sophisticated adaptive optimizer, consistently outperformed SGD in their experiments. This discrepancy appears to stem from the dense teacher supervision itself, which preserves varied gradient scales across different parameter coordinates. AdamW's ability to adjust learning rates per coordinate makes it better suited to this heterogeneous landscape.</p>
+
+<h2>Geometric Signatures Persist</h2>
+
+<p>Beyond sparsity patterns, the research uncovers unexpected geometric properties in how models reorganize knowledge. While parameter updates appear small in magnitude, they maintain full rank mathematically, meaning they explore diverse directions across the parameter space. Yet this exploration concentrates heavily in specific regions: the singular value spectrum shows concentrated rather than distributed influence.</p>
+
+<p>Most intriguingly, updates avoid the principal singular subspaces of the original weights and disproportionately affect coordinates where initial parameters were already close to zero. This pattern suggests that on-policy distillation operates differently from conventional dense parameter rewriting.</p>
+
+<h2>Implications for Model Training</h2>
+
+<ul>
+<li>Dense teacher supervision does not fundamentally transform distillation into a dense rewriting process</li>
+<li>On-policy post-training geometric signatures persist through the learning process</li>
+<li>Sparse subnetwork training could reduce computational overhead without performance loss</li>
+<li>Adaptive optimizers remain valuable despite sparse update structures</li>
+</ul>
+
+<p>These findings matter because on-policy distillation has become increasingly important in post-training workflows for frontier language models. Understanding whether this technique fundamentally rewires models or surgically refines them affects how practitioners approach model development, optimization, and efficiency.</p>
+
+<p>The research suggests a more nuanced view: on-policy distillation works through targeted parameter adjustments that preserve the geometric and sparse characteristics of standard on-policy learning, rather than wholesale parameter replacement. This distinction could inform future approaches to knowledge transfer, model merging, and training efficiency.</p></div>
+          <!-- Inline ad slot, will be re-enabled once AdSense is approved -->
+          <p style="font-size:var(--text-xs);color:var(--color-ink-faint);margin-top:var(--space-6);padding-top:var(--space-4);border-top:1px solid var(--color-rule);">
+            Based on reporting from <a href="http://arxiv.org/abs/2606.13657v1" rel="nofollow noopener" target="_blank" style="color:inherit;text-decoration:underline;">arXiv (Guo Yu, Wenlin Liu, Yulan Hu, Hao-Xuan Ma, Jun-Peng Jiang, H…)</a>.
+          </p>
+        </div>
+      </section>
+    </article>
+  </main>
+  <div id="site-footer-slot"></div>
+  <script src="/js/chrome.js"></script>
+  <script src="/js/main.js"></script>
+</body>
+</html>
