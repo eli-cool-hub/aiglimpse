@@ -7,6 +7,22 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Amazon Chief's Security Warning Preceded Anthropic Model Shutdown</title>
+      <link>https://aiglimpse.ai/articles/amazon-chiefs-security-warning-preceded-anthropic-model-shutdown-bd9c617e</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/amazon-chiefs-security-warning-preceded-anthropic-model-shutdown-bd9c617e</guid>
+      <description>Jassy's reported concerns about AI safety may have triggered the company's decision to restrict access to two large language models.</description>
+      <pubDate>Sat, 13 Jun 2026 19:11:41 GMT</pubDate>
+      <category>AI Business</category>
+    </item>
+    <item>
+      <title>Amazon Research Sparks White House Action Against Anthropic Models</title>
+      <link>https://aiglimpse.ai/articles/amazon-research-sparks-white-house-action-against-anthropic-models-0c434145</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/amazon-research-sparks-white-house-action-against-anthropic-models-0c434145</guid>
+      <description>Cybersecurity findings about AI vulnerability to prompt injection trigger government export controls on advanced language models.</description>
+      <pubDate>Sat, 13 Jun 2026 21:39:26 GMT</pubDate>
+      <category>AI Tools &amp; Products</category>
+    </item>
+    <item>
       <title>Google's Gemini Generates Working Apps from Text, But Still Needs Human Help</title>
       <link>https://aiglimpse.ai/articles/googles-gemini-generates-working-apps-from-text-but-still-needs-human-help-c18dfe1e</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/googles-gemini-generates-working-apps-from-text-but-still-needs-human-help-c18dfe1e</guid>
@@ -389,22 +405,6 @@
       <description>Testing exposes critical gaps in how speech recognition handles code-switching, a challenge for global voice assistant deployment.</description>
       <pubDate>Tue, 09 Jun 2026 19:38:28 GMT</pubDate>
       <category>AI Tools &amp; Products</category>
-    </item>
-    <item>
-      <title>AI Agent Automates 3D Gallery Creation by Chaining Multiple Tools</title>
-      <link>https://aiglimpse.ai/articles/ai-agent-automates-3d-gallery-creation-by-chaining-multiple-tools-5dcb8123</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/ai-agent-automates-3d-gallery-creation-by-chaining-multiple-tools-5dcb8123</guid>
-      <description>Researchers demonstrate how autonomous agents can coordinate between separate AI services to generate complex visual outputs without human intervention.</description>
-      <pubDate>Tue, 09 Jun 2026 10:46:19 GMT</pubDate>
-      <category>AI Tools &amp; Products</category>
-    </item>
-    <item>
-      <title>Google DeepMind Backs European Robotics Push With AI Investment</title>
-      <link>https://aiglimpse.ai/articles/google-deepmind-backs-european-robotics-push-with-ai-investment-893b7c4d</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/google-deepmind-backs-european-robotics-push-with-ai-investment-893b7c4d</guid>
-      <description>Tech giant commits resources to advance machine learning capabilities for robotic systems across Europe's emerging automation sector.</description>
-      <pubDate>Tue, 09 Jun 2026 14:02:33 GMT</pubDate>
-      <category>AI Research</category>
     </item>
   </channel>
 </rss>

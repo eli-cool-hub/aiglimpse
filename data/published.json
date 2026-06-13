@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "amazon-chiefs-security-warning-preceded-anthropic-model-shutdown-bd9c617e",
+      "title": "Amazon Chief's Security Warning Preceded Anthropic Model Shutdown",
+      "subtitle": "Jassy's reported concerns about AI safety may have triggered the company's decision to restrict access to two large language models.",
+      "category": "business",
+      "publishedAt": "2026-06-13T19:11:41.000Z",
+      "sourceUrl": "https://techcrunch.com/2026/06/13/amazon-ceo-reportedly-raised-anthropic-model-concerns-before-government-crackdown/",
+      "sourceName": "TechCrunch AI",
+      "sourceTier": 2,
+      "image": "/images/articles/amazon-chiefs-security-warning-preceded-anthropic-model-shutdown-bd9c617e.jpg"
+    },
+    {
+      "slug": "amazon-research-sparks-white-house-action-against-anthropic-models-0c434145",
+      "title": "Amazon Research Sparks White House Action Against Anthropic Models",
+      "subtitle": "Cybersecurity findings about AI vulnerability to prompt injection trigger government export controls on advanced language models.",
+      "category": "tools",
+      "publishedAt": "2026-06-13T21:39:26.000Z",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/949601/amazon-anthropic-fablemythos-government-ban",
+      "sourceName": "The Verge AI",
+      "sourceTier": 2,
+      "image": "/images/articles/amazon-research-sparks-white-house-action-against-anthropic-models-0c434145.jpg"
+    },
+    {
       "slug": "googles-gemini-generates-working-apps-from-text-but-still-needs-human-help-c18dfe1e",
       "title": "Google's Gemini Generates Working Apps from Text, But Still Needs Human Help",
       "subtitle": "An experiment shows AI can build functional software in minutes, yet struggles with basic debugging without user intervention.",
@@ -2877,6 +2899,8 @@
     "8de1a78fb2ffaac3",
     "f5392fc1c114f548",
     "dbc1c4f2e2557408",
-    "c18dfe1e1c6f8b0f"
+    "c18dfe1e1c6f8b0f",
+    "0c4341459839ab00",
+    "bd9c617e72222ef2"
   ]
 }
