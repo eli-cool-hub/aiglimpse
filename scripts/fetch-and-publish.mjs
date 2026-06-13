@@ -29,6 +29,7 @@ import { generateArticleImage, generateInlineImages, injectInlineImages, resetIm
 import { buildHomepage } from './build-homepage.mjs';
 import { buildCategories } from './build-categories.mjs';
 import { syndicate, syndicationStats } from './lib/syndicate.mjs';
+import { EVERGREEN_LINK_MAP } from './lib/evergreen-links.mjs';
 import { regenerateSitemap as writeSitemap, pingIndexNow } from './lib/sitemap.mjs';
 
 const ROOT = path.resolve(process.cwd());
@@ -192,7 +193,16 @@ Return ONLY valid JSON (no markdown fences, no preamble):
 //   • At most 3 internal links added per article
 //   • Never link inside existing <a> tags, headings, or blockquotes
 //   • Longest phrases checked first so "large language model" wins over "model"
-const INTERNAL_LINK_MAP = [
+function evergreenLinksForPublished(published) {
+  const slugs = new Set((published?.articles || []).filter(a => a.evergreen).map(a => a.slug));
+  return EVERGREEN_LINK_MAP.filter(({ url }) => {
+    const slug = url.replace(/^\/articles\//, '');
+    return slugs.has(slug);
+  });
+}
+
+// SEO internal links — longest phrases first so specific matches win.
+const CATEGORY_LINK_MAP = [
   { phrase: 'large language models', url: '/categories/llms' },
   { phrase: 'large language model', url: '/categories/llms' },
   { phrase: 'language models', url: '/categories/llms' },
@@ -214,8 +224,9 @@ function escapeRegex(s) {
   return s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
 }
 
-function addInternalLinks(html, currentCategory) {
+function addInternalLinks(html, currentCategory, published) {
   if (typeof html !== 'string' || !html.length) return html;
+  const INTERNAL_LINK_MAP = [...evergreenLinksForPublished(published), ...CATEGORY_LINK_MAP];
 
   // Step 1: hide existing anchors, headings, blockquotes behind placeholders so
   // we never touch them. The list grows as we go, every link we add later also
@@ -449,7 +460,7 @@ async function main() {
         continue;
       }
       const category = classify(`${rewritten.title} ${rewritten.body_html}`, item.suggestedCategory);
-      rewritten.body_html = addInternalLinks(rewritten.body_html, category);
+      rewritten.body_html = addInternalLinks(rewritten.body_html, category, published);
       const hash = contentHash(item);
       const slug = slugify(rewritten.title) + '-' + hash.substring(0, 8);
       const publishedAt = new Date(item.publishedAt);

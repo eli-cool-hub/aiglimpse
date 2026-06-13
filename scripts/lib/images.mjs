@@ -82,7 +82,9 @@ const VISUAL_HINTS = [
   { re: /\b(nvidia|gpu|graphics card)\b/i, q: 'computer server room lights' },
   { re: /\b(amazon|aws|alexa)\b/i, q: 'warehouse logistics technology' },
   { re: /\b(tesla|optimus|cybertruck)\b/i, q: 'electric car factory robot' },
-  { re: /\b(humanoid|boston dynamics|figure ai|robot arm)\b/i, q: 'humanoid robot warehouse' },
+  { re: /\b(humanoid|boston dynamics|figure ai|robot arm|collaborative robot|cobot)\b/i, q: 'humanoid robot warehouse' },
+  { re: /\b(robot.*emotion|emotion.*robot|facial (?:analysis|recognition))\b/i, q: 'robot human collaboration factory' },
+  { re: /\b(quantum computing|quantinuum|qubit|quantum computer)\b/i, q: 'quantum computer server technology' },
   { re: /\b(drone|uav|quadcopter)\b/i, q: 'delivery drone flying sky' },
   { re: /\b(3d print|additive manufactur)\b/i, q: '3d printer manufacturing prototype' },
   { re: /\b(cybersecurity|hack|breach|malware|ransomware)\b/i, q: 'cybersecurity hacker screen code' },
@@ -94,9 +96,9 @@ const VISUAL_HINTS = [
   { re: /\b(pill|medication|pharmaceutical|drug (?:trial|therapy))\b/i, q: 'medicine pills pharmacy healthcare' },
   { re: /\b(video|film|cinema|movie)\b/i, q: 'video production editing studio' },
   { re: /\b(voice|speech|audio|podcast)\b/i, q: 'microphone podcast recording studio' },
-  { re: /\b(image|photo|vision|camera)\b/i, q: 'camera photographer urban street' },
+  { re: /\b(computer vision|machine vision|image recognition|facial recognition)\b/i, q: 'computer vision technology screen' },
   { re: /\b(code|coding|programming|developer|github)\b/i, q: 'programmer coding laptop desk' },
-  { re: /\b(startup|venture|funding|investment)\b/i, q: 'startup team pitch meeting' },
+  { re: /\b(startup pitch|venture capital|series [abc]|funding round|unicorn status)\b/i, q: 'startup team pitch meeting' },
   { re: /\b(law|legal|court|lawsuit|antitrust)\b/i, q: 'courtroom gavel legal documents' },
   { re: /\b(climate|energy|solar|wind power)\b/i, q: 'solar panels renewable energy' },
   { re: /\b(space|satellite|nasa|rocket)\b/i, q: 'rocket launch space technology' },
@@ -322,7 +324,7 @@ const PEXELS_TIMEOUT_MS = 12000;
 const PEXELS_PER_PAGE = 30;
 
 // Reject stock photos whose Pexels alt text clearly mismatches the article topic.
-const IRRELEVANT_ALT = /\b(coffee|espresso|moka|latte|cappuccino|barista|breakfast|pancake|croissant|salad|pizza|beer|wine glass|cocktail|yoga mat|hair salon|makeup artist|wedding bouquet|engagement ring|pet dog|cat sleeping|beach sunset|mountain hike|fitness gym dumbbell)\b/i;
+const IRRELEVANT_ALT = /\b(coffee|espresso|moka|latte|cappuccino|barista|breakfast|pancake|croissant|salad|pizza|beer|wine glass|cocktail|yoga mat|hair salon|makeup artist|wedding bouquet|engagement ring|pet dog|cat sleeping|beach sunset|mountain hike|fitness gym dumbbell|photographer|holding camera|dslr|photo shoot|whiteboard.*start up|startup.*whiteboard)\b/i;
 
 const TOPIC_HINTS = [
   { re: /\b(nvidia|gpu|chip|semiconductor|rubin|cosmos|cuda)\b/i, want: /\b(chip|computer|server|data center|circuit|technology|robot|factory)\b/i },
@@ -337,12 +339,62 @@ function articleContextBlob(opts) {
   return `${opts.title || ''} ${opts.subtitle || ''} ${(opts.keywords || []).join(' ')} ${opts.bodyHtml || ''}`.toLowerCase();
 }
 
+function matchTokensForPhoto(opts, query) {
+  const blob = articleContextBlob(opts);
+  const tokens = new Set();
+  for (const w of extractTitleKeywords(`${opts.title} ${opts.subtitle}`, 8)) tokens.add(w);
+  for (const w of extractTitleKeywords(query, 6)) tokens.add(w);
+  for (const { re } of VISUAL_HINTS) {
+    if (re.test(blob)) {
+      for (const m of blob.match(re) || []) tokens.add(String(m).toLowerCase());
+    }
+  }
+  for (const { re, want } of TOPIC_HINTS) {
+    if (re.test(blob) || re.test(query)) {
+      const wantStr = want.source.replace(/\\b/g, '').replace(/[()|]/g, ' ');
+      for (const w of wantStr.split(/\s+/).filter(t => t.length >= 4)) tokens.add(w);
+    }
+  }
+  return [...tokens].filter(t => t.length >= 4 && !TITLE_STOPWORDS.has(t));
+}
+
+function photoRelevanceScore(photo, query, opts) {
+  const alt = String(photo?.alt || '').toLowerCase();
+  if (!alt) return 0;
+  if (IRRELEVANT_ALT.test(alt) && !IRRELEVANT_ALT.test(articleContextBlob(opts))) return -5;
+
+  const tokens = matchTokensForPhoto(opts, query);
+  let score = 0;
+  for (const t of tokens) {
+    if (alt.includes(t)) score += 2;
+  }
+
+  const blob = articleContextBlob(opts);
+  for (const { re, want } of TOPIC_HINTS) {
+    if (re.test(blob) || re.test(query)) {
+      if (want.test(alt)) score += 3;
+      else if (IRRELEVANT_ALT.test(alt)) score -= 4;
+    }
+  }
+
+  // Penalize generic people/lifestyle shots when article is technical.
+  if (/\b(robot|quantum|server|chip|code|developer|hospital|dna)\b/i.test(blob) &&
+      /\b(portrait|model posing|fashion|selfie|couple|friends laughing)\b/i.test(alt)) {
+    score -= 3;
+  }
+  return score;
+}
+
 function photoAltMatchesArticle(photo, query, opts) {
   const alt = String(photo?.alt || '').toLowerCase();
-  if (!alt) return true;
+  if (!alt) return false;
   if (IRRELEVANT_ALT.test(alt) && !IRRELEVANT_ALT.test(query) && !IRRELEVANT_ALT.test(articleContextBlob(opts))) {
     return false;
   }
+  const score = photoRelevanceScore(photo, query, opts);
+  if (score >= 2) return true;
+  if (score <= -2) return false;
+
   const blob = articleContextBlob(opts);
   for (const { re, want } of TOPIC_HINTS) {
     if (re.test(blob) || re.test(query)) {
@@ -350,21 +402,26 @@ function photoAltMatchesArticle(photo, query, opts) {
       if (want.test(alt)) return true;
     }
   }
-  return true;
+  // Require at least one meaningful token overlap — do not accept random stock photos.
+  const tokens = matchTokensForPhoto(opts, query);
+  return tokens.some(t => alt.includes(t));
 }
 
 function pickRelevantPhoto(photos, slug, slot, query, opts) {
   if (!photos.length) return null;
   const seed = seedFromSlug(slug) + slot * 7919;
+  let best = null;
+  let bestScore = -999;
   for (let offset = 0; offset < photos.length; offset++) {
     const candidate = photos[(seed + offset) % photos.length];
     if (!candidate || _usedPhotoIds.has(candidate.id)) continue;
-    if (photoAltMatchesArticle(candidate, query, opts)) return candidate;
+    const score = photoRelevanceScore(candidate, query, opts);
+    if (score > bestScore) {
+      bestScore = score;
+      best = candidate;
+    }
   }
-  for (let offset = 0; offset < photos.length; offset++) {
-    const candidate = photos[(seed + offset) % photos.length];
-    if (candidate && !_usedPhotoIds.has(candidate.id)) return candidate;
-  }
+  if (best && bestScore >= 2) return best;
   return null;
 }
 
@@ -409,13 +466,12 @@ async function fetchPexelsForQueries(apiKey, queries, opts = {}) {
     try {
       const photos = await pexelsSearch(apiKey, query);
       const relevant = photos.filter(p => photoAltMatchesArticle(p, query, opts));
-      const pool = relevant.length ? relevant : photos;
-      if (pool.length) return { photos: pool, usedQuery: query };
+      if (relevant.length) return { photos: relevant, usedQuery: query };
     } catch (e) {
       lastError = e;
     }
   }
-  throw lastError || new Error('no results for any query');
+  throw lastError || new Error('no relevant results for any query');
 }
 
 async function tryPexelsHero(slug, opts) {

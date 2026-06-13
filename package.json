@@ -17,6 +17,8 @@
     "heal-inline-images": "node scripts/heal-inline-images.mjs",
     "test-images": "node scripts/test-images.mjs",
     "evergreen": "node scripts/generate-evergreen.mjs",
+    "evergreen:weekly": "node scripts/generate-evergreen.mjs --weekly",
+    "build-guides": "node scripts/build-guides.mjs",
     "serve": "python3 -m http.server 8000"
   },
   "dependencies": {

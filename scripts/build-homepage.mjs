@@ -166,7 +166,8 @@ function renderLatest(articles) {
 }
 
 function renderDeepDives(articles) {
-  const items = articles.slice(10, 12);
+  const evergreens = articles.filter(a => a.evergreen);
+  const items = (evergreens.length >= 2 ? evergreens : articles.slice(10, 12)).slice(0, 4);
   if (!items.length) return '';
   return `
 
@@ -175,6 +176,7 @@ function renderDeepDives(articles) {
       <div class="container">
         <div class="section-header">
           <h2 class="section-title">Deep Dives</h2>
+          <a href="/guides.html" class="section-link">All explainers</a>
         </div>
         <div class="grid grid-2">
           ${items.map(cardLarge).join('\n          ')}

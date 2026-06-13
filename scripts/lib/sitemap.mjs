@@ -18,6 +18,7 @@ export function staticSitemapUrls(siteUrl) {
   return [
     { loc: `${base}/`, priority: 1.0, changefreq: 'hourly' },
     ...CATEGORY_SLUGS.map(c => ({ loc: `${base}/categories/${c}`, priority: 0.9, changefreq: 'hourly' })),
+    { loc: `${base}/guides.html`, priority: 0.95, changefreq: 'weekly' },
     { loc: `${base}/pages/about`, priority: 0.5, changefreq: 'monthly' },
     { loc: `${base}/pages/contact`, priority: 0.5, changefreq: 'monthly' },
     { loc: `${base}/pages/editorial`, priority: 0.4, changefreq: 'monthly' },

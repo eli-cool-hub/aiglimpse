@@ -1,20 +1,23 @@
-name: Generate Evergreen Explainers
+name: Weekly evergreen explainer
 
-# Manual-only. We don't auto-run this because evergreens are written rarely
-# and reviewed before being added to EVERGREEN_TOPICS. Trigger from the
-# Actions tab when a new topic is queued.
+# Publishes one long-form SEO guide per week from the queued topic catalogue.
+# First unpublished topic in scripts/lib/evergreen-topics.mjs wins.
+
 on:
   workflow_dispatch:
     inputs:
       slug:
-        description: "Single topic slug to generate (leave blank to publish all unpublished topics)"
+        description: "Single topic slug (overrides weekly pick)"
         required: false
         type: string
       force:
-        description: "Rewrite even if the topic was already published"
+        description: "Rewrite even if already published"
         required: false
         default: false
         type: boolean
+  schedule:
+    # Wednesdays 06:00 UTC — after Monday image heal, before mid-week news peak
+    - cron: '0 6 * * 3'
 
 concurrency:
   group: aiglimpse-content-push
@@ -26,18 +29,15 @@ jobs:
     permissions:
       contents: write
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
-      - name: Setup Node
-        uses: actions/setup-node@v4
+      - uses: actions/setup-node@v4
         with:
           node-version: '20'
 
-      - name: Install dependencies
-        run: npm install --no-fund --no-audit
+      - run: npm install --no-fund --no-audit
 
-      - name: Generate evergreen pieces
+      - name: Generate weekly evergreen explainer
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           INDEXNOW_KEY: ${{ secrets.INDEXNOW_KEY }}
@@ -47,9 +47,9 @@ jobs:
           HASHNODE_TOKEN: ${{ secrets.HASHNODE_TOKEN }}
           SITE_URL: https://aiglimpse.ai
         run: |
-          ARGS=""
+          ARGS="--weekly"
           if [ -n "${{ inputs.slug }}" ]; then
-            ARGS="$ARGS --slug ${{ inputs.slug }}"
+            ARGS="--slug ${{ inputs.slug }}"
           fi
           if [ "${{ inputs.force }}" = "true" ]; then
             ARGS="$ARGS --force"
@@ -62,12 +62,12 @@ jobs:
           set -euo pipefail
           git config user.name "AI Glimpse Bot"
           git config user.email "bot@aiglimpse.ai"
-          git add articles/ data/ sitemap.xml rss.xml index.html categories/ images/articles/
+          git add articles/ data/ sitemap.xml rss.xml index.html categories/ guides.html images/articles/
           if git diff --staged --quiet; then
             echo "No new evergreen content to commit."
             echo "changed=false" >> "$GITHUB_OUTPUT"
           else
-            git commit -m "📚 Evergreen: $(date -u +'%Y-%m-%d %H:%M UTC')"
+            git commit -m "📚 Evergreen: weekly explainer $(date -u +'%Y-%m-%d')"
             git pull --rebase origin main
             git push
             echo "changed=true" >> "$GITHUB_OUTPUT"

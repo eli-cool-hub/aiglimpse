@@ -16,7 +16,8 @@
  * CLI:
  *   node scripts/generate-evergreen.mjs               # publish every topic that isn't already on disk
  *   node scripts/generate-evergreen.mjs --slug rag    # publish a single topic by slug
- *   node scripts/generate-evergreen.mjs --force       # rewrite even if the file exists
+ *   node scripts/generate-evergreen.mjs --weekly          # publish the next queued topic (for cron)
+ *   node scripts/generate-evergreen.mjs --count 2       # publish up to N unpublished topics
  *
  * Required env: ANTHROPIC_API_KEY · SITE_URL
  * Optional env: PEXELS_API_KEY · INDEXNOW_KEY
@@ -29,6 +30,9 @@ import { buildHomepage } from './build-homepage.mjs';
 import { buildCategories } from './build-categories.mjs';
 import { regenerateSitemap, pingIndexNow } from './lib/sitemap.mjs';
 import { syndicate } from './lib/syndicate.mjs';
+import { EVERGREEN_TOPICS } from './lib/evergreen-topics.mjs';
+import { EVERGREEN_LINK_MAP } from './lib/evergreen-links.mjs';
+import { buildGuidesPage } from './build-guides.mjs';
 
 const ROOT = path.resolve(process.cwd());
 const ARTICLES_DIR = path.join(ROOT, 'articles');
@@ -43,60 +47,41 @@ const TARGET_SLUG = (() => {
   return i >= 0 ? ARGS[i + 1] : null;
 })();
 const FORCE = ARGS.includes('--force');
+const WEEKLY = ARGS.includes('--weekly');
+const COUNT = (() => {
+  const i = ARGS.indexOf('--count');
+  return i >= 0 ? Math.max(1, parseInt(ARGS[i + 1], 10) || 1) : null;
+})();
 
-// ────────────────────────────────────────────────────────────────────────
-// Topic catalogue. Slug is the URL path, hash-suffix is appended automatically.
-// `category` reuses the existing 7 categories so these articles land on
-// /categories/<x>.html alongside news. `intent` is the search intent we are
-// trying to capture, included verbatim in the prompt.
-// ────────────────────────────────────────────────────────────────────────
-const EVERGREEN_TOPICS = [
-  {
-    slug: 'what-is-retrieval-augmented-generation-rag',
-    title_seed: 'What is Retrieval-Augmented Generation (RAG)? A complete 2026 guide',
-    category: 'research',
-    intent:
-      'Beginner-to-intermediate explainer for developers and product managers who keep hearing "RAG" and want a clear, technically honest definition with concrete examples, an architecture walkthrough, and trade-offs vs alternatives.',
-    keyword_focus: ['retrieval-augmented generation', 'RAG', 'vector database', 'embeddings', 'context window', 'hallucination'],
-    audience: 'Developers and AI product managers'
-  },
-  {
-    slug: 'rag-vs-fine-tuning-vs-prompt-engineering',
-    title_seed: 'RAG vs fine-tuning vs prompt engineering: when to use each',
-    category: 'research',
-    intent:
-      'Comparison guide for teams deciding how to customize an LLM. Reader wants a clear decision framework, cost ranges, latency implications, and concrete examples of when each technique is the right call.',
-    keyword_focus: ['fine-tuning', 'RAG', 'prompt engineering', 'LoRA', 'instruction tuning', 'system prompt'],
-    audience: 'Engineering leads choosing an AI customization strategy'
-  },
-  {
-    slug: 'what-are-ai-agents-practical-guide-2026',
-    title_seed: 'What are AI agents? A practical guide for builders in 2026',
-    category: 'tools',
-    intent:
-      'Definitive 2026 overview of AI agents. Reader wants to know what an agent actually is (versus a chatbot), what frameworks exist, what real production use cases look like, and where agents reliably break.',
-    keyword_focus: ['AI agents', 'agentic AI', 'autonomous agents', 'tool use', 'function calling', 'multi-agent'],
-    audience: 'Software engineers and CTOs evaluating agentic systems'
-  },
-  {
-    slug: 'gpt-5-vs-claude-4-5-vs-gemini-ultra-2026',
-    title_seed: 'GPT-5 vs Claude 4.5 vs Gemini Ultra: how to choose in 2026',
-    category: 'llms',
-    intent:
-      'High-volume head-to-head comparison. Reader is choosing between the three frontier models for production work and wants strengths, weaknesses, pricing, latency, context window, tool use, and concrete use-case verdicts. Update-friendly so we can refresh as new versions ship.',
-    keyword_focus: ['GPT-5 vs Claude', 'GPT vs Gemini', 'Claude vs GPT', 'best LLM 2026', 'frontier model comparison', 'LLM pricing'],
-    audience: 'Product leads and engineers picking a frontier LLM for production'
-  },
-  {
-    slug: 'how-large-language-models-work-clear-explainer',
-    title_seed: 'How large language models work: a clear visual explainer',
-    category: 'research',
-    intent:
-      'Beginner-friendly walkthrough of LLM mechanics for technical-curious non-experts. Reader wants tokens to attention to next-token prediction without hand-waving but without graduate math. The piece should anchor topical authority on the most-searched LLM question.',
-    keyword_focus: ['how LLMs work', 'how language models work', 'transformer architecture', 'tokens', 'attention mechanism', 'next-token prediction'],
-    audience: 'Technical-curious readers who want to understand LLMs without a PhD'
+async function topicOnDisk(slug) {
+  try {
+    await fs.access(path.join(ARTICLES_DIR, `${slug}.html`));
+    return true;
+  } catch {
+    return false;
   }
-];
+}
+
+function isTopicPublished(topic, published) {
+  return published.articles.some(a => a.slug === topic.slug);
+}
+
+async function selectTopicQueue(published) {
+  if (TARGET_SLUG) {
+    const t = EVERGREEN_TOPICS.find(x => x.slug === TARGET_SLUG);
+    return t ? [t] : [];
+  }
+  const unpublished = [];
+  for (const topic of EVERGREEN_TOPICS) {
+    const onDisk = await topicOnDisk(topic.slug);
+    const inIndex = isTopicPublished(topic, published);
+    if ((onDisk || inIndex) && !FORCE) continue;
+    unpublished.push(topic);
+  }
+  if (WEEKLY) return unpublished.slice(0, 1);
+  if (COUNT != null) return unpublished.slice(0, COUNT);
+  return unpublished;
+}
 
 // ────────────────────────────────────────────────────────────────────────
 // Small helpers, copied (not shared) from fetch-and-publish.mjs because the
@@ -131,30 +116,31 @@ function scrubDashes(obj) {
   };
 }
 
-// Internal cross-linking, same conservative rules as the news pipeline.
-const INTERNAL_LINK_MAP = [
-  { phrase: 'large language models', url: '/categories/llms' },
-  { phrase: 'large language model', url: '/categories/llms' },
-  { phrase: 'language models', url: '/categories/llms' },
-  { phrase: 'language model', url: '/categories/llms' },
+// Internal cross-linking to evergreen guides + category hubs.
+const CATEGORY_LINK_MAP = [
   { phrase: 'humanoid robot', url: '/categories/robotics' },
   { phrase: 'AI research', url: '/categories/research' },
   { phrase: 'AI safety', url: '/categories/ethics' },
   { phrase: 'AI ethics', url: '/categories/ethics' },
   { phrase: 'AI regulation', url: '/categories/ethics' },
   { phrase: 'AI tools', url: '/categories/tools' },
-  { phrase: 'AI agents', url: '/categories/tools' },
   { phrase: 'AI funding', url: '/categories/business' },
   { phrase: 'AI startups', url: '/categories/business' },
   { phrase: 'enterprise AI', url: '/categories/industry' }
 ];
 
+function evergreenLinksForPublished(published) {
+  const slugs = new Set((published?.articles || []).filter(a => a.evergreen).map(a => a.slug));
+  return EVERGREEN_LINK_MAP.filter(({ url }) => slugs.has(url.replace(/^\/articles\//, '')));
+}
+
 function escapeRegex(s) {
   return s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
 }
 
-function addInternalLinks(html, currentCategory) {
+function addInternalLinks(html, currentCategory, published) {
   if (typeof html !== 'string' || !html.length) return html;
+  const INTERNAL_LINK_MAP = [...evergreenLinksForPublished(published), ...CATEGORY_LINK_MAP];
   const protectedSegments = [];
   const stash = (snippet) => {
     protectedSegments.push(snippet);
@@ -464,16 +450,22 @@ async function main() {
   const published = await loadPublished();
   resetImageSession();
 
-  const queue = TARGET_SLUG
-    ? EVERGREEN_TOPICS.filter(t => t.slug === TARGET_SLUG)
-    : EVERGREEN_TOPICS;
+  const queue = await selectTopicQueue(published);
 
   if (!queue.length) {
-    console.error(`No topic matched --slug ${TARGET_SLUG}`);
-    console.error('Available slugs:');
-    EVERGREEN_TOPICS.forEach(t => console.error(`  - ${t.slug}`));
-    process.exit(1);
+    if (WEEKLY) {
+      console.log('  ✓ Weekly evergreen queue empty — all topics published.');
+      process.exit(0);
+    }
+    console.error(TARGET_SLUG ? `No topic matched --slug ${TARGET_SLUG}` : 'No unpublished evergreen topics remain.');
+    if (TARGET_SLUG) {
+      console.error('Available slugs:');
+      EVERGREEN_TOPICS.forEach(t => console.error(`  - ${t.slug}`));
+    }
+    process.exit(TARGET_SLUG ? 1 : 0);
   }
+
+  if (WEEKLY) console.log(`  📅 Weekly pick: ${queue[0].slug}`);
 
   const newUrls = [];
   let written = 0;
@@ -500,7 +492,7 @@ async function main() {
       continue;
     }
 
-    piece.body_html = addInternalLinks(piece.body_html, topic.category);
+    piece.body_html = addInternalLinks(piece.body_html, topic.category, published);
 
     const publishedAt = new Date();
     const wordCount = piece.body_html.replace(/<[^>]+>/g, ' ').split(/\s+/).length
@@ -572,6 +564,7 @@ async function main() {
     await regenerateSitemap(published, SITE_URL, ROOT);
     await buildHomepage();
     await buildCategories();
+    await buildGuidesPage();
     const ping = await pingIndexNow([`${SITE_URL}/`, ...newUrls], SITE_URL);
     if (ping.ok) console.log(`  ✓ IndexNow pinged ${ping.count} URLs (${ping.status})`);
     else if (!ping.skipped) console.warn(`  IndexNow returned ${ping.status}: ${ping.body || ''}`);
