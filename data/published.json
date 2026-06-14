@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "ai-startups-eye-public-markets-as-investment-window-widens-17f59db0",
+      "title": "AI Startups Eye Public Markets as Investment Window Widens",
+      "subtitle": "A wave of artificial intelligence companies are preparing IPO strategies, hoping to capitalize on growing investor appetite for AI-driven businesses.",
+      "category": "business",
+      "publishedAt": "2026-06-14T16:38:09.000Z",
+      "sourceUrl": "https://techcrunch.com/2026/06/14/as-ai-companies-race-to-go-public-who-else-is-along-for-the-ride/",
+      "sourceName": "TechCrunch AI",
+      "sourceTier": 2,
+      "image": "/images/articles/ai-startups-eye-public-markets-as-investment-window-widens-17f59db0.jpg"
+    },
+    {
+      "slug": "white-house-restricts-anthropic-model-over-foreign-access-concerns-694d38ae",
+      "title": "White House Restricts Anthropic Model Over Foreign Access Concerns",
+      "subtitle": "Intelligence concerns about unauthorized access to advanced AI systems are reshaping U.S. export policy on frontier models.",
+      "category": "tools",
+      "publishedAt": "2026-06-14T18:27:55.000Z",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/949644/china-white-house-anthropic-mythos",
+      "sourceName": "The Verge AI",
+      "sourceTier": 2,
+      "image": "/images/articles/white-house-restricts-anthropic-model-over-foreign-access-concerns-694d38ae.jpg"
+    },
+    {
       "slug": "brazilian-ai-teams-flagship-model-allegedly-built-from-existing-llm-f08ce607",
       "title": "Brazilian AI Team's Flagship Model Allegedly Built From Existing LLM",
       "subtitle": "Community scrutiny reveals a regional language model may be derived from established foundation rather than independently developed.",
@@ -2997,6 +3019,8 @@
     "d3663b966243d973",
     "592b28690641543c",
     "b450d705fa1a895f",
-    "f08ce60761315d48"
+    "f08ce60761315d48",
+    "694d38aea234605a",
+    "17f59db06efe03e2"
   ]
 }

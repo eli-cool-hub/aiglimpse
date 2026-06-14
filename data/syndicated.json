@@ -2810,6 +2810,24 @@
         "devto": true,
         "hashnode": false
       }
+    },
+    "white-house-restricts-anthropic-model-over-foreign-access-concerns-694d38ae": {
+      "syndicated_at": "2026-06-14T19:40:17.649Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/white-house-restricts-anthropic-model-over-foreign-access-concerns-32m4",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 455,
+      "category": "tools",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
     }
   }
 }
