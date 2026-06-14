@@ -7,6 +7,14 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Brazilian AI Team's Flagship Model Allegedly Built From Existing LLM</title>
+      <link>https://aiglimpse.ai/articles/brazilian-ai-teams-flagship-model-allegedly-built-from-existing-llm-f08ce607</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/brazilian-ai-teams-flagship-model-allegedly-built-from-existing-llm-f08ce607</guid>
+      <description>Community scrutiny reveals a regional language model may be derived from established foundation rather than independently developed.</description>
+      <pubDate>Sun, 14 Jun 2026 15:37:31 GMT</pubDate>
+      <category>AI Tools &amp; Products</category>
+    </item>
+    <item>
       <title>Yang Sees AI-Driven Cost Reduction as Next Startup Frontier</title>
       <link>https://aiglimpse.ai/articles/yang-sees-ai-driven-cost-reduction-as-next-startup-frontier-b450d705</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/yang-sees-ai-driven-cost-reduction-as-next-startup-frontier-b450d705</guid>
@@ -396,14 +404,6 @@
       <guid isPermaLink="true">https://aiglimpse.ai/articles/google-deepmind-achieves-4x-speedup-in-ai-text-generation-ddd8a289</guid>
       <description>New diffusion-based approach to language models promises faster inference without sacrificing output quality.</description>
       <pubDate>Wed, 10 Jun 2026 16:24:11 GMT</pubDate>
-      <category>AI Research</category>
-    </item>
-    <item>
-      <title>New AI Model Unifies Image Understanding, Generation and Editing</title>
-      <link>https://aiglimpse.ai/articles/new-ai-model-unifies-image-understanding-generation-and-editing-21a12b05</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-ai-model-unifies-image-understanding-generation-and-editing-21a12b05</guid>
-      <description>Researchers demonstrate how discrete token representations and preference optimization enable a single model to handle multiple vision tasks.</description>
-      <pubDate>Tue, 09 Jun 2026 17:59:28 GMT</pubDate>
       <category>AI Research</category>
     </item>
   </channel>

@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "brazilian-ai-teams-flagship-model-allegedly-built-from-existing-llm-f08ce607",
+      "title": "Brazilian AI Team's Flagship Model Allegedly Built From Existing LLM",
+      "subtitle": "Community scrutiny reveals a regional language model may be derived from established foundation rather than independently developed.",
+      "category": "tools",
+      "publishedAt": "2026-06-14T15:37:31.000Z",
+      "sourceUrl": "https://github.com/nex-agi/Nex-N2/issues/4",
+      "sourceName": "Hacker News (69 pts)",
+      "sourceTier": 2,
+      "image": "/images/articles/brazilian-ai-teams-flagship-model-allegedly-built-from-existing-llm-f08ce607.jpg"
+    },
+    {
       "slug": "yang-sees-ai-driven-cost-reduction-as-next-startup-frontier-b450d705",
       "title": "Yang Sees AI-Driven Cost Reduction as Next Startup Frontier",
       "subtitle": "Entrepreneur identifies inefficient consumer markets as prime targets for AI-powered disruption and automation.",
@@ -2985,6 +2996,7 @@
     "d1fb41a89ffe82f6",
     "d3663b966243d973",
     "592b28690641543c",
-    "b450d705fa1a895f"
+    "b450d705fa1a895f",
+    "f08ce60761315d48"
   ]
 }
