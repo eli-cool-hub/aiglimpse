@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "yang-sees-ai-driven-cost-reduction-as-next-startup-frontier-b450d705",
+      "title": "Yang Sees AI-Driven Cost Reduction as Next Startup Frontier",
+      "subtitle": "Entrepreneur identifies inefficient consumer markets as prime targets for AI-powered disruption and automation.",
+      "category": "business",
+      "publishedAt": "2026-06-13T04:14:19.000Z",
+      "sourceUrl": "https://techcrunch.com/2026/06/12/andrew-yang-thinks-the-next-big-startup-opportunity-is-lowering-the-cost-of-living/",
+      "sourceName": "TechCrunch AI",
+      "sourceTier": 2,
+      "image": "/images/articles/yang-sees-ai-driven-cost-reduction-as-next-startup-frontier-b450d705.jpg"
+    },
+    {
+      "slug": "apples-native-ai-photo-tools-signal-shift-in-mobile-image-processing-592b2869",
+      "title": "Apple's Native AI Photo Tools Signal Shift in Mobile Image Processing",
+      "subtitle": "iOS 27 brings computational photography features to iPhone, marking the platform's entry into AI-driven image editing.",
+      "category": "tools",
+      "publishedAt": "2026-06-13T12:00:00.000Z",
+      "sourceUrl": "https://www.theverge.com/tech/949360/apple-ai-photo-edit-reframe-extend-clean-up-hands-on",
+      "sourceName": "The Verge AI",
+      "sourceTier": 2,
+      "image": "/images/articles/apples-native-ai-photo-tools-signal-shift-in-mobile-image-processing-592b2869.jpg"
+    },
+    {
       "slug": "meta-unwinds-2b-manus-deal-following-chinese-government-pressure-d3663b96",
       "title": "Meta Unwinds $2B Manus Deal Following Chinese Government Pressure",
       "subtitle": "The reversal signals growing tensions between Big Tech and Beijing over AI infrastructure and foreign investment.",
@@ -2961,6 +2983,8 @@
     "b5a81e0a675f34eb",
     "150030e2035597a9",
     "d1fb41a89ffe82f6",
-    "d3663b966243d973"
+    "d3663b966243d973",
+    "592b28690641543c",
+    "b450d705fa1a895f"
   ]
 }
