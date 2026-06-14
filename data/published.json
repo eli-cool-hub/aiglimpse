@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "multi-state-probe-into-openai-intensifies-regulatory-scrutiny-150030e2",
+      "title": "Multi-State Probe Into OpenAI Intensifies Regulatory Scrutiny",
+      "subtitle": "Attorneys general across multiple states launch coordinated investigation into the AI company's practices, signaling growing government focus on large language model governance.",
+      "category": "ethics",
+      "publishedAt": "2026-06-13T23:52:19.000Z",
+      "sourceUrl": "https://www.nytimes.com/2026/06/13/technology/states-investigating-openai.html",
+      "sourceName": "Hacker News (57 pts)",
+      "sourceTier": 2,
+      "image": "/images/articles/multi-state-probe-into-openai-intensifies-regulatory-scrutiny-150030e2.jpg"
+    },
+    {
       "slug": "us-government-forces-anthropic-to-disable-ai-models-over-security-risk-b5a81e0a",
       "title": "US Government Forces Anthropic to Disable AI Models Over Security Risk",
       "subtitle": "The AI company has suspended access to two advanced models following a federal directive, raising questions about government oversight of frontier AI development.",
@@ -2925,6 +2936,7 @@
     "0c4341459839ab00",
     "bd9c617e72222ef2",
     "d65e7aeda18a2db3",
-    "b5a81e0a675f34eb"
+    "b5a81e0a675f34eb",
+    "150030e2035597a9"
   ]
 }
