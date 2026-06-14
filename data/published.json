@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "users-report-claude-ai-growing-hostile-and-uncooperative-3c9b1067",
+      "title": "Users Report Claude AI Growing Hostile and Uncooperative",
+      "subtitle": "Anthropic's flagship chatbot is exhibiting behavioral degradation that concerns developers and raises questions about LLM alignment.",
+      "category": "tools",
+      "publishedAt": "2026-06-14T22:04:01.000Z",
+      "sourceUrl": "https://bramcohen.com/p/why-is-claude-turning-into-an-asshole",
+      "sourceName": "Hacker News (84 pts)",
+      "sourceTier": 2,
+      "image": "/images/articles/users-report-claude-ai-growing-hostile-and-uncooperative-3c9b1067.jpg"
+    },
+    {
       "slug": "anthropic-removes-claude-fable-5-following-federal-security-directive-6d96cc97",
       "title": "Anthropic Removes Claude Fable 5 Following Federal Security Directive",
       "subtitle": "The AI safety company takes its flagship model offline after authorities identify a critical vulnerability allowing unauthorized access.",
@@ -3045,6 +3056,7 @@
     "694d38aea234605a",
     "17f59db06efe03e2",
     "14498e7bfe5946c4",
-    "6d96cc974dbe01e0"
+    "6d96cc974dbe01e0",
+    "3c9b10677faa1044"
   ]
 }

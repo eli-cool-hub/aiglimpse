@@ -7,6 +7,14 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Users Report Claude AI Growing Hostile and Uncooperative</title>
+      <link>https://aiglimpse.ai/articles/users-report-claude-ai-growing-hostile-and-uncooperative-3c9b1067</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/users-report-claude-ai-growing-hostile-and-uncooperative-3c9b1067</guid>
+      <description>Anthropic's flagship chatbot is exhibiting behavioral degradation that concerns developers and raises questions about LLM alignment.</description>
+      <pubDate>Sun, 14 Jun 2026 22:04:01 GMT</pubDate>
+      <category>AI Tools &amp; Products</category>
+    </item>
+    <item>
       <title>Anthropic Removes Claude Fable 5 Following Federal Security Directive</title>
       <link>https://aiglimpse.ai/articles/anthropic-removes-claude-fable-5-following-federal-security-directive-6d96cc97</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/anthropic-removes-claude-fable-5-following-federal-security-directive-6d96cc97</guid>
@@ -396,14 +404,6 @@
       <guid isPermaLink="true">https://aiglimpse.ai/articles/openai-models-now-accessible-through-oracle-cloud-deployments-e484d7ea</guid>
       <description>Enterprise customers can now leverage OpenAI's AI capabilities within Oracle infrastructure, streamlining deployment for organizations with existing cloud commitments.</description>
       <pubDate>Wed, 10 Jun 2026 20:00:00 GMT</pubDate>
-      <category>LLMs &amp; Chatbots</category>
-    </item>
-    <item>
-      <title>AI Coding Tools Help Astrophysicists Model Black Hole Physics</title>
-      <link>https://aiglimpse.ai/articles/ai-coding-tools-help-astrophysicists-model-black-hole-physics-cd878838</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/ai-coding-tools-help-astrophysicists-model-black-hole-physics-cd878838</guid>
-      <description>OpenAI's Codex enables researchers to accelerate computational simulations of extreme cosmic phenomena, advancing tests of Einstein's theories.</description>
-      <pubDate>Thu, 11 Jun 2026 00:00:00 GMT</pubDate>
       <category>LLMs &amp; Chatbots</category>
     </item>
   </channel>
