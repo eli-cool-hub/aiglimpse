@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "us-government-forces-anthropic-to-disable-ai-models-over-security-risk-b5a81e0a",
+      "title": "US Government Forces Anthropic to Disable AI Models Over Security Risk",
+      "subtitle": "The AI company has suspended access to two advanced models following a federal directive, raising questions about government oversight of frontier AI development.",
+      "category": "tools",
+      "publishedAt": "2026-06-13T12:55:49.000Z",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/949553/anthropic-fable-5-mythos-5-government-national-security",
+      "sourceName": "The Verge AI",
+      "sourceTier": 2,
+      "image": "/images/articles/us-government-forces-anthropic-to-disable-ai-models-over-security-risk-b5a81e0a.jpg"
+    },
+    {
+      "slug": "anthropics-model-restrictions-force-india-to-chart-own-ai-course-d65e7aed",
+      "title": "Anthropic's Model Restrictions Force India to Chart Own AI Course",
+      "subtitle": "Indian tech sector grapples with implications of restricted AI access, sparking urgent policy discussions around domestic capability building.",
+      "category": "business",
+      "publishedAt": "2026-06-14T03:00:00.000Z",
+      "sourceUrl": "https://techcrunch.com/2026/06/13/as-anthropic-suspends-access-to-new-models-india-debates-its-ai-future/",
+      "sourceName": "TechCrunch AI",
+      "sourceTier": 2,
+      "image": "/images/articles/anthropics-model-restrictions-force-india-to-chart-own-ai-course-d65e7aed.jpg"
+    },
+    {
       "slug": "amazon-chiefs-security-warning-preceded-anthropic-model-shutdown-bd9c617e",
       "title": "Amazon Chief's Security Warning Preceded Anthropic Model Shutdown",
       "subtitle": "Jassy's reported concerns about AI safety may have triggered the company's decision to restrict access to two large language models.",
@@ -2901,6 +2923,8 @@
     "dbc1c4f2e2557408",
     "c18dfe1e1c6f8b0f",
     "0c4341459839ab00",
-    "bd9c617e72222ef2"
+    "bd9c617e72222ef2",
+    "d65e7aeda18a2db3",
+    "b5a81e0a675f34eb"
   ]
 }

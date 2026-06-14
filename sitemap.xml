@@ -16,6 +16,24 @@
   <url><loc>https://aiglimpse.ai/pages/privacy</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
   <url><loc>https://aiglimpse.ai/pages/terms</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
   <url>
+    <loc>https://aiglimpse.ai/articles/us-government-forces-anthropic-to-disable-ai-models-over-security-risk-b5a81e0a</loc>
+    <news:news>
+      <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-06-13T12:55:49.000Z</news:publication_date>
+      <news:title>US Government Forces Anthropic to Disable AI Models Over Security Risk</news:title>
+    </news:news>
+    <changefreq>daily</changefreq><priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://aiglimpse.ai/articles/anthropics-model-restrictions-force-india-to-chart-own-ai-course-d65e7aed</loc>
+    <news:news>
+      <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-06-14T03:00:00.000Z</news:publication_date>
+      <news:title>Anthropic's Model Restrictions Force India to Chart Own AI Course</news:title>
+    </news:news>
+    <changefreq>daily</changefreq><priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://aiglimpse.ai/articles/amazon-chiefs-security-warning-preceded-anthropic-model-shutdown-bd9c617e</loc>
     <news:news>
       <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
