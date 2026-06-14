@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "anthropic-removes-claude-fable-5-following-federal-security-directive-6d96cc97",
+      "title": "Anthropic Removes Claude Fable 5 Following Federal Security Directive",
+      "subtitle": "The AI safety company takes its flagship model offline after authorities identify a critical vulnerability allowing unauthorized access.",
+      "category": "tools",
+      "publishedAt": "2026-06-13T02:26:10.000Z",
+      "sourceUrl": "https://www.wired.com/story/anthropic-says-us-government-ordered-it-to-shut-down-mythos-models/",
+      "sourceName": "Wired AI",
+      "sourceTier": 2,
+      "image": "/images/articles/anthropic-removes-claude-fable-5-following-federal-security-directive-6d96cc97.jpg"
+    },
+    {
+      "slug": "eu-commission-weighs-fallout-from-anthropic-regulatory-ruling-14498e7b",
+      "title": "EU Commission Weighs Fallout From Anthropic Regulatory Ruling",
+      "subtitle": "European regulators assess implementation challenges following a significant decision affecting the AI startup's operations in the bloc.",
+      "category": "ethics",
+      "publishedAt": "2026-06-14T14:33:11.000Z",
+      "sourceUrl": "https://www.reuters.com/legal/litigation/eu-commission-looking-practical-consequences-anthropic-decision-spokesperson-2026-06-14/",
+      "sourceName": "Hacker News (59 pts)",
+      "sourceTier": 2,
+      "image": "/images/articles/eu-commission-weighs-fallout-from-anthropic-regulatory-ruling-14498e7b.jpg"
+    },
+    {
       "slug": "ai-startups-eye-public-markets-as-investment-window-widens-17f59db0",
       "title": "AI Startups Eye Public Markets as Investment Window Widens",
       "subtitle": "A wave of artificial intelligence companies are preparing IPO strategies, hoping to capitalize on growing investor appetite for AI-driven businesses.",
@@ -3021,6 +3043,8 @@
     "b450d705fa1a895f",
     "f08ce60761315d48",
     "694d38aea234605a",
-    "17f59db06efe03e2"
+    "17f59db06efe03e2",
+    "14498e7bfe5946c4",
+    "6d96cc974dbe01e0"
   ]
 }

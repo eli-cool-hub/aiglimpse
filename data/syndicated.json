@@ -2828,6 +2828,24 @@
         "devto": true,
         "hashnode": false
       }
+    },
+    "anthropic-removes-claude-fable-5-following-federal-security-directive-6d96cc97": {
+      "syndicated_at": "2026-06-14T21:15:29.629Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/anthropic-removes-claude-fable-5-following-federal-security-directive-3j03",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 417,
+      "category": "tools",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
     }
   }
 }
