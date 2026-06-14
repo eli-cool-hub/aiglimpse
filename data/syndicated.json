@@ -2756,6 +2756,24 @@
         "devto": true,
         "hashnode": false
       }
+    },
+    "anthropic-trains-claude-to-reason-like-a-research-chemist-d1fb41a8": {
+      "syndicated_at": "2026-06-14T11:59:06.635Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/anthropic-trains-claude-to-reason-like-a-research-chemist-169i",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 433,
+      "category": "tools",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
     }
   }
 }

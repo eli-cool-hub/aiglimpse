@@ -7,6 +7,22 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Meta Unwinds $2B Manus Deal Following Chinese Government Pressure</title>
+      <link>https://aiglimpse.ai/articles/meta-unwinds-2b-manus-deal-following-chinese-government-pressure-d3663b96</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/meta-unwinds-2b-manus-deal-following-chinese-government-pressure-d3663b96</guid>
+      <description>The reversal signals growing tensions between Big Tech and Beijing over AI infrastructure and foreign investment.</description>
+      <pubDate>Sun, 14 Jun 2026 00:03:49 GMT</pubDate>
+      <category>AI Business</category>
+    </item>
+    <item>
+      <title>Anthropic Trains Claude to Reason Like a Research Chemist</title>
+      <link>https://aiglimpse.ai/articles/anthropic-trains-claude-to-reason-like-a-research-chemist-d1fb41a8</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/anthropic-trains-claude-to-reason-like-a-research-chemist-d1fb41a8</guid>
+      <description>New capability work demonstrates how large language models can be specialized for scientific research domains, raising questions about AI's role in accelerating discovery.</description>
+      <pubDate>Sun, 14 Jun 2026 02:55:36 GMT</pubDate>
+      <category>AI Tools &amp; Products</category>
+    </item>
+    <item>
       <title>Multi-State Probe Into OpenAI Intensifies Regulatory Scrutiny</title>
       <link>https://aiglimpse.ai/articles/multi-state-probe-into-openai-intensifies-regulatory-scrutiny-150030e2</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/multi-state-probe-into-openai-intensifies-regulatory-scrutiny-150030e2</guid>
@@ -389,22 +405,6 @@
       <description>Researchers propose a unified approach to supervised fine-tuning that moves beyond rigid token matching, potentially improving how language models absorb training data.</description>
       <pubDate>Tue, 09 Jun 2026 17:59:54 GMT</pubDate>
       <category>AI Research</category>
-    </item>
-    <item>
-      <title>New Framework Shows When to Use Alignment vs. Prediction in AI Models</title>
-      <link>https://aiglimpse.ai/articles/new-framework-shows-when-to-use-alignment-vs-prediction-in-ai-models-8e2587da</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-framework-shows-when-to-use-alignment-vs-prediction-in-ai-models-8e2587da</guid>
-      <description>Researchers develop a diagnostic tool to help practitioners choose the right multimodal learning approach before training.</description>
-      <pubDate>Tue, 09 Jun 2026 17:59:58 GMT</pubDate>
-      <category>AI Research</category>
-    </item>
-    <item>
-      <title>Hugging Face Launches Native CI Pipeline Tool to Rival GitHub Actions</title>
-      <link>https://aiglimpse.ai/articles/hugging-face-launches-native-ci-pipeline-tool-to-rival-github-actions-ff09968a</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/hugging-face-launches-native-ci-pipeline-tool-to-rival-github-actions-ff09968a</guid>
-      <description>A new job scheduling system lets ML teams run training and inference workloads directly on Hugging Face infrastructure, reducing vendor lock-in.</description>
-      <pubDate>Tue, 09 Jun 2026 00:00:00 GMT</pubDate>
-      <category>AI Tools &amp; Products</category>
     </item>
   </channel>
 </rss>

@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "meta-unwinds-2b-manus-deal-following-chinese-government-pressure-d3663b96",
+      "title": "Meta Unwinds $2B Manus Deal Following Chinese Government Pressure",
+      "subtitle": "The reversal signals growing tensions between Big Tech and Beijing over AI infrastructure and foreign investment.",
+      "category": "business",
+      "publishedAt": "2026-06-14T00:03:49.000Z",
+      "sourceUrl": "https://techcrunch.com/2026/06/13/meta-reportedly-moves-to-unwind-2b-manus-deal-after-beijings-demand/",
+      "sourceName": "TechCrunch AI",
+      "sourceTier": 2,
+      "image": "/images/articles/meta-unwinds-2b-manus-deal-following-chinese-government-pressure-d3663b96.jpg"
+    },
+    {
+      "slug": "anthropic-trains-claude-to-reason-like-a-research-chemist-d1fb41a8",
+      "title": "Anthropic Trains Claude to Reason Like a Research Chemist",
+      "subtitle": "New capability work demonstrates how large language models can be specialized for scientific research domains, raising questions about AI's role in accelerating discovery.",
+      "category": "tools",
+      "publishedAt": "2026-06-14T02:55:36.000Z",
+      "sourceUrl": "https://www.anthropic.com/research/making-claude-a-chemist",
+      "sourceName": "Hacker News (51 pts)",
+      "sourceTier": 2,
+      "image": "/images/articles/anthropic-trains-claude-to-reason-like-a-research-chemist-d1fb41a8.jpg"
+    },
+    {
       "slug": "multi-state-probe-into-openai-intensifies-regulatory-scrutiny-150030e2",
       "title": "Multi-State Probe Into OpenAI Intensifies Regulatory Scrutiny",
       "subtitle": "Attorneys general across multiple states launch coordinated investigation into the AI company's practices, signaling growing government focus on large language model governance.",
@@ -2937,6 +2959,8 @@
     "bd9c617e72222ef2",
     "d65e7aeda18a2db3",
     "b5a81e0a675f34eb",
-    "150030e2035597a9"
+    "150030e2035597a9",
+    "d1fb41a89ffe82f6",
+    "d3663b966243d973"
   ]
 }
