@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "tech-lobbyists-push-federal-ai-rules-before-congress-shifts-49ea9adb",
+      "title": "Tech Lobbyists Push Federal AI Rules Before Congress Shifts",
+      "subtitle": "Industry seeks unified national standards to avoid a patchwork of state regulations, but faces political obstacles and public opposition.",
+      "category": "tools",
+      "publishedAt": "2026-06-15T17:44:10.000Z",
+      "sourceUrl": "https://www.theverge.com/policy/949970/ai-regulation-child-safety-kosa-congress",
+      "sourceName": "The Verge AI",
+      "sourceTier": 2,
+      "image": "/images/articles/tech-lobbyists-push-federal-ai-rules-before-congress-shifts-49ea9adb.jpg"
+    },
+    {
+      "slug": "us-government-forces-leading-ai-company-to-block-model-access-923e6543",
+      "title": "US government forces leading AI company to block model access",
+      "subtitle": "Washington's sudden intervention highlights how American regulatory power shapes global AI deployment and fuels calls for independent alternatives.",
+      "category": "tools",
+      "publishedAt": "2026-06-15T18:10:27.000Z",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/949986/anthropic-fable-mythos-shutdown-sovereign-ai",
+      "sourceName": "The Verge AI",
+      "sourceTier": 2,
+      "image": "/images/articles/us-government-forces-leading-ai-company-to-block-model-access-923e6543.jpg"
+    },
+    {
       "slug": "saas-founders-face-radical-pitch-reset-as-ai-upends-business-model-58334d1b",
       "title": "SaaS Founders Face Radical Pitch Reset as AI Upends Business Model",
       "subtitle": "Large language models are dismantling the metrics that defined software investing for three decades, forcing founders to rethink pricing, retention, and competitive moats.",
@@ -3093,6 +3115,8 @@
     "3c9b10677faa1044",
     "0501fb0532fb1de4",
     "c77064ccfdf7edb2",
-    "58334d1ba4be4705"
+    "58334d1ba4be4705",
+    "923e6543a8302383",
+    "49ea9adb64aa39ca"
   ]
 }

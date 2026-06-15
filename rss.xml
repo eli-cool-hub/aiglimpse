@@ -7,6 +7,22 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Tech Lobbyists Push Federal AI Rules Before Congress Shifts</title>
+      <link>https://aiglimpse.ai/articles/tech-lobbyists-push-federal-ai-rules-before-congress-shifts-49ea9adb</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/tech-lobbyists-push-federal-ai-rules-before-congress-shifts-49ea9adb</guid>
+      <description>Industry seeks unified national standards to avoid a patchwork of state regulations, but faces political obstacles and public opposition.</description>
+      <pubDate>Mon, 15 Jun 2026 17:44:10 GMT</pubDate>
+      <category>AI Tools &amp; Products</category>
+    </item>
+    <item>
+      <title>US government forces leading AI company to block model access</title>
+      <link>https://aiglimpse.ai/articles/us-government-forces-leading-ai-company-to-block-model-access-923e6543</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/us-government-forces-leading-ai-company-to-block-model-access-923e6543</guid>
+      <description>Washington's sudden intervention highlights how American regulatory power shapes global AI deployment and fuels calls for independent alternatives.</description>
+      <pubDate>Mon, 15 Jun 2026 18:10:27 GMT</pubDate>
+      <category>AI Tools &amp; Products</category>
+    </item>
+    <item>
       <title>SaaS Founders Face Radical Pitch Reset as AI Upends Business Model</title>
       <link>https://aiglimpse.ai/articles/saas-founders-face-radical-pitch-reset-as-ai-upends-business-model-58334d1b</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/saas-founders-face-radical-pitch-reset-as-ai-upends-business-model-58334d1b</guid>
@@ -388,22 +404,6 @@
       <guid isPermaLink="true">https://aiglimpse.ai/articles/new-method-recovers-discarded-visual-data-in-ai-image-understanding-18db7c29</guid>
       <description>Researchers propose dynamic token routing to preserve image details that static pruning methods permanently lose during processing.</description>
       <pubDate>Wed, 10 Jun 2026 17:59:57 GMT</pubDate>
-      <category>AI Research</category>
-    </item>
-    <item>
-      <title>PyTorch Optimization Techniques Accelerate Neural Network Training</title>
-      <link>https://aiglimpse.ai/articles/pytorch-optimization-techniques-accelerate-neural-network-training-154d4b0e</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/pytorch-optimization-techniques-accelerate-neural-network-training-154d4b0e</guid>
-      <description>Engineers demonstrate how kernel fusion and compiler-level optimizations can significantly reduce computational overhead in deep learning models.</description>
-      <pubDate>Thu, 11 Jun 2026 00:00:00 GMT</pubDate>
-      <category>AI Tools &amp; Products</category>
-    </item>
-    <item>
-      <title>Researchers Propose New Method to Solve Chatbot Memory Problem</title>
-      <link>https://aiglimpse.ai/articles/researchers-propose-new-method-to-solve-chatbot-memory-problem-3abd61f8</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/researchers-propose-new-method-to-solve-chatbot-memory-problem-3abd61f8</guid>
-      <description>A compression technique called C-DIC could help conversational AI systems maintain quality during long exchanges without slowing down.</description>
-      <pubDate>Wed, 10 Jun 2026 17:59:54 GMT</pubDate>
       <category>AI Research</category>
     </item>
   </channel>
