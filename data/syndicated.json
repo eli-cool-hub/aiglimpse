@@ -2864,6 +2864,42 @@
         "devto": true,
         "hashnode": false
       }
+    },
+    "openai-commits-150m-to-accelerate-enterprise-ai-adoption-0501fb05": {
+      "syndicated_at": "2026-06-15T04:42:20.559Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/openai-commits-150m-to-accelerate-enterprise-ai-adoption-3mo2",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 472,
+      "category": "llms",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
+    },
+    "community-questions-anthropics-role-in-recent-ai-industry-developments-c77064cc": {
+      "syndicated_at": "2026-06-15T04:42:31.191Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/community-questions-anthropics-role-in-recent-ai-industry-developments-3o7n",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 474,
+      "category": "research",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
     }
   }
 }

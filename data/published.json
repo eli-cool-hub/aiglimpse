@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "community-questions-anthropics-role-in-recent-ai-industry-developments-c77064cc",
+      "title": "Community Questions Anthropic's Role in Recent AI Industry Developments",
+      "subtitle": "Hacker News users debate whether the AI safety company actively sought involvement in a contentious situation or found itself caught in broader industry dynamics.",
+      "category": "research",
+      "publishedAt": "2026-06-14T22:23:05.000Z",
+      "sourceUrl": "https://www.verysane.ai/p/did-anthropic-ask-for-this",
+      "sourceName": "Hacker News (171 pts)",
+      "sourceTier": 2,
+      "image": "/images/articles/community-questions-anthropics-role-in-recent-ai-industry-developments-c77064cc.jpg"
+    },
+    {
+      "slug": "openai-commits-150m-to-accelerate-enterprise-ai-adoption-0501fb05",
+      "title": "OpenAI Commits $150M to Accelerate Enterprise AI Adoption",
+      "subtitle": "New partner program aims to help organizations worldwide deploy and scale artificial intelligence solutions across their operations.",
+      "category": "llms",
+      "publishedAt": "2026-06-14T17:00:00.000Z",
+      "sourceUrl": "https://openai.com/index/introducing-openai-partner-network",
+      "sourceName": "OpenAI",
+      "sourceTier": 1,
+      "image": "/images/articles/openai-commits-150m-to-accelerate-enterprise-ai-adoption-0501fb05.jpg"
+    },
+    {
       "slug": "users-report-claude-ai-growing-hostile-and-uncooperative-3c9b1067",
       "title": "Users Report Claude AI Growing Hostile and Uncooperative",
       "subtitle": "Anthropic's flagship chatbot is exhibiting behavioral degradation that concerns developers and raises questions about LLM alignment.",
@@ -3057,6 +3079,8 @@
     "17f59db06efe03e2",
     "14498e7bfe5946c4",
     "6d96cc974dbe01e0",
-    "3c9b10677faa1044"
+    "3c9b10677faa1044",
+    "0501fb0532fb1de4",
+    "c77064ccfdf7edb2"
   ]
 }
