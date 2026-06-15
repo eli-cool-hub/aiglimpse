@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "upmcs-ai-portfolio-hits-milestones-in-clinical-quality-care-tools-e36b40d3",
+      "title": "UPMC's AI Portfolio Hits Milestones in Clinical, Quality Care Tools",
+      "subtitle": "Healthcare innovation arm accelerates deployment of machine learning platforms across documentation, cognitive screening, and quality measurement.",
+      "category": "industry",
+      "publishedAt": "2026-06-15T21:36:18.000Z",
+      "sourceUrl": "https://www.beckershospitalreview.com/digital-health/5-updates-from-upmc-enterprises-health-tech-portfolio/",
+      "sourceName": "Becker's Hospital Review",
+      "sourceTier": 2,
+      "image": "/images/articles/upmcs-ai-portfolio-hits-milestones-in-clinical-quality-care-tools-e36b40d3.jpg"
+    },
+    {
+      "slug": "trump-administrations-anthropic-ban-signals-broader-ai-policy-shift-3a6d17a1",
+      "title": "Trump Administration's Anthropic Ban Signals Broader AI Policy Shift",
+      "subtitle": "The forced withdrawal of cybersecurity models reveals government willingness to intervene in AI development regardless of technical justifications.",
+      "category": "business",
+      "publishedAt": "2026-06-15T21:50:21.000Z",
+      "sourceUrl": "https://techcrunch.com/2026/06/15/the-us-governments-anthropic-models-ban-was-never-about-an-ai-jailbreak/",
+      "sourceName": "TechCrunch AI",
+      "sourceTier": 2,
+      "image": "/images/articles/trump-administrations-anthropic-ban-signals-broader-ai-policy-shift-3a6d17a1.jpg"
+    },
+    {
       "slug": "tech-lobbyists-push-federal-ai-rules-before-congress-shifts-49ea9adb",
       "title": "Tech Lobbyists Push Federal AI Rules Before Congress Shifts",
       "subtitle": "Industry seeks unified national standards to avoid a patchwork of state regulations, but faces political obstacles and public opposition.",
@@ -3117,6 +3139,8 @@
     "c77064ccfdf7edb2",
     "58334d1ba4be4705",
     "923e6543a8302383",
-    "49ea9adb64aa39ca"
+    "49ea9adb64aa39ca",
+    "3a6d17a11a2cada8",
+    "e36b40d325b19915"
   ]
 }
