@@ -85,7 +85,6 @@
   <figcaption class="article-image-credit">Photo by <a href="https://www.pexels.com/photo/woman-programming-on-a-notebook-1181359/" rel="nofollow noopener" target="_blank">Christina Morillo</a> on Pexels.</figcaption>
 </figure>
 
-
 <p>FastAPI sits on top of Starlette's ASGI middleware stack. Understanding the surface area means understanding both layers.</p>
 
 <p>Path traversal via route parameters is the most common vulnerability. When a route handler accepts a string parameter (e.g., `/file/{filename}`) without validation, an agent can send `/file/../../etc/passwd` and read arbitrary files if the handler passes the parameter directly to a file operation. FastAPI does not validate path segments by default.</p>
@@ -111,12 +110,6 @@
 <p>The practical guidance: upgrade to Starlette 1.x and FastAPI 0.115.x or later. If you are on 0.x, you must upgrade. Check the release notes for your current version at github.com/encode/starlette/releases and github.com/tiangolo/fastapi/releases. Use `pip list | grep -E 'starlette|fastapi'` to audit your current versions across all services.</p>
 
 <h2>MCP server exposure and agent-specific risks</h2>
-<figure class="article-image article-image--inline">
-  <img src="/images/articles/fastapi-starlette-security-ai-agents-guide-inline-2.jpg" alt="MCP server exposure and agent-specific risks" loading="lazy" width="1200" height="630">
-  <figcaption class="article-image-credit">Photo by <a href="https://www.pexels.com/photo/person-typing-on-macbook-pro-1181282/" rel="nofollow noopener" target="_blank">Christina Morillo</a> on Pexels.</figcaption>
-</figure>
-
-
 <p>MCP (Model Context Protocol) servers are a common pattern in agent systems. An agent calls a single FastAPI endpoint that defines available tools, then calls additional endpoints to execute those tools. The vulnerability comes from exposing these tool execution endpoints without authentication or rate limiting.</p>
 
 <p>Consider a simple example: an agent calls `/api/tools/execute` with a body like `{"tool": "read_file", "path": "/home/user/data.csv"}`. If this endpoint is world-readable (bound to 0.0.0.0 and reachable from the internet), any attacker can enumerate tools and call them. Even if the endpoint requires an API key, a leaked key (via logs, error messages, or a compromised client) gives full agent capability to an attacker.</p>
