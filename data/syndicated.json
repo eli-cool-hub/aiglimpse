@@ -3080,6 +3080,42 @@
         "devto": true,
         "hashnode": false
       }
+    },
+    "google-deepmind-deploys-ai-to-speed-uk-housing-approvals-1cd14ccc": {
+      "syndicated_at": "2026-06-16T23:25:39.106Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/google-deepmind-deploys-ai-to-speed-uk-housing-approvals-4a7a",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 545,
+      "category": "research",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
+    },
+    "openai-tests-ai-models-in-simulated-deployments-before-release-cfcf6de0": {
+      "syndicated_at": "2026-06-16T23:25:48.596Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/openai-tests-ai-models-in-simulated-deployments-before-release-205g",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 483,
+      "category": "llms",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
     }
   }
 }

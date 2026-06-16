@@ -7,6 +7,22 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>OpenAI Tests AI Models in Simulated Deployments Before Release</title>
+      <link>https://aiglimpse.ai/articles/openai-tests-ai-models-in-simulated-deployments-before-release-cfcf6de0</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/openai-tests-ai-models-in-simulated-deployments-before-release-cfcf6de0</guid>
+      <description>A new technique lets developers predict how language models will behave in the real world using actual user conversations.</description>
+      <pubDate>Tue, 16 Jun 2026 00:00:00 GMT</pubDate>
+      <category>LLMs &amp; Chatbots</category>
+    </item>
+    <item>
+      <title>Google DeepMind Deploys AI to Speed UK Housing Approvals</title>
+      <link>https://aiglimpse.ai/articles/google-deepmind-deploys-ai-to-speed-uk-housing-approvals-1cd14ccc</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/google-deepmind-deploys-ai-to-speed-uk-housing-approvals-1cd14ccc</guid>
+      <description>A new machine learning system aims to cut planning delays that have constrained Britain's residential construction for years.</description>
+      <pubDate>Tue, 16 Jun 2026 21:29:50 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
       <title>Researchers Embed 3D Geometry Into Robot Learning for Better Manipulation</title>
       <link>https://aiglimpse.ai/articles/researchers-embed-3d-geometry-into-robot-learning-for-better-manipulation-ce42750a</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/researchers-embed-3d-geometry-into-robot-learning-for-better-manipulation-ce42750a</guid>
@@ -389,22 +405,6 @@
       <description>New structured courses aim to equip professionals with hands-on expertise in applying large language models and autonomous agents to workplace tasks.</description>
       <pubDate>Fri, 12 Jun 2026 10:00:00 GMT</pubDate>
       <category>LLMs &amp; Chatbots</category>
-    </item>
-    <item>
-      <title>Allen Institute Releases Open Evaluation Framework for LLM Development</title>
-      <link>https://aiglimpse.ai/articles/allen-institute-releases-open-evaluation-framework-for-llm-development-b197ef1a</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/allen-institute-releases-open-evaluation-framework-for-llm-development-b197ef1a</guid>
-      <description>New benchmarking tool aims to streamline how researchers test and iterate on language models throughout their development cycle.</description>
-      <pubDate>Fri, 12 Jun 2026 15:56:10 GMT</pubDate>
-      <category>AI Tools &amp; Products</category>
-    </item>
-    <item>
-      <title>New Framework Enables AI Image Generators to Create Mixed Text-Image Sequences</title>
-      <link>https://aiglimpse.ai/articles/new-framework-enables-ai-image-generators-to-create-mixed-text-image-sequences-550232ef</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-framework-enables-ai-image-generators-to-create-mixed-text-image-sequences-550232ef</guid>
-      <description>InterleaveThinker uses multi-agent planning to unlock sequential visual storytelling capabilities in existing image models.</description>
-      <pubDate>Thu, 11 Jun 2026 17:59:50 GMT</pubDate>
-      <category>AI Research</category>
     </item>
   </channel>
 </rss>
