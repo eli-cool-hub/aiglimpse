@@ -7,6 +7,22 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Anthropic Battles Trump Admin Over AI Model Export Restrictions</title>
+      <link>https://aiglimpse.ai/articles/anthropic-battles-trump-admin-over-ai-model-export-restrictions-7d00b549</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/anthropic-battles-trump-admin-over-ai-model-export-restrictions-7d00b549</guid>
+      <description>The AI startup faces pressure to disable its latest models after receiving an unexpected export control directive affecting foreign employees.</description>
+      <pubDate>Tue, 16 Jun 2026 03:00:00 GMT</pubDate>
+      <category>AI Tools &amp; Products</category>
+    </item>
+    <item>
+      <title>DOJ Claims xAI's Infrastructure Critical to U.S. Military Operations</title>
+      <link>https://aiglimpse.ai/articles/doj-claims-xais-infrastructure-critical-to-us-military-operations-c5064fea</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/doj-claims-xais-infrastructure-critical-to-us-military-operations-c5064fea</guid>
+      <description>Federal lawyers invoke national security to defend Elon Musk's AI company against environmental lawsuit, raising questions about AI infrastructure oversight.</description>
+      <pubDate>Tue, 16 Jun 2026 03:06:37 GMT</pubDate>
+      <category>AI Tools &amp; Products</category>
+    </item>
+    <item>
       <title>UPMC's AI Portfolio Hits Milestones in Clinical, Quality Care Tools</title>
       <link>https://aiglimpse.ai/articles/upmcs-ai-portfolio-hits-milestones-in-clinical-quality-care-tools-e36b40d3</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/upmcs-ai-portfolio-hits-milestones-in-clinical-quality-care-tools-e36b40d3</guid>
@@ -389,22 +405,6 @@
       <description>Researchers developed a software-based approach that lets standard industrial robots feel contact and pressure, opening doors for more dexterous manipulation tasks.</description>
       <pubDate>Wed, 10 Jun 2026 17:59:35 GMT</pubDate>
       <category>AI Research</category>
-    </item>
-    <item>
-      <title>Minor Tweaks to Image Processing Unlock Major Gains for AI Pathology</title>
-      <link>https://aiglimpse.ai/articles/minor-tweaks-to-image-processing-unlock-major-gains-for-ai-pathology-edf970d2</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/minor-tweaks-to-image-processing-unlock-major-gains-for-ai-pathology-edf970d2</guid>
-      <description>Research shows general-purpose language models close the gap with specialized systems through optimized input configurations, not architectural changes.</description>
-      <pubDate>Wed, 10 Jun 2026 17:59:39 GMT</pubDate>
-      <category>AI Research</category>
-    </item>
-    <item>
-      <title>BBVA Deploys ChatGPT Enterprise Across 100,000 Employees</title>
-      <link>https://aiglimpse.ai/articles/bbva-deploys-chatgpt-enterprise-across-100000-employees-bd6fdb19</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/bbva-deploys-chatgpt-enterprise-across-100000-employees-bd6fdb19</guid>
-      <description>Spain's largest bank scales OpenAI's enterprise AI platform to transform operations and reshape how financial institutions adopt generative AI.</description>
-      <pubDate>Thu, 11 Jun 2026 00:00:00 GMT</pubDate>
-      <category>LLMs &amp; Chatbots</category>
     </item>
   </channel>
 </rss>

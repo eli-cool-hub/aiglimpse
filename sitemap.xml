@@ -16,6 +16,24 @@
   <url><loc>https://aiglimpse.ai/pages/privacy</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
   <url><loc>https://aiglimpse.ai/pages/terms</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
   <url>
+    <loc>https://aiglimpse.ai/articles/anthropic-battles-trump-admin-over-ai-model-export-restrictions-7d00b549</loc>
+    <news:news>
+      <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-06-16T03:00:00.000Z</news:publication_date>
+      <news:title>Anthropic Battles Trump Admin Over AI Model Export Restrictions</news:title>
+    </news:news>
+    <changefreq>daily</changefreq><priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://aiglimpse.ai/articles/doj-claims-xais-infrastructure-critical-to-us-military-operations-c5064fea</loc>
+    <news:news>
+      <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-06-16T03:06:37.000Z</news:publication_date>
+      <news:title>DOJ Claims xAI's Infrastructure Critical to U.S. Military Operations</news:title>
+    </news:news>
+    <changefreq>daily</changefreq><priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://aiglimpse.ai/articles/upmcs-ai-portfolio-hits-milestones-in-clinical-quality-care-tools-e36b40d3</loc>
     <news:news>
       <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>

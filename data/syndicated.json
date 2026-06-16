@@ -2954,6 +2954,42 @@
         "devto": true,
         "hashnode": false
       }
+    },
+    "doj-claims-xais-infrastructure-critical-to-us-military-operations-c5064fea": {
+      "syndicated_at": "2026-06-16T04:25:55.809Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/doj-claims-xais-infrastructure-critical-to-us-military-operations-152p",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 409,
+      "category": "tools",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
+    },
+    "anthropic-battles-trump-admin-over-ai-model-export-restrictions-7d00b549": {
+      "syndicated_at": "2026-06-16T04:26:08.776Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/anthropic-battles-trump-admin-over-ai-model-export-restrictions-3ocj",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 529,
+      "category": "tools",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
     }
   }
 }

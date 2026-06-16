@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "anthropic-battles-trump-admin-over-ai-model-export-restrictions-7d00b549",
+      "title": "Anthropic Battles Trump Admin Over AI Model Export Restrictions",
+      "subtitle": "The AI startup faces pressure to disable its latest models after receiving an unexpected export control directive affecting foreign employees.",
+      "category": "tools",
+      "publishedAt": "2026-06-16T03:00:00.000Z",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/950412/anthropic-trump-adminstration-claude-mythos-fable-5-export-controls",
+      "sourceName": "The Verge AI",
+      "sourceTier": 2,
+      "image": "/images/articles/anthropic-battles-trump-admin-over-ai-model-export-restrictions-7d00b549.jpg"
+    },
+    {
+      "slug": "doj-claims-xais-infrastructure-critical-to-us-military-operations-c5064fea",
+      "title": "DOJ Claims xAI's Infrastructure Critical to U.S. Military Operations",
+      "subtitle": "Federal lawyers invoke national security to defend Elon Musk's AI company against environmental lawsuit, raising questions about AI infrastructure oversight.",
+      "category": "tools",
+      "publishedAt": "2026-06-16T03:06:37.000Z",
+      "sourceUrl": "https://www.wired.com/story/doj-lawyers-argue-xai-vital-national-security-naacp-lawsuit/",
+      "sourceName": "Wired AI",
+      "sourceTier": 2,
+      "image": "/images/articles/doj-claims-xais-infrastructure-critical-to-us-military-operations-c5064fea.jpg"
+    },
+    {
       "slug": "upmcs-ai-portfolio-hits-milestones-in-clinical-quality-care-tools-e36b40d3",
       "title": "UPMC's AI Portfolio Hits Milestones in Clinical, Quality Care Tools",
       "subtitle": "Healthcare innovation arm accelerates deployment of machine learning platforms across documentation, cognitive screening, and quality measurement.",
@@ -3141,6 +3163,8 @@
     "923e6543a8302383",
     "49ea9adb64aa39ca",
     "3a6d17a11a2cada8",
-    "e36b40d325b19915"
+    "e36b40d325b19915",
+    "c5064fea64d3c763",
+    "7d00b5498bddaf0c"
   ]
 }
