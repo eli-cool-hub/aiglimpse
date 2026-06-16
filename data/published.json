@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "new-ai-framework-merges-physics-and-generation-for-realistic-urban-scene-reconst-2bbd5eb0",
+      "title": "New AI Framework Merges Physics and Generation for Realistic Urban Scene Reconstruction",
+      "subtitle": "BRDFusion combines machine learning with physical modeling to enable controllable 3D scene editing from video, advancing applications from autonomous driving simulation to film production.",
+      "category": "research",
+      "publishedAt": "2026-06-15T17:58:31.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2606.17049v1",
+      "sourceName": "arXiv (Yi-Ruei Liu, Jie-Ying Lee, Zheng-Hui Huang, Yu-Lun Liu, Chih…)",
+      "sourceTier": 1,
+      "image": "/images/articles/new-ai-framework-merges-physics-and-generation-for-realistic-urban-scene-reconst-2bbd5eb0.jpg"
+    },
+    {
+      "slug": "researchers-uncover-how-language-models-track-internal-success-metrics-4f3ee8f5",
+      "title": "Researchers Uncover How Language Models Track Internal Success Metrics",
+      "subtitle": "New study reveals that AI systems encode goal-progress estimates that influence their confidence and decision-making patterns.",
+      "category": "research",
+      "publishedAt": "2026-06-15T17:59:58.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2606.17056v1",
+      "sourceName": "arXiv (Nick Jiang, Isaac Kauvar, Jack Lindsey)",
+      "sourceTier": 1,
+      "image": "/images/articles/researchers-uncover-how-language-models-track-internal-success-metrics-4f3ee8f5.jpg"
+    },
+    {
       "slug": "anthropic-battles-trump-admin-over-ai-model-export-restrictions-7d00b549",
       "title": "Anthropic Battles Trump Admin Over AI Model Export Restrictions",
       "subtitle": "The AI startup faces pressure to disable its latest models after receiving an unexpected export control directive affecting foreign employees.",
@@ -3165,6 +3187,8 @@
     "3a6d17a11a2cada8",
     "e36b40d325b19915",
     "c5064fea64d3c763",
-    "7d00b5498bddaf0c"
+    "7d00b5498bddaf0c",
+    "4f3ee8f52461c75a",
+    "2bbd5eb070d49b52"
   ]
 }

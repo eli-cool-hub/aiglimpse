@@ -2990,6 +2990,42 @@
         "devto": true,
         "hashnode": false
       }
+    },
+    "researchers-uncover-how-language-models-track-internal-success-metrics-4f3ee8f5": {
+      "syndicated_at": "2026-06-16T11:15:25.155Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/researchers-uncover-how-language-models-track-internal-success-metrics-49b5",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 563,
+      "category": "research",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
+    },
+    "new-ai-framework-merges-physics-and-generation-for-realistic-urban-scene-reconst-2bbd5eb0": {
+      "syndicated_at": "2026-06-16T11:15:37.236Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/new-ai-framework-merges-physics-and-generation-for-realistic-urban-scene-reconstruction-48k8",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 477,
+      "category": "research",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
     }
   }
 }

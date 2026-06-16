@@ -7,6 +7,22 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>New AI Framework Merges Physics and Generation for Realistic Urban Scene Reconstruction</title>
+      <link>https://aiglimpse.ai/articles/new-ai-framework-merges-physics-and-generation-for-realistic-urban-scene-reconst-2bbd5eb0</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-ai-framework-merges-physics-and-generation-for-realistic-urban-scene-reconst-2bbd5eb0</guid>
+      <description>BRDFusion combines machine learning with physical modeling to enable controllable 3D scene editing from video, advancing applications from autonomous driving simulation to film production.</description>
+      <pubDate>Mon, 15 Jun 2026 17:58:31 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
+      <title>Researchers Uncover How Language Models Track Internal Success Metrics</title>
+      <link>https://aiglimpse.ai/articles/researchers-uncover-how-language-models-track-internal-success-metrics-4f3ee8f5</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/researchers-uncover-how-language-models-track-internal-success-metrics-4f3ee8f5</guid>
+      <description>New study reveals that AI systems encode goal-progress estimates that influence their confidence and decision-making patterns.</description>
+      <pubDate>Mon, 15 Jun 2026 17:59:58 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
       <title>Anthropic Battles Trump Admin Over AI Model Export Restrictions</title>
       <link>https://aiglimpse.ai/articles/anthropic-battles-trump-admin-over-ai-model-export-restrictions-7d00b549</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/anthropic-battles-trump-admin-over-ai-model-export-restrictions-7d00b549</guid>
@@ -389,22 +405,6 @@
       <description>A new manufacturing robotics startup challenges the specialized-robot model with machines designed for rapid reconfiguration across multiple tasks.</description>
       <pubDate>Fri, 12 Jun 2026 01:48:07 GMT</pubDate>
       <category>AI Business</category>
-    </item>
-    <item>
-      <title>DeepMind Backs Multi-Agent AI Safety With $10M Research Fund</title>
-      <link>https://aiglimpse.ai/articles/deepmind-backs-multi-agent-ai-safety-with-10m-research-fund-e23c322f</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/deepmind-backs-multi-agent-ai-safety-with-10m-research-fund-e23c322f</guid>
-      <description>Google's AI lab launches major initiative to study risks of coordinated autonomous systems as multi-agent AI grows in complexity.</description>
-      <pubDate>Wed, 10 Jun 2026 10:21:19 GMT</pubDate>
-      <category>AI Research</category>
-    </item>
-    <item>
-      <title>New Method Gives Cheap Robot Arms Force Sensing Without Costly Hardware</title>
-      <link>https://aiglimpse.ai/articles/new-method-gives-cheap-robot-arms-force-sensing-without-costly-hardware-460b4644</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-method-gives-cheap-robot-arms-force-sensing-without-costly-hardware-460b4644</guid>
-      <description>Researchers developed a software-based approach that lets standard industrial robots feel contact and pressure, opening doors for more dexterous manipulation tasks.</description>
-      <pubDate>Wed, 10 Jun 2026 17:59:35 GMT</pubDate>
-      <category>AI Research</category>
     </item>
   </channel>
 </rss>
