@@ -7,6 +7,22 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>New Method Simplifies AI Image Reconstruction from Corrupted Data</title>
+      <link>https://aiglimpse.ai/articles/new-method-simplifies-ai-image-reconstruction-from-corrupted-data-af8f9eac</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-method-simplifies-ai-image-reconstruction-from-corrupted-data-af8f9eac</guid>
+      <description>Researchers derive exact mathematical formula for improving diffusion models on inverse problems, cutting computational costs tenfold.</description>
+      <pubDate>Mon, 15 Jun 2026 17:58:22 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
+      <title>New Training Method Helps AI Models Find Needles in Digital Haystacks</title>
+      <link>https://aiglimpse.ai/articles/new-training-method-helps-ai-models-find-needles-in-digital-haystacks-3785fb40</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-training-method-helps-ai-models-find-needles-in-digital-haystacks-3785fb40</guid>
+      <description>Researchers develop reinforcement learning technique that dramatically improves how language models locate critical information in complex data.</description>
+      <pubDate>Mon, 15 Jun 2026 17:59:28 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
       <title>New AI Framework Merges Physics and Generation for Realistic Urban Scene Reconstruction</title>
       <link>https://aiglimpse.ai/articles/new-ai-framework-merges-physics-and-generation-for-realistic-urban-scene-reconst-2bbd5eb0</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/new-ai-framework-merges-physics-and-generation-for-realistic-urban-scene-reconst-2bbd5eb0</guid>
@@ -389,22 +405,6 @@
       <description>The education platform deploys AI-powered lesson synthesis and adaptive feedback to enhance human instruction at scale.</description>
       <pubDate>Fri, 12 Jun 2026 00:00:00 GMT</pubDate>
       <category>LLMs &amp; Chatbots</category>
-    </item>
-    <item>
-      <title>New Framework Teaches AI Models to Reason Through Analogies</title>
-      <link>https://aiglimpse.ai/articles/new-framework-teaches-ai-models-to-reason-through-analogies-43b3aa97</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-framework-teaches-ai-models-to-reason-through-analogies-43b3aa97</guid>
-      <description>Researchers develop retrieval method that helps language models solve complex problems by finding structurally similar examples rather than semantically matching ones.</description>
-      <pubDate>Thu, 11 Jun 2026 17:59:52 GMT</pubDate>
-      <category>AI Research</category>
-    </item>
-    <item>
-      <title>Theker Secures $85M to Develop Adaptable Factory Robots</title>
-      <link>https://aiglimpse.ai/articles/theker-secures-85m-to-develop-adaptable-factory-robots-4f139cc7</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/theker-secures-85m-to-develop-adaptable-factory-robots-4f139cc7</guid>
-      <description>A new manufacturing robotics startup challenges the specialized-robot model with machines designed for rapid reconfiguration across multiple tasks.</description>
-      <pubDate>Fri, 12 Jun 2026 01:48:07 GMT</pubDate>
-      <category>AI Business</category>
     </item>
   </channel>
 </rss>

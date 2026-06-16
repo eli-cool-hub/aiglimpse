@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "new-method-simplifies-ai-image-reconstruction-from-corrupted-data-af8f9eac",
+      "title": "New Method Simplifies AI Image Reconstruction from Corrupted Data",
+      "subtitle": "Researchers derive exact mathematical formula for improving diffusion models on inverse problems, cutting computational costs tenfold.",
+      "category": "research",
+      "publishedAt": "2026-06-15T17:58:22.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2606.17048v1",
+      "sourceName": "arXiv (Abbas Mammadov, Ozgur Kara, Kaan Oktay, Iskander Azangulov, …)",
+      "sourceTier": 1,
+      "image": "/images/articles/new-method-simplifies-ai-image-reconstruction-from-corrupted-data-af8f9eac.jpg"
+    },
+    {
+      "slug": "new-training-method-helps-ai-models-find-needles-in-digital-haystacks-3785fb40",
+      "title": "New Training Method Helps AI Models Find Needles in Digital Haystacks",
+      "subtitle": "Researchers develop reinforcement learning technique that dramatically improves how language models locate critical information in complex data.",
+      "category": "research",
+      "publishedAt": "2026-06-15T17:59:28.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2606.17053v1",
+      "sourceName": "arXiv (Peiyang Xu, Bangzheng Li, Sijia Liu, Karthik R. Narasimhan, …)",
+      "sourceTier": 1,
+      "image": "/images/articles/new-training-method-helps-ai-models-find-needles-in-digital-haystacks-3785fb40.jpg"
+    },
+    {
       "slug": "new-ai-framework-merges-physics-and-generation-for-realistic-urban-scene-reconst-2bbd5eb0",
       "title": "New AI Framework Merges Physics and Generation for Realistic Urban Scene Reconstruction",
       "subtitle": "BRDFusion combines machine learning with physical modeling to enable controllable 3D scene editing from video, advancing applications from autonomous driving simulation to film production.",
@@ -3189,6 +3211,8 @@
     "c5064fea64d3c763",
     "7d00b5498bddaf0c",
     "4f3ee8f52461c75a",
-    "2bbd5eb070d49b52"
+    "2bbd5eb070d49b52",
+    "3785fb409776402b",
+    "af8f9eac88d5da58"
   ]
 }

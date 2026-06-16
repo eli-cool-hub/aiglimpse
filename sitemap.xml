@@ -16,6 +16,24 @@
   <url><loc>https://aiglimpse.ai/pages/privacy</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
   <url><loc>https://aiglimpse.ai/pages/terms</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
   <url>
+    <loc>https://aiglimpse.ai/articles/new-method-simplifies-ai-image-reconstruction-from-corrupted-data-af8f9eac</loc>
+    <news:news>
+      <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-06-15T17:58:22.000Z</news:publication_date>
+      <news:title>New Method Simplifies AI Image Reconstruction from Corrupted Data</news:title>
+    </news:news>
+    <changefreq>daily</changefreq><priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://aiglimpse.ai/articles/new-training-method-helps-ai-models-find-needles-in-digital-haystacks-3785fb40</loc>
+    <news:news>
+      <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-06-15T17:59:28.000Z</news:publication_date>
+      <news:title>New Training Method Helps AI Models Find Needles in Digital Haystacks</news:title>
+    </news:news>
+    <changefreq>daily</changefreq><priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://aiglimpse.ai/articles/new-ai-framework-merges-physics-and-generation-for-realistic-urban-scene-reconst-2bbd5eb0</loc>
     <news:news>
       <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
