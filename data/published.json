@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "researchers-embed-3d-geometry-into-robot-learning-for-better-manipulation-ce42750a",
+      "title": "Researchers Embed 3D Geometry Into Robot Learning for Better Manipulation",
+      "subtitle": "A new approach harnesses spatial reasoning to improve how robots understand and execute complex physical tasks from language instructions.",
+      "category": "research",
+      "publishedAt": "2026-06-15T17:58:03.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2606.17046v1",
+      "sourceName": "arXiv (Jisang Han, Seonghu Jeon, Jaewoo Jung, René Zurbrügg, Honggy…)",
+      "sourceTier": 1,
+      "image": "/images/articles/researchers-embed-3d-geometry-into-robot-learning-for-better-manipulation-ce42750a.jpg"
+    },
+    {
       "slug": "new-method-simplifies-ai-image-reconstruction-from-corrupted-data-af8f9eac",
       "title": "New Method Simplifies AI Image Reconstruction from Corrupted Data",
       "subtitle": "Researchers derive exact mathematical formula for improving diffusion models on inverse problems, cutting computational costs tenfold.",
@@ -3213,6 +3224,7 @@
     "4f3ee8f52461c75a",
     "2bbd5eb070d49b52",
     "3785fb409776402b",
-    "af8f9eac88d5da58"
+    "af8f9eac88d5da58",
+    "ce42750ad6b5452b"
   ]
 }

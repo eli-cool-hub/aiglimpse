@@ -7,6 +7,14 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Researchers Embed 3D Geometry Into Robot Learning for Better Manipulation</title>
+      <link>https://aiglimpse.ai/articles/researchers-embed-3d-geometry-into-robot-learning-for-better-manipulation-ce42750a</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/researchers-embed-3d-geometry-into-robot-learning-for-better-manipulation-ce42750a</guid>
+      <description>A new approach harnesses spatial reasoning to improve how robots understand and execute complex physical tasks from language instructions.</description>
+      <pubDate>Mon, 15 Jun 2026 17:58:03 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
       <title>New Method Simplifies AI Image Reconstruction from Corrupted Data</title>
       <link>https://aiglimpse.ai/articles/new-method-simplifies-ai-image-reconstruction-from-corrupted-data-af8f9eac</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/new-method-simplifies-ai-image-reconstruction-from-corrupted-data-af8f9eac</guid>
@@ -397,14 +405,6 @@
       <description>InterleaveThinker uses multi-agent planning to unlock sequential visual storytelling capabilities in existing image models.</description>
       <pubDate>Thu, 11 Jun 2026 17:59:50 GMT</pubDate>
       <category>AI Research</category>
-    </item>
-    <item>
-      <title>Preply Harnesses OpenAI Models to Scale Personalized Language Tutoring</title>
-      <link>https://aiglimpse.ai/articles/preply-harnesses-openai-models-to-scale-personalized-language-tutoring-9d5adbe8</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/preply-harnesses-openai-models-to-scale-personalized-language-tutoring-9d5adbe8</guid>
-      <description>The education platform deploys AI-powered lesson synthesis and adaptive feedback to enhance human instruction at scale.</description>
-      <pubDate>Fri, 12 Jun 2026 00:00:00 GMT</pubDate>
-      <category>LLMs &amp; Chatbots</category>
     </item>
   </channel>
 </rss>
