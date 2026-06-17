@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "researchers-unify-image-understanding-and-generation-in-single-ai-model-7aadc684",
+      "title": "Researchers Unify Image Understanding and Generation in Single AI Model",
+      "subtitle": "New framework eliminates fragmented visual processing, enabling AI systems to interpret their own outputs without redundant recoding steps.",
+      "category": "research",
+      "publishedAt": "2026-06-16T17:59:22.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2606.18249v1",
+      "sourceName": "arXiv (Wujian Peng, Lingchen Meng, Yuxuan Cai, Xianwei Zhuang, Yuhu…)",
+      "sourceTier": 1,
+      "image": "/images/articles/researchers-unify-image-understanding-and-generation-in-single-ai-model-7aadc684.jpg"
+    },
+    {
+      "slug": "ai-model-learns-to-predict-3d-motion-from-natural-language-commands-942732bc",
+      "title": "AI Model Learns to Predict 3D Motion from Natural Language Commands",
+      "subtitle": "Researchers demonstrate how language models can forecast physical movement, bridging vision and text understanding for robotics applications.",
+      "category": "tools",
+      "publishedAt": "2026-06-17T15:26:44.000Z",
+      "sourceUrl": "https://huggingface.co/blog/allenai/molmomotion",
+      "sourceName": "Hugging Face",
+      "sourceTier": 1,
+      "image": "/images/articles/ai-model-learns-to-predict-3d-motion-from-natural-language-commands-942732bc.jpg"
+    },
+    {
       "slug": "alibabas-glm-52-takes-aim-at-complex-multi-step-ai-tasks-9f28c1b8",
       "title": "Alibaba's GLM-5.2 Takes Aim at Complex, Multi-Step AI Tasks",
       "subtitle": "The Chinese tech giant releases a new language model designed to handle extended reasoning and planning across longer sequences of work.",
@@ -3309,6 +3331,8 @@
     "7bb3ab64f337f0b2",
     "dc925ffd2ced27f9",
     "20e99bdafca56a7a",
-    "9f28c1b8ac507deb"
+    "9f28c1b8ac507deb",
+    "942732bc42cd900c",
+    "7aadc684be49cbf4"
   ]
 }

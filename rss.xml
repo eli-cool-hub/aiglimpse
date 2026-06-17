@@ -7,6 +7,22 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Researchers Unify Image Understanding and Generation in Single AI Model</title>
+      <link>https://aiglimpse.ai/articles/researchers-unify-image-understanding-and-generation-in-single-ai-model-7aadc684</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/researchers-unify-image-understanding-and-generation-in-single-ai-model-7aadc684</guid>
+      <description>New framework eliminates fragmented visual processing, enabling AI systems to interpret their own outputs without redundant recoding steps.</description>
+      <pubDate>Tue, 16 Jun 2026 17:59:22 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
+      <title>AI Model Learns to Predict 3D Motion from Natural Language Commands</title>
+      <link>https://aiglimpse.ai/articles/ai-model-learns-to-predict-3d-motion-from-natural-language-commands-942732bc</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/ai-model-learns-to-predict-3d-motion-from-natural-language-commands-942732bc</guid>
+      <description>Researchers demonstrate how language models can forecast physical movement, bridging vision and text understanding for robotics applications.</description>
+      <pubDate>Wed, 17 Jun 2026 15:26:44 GMT</pubDate>
+      <category>AI Tools &amp; Products</category>
+    </item>
+    <item>
       <title>Alibaba's GLM-5.2 Takes Aim at Complex, Multi-Step AI Tasks</title>
       <link>https://aiglimpse.ai/articles/alibabas-glm-52-takes-aim-at-complex-multi-step-ai-tasks-9f28c1b8</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/alibabas-glm-52-takes-aim-at-complex-multi-step-ai-tasks-9f28c1b8</guid>
@@ -389,22 +405,6 @@
       <description>RepWAM advances robot learning by prioritizing meaningful action representations over pixel-perfect reconstruction.</description>
       <pubDate>Thu, 11 Jun 2026 17:59:43 GMT</pubDate>
       <category>AI Research</category>
-    </item>
-    <item>
-      <title>Government Halts Anthropic's Advanced AI Model Over Security Concerns</title>
-      <link>https://aiglimpse.ai/articles/government-halts-anthropics-advanced-ai-model-over-security-concerns-0494a8d5</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/government-halts-anthropics-advanced-ai-model-over-security-concerns-0494a8d5</guid>
-      <description>A regulatory intervention over potential vulnerabilities reignites debate about safety disclosure versus market deployment in AI development.</description>
-      <pubDate>Sat, 13 Jun 2026 02:26:30 GMT</pubDate>
-      <category>AI Business</category>
-    </item>
-    <item>
-      <title>Anthropic Pulls New AI Models After US Security Concerns</title>
-      <link>https://aiglimpse.ai/articles/anthropic-pulls-new-ai-models-after-us-security-concerns-11f43b18</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/anthropic-pulls-new-ai-models-after-us-security-concerns-11f43b18</guid>
-      <description>Export controls and reported safety vulnerabilities force sudden shutdown of Fable 5 and Mythos 5, raising questions about AI deployment oversight.</description>
-      <pubDate>Sat, 13 Jun 2026 03:00:34 GMT</pubDate>
-      <category>AI Tools &amp; Products</category>
     </item>
   </channel>
 </rss>
