@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>What Is the Model Context Protocol? A Developer&#39;s Guide | AI Glimpse</title>
+  <meta name="description" content="Model Context Protocol (MCP) explained for developers. Learn how to wire LLMs to external systems, servers, clients, and security patterns.">
+  <meta name="keywords" content="Model Context Protocol, MCP, LLM integrations, AI agent tools, Anthropic MCP, tool servers, AI architecture">
+  <link rel="canonical" href="https://aiglimpse.ai/articles/what-is-model-context-protocol-mcp">
+  <meta property="og:type" content="article"><meta property="og:site_name" content="AI Glimpse">
+  <meta property="og:title" content="What Is the Model Context Protocol? A Developer&#39;s Guide">
+  <meta property="og:description" content="Model Context Protocol (MCP) explained for developers. Learn how to wire LLMs to external systems, servers, clients, and security patterns.">
+  <meta property="og:url" content="https://aiglimpse.ai/articles/what-is-model-context-protocol-mcp">
+  <meta property="og:image" content="https://aiglimpse.ai/images/articles/what-is-model-context-protocol-mcp.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="article:published_time" content="2026-06-17T10:29:32.019Z">
+  <meta property="article:section" content="AI Tools & Products">
+  <meta property="article:tag" content="Model Context Protocol">
+  <meta property="article:tag" content="MCP">
+  <meta property="article:tag" content="LLM integrations">
+  <meta property="article:tag" content="AI agent tools">
+  <meta property="article:tag" content="Anthropic MCP">
+  <meta property="article:tag" content="tool servers">
+  <meta property="article:tag" content="AI architecture">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="What Is the Model Context Protocol? A Developer&#39;s Guide">
+  <meta name="twitter:description" content="Model Context Protocol (MCP) explained for developers. Learn how to wire LLMs to external systems, servers, clients, and security patterns.">
+  <meta name="twitter:image" content="https://aiglimpse.ai/images/articles/what-is-model-context-protocol-mcp.jpg">
+  <link rel="icon" type="image/svg+xml" href="/images/favicon.svg">
+  <link rel="alternate" type="application/rss+xml" title="AI Glimpse RSS" href="/rss.xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="/css/main.css">
+  <style>.reading-progress{position:fixed;top:0;left:0;height:3px;background:var(--color-accent);width:0%;z-index:200;transition:width 100ms linear;}</style>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","mainEntityOfPage":{"@type":"WebPage","@id":"https://aiglimpse.ai/articles/what-is-model-context-protocol-mcp"},"headline":"What Is the Model Context Protocol? A Developer's Guide","description":"Model Context Protocol (MCP) explained for developers. Learn how to wire LLMs to external systems, servers, clients, and security patterns.","image":["https://aiglimpse.ai/images/articles/what-is-model-context-protocol-mcp.jpg"],"datePublished":"2026-06-17T10:29:32.019Z","dateModified":"2026-06-17T10:29:32.019Z","author":{"@type":"Organization","name":"AI Glimpse Newsroom"},"publisher":{"@type":"Organization","name":"AI Glimpse","logo":{"@type":"ImageObject","url":"https://aiglimpse.ai/images/logo.svg"}},"articleSection":"AI Tools & Products","keywords":"Model Context Protocol, MCP, LLM integrations, AI agent tools, Anthropic MCP, tool servers, AI architecture"}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What is the Model Context Protocol (MCP)?","acceptedAnswer":{"@type":"Answer","text":"MCP is an open standard developed by Anthropic for connecting large language models to external tools, APIs, and data sources. It defines a client-server architecture where an LLM acts as a client requesting resources from MCP servers that expose tools, resources, and prompts. Think of it as a standardized contract for letting AI systems safely access the outside world."}},{"@type":"Question","name":"How does MCP differ from function calling or tool use?","acceptedAnswer":{"@type":"Answer","text":"Function calling is a mechanism within a single LLM call to invoke predefined functions. MCP is broader: it's a protocol for discovering, describing, and invoking tools that may live on separate servers, and it includes resource access, prompt templates, and lifecycle management. MCP assumes distributed architecture; function calling is local."}},{"@type":"Question","name":"Do I need to use MCP for every LLM integration?","acceptedAnswer":{"@type":"Answer","text":"No. Simple tool integrations via function calling work fine for many use cases. MCP becomes valuable when you need reusable tool definitions across multiple LLMs, want strict separation between the AI runtime and external systems, or are building multi-step agent workflows where security and isolation matter."}},{"@type":"Question","name":"What are MCP servers?","acceptedAnswer":{"@type":"Answer","text":"MCP servers are lightweight processes that expose capabilities (tools, resources, and prompts) over a standard protocol, typically via JSON-RPC over stdio or HTTP. They handle authentication, manage external API connections, and enforce permissions. An MCP server might wrap a database, a third-party API, or a set of internal microservices."}},{"@type":"Question","name":"Is MCP compatible with all LLMs?","acceptedAnswer":{"@type":"Answer","text":"MCP is protocol-agnostic by design, but adoption is still early. Claude (via Anthropic's tools) and some third-party platforms support it natively. Other LLMs require an adapter layer. Check your LLM provider's documentation. The ecosystem is expanding, but vendor lock-in risk exists if only a few models support it widely."}},{"@type":"Question","name":"How do I handle authentication in an MCP server?","acceptedAnswer":{"@type":"Answer","text":"Authentication is the responsibility of the MCP server, not the protocol. Common patterns include API keys passed at server startup, OAuth2 flows managed by the server, or network-level access control (firewall rules). The server must validate credentials before exposing sensitive resources or tools."}},{"@type":"Question","name":"Can I run multiple MCP servers for one LLM?","acceptedAnswer":{"@type":"Answer","text":"Yes. Most MCP implementations support composing multiple servers. The LLM client can connect to several MCP servers simultaneously, each exposing different tools or data sources. This allows modular architecture where you isolate concerns, manage permissions per server, and scale components independently."}}]}</script>
+  <meta name="google-site-verification" content="B132aMlqf1nssWYhjOSKUgSjmfwNWgPgtozZsHDxWlU" />
+  <meta name="msvalidate.01" content="F3762E555B3E685836AE39C90B79ECBF" />
+  <!-- aiglimpse-consent-default v1: must run before AdSense, defaults all ad/analytics storage to denied -->
+  <script>(function(){window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}window.gtag=gtag;gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'denied',functionality_storage:'granted',security_storage:'granted',wait_for_update:500});try{var s=JSON.parse(localStorage.getItem('aiglimpse-consent')||'null');if(s&&s.choice==='granted'){gtag('consent','update',{ad_storage:'granted',ad_user_data:'granted',ad_personalization:'granted',analytics_storage:'granted'});}}catch(e){}})();</script>
+  <!-- aiglimpse-ga4 v1: gtag.js loaded after consent default, so it buffers events until consent is granted -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-EVZ52DNQ8S"></script>
+  <script>gtag('js', new Date()); gtag('config', 'G-EVZ52DNQ8S', { anonymize_ip: true });</script>
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4263484717830850" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div class="reading-progress" aria-hidden="true"></div>
+  <div id="site-header-slot"></div>
+  <main>
+    <article>
+      <section class="article-hero">
+        <div class="container container--narrow">
+          <nav aria-label="Breadcrumb" style="margin-bottom:var(--space-4);font-size:var(--text-xs);color:var(--color-ink-muted);">
+            <a href="/" style="color:inherit;">Home</a> /
+            <a href="/categories/tools" style="color:inherit;">AI Tools & Products</a> /
+            <span>Explainer</span>
+          </nav>
+          <div class="article-hero-meta">
+            <span class="tag tag--tools">AI Tools & Products</span>
+            <span class="eyebrow eyebrow--accent">Explainer</span>
+            <span class="eyebrow">13 min read</span>
+          </div>
+          <h1 class="article-hero-title">What Is the Model Context Protocol? A Developer&#39;s Guide</h1>
+          <p class="article-hero-subtitle">How MCP standardizes connections between LLMs and external tools, data sources, and APIs.</p>
+          <div class="article-byline">
+            <div>By <strong>AI Glimpse Newsroom</strong></div><div>·</div>
+            <div><time datetime="2026-06-17T10:29:32.019Z" data-relative="false">June 17, 2026</time></div>
+          </div>
+        </div>
+      </section>
+      <section style="padding: var(--space-7) 0;">
+        <div class="container container--narrow">
+          <figure class="article-image"><img src="/images/articles/what-is-model-context-protocol-mcp.jpg" alt="What Is the Model Context Protocol? A Developer&#39;s Guide" loading="eager" width="1200" height="630"></figure>
+          <div class="article-body"><p>The Model Context Protocol (MCP) is a standardized, open specification for connecting <a href="/articles/how-large-language-models-work-clear-explainer">large language models</a> to external systems. It defines a client-server architecture where an LLM (the client) requests tools, data, and contextual information from MCP servers, which expose capabilities in a structured, discoverable format. Instead of embedding API calls directly in your application logic or relying on ad hoc function-calling implementations, MCP provides a clean contract: the server declares what it can do, the client asks for what it needs, and both parties agree on the transport and security layer. For developers building AI systems that need reliable, auditable access to databases, APIs, and internal services, MCP removes friction and standardizes what was previously a fragmented landscape of custom integrations.</p>
+
+<h2>Why this matters now</h2>
+
+<p>In 2026, the problem MCP solves is no longer theoretical. Most production AI applications require LLMs to operate on real data and trigger real actions. Early integrations relied on either embedding API credentials directly in prompts (a security nightmare), rolling custom function-calling wrappers for each new tool, or building bespoke agent frameworks that don't translate across different LLM providers. This approach breaks down at scale: security becomes a patchwork, tool definitions drift across projects, and switching between Claude, GPT-4, or open-source models requires rewriting integration code. MCP exists because that friction cost money and introduced exploitable gaps.</p>
+
+<p>The practical payoff is significant. A developer can write a single MCP server that wraps a Postgres database, SQL injection protection, and role-based access control. That server then works with any LLM client that implements the protocol, whether it's Claude via Anthropic's tools, a local open-source model via a third-party adapter, or a future LLM platform. The server runs in its own process, on its own infrastructure, isolated from the LLM runtime. If an LLM is compromised or misbehaves, the server's permissions remain intact. This architectural clarity is why enterprises and serious builders are now standardizing on MCP, and why understanding it is non-negotiable for anyone shipping production AI systems after 2025.</p>
+
+<h2>The core architecture: clients, servers, and resources</h2>
+<figure class="article-image article-image--inline">
+  <img src="/images/articles/what-is-model-context-protocol-mcp-inline-1.jpg" alt="The core architecture: clients, servers, and resources" loading="lazy" width="1200" height="630">
+  <figcaption class="article-image-credit">Photo by <a href="https://www.pexels.com/photo/close-up-of-computer-screen-with-code-and-menu-options-34804017/" rel="nofollow noopener" target="_blank">Daniil Komov</a> on Pexels.</figcaption>
+</figure>
+
+
+<p>MCP divides the world into two roles: clients and servers. The client is the system that makes requests. It is usually an LLM or an LLM application layer. The server is the system that receives requests and returns responses. It exposes tools, resources, and prompts. Communication between client and server happens over a transport layer, most commonly JSON-RPC over stdio (standard input/output) or HTTP.</p>
+
+<p>A client establishes a connection to one or more servers. The client sends initialization messages that describe its capabilities and constraints (e.g., maximum message size, supported features). The server responds with its own capabilities: the list of tools it provides, the resources it can access, and any prompt templates it offers. From that point forward, the client can invoke tools by name, request resources by URI, or ask for prompt suggestions. The server validates each request against its permissions, executes the operation, and returns a result or an error. The transport layer handles serialization, framing, and optionally TLS encryption.</p>
+
+<p>Resources in MCP are addressable, structured data that a server manages. A resource might be a file, a database record, an API response, or a computed result. Each resource has a URI that the client can reference. Tools are functions the server exposes that the client can invoke with parameters. Prompts are templated instructions or context fragments that the server recommends the client use in certain scenarios. Together, these three primitives (resources, tools, and prompts) give the client a complete picture of what the server can do.</p>
+
+<h2>How tool discovery and invocation work in practice</h2>
+
+<p>When a client connects to an MCP server, the first step is discovery. The client sends a request asking the server to list its tools. The server responds with a list of tool definitions, each including the tool's name, a human-readable description, input parameters (as a JSON Schema), and metadata about what the tool does. For example, a database server might expose a tool called "query_database" with parameters for the SQL statement and optional query timeout.</p>
+
+<p>The LLM client uses these tool definitions to decide when to invoke a tool. If the user asks the LLM to retrieve customer records, and the LLM understands that a "query_database" tool exists and matches the request, the LLM formulates a request to invoke that tool with appropriate parameters. The client sends a message to the server: invoke "query_database" with the provided SQL and timeout. The server validates the SQL (to catch injection attacks), checks permissions (does the authenticated user have access to this table?), executes the query, and returns the result. The client then passes the result back to the LLM, which can integrate it into its response or use it to inform further tool calls.</p>
+
+<p>This request-response loop can repeat within a single LLM session. If the LLM needs to refine its query, it invokes the tool again. If it needs data from a different server, the client routes the request to that server. The MCP client orchestrates communication with multiple servers transparently, from the LLM's perspective, it simply has access to a larger toolkit.</p>
+
+<h2>Security, permissions, and isolation</h2>
+<figure class="article-image article-image--inline">
+  <img src="/images/articles/what-is-model-context-protocol-mcp-inline-2.jpg" alt="Security, permissions, and isolation" loading="lazy" width="1200" height="630">
+  <figcaption class="article-image-credit">Photo by <a href="https://www.pexels.com/photo/close-up-view-of-system-hacking-5380618/" rel="nofollow noopener" target="_blank">Tima Miroshnichenko</a> on Pexels.</figcaption>
+</figure>
+
+
+<p>Security in MCP is deliberately distributed. The protocol itself does not enforce authentication. Instead, each MCP server is responsible for authenticating requests and enforcing access control. This design choice reflects a key principle: the server that owns the data or capability must decide who can access it.</p>
+
+<p>In practice, a server authenticates the client via credentials passed at connection time. These credentials might be an API key, an OAuth2 token, or a TLS certificate. The server validates the credentials and establishes a user identity or service account. Every request from that client is then checked against the permissions associated with that identity. If a user is authenticated as a read-only operator, they can invoke "query_database" for SELECT statements but not for DELETE or DROP. The server refuses requests outside those permissions and logs the refusal.</p>
+
+<p>A secondary benefit is process isolation. Because an MCP server runs as a separate process, a compromised LLM cannot directly access its memory or file descriptors. The LLM can only communicate through the MCP protocol, which enforces input validation and permission checks. If an attacker manipulates the LLM into crafting a malicious tool request, the server still validates and rejects it. This layering means the blast radius of an LLM compromise is contained by the server's security posture, not eliminated but substantially reduced.</p>
+
+<p>Developers building MCP servers should follow these practices: validate all input at the server boundary using JSON Schema and custom logic, never trust the client to enforce permissions, use parameterized queries or ORM abstractions to prevent injection, log all requests and deny events, and rotate credentials regularly. If a server exposes sensitive operations (like database drops or credential updates), require additional authentication steps or manual approval. Some teams add a logging and audit layer between the LLM client and the MCP server to catch anomalous patterns, though this adds latency and complexity.</p>
+
+<h2>Transports, serialization, and performance</h2>
+
+<p>MCP supports multiple transport mechanisms, and the choice affects deployment architecture and latency. The most common is stdio-based JSON-RPC, where the server is a child process that reads from stdin and writes to stdout. The client sends newline-delimited JSON messages and reads responses. This transport is simple, works well for local integrations, and requires no network stack. It is ideal for development and for systems where the LLM client and MCP servers run on the same host or container.</p>
+
+<p>HTTP transport is also supported, where the server listens on a port and the client makes HTTP POST requests to invoke tools or retrieve resources. HTTP transport scales better for distributed systems, allows multiple clients to share a single server, and integrates naturally with existing infrastructure (load balancers, firewalls, observability tools). The downside is that HTTP adds overhead and complexity compared to stdio. Latency increases because of connection setup and serialization. For latency-critical workflows (e.g., real-time agent interactions), stdio may be preferable. For scalable enterprise deployments, HTTP is more practical.</p>
+
+<p>A typical architecture might use stdio for development and small teams, and HTTP for production systems where the MCP server is a containerized service accessible to multiple LLM clients. Some teams run multiple instances of an MCP server behind a load balancer, with the client making HTTP requests to a stable endpoint. This design allows horizontal scaling: if demand for database queries increases, spin up more server instances.</p>
+
+<p>Serialization is always JSON. Messages are small (typically under 10 KB for most requests) and parsing is fast. Round-trip latency depends on the transport: stdio might add 1 to 5 ms per call if the server is local, while HTTP to a remote server might add 50 to 200 ms depending on network conditions. For synchronous tool calls during LLM generation, latency matters. Long-running operations (e.g., complex queries) should be asynchronous, with the server returning a job ID and the client polling for results, or using webhooks for push-style notifications.</p>
+
+<h2>Building your first MCP server</h2>
+
+<p>Implementing an MCP server is straightforward if you use an SDK provided by Anthropic or the community. Anthropic provides SDKs in Python and JavaScript. The basic structure is: define the tools you want to expose (name, description, input schema), define the resources your server manages, implement handlers for tool invocation and resource access, and start a transport server (stdio or HTTP). The SDK handles protocol details like message framing and error handling.</p>
+
+<p>A minimal Python MCP server that exposes a tool to fetch data from a Postgres database might look like this (conceptually): import the MCP SDK, subclass the server class, define a tool called "fetch_records" with parameters for the table name and filter condition, implement a handler that validates the input, executes a parameterized query, and returns results, start the server on stdio. The client connects, requests the tool list, sees "fetch_records", and can invoke it whenever the LLM decides it needs data.</p>
+
+<p>For more complex servers, add resource definitions (e.g., "resource://database/table/users" to represent the users table), prompt templates (e.g., a template that suggests to the LLM how to query a specific data source), and error handling to catch and report failures gracefully. If your server talks to third-party APIs, handle rate limits and timeouts explicitly, return partial results if a call fails, and log everything for debugging.</p>
+
+<p>Testing an MCP server is important. Write unit tests for each tool handler, mock external APIs, and test permission enforcement. Integration tests should validate that the full request-response cycle works, including client connection, tool discovery, and invocation. Manual testing with a real LLM client (like Claude) helps catch edge cases. Some teams use property-based testing to generate random inputs and ensure the server handles them without crashing.</p>
+
+<h2>Common pitfalls and when MCP falls short</h2>
+
+<p>MCP is powerful but not a silver bullet. One common mistake is assuming that MCP alone secures an integration. It does not. MCP is a protocol; security depends on the server implementation. A server that exposes a tool without input validation is insecure regardless of MCP. Another pitfall is over-engineering for reusability. Not every tool needs to be an MCP server. Simple, local tool integrations via function calling are fine. MCP adds overhead and complexity. Use it when you need modular, distributed, multi-tenant systems, not for every integration.</p>
+
+<p>Latency is a real constraint. If your LLM needs to make 10 sequential tool calls to complete a task, and each call adds 100 ms of round-trip time, the total latency becomes unacceptable for interactive use cases. Design workflows to minimize tool calls by using batch operations or passing more context upfront. Some teams pre-fetch data and include it in the prompt, reducing the need for dynamic tool calls.</p>
+
+<p>Vendor lock-in is a subtle risk. As of early 2026, MCP adoption is growing but not universal. If you standardize on MCP servers for all your integrations, you are betting that multiple LLM providers will support MCP. This is likely, but not guaranteed. Anthropic is backing MCP heavily, and third-party implementations exist, but if your organization needs to support closed-source proprietary models that do not implement MCP, you may need an adapter layer. Plan for this possibility by keeping tool definitions decoupled from transport specifics.</p>
+
+<p>Debugging distributed systems is harder than debugging monoliths. If an LLM makes a tool call that fails, you need logs from the client, the MCP transport layer, and the server to understand what went wrong. Invest in structured logging and correlation IDs that track requests across systems. Use tracing tools to visualize request flows.</p>
+
+<h2>The ecosystem and standards evolution</h2>
+
+<p>MCP is still young. The specification is open and maintained by Anthropic, with input from the community. As of 2026, the main implementations are Anthropic's own SDKs and a growing set of third-party servers and clients. Popular open-source MCP servers exist for databases (Postgres, MySQL), cloud storage (AWS S3, Google Drive), and monitoring tools (Datadog, New Relic). More are being contributed regularly. The GitHub organization and community forums are where you can find examples, ask questions, and contribute.</p>
+
+<p>The specification itself is evolving. Early versions focused on tool invocation. Newer versions have added resources and prompts, and there are discussions about streaming responses for long-running operations, better support for concurrent requests, and standardized error codes. Before building a production server, check the current specification version and plan for minor version bumps that may introduce new optional features.</p>
+
+<p>Interoperability is improving but still inconsistent. Not all MCP servers work with all clients. Anthropic's Claude works well with MCP servers built against the current spec. Open-source clients and third-party LLM integrations vary in completeness. Before adopting MCP for a critical integration, test with your specific LLM and client to ensure compatibility.</p>
+
+<p>Cost and resource usage matter in production. Each MCP server is a separate process, consuming memory and CPU. Running dozens of servers to expose hundreds of tools becomes expensive. Some teams optimize by bundling related tools into a single server, or by using serverless containers that spin up on demand. Monitor server resource usage and scale appropriately. If a tool is rarely used but expensive to compute, consider caching results or batching requests.</p>
+
+<p>The practical next step is to identify a real integration problem in your system. Do you have an LLM that needs access to a database, API, or internal service? That is a candidate for an MCP server. Start small: write a server that exposes one or two tools, test it with your LLM client, and iterate. Use existing SDKs and community examples as templates. As you gain experience, you can build more sophisticated servers with proper security, monitoring, and error handling. MCP will likely become as standard as REST APIs in AI systems by 2027, so learning it now is an investment in your technical foundation.</p></div>
+
+      <section style="margin-top: var(--space-8);">
+        <h2 style="margin-bottom: var(--space-5);">Frequently asked questions</h2>
+        <div class="faq-list">
+    <details class="faq-item" style="border-bottom:1px solid var(--color-rule);padding:var(--space-4) 0;">
+      <summary style="cursor:pointer;font-weight:600;font-size:var(--text-md);list-style:none;display:flex;justify-content:space-between;align-items:flex-start;gap:var(--space-3);">
+        <span>What is the Model Context Protocol (MCP)?</span>
+        <span aria-hidden="true" style="color:var(--color-ink-faint);font-weight:400;flex-shrink:0;">+</span>
+      </summary>
+      <div style="margin-top:var(--space-3);color:var(--color-ink-muted);line-height:1.7;">
+        <p>MCP is an open standard developed by Anthropic for connecting large language models to external tools, APIs, and data sources. It defines a client-server architecture where an LLM acts as a client requesting resources from MCP servers that expose tools, resources, and prompts. Think of it as a standardized contract for letting AI systems safely access the outside world.</p>
+      </div>
+    </details>
+
+    <details class="faq-item" style="border-bottom:1px solid var(--color-rule);padding:var(--space-4) 0;">
+      <summary style="cursor:pointer;font-weight:600;font-size:var(--text-md);list-style:none;display:flex;justify-content:space-between;align-items:flex-start;gap:var(--space-3);">
+        <span>How does MCP differ from function calling or tool use?</span>
+        <span aria-hidden="true" style="color:var(--color-ink-faint);font-weight:400;flex-shrink:0;">+</span>
+      </summary>
+      <div style="margin-top:var(--space-3);color:var(--color-ink-muted);line-height:1.7;">
+        <p>Function calling is a mechanism within a single LLM call to invoke predefined functions. MCP is broader: it&#39;s a protocol for discovering, describing, and invoking tools that may live on separate servers, and it includes resource access, prompt templates, and lifecycle management. MCP assumes distributed architecture; function calling is local.</p>
+      </div>
+    </details>
+
+    <details class="faq-item" style="border-bottom:1px solid var(--color-rule);padding:var(--space-4) 0;">
+      <summary style="cursor:pointer;font-weight:600;font-size:var(--text-md);list-style:none;display:flex;justify-content:space-between;align-items:flex-start;gap:var(--space-3);">
+        <span>Do I need to use MCP for every LLM integration?</span>
+        <span aria-hidden="true" style="color:var(--color-ink-faint);font-weight:400;flex-shrink:0;">+</span>
+      </summary>
+      <div style="margin-top:var(--space-3);color:var(--color-ink-muted);line-height:1.7;">
+        <p>No. Simple tool integrations via function calling work fine for many use cases. MCP becomes valuable when you need reusable tool definitions across multiple LLMs, want strict separation between the AI runtime and external systems, or are building multi-step agent workflows where security and isolation matter.</p>
+      </div>
+    </details>
+
+    <details class="faq-item" style="border-bottom:1px solid var(--color-rule);padding:var(--space-4) 0;">
+      <summary style="cursor:pointer;font-weight:600;font-size:var(--text-md);list-style:none;display:flex;justify-content:space-between;align-items:flex-start;gap:var(--space-3);">
+        <span>What are MCP servers?</span>
+        <span aria-hidden="true" style="color:var(--color-ink-faint);font-weight:400;flex-shrink:0;">+</span>
+      </summary>
+      <div style="margin-top:var(--space-3);color:var(--color-ink-muted);line-height:1.7;">
+        <p>MCP servers are lightweight processes that expose capabilities (tools, resources, and prompts) over a standard protocol, typically via JSON-RPC over stdio or HTTP. They handle authentication, manage external API connections, and enforce permissions. An MCP server might wrap a database, a third-party API, or a set of internal microservices.</p>
+      </div>
+    </details>
+
+    <details class="faq-item" style="border-bottom:1px solid var(--color-rule);padding:var(--space-4) 0;">
+      <summary style="cursor:pointer;font-weight:600;font-size:var(--text-md);list-style:none;display:flex;justify-content:space-between;align-items:flex-start;gap:var(--space-3);">
+        <span>Is MCP compatible with all LLMs?</span>
+        <span aria-hidden="true" style="color:var(--color-ink-faint);font-weight:400;flex-shrink:0;">+</span>
+      </summary>
+      <div style="margin-top:var(--space-3);color:var(--color-ink-muted);line-height:1.7;">
+        <p>MCP is protocol-agnostic by design, but adoption is still early. Claude (via Anthropic&#39;s tools) and some third-party platforms support it natively. Other LLMs require an adapter layer. Check your LLM provider&#39;s documentation. The ecosystem is expanding, but vendor lock-in risk exists if only a few models support it widely.</p>
+      </div>
+    </details>
+
+    <details class="faq-item" style="border-bottom:1px solid var(--color-rule);padding:var(--space-4) 0;">
+      <summary style="cursor:pointer;font-weight:600;font-size:var(--text-md);list-style:none;display:flex;justify-content:space-between;align-items:flex-start;gap:var(--space-3);">
+        <span>How do I handle authentication in an MCP server?</span>
+        <span aria-hidden="true" style="color:var(--color-ink-faint);font-weight:400;flex-shrink:0;">+</span>
+      </summary>
+      <div style="margin-top:var(--space-3);color:var(--color-ink-muted);line-height:1.7;">
+        <p>Authentication is the responsibility of the MCP server, not the protocol. Common patterns include API keys passed at server startup, OAuth2 flows managed by the server, or network-level access control (firewall rules). The server must validate credentials before exposing sensitive resources or tools.</p>
+      </div>
+    </details>
+
+    <details class="faq-item" style="border-bottom:1px solid var(--color-rule);padding:var(--space-4) 0;">
+      <summary style="cursor:pointer;font-weight:600;font-size:var(--text-md);list-style:none;display:flex;justify-content:space-between;align-items:flex-start;gap:var(--space-3);">
+        <span>Can I run multiple MCP servers for one LLM?</span>
+        <span aria-hidden="true" style="color:var(--color-ink-faint);font-weight:400;flex-shrink:0;">+</span>
+      </summary>
+      <div style="margin-top:var(--space-3);color:var(--color-ink-muted);line-height:1.7;">
+        <p>Yes. Most MCP implementations support composing multiple servers. The LLM client can connect to several MCP servers simultaneously, each exposing different tools or data sources. This allows modular architecture where you isolate concerns, manage permissions per server, and scale components independently.</p>
+      </div>
+    </details></div>
+      </section>
+          <p style="font-size:var(--text-xs);color:var(--color-ink-faint);margin-top:var(--space-6);padding-top:var(--space-4);border-top:1px solid var(--color-rule);">
+            An <strong>AI Glimpse</strong> explainer. We update this guide as the field evolves.
+          </p>
+        </div>
+      </section>
+    </article>
+  </main>
+  <div id="site-footer-slot"></div>
+  <script src="/js/chrome.js"></script>
+  <script src="/js/main.js"></script>
+</body>
+</html>

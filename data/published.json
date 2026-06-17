@@ -1,6 +1,18 @@
 {
   "articles": [
     {
+      "slug": "what-is-model-context-protocol-mcp",
+      "title": "What Is the Model Context Protocol? A Developer's Guide",
+      "subtitle": "How MCP standardizes connections between LLMs and external tools, data sources, and APIs.",
+      "category": "tools",
+      "publishedAt": "2026-06-17T10:29:32.019Z",
+      "sourceUrl": null,
+      "sourceName": "AI Glimpse Newsroom",
+      "sourceTier": 0,
+      "image": "/images/articles/what-is-model-context-protocol-mcp.jpg",
+      "evergreen": true
+    },
+    {
       "slug": "self-correcting-robots-learn-on-the-job-without-human-guidance-dc925ffd",
       "title": "Self-Correcting Robots Learn on the Job Without Human Guidance",
       "subtitle": "New framework lets deployed robots improve performance in real time by verifying their own actions, eliminating the need for constant human supervision.",
