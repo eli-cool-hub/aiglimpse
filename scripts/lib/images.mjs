@@ -597,10 +597,12 @@ export async function generateArticleImage(slug, titleOrOpts, categoryMaybe) {
   const svgPath = path.join(IMAGES_DIR, `${slug}.svg`);
   const jpgUrl = `/images/articles/${slug}.jpg`;
   const svgUrl = `/images/articles/${slug}.svg`;
+  const jpgBackup = path.join(IMAGES_DIR, `${slug}.jpg.bak`);
+  const svgBackup = path.join(IMAGES_DIR, `${slug}.svg.bak`);
 
   if (force) {
-    try { await fs.unlink(jpgPath); } catch {}
-    try { await fs.unlink(svgPath); } catch {}
+    try { await fs.rename(jpgPath, jpgBackup); } catch {}
+    try { await fs.rename(svgPath, svgBackup); } catch {}
   } else {
     try {
       const stat = await fs.stat(jpgPath);
@@ -617,12 +619,26 @@ export async function generateArticleImage(slug, titleOrOpts, categoryMaybe) {
     const { buf, photographer, query } = await tryPexelsHero(slug, opts);
     await fs.writeFile(jpgPath, buf);
     try { await fs.unlink(svgPath); } catch {}
+    try { await fs.unlink(jpgBackup); } catch {}
+    try { await fs.unlink(svgBackup); } catch {}
     const credit = photographer ? `, photo by ${photographer}` : '';
     console.log(`    📷 Pexels hero [${query}] ${(buf.length / 1024).toFixed(0)} KB${credit}`);
     return jpgUrl;
   } catch (e) {
     if (e.skipped) console.warn('    ↻ Pexels skipped: PEXELS_API_KEY not set');
     else console.warn(`    ↻ Pexels failed: ${e.message}`);
+  }
+
+  if (force) {
+    try {
+      await fs.rename(jpgBackup, jpgPath);
+      try { await fs.unlink(svgPath); } catch {}
+      return jpgUrl;
+    } catch {}
+    try {
+      await fs.rename(svgBackup, svgPath);
+      return svgUrl;
+    } catch {}
   }
 
   if (!force) {
@@ -638,6 +654,8 @@ export async function generateArticleImage(slug, titleOrOpts, categoryMaybe) {
 
   const svg = buildSvgCard(slug, opts.title, opts.category);
   await fs.writeFile(svgPath, svg);
+  try { await fs.unlink(jpgBackup); } catch {}
+  try { await fs.unlink(svgBackup); } catch {}
   console.log('    🎨 branded SVG card generated (Pexels unavailable)');
   return svgUrl;
 }

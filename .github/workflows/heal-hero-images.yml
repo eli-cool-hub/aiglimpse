@@ -3,9 +3,16 @@ name: Heal Hero Images
 # Re-picks Pexels hero photos using article-specific queries (title, subtitle,
 # body context) instead of generic category stock. Safe to run after image
 # matching improvements.
+#
+# Default mode only heals SVG fallbacks. Pass refresh_all=true to re-pick every JPG.
 
 on:
   workflow_dispatch:
+    inputs:
+      refresh_all:
+        description: Re-pick ALL JPG heroes (slower; use sparingly)
+        type: boolean
+        default: false
 
 concurrency:
   group: aiglimpse-content-push
@@ -25,10 +32,15 @@ jobs:
 
       - run: npm install --no-fund --no-audit
 
-      - name: Refresh hero images
+      - name: Heal hero images
         env:
           PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
-        run: node scripts/heal-images.mjs --refresh
+        run: |
+          if [ "${{ github.event.inputs.refresh_all }}" = "true" ]; then
+            node scripts/heal-images.mjs --refresh
+          else
+            node scripts/heal-images.mjs --svg
+          fi
 
       - name: Commit and push
         id: commit
@@ -40,7 +52,7 @@ jobs:
           if git diff --staged --quiet; then
             echo "changed=false" >> "$GITHUB_OUTPUT"
           else
-            git commit -m "🖼 Refresh hero images with article-specific Pexels queries ($(date -u +'%Y-%m-%d'))"
+            git commit -m "🖼 Heal hero images ($(date -u +'%Y-%m-%d'))"
             git pull --rebase origin main
             git push
             echo "changed=true" >> "$GITHUB_OUTPUT"
