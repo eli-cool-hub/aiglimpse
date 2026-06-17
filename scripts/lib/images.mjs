@@ -377,7 +377,7 @@ function isBlockedAlt(photo, opts) {
   // LLM / software articles should not get robot stock photos.
   if (!isRoboticsArticle(blob) &&
       /\b(llm|language model|chatgpt|gpt|claude|gemini|glm|alibaba|codex|multi-step|reasoning)\b/i.test(blob) &&
-      /\b(robot|humanoid)\b/i.test(alt)) {
+      /\b(robot|humanoid|android|cyborg|bionic)\b/i.test(alt)) {
     return true;
   }
   return false;
@@ -410,7 +410,7 @@ function photoRelevanceScore(photo, query, opts) {
 
   if (!isRoboticsArticle(blob) &&
       /\b(llm|language model|chatgpt|gpt|claude|gemini|glm|alibaba)\b/i.test(blob) &&
-      /\b(robot|humanoid)\b/i.test(alt)) {
+      /\b(robot|humanoid|android|cyborg)\b/i.test(alt)) {
     score -= 5;
   }
   return score;
