@@ -7,6 +7,30 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Alibaba's GLM-5.2 Takes Aim at Complex, Multi-Step AI Tasks</title>
+      <link>https://aiglimpse.ai/articles/alibabas-glm-52-takes-aim-at-complex-multi-step-ai-tasks-9f28c1b8</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/alibabas-glm-52-takes-aim-at-complex-multi-step-ai-tasks-9f28c1b8</guid>
+      <description>The Chinese tech giant releases a new language model designed to handle extended reasoning and planning across longer sequences of work.</description>
+      <pubDate>Wed, 17 Jun 2026 09:01:25 GMT</pubDate>
+      <category>AI Tools &amp; Products</category>
+    </item>
+    <item>
+      <title>Amazon's Robotics Push Bridges AI Models to Physical Hardware</title>
+      <link>https://aiglimpse.ai/articles/amazons-robotics-push-bridges-ai-models-to-physical-hardware-20e99bda</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/amazons-robotics-push-bridges-ai-models-to-physical-hardware-20e99bda</guid>
+      <description>New integration framework lets developers deploy machine learning directly onto robot platforms, accelerating the shift toward embodied AI.</description>
+      <pubDate>Wed, 17 Jun 2026 10:18:05 GMT</pubDate>
+      <category>AI Tools &amp; Products</category>
+    </item>
+    <item>
+      <title>What Is the Model Context Protocol? A Developer's Guide</title>
+      <link>https://aiglimpse.ai/articles/what-is-model-context-protocol-mcp</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/what-is-model-context-protocol-mcp</guid>
+      <description>How MCP standardizes connections between LLMs and external tools, data sources, and APIs.</description>
+      <pubDate>Wed, 17 Jun 2026 10:29:32 GMT</pubDate>
+      <category>AI Tools &amp; Products</category>
+    </item>
+    <item>
       <title>Self-Correcting Robots Learn on the Job Without Human Guidance</title>
       <link>https://aiglimpse.ai/articles/self-correcting-robots-learn-on-the-job-without-human-guidance-dc925ffd</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/self-correcting-robots-learn-on-the-job-without-human-guidance-dc925ffd</guid>
@@ -381,30 +405,6 @@
       <description>Export controls and reported safety vulnerabilities force sudden shutdown of Fable 5 and Mythos 5, raising questions about AI deployment oversight.</description>
       <pubDate>Sat, 13 Jun 2026 03:00:34 GMT</pubDate>
       <category>AI Tools &amp; Products</category>
-    </item>
-    <item>
-      <title>AI Models Show Promise in Automating Scientific Reproducibility Checks</title>
-      <link>https://aiglimpse.ai/articles/ai-models-show-promise-in-automating-scientific-reproducibility-checks-5e8b8636</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/ai-models-show-promise-in-automating-scientific-reproducibility-checks-5e8b8636</guid>
-      <description>Researchers find large language models can verify research findings at scale, outperforming human reviewers on some metrics.</description>
-      <pubDate>Thu, 11 Jun 2026 17:58:36 GMT</pubDate>
-      <category>AI Research</category>
-    </item>
-    <item>
-      <title>New Training Method Unlocks Depth Perception in Image Generation AI</title>
-      <link>https://aiglimpse.ai/articles/new-training-method-unlocks-depth-perception-in-image-generation-ai-79476b0d</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-training-method-unlocks-depth-perception-in-image-generation-ai-79476b0d</guid>
-      <description>Researchers show that scaling image models with sparse depth data produces competitive 3D scene understanding, without dense annotation requirements.</description>
-      <pubDate>Thu, 11 Jun 2026 17:59:45 GMT</pubDate>
-      <category>AI Research</category>
-    </item>
-    <item>
-      <title>Researchers Teach Robots to Master Complex Tools Through Animation</title>
-      <link>https://aiglimpse.ai/articles/researchers-teach-robots-to-master-complex-tools-through-animation-c13d0bf3</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/researchers-teach-robots-to-master-complex-tools-through-animation-c13d0bf3</guid>
-      <description>New framework enables robots to grasp and manipulate articulated tools by treating the problem as motion animation rather than traditional manipulation.</description>
-      <pubDate>Thu, 11 Jun 2026 17:59:49 GMT</pubDate>
-      <category>AI Research</category>
     </item>
   </channel>
 </rss>

@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "alibabas-glm-52-takes-aim-at-complex-multi-step-ai-tasks-9f28c1b8",
+      "title": "Alibaba's GLM-5.2 Takes Aim at Complex, Multi-Step AI Tasks",
+      "subtitle": "The Chinese tech giant releases a new language model designed to handle extended reasoning and planning across longer sequences of work.",
+      "category": "tools",
+      "publishedAt": "2026-06-17T09:01:25.000Z",
+      "sourceUrl": "https://huggingface.co/blog/zai-org/glm-52-blog",
+      "sourceName": "Hugging Face",
+      "sourceTier": 1,
+      "image": "/images/articles/alibabas-glm-52-takes-aim-at-complex-multi-step-ai-tasks-9f28c1b8.jpg"
+    },
+    {
+      "slug": "amazons-robotics-push-bridges-ai-models-to-physical-hardware-20e99bda",
+      "title": "Amazon's Robotics Push Bridges AI Models to Physical Hardware",
+      "subtitle": "New integration framework lets developers deploy machine learning directly onto robot platforms, accelerating the shift toward embodied AI.",
+      "category": "tools",
+      "publishedAt": "2026-06-17T10:18:05.000Z",
+      "sourceUrl": "https://huggingface.co/blog/amazon/strands-lerobot-hub-to-hardware",
+      "sourceName": "Hugging Face",
+      "sourceTier": 1,
+      "image": "/images/articles/amazons-robotics-push-bridges-ai-models-to-physical-hardware-20e99bda.jpg"
+    },
+    {
       "slug": "what-is-model-context-protocol-mcp",
       "title": "What Is the Model Context Protocol? A Developer's Guide",
       "subtitle": "How MCP standardizes connections between LLMs and external tools, data sources, and APIs.",
@@ -3285,6 +3307,8 @@
     "1cd14ccc0c49e4ab",
     "cfcf6de0caf9a10c",
     "7bb3ab64f337f0b2",
-    "dc925ffd2ced27f9"
+    "dc925ffd2ced27f9",
+    "20e99bdafca56a7a",
+    "9f28c1b8ac507deb"
   ]
 }
