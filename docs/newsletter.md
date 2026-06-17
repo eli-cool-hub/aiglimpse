@@ -44,7 +44,19 @@ Redeploy after saving.
 
 ### 4. GitHub Actions secrets (daily send workflow)
 
-Same four values (or at minimum `RESEND_*` three for `newsletter-daily.yml`).
+| Secret | Notes |
+|---|---|
+| `RESEND_API_KEY` | Same as Cloudflare |
+| `RESEND_FROM_EMAIL` | `AI Glimpse <daily@aiglimpse.ai>` |
+| `RESEND_SEGMENT_ID` | From `node scripts/setup-resend-segment.mjs` (preferred) |
+| `RESEND_AUDIENCE_ID` | Legacy alias — still accepted |
+
+Add via GitHub → **Settings → Secrets and variables → Actions → New repository secret**.
+
+```bash
+# Print segment id after creating in Resend
+RESEND_API_KEY=re_xxx node scripts/setup-resend-segment.mjs
+```
 
 ## Flow
 

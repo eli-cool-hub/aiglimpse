@@ -1,16 +1,12 @@
-name: Heal recent article images
+name: Heal SVG image fallbacks
 
-# Re-picks hero (+ inline) photos for articles published in the last ~14 days
-# using improved Pexels relevance filters (blocks coffee, pets, etc.).
+# Replaces branded SVG hero cards with real Pexels photos when the API key is available.
+# Also runs after image-matching improvements to recover articles that fell back to SVG.
 
 on:
   workflow_dispatch:
-    inputs:
-      days:
-        description: Look back N days
-        default: '14'
   schedule:
-    - cron: '0 6 * * 1'
+    - cron: '30 5 * * 3'  # Wed 05:30 UTC
 
 concurrency:
   group: aiglimpse-content-push
@@ -30,12 +26,10 @@ jobs:
 
       - run: npm install --no-fund --no-audit
 
-      - name: Heal recent heroes and inline images
+      - name: Replace SVG fallbacks with Pexels heroes
         env:
           PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
-        run: |
-          node scripts/heal-recent-images.mjs --days "${{ github.event.inputs.days || '14' }}"
-          node scripts/heal-images.mjs --svg
+        run: node scripts/heal-images.mjs --svg
 
       - name: Commit and push
         id: commit
@@ -47,14 +41,14 @@ jobs:
           if git diff --staged --quiet; then
             echo "changed=false" >> "$GITHUB_OUTPUT"
           else
-            git commit -m "🖼 Heal recent article images ($(date -u +'%Y-%m-%d'))"
+            git commit -m "🖼 Heal SVG image fallbacks ($(date -u +'%Y-%m-%d'))"
             git pull --rebase origin main
             git push
             echo "changed=true" >> "$GITHUB_OUTPUT"
           fi
 
       - name: Deploy to Cloudflare Pages
-        if: steps.commit.outputs.changed == 'true' && env.CLOUDFLARE_API_TOKEN != '' && env.CLOUDFLARE_ACCOUNT_ID != ''
+        if: steps.commit.outputs.changed == 'true'
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}

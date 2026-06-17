@@ -65,14 +65,13 @@ for (const article of recent) {
   const imageOpts = { ...ctx, category: article.category };
 
   if (FORCE) {
-    for (const suffix of ['', '-inline-1', '-inline-2']) {
+    html = html.replace(/<figure class="article-image article-image--inline">[\s\S]*?<\/figure>\s*/g, '');
+    for (const suffix of ['-inline-1', '-inline-2']) {
       try { await fs.unlink(path.join(ROOT, 'images/articles', `${article.slug}${suffix}.jpg`)); } catch {}
     }
-    try { await fs.unlink(path.join(ROOT, 'images/articles', `${article.slug}.svg`)); } catch {}
-    html = html.replace(/<figure class="article-image article-image--inline">[\s\S]*?<\/figure>\s*/g, '');
   }
 
-  const imagePath = await generateArticleImage(article.slug, imageOpts);
+  const imagePath = await generateArticleImage(article.slug, { ...imageOpts, force: FORCE });
   let dirty = false;
   if (imagePath && imagePath !== article.image) {
     article.image = imagePath;

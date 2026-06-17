@@ -86,7 +86,8 @@ for (const a of targets) {
     subtitle: ctx.subtitle,
     keywords: [],
     bodyHtml: ctx.bodyHtml,
-    category: a.category
+    category: a.category,
+    force: REFRESH || (HEAL_SVG && oldUrl.endsWith('.svg'))
   };
   const newUrl = await generateArticleImage(a.slug, imageOpts);
   if (newUrl === oldUrl) {

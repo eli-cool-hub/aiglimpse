@@ -112,7 +112,12 @@ const VISUAL_HINTS = [
   { re: /\b(whale|ocean|marine|ship)\b/i, q: 'whale ocean ship aerial' },
   { re: /\b(brain|neuroscience|cognitive)\b/i, q: 'brain scan medical research' },
   { re: /\b(protein|biology|genome|dna)\b/i, q: 'dna laboratory microscope' },
-  { re: /\b(arxiv|paper|benchmark)\b/i, q: 'scientist writing notes laptop' }
+  { re: /\b(arxiv|paper|benchmark)\b/i, q: 'scientist writing notes laptop' },
+  { re: /\b(alibaba|glm|qwen|deepseek|mistral|llama)\b/i, q: 'laptop screen technology office' },
+  { re: /\b(language model|multi-step|reasoning chain|chain of thought)\b/i, q: 'developer laptop code screen' },
+  { re: /\b(tax filing|accounting|bookkeeping|irs)\b/i, q: 'accountant laptop spreadsheet office' },
+  { re: /\b(housing|planning permission|construction permit)\b/i, q: 'urban planning blueprint architecture' },
+  { re: /\b(mcp|model context protocol)\b/i, q: 'software developer api integration laptop' }
 ];
 
 const _usedPhotoIds = new Set();
@@ -324,7 +329,7 @@ const PEXELS_TIMEOUT_MS = 12000;
 const PEXELS_PER_PAGE = 30;
 
 // Reject stock photos whose Pexels alt text clearly mismatches the article topic.
-const IRRELEVANT_ALT = /\b(coffee|espresso|moka|latte|cappuccino|barista|breakfast|pancake|croissant|salad|pizza|beer|wine glass|cocktail|yoga mat|hair salon|makeup artist|wedding bouquet|engagement ring|pet dog|cat sleeping|beach sunset|mountain hike|fitness gym dumbbell|photographer|holding camera|dslr|photo shoot|whiteboard.*start up|startup.*whiteboard)\b/i;
+const IRRELEVANT_ALT = /\b(coffee|espresso|moka|latte|cappuccino|barista|breakfast|pancake|croissant|salad|pizza|beer|wine glass|cocktail|yoga mat|hair salon|hair transplant|makeup artist|wedding bouquet|engagement ring|pet dog|cat sleeping|beach sunset|mountain hike|fitness gym dumbbell|photographer|holding camera|dslr|photo shoot|whiteboard.*start up|startup.*whiteboard|holding (a )?gun|black gun|handgun|rifle|weapon|sword statue|dice on|text on dice|car engine|engine under hood|euro coin|payment card|eyeglasses on|vr headset|virtual reality headset|mannequin on|transparent mannequin|wooden mannequin|chess pieces|chess board|holding sword|grayscale photo of man)\b/i;
 
 const TOPIC_HINTS = [
   { re: /\b(nvidia|gpu|chip|semiconductor|rubin|cosmos|cuda)\b/i, want: /\b(chip|computer|server|data center|circuit|technology|robot|factory)\b/i },
@@ -332,7 +337,9 @@ const TOPIC_HINTS = [
   { re: /\b(robot|humanoid|robotics|warehouse)\b/i, want: /\b(robot|automation|factory|warehouse|arm)\b/i },
   { re: /\b(security|vulnerability|hack|breach|malware)\b/i, want: /\b(code|computer|security|hacker|developer|laptop|server)\b/i },
   { re: /\b(fastapi|starlette|python|code|developer|github)\b/i, want: /\b(code|programming|laptop|developer|computer|software)\b/i },
-  { re: /\b(openai|chatgpt|llm|claude|gemini)\b/i, want: /\b(laptop|chat|technology|office|computer|ai)\b/i }
+  { re: /\b(openai|chatgpt|llm|claude|gemini|glm|alibaba|language model|gpt-?\d)\b/i, want: /\b(laptop|chat|technology|office|computer|code|screen|developer)\b/i },
+  { re: /\b(tax|accounting|bookkeeping|filing)\b/i, want: /\b(accountant|spreadsheet|laptop|office|documents|desk)\b/i },
+  { re: /\b(housing|planning|construction|building permit)\b/i, want: /\b(architecture|blueprint|construction|building|urban|city)\b/i }
 ];
 
 function articleContextBlob(opts) {
@@ -358,10 +365,28 @@ function matchTokensForPhoto(opts, query) {
   return [...tokens].filter(t => t.length >= 4 && !TITLE_STOPWORDS.has(t));
 }
 
+function isRoboticsArticle(blob) {
+  return /\b(robot|humanoid|robotics|warehouse|manipulation|cobot|optimus|boston dynamics)\b/i.test(blob);
+}
+
+function isBlockedAlt(photo, opts) {
+  const alt = String(photo?.alt || '').toLowerCase();
+  if (!alt) return true;
+  const blob = articleContextBlob(opts);
+  if (IRRELEVANT_ALT.test(alt) && !IRRELEVANT_ALT.test(blob)) return true;
+  // LLM / software articles should not get robot stock photos.
+  if (!isRoboticsArticle(blob) &&
+      /\b(llm|language model|chatgpt|gpt|claude|gemini|glm|alibaba|codex|multi-step|reasoning)\b/i.test(blob) &&
+      /\b(robot|humanoid)\b/i.test(alt)) {
+    return true;
+  }
+  return false;
+}
+
 function photoRelevanceScore(photo, query, opts) {
   const alt = String(photo?.alt || '').toLowerCase();
   if (!alt) return 0;
-  if (IRRELEVANT_ALT.test(alt) && !IRRELEVANT_ALT.test(articleContextBlob(opts))) return -5;
+  if (isBlockedAlt(photo, opts)) return -5;
 
   const tokens = matchTokensForPhoto(opts, query);
   let score = 0;
@@ -381,6 +406,12 @@ function photoRelevanceScore(photo, query, opts) {
   if (/\b(robot|quantum|server|chip|code|developer|hospital|dna)\b/i.test(blob) &&
       /\b(portrait|model posing|fashion|selfie|couple|friends laughing)\b/i.test(alt)) {
     score -= 3;
+  }
+
+  if (!isRoboticsArticle(blob) &&
+      /\b(llm|language model|chatgpt|gpt|claude|gemini|glm|alibaba)\b/i.test(blob) &&
+      /\b(robot|humanoid)\b/i.test(alt)) {
+    score -= 5;
   }
   return score;
 }
@@ -415,6 +446,7 @@ function pickRelevantPhoto(photos, slug, slot, query, opts) {
   for (let offset = 0; offset < photos.length; offset++) {
     const candidate = photos[(seed + offset) % photos.length];
     if (!candidate || _usedPhotoIds.has(candidate.id)) continue;
+    if (isBlockedAlt(candidate, opts)) continue;
     const score = photoRelevanceScore(candidate, query, opts);
     if (score > bestScore) {
       bestScore = score;
@@ -422,6 +454,8 @@ function pickRelevantPhoto(photos, slug, slot, query, opts) {
     }
   }
   if (best && bestScore >= 2) return best;
+  // Accept a decent fallback rather than falling back to SVG or keeping a bad image.
+  if (best && bestScore >= 0) return best;
   return null;
 }
 
@@ -557,34 +591,55 @@ function buildSvgCard(slug, title, category) {
  */
 export async function generateArticleImage(slug, titleOrOpts, categoryMaybe) {
   const opts = normalizeOpts(titleOrOpts, categoryMaybe);
+  const force = opts.force === true;
   await fs.mkdir(IMAGES_DIR, { recursive: true });
   const jpgPath = path.join(IMAGES_DIR, `${slug}.jpg`);
   const svgPath = path.join(IMAGES_DIR, `${slug}.svg`);
+  const jpgUrl = `/images/articles/${slug}.jpg`;
+  const svgUrl = `/images/articles/${slug}.svg`;
 
-  try {
-    const stat = await fs.stat(jpgPath);
-    if (stat.size > 5000) return `/images/articles/${slug}.jpg`;
-  } catch {}
-  try {
-    await fs.stat(svgPath);
-    return `/images/articles/${slug}.svg`;
-  } catch {}
+  if (force) {
+    try { await fs.unlink(jpgPath); } catch {}
+    try { await fs.unlink(svgPath); } catch {}
+  } else {
+    try {
+      const stat = await fs.stat(jpgPath);
+      if (stat.size > 5000) return jpgUrl;
+    } catch {}
+    // Retry Pexels when only an SVG fallback exists and a key is available.
+    try {
+      await fs.stat(svgPath);
+      if (!process.env.PEXELS_API_KEY) return svgUrl;
+    } catch {}
+  }
 
   try {
     const { buf, photographer, query } = await tryPexelsHero(slug, opts);
     await fs.writeFile(jpgPath, buf);
+    try { await fs.unlink(svgPath); } catch {}
     const credit = photographer ? `, photo by ${photographer}` : '';
     console.log(`    📷 Pexels hero [${query}] ${(buf.length / 1024).toFixed(0)} KB${credit}`);
-    return `/images/articles/${slug}.jpg`;
+    return jpgUrl;
   } catch (e) {
     if (e.skipped) console.warn('    ↻ Pexels skipped: PEXELS_API_KEY not set');
     else console.warn(`    ↻ Pexels failed: ${e.message}`);
   }
 
+  if (!force) {
+    try {
+      await fs.stat(jpgPath);
+      return jpgUrl;
+    } catch {}
+    try {
+      await fs.stat(svgPath);
+      return svgUrl;
+    } catch {}
+  }
+
   const svg = buildSvgCard(slug, opts.title, opts.category);
   await fs.writeFile(svgPath, svg);
   console.log('    🎨 branded SVG card generated (Pexels unavailable)');
-  return `/images/articles/${slug}.svg`;
+  return svgUrl;
 }
 
 /**

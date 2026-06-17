@@ -22,10 +22,35 @@ jobs:
         with:
           node-version: '20'
 
+      - name: Verify Resend secrets
+        env:
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+          RESEND_FROM_EMAIL: ${{ secrets.RESEND_FROM_EMAIL }}
+          RESEND_SEGMENT_ID: ${{ secrets.RESEND_SEGMENT_ID }}
+          RESEND_AUDIENCE_ID: ${{ secrets.RESEND_AUDIENCE_ID }}
+        run: |
+          set -euo pipefail
+          missing=0
+          if [ -z "$RESEND_API_KEY" ]; then
+            echo "::error::RESEND_API_KEY is not set. Add it in GitHub → Settings → Secrets → Actions."
+            missing=1
+          fi
+          if [ -z "$RESEND_FROM_EMAIL" ]; then
+            echo "::error::RESEND_FROM_EMAIL is not set (e.g. 'AI Glimpse <daily@aiglimpse.ai>')."
+            missing=1
+          fi
+          if [ -z "$RESEND_SEGMENT_ID" ] && [ -z "$RESEND_AUDIENCE_ID" ]; then
+            echo "::error::RESEND_SEGMENT_ID (or legacy RESEND_AUDIENCE_ID) is not set."
+            echo "Run: RESEND_API_KEY=re_xxx node scripts/setup-resend-segment.mjs"
+            missing=1
+          fi
+          exit $missing
+
       - name: Send digest via Resend
         env:
           RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
           RESEND_FROM_EMAIL: ${{ secrets.RESEND_FROM_EMAIL }}
+          RESEND_SEGMENT_ID: ${{ secrets.RESEND_SEGMENT_ID }}
           RESEND_AUDIENCE_ID: ${{ secrets.RESEND_AUDIENCE_ID }}
           SITE_URL: https://aiglimpse.ai
         run: node scripts/send-daily-newsletter.mjs
