@@ -630,6 +630,13 @@ export async function generateArticleImage(slug, titleOrOpts, categoryMaybe) {
   }
 
   if (force) {
+    // Intentional refresh: do not restore a JPG backup (it may be the bad image
+    // we're replacing). Prefer keeping SVG or generating a new fallback.
+    try {
+      await fs.rename(svgBackup, svgPath);
+      return svgUrl;
+    } catch {}
+  } else {
     try {
       await fs.rename(jpgBackup, jpgPath);
       try { await fs.unlink(svgPath); } catch {}
@@ -637,17 +644,6 @@ export async function generateArticleImage(slug, titleOrOpts, categoryMaybe) {
     } catch {}
     try {
       await fs.rename(svgBackup, svgPath);
-      return svgUrl;
-    } catch {}
-  }
-
-  if (!force) {
-    try {
-      await fs.stat(jpgPath);
-      return jpgUrl;
-    } catch {}
-    try {
-      await fs.stat(svgPath);
       return svgUrl;
     } catch {}
   }
