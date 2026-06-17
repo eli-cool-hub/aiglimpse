@@ -638,12 +638,11 @@ export async function generateArticleImage(slug, titleOrOpts, categoryMaybe) {
     } catch {}
   } else {
     try {
-      await fs.rename(jpgBackup, jpgPath);
-      try { await fs.unlink(svgPath); } catch {}
+      await fs.stat(jpgPath);
       return jpgUrl;
     } catch {}
     try {
-      await fs.rename(svgBackup, svgPath);
+      await fs.stat(svgPath);
       return svgUrl;
     } catch {}
   }
