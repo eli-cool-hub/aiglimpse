@@ -3278,6 +3278,42 @@
         "devto": true,
         "hashnode": false
       }
+    },
+    "openai-unveils-lifescibench-to-test-ai-performance-on-biomedical-research-163b495b": {
+      "syndicated_at": "2026-06-17T22:02:20.410Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/openai-unveils-lifescibench-to-test-ai-performance-on-biomedical-research-50hk",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 446,
+      "category": "llms",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
+    },
+    "researchers-rethink-transformer-design-with-uneven-layer-architecture-28b2648a": {
+      "syndicated_at": "2026-06-17T22:02:31.066Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/researchers-rethink-transformer-design-with-uneven-layer-architecture-203g",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 472,
+      "category": "research",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
     }
   }
 }
