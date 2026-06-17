@@ -7,6 +7,22 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Self-Correcting Robots Learn on the Job Without Human Guidance</title>
+      <link>https://aiglimpse.ai/articles/self-correcting-robots-learn-on-the-job-without-human-guidance-dc925ffd</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/self-correcting-robots-learn-on-the-job-without-human-guidance-dc925ffd</guid>
+      <description>New framework lets deployed robots improve performance in real time by verifying their own actions, eliminating the need for constant human supervision.</description>
+      <pubDate>Tue, 16 Jun 2026 17:59:04 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
+      <title>New AI Model Predicts 3D Worlds More Accurately for Autonomous Robots</title>
+      <link>https://aiglimpse.ai/articles/new-ai-model-predicts-3d-worlds-more-accurately-for-autonomous-robots-7bb3ab64</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-ai-model-predicts-3d-worlds-more-accurately-for-autonomous-robots-7bb3ab64</guid>
+      <description>Researchers separate motion from environment to solve a fundamental problem in how machines understand dynamic scenes.</description>
+      <pubDate>Tue, 16 Jun 2026 17:59:46 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
       <title>OpenAI Tests AI Models in Simulated Deployments Before Release</title>
       <link>https://aiglimpse.ai/articles/openai-tests-ai-models-in-simulated-deployments-before-release-cfcf6de0</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/openai-tests-ai-models-in-simulated-deployments-before-release-cfcf6de0</guid>
@@ -389,22 +405,6 @@
       <description>New framework enables robots to grasp and manipulate articulated tools by treating the problem as motion animation rather than traditional manipulation.</description>
       <pubDate>Thu, 11 Jun 2026 17:59:49 GMT</pubDate>
       <category>AI Research</category>
-    </item>
-    <item>
-      <title>New Benchmark Exposes AI Agents' Struggle With Changing Environments</title>
-      <link>https://aiglimpse.ai/articles/new-benchmark-exposes-ai-agents-struggle-with-changing-environments-480b27c3</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-benchmark-exposes-ai-agents-struggle-with-changing-environments-480b27c3</guid>
-      <description>Researchers reveal that language model agents fail to adapt effectively when conditions shift, proposing a memory-tracking solution to improve real-world deployment.</description>
-      <pubDate>Thu, 11 Jun 2026 17:59:59 GMT</pubDate>
-      <category>AI Research</category>
-    </item>
-    <item>
-      <title>OpenAI Launches Skill-Building Academy to Train Workers on AI</title>
-      <link>https://aiglimpse.ai/articles/openai-launches-skill-building-academy-to-train-workers-on-ai-54f756ce</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/openai-launches-skill-building-academy-to-train-workers-on-ai-54f756ce</guid>
-      <description>New structured courses aim to equip professionals with hands-on expertise in applying large language models and autonomous agents to workplace tasks.</description>
-      <pubDate>Fri, 12 Jun 2026 10:00:00 GMT</pubDate>
-      <category>LLMs &amp; Chatbots</category>
     </item>
   </channel>
 </rss>
