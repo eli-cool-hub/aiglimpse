@@ -7,6 +7,22 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Hugging Face Launches Search Tools for AI Agent Development</title>
+      <link>https://aiglimpse.ai/articles/hugging-face-launches-search-tools-for-ai-agent-development-ceafc447</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/hugging-face-launches-search-tools-for-ai-agent-development-ceafc447</guid>
+      <description>New resource discovery framework enables autonomous agents to locate and retrieve information dynamically, expanding capabilities beyond static training data.</description>
+      <pubDate>Wed, 17 Jun 2026 00:00:00 GMT</pubDate>
+      <category>AI Tools &amp; Products</category>
+    </item>
+    <item>
+      <title>AI System Autonomously Optimizes Complex Drug Synthesis Reaction</title>
+      <link>https://aiglimpse.ai/articles/ai-system-autonomously-optimizes-complex-drug-synthesis-reaction-a3bdd8f6</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/ai-system-autonomously-optimizes-complex-drug-synthesis-reaction-a3bdd8f6</guid>
+      <description>OpenAI and Molecule.one demonstrate how large language models can accelerate pharmaceutical research by improving challenging chemical processes.</description>
+      <pubDate>Wed, 17 Jun 2026 10:00:00 GMT</pubDate>
+      <category>LLMs &amp; Chatbots</category>
+    </item>
+    <item>
       <title>Researchers Unify Image Understanding and Generation in Single AI Model</title>
       <link>https://aiglimpse.ai/articles/researchers-unify-image-understanding-and-generation-in-single-ai-model-7aadc684</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/researchers-unify-image-understanding-and-generation-in-single-ai-model-7aadc684</guid>
@@ -388,22 +404,6 @@
       <guid isPermaLink="true">https://aiglimpse.ai/articles/new-framework-lets-ai-agents-reason-about-3d-space-more-flexibly-9d55c676</guid>
       <description>Researchers propose SpatialClaw, which uses executable code to help vision-language models understand complex spatial relationships and adapt reasoning on the fly.</description>
       <pubDate>Thu, 11 Jun 2026 17:59:36 GMT</pubDate>
-      <category>AI Research</category>
-    </item>
-    <item>
-      <title>New Framework Shifts Focus to Environment Design for AI Research Agents</title>
-      <link>https://aiglimpse.ai/articles/new-framework-shifts-focus-to-environment-design-for-ai-research-agents-1217442f</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-framework-shifts-focus-to-environment-design-for-ai-research-agents-1217442f</guid>
-      <description>Researchers argue that sculpting computational environments, not just algorithms, is key to unlocking autonomous scientific breakthroughs.</description>
-      <pubDate>Thu, 11 Jun 2026 17:56:35 GMT</pubDate>
-      <category>AI Research</category>
-    </item>
-    <item>
-      <title>New AI Model Teaches Robots to Understand Action Through Semantic Tokens</title>
-      <link>https://aiglimpse.ai/articles/new-ai-model-teaches-robots-to-understand-action-through-semantic-tokens-0039ebff</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-ai-model-teaches-robots-to-understand-action-through-semantic-tokens-0039ebff</guid>
-      <description>RepWAM advances robot learning by prioritizing meaningful action representations over pixel-perfect reconstruction.</description>
-      <pubDate>Thu, 11 Jun 2026 17:59:43 GMT</pubDate>
       <category>AI Research</category>
     </item>
   </channel>

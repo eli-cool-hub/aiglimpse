@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "hugging-face-launches-search-tools-for-ai-agent-development-ceafc447",
+      "title": "Hugging Face Launches Search Tools for AI Agent Development",
+      "subtitle": "New resource discovery framework enables autonomous agents to locate and retrieve information dynamically, expanding capabilities beyond static training data.",
+      "category": "tools",
+      "publishedAt": "2026-06-17T00:00:00.000Z",
+      "sourceUrl": "https://huggingface.co/blog/agentic-resource-discovery-launch",
+      "sourceName": "Hugging Face",
+      "sourceTier": 1,
+      "image": "/images/articles/hugging-face-launches-search-tools-for-ai-agent-development-ceafc447.jpg"
+    },
+    {
+      "slug": "ai-system-autonomously-optimizes-complex-drug-synthesis-reaction-a3bdd8f6",
+      "title": "AI System Autonomously Optimizes Complex Drug Synthesis Reaction",
+      "subtitle": "OpenAI and Molecule.one demonstrate how large language models can accelerate pharmaceutical research by improving challenging chemical processes.",
+      "category": "llms",
+      "publishedAt": "2026-06-17T10:00:00.000Z",
+      "sourceUrl": "https://openai.com/index/ai-chemist-improves-reaction",
+      "sourceName": "OpenAI",
+      "sourceTier": 1,
+      "image": "/images/articles/ai-system-autonomously-optimizes-complex-drug-synthesis-reaction-a3bdd8f6.jpg"
+    },
+    {
       "slug": "researchers-unify-image-understanding-and-generation-in-single-ai-model-7aadc684",
       "title": "Researchers Unify Image Understanding and Generation in Single AI Model",
       "subtitle": "New framework eliminates fragmented visual processing, enabling AI systems to interpret their own outputs without redundant recoding steps.",
@@ -3333,6 +3355,8 @@
     "20e99bdafca56a7a",
     "9f28c1b8ac507deb",
     "942732bc42cd900c",
-    "7aadc684be49cbf4"
+    "7aadc684be49cbf4",
+    "a3bdd8f6c32f1c5b",
+    "ceafc447ea7a7f9d"
   ]
 }

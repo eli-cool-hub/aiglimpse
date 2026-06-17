@@ -3242,6 +3242,42 @@
         "devto": true,
         "hashnode": false
       }
+    },
+    "ai-system-autonomously-optimizes-complex-drug-synthesis-reaction-a3bdd8f6": {
+      "syndicated_at": "2026-06-17T18:21:51.197Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/ai-system-autonomously-optimizes-complex-drug-synthesis-reaction-3iih",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 440,
+      "category": "llms",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
+    },
+    "hugging-face-launches-search-tools-for-ai-agent-development-ceafc447": {
+      "syndicated_at": "2026-06-17T18:22:00.507Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/hugging-face-launches-search-tools-for-ai-agent-development-4bf5",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 422,
+      "category": "tools",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
     }
   }
 }
