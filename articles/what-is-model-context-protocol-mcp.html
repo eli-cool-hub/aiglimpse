@@ -85,7 +85,6 @@
   <figcaption class="article-image-credit">Photo by <a href="https://www.pexels.com/photo/close-up-of-computer-screen-with-code-and-menu-options-34804017/" rel="nofollow noopener" target="_blank">Daniil Komov</a> on Pexels.</figcaption>
 </figure>
 
-
 <p>MCP divides the world into two roles: clients and servers. The client is the system that makes requests. It is usually an LLM or an LLM application layer. The server is the system that receives requests and returns responses. It exposes tools, resources, and prompts. Communication between client and server happens over a transport layer, most commonly JSON-RPC over stdio (standard input/output) or HTTP.</p>
 
 <p>A client establishes a connection to one or more servers. The client sends initialization messages that describe its capabilities and constraints (e.g., maximum message size, supported features). The server responds with its own capabilities: the list of tools it provides, the resources it can access, and any prompt templates it offers. From that point forward, the client can invoke tools by name, request resources by URI, or ask for prompt suggestions. The server validates each request against its permissions, executes the operation, and returns a result or an error. The transport layer handles serialization, framing, and optionally TLS encryption.</p>
@@ -101,12 +100,6 @@
 <p>This request-response loop can repeat within a single LLM session. If the LLM needs to refine its query, it invokes the tool again. If it needs data from a different server, the client routes the request to that server. The MCP client orchestrates communication with multiple servers transparently, from the LLM's perspective, it simply has access to a larger toolkit.</p>
 
 <h2>Security, permissions, and isolation</h2>
-<figure class="article-image article-image--inline">
-  <img src="/images/articles/what-is-model-context-protocol-mcp-inline-2.jpg" alt="Security, permissions, and isolation" loading="lazy" width="1200" height="630">
-  <figcaption class="article-image-credit">Photo by <a href="https://www.pexels.com/photo/close-up-view-of-system-hacking-5380618/" rel="nofollow noopener" target="_blank">Tima Miroshnichenko</a> on Pexels.</figcaption>
-</figure>
-
-
 <p>Security in MCP is deliberately distributed. The protocol itself does not enforce authentication. Instead, each MCP server is responsible for authenticating requests and enforcing access control. This design choice reflects a key principle: the server that owns the data or capability must decide who can access it.</p>
 
 <p>In practice, a server authenticates the client via credentials passed at connection time. These credentials might be an API key, an OAuth2 token, or a TLS certificate. The server validates the credentials and establishes a user identity or service account. Every request from that client is then checked against the permissions associated with that identity. If a user is authenticated as a read-only operator, they can invoke "query_database" for SELECT statements but not for DELETE or DROP. The server refuses requests outside those permissions and logs the refusal.</p>
