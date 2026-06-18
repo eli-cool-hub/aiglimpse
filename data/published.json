@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "autonomous-coding-agents-streamline-enterprise-data-pipeline-107819c6",
+      "title": "Autonomous Coding Agents Streamline Enterprise Data Pipeline",
+      "subtitle": "New system compresses months of manual data work into automated workflows that rival human-level performance.",
+      "category": "research",
+      "publishedAt": "2026-06-17T17:45:32.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2606.19319v1",
+      "sourceName": "arXiv (Anoushka Vyas, Aarushi Dhanuka, Sina Khoshfetrat Pakazad, He…)",
+      "sourceTier": 1,
+      "image": "/images/articles/autonomous-coding-agents-streamline-enterprise-data-pipeline-107819c6.jpg"
+    },
+    {
+      "slug": "researchers-develop-ai-method-to-train-better-user-simulators-03db9171",
+      "title": "Researchers Develop AI Method to Train Better User Simulators",
+      "subtitle": "New reinforcement learning approach mimics human behavior more authentically than traditional methods, advancing AI assistant development.",
+      "category": "research",
+      "publishedAt": "2026-06-17T17:58:48.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2606.19336v1",
+      "sourceName": "arXiv (Yingshan Susan Wang, Cedegao E. Zhang, Linlu Qiu, Zexue He, …)",
+      "sourceTier": 1,
+      "image": "/images/articles/researchers-develop-ai-method-to-train-better-user-simulators-03db9171.jpg"
+    },
+    {
       "slug": "new-benchmark-exposes-memory-limits-in-vision-language-ai-models-e9fbfb6e",
       "title": "New Benchmark Exposes Memory Limits in Vision-Language AI Models",
       "subtitle": "Researchers reveal that frontier multimodal systems struggle to recall past visual information needed for sequential decision-making tasks.",
@@ -3405,6 +3427,8 @@
     "163b495b7f4be894",
     "28b2648ad76d71ce",
     "3e4220d2a01d51bc",
-    "e9fbfb6ea2a5df30"
+    "e9fbfb6ea2a5df30",
+    "03db9171f64b4540",
+    "107819c67a5b6890"
   ]
 }
