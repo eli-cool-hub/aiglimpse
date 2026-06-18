@@ -3422,6 +3422,42 @@
         "devto": true,
         "hashnode": false
       }
+    },
+    "research-agents-leak-sensitive-data-study-reveals-privacy-risks-f40688f0": {
+      "syndicated_at": "2026-06-18T22:12:05.806Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/research-agents-leak-sensitive-data-study-reveals-privacy-risks-1h44",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 426,
+      "category": "tools",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
+    },
+    "openai-rolls-out-budget-tools-for-enterprise-chatgpt-users-4c5a7b12": {
+      "syndicated_at": "2026-06-18T22:12:15.167Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/openai-rolls-out-budget-tools-for-enterprise-chatgpt-users-5448",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 378,
+      "category": "llms",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
     }
   }
 }

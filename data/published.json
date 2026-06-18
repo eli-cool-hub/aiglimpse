@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "openai-rolls-out-budget-tools-for-enterprise-chatgpt-users-4c5a7b12",
+      "title": "OpenAI Rolls Out Budget Tools for Enterprise ChatGPT Users",
+      "subtitle": "New spending controls and detailed usage tracking help large organizations optimize their generative AI expenditures while scaling deployments.",
+      "category": "llms",
+      "publishedAt": "2026-06-18T17:00:00.000Z",
+      "sourceUrl": "https://openai.com/index/chatgpt-enterprise-spend-controls",
+      "sourceName": "OpenAI",
+      "sourceTier": 1,
+      "image": "/images/articles/openai-rolls-out-budget-tools-for-enterprise-chatgpt-users-4c5a7b12.jpg"
+    },
+    {
+      "slug": "research-agents-leak-sensitive-data-study-reveals-privacy-risks-f40688f0",
+      "title": "Research Agents Leak Sensitive Data, Study Reveals Privacy Risks",
+      "subtitle": "New security research exposes how AI agents handling confidential information may inadvertently expose secrets during operation.",
+      "category": "tools",
+      "publishedAt": "2026-06-18T18:13:13.000Z",
+      "sourceUrl": "https://huggingface.co/blog/ServiceNow/mosaicleaks",
+      "sourceName": "Hugging Face",
+      "sourceTier": 1,
+      "image": "/images/articles/research-agents-leak-sensitive-data-study-reveals-privacy-risks-f40688f0.jpg"
+    },
+    {
       "slug": "openai-upgrades-chatgpts-medical-reasoning-with-gpt-45-instant-c01e13c4",
       "title": "OpenAI Upgrades ChatGPT's Medical Reasoning With GPT-4.5 Instant",
       "subtitle": "New model iteration strengthens health advice quality through physician-guided training and improved contextual understanding.",
@@ -3453,6 +3475,8 @@
     "03db9171f64b4540",
     "107819c67a5b6890",
     "49a4209eeddba7a0",
-    "c01e13c4c6e5e8f5"
+    "c01e13c4c6e5e8f5",
+    "f40688f016493ae3",
+    "4c5a7b1231c2896d"
   ]
 }

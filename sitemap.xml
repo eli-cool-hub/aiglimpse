@@ -16,6 +16,24 @@
   <url><loc>https://aiglimpse.ai/pages/privacy</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
   <url><loc>https://aiglimpse.ai/pages/terms</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
   <url>
+    <loc>https://aiglimpse.ai/articles/openai-rolls-out-budget-tools-for-enterprise-chatgpt-users-4c5a7b12</loc>
+    <news:news>
+      <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-06-18T17:00:00.000Z</news:publication_date>
+      <news:title>OpenAI Rolls Out Budget Tools for Enterprise ChatGPT Users</news:title>
+    </news:news>
+    <changefreq>daily</changefreq><priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://aiglimpse.ai/articles/research-agents-leak-sensitive-data-study-reveals-privacy-risks-f40688f0</loc>
+    <news:news>
+      <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-06-18T18:13:13.000Z</news:publication_date>
+      <news:title>Research Agents Leak Sensitive Data, Study Reveals Privacy Risks</news:title>
+    </news:news>
+    <changefreq>daily</changefreq><priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://aiglimpse.ai/articles/openai-upgrades-chatgpts-medical-reasoning-with-gpt-45-instant-c01e13c4</loc>
     <news:news>
       <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>

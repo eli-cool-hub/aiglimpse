@@ -7,6 +7,22 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>OpenAI Rolls Out Budget Tools for Enterprise ChatGPT Users</title>
+      <link>https://aiglimpse.ai/articles/openai-rolls-out-budget-tools-for-enterprise-chatgpt-users-4c5a7b12</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/openai-rolls-out-budget-tools-for-enterprise-chatgpt-users-4c5a7b12</guid>
+      <description>New spending controls and detailed usage tracking help large organizations optimize their generative AI expenditures while scaling deployments.</description>
+      <pubDate>Thu, 18 Jun 2026 17:00:00 GMT</pubDate>
+      <category>LLMs &amp; Chatbots</category>
+    </item>
+    <item>
+      <title>Research Agents Leak Sensitive Data, Study Reveals Privacy Risks</title>
+      <link>https://aiglimpse.ai/articles/research-agents-leak-sensitive-data-study-reveals-privacy-risks-f40688f0</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/research-agents-leak-sensitive-data-study-reveals-privacy-risks-f40688f0</guid>
+      <description>New security research exposes how AI agents handling confidential information may inadvertently expose secrets during operation.</description>
+      <pubDate>Thu, 18 Jun 2026 18:13:13 GMT</pubDate>
+      <category>AI Tools &amp; Products</category>
+    </item>
+    <item>
       <title>OpenAI Upgrades ChatGPT's Medical Reasoning With GPT-4.5 Instant</title>
       <link>https://aiglimpse.ai/articles/openai-upgrades-chatgpts-medical-reasoning-with-gpt-45-instant-c01e13c4</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/openai-upgrades-chatgpts-medical-reasoning-with-gpt-45-instant-c01e13c4</guid>
@@ -389,22 +405,6 @@
       <description>Cybersecurity findings about AI vulnerability to prompt injection trigger government export controls on advanced language models.</description>
       <pubDate>Sat, 13 Jun 2026 21:39:26 GMT</pubDate>
       <category>AI Tools &amp; Products</category>
-    </item>
-    <item>
-      <title>Google's Gemini Generates Working Apps from Text, But Still Needs Human Help</title>
-      <link>https://aiglimpse.ai/articles/googles-gemini-generates-working-apps-from-text-but-still-needs-human-help-c18dfe1e</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/googles-gemini-generates-working-apps-from-text-but-still-needs-human-help-c18dfe1e</guid>
-      <description>An experiment shows AI can build functional software in minutes, yet struggles with basic debugging without user intervention.</description>
-      <pubDate>Sat, 13 Jun 2026 13:00:00 GMT</pubDate>
-      <category>AI Tools &amp; Products</category>
-    </item>
-    <item>
-      <title>KPMG Withdraws AI Report After Finding Fabricated Data</title>
-      <link>https://aiglimpse.ai/articles/kpmg-withdraws-ai-report-after-finding-fabricated-data-dbc1c4f2</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/kpmg-withdraws-ai-report-after-finding-fabricated-data-dbc1c4f2</guid>
-      <description>Major consulting firm's study on artificial intelligence usage contained false information, highlighting persistent reliability challenges in AI-generated analysis.</description>
-      <pubDate>Sat, 13 Jun 2026 20:42:31 GMT</pubDate>
-      <category>AI Business</category>
     </item>
   </channel>
 </rss>
