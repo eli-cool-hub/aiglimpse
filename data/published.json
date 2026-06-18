@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "openai-upgrades-chatgpts-medical-reasoning-with-gpt-45-instant-c01e13c4",
+      "title": "OpenAI Upgrades ChatGPT's Medical Reasoning With GPT-4.5 Instant",
+      "subtitle": "New model iteration strengthens health advice quality through physician-guided training and improved contextual understanding.",
+      "category": "llms",
+      "publishedAt": "2026-06-18T11:00:00.000Z",
+      "sourceUrl": "https://openai.com/index/improving-health-intelligence-in-chatgpt",
+      "sourceName": "OpenAI",
+      "sourceTier": 1,
+      "image": "/images/articles/openai-upgrades-chatgpts-medical-reasoning-with-gpt-45-instant-c01e13c4.jpg"
+    },
+    {
       "slug": "engineers-test-advanced-alternatives-to-lora-fine-tuning-49a4209e",
       "title": "Engineers Test Advanced Alternatives to LoRA Fine-Tuning",
       "subtitle": "As LoRA dominates model adaptation, researchers explore whether newer techniques can deliver better performance with lower computational costs.",
@@ -3441,6 +3452,7 @@
     "e9fbfb6ea2a5df30",
     "03db9171f64b4540",
     "107819c67a5b6890",
-    "49a4209eeddba7a0"
+    "49a4209eeddba7a0",
+    "c01e13c4c6e5e8f5"
   ]
 }

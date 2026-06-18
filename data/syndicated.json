@@ -3404,6 +3404,24 @@
         "devto": true,
         "hashnode": false
       }
+    },
+    "openai-upgrades-chatgpts-medical-reasoning-with-gpt-45-instant-c01e13c4": {
+      "syndicated_at": "2026-06-18T18:27:23.467Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/openai-upgrades-chatgpts-medical-reasoning-with-gpt-45-instant-38ah",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 482,
+      "category": "llms",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
     }
   }
 }

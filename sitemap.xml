@@ -16,6 +16,15 @@
   <url><loc>https://aiglimpse.ai/pages/privacy</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
   <url><loc>https://aiglimpse.ai/pages/terms</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
   <url>
+    <loc>https://aiglimpse.ai/articles/openai-upgrades-chatgpts-medical-reasoning-with-gpt-45-instant-c01e13c4</loc>
+    <news:news>
+      <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-06-18T11:00:00.000Z</news:publication_date>
+      <news:title>OpenAI Upgrades ChatGPT's Medical Reasoning With GPT-4.5 Instant</news:title>
+    </news:news>
+    <changefreq>daily</changefreq><priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://aiglimpse.ai/articles/engineers-test-advanced-alternatives-to-lora-fine-tuning-49a4209e</loc>
     <news:news>
       <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
