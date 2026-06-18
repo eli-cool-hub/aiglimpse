@@ -1,10 +1,15 @@
 name: Send AI Glimpse Daily newsletter
 
+# Collect-only mode: signup + verify run on Cloudflare Pages. Daily digests are
+# OFF until you manually run this workflow with send_digest=true.
+
 on:
   workflow_dispatch:
-  schedule:
-    # 07:00 UTC — after overnight publishing, before US morning
-    - cron: '0 7 * * *'
+    inputs:
+      send_digest:
+        description: Send today's digest to all verified subscribers
+        type: boolean
+        default: false
 
 concurrency:
   group: aiglimpse-newsletter-daily
@@ -12,6 +17,7 @@ concurrency:
 
 jobs:
   send:
+    if: github.event.inputs.send_digest == true
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -53,6 +59,7 @@ jobs:
           RESEND_SEGMENT_ID: ${{ secrets.RESEND_SEGMENT_ID }}
           RESEND_AUDIENCE_ID: ${{ secrets.RESEND_AUDIENCE_ID }}
           SITE_URL: https://aiglimpse.ai
+          NEWSLETTER_SEND_ENABLED: 'true'
         run: node scripts/send-daily-newsletter.mjs
 
       - name: Commit send state
@@ -68,3 +75,12 @@ jobs:
             git pull --rebase origin main
             git push
           fi
+
+  collect-only:
+    if: github.event.inputs.send_digest != true
+    runs-on: ubuntu-latest
+    steps:
+      - run: |
+          echo "Newsletter sends are disabled — collect-only mode."
+          echo "Subscribers sign up via the site; no daily digest is sent."
+          echo "When ready to launch, re-run this workflow with send_digest=true."

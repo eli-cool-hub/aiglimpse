@@ -54,19 +54,19 @@ export async function onRequestGet(context) {
     await resendSend(apiKey, {
       from,
       to: [email],
-      subject: 'Welcome to AI Glimpse Daily',
+      subject: "You're on the AI Glimpse Daily list",
       html: `
         <div style="font-family: ui-sans-serif, system-ui, sans-serif; line-height: 1.6; color: #111; max-width: 560px;">
-          <p style="margin: 0 0 16px 0;">You're in. Each morning we send the AI stories worth your time: research, tools, policy, and the explainers that last.</p>
-          <p style="margin: 0 0 16px 0;"><a href="${escapeHtml(base)}" style="color:#ff4d2e;font-weight:600;">Read today's coverage on AI Glimpse</a></p>
+          <p style="margin: 0 0 16px 0;">You're on the list. We're building AI Glimpse Daily and will email you when the morning digest launches.</p>
+          <p style="margin: 0 0 16px 0;">Until then, <a href="${escapeHtml(base)}" style="color:#ff4d2e;font-weight:600;">read the latest on AI Glimpse</a>.</p>
           <p style="margin: 24px 0 0 0; font-size: 13px; color: #888;"><a href="${escapeHtml(unsubUrl)}" style="color:#888;">Unsubscribe</a></p>
         </div>`,
-      text: `Welcome to AI Glimpse Daily.\n\nRead: ${base}\n\nUnsubscribe: ${unsubUrl}`
+      text: `You're on the AI Glimpse Daily list. We'll email you when the digest launches.\n\nRead: ${base}\n\nUnsubscribe: ${unsubUrl}`
     });
 
     return new Response(htmlPage({
-      title: "You're subscribed!",
-      body: 'Thanks for confirming. Your first AI Glimpse Daily digest will arrive on the next send day.',
+      title: "You're on the list!",
+      body: "Thanks for confirming. We'll email you when AI Glimpse Daily launches. Until then, browse the latest stories on the site.",
       ok: true
     }), { status: 200, headers: { 'Content-Type': 'text/html; charset=utf-8' } });
   } catch {

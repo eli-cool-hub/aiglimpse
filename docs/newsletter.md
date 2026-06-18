@@ -58,12 +58,21 @@ Add via GitHub → **Settings → Secrets and variables → Actions → New repo
 RESEND_API_KEY=re_xxx node scripts/setup-resend-segment.mjs
 ```
 
-## Flow
+## Collect-only mode (current)
+
+Daily digests are **disabled** while the list is growing. Signup still works end-to-end:
 
 1. User submits email → `POST /api/newsletter/subscribe`
 2. Resend sends confirmation link
-3. User clicks → `GET /api/newsletter/verify` → contact added to audience + welcome email
-4. **07:00 UTC daily** → `send-daily-newsletter.mjs` → Resend Broadcast to audience
+3. User clicks → `GET /api/newsletter/verify` → contact added to Resend segment
+
+No broadcast is sent until you manually launch (see below).
+
+## Launch daily sends
+
+1. Add GitHub Actions secrets (`RESEND_API_KEY`, `RESEND_FROM_EMAIL`, `RESEND_SEGMENT_ID`)
+2. GitHub Actions → **Send AI Glimpse Daily newsletter** → Run workflow → check **send_digest**
+3. To automate later, re-add the `0 7 * * *` cron to `.github/workflows/newsletter-daily.yml`
 
 ## Manual test
 

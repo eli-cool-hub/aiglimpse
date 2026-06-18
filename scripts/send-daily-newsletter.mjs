@@ -18,6 +18,11 @@ const apiKey = process.env.RESEND_API_KEY;
 const from = process.env.RESEND_FROM_EMAIL;
 const segmentId = process.env.RESEND_SEGMENT_ID || process.env.RESEND_AUDIENCE_ID;
 
+if (process.env.NEWSLETTER_SEND_ENABLED !== 'true' && !process.argv.includes('--force')) {
+  console.log('Newsletter sends disabled (collect-only mode). Set NEWSLETTER_SEND_ENABLED=true or pass --force.');
+  process.exit(0);
+}
+
 if (!apiKey || !from || !segmentId) {
   console.error('RESEND_API_KEY, RESEND_FROM_EMAIL, and RESEND_SEGMENT_ID (or RESEND_AUDIENCE_ID) required');
   process.exit(1);
