@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "new-benchmark-exposes-memory-limits-in-vision-language-ai-models-e9fbfb6e",
+      "title": "New Benchmark Exposes Memory Limits in Vision-Language AI Models",
+      "subtitle": "Researchers reveal that frontier multimodal systems struggle to recall past visual information needed for sequential decision-making tasks.",
+      "category": "research",
+      "publishedAt": "2026-06-17T17:59:34.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2606.19338v1",
+      "sourceName": "arXiv (Shengyuan Ding, Xilin Wei, Xinyu Fang, Haodong Duan, Dahua L…)",
+      "sourceTier": 1,
+      "image": "/images/articles/new-benchmark-exposes-memory-limits-in-vision-language-ai-models-e9fbfb6e.jpg"
+    },
+    {
+      "slug": "new-ai-agent-learns-to-watch-videos-smarter-not-longer-3e4220d2",
+      "title": "New AI Agent Learns to Watch Videos Smarter, Not Longer",
+      "subtitle": "Researchers introduce an intelligent video understanding system that reasons through footage selectively, matching larger models while using a fraction of the compute.",
+      "category": "research",
+      "publishedAt": "2026-06-17T17:59:56.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2606.19341v1",
+      "sourceName": "arXiv (Zhenghao Xing, Ruiyang Xu, Yuxuan Wang, Jinzheng He, Ziyang …)",
+      "sourceTier": 1,
+      "image": "/images/articles/new-ai-agent-learns-to-watch-videos-smarter-not-longer-3e4220d2.jpg"
+    },
+    {
       "slug": "researchers-rethink-transformer-design-with-uneven-layer-architecture-28b2648a",
       "title": "Researchers Rethink Transformer Design With Uneven Layer Architecture",
       "subtitle": "A bottleneck-shaped model structure cuts computing costs by 22% while improving performance, challenging conventional neural network scaling wisdom.",
@@ -3381,6 +3403,8 @@
     "a3bdd8f6c32f1c5b",
     "ceafc447ea7a7f9d",
     "163b495b7f4be894",
-    "28b2648ad76d71ce"
+    "28b2648ad76d71ce",
+    "3e4220d2a01d51bc",
+    "e9fbfb6ea2a5df30"
   ]
 }

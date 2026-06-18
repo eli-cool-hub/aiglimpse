@@ -3314,6 +3314,42 @@
         "devto": true,
         "hashnode": false
       }
+    },
+    "new-ai-agent-learns-to-watch-videos-smarter-not-longer-3e4220d2": {
+      "syndicated_at": "2026-06-18T04:13:01.321Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/new-ai-agent-learns-to-watch-videos-smarter-not-longer-4l2h",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 464,
+      "category": "research",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
+    },
+    "new-benchmark-exposes-memory-limits-in-vision-language-ai-models-e9fbfb6e": {
+      "syndicated_at": "2026-06-18T04:13:14.380Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/new-benchmark-exposes-memory-limits-in-vision-language-ai-models-3532",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 456,
+      "category": "research",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
     }
   }
 }

@@ -7,6 +7,22 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>New Benchmark Exposes Memory Limits in Vision-Language AI Models</title>
+      <link>https://aiglimpse.ai/articles/new-benchmark-exposes-memory-limits-in-vision-language-ai-models-e9fbfb6e</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-benchmark-exposes-memory-limits-in-vision-language-ai-models-e9fbfb6e</guid>
+      <description>Researchers reveal that frontier multimodal systems struggle to recall past visual information needed for sequential decision-making tasks.</description>
+      <pubDate>Wed, 17 Jun 2026 17:59:34 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
+      <title>New AI Agent Learns to Watch Videos Smarter, Not Longer</title>
+      <link>https://aiglimpse.ai/articles/new-ai-agent-learns-to-watch-videos-smarter-not-longer-3e4220d2</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-ai-agent-learns-to-watch-videos-smarter-not-longer-3e4220d2</guid>
+      <description>Researchers introduce an intelligent video understanding system that reasons through footage selectively, matching larger models while using a fraction of the compute.</description>
+      <pubDate>Wed, 17 Jun 2026 17:59:56 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
       <title>Researchers Rethink Transformer Design With Uneven Layer Architecture</title>
       <link>https://aiglimpse.ai/articles/researchers-rethink-transformer-design-with-uneven-layer-architecture-28b2648a</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/researchers-rethink-transformer-design-with-uneven-layer-architecture-28b2648a</guid>
@@ -389,22 +405,6 @@
       <description>Vulnerabilities, patches, and a hardening checklist for Python teams deploying AI agent backends.</description>
       <pubDate>Sat, 13 Jun 2026 14:59:17 GMT</pubDate>
       <category>AI Tools &amp; Products</category>
-    </item>
-    <item>
-      <title>Robot Emotion Recognition Hits Wall: Tech Beats Facial Analysis, Fails Trust Test</title>
-      <link>https://aiglimpse.ai/articles/robot-emotion-recognition-hits-wall-tech-beats-facial-analysis-fails-trust-test-ada8f7da</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/robot-emotion-recognition-hits-wall-tech-beats-facial-analysis-fails-trust-test-ada8f7da</guid>
-      <description>New research shows vision language models can read human feelings better than traditional AI, but emotional intelligence alone cannot overcome performance failures.</description>
-      <pubDate>Sat, 13 Jun 2026 13:00:01 GMT</pubDate>
-      <category>AI Research</category>
-    </item>
-    <item>
-      <title>Researchers Uncover Hidden Limits of Truncated Encodings in Graph AI</title>
-      <link>https://aiglimpse.ai/articles/researchers-uncover-hidden-limits-of-truncated-encodings-in-graph-ai-6b28d9b4</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/researchers-uncover-hidden-limits-of-truncated-encodings-in-graph-ai-6b28d9b4</guid>
-      <description>New study reveals that practical shortcuts used in graph neural networks sacrifice theoretical power in ways previously unknown to the field.</description>
-      <pubDate>Thu, 11 Jun 2026 17:58:56 GMT</pubDate>
-      <category>AI Research</category>
     </item>
   </channel>
 </rss>
