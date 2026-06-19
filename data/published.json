@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "amazon-shelves-altman-biopic-amid-openai-strategic-alliance-12c0dd2a",
+      "title": "Amazon Shelves Altman Biopic Amid OpenAI Strategic Alliance",
+      "subtitle": "The streaming giant's decision to abandon a planned biographical film signals shifting corporate priorities as tech companies reshape AI partnerships.",
+      "category": "tools",
+      "publishedAt": "2026-06-19T20:03:16.000Z",
+      "sourceUrl": "https://www.the-independent.com/arts-entertainment/films/news/sam-altman-biopic-amazon-openai-deal-b2999321.html",
+      "sourceName": "Hacker News (92 pts)",
+      "sourceTier": 2,
+      "image": "/images/articles/amazon-shelves-altman-biopic-amid-openai-strategic-alliance-12c0dd2a.jpg"
+    },
+    {
+      "slug": "new-framework-unifies-egocentric-video-ai-training-across-multiple-sensors-08ca804d",
+      "title": "New Framework Unifies Egocentric Video AI Training Across Multiple Sensors",
+      "subtitle": "Researchers introduce proxy-based distillation method that combines nine different data sources to create more capable AI models from first-person video.",
+      "category": "research",
+      "publishedAt": "2026-06-18T17:59:45.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2606.20559v1",
+      "sourceName": "arXiv (Wenhao Chi, Arkaprava Sinha, Dominick Reilly, Hieu Le, Srija…)",
+      "sourceTier": 1,
+      "image": "/images/articles/new-framework-unifies-egocentric-video-ai-training-across-multiple-sensors-08ca804d.jpg"
+    },
+    {
       "slug": "researchers-crack-the-black-box-of-googles-diffusion-based-language-model-88b2a1fd",
       "title": "Researchers Crack the Black Box of Google's Diffusion-Based Language Model",
       "subtitle": "New study reveals how to interpret DiffusionGemma's internal reasoning, addressing a critical challenge for understanding next-generation AI systems.",
@@ -3549,6 +3571,8 @@
     "114b378a28281588",
     "cab0336473799b13",
     "370963ad88054a8c",
-    "88b2a1fd10f12016"
+    "88b2a1fd10f12016",
+    "08ca804d751a28a0",
+    "12c0dd2a325287e6"
   ]
 }
