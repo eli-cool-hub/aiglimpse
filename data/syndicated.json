@@ -3458,6 +3458,42 @@
         "devto": true,
         "hashnode": false
       }
+    },
+    "researchers-demonstrate-rapid-3d-illusion-generation-using-ai-denoising-d13cc49a": {
+      "syndicated_at": "2026-06-19T04:41:14.692Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/researchers-demonstrate-rapid-3d-illusion-generation-using-ai-denoising-6a9",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 475,
+      "category": "research",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
+    },
+    "ai-model-cracks-18-undiagnosed-rare-childhood-diseases-2cb808ad": {
+      "syndicated_at": "2026-06-19T04:41:24.781Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/ai-model-cracks-18-undiagnosed-rare-childhood-diseases-l7n",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 451,
+      "category": "llms",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
     }
   }
 }

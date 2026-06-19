@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "ai-model-cracks-18-undiagnosed-rare-childhood-diseases-2cb808ad",
+      "title": "AI Model Cracks 18 Undiagnosed Rare Childhood Diseases",
+      "subtitle": "Advanced reasoning system identifies genetic conditions that stumped physicians, suggesting new role for AI in pediatric medicine.",
+      "category": "llms",
+      "publishedAt": "2026-06-18T08:00:00.000Z",
+      "sourceUrl": "https://openai.com/index/diagnose-rare-childhood-diseases",
+      "sourceName": "OpenAI",
+      "sourceTier": 1,
+      "image": "/images/articles/ai-model-cracks-18-undiagnosed-rare-childhood-diseases-2cb808ad.jpg"
+    },
+    {
+      "slug": "researchers-demonstrate-rapid-3d-illusion-generation-using-ai-denoising-d13cc49a",
+      "title": "Researchers Demonstrate Rapid 3D Illusion Generation Using AI Denoising",
+      "subtitle": "New framework creates geometrically coherent 3D objects with dual meanings from different angles in minutes, not hours.",
+      "category": "research",
+      "publishedAt": "2026-06-18T17:59:55.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2606.20563v1",
+      "sourceName": "arXiv (Siang-Ling Zhang, Huai-Hsun Cheng, Tsung-Ju Yang, Yu-Lun Liu)",
+      "sourceTier": 1,
+      "image": "/images/articles/researchers-demonstrate-rapid-3d-illusion-generation-using-ai-denoising-d13cc49a.jpg"
+    },
+    {
       "slug": "openai-rolls-out-budget-tools-for-enterprise-chatgpt-users-4c5a7b12",
       "title": "OpenAI Rolls Out Budget Tools for Enterprise ChatGPT Users",
       "subtitle": "New spending controls and detailed usage tracking help large organizations optimize their generative AI expenditures while scaling deployments.",
@@ -3477,6 +3499,8 @@
     "49a4209eeddba7a0",
     "c01e13c4c6e5e8f5",
     "f40688f016493ae3",
-    "4c5a7b1231c2896d"
+    "4c5a7b1231c2896d",
+    "d13cc49a2582dd41",
+    "2cb808ad6ddd2dd6"
   ]
 }
