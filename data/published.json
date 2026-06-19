@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "why-ai-security-tools-face-the-same-export-control-failures-f0d74d82",
+      "title": "Why AI Security Tools Face the Same Export Control Failures",
+      "subtitle": "Three decades of failed restrictions on hacking technology suggest regulatory approaches to AI models like Anthropic's Mythos won't succeed.",
+      "category": "business",
+      "publishedAt": "2026-06-19T22:40:14.000Z",
+      "sourceUrl": "https://techcrunch.com/2026/06/19/encryption-spyware-and-now-mythos-history-shows-why-cyber-export-control-doesnt-work/",
+      "sourceName": "TechCrunch AI",
+      "sourceTier": 2,
+      "image": "/images/articles/why-ai-security-tools-face-the-same-export-control-failures-f0d74d82.jpg"
+    },
+    {
+      "slug": "researchers-solve-longstanding-problem-in-fair-machine-learning-ed0e82fa",
+      "title": "Researchers Solve Longstanding Problem in Fair Machine Learning",
+      "subtitle": "New deterministic algorithm achieves optimal accuracy for multicalibration, eliminating need for randomness in trustworthy AI systems.",
+      "category": "research",
+      "publishedAt": "2026-06-18T17:59:31.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2606.20557v1",
+      "sourceName": "arXiv (Georgy Noarov, Aaron Roth)",
+      "sourceTier": 1,
+      "image": "/images/articles/researchers-solve-longstanding-problem-in-fair-machine-learning-ed0e82fa.jpg"
+    },
+    {
       "slug": "amazon-shelves-altman-biopic-amid-openai-strategic-alliance-12c0dd2a",
       "title": "Amazon Shelves Altman Biopic Amid OpenAI Strategic Alliance",
       "subtitle": "The streaming giant's decision to abandon a planned biographical film signals shifting corporate priorities as tech companies reshape AI partnerships.",
@@ -3573,6 +3595,8 @@
     "370963ad88054a8c",
     "88b2a1fd10f12016",
     "08ca804d751a28a0",
-    "12c0dd2a325287e6"
+    "12c0dd2a325287e6",
+    "ed0e82fabfbc7b26",
+    "f0d74d82205d68c3"
   ]
 }
