@@ -16,6 +16,24 @@
   <url><loc>https://aiglimpse.ai/pages/privacy</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
   <url><loc>https://aiglimpse.ai/pages/terms</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
   <url>
+    <loc>https://aiglimpse.ai/articles/us-alleges-advanced-chip-equipment-reached-china-despite-export-controls-cab03364</loc>
+    <news:news>
+      <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-06-19T07:59:12.000Z</news:publication_date>
+      <news:title>US Alleges Advanced Chip Equipment Reached China Despite Export Controls</news:title>
+    </news:news>
+    <changefreq>daily</changefreq><priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://aiglimpse.ai/articles/new-ai-framework-cuts-video-analysis-costs-by-93-while-boosting-accuracy-114b378a</loc>
+    <news:news>
+      <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-06-18T17:59:48.000Z</news:publication_date>
+      <news:title>New AI Framework Cuts Video Analysis Costs by 93% While Boosting Accuracy</news:title>
+    </news:news>
+    <changefreq>daily</changefreq><priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://aiglimpse.ai/articles/ai-model-cracks-18-undiagnosed-rare-childhood-diseases-2cb808ad</loc>
     <news:news>
       <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>

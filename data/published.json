@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "us-alleges-advanced-chip-equipment-reached-china-despite-export-controls-cab03364",
+      "title": "US Alleges Advanced Chip Equipment Reached China Despite Export Controls",
+      "subtitle": "Washington claims ASML's cutting-edge lithography tool may have been diverted to Chinese manufacturers, challenging the company's compliance assurances.",
+      "category": "business",
+      "publishedAt": "2026-06-19T07:59:12.000Z",
+      "sourceUrl": "https://techcrunch.com/2026/06/19/the-us-says-asmls-top-chip-tool-may-be-in-china-asml-says-it-isnt/",
+      "sourceName": "TechCrunch AI",
+      "sourceTier": 2,
+      "image": "/images/articles/us-alleges-advanced-chip-equipment-reached-china-despite-export-controls-cab03364.jpg"
+    },
+    {
+      "slug": "new-ai-framework-cuts-video-analysis-costs-by-93-while-boosting-accuracy-114b378a",
+      "title": "New AI Framework Cuts Video Analysis Costs by 93% While Boosting Accuracy",
+      "subtitle": "Researchers introduce TimeProVe, a hybrid system that uses lightweight models to propose answers before invoking expensive AI for verification, making long-form video reasoning practical.",
+      "category": "research",
+      "publishedAt": "2026-06-18T17:59:48.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2606.20561v1",
+      "sourceName": "arXiv (Arkaprava Sinha, Dominick Reilly, Siddharth Krishnan, Hieu L…)",
+      "sourceTier": 1,
+      "image": "/images/articles/new-ai-framework-cuts-video-analysis-costs-by-93-while-boosting-accuracy-114b378a.jpg"
+    },
+    {
       "slug": "ai-model-cracks-18-undiagnosed-rare-childhood-diseases-2cb808ad",
       "title": "AI Model Cracks 18 Undiagnosed Rare Childhood Diseases",
       "subtitle": "Advanced reasoning system identifies genetic conditions that stumped physicians, suggesting new role for AI in pediatric medicine.",
@@ -3501,6 +3523,8 @@
     "f40688f016493ae3",
     "4c5a7b1231c2896d",
     "d13cc49a2582dd41",
-    "2cb808ad6ddd2dd6"
+    "2cb808ad6ddd2dd6",
+    "114b378a28281588",
+    "cab0336473799b13"
   ]
 }
