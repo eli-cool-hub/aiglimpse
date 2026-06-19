@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "researchers-crack-the-black-box-of-googles-diffusion-based-language-model-88b2a1fd",
+      "title": "Researchers Crack the Black Box of Google's Diffusion-Based Language Model",
+      "subtitle": "New study reveals how to interpret DiffusionGemma's internal reasoning, addressing a critical challenge for understanding next-generation AI systems.",
+      "category": "research",
+      "publishedAt": "2026-06-18T17:59:46.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2606.20560v1",
+      "sourceName": "arXiv (Joshua Engels, Callum McDougall, Bilal Chughtai, Janos Krama…)",
+      "sourceTier": 1,
+      "image": "/images/articles/researchers-crack-the-black-box-of-googles-diffusion-based-language-model-88b2a1fd.jpg"
+    },
+    {
       "slug": "reliance-integrates-ai-across-telecom-stack-for-half-a-billion-users-370963ad",
       "title": "Reliance Integrates AI Across Telecom Stack for Half a Billion Users",
       "subtitle": "India's dominant carrier is embedding machine learning into core services, signaling a major shift in how telecom operators monetize AI capabilities.",
@@ -3537,6 +3548,7 @@
     "2cb808ad6ddd2dd6",
     "114b378a28281588",
     "cab0336473799b13",
-    "370963ad88054a8c"
+    "370963ad88054a8c",
+    "88b2a1fd10f12016"
   ]
 }
