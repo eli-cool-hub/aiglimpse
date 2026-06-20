@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "nobel-prize-winner-jumper-exits-deepmind-for-anthropic-0c420e63",
+      "title": "Nobel Prize Winner Jumper Exits DeepMind for Anthropic",
+      "subtitle": "The protein-folding pioneer's departure signals intensifying competition for top AI talent between Google's research division and the safety-focused startup.",
+      "category": "business",
+      "publishedAt": "2026-06-20T16:39:57.000Z",
+      "sourceUrl": "https://techcrunch.com/2026/06/20/nobel-laureate-john-jumper-is-leaving-deepmind-for-rival-anthropic/",
+      "sourceName": "TechCrunch AI",
+      "sourceTier": 2,
+      "image": "/images/articles/nobel-prize-winner-jumper-exits-deepmind-for-anthropic-0c420e63.jpg"
+    },
+    {
       "slug": "nobel-laureate-john-jumper-joins-anthropics-ai-research-team-0046fbb8",
       "title": "Nobel Laureate John Jumper Joins Anthropic's AI Research Team",
       "subtitle": "The computational chemist known for AlphaFold breakthroughs brings deep expertise in machine learning to the safety-focused AI company.",
@@ -3693,6 +3704,7 @@
     "0e793cd8b79b3dc3",
     "5c0c7ec9c4f94c93",
     "ff641f7138d874cf",
-    "0046fbb8179f5eab"
+    "0046fbb8179f5eab",
+    "0c420e63b92341cd"
   ]
 }
