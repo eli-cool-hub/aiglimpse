@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "journalist-exposes-four-major-music-datasets-used-to-train-ai-models-190530c0",
+      "title": "Journalist Exposes Four Major Music Datasets Used to Train AI Models",
+      "subtitle": "A comprehensive searchable database reveals millions of songs powering generative AI, raising questions about artist consent and fair compensation.",
+      "category": "tools",
+      "publishedAt": "2026-06-20T18:46:48.000Z",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/953183/the-atlantic-searchable-database-music-ai-training-data",
+      "sourceName": "The Verge AI",
+      "sourceTier": 2,
+      "image": "/images/articles/journalist-exposes-four-major-music-datasets-used-to-train-ai-models-190530c0.jpg"
+    },
+    {
       "slug": "nobel-prize-winner-jumper-exits-deepmind-for-anthropic-0c420e63",
       "title": "Nobel Prize Winner Jumper Exits DeepMind for Anthropic",
       "subtitle": "The protein-folding pioneer's departure signals intensifying competition for top AI talent between Google's research division and the safety-focused startup.",
@@ -3705,6 +3716,7 @@
     "5c0c7ec9c4f94c93",
     "ff641f7138d874cf",
     "0046fbb8179f5eab",
-    "0c420e63b92341cd"
+    "0c420e63b92341cd",
+    "190530c044326496"
   ]
 }

@@ -3710,6 +3710,24 @@
         "devto": true,
         "hashnode": false
       }
+    },
+    "journalist-exposes-four-major-music-datasets-used-to-train-ai-models-190530c0": {
+      "syndicated_at": "2026-06-20T19:40:25.400Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/journalist-exposes-four-major-music-datasets-used-to-train-ai-models-43nc",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 483,
+      "category": "tools",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
     }
   }
 }
