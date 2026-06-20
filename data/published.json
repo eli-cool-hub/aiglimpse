@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "apples-reimagined-siri-shows-promise-as-conversational-ai-assistant-5c0c7ec9",
+      "title": "Apple's Reimagined Siri Shows Promise as Conversational AI Assistant",
+      "subtitle": "The upgraded voice assistant demonstrates meaningful progress in natural language understanding and practical device integration.",
+      "category": "tools",
+      "publishedAt": "2026-06-20T10:00:00.000Z",
+      "sourceUrl": "https://www.wired.com/story/siri-ai-hands-on-iphone/",
+      "sourceName": "Wired AI",
+      "sourceTier": 2,
+      "image": "/images/articles/apples-reimagined-siri-shows-promise-as-conversational-ai-assistant-5c0c7ec9.jpg"
+    },
+    {
+      "slug": "new-attention-mechanism-treats-tokens-as-raw-geometric-elements-0e793cd8",
+      "title": "New Attention Mechanism Treats Tokens as Raw Geometric Elements",
+      "subtitle": "Researchers propose a mathematical framework that eliminates learned parameters from attention scoring by grounding tokens in abstract group theory.",
+      "category": "research",
+      "publishedAt": "2026-06-18T17:56:17.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2606.20547v1",
+      "sourceName": "arXiv (Przemyslaw Musialski)",
+      "sourceTier": 1,
+      "image": "/images/articles/new-attention-mechanism-treats-tokens-as-raw-geometric-elements-0e793cd8.jpg"
+    },
+    {
       "slug": "three-decades-of-failed-ai-export-controls-raise-questions-about-mythos-1056ff89",
       "title": "Three Decades of Failed AI Export Controls Raise Questions About Mythos",
       "subtitle": "History suggests regulatory limits on dual-use AI models struggle against determined distribution networks and technical workarounds.",
@@ -3645,6 +3667,8 @@
     "f93e96c6d65b2463",
     "5366521272e7b9e6",
     "1688ad40b0f8f8e2",
-    "1056ff89badcb579"
+    "1056ff89badcb579",
+    "0e793cd8b79b3dc3",
+    "5c0c7ec9c4f94c93"
   ]
 }
