@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "new-search-engine-ranks-ai-models-by-training-data-transparency-8a611f33",
+      "title": "New Search Engine Ranks AI Models by Training Data Transparency",
+      "subtitle": "A fresh take on model evaluation puts algorithmic weights under public scrutiny, raising questions about AI accountability and developer credibility.",
+      "category": "business",
+      "publishedAt": "2026-06-20T19:41:11.000Z",
+      "sourceUrl": "https://techcrunch.com/2026/06/20/in-the-weights-is-your-new-ai-centric-vanity-search/",
+      "sourceName": "TechCrunch AI",
+      "sourceTier": 2,
+      "image": "/images/articles/new-search-engine-ranks-ai-models-by-training-data-transparency-8a611f33.jpg"
+    },
+    {
+      "slug": "signal-leader-warns-against-treating-ai-chatbots-as-companions-14c6406f",
+      "title": "Signal Leader Warns Against Treating AI Chatbots as Companions",
+      "subtitle": "Meredith Whittaker cautions users to maintain critical distance from conversational AI systems designed to mimic human interaction.",
+      "category": "business",
+      "publishedAt": "2026-06-20T20:32:29.000Z",
+      "sourceUrl": "https://techcrunch.com/2026/06/20/signals-meredith-whittaker-wants-you-to-remember-that-ai-chatbots-are-not-your-friends/",
+      "sourceName": "TechCrunch AI",
+      "sourceTier": 2,
+      "image": "/images/articles/signal-leader-warns-against-treating-ai-chatbots-as-companions-14c6406f.jpg"
+    },
+    {
       "slug": "journalist-exposes-four-major-music-datasets-used-to-train-ai-models-190530c0",
       "title": "Journalist Exposes Four Major Music Datasets Used to Train AI Models",
       "subtitle": "A comprehensive searchable database reveals millions of songs powering generative AI, raising questions about artist consent and fair compensation.",
@@ -3717,6 +3739,8 @@
     "ff641f7138d874cf",
     "0046fbb8179f5eab",
     "0c420e63b92341cd",
-    "190530c044326496"
+    "190530c044326496",
+    "14c6406f03482d27",
+    "8a611f33a3991dc5"
   ]
 }
