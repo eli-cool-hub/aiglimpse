@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "ieee-launches-rigorous-llm-training-program-as-engineering-demand-surges-53665212",
+      "title": "IEEE Launches Rigorous LLM Training Program as Engineering Demand Surges",
+      "subtitle": "A five-course curriculum tackles the engineering fundamentals of large language models as technical proficiency becomes essential for modern infrastructure development.",
+      "category": "research",
+      "publishedAt": "2026-06-19T18:00:01.000Z",
+      "sourceUrl": "https://spectrum.ieee.org/large-language-models-ieee-course",
+      "sourceName": "IEEE Spectrum AI",
+      "sourceTier": 2,
+      "image": "/images/articles/ieee-launches-rigorous-llm-training-program-as-engineering-demand-surges-53665212.jpg"
+    },
+    {
+      "slug": "researchers-simplify-3d-image-editing-with-geometric-control-system-f93e96c6",
+      "title": "Researchers Simplify 3D Image Editing With Geometric Control System",
+      "subtitle": "New method lets users precisely transform objects in photos using intuitive 3D box interfaces instead of ambiguous text prompts.",
+      "category": "research",
+      "publishedAt": "2026-06-18T17:59:05.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2606.20556v1",
+      "sourceName": "arXiv (Pradhaan S Bhat, Naveen Chandra R, Rishubh Parihar, Vaibhav …)",
+      "sourceTier": 1,
+      "image": "/images/articles/researchers-simplify-3d-image-editing-with-geometric-control-system-f93e96c6.jpg"
+    },
+    {
       "slug": "why-ai-security-tools-face-the-same-export-control-failures-f0d74d82",
       "title": "Why AI Security Tools Face the Same Export Control Failures",
       "subtitle": "Three decades of failed restrictions on hacking technology suggest regulatory approaches to AI models like Anthropic's Mythos won't succeed.",
@@ -3597,6 +3619,8 @@
     "08ca804d751a28a0",
     "12c0dd2a325287e6",
     "ed0e82fabfbc7b26",
-    "f0d74d82205d68c3"
+    "f0d74d82205d68c3",
+    "f93e96c6d65b2463",
+    "5366521272e7b9e6"
   ]
 }
