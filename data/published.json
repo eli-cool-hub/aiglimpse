@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "deepminds-jumper-moves-to-anthropic-in-major-ai-lab-reshuffle-9b68f460",
+      "title": "DeepMind's Jumper Moves to Anthropic in Major AI Lab Reshuffle",
+      "subtitle": "The departure of a prominent researcher signals shifting dynamics in the race to develop safer, more capable AI systems.",
+      "category": "tools",
+      "publishedAt": "2026-06-20T14:32:15.000Z",
+      "sourceUrl": "https://www.reuters.com/technology/us-scientist-john-jumper-leave-google-deepmind-anthropic-2026-06-19/",
+      "sourceName": "Hacker News (65 pts)",
+      "sourceTier": 2,
+      "image": "/images/articles/deepminds-jumper-moves-to-anthropic-in-major-ai-lab-reshuffle-9b68f460.jpg"
+    },
+    {
       "slug": "new-search-engine-ranks-ai-models-by-training-data-transparency-8a611f33",
       "title": "New Search Engine Ranks AI Models by Training Data Transparency",
       "subtitle": "A fresh take on model evaluation puts algorithmic weights under public scrutiny, raising questions about AI accountability and developer credibility.",
@@ -3741,6 +3752,7 @@
     "0c420e63b92341cd",
     "190530c044326496",
     "14c6406f03482d27",
-    "8a611f33a3991dc5"
+    "8a611f33a3991dc5",
+    "9b68f460987c1a6c"
   ]
 }
