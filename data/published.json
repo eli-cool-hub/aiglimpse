@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "three-decades-of-failed-ai-export-controls-raise-questions-about-mythos-1056ff89",
+      "title": "Three Decades of Failed AI Export Controls Raise Questions About Mythos",
+      "subtitle": "History suggests regulatory limits on dual-use AI models struggle against determined distribution networks and technical workarounds.",
+      "category": "business",
+      "publishedAt": "2026-06-19T22:40:14.000Z",
+      "sourceUrl": "https://techcrunch.com/2026/06/19/encryption-spyware-and-now-mythos-history-shows-why-cyber-export-control-doesnt-work/",
+      "sourceName": "TechCrunch AI",
+      "sourceTier": 2,
+      "image": "/images/articles/three-decades-of-failed-ai-export-controls-raise-questions-about-mythos-1056ff89.jpg"
+    },
+    {
+      "slug": "new-framework-tackles-scale-and-context-in-ai-powered-recommendations-1688ad40",
+      "title": "New Framework Tackles Scale and Context in AI-Powered Recommendations",
+      "subtitle": "Researchers propose G2Rec to improve how recommendation systems understand user behavior at industrial scale.",
+      "category": "research",
+      "publishedAt": "2026-06-18T17:58:32.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2606.20554v1",
+      "sourceName": "arXiv (Ruizhong Qiu, Yinglong Xia, Dongqi Fu, Hanqing Zeng, Ren Che…)",
+      "sourceTier": 1,
+      "image": "/images/articles/new-framework-tackles-scale-and-context-in-ai-powered-recommendations-1688ad40.jpg"
+    },
+    {
       "slug": "ieee-launches-rigorous-llm-training-program-as-engineering-demand-surges-53665212",
       "title": "IEEE Launches Rigorous LLM Training Program as Engineering Demand Surges",
       "subtitle": "A five-course curriculum tackles the engineering fundamentals of large language models as technical proficiency becomes essential for modern infrastructure development.",
@@ -3621,6 +3643,8 @@
     "ed0e82fabfbc7b26",
     "f0d74d82205d68c3",
     "f93e96c6d65b2463",
-    "5366521272e7b9e6"
+    "5366521272e7b9e6",
+    "1688ad40b0f8f8e2",
+    "1056ff89badcb579"
   ]
 }
