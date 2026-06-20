@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "nobel-laureate-john-jumper-joins-anthropics-ai-research-team-0046fbb8",
+      "title": "Nobel Laureate John Jumper Joins Anthropic's AI Research Team",
+      "subtitle": "The computational chemist known for AlphaFold breakthroughs brings deep expertise in machine learning to the safety-focused AI company.",
+      "category": "tools",
+      "publishedAt": "2026-06-19T17:53:00.000Z",
+      "sourceUrl": "https://twitter.com/JohnJumperSci/status/2068001285173834106",
+      "sourceName": "Hacker News (151 pts)",
+      "sourceTier": 2,
+      "image": "/images/articles/nobel-laureate-john-jumper-joins-anthropics-ai-research-team-0046fbb8.jpg"
+    },
+    {
+      "slug": "the-architecture-crisis-why-modern-language-models-defy-simple-explanation-ff641f71",
+      "title": "The Architecture Crisis: Why Modern Language Models Defy Simple Explanation",
+      "subtitle": "As LLMs grow more sophisticated, developers and researchers grapple with systems that resist intuitive understanding and traditional evaluation methods.",
+      "category": "research",
+      "publishedAt": "2026-06-20T01:25:14.000Z",
+      "sourceUrl": "https://ianbarber.blog/2026/06/19/llms-are-complicated-now/",
+      "sourceName": "Hacker News (80 pts)",
+      "sourceTier": 2,
+      "image": "/images/articles/the-architecture-crisis-why-modern-language-models-defy-simple-explanation-ff641f71.jpg"
+    },
+    {
       "slug": "apples-reimagined-siri-shows-promise-as-conversational-ai-assistant-5c0c7ec9",
       "title": "Apple's Reimagined Siri Shows Promise as Conversational AI Assistant",
       "subtitle": "The upgraded voice assistant demonstrates meaningful progress in natural language understanding and practical device integration.",
@@ -3669,6 +3691,8 @@
     "1688ad40b0f8f8e2",
     "1056ff89badcb579",
     "0e793cd8b79b3dc3",
-    "5c0c7ec9c4f94c93"
+    "5c0c7ec9c4f94c93",
+    "ff641f7138d874cf",
+    "0046fbb8179f5eab"
   ]
 }
