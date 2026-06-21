@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "openai-extends-codex-with-automation-features-for-enterprise-mac-users-252379db",
+      "title": "OpenAI Extends Codex With Automation Features for Enterprise Mac Users",
+      "subtitle": "New Record and Replay capability signals shift from developer tools toward operational automation, though geographic restrictions complicate global deployment.",
+      "category": "business",
+      "publishedAt": "2026-06-20T00:00:00.000Z",
+      "sourceUrl": "https://help.openai.com/en/articles/11391654-chatgpt-business-release-notes",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/openai-extends-codex-with-automation-features-for-enterprise-mac-users-252379db.jpg"
+    },
+    {
       "slug": "deepminds-jumper-moves-to-anthropic-in-major-ai-lab-reshuffle-9b68f460",
       "title": "DeepMind's Jumper Moves to Anthropic in Major AI Lab Reshuffle",
       "subtitle": "The departure of a prominent researcher signals shifting dynamics in the race to develop safer, more capable AI systems.",
@@ -3753,6 +3764,7 @@
     "190530c044326496",
     "14c6406f03482d27",
     "8a611f33a3991dc5",
-    "9b68f460987c1a6c"
+    "9b68f460987c1a6c",
+    "252379db48ad707a"
   ]
 }
