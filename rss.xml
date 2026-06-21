@@ -7,6 +7,14 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>How to Build AI Agents That Actually Work When It Matters</title>
+      <link>https://aiglimpse.ai/articles/how-to-build-ai-agents-that-actually-work-when-it-matters-6c5a0c0f</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/how-to-build-ai-agents-that-actually-work-when-it-matters-6c5a0c0f</guid>
+      <description>Engineers and researchers debate the engineering practices needed to create autonomous AI systems that can be trusted in production environments.</description>
+      <pubDate>Sun, 21 Jun 2026 04:28:39 GMT</pubDate>
+      <category>AI Tools &amp; Products</category>
+    </item>
+    <item>
       <title>OpenAI Extends Codex With Automation Features for Enterprise Mac Users</title>
       <link>https://aiglimpse.ai/articles/openai-extends-codex-with-automation-features-for-enterprise-mac-users-252379db</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/openai-extends-codex-with-automation-features-for-enterprise-mac-users-252379db</guid>
@@ -396,14 +404,6 @@
       <guid isPermaLink="true">https://aiglimpse.ai/articles/new-ai-framework-merges-physics-and-generation-for-realistic-urban-scene-reconst-2bbd5eb0</guid>
       <description>BRDFusion combines machine learning with physical modeling to enable controllable 3D scene editing from video, advancing applications from autonomous driving simulation to film production.</description>
       <pubDate>Mon, 15 Jun 2026 17:58:31 GMT</pubDate>
-      <category>AI Research</category>
-    </item>
-    <item>
-      <title>Researchers Uncover How Language Models Track Internal Success Metrics</title>
-      <link>https://aiglimpse.ai/articles/researchers-uncover-how-language-models-track-internal-success-metrics-4f3ee8f5</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/researchers-uncover-how-language-models-track-internal-success-metrics-4f3ee8f5</guid>
-      <description>New study reveals that AI systems encode goal-progress estimates that influence their confidence and decision-making patterns.</description>
-      <pubDate>Mon, 15 Jun 2026 17:59:58 GMT</pubDate>
       <category>AI Research</category>
     </item>
   </channel>

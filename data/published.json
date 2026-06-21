@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "how-to-build-ai-agents-that-actually-work-when-it-matters-6c5a0c0f",
+      "title": "How to Build AI Agents That Actually Work When It Matters",
+      "subtitle": "Engineers and researchers debate the engineering practices needed to create autonomous AI systems that can be trusted in production environments.",
+      "category": "tools",
+      "publishedAt": "2026-06-21T04:28:39.000Z",
+      "sourceUrl": "https://martinfowler.com/articles/reliable-llm-bayer.html",
+      "sourceName": "Hacker News (105 pts)",
+      "sourceTier": 2,
+      "image": "/images/articles/how-to-build-ai-agents-that-actually-work-when-it-matters-6c5a0c0f.jpg"
+    },
+    {
       "slug": "openai-extends-codex-with-automation-features-for-enterprise-mac-users-252379db",
       "title": "OpenAI Extends Codex With Automation Features for Enterprise Mac Users",
       "subtitle": "New Record and Replay capability signals shift from developer tools toward operational automation, though geographic restrictions complicate global deployment.",
@@ -3765,6 +3776,7 @@
     "14c6406f03482d27",
     "8a611f33a3991dc5",
     "9b68f460987c1a6c",
-    "252379db48ad707a"
+    "252379db48ad707a",
+    "6c5a0c0f5c02ebe7"
   ]
 }
