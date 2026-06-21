@@ -215,6 +215,9 @@ function renderPage(articles) {
   <meta name="description" content="Independent AI news, research, and analysis. Daily reporting on LLMs, AI tools, business, ethics, and the future of artificial intelligence.">
   <meta name="keywords" content="AI news, artificial intelligence, ChatGPT, Claude, OpenAI, Anthropic, machine learning, AI research, AI tools, AI business">
   <link rel="canonical" href="https://aiglimpse.ai/">
+  <link rel="alternate" type="text/plain" href="https://aiglimpse.ai/llms.txt" title="LLM site summary">
+  <link rel="alternate" type="text/plain" href="https://aiglimpse.ai/llms-full.txt" title="LLM full content index">
+  <link rel="alternate" type="application/rss+xml" href="https://aiglimpse.ai/rss.xml" title="AI Glimpse RSS">
 
   <!-- Open Graph -->
   <meta property="og:type" content="website">
@@ -270,12 +273,7 @@ function renderPage(articles) {
         "url": "https://aiglimpse.ai/",
         "name": "AI Glimpse",
         "description": "Independent AI news, research, and analysis",
-        "publisher": { "@id": "https://aiglimpse.ai/#organization" },
-        "potentialAction": {
-          "@type": "SearchAction",
-          "target": "https://aiglimpse.ai/search.html?q={search_term_string}",
-          "query-input": "required name=search_term_string"
-        }
+        "publisher": { "@id": "https://aiglimpse.ai/#organization" }
       }
     ]
   }

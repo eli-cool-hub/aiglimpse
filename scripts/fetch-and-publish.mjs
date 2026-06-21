@@ -28,6 +28,7 @@ import { isAiRelevant } from './lib/ai-relevance.mjs';
 import { generateArticleImage, generateInlineImages, injectInlineImages, resetImageSession } from './lib/images.mjs';
 import { buildHomepage } from './build-homepage.mjs';
 import { buildCategories } from './build-categories.mjs';
+import { buildLlmsTxt } from './build-llms-txt.mjs';
 import { syndicate, syndicationStats } from './lib/syndicate.mjs';
 import { EVERGREEN_LINK_MAP } from './lib/evergreen-links.mjs';
 import { regenerateSitemap as writeSitemap, pingIndexNow } from './lib/sitemap.mjs';
@@ -295,6 +296,13 @@ function generateArticleHtml({ rewritten, source, slug, category, publishedAt, r
     publisher: { '@type': 'Organization', name: 'AI Glimpse', logo: { '@type': 'ImageObject', url: `${SITE_URL}/images/logo.svg` } },
     articleSection: cat.name, keywords: rewritten.keywords.join(', ')
   };
+  if (source?.url) {
+    schema.isBasedOn = {
+      '@type': 'CreativeWork',
+      url: source.url,
+      name: source.name || source.title || 'Original source'
+    };
+  }
 
   return `<!DOCTYPE html>
 <html lang="en">
@@ -543,6 +551,7 @@ async function main() {
   await regenerateSitemapAndRss(published);
   await buildHomepage();
   await buildCategories();
+  await buildLlmsTxt();
 
   if (newUrls.length > 0) {
     const ping = await pingIndexNow([`${SITE_URL}/`, ...newUrls], SITE_URL);

@@ -106,6 +106,7 @@
                 <li><a href="#" data-consent-open>Cookie preferences</a></li>
                 <li><a href="/rss.xml">RSS Feed</a></li>
                 <li><a href="/sitemap.xml">Sitemap</a></li>
+                <li><a href="/llms.txt">LLMs.txt</a></li>
               </ul>
             </div>
           </div>

@@ -9,7 +9,7 @@
     "test-sources": "node scripts/test-sources.mjs",
     "build-homepage": "node scripts/build-homepage.mjs",
     "build-categories": "node scripts/build-categories.mjs",
-    "build-all": "node scripts/build-homepage.mjs && node scripts/build-categories.mjs",
+    "build-all": "node scripts/build-homepage.mjs && node scripts/build-categories.mjs && node scripts/build-llms-txt.mjs",
     "seed-demo": "node scripts/seed-demo.mjs",
     "reset-data": "node scripts/reset-data.mjs",
     "heal-images": "node scripts/heal-images.mjs",
@@ -21,6 +21,7 @@
     "send-newsletter": "node scripts/send-daily-newsletter.mjs",
     "setup-resend-audience": "node scripts/setup-resend-audience.mjs",
     "build-guides": "node scripts/build-guides.mjs",
+    "build-llms-txt": "node scripts/build-llms-txt.mjs",
     "serve": "python3 -m http.server 8000"
   },
   "dependencies": {

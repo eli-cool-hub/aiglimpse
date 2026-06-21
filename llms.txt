@@ -2,28 +2,73 @@
 
 > Independent AI news, research, and analysis. Daily reporting on LLMs, AI tools, business, ethics, and the future of artificial intelligence.
 
-AI Glimpse aggregates and rewrites stories from the most authoritative AI sources, frontier labs (OpenAI, Google DeepMind, Microsoft), top publications (MIT Technology Review, The Verge, TechCrunch, Wired, Ars Technica, IEEE Spectrum), Crunchbase News for funding, and specialist substacks for analysis (Interconnects, Stratechery, One Useful Thing). Coverage updates every 30 minutes, seven days a week.
+AI Glimpse aggregates and rewrites stories from authoritative AI sources: frontier labs (OpenAI, Google DeepMind, Microsoft), top publications (MIT Technology Review, The Verge, TechCrunch, Wired, Ars Technica, IEEE Spectrum), Crunchbase News, and specialist analysis (Interconnects, Stratechery, One Useful Thing). Coverage updates every two hours, seven days a week.
 
-All content is original reporting written by the AI Glimpse newsroom. Sources are linked in each article. Articles are free to reference, quote, and cite with attribution to AI Glimpse and a link back to the article URL.
+All content is original reporting by the AI Glimpse newsroom. Primary sources are linked in each article. Content is free to reference, quote, and cite with attribution to AI Glimpse and a link to the article URL.
 
 ## Sections
 
 - [Latest news](https://aiglimpse.ai/): Homepage with the most recent stories across all categories.
-- [LLMs and Chatbots](https://aiglimpse.ai/categories/llms.html): Coverage of large language models, ChatGPT, Claude, Gemini, Llama, and the labs building them.
-- [AI Research](https://aiglimpse.ai/categories/research.html): Papers, breakthroughs, benchmarks, and the long-arc trends shaping artificial intelligence.
-- [AI Tools and Products](https://aiglimpse.ai/categories/tools.html): Launches, releases, and hands-on coverage of the AI tools developers and creators use.
-- [AI Business](https://aiglimpse.ai/categories/business.html): Funding rounds, acquisitions, market moves, and the business of artificial intelligence.
-- [Ethics and Policy](https://aiglimpse.ai/categories/ethics.html): Regulation, safety, governance, lawsuits, and the social impact of AI.
-- [Industry Applications](https://aiglimpse.ai/categories/industry.html): How AI is being deployed in healthcare, finance, manufacturing, and enterprise.
-- [Robotics](https://aiglimpse.ai/categories/robotics.html): Humanoids, autonomous systems, and the convergence of AI with physical machines.
+- [LLMs and Chatbots](https://aiglimpse.ai/categories/llms): Large language models, ChatGPT, Claude, Gemini, Llama, and the labs building them.
+- [AI Research](https://aiglimpse.ai/categories/research): Papers, breakthroughs, benchmarks, and long-arc trends in artificial intelligence.
+- [AI Tools and Products](https://aiglimpse.ai/categories/tools): Launches, releases, and coverage of AI tools developers and creators use.
+- [AI Business](https://aiglimpse.ai/categories/business): Funding rounds, acquisitions, market moves, and the business of AI.
+- [Ethics and Policy](https://aiglimpse.ai/categories/ethics): Regulation, safety, governance, lawsuits, and social impact of AI.
+- [Industry Applications](https://aiglimpse.ai/categories/industry): AI deployed in healthcare, finance, manufacturing, and enterprise.
+- [Robotics](https://aiglimpse.ai/categories/robotics): Humanoids, autonomous systems, and the convergence of AI with physical machines.
+- [Explainers and guides](https://aiglimpse.ai/guides): Evergreen technical explainers (RAG, MCP, LLM comparison, AI agents).
 
-## Feeds
+## Recent articles
 
-- [Sitemap](https://aiglimpse.ai/sitemap.xml): All article URLs with publish dates, news-format sitemap for Google News.
-- [RSS](https://aiglimpse.ai/rss.xml): The 50 most recent articles in RSS 2.0.
+- [Autonomous Coding Agents Streamline Enterprise Data Pipeline](https://aiglimpse.ai/articles/autonomous-coding-agents-streamline-enterprise-data-pipeline-107819c6) (2026-06-17): New system compresses months of manual data work into automated workflows that rival human-level performance.
+- [Researchers Develop AI Method to Train Better User Simulators](https://aiglimpse.ai/articles/researchers-develop-ai-method-to-train-better-user-simulators-03db9171) (2026-06-17): New reinforcement learning approach mimics human behavior more authentically than traditional methods, advancing AI assistant development.
+- [New Benchmark Exposes Memory Limits in Vision-Language AI Models](https://aiglimpse.ai/articles/new-benchmark-exposes-memory-limits-in-vision-language-ai-models-e9fbfb6e) (2026-06-17): Researchers reveal that frontier multimodal systems struggle to recall past visual information needed for sequential decision-making tasks.
+- [New AI Agent Learns to Watch Videos Smarter, Not Longer](https://aiglimpse.ai/articles/new-ai-agent-learns-to-watch-videos-smarter-not-longer-3e4220d2) (2026-06-17): Researchers introduce an intelligent video understanding system that reasons through footage selectively, matching larger models while using a fraction of the compute.
+- [Researchers Rethink Transformer Design With Uneven Layer Architecture](https://aiglimpse.ai/articles/researchers-rethink-transformer-design-with-uneven-layer-architecture-28b2648a) (2026-06-16): A bottleneck-shaped model structure cuts computing costs by 22% while improving performance, challenging conventional neural network scaling wisdom.
+- [OpenAI Unveils LifeSciBench to Test AI Performance on Biomedical Research](https://aiglimpse.ai/articles/openai-unveils-lifescibench-to-test-ai-performance-on-biomedical-research-163b495b) (2026-06-17): A new expert-vetted benchmark measures how well AI systems tackle real-world life science problems and decisions.
+- [Hugging Face Launches Search Tools for AI Agent Development](https://aiglimpse.ai/articles/hugging-face-launches-search-tools-for-ai-agent-development-ceafc447) (2026-06-17): New resource discovery framework enables autonomous agents to locate and retrieve information dynamically, expanding capabilities beyond static training data.
+- [AI System Autonomously Optimizes Complex Drug Synthesis Reaction](https://aiglimpse.ai/articles/ai-system-autonomously-optimizes-complex-drug-synthesis-reaction-a3bdd8f6) (2026-06-17): OpenAI and Molecule.one demonstrate how large language models can accelerate pharmaceutical research by improving challenging chemical processes.
+- [Researchers Unify Image Understanding and Generation in Single AI Model](https://aiglimpse.ai/articles/researchers-unify-image-understanding-and-generation-in-single-ai-model-7aadc684) (2026-06-16): New framework eliminates fragmented visual processing, enabling AI systems to interpret their own outputs without redundant recoding steps.
+- [AI Model Learns to Predict 3D Motion from Natural Language Commands](https://aiglimpse.ai/articles/ai-model-learns-to-predict-3d-motion-from-natural-language-commands-942732bc) (2026-06-17): Researchers demonstrate how language models can forecast physical movement, bridging vision and text understanding for robotics applications.
+- [Alibaba's GLM-5.2 Takes Aim at Complex, Multi-Step AI Tasks](https://aiglimpse.ai/articles/alibabas-glm-52-takes-aim-at-complex-multi-step-ai-tasks-9f28c1b8) (2026-06-17): The Chinese tech giant releases a new language model designed to handle extended reasoning and planning across longer sequences of work.
+- [Amazon's Robotics Push Bridges AI Models to Physical Hardware](https://aiglimpse.ai/articles/amazons-robotics-push-bridges-ai-models-to-physical-hardware-20e99bda) (2026-06-17): New integration framework lets developers deploy machine learning directly onto robot platforms, accelerating the shift toward embodied AI.
+- [What Is the Model Context Protocol? A Developer's Guide](https://aiglimpse.ai/articles/what-is-model-context-protocol-mcp) (2026-06-17): How MCP standardizes connections between LLMs and external tools, data sources, and APIs.
+- [Self-Correcting Robots Learn on the Job Without Human Guidance](https://aiglimpse.ai/articles/self-correcting-robots-learn-on-the-job-without-human-guidance-dc925ffd) (2026-06-16): New framework lets deployed robots improve performance in real time by verifying their own actions, eliminating the need for constant human supervision.
+- [New AI Model Predicts 3D Worlds More Accurately for Autonomous Robots](https://aiglimpse.ai/articles/new-ai-model-predicts-3d-worlds-more-accurately-for-autonomous-robots-7bb3ab64) (2026-06-16): Researchers separate motion from environment to solve a fundamental problem in how machines understand dynamic scenes.
+- [OpenAI Tests AI Models in Simulated Deployments Before Release](https://aiglimpse.ai/articles/openai-tests-ai-models-in-simulated-deployments-before-release-cfcf6de0) (2026-06-16): A new technique lets developers predict how language models will behave in the real world using actual user conversations.
+- [Google DeepMind Deploys AI to Speed UK Housing Approvals](https://aiglimpse.ai/articles/google-deepmind-deploys-ai-to-speed-uk-housing-approvals-1cd14ccc) (2026-06-16): A new machine learning system aims to cut planning delays that have constrained Britain's residential construction for years.
+- [Researchers Embed 3D Geometry Into Robot Learning for Better Manipulation](https://aiglimpse.ai/articles/researchers-embed-3d-geometry-into-robot-learning-for-better-manipulation-ce42750a) (2026-06-15): A new approach harnesses spatial reasoning to improve how robots understand and execute complex physical tasks from language instructions.
+- [New Method Simplifies AI Image Reconstruction from Corrupted Data](https://aiglimpse.ai/articles/new-method-simplifies-ai-image-reconstruction-from-corrupted-data-af8f9eac) (2026-06-15): Researchers derive exact mathematical formula for improving diffusion models on inverse problems, cutting computational costs tenfold.
+- [New Training Method Helps AI Models Find Needles in Digital Haystacks](https://aiglimpse.ai/articles/new-training-method-helps-ai-models-find-needles-in-digital-haystacks-3785fb40) (2026-06-15): Researchers develop reinforcement learning technique that dramatically improves how language models locate critical information in complex data.
+- [New AI Framework Merges Physics and Generation for Realistic Urban Scene Reconstruction](https://aiglimpse.ai/articles/new-ai-framework-merges-physics-and-generation-for-realistic-urban-scene-reconst-2bbd5eb0) (2026-06-15): BRDFusion combines machine learning with physical modeling to enable controllable 3D scene editing from video, advancing applications from autonomous driving simulation to film production.
+- [Researchers Uncover How Language Models Track Internal Success Metrics](https://aiglimpse.ai/articles/researchers-uncover-how-language-models-track-internal-success-metrics-4f3ee8f5) (2026-06-15): New study reveals that AI systems encode goal-progress estimates that influence their confidence and decision-making patterns.
+- [Anthropic Battles Trump Admin Over AI Model Export Restrictions](https://aiglimpse.ai/articles/anthropic-battles-trump-admin-over-ai-model-export-restrictions-7d00b549) (2026-06-16): The AI startup faces pressure to disable its latest models after receiving an unexpected export control directive affecting foreign employees.
+- [DOJ Claims xAI's Infrastructure Critical to U.S. Military Operations](https://aiglimpse.ai/articles/doj-claims-xais-infrastructure-critical-to-us-military-operations-c5064fea) (2026-06-16): Federal lawyers invoke national security to defend Elon Musk's AI company against environmental lawsuit, raising questions about AI infrastructure oversight.
+- [UPMC's AI Portfolio Hits Milestones in Clinical, Quality Care Tools](https://aiglimpse.ai/articles/upmcs-ai-portfolio-hits-milestones-in-clinical-quality-care-tools-e36b40d3) (2026-06-15): Healthcare innovation arm accelerates deployment of machine learning platforms across documentation, cognitive screening, and quality measurement.
+- [Trump Administration's Anthropic Ban Signals Broader AI Policy Shift](https://aiglimpse.ai/articles/trump-administrations-anthropic-ban-signals-broader-ai-policy-shift-3a6d17a1) (2026-06-15): The forced withdrawal of cybersecurity models reveals government willingness to intervene in AI development regardless of technical justifications.
+- [Tech Lobbyists Push Federal AI Rules Before Congress Shifts](https://aiglimpse.ai/articles/tech-lobbyists-push-federal-ai-rules-before-congress-shifts-49ea9adb) (2026-06-15): Industry seeks unified national standards to avoid a patchwork of state regulations, but faces political obstacles and public opposition.
+- [US government forces leading AI company to block model access](https://aiglimpse.ai/articles/us-government-forces-leading-ai-company-to-block-model-access-923e6543) (2026-06-15): Washington's sudden intervention highlights how American regulatory power shapes global AI deployment and fuels calls for independent alternatives.
+- [SaaS Founders Face Radical Pitch Reset as AI Upends Business Model](https://aiglimpse.ai/articles/saas-founders-face-radical-pitch-reset-as-ai-upends-business-model-58334d1b) (2026-06-15): Large language models are dismantling the metrics that defined software investing for three decades, forcing founders to rethink pricing, retention, and competitive moats.
+- [Community Questions Anthropic's Role in Recent AI Industry Developments](https://aiglimpse.ai/articles/community-questions-anthropics-role-in-recent-ai-industry-developments-c77064cc) (2026-06-14): Hacker News users debate whether the AI safety company actively sought involvement in a contentious situation or found itself caught in broader industry dynamics.
+
+## Explainers (evergreen)
+
+- [What Is the Model Context Protocol? A Developer's Guide](https://aiglimpse.ai/articles/what-is-model-context-protocol-mcp) (2026-06-17): How MCP standardizes connections between LLMs and external tools, data sources, and APIs.
+- [FastAPI and Starlette Security for AI Agents: Production Hardening](https://aiglimpse.ai/articles/fastapi-starlette-security-ai-agents-guide) (2026-06-13): Vulnerabilities, patches, and a hardening checklist for Python teams deploying AI agent backends.
+- [How Large Language Models Work: A Technical Explainer](https://aiglimpse.ai/articles/how-large-language-models-work-clear-explainer) (2026-05-26): Understand tokens, attention, and next-token prediction without the PhD-level math.
+- [GPT-5 vs Claude 4.5 vs Gemini Ultra: Choose the Right LLM](https://aiglimpse.ai/articles/gpt-5-vs-claude-4-5-vs-gemini-ultra-2026) (2026-05-26): A technical comparison for production teams selecting a frontier model in 2026
+- [What Are AI Agents? A Practical Guide for Builders in 2026](https://aiglimpse.ai/articles/what-are-ai-agents-practical-guide-2026) (2026-05-26): How autonomous agents differ from chatbots, what frameworks actually work, and where they reliably fail.
+- [Fine-tuning vs RAG vs Prompt Engineering: A Decision Framework](https://aiglimpse.ai/articles/rag-vs-fine-tuning-vs-prompt-engineering) (2026-05-26): When to customize an LLM: cost, latency, and accuracy tradeoffs explained for engineering leaders.
+- [What is Retrieval-Augmented Generation (RAG)? A 2026 Guide](https://aiglimpse.ai/articles/what-is-retrieval-augmented-generation-rag) (2026-05-26): How RAG fixes LLM hallucinations by letting models fetch real data before generating answers.
+
+## Feeds and machine-readable indexes
+
+- [Sitemap](https://aiglimpse.ai/sitemap.xml): All article URLs with publish dates (Google News format).
+- [RSS](https://aiglimpse.ai/rss.xml): 50 most recent articles (RSS 2.0).
+- [Full content index](https://aiglimpse.ai/llms-full.txt): Extended article list for LLM crawlers (285 articles).
 
 ## About
 
-- [About AI Glimpse](https://aiglimpse.ai/pages/about.html)
-- [Editorial standards](https://aiglimpse.ai/pages/editorial.html)
-- [Contact](https://aiglimpse.ai/pages/contact.html)
+- [About AI Glimpse](https://aiglimpse.ai/pages/about)
+- [Editorial standards](https://aiglimpse.ai/pages/editorial)
+- [Contact](https://aiglimpse.ai/pages/contact)
