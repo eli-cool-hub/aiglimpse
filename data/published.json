@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "samsung-deploys-chatgpt-and-codex-across-global-workforce-1f31d838",
+      "title": "Samsung Deploys ChatGPT and Codex Across Global Workforce",
+      "subtitle": "The electronics giant's enterprise-scale rollout represents one of OpenAI's largest corporate AI implementations to date.",
+      "category": "llms",
+      "publishedAt": "2026-06-21T23:00:00.000Z",
+      "sourceUrl": "https://openai.com/index/samsung-electronics-chatgpt-codex-deployment",
+      "sourceName": "OpenAI",
+      "sourceTier": 1,
+      "image": "/images/articles/samsung-deploys-chatgpt-and-codex-across-global-workforce-1f31d838.jpg"
+    },
+    {
       "slug": "how-to-build-ai-agents-that-actually-work-when-it-matters-6c5a0c0f",
       "title": "How to Build AI Agents That Actually Work When It Matters",
       "subtitle": "Engineers and researchers debate the engineering practices needed to create autonomous AI systems that can be trusted in production environments.",
@@ -3777,6 +3788,7 @@
     "8a611f33a3991dc5",
     "9b68f460987c1a6c",
     "252379db48ad707a",
-    "6c5a0c0f5c02ebe7"
+    "6c5a0c0f5c02ebe7",
+    "1f31d8386d7576ef"
   ]
 }

@@ -7,6 +7,14 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Samsung Deploys ChatGPT and Codex Across Global Workforce</title>
+      <link>https://aiglimpse.ai/articles/samsung-deploys-chatgpt-and-codex-across-global-workforce-1f31d838</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/samsung-deploys-chatgpt-and-codex-across-global-workforce-1f31d838</guid>
+      <description>The electronics giant's enterprise-scale rollout represents one of OpenAI's largest corporate AI implementations to date.</description>
+      <pubDate>Sun, 21 Jun 2026 23:00:00 GMT</pubDate>
+      <category>LLMs &amp; Chatbots</category>
+    </item>
+    <item>
       <title>How to Build AI Agents That Actually Work When It Matters</title>
       <link>https://aiglimpse.ai/articles/how-to-build-ai-agents-that-actually-work-when-it-matters-6c5a0c0f</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/how-to-build-ai-agents-that-actually-work-when-it-matters-6c5a0c0f</guid>
@@ -396,14 +404,6 @@
       <guid isPermaLink="true">https://aiglimpse.ai/articles/new-training-method-helps-ai-models-find-needles-in-digital-haystacks-3785fb40</guid>
       <description>Researchers develop reinforcement learning technique that dramatically improves how language models locate critical information in complex data.</description>
       <pubDate>Mon, 15 Jun 2026 17:59:28 GMT</pubDate>
-      <category>AI Research</category>
-    </item>
-    <item>
-      <title>New AI Framework Merges Physics and Generation for Realistic Urban Scene Reconstruction</title>
-      <link>https://aiglimpse.ai/articles/new-ai-framework-merges-physics-and-generation-for-realistic-urban-scene-reconst-2bbd5eb0</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-ai-framework-merges-physics-and-generation-for-realistic-urban-scene-reconst-2bbd5eb0</guid>
-      <description>BRDFusion combines machine learning with physical modeling to enable controllable 3D scene editing from video, advancing applications from autonomous driving simulation to film production.</description>
-      <pubDate>Mon, 15 Jun 2026 17:58:31 GMT</pubDate>
       <category>AI Research</category>
     </item>
   </channel>

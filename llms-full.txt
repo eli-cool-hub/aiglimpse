@@ -3,7 +3,7 @@
 > Machine-readable index for AI assistants, answer engines, and research crawlers.
 > Summary version: https://aiglimpse.ai/llms.txt
 
-Total articles: 285 | Evergreen explainers: 7 | Generated: 2026-06-21
+Total articles: 315 | Evergreen explainers: 7 | Generated: 2026-06-22
 
 ## Evergreen explainers
 
@@ -57,6 +57,216 @@ Total articles: 285 | Evergreen explainers: 7 | Generated: 2026-06-21
 - Type: evergreen explainer (FAQ schema on page)
 
 ## All articles (newest first)
+
+### Samsung Deploys ChatGPT and Codex Across Global Workforce
+- URL: https://aiglimpse.ai/articles/samsung-deploys-chatgpt-and-codex-across-global-workforce-1f31d838
+- Published: 2026-06-21
+- Category: llms
+- Summary: The electronics giant's enterprise-scale rollout represents one of OpenAI's largest corporate AI implementations to date.
+- Source: https://openai.com/index/samsung-electronics-chatgpt-codex-deployment
+
+### How to Build AI Agents That Actually Work When It Matters
+- URL: https://aiglimpse.ai/articles/how-to-build-ai-agents-that-actually-work-when-it-matters-6c5a0c0f
+- Published: 2026-06-21
+- Category: tools
+- Summary: Engineers and researchers debate the engineering practices needed to create autonomous AI systems that can be trusted in production environments.
+- Source: https://martinfowler.com/articles/reliable-llm-bayer.html
+
+### OpenAI Extends Codex With Automation Features for Enterprise Mac Users
+- URL: https://aiglimpse.ai/articles/openai-extends-codex-with-automation-features-for-enterprise-mac-users-252379db
+- Published: 2026-06-20
+- Category: business
+- Summary: New Record and Replay capability signals shift from developer tools toward operational automation, though geographic restrictions complicate global deployment.
+- Source: https://help.openai.com/en/articles/11391654-chatgpt-business-release-notes
+
+### DeepMind's Jumper Moves to Anthropic in Major AI Lab Reshuffle
+- URL: https://aiglimpse.ai/articles/deepminds-jumper-moves-to-anthropic-in-major-ai-lab-reshuffle-9b68f460
+- Published: 2026-06-20
+- Category: tools
+- Summary: The departure of a prominent researcher signals shifting dynamics in the race to develop safer, more capable AI systems.
+- Source: https://www.reuters.com/technology/us-scientist-john-jumper-leave-google-deepmind-anthropic-2026-06-19/
+
+### New Search Engine Ranks AI Models by Training Data Transparency
+- URL: https://aiglimpse.ai/articles/new-search-engine-ranks-ai-models-by-training-data-transparency-8a611f33
+- Published: 2026-06-20
+- Category: business
+- Summary: A fresh take on model evaluation puts algorithmic weights under public scrutiny, raising questions about AI accountability and developer credibility.
+- Source: https://techcrunch.com/2026/06/20/in-the-weights-is-your-new-ai-centric-vanity-search/
+
+### Signal Leader Warns Against Treating AI Chatbots as Companions
+- URL: https://aiglimpse.ai/articles/signal-leader-warns-against-treating-ai-chatbots-as-companions-14c6406f
+- Published: 2026-06-20
+- Category: business
+- Summary: Meredith Whittaker cautions users to maintain critical distance from conversational AI systems designed to mimic human interaction.
+- Source: https://techcrunch.com/2026/06/20/signals-meredith-whittaker-wants-you-to-remember-that-ai-chatbots-are-not-your-friends/
+
+### Journalist Exposes Four Major Music Datasets Used to Train AI Models
+- URL: https://aiglimpse.ai/articles/journalist-exposes-four-major-music-datasets-used-to-train-ai-models-190530c0
+- Published: 2026-06-20
+- Category: tools
+- Summary: A comprehensive searchable database reveals millions of songs powering generative AI, raising questions about artist consent and fair compensation.
+- Source: https://www.theverge.com/ai-artificial-intelligence/953183/the-atlantic-searchable-database-music-ai-training-data
+
+### Nobel Prize Winner Jumper Exits DeepMind for Anthropic
+- URL: https://aiglimpse.ai/articles/nobel-prize-winner-jumper-exits-deepmind-for-anthropic-0c420e63
+- Published: 2026-06-20
+- Category: business
+- Summary: The protein-folding pioneer's departure signals intensifying competition for top AI talent between Google's research division and the safety-focused startup.
+- Source: https://techcrunch.com/2026/06/20/nobel-laureate-john-jumper-is-leaving-deepmind-for-rival-anthropic/
+
+### Nobel Laureate John Jumper Joins Anthropic's AI Research Team
+- URL: https://aiglimpse.ai/articles/nobel-laureate-john-jumper-joins-anthropics-ai-research-team-0046fbb8
+- Published: 2026-06-19
+- Category: tools
+- Summary: The computational chemist known for AlphaFold breakthroughs brings deep expertise in machine learning to the safety-focused AI company.
+- Source: https://twitter.com/JohnJumperSci/status/2068001285173834106
+
+### The Architecture Crisis: Why Modern Language Models Defy Simple Explanation
+- URL: https://aiglimpse.ai/articles/the-architecture-crisis-why-modern-language-models-defy-simple-explanation-ff641f71
+- Published: 2026-06-20
+- Category: research
+- Summary: As LLMs grow more sophisticated, developers and researchers grapple with systems that resist intuitive understanding and traditional evaluation methods.
+- Source: https://ianbarber.blog/2026/06/19/llms-are-complicated-now/
+
+### Apple's Reimagined Siri Shows Promise as Conversational AI Assistant
+- URL: https://aiglimpse.ai/articles/apples-reimagined-siri-shows-promise-as-conversational-ai-assistant-5c0c7ec9
+- Published: 2026-06-20
+- Category: tools
+- Summary: The upgraded voice assistant demonstrates meaningful progress in natural language understanding and practical device integration.
+- Source: https://www.wired.com/story/siri-ai-hands-on-iphone/
+
+### New Attention Mechanism Treats Tokens as Raw Geometric Elements
+- URL: https://aiglimpse.ai/articles/new-attention-mechanism-treats-tokens-as-raw-geometric-elements-0e793cd8
+- Published: 2026-06-18
+- Category: research
+- Summary: Researchers propose a mathematical framework that eliminates learned parameters from attention scoring by grounding tokens in abstract group theory.
+- Source: http://arxiv.org/abs/2606.20547v1
+
+### Three Decades of Failed AI Export Controls Raise Questions About Mythos
+- URL: https://aiglimpse.ai/articles/three-decades-of-failed-ai-export-controls-raise-questions-about-mythos-1056ff89
+- Published: 2026-06-19
+- Category: business
+- Summary: History suggests regulatory limits on dual-use AI models struggle against determined distribution networks and technical workarounds.
+- Source: https://techcrunch.com/2026/06/19/encryption-spyware-and-now-mythos-history-shows-why-cyber-export-control-doesnt-work/
+
+### New Framework Tackles Scale and Context in AI-Powered Recommendations
+- URL: https://aiglimpse.ai/articles/new-framework-tackles-scale-and-context-in-ai-powered-recommendations-1688ad40
+- Published: 2026-06-18
+- Category: research
+- Summary: Researchers propose G2Rec to improve how recommendation systems understand user behavior at industrial scale.
+- Source: http://arxiv.org/abs/2606.20554v1
+
+### IEEE Launches Rigorous LLM Training Program as Engineering Demand Surges
+- URL: https://aiglimpse.ai/articles/ieee-launches-rigorous-llm-training-program-as-engineering-demand-surges-53665212
+- Published: 2026-06-19
+- Category: research
+- Summary: A five-course curriculum tackles the engineering fundamentals of large language models as technical proficiency becomes essential for modern infrastructure development.
+- Source: https://spectrum.ieee.org/large-language-models-ieee-course
+
+### Researchers Simplify 3D Image Editing With Geometric Control System
+- URL: https://aiglimpse.ai/articles/researchers-simplify-3d-image-editing-with-geometric-control-system-f93e96c6
+- Published: 2026-06-18
+- Category: research
+- Summary: New method lets users precisely transform objects in photos using intuitive 3D box interfaces instead of ambiguous text prompts.
+- Source: http://arxiv.org/abs/2606.20556v1
+
+### Why AI Security Tools Face the Same Export Control Failures
+- URL: https://aiglimpse.ai/articles/why-ai-security-tools-face-the-same-export-control-failures-f0d74d82
+- Published: 2026-06-19
+- Category: business
+- Summary: Three decades of failed restrictions on hacking technology suggest regulatory approaches to AI models like Anthropic's Mythos won't succeed.
+- Source: https://techcrunch.com/2026/06/19/encryption-spyware-and-now-mythos-history-shows-why-cyber-export-control-doesnt-work/
+
+### Researchers Solve Longstanding Problem in Fair Machine Learning
+- URL: https://aiglimpse.ai/articles/researchers-solve-longstanding-problem-in-fair-machine-learning-ed0e82fa
+- Published: 2026-06-18
+- Category: research
+- Summary: New deterministic algorithm achieves optimal accuracy for multicalibration, eliminating need for randomness in trustworthy AI systems.
+- Source: http://arxiv.org/abs/2606.20557v1
+
+### Amazon Shelves Altman Biopic Amid OpenAI Strategic Alliance
+- URL: https://aiglimpse.ai/articles/amazon-shelves-altman-biopic-amid-openai-strategic-alliance-12c0dd2a
+- Published: 2026-06-19
+- Category: tools
+- Summary: The streaming giant's decision to abandon a planned biographical film signals shifting corporate priorities as tech companies reshape AI partnerships.
+- Source: https://www.the-independent.com/arts-entertainment/films/news/sam-altman-biopic-amazon-openai-deal-b2999321.html
+
+### New Framework Unifies Egocentric Video AI Training Across Multiple Sensors
+- URL: https://aiglimpse.ai/articles/new-framework-unifies-egocentric-video-ai-training-across-multiple-sensors-08ca804d
+- Published: 2026-06-18
+- Category: research
+- Summary: Researchers introduce proxy-based distillation method that combines nine different data sources to create more capable AI models from first-person video.
+- Source: http://arxiv.org/abs/2606.20559v1
+
+### Researchers Crack the Black Box of Google's Diffusion-Based Language Model
+- URL: https://aiglimpse.ai/articles/researchers-crack-the-black-box-of-googles-diffusion-based-language-model-88b2a1fd
+- Published: 2026-06-18
+- Category: research
+- Summary: New study reveals how to interpret DiffusionGemma's internal reasoning, addressing a critical challenge for understanding next-generation AI systems.
+- Source: http://arxiv.org/abs/2606.20560v1
+
+### Reliance Integrates AI Across Telecom Stack for Half a Billion Users
+- URL: https://aiglimpse.ai/articles/reliance-integrates-ai-across-telecom-stack-for-half-a-billion-users-370963ad
+- Published: 2026-06-19
+- Category: business
+- Summary: India's dominant carrier is embedding machine learning into core services, signaling a major shift in how telecom operators monetize AI capabilities.
+- Source: https://techcrunch.com/2026/06/19/billionaire-ambani-wants-ai-in-every-call-app-and-home/
+
+### US Alleges Advanced Chip Equipment Reached China Despite Export Controls
+- URL: https://aiglimpse.ai/articles/us-alleges-advanced-chip-equipment-reached-china-despite-export-controls-cab03364
+- Published: 2026-06-19
+- Category: business
+- Summary: Washington claims ASML's cutting-edge lithography tool may have been diverted to Chinese manufacturers, challenging the company's compliance assurances.
+- Source: https://techcrunch.com/2026/06/19/the-us-says-asmls-top-chip-tool-may-be-in-china-asml-says-it-isnt/
+
+### New AI Framework Cuts Video Analysis Costs by 93% While Boosting Accuracy
+- URL: https://aiglimpse.ai/articles/new-ai-framework-cuts-video-analysis-costs-by-93-while-boosting-accuracy-114b378a
+- Published: 2026-06-18
+- Category: research
+- Summary: Researchers introduce TimeProVe, a hybrid system that uses lightweight models to propose answers before invoking expensive AI for verification, making long-form video reasoning practical.
+- Source: http://arxiv.org/abs/2606.20561v1
+
+### AI Model Cracks 18 Undiagnosed Rare Childhood Diseases
+- URL: https://aiglimpse.ai/articles/ai-model-cracks-18-undiagnosed-rare-childhood-diseases-2cb808ad
+- Published: 2026-06-18
+- Category: llms
+- Summary: Advanced reasoning system identifies genetic conditions that stumped physicians, suggesting new role for AI in pediatric medicine.
+- Source: https://openai.com/index/diagnose-rare-childhood-diseases
+
+### Researchers Demonstrate Rapid 3D Illusion Generation Using AI Denoising
+- URL: https://aiglimpse.ai/articles/researchers-demonstrate-rapid-3d-illusion-generation-using-ai-denoising-d13cc49a
+- Published: 2026-06-18
+- Category: research
+- Summary: New framework creates geometrically coherent 3D objects with dual meanings from different angles in minutes, not hours.
+- Source: http://arxiv.org/abs/2606.20563v1
+
+### OpenAI Rolls Out Budget Tools for Enterprise ChatGPT Users
+- URL: https://aiglimpse.ai/articles/openai-rolls-out-budget-tools-for-enterprise-chatgpt-users-4c5a7b12
+- Published: 2026-06-18
+- Category: llms
+- Summary: New spending controls and detailed usage tracking help large organizations optimize their generative AI expenditures while scaling deployments.
+- Source: https://openai.com/index/chatgpt-enterprise-spend-controls
+
+### Research Agents Leak Sensitive Data, Study Reveals Privacy Risks
+- URL: https://aiglimpse.ai/articles/research-agents-leak-sensitive-data-study-reveals-privacy-risks-f40688f0
+- Published: 2026-06-18
+- Category: tools
+- Summary: New security research exposes how AI agents handling confidential information may inadvertently expose secrets during operation.
+- Source: https://huggingface.co/blog/ServiceNow/mosaicleaks
+
+### OpenAI Upgrades ChatGPT's Medical Reasoning With GPT-4.5 Instant
+- URL: https://aiglimpse.ai/articles/openai-upgrades-chatgpts-medical-reasoning-with-gpt-45-instant-c01e13c4
+- Published: 2026-06-18
+- Category: llms
+- Summary: New model iteration strengthens health advice quality through physician-guided training and improved contextual understanding.
+- Source: https://openai.com/index/improving-health-intelligence-in-chatgpt
+
+### Engineers Test Advanced Alternatives to LoRA Fine-Tuning
+- URL: https://aiglimpse.ai/articles/engineers-test-advanced-alternatives-to-lora-fine-tuning-49a4209e
+- Published: 2026-06-18
+- Category: tools
+- Summary: As LoRA dominates model adaptation, researchers explore whether newer techniques can deliver better performance with lower computational costs.
+- Source: https://huggingface.co/blog/peft-beyond-lora
 
 ### Autonomous Coding Agents Streamline Enterprise Data Pipeline
 - URL: https://aiglimpse.ai/articles/autonomous-coding-agents-streamline-enterprise-data-pipeline-107819c6
