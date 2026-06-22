@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "ai-agents-are-dismantling-the-saas-business-model-785f1f28",
+      "title": "AI Agents Are Dismantling the SaaS Business Model",
+      "subtitle": "As autonomous AI systems replace human workers, the subscription-per-seat pricing that built Salesforce and Workday faces obsolescence.",
+      "category": "business",
+      "publishedAt": "2026-06-22T11:00:56.000Z",
+      "sourceUrl": "https://news.crunchbase.com/saas/growing-agentic-ai-market-desilva-lateral/",
+      "sourceName": "Crunchbase News",
+      "sourceTier": 2,
+      "image": "/images/articles/ai-agents-are-dismantling-the-saas-business-model-785f1f28.jpg"
+    },
+    {
+      "slug": "healthcare-systems-move-past-ai-skepticism-to-operational-integration-e93e2b6b",
+      "title": "Healthcare Systems Move Past AI Skepticism to Operational Integration",
+      "subtitle": "Nine major hospital networks share real-world strategies for embedding artificial intelligence into pharmacy, nursing, and surgical workflows at scale.",
+      "category": "industry",
+      "publishedAt": "2026-06-22T12:00:00.000Z",
+      "sourceUrl": "https://www.beckershospitalreview.com/strategy/9-health-systems-on-pharmacy-ai-and-or-strategy-5-resources-for-healthcare-leaders-this-week/",
+      "sourceName": "Becker's Hospital Review",
+      "sourceTier": 2,
+      "image": "/images/articles/healthcare-systems-move-past-ai-skepticism-to-operational-integration-e93e2b6b.jpg"
+    },
+    {
       "slug": "samsung-deploys-chatgpt-and-codex-across-global-workforce-1f31d838",
       "title": "Samsung Deploys ChatGPT and Codex Across Global Workforce",
       "subtitle": "The electronics giant's enterprise-scale rollout represents one of OpenAI's largest corporate AI implementations to date.",
@@ -3789,6 +3811,8 @@
     "9b68f460987c1a6c",
     "252379db48ad707a",
     "6c5a0c0f5c02ebe7",
-    "1f31d8386d7576ef"
+    "1f31d8386d7576ef",
+    "e93e2b6b8303bb78",
+    "785f1f2806f30900"
   ]
 }

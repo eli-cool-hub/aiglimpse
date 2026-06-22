@@ -7,6 +7,22 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>AI Agents Are Dismantling the SaaS Business Model</title>
+      <link>https://aiglimpse.ai/articles/ai-agents-are-dismantling-the-saas-business-model-785f1f28</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/ai-agents-are-dismantling-the-saas-business-model-785f1f28</guid>
+      <description>As autonomous AI systems replace human workers, the subscription-per-seat pricing that built Salesforce and Workday faces obsolescence.</description>
+      <pubDate>Mon, 22 Jun 2026 11:00:56 GMT</pubDate>
+      <category>AI Business</category>
+    </item>
+    <item>
+      <title>Healthcare Systems Move Past AI Skepticism to Operational Integration</title>
+      <link>https://aiglimpse.ai/articles/healthcare-systems-move-past-ai-skepticism-to-operational-integration-e93e2b6b</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/healthcare-systems-move-past-ai-skepticism-to-operational-integration-e93e2b6b</guid>
+      <description>Nine major hospital networks share real-world strategies for embedding artificial intelligence into pharmacy, nursing, and surgical workflows at scale.</description>
+      <pubDate>Mon, 22 Jun 2026 12:00:00 GMT</pubDate>
+      <category>Industry Applications</category>
+    </item>
+    <item>
       <title>Samsung Deploys ChatGPT and Codex Across Global Workforce</title>
       <link>https://aiglimpse.ai/articles/samsung-deploys-chatgpt-and-codex-across-global-workforce-1f31d838</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/samsung-deploys-chatgpt-and-codex-across-global-workforce-1f31d838</guid>
@@ -388,22 +404,6 @@
       <guid isPermaLink="true">https://aiglimpse.ai/articles/researchers-embed-3d-geometry-into-robot-learning-for-better-manipulation-ce42750a</guid>
       <description>A new approach harnesses spatial reasoning to improve how robots understand and execute complex physical tasks from language instructions.</description>
       <pubDate>Mon, 15 Jun 2026 17:58:03 GMT</pubDate>
-      <category>AI Research</category>
-    </item>
-    <item>
-      <title>New Method Simplifies AI Image Reconstruction from Corrupted Data</title>
-      <link>https://aiglimpse.ai/articles/new-method-simplifies-ai-image-reconstruction-from-corrupted-data-af8f9eac</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-method-simplifies-ai-image-reconstruction-from-corrupted-data-af8f9eac</guid>
-      <description>Researchers derive exact mathematical formula for improving diffusion models on inverse problems, cutting computational costs tenfold.</description>
-      <pubDate>Mon, 15 Jun 2026 17:58:22 GMT</pubDate>
-      <category>AI Research</category>
-    </item>
-    <item>
-      <title>New Training Method Helps AI Models Find Needles in Digital Haystacks</title>
-      <link>https://aiglimpse.ai/articles/new-training-method-helps-ai-models-find-needles-in-digital-haystacks-3785fb40</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-training-method-helps-ai-models-find-needles-in-digital-haystacks-3785fb40</guid>
-      <description>Researchers develop reinforcement learning technique that dramatically improves how language models locate critical information in complex data.</description>
-      <pubDate>Mon, 15 Jun 2026 17:59:28 GMT</pubDate>
       <category>AI Research</category>
     </item>
   </channel>
