@@ -3,7 +3,7 @@
 > Machine-readable index for AI assistants, answer engines, and research crawlers.
 > Summary version: https://aiglimpse.ai/llms.txt
 
-Total articles: 317 | Evergreen explainers: 7 | Generated: 2026-06-22
+Total articles: 319 | Evergreen explainers: 7 | Generated: 2026-06-22
 
 ## Evergreen explainers
 
@@ -57,6 +57,20 @@ Total articles: 317 | Evergreen explainers: 7 | Generated: 2026-06-22
 - Type: evergreen explainer (FAQ schema on page)
 
 ## All articles (newest first)
+
+### OpenAI Launches Security Program to Help Open Source Maintainers
+- URL: https://aiglimpse.ai/articles/openai-launches-security-program-to-help-open-source-maintainers-044b5299
+- Published: 2026-06-22
+- Category: llms
+- Summary: New initiative uses AI to identify and remediate software vulnerabilities across critical open source projects.
+- Source: https://openai.com/index/patch-the-planet
+
+### PaddlePaddle Releases Lightweight OCR Model Supporting 50 Languages
+- URL: https://aiglimpse.ai/articles/paddlepaddle-releases-lightweight-ocr-model-supporting-50-languages-74737716
+- Published: 2026-06-22
+- Category: tools
+- Summary: New PP-OCRv6 variants scale from 1.5M to 34.5M parameters, bringing affordable text recognition to resource-constrained devices.
+- Source: https://huggingface.co/blog/PaddlePaddle/pp-ocrv6
 
 ### AI Agents Are Dismantling the SaaS Business Model
 - URL: https://aiglimpse.ai/articles/ai-agents-are-dismantling-the-saas-business-model-785f1f28

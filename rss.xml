@@ -7,6 +7,22 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>OpenAI Launches Security Program to Help Open Source Maintainers</title>
+      <link>https://aiglimpse.ai/articles/openai-launches-security-program-to-help-open-source-maintainers-044b5299</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/openai-launches-security-program-to-help-open-source-maintainers-044b5299</guid>
+      <description>New initiative uses AI to identify and remediate software vulnerabilities across critical open source projects.</description>
+      <pubDate>Mon, 22 Jun 2026 10:00:00 GMT</pubDate>
+      <category>LLMs &amp; Chatbots</category>
+    </item>
+    <item>
+      <title>PaddlePaddle Releases Lightweight OCR Model Supporting 50 Languages</title>
+      <link>https://aiglimpse.ai/articles/paddlepaddle-releases-lightweight-ocr-model-supporting-50-languages-74737716</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/paddlepaddle-releases-lightweight-ocr-model-supporting-50-languages-74737716</guid>
+      <description>New PP-OCRv6 variants scale from 1.5M to 34.5M parameters, bringing affordable text recognition to resource-constrained devices.</description>
+      <pubDate>Mon, 22 Jun 2026 13:18:56 GMT</pubDate>
+      <category>AI Tools &amp; Products</category>
+    </item>
+    <item>
       <title>AI Agents Are Dismantling the SaaS Business Model</title>
       <link>https://aiglimpse.ai/articles/ai-agents-are-dismantling-the-saas-business-model-785f1f28</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/ai-agents-are-dismantling-the-saas-business-model-785f1f28</guid>
@@ -389,22 +405,6 @@
       <description>A new technique lets developers predict how language models will behave in the real world using actual user conversations.</description>
       <pubDate>Tue, 16 Jun 2026 00:00:00 GMT</pubDate>
       <category>LLMs &amp; Chatbots</category>
-    </item>
-    <item>
-      <title>Google DeepMind Deploys AI to Speed UK Housing Approvals</title>
-      <link>https://aiglimpse.ai/articles/google-deepmind-deploys-ai-to-speed-uk-housing-approvals-1cd14ccc</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/google-deepmind-deploys-ai-to-speed-uk-housing-approvals-1cd14ccc</guid>
-      <description>A new machine learning system aims to cut planning delays that have constrained Britain's residential construction for years.</description>
-      <pubDate>Tue, 16 Jun 2026 21:29:50 GMT</pubDate>
-      <category>AI Research</category>
-    </item>
-    <item>
-      <title>Researchers Embed 3D Geometry Into Robot Learning for Better Manipulation</title>
-      <link>https://aiglimpse.ai/articles/researchers-embed-3d-geometry-into-robot-learning-for-better-manipulation-ce42750a</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/researchers-embed-3d-geometry-into-robot-learning-for-better-manipulation-ce42750a</guid>
-      <description>A new approach harnesses spatial reasoning to improve how robots understand and execute complex physical tasks from language instructions.</description>
-      <pubDate>Mon, 15 Jun 2026 17:58:03 GMT</pubDate>
-      <category>AI Research</category>
     </item>
   </channel>
 </rss>

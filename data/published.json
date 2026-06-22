@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "openai-launches-security-program-to-help-open-source-maintainers-044b5299",
+      "title": "OpenAI Launches Security Program to Help Open Source Maintainers",
+      "subtitle": "New initiative uses AI to identify and remediate software vulnerabilities across critical open source projects.",
+      "category": "llms",
+      "publishedAt": "2026-06-22T10:00:00.000Z",
+      "sourceUrl": "https://openai.com/index/patch-the-planet",
+      "sourceName": "OpenAI",
+      "sourceTier": 1,
+      "image": "/images/articles/openai-launches-security-program-to-help-open-source-maintainers-044b5299.jpg"
+    },
+    {
+      "slug": "paddlepaddle-releases-lightweight-ocr-model-supporting-50-languages-74737716",
+      "title": "PaddlePaddle Releases Lightweight OCR Model Supporting 50 Languages",
+      "subtitle": "New PP-OCRv6 variants scale from 1.5M to 34.5M parameters, bringing affordable text recognition to resource-constrained devices.",
+      "category": "tools",
+      "publishedAt": "2026-06-22T13:18:56.000Z",
+      "sourceUrl": "https://huggingface.co/blog/PaddlePaddle/pp-ocrv6",
+      "sourceName": "Hugging Face",
+      "sourceTier": 1,
+      "image": "/images/articles/paddlepaddle-releases-lightweight-ocr-model-supporting-50-languages-74737716.jpg"
+    },
+    {
       "slug": "ai-agents-are-dismantling-the-saas-business-model-785f1f28",
       "title": "AI Agents Are Dismantling the SaaS Business Model",
       "subtitle": "As autonomous AI systems replace human workers, the subscription-per-seat pricing that built Salesforce and Workday faces obsolescence.",
@@ -3813,6 +3835,8 @@
     "6c5a0c0f5c02ebe7",
     "1f31d8386d7576ef",
     "e93e2b6b8303bb78",
-    "785f1f2806f30900"
+    "785f1f2806f30900",
+    "74737716dd3d97c2",
+    "044b529986065751"
   ]
 }
