@@ -3836,6 +3836,42 @@
         "devto": true,
         "hashnode": false
       }
+    },
+    "openai-launches-security-tools-to-automate-vulnerability-detection-2e2b6452": {
+      "syndicated_at": "2026-06-22T22:05:05.875Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/openai-launches-security-tools-to-automate-vulnerability-detection-1af0",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 461,
+      "category": "llms",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
+    },
+    "ai-diagnosis-tools-show-promise-but-evidence-gaps-remain-b99627d6": {
+      "syndicated_at": "2026-06-22T22:05:17.899Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/ai-diagnosis-tools-show-promise-but-evidence-gaps-remain-39em",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 524,
+      "category": "industry",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
     }
   }
 }

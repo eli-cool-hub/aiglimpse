@@ -7,6 +7,22 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>AI Diagnosis Tools Show Promise, But Evidence Gaps Remain</title>
+      <link>https://aiglimpse.ai/articles/ai-diagnosis-tools-show-promise-but-evidence-gaps-remain-b99627d6</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/ai-diagnosis-tools-show-promise-but-evidence-gaps-remain-b99627d6</guid>
+      <description>Recent studies demonstrate AI outperforming physicians in clinical tasks, yet validation challenges and accountability questions persist for healthcare leaders.</description>
+      <pubDate>Mon, 22 Jun 2026 21:58:27 GMT</pubDate>
+      <category>Industry Applications</category>
+    </item>
+    <item>
+      <title>OpenAI Launches Security Tools to Automate Vulnerability Detection</title>
+      <link>https://aiglimpse.ai/articles/openai-launches-security-tools-to-automate-vulnerability-detection-2e2b6452</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/openai-launches-security-tools-to-automate-vulnerability-detection-2e2b6452</guid>
+      <description>New AI-powered platform aims to help organizations identify and patch software flaws at enterprise scale.</description>
+      <pubDate>Mon, 22 Jun 2026 10:00:00 GMT</pubDate>
+      <category>LLMs &amp; Chatbots</category>
+    </item>
+    <item>
       <title>OpenAI Launches Security Program to Help Open Source Maintainers</title>
       <link>https://aiglimpse.ai/articles/openai-launches-security-program-to-help-open-source-maintainers-044b5299</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/openai-launches-security-program-to-help-open-source-maintainers-044b5299</guid>
@@ -389,22 +405,6 @@
       <description>New framework lets deployed robots improve performance in real time by verifying their own actions, eliminating the need for constant human supervision.</description>
       <pubDate>Tue, 16 Jun 2026 17:59:04 GMT</pubDate>
       <category>AI Research</category>
-    </item>
-    <item>
-      <title>New AI Model Predicts 3D Worlds More Accurately for Autonomous Robots</title>
-      <link>https://aiglimpse.ai/articles/new-ai-model-predicts-3d-worlds-more-accurately-for-autonomous-robots-7bb3ab64</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-ai-model-predicts-3d-worlds-more-accurately-for-autonomous-robots-7bb3ab64</guid>
-      <description>Researchers separate motion from environment to solve a fundamental problem in how machines understand dynamic scenes.</description>
-      <pubDate>Tue, 16 Jun 2026 17:59:46 GMT</pubDate>
-      <category>AI Research</category>
-    </item>
-    <item>
-      <title>OpenAI Tests AI Models in Simulated Deployments Before Release</title>
-      <link>https://aiglimpse.ai/articles/openai-tests-ai-models-in-simulated-deployments-before-release-cfcf6de0</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/openai-tests-ai-models-in-simulated-deployments-before-release-cfcf6de0</guid>
-      <description>A new technique lets developers predict how language models will behave in the real world using actual user conversations.</description>
-      <pubDate>Tue, 16 Jun 2026 00:00:00 GMT</pubDate>
-      <category>LLMs &amp; Chatbots</category>
     </item>
   </channel>
 </rss>

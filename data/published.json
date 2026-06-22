@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "ai-diagnosis-tools-show-promise-but-evidence-gaps-remain-b99627d6",
+      "title": "AI Diagnosis Tools Show Promise, But Evidence Gaps Remain",
+      "subtitle": "Recent studies demonstrate AI outperforming physicians in clinical tasks, yet validation challenges and accountability questions persist for healthcare leaders.",
+      "category": "industry",
+      "publishedAt": "2026-06-22T21:58:27.000Z",
+      "sourceUrl": "https://www.beckershospitalreview.com/healthcare-information-technology/ai/ai-in-diagnosis-and-clinical-reasoning-8-recent-studies/",
+      "sourceName": "Becker's Hospital Review",
+      "sourceTier": 2,
+      "image": "/images/articles/ai-diagnosis-tools-show-promise-but-evidence-gaps-remain-b99627d6.jpg"
+    },
+    {
+      "slug": "openai-launches-security-tools-to-automate-vulnerability-detection-2e2b6452",
+      "title": "OpenAI Launches Security Tools to Automate Vulnerability Detection",
+      "subtitle": "New AI-powered platform aims to help organizations identify and patch software flaws at enterprise scale.",
+      "category": "llms",
+      "publishedAt": "2026-06-22T10:00:00.000Z",
+      "sourceUrl": "https://openai.com/index/daybreak-securing-the-world",
+      "sourceName": "OpenAI",
+      "sourceTier": 1,
+      "image": "/images/articles/openai-launches-security-tools-to-automate-vulnerability-detection-2e2b6452.jpg"
+    },
+    {
       "slug": "openai-launches-security-program-to-help-open-source-maintainers-044b5299",
       "title": "OpenAI Launches Security Program to Help Open Source Maintainers",
       "subtitle": "New initiative uses AI to identify and remediate software vulnerabilities across critical open source projects.",
@@ -3837,6 +3859,8 @@
     "e93e2b6b8303bb78",
     "785f1f2806f30900",
     "74737716dd3d97c2",
-    "044b529986065751"
+    "044b529986065751",
+    "2e2b6452c4aa1cc5",
+    "b99627d6a919d838"
   ]
 }
