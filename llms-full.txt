@@ -3,7 +3,7 @@
 > Machine-readable index for AI assistants, answer engines, and research crawlers.
 > Summary version: https://aiglimpse.ai/llms.txt
 
-Total articles: 323 | Evergreen explainers: 7 | Generated: 2026-06-23
+Total articles: 325 | Evergreen explainers: 7 | Generated: 2026-06-23
 
 ## Evergreen explainers
 
@@ -57,6 +57,20 @@ Total articles: 323 | Evergreen explainers: 7 | Generated: 2026-06-23
 - Type: evergreen explainer (FAQ schema on page)
 
 ## All articles (newest first)
+
+### Humanoid Robots Learn to Manipulate Objects While Walking
+- URL: https://aiglimpse.ai/articles/humanoid-robots-learn-to-manipulate-objects-while-walking-2e200fb2
+- Published: 2026-06-22
+- Category: research
+- Summary: New training method enables continuous dexterous manipulation during locomotion, moving beyond stop-and-grasp limitations.
+- Source: http://arxiv.org/abs/2606.23680v1
+
+### Automated System Accelerates Robot Grasp Training by 5x
+- URL: https://aiglimpse.ai/articles/automated-system-accelerates-robot-grasp-training-by-5x-d3ab27e6
+- Published: 2026-06-22
+- Category: research
+- Summary: New approach generates high-quality grasp datasets without human teleoperation, solving a critical bottleneck in dexterous manipulation research.
+- Source: http://arxiv.org/abs/2606.23689v1
 
 ### Tech Giants Blame AI for Wave of 2026 Workforce Cuts
 - URL: https://aiglimpse.ai/articles/tech-giants-blame-ai-for-wave-of-2026-workforce-cuts-ce95041b

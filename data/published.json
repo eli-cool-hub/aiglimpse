@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "humanoid-robots-learn-to-manipulate-objects-while-walking-2e200fb2",
+      "title": "Humanoid Robots Learn to Manipulate Objects While Walking",
+      "subtitle": "New training method enables continuous dexterous manipulation during locomotion, moving beyond stop-and-grasp limitations.",
+      "category": "research",
+      "publishedAt": "2026-06-22T17:59:20.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2606.23680v1",
+      "sourceName": "arXiv (Sikai Li, Shuning Li, Zhenyu Wei, Yunchao Yao, Chenran Li, M…)",
+      "sourceTier": 1,
+      "image": "/images/articles/humanoid-robots-learn-to-manipulate-objects-while-walking-2e200fb2.jpg"
+    },
+    {
+      "slug": "automated-system-accelerates-robot-grasp-training-by-5x-d3ab27e6",
+      "title": "Automated System Accelerates Robot Grasp Training by 5x",
+      "subtitle": "New approach generates high-quality grasp datasets without human teleoperation, solving a critical bottleneck in dexterous manipulation research.",
+      "category": "research",
+      "publishedAt": "2026-06-22T17:59:55.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2606.23689v1",
+      "sourceName": "arXiv (Mingi Choi, Gunhee Kim, Jisoo Kim, Taeksoo Kim, Taeyun Ha, J…)",
+      "sourceTier": 1,
+      "image": "/images/articles/automated-system-accelerates-robot-grasp-training-by-5x-d3ab27e6.jpg"
+    },
+    {
       "slug": "tech-giants-blame-ai-for-wave-of-2026-workforce-cuts-ce95041b",
       "title": "Tech Giants Blame AI for Wave of 2026 Workforce Cuts",
       "subtitle": "Major technology companies are citing artificial intelligence adoption as justification for significant layoffs, raising questions about automation's real impact on employment.",
@@ -3885,6 +3907,8 @@
     "2e2b6452c4aa1cc5",
     "b99627d6a919d838",
     "0c40d2dc5d7571b8",
-    "ce95041b65765d4a"
+    "ce95041b65765d4a",
+    "d3ab27e6004998c1",
+    "2e200fb2b760e672"
   ]
 }

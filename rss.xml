@@ -7,6 +7,22 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Humanoid Robots Learn to Manipulate Objects While Walking</title>
+      <link>https://aiglimpse.ai/articles/humanoid-robots-learn-to-manipulate-objects-while-walking-2e200fb2</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/humanoid-robots-learn-to-manipulate-objects-while-walking-2e200fb2</guid>
+      <description>New training method enables continuous dexterous manipulation during locomotion, moving beyond stop-and-grasp limitations.</description>
+      <pubDate>Mon, 22 Jun 2026 17:59:20 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
+      <title>Automated System Accelerates Robot Grasp Training by 5x</title>
+      <link>https://aiglimpse.ai/articles/automated-system-accelerates-robot-grasp-training-by-5x-d3ab27e6</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/automated-system-accelerates-robot-grasp-training-by-5x-d3ab27e6</guid>
+      <description>New approach generates high-quality grasp datasets without human teleoperation, solving a critical bottleneck in dexterous manipulation research.</description>
+      <pubDate>Mon, 22 Jun 2026 17:59:55 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
       <title>Tech Giants Blame AI for Wave of 2026 Workforce Cuts</title>
       <link>https://aiglimpse.ai/articles/tech-giants-blame-ai-for-wave-of-2026-workforce-cuts-ce95041b</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/tech-giants-blame-ai-for-wave-of-2026-workforce-cuts-ce95041b</guid>
@@ -388,22 +404,6 @@
       <guid isPermaLink="true">https://aiglimpse.ai/articles/ai-model-learns-to-predict-3d-motion-from-natural-language-commands-942732bc</guid>
       <description>Researchers demonstrate how language models can forecast physical movement, bridging vision and text understanding for robotics applications.</description>
       <pubDate>Wed, 17 Jun 2026 15:26:44 GMT</pubDate>
-      <category>AI Tools &amp; Products</category>
-    </item>
-    <item>
-      <title>Alibaba's GLM-5.2 Takes Aim at Complex, Multi-Step AI Tasks</title>
-      <link>https://aiglimpse.ai/articles/alibabas-glm-52-takes-aim-at-complex-multi-step-ai-tasks-9f28c1b8</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/alibabas-glm-52-takes-aim-at-complex-multi-step-ai-tasks-9f28c1b8</guid>
-      <description>The Chinese tech giant releases a new language model designed to handle extended reasoning and planning across longer sequences of work.</description>
-      <pubDate>Wed, 17 Jun 2026 09:01:25 GMT</pubDate>
-      <category>AI Tools &amp; Products</category>
-    </item>
-    <item>
-      <title>Amazon's Robotics Push Bridges AI Models to Physical Hardware</title>
-      <link>https://aiglimpse.ai/articles/amazons-robotics-push-bridges-ai-models-to-physical-hardware-20e99bda</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/amazons-robotics-push-bridges-ai-models-to-physical-hardware-20e99bda</guid>
-      <description>New integration framework lets developers deploy machine learning directly onto robot platforms, accelerating the shift toward embodied AI.</description>
-      <pubDate>Wed, 17 Jun 2026 10:18:05 GMT</pubDate>
       <category>AI Tools &amp; Products</category>
     </item>
   </channel>
