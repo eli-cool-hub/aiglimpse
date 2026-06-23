@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "hugging-face-tests-new-storage-method-for-browser-based-ai-models-65cd0329",
+      "title": "Hugging Face Tests New Storage Method for Browser-Based AI Models",
+      "subtitle": "A proposed Cross-Origin Storage API could let web applications run machine learning models more efficiently across multiple domains.",
+      "category": "tools",
+      "publishedAt": "2026-06-23T00:00:00.000Z",
+      "sourceUrl": "https://huggingface.co/blog/cross-origin-storage",
+      "sourceName": "Hugging Face",
+      "sourceTier": 1,
+      "image": "/images/articles/hugging-face-tests-new-storage-method-for-browser-based-ai-models-65cd0329.jpg"
+    },
+    {
+      "slug": "advanced-ai-model-cracks-immunology-puzzle-accelerating-medical-research-2ac136b7",
+      "title": "Advanced AI Model Cracks Immunology Puzzle, Accelerating Medical Research",
+      "subtitle": "A major language model helped researchers decode T cell mechanisms that had eluded scientists for years, promising advances in cancer and autoimmune disease treatment.",
+      "category": "llms",
+      "publishedAt": "2026-06-23T17:00:00.000Z",
+      "sourceUrl": "https://openai.com/index/gpt-5-immunology-mystery",
+      "sourceName": "OpenAI",
+      "sourceTier": 1,
+      "image": "/images/articles/advanced-ai-model-cracks-immunology-puzzle-accelerating-medical-research-2ac136b7.jpg"
+    },
+    {
       "slug": "omio-redesigns-travel-booking-with-ai-powered-conversations-e3a38b4b",
       "title": "Omio Redesigns Travel Booking With AI-Powered Conversations",
       "subtitle": "The European travel platform leverages large language models to enable natural-language booking and reshape how users plan trips.",
@@ -3945,6 +3967,8 @@
     "2e200fb2b760e672",
     "eb3deeb68b5975f2",
     "ece3d9202c973ce2",
-    "e3a38b4bfc18f7c3"
+    "e3a38b4bfc18f7c3",
+    "2ac136b74cbd65bd",
+    "65cd0329ada29e6d"
   ]
 }

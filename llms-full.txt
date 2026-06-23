@@ -3,7 +3,7 @@
 > Machine-readable index for AI assistants, answer engines, and research crawlers.
 > Summary version: https://aiglimpse.ai/llms.txt
 
-Total articles: 328 | Evergreen explainers: 7 | Generated: 2026-06-23
+Total articles: 330 | Evergreen explainers: 7 | Generated: 2026-06-23
 
 ## Evergreen explainers
 
@@ -57,6 +57,20 @@ Total articles: 328 | Evergreen explainers: 7 | Generated: 2026-06-23
 - Type: evergreen explainer (FAQ schema on page)
 
 ## All articles (newest first)
+
+### Hugging Face Tests New Storage Method for Browser-Based AI Models
+- URL: https://aiglimpse.ai/articles/hugging-face-tests-new-storage-method-for-browser-based-ai-models-65cd0329
+- Published: 2026-06-23
+- Category: tools
+- Summary: A proposed Cross-Origin Storage API could let web applications run machine learning models more efficiently across multiple domains.
+- Source: https://huggingface.co/blog/cross-origin-storage
+
+### Advanced AI Model Cracks Immunology Puzzle, Accelerating Medical Research
+- URL: https://aiglimpse.ai/articles/advanced-ai-model-cracks-immunology-puzzle-accelerating-medical-research-2ac136b7
+- Published: 2026-06-23
+- Category: llms
+- Summary: A major language model helped researchers decode T cell mechanisms that had eluded scientists for years, promising advances in cancer and autoimmune disease treatment.
+- Source: https://openai.com/index/gpt-5-immunology-mystery
 
 ### Omio Redesigns Travel Booking With AI-Powered Conversations
 - URL: https://aiglimpse.ai/articles/omio-redesigns-travel-booking-with-ai-powered-conversations-e3a38b4b

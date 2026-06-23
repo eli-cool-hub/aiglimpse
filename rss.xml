@@ -7,6 +7,22 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Hugging Face Tests New Storage Method for Browser-Based AI Models</title>
+      <link>https://aiglimpse.ai/articles/hugging-face-tests-new-storage-method-for-browser-based-ai-models-65cd0329</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/hugging-face-tests-new-storage-method-for-browser-based-ai-models-65cd0329</guid>
+      <description>A proposed Cross-Origin Storage API could let web applications run machine learning models more efficiently across multiple domains.</description>
+      <pubDate>Tue, 23 Jun 2026 00:00:00 GMT</pubDate>
+      <category>AI Tools &amp; Products</category>
+    </item>
+    <item>
+      <title>Advanced AI Model Cracks Immunology Puzzle, Accelerating Medical Research</title>
+      <link>https://aiglimpse.ai/articles/advanced-ai-model-cracks-immunology-puzzle-accelerating-medical-research-2ac136b7</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/advanced-ai-model-cracks-immunology-puzzle-accelerating-medical-research-2ac136b7</guid>
+      <description>A major language model helped researchers decode T cell mechanisms that had eluded scientists for years, promising advances in cancer and autoimmune disease treatment.</description>
+      <pubDate>Tue, 23 Jun 2026 17:00:00 GMT</pubDate>
+      <category>LLMs &amp; Chatbots</category>
+    </item>
+    <item>
       <title>Omio Redesigns Travel Booking With AI-Powered Conversations</title>
       <link>https://aiglimpse.ai/articles/omio-redesigns-travel-booking-with-ai-powered-conversations-e3a38b4b</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/omio-redesigns-travel-booking-with-ai-powered-conversations-e3a38b4b</guid>
@@ -389,22 +405,6 @@
       <description>A bottleneck-shaped model structure cuts computing costs by 22% while improving performance, challenging conventional neural network scaling wisdom.</description>
       <pubDate>Tue, 16 Jun 2026 17:59:03 GMT</pubDate>
       <category>AI Research</category>
-    </item>
-    <item>
-      <title>OpenAI Unveils LifeSciBench to Test AI Performance on Biomedical Research</title>
-      <link>https://aiglimpse.ai/articles/openai-unveils-lifescibench-to-test-ai-performance-on-biomedical-research-163b495b</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/openai-unveils-lifescibench-to-test-ai-performance-on-biomedical-research-163b495b</guid>
-      <description>A new expert-vetted benchmark measures how well AI systems tackle real-world life science problems and decisions.</description>
-      <pubDate>Wed, 17 Jun 2026 00:00:00 GMT</pubDate>
-      <category>LLMs &amp; Chatbots</category>
-    </item>
-    <item>
-      <title>Hugging Face Launches Search Tools for AI Agent Development</title>
-      <link>https://aiglimpse.ai/articles/hugging-face-launches-search-tools-for-ai-agent-development-ceafc447</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/hugging-face-launches-search-tools-for-ai-agent-development-ceafc447</guid>
-      <description>New resource discovery framework enables autonomous agents to locate and retrieve information dynamically, expanding capabilities beyond static training data.</description>
-      <pubDate>Wed, 17 Jun 2026 00:00:00 GMT</pubDate>
-      <category>AI Tools &amp; Products</category>
     </item>
   </channel>
 </rss>
