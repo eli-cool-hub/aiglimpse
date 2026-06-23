@@ -16,6 +16,24 @@
   <url><loc>https://aiglimpse.ai/pages/privacy</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
   <url><loc>https://aiglimpse.ai/pages/terms</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
   <url>
+    <loc>https://aiglimpse.ai/articles/new-training-method-unlocks-math-and-reasoning-skills-in-vision-ai-bae046b6</loc>
+    <news:news>
+      <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-06-22T17:58:54.000Z</news:publication_date>
+      <news:title>New Training Method Unlocks Math and Reasoning Skills in Vision AI</news:title>
+    </news:news>
+    <changefreq>daily</changefreq><priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://aiglimpse.ai/articles/new-training-method-helps-ai-models-handle-drastically-longer-text-020712b6</loc>
+    <news:news>
+      <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-06-22T17:59:53.000Z</news:publication_date>
+      <news:title>New Training Method Helps AI Models Handle Drastically Longer Text</news:title>
+    </news:news>
+    <changefreq>daily</changefreq><priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://aiglimpse.ai/articles/new-ai-system-reconstructs-moving-objects-from-single-video-angles-4803b230</loc>
     <news:news>
       <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>

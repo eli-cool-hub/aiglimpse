@@ -3,7 +3,7 @@
 > Machine-readable index for AI assistants, answer engines, and research crawlers.
 > Summary version: https://aiglimpse.ai/llms.txt
 
-Total articles: 332 | Evergreen explainers: 7 | Generated: 2026-06-23
+Total articles: 334 | Evergreen explainers: 7 | Generated: 2026-06-23
 
 ## Evergreen explainers
 
@@ -57,6 +57,20 @@ Total articles: 332 | Evergreen explainers: 7 | Generated: 2026-06-23
 - Type: evergreen explainer (FAQ schema on page)
 
 ## All articles (newest first)
+
+### New Training Method Unlocks Math and Reasoning Skills in Vision AI
+- URL: https://aiglimpse.ai/articles/new-training-method-unlocks-math-and-reasoning-skills-in-vision-ai-bae046b6
+- Published: 2026-06-22
+- Category: research
+- Summary: Researchers demonstrate how reinforcement learning can teach multimodal AI systems to solve complex numerical problems through code generation.
+- Source: http://arxiv.org/abs/2606.23678v1
+
+### New Training Method Helps AI Models Handle Drastically Longer Text
+- URL: https://aiglimpse.ai/articles/new-training-method-helps-ai-models-handle-drastically-longer-text-020712b6
+- Published: 2026-06-22
+- Category: research
+- Summary: Randomized YaRN technique enables language models to reason effectively across context windows 16 times larger than training data.
+- Source: http://arxiv.org/abs/2606.23687v1
 
 ### New AI System Reconstructs Moving Objects From Single Video Angles
 - URL: https://aiglimpse.ai/articles/new-ai-system-reconstructs-moving-objects-from-single-video-angles-4803b230

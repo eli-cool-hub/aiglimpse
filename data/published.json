@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "new-training-method-unlocks-math-and-reasoning-skills-in-vision-ai-bae046b6",
+      "title": "New Training Method Unlocks Math and Reasoning Skills in Vision AI",
+      "subtitle": "Researchers demonstrate how reinforcement learning can teach multimodal AI systems to solve complex numerical problems through code generation.",
+      "category": "research",
+      "publishedAt": "2026-06-22T17:58:54.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2606.23678v1",
+      "sourceName": "arXiv (Cong Han, Xiaohan Lan, Haibo Qiu, Yujie Zhong)",
+      "sourceTier": 1,
+      "image": "/images/articles/new-training-method-unlocks-math-and-reasoning-skills-in-vision-ai-bae046b6.jpg"
+    },
+    {
+      "slug": "new-training-method-helps-ai-models-handle-drastically-longer-text-020712b6",
+      "title": "New Training Method Helps AI Models Handle Drastically Longer Text",
+      "subtitle": "Randomized YaRN technique enables language models to reason effectively across context windows 16 times larger than training data.",
+      "category": "research",
+      "publishedAt": "2026-06-22T17:59:53.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2606.23687v1",
+      "sourceName": "arXiv (Manas Mehta, Fangcong Yin, Greg Durrett)",
+      "sourceTier": 1,
+      "image": "/images/articles/new-training-method-helps-ai-models-handle-drastically-longer-text-020712b6.jpg"
+    },
+    {
       "slug": "new-ai-system-reconstructs-moving-objects-from-single-video-angles-4803b230",
       "title": "New AI System Reconstructs Moving Objects From Single Video Angles",
       "subtitle": "Researchers introduce Lift4D, a technique that combines 3D modeling with AI priors to capture dynamic deformations and hidden surfaces from monocular footage.",
@@ -3993,6 +4015,8 @@
     "2ac136b74cbd65bd",
     "65cd0329ada29e6d",
     "f0a73b74ced58a5d",
-    "4803b2302f0f4f4b"
+    "4803b2302f0f4f4b",
+    "020712b65d9f437a",
+    "bae046b6c546fc15"
   ]
 }
