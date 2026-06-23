@@ -7,6 +7,22 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Tech Giants Blame AI for Wave of 2026 Workforce Cuts</title>
+      <link>https://aiglimpse.ai/articles/tech-giants-blame-ai-for-wave-of-2026-workforce-cuts-ce95041b</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/tech-giants-blame-ai-for-wave-of-2026-workforce-cuts-ce95041b</guid>
+      <description>Major technology companies are citing artificial intelligence adoption as justification for significant layoffs, raising questions about automation's real impact on employment.</description>
+      <pubDate>Tue, 23 Jun 2026 01:27:55 GMT</pubDate>
+      <category>AI Business</category>
+    </item>
+    <item>
+      <title>How Developers Use Codex to Sustain Complex Projects Over Time</title>
+      <link>https://aiglimpse.ai/articles/how-developers-use-codex-to-sustain-complex-projects-over-time-0c40d2dc</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/how-developers-use-codex-to-sustain-complex-projects-over-time-0c40d2dc</guid>
+      <description>A case study reveals techniques for maintaining context and managing multi-stage coding work with AI assistance.</description>
+      <pubDate>Mon, 22 Jun 2026 00:00:00 GMT</pubDate>
+      <category>LLMs &amp; Chatbots</category>
+    </item>
+    <item>
       <title>AI Diagnosis Tools Show Promise, But Evidence Gaps Remain</title>
       <link>https://aiglimpse.ai/articles/ai-diagnosis-tools-show-promise-but-evidence-gaps-remain-b99627d6</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/ai-diagnosis-tools-show-promise-but-evidence-gaps-remain-b99627d6</guid>
@@ -389,22 +405,6 @@
       <description>New integration framework lets developers deploy machine learning directly onto robot platforms, accelerating the shift toward embodied AI.</description>
       <pubDate>Wed, 17 Jun 2026 10:18:05 GMT</pubDate>
       <category>AI Tools &amp; Products</category>
-    </item>
-    <item>
-      <title>What Is the Model Context Protocol? A Developer's Guide</title>
-      <link>https://aiglimpse.ai/articles/what-is-model-context-protocol-mcp</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/what-is-model-context-protocol-mcp</guid>
-      <description>How MCP standardizes connections between LLMs and external tools, data sources, and APIs.</description>
-      <pubDate>Wed, 17 Jun 2026 10:29:32 GMT</pubDate>
-      <category>AI Tools &amp; Products</category>
-    </item>
-    <item>
-      <title>Self-Correcting Robots Learn on the Job Without Human Guidance</title>
-      <link>https://aiglimpse.ai/articles/self-correcting-robots-learn-on-the-job-without-human-guidance-dc925ffd</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/self-correcting-robots-learn-on-the-job-without-human-guidance-dc925ffd</guid>
-      <description>New framework lets deployed robots improve performance in real time by verifying their own actions, eliminating the need for constant human supervision.</description>
-      <pubDate>Tue, 16 Jun 2026 17:59:04 GMT</pubDate>
-      <category>AI Research</category>
     </item>
   </channel>
 </rss>

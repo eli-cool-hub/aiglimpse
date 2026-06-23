@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "tech-giants-blame-ai-for-wave-of-2026-workforce-cuts-ce95041b",
+      "title": "Tech Giants Blame AI for Wave of 2026 Workforce Cuts",
+      "subtitle": "Major technology companies are citing artificial intelligence adoption as justification for significant layoffs, raising questions about automation's real impact on employment.",
+      "category": "business",
+      "publishedAt": "2026-06-23T01:27:55.000Z",
+      "sourceUrl": "https://techcrunch.com/2026/06/22/the-running-list-major-tech-layoffs-in-2026-where-employers-cited-ai/",
+      "sourceName": "TechCrunch AI",
+      "sourceTier": 2,
+      "image": "/images/articles/tech-giants-blame-ai-for-wave-of-2026-workforce-cuts-ce95041b.jpg"
+    },
+    {
+      "slug": "how-developers-use-codex-to-sustain-complex-projects-over-time-0c40d2dc",
+      "title": "How Developers Use Codex to Sustain Complex Projects Over Time",
+      "subtitle": "A case study reveals techniques for maintaining context and managing multi-stage coding work with AI assistance.",
+      "category": "llms",
+      "publishedAt": "2026-06-22T00:00:00.000Z",
+      "sourceUrl": "https://openai.com/index/codex-maxxing-long-running-work",
+      "sourceName": "OpenAI",
+      "sourceTier": 1,
+      "image": "/images/articles/how-developers-use-codex-to-sustain-complex-projects-over-time-0c40d2dc.jpg"
+    },
+    {
       "slug": "ai-diagnosis-tools-show-promise-but-evidence-gaps-remain-b99627d6",
       "title": "AI Diagnosis Tools Show Promise, But Evidence Gaps Remain",
       "subtitle": "Recent studies demonstrate AI outperforming physicians in clinical tasks, yet validation challenges and accountability questions persist for healthcare leaders.",
@@ -3861,6 +3883,8 @@
     "74737716dd3d97c2",
     "044b529986065751",
     "2e2b6452c4aa1cc5",
-    "b99627d6a919d838"
+    "b99627d6a919d838",
+    "0c40d2dc5d7571b8",
+    "ce95041b65765d4a"
   ]
 }
