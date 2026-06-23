@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "hugging-face-automates-weekly-hub-releases-with-ai-assisted-pipeline-eb3deeb6",
+      "title": "Hugging Face Automates Weekly Hub Releases With AI-Assisted Pipeline",
+      "subtitle": "The open-source platform combines machine learning with human review to ship updates reliably, setting a model for sustainable AI infrastructure maintenance.",
+      "category": "tools",
+      "publishedAt": "2026-06-23T00:00:00.000Z",
+      "sourceUrl": "https://huggingface.co/blog/huggingface-hub-release-ci",
+      "sourceName": "Hugging Face",
+      "sourceTier": 1,
+      "image": "/images/articles/hugging-face-automates-weekly-hub-releases-with-ai-assisted-pipeline-eb3deeb6.jpg"
+    },
+    {
       "slug": "humanoid-robots-learn-to-manipulate-objects-while-walking-2e200fb2",
       "title": "Humanoid Robots Learn to Manipulate Objects While Walking",
       "subtitle": "New training method enables continuous dexterous manipulation during locomotion, moving beyond stop-and-grasp limitations.",
@@ -3909,6 +3920,7 @@
     "0c40d2dc5d7571b8",
     "ce95041b65765d4a",
     "d3ab27e6004998c1",
-    "2e200fb2b760e672"
+    "2e200fb2b760e672",
+    "eb3deeb68b5975f2"
   ]
 }

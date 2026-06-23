@@ -7,6 +7,14 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Hugging Face Automates Weekly Hub Releases With AI-Assisted Pipeline</title>
+      <link>https://aiglimpse.ai/articles/hugging-face-automates-weekly-hub-releases-with-ai-assisted-pipeline-eb3deeb6</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/hugging-face-automates-weekly-hub-releases-with-ai-assisted-pipeline-eb3deeb6</guid>
+      <description>The open-source platform combines machine learning with human review to ship updates reliably, setting a model for sustainable AI infrastructure maintenance.</description>
+      <pubDate>Tue, 23 Jun 2026 00:00:00 GMT</pubDate>
+      <category>AI Tools &amp; Products</category>
+    </item>
+    <item>
       <title>Humanoid Robots Learn to Manipulate Objects While Walking</title>
       <link>https://aiglimpse.ai/articles/humanoid-robots-learn-to-manipulate-objects-while-walking-2e200fb2</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/humanoid-robots-learn-to-manipulate-objects-while-walking-2e200fb2</guid>
@@ -397,14 +405,6 @@
       <description>New framework eliminates fragmented visual processing, enabling AI systems to interpret their own outputs without redundant recoding steps.</description>
       <pubDate>Tue, 16 Jun 2026 17:59:22 GMT</pubDate>
       <category>AI Research</category>
-    </item>
-    <item>
-      <title>AI Model Learns to Predict 3D Motion from Natural Language Commands</title>
-      <link>https://aiglimpse.ai/articles/ai-model-learns-to-predict-3d-motion-from-natural-language-commands-942732bc</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/ai-model-learns-to-predict-3d-motion-from-natural-language-commands-942732bc</guid>
-      <description>Researchers demonstrate how language models can forecast physical movement, bridging vision and text understanding for robotics applications.</description>
-      <pubDate>Wed, 17 Jun 2026 15:26:44 GMT</pubDate>
-      <category>AI Tools &amp; Products</category>
     </item>
   </channel>
 </rss>

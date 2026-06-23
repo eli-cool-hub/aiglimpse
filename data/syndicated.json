@@ -3926,6 +3926,24 @@
         "devto": true,
         "hashnode": false
       }
+    },
+    "hugging-face-automates-weekly-hub-releases-with-ai-assisted-pipeline-eb3deeb6": {
+      "syndicated_at": "2026-06-23T11:19:57.788Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/hugging-face-automates-weekly-hub-releases-with-ai-assisted-pipeline-4320",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 509,
+      "category": "tools",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
     }
   }
 }
