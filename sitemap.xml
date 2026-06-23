@@ -16,6 +16,24 @@
   <url><loc>https://aiglimpse.ai/pages/privacy</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
   <url><loc>https://aiglimpse.ai/pages/terms</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
   <url>
+    <loc>https://aiglimpse.ai/articles/omio-redesigns-travel-booking-with-ai-powered-conversations-e3a38b4b</loc>
+    <news:news>
+      <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-06-23T00:00:00.000Z</news:publication_date>
+      <news:title>Omio Redesigns Travel Booking With AI-Powered Conversations</news:title>
+    </news:news>
+    <changefreq>daily</changefreq><priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://aiglimpse.ai/articles/ibm-research-releases-cuga-framework-for-building-practical-ai-agents-ece3d920</loc>
+    <news:news>
+      <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-06-23T12:51:55.000Z</news:publication_date>
+      <news:title>IBM Research Releases CUGA Framework for Building Practical AI Agents</news:title>
+    </news:news>
+    <changefreq>daily</changefreq><priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://aiglimpse.ai/articles/hugging-face-automates-weekly-hub-releases-with-ai-assisted-pipeline-eb3deeb6</loc>
     <news:news>
       <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>

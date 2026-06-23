@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "omio-redesigns-travel-booking-with-ai-powered-conversations-e3a38b4b",
+      "title": "Omio Redesigns Travel Booking With AI-Powered Conversations",
+      "subtitle": "The European travel platform leverages large language models to enable natural-language booking and reshape how users plan trips.",
+      "category": "llms",
+      "publishedAt": "2026-06-23T00:00:00.000Z",
+      "sourceUrl": "https://openai.com/index/omio",
+      "sourceName": "OpenAI",
+      "sourceTier": 1,
+      "image": "/images/articles/omio-redesigns-travel-booking-with-ai-powered-conversations-e3a38b4b.jpg"
+    },
+    {
+      "slug": "ibm-research-releases-cuga-framework-for-building-practical-ai-agents-ece3d920",
+      "title": "IBM Research Releases CUGA Framework for Building Practical AI Agents",
+      "subtitle": "New toolkit with 24 working examples aims to simplify development of autonomous AI applications on modest hardware.",
+      "category": "tools",
+      "publishedAt": "2026-06-23T12:51:55.000Z",
+      "sourceUrl": "https://huggingface.co/blog/ibm-research/cuga-apps",
+      "sourceName": "Hugging Face",
+      "sourceTier": 1,
+      "image": "/images/articles/ibm-research-releases-cuga-framework-for-building-practical-ai-agents-ece3d920.jpg"
+    },
+    {
       "slug": "hugging-face-automates-weekly-hub-releases-with-ai-assisted-pipeline-eb3deeb6",
       "title": "Hugging Face Automates Weekly Hub Releases With AI-Assisted Pipeline",
       "subtitle": "The open-source platform combines machine learning with human review to ship updates reliably, setting a model for sustainable AI infrastructure maintenance.",
@@ -3921,6 +3943,8 @@
     "ce95041b65765d4a",
     "d3ab27e6004998c1",
     "2e200fb2b760e672",
-    "eb3deeb68b5975f2"
+    "eb3deeb68b5975f2",
+    "ece3d9202c973ce2",
+    "e3a38b4bfc18f7c3"
   ]
 }

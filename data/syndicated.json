@@ -3944,6 +3944,42 @@
         "devto": true,
         "hashnode": false
       }
+    },
+    "ibm-research-releases-cuga-framework-for-building-practical-ai-agents-ece3d920": {
+      "syndicated_at": "2026-06-23T14:53:43.890Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/ibm-research-releases-cuga-framework-for-building-practical-ai-agents-4fo0",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 476,
+      "category": "tools",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
+    },
+    "omio-redesigns-travel-booking-with-ai-powered-conversations-e3a38b4b": {
+      "syndicated_at": "2026-06-23T14:53:54.668Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/omio-redesigns-travel-booking-with-ai-powered-conversations-4c6h",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 483,
+      "category": "llms",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
     }
   }
 }
