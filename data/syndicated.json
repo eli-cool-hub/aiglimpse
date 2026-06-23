@@ -4016,6 +4016,42 @@
         "devto": true,
         "hashnode": false
       }
+    },
+    "openai-backs-industry-push-for-unified-ai-safety-standards-f0a73b74": {
+      "syndicated_at": "2026-06-23T20:18:18.080Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/openai-backs-industry-push-for-unified-ai-safety-standards-4g46",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 428,
+      "category": "llms",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
+    },
+    "new-ai-system-reconstructs-moving-objects-from-single-video-angles-4803b230": {
+      "syndicated_at": "2026-06-23T20:18:27.668Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/new-ai-system-reconstructs-moving-objects-from-single-video-angles-443e",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 438,
+      "category": "research",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
     }
   }
 }

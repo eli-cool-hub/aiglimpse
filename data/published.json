@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "new-ai-system-reconstructs-moving-objects-from-single-video-angles-4803b230",
+      "title": "New AI System Reconstructs Moving Objects From Single Video Angles",
+      "subtitle": "Researchers introduce Lift4D, a technique that combines 3D modeling with AI priors to capture dynamic deformations and hidden surfaces from monocular footage.",
+      "category": "research",
+      "publishedAt": "2026-06-22T17:59:54.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2606.23688v1",
+      "sourceName": "arXiv (Yehonathan Litman, Xiaoxuan Ma, Manan Shah, Nicolas Ugrinovi…)",
+      "sourceTier": 1,
+      "image": "/images/articles/new-ai-system-reconstructs-moving-objects-from-single-video-angles-4803b230.jpg"
+    },
+    {
+      "slug": "openai-backs-industry-push-for-unified-ai-safety-standards-f0a73b74",
+      "title": "OpenAI Backs Industry Push for Unified AI Safety Standards",
+      "subtitle": "The AI leader is collaborating on evaluation frameworks and global protocols to establish shared best practices for advanced systems.",
+      "category": "llms",
+      "publishedAt": "2026-06-23T13:00:00.000Z",
+      "sourceUrl": "https://openai.com/index/helping-build-shared-standards-for-advanced-ai",
+      "sourceName": "OpenAI",
+      "sourceTier": 1,
+      "image": "/images/articles/openai-backs-industry-push-for-unified-ai-safety-standards-f0a73b74.jpg"
+    },
+    {
       "slug": "hugging-face-tests-new-storage-method-for-browser-based-ai-models-65cd0329",
       "title": "Hugging Face Tests New Storage Method for Browser-Based AI Models",
       "subtitle": "A proposed Cross-Origin Storage API could let web applications run machine learning models more efficiently across multiple domains.",
@@ -3969,6 +3991,8 @@
     "ece3d9202c973ce2",
     "e3a38b4bfc18f7c3",
     "2ac136b74cbd65bd",
-    "65cd0329ada29e6d"
+    "65cd0329ada29e6d",
+    "f0a73b74ced58a5d",
+    "4803b2302f0f4f4b"
   ]
 }

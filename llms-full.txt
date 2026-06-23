@@ -3,7 +3,7 @@
 > Machine-readable index for AI assistants, answer engines, and research crawlers.
 > Summary version: https://aiglimpse.ai/llms.txt
 
-Total articles: 330 | Evergreen explainers: 7 | Generated: 2026-06-23
+Total articles: 332 | Evergreen explainers: 7 | Generated: 2026-06-23
 
 ## Evergreen explainers
 
@@ -57,6 +57,20 @@ Total articles: 330 | Evergreen explainers: 7 | Generated: 2026-06-23
 - Type: evergreen explainer (FAQ schema on page)
 
 ## All articles (newest first)
+
+### New AI System Reconstructs Moving Objects From Single Video Angles
+- URL: https://aiglimpse.ai/articles/new-ai-system-reconstructs-moving-objects-from-single-video-angles-4803b230
+- Published: 2026-06-22
+- Category: research
+- Summary: Researchers introduce Lift4D, a technique that combines 3D modeling with AI priors to capture dynamic deformations and hidden surfaces from monocular footage.
+- Source: http://arxiv.org/abs/2606.23688v1
+
+### OpenAI Backs Industry Push for Unified AI Safety Standards
+- URL: https://aiglimpse.ai/articles/openai-backs-industry-push-for-unified-ai-safety-standards-f0a73b74
+- Published: 2026-06-23
+- Category: llms
+- Summary: The AI leader is collaborating on evaluation frameworks and global protocols to establish shared best practices for advanced systems.
+- Source: https://openai.com/index/helping-build-shared-standards-for-advanced-ai
 
 ### Hugging Face Tests New Storage Method for Browser-Based AI Models
 - URL: https://aiglimpse.ai/articles/hugging-face-tests-new-storage-method-for-browser-based-ai-models-65cd0329
