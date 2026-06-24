@@ -7,6 +7,22 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>NVIDIA NeMo AutoModel Cuts LLM Fine-Tuning Time by Half</title>
+      <link>https://aiglimpse.ai/articles/nvidia-nemo-automodel-cuts-llm-fine-tuning-time-by-half-6faaebb3</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/nvidia-nemo-automodel-cuts-llm-fine-tuning-time-by-half-6faaebb3</guid>
+      <description>New framework automates optimization steps, letting enterprises train large language models faster without manual tuning.</description>
+      <pubDate>Wed, 24 Jun 2026 16:00:13 GMT</pubDate>
+      <category>AI Tools &amp; Products</category>
+    </item>
+    <item>
+      <title>Google Extends Computer Control to Gemini 3.5 Flash Model</title>
+      <link>https://aiglimpse.ai/articles/google-extends-computer-control-to-gemini-35-flash-model-0abf652d</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/google-extends-computer-control-to-gemini-35-flash-model-0abf652d</guid>
+      <description>The fast, efficient AI model can now interact with computer interfaces, expanding automation possibilities for enterprise and consumer applications.</description>
+      <pubDate>Wed, 24 Jun 2026 16:30:01 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
       <title>Healthcare CIOs Push Back Against AI Leadership Sidelines</title>
       <link>https://aiglimpse.ai/articles/healthcare-cios-push-back-against-ai-leadership-sidelines-5fe5d283</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/healthcare-cios-push-back-against-ai-leadership-sidelines-5fe5d283</guid>
@@ -389,22 +405,6 @@
       <description>New study reveals how to interpret DiffusionGemma's internal reasoning, addressing a critical challenge for understanding next-generation AI systems.</description>
       <pubDate>Thu, 18 Jun 2026 17:59:46 GMT</pubDate>
       <category>AI Research</category>
-    </item>
-    <item>
-      <title>Reliance Integrates AI Across Telecom Stack for Half a Billion Users</title>
-      <link>https://aiglimpse.ai/articles/reliance-integrates-ai-across-telecom-stack-for-half-a-billion-users-370963ad</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/reliance-integrates-ai-across-telecom-stack-for-half-a-billion-users-370963ad</guid>
-      <description>India's dominant carrier is embedding machine learning into core services, signaling a major shift in how telecom operators monetize AI capabilities.</description>
-      <pubDate>Fri, 19 Jun 2026 15:23:28 GMT</pubDate>
-      <category>AI Business</category>
-    </item>
-    <item>
-      <title>US Alleges Advanced Chip Equipment Reached China Despite Export Controls</title>
-      <link>https://aiglimpse.ai/articles/us-alleges-advanced-chip-equipment-reached-china-despite-export-controls-cab03364</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/us-alleges-advanced-chip-equipment-reached-china-despite-export-controls-cab03364</guid>
-      <description>Washington claims ASML's cutting-edge lithography tool may have been diverted to Chinese manufacturers, challenging the company's compliance assurances.</description>
-      <pubDate>Fri, 19 Jun 2026 07:59:12 GMT</pubDate>
-      <category>AI Business</category>
     </item>
   </channel>
 </rss>

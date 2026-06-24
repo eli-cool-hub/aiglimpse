@@ -3,7 +3,7 @@
 > Machine-readable index for AI assistants, answer engines, and research crawlers.
 > Summary version: https://aiglimpse.ai/llms.txt
 
-Total articles: 342 | Evergreen explainers: 8 | Generated: 2026-06-24
+Total articles: 344 | Evergreen explainers: 8 | Generated: 2026-06-24
 
 ## Evergreen explainers
 
@@ -64,6 +64,20 @@ Total articles: 342 | Evergreen explainers: 8 | Generated: 2026-06-24
 - Type: evergreen explainer (FAQ schema on page)
 
 ## All articles (newest first)
+
+### NVIDIA NeMo AutoModel Cuts LLM Fine-Tuning Time by Half
+- URL: https://aiglimpse.ai/articles/nvidia-nemo-automodel-cuts-llm-fine-tuning-time-by-half-6faaebb3
+- Published: 2026-06-24
+- Category: tools
+- Summary: New framework automates optimization steps, letting enterprises train large language models faster without manual tuning.
+- Source: https://huggingface.co/blog/nvidia/accelerating-fine-tuning-nvidia-nemo-automodel
+
+### Google Extends Computer Control to Gemini 3.5 Flash Model
+- URL: https://aiglimpse.ai/articles/google-extends-computer-control-to-gemini-35-flash-model-0abf652d
+- Published: 2026-06-24
+- Category: research
+- Summary: The fast, efficient AI model can now interact with computer interfaces, expanding automation possibilities for enterprise and consumer applications.
+- Source: https://deepmind.google/blog/introducing-computer-use-in-gemini-3-5-flash/
 
 ### Healthcare CIOs Push Back Against AI Leadership Sidelines
 - URL: https://aiglimpse.ai/articles/healthcare-cios-push-back-against-ai-leadership-sidelines-5fe5d283

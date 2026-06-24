@@ -16,6 +16,24 @@
   <url><loc>https://aiglimpse.ai/pages/privacy</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
   <url><loc>https://aiglimpse.ai/pages/terms</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
   <url>
+    <loc>https://aiglimpse.ai/articles/nvidia-nemo-automodel-cuts-llm-fine-tuning-time-by-half-6faaebb3</loc>
+    <news:news>
+      <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-06-24T16:00:13.000Z</news:publication_date>
+      <news:title>NVIDIA NeMo AutoModel Cuts LLM Fine-Tuning Time by Half</news:title>
+    </news:news>
+    <changefreq>daily</changefreq><priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://aiglimpse.ai/articles/google-extends-computer-control-to-gemini-35-flash-model-0abf652d</loc>
+    <news:news>
+      <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-06-24T16:30:01.000Z</news:publication_date>
+      <news:title>Google Extends Computer Control to Gemini 3.5 Flash Model</news:title>
+    </news:news>
+    <changefreq>daily</changefreq><priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://aiglimpse.ai/articles/healthcare-cios-push-back-against-ai-leadership-sidelines-5fe5d283</loc>
     <news:news>
       <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>

@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "nvidia-nemo-automodel-cuts-llm-fine-tuning-time-by-half-6faaebb3",
+      "title": "NVIDIA NeMo AutoModel Cuts LLM Fine-Tuning Time by Half",
+      "subtitle": "New framework automates optimization steps, letting enterprises train large language models faster without manual tuning.",
+      "category": "tools",
+      "publishedAt": "2026-06-24T16:00:13.000Z",
+      "sourceUrl": "https://huggingface.co/blog/nvidia/accelerating-fine-tuning-nvidia-nemo-automodel",
+      "sourceName": "Hugging Face",
+      "sourceTier": 1,
+      "image": "/images/articles/nvidia-nemo-automodel-cuts-llm-fine-tuning-time-by-half-6faaebb3.jpg"
+    },
+    {
+      "slug": "google-extends-computer-control-to-gemini-35-flash-model-0abf652d",
+      "title": "Google Extends Computer Control to Gemini 3.5 Flash Model",
+      "subtitle": "The fast, efficient AI model can now interact with computer interfaces, expanding automation possibilities for enterprise and consumer applications.",
+      "category": "research",
+      "publishedAt": "2026-06-24T16:30:01.000Z",
+      "sourceUrl": "https://deepmind.google/blog/introducing-computer-use-in-gemini-3-5-flash/",
+      "sourceName": "Google DeepMind",
+      "sourceTier": 1,
+      "image": "/images/articles/google-extends-computer-control-to-gemini-35-flash-model-0abf652d.jpg"
+    },
+    {
       "slug": "healthcare-cios-push-back-against-ai-leadership-sidelines-5fe5d283",
       "title": "Healthcare CIOs Push Back Against AI Leadership Sidelines",
       "subtitle": "As hospitals create dedicated AI executive roles, tech leaders warn that isolating AI strategy from IT leadership misreads structural constraints as capability gaps.",
@@ -4113,6 +4135,8 @@
     "63f0752981708b96",
     "5b9f085b1fe6d015",
     "a646266f075b8e1e",
-    "5fe5d283c4b21bb8"
+    "5fe5d283c4b21bb8",
+    "0abf652d17db8a23",
+    "6faaebb320212260"
   ]
 }

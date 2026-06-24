@@ -4232,6 +4232,42 @@
         "devto": true,
         "hashnode": false
       }
+    },
+    "google-extends-computer-control-to-gemini-35-flash-model-0abf652d": {
+      "syndicated_at": "2026-06-24T17:56:31.063Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/google-extends-computer-control-to-gemini-35-flash-model-ca2",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 503,
+      "category": "research",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
+    },
+    "nvidia-nemo-automodel-cuts-llm-fine-tuning-time-by-half-6faaebb3": {
+      "syndicated_at": "2026-06-24T17:56:41.666Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/nvidia-nemo-automodel-cuts-llm-fine-tuning-time-by-half-2mip",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 432,
+      "category": "tools",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
     }
   }
 }
