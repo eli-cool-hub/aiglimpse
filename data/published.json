@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "google-deepminds-75m-a24-deal-signals-ais-growing-reach-in-film-1f9b13e8",
+      "title": "Google DeepMind's $75M A24 Deal Signals AI's Growing Reach in Film",
+      "subtitle": "The streaming giant's investment in the indie studio reveals how artificial intelligence companies are reshaping Hollywood's creative ecosystem.",
+      "category": "tools",
+      "publishedAt": "2026-06-24T21:05:51.000Z",
+      "sourceUrl": "https://www.wired.com/story/a24-knows-youre-mad-about-the-google-ai-collab/",
+      "sourceName": "Wired AI",
+      "sourceTier": 2,
+      "image": "/images/articles/google-deepminds-75m-a24-deal-signals-ais-growing-reach-in-film-1f9b13e8.jpg"
+    },
+    {
+      "slug": "new-benchmark-exposes-cancer-ai-models-blind-spots-in-minority-patients-8835df3e",
+      "title": "New Benchmark Exposes Cancer AI Models' Blind Spots in Minority Patients",
+      "subtitle": "Large-scale study reveals state-of-the-art tumor detection systems fail for underrepresented demographic groups, raising concerns about equitable medical AI deployment.",
+      "category": "research",
+      "publishedAt": "2026-06-23T17:58:59.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2606.24883v1",
+      "sourceName": "arXiv (Qi Chen, Wenxuan Li, Pedro R. A. S. Bassi, Xinze Zhou, Jakob…)",
+      "sourceTier": 1,
+      "image": "/images/articles/new-benchmark-exposes-cancer-ai-models-blind-spots-in-minority-patients-8835df3e.jpg"
+    },
+    {
       "slug": "ai-safety-fears-cross-borders-as-us-china-rivalry-intensifies-a3b2a52c",
       "title": "AI Safety Fears Cross Borders as US-China Rivalry Intensifies",
       "subtitle": "Researchers on both sides of the AI competition share deep concerns about catastrophic risks amid accelerating development cycles.",
@@ -4161,6 +4183,8 @@
     "0abf652d17db8a23",
     "6faaebb320212260",
     "3d6bce0214b49a01",
-    "a3b2a52c4eeac16e"
+    "a3b2a52c4eeac16e",
+    "8835df3e9274546a",
+    "1f9b13e8cbbf84b9"
   ]
 }
