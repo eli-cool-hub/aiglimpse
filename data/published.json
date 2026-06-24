@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "new-method-adapts-classical-stereo-vision-algorithms-to-360-degree-cameras-aa848ca5",
+      "title": "New Method Adapts Classical Stereo Vision Algorithms to 360-Degree Cameras",
+      "subtitle": "Researchers show how to flatten spherical imagery for depth estimation, enabling real-time 3D perception in omnidirectional systems.",
+      "category": "research",
+      "publishedAt": "2026-06-23T17:27:07.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2606.24847v1",
+      "sourceName": "arXiv (Sahereh Obeidavi, Dieter Landes)",
+      "sourceTier": 1,
+      "image": "/images/articles/new-method-adapts-classical-stereo-vision-algorithms-to-360-degree-cameras-aa848ca5.jpg"
+    },
+    {
       "slug": "researchers-challenge-how-we-measure-ai-success-in-speech-tech-830d0a69",
       "title": "Researchers Challenge How We Measure AI Success in Speech Tech",
       "subtitle": "New study exposes flaws in evaluating AI-enhanced communication devices for people with speech disabilities.",
@@ -4041,6 +4052,7 @@
     "020712b65d9f437a",
     "bae046b6c546fc15",
     "732f206787471f8e",
-    "830d0a69081a3b6c"
+    "830d0a69081a3b6c",
+    "aa848ca5894b8753"
   ]
 }

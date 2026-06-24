@@ -7,6 +7,14 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>New Method Adapts Classical Stereo Vision Algorithms to 360-Degree Cameras</title>
+      <link>https://aiglimpse.ai/articles/new-method-adapts-classical-stereo-vision-algorithms-to-360-degree-cameras-aa848ca5</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-method-adapts-classical-stereo-vision-algorithms-to-360-degree-cameras-aa848ca5</guid>
+      <description>Researchers show how to flatten spherical imagery for depth estimation, enabling real-time 3D perception in omnidirectional systems.</description>
+      <pubDate>Tue, 23 Jun 2026 17:27:07 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
       <title>Researchers Challenge How We Measure AI Success in Speech Tech</title>
       <link>https://aiglimpse.ai/articles/researchers-challenge-how-we-measure-ai-success-in-speech-tech-830d0a69</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/researchers-challenge-how-we-measure-ai-success-in-speech-tech-830d0a69</guid>
@@ -397,14 +405,6 @@
       <description>New security research exposes how AI agents handling confidential information may inadvertently expose secrets during operation.</description>
       <pubDate>Thu, 18 Jun 2026 18:13:13 GMT</pubDate>
       <category>AI Tools &amp; Products</category>
-    </item>
-    <item>
-      <title>OpenAI Upgrades ChatGPT's Medical Reasoning With GPT-4.5 Instant</title>
-      <link>https://aiglimpse.ai/articles/openai-upgrades-chatgpts-medical-reasoning-with-gpt-45-instant-c01e13c4</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/openai-upgrades-chatgpts-medical-reasoning-with-gpt-45-instant-c01e13c4</guid>
-      <description>New model iteration strengthens health advice quality through physician-guided training and improved contextual understanding.</description>
-      <pubDate>Thu, 18 Jun 2026 11:00:00 GMT</pubDate>
-      <category>LLMs &amp; Chatbots</category>
     </item>
   </channel>
 </rss>
