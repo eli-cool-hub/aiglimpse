@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "google-search-now-saves-your-images-to-train-ai-models-1d7222bd",
+      "title": "Google Search Now Saves Your Images to Train AI Models",
+      "subtitle": "A change to how Google handles search history means your uploaded media could feed machine learning systems unless you disable the feature.",
+      "category": "tools",
+      "publishedAt": "2026-06-24T22:36:16.000Z",
+      "sourceUrl": "https://www.wired.com/story/how-to-opt-out-of-google-search-new-ai-data-training/",
+      "sourceName": "Wired AI",
+      "sourceTier": 2,
+      "image": "/images/articles/google-search-now-saves-your-images-to-train-ai-models-1d7222bd.jpg"
+    },
+    {
+      "slug": "cerebras-shares-tank-on-margin-guidance-confusion-in-ipo-debut-5855364d",
+      "title": "Cerebras Shares Tank on Margin Guidance Confusion in IPO Debut",
+      "subtitle": "The AI chip specialist's first earnings disappointment reveals investor sensitivity to profitability timelines in the competitive accelerator market.",
+      "category": "business",
+      "publishedAt": "2026-06-24T22:41:41.000Z",
+      "sourceUrl": "https://techcrunch.com/2026/06/24/cerebras-stock-plunges-after-earnings-as-ceo-says-margin-outlook-was-misunderstood/",
+      "sourceName": "TechCrunch AI",
+      "sourceTier": 2,
+      "image": "/images/articles/cerebras-shares-tank-on-margin-guidance-confusion-in-ipo-debut-5855364d.jpg"
+    },
+    {
       "slug": "google-deepminds-75m-a24-deal-signals-ais-growing-reach-in-film-1f9b13e8",
       "title": "Google DeepMind's $75M A24 Deal Signals AI's Growing Reach in Film",
       "subtitle": "The streaming giant's investment in the indie studio reveals how artificial intelligence companies are reshaping Hollywood's creative ecosystem.",
@@ -4185,6 +4207,8 @@
     "3d6bce0214b49a01",
     "a3b2a52c4eeac16e",
     "8835df3e9274546a",
-    "1f9b13e8cbbf84b9"
+    "1f9b13e8cbbf84b9",
+    "5855364d4e6f466b",
+    "1d7222bdd496422a"
   ]
 }
