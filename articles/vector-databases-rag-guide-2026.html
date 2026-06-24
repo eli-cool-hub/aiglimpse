@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vector Databases for RAG: Pinecone, pgvector, Chroma, and How to Choose | AI Glimpse</title>
+  <meta name="description" content="Compare vector databases for RAG: Pinecone vs pgvector vs Chroma. Learn indexing strategies, hybrid search, costs, and when to skip a dedicated vector DB.">
+  <meta name="keywords" content="vector database, RAG pipeline, embeddings index, pgvector, semantic search, hybrid search, Pinecone">
+  <link rel="canonical" href="https://aiglimpse.ai/articles/vector-databases-rag-guide-2026">
+  <meta property="og:type" content="article"><meta property="og:site_name" content="AI Glimpse">
+  <meta property="og:title" content="Vector Databases for RAG: Pinecone, pgvector, Chroma, and How to Choose">
+  <meta property="og:description" content="Compare vector databases for RAG: Pinecone vs pgvector vs Chroma. Learn indexing strategies, hybrid search, costs, and when to skip a dedicated vector DB.">
+  <meta property="og:url" content="https://aiglimpse.ai/articles/vector-databases-rag-guide-2026">
+  <meta property="og:image" content="https://aiglimpse.ai/images/articles/vector-databases-rag-guide-2026.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="article:published_time" content="2026-06-24T08:55:34.684Z">
+  <meta property="article:section" content="AI Research">
+  <meta property="article:tag" content="vector database">
+  <meta property="article:tag" content="RAG pipeline">
+  <meta property="article:tag" content="embeddings index">
+  <meta property="article:tag" content="pgvector">
+  <meta property="article:tag" content="semantic search">
+  <meta property="article:tag" content="hybrid search">
+  <meta property="article:tag" content="Pinecone">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Vector Databases for RAG: Pinecone, pgvector, Chroma, and How to Choose">
+  <meta name="twitter:description" content="Compare vector databases for RAG: Pinecone vs pgvector vs Chroma. Learn indexing strategies, hybrid search, costs, and when to skip a dedicated vector DB.">
+  <meta name="twitter:image" content="https://aiglimpse.ai/images/articles/vector-databases-rag-guide-2026.jpg">
+  <link rel="icon" type="image/svg+xml" href="/images/favicon.svg">
+  <link rel="alternate" type="application/rss+xml" title="AI Glimpse RSS" href="/rss.xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="/css/main.css">
+  <style>.reading-progress{position:fixed;top:0;left:0;height:3px;background:var(--color-accent);width:0%;z-index:200;transition:width 100ms linear;}</style>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","mainEntityOfPage":{"@type":"WebPage","@id":"https://aiglimpse.ai/articles/vector-databases-rag-guide-2026"},"headline":"Vector Databases for RAG: Pinecone, pgvector, Chroma, and How to Choose","description":"Compare vector databases for RAG: Pinecone vs pgvector vs Chroma. Learn indexing strategies, hybrid search, costs, and when to skip a dedicated vector DB.","image":["https://aiglimpse.ai/images/articles/vector-databases-rag-guide-2026.jpg"],"datePublished":"2026-06-24T08:55:34.684Z","dateModified":"2026-06-24T08:55:34.684Z","author":{"@type":"Organization","name":"AI Glimpse Newsroom"},"publisher":{"@type":"Organization","name":"AI Glimpse","logo":{"@type":"ImageObject","url":"https://aiglimpse.ai/images/logo.svg"}},"articleSection":"AI Research","keywords":"vector database, RAG pipeline, embeddings index, pgvector, semantic search, hybrid search, Pinecone"}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Do I need a dedicated vector database or can I use PostgreSQL?","acceptedAnswer":{"@type":"Answer","text":"PostgreSQL with pgvector works well for sub-1M document datasets with infrequent updates and modest query volume. Dedicated vector databases scale better for high-throughput retrieval, support richer indexing algorithms (HNSW, IVF), and offer features like namespacing and metadata filtering at scale. Choose pgvector for prototypes and small applications; move to Pinecone or self-hosted Qdrant above 10M vectors or 100+ queries per second."}},{"@type":"Question","name":"What is hybrid search and why does it matter for RAG?","acceptedAnswer":{"@type":"Answer","text":"Hybrid search combines semantic similarity (vector distance) with lexical matching (keyword BM25 scores). It catches queries where exact terminology matters alongside conceptual relevance. Most modern RAG systems benefit from hybrid retrieval because embedding models sometimes miss dense named entities or precise jargon. Pinecone and Weaviate support native hybrid search; pgvector requires manual implementation alongside a full-text search index."}},{"@type":"Question","name":"How do I choose between HNSW and IVF indexing?","acceptedAnswer":{"@type":"Answer","text":"HNSW (hierarchical navigable small world) offers faster queries with higher recall on static datasets and is the default in Pinecone and Chroma. IVF (inverted file) is more memory efficient and supports fast updates but has lower recall at scale. For RAG with frequent document ingestion, prefer HNSW. For very large datasets (100M+ vectors) or cost-sensitive deployments, evaluate IVF or quantization."}},{"@type":"Question","name":"Can I run a vector database on my own infrastructure?","acceptedAnswer":{"@type":"Answer","text":"Yes. Self-hosted options include Qdrant, Weaviate, and Milvus. These offer better data privacy, no egress costs, and full control over indexing parameters. Tradeoff: you manage operational overhead, backups, scaling, and monitoring. Most teams moving to self-hosted do so after hitting Pinecone cost limits (typically 10M+ vectors with significant query volume) or facing strict data residency requirements."}},{"@type":"Question","name":"What metadata filtering overhead should I expect?","acceptedAnswer":{"@type":"Answer","text":"Metadata filtering during vector search adds 5 to 50 percent latency depending on filter selectivity and cardinality. A filter that eliminates 99 percent of candidates before distance calculation is cheap; one that excludes only 1 percent is expensive. Design your metadata schema to support common filtering patterns. Avoid unbounded string matching on high-cardinality fields without indexed partitions."}},{"@type":"Question","name":"How much does a vector database cost?","acceptedAnswer":{"@type":"Answer","text":"Pinecone starts around $100/month for the starter tier (up to 100K vectors) and scales to thousands monthly for production. Self-hosted options have zero per-vector fees but require infrastructure spend ($50 to 500/month for a single instance). pgvector is free within Postgres but adds compute and storage costs. Estimate total cost by multiplying average vector count, query volume, and your cloud region's pricing, then add 30 percent operational overhead."}},{"@type":"Question","name":"Should my RAG system always use a vector database?","acceptedAnswer":{"@type":"Answer","text":"No. Skip a dedicated vector database if your document corpus is small (under 10K documents), queries are infrequent, or latency is not critical. A simple in-memory cosine similarity search against all embeddings works fine for proof-of-concept and can run on a single application server. Move to a vector database when retrieval latency exceeds 500ms, when you need sub-second queries, or when you surpass 1M vectors."}}]}</script>
+  <meta name="google-site-verification" content="B132aMlqf1nssWYhjOSKUgSjmfwNWgPgtozZsHDxWlU" />
+  <meta name="msvalidate.01" content="F3762E555B3E685836AE39C90B79ECBF" />
+  <!-- aiglimpse-consent-default v1: must run before AdSense, defaults all ad/analytics storage to denied -->
+  <script>(function(){window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}window.gtag=gtag;gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'denied',functionality_storage:'granted',security_storage:'granted',wait_for_update:500});try{var s=JSON.parse(localStorage.getItem('aiglimpse-consent')||'null');if(s&&s.choice==='granted'){gtag('consent','update',{ad_storage:'granted',ad_user_data:'granted',ad_personalization:'granted',analytics_storage:'granted'});}}catch(e){}})();</script>
+  <!-- aiglimpse-ga4 v1: gtag.js loaded after consent default, so it buffers events until consent is granted -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-EVZ52DNQ8S"></script>
+  <script>gtag('js', new Date()); gtag('config', 'G-EVZ52DNQ8S', { anonymize_ip: true });</script>
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4263484717830850" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div class="reading-progress" aria-hidden="true"></div>
+  <div id="site-header-slot"></div>
+  <main>
+    <article>
+      <section class="article-hero">
+        <div class="container container--narrow">
+          <nav aria-label="Breadcrumb" style="margin-bottom:var(--space-4);font-size:var(--text-xs);color:var(--color-ink-muted);">
+            <a href="/" style="color:inherit;">Home</a> /
+            <a href="/categories/research" style="color:inherit;">AI Research</a> /
+            <span>Explainer</span>
+          </nav>
+          <div class="article-hero-meta">
+            <span class="tag tag--research">AI Research</span>
+            <span class="eyebrow eyebrow--accent">Explainer</span>
+            <span class="eyebrow">11 min read</span>
+          </div>
+          <h1 class="article-hero-title">Vector Databases for RAG: Pinecone, pgvector, Chroma, and How to Choose</h1>
+          <p class="article-hero-subtitle">A technical guide to selecting the right embeddings index for retrieval-augmented generation systems.</p>
+          <div class="article-byline">
+            <div>By <strong>AI Glimpse Newsroom</strong></div><div>·</div>
+            <div><time datetime="2026-06-24T08:55:34.684Z" data-relative="false">June 24, 2026</time></div>
+          </div>
+        </div>
+      </section>
+      <section style="padding: var(--space-7) 0;">
+        <div class="container container--narrow">
+          <figure class="article-image"><img src="/images/articles/vector-databases-rag-guide-2026.jpg" alt="Vector Databases for RAG: Pinecone, pgvector, Chroma, and How to Choose" loading="eager" width="1200" height="630"></figure>
+          <div class="article-body"><p>A vector database is a purpose-built system for storing, indexing, and querying high-dimensional embeddings at scale. In a <a href="/articles/what-is-retrieval-augmented-generation-rag">retrieval-augmented generation</a> pipeline, it serves a single critical function: given a user query encoded as a vector, return the nearest relevant documents from your corpus in milliseconds. This piece of infrastructure sits between your embedding model and your language model, and choosing the right one shapes whether your RAG system is production-ready or a prototype that crumbles under load.</p>
+
+<h2>Why this matters now</h2>
+
+<p>By 2026, RAG is no longer experimental. Teams are moving retrieval systems into production, where latency, cost, and reliability matter. The vector database market has consolidated around a handful of proven players, each with distinct trade-offs. Pinecone dominates in ease of use and managed infrastructure. pgvector (the PostgreSQL extension) has become viable for teams already running Postgres and seeking to avoid new infrastructure. Chroma and Weaviate dominate open-source deployments. The question is no longer "should I use a vector database" but "which one fits my constraints and doesn't blow my budget."</p>
+
+<p>The practical reality: most teams building RAG systems in 2026 choose between a managed service (Pinecone, Supabase with pgvector) and self-hosted open source (Qdrant, Weaviate, Milvus). The decision hinges on three variables that rarely conflict. First, dataset size (vectors count and cardinality of metadata). Second, query latency requirements (is 100ms acceptable or do you need sub-20ms?). Third, data residency and cost constraints. Get these three inputs right and the choice becomes obvious.</p>
+
+<h2>How vector databases solve the indexing problem</h2>
+<figure class="article-image article-image--inline">
+  <img src="/images/articles/vector-databases-rag-guide-2026-inline-1.jpg" alt="How vector databases solve the indexing problem" loading="lazy" width="1200" height="630">
+  <figcaption class="article-image-credit">Photo by <a href="https://www.pexels.com/photo/web-banner-with-online-information-on-computer-3803517/" rel="nofollow noopener" target="_blank">Brett Sayles</a> on Pexels.</figcaption>
+</figure>
+
+
+<p>Without an index, vector search means computing the distance from a query embedding to every document embedding in your corpus. With 1 million vectors, that is 1 million distance calculations per query. With reasonable embedding dimensionality (768 or 1536 for modern models) and commodity hardware, a naive search takes roughly 300 to 500 milliseconds. That is unacceptable for production RAG.</p>
+
+<p>Vector databases solve this through indexing algorithms that partition vector space into regions, allowing the search to skip most candidates. The two dominant approaches are HNSW (hierarchical navigable small world) and IVF (inverted file). HNSW builds a proximity graph where each vector connects to its nearest neighbors at multiple levels, enabling log(N) traversal. IVF partitions vectors into clusters, searches only nearby clusters, then computes exact distance within those clusters. Pinecone and Chroma default to HNSW, which offers high recall and consistent performance for most RAG workloads. Milvus and Weaviate support both, with tunable trade-offs between memory, speed, and recall.</p>
+
+<p>The practical impact: a well-tuned HNSW index returns the top 10 most similar documents from 10 million vectors in 5 to 15 milliseconds. The same operation with IVF might hit 8 to 12 milliseconds with lower memory overhead. Neither approach is inherently superior. HNSW suits static or slowly changing corpora where recall is paramount. IVF suits massive datasets where memory is constrained and you can tolerate a small recall trade-off in exchange for faster ingestion of new documents.</p>
+
+<h2>Comparing the major players</h2>
+
+<p><strong>Pinecone</strong> is the most complete managed offering and is purpose-built for RAG. It handles HNSW indexing, automatic scaling, multi-region replication, and namespace isolation out of the box. Pinecone also supports hybrid search (combining vector similarity with BM25 lexical search) natively, which is essential for many RAG systems where exact terminology matters alongside semantic relevance. The cost is higher than self-hosted alternatives: roughly $0.10 per 1 million vectors per month for storage, plus query costs that can range from $0.001 to $0.01 per thousand queries depending on tier. For a production system with 5 million vectors and 10 million queries per month, expect $100 to 300 base cost plus overages.</p>
+
+<p><strong>pgvector</strong> is the PostgreSQL extension that brought vector search to a database ecosystem already running on millions of servers. Setup is trivial if you have a Postgres instance: create a vector column, add a GiST or IVF index, and write SQL. Recall is respectable for small to medium corpora (under 5 million vectors) and you inherit all of Postgres's transaction semantics, backup infrastructure, and monitoring. The catch: pgvector uses exact distance calculation at query time for GiST indexes (trading latency for guaranteed correctness) and has limited support for the most sophisticated indexing tricks. For datasets above 10 million vectors, query latency creeps past 500 milliseconds even on powerful hardware. pgvector shines for teams already managing Postgres, for whom the marginal cost of vector search is almost zero.</p>
+
+<p><strong>Chroma</strong> is lightweight and embeds easily into Python applications. It runs in-memory or can persist to SQLite or DuckDB, making it ideal for prototypes, local development, and small deployments (under 100K vectors). Chroma uses HNSW under the hood and has minimal operational overhead. The limitation is scale: there is no clustering, no multi-replica failover, and no managed hosting option. Chroma is not a replacement for production systems but a stepping stone toward them.</p>
+
+<p><strong>Weaviate</strong sits between Pinecone's polish and open-source's flexibility. It offers hybrid search, modular indexing (choose between HNSW and IVF per class), GraphQL querying, and deployments on Kubernetes or as a managed service. For teams comfortable with self-hosting and needing transparency into performance tuning, Weaviate is compelling. It also supports generative modules (integration with <a href="/articles/how-large-language-models-work-clear-explainer">language models</a> for re-ranking or generation) baked into the query pipeline, which can save latency in end-to-end RAG systems.</p>
+
+<p><strong>Qdrant</strong is optimized for high-throughput scenarios. It supports sparse vectors (useful for hybrid search without external BM25), quantization (shrinking vector dimensionality to save memory and improve speed), and extremely fast indexing (millions of vectors per second). Qdrant is the choice if your bottleneck is ingestion speed or if you are running massive datasets where memory efficiency is non-negotiable.</p>
+
+<h2>Hybrid search and metadata filtering in practice</h2>
+<figure class="article-image article-image--inline">
+  <img src="/images/articles/vector-databases-rag-guide-2026-inline-2.jpg" alt="Hybrid search and metadata filtering in practice" loading="lazy" width="1200" height="630">
+  <figcaption class="article-image-credit">Photo by <a href="https://www.pexels.com/photo/futuristic-interface-on-laptop-with-neon-keyboard-38117127/" rel="nofollow noopener" target="_blank">Rafael Minguet Delgado</a> on Pexels.</figcaption>
+</figure>
+
+
+<p>Pure vector search has a blind spot: it relies entirely on the quality of your embedding model and the semantic similarity between query and documents. A query like "What is GDPR Article 5?" will fail if documents use the acronym "GDPR" without unpacking it. A vector database that only optimizes for cosine similarity will rank a document about privacy principles higher than one containing the exact acronym, even though the latter is what the user wanted.</p>
+
+<p>Hybrid search solves this by combining semantic search with keyword (BM25) scores. The query is encoded as a vector and also tokenized for lexical matching. Results are ranked by a weighted blend of both signals. Pinecone's hybrid search implementation assigns adjustable weights to vector and lexical components. The practical effect: adding hybrid search boosts recall for named-entity-heavy domains (legal, medical, finance) by 15 to 30 percent, at the cost of marginal latency (add 5 to 10 milliseconds per query).</p>
+
+<p>Metadata filtering is equally important. In a RAG system, documents often have associated metadata: creation date, author, source URL, topic tags. A user query might include a filter: "Show me results from the last 30 days" or "Restrict to documents tagged 'urgent'". Efficient metadata filtering pushes the filter down into the index itself so that distance calculations only run on candidate vectors, not the entire corpus. Pinecone and Weaviate handle this natively. With pgvector, you combine vector search with SQL predicates, which works but can be slow if the filter is selective on a low-cardinality field.</p>
+
+<p>The engineering decision: invest in metadata filtering from day one. Identify the fields users will filter on (date ranges, categorical tags, source, ownership) and index them. Avoid unbounded string matching. A filter like "source contains 'customer'" is expensive; "source = 'customer-feedback'" is fast. If your schema evolves to add new metadata frequently, Weaviate and Qdrant are more flexible than pgvector, which requires schema migrations.</p>
+
+<h2>Sizing and cost projections</h2>
+
+<p>The cost of a vector database is a function of three inputs: corpus size (total vector count), query volume, and metadata complexity. A rough framework:</p>
+
+<ul>
+<li>Under 1 million vectors, 1000 queries per day: pgvector or Chroma. Cost is infrastructure only, roughly $20 to 100 per month if co-hosted with your app database.</li>
+<li>1 to 10 million vectors, 100K queries per day: Pinecone starter or mid-tier, or self-hosted Qdrant on a single instance. Pinecone runs $200 to 1000 per month. Self-hosted costs $100 to 300 per month in compute.</li>
+<li>10 to 100 million vectors, 1 million+ queries per day: Pinecone professional tier with multi-region replication, or self-hosted Qdrant cluster. Pinecone can exceed $5000 per month; self-hosted infrastructure scales with your machines but operational overhead grows.</li>
+</ul>
+
+<p>A critical hidden cost: embedding generation. Encoding all documents in your corpus (and re-encoding them when you refresh the dataset) consumes API calls or compute time. A corpus of 1 million documents at 500 tokens each, embedded via OpenAI's text-embedding-3-small API, costs roughly $50. If you refresh monthly, that is $600 per year just for embeddings. Self-hosted embedding models (like Sentence Transformers) cost nothing in API fees but require GPU compute, which is not free either. Factor this into your decision. Teams often underestimate embedding costs relative to vector database costs.</p>
+
+<h2>When to skip a dedicated vector database</h2>
+
+<p>Not every RAG system needs a vector database. If your corpus is small (fewer than 10,000 documents), query latency is not critical, and you control the execution environment (a single server or local application), in-memory vector search is simpler and cheaper. Load all embeddings into memory, compute cosine similarity on each query, and return the top K results. This works for document sets under 1 gigabyte of embeddings and scales to roughly 100K vectors on a modest instance.</p>
+
+<p>The in-memory approach is common in prototypes, internal tools, and systems where users accept 500 millisecond or higher query latency. Once you require sub-200-millisecond latency, need to handle concurrent query traffic, or exceed a few hundred thousand vectors, a dedicated database becomes necessary.</p>
+
+<p>Another valid pattern: use Postgres full-text search exclusively, without vectors at all. This works for corpora where keyword search is sufficient (support documentation, knowledge bases with consistent terminology). Vector search adds power but also complexity and cost. Evaluate whether the additional retrieval quality justifies that cost before defaulting to embeddings.</p>
+
+<h2>Common pitfalls and limitations</h2>
+
+<p>Stale embeddings are the silent failure mode of RAG systems. Teams generate embeddings once, load them into a vector database, and forget that the embedding model can change or the documents themselves may have drifted. If you swap embedding models (say, from text-embedding-3-small to a larger open-source model), old vectors are incompatible. If documents are updated but embeddings are not, retrieval becomes stale. Plan for periodic re-embedding and version-control your embedding model choice.</p>
+
+<p>Curse of dimensionality is real at scale. Embedding models produce 768 to 1536 dimensional vectors. At 100 million vectors, this consumes terabytes of storage. Quantization (reducing precision from float32 to int8 or binary) saves 75 percent of storage but loses recall. Product quantization and other compression techniques help but require careful tuning. If storage cost becomes your primary constraint, evaluate Qdrant's quantization or switch to sparse embeddings (which are higher dimensional but sparse, reducing actual storage).</p>
+
+<p>Metadata cardinality explosion can tank performance. If every document has unique metadata (e.g., a fine-grained user ID for every result), metadata filtering becomes slow because there is no selectivity benefit. Design metadata schemas conservatively. Use categorical tags over free-text fields. Partition high-cardinality dimensions (like user IDs) outside the vector database if possible.</p>
+
+<p>Embedding model limitations directly limit retrieval quality. No vector database can overcome a poor embedding model. If your embedding model is task-specific (trained on legal documents, for example), it will excel for legal RAG but fail for general-domain queries. Evaluate embedding quality empirically with a small test set before committing to a large ingestion. The vector database is not the bottleneck; the embeddings are.</p>
+
+<h2>The path forward</h2>
+
+<p>Start with a clear assessment of your corpus size, latency requirements, and data residency constraints. For prototypes under 1 million vectors, use Chroma or pgvector and avoid infrastructure overhead. For production systems at scale, choose Pinecone if budget is available and operational simplicity is paramount. Choose self-hosted (Qdrant, Weaviate) if cost control or data privacy is non-negotiable and your team can manage Kubernetes or similar. Implement hybrid search from the start if your domain has significant named-entity density. Design metadata filtering into your document schema early; retrofitting it is painful. Most importantly, build a pipeline for periodic re-embedding and monitor retrieval quality empirically, not by assumption. The vector database is one component of RAG. The architecture around it, the embedding model, and the retrieval evaluation loop determine success.</p></div>
+
+      <section style="margin-top: var(--space-8);">
+        <h2 style="margin-bottom: var(--space-5);">Frequently asked questions</h2>
+        <div class="faq-list">
+    <details class="faq-item" style="border-bottom:1px solid var(--color-rule);padding:var(--space-4) 0;">
+      <summary style="cursor:pointer;font-weight:600;font-size:var(--text-md);list-style:none;display:flex;justify-content:space-between;align-items:flex-start;gap:var(--space-3);">
+        <span>Do I need a dedicated vector database or can I use PostgreSQL?</span>
+        <span aria-hidden="true" style="color:var(--color-ink-faint);font-weight:400;flex-shrink:0;">+</span>
+      </summary>
+      <div style="margin-top:var(--space-3);color:var(--color-ink-muted);line-height:1.7;">
+        <p>PostgreSQL with pgvector works well for sub-1M document datasets with infrequent updates and modest query volume. Dedicated vector databases scale better for high-throughput retrieval, support richer indexing algorithms (HNSW, IVF), and offer features like namespacing and metadata filtering at scale. Choose pgvector for prototypes and small applications; move to Pinecone or self-hosted Qdrant above 10M vectors or 100+ queries per second.</p>
+      </div>
+    </details>
+
+    <details class="faq-item" style="border-bottom:1px solid var(--color-rule);padding:var(--space-4) 0;">
+      <summary style="cursor:pointer;font-weight:600;font-size:var(--text-md);list-style:none;display:flex;justify-content:space-between;align-items:flex-start;gap:var(--space-3);">
+        <span>What is hybrid search and why does it matter for RAG?</span>
+        <span aria-hidden="true" style="color:var(--color-ink-faint);font-weight:400;flex-shrink:0;">+</span>
+      </summary>
+      <div style="margin-top:var(--space-3);color:var(--color-ink-muted);line-height:1.7;">
+        <p>Hybrid search combines semantic similarity (vector distance) with lexical matching (keyword BM25 scores). It catches queries where exact terminology matters alongside conceptual relevance. Most modern RAG systems benefit from hybrid retrieval because embedding models sometimes miss dense named entities or precise jargon. Pinecone and Weaviate support native hybrid search; pgvector requires manual implementation alongside a full-text search index.</p>
+      </div>
+    </details>
+
+    <details class="faq-item" style="border-bottom:1px solid var(--color-rule);padding:var(--space-4) 0;">
+      <summary style="cursor:pointer;font-weight:600;font-size:var(--text-md);list-style:none;display:flex;justify-content:space-between;align-items:flex-start;gap:var(--space-3);">
+        <span>How do I choose between HNSW and IVF indexing?</span>
+        <span aria-hidden="true" style="color:var(--color-ink-faint);font-weight:400;flex-shrink:0;">+</span>
+      </summary>
+      <div style="margin-top:var(--space-3);color:var(--color-ink-muted);line-height:1.7;">
+        <p>HNSW (hierarchical navigable small world) offers faster queries with higher recall on static datasets and is the default in Pinecone and Chroma. IVF (inverted file) is more memory efficient and supports fast updates but has lower recall at scale. For RAG with frequent document ingestion, prefer HNSW. For very large datasets (100M+ vectors) or cost-sensitive deployments, evaluate IVF or quantization.</p>
+      </div>
+    </details>
+
+    <details class="faq-item" style="border-bottom:1px solid var(--color-rule);padding:var(--space-4) 0;">
+      <summary style="cursor:pointer;font-weight:600;font-size:var(--text-md);list-style:none;display:flex;justify-content:space-between;align-items:flex-start;gap:var(--space-3);">
+        <span>Can I run a vector database on my own infrastructure?</span>
+        <span aria-hidden="true" style="color:var(--color-ink-faint);font-weight:400;flex-shrink:0;">+</span>
+      </summary>
+      <div style="margin-top:var(--space-3);color:var(--color-ink-muted);line-height:1.7;">
+        <p>Yes. Self-hosted options include Qdrant, Weaviate, and Milvus. These offer better data privacy, no egress costs, and full control over indexing parameters. Tradeoff: you manage operational overhead, backups, scaling, and monitoring. Most teams moving to self-hosted do so after hitting Pinecone cost limits (typically 10M+ vectors with significant query volume) or facing strict data residency requirements.</p>
+      </div>
+    </details>
+
+    <details class="faq-item" style="border-bottom:1px solid var(--color-rule);padding:var(--space-4) 0;">
+      <summary style="cursor:pointer;font-weight:600;font-size:var(--text-md);list-style:none;display:flex;justify-content:space-between;align-items:flex-start;gap:var(--space-3);">
+        <span>What metadata filtering overhead should I expect?</span>
+        <span aria-hidden="true" style="color:var(--color-ink-faint);font-weight:400;flex-shrink:0;">+</span>
+      </summary>
+      <div style="margin-top:var(--space-3);color:var(--color-ink-muted);line-height:1.7;">
+        <p>Metadata filtering during vector search adds 5 to 50 percent latency depending on filter selectivity and cardinality. A filter that eliminates 99 percent of candidates before distance calculation is cheap; one that excludes only 1 percent is expensive. Design your metadata schema to support common filtering patterns. Avoid unbounded string matching on high-cardinality fields without indexed partitions.</p>
+      </div>
+    </details>
+
+    <details class="faq-item" style="border-bottom:1px solid var(--color-rule);padding:var(--space-4) 0;">
+      <summary style="cursor:pointer;font-weight:600;font-size:var(--text-md);list-style:none;display:flex;justify-content:space-between;align-items:flex-start;gap:var(--space-3);">
+        <span>How much does a vector database cost?</span>
+        <span aria-hidden="true" style="color:var(--color-ink-faint);font-weight:400;flex-shrink:0;">+</span>
+      </summary>
+      <div style="margin-top:var(--space-3);color:var(--color-ink-muted);line-height:1.7;">
+        <p>Pinecone starts around $100/month for the starter tier (up to 100K vectors) and scales to thousands monthly for production. Self-hosted options have zero per-vector fees but require infrastructure spend ($50 to 500/month for a single instance). pgvector is free within Postgres but adds compute and storage costs. Estimate total cost by multiplying average vector count, query volume, and your cloud region&#39;s pricing, then add 30 percent operational overhead.</p>
+      </div>
+    </details>
+
+    <details class="faq-item" style="border-bottom:1px solid var(--color-rule);padding:var(--space-4) 0;">
+      <summary style="cursor:pointer;font-weight:600;font-size:var(--text-md);list-style:none;display:flex;justify-content:space-between;align-items:flex-start;gap:var(--space-3);">
+        <span>Should my RAG system always use a vector database?</span>
+        <span aria-hidden="true" style="color:var(--color-ink-faint);font-weight:400;flex-shrink:0;">+</span>
+      </summary>
+      <div style="margin-top:var(--space-3);color:var(--color-ink-muted);line-height:1.7;">
+        <p>No. Skip a dedicated vector database if your document corpus is small (under 10K documents), queries are infrequent, or latency is not critical. A simple in-memory cosine similarity search against all embeddings works fine for proof-of-concept and can run on a single application server. Move to a vector database when retrieval latency exceeds 500ms, when you need sub-second queries, or when you surpass 1M vectors.</p>
+      </div>
+    </details></div>
+      </section>
+          <p style="font-size:var(--text-xs);color:var(--color-ink-faint);margin-top:var(--space-6);padding-top:var(--space-4);border-top:1px solid var(--color-rule);">
+            An <strong>AI Glimpse</strong> explainer. We update this guide as the field evolves.
+          </p>
+        </div>
+      </section>
+    </article>
+  </main>
+  <div id="site-footer-slot"></div>
+  <script src="/js/chrome.js"></script>
+  <script src="/js/main.js"></script>
+</body>
+</html>

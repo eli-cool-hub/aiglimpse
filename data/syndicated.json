@@ -4142,6 +4142,24 @@
         "devto": true,
         "hashnode": false
       }
+    },
+    "vector-databases-rag-guide-2026": {
+      "syndicated_at": "2026-06-24T08:55:38.037Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/vector-databases-for-rag-pinecone-pgvector-chroma-and-how-to-choose-72k",
+      "hashnode": null,
+      "gates": {
+        "medium": true,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 2368,
+      "category": "research",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
     }
   }
 }

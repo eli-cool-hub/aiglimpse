@@ -1,6 +1,18 @@
 {
   "articles": [
     {
+      "slug": "vector-databases-rag-guide-2026",
+      "title": "Vector Databases for RAG: Pinecone, pgvector, Chroma, and How to Choose",
+      "subtitle": "A technical guide to selecting the right embeddings index for retrieval-augmented generation systems.",
+      "category": "research",
+      "publishedAt": "2026-06-24T08:55:34.684Z",
+      "sourceUrl": null,
+      "sourceName": "AI Glimpse Newsroom",
+      "sourceTier": 0,
+      "image": "/images/articles/vector-databases-rag-guide-2026.jpg",
+      "evergreen": true
+    },
+    {
       "slug": "new-method-adapts-classical-stereo-vision-algorithms-to-360-degree-cameras-aa848ca5",
       "title": "New Method Adapts Classical Stereo Vision Algorithms to 360-Degree Cameras",
       "subtitle": "Researchers show how to flatten spherical imagery for depth estimation, enabling real-time 3D perception in omnidirectional systems.",
