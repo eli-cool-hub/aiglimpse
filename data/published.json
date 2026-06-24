@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "ai-safety-fears-cross-borders-as-us-china-rivalry-intensifies-a3b2a52c",
+      "title": "AI Safety Fears Cross Borders as US-China Rivalry Intensifies",
+      "subtitle": "Researchers on both sides of the AI competition share deep concerns about catastrophic risks amid accelerating development cycles.",
+      "category": "tools",
+      "publishedAt": "2026-06-24T18:45:00.000Z",
+      "sourceUrl": "https://www.wired.com/story/ai-arms-race-china-us-cooperation/",
+      "sourceName": "Wired AI",
+      "sourceTier": 2,
+      "image": "/images/articles/ai-safety-fears-cross-borders-as-us-china-rivalry-intensifies-a3b2a52c.jpg"
+    },
+    {
+      "slug": "new-benchmark-brings-real-world-rigor-to-speech-recognition-ai-3d6bce02",
+      "title": "New Benchmark Brings Real-World Rigor to Speech Recognition AI",
+      "subtitle": "A comprehensive leaderboard measures how well automatic speech recognition systems perform outside the lab, reshaping how the field evaluates progress.",
+      "category": "tools",
+      "publishedAt": "2026-06-24T00:00:00.000Z",
+      "sourceUrl": "https://huggingface.co/blog/ffasr-leaderboard",
+      "sourceName": "Hugging Face",
+      "sourceTier": 1,
+      "image": "/images/articles/new-benchmark-brings-real-world-rigor-to-speech-recognition-ai-3d6bce02.jpg"
+    },
+    {
       "slug": "nvidia-nemo-automodel-cuts-llm-fine-tuning-time-by-half-6faaebb3",
       "title": "NVIDIA NeMo AutoModel Cuts LLM Fine-Tuning Time by Half",
       "subtitle": "New framework automates optimization steps, letting enterprises train large language models faster without manual tuning.",
@@ -4137,6 +4159,8 @@
     "a646266f075b8e1e",
     "5fe5d283c4b21bb8",
     "0abf652d17db8a23",
-    "6faaebb320212260"
+    "6faaebb320212260",
+    "3d6bce0214b49a01",
+    "a3b2a52c4eeac16e"
   ]
 }

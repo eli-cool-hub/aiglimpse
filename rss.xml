@@ -7,6 +7,22 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>AI Safety Fears Cross Borders as US-China Rivalry Intensifies</title>
+      <link>https://aiglimpse.ai/articles/ai-safety-fears-cross-borders-as-us-china-rivalry-intensifies-a3b2a52c</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/ai-safety-fears-cross-borders-as-us-china-rivalry-intensifies-a3b2a52c</guid>
+      <description>Researchers on both sides of the AI competition share deep concerns about catastrophic risks amid accelerating development cycles.</description>
+      <pubDate>Wed, 24 Jun 2026 18:45:00 GMT</pubDate>
+      <category>AI Tools &amp; Products</category>
+    </item>
+    <item>
+      <title>New Benchmark Brings Real-World Rigor to Speech Recognition AI</title>
+      <link>https://aiglimpse.ai/articles/new-benchmark-brings-real-world-rigor-to-speech-recognition-ai-3d6bce02</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-benchmark-brings-real-world-rigor-to-speech-recognition-ai-3d6bce02</guid>
+      <description>A comprehensive leaderboard measures how well automatic speech recognition systems perform outside the lab, reshaping how the field evaluates progress.</description>
+      <pubDate>Wed, 24 Jun 2026 00:00:00 GMT</pubDate>
+      <category>AI Tools &amp; Products</category>
+    </item>
+    <item>
       <title>NVIDIA NeMo AutoModel Cuts LLM Fine-Tuning Time by Half</title>
       <link>https://aiglimpse.ai/articles/nvidia-nemo-automodel-cuts-llm-fine-tuning-time-by-half-6faaebb3</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/nvidia-nemo-automodel-cuts-llm-fine-tuning-time-by-half-6faaebb3</guid>
@@ -389,22 +405,6 @@
       <description>The streaming giant's decision to abandon a planned biographical film signals shifting corporate priorities as tech companies reshape AI partnerships.</description>
       <pubDate>Fri, 19 Jun 2026 20:03:16 GMT</pubDate>
       <category>AI Tools &amp; Products</category>
-    </item>
-    <item>
-      <title>New Framework Unifies Egocentric Video AI Training Across Multiple Sensors</title>
-      <link>https://aiglimpse.ai/articles/new-framework-unifies-egocentric-video-ai-training-across-multiple-sensors-08ca804d</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-framework-unifies-egocentric-video-ai-training-across-multiple-sensors-08ca804d</guid>
-      <description>Researchers introduce proxy-based distillation method that combines nine different data sources to create more capable AI models from first-person video.</description>
-      <pubDate>Thu, 18 Jun 2026 17:59:45 GMT</pubDate>
-      <category>AI Research</category>
-    </item>
-    <item>
-      <title>Researchers Crack the Black Box of Google's Diffusion-Based Language Model</title>
-      <link>https://aiglimpse.ai/articles/researchers-crack-the-black-box-of-googles-diffusion-based-language-model-88b2a1fd</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/researchers-crack-the-black-box-of-googles-diffusion-based-language-model-88b2a1fd</guid>
-      <description>New study reveals how to interpret DiffusionGemma's internal reasoning, addressing a critical challenge for understanding next-generation AI systems.</description>
-      <pubDate>Thu, 18 Jun 2026 17:59:46 GMT</pubDate>
-      <category>AI Research</category>
     </item>
   </channel>
 </rss>
