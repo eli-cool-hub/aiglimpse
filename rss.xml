@@ -7,6 +7,30 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>New Framework Boosts Language Model Performance by 120% in Low-Data Settings</title>
+      <link>https://aiglimpse.ai/articles/new-framework-boosts-language-model-performance-by-120-in-low-data-settings-5b9f085b</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-framework-boosts-language-model-performance-by-120-in-low-data-settings-5b9f085b</guid>
+      <description>Researchers introduce automated method for matching training objectives to specific AI tasks, dramatically improving encoder-decoder models.</description>
+      <pubDate>Tue, 23 Jun 2026 17:21:03 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
+      <title>Robots Learn New Skills Without Human Training Data</title>
+      <link>https://aiglimpse.ai/articles/robots-learn-new-skills-without-human-training-data-63f07529</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/robots-learn-new-skills-without-human-training-data-63f07529</guid>
+      <description>Researchers develop a framework enabling robots to autonomously acquire manipulation abilities by decomposing tasks into learnable primitives.</description>
+      <pubDate>Tue, 23 Jun 2026 17:59:01 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
+      <title>Vector Databases for RAG: Pinecone, pgvector, Chroma, and How to Choose</title>
+      <link>https://aiglimpse.ai/articles/vector-databases-rag-guide-2026</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/vector-databases-rag-guide-2026</guid>
+      <description>A technical guide to selecting the right embeddings index for retrieval-augmented generation systems.</description>
+      <pubDate>Wed, 24 Jun 2026 08:55:34 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
       <title>New Method Adapts Classical Stereo Vision Algorithms to 360-Degree Cameras</title>
       <link>https://aiglimpse.ai/articles/new-method-adapts-classical-stereo-vision-algorithms-to-360-degree-cameras-aa848ca5</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/new-method-adapts-classical-stereo-vision-algorithms-to-360-degree-cameras-aa848ca5</guid>
@@ -381,30 +405,6 @@
       <description>Advanced reasoning system identifies genetic conditions that stumped physicians, suggesting new role for AI in pediatric medicine.</description>
       <pubDate>Thu, 18 Jun 2026 08:00:00 GMT</pubDate>
       <category>LLMs &amp; Chatbots</category>
-    </item>
-    <item>
-      <title>Researchers Demonstrate Rapid 3D Illusion Generation Using AI Denoising</title>
-      <link>https://aiglimpse.ai/articles/researchers-demonstrate-rapid-3d-illusion-generation-using-ai-denoising-d13cc49a</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/researchers-demonstrate-rapid-3d-illusion-generation-using-ai-denoising-d13cc49a</guid>
-      <description>New framework creates geometrically coherent 3D objects with dual meanings from different angles in minutes, not hours.</description>
-      <pubDate>Thu, 18 Jun 2026 17:59:55 GMT</pubDate>
-      <category>AI Research</category>
-    </item>
-    <item>
-      <title>OpenAI Rolls Out Budget Tools for Enterprise ChatGPT Users</title>
-      <link>https://aiglimpse.ai/articles/openai-rolls-out-budget-tools-for-enterprise-chatgpt-users-4c5a7b12</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/openai-rolls-out-budget-tools-for-enterprise-chatgpt-users-4c5a7b12</guid>
-      <description>New spending controls and detailed usage tracking help large organizations optimize their generative AI expenditures while scaling deployments.</description>
-      <pubDate>Thu, 18 Jun 2026 17:00:00 GMT</pubDate>
-      <category>LLMs &amp; Chatbots</category>
-    </item>
-    <item>
-      <title>Research Agents Leak Sensitive Data, Study Reveals Privacy Risks</title>
-      <link>https://aiglimpse.ai/articles/research-agents-leak-sensitive-data-study-reveals-privacy-risks-f40688f0</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/research-agents-leak-sensitive-data-study-reveals-privacy-risks-f40688f0</guid>
-      <description>New security research exposes how AI agents handling confidential information may inadvertently expose secrets during operation.</description>
-      <pubDate>Thu, 18 Jun 2026 18:13:13 GMT</pubDate>
-      <category>AI Tools &amp; Products</category>
     </item>
   </channel>
 </rss>

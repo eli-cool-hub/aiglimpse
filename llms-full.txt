@@ -3,9 +3,16 @@
 > Machine-readable index for AI assistants, answer engines, and research crawlers.
 > Summary version: https://aiglimpse.ai/llms.txt
 
-Total articles: 337 | Evergreen explainers: 7 | Generated: 2026-06-24
+Total articles: 340 | Evergreen explainers: 8 | Generated: 2026-06-24
 
 ## Evergreen explainers
+
+### Vector Databases for RAG: Pinecone, pgvector, Chroma, and How to Choose
+- URL: https://aiglimpse.ai/articles/vector-databases-rag-guide-2026
+- Published: 2026-06-24
+- Category: research
+- Summary: A technical guide to selecting the right embeddings index for retrieval-augmented generation systems.
+- Type: evergreen explainer (FAQ schema on page)
 
 ### What Is the Model Context Protocol? A Developer's Guide
 - URL: https://aiglimpse.ai/articles/what-is-model-context-protocol-mcp
@@ -57,6 +64,27 @@ Total articles: 337 | Evergreen explainers: 7 | Generated: 2026-06-24
 - Type: evergreen explainer (FAQ schema on page)
 
 ## All articles (newest first)
+
+### New Framework Boosts Language Model Performance by 120% in Low-Data Settings
+- URL: https://aiglimpse.ai/articles/new-framework-boosts-language-model-performance-by-120-in-low-data-settings-5b9f085b
+- Published: 2026-06-23
+- Category: research
+- Summary: Researchers introduce automated method for matching training objectives to specific AI tasks, dramatically improving encoder-decoder models.
+- Source: http://arxiv.org/abs/2606.24841v1
+
+### Robots Learn New Skills Without Human Training Data
+- URL: https://aiglimpse.ai/articles/robots-learn-new-skills-without-human-training-data-63f07529
+- Published: 2026-06-23
+- Category: research
+- Summary: Researchers develop a framework enabling robots to autonomously acquire manipulation abilities by decomposing tasks into learnable primitives.
+- Source: http://arxiv.org/abs/2606.24884v1
+
+### Vector Databases for RAG: Pinecone, pgvector, Chroma, and How to Choose
+- URL: https://aiglimpse.ai/articles/vector-databases-rag-guide-2026
+- Published: 2026-06-24
+- Category: research
+- Summary: A technical guide to selecting the right embeddings index for retrieval-augmented generation systems.
+- Type: evergreen explainer (FAQ schema on page)
 
 ### New Method Adapts Classical Stereo Vision Algorithms to 360-Degree Cameras
 - URL: https://aiglimpse.ai/articles/new-method-adapts-classical-stereo-vision-algorithms-to-360-degree-cameras-aa848ca5

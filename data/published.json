@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "new-framework-boosts-language-model-performance-by-120-in-low-data-settings-5b9f085b",
+      "title": "New Framework Boosts Language Model Performance by 120% in Low-Data Settings",
+      "subtitle": "Researchers introduce automated method for matching training objectives to specific AI tasks, dramatically improving encoder-decoder models.",
+      "category": "research",
+      "publishedAt": "2026-06-23T17:21:03.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2606.24841v1",
+      "sourceName": "arXiv (Ahmad Pouramini, Hesham Faili)",
+      "sourceTier": 1,
+      "image": "/images/articles/new-framework-boosts-language-model-performance-by-120-in-low-data-settings-5b9f085b.jpg"
+    },
+    {
+      "slug": "robots-learn-new-skills-without-human-training-data-63f07529",
+      "title": "Robots Learn New Skills Without Human Training Data",
+      "subtitle": "Researchers develop a framework enabling robots to autonomously acquire manipulation abilities by decomposing tasks into learnable primitives.",
+      "category": "research",
+      "publishedAt": "2026-06-23T17:59:01.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2606.24884v1",
+      "sourceName": "arXiv (Maggie Wang, Lars Osterberg, Stephen Tian, Ola Shorinwa, Jia…)",
+      "sourceTier": 1,
+      "image": "/images/articles/robots-learn-new-skills-without-human-training-data-63f07529.jpg"
+    },
+    {
       "slug": "vector-databases-rag-guide-2026",
       "title": "Vector Databases for RAG: Pinecone, pgvector, Chroma, and How to Choose",
       "subtitle": "A technical guide to selecting the right embeddings index for retrieval-augmented generation systems.",
@@ -4065,6 +4087,8 @@
     "bae046b6c546fc15",
     "732f206787471f8e",
     "830d0a69081a3b6c",
-    "aa848ca5894b8753"
+    "aa848ca5894b8753",
+    "63f0752981708b96",
+    "5b9f085b1fe6d015"
   ]
 }
