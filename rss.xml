@@ -7,6 +7,22 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Healthcare CIOs Push Back Against AI Leadership Sidelines</title>
+      <link>https://aiglimpse.ai/articles/healthcare-cios-push-back-against-ai-leadership-sidelines-5fe5d283</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/healthcare-cios-push-back-against-ai-leadership-sidelines-5fe5d283</guid>
+      <description>As hospitals create dedicated AI executive roles, tech leaders warn that isolating AI strategy from IT leadership misreads structural constraints as capability gaps.</description>
+      <pubDate>Wed, 24 Jun 2026 14:25:19 GMT</pubDate>
+      <category>Industry Applications</category>
+    </item>
+    <item>
+      <title>OpenAI and Broadcom Debut Custom Chip for Language Model Inference</title>
+      <link>https://aiglimpse.ai/articles/openai-and-broadcom-debut-custom-chip-for-language-model-inference-a646266f</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/openai-and-broadcom-debut-custom-chip-for-language-model-inference-a646266f</guid>
+      <description>The new Jalapeno processor aims to cut costs and boost speed for running large AI models in production environments.</description>
+      <pubDate>Wed, 24 Jun 2026 06:00:00 GMT</pubDate>
+      <category>LLMs &amp; Chatbots</category>
+    </item>
+    <item>
       <title>New Framework Boosts Language Model Performance by 120% in Low-Data Settings</title>
       <link>https://aiglimpse.ai/articles/new-framework-boosts-language-model-performance-by-120-in-low-data-settings-5b9f085b</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/new-framework-boosts-language-model-performance-by-120-in-low-data-settings-5b9f085b</guid>
@@ -389,22 +405,6 @@
       <description>Washington claims ASML's cutting-edge lithography tool may have been diverted to Chinese manufacturers, challenging the company's compliance assurances.</description>
       <pubDate>Fri, 19 Jun 2026 07:59:12 GMT</pubDate>
       <category>AI Business</category>
-    </item>
-    <item>
-      <title>New AI Framework Cuts Video Analysis Costs by 93% While Boosting Accuracy</title>
-      <link>https://aiglimpse.ai/articles/new-ai-framework-cuts-video-analysis-costs-by-93-while-boosting-accuracy-114b378a</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-ai-framework-cuts-video-analysis-costs-by-93-while-boosting-accuracy-114b378a</guid>
-      <description>Researchers introduce TimeProVe, a hybrid system that uses lightweight models to propose answers before invoking expensive AI for verification, making long-form video reasoning practical.</description>
-      <pubDate>Thu, 18 Jun 2026 17:59:48 GMT</pubDate>
-      <category>AI Research</category>
-    </item>
-    <item>
-      <title>AI Model Cracks 18 Undiagnosed Rare Childhood Diseases</title>
-      <link>https://aiglimpse.ai/articles/ai-model-cracks-18-undiagnosed-rare-childhood-diseases-2cb808ad</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/ai-model-cracks-18-undiagnosed-rare-childhood-diseases-2cb808ad</guid>
-      <description>Advanced reasoning system identifies genetic conditions that stumped physicians, suggesting new role for AI in pediatric medicine.</description>
-      <pubDate>Thu, 18 Jun 2026 08:00:00 GMT</pubDate>
-      <category>LLMs &amp; Chatbots</category>
     </item>
   </channel>
 </rss>

@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "healthcare-cios-push-back-against-ai-leadership-sidelines-5fe5d283",
+      "title": "Healthcare CIOs Push Back Against AI Leadership Sidelines",
+      "subtitle": "As hospitals create dedicated AI executive roles, tech leaders warn that isolating AI strategy from IT leadership misreads structural constraints as capability gaps.",
+      "category": "industry",
+      "publishedAt": "2026-06-24T14:25:19.000Z",
+      "sourceUrl": "https://www.beckershospitalreview.com/healthcare-information-technology/the-cio-identity-crisis/",
+      "sourceName": "Becker's Hospital Review",
+      "sourceTier": 2,
+      "image": "/images/articles/healthcare-cios-push-back-against-ai-leadership-sidelines-5fe5d283.jpg"
+    },
+    {
+      "slug": "openai-and-broadcom-debut-custom-chip-for-language-model-inference-a646266f",
+      "title": "OpenAI and Broadcom Debut Custom Chip for Language Model Inference",
+      "subtitle": "The new Jalapeno processor aims to cut costs and boost speed for running large AI models in production environments.",
+      "category": "llms",
+      "publishedAt": "2026-06-24T06:00:00.000Z",
+      "sourceUrl": "https://openai.com/index/openai-broadcom-jalapeno-inference-chip",
+      "sourceName": "OpenAI",
+      "sourceTier": 1,
+      "image": "/images/articles/openai-and-broadcom-debut-custom-chip-for-language-model-inference-a646266f.jpg"
+    },
+    {
       "slug": "new-framework-boosts-language-model-performance-by-120-in-low-data-settings-5b9f085b",
       "title": "New Framework Boosts Language Model Performance by 120% in Low-Data Settings",
       "subtitle": "Researchers introduce automated method for matching training objectives to specific AI tasks, dramatically improving encoder-decoder models.",
@@ -4089,6 +4111,8 @@
     "830d0a69081a3b6c",
     "aa848ca5894b8753",
     "63f0752981708b96",
-    "5b9f085b1fe6d015"
+    "5b9f085b1fe6d015",
+    "a646266f075b8e1e",
+    "5fe5d283c4b21bb8"
   ]
 }
