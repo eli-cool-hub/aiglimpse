@@ -3,7 +3,7 @@
 > Machine-readable index for AI assistants, answer engines, and research crawlers.
 > Summary version: https://aiglimpse.ai/llms.txt
 
-Total articles: 334 | Evergreen explainers: 7 | Generated: 2026-06-23
+Total articles: 336 | Evergreen explainers: 7 | Generated: 2026-06-24
 
 ## Evergreen explainers
 
@@ -57,6 +57,20 @@ Total articles: 334 | Evergreen explainers: 7 | Generated: 2026-06-23
 - Type: evergreen explainer (FAQ schema on page)
 
 ## All articles (newest first)
+
+### Researchers Challenge How We Measure AI Success in Speech Tech
+- URL: https://aiglimpse.ai/articles/researchers-challenge-how-we-measure-ai-success-in-speech-tech-830d0a69
+- Published: 2026-06-23
+- Category: research
+- Summary: New study exposes flaws in evaluating AI-enhanced communication devices for people with speech disabilities.
+- Source: http://arxiv.org/abs/2606.24854v1
+
+### Researchers Challenge ImageNet-Only Testing for AI Image Models
+- URL: https://aiglimpse.ai/articles/researchers-challenge-imagenet-only-testing-for-ai-image-models-732f2067
+- Published: 2026-06-23
+- Category: research
+- Summary: New benchmark reveals that methods improving class-conditional generation don't necessarily excel at text-to-image tasks, forcing a rethink of how diffusion transformers are evaluated.
+- Source: http://arxiv.org/abs/2606.24888v1
 
 ### New Training Method Unlocks Math and Reasoning Skills in Vision AI
 - URL: https://aiglimpse.ai/articles/new-training-method-unlocks-math-and-reasoning-skills-in-vision-ai-bae046b6

@@ -7,6 +7,22 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Researchers Challenge How We Measure AI Success in Speech Tech</title>
+      <link>https://aiglimpse.ai/articles/researchers-challenge-how-we-measure-ai-success-in-speech-tech-830d0a69</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/researchers-challenge-how-we-measure-ai-success-in-speech-tech-830d0a69</guid>
+      <description>New study exposes flaws in evaluating AI-enhanced communication devices for people with speech disabilities.</description>
+      <pubDate>Tue, 23 Jun 2026 17:34:18 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
+      <title>Researchers Challenge ImageNet-Only Testing for AI Image Models</title>
+      <link>https://aiglimpse.ai/articles/researchers-challenge-imagenet-only-testing-for-ai-image-models-732f2067</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/researchers-challenge-imagenet-only-testing-for-ai-image-models-732f2067</guid>
+      <description>New benchmark reveals that methods improving class-conditional generation don't necessarily excel at text-to-image tasks, forcing a rethink of how diffusion transformers are evaluated.</description>
+      <pubDate>Tue, 23 Jun 2026 17:59:55 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
       <title>New Training Method Unlocks Math and Reasoning Skills in Vision AI</title>
       <link>https://aiglimpse.ai/articles/new-training-method-unlocks-math-and-reasoning-skills-in-vision-ai-bae046b6</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/new-training-method-unlocks-math-and-reasoning-skills-in-vision-ai-bae046b6</guid>
@@ -389,22 +405,6 @@
       <description>New model iteration strengthens health advice quality through physician-guided training and improved contextual understanding.</description>
       <pubDate>Thu, 18 Jun 2026 11:00:00 GMT</pubDate>
       <category>LLMs &amp; Chatbots</category>
-    </item>
-    <item>
-      <title>Engineers Test Advanced Alternatives to LoRA Fine-Tuning</title>
-      <link>https://aiglimpse.ai/articles/engineers-test-advanced-alternatives-to-lora-fine-tuning-49a4209e</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/engineers-test-advanced-alternatives-to-lora-fine-tuning-49a4209e</guid>
-      <description>As LoRA dominates model adaptation, researchers explore whether newer techniques can deliver better performance with lower computational costs.</description>
-      <pubDate>Thu, 18 Jun 2026 00:00:00 GMT</pubDate>
-      <category>AI Tools &amp; Products</category>
-    </item>
-    <item>
-      <title>Autonomous Coding Agents Streamline Enterprise Data Pipeline</title>
-      <link>https://aiglimpse.ai/articles/autonomous-coding-agents-streamline-enterprise-data-pipeline-107819c6</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/autonomous-coding-agents-streamline-enterprise-data-pipeline-107819c6</guid>
-      <description>New system compresses months of manual data work into automated workflows that rival human-level performance.</description>
-      <pubDate>Wed, 17 Jun 2026 17:45:32 GMT</pubDate>
-      <category>AI Research</category>
     </item>
   </channel>
 </rss>

@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "researchers-challenge-how-we-measure-ai-success-in-speech-tech-830d0a69",
+      "title": "Researchers Challenge How We Measure AI Success in Speech Tech",
+      "subtitle": "New study exposes flaws in evaluating AI-enhanced communication devices for people with speech disabilities.",
+      "category": "research",
+      "publishedAt": "2026-06-23T17:34:18.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2606.24854v1",
+      "sourceName": "arXiv (Blade Frisch, Will Wade, Dylan Gaines, Michelle Kinsella, Be…)",
+      "sourceTier": 1,
+      "image": "/images/articles/researchers-challenge-how-we-measure-ai-success-in-speech-tech-830d0a69.jpg"
+    },
+    {
+      "slug": "researchers-challenge-imagenet-only-testing-for-ai-image-models-732f2067",
+      "title": "Researchers Challenge ImageNet-Only Testing for AI Image Models",
+      "subtitle": "New benchmark reveals that methods improving class-conditional generation don't necessarily excel at text-to-image tasks, forcing a rethink of how diffusion transformers are evaluated.",
+      "category": "research",
+      "publishedAt": "2026-06-23T17:59:55.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2606.24888v1",
+      "sourceName": "arXiv (Xingjian Leng, Jaskirat Singh, Zhanhao Liang, Ethan Smith, M…)",
+      "sourceTier": 1,
+      "image": "/images/articles/researchers-challenge-imagenet-only-testing-for-ai-image-models-732f2067.jpg"
+    },
+    {
       "slug": "new-training-method-unlocks-math-and-reasoning-skills-in-vision-ai-bae046b6",
       "title": "New Training Method Unlocks Math and Reasoning Skills in Vision AI",
       "subtitle": "Researchers demonstrate how reinforcement learning can teach multimodal AI systems to solve complex numerical problems through code generation.",
@@ -4017,6 +4039,8 @@
     "f0a73b74ced58a5d",
     "4803b2302f0f4f4b",
     "020712b65d9f437a",
-    "bae046b6c546fc15"
+    "bae046b6c546fc15",
+    "732f206787471f8e",
+    "830d0a69081a3b6c"
   ]
 }

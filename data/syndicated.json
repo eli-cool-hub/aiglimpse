@@ -4088,6 +4088,42 @@
         "devto": true,
         "hashnode": false
       }
+    },
+    "researchers-challenge-imagenet-only-testing-for-ai-image-models-732f2067": {
+      "syndicated_at": "2026-06-24T03:49:35.863Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/researchers-challenge-imagenet-only-testing-for-ai-image-models-2cg3",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 456,
+      "category": "research",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
+    },
+    "researchers-challenge-how-we-measure-ai-success-in-speech-tech-830d0a69": {
+      "syndicated_at": "2026-06-24T03:49:48.257Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/researchers-challenge-how-we-measure-ai-success-in-speech-tech-5al9",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 520,
+      "category": "research",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
     }
   }
 }
