@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "new-ai-model-bridges-gap-between-different-welding-technologies-09eb3b15",
+      "title": "New AI Model Bridges Gap Between Different Welding Technologies",
+      "subtitle": "Researchers solve a major challenge in deploying machine learning across industrial processes with fundamentally different physics.",
+      "category": "research",
+      "publishedAt": "2026-06-24T17:52:57.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2606.26078v1",
+      "sourceName": "arXiv (Sen Li, Haichao Cui, Chendong Shao, Yaqi Wang, Xinhua Tang)",
+      "sourceTier": 1,
+      "image": "/images/articles/new-ai-model-bridges-gap-between-different-welding-technologies-09eb3b15.jpg"
+    },
+    {
       "slug": "voice-ai-systems-ignore-emotion-despite-detecting-it-4ecd93d8",
       "title": "Voice AI Systems Ignore Emotion Despite Detecting It",
       "subtitle": "New research reveals leading real-time voice assistants fail to act on vocal cues they can perceive, creating risks in high-stakes interactions.",
@@ -4317,6 +4328,7 @@
     "e713dbfbaaf06d2c",
     "13ff3503d379a833",
     "63855b20f9a58cbd",
-    "4ecd93d819713614"
+    "4ecd93d819713614",
+    "09eb3b15f9aba831"
   ]
 }
