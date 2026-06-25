@@ -4448,6 +4448,42 @@
         "devto": true,
         "hashnode": false
       }
+    },
+    "hybrid-models-show-promise-at-predicting-specific-token-types-e713dbfb": {
+      "syndicated_at": "2026-06-25T18:11:57.180Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/hybrid-models-show-promise-at-predicting-specific-token-types-1ljc",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 382,
+      "category": "tools",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
+    },
+    "novel-method-improves-3d-video-generation-by-tracking-motion-cues-13ff3503": {
+      "syndicated_at": "2026-06-25T18:12:06.735Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/novel-method-improves-3d-video-generation-by-tracking-motion-cues-23dg",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 434,
+      "category": "research",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
     }
   }
 }

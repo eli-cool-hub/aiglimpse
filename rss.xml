@@ -7,6 +7,22 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Novel Method Improves 3D Video Generation by Tracking Motion Cues</title>
+      <link>https://aiglimpse.ai/articles/novel-method-improves-3d-video-generation-by-tracking-motion-cues-13ff3503</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/novel-method-improves-3d-video-generation-by-tracking-motion-cues-13ff3503</guid>
+      <description>Researchers develop geometric supervision technique that enhances consistency in AI-generated videos from single camera angles.</description>
+      <pubDate>Wed, 24 Jun 2026 17:56:33 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
+      <title>Hybrid Models Show Promise at Predicting Specific Token Types</title>
+      <link>https://aiglimpse.ai/articles/hybrid-models-show-promise-at-predicting-specific-token-types-e713dbfb</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/hybrid-models-show-promise-at-predicting-specific-token-types-e713dbfb</guid>
+      <description>New research reveals how combining multiple prediction strategies improves language model accuracy on specialized vocabulary.</description>
+      <pubDate>Thu, 25 Jun 2026 16:11:42 GMT</pubDate>
+      <category>AI Tools &amp; Products</category>
+    </item>
+    <item>
       <title>Self-Distillation Training Narrows AI Model Diversity, New Research Finds</title>
       <link>https://aiglimpse.ai/articles/self-distillation-training-narrows-ai-model-diversity-new-research-finds-66c42912</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/self-distillation-training-narrows-ai-model-diversity-new-research-finds-66c42912</guid>
@@ -389,22 +405,6 @@
       <description>The protein-folding pioneer's departure signals intensifying competition for top AI talent between Google's research division and the safety-focused startup.</description>
       <pubDate>Sat, 20 Jun 2026 16:39:57 GMT</pubDate>
       <category>AI Business</category>
-    </item>
-    <item>
-      <title>Nobel Laureate John Jumper Joins Anthropic's AI Research Team</title>
-      <link>https://aiglimpse.ai/articles/nobel-laureate-john-jumper-joins-anthropics-ai-research-team-0046fbb8</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/nobel-laureate-john-jumper-joins-anthropics-ai-research-team-0046fbb8</guid>
-      <description>The computational chemist known for AlphaFold breakthroughs brings deep expertise in machine learning to the safety-focused AI company.</description>
-      <pubDate>Fri, 19 Jun 2026 17:53:00 GMT</pubDate>
-      <category>AI Tools &amp; Products</category>
-    </item>
-    <item>
-      <title>The Architecture Crisis: Why Modern Language Models Defy Simple Explanation</title>
-      <link>https://aiglimpse.ai/articles/the-architecture-crisis-why-modern-language-models-defy-simple-explanation-ff641f71</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/the-architecture-crisis-why-modern-language-models-defy-simple-explanation-ff641f71</guid>
-      <description>As LLMs grow more sophisticated, developers and researchers grapple with systems that resist intuitive understanding and traditional evaluation methods.</description>
-      <pubDate>Sat, 20 Jun 2026 01:25:14 GMT</pubDate>
-      <category>AI Research</category>
     </item>
   </channel>
 </rss>

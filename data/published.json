@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "novel-method-improves-3d-video-generation-by-tracking-motion-cues-13ff3503",
+      "title": "Novel Method Improves 3D Video Generation by Tracking Motion Cues",
+      "subtitle": "Researchers develop geometric supervision technique that enhances consistency in AI-generated videos from single camera angles.",
+      "category": "research",
+      "publishedAt": "2026-06-24T17:56:33.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2606.26087v1",
+      "sourceName": "arXiv (JoungBin Lee, Jaewoo Jung, Jongmin Lee, Tongmin Kim, Hyunsun…)",
+      "sourceTier": 1,
+      "image": "/images/articles/novel-method-improves-3d-video-generation-by-tracking-motion-cues-13ff3503.jpg"
+    },
+    {
+      "slug": "hybrid-models-show-promise-at-predicting-specific-token-types-e713dbfb",
+      "title": "Hybrid Models Show Promise at Predicting Specific Token Types",
+      "subtitle": "New research reveals how combining multiple prediction strategies improves language model accuracy on specialized vocabulary.",
+      "category": "tools",
+      "publishedAt": "2026-06-25T16:11:42.000Z",
+      "sourceUrl": "https://huggingface.co/blog/allenai/hybrid-token-prediction",
+      "sourceName": "Hugging Face",
+      "sourceTier": 1,
+      "image": "/images/articles/hybrid-models-show-promise-at-predicting-specific-token-types-e713dbfb.jpg"
+    },
+    {
       "slug": "self-distillation-training-narrows-ai-model-diversity-new-research-finds-66c42912",
       "title": "Self-Distillation Training Narrows AI Model Diversity, New Research Finds",
       "subtitle": "A popular technique for improving language model accuracy may inadvertently reduce output variety and hurt performance on unfamiliar tasks.",
@@ -4269,6 +4291,8 @@
     "3db478dfafa6a574",
     "46563fb619eb0f50",
     "f34ebb21773762c4",
-    "66c42912744a0c8a"
+    "66c42912744a0c8a",
+    "e713dbfbaaf06d2c",
+    "13ff3503d379a833"
   ]
 }
