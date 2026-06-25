@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "self-distillation-training-narrows-ai-model-diversity-new-research-finds-66c42912",
+      "title": "Self-Distillation Training Narrows AI Model Diversity, New Research Finds",
+      "subtitle": "A popular technique for improving language model accuracy may inadvertently reduce output variety and hurt performance on unfamiliar tasks.",
+      "category": "research",
+      "publishedAt": "2026-06-24T17:59:02.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2606.26091v1",
+      "sourceName": "arXiv (Andrei Liviu Nicolicioiu, Mohammad Pezeshki, Aaron Courville)",
+      "sourceTier": 1,
+      "image": "/images/articles/self-distillation-training-narrows-ai-model-diversity-new-research-finds-66c42912.jpg"
+    },
+    {
+      "slug": "ai-system-enables-interactive-camera-control-in-virtual-try-on-videos-f34ebb21",
+      "title": "AI System Enables Interactive Camera Control in Virtual Try-on Videos",
+      "subtitle": "New framework lets users explore garments from any angle, advancing e-commerce and fashion technology.",
+      "category": "research",
+      "publishedAt": "2026-06-24T17:59:06.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2606.26092v1",
+      "sourceName": "arXiv (Hao Sun, Hao Yan, Mengting Chen, Quanjian Song, Yu Li, Juan …)",
+      "sourceTier": 1,
+      "image": "/images/articles/ai-system-enables-interactive-camera-control-in-virtual-try-on-videos-f34ebb21.jpg"
+    },
+    {
       "slug": "openai-research-shows-ai-agents-handling-complex-extended-tasks-46563fb6",
       "title": "OpenAI Research Shows AI Agents Handling Complex, Extended Tasks",
       "subtitle": "New findings demonstrate autonomous AI systems are expanding workplace productivity and tackling increasingly sophisticated workflows.",
@@ -4245,6 +4267,8 @@
     "1d7222bdd496422a",
     "31d27a6020fcd764",
     "3db478dfafa6a574",
-    "46563fb619eb0f50"
+    "46563fb619eb0f50",
+    "f34ebb21773762c4",
+    "66c42912744a0c8a"
   ]
 }
