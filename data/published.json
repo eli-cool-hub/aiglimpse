@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "openai-research-shows-ai-agents-handling-complex-extended-tasks-46563fb6",
+      "title": "OpenAI Research Shows AI Agents Handling Complex, Extended Tasks",
+      "subtitle": "New findings demonstrate autonomous AI systems are expanding workplace productivity and tackling increasingly sophisticated workflows.",
+      "category": "llms",
+      "publishedAt": "2026-06-25T02:00:00.000Z",
+      "sourceUrl": "https://openai.com/index/how-agents-are-transforming-work",
+      "sourceName": "OpenAI",
+      "sourceTier": 1,
+      "image": "/images/articles/openai-research-shows-ai-agents-handling-complex-extended-tasks-46563fb6.jpg"
+    },
+    {
       "slug": "researchers-develop-method-to-reverse-engineer-ai-agent-strategies-3db478df",
       "title": "Researchers Develop Method to Reverse-Engineer AI Agent Strategies",
       "subtitle": "New benchmark reveals how well LLMs can reconstruct hidden decision-making policies through behavioral observation and controlled experiments.",
@@ -4233,6 +4244,7 @@
     "5855364d4e6f466b",
     "1d7222bdd496422a",
     "31d27a6020fcd764",
-    "3db478dfafa6a574"
+    "3db478dfafa6a574",
+    "46563fb619eb0f50"
   ]
 }
