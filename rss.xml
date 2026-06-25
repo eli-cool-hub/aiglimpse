@@ -7,6 +7,22 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Researchers Develop Method to Reverse-Engineer AI Agent Strategies</title>
+      <link>https://aiglimpse.ai/articles/researchers-develop-method-to-reverse-engineer-ai-agent-strategies-3db478df</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/researchers-develop-method-to-reverse-engineer-ai-agent-strategies-3db478df</guid>
+      <description>New benchmark reveals how well LLMs can reconstruct hidden decision-making policies through behavioral observation and controlled experiments.</description>
+      <pubDate>Wed, 24 Jun 2026 17:59:46 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
+      <title>Two-Stage Training Approach Gives Robots Better Motion Intuition</title>
+      <link>https://aiglimpse.ai/articles/two-stage-training-approach-gives-robots-better-motion-intuition-31d27a60</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/two-stage-training-approach-gives-robots-better-motion-intuition-31d27a60</guid>
+      <description>Researchers propose pretrained action modules to accelerate robot learning across different body types and real-world tasks.</description>
+      <pubDate>Wed, 24 Jun 2026 17:59:56 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
       <title>Google Search Now Saves Your Images to Train AI Models</title>
       <link>https://aiglimpse.ai/articles/google-search-now-saves-your-images-to-train-ai-models-1d7222bd</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/google-search-now-saves-your-images-to-train-ai-models-1d7222bd</guid>
@@ -389,22 +405,6 @@
       <description>History suggests regulatory limits on dual-use AI models struggle against determined distribution networks and technical workarounds.</description>
       <pubDate>Fri, 19 Jun 2026 22:40:14 GMT</pubDate>
       <category>AI Business</category>
-    </item>
-    <item>
-      <title>New Framework Tackles Scale and Context in AI-Powered Recommendations</title>
-      <link>https://aiglimpse.ai/articles/new-framework-tackles-scale-and-context-in-ai-powered-recommendations-1688ad40</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-framework-tackles-scale-and-context-in-ai-powered-recommendations-1688ad40</guid>
-      <description>Researchers propose G2Rec to improve how recommendation systems understand user behavior at industrial scale.</description>
-      <pubDate>Thu, 18 Jun 2026 17:58:32 GMT</pubDate>
-      <category>AI Research</category>
-    </item>
-    <item>
-      <title>IEEE Launches Rigorous LLM Training Program as Engineering Demand Surges</title>
-      <link>https://aiglimpse.ai/articles/ieee-launches-rigorous-llm-training-program-as-engineering-demand-surges-53665212</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/ieee-launches-rigorous-llm-training-program-as-engineering-demand-surges-53665212</guid>
-      <description>A five-course curriculum tackles the engineering fundamentals of large language models as technical proficiency becomes essential for modern infrastructure development.</description>
-      <pubDate>Fri, 19 Jun 2026 18:00:01 GMT</pubDate>
-      <category>AI Research</category>
     </item>
   </channel>
 </rss>

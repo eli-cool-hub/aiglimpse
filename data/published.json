@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "researchers-develop-method-to-reverse-engineer-ai-agent-strategies-3db478df",
+      "title": "Researchers Develop Method to Reverse-Engineer AI Agent Strategies",
+      "subtitle": "New benchmark reveals how well LLMs can reconstruct hidden decision-making policies through behavioral observation and controlled experiments.",
+      "category": "research",
+      "publishedAt": "2026-06-24T17:59:46.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2606.26094v1",
+      "sourceName": "arXiv (Babak Rahmani, Sebastian Dziadzio, Joschka Strüber, Sergio H…)",
+      "sourceTier": 1,
+      "image": "/images/articles/researchers-develop-method-to-reverse-engineer-ai-agent-strategies-3db478df.jpg"
+    },
+    {
+      "slug": "two-stage-training-approach-gives-robots-better-motion-intuition-31d27a60",
+      "title": "Two-Stage Training Approach Gives Robots Better Motion Intuition",
+      "subtitle": "Researchers propose pretrained action modules to accelerate robot learning across different body types and real-world tasks.",
+      "category": "research",
+      "publishedAt": "2026-06-24T17:59:56.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2606.26095v1",
+      "sourceName": "arXiv (Dong Jing, Tianqi Zhang, Jiaqi Liu, Jinman Zhao, Zelong Sun,…)",
+      "sourceTier": 1,
+      "image": "/images/articles/two-stage-training-approach-gives-robots-better-motion-intuition-31d27a60.jpg"
+    },
+    {
       "slug": "google-search-now-saves-your-images-to-train-ai-models-1d7222bd",
       "title": "Google Search Now Saves Your Images to Train AI Models",
       "subtitle": "A change to how Google handles search history means your uploaded media could feed machine learning systems unless you disable the feature.",
@@ -4209,6 +4231,8 @@
     "8835df3e9274546a",
     "1f9b13e8cbbf84b9",
     "5855364d4e6f466b",
-    "1d7222bdd496422a"
+    "1d7222bdd496422a",
+    "31d27a6020fcd764",
+    "3db478dfafa6a574"
   ]
 }

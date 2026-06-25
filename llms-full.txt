@@ -3,7 +3,7 @@
 > Machine-readable index for AI assistants, answer engines, and research crawlers.
 > Summary version: https://aiglimpse.ai/llms.txt
 
-Total articles: 350 | Evergreen explainers: 8 | Generated: 2026-06-25
+Total articles: 352 | Evergreen explainers: 8 | Generated: 2026-06-25
 
 ## Evergreen explainers
 
@@ -64,6 +64,20 @@ Total articles: 350 | Evergreen explainers: 8 | Generated: 2026-06-25
 - Type: evergreen explainer (FAQ schema on page)
 
 ## All articles (newest first)
+
+### Researchers Develop Method to Reverse-Engineer AI Agent Strategies
+- URL: https://aiglimpse.ai/articles/researchers-develop-method-to-reverse-engineer-ai-agent-strategies-3db478df
+- Published: 2026-06-24
+- Category: research
+- Summary: New benchmark reveals how well LLMs can reconstruct hidden decision-making policies through behavioral observation and controlled experiments.
+- Source: http://arxiv.org/abs/2606.26094v1
+
+### Two-Stage Training Approach Gives Robots Better Motion Intuition
+- URL: https://aiglimpse.ai/articles/two-stage-training-approach-gives-robots-better-motion-intuition-31d27a60
+- Published: 2026-06-24
+- Category: research
+- Summary: Researchers propose pretrained action modules to accelerate robot learning across different body types and real-world tasks.
+- Source: http://arxiv.org/abs/2606.26095v1
 
 ### Google Search Now Saves Your Images to Train AI Models
 - URL: https://aiglimpse.ai/articles/google-search-now-saves-your-images-to-train-ai-models-1d7222bd
