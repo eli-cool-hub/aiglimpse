@@ -7,6 +7,22 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Voice AI Systems Ignore Emotion Despite Detecting It</title>
+      <link>https://aiglimpse.ai/articles/voice-ai-systems-ignore-emotion-despite-detecting-it-4ecd93d8</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/voice-ai-systems-ignore-emotion-despite-detecting-it-4ecd93d8</guid>
+      <description>New research reveals leading real-time voice assistants fail to act on vocal cues they can perceive, creating risks in high-stakes interactions.</description>
+      <pubDate>Wed, 24 Jun 2026 17:55:38 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
+      <title>Hugging Face Streamlines LLM Deployment with One-Command vLLM Integration</title>
+      <link>https://aiglimpse.ai/articles/hugging-face-streamlines-llm-deployment-with-one-command-vllm-integration-63855b20</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/hugging-face-streamlines-llm-deployment-with-one-command-vllm-integration-63855b20</guid>
+      <description>The platform now lets developers launch optimized language model servers instantly, lowering barriers to AI inference at scale.</description>
+      <pubDate>Fri, 26 Jun 2026 00:00:00 GMT</pubDate>
+      <category>AI Tools &amp; Products</category>
+    </item>
+    <item>
       <title>Novel Method Improves 3D Video Generation by Tracking Motion Cues</title>
       <link>https://aiglimpse.ai/articles/novel-method-improves-3d-video-generation-by-tracking-motion-cues-13ff3503</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/novel-method-improves-3d-video-generation-by-tracking-motion-cues-13ff3503</guid>
@@ -388,22 +404,6 @@
       <guid isPermaLink="true">https://aiglimpse.ai/articles/signal-leader-warns-against-treating-ai-chatbots-as-companions-14c6406f</guid>
       <description>Meredith Whittaker cautions users to maintain critical distance from conversational AI systems designed to mimic human interaction.</description>
       <pubDate>Sat, 20 Jun 2026 20:32:29 GMT</pubDate>
-      <category>AI Business</category>
-    </item>
-    <item>
-      <title>Journalist Exposes Four Major Music Datasets Used to Train AI Models</title>
-      <link>https://aiglimpse.ai/articles/journalist-exposes-four-major-music-datasets-used-to-train-ai-models-190530c0</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/journalist-exposes-four-major-music-datasets-used-to-train-ai-models-190530c0</guid>
-      <description>A comprehensive searchable database reveals millions of songs powering generative AI, raising questions about artist consent and fair compensation.</description>
-      <pubDate>Sat, 20 Jun 2026 18:46:48 GMT</pubDate>
-      <category>AI Tools &amp; Products</category>
-    </item>
-    <item>
-      <title>Nobel Prize Winner Jumper Exits DeepMind for Anthropic</title>
-      <link>https://aiglimpse.ai/articles/nobel-prize-winner-jumper-exits-deepmind-for-anthropic-0c420e63</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/nobel-prize-winner-jumper-exits-deepmind-for-anthropic-0c420e63</guid>
-      <description>The protein-folding pioneer's departure signals intensifying competition for top AI talent between Google's research division and the safety-focused startup.</description>
-      <pubDate>Sat, 20 Jun 2026 16:39:57 GMT</pubDate>
       <category>AI Business</category>
     </item>
   </channel>

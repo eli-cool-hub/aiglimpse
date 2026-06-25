@@ -3,7 +3,7 @@
 > Machine-readable index for AI assistants, answer engines, and research crawlers.
 > Summary version: https://aiglimpse.ai/llms.txt
 
-Total articles: 357 | Evergreen explainers: 8 | Generated: 2026-06-25
+Total articles: 359 | Evergreen explainers: 8 | Generated: 2026-06-25
 
 ## Evergreen explainers
 
@@ -64,6 +64,20 @@ Total articles: 357 | Evergreen explainers: 8 | Generated: 2026-06-25
 - Type: evergreen explainer (FAQ schema on page)
 
 ## All articles (newest first)
+
+### Voice AI Systems Ignore Emotion Despite Detecting It
+- URL: https://aiglimpse.ai/articles/voice-ai-systems-ignore-emotion-despite-detecting-it-4ecd93d8
+- Published: 2026-06-24
+- Category: research
+- Summary: New research reveals leading real-time voice assistants fail to act on vocal cues they can perceive, creating risks in high-stakes interactions.
+- Source: http://arxiv.org/abs/2606.26083v1
+
+### Hugging Face Streamlines LLM Deployment with One-Command vLLM Integration
+- URL: https://aiglimpse.ai/articles/hugging-face-streamlines-llm-deployment-with-one-command-vllm-integration-63855b20
+- Published: 2026-06-26
+- Category: tools
+- Summary: The platform now lets developers launch optimized language model servers instantly, lowering barriers to AI inference at scale.
+- Source: https://huggingface.co/blog/vllm-jobs
 
 ### Novel Method Improves 3D Video Generation by Tracking Motion Cues
 - URL: https://aiglimpse.ai/articles/novel-method-improves-3d-video-generation-by-tracking-motion-cues-13ff3503

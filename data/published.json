@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "voice-ai-systems-ignore-emotion-despite-detecting-it-4ecd93d8",
+      "title": "Voice AI Systems Ignore Emotion Despite Detecting It",
+      "subtitle": "New research reveals leading real-time voice assistants fail to act on vocal cues they can perceive, creating risks in high-stakes interactions.",
+      "category": "research",
+      "publishedAt": "2026-06-24T17:55:38.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2606.26083v1",
+      "sourceName": "arXiv (Martijn Bartelds, Federico Bianchi, James Zou)",
+      "sourceTier": 1,
+      "image": "/images/articles/voice-ai-systems-ignore-emotion-despite-detecting-it-4ecd93d8.jpg"
+    },
+    {
+      "slug": "hugging-face-streamlines-llm-deployment-with-one-command-vllm-integration-63855b20",
+      "title": "Hugging Face Streamlines LLM Deployment with One-Command vLLM Integration",
+      "subtitle": "The platform now lets developers launch optimized language model servers instantly, lowering barriers to AI inference at scale.",
+      "category": "tools",
+      "publishedAt": "2026-06-26T00:00:00.000Z",
+      "sourceUrl": "https://huggingface.co/blog/vllm-jobs",
+      "sourceName": "Hugging Face",
+      "sourceTier": 1,
+      "image": "/images/articles/hugging-face-streamlines-llm-deployment-with-one-command-vllm-integration-63855b20.jpg"
+    },
+    {
       "slug": "novel-method-improves-3d-video-generation-by-tracking-motion-cues-13ff3503",
       "title": "Novel Method Improves 3D Video Generation by Tracking Motion Cues",
       "subtitle": "Researchers develop geometric supervision technique that enhances consistency in AI-generated videos from single camera angles.",
@@ -4293,6 +4315,8 @@
     "f34ebb21773762c4",
     "66c42912744a0c8a",
     "e713dbfbaaf06d2c",
-    "13ff3503d379a833"
+    "13ff3503d379a833",
+    "63855b20f9a58cbd",
+    "4ecd93d819713614"
   ]
 }

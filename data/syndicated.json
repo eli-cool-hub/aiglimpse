@@ -4484,6 +4484,42 @@
         "devto": true,
         "hashnode": false
       }
+    },
+    "hugging-face-streamlines-llm-deployment-with-one-command-vllm-integration-63855b20": {
+      "syndicated_at": "2026-06-25T21:45:53.094Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/hugging-face-streamlines-llm-deployment-with-one-command-vllm-integration-2428",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 460,
+      "category": "tools",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
+    },
+    "voice-ai-systems-ignore-emotion-despite-detecting-it-4ecd93d8": {
+      "syndicated_at": "2026-06-25T21:46:04.221Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/voice-ai-systems-ignore-emotion-despite-detecting-it-3fba",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 463,
+      "category": "research",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
     }
   }
 }
