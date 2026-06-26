@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "probability-alone-wont-fix-ai-accuracy-new-research-finds-bf22661d",
+      "title": "Probability Alone Won't Fix AI Accuracy, New Research Finds",
+      "subtitle": "A rigorous study reveals fundamental limits to improving LLM answers through decoding optimization.",
+      "category": "research",
+      "publishedAt": "2026-06-25T17:58:02.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2606.27359v1",
+      "sourceName": "arXiv (Johannes Zenn, Jonas Geiping)",
+      "sourceTier": 1,
+      "image": "/images/articles/probability-alone-wont-fix-ai-accuracy-new-research-finds-bf22661d.jpg"
+    },
+    {
+      "slug": "new-framework-fixes-ai-models-that-ignore-images-when-answering-questions-1fab0291",
+      "title": "New Framework Fixes AI Models That Ignore Images When Answering Questions",
+      "subtitle": "Researchers tackle a fundamental flaw where multimodal AI systems rely too heavily on language patterns instead of actually analyzing visual content.",
+      "category": "research",
+      "publishedAt": "2026-06-25T17:59:55.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2606.27373v1",
+      "sourceName": "arXiv (Shravan Venkatraman, Ritesh Thawkar, Omkar Thawakar, Rao Muh…)",
+      "sourceTier": 1,
+      "image": "/images/articles/new-framework-fixes-ai-models-that-ignore-images-when-answering-questions-1fab0291.jpg"
+    },
+    {
       "slug": "new-training-method-lets-ai-learn-coding-without-perfect-answers-e3f23e96",
       "title": "New Training Method Lets AI Learn Coding Without Perfect Answers",
       "subtitle": "Researchers show language models can improve at programming tasks by learning from imperfect feedback, not just correct solutions.",
@@ -4377,6 +4399,8 @@
     "9b0f8d8890902804",
     "f2da12d624108bb1",
     "091958c5c7642c91",
-    "e3f23e9642f7af65"
+    "e3f23e9642f7af65",
+    "1fab02919ef0161c",
+    "bf22661d5ba16e5e"
   ]
 }

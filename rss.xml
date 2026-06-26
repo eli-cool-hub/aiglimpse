@@ -7,6 +7,22 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Probability Alone Won't Fix AI Accuracy, New Research Finds</title>
+      <link>https://aiglimpse.ai/articles/probability-alone-wont-fix-ai-accuracy-new-research-finds-bf22661d</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/probability-alone-wont-fix-ai-accuracy-new-research-finds-bf22661d</guid>
+      <description>A rigorous study reveals fundamental limits to improving LLM answers through decoding optimization.</description>
+      <pubDate>Thu, 25 Jun 2026 17:58:02 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
+      <title>New Framework Fixes AI Models That Ignore Images When Answering Questions</title>
+      <link>https://aiglimpse.ai/articles/new-framework-fixes-ai-models-that-ignore-images-when-answering-questions-1fab0291</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-framework-fixes-ai-models-that-ignore-images-when-answering-questions-1fab0291</guid>
+      <description>Researchers tackle a fundamental flaw where multimodal AI systems rely too heavily on language patterns instead of actually analyzing visual content.</description>
+      <pubDate>Thu, 25 Jun 2026 17:59:55 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
       <title>New Training Method Lets AI Learn Coding Without Perfect Answers</title>
       <link>https://aiglimpse.ai/articles/new-training-method-lets-ai-learn-coding-without-perfect-answers-e3f23e96</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/new-training-method-lets-ai-learn-coding-without-perfect-answers-e3f23e96</guid>
@@ -389,22 +405,6 @@
       <description>As autonomous AI systems replace human workers, the subscription-per-seat pricing that built Salesforce and Workday faces obsolescence.</description>
       <pubDate>Mon, 22 Jun 2026 11:00:56 GMT</pubDate>
       <category>AI Business</category>
-    </item>
-    <item>
-      <title>Healthcare Systems Move Past AI Skepticism to Operational Integration</title>
-      <link>https://aiglimpse.ai/articles/healthcare-systems-move-past-ai-skepticism-to-operational-integration-e93e2b6b</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/healthcare-systems-move-past-ai-skepticism-to-operational-integration-e93e2b6b</guid>
-      <description>Nine major hospital networks share real-world strategies for embedding artificial intelligence into pharmacy, nursing, and surgical workflows at scale.</description>
-      <pubDate>Mon, 22 Jun 2026 12:00:00 GMT</pubDate>
-      <category>Industry Applications</category>
-    </item>
-    <item>
-      <title>Samsung Deploys ChatGPT and Codex Across Global Workforce</title>
-      <link>https://aiglimpse.ai/articles/samsung-deploys-chatgpt-and-codex-across-global-workforce-1f31d838</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/samsung-deploys-chatgpt-and-codex-across-global-workforce-1f31d838</guid>
-      <description>The electronics giant's enterprise-scale rollout represents one of OpenAI's largest corporate AI implementations to date.</description>
-      <pubDate>Sun, 21 Jun 2026 23:00:00 GMT</pubDate>
-      <category>LLMs &amp; Chatbots</category>
     </item>
   </channel>
 </rss>

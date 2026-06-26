@@ -4610,6 +4610,42 @@
         "devto": true,
         "hashnode": false
       }
+    },
+    "new-framework-fixes-ai-models-that-ignore-images-when-answering-questions-1fab0291": {
+      "syndicated_at": "2026-06-26T11:11:11.546Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/new-framework-fixes-ai-models-that-ignore-images-when-answering-questions-52gg",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 494,
+      "category": "research",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
+    },
+    "probability-alone-wont-fix-ai-accuracy-new-research-finds-bf22661d": {
+      "syndicated_at": "2026-06-26T11:11:22.413Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/probability-alone-wont-fix-ai-accuracy-new-research-finds-1i67",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 484,
+      "category": "research",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
     }
   }
 }

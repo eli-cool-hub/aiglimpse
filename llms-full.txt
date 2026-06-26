@@ -3,7 +3,7 @@
 > Machine-readable index for AI assistants, answer engines, and research crawlers.
 > Summary version: https://aiglimpse.ai/llms.txt
 
-Total articles: 364 | Evergreen explainers: 8 | Generated: 2026-06-26
+Total articles: 366 | Evergreen explainers: 8 | Generated: 2026-06-26
 
 ## Evergreen explainers
 
@@ -64,6 +64,20 @@ Total articles: 364 | Evergreen explainers: 8 | Generated: 2026-06-26
 - Type: evergreen explainer (FAQ schema on page)
 
 ## All articles (newest first)
+
+### Probability Alone Won't Fix AI Accuracy, New Research Finds
+- URL: https://aiglimpse.ai/articles/probability-alone-wont-fix-ai-accuracy-new-research-finds-bf22661d
+- Published: 2026-06-25
+- Category: research
+- Summary: A rigorous study reveals fundamental limits to improving LLM answers through decoding optimization.
+- Source: http://arxiv.org/abs/2606.27359v1
+
+### New Framework Fixes AI Models That Ignore Images When Answering Questions
+- URL: https://aiglimpse.ai/articles/new-framework-fixes-ai-models-that-ignore-images-when-answering-questions-1fab0291
+- Published: 2026-06-25
+- Category: research
+- Summary: Researchers tackle a fundamental flaw where multimodal AI systems rely too heavily on language patterns instead of actually analyzing visual content.
+- Source: http://arxiv.org/abs/2606.27373v1
 
 ### New Training Method Lets AI Learn Coding Without Perfect Answers
 - URL: https://aiglimpse.ai/articles/new-training-method-lets-ai-learn-coding-without-perfect-answers-e3f23e96
