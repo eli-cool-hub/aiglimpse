@@ -7,6 +7,22 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Kaiser Permanente's AI-Powered MRI System Slashes Wait Times</title>
+      <link>https://aiglimpse.ai/articles/kaiser-permanentes-ai-powered-mri-system-slashes-wait-times-f3771517</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/kaiser-permanentes-ai-powered-mri-system-slashes-wait-times-f3771517</guid>
+      <description>FDA-cleared technology accelerates scan processing and reduces patient delays by over 60 percent without sacrificing diagnostic quality.</description>
+      <pubDate>Fri, 26 Jun 2026 14:28:03 GMT</pubDate>
+      <category>Industry Applications</category>
+    </item>
+    <item>
+      <title>Researchers Propose Denoising Attention to Sharpen Visual AI Models</title>
+      <link>https://aiglimpse.ai/articles/researchers-propose-denoising-attention-to-sharpen-visual-ai-models-a0fe0381</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/researchers-propose-denoising-attention-to-sharpen-visual-ai-models-a0fe0381</guid>
+      <description>A new attention mechanism reduces noise in transformer models, boosting image recognition accuracy and expanding benefits across video and multimodal tasks.</description>
+      <pubDate>Thu, 25 Jun 2026 17:59:48 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
       <title>Probability Alone Won't Fix AI Accuracy, New Research Finds</title>
       <link>https://aiglimpse.ai/articles/probability-alone-wont-fix-ai-accuracy-new-research-finds-bf22661d</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/probability-alone-wont-fix-ai-accuracy-new-research-finds-bf22661d</guid>
@@ -389,22 +405,6 @@
       <description>New initiative uses AI to identify and remediate software vulnerabilities across critical open source projects.</description>
       <pubDate>Mon, 22 Jun 2026 10:00:00 GMT</pubDate>
       <category>LLMs &amp; Chatbots</category>
-    </item>
-    <item>
-      <title>PaddlePaddle Releases Lightweight OCR Model Supporting 50 Languages</title>
-      <link>https://aiglimpse.ai/articles/paddlepaddle-releases-lightweight-ocr-model-supporting-50-languages-74737716</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/paddlepaddle-releases-lightweight-ocr-model-supporting-50-languages-74737716</guid>
-      <description>New PP-OCRv6 variants scale from 1.5M to 34.5M parameters, bringing affordable text recognition to resource-constrained devices.</description>
-      <pubDate>Mon, 22 Jun 2026 13:18:56 GMT</pubDate>
-      <category>AI Tools &amp; Products</category>
-    </item>
-    <item>
-      <title>AI Agents Are Dismantling the SaaS Business Model</title>
-      <link>https://aiglimpse.ai/articles/ai-agents-are-dismantling-the-saas-business-model-785f1f28</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/ai-agents-are-dismantling-the-saas-business-model-785f1f28</guid>
-      <description>As autonomous AI systems replace human workers, the subscription-per-seat pricing that built Salesforce and Workday faces obsolescence.</description>
-      <pubDate>Mon, 22 Jun 2026 11:00:56 GMT</pubDate>
-      <category>AI Business</category>
     </item>
   </channel>
 </rss>

@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "kaiser-permanentes-ai-powered-mri-system-slashes-wait-times-f3771517",
+      "title": "Kaiser Permanente's AI-Powered MRI System Slashes Wait Times",
+      "subtitle": "FDA-cleared technology accelerates scan processing and reduces patient delays by over 60 percent without sacrificing diagnostic quality.",
+      "category": "industry",
+      "publishedAt": "2026-06-26T14:28:03.000Z",
+      "sourceUrl": "https://www.beckershospitalreview.com/healthcare-information-technology/ai/kaiser-permanente-ai-tool-cuts-mri-wait-times-by-60/",
+      "sourceName": "Becker's Hospital Review",
+      "sourceTier": 2,
+      "image": "/images/articles/kaiser-permanentes-ai-powered-mri-system-slashes-wait-times-f3771517.jpg"
+    },
+    {
+      "slug": "researchers-propose-denoising-attention-to-sharpen-visual-ai-models-a0fe0381",
+      "title": "Researchers Propose Denoising Attention to Sharpen Visual AI Models",
+      "subtitle": "A new attention mechanism reduces noise in transformer models, boosting image recognition accuracy and expanding benefits across video and multimodal tasks.",
+      "category": "research",
+      "publishedAt": "2026-06-25T17:59:48.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2606.27372v1",
+      "sourceName": "arXiv (Ron Campos, Subhajit Maity, Xin Li, Srijan Das, Aritra Dutta)",
+      "sourceTier": 1,
+      "image": "/images/articles/researchers-propose-denoising-attention-to-sharpen-visual-ai-models-a0fe0381.jpg"
+    },
+    {
       "slug": "probability-alone-wont-fix-ai-accuracy-new-research-finds-bf22661d",
       "title": "Probability Alone Won't Fix AI Accuracy, New Research Finds",
       "subtitle": "A rigorous study reveals fundamental limits to improving LLM answers through decoding optimization.",
@@ -4401,6 +4423,8 @@
     "091958c5c7642c91",
     "e3f23e9642f7af65",
     "1fab02919ef0161c",
-    "bf22661d5ba16e5e"
+    "bf22661d5ba16e5e",
+    "a0fe03816aca6538",
+    "f3771517725c0a9c"
   ]
 }

@@ -16,6 +16,24 @@
   <url><loc>https://aiglimpse.ai/pages/privacy</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
   <url><loc>https://aiglimpse.ai/pages/terms</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
   <url>
+    <loc>https://aiglimpse.ai/articles/kaiser-permanentes-ai-powered-mri-system-slashes-wait-times-f3771517</loc>
+    <news:news>
+      <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-06-26T14:28:03.000Z</news:publication_date>
+      <news:title>Kaiser Permanente's AI-Powered MRI System Slashes Wait Times</news:title>
+    </news:news>
+    <changefreq>daily</changefreq><priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://aiglimpse.ai/articles/researchers-propose-denoising-attention-to-sharpen-visual-ai-models-a0fe0381</loc>
+    <news:news>
+      <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-06-25T17:59:48.000Z</news:publication_date>
+      <news:title>Researchers Propose Denoising Attention to Sharpen Visual AI Models</news:title>
+    </news:news>
+    <changefreq>daily</changefreq><priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://aiglimpse.ai/articles/probability-alone-wont-fix-ai-accuracy-new-research-finds-bf22661d</loc>
     <news:news>
       <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
