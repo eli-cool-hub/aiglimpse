@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "researchers-crack-diversity-problem-in-ai-image-generation-bb57b7b4",
+      "title": "Researchers Crack Diversity Problem in AI Image Generation",
+      "subtitle": "A new self-guidance technique helps flow models produce varied outputs without slowing down inference or requiring external systems.",
+      "category": "research",
+      "publishedAt": "2026-06-25T17:59:47.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2606.27371v1",
+      "sourceName": "arXiv (Pradhaan S Bhat, Rishubh Parihar, Abhijnya Bhat, R. Venkates…)",
+      "sourceTier": 1,
+      "image": "/images/articles/researchers-crack-diversity-problem-in-ai-image-generation-bb57b7b4.jpg"
+    },
+    {
       "slug": "kaiser-permanentes-ai-powered-mri-system-slashes-wait-times-f3771517",
       "title": "Kaiser Permanente's AI-Powered MRI System Slashes Wait Times",
       "subtitle": "FDA-cleared technology accelerates scan processing and reduces patient delays by over 60 percent without sacrificing diagnostic quality.",
@@ -4425,6 +4436,7 @@
     "1fab02919ef0161c",
     "bf22661d5ba16e5e",
     "a0fe03816aca6538",
-    "f3771517725c0a9c"
+    "f3771517725c0a9c",
+    "bb57b7b4ab3309d4"
   ]
 }
