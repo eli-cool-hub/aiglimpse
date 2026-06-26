@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "ai-model-teaches-itself-to-see-and-create-without-human-guidance-f2da12d6",
+      "title": "AI Model Teaches Itself to See and Create Without Human Guidance",
+      "subtitle": "Researchers demonstrate self-improving multimodal systems that enhance both image understanding and generation using only unlabeled data.",
+      "category": "research",
+      "publishedAt": "2026-06-25T17:59:57.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2606.27376v1",
+      "sourceName": "arXiv (Ritesh Thawkar, Shravan Venkatraman, Omkar Thawakar, Abdelra…)",
+      "sourceTier": 1,
+      "image": "/images/articles/ai-model-teaches-itself-to-see-and-create-without-human-guidance-f2da12d6.jpg"
+    },
+    {
+      "slug": "new-framework-lets-ai-image-models-master-multiple-tasks-at-once-9b0f8d88",
+      "title": "New Framework Lets AI Image Models Master Multiple Tasks at Once",
+      "subtitle": "Researchers develop technique to unify text-to-image generation with editing capabilities without sacrificing quality.",
+      "category": "research",
+      "publishedAt": "2026-06-25T17:59:58.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2606.27377v1",
+      "sourceName": "arXiv (Wei Zhou, Xiongwei Zhu, Zelin Xu, Bo Dong, Lixue Gong, Yongy…)",
+      "sourceTier": 1,
+      "image": "/images/articles/new-framework-lets-ai-image-models-master-multiple-tasks-at-once-9b0f8d88.jpg"
+    },
+    {
       "slug": "new-ai-model-bridges-gap-between-different-welding-technologies-09eb3b15",
       "title": "New AI Model Bridges Gap Between Different Welding Technologies",
       "subtitle": "Researchers solve a major challenge in deploying machine learning across industrial processes with fundamentally different physics.",
@@ -4329,6 +4351,8 @@
     "13ff3503d379a833",
     "63855b20f9a58cbd",
     "4ecd93d819713614",
-    "09eb3b15f9aba831"
+    "09eb3b15f9aba831",
+    "9b0f8d8890902804",
+    "f2da12d624108bb1"
   ]
 }

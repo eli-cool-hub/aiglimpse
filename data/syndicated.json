@@ -4538,6 +4538,42 @@
         "devto": true,
         "hashnode": false
       }
+    },
+    "new-framework-lets-ai-image-models-master-multiple-tasks-at-once-9b0f8d88": {
+      "syndicated_at": "2026-06-26T03:56:36.589Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/new-framework-lets-ai-image-models-master-multiple-tasks-at-once-4on6",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 469,
+      "category": "research",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
+    },
+    "ai-model-teaches-itself-to-see-and-create-without-human-guidance-f2da12d6": {
+      "syndicated_at": "2026-06-26T03:56:47.351Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/ai-model-teaches-itself-to-see-and-create-without-human-guidance-lo3",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 494,
+      "category": "research",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
     }
   }
 }

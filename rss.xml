@@ -7,6 +7,22 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>AI Model Teaches Itself to See and Create Without Human Guidance</title>
+      <link>https://aiglimpse.ai/articles/ai-model-teaches-itself-to-see-and-create-without-human-guidance-f2da12d6</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/ai-model-teaches-itself-to-see-and-create-without-human-guidance-f2da12d6</guid>
+      <description>Researchers demonstrate self-improving multimodal systems that enhance both image understanding and generation using only unlabeled data.</description>
+      <pubDate>Thu, 25 Jun 2026 17:59:57 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
+      <title>New Framework Lets AI Image Models Master Multiple Tasks at Once</title>
+      <link>https://aiglimpse.ai/articles/new-framework-lets-ai-image-models-master-multiple-tasks-at-once-9b0f8d88</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-framework-lets-ai-image-models-master-multiple-tasks-at-once-9b0f8d88</guid>
+      <description>Researchers develop technique to unify text-to-image generation with editing capabilities without sacrificing quality.</description>
+      <pubDate>Thu, 25 Jun 2026 17:59:58 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
       <title>New AI Model Bridges Gap Between Different Welding Technologies</title>
       <link>https://aiglimpse.ai/articles/new-ai-model-bridges-gap-between-different-welding-technologies-09eb3b15</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/new-ai-model-bridges-gap-between-different-welding-technologies-09eb3b15</guid>
@@ -388,22 +404,6 @@
       <guid isPermaLink="true">https://aiglimpse.ai/articles/openai-extends-codex-with-automation-features-for-enterprise-mac-users-252379db</guid>
       <description>New Record and Replay capability signals shift from developer tools toward operational automation, though geographic restrictions complicate global deployment.</description>
       <pubDate>Sat, 20 Jun 2026 00:00:00 GMT</pubDate>
-      <category>AI Business</category>
-    </item>
-    <item>
-      <title>DeepMind's Jumper Moves to Anthropic in Major AI Lab Reshuffle</title>
-      <link>https://aiglimpse.ai/articles/deepminds-jumper-moves-to-anthropic-in-major-ai-lab-reshuffle-9b68f460</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/deepminds-jumper-moves-to-anthropic-in-major-ai-lab-reshuffle-9b68f460</guid>
-      <description>The departure of a prominent researcher signals shifting dynamics in the race to develop safer, more capable AI systems.</description>
-      <pubDate>Sat, 20 Jun 2026 14:32:15 GMT</pubDate>
-      <category>AI Tools &amp; Products</category>
-    </item>
-    <item>
-      <title>New Search Engine Ranks AI Models by Training Data Transparency</title>
-      <link>https://aiglimpse.ai/articles/new-search-engine-ranks-ai-models-by-training-data-transparency-8a611f33</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-search-engine-ranks-ai-models-by-training-data-transparency-8a611f33</guid>
-      <description>A fresh take on model evaluation puts algorithmic weights under public scrutiny, raising questions about AI accountability and developer credibility.</description>
-      <pubDate>Sat, 20 Jun 2026 19:41:11 GMT</pubDate>
       <category>AI Business</category>
     </item>
   </channel>
