@@ -7,6 +7,14 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>New AI Framework Dramatically Accelerates Molecular Sampling</title>
+      <link>https://aiglimpse.ai/articles/new-ai-framework-dramatically-accelerates-molecular-sampling-71a1d2b9</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-ai-framework-dramatically-accelerates-molecular-sampling-71a1d2b9</guid>
+      <description>Researchers replace flow-based models with autoregressive architecture, cutting energy prediction errors by 60% on protein structures.</description>
+      <pubDate>Thu, 25 Jun 2026 17:58:21 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
       <title>PhysiFormer Uses Diffusion Transformers to Model 3D Object Physics</title>
       <link>https://aiglimpse.ai/articles/physiformer-uses-diffusion-transformers-to-model-3d-object-physics-8a333c4b</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/physiformer-uses-diffusion-transformers-to-model-3d-object-physics-8a333c4b</guid>
@@ -397,14 +405,6 @@
       <description>Major technology companies are citing artificial intelligence adoption as justification for significant layoffs, raising questions about automation's real impact on employment.</description>
       <pubDate>Tue, 23 Jun 2026 01:27:55 GMT</pubDate>
       <category>AI Business</category>
-    </item>
-    <item>
-      <title>How Developers Use Codex to Sustain Complex Projects Over Time</title>
-      <link>https://aiglimpse.ai/articles/how-developers-use-codex-to-sustain-complex-projects-over-time-0c40d2dc</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/how-developers-use-codex-to-sustain-complex-projects-over-time-0c40d2dc</guid>
-      <description>A case study reveals techniques for maintaining context and managing multi-stage coding work with AI assistance.</description>
-      <pubDate>Mon, 22 Jun 2026 00:00:00 GMT</pubDate>
-      <category>LLMs &amp; Chatbots</category>
     </item>
   </channel>
 </rss>
