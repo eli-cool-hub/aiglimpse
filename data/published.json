@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "new-training-method-lets-ai-learn-coding-without-perfect-answers-e3f23e96",
+      "title": "New Training Method Lets AI Learn Coding Without Perfect Answers",
+      "subtitle": "Researchers show language models can improve at programming tasks by learning from imperfect feedback, not just correct solutions.",
+      "category": "research",
+      "publishedAt": "2026-06-25T17:59:36.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2606.27369v1",
+      "sourceName": "arXiv (Yingyu Lin, Qiyue Gao, Nikki Lijing Kuang, Xunpeng Huang, Ku…)",
+      "sourceTier": 1,
+      "image": "/images/articles/new-training-method-lets-ai-learn-coding-without-perfect-answers-e3f23e96.jpg"
+    },
+    {
+      "slug": "robots-learn-without-forgetting-using-ai-generated-memory-replays-091958c5",
+      "title": "Robots Learn Without Forgetting Using AI-Generated Memory Replays",
+      "subtitle": "New technique lets robots retain learned skills while adapting to new tasks, eliminating the need to store original training data.",
+      "category": "research",
+      "publishedAt": "2026-06-25T17:59:56.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2606.27374v1",
+      "sourceName": "arXiv (Manish Kumar Govind, Dominick Reilly, Smit Patel, Hieu Le, S…)",
+      "sourceTier": 1,
+      "image": "/images/articles/robots-learn-without-forgetting-using-ai-generated-memory-replays-091958c5.jpg"
+    },
+    {
       "slug": "ai-model-teaches-itself-to-see-and-create-without-human-guidance-f2da12d6",
       "title": "AI Model Teaches Itself to See and Create Without Human Guidance",
       "subtitle": "Researchers demonstrate self-improving multimodal systems that enhance both image understanding and generation using only unlabeled data.",
@@ -4353,6 +4375,8 @@
     "4ecd93d819713614",
     "09eb3b15f9aba831",
     "9b0f8d8890902804",
-    "f2da12d624108bb1"
+    "f2da12d624108bb1",
+    "091958c5c7642c91",
+    "e3f23e9642f7af65"
   ]
 }

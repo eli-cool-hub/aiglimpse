@@ -3,7 +3,7 @@
 > Machine-readable index for AI assistants, answer engines, and research crawlers.
 > Summary version: https://aiglimpse.ai/llms.txt
 
-Total articles: 362 | Evergreen explainers: 8 | Generated: 2026-06-26
+Total articles: 364 | Evergreen explainers: 8 | Generated: 2026-06-26
 
 ## Evergreen explainers
 
@@ -64,6 +64,20 @@ Total articles: 362 | Evergreen explainers: 8 | Generated: 2026-06-26
 - Type: evergreen explainer (FAQ schema on page)
 
 ## All articles (newest first)
+
+### New Training Method Lets AI Learn Coding Without Perfect Answers
+- URL: https://aiglimpse.ai/articles/new-training-method-lets-ai-learn-coding-without-perfect-answers-e3f23e96
+- Published: 2026-06-25
+- Category: research
+- Summary: Researchers show language models can improve at programming tasks by learning from imperfect feedback, not just correct solutions.
+- Source: http://arxiv.org/abs/2606.27369v1
+
+### Robots Learn Without Forgetting Using AI-Generated Memory Replays
+- URL: https://aiglimpse.ai/articles/robots-learn-without-forgetting-using-ai-generated-memory-replays-091958c5
+- Published: 2026-06-25
+- Category: research
+- Summary: New technique lets robots retain learned skills while adapting to new tasks, eliminating the need to store original training data.
+- Source: http://arxiv.org/abs/2606.27374v1
 
 ### AI Model Teaches Itself to See and Create Without Human Guidance
 - URL: https://aiglimpse.ai/articles/ai-model-teaches-itself-to-see-and-create-without-human-guidance-f2da12d6

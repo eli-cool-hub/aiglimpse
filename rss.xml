@@ -7,6 +7,22 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>New Training Method Lets AI Learn Coding Without Perfect Answers</title>
+      <link>https://aiglimpse.ai/articles/new-training-method-lets-ai-learn-coding-without-perfect-answers-e3f23e96</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-training-method-lets-ai-learn-coding-without-perfect-answers-e3f23e96</guid>
+      <description>Researchers show language models can improve at programming tasks by learning from imperfect feedback, not just correct solutions.</description>
+      <pubDate>Thu, 25 Jun 2026 17:59:36 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
+      <title>Robots Learn Without Forgetting Using AI-Generated Memory Replays</title>
+      <link>https://aiglimpse.ai/articles/robots-learn-without-forgetting-using-ai-generated-memory-replays-091958c5</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/robots-learn-without-forgetting-using-ai-generated-memory-replays-091958c5</guid>
+      <description>New technique lets robots retain learned skills while adapting to new tasks, eliminating the need to store original training data.</description>
+      <pubDate>Thu, 25 Jun 2026 17:59:56 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
       <title>AI Model Teaches Itself to See and Create Without Human Guidance</title>
       <link>https://aiglimpse.ai/articles/ai-model-teaches-itself-to-see-and-create-without-human-guidance-f2da12d6</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/ai-model-teaches-itself-to-see-and-create-without-human-guidance-f2da12d6</guid>
@@ -389,22 +405,6 @@
       <description>The electronics giant's enterprise-scale rollout represents one of OpenAI's largest corporate AI implementations to date.</description>
       <pubDate>Sun, 21 Jun 2026 23:00:00 GMT</pubDate>
       <category>LLMs &amp; Chatbots</category>
-    </item>
-    <item>
-      <title>How to Build AI Agents That Actually Work When It Matters</title>
-      <link>https://aiglimpse.ai/articles/how-to-build-ai-agents-that-actually-work-when-it-matters-6c5a0c0f</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/how-to-build-ai-agents-that-actually-work-when-it-matters-6c5a0c0f</guid>
-      <description>Engineers and researchers debate the engineering practices needed to create autonomous AI systems that can be trusted in production environments.</description>
-      <pubDate>Sun, 21 Jun 2026 04:28:39 GMT</pubDate>
-      <category>AI Tools &amp; Products</category>
-    </item>
-    <item>
-      <title>OpenAI Extends Codex With Automation Features for Enterprise Mac Users</title>
-      <link>https://aiglimpse.ai/articles/openai-extends-codex-with-automation-features-for-enterprise-mac-users-252379db</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/openai-extends-codex-with-automation-features-for-enterprise-mac-users-252379db</guid>
-      <description>New Record and Replay capability signals shift from developer tools toward operational automation, though geographic restrictions complicate global deployment.</description>
-      <pubDate>Sat, 20 Jun 2026 00:00:00 GMT</pubDate>
-      <category>AI Business</category>
     </item>
   </channel>
 </rss>
