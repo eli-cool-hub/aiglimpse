@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "asian-ai-labs-build-homegrown-alternatives-as-us-export-controls-reshape-market-aa530456",
+      "title": "Asian AI Labs Build Homegrown Alternatives as US Export Controls Reshape Market",
+      "subtitle": "A wave of new language models from Asia threatens to upend American AI dominance as regulatory barriers push development offshore.",
+      "category": "business",
+      "publishedAt": "2026-06-27T12:00:00.000Z",
+      "sourceUrl": "https://techcrunch.com/2026/06/27/asian-ai-startups-launch-mythos-like-models-as-anthropics-export-ban-drags-on/",
+      "sourceName": "TechCrunch AI",
+      "sourceTier": 2,
+      "image": "/images/articles/asian-ai-labs-build-homegrown-alternatives-as-us-export-controls-reshape-market-aa530456.jpg"
+    },
+    {
       "slug": "deepseeks-dspark-technique-cuts-llm-inference-time-in-half-d90e6401",
       "title": "DeepSeek's DSpark Technique Cuts LLM Inference Time in Half",
       "subtitle": "New speculative decoding method enables faster AI model responses by predicting multiple tokens simultaneously.",
@@ -4641,6 +4652,7 @@
     "30cfd60ad8e27749",
     "504e651ee1c3541b",
     "c709d3d73cea86a4",
-    "d90e6401ac8e0cf7"
+    "d90e6401ac8e0cf7",
+    "aa5304565a4e8c73"
   ]
 }

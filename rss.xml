@@ -7,6 +7,14 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Asian AI Labs Build Homegrown Alternatives as US Export Controls Reshape Market</title>
+      <link>https://aiglimpse.ai/articles/asian-ai-labs-build-homegrown-alternatives-as-us-export-controls-reshape-market-aa530456</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/asian-ai-labs-build-homegrown-alternatives-as-us-export-controls-reshape-market-aa530456</guid>
+      <description>A wave of new language models from Asia threatens to upend American AI dominance as regulatory barriers push development offshore.</description>
+      <pubDate>Sat, 27 Jun 2026 12:00:00 GMT</pubDate>
+      <category>AI Business</category>
+    </item>
+    <item>
       <title>DeepSeek's DSpark Technique Cuts LLM Inference Time in Half</title>
       <link>https://aiglimpse.ai/articles/deepseeks-dspark-technique-cuts-llm-inference-time-in-half-d90e6401</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/deepseeks-dspark-technique-cuts-llm-inference-time-in-half-d90e6401</guid>
@@ -396,14 +404,6 @@
       <guid isPermaLink="true">https://aiglimpse.ai/articles/vector-databases-rag-guide-2026</guid>
       <description>A technical guide to selecting the right embeddings index for retrieval-augmented generation systems.</description>
       <pubDate>Wed, 24 Jun 2026 08:55:34 GMT</pubDate>
-      <category>AI Research</category>
-    </item>
-    <item>
-      <title>New Method Adapts Classical Stereo Vision Algorithms to 360-Degree Cameras</title>
-      <link>https://aiglimpse.ai/articles/new-method-adapts-classical-stereo-vision-algorithms-to-360-degree-cameras-aa848ca5</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-method-adapts-classical-stereo-vision-algorithms-to-360-degree-cameras-aa848ca5</guid>
-      <description>Researchers show how to flatten spherical imagery for depth estimation, enabling real-time 3D perception in omnidirectional systems.</description>
-      <pubDate>Tue, 23 Jun 2026 17:27:07 GMT</pubDate>
       <category>AI Research</category>
     </item>
   </channel>
