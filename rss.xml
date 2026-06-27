@@ -7,6 +7,22 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>DeepSeek Releases Speed Boost for AI Model Inference</title>
+      <link>https://aiglimpse.ai/articles/deepseek-releases-speed-boost-for-ai-model-inference-8be5ab4f</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/deepseek-releases-speed-boost-for-ai-model-inference-8be5ab4f</guid>
+      <description>Open-sourced optimization techniques could make running large language models significantly faster and cheaper for developers.</description>
+      <pubDate>Sat, 27 Jun 2026 09:18:52 GMT</pubDate>
+      <category>AI Tools &amp; Products</category>
+    </item>
+    <item>
+      <title>Research Reveals Critical Gaps in Domain-Aware Data Matching Systems</title>
+      <link>https://aiglimpse.ai/articles/research-reveals-critical-gaps-in-domain-aware-data-matching-systems-71c7d904</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/research-reveals-critical-gaps-in-domain-aware-data-matching-systems-71c7d904</guid>
+      <description>New study exposes how resource constraints and data distribution shifts impact the performance of advanced entity matching frameworks in real-world applications.</description>
+      <pubDate>Thu, 25 Jun 2026 17:49:48 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
       <title>Anthropic Secures Limited Access for Mythos 5 After Trump Admin Talks</title>
       <link>https://aiglimpse.ai/articles/anthropic-secures-limited-access-for-mythos-5-after-trump-admin-talks-eb077bdc</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/anthropic-secures-limited-access-for-mythos-5-after-trump-admin-talks-eb077bdc</guid>
@@ -388,22 +404,6 @@
       <guid isPermaLink="true">https://aiglimpse.ai/articles/openai-backs-industry-push-for-unified-ai-safety-standards-f0a73b74</guid>
       <description>The AI leader is collaborating on evaluation frameworks and global protocols to establish shared best practices for advanced systems.</description>
       <pubDate>Tue, 23 Jun 2026 13:00:00 GMT</pubDate>
-      <category>LLMs &amp; Chatbots</category>
-    </item>
-    <item>
-      <title>Hugging Face Tests New Storage Method for Browser-Based AI Models</title>
-      <link>https://aiglimpse.ai/articles/hugging-face-tests-new-storage-method-for-browser-based-ai-models-65cd0329</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/hugging-face-tests-new-storage-method-for-browser-based-ai-models-65cd0329</guid>
-      <description>A proposed Cross-Origin Storage API could let web applications run machine learning models more efficiently across multiple domains.</description>
-      <pubDate>Tue, 23 Jun 2026 00:00:00 GMT</pubDate>
-      <category>AI Tools &amp; Products</category>
-    </item>
-    <item>
-      <title>Advanced AI Model Cracks Immunology Puzzle, Accelerating Medical Research</title>
-      <link>https://aiglimpse.ai/articles/advanced-ai-model-cracks-immunology-puzzle-accelerating-medical-research-2ac136b7</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/advanced-ai-model-cracks-immunology-puzzle-accelerating-medical-research-2ac136b7</guid>
-      <description>A major language model helped researchers decode T cell mechanisms that had eluded scientists for years, promising advances in cancer and autoimmune disease treatment.</description>
-      <pubDate>Tue, 23 Jun 2026 17:00:00 GMT</pubDate>
       <category>LLMs &amp; Chatbots</category>
     </item>
   </channel>

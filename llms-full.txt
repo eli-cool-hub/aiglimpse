@@ -3,7 +3,7 @@
 > Machine-readable index for AI assistants, answer engines, and research crawlers.
 > Summary version: https://aiglimpse.ai/llms.txt
 
-Total articles: 378 | Evergreen explainers: 8 | Generated: 2026-06-27
+Total articles: 380 | Evergreen explainers: 8 | Generated: 2026-06-27
 
 ## Evergreen explainers
 
@@ -64,6 +64,20 @@ Total articles: 378 | Evergreen explainers: 8 | Generated: 2026-06-27
 - Type: evergreen explainer (FAQ schema on page)
 
 ## All articles (newest first)
+
+### DeepSeek Releases Speed Boost for AI Model Inference
+- URL: https://aiglimpse.ai/articles/deepseek-releases-speed-boost-for-ai-model-inference-8be5ab4f
+- Published: 2026-06-27
+- Category: tools
+- Summary: Open-sourced optimization techniques could make running large language models significantly faster and cheaper for developers.
+- Source: https://github.com/deepseek-ai/DeepSpec/blob/main/DSpark_paper.pdf
+
+### Research Reveals Critical Gaps in Domain-Aware Data Matching Systems
+- URL: https://aiglimpse.ai/articles/research-reveals-critical-gaps-in-domain-aware-data-matching-systems-71c7d904
+- Published: 2026-06-25
+- Category: research
+- Summary: New study exposes how resource constraints and data distribution shifts impact the performance of advanced entity matching frameworks in real-world applications.
+- Source: http://arxiv.org/abs/2606.27342v1
 
 ### Anthropic Secures Limited Access for Mythos 5 After Trump Admin Talks
 - URL: https://aiglimpse.ai/articles/anthropic-secures-limited-access-for-mythos-5-after-trump-admin-talks-eb077bdc

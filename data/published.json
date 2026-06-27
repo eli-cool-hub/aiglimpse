@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "deepseek-releases-speed-boost-for-ai-model-inference-8be5ab4f",
+      "title": "DeepSeek Releases Speed Boost for AI Model Inference",
+      "subtitle": "Open-sourced optimization techniques could make running large language models significantly faster and cheaper for developers.",
+      "category": "tools",
+      "publishedAt": "2026-06-27T09:18:52.000Z",
+      "sourceUrl": "https://github.com/deepseek-ai/DeepSpec/blob/main/DSpark_paper.pdf",
+      "sourceName": "Hacker News (103 pts)",
+      "sourceTier": 2,
+      "image": "/images/articles/deepseek-releases-speed-boost-for-ai-model-inference-8be5ab4f.jpg"
+    },
+    {
+      "slug": "research-reveals-critical-gaps-in-domain-aware-data-matching-systems-71c7d904",
+      "title": "Research Reveals Critical Gaps in Domain-Aware Data Matching Systems",
+      "subtitle": "New study exposes how resource constraints and data distribution shifts impact the performance of advanced entity matching frameworks in real-world applications.",
+      "category": "research",
+      "publishedAt": "2026-06-25T17:49:48.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2606.27342v1",
+      "sourceName": "arXiv (Nicholas Pulsone, Gregory Goren, Roee Shraga)",
+      "sourceTier": 1,
+      "image": "/images/articles/research-reveals-critical-gaps-in-domain-aware-data-matching-systems-71c7d904.jpg"
+    },
+    {
       "slug": "anthropic-secures-limited-access-for-mythos-5-after-trump-admin-talks-eb077bdc",
       "title": "Anthropic Secures Limited Access for Mythos 5 After Trump Admin Talks",
       "subtitle": "The AI firm wins government approval for its advanced model with select partners, though broader public deployment remains uncertain.",
@@ -4545,6 +4567,8 @@
     "53a6851f5beba03a",
     "f7540be14b2dca9e",
     "12d2b722b9e8adde",
-    "eb077bdca3909a99"
+    "eb077bdca3909a99",
+    "71c7d904aa225ae5",
+    "8be5ab4ff227d5df"
   ]
 }
