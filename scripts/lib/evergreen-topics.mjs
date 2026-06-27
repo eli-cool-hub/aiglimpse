@@ -68,6 +68,34 @@ export const EVERGREEN_TOPICS = [
     keyword_focus: ['Model Context Protocol', 'MCP', 'AI agent tools', 'LLM integrations', 'Anthropic MCP', 'tool servers'],
     audience: 'Developers wiring LLMs to external systems'
   },
+  // ── High-intent commercial topics (prioritized — proven search demand) ──
+  {
+    slug: 'ai-transcription-pricing-comparison-2026',
+    title_seed: 'AI transcription pricing in 2026: Whisper, Deepgram, AssemblyAI, and free vs paid plans compared',
+    category: 'tools',
+    intent:
+      'Buyer-intent comparison for teams choosing a speech-to-text provider. Reader is actively searching transcription cost/pricing and wants per-minute rates, free-tier limits, accuracy trade-offs, and a clear pick by use case. Search Console already shows the domain ranking (position 90+) for "transcription api pricing comparison", "transcription cost", and "transcription api free tier".',
+    keyword_focus: ['ai transcription pricing', 'transcription api pricing comparison', 'transcription cost', 'whisper api cost', 'deepgram vs assemblyai', 'transcription free tier'],
+    audience: 'Developers and product teams buying speech-to-text'
+  },
+  {
+    slug: 'llm-api-pricing-comparison-2026',
+    title_seed: 'LLM API pricing compared in 2026: OpenAI, Anthropic, Google, and the cheapest model per task',
+    category: 'llms',
+    intent:
+      'Commercial-intent guide for teams budgeting LLM usage. Reader wants per-million-token input/output prices across providers, context-window cost implications, batch/cache discounts, and a cost-per-task verdict (chat, RAG, coding, summarization).',
+    keyword_focus: ['llm api pricing', 'gpt api cost', 'claude api pricing', 'gemini api pricing', 'cheapest llm api', 'token cost comparison'],
+    audience: 'Engineering leads and FinOps owners budgeting LLM spend'
+  },
+  {
+    slug: 'ai-image-generators-compared-2026',
+    title_seed: 'Best AI image generators in 2026: Midjourney, DALL-E, Stable Diffusion, and Flux compared',
+    category: 'tools',
+    intent:
+      'High-volume comparison for creators and teams choosing an image model. Reader wants quality, pricing, commercial licensing, API availability, and best-fit recommendations by use case.',
+    keyword_focus: ['best ai image generator', 'midjourney vs dalle', 'stable diffusion', 'flux ai', 'ai image generator pricing', 'ai art tools'],
+    audience: 'Creators, marketers, and developers picking an image model'
+  },
   {
     slug: 'vector-databases-rag-guide-2026',
     title_seed: 'Vector databases for RAG: Pinecone, pgvector, Chroma, and how to choose',
