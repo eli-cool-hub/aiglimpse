@@ -4916,6 +4916,24 @@
         "devto": true,
         "hashnode": false
       }
+    },
+    "ai-model-generates-linguistically-consistent-constructed-languages-504e651e": {
+      "syndicated_at": "2026-06-27T15:17:32.682Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/ai-model-generates-linguistically-consistent-constructed-languages-37pk",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 469,
+      "category": "research",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
     }
   }
 }

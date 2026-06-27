@@ -7,6 +7,22 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>AI Model Generates Linguistically Consistent Constructed Languages</title>
+      <link>https://aiglimpse.ai/articles/ai-model-generates-linguistically-consistent-constructed-languages-504e651e</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/ai-model-generates-linguistically-consistent-constructed-languages-504e651e</guid>
+      <description>ConlangCrafter demonstrates that machine learning can create novel language systems with internal coherence, opening new pathways for NLP research.</description>
+      <pubDate>Sat, 27 Jun 2026 13:00:01 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
+      <title>Founder Uses AI to Personalize Cancer Treatment Strategy</title>
+      <link>https://aiglimpse.ai/articles/founder-uses-ai-to-personalize-cancer-treatment-strategy-30cfd60a</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/founder-uses-ai-to-personalize-cancer-treatment-strategy-30cfd60a</guid>
+      <description>A tech entrepreneur fed medical data into large language models to gain insights into his diagnosis, highlighting AI's emerging role in precision oncology.</description>
+      <pubDate>Sat, 27 Jun 2026 14:00:00 GMT</pubDate>
+      <category>AI Business</category>
+    </item>
+    <item>
       <title>Apple's Price Hikes Reflect Broader AI Cost Crisis Across Tech</title>
       <link>https://aiglimpse.ai/articles/apples-price-hikes-reflect-broader-ai-cost-crisis-across-tech-423c4068</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/apples-price-hikes-reflect-broader-ai-cost-crisis-across-tech-423c4068</guid>
@@ -388,22 +404,6 @@
       <guid isPermaLink="true">https://aiglimpse.ai/articles/researchers-challenge-imagenet-only-testing-for-ai-image-models-732f2067</guid>
       <description>New benchmark reveals that methods improving class-conditional generation don't necessarily excel at text-to-image tasks, forcing a rethink of how diffusion transformers are evaluated.</description>
       <pubDate>Tue, 23 Jun 2026 17:59:55 GMT</pubDate>
-      <category>AI Research</category>
-    </item>
-    <item>
-      <title>New Training Method Unlocks Math and Reasoning Skills in Vision AI</title>
-      <link>https://aiglimpse.ai/articles/new-training-method-unlocks-math-and-reasoning-skills-in-vision-ai-bae046b6</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-training-method-unlocks-math-and-reasoning-skills-in-vision-ai-bae046b6</guid>
-      <description>Researchers demonstrate how reinforcement learning can teach multimodal AI systems to solve complex numerical problems through code generation.</description>
-      <pubDate>Mon, 22 Jun 2026 17:58:54 GMT</pubDate>
-      <category>AI Research</category>
-    </item>
-    <item>
-      <title>New Training Method Helps AI Models Handle Drastically Longer Text</title>
-      <link>https://aiglimpse.ai/articles/new-training-method-helps-ai-models-handle-drastically-longer-text-020712b6</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-training-method-helps-ai-models-handle-drastically-longer-text-020712b6</guid>
-      <description>Randomized YaRN technique enables language models to reason effectively across context windows 16 times larger than training data.</description>
-      <pubDate>Mon, 22 Jun 2026 17:59:53 GMT</pubDate>
       <category>AI Research</category>
     </item>
   </channel>
