@@ -3,7 +3,7 @@
 > Machine-readable index for AI assistants, answer engines, and research crawlers.
 > Summary version: https://aiglimpse.ai/llms.txt
 
-Total articles: 384 | Evergreen explainers: 8 | Generated: 2026-06-27
+Total articles: 386 | Evergreen explainers: 8 | Generated: 2026-06-27
 
 ## Evergreen explainers
 
@@ -64,6 +64,20 @@ Total articles: 384 | Evergreen explainers: 8 | Generated: 2026-06-27
 - Type: evergreen explainer (FAQ schema on page)
 
 ## All articles (newest first)
+
+### DeepSeek's DSpark Technique Cuts LLM Inference Time in Half
+- URL: https://aiglimpse.ai/articles/deepseeks-dspark-technique-cuts-llm-inference-time-in-half-d90e6401
+- Published: 2026-06-27
+- Category: llms
+- Summary: New speculative decoding method enables faster AI model responses by predicting multiple tokens simultaneously.
+- Source: https://github.com/deepseek-ai/DeepSpec/blob/main/DSpark_paper.pdf
+
+### Apple Vision Pro Leader Defects to OpenAI Hardware Division
+- URL: https://aiglimpse.ai/articles/apple-vision-pro-leader-defects-to-openai-hardware-division-c709d3d7
+- Published: 2026-06-27
+- Category: business
+- Summary: Executive departure signals intensifying competition between tech giants in AI-powered devices and spatial computing.
+- Source: https://techcrunch.com/2026/06/27/apple-vision-pro-exec-is-reportedly-leaving-for-openai/
 
 ### AI Model Generates Linguistically Consistent Constructed Languages
 - URL: https://aiglimpse.ai/articles/ai-model-generates-linguistically-consistent-constructed-languages-504e651e

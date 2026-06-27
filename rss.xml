@@ -7,6 +7,22 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>DeepSeek's DSpark Technique Cuts LLM Inference Time in Half</title>
+      <link>https://aiglimpse.ai/articles/deepseeks-dspark-technique-cuts-llm-inference-time-in-half-d90e6401</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/deepseeks-dspark-technique-cuts-llm-inference-time-in-half-d90e6401</guid>
+      <description>New speculative decoding method enables faster AI model responses by predicting multiple tokens simultaneously.</description>
+      <pubDate>Sat, 27 Jun 2026 09:18:52 GMT</pubDate>
+      <category>LLMs &amp; Chatbots</category>
+    </item>
+    <item>
+      <title>Apple Vision Pro Leader Defects to OpenAI Hardware Division</title>
+      <link>https://aiglimpse.ai/articles/apple-vision-pro-leader-defects-to-openai-hardware-division-c709d3d7</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/apple-vision-pro-leader-defects-to-openai-hardware-division-c709d3d7</guid>
+      <description>Executive departure signals intensifying competition between tech giants in AI-powered devices and spatial computing.</description>
+      <pubDate>Sat, 27 Jun 2026 16:45:09 GMT</pubDate>
+      <category>AI Business</category>
+    </item>
+    <item>
       <title>AI Model Generates Linguistically Consistent Constructed Languages</title>
       <link>https://aiglimpse.ai/articles/ai-model-generates-linguistically-consistent-constructed-languages-504e651e</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/ai-model-generates-linguistically-consistent-constructed-languages-504e651e</guid>
@@ -388,22 +404,6 @@
       <guid isPermaLink="true">https://aiglimpse.ai/articles/new-method-adapts-classical-stereo-vision-algorithms-to-360-degree-cameras-aa848ca5</guid>
       <description>Researchers show how to flatten spherical imagery for depth estimation, enabling real-time 3D perception in omnidirectional systems.</description>
       <pubDate>Tue, 23 Jun 2026 17:27:07 GMT</pubDate>
-      <category>AI Research</category>
-    </item>
-    <item>
-      <title>Researchers Challenge How We Measure AI Success in Speech Tech</title>
-      <link>https://aiglimpse.ai/articles/researchers-challenge-how-we-measure-ai-success-in-speech-tech-830d0a69</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/researchers-challenge-how-we-measure-ai-success-in-speech-tech-830d0a69</guid>
-      <description>New study exposes flaws in evaluating AI-enhanced communication devices for people with speech disabilities.</description>
-      <pubDate>Tue, 23 Jun 2026 17:34:18 GMT</pubDate>
-      <category>AI Research</category>
-    </item>
-    <item>
-      <title>Researchers Challenge ImageNet-Only Testing for AI Image Models</title>
-      <link>https://aiglimpse.ai/articles/researchers-challenge-imagenet-only-testing-for-ai-image-models-732f2067</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/researchers-challenge-imagenet-only-testing-for-ai-image-models-732f2067</guid>
-      <description>New benchmark reveals that methods improving class-conditional generation don't necessarily excel at text-to-image tasks, forcing a rethink of how diffusion transformers are evaluated.</description>
-      <pubDate>Tue, 23 Jun 2026 17:59:55 GMT</pubDate>
       <category>AI Research</category>
     </item>
   </channel>

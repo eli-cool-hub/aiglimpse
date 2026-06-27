@@ -20,6 +20,8 @@ All content is original reporting by the AI Glimpse newsroom. Primary sources ar
 
 ## Recent articles
 
+- [DeepSeek's DSpark Technique Cuts LLM Inference Time in Half](https://aiglimpse.ai/articles/deepseeks-dspark-technique-cuts-llm-inference-time-in-half-d90e6401) (2026-06-27): New speculative decoding method enables faster AI model responses by predicting multiple tokens simultaneously.
+- [Apple Vision Pro Leader Defects to OpenAI Hardware Division](https://aiglimpse.ai/articles/apple-vision-pro-leader-defects-to-openai-hardware-division-c709d3d7) (2026-06-27): Executive departure signals intensifying competition between tech giants in AI-powered devices and spatial computing.
 - [AI Model Generates Linguistically Consistent Constructed Languages](https://aiglimpse.ai/articles/ai-model-generates-linguistically-consistent-constructed-languages-504e651e) (2026-06-27): ConlangCrafter demonstrates that machine learning can create novel language systems with internal coherence, opening new pathways for NLP research.
 - [Founder Uses AI to Personalize Cancer Treatment Strategy](https://aiglimpse.ai/articles/founder-uses-ai-to-personalize-cancer-treatment-strategy-30cfd60a) (2026-06-27): A tech entrepreneur fed medical data into large language models to gain insights into his diagnosis, highlighting AI's emerging role in precision oncology.
 - [Apple's Price Hikes Reflect Broader AI Cost Crisis Across Tech](https://aiglimpse.ai/articles/apples-price-hikes-reflect-broader-ai-cost-crisis-across-tech-423c4068) (2026-06-27): As hardware makers absorb infrastructure expenses from AI development, consumers face steeper bills for devices and services across the industry.
@@ -48,8 +50,6 @@ All content is original reporting by the AI Glimpse newsroom. Primary sources ar
 - [Voice AI Systems Ignore Emotion Despite Detecting It](https://aiglimpse.ai/articles/voice-ai-systems-ignore-emotion-despite-detecting-it-4ecd93d8) (2026-06-24): New research reveals leading real-time voice assistants fail to act on vocal cues they can perceive, creating risks in high-stakes interactions.
 - [Hugging Face Streamlines LLM Deployment with One-Command vLLM Integration](https://aiglimpse.ai/articles/hugging-face-streamlines-llm-deployment-with-one-command-vllm-integration-63855b20) (2026-06-26): The platform now lets developers launch optimized language model servers instantly, lowering barriers to AI inference at scale.
 - [Novel Method Improves 3D Video Generation by Tracking Motion Cues](https://aiglimpse.ai/articles/novel-method-improves-3d-video-generation-by-tracking-motion-cues-13ff3503) (2026-06-24): Researchers develop geometric supervision technique that enhances consistency in AI-generated videos from single camera angles.
-- [Hybrid Models Show Promise at Predicting Specific Token Types](https://aiglimpse.ai/articles/hybrid-models-show-promise-at-predicting-specific-token-types-e713dbfb) (2026-06-25): New research reveals how combining multiple prediction strategies improves language model accuracy on specialized vocabulary.
-- [Self-Distillation Training Narrows AI Model Diversity, New Research Finds](https://aiglimpse.ai/articles/self-distillation-training-narrows-ai-model-diversity-new-research-finds-66c42912) (2026-06-24): A popular technique for improving language model accuracy may inadvertently reduce output variety and hurt performance on unfamiliar tasks.
 
 ## Explainers (evergreen)
 
@@ -66,7 +66,7 @@ All content is original reporting by the AI Glimpse newsroom. Primary sources ar
 
 - [Sitemap](https://aiglimpse.ai/sitemap.xml): All article URLs with publish dates (Google News format).
 - [RSS](https://aiglimpse.ai/rss.xml): 50 most recent articles (RSS 2.0).
-- [Full content index](https://aiglimpse.ai/llms-full.txt): Extended article list for LLM crawlers (384 articles).
+- [Full content index](https://aiglimpse.ai/llms-full.txt): Extended article list for LLM crawlers (386 articles).
 
 ## About
 

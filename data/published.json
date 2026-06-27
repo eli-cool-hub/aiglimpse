@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "deepseeks-dspark-technique-cuts-llm-inference-time-in-half-d90e6401",
+      "title": "DeepSeek's DSpark Technique Cuts LLM Inference Time in Half",
+      "subtitle": "New speculative decoding method enables faster AI model responses by predicting multiple tokens simultaneously.",
+      "category": "llms",
+      "publishedAt": "2026-06-27T09:18:52.000Z",
+      "sourceUrl": "https://github.com/deepseek-ai/DeepSpec/blob/main/DSpark_paper.pdf",
+      "sourceName": "Hacker News (641 pts)",
+      "sourceTier": 2,
+      "image": "/images/articles/deepseeks-dspark-technique-cuts-llm-inference-time-in-half-d90e6401.jpg"
+    },
+    {
+      "slug": "apple-vision-pro-leader-defects-to-openai-hardware-division-c709d3d7",
+      "title": "Apple Vision Pro Leader Defects to OpenAI Hardware Division",
+      "subtitle": "Executive departure signals intensifying competition between tech giants in AI-powered devices and spatial computing.",
+      "category": "business",
+      "publishedAt": "2026-06-27T16:45:09.000Z",
+      "sourceUrl": "https://techcrunch.com/2026/06/27/apple-vision-pro-exec-is-reportedly-leaving-for-openai/",
+      "sourceName": "TechCrunch AI",
+      "sourceTier": 2,
+      "image": "/images/articles/apple-vision-pro-leader-defects-to-openai-hardware-division-c709d3d7.jpg"
+    },
+    {
       "slug": "ai-model-generates-linguistically-consistent-constructed-languages-504e651e",
       "title": "AI Model Generates Linguistically Consistent Constructed Languages",
       "subtitle": "ConlangCrafter demonstrates that machine learning can create novel language systems with internal coherence, opening new pathways for NLP research.",
@@ -4617,6 +4639,8 @@
     "eeb1263af14cf9d5",
     "423c40687a9b4af4",
     "30cfd60ad8e27749",
-    "504e651ee1c3541b"
+    "504e651ee1c3541b",
+    "c709d3d73cea86a4",
+    "d90e6401ac8e0cf7"
   ]
 }
