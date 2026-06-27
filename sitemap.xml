@@ -16,6 +16,24 @@
   <url><loc>https://aiglimpse.ai/pages/privacy</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
   <url><loc>https://aiglimpse.ai/pages/terms</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
   <url>
+    <loc>https://aiglimpse.ai/articles/trump-administration-grants-100-us-firms-access-to-anthropics-mythos-5-ai-f7540be1</loc>
+    <news:news>
+      <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-06-27T01:01:37.000Z</news:publication_date>
+      <news:title>Trump Administration Grants 100+ US Firms Access to Anthropic's Mythos 5 AI</news:title>
+    </news:news>
+    <changefreq>daily</changefreq><priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://aiglimpse.ai/articles/open-source-ai-pipeline-maps-europes-hidden-political-networks-53a6851f</loc>
+    <news:news>
+      <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-06-25T17:51:59.000Z</news:publication_date>
+      <news:title>Open-Source AI Pipeline Maps Europe's Hidden Political Networks</news:title>
+    </news:news>
+    <changefreq>daily</changefreq><priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://aiglimpse.ai/articles/south-korea-eyes-ai-driven-drone-integration-across-military-331a0077</loc>
     <news:news>
       <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>

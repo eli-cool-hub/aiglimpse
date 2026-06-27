@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "trump-administration-grants-100-us-firms-access-to-anthropics-mythos-5-ai-f7540be1",
+      "title": "Trump Administration Grants 100+ US Firms Access to Anthropic's Mythos 5 AI",
+      "subtitle": "A major policy shift opens advanced language model capabilities to corporate and federal users, including international staff.",
+      "category": "business",
+      "publishedAt": "2026-06-27T01:01:37.000Z",
+      "sourceUrl": "https://techcrunch.com/2026/06/26/trump-admin-releases-anthropic-mythos-to-be-used-by-more-than-100-us-companies-agencies/",
+      "sourceName": "TechCrunch AI",
+      "sourceTier": 2,
+      "image": "/images/articles/trump-administration-grants-100-us-firms-access-to-anthropics-mythos-5-ai-f7540be1.jpg"
+    },
+    {
+      "slug": "open-source-ai-pipeline-maps-europes-hidden-political-networks-53a6851f",
+      "title": "Open-Source AI Pipeline Maps Europe's Hidden Political Networks",
+      "subtitle": "Researchers develop multilingual language model system to automatically extract political relationships from news archives at continental scale.",
+      "category": "research",
+      "publishedAt": "2026-06-25T17:51:59.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2606.27347v1",
+      "sourceName": "arXiv (Kirill Solovev, Jana Lasser)",
+      "sourceTier": 1,
+      "image": "/images/articles/open-source-ai-pipeline-maps-europes-hidden-political-networks-53a6851f.jpg"
+    },
+    {
       "slug": "south-korea-eyes-ai-driven-drone-integration-across-military-331a0077",
       "title": "South Korea Eyes AI-Driven Drone Integration Across Military",
       "subtitle": "Seoul plans universal drone training for 500,000 troops, reshaping defense strategy through autonomous systems and AI automation.",
@@ -4497,6 +4519,8 @@
     "8a333c4b8cfd62d8",
     "71a1d2b96073c6fb",
     "0ac7ead295a64040",
-    "331a007725180b88"
+    "331a007725180b88",
+    "53a6851f5beba03a",
+    "f7540be14b2dca9e"
   ]
 }
