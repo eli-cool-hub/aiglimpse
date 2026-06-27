@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "apples-price-hikes-reflect-broader-ai-cost-crisis-across-tech-423c4068",
+      "title": "Apple's Price Hikes Reflect Broader AI Cost Crisis Across Tech",
+      "subtitle": "As hardware makers absorb infrastructure expenses from AI development, consumers face steeper bills for devices and services across the industry.",
+      "category": "tools",
+      "publishedAt": "2026-06-27T13:30:00.000Z",
+      "sourceUrl": "https://www.theverge.com/report/958678/apple-consumer-price-increase-ai-big-tech",
+      "sourceName": "The Verge AI",
+      "sourceTier": 2,
+      "image": "/images/articles/apples-price-hikes-reflect-broader-ai-cost-crisis-across-tech-423c4068.jpg"
+    },
+    {
+      "slug": "new-framework-bridges-gap-between-video-tracking-and-precise-image-matting-eeb1263a",
+      "title": "New Framework Bridges Gap Between Video Tracking and Precise Image Matting",
+      "subtitle": "Researchers achieve state-of-the-art video matting results by decoupling tracking from fine-detail extraction, without requiring specialized video training data.",
+      "category": "research",
+      "publishedAt": "2026-06-25T17:48:27.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2606.27339v1",
+      "sourceName": "arXiv (Ruiqi Shen, Guangquan Jie, Chang Liu, Henghui Ding)",
+      "sourceTier": 1,
+      "image": "/images/articles/new-framework-bridges-gap-between-video-tracking-and-precise-image-matting-eeb1263a.jpg"
+    },
+    {
       "slug": "deepseek-releases-speed-boost-for-ai-model-inference-8be5ab4f",
       "title": "DeepSeek Releases Speed Boost for AI Model Inference",
       "subtitle": "Open-sourced optimization techniques could make running large language models significantly faster and cheaper for developers.",
@@ -4569,6 +4591,8 @@
     "12d2b722b9e8adde",
     "eb077bdca3909a99",
     "71c7d904aa225ae5",
-    "8be5ab4ff227d5df"
+    "8be5ab4ff227d5df",
+    "eeb1263af14cf9d5",
+    "423c40687a9b4af4"
   ]
 }

@@ -16,6 +16,24 @@
   <url><loc>https://aiglimpse.ai/pages/privacy</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
   <url><loc>https://aiglimpse.ai/pages/terms</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
   <url>
+    <loc>https://aiglimpse.ai/articles/apples-price-hikes-reflect-broader-ai-cost-crisis-across-tech-423c4068</loc>
+    <news:news>
+      <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-06-27T13:30:00.000Z</news:publication_date>
+      <news:title>Apple's Price Hikes Reflect Broader AI Cost Crisis Across Tech</news:title>
+    </news:news>
+    <changefreq>daily</changefreq><priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://aiglimpse.ai/articles/new-framework-bridges-gap-between-video-tracking-and-precise-image-matting-eeb1263a</loc>
+    <news:news>
+      <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-06-25T17:48:27.000Z</news:publication_date>
+      <news:title>New Framework Bridges Gap Between Video Tracking and Precise Image Matting</news:title>
+    </news:news>
+    <changefreq>daily</changefreq><priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://aiglimpse.ai/articles/deepseek-releases-speed-boost-for-ai-model-inference-8be5ab4f</loc>
     <news:news>
       <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
