@@ -7,6 +7,14 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Atwood Highlights Core AI Weakness: Unreliable Training Data</title>
+      <link>https://aiglimpse.ai/articles/atwood-highlights-core-ai-weakness-unreliable-training-data-0a0f41e6</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/atwood-highlights-core-ai-weakness-unreliable-training-data-0a0f41e6</guid>
+      <description>The acclaimed author criticizes large language models for confidently delivering false information, raising questions about AI reliability.</description>
+      <pubDate>Sat, 27 Jun 2026 18:39:32 GMT</pubDate>
+      <category>AI Tools &amp; Products</category>
+    </item>
+    <item>
       <title>Asian AI Labs Build Homegrown Alternatives as US Export Controls Reshape Market</title>
       <link>https://aiglimpse.ai/articles/asian-ai-labs-build-homegrown-alternatives-as-us-export-controls-reshape-market-aa530456</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/asian-ai-labs-build-homegrown-alternatives-as-us-export-controls-reshape-market-aa530456</guid>
@@ -396,14 +404,6 @@
       <guid isPermaLink="true">https://aiglimpse.ai/articles/robots-learn-new-skills-without-human-training-data-63f07529</guid>
       <description>Researchers develop a framework enabling robots to autonomously acquire manipulation abilities by decomposing tasks into learnable primitives.</description>
       <pubDate>Tue, 23 Jun 2026 17:59:01 GMT</pubDate>
-      <category>AI Research</category>
-    </item>
-    <item>
-      <title>Vector Databases for RAG: Pinecone, pgvector, Chroma, and How to Choose</title>
-      <link>https://aiglimpse.ai/articles/vector-databases-rag-guide-2026</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/vector-databases-rag-guide-2026</guid>
-      <description>A technical guide to selecting the right embeddings index for retrieval-augmented generation systems.</description>
-      <pubDate>Wed, 24 Jun 2026 08:55:34 GMT</pubDate>
       <category>AI Research</category>
     </item>
   </channel>

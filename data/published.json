@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "atwood-highlights-core-ai-weakness-unreliable-training-data-0a0f41e6",
+      "title": "Atwood Highlights Core AI Weakness: Unreliable Training Data",
+      "subtitle": "The acclaimed author criticizes large language models for confidently delivering false information, raising questions about AI reliability.",
+      "category": "tools",
+      "publishedAt": "2026-06-27T18:39:32.000Z",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/958715/margaret-atwood-ai-problem-garbage-in-garbage-out",
+      "sourceName": "The Verge AI",
+      "sourceTier": 2,
+      "image": "/images/articles/atwood-highlights-core-ai-weakness-unreliable-training-data-0a0f41e6.jpg"
+    },
+    {
       "slug": "asian-ai-labs-build-homegrown-alternatives-as-us-export-controls-reshape-market-aa530456",
       "title": "Asian AI Labs Build Homegrown Alternatives as US Export Controls Reshape Market",
       "subtitle": "A wave of new language models from Asia threatens to upend American AI dominance as regulatory barriers push development offshore.",
@@ -4653,6 +4664,7 @@
     "504e651ee1c3541b",
     "c709d3d73cea86a4",
     "d90e6401ac8e0cf7",
-    "aa5304565a4e8c73"
+    "aa5304565a4e8c73",
+    "0a0f41e67534daf5"
   ]
 }
