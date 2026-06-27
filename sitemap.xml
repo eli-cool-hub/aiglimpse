@@ -16,6 +16,24 @@
   <url><loc>https://aiglimpse.ai/pages/privacy</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
   <url><loc>https://aiglimpse.ai/pages/terms</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
   <url>
+    <loc>https://aiglimpse.ai/articles/anthropic-secures-limited-access-for-mythos-5-after-trump-admin-talks-eb077bdc</loc>
+    <news:news>
+      <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-06-27T00:33:44.000Z</news:publication_date>
+      <news:title>Anthropic Secures Limited Access for Mythos 5 After Trump Admin Talks</news:title>
+    </news:news>
+    <changefreq>daily</changefreq><priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://aiglimpse.ai/articles/new-technique-gives-ai-video-models-deeper-3d-scene-understanding-12d2b722</loc>
+    <news:news>
+      <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-06-25T17:51:02.000Z</news:publication_date>
+      <news:title>New Technique Gives AI Video Models Deeper 3D Scene Understanding</news:title>
+    </news:news>
+    <changefreq>daily</changefreq><priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://aiglimpse.ai/articles/trump-administration-grants-100-us-firms-access-to-anthropics-mythos-5-ai-f7540be1</loc>
     <news:news>
       <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>

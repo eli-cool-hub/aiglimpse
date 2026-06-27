@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "anthropic-secures-limited-access-for-mythos-5-after-trump-admin-talks-eb077bdc",
+      "title": "Anthropic Secures Limited Access for Mythos 5 After Trump Admin Talks",
+      "subtitle": "The AI firm wins government approval for its advanced model with select partners, though broader public deployment remains uncertain.",
+      "category": "tools",
+      "publishedAt": "2026-06-27T00:33:44.000Z",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/958458/anthropic-mythos-5-is-back-trump-negotiations",
+      "sourceName": "The Verge AI",
+      "sourceTier": 2,
+      "image": "/images/articles/anthropic-secures-limited-access-for-mythos-5-after-trump-admin-talks-eb077bdc.jpg"
+    },
+    {
+      "slug": "new-technique-gives-ai-video-models-deeper-3d-scene-understanding-12d2b722",
+      "title": "New Technique Gives AI Video Models Deeper 3D Scene Understanding",
+      "subtitle": "Researchers introduce geometric encoding method that improves consistency and camera control in AI-generated video sequences.",
+      "category": "research",
+      "publishedAt": "2026-06-25T17:51:02.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2606.27345v1",
+      "sourceName": "arXiv (Minghao Yin, Jiahao Lu, Wenbo Hu, Wang Zhao, Shan Ying, Kai …)",
+      "sourceTier": 1,
+      "image": "/images/articles/new-technique-gives-ai-video-models-deeper-3d-scene-understanding-12d2b722.jpg"
+    },
+    {
       "slug": "trump-administration-grants-100-us-firms-access-to-anthropics-mythos-5-ai-f7540be1",
       "title": "Trump Administration Grants 100+ US Firms Access to Anthropic's Mythos 5 AI",
       "subtitle": "A major policy shift opens advanced language model capabilities to corporate and federal users, including international staff.",
@@ -4521,6 +4543,8 @@
     "0ac7ead295a64040",
     "331a007725180b88",
     "53a6851f5beba03a",
-    "f7540be14b2dca9e"
+    "f7540be14b2dca9e",
+    "12d2b722b9e8adde",
+    "eb077bdca3909a99"
   ]
 }
