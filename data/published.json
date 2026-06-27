@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "new-mac-tool-lets-ai-agents-keep-laptops-awake-without-draining-batteries-99145f5e",
+      "title": "New Mac Tool Lets AI Agents Keep Laptops Awake Without Draining Batteries",
+      "subtitle": "Adrafinil intelligently prevents sleep only during agent execution, solving a workflow problem that has developers awkwardly propping open their MacBooks.",
+      "category": "tools",
+      "publishedAt": "2026-06-27T20:34:53.000Z",
+      "sourceUrl": "https://github.com/kageroumado/adrafinil",
+      "sourceName": "Hacker News (53 pts)",
+      "sourceTier": 2,
+      "image": "/images/articles/new-mac-tool-lets-ai-agents-keep-laptops-awake-without-draining-batteries-99145f5e.jpg"
+    },
+    {
+      "slug": "industry-skepticism-grows-over-space-based-ai-infrastructure-plans-c9a209d4",
+      "title": "Industry Skepticism Grows Over Space-Based AI Infrastructure Plans",
+      "subtitle": "Major tech leaders question the viability of deploying computational resources in orbit, raising questions about AI infrastructure strategy.",
+      "category": "business",
+      "publishedAt": "2026-06-27T20:42:36.000Z",
+      "sourceUrl": "https://techcrunch.com/2026/06/27/softbanks-ceo-isnt-the-only-one-with-questions-about-elon-musks-orbital-data-center-hype/",
+      "sourceName": "TechCrunch AI",
+      "sourceTier": 2,
+      "image": "/images/articles/industry-skepticism-grows-over-space-based-ai-infrastructure-plans-c9a209d4.jpg"
+    },
+    {
       "slug": "atwood-highlights-core-ai-weakness-unreliable-training-data-0a0f41e6",
       "title": "Atwood Highlights Core AI Weakness: Unreliable Training Data",
       "subtitle": "The acclaimed author criticizes large language models for confidently delivering false information, raising questions about AI reliability.",
@@ -4665,6 +4687,8 @@
     "c709d3d73cea86a4",
     "d90e6401ac8e0cf7",
     "aa5304565a4e8c73",
-    "0a0f41e67534daf5"
+    "0a0f41e67534daf5",
+    "c9a209d41a1dd9f6",
+    "99145f5e87b5ddb9"
   ]
 }
