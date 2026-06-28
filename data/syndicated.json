@@ -5132,6 +5132,24 @@
         "devto": true,
         "hashnode": false
       }
+    },
+    "developer-tests-claude-ai-for-medical-image-analysis-5e6e0777": {
+      "syndicated_at": "2026-06-28T19:24:15.210Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/developer-tests-claude-ai-for-medical-image-analysis-4jdi",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 442,
+      "category": "tools",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
     }
   }
 }

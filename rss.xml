@@ -7,6 +7,22 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Developer Tests Claude AI for Medical Image Analysis</title>
+      <link>https://aiglimpse.ai/articles/developer-tests-claude-ai-for-medical-image-analysis-5e6e0777</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/developer-tests-claude-ai-for-medical-image-analysis-5e6e0777</guid>
+      <description>A programmer explored whether large language models with code execution can provide meaningful second opinions on medical imaging, raising questions about AI's emerging diagnostic potential.</description>
+      <pubDate>Sun, 28 Jun 2026 16:35:19 GMT</pubDate>
+      <category>AI Tools &amp; Products</category>
+    </item>
+    <item>
+      <title>Ford Brings Back Veteran Engineers as AI Automation Proves Inadequate</title>
+      <link>https://aiglimpse.ai/articles/ford-brings-back-veteran-engineers-as-ai-automation-proves-inadequate-63e94e8f</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/ford-brings-back-veteran-engineers-as-ai-automation-proves-inadequate-63e94e8f</guid>
+      <description>The automaker's bet on AI-driven design and manufacturing fell short, forcing a strategic retreat to experienced human talent.</description>
+      <pubDate>Sun, 28 Jun 2026 19:05:39 GMT</pubDate>
+      <category>AI Business</category>
+    </item>
+    <item>
       <title>Google Restricts Meta's Access to Gemini AI Technology</title>
       <link>https://aiglimpse.ai/articles/google-restricts-metas-access-to-gemini-ai-technology-418b592d</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/google-restricts-metas-access-to-gemini-ai-technology-418b592d</guid>
@@ -388,22 +404,6 @@
       <guid isPermaLink="true">https://aiglimpse.ai/articles/ai-system-enables-interactive-camera-control-in-virtual-try-on-videos-f34ebb21</guid>
       <description>New framework lets users explore garments from any angle, advancing e-commerce and fashion technology.</description>
       <pubDate>Wed, 24 Jun 2026 17:59:06 GMT</pubDate>
-      <category>AI Research</category>
-    </item>
-    <item>
-      <title>OpenAI Research Shows AI Agents Handling Complex, Extended Tasks</title>
-      <link>https://aiglimpse.ai/articles/openai-research-shows-ai-agents-handling-complex-extended-tasks-46563fb6</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/openai-research-shows-ai-agents-handling-complex-extended-tasks-46563fb6</guid>
-      <description>New findings demonstrate autonomous AI systems are expanding workplace productivity and tackling increasingly sophisticated workflows.</description>
-      <pubDate>Thu, 25 Jun 2026 02:00:00 GMT</pubDate>
-      <category>LLMs &amp; Chatbots</category>
-    </item>
-    <item>
-      <title>Researchers Develop Method to Reverse-Engineer AI Agent Strategies</title>
-      <link>https://aiglimpse.ai/articles/researchers-develop-method-to-reverse-engineer-ai-agent-strategies-3db478df</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/researchers-develop-method-to-reverse-engineer-ai-agent-strategies-3db478df</guid>
-      <description>New benchmark reveals how well LLMs can reconstruct hidden decision-making policies through behavioral observation and controlled experiments.</description>
-      <pubDate>Wed, 24 Jun 2026 17:59:46 GMT</pubDate>
       <category>AI Research</category>
     </item>
   </channel>

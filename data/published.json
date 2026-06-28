@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "developer-tests-claude-ai-for-medical-image-analysis-5e6e0777",
+      "title": "Developer Tests Claude AI for Medical Image Analysis",
+      "subtitle": "A programmer explored whether large language models with code execution can provide meaningful second opinions on medical imaging, raising questions about AI's emerging diagnostic potential.",
+      "category": "tools",
+      "publishedAt": "2026-06-28T16:35:19.000Z",
+      "sourceUrl": "https://antoine.fi/mri-analysis-using-claude-code-opus",
+      "sourceName": "Hacker News (135 pts)",
+      "sourceTier": 2,
+      "image": "/images/articles/developer-tests-claude-ai-for-medical-image-analysis-5e6e0777.jpg"
+    },
+    {
+      "slug": "ford-brings-back-veteran-engineers-as-ai-automation-proves-inadequate-63e94e8f",
+      "title": "Ford Brings Back Veteran Engineers as AI Automation Proves Inadequate",
+      "subtitle": "The automaker's bet on AI-driven design and manufacturing fell short, forcing a strategic retreat to experienced human talent.",
+      "category": "business",
+      "publishedAt": "2026-06-28T19:05:39.000Z",
+      "sourceUrl": "https://techcrunch.com/2026/06/28/ford-rehires-gray-beard-engineers-after-ai-falls-short/",
+      "sourceName": "TechCrunch AI",
+      "sourceTier": 2,
+      "image": "/images/articles/ford-brings-back-veteran-engineers-as-ai-automation-proves-inadequate-63e94e8f.jpg"
+    },
+    {
       "slug": "google-restricts-metas-access-to-gemini-ai-technology-418b592d",
       "title": "Google Restricts Meta's Access to Gemini AI Technology",
       "subtitle": "The search giant imposes new limitations on the social media company's use of its advanced language models, signaling rising tensions in AI partnerships.",
@@ -4821,6 +4843,8 @@
     "7b569ab783732af7",
     "7afe43885cf7f223",
     "137ef4d35b186080",
-    "418b592d8d949fac"
+    "418b592d8d949fac",
+    "63e94e8f0afa5e00",
+    "5e6e07771c18d0b1"
   ]
 }
