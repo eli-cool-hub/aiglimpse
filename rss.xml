@@ -7,6 +7,22 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>AI Regulation Risk: Gatekeeping Over Safety, Experts Warn</title>
+      <link>https://aiglimpse.ai/articles/ai-regulation-risk-gatekeeping-over-safety-experts-warn-680bb2f2</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/ai-regulation-risk-gatekeeping-over-safety-experts-warn-680bb2f2</guid>
+      <description>Policy frameworks designed to manage AI capabilities could entrench incumbent power rather than protect public interests.</description>
+      <pubDate>Sun, 28 Jun 2026 00:00:00 GMT</pubDate>
+      <category>Ethics &amp; Policy</category>
+    </item>
+    <item>
+      <title>New Tool Lets Developers Keep Macs Awake During AI Agent Tasks</title>
+      <link>https://aiglimpse.ai/articles/new-tool-lets-developers-keep-macs-awake-during-ai-agent-tasks-ceccb80f</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-tool-lets-developers-keep-macs-awake-during-ai-agent-tasks-ceccb80f</guid>
+      <description>Adrafinil intelligently manages power settings for autonomous coding workflows, addressing a growing infrastructure gap in long-running AI agent development.</description>
+      <pubDate>Sun, 28 Jun 2026 00:00:00 GMT</pubDate>
+      <category>LLMs &amp; Chatbots</category>
+    </item>
+    <item>
       <title>New Mac Tool Lets AI Agents Keep Laptops Awake Without Draining Batteries</title>
       <link>https://aiglimpse.ai/articles/new-mac-tool-lets-ai-agents-keep-laptops-awake-without-draining-batteries-99145f5e</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/new-mac-tool-lets-ai-agents-keep-laptops-awake-without-draining-batteries-99145f5e</guid>
@@ -389,22 +405,6 @@
       <description>The fast, efficient AI model can now interact with computer interfaces, expanding automation possibilities for enterprise and consumer applications.</description>
       <pubDate>Wed, 24 Jun 2026 16:30:01 GMT</pubDate>
       <category>AI Research</category>
-    </item>
-    <item>
-      <title>Healthcare CIOs Push Back Against AI Leadership Sidelines</title>
-      <link>https://aiglimpse.ai/articles/healthcare-cios-push-back-against-ai-leadership-sidelines-5fe5d283</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/healthcare-cios-push-back-against-ai-leadership-sidelines-5fe5d283</guid>
-      <description>As hospitals create dedicated AI executive roles, tech leaders warn that isolating AI strategy from IT leadership misreads structural constraints as capability gaps.</description>
-      <pubDate>Wed, 24 Jun 2026 14:25:19 GMT</pubDate>
-      <category>Industry Applications</category>
-    </item>
-    <item>
-      <title>OpenAI and Broadcom Debut Custom Chip for Language Model Inference</title>
-      <link>https://aiglimpse.ai/articles/openai-and-broadcom-debut-custom-chip-for-language-model-inference-a646266f</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/openai-and-broadcom-debut-custom-chip-for-language-model-inference-a646266f</guid>
-      <description>The new Jalapeno processor aims to cut costs and boost speed for running large AI models in production environments.</description>
-      <pubDate>Wed, 24 Jun 2026 06:00:00 GMT</pubDate>
-      <category>LLMs &amp; Chatbots</category>
     </item>
   </channel>
 </rss>

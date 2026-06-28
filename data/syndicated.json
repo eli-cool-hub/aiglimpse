@@ -4988,6 +4988,24 @@
         "devto": true,
         "hashnode": false
       }
+    },
+    "new-tool-lets-developers-keep-macs-awake-during-ai-agent-tasks-ceccb80f": {
+      "syndicated_at": "2026-06-28T04:03:10.842Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/new-tool-lets-developers-keep-macs-awake-during-ai-agent-tasks-1agb",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 458,
+      "category": "llms",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
     }
   }
 }

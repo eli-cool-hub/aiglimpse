@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "ai-regulation-risk-gatekeeping-over-safety-experts-warn-680bb2f2",
+      "title": "AI Regulation Risk: Gatekeeping Over Safety, Experts Warn",
+      "subtitle": "Policy frameworks designed to manage AI capabilities could entrench incumbent power rather than protect public interests.",
+      "category": "ethics",
+      "publishedAt": "2026-06-28T00:00:00.000Z",
+      "sourceUrl": "https://news.ycombinator.com/item?id=48701615",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/ai-regulation-risk-gatekeeping-over-safety-experts-warn-680bb2f2.jpg"
+    },
+    {
+      "slug": "new-tool-lets-developers-keep-macs-awake-during-ai-agent-tasks-ceccb80f",
+      "title": "New Tool Lets Developers Keep Macs Awake During AI Agent Tasks",
+      "subtitle": "Adrafinil intelligently manages power settings for autonomous coding workflows, addressing a growing infrastructure gap in long-running AI agent development.",
+      "category": "llms",
+      "publishedAt": "2026-06-28T00:00:00.000Z",
+      "sourceUrl": "https://github.com/kageroumado/adrafinil",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/new-tool-lets-developers-keep-macs-awake-during-ai-agent-tasks-ceccb80f.jpg"
+    },
+    {
       "slug": "new-mac-tool-lets-ai-agents-keep-laptops-awake-without-draining-batteries-99145f5e",
       "title": "New Mac Tool Lets AI Agents Keep Laptops Awake Without Draining Batteries",
       "subtitle": "Adrafinil intelligently prevents sleep only during agent execution, solving a workflow problem that has developers awkwardly propping open their MacBooks.",
@@ -4689,6 +4711,8 @@
     "aa5304565a4e8c73",
     "0a0f41e67534daf5",
     "c9a209d41a1dd9f6",
-    "99145f5e87b5ddb9"
+    "99145f5e87b5ddb9",
+    "ceccb80fe9c637db",
+    "680bb2f28ef2c6dd"
   ]
 }

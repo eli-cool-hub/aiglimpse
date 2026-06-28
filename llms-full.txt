@@ -3,7 +3,7 @@
 > Machine-readable index for AI assistants, answer engines, and research crawlers.
 > Summary version: https://aiglimpse.ai/llms.txt
 
-Total articles: 390 | Evergreen explainers: 8 | Generated: 2026-06-27
+Total articles: 392 | Evergreen explainers: 8 | Generated: 2026-06-28
 
 ## Evergreen explainers
 
@@ -64,6 +64,20 @@ Total articles: 390 | Evergreen explainers: 8 | Generated: 2026-06-27
 - Type: evergreen explainer (FAQ schema on page)
 
 ## All articles (newest first)
+
+### AI Regulation Risk: Gatekeeping Over Safety, Experts Warn
+- URL: https://aiglimpse.ai/articles/ai-regulation-risk-gatekeeping-over-safety-experts-warn-680bb2f2
+- Published: 2026-06-28
+- Category: ethics
+- Summary: Policy frameworks designed to manage AI capabilities could entrench incumbent power rather than protect public interests.
+- Source: https://news.ycombinator.com/item?id=48701615
+
+### New Tool Lets Developers Keep Macs Awake During AI Agent Tasks
+- URL: https://aiglimpse.ai/articles/new-tool-lets-developers-keep-macs-awake-during-ai-agent-tasks-ceccb80f
+- Published: 2026-06-28
+- Category: llms
+- Summary: Adrafinil intelligently manages power settings for autonomous coding workflows, addressing a growing infrastructure gap in long-running AI agent development.
+- Source: https://github.com/kageroumado/adrafinil
 
 ### New Mac Tool Lets AI Agents Keep Laptops Awake Without Draining Batteries
 - URL: https://aiglimpse.ai/articles/new-mac-tool-lets-ai-agents-keep-laptops-awake-without-draining-batteries-99145f5e
