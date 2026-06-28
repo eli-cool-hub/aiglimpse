@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "white-house-clears-anthropic-to-deploy-advanced-ai-model-to-us-firms-f374b655",
+      "title": "White House Clears Anthropic to Deploy Advanced AI Model to US Firms",
+      "subtitle": "Following high-level talks, the administration authorizes limited access to Mythos, marking a shift in AI export policy.",
+      "category": "tools",
+      "publishedAt": "2026-06-27T00:26:14.000Z",
+      "sourceUrl": "https://www.wired.com/story/anthropic-restores-access-to-mythos/",
+      "sourceName": "Wired AI",
+      "sourceTier": 2,
+      "image": "/images/articles/white-house-clears-anthropic-to-deploy-advanced-ai-model-to-us-firms-f374b655.jpg"
+    },
+    {
+      "slug": "open-source-tool-intelligently-routes-queries-between-local-and-cloud-llms-1565f9a4",
+      "title": "Open-Source Tool Intelligently Routes Queries Between Local and Cloud LLMs",
+      "subtitle": "Wayfinder Router tackles a key infrastructure challenge: deciding whether to process AI queries locally or send them to hosted services.",
+      "category": "tools",
+      "publishedAt": "2026-06-28T04:31:18.000Z",
+      "sourceUrl": "https://github.com/itsthelore/wayfinder-router",
+      "sourceName": "Hacker News (60 pts)",
+      "sourceTier": 2,
+      "image": "/images/articles/open-source-tool-intelligently-routes-queries-between-local-and-cloud-llms-1565f9a4.jpg"
+    },
+    {
       "slug": "ai-transcription-pricing-comparison-2026",
       "title": "AI Transcription Pricing 2026: Whisper vs Deepgram vs AssemblyAI",
       "subtitle": "Compare per-minute rates, free tiers, and accuracy across the top speech-to-text APIs.",
@@ -4725,6 +4747,8 @@
     "c9a209d41a1dd9f6",
     "99145f5e87b5ddb9",
     "ceccb80fe9c637db",
-    "680bb2f28ef2c6dd"
+    "680bb2f28ef2c6dd",
+    "1565f9a4b48898f5",
+    "f374b655b0471e18"
   ]
 }

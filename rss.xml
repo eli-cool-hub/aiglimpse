@@ -7,6 +7,30 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>White House Clears Anthropic to Deploy Advanced AI Model to US Firms</title>
+      <link>https://aiglimpse.ai/articles/white-house-clears-anthropic-to-deploy-advanced-ai-model-to-us-firms-f374b655</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/white-house-clears-anthropic-to-deploy-advanced-ai-model-to-us-firms-f374b655</guid>
+      <description>Following high-level talks, the administration authorizes limited access to Mythos, marking a shift in AI export policy.</description>
+      <pubDate>Sat, 27 Jun 2026 00:26:14 GMT</pubDate>
+      <category>AI Tools &amp; Products</category>
+    </item>
+    <item>
+      <title>Open-Source Tool Intelligently Routes Queries Between Local and Cloud LLMs</title>
+      <link>https://aiglimpse.ai/articles/open-source-tool-intelligently-routes-queries-between-local-and-cloud-llms-1565f9a4</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/open-source-tool-intelligently-routes-queries-between-local-and-cloud-llms-1565f9a4</guid>
+      <description>Wayfinder Router tackles a key infrastructure challenge: deciding whether to process AI queries locally or send them to hosted services.</description>
+      <pubDate>Sun, 28 Jun 2026 04:31:18 GMT</pubDate>
+      <category>AI Tools &amp; Products</category>
+    </item>
+    <item>
+      <title>AI Transcription Pricing 2026: Whisper vs Deepgram vs AssemblyAI</title>
+      <link>https://aiglimpse.ai/articles/ai-transcription-pricing-comparison-2026</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/ai-transcription-pricing-comparison-2026</guid>
+      <description>Compare per-minute rates, free tiers, and accuracy across the top speech-to-text APIs.</description>
+      <pubDate>Sun, 28 Jun 2026 08:38:54 GMT</pubDate>
+      <category>AI Tools &amp; Products</category>
+    </item>
+    <item>
       <title>AI Regulation Risk: Gatekeeping Over Safety, Experts Warn</title>
       <link>https://aiglimpse.ai/articles/ai-regulation-risk-gatekeeping-over-safety-experts-warn-680bb2f2</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/ai-regulation-risk-gatekeeping-over-safety-experts-warn-680bb2f2</guid>
@@ -381,30 +405,6 @@
       <description>Researchers on both sides of the AI competition share deep concerns about catastrophic risks amid accelerating development cycles.</description>
       <pubDate>Wed, 24 Jun 2026 18:45:00 GMT</pubDate>
       <category>AI Tools &amp; Products</category>
-    </item>
-    <item>
-      <title>New Benchmark Brings Real-World Rigor to Speech Recognition AI</title>
-      <link>https://aiglimpse.ai/articles/new-benchmark-brings-real-world-rigor-to-speech-recognition-ai-3d6bce02</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-benchmark-brings-real-world-rigor-to-speech-recognition-ai-3d6bce02</guid>
-      <description>A comprehensive leaderboard measures how well automatic speech recognition systems perform outside the lab, reshaping how the field evaluates progress.</description>
-      <pubDate>Wed, 24 Jun 2026 00:00:00 GMT</pubDate>
-      <category>AI Tools &amp; Products</category>
-    </item>
-    <item>
-      <title>NVIDIA NeMo AutoModel Cuts LLM Fine-Tuning Time by Half</title>
-      <link>https://aiglimpse.ai/articles/nvidia-nemo-automodel-cuts-llm-fine-tuning-time-by-half-6faaebb3</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/nvidia-nemo-automodel-cuts-llm-fine-tuning-time-by-half-6faaebb3</guid>
-      <description>New framework automates optimization steps, letting enterprises train large language models faster without manual tuning.</description>
-      <pubDate>Wed, 24 Jun 2026 16:00:13 GMT</pubDate>
-      <category>AI Tools &amp; Products</category>
-    </item>
-    <item>
-      <title>Google Extends Computer Control to Gemini 3.5 Flash Model</title>
-      <link>https://aiglimpse.ai/articles/google-extends-computer-control-to-gemini-35-flash-model-0abf652d</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/google-extends-computer-control-to-gemini-35-flash-model-0abf652d</guid>
-      <description>The fast, efficient AI model can now interact with computer interfaces, expanding automation possibilities for enterprise and consumer applications.</description>
-      <pubDate>Wed, 24 Jun 2026 16:30:01 GMT</pubDate>
-      <category>AI Research</category>
     </item>
   </channel>
 </rss>

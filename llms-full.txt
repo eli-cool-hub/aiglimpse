@@ -3,9 +3,16 @@
 > Machine-readable index for AI assistants, answer engines, and research crawlers.
 > Summary version: https://aiglimpse.ai/llms.txt
 
-Total articles: 392 | Evergreen explainers: 8 | Generated: 2026-06-28
+Total articles: 395 | Evergreen explainers: 9 | Generated: 2026-06-28
 
 ## Evergreen explainers
+
+### AI Transcription Pricing 2026: Whisper vs Deepgram vs AssemblyAI
+- URL: https://aiglimpse.ai/articles/ai-transcription-pricing-comparison-2026
+- Published: 2026-06-28
+- Category: tools
+- Summary: Compare per-minute rates, free tiers, and accuracy across the top speech-to-text APIs.
+- Type: evergreen explainer (FAQ schema on page)
 
 ### Vector Databases for RAG: Pinecone, pgvector, Chroma, and How to Choose
 - URL: https://aiglimpse.ai/articles/vector-databases-rag-guide-2026
@@ -64,6 +71,27 @@ Total articles: 392 | Evergreen explainers: 8 | Generated: 2026-06-28
 - Type: evergreen explainer (FAQ schema on page)
 
 ## All articles (newest first)
+
+### White House Clears Anthropic to Deploy Advanced AI Model to US Firms
+- URL: https://aiglimpse.ai/articles/white-house-clears-anthropic-to-deploy-advanced-ai-model-to-us-firms-f374b655
+- Published: 2026-06-27
+- Category: tools
+- Summary: Following high-level talks, the administration authorizes limited access to Mythos, marking a shift in AI export policy.
+- Source: https://www.wired.com/story/anthropic-restores-access-to-mythos/
+
+### Open-Source Tool Intelligently Routes Queries Between Local and Cloud LLMs
+- URL: https://aiglimpse.ai/articles/open-source-tool-intelligently-routes-queries-between-local-and-cloud-llms-1565f9a4
+- Published: 2026-06-28
+- Category: tools
+- Summary: Wayfinder Router tackles a key infrastructure challenge: deciding whether to process AI queries locally or send them to hosted services.
+- Source: https://github.com/itsthelore/wayfinder-router
+
+### AI Transcription Pricing 2026: Whisper vs Deepgram vs AssemblyAI
+- URL: https://aiglimpse.ai/articles/ai-transcription-pricing-comparison-2026
+- Published: 2026-06-28
+- Category: tools
+- Summary: Compare per-minute rates, free tiers, and accuracy across the top speech-to-text APIs.
+- Type: evergreen explainer (FAQ schema on page)
 
 ### AI Regulation Risk: Gatekeeping Over Safety, Experts Warn
 - URL: https://aiglimpse.ai/articles/ai-regulation-risk-gatekeeping-over-safety-experts-warn-680bb2f2
