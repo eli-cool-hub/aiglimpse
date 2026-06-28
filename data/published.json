@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "austria-pushes-eu-to-attract-anthropic-amid-us-ai-export-restrictions-7afe4388",
+      "title": "Austria Pushes EU to Attract Anthropic Amid US AI Export Restrictions",
+      "subtitle": "European governments are competing to host advanced AI companies as Washington tightens controls on frontier model deployment.",
+      "category": "tools",
+      "publishedAt": "2026-06-28T13:34:14.000Z",
+      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-06-28/austria-lobbies-eu-to-host-anthropic-after-us-access-curbs",
+      "sourceName": "Hacker News (53 pts)",
+      "sourceTier": 2,
+      "image": "/images/articles/austria-pushes-eu-to-attract-anthropic-amid-us-ai-export-restrictions-7afe4388.jpg"
+    },
+    {
+      "slug": "chatgpt-conversations-become-trial-evidence-in-major-arson-case-7b569ab7",
+      "title": "ChatGPT Conversations Become Trial Evidence in Major Arson Case",
+      "subtitle": "Prosecutors leveraged AI chatbot logs to build criminal case, raising questions about LLM data use in legal proceedings.",
+      "category": "tools",
+      "publishedAt": "2026-06-28T14:12:06.000Z",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/958751/prosecutors-chatgpt-palisades-wildfire-arson-mistrial",
+      "sourceName": "The Verge AI",
+      "sourceTier": 2,
+      "image": "/images/articles/chatgpt-conversations-become-trial-evidence-in-major-arson-case-7b569ab7.jpg"
+    },
+    {
       "slug": "hong-kong-becomes-gateway-for-chinese-ai-ipos-as-tech-boom-drives-capital-surge-38e49797",
       "title": "Hong Kong Becomes Gateway for Chinese AI IPOs as Tech Boom Drives Capital Surge",
       "subtitle": "Chinese artificial intelligence startups are flooding Hong Kong's public markets, but investor scrutiny intensifies as the sector braces for earnings reality checks.",
@@ -4773,6 +4795,8 @@
     "1565f9a4b48898f5",
     "f374b655b0471e18",
     "342d829ca5e43ce1",
-    "38e49797ce013cb5"
+    "38e49797ce013cb5",
+    "7b569ab783732af7",
+    "7afe43885cf7f223"
   ]
 }
