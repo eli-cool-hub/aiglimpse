@@ -5006,6 +5006,24 @@
         "devto": true,
         "hashnode": false
       }
+    },
+    "ai-transcription-pricing-comparison-2026": {
+      "syndicated_at": "2026-06-28T08:38:56.473Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/ai-transcription-pricing-2026-whisper-vs-deepgram-vs-assemblyai-2eec",
+      "hashnode": null,
+      "gates": {
+        "medium": true,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 2253,
+      "category": "tools",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
     }
   }
 }
