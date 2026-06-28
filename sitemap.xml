@@ -16,6 +16,15 @@
   <url><loc>https://aiglimpse.ai/pages/privacy</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
   <url><loc>https://aiglimpse.ai/pages/terms</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
   <url>
+    <loc>https://aiglimpse.ai/articles/hong-kong-becomes-gateway-for-chinese-ai-ipos-as-tech-boom-drives-capital-surge-38e49797</loc>
+    <news:news>
+      <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-06-28T00:00:00.000Z</news:publication_date>
+      <news:title>Hong Kong Becomes Gateway for Chinese AI IPOs as Tech Boom Drives Capital Surge</news:title>
+    </news:news>
+    <changefreq>daily</changefreq><priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://aiglimpse.ai/articles/resellers-exploit-anthropics-geographic-restrictions-for-claude-api-342d829c</loc>
     <news:news>
       <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>

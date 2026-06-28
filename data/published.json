@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "hong-kong-becomes-gateway-for-chinese-ai-ipos-as-tech-boom-drives-capital-surge-38e49797",
+      "title": "Hong Kong Becomes Gateway for Chinese AI IPOs as Tech Boom Drives Capital Surge",
+      "subtitle": "Chinese artificial intelligence startups are flooding Hong Kong's public markets, but investor scrutiny intensifies as the sector braces for earnings reality checks.",
+      "category": "business",
+      "publishedAt": "2026-06-28T00:00:00.000Z",
+      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-06-28/ai-fever-powers-hk-share-sales-through-hurdles-to-five-year-high",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/hong-kong-becomes-gateway-for-chinese-ai-ipos-as-tech-boom-drives-capital-surge-38e49797.jpg"
+    },
+    {
       "slug": "resellers-exploit-anthropics-geographic-restrictions-for-claude-api-342d829c",
       "title": "Resellers Exploit Anthropic's Geographic Restrictions for Claude API",
       "subtitle": "A thriving underground market for discounted Claude tokens reveals security risks that may outweigh financial savings for developers.",
@@ -4761,6 +4772,7 @@
     "680bb2f28ef2c6dd",
     "1565f9a4b48898f5",
     "f374b655b0471e18",
-    "342d829ca5e43ce1"
+    "342d829ca5e43ce1",
+    "38e49797ce013cb5"
   ]
 }
