@@ -5186,6 +5186,42 @@
         "devto": true,
         "hashnode": false
       }
+    },
+    "chinese-ai-model-closes-gap-with-us-leaders-on-security-tasks-77573592": {
+      "syndicated_at": "2026-06-28T23:05:04.314Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/chinese-ai-model-closes-gap-with-us-leaders-on-security-tasks-5d6c",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 481,
+      "category": "tools",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
+    },
+    "new-router-cuts-llm-routing-latency-to-microseconds-without-api-calls-619ef334": {
+      "syndicated_at": "2026-06-28T23:05:15.850Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/new-router-cuts-llm-routing-latency-to-microseconds-without-api-calls-3omm",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 475,
+      "category": "llms",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
     }
   }
 }

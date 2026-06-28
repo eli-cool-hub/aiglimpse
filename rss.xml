@@ -7,6 +7,22 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>New Router Cuts LLM Routing Latency to Microseconds Without API Calls</title>
+      <link>https://aiglimpse.ai/articles/new-router-cuts-llm-routing-latency-to-microseconds-without-api-calls-619ef334</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-router-cuts-llm-routing-latency-to-microseconds-without-api-calls-619ef334</guid>
+      <description>Wayfinder uses structural text analysis to sort cheap queries from expensive ones, potentially eliminating costly model inference in routing decisions.</description>
+      <pubDate>Sun, 28 Jun 2026 00:00:00 GMT</pubDate>
+      <category>LLMs &amp; Chatbots</category>
+    </item>
+    <item>
+      <title>Chinese AI Model Closes Gap With US Leaders on Security Tasks</title>
+      <link>https://aiglimpse.ai/articles/chinese-ai-model-closes-gap-with-us-leaders-on-security-tasks-77573592</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/chinese-ai-model-closes-gap-with-us-leaders-on-security-tasks-77573592</guid>
+      <description>Zhipu's latest release demonstrates competitive performance in vulnerability detection, raising fresh concerns about AI capability distribution.</description>
+      <pubDate>Sun, 28 Jun 2026 21:42:51 GMT</pubDate>
+      <category>AI Tools &amp; Products</category>
+    </item>
+    <item>
       <title>Open-Source GLM 5.2 Outperforms Anthropic's Claude on Security Tasks</title>
       <link>https://aiglimpse.ai/articles/open-source-glm-52-outperforms-anthropics-claude-on-security-tasks-c345dd6e</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/open-source-glm-52-outperforms-anthropics-claude-on-security-tasks-c345dd6e</guid>
@@ -388,22 +404,6 @@
       <guid isPermaLink="true">https://aiglimpse.ai/articles/hugging-face-streamlines-llm-deployment-with-one-command-vllm-integration-63855b20</guid>
       <description>The platform now lets developers launch optimized language model servers instantly, lowering barriers to AI inference at scale.</description>
       <pubDate>Fri, 26 Jun 2026 00:00:00 GMT</pubDate>
-      <category>AI Tools &amp; Products</category>
-    </item>
-    <item>
-      <title>Novel Method Improves 3D Video Generation by Tracking Motion Cues</title>
-      <link>https://aiglimpse.ai/articles/novel-method-improves-3d-video-generation-by-tracking-motion-cues-13ff3503</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/novel-method-improves-3d-video-generation-by-tracking-motion-cues-13ff3503</guid>
-      <description>Researchers develop geometric supervision technique that enhances consistency in AI-generated videos from single camera angles.</description>
-      <pubDate>Wed, 24 Jun 2026 17:56:33 GMT</pubDate>
-      <category>AI Research</category>
-    </item>
-    <item>
-      <title>Hybrid Models Show Promise at Predicting Specific Token Types</title>
-      <link>https://aiglimpse.ai/articles/hybrid-models-show-promise-at-predicting-specific-token-types-e713dbfb</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/hybrid-models-show-promise-at-predicting-specific-token-types-e713dbfb</guid>
-      <description>New research reveals how combining multiple prediction strategies improves language model accuracy on specialized vocabulary.</description>
-      <pubDate>Thu, 25 Jun 2026 16:11:42 GMT</pubDate>
       <category>AI Tools &amp; Products</category>
     </item>
   </channel>

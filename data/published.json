@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "new-router-cuts-llm-routing-latency-to-microseconds-without-api-calls-619ef334",
+      "title": "New Router Cuts LLM Routing Latency to Microseconds Without API Calls",
+      "subtitle": "Wayfinder uses structural text analysis to sort cheap queries from expensive ones, potentially eliminating costly model inference in routing decisions.",
+      "category": "llms",
+      "publishedAt": "2026-06-28T00:00:00.000Z",
+      "sourceUrl": "https://github.com/itsthelore/wayfinder-router",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/new-router-cuts-llm-routing-latency-to-microseconds-without-api-calls-619ef334.jpg"
+    },
+    {
+      "slug": "chinese-ai-model-closes-gap-with-us-leaders-on-security-tasks-77573592",
+      "title": "Chinese AI Model Closes Gap With US Leaders on Security Tasks",
+      "subtitle": "Zhipu's latest release demonstrates competitive performance in vulnerability detection, raising fresh concerns about AI capability distribution.",
+      "category": "tools",
+      "publishedAt": "2026-06-28T21:42:51.000Z",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/958804/chinas-z-ai-glm-52-mythos-cybersecurity",
+      "sourceName": "The Verge AI",
+      "sourceTier": 2,
+      "image": "/images/articles/chinese-ai-model-closes-gap-with-us-leaders-on-security-tasks-77573592.jpg"
+    },
+    {
       "slug": "open-source-glm-52-outperforms-anthropics-claude-on-security-tasks-c345dd6e",
       "title": "Open-Source GLM 5.2 Outperforms Anthropic's Claude on Security Tasks",
       "subtitle": "New benchmark results suggest Chinese-developed LLM excels at code vulnerability detection, challenging established players in specialized AI domains.",
@@ -4869,6 +4891,8 @@
     "63e94e8f0afa5e00",
     "5e6e07771c18d0b1",
     "c3133fc9f916f932",
-    "c345dd6e181bff2a"
+    "c345dd6e181bff2a",
+    "77573592b30760dc",
+    "619ef334f3087ae8"
   ]
 }

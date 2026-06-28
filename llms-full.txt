@@ -3,7 +3,7 @@
 > Machine-readable index for AI assistants, answer engines, and research crawlers.
 > Summary version: https://aiglimpse.ai/llms.txt
 
-Total articles: 405 | Evergreen explainers: 9 | Generated: 2026-06-28
+Total articles: 407 | Evergreen explainers: 9 | Generated: 2026-06-28
 
 ## Evergreen explainers
 
@@ -71,6 +71,20 @@ Total articles: 405 | Evergreen explainers: 9 | Generated: 2026-06-28
 - Type: evergreen explainer (FAQ schema on page)
 
 ## All articles (newest first)
+
+### New Router Cuts LLM Routing Latency to Microseconds Without API Calls
+- URL: https://aiglimpse.ai/articles/new-router-cuts-llm-routing-latency-to-microseconds-without-api-calls-619ef334
+- Published: 2026-06-28
+- Category: llms
+- Summary: Wayfinder uses structural text analysis to sort cheap queries from expensive ones, potentially eliminating costly model inference in routing decisions.
+- Source: https://github.com/itsthelore/wayfinder-router
+
+### Chinese AI Model Closes Gap With US Leaders on Security Tasks
+- URL: https://aiglimpse.ai/articles/chinese-ai-model-closes-gap-with-us-leaders-on-security-tasks-77573592
+- Published: 2026-06-28
+- Category: tools
+- Summary: Zhipu's latest release demonstrates competitive performance in vulnerability detection, raising fresh concerns about AI capability distribution.
+- Source: https://www.theverge.com/ai-artificial-intelligence/958804/chinas-z-ai-glm-52-mythos-cybersecurity
 
 ### Open-Source GLM 5.2 Outperforms Anthropic's Claude on Security Tasks
 - URL: https://aiglimpse.ai/articles/open-source-glm-52-outperforms-anthropics-claude-on-security-tasks-c345dd6e

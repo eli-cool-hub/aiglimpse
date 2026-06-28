@@ -16,6 +16,24 @@
   <url><loc>https://aiglimpse.ai/pages/privacy</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
   <url><loc>https://aiglimpse.ai/pages/terms</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
   <url>
+    <loc>https://aiglimpse.ai/articles/new-router-cuts-llm-routing-latency-to-microseconds-without-api-calls-619ef334</loc>
+    <news:news>
+      <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-06-28T00:00:00.000Z</news:publication_date>
+      <news:title>New Router Cuts LLM Routing Latency to Microseconds Without API Calls</news:title>
+    </news:news>
+    <changefreq>daily</changefreq><priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://aiglimpse.ai/articles/chinese-ai-model-closes-gap-with-us-leaders-on-security-tasks-77573592</loc>
+    <news:news>
+      <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-06-28T21:42:51.000Z</news:publication_date>
+      <news:title>Chinese AI Model Closes Gap With US Leaders on Security Tasks</news:title>
+    </news:news>
+    <changefreq>daily</changefreq><priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://aiglimpse.ai/articles/open-source-glm-52-outperforms-anthropics-claude-on-security-tasks-c345dd6e</loc>
     <news:news>
       <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>

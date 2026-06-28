@@ -20,6 +20,8 @@ All content is original reporting by the AI Glimpse newsroom. Primary sources ar
 
 ## Recent articles
 
+- [New Router Cuts LLM Routing Latency to Microseconds Without API Calls](https://aiglimpse.ai/articles/new-router-cuts-llm-routing-latency-to-microseconds-without-api-calls-619ef334) (2026-06-28): Wayfinder uses structural text analysis to sort cheap queries from expensive ones, potentially eliminating costly model inference in routing decisions.
+- [Chinese AI Model Closes Gap With US Leaders on Security Tasks](https://aiglimpse.ai/articles/chinese-ai-model-closes-gap-with-us-leaders-on-security-tasks-77573592) (2026-06-28): Zhipu's latest release demonstrates competitive performance in vulnerability detection, raising fresh concerns about AI capability distribution.
 - [Open-Source GLM 5.2 Outperforms Anthropic's Claude on Security Tasks](https://aiglimpse.ai/articles/open-source-glm-52-outperforms-anthropics-claude-on-security-tasks-c345dd6e) (2026-06-28): New benchmark results suggest Chinese-developed LLM excels at code vulnerability detection, challenging established players in specialized AI domains.
 - [Suno Builds Artist Pathway as AI Music Platform Seeks Legitimacy](https://aiglimpse.ai/articles/suno-builds-artist-pathway-as-ai-music-platform-seeks-legitimacy-c3133fc9) (2026-06-28): The generative music startup launches an incubator to cultivate independent creators while asking them to license their work back to the platform.
 - [Developer Tests Claude AI for Medical Image Analysis](https://aiglimpse.ai/articles/developer-tests-claude-ai-for-medical-image-analysis-5e6e0777) (2026-06-28): A programmer explored whether large language models with code execution can provide meaningful second opinions on medical imaging, raising questions about AI's emerging diagnostic potential.
@@ -48,8 +50,6 @@ All content is original reporting by the AI Glimpse newsroom. Primary sources ar
 - [DeepSeek Releases Speed Boost for AI Model Inference](https://aiglimpse.ai/articles/deepseek-releases-speed-boost-for-ai-model-inference-8be5ab4f) (2026-06-27): Open-sourced optimization techniques could make running large language models significantly faster and cheaper for developers.
 - [Research Reveals Critical Gaps in Domain-Aware Data Matching Systems](https://aiglimpse.ai/articles/research-reveals-critical-gaps-in-domain-aware-data-matching-systems-71c7d904) (2026-06-25): New study exposes how resource constraints and data distribution shifts impact the performance of advanced entity matching frameworks in real-world applications.
 - [Anthropic Secures Limited Access for Mythos 5 After Trump Admin Talks](https://aiglimpse.ai/articles/anthropic-secures-limited-access-for-mythos-5-after-trump-admin-talks-eb077bdc) (2026-06-27): The AI firm wins government approval for its advanced model with select partners, though broader public deployment remains uncertain.
-- [New Technique Gives AI Video Models Deeper 3D Scene Understanding](https://aiglimpse.ai/articles/new-technique-gives-ai-video-models-deeper-3d-scene-understanding-12d2b722) (2026-06-25): Researchers introduce geometric encoding method that improves consistency and camera control in AI-generated video sequences.
-- [Trump Administration Grants 100+ US Firms Access to Anthropic's Mythos 5 AI](https://aiglimpse.ai/articles/trump-administration-grants-100-us-firms-access-to-anthropics-mythos-5-ai-f7540be1) (2026-06-27): A major policy shift opens advanced language model capabilities to corporate and federal users, including international staff.
 
 ## Explainers (evergreen)
 
@@ -67,7 +67,7 @@ All content is original reporting by the AI Glimpse newsroom. Primary sources ar
 
 - [Sitemap](https://aiglimpse.ai/sitemap.xml): All article URLs with publish dates (Google News format).
 - [RSS](https://aiglimpse.ai/rss.xml): 50 most recent articles (RSS 2.0).
-- [Full content index](https://aiglimpse.ai/llms-full.txt): Extended article list for LLM crawlers (405 articles).
+- [Full content index](https://aiglimpse.ai/llms-full.txt): Extended article list for LLM crawlers (407 articles).
 
 ## About
 
