@@ -5150,6 +5150,42 @@
         "devto": true,
         "hashnode": false
       }
+    },
+    "suno-builds-artist-pathway-as-ai-music-platform-seeks-legitimacy-c3133fc9": {
+      "syndicated_at": "2026-06-28T21:04:16.136Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/suno-builds-artist-pathway-as-ai-music-platform-seeks-legitimacy-50ca",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 472,
+      "category": "tools",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
+    },
+    "open-source-glm-52-outperforms-anthropics-claude-on-security-tasks-c345dd6e": {
+      "syndicated_at": "2026-06-28T21:04:26.485Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/open-source-glm-52-outperforms-anthropics-claude-on-security-tasks-4ii3",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 458,
+      "category": "research",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
     }
   }
 }

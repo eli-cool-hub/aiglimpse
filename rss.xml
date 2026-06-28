@@ -7,6 +7,22 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Open-Source GLM 5.2 Outperforms Anthropic's Claude on Security Tasks</title>
+      <link>https://aiglimpse.ai/articles/open-source-glm-52-outperforms-anthropics-claude-on-security-tasks-c345dd6e</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/open-source-glm-52-outperforms-anthropics-claude-on-security-tasks-c345dd6e</guid>
+      <description>New benchmark results suggest Chinese-developed LLM excels at code vulnerability detection, challenging established players in specialized AI domains.</description>
+      <pubDate>Sun, 28 Jun 2026 17:50:47 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
+      <title>Suno Builds Artist Pathway as AI Music Platform Seeks Legitimacy</title>
+      <link>https://aiglimpse.ai/articles/suno-builds-artist-pathway-as-ai-music-platform-seeks-legitimacy-c3133fc9</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/suno-builds-artist-pathway-as-ai-music-platform-seeks-legitimacy-c3133fc9</guid>
+      <description>The generative music startup launches an incubator to cultivate independent creators while asking them to license their work back to the platform.</description>
+      <pubDate>Sun, 28 Jun 2026 20:27:36 GMT</pubDate>
+      <category>AI Tools &amp; Products</category>
+    </item>
+    <item>
       <title>Developer Tests Claude AI for Medical Image Analysis</title>
       <link>https://aiglimpse.ai/articles/developer-tests-claude-ai-for-medical-image-analysis-5e6e0777</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/developer-tests-claude-ai-for-medical-image-analysis-5e6e0777</guid>
@@ -389,22 +405,6 @@
       <description>New research reveals how combining multiple prediction strategies improves language model accuracy on specialized vocabulary.</description>
       <pubDate>Thu, 25 Jun 2026 16:11:42 GMT</pubDate>
       <category>AI Tools &amp; Products</category>
-    </item>
-    <item>
-      <title>Self-Distillation Training Narrows AI Model Diversity, New Research Finds</title>
-      <link>https://aiglimpse.ai/articles/self-distillation-training-narrows-ai-model-diversity-new-research-finds-66c42912</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/self-distillation-training-narrows-ai-model-diversity-new-research-finds-66c42912</guid>
-      <description>A popular technique for improving language model accuracy may inadvertently reduce output variety and hurt performance on unfamiliar tasks.</description>
-      <pubDate>Wed, 24 Jun 2026 17:59:02 GMT</pubDate>
-      <category>AI Research</category>
-    </item>
-    <item>
-      <title>AI System Enables Interactive Camera Control in Virtual Try-on Videos</title>
-      <link>https://aiglimpse.ai/articles/ai-system-enables-interactive-camera-control-in-virtual-try-on-videos-f34ebb21</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/ai-system-enables-interactive-camera-control-in-virtual-try-on-videos-f34ebb21</guid>
-      <description>New framework lets users explore garments from any angle, advancing e-commerce and fashion technology.</description>
-      <pubDate>Wed, 24 Jun 2026 17:59:06 GMT</pubDate>
-      <category>AI Research</category>
     </item>
   </channel>
 </rss>

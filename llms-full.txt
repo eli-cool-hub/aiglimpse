@@ -3,7 +3,7 @@
 > Machine-readable index for AI assistants, answer engines, and research crawlers.
 > Summary version: https://aiglimpse.ai/llms.txt
 
-Total articles: 403 | Evergreen explainers: 9 | Generated: 2026-06-28
+Total articles: 405 | Evergreen explainers: 9 | Generated: 2026-06-28
 
 ## Evergreen explainers
 
@@ -71,6 +71,20 @@ Total articles: 403 | Evergreen explainers: 9 | Generated: 2026-06-28
 - Type: evergreen explainer (FAQ schema on page)
 
 ## All articles (newest first)
+
+### Open-Source GLM 5.2 Outperforms Anthropic's Claude on Security Tasks
+- URL: https://aiglimpse.ai/articles/open-source-glm-52-outperforms-anthropics-claude-on-security-tasks-c345dd6e
+- Published: 2026-06-28
+- Category: research
+- Summary: New benchmark results suggest Chinese-developed LLM excels at code vulnerability detection, challenging established players in specialized AI domains.
+- Source: https://semgrep.dev/blog/2026/we-have-mythos-at-home-glm-52-beats-claude-in-our-cyber-benchmarks/
+
+### Suno Builds Artist Pathway as AI Music Platform Seeks Legitimacy
+- URL: https://aiglimpse.ai/articles/suno-builds-artist-pathway-as-ai-music-platform-seeks-legitimacy-c3133fc9
+- Published: 2026-06-28
+- Category: tools
+- Summary: The generative music startup launches an incubator to cultivate independent creators while asking them to license their work back to the platform.
+- Source: https://www.theverge.com/ai-artificial-intelligence/958801/suno-launches-spark-incubator-program-to-feed-independent-artists-to-its-ai-machine
 
 ### Developer Tests Claude AI for Medical Image Analysis
 - URL: https://aiglimpse.ai/articles/developer-tests-claude-ai-for-medical-image-analysis-5e6e0777

@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "open-source-glm-52-outperforms-anthropics-claude-on-security-tasks-c345dd6e",
+      "title": "Open-Source GLM 5.2 Outperforms Anthropic's Claude on Security Tasks",
+      "subtitle": "New benchmark results suggest Chinese-developed LLM excels at code vulnerability detection, challenging established players in specialized AI domains.",
+      "category": "research",
+      "publishedAt": "2026-06-28T17:50:47.000Z",
+      "sourceUrl": "https://semgrep.dev/blog/2026/we-have-mythos-at-home-glm-52-beats-claude-in-our-cyber-benchmarks/",
+      "sourceName": "Hacker News (68 pts)",
+      "sourceTier": 2,
+      "image": "/images/articles/open-source-glm-52-outperforms-anthropics-claude-on-security-tasks-c345dd6e.jpg"
+    },
+    {
+      "slug": "suno-builds-artist-pathway-as-ai-music-platform-seeks-legitimacy-c3133fc9",
+      "title": "Suno Builds Artist Pathway as AI Music Platform Seeks Legitimacy",
+      "subtitle": "The generative music startup launches an incubator to cultivate independent creators while asking them to license their work back to the platform.",
+      "category": "tools",
+      "publishedAt": "2026-06-28T20:27:36.000Z",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/958801/suno-launches-spark-incubator-program-to-feed-independent-artists-to-its-ai-machine",
+      "sourceName": "The Verge AI",
+      "sourceTier": 2,
+      "image": "/images/articles/suno-builds-artist-pathway-as-ai-music-platform-seeks-legitimacy-c3133fc9.jpg"
+    },
+    {
       "slug": "developer-tests-claude-ai-for-medical-image-analysis-5e6e0777",
       "title": "Developer Tests Claude AI for Medical Image Analysis",
       "subtitle": "A programmer explored whether large language models with code execution can provide meaningful second opinions on medical imaging, raising questions about AI's emerging diagnostic potential.",
@@ -4845,6 +4867,8 @@
     "137ef4d35b186080",
     "418b592d8d949fac",
     "63e94e8f0afa5e00",
-    "5e6e07771c18d0b1"
+    "5e6e07771c18d0b1",
+    "c3133fc9f916f932",
+    "c345dd6e181bff2a"
   ]
 }
