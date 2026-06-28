@@ -7,6 +7,14 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Resellers Exploit Anthropic's Geographic Restrictions for Claude API</title>
+      <link>https://aiglimpse.ai/articles/resellers-exploit-anthropics-geographic-restrictions-for-claude-api-342d829c</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/resellers-exploit-anthropics-geographic-restrictions-for-claude-api-342d829c</guid>
+      <description>A thriving underground market for discounted Claude tokens reveals security risks that may outweigh financial savings for developers.</description>
+      <pubDate>Sun, 28 Jun 2026 00:00:00 GMT</pubDate>
+      <category>LLMs &amp; Chatbots</category>
+    </item>
+    <item>
       <title>White House Clears Anthropic to Deploy Advanced AI Model to US Firms</title>
       <link>https://aiglimpse.ai/articles/white-house-clears-anthropic-to-deploy-advanced-ai-model-to-us-firms-f374b655</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/white-house-clears-anthropic-to-deploy-advanced-ai-model-to-us-firms-f374b655</guid>
@@ -397,14 +405,6 @@
       <description>Large-scale study reveals state-of-the-art tumor detection systems fail for underrepresented demographic groups, raising concerns about equitable medical AI deployment.</description>
       <pubDate>Tue, 23 Jun 2026 17:58:59 GMT</pubDate>
       <category>AI Research</category>
-    </item>
-    <item>
-      <title>AI Safety Fears Cross Borders as US-China Rivalry Intensifies</title>
-      <link>https://aiglimpse.ai/articles/ai-safety-fears-cross-borders-as-us-china-rivalry-intensifies-a3b2a52c</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/ai-safety-fears-cross-borders-as-us-china-rivalry-intensifies-a3b2a52c</guid>
-      <description>Researchers on both sides of the AI competition share deep concerns about catastrophic risks amid accelerating development cycles.</description>
-      <pubDate>Wed, 24 Jun 2026 18:45:00 GMT</pubDate>
-      <category>AI Tools &amp; Products</category>
     </item>
   </channel>
 </rss>

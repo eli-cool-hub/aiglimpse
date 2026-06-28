@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "resellers-exploit-anthropics-geographic-restrictions-for-claude-api-342d829c",
+      "title": "Resellers Exploit Anthropic's Geographic Restrictions for Claude API",
+      "subtitle": "A thriving underground market for discounted Claude tokens reveals security risks that may outweigh financial savings for developers.",
+      "category": "llms",
+      "publishedAt": "2026-06-28T00:00:00.000Z",
+      "sourceUrl": "https://www.wired.com/story/how-people-in-china-keep-outsmarting-anthropics-geolocation-restrictions/",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/resellers-exploit-anthropics-geographic-restrictions-for-claude-api-342d829c.jpg"
+    },
+    {
       "slug": "white-house-clears-anthropic-to-deploy-advanced-ai-model-to-us-firms-f374b655",
       "title": "White House Clears Anthropic to Deploy Advanced AI Model to US Firms",
       "subtitle": "Following high-level talks, the administration authorizes limited access to Mythos, marking a shift in AI export policy.",
@@ -4749,6 +4760,7 @@
     "ceccb80fe9c637db",
     "680bb2f28ef2c6dd",
     "1565f9a4b48898f5",
-    "f374b655b0471e18"
+    "f374b655b0471e18",
+    "342d829ca5e43ce1"
   ]
 }
