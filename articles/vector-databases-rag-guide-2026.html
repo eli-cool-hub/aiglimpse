@@ -85,7 +85,6 @@
   <figcaption class="article-image-credit">Photo by <a href="https://www.pexels.com/photo/web-banner-with-online-information-on-computer-3803517/" rel="nofollow noopener" target="_blank">Brett Sayles</a> on Pexels.</figcaption>
 </figure>
 
-
 <p>Without an index, vector search means computing the distance from a query embedding to every document embedding in your corpus. With 1 million vectors, that is 1 million distance calculations per query. With reasonable embedding dimensionality (768 or 1536 for modern models) and commodity hardware, a naive search takes roughly 300 to 500 milliseconds. That is unacceptable for production RAG.</p>
 
 <p>Vector databases solve this through indexing algorithms that partition vector space into regions, allowing the search to skip most candidates. The two dominant approaches are HNSW (hierarchical navigable small world) and IVF (inverted file). HNSW builds a proximity graph where each vector connects to its nearest neighbors at multiple levels, enabling log(N) traversal. IVF partitions vectors into clusters, searches only nearby clusters, then computes exact distance within those clusters. Pinecone and Chroma default to HNSW, which offers high recall and consistent performance for most RAG workloads. Milvus and Weaviate support both, with tunable trade-offs between memory, speed, and recall.</p>
@@ -105,12 +104,6 @@
 <p><strong>Qdrant</strong is optimized for high-throughput scenarios. It supports sparse vectors (useful for hybrid search without external BM25), quantization (shrinking vector dimensionality to save memory and improve speed), and extremely fast indexing (millions of vectors per second). Qdrant is the choice if your bottleneck is ingestion speed or if you are running massive datasets where memory efficiency is non-negotiable.</p>
 
 <h2>Hybrid search and metadata filtering in practice</h2>
-<figure class="article-image article-image--inline">
-  <img src="/images/articles/vector-databases-rag-guide-2026-inline-2.jpg" alt="Hybrid search and metadata filtering in practice" loading="lazy" width="1200" height="630">
-  <figcaption class="article-image-credit">Photo by <a href="https://www.pexels.com/photo/futuristic-interface-on-laptop-with-neon-keyboard-38117127/" rel="nofollow noopener" target="_blank">Rafael Minguet Delgado</a> on Pexels.</figcaption>
-</figure>
-
-
 <p>Pure vector search has a blind spot: it relies entirely on the quality of your embedding model and the semantic similarity between query and documents. A query like "What is GDPR Article 5?" will fail if documents use the acronym "GDPR" without unpacking it. A vector database that only optimizes for cosine similarity will rank a document about privacy principles higher than one containing the exact acronym, even though the latter is what the user wanted.</p>
 
 <p>Hybrid search solves this by combining semantic search with keyword (BM25) scores. The query is encoded as a vector and also tokenized for lexical matching. Results are ranked by a weighted blend of both signals. Pinecone's hybrid search implementation assigns adjustable weights to vector and lexical components. The practical effect: adding hybrid search boosts recall for named-entity-heavy domains (legal, medical, finance) by 15 to 30 percent, at the cost of marginal latency (add 5 to 10 milliseconds per query).</p>
