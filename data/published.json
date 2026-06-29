@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "healthcare-systems-rush-to-embed-ai-through-major-tech-partnerships-3a5cf2dc",
+      "title": "Healthcare Systems Rush to Embed AI Through Major Tech Partnerships",
+      "subtitle": "Major hospital networks are accelerating artificial intelligence deployment by striking deals with Microsoft, Amazon, and Nvidia to transform clinical workflows.",
+      "category": "industry",
+      "publishedAt": "2026-06-29T21:18:15.000Z",
+      "sourceUrl": "https://www.beckershospitalreview.com/healthcare-information-technology/innovation/12-big-tech-health-system-partnerships-4/",
+      "sourceName": "Becker's Hospital Review",
+      "sourceTier": 2,
+      "image": "/images/articles/healthcare-systems-rush-to-embed-ai-through-major-tech-partnerships-3a5cf2dc.jpg"
+    },
+    {
+      "slug": "metas-safety-testing-involved-impersonating-minors-online-83240c9b",
+      "title": "Meta's Safety Testing Involved Impersonating Minors Online",
+      "subtitle": "The social media giant deployed hundreds of contractors to probe competitor AI systems on harmful topics, raising questions about testing ethics.",
+      "category": "tools",
+      "publishedAt": "2026-06-29T21:49:26.000Z",
+      "sourceUrl": "https://www.wired.com/story/meta-contractors-pretending-to-be-teens-chatbot-testing/",
+      "sourceName": "Wired AI",
+      "sourceTier": 2,
+      "image": "/images/articles/metas-safety-testing-involved-impersonating-minors-online-83240c9b.jpg"
+    },
+    {
       "slug": "south-korea-pledges-1t-to-dominate-ai-hardware-and-robotics-ad83b8bc",
       "title": "South Korea Pledges $1T to Dominate AI Hardware and Robotics",
       "subtitle": "Seoul's massive investment targets memory chip production, data centers, and humanoid robots as the nation races to lead the AI infrastructure race.",
@@ -4989,6 +5011,8 @@
     "3d11571a0b3fbfb9",
     "cbfe2ff5eb5af7db",
     "7fa19bb3db49775b",
-    "ad83b8bcc289f3c8"
+    "ad83b8bcc289f3c8",
+    "83240c9b7dd32a04",
+    "3a5cf2dc66ca804a"
   ]
 }

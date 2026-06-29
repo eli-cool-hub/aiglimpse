@@ -5312,6 +5312,42 @@
         "devto": true,
         "hashnode": false
       }
+    },
+    "metas-safety-testing-involved-impersonating-minors-online-83240c9b": {
+      "syndicated_at": "2026-06-29T23:00:56.879Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/metas-safety-testing-involved-impersonating-minors-online-1h6g",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 477,
+      "category": "tools",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
+    },
+    "healthcare-systems-rush-to-embed-ai-through-major-tech-partnerships-3a5cf2dc": {
+      "syndicated_at": "2026-06-29T23:01:09.200Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/healthcare-systems-rush-to-embed-ai-through-major-tech-partnerships-2e03",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 580,
+      "category": "industry",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
     }
   }
 }
