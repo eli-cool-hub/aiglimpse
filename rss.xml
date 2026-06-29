@@ -7,6 +7,14 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>South Korea Pledges $1T to Dominate AI Hardware and Robotics</title>
+      <link>https://aiglimpse.ai/articles/south-korea-pledges-1t-to-dominate-ai-hardware-and-robotics-ad83b8bc</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/south-korea-pledges-1t-to-dominate-ai-hardware-and-robotics-ad83b8bc</guid>
+      <description>Seoul's massive investment targets memory chip production, data centers, and humanoid robots as the nation races to lead the AI infrastructure race.</description>
+      <pubDate>Mon, 29 Jun 2026 21:09:43 GMT</pubDate>
+      <category>AI Tools &amp; Products</category>
+    </item>
+    <item>
       <title>South Korea's Memory Giants Pledge $550B to Fuel AI Chip Capacity</title>
       <link>https://aiglimpse.ai/articles/south-koreas-memory-giants-pledge-550b-to-fuel-ai-chip-capacity-7fa19bb3</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/south-koreas-memory-giants-pledge-550b-to-fuel-ai-chip-capacity-7fa19bb3</guid>
@@ -396,14 +404,6 @@
       <guid isPermaLink="true">https://aiglimpse.ai/articles/probability-alone-wont-fix-ai-accuracy-new-research-finds-bf22661d</guid>
       <description>A rigorous study reveals fundamental limits to improving LLM answers through decoding optimization.</description>
       <pubDate>Thu, 25 Jun 2026 17:58:02 GMT</pubDate>
-      <category>AI Research</category>
-    </item>
-    <item>
-      <title>New Framework Fixes AI Models That Ignore Images When Answering Questions</title>
-      <link>https://aiglimpse.ai/articles/new-framework-fixes-ai-models-that-ignore-images-when-answering-questions-1fab0291</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-framework-fixes-ai-models-that-ignore-images-when-answering-questions-1fab0291</guid>
-      <description>Researchers tackle a fundamental flaw where multimodal AI systems rely too heavily on language patterns instead of actually analyzing visual content.</description>
-      <pubDate>Thu, 25 Jun 2026 17:59:55 GMT</pubDate>
       <category>AI Research</category>
     </item>
   </channel>
