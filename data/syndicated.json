@@ -5276,6 +5276,24 @@
         "devto": true,
         "hashnode": false
       }
+    },
+    "new-transformer-model-unifies-density-and-score-estimation-cbfe2ff5": {
+      "syndicated_at": "2026-06-29T18:09:47.226Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/new-transformer-model-unifies-density-and-score-estimation-4fhp",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 434,
+      "category": "tools",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
     }
   }
 }

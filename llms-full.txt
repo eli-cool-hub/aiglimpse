@@ -3,7 +3,7 @@
 > Machine-readable index for AI assistants, answer engines, and research crawlers.
 > Summary version: https://aiglimpse.ai/llms.txt
 
-Total articles: 412 | Evergreen explainers: 9 | Generated: 2026-06-29
+Total articles: 414 | Evergreen explainers: 9 | Generated: 2026-06-29
 
 ## Evergreen explainers
 
@@ -71,6 +71,20 @@ Total articles: 412 | Evergreen explainers: 9 | Generated: 2026-06-29
 - Type: evergreen explainer (FAQ schema on page)
 
 ## All articles (newest first)
+
+### South Korea's Memory Giants Pledge $550B to Fuel AI Chip Capacity
+- URL: https://aiglimpse.ai/articles/south-koreas-memory-giants-pledge-550b-to-fuel-ai-chip-capacity-7fa19bb3
+- Published: 2026-06-29
+- Category: business
+- Summary: Major investment in semiconductor manufacturing aims to address global shortage constraining AI model development and deployment.
+- Source: https://techcrunch.com/2026/06/29/south-korean-tech-giants-commit-over-550b-to-ease-ramageddon/
+
+### New Transformer Model Unifies Density and Score Estimation
+- URL: https://aiglimpse.ai/articles/new-transformer-model-unifies-density-and-score-estimation-cbfe2ff5
+- Published: 2026-06-29
+- Category: tools
+- Summary: Researchers introduce DiScoFormer, a single architecture that handles multiple probability estimation tasks across different data distributions.
+- Source: https://huggingface.co/blog/allenai/discoformer
 
 ### Tech Teams Show Strong Confidence in AI Agents for Enterprise Workflows
 - URL: https://aiglimpse.ai/articles/tech-teams-show-strong-confidence-in-ai-agents-for-enterprise-workflows-3d11571a

@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "south-koreas-memory-giants-pledge-550b-to-fuel-ai-chip-capacity-7fa19bb3",
+      "title": "South Korea's Memory Giants Pledge $550B to Fuel AI Chip Capacity",
+      "subtitle": "Major investment in semiconductor manufacturing aims to address global shortage constraining AI model development and deployment.",
+      "category": "business",
+      "publishedAt": "2026-06-29T18:07:48.000Z",
+      "sourceUrl": "https://techcrunch.com/2026/06/29/south-korean-tech-giants-commit-over-550b-to-ease-ramageddon/",
+      "sourceName": "TechCrunch AI",
+      "sourceTier": 2,
+      "image": "/images/articles/south-koreas-memory-giants-pledge-550b-to-fuel-ai-chip-capacity-7fa19bb3.jpg"
+    },
+    {
+      "slug": "new-transformer-model-unifies-density-and-score-estimation-cbfe2ff5",
+      "title": "New Transformer Model Unifies Density and Score Estimation",
+      "subtitle": "Researchers introduce DiScoFormer, a single architecture that handles multiple probability estimation tasks across different data distributions.",
+      "category": "tools",
+      "publishedAt": "2026-06-29T18:02:48.000Z",
+      "sourceUrl": "https://huggingface.co/blog/allenai/discoformer",
+      "sourceName": "Hugging Face",
+      "sourceTier": 1,
+      "image": "/images/articles/new-transformer-model-unifies-density-and-score-estimation-cbfe2ff5.jpg"
+    },
+    {
       "slug": "tech-teams-show-strong-confidence-in-ai-agents-for-enterprise-workflows-3d11571a",
       "title": "Tech Teams Show Strong Confidence in AI Agents for Enterprise Workflows",
       "subtitle": "Survey reveals AI agents are gaining trust for complex IT tasks, but business context remains a critical bottleneck for broader adoption.",
@@ -4953,6 +4975,8 @@
     "1c50a97cd2c9ec19",
     "e13179aff954393f",
     "4843796e40018bb6",
-    "3d11571a0b3fbfb9"
+    "3d11571a0b3fbfb9",
+    "cbfe2ff5eb5af7db",
+    "7fa19bb3db49775b"
   ]
 }
