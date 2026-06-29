@@ -5222,6 +5222,24 @@
         "devto": true,
         "hashnode": false
       }
+    },
+    "hp-expands-openai-partnership-to-embed-ai-across-products-5b6019c7": {
+      "syndicated_at": "2026-06-29T04:09:54.614Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/hp-expands-openai-partnership-to-embed-ai-across-products-2haa",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 430,
+      "category": "llms",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
     }
   }
 }
