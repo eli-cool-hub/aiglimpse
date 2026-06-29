@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "tech-teams-show-strong-confidence-in-ai-agents-for-enterprise-workflows-3d11571a",
+      "title": "Tech Teams Show Strong Confidence in AI Agents for Enterprise Workflows",
+      "subtitle": "Survey reveals AI agents are gaining trust for complex IT tasks, but business context remains a critical bottleneck for broader adoption.",
+      "category": "research",
+      "publishedAt": "2026-06-29T14:44:01.000Z",
+      "sourceUrl": "https://www.technologyreview.com/2026/06/29/1139635/agent-confidence-on-the-technical-frontier/",
+      "sourceName": "MIT Technology Review AI",
+      "sourceTier": 2,
+      "image": "/images/articles/tech-teams-show-strong-confidence-in-ai-agents-for-enterprise-workflows-3d11571a.jpg"
+    },
+    {
+      "slug": "openai-study-charts-ais-reshaping-of-european-labor-market-4843796e",
+      "title": "OpenAI Study Charts AI's Reshaping of European Labor Market",
+      "subtitle": "New research maps which EU jobs face automation, growth, or transformation as artificial intelligence deployment accelerates across the continent.",
+      "category": "llms",
+      "publishedAt": "2026-06-29T07:00:00.000Z",
+      "sourceUrl": "https://openai.com/index/mapping-ai-jobs-transition-eu",
+      "sourceName": "OpenAI",
+      "sourceTier": 1,
+      "image": "/images/articles/openai-study-charts-ais-reshaping-of-european-labor-market-4843796e.jpg"
+    },
+    {
       "slug": "spacex-ipo-ignites-billion-dollar-exit-surge-driven-by-ai-deals-e13179af",
       "title": "SpaceX IPO Ignites Billion-Dollar Exit Surge Driven by AI Deals",
       "subtitle": "Q2 2026 marks the strongest quarter for startup exits since 2021, powered by record-breaking space and AI company valuations.",
@@ -4929,6 +4951,8 @@
     "619ef334f3087ae8",
     "5b6019c7a2a35d21",
     "1c50a97cd2c9ec19",
-    "e13179aff954393f"
+    "e13179aff954393f",
+    "4843796e40018bb6",
+    "3d11571a0b3fbfb9"
   ]
 }
