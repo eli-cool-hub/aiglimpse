@@ -5420,6 +5420,42 @@
         "devto": true,
         "hashnode": false
       }
+    },
+    "hugging-face-centralizes-model-evaluations-in-push-for-ai-transparency-0a0a3bf0": {
+      "syndicated_at": "2026-06-30T14:24:07.576Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/hugging-face-centralizes-model-evaluations-in-push-for-ai-transparency-4kdc",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 492,
+      "category": "tools",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
+    },
+    "asynchronous-pipeline-training-becomes-practical-for-billion-parameter-models-b122abc5": {
+      "syndicated_at": "2026-06-30T14:24:18.335Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/asynchronous-pipeline-training-becomes-practical-for-billion-parameter-models-28km",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 480,
+      "category": "research",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
     }
   }
 }

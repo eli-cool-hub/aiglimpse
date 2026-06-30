@@ -16,6 +16,24 @@
   <url><loc>https://aiglimpse.ai/pages/privacy</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
   <url><loc>https://aiglimpse.ai/pages/terms</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
   <url>
+    <loc>https://aiglimpse.ai/articles/asynchronous-pipeline-training-becomes-practical-for-billion-parameter-models-b122abc5</loc>
+    <news:news>
+      <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-06-29T17:57:50.000Z</news:publication_date>
+      <news:title>Asynchronous Pipeline Training Becomes Practical for Billion-Parameter Models</news:title>
+    </news:news>
+    <changefreq>daily</changefreq><priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://aiglimpse.ai/articles/hugging-face-centralizes-model-evaluations-in-push-for-ai-transparency-0a0a3bf0</loc>
+    <news:news>
+      <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-06-30T00:00:00.000Z</news:publication_date>
+      <news:title>Hugging Face Centralizes Model Evaluations in Push for AI Transparency</news:title>
+    </news:news>
+    <changefreq>daily</changefreq><priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://aiglimpse.ai/articles/new-method-lets-3d-ai-models-understand-complex-language-queries-495b7314</loc>
     <news:news>
       <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>

@@ -3,7 +3,7 @@
 > Machine-readable index for AI assistants, answer engines, and research crawlers.
 > Summary version: https://aiglimpse.ai/llms.txt
 
-Total articles: 423 | Evergreen explainers: 9 | Generated: 2026-06-30
+Total articles: 425 | Evergreen explainers: 9 | Generated: 2026-06-30
 
 ## Evergreen explainers
 
@@ -71,6 +71,20 @@ Total articles: 423 | Evergreen explainers: 9 | Generated: 2026-06-30
 - Type: evergreen explainer (FAQ schema on page)
 
 ## All articles (newest first)
+
+### Asynchronous Pipeline Training Becomes Practical for Billion-Parameter Models
+- URL: https://aiglimpse.ai/articles/asynchronous-pipeline-training-becomes-practical-for-billion-parameter-models-b122abc5
+- Published: 2026-06-29
+- Category: research
+- Summary: Researchers show that modern optimizers can handle delayed gradients at scale, unlocking faster LLM training without synchronization overhead.
+- Source: http://arxiv.org/abs/2606.30634v1
+
+### Hugging Face Centralizes Model Evaluations in Push for AI Transparency
+- URL: https://aiglimpse.ai/articles/hugging-face-centralizes-model-evaluations-in-push-for-ai-transparency-0a0a3bf0
+- Published: 2026-06-30
+- Category: tools
+- Summary: The platform now displays comprehensive benchmark results across all model cards, making AI performance comparisons more accessible to developers.
+- Source: https://huggingface.co/blog/eee-community-evals
 
 ### New Method Lets 3D AI Models Understand Complex Language Queries
 - URL: https://aiglimpse.ai/articles/new-method-lets-3d-ai-models-understand-complex-language-queries-495b7314
