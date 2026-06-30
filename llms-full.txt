@@ -3,7 +3,7 @@
 > Machine-readable index for AI assistants, answer engines, and research crawlers.
 > Summary version: https://aiglimpse.ai/llms.txt
 
-Total articles: 425 | Evergreen explainers: 9 | Generated: 2026-06-30
+Total articles: 427 | Evergreen explainers: 9 | Generated: 2026-06-30
 
 ## Evergreen explainers
 
@@ -71,6 +71,20 @@ Total articles: 425 | Evergreen explainers: 9 | Generated: 2026-06-30
 - Type: evergreen explainer (FAQ schema on page)
 
 ## All articles (newest first)
+
+### The AI Industry's Push Toward Specialized Models Over One-Size-Fits-All Systems
+- URL: https://aiglimpse.ai/articles/the-ai-industrys-push-toward-specialized-models-over-one-size-fits-all-systems-b877e3bf
+- Published: 2026-06-30
+- Category: tools
+- Summary: As large language models mature, the market is fragmenting into domain-specific AI tools optimized for particular tasks and industries.
+- Source: https://huggingface.co/blog/Dharma-AI/why-specialization-is-inevitable
+
+### Google DeepMind Launches Lightweight AI Models for Developers
+- URL: https://aiglimpse.ai/articles/google-deepmind-launches-lightweight-ai-models-for-developers-c8e2d88d
+- Published: 2026-06-30
+- Category: research
+- Summary: New streamlined versions of advanced language models aim to lower barriers for AI application development across devices.
+- Source: https://deepmind.google/blog/start-building-with-nano-banana-2-lite-and-gemini-omni-flash/
 
 ### Asynchronous Pipeline Training Becomes Practical for Billion-Parameter Models
 - URL: https://aiglimpse.ai/articles/asynchronous-pipeline-training-becomes-practical-for-billion-parameter-models-b122abc5

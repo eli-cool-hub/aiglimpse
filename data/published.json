@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "the-ai-industrys-push-toward-specialized-models-over-one-size-fits-all-systems-b877e3bf",
+      "title": "The AI Industry's Push Toward Specialized Models Over One-Size-Fits-All Systems",
+      "subtitle": "As large language models mature, the market is fragmenting into domain-specific AI tools optimized for particular tasks and industries.",
+      "category": "tools",
+      "publishedAt": "2026-06-30T14:39:11.000Z",
+      "sourceUrl": "https://huggingface.co/blog/Dharma-AI/why-specialization-is-inevitable",
+      "sourceName": "Hugging Face",
+      "sourceTier": 1,
+      "image": "/images/articles/the-ai-industrys-push-toward-specialized-models-over-one-size-fits-all-systems-b877e3bf.jpg"
+    },
+    {
+      "slug": "google-deepmind-launches-lightweight-ai-models-for-developers-c8e2d88d",
+      "title": "Google DeepMind Launches Lightweight AI Models for Developers",
+      "subtitle": "New streamlined versions of advanced language models aim to lower barriers for AI application development across devices.",
+      "category": "research",
+      "publishedAt": "2026-06-30T16:02:40.000Z",
+      "sourceUrl": "https://deepmind.google/blog/start-building-with-nano-banana-2-lite-and-gemini-omni-flash/",
+      "sourceName": "Google DeepMind",
+      "sourceTier": 1,
+      "image": "/images/articles/google-deepmind-launches-lightweight-ai-models-for-developers-c8e2d88d.jpg"
+    },
+    {
       "slug": "asynchronous-pipeline-training-becomes-practical-for-billion-parameter-models-b122abc5",
       "title": "Asynchronous Pipeline Training Becomes Practical for Billion-Parameter Models",
       "subtitle": "Researchers show that modern optimizers can handle delayed gradients at scale, unlocking faster LLM training without synchronization overhead.",
@@ -5109,6 +5131,8 @@
     "0e49f2c9a6c9f10b",
     "495b7314e0201fa8",
     "0a0a3bf0485f0a19",
-    "b122abc519aecef4"
+    "b122abc519aecef4",
+    "c8e2d88dbd93f290",
+    "b877e3bf5fb44fe7"
   ]
 }

@@ -16,6 +16,24 @@
   <url><loc>https://aiglimpse.ai/pages/privacy</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
   <url><loc>https://aiglimpse.ai/pages/terms</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
   <url>
+    <loc>https://aiglimpse.ai/articles/the-ai-industrys-push-toward-specialized-models-over-one-size-fits-all-systems-b877e3bf</loc>
+    <news:news>
+      <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-06-30T14:39:11.000Z</news:publication_date>
+      <news:title>The AI Industry's Push Toward Specialized Models Over One-Size-Fits-All Systems</news:title>
+    </news:news>
+    <changefreq>daily</changefreq><priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://aiglimpse.ai/articles/google-deepmind-launches-lightweight-ai-models-for-developers-c8e2d88d</loc>
+    <news:news>
+      <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-06-30T16:02:40.000Z</news:publication_date>
+      <news:title>Google DeepMind Launches Lightweight AI Models for Developers</news:title>
+    </news:news>
+    <changefreq>daily</changefreq><priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://aiglimpse.ai/articles/asynchronous-pipeline-training-becomes-practical-for-billion-parameter-models-b122abc5</loc>
     <news:news>
       <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
