@@ -5492,6 +5492,42 @@
         "devto": true,
         "hashnode": false
       }
+    },
+    "new-benchmark-tests-ai-agents-on-legacy-code-migration-tasks-89624d17": {
+      "syndicated_at": "2026-06-30T20:08:45.523Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/new-benchmark-tests-ai-agents-on-legacy-code-migration-tasks-3d05",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 397,
+      "category": "tools",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
+    },
+    "chatgpt-use-cases-multiply-as-global-user-base-deepens-engagement-f42e1e30": {
+      "syndicated_at": "2026-06-30T20:08:56.403Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/chatgpt-use-cases-multiply-as-global-user-base-deepens-engagement-25i0",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 462,
+      "category": "llms",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
     }
   }
 }
