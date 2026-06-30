@@ -7,6 +7,22 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>New AI Model Tackles Full-Length Song Generation With Layered Learning</title>
+      <link>https://aiglimpse.ai/articles/new-ai-model-tackles-full-length-song-generation-with-layered-learning-231c0ea8</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-ai-model-tackles-full-length-song-generation-with-layered-learning-231c0ea8</guid>
+      <description>Researchers introduce LeVo 2, a hybrid system that balances musical coherence with vocal and instrumental detail in AI-generated tracks.</description>
+      <pubDate>Mon, 29 Jun 2026 17:59:20 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
+      <title>Researchers Train Humanoid Robots Using Synthetic Data From 3D Scenes</title>
+      <link>https://aiglimpse.ai/articles/researchers-train-humanoid-robots-using-synthetic-data-from-3d-scenes-ba85224d</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/researchers-train-humanoid-robots-using-synthetic-data-from-3d-scenes-ba85224d</guid>
+      <description>A new pipeline generates thousands of training examples for robot movement without human annotation, advancing perception-based control.</description>
+      <pubDate>Mon, 29 Jun 2026 17:59:55 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
       <title>Managers Turn to ChatGPT for High-Stakes HR Decisions</title>
       <link>https://aiglimpse.ai/articles/managers-turn-to-chatgpt-for-high-stakes-hr-decisions-673c447c</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/managers-turn-to-chatgpt-for-high-stakes-hr-decisions-673c447c</guid>
@@ -389,22 +405,6 @@
       <description>Researchers replace flow-based models with autoregressive architecture, cutting energy prediction errors by 60% on protein structures.</description>
       <pubDate>Thu, 25 Jun 2026 17:58:21 GMT</pubDate>
       <category>AI Research</category>
-    </item>
-    <item>
-      <title>PhysiFormer Uses Diffusion Transformers to Model 3D Object Physics</title>
-      <link>https://aiglimpse.ai/articles/physiformer-uses-diffusion-transformers-to-model-3d-object-physics-8a333c4b</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/physiformer-uses-diffusion-transformers-to-model-3d-object-physics-8a333c4b</guid>
-      <description>New AI system simulates realistic physical behavior for rigid and elastic objects without explicit constraints, advancing world models for robotics and design.</description>
-      <pubDate>Thu, 25 Jun 2026 17:59:00 GMT</pubDate>
-      <category>AI Research</category>
-    </item>
-    <item>
-      <title>OpenAI Unveils GPT-5.6 Sol With Enhanced Coding and Security</title>
-      <link>https://aiglimpse.ai/articles/openai-unveils-gpt-56-sol-with-enhanced-coding-and-security-4a10819d</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/openai-unveils-gpt-56-sol-with-enhanced-coding-and-security-4a10819d</guid>
-      <description>The new model combines advanced technical capabilities with reinforced safeguards, signaling OpenAI's focus on both performance and responsible AI deployment.</description>
-      <pubDate>Fri, 26 Jun 2026 10:00:00 GMT</pubDate>
-      <category>LLMs &amp; Chatbots</category>
     </item>
   </channel>
 </rss>

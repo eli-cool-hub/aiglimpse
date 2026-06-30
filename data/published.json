@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "new-ai-model-tackles-full-length-song-generation-with-layered-learning-231c0ea8",
+      "title": "New AI Model Tackles Full-Length Song Generation With Layered Learning",
+      "subtitle": "Researchers introduce LeVo 2, a hybrid system that balances musical coherence with vocal and instrumental detail in AI-generated tracks.",
+      "category": "research",
+      "publishedAt": "2026-06-29T17:59:20.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2606.30642v1",
+      "sourceName": "arXiv (Shun Lei, Huaicheng Zhang, Dapeng Wu, Yaoxun Xu, Lishi Zuo, …)",
+      "sourceTier": 1,
+      "image": "/images/articles/new-ai-model-tackles-full-length-song-generation-with-layered-learning-231c0ea8.jpg"
+    },
+    {
+      "slug": "researchers-train-humanoid-robots-using-synthetic-data-from-3d-scenes-ba85224d",
+      "title": "Researchers Train Humanoid Robots Using Synthetic Data From 3D Scenes",
+      "subtitle": "A new pipeline generates thousands of training examples for robot movement without human annotation, advancing perception-based control.",
+      "category": "research",
+      "publishedAt": "2026-06-29T17:59:55.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2606.30645v1",
+      "sourceName": "arXiv (Yen-Jen Wang, Jiaman Li, Sirui Chen, Takara E. Truong, Pei X…)",
+      "sourceTier": 1,
+      "image": "/images/articles/researchers-train-humanoid-robots-using-synthetic-data-from-3d-scenes-ba85224d.jpg"
+    },
+    {
       "slug": "managers-turn-to-chatgpt-for-high-stakes-hr-decisions-673c447c",
       "title": "Managers Turn to ChatGPT for High-Stakes HR Decisions",
       "subtitle": "Workers report bosses delegating layoffs and restructuring to AI, raising questions about accountability and corporate governance.",
@@ -5037,6 +5059,8 @@
     "83240c9b7dd32a04",
     "3a5cf2dc66ca804a",
     "3067ce51bfcf8128",
-    "673c447c64188eb5"
+    "673c447c64188eb5",
+    "ba85224de768bb84",
+    "231c0ea870a6133c"
   ]
 }
