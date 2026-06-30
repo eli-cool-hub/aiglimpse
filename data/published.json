@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "new-method-lets-3d-ai-models-understand-complex-language-queries-495b7314",
+      "title": "New Method Lets 3D AI Models Understand Complex Language Queries",
+      "subtitle": "Researchers bypass CLIP limitations to enable spatial reasoning in 3D scene understanding, advancing embodied AI capabilities.",
+      "category": "research",
+      "publishedAt": "2026-06-29T17:58:41.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2606.30638v1",
+      "sourceName": "arXiv (Jameel Hassan, Yasiru Ranasinghe, Vishal Patel)",
+      "sourceTier": 1,
+      "image": "/images/articles/new-method-lets-3d-ai-models-understand-complex-language-queries-495b7314.jpg"
+    },
+    {
+      "slug": "new-framework-helps-ai-agents-learn-and-adapt-during-deployment-0e49f2c9",
+      "title": "New Framework Helps AI Agents Learn and Adapt During Deployment",
+      "subtitle": "Research introduces a system that continuously improves prediction accuracy without retraining, addressing a key bottleneck in autonomous agent planning.",
+      "category": "research",
+      "publishedAt": "2026-06-29T17:58:43.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2606.30639v1",
+      "sourceName": "arXiv (Xuan Zhang, Wenxuan Zhang, See-Kiong Ng, Yang Deng)",
+      "sourceTier": 1,
+      "image": "/images/articles/new-framework-helps-ai-agents-learn-and-adapt-during-deployment-0e49f2c9.jpg"
+    },
+    {
       "slug": "new-ai-model-tackles-full-length-song-generation-with-layered-learning-231c0ea8",
       "title": "New AI Model Tackles Full-Length Song Generation With Layered Learning",
       "subtitle": "Researchers introduce LeVo 2, a hybrid system that balances musical coherence with vocal and instrumental detail in AI-generated tracks.",
@@ -5061,6 +5083,8 @@
     "3067ce51bfcf8128",
     "673c447c64188eb5",
     "ba85224de768bb84",
-    "231c0ea870a6133c"
+    "231c0ea870a6133c",
+    "0e49f2c9a6c9f10b",
+    "495b7314e0201fa8"
   ]
 }
