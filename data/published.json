@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "managers-turn-to-chatgpt-for-high-stakes-hr-decisions-673c447c",
+      "title": "Managers Turn to ChatGPT for High-Stakes HR Decisions",
+      "subtitle": "Workers report bosses delegating layoffs and restructuring to AI, raising questions about accountability and corporate governance.",
+      "category": "business",
+      "publishedAt": "2026-06-30T00:00:00.000Z",
+      "sourceUrl": "https://futurism.com/artificial-intelligence/bosses-obsessed-with-ai",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/managers-turn-to-chatgpt-for-high-stakes-hr-decisions-673c447c.jpg"
+    },
+    {
+      "slug": "base44-builds-proprietary-ai-model-to-compete-with-frontier-llms-3067ce51",
+      "title": "Base44 Builds Proprietary AI Model to Compete With Frontier LLMs",
+      "subtitle": "Wix-owned coding platform launches custom model as startups prioritize technical differentiation in crowded AI market.",
+      "category": "business",
+      "publishedAt": "2026-06-30T02:28:41.000Z",
+      "sourceUrl": "https://techcrunch.com/2026/06/29/vibe-coding-platform-base44-launches-own-model-as-ai-startups-seek-defensibility/",
+      "sourceName": "TechCrunch AI",
+      "sourceTier": 2,
+      "image": "/images/articles/base44-builds-proprietary-ai-model-to-compete-with-frontier-llms-3067ce51.jpg"
+    },
+    {
       "slug": "healthcare-systems-rush-to-embed-ai-through-major-tech-partnerships-3a5cf2dc",
       "title": "Healthcare Systems Rush to Embed AI Through Major Tech Partnerships",
       "subtitle": "Major hospital networks are accelerating artificial intelligence deployment by striking deals with Microsoft, Amazon, and Nvidia to transform clinical workflows.",
@@ -5013,6 +5035,8 @@
     "7fa19bb3db49775b",
     "ad83b8bcc289f3c8",
     "83240c9b7dd32a04",
-    "3a5cf2dc66ca804a"
+    "3a5cf2dc66ca804a",
+    "3067ce51bfcf8128",
+    "673c447c64188eb5"
   ]
 }
