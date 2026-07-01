@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "new-ai-method-shrinks-3d-human-models-for-real-time-streaming-12be0fb9",
+      "title": "New AI Method Shrinks 3D Human Models for Real-Time Streaming",
+      "subtitle": "Researchers introduce PointSplat, a technique that dramatically reduces file sizes while maintaining visual quality for live-action virtual experiences.",
+      "category": "research",
+      "publishedAt": "2026-06-30T17:59:05.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2606.32036v1",
+      "sourceName": "arXiv (Yujie Guo, Yudong Jin, Lingteng Qiu, Zehong Shen, Zhen Xu, J…)",
+      "sourceTier": 1,
+      "image": "/images/articles/new-ai-method-shrinks-3d-human-models-for-real-time-streaming-12be0fb9.jpg"
+    },
+    {
       "slug": "spacex-shows-investors-handheld-ai-device-signaling-telecom-ambitions-7450d28b",
       "title": "SpaceX Shows Investors Handheld AI Device, Signaling Telecom Ambitions",
       "subtitle": "The aerospace company's prototype suggests broader plans to integrate artificial intelligence into consumer hardware and wireless networks.",
@@ -5277,6 +5288,7 @@
     "919002388b06425f",
     "51fedb493c2a10c2",
     "9c7d8ce826068923",
-    "7450d28b7329ab73"
+    "7450d28b7329ab73",
+    "12be0fb983221deb"
   ]
 }
