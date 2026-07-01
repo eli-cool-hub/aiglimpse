@@ -20,6 +20,8 @@ All content is original reporting by the AI Glimpse newsroom. Primary sources ar
 
 ## Recent articles
 
+- [AI Models Learn to Explain Themselves Without Updated Training Data](https://aiglimpse.ai/articles/ai-models-learn-to-explain-themselves-without-updated-training-data-9c7d8ce8) (2026-06-30): Research reveals language models can develop faithful self-explanations even when trained on outdated supervision, tracking behavioral changes automatically.
+- [Cerebras and Hugging Face Deploy Gemma 4 for Streaming Voice Applications](https://aiglimpse.ai/articles/cerebras-and-hugging-face-deploy-gemma-4-for-streaming-voice-applications-51fedb49) (2026-07-01): New integration enables low-latency conversational AI, expanding language models beyond text into real-time audio interfaces.
 - [New Training Method Teaches AI Models to Recognize Their Own Limitations](https://aiglimpse.ai/articles/new-training-method-teaches-ai-models-to-recognize-their-own-limitations-91900238) (2026-06-30): Reinforcement learning technique helps large language models express uncertainty accurately, addressing a critical trust and safety challenge.
 - [New Training Method Speeds Up AI Image Generation By 10x](https://aiglimpse.ai/articles/new-training-method-speeds-up-ai-image-generation-by-10x-96baa710) (2026-06-30): Researchers jointly train image tokenizers and generators to eliminate bottlenecks in visual AI systems.
 - [New Benchmark Exposes Flaws in AI Agent Training Methods](https://aiglimpse.ai/articles/new-benchmark-exposes-flaws-in-ai-agent-training-methods-d3d8151e) (2026-06-30): Researchers introduce QVal, a training-free evaluation framework that challenges assumptions about how to guide language models through complex, multi-step tasks.
@@ -48,8 +50,6 @@ All content is original reporting by the AI Glimpse newsroom. Primary sources ar
 - [OpenAI Study Charts AI's Reshaping of European Labor Market](https://aiglimpse.ai/articles/openai-study-charts-ais-reshaping-of-european-labor-market-4843796e) (2026-06-29): New research maps which EU jobs face automation, growth, or transformation as artificial intelligence deployment accelerates across the continent.
 - [SpaceX IPO Ignites Billion-Dollar Exit Surge Driven by AI Deals](https://aiglimpse.ai/articles/spacex-ipo-ignites-billion-dollar-exit-surge-driven-by-ai-deals-e13179af) (2026-06-29): Q2 2026 marks the strongest quarter for startup exits since 2021, powered by record-breaking space and AI company valuations.
 - [Stanford Research Exposes Racial Disparities in Automated Hiring Systems](https://aiglimpse.ai/articles/stanford-research-exposes-racial-disparities-in-automated-hiring-systems-1c50a97c) (2026-06-29): Large-scale study quantifies bias in real-world AI recruitment tools, raising urgent questions about vendor concentration and enforcement risk.
-- [HP Expands OpenAI Partnership to Embed AI Across Products](https://aiglimpse.ai/articles/hp-expands-openai-partnership-to-embed-ai-across-products-5b6019c7) (2026-06-28): The printer and computer maker scales generative AI integration into customer applications, developer tools, and business workflows.
-- [New Router Cuts LLM Routing Latency to Microseconds Without API Calls](https://aiglimpse.ai/articles/new-router-cuts-llm-routing-latency-to-microseconds-without-api-calls-619ef334) (2026-06-28): Wayfinder uses structural text analysis to sort cheap queries from expensive ones, potentially eliminating costly model inference in routing decisions.
 
 ## Explainers (evergreen)
 
@@ -68,7 +68,7 @@ All content is original reporting by the AI Glimpse newsroom. Primary sources ar
 
 - [Sitemap](https://aiglimpse.ai/sitemap.xml): All article URLs with publish dates (Google News format).
 - [RSS](https://aiglimpse.ai/rss.xml): 50 most recent articles (RSS 2.0).
-- [Full content index](https://aiglimpse.ai/llms-full.txt): Extended article list for LLM crawlers (436 articles).
+- [Full content index](https://aiglimpse.ai/llms-full.txt): Extended article list for LLM crawlers (438 articles).
 
 ## About
 

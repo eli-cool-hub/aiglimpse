@@ -3,7 +3,7 @@
 > Machine-readable index for AI assistants, answer engines, and research crawlers.
 > Summary version: https://aiglimpse.ai/llms.txt
 
-Total articles: 436 | Evergreen explainers: 10 | Generated: 2026-07-01
+Total articles: 438 | Evergreen explainers: 10 | Generated: 2026-07-01
 
 ## Evergreen explainers
 
@@ -78,6 +78,20 @@ Total articles: 436 | Evergreen explainers: 10 | Generated: 2026-07-01
 - Type: evergreen explainer (FAQ schema on page)
 
 ## All articles (newest first)
+
+### AI Models Learn to Explain Themselves Without Updated Training Data
+- URL: https://aiglimpse.ai/articles/ai-models-learn-to-explain-themselves-without-updated-training-data-9c7d8ce8
+- Published: 2026-06-30
+- Category: research
+- Summary: Research reveals language models can develop faithful self-explanations even when trained on outdated supervision, tracking behavioral changes automatically.
+- Source: http://arxiv.org/abs/2606.32038v1
+
+### Cerebras and Hugging Face Deploy Gemma 4 for Streaming Voice Applications
+- URL: https://aiglimpse.ai/articles/cerebras-and-hugging-face-deploy-gemma-4-for-streaming-voice-applications-51fedb49
+- Published: 2026-07-01
+- Category: tools
+- Summary: New integration enables low-latency conversational AI, expanding language models beyond text into real-time audio interfaces.
+- Source: https://huggingface.co/blog/cerebras-gemma4-voice-ai
 
 ### New Training Method Teaches AI Models to Recognize Their Own Limitations
 - URL: https://aiglimpse.ai/articles/new-training-method-teaches-ai-models-to-recognize-their-own-limitations-91900238

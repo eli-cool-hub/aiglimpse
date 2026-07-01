@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "ai-models-learn-to-explain-themselves-without-updated-training-data-9c7d8ce8",
+      "title": "AI Models Learn to Explain Themselves Without Updated Training Data",
+      "subtitle": "Research reveals language models can develop faithful self-explanations even when trained on outdated supervision, tracking behavioral changes automatically.",
+      "category": "research",
+      "publishedAt": "2026-06-30T17:59:32.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2606.32038v1",
+      "sourceName": "arXiv (Zifan Carl Guo, Laura Ruis, Jacob Andreas, Belinda Z. Li)",
+      "sourceTier": 1,
+      "image": "/images/articles/ai-models-learn-to-explain-themselves-without-updated-training-data-9c7d8ce8.jpg"
+    },
+    {
+      "slug": "cerebras-and-hugging-face-deploy-gemma-4-for-streaming-voice-applications-51fedb49",
+      "title": "Cerebras and Hugging Face Deploy Gemma 4 for Streaming Voice Applications",
+      "subtitle": "New integration enables low-latency conversational AI, expanding language models beyond text into real-time audio interfaces.",
+      "category": "tools",
+      "publishedAt": "2026-07-01T00:00:00.000Z",
+      "sourceUrl": "https://huggingface.co/blog/cerebras-gemma4-voice-ai",
+      "sourceName": "Hugging Face",
+      "sourceTier": 1,
+      "image": "/images/articles/cerebras-and-hugging-face-deploy-gemma-4-for-streaming-voice-applications-51fedb49.jpg"
+    },
+    {
       "slug": "new-training-method-teaches-ai-models-to-recognize-their-own-limitations-91900238",
       "title": "New Training Method Teaches AI Models to Recognize Their Own Limitations",
       "subtitle": "Reinforcement learning technique helps large language models express uncertainty accurately, addressing a critical trust and safety challenge.",
@@ -5241,6 +5263,8 @@
     "f1fc87e45afac9a7",
     "d3d8151eb2b1d744",
     "96baa710b5a1091a",
-    "919002388b06425f"
+    "919002388b06425f",
+    "51fedb493c2a10c2",
+    "9c7d8ce826068923"
   ]
 }

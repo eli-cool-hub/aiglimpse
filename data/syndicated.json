@@ -5654,6 +5654,42 @@
         "devto": true,
         "hashnode": false
       }
+    },
+    "cerebras-and-hugging-face-deploy-gemma-4-for-streaming-voice-applications-51fedb49": {
+      "syndicated_at": "2026-07-01T16:28:12.633Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/cerebras-and-hugging-face-deploy-gemma-4-for-streaming-voice-applications-3i8k",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 465,
+      "category": "tools",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
+    },
+    "ai-models-learn-to-explain-themselves-without-updated-training-data-9c7d8ce8": {
+      "syndicated_at": "2026-07-01T16:28:29.062Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/ai-models-learn-to-explain-themselves-without-updated-training-data-36mh",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 502,
+      "category": "research",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
     }
   }
 }
