@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "new-training-method-teaches-ai-models-to-recognize-their-own-limitations-91900238",
+      "title": "New Training Method Teaches AI Models to Recognize Their Own Limitations",
+      "subtitle": "Reinforcement learning technique helps large language models express uncertainty accurately, addressing a critical trust and safety challenge.",
+      "category": "research",
+      "publishedAt": "2026-06-30T17:56:01.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2606.32032v1",
+      "sourceName": "arXiv (Gabrielle Kaili-May Liu, Avi Caciularu, Gal Yona, Idan Szpek…)",
+      "sourceTier": 1,
+      "image": "/images/articles/new-training-method-teaches-ai-models-to-recognize-their-own-limitations-91900238.jpg"
+    },
+    {
+      "slug": "new-training-method-speeds-up-ai-image-generation-by-10x-96baa710",
+      "title": "New Training Method Speeds Up AI Image Generation By 10x",
+      "subtitle": "Researchers jointly train image tokenizers and generators to eliminate bottlenecks in visual AI systems.",
+      "category": "research",
+      "publishedAt": "2026-06-30T17:59:57.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2606.32039v1",
+      "sourceName": "arXiv (Bin Lin, Zheyuan Liu, Chenguo Lin, Sixiang Chen, Yunyang Ge,…)",
+      "sourceTier": 1,
+      "image": "/images/articles/new-training-method-speeds-up-ai-image-generation-by-10x-96baa710.jpg"
+    },
+    {
       "slug": "new-benchmark-exposes-flaws-in-ai-agent-training-methods-d3d8151e",
       "title": "New Benchmark Exposes Flaws in AI Agent Training Methods",
       "subtitle": "Researchers introduce QVal, a training-free evaluation framework that challenges assumptions about how to guide language models through complex, multi-step tasks.",
@@ -5217,6 +5239,8 @@
     "13b1ccdcd3d42458",
     "bc51df6b247f4c62",
     "f1fc87e45afac9a7",
-    "d3d8151eb2b1d744"
+    "d3d8151eb2b1d744",
+    "96baa710b5a1091a",
+    "919002388b06425f"
   ]
 }

@@ -7,6 +7,22 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>New Training Method Teaches AI Models to Recognize Their Own Limitations</title>
+      <link>https://aiglimpse.ai/articles/new-training-method-teaches-ai-models-to-recognize-their-own-limitations-91900238</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-training-method-teaches-ai-models-to-recognize-their-own-limitations-91900238</guid>
+      <description>Reinforcement learning technique helps large language models express uncertainty accurately, addressing a critical trust and safety challenge.</description>
+      <pubDate>Tue, 30 Jun 2026 17:56:01 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
+      <title>New Training Method Speeds Up AI Image Generation By 10x</title>
+      <link>https://aiglimpse.ai/articles/new-training-method-speeds-up-ai-image-generation-by-10x-96baa710</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-training-method-speeds-up-ai-image-generation-by-10x-96baa710</guid>
+      <description>Researchers jointly train image tokenizers and generators to eliminate bottlenecks in visual AI systems.</description>
+      <pubDate>Tue, 30 Jun 2026 17:59:57 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
       <title>New Benchmark Exposes Flaws in AI Agent Training Methods</title>
       <link>https://aiglimpse.ai/articles/new-benchmark-exposes-flaws-in-ai-agent-training-methods-d3d8151e</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/new-benchmark-exposes-flaws-in-ai-agent-training-methods-d3d8151e</guid>
@@ -388,22 +404,6 @@
       <guid isPermaLink="true">https://aiglimpse.ai/articles/asian-ai-labs-build-homegrown-alternatives-as-us-export-controls-reshape-market-aa530456</guid>
       <description>A wave of new language models from Asia threatens to upend American AI dominance as regulatory barriers push development offshore.</description>
       <pubDate>Sat, 27 Jun 2026 12:00:00 GMT</pubDate>
-      <category>AI Business</category>
-    </item>
-    <item>
-      <title>DeepSeek's DSpark Technique Cuts LLM Inference Time in Half</title>
-      <link>https://aiglimpse.ai/articles/deepseeks-dspark-technique-cuts-llm-inference-time-in-half-d90e6401</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/deepseeks-dspark-technique-cuts-llm-inference-time-in-half-d90e6401</guid>
-      <description>New speculative decoding method enables faster AI model responses by predicting multiple tokens simultaneously.</description>
-      <pubDate>Sat, 27 Jun 2026 09:18:52 GMT</pubDate>
-      <category>LLMs &amp; Chatbots</category>
-    </item>
-    <item>
-      <title>Apple Vision Pro Leader Defects to OpenAI Hardware Division</title>
-      <link>https://aiglimpse.ai/articles/apple-vision-pro-leader-defects-to-openai-hardware-division-c709d3d7</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/apple-vision-pro-leader-defects-to-openai-hardware-division-c709d3d7</guid>
-      <description>Executive departure signals intensifying competition between tech giants in AI-powered devices and spatial computing.</description>
-      <pubDate>Sat, 27 Jun 2026 16:45:09 GMT</pubDate>
       <category>AI Business</category>
     </item>
   </channel>

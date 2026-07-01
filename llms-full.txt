@@ -3,7 +3,7 @@
 > Machine-readable index for AI assistants, answer engines, and research crawlers.
 > Summary version: https://aiglimpse.ai/llms.txt
 
-Total articles: 434 | Evergreen explainers: 10 | Generated: 2026-07-01
+Total articles: 436 | Evergreen explainers: 10 | Generated: 2026-07-01
 
 ## Evergreen explainers
 
@@ -78,6 +78,20 @@ Total articles: 434 | Evergreen explainers: 10 | Generated: 2026-07-01
 - Type: evergreen explainer (FAQ schema on page)
 
 ## All articles (newest first)
+
+### New Training Method Teaches AI Models to Recognize Their Own Limitations
+- URL: https://aiglimpse.ai/articles/new-training-method-teaches-ai-models-to-recognize-their-own-limitations-91900238
+- Published: 2026-06-30
+- Category: research
+- Summary: Reinforcement learning technique helps large language models express uncertainty accurately, addressing a critical trust and safety challenge.
+- Source: http://arxiv.org/abs/2606.32032v1
+
+### New Training Method Speeds Up AI Image Generation By 10x
+- URL: https://aiglimpse.ai/articles/new-training-method-speeds-up-ai-image-generation-by-10x-96baa710
+- Published: 2026-06-30
+- Category: research
+- Summary: Researchers jointly train image tokenizers and generators to eliminate bottlenecks in visual AI systems.
+- Source: http://arxiv.org/abs/2606.32039v1
 
 ### New Benchmark Exposes Flaws in AI Agent Training Methods
 - URL: https://aiglimpse.ai/articles/new-benchmark-exposes-flaws-in-ai-agent-training-methods-d3d8151e

@@ -5618,6 +5618,42 @@
         "devto": true,
         "hashnode": false
       }
+    },
+    "new-training-method-speeds-up-ai-image-generation-by-10x-96baa710": {
+      "syndicated_at": "2026-07-01T12:35:14.817Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/new-training-method-speeds-up-ai-image-generation-by-10x-52ga",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 441,
+      "category": "research",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
+    },
+    "new-training-method-teaches-ai-models-to-recognize-their-own-limitations-91900238": {
+      "syndicated_at": "2026-07-01T12:35:28.197Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/new-training-method-teaches-ai-models-to-recognize-their-own-limitations-21hm",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 538,
+      "category": "research",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
     }
   }
 }
