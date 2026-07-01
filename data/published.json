@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "spacex-shows-investors-handheld-ai-device-signaling-telecom-ambitions-7450d28b",
+      "title": "SpaceX Shows Investors Handheld AI Device, Signaling Telecom Ambitions",
+      "subtitle": "The aerospace company's prototype suggests broader plans to integrate artificial intelligence into consumer hardware and wireless networks.",
+      "category": "business",
+      "publishedAt": "2026-07-01T18:54:18.000Z",
+      "sourceUrl": "https://techcrunch.com/2026/07/01/spacex-has-an-ai-device-prototype-and-it-sure-sounds-phone-ish/",
+      "sourceName": "TechCrunch AI",
+      "sourceTier": 2,
+      "image": "/images/articles/spacex-shows-investors-handheld-ai-device-signaling-telecom-ambitions-7450d28b.jpg"
+    },
+    {
       "slug": "ai-models-learn-to-explain-themselves-without-updated-training-data-9c7d8ce8",
       "title": "AI Models Learn to Explain Themselves Without Updated Training Data",
       "subtitle": "Research reveals language models can develop faithful self-explanations even when trained on outdated supervision, tracking behavioral changes automatically.",
@@ -5265,6 +5276,7 @@
     "96baa710b5a1091a",
     "919002388b06425f",
     "51fedb493c2a10c2",
-    "9c7d8ce826068923"
+    "9c7d8ce826068923",
+    "7450d28b7329ab73"
   ]
 }
