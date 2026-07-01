@@ -20,6 +20,9 @@ All content is original reporting by the AI Glimpse newsroom. Primary sources ar
 
 ## Recent articles
 
+- [New Benchmark Exposes Flaws in AI Agent Training Methods](https://aiglimpse.ai/articles/new-benchmark-exposes-flaws-in-ai-agent-training-methods-d3d8151e) (2026-06-30): Researchers introduce QVal, a training-free evaluation framework that challenges assumptions about how to guide language models through complex, multi-step tasks.
+- [New AI Architecture Tackles Low-Resolution Face Recognition](https://aiglimpse.ai/articles/new-ai-architecture-tackles-low-resolution-face-recognition-f1fc87e4) (2026-06-30): Researchers apply mixture-of-experts technique to improve facial identification from degraded images, achieving state-of-the-art results.
+- [LLM API pricing compared in 2026: which provider costs least](https://aiglimpse.ai/articles/llm-api-pricing-comparison-2026) (2026-07-01): Per-token pricing, context windows, and batch discounts across OpenAI, Anthropic, Google, and newer challengers.
 - [OpenAI Releases GeneBench-Pro to Evaluate AI in Life Sciences](https://aiglimpse.ai/articles/openai-releases-genebench-pro-to-evaluate-ai-in-life-sciences-bc51df6b) (2026-06-30): New benchmark measures artificial intelligence capabilities across genomics and biological research using authentic experimental data.
 - [New AI Method Lets Robots Improvise With Everyday Objects as Tools](https://aiglimpse.ai/articles/new-ai-method-lets-robots-improvise-with-everyday-objects-as-tools-13b1ccdc) (2026-06-29): Researchers develop a system that enables robots to identify and use any object as a tool for novel tasks, bypassing the need for extensive training data.
 - [ChatGPT Use Cases Multiply as Global User Base Deepens Engagement](https://aiglimpse.ai/articles/chatgpt-use-cases-multiply-as-global-user-base-deepens-engagement-f42e1e30) (2026-06-30): New adoption metrics reveal sustained growth across regions and languages, signaling the chatbot's expanding role in daily workflows.
@@ -47,12 +50,10 @@ All content is original reporting by the AI Glimpse newsroom. Primary sources ar
 - [New Router Cuts LLM Routing Latency to Microseconds Without API Calls](https://aiglimpse.ai/articles/new-router-cuts-llm-routing-latency-to-microseconds-without-api-calls-619ef334) (2026-06-28): Wayfinder uses structural text analysis to sort cheap queries from expensive ones, potentially eliminating costly model inference in routing decisions.
 - [Chinese AI Model Closes Gap With US Leaders on Security Tasks](https://aiglimpse.ai/articles/chinese-ai-model-closes-gap-with-us-leaders-on-security-tasks-77573592) (2026-06-28): Zhipu's latest release demonstrates competitive performance in vulnerability detection, raising fresh concerns about AI capability distribution.
 - [Open-Source GLM 5.2 Outperforms Anthropic's Claude on Security Tasks](https://aiglimpse.ai/articles/open-source-glm-52-outperforms-anthropics-claude-on-security-tasks-c345dd6e) (2026-06-28): New benchmark results suggest Chinese-developed LLM excels at code vulnerability detection, challenging established players in specialized AI domains.
-- [Suno Builds Artist Pathway as AI Music Platform Seeks Legitimacy](https://aiglimpse.ai/articles/suno-builds-artist-pathway-as-ai-music-platform-seeks-legitimacy-c3133fc9) (2026-06-28): The generative music startup launches an incubator to cultivate independent creators while asking them to license their work back to the platform.
-- [Developer Tests Claude AI for Medical Image Analysis](https://aiglimpse.ai/articles/developer-tests-claude-ai-for-medical-image-analysis-5e6e0777) (2026-06-28): A programmer explored whether large language models with code execution can provide meaningful second opinions on medical imaging, raising questions about AI's emerging diagnostic potential.
-- [Ford Brings Back Veteran Engineers as AI Automation Proves Inadequate](https://aiglimpse.ai/articles/ford-brings-back-veteran-engineers-as-ai-automation-proves-inadequate-63e94e8f) (2026-06-28): The automaker's bet on AI-driven design and manufacturing fell short, forcing a strategic retreat to experienced human talent.
 
 ## Explainers (evergreen)
 
+- [LLM API pricing compared in 2026: which provider costs least](https://aiglimpse.ai/articles/llm-api-pricing-comparison-2026) (2026-07-01): Per-token pricing, context windows, and batch discounts across OpenAI, Anthropic, Google, and newer challengers.
 - [AI Transcription Pricing 2026: Whisper vs Deepgram vs AssemblyAI](https://aiglimpse.ai/articles/ai-transcription-pricing-comparison-2026) (2026-06-28): Compare per-minute rates, free tiers, and accuracy across the top speech-to-text APIs.
 - [Vector Databases for RAG: Pinecone, pgvector, Chroma, and How to Choose](https://aiglimpse.ai/articles/vector-databases-rag-guide-2026) (2026-06-24): A technical guide to selecting the right embeddings index for retrieval-augmented generation systems.
 - [What Is the Model Context Protocol? A Developer's Guide](https://aiglimpse.ai/articles/what-is-model-context-protocol-mcp) (2026-06-17): How MCP standardizes connections between LLMs and external tools, data sources, and APIs.
@@ -67,7 +68,7 @@ All content is original reporting by the AI Glimpse newsroom. Primary sources ar
 
 - [Sitemap](https://aiglimpse.ai/sitemap.xml): All article URLs with publish dates (Google News format).
 - [RSS](https://aiglimpse.ai/rss.xml): 50 most recent articles (RSS 2.0).
-- [Full content index](https://aiglimpse.ai/llms-full.txt): Extended article list for LLM crawlers (431 articles).
+- [Full content index](https://aiglimpse.ai/llms-full.txt): Extended article list for LLM crawlers (434 articles).
 
 ## About
 

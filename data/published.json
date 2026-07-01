@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "new-benchmark-exposes-flaws-in-ai-agent-training-methods-d3d8151e",
+      "title": "New Benchmark Exposes Flaws in AI Agent Training Methods",
+      "subtitle": "Researchers introduce QVal, a training-free evaluation framework that challenges assumptions about how to guide language models through complex, multi-step tasks.",
+      "category": "research",
+      "publishedAt": "2026-06-30T17:58:23.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2606.32034v1",
+      "sourceName": "arXiv (Sergio Hernández-Gutiérrez, Matteo Merler, Ilze Amanda Auzin…)",
+      "sourceTier": 1,
+      "image": "/images/articles/new-benchmark-exposes-flaws-in-ai-agent-training-methods-d3d8151e.jpg"
+    },
+    {
+      "slug": "new-ai-architecture-tackles-low-resolution-face-recognition-f1fc87e4",
+      "title": "New AI Architecture Tackles Low-Resolution Face Recognition",
+      "subtitle": "Researchers apply mixture-of-experts technique to improve facial identification from degraded images, achieving state-of-the-art results.",
+      "category": "research",
+      "publishedAt": "2026-06-30T17:59:57.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2606.32040v1",
+      "sourceName": "arXiv (Kartik Narayan, Vishal M. Patel)",
+      "sourceTier": 1,
+      "image": "/images/articles/new-ai-architecture-tackles-low-resolution-face-recognition-f1fc87e4.jpg"
+    },
+    {
       "slug": "llm-api-pricing-comparison-2026",
       "title": "LLM API pricing compared in 2026: which provider costs least",
       "subtitle": "Per-token pricing, context windows, and batch discounts across OpenAI, Anthropic, Google, and newer challengers.",
@@ -5193,6 +5215,8 @@
     "89624d17cd5e2fad",
     "f42e1e3077919600",
     "13b1ccdcd3d42458",
-    "bc51df6b247f4c62"
+    "bc51df6b247f4c62",
+    "f1fc87e45afac9a7",
+    "d3d8151eb2b1d744"
   ]
 }

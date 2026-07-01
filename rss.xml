@@ -7,6 +7,30 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>New Benchmark Exposes Flaws in AI Agent Training Methods</title>
+      <link>https://aiglimpse.ai/articles/new-benchmark-exposes-flaws-in-ai-agent-training-methods-d3d8151e</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-benchmark-exposes-flaws-in-ai-agent-training-methods-d3d8151e</guid>
+      <description>Researchers introduce QVal, a training-free evaluation framework that challenges assumptions about how to guide language models through complex, multi-step tasks.</description>
+      <pubDate>Tue, 30 Jun 2026 17:58:23 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
+      <title>New AI Architecture Tackles Low-Resolution Face Recognition</title>
+      <link>https://aiglimpse.ai/articles/new-ai-architecture-tackles-low-resolution-face-recognition-f1fc87e4</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-ai-architecture-tackles-low-resolution-face-recognition-f1fc87e4</guid>
+      <description>Researchers apply mixture-of-experts technique to improve facial identification from degraded images, achieving state-of-the-art results.</description>
+      <pubDate>Tue, 30 Jun 2026 17:59:57 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
+      <title>LLM API pricing compared in 2026: which provider costs least</title>
+      <link>https://aiglimpse.ai/articles/llm-api-pricing-comparison-2026</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/llm-api-pricing-comparison-2026</guid>
+      <description>Per-token pricing, context windows, and batch discounts across OpenAI, Anthropic, Google, and newer challengers.</description>
+      <pubDate>Wed, 01 Jul 2026 09:32:52 GMT</pubDate>
+      <category>LLMs &amp; Chatbots</category>
+    </item>
+    <item>
       <title>OpenAI Releases GeneBench-Pro to Evaluate AI in Life Sciences</title>
       <link>https://aiglimpse.ai/articles/openai-releases-genebench-pro-to-evaluate-ai-in-life-sciences-bc51df6b</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/openai-releases-genebench-pro-to-evaluate-ai-in-life-sciences-bc51df6b</guid>
@@ -381,30 +405,6 @@
       <description>Executive departure signals intensifying competition between tech giants in AI-powered devices and spatial computing.</description>
       <pubDate>Sat, 27 Jun 2026 16:45:09 GMT</pubDate>
       <category>AI Business</category>
-    </item>
-    <item>
-      <title>AI Model Generates Linguistically Consistent Constructed Languages</title>
-      <link>https://aiglimpse.ai/articles/ai-model-generates-linguistically-consistent-constructed-languages-504e651e</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/ai-model-generates-linguistically-consistent-constructed-languages-504e651e</guid>
-      <description>ConlangCrafter demonstrates that machine learning can create novel language systems with internal coherence, opening new pathways for NLP research.</description>
-      <pubDate>Sat, 27 Jun 2026 13:00:01 GMT</pubDate>
-      <category>AI Research</category>
-    </item>
-    <item>
-      <title>Founder Uses AI to Personalize Cancer Treatment Strategy</title>
-      <link>https://aiglimpse.ai/articles/founder-uses-ai-to-personalize-cancer-treatment-strategy-30cfd60a</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/founder-uses-ai-to-personalize-cancer-treatment-strategy-30cfd60a</guid>
-      <description>A tech entrepreneur fed medical data into large language models to gain insights into his diagnosis, highlighting AI's emerging role in precision oncology.</description>
-      <pubDate>Sat, 27 Jun 2026 14:00:00 GMT</pubDate>
-      <category>AI Business</category>
-    </item>
-    <item>
-      <title>Apple's Price Hikes Reflect Broader AI Cost Crisis Across Tech</title>
-      <link>https://aiglimpse.ai/articles/apples-price-hikes-reflect-broader-ai-cost-crisis-across-tech-423c4068</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/apples-price-hikes-reflect-broader-ai-cost-crisis-across-tech-423c4068</guid>
-      <description>As hardware makers absorb infrastructure expenses from AI development, consumers face steeper bills for devices and services across the industry.</description>
-      <pubDate>Sat, 27 Jun 2026 13:30:00 GMT</pubDate>
-      <category>AI Tools &amp; Products</category>
     </item>
   </channel>
 </rss>

@@ -3,9 +3,16 @@
 > Machine-readable index for AI assistants, answer engines, and research crawlers.
 > Summary version: https://aiglimpse.ai/llms.txt
 
-Total articles: 431 | Evergreen explainers: 9 | Generated: 2026-07-01
+Total articles: 434 | Evergreen explainers: 10 | Generated: 2026-07-01
 
 ## Evergreen explainers
+
+### LLM API pricing compared in 2026: which provider costs least
+- URL: https://aiglimpse.ai/articles/llm-api-pricing-comparison-2026
+- Published: 2026-07-01
+- Category: llms
+- Summary: Per-token pricing, context windows, and batch discounts across OpenAI, Anthropic, Google, and newer challengers.
+- Type: evergreen explainer (FAQ schema on page)
 
 ### AI Transcription Pricing 2026: Whisper vs Deepgram vs AssemblyAI
 - URL: https://aiglimpse.ai/articles/ai-transcription-pricing-comparison-2026
@@ -71,6 +78,27 @@ Total articles: 431 | Evergreen explainers: 9 | Generated: 2026-07-01
 - Type: evergreen explainer (FAQ schema on page)
 
 ## All articles (newest first)
+
+### New Benchmark Exposes Flaws in AI Agent Training Methods
+- URL: https://aiglimpse.ai/articles/new-benchmark-exposes-flaws-in-ai-agent-training-methods-d3d8151e
+- Published: 2026-06-30
+- Category: research
+- Summary: Researchers introduce QVal, a training-free evaluation framework that challenges assumptions about how to guide language models through complex, multi-step tasks.
+- Source: http://arxiv.org/abs/2606.32034v1
+
+### New AI Architecture Tackles Low-Resolution Face Recognition
+- URL: https://aiglimpse.ai/articles/new-ai-architecture-tackles-low-resolution-face-recognition-f1fc87e4
+- Published: 2026-06-30
+- Category: research
+- Summary: Researchers apply mixture-of-experts technique to improve facial identification from degraded images, achieving state-of-the-art results.
+- Source: http://arxiv.org/abs/2606.32040v1
+
+### LLM API pricing compared in 2026: which provider costs least
+- URL: https://aiglimpse.ai/articles/llm-api-pricing-comparison-2026
+- Published: 2026-07-01
+- Category: llms
+- Summary: Per-token pricing, context windows, and batch discounts across OpenAI, Anthropic, Google, and newer challengers.
+- Type: evergreen explainer (FAQ schema on page)
 
 ### OpenAI Releases GeneBench-Pro to Evaluate AI in Life Sciences
 - URL: https://aiglimpse.ai/articles/openai-releases-genebench-pro-to-evaluate-ai-in-life-sciences-bc51df6b
