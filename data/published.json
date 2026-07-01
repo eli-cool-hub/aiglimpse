@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "openai-releases-genebench-pro-to-evaluate-ai-in-life-sciences-bc51df6b",
+      "title": "OpenAI Releases GeneBench-Pro to Evaluate AI in Life Sciences",
+      "subtitle": "New benchmark measures artificial intelligence capabilities across genomics and biological research using authentic experimental data.",
+      "category": "llms",
+      "publishedAt": "2026-06-30T00:00:00.000Z",
+      "sourceUrl": "https://openai.com/index/introducing-genebench-pro",
+      "sourceName": "OpenAI",
+      "sourceTier": 1,
+      "image": "/images/articles/openai-releases-genebench-pro-to-evaluate-ai-in-life-sciences-bc51df6b.jpg"
+    },
+    {
       "slug": "new-ai-method-lets-robots-improvise-with-everyday-objects-as-tools-13b1ccdc",
       "title": "New AI Method Lets Robots Improvise With Everyday Objects as Tools",
       "subtitle": "Researchers develop a system that enables robots to identify and use any object as a tool for novel tasks, bypassing the need for extensive training data.",
@@ -5169,6 +5180,7 @@
     "b877e3bf5fb44fe7",
     "89624d17cd5e2fad",
     "f42e1e3077919600",
-    "13b1ccdcd3d42458"
+    "13b1ccdcd3d42458",
+    "bc51df6b247f4c62"
   ]
 }

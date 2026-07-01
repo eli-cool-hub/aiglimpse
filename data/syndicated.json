@@ -5546,6 +5546,24 @@
         "devto": true,
         "hashnode": false
       }
+    },
+    "openai-releases-genebench-pro-to-evaluate-ai-in-life-sciences-bc51df6b": {
+      "syndicated_at": "2026-07-01T04:06:53.529Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/openai-releases-genebench-pro-to-evaluate-ai-in-life-sciences-1kmg",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 453,
+      "category": "llms",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
     }
   }
 }

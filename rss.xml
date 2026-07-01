@@ -7,6 +7,14 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>OpenAI Releases GeneBench-Pro to Evaluate AI in Life Sciences</title>
+      <link>https://aiglimpse.ai/articles/openai-releases-genebench-pro-to-evaluate-ai-in-life-sciences-bc51df6b</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/openai-releases-genebench-pro-to-evaluate-ai-in-life-sciences-bc51df6b</guid>
+      <description>New benchmark measures artificial intelligence capabilities across genomics and biological research using authentic experimental data.</description>
+      <pubDate>Tue, 30 Jun 2026 00:00:00 GMT</pubDate>
+      <category>LLMs &amp; Chatbots</category>
+    </item>
+    <item>
       <title>New AI Method Lets Robots Improvise With Everyday Objects as Tools</title>
       <link>https://aiglimpse.ai/articles/new-ai-method-lets-robots-improvise-with-everyday-objects-as-tools-13b1ccdc</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/new-ai-method-lets-robots-improvise-with-everyday-objects-as-tools-13b1ccdc</guid>
@@ -397,14 +405,6 @@
       <description>As hardware makers absorb infrastructure expenses from AI development, consumers face steeper bills for devices and services across the industry.</description>
       <pubDate>Sat, 27 Jun 2026 13:30:00 GMT</pubDate>
       <category>AI Tools &amp; Products</category>
-    </item>
-    <item>
-      <title>New Framework Bridges Gap Between Video Tracking and Precise Image Matting</title>
-      <link>https://aiglimpse.ai/articles/new-framework-bridges-gap-between-video-tracking-and-precise-image-matting-eeb1263a</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-framework-bridges-gap-between-video-tracking-and-precise-image-matting-eeb1263a</guid>
-      <description>Researchers achieve state-of-the-art video matting results by decoupling tracking from fine-detail extraction, without requiring specialized video training data.</description>
-      <pubDate>Thu, 25 Jun 2026 17:48:27 GMT</pubDate>
-      <category>AI Research</category>
     </item>
   </channel>
 </rss>
