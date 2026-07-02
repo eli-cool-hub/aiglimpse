@@ -3,7 +3,7 @@
 > Machine-readable index for AI assistants, answer engines, and research crawlers.
 > Summary version: https://aiglimpse.ai/llms.txt
 
-Total articles: 451 | Evergreen explainers: 10 | Generated: 2026-07-02
+Total articles: 452 | Evergreen explainers: 10 | Generated: 2026-07-02
 
 ## Evergreen explainers
 
@@ -78,6 +78,13 @@ Total articles: 451 | Evergreen explainers: 10 | Generated: 2026-07-02
 - Type: evergreen explainer (FAQ schema on page)
 
 ## All articles (newest first)
+
+### Splitting Transformer Tasks Boosts Language Model Efficiency
+- URL: https://aiglimpse.ai/articles/splitting-transformer-tasks-boosts-language-model-efficiency-202f73a3
+- Published: 2026-07-01
+- Category: research
+- Summary: New architecture separates prediction from memory, improving performance by 2-3 percent across downstream tasks.
+- Source: http://arxiv.org/abs/2607.01218v1
 
 ### New AI Framework Tackles 3D Texture Generation Using Video Models
 - URL: https://aiglimpse.ai/articles/new-ai-framework-tackles-3d-texture-generation-using-video-models-bf7ff0ef

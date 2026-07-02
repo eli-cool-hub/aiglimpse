@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "splitting-transformer-tasks-boosts-language-model-efficiency-202f73a3",
+      "title": "Splitting Transformer Tasks Boosts Language Model Efficiency",
+      "subtitle": "New architecture separates prediction from memory, improving performance by 2-3 percent across downstream tasks.",
+      "category": "research",
+      "publishedAt": "2026-07-01T17:55:09.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2607.01218v1",
+      "sourceName": "arXiv (Giovanni Monea, Nathan Godey, Kianté Brantley, Yoav Artzi)",
+      "sourceTier": 1,
+      "image": "/images/articles/splitting-transformer-tasks-boosts-language-model-efficiency-202f73a3.jpg"
+    },
+    {
       "slug": "new-ai-framework-tackles-3d-texture-generation-using-video-models-bf7ff0ef",
       "title": "New AI Framework Tackles 3D Texture Generation Using Video Models",
       "subtitle": "Researchers bridge the gap between 3D geometry synthesis and photorealistic surface details by leveraging pretrained video generation systems.",
@@ -5421,6 +5432,7 @@
     "d9ea02f7ae8508fc",
     "34c3e827dd033905",
     "609fa7a0f6aaf27e",
-    "bf7ff0efb731842e"
+    "bf7ff0efb731842e",
+    "202f73a32816593e"
   ]
 }

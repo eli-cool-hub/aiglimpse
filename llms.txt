@@ -20,6 +20,7 @@ All content is original reporting by the AI Glimpse newsroom. Primary sources ar
 
 ## Recent articles
 
+- [Splitting Transformer Tasks Boosts Language Model Efficiency](https://aiglimpse.ai/articles/splitting-transformer-tasks-boosts-language-model-efficiency-202f73a3) (2026-07-01): New architecture separates prediction from memory, improving performance by 2-3 percent across downstream tasks.
 - [New AI Framework Tackles 3D Texture Generation Using Video Models](https://aiglimpse.ai/articles/new-ai-framework-tackles-3d-texture-generation-using-video-models-bf7ff0ef) (2026-07-01): Researchers bridge the gap between 3D geometry synthesis and photorealistic surface details by leveraging pretrained video generation systems.
 - [New Framework Makes AI Reasoning Transparent and Auditable](https://aiglimpse.ai/articles/new-framework-makes-ai-reasoning-transparent-and-auditable-609fa7a0) (2026-07-01): Researchers demonstrate a verification system that traces AI logic step-by-step, catching hidden assumptions that fool conventional scoring methods.
 - [AI Infrastructure Attracts Record Venture Capital as Energy Demands Surge](https://aiglimpse.ai/articles/ai-infrastructure-attracts-record-venture-capital-as-energy-demands-surge-34c3e827) (2026-07-02): Together AI and specialized compute platforms raised nearly $3 billion this week, signaling investor confidence in AI's infrastructure bottleneck.
@@ -49,7 +50,6 @@ All content is original reporting by the AI Glimpse newsroom. Primary sources ar
 - [Asynchronous Pipeline Training Becomes Practical for Billion-Parameter Models](https://aiglimpse.ai/articles/asynchronous-pipeline-training-becomes-practical-for-billion-parameter-models-b122abc5) (2026-06-29): Researchers show that modern optimizers can handle delayed gradients at scale, unlocking faster LLM training without synchronization overhead.
 - [Hugging Face Centralizes Model Evaluations in Push for AI Transparency](https://aiglimpse.ai/articles/hugging-face-centralizes-model-evaluations-in-push-for-ai-transparency-0a0a3bf0) (2026-06-30): The platform now displays comprehensive benchmark results across all model cards, making AI performance comparisons more accessible to developers.
 - [New Method Lets 3D AI Models Understand Complex Language Queries](https://aiglimpse.ai/articles/new-method-lets-3d-ai-models-understand-complex-language-queries-495b7314) (2026-06-29): Researchers bypass CLIP limitations to enable spatial reasoning in 3D scene understanding, advancing embodied AI capabilities.
-- [New Framework Helps AI Agents Learn and Adapt During Deployment](https://aiglimpse.ai/articles/new-framework-helps-ai-agents-learn-and-adapt-during-deployment-0e49f2c9) (2026-06-29): Research introduces a system that continuously improves prediction accuracy without retraining, addressing a key bottleneck in autonomous agent planning.
 
 ## Explainers (evergreen)
 
@@ -68,7 +68,7 @@ All content is original reporting by the AI Glimpse newsroom. Primary sources ar
 
 - [Sitemap](https://aiglimpse.ai/sitemap.xml): All article URLs with publish dates (Google News format).
 - [RSS](https://aiglimpse.ai/rss.xml): 50 most recent articles (RSS 2.0).
-- [Full content index](https://aiglimpse.ai/llms-full.txt): Extended article list for LLM crawlers (451 articles).
+- [Full content index](https://aiglimpse.ai/llms-full.txt): Extended article list for LLM crawlers (452 articles).
 
 ## About
 
