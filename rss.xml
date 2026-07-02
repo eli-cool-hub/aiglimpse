@@ -7,6 +7,14 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>New AI Framework Tackles 3D Texture Generation Using Video Models</title>
+      <link>https://aiglimpse.ai/articles/new-ai-framework-tackles-3d-texture-generation-using-video-models-bf7ff0ef</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-ai-framework-tackles-3d-texture-generation-using-video-models-bf7ff0ef</guid>
+      <description>Researchers bridge the gap between 3D geometry synthesis and photorealistic surface details by leveraging pretrained video generation systems.</description>
+      <pubDate>Wed, 01 Jul 2026 17:56:39 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
       <title>New Framework Makes AI Reasoning Transparent and Auditable</title>
       <link>https://aiglimpse.ai/articles/new-framework-makes-ai-reasoning-transparent-and-auditable-609fa7a0</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/new-framework-makes-ai-reasoning-transparent-and-auditable-609fa7a0</guid>
@@ -397,14 +405,6 @@
       <description>The automaker's bet on AI-driven design and manufacturing fell short, forcing a strategic retreat to experienced human talent.</description>
       <pubDate>Sun, 28 Jun 2026 19:05:39 GMT</pubDate>
       <category>AI Business</category>
-    </item>
-    <item>
-      <title>Google Restricts Meta's Access to Gemini AI Technology</title>
-      <link>https://aiglimpse.ai/articles/google-restricts-metas-access-to-gemini-ai-technology-418b592d</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/google-restricts-metas-access-to-gemini-ai-technology-418b592d</guid>
-      <description>The search giant imposes new limitations on the social media company's use of its advanced language models, signaling rising tensions in AI partnerships.</description>
-      <pubDate>Sun, 28 Jun 2026 13:30:06 GMT</pubDate>
-      <category>LLMs &amp; Chatbots</category>
     </item>
   </channel>
 </rss>
