@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "microsoft-establishes-dedicated-ai-infrastructure-unit-with-25b-investment-92d2db45",
+      "title": "Microsoft Establishes Dedicated AI Infrastructure Unit With $2.5B Investment",
+      "subtitle": "The software giant joins competitors in building specialized deployment capabilities to accelerate enterprise adoption of artificial intelligence systems.",
+      "category": "business",
+      "publishedAt": "2026-07-02T13:53:00.000Z",
+      "sourceUrl": "https://techcrunch.com/2026/07/02/microsoft-launches-its-own-ai-deployment-company-with-2-5-billion-commitment/",
+      "sourceName": "TechCrunch AI",
+      "sourceTier": 2,
+      "image": "/images/articles/microsoft-establishes-dedicated-ai-infrastructure-unit-with-25b-investment-92d2db45.jpg"
+    },
+    {
+      "slug": "researchers-show-memory-management-is-a-trainable-ai-skill-4ff30fe1",
+      "title": "Researchers Show Memory Management Is a Trainable AI Skill",
+      "subtitle": "A new framework automates how language models learn to store and retrieve information, quadrupling performance on complex tasks.",
+      "category": "research",
+      "publishedAt": "2026-07-01T17:57:03.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2607.01224v1",
+      "sourceName": "arXiv (Shengguang Wu, Hao Zhu, Yuhui Zhang, Xiaohan Wang, Serena Ye…)",
+      "sourceTier": 1,
+      "image": "/images/articles/researchers-show-memory-management-is-a-trainable-ai-skill-4ff30fe1.jpg"
+    },
+    {
       "slug": "researchers-develop-method-to-uncover-hidden-biases-in-ai-models-cb0b463c",
       "title": "Researchers Develop Method to Uncover Hidden Biases in AI Models",
       "subtitle": "A new detection technique exposes preferential biases deliberately embedded in language models that evade traditional auditing methods.",
@@ -5349,6 +5371,8 @@
     "995ddb5bf740528c",
     "cf3c31eda0968323",
     "17b0179771e9e1cd",
-    "cb0b463cb7639363"
+    "cb0b463cb7639363",
+    "4ff30fe167b7cdc0",
+    "92d2db450ab0ff31"
   ]
 }
