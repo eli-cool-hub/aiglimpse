@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "new-framework-makes-ai-reasoning-transparent-and-auditable-609fa7a0",
+      "title": "New Framework Makes AI Reasoning Transparent and Auditable",
+      "subtitle": "Researchers demonstrate a verification system that traces AI logic step-by-step, catching hidden assumptions that fool conventional scoring methods.",
+      "category": "research",
+      "publishedAt": "2026-07-01T17:56:42.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2607.01223v1",
+      "sourceName": "arXiv (Ben Slivinski, Michael Saldivar)",
+      "sourceTier": 1,
+      "image": "/images/articles/new-framework-makes-ai-reasoning-transparent-and-auditable-609fa7a0.jpg"
+    },
+    {
       "slug": "ai-infrastructure-attracts-record-venture-capital-as-energy-demands-surge-34c3e827",
       "title": "AI Infrastructure Attracts Record Venture Capital as Energy Demands Surge",
       "subtitle": "Together AI and specialized compute platforms raised nearly $3 billion this week, signaling investor confidence in AI's infrastructure bottleneck.",
@@ -5397,6 +5408,7 @@
     "4ff30fe167b7cdc0",
     "92d2db450ab0ff31",
     "d9ea02f7ae8508fc",
-    "34c3e827dd033905"
+    "34c3e827dd033905",
+    "609fa7a0f6aaf27e"
   ]
 }
