@@ -43,7 +43,7 @@ export function headerHtml(activePath = '') {
           ${navHtml(activePath)}
         </nav>
         <div class="header-actions">
-          <a class="search-btn" href="/search.html" aria-label="Search">
+          <a class="search-btn" href="/search" aria-label="Search">
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
               <circle cx="11" cy="11" r="7"/><path d="M21 21l-4.35-4.35"/>
             </svg>
@@ -66,7 +66,7 @@ export function headerHtml(activePath = '') {
       <button class="mobile-menu-close" aria-label="Close menu" style="font-size:24px;">×</button>
     </div>
     ${NAV_LINKS.map(l => `<a href="${l.href}">${l.label}</a>`).join('\n    ')}
-    <a href="/search.html">Search</a>
+    <a href="/search">Search</a>
     <a href="/pages/about">About</a>
     <a href="#newsletter">Subscribe</a>
   </aside>`;
@@ -97,7 +97,7 @@ export function footerHtml() {
             <li><a href="/pages/editorial">Editorial Standards</a></li>
             <li><a href="/pages/advertise">Advertise</a></li>
             <li><a href="/guides.html">Guides &amp; Explainers</a></li>
-            <li><a href="/search.html">Search</a></li>
+            <li><a href="/search">Search</a></li>
           </ul>
         </div>
         <div class="footer-col">

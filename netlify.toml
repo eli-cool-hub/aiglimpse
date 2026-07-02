@@ -14,11 +14,6 @@
   to = "/articles/:splat.html"
   status = 200
 
-[[redirects]]
-  from = "/search"
-  to = "/search.html"
-  status = 200
-
 # 404 fallback
 [[redirects]]
   from = "/*"
