@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "researchers-develop-method-to-uncover-hidden-biases-in-ai-models-cb0b463c",
+      "title": "Researchers Develop Method to Uncover Hidden Biases in AI Models",
+      "subtitle": "A new detection technique exposes preferential biases deliberately embedded in language models that evade traditional auditing methods.",
+      "category": "research",
+      "publishedAt": "2026-07-01T17:46:33.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2607.01208v1",
+      "sourceName": "arXiv (Shayan Talaei, Abhinav Chinta, Devvrit Khatri, Amin Karbasi,…)",
+      "sourceTier": 1,
+      "image": "/images/articles/researchers-develop-method-to-uncover-hidden-biases-in-ai-models-cb0b463c.jpg"
+    },
+    {
+      "slug": "language-based-feedback-helps-ai-learn-better-from-flawed-training-data-17b01797",
+      "title": "Language-Based Feedback Helps AI Learn Better From Flawed Training Data",
+      "subtitle": "Researchers show that natural language critiques enable more robust policy learning than traditional scalar feedback methods.",
+      "category": "research",
+      "publishedAt": "2026-07-01T17:57:22.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2607.01225v1",
+      "sourceName": "arXiv (Chih-Han Yang, Dai-Jie Wu, Yun-Ping Huang, Ping-Chun Hsieh, …)",
+      "sourceTier": 1,
+      "image": "/images/articles/language-based-feedback-helps-ai-learn-better-from-flawed-training-data-17b01797.svg"
+    },
+    {
       "slug": "middle-transformer-layers-hold-key-to-efficient-ai-training-cf3c31ed",
       "title": "Middle Transformer Layers Hold Key to Efficient AI Training",
       "subtitle": "Research reveals that reinforcement learning gains concentrate in just one or two middle layers, potentially revolutionizing how we fine-tune large language models.",
@@ -5325,6 +5347,8 @@
     "12be0fb983221deb",
     "4d15693fdbc6b26a",
     "995ddb5bf740528c",
-    "cf3c31eda0968323"
+    "cf3c31eda0968323",
+    "17b0179771e9e1cd",
+    "cb0b463cb7639363"
   ]
 }

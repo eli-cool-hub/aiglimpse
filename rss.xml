@@ -7,6 +7,22 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Researchers Develop Method to Uncover Hidden Biases in AI Models</title>
+      <link>https://aiglimpse.ai/articles/researchers-develop-method-to-uncover-hidden-biases-in-ai-models-cb0b463c</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/researchers-develop-method-to-uncover-hidden-biases-in-ai-models-cb0b463c</guid>
+      <description>A new detection technique exposes preferential biases deliberately embedded in language models that evade traditional auditing methods.</description>
+      <pubDate>Wed, 01 Jul 2026 17:46:33 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
+      <title>Language-Based Feedback Helps AI Learn Better From Flawed Training Data</title>
+      <link>https://aiglimpse.ai/articles/language-based-feedback-helps-ai-learn-better-from-flawed-training-data-17b01797</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/language-based-feedback-helps-ai-learn-better-from-flawed-training-data-17b01797</guid>
+      <description>Researchers show that natural language critiques enable more robust policy learning than traditional scalar feedback methods.</description>
+      <pubDate>Wed, 01 Jul 2026 17:57:22 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
       <title>Middle Transformer Layers Hold Key to Efficient AI Training</title>
       <link>https://aiglimpse.ai/articles/middle-transformer-layers-hold-key-to-efficient-ai-training-cf3c31ed</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/middle-transformer-layers-hold-key-to-efficient-ai-training-cf3c31ed</guid>
@@ -389,22 +405,6 @@
       <description>A thriving underground market for discounted Claude tokens reveals security risks that may outweigh financial savings for developers.</description>
       <pubDate>Sun, 28 Jun 2026 00:00:00 GMT</pubDate>
       <category>LLMs &amp; Chatbots</category>
-    </item>
-    <item>
-      <title>White House Clears Anthropic to Deploy Advanced AI Model to US Firms</title>
-      <link>https://aiglimpse.ai/articles/white-house-clears-anthropic-to-deploy-advanced-ai-model-to-us-firms-f374b655</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/white-house-clears-anthropic-to-deploy-advanced-ai-model-to-us-firms-f374b655</guid>
-      <description>Following high-level talks, the administration authorizes limited access to Mythos, marking a shift in AI export policy.</description>
-      <pubDate>Sat, 27 Jun 2026 00:26:14 GMT</pubDate>
-      <category>AI Tools &amp; Products</category>
-    </item>
-    <item>
-      <title>Open-Source Tool Intelligently Routes Queries Between Local and Cloud LLMs</title>
-      <link>https://aiglimpse.ai/articles/open-source-tool-intelligently-routes-queries-between-local-and-cloud-llms-1565f9a4</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/open-source-tool-intelligently-routes-queries-between-local-and-cloud-llms-1565f9a4</guid>
-      <description>Wayfinder Router tackles a key infrastructure challenge: deciding whether to process AI queries locally or send them to hosted services.</description>
-      <pubDate>Sun, 28 Jun 2026 04:31:18 GMT</pubDate>
-      <category>AI Tools &amp; Products</category>
     </item>
   </channel>
 </rss>

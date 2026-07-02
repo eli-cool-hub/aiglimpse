@@ -3,7 +3,7 @@
 > Machine-readable index for AI assistants, answer engines, and research crawlers.
 > Summary version: https://aiglimpse.ai/llms.txt
 
-Total articles: 443 | Evergreen explainers: 10 | Generated: 2026-07-02
+Total articles: 445 | Evergreen explainers: 10 | Generated: 2026-07-02
 
 ## Evergreen explainers
 
@@ -78,6 +78,20 @@ Total articles: 443 | Evergreen explainers: 10 | Generated: 2026-07-02
 - Type: evergreen explainer (FAQ schema on page)
 
 ## All articles (newest first)
+
+### Researchers Develop Method to Uncover Hidden Biases in AI Models
+- URL: https://aiglimpse.ai/articles/researchers-develop-method-to-uncover-hidden-biases-in-ai-models-cb0b463c
+- Published: 2026-07-01
+- Category: research
+- Summary: A new detection technique exposes preferential biases deliberately embedded in language models that evade traditional auditing methods.
+- Source: http://arxiv.org/abs/2607.01208v1
+
+### Language-Based Feedback Helps AI Learn Better From Flawed Training Data
+- URL: https://aiglimpse.ai/articles/language-based-feedback-helps-ai-learn-better-from-flawed-training-data-17b01797
+- Published: 2026-07-01
+- Category: research
+- Summary: Researchers show that natural language critiques enable more robust policy learning than traditional scalar feedback methods.
+- Source: http://arxiv.org/abs/2607.01225v1
 
 ### Middle Transformer Layers Hold Key to Efficient AI Training
 - URL: https://aiglimpse.ai/articles/middle-transformer-layers-hold-key-to-efficient-ai-training-cf3c31ed
