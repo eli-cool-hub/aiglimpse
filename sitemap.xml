@@ -1,41 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
-  <url><loc>https://aiglimpse.ai/</loc><lastmod>2026-06-27</lastmod><changefreq>hourly</changefreq><priority>1</priority></url>
-  <url><loc>https://aiglimpse.ai/categories/llms</loc><lastmod>2026-06-27</lastmod><changefreq>hourly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://aiglimpse.ai/categories/research</loc><lastmod>2026-06-27</lastmod><changefreq>hourly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://aiglimpse.ai/categories/tools</loc><lastmod>2026-06-27</lastmod><changefreq>hourly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://aiglimpse.ai/categories/business</loc><lastmod>2026-06-27</lastmod><changefreq>hourly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://aiglimpse.ai/categories/ethics</loc><lastmod>2026-06-27</lastmod><changefreq>hourly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://aiglimpse.ai/categories/industry</loc><lastmod>2026-06-27</lastmod><changefreq>hourly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://aiglimpse.ai/categories/robotics</loc><lastmod>2026-06-27</lastmod><changefreq>hourly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://aiglimpse.ai/guides.html</loc><lastmod>2026-06-27</lastmod><changefreq>weekly</changefreq><priority>0.95</priority></url>
-  <url><loc>https://aiglimpse.ai/pages/about</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
-  <url><loc>https://aiglimpse.ai/pages/contact</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
-  <url><loc>https://aiglimpse.ai/pages/editorial</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.4</priority></url>
-  <url><loc>https://aiglimpse.ai/pages/advertise</loc><lastmod>2026-06-27</lastmod><changefreq>monthly</changefreq><priority>0.3</priority></url>
-  <url><loc>https://aiglimpse.ai/pages/privacy</loc><lastmod>2026-06-27</lastmod><changefreq>yearly</changefreq><priority>0.3</priority></url>
-  <url><loc>https://aiglimpse.ai/pages/terms</loc><lastmod>2026-06-27</lastmod><changefreq>yearly</changefreq><priority>0.3</priority></url>
-  <url><loc>https://aiglimpse.ai/categories/llms-2</loc><lastmod>2026-06-27</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
-  <url><loc>https://aiglimpse.ai/categories/llms-3</loc><lastmod>2026-06-27</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
-  <url><loc>https://aiglimpse.ai/categories/llms-4</loc><lastmod>2026-06-27</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
-  <url><loc>https://aiglimpse.ai/categories/research-2</loc><lastmod>2026-06-27</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
-  <url><loc>https://aiglimpse.ai/categories/research-3</loc><lastmod>2026-06-27</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
-  <url><loc>https://aiglimpse.ai/categories/research-4</loc><lastmod>2026-06-27</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
-  <url><loc>https://aiglimpse.ai/categories/research-5</loc><lastmod>2026-06-27</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
-  <url><loc>https://aiglimpse.ai/categories/research-6</loc><lastmod>2026-06-27</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
-  <url><loc>https://aiglimpse.ai/categories/research-7</loc><lastmod>2026-06-27</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
-  <url><loc>https://aiglimpse.ai/categories/research-8</loc><lastmod>2026-06-27</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
-  <url><loc>https://aiglimpse.ai/categories/tools-2</loc><lastmod>2026-06-27</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
-  <url><loc>https://aiglimpse.ai/categories/tools-3</loc><lastmod>2026-06-27</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
-  <url><loc>https://aiglimpse.ai/categories/tools-4</loc><lastmod>2026-06-27</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
-  <url><loc>https://aiglimpse.ai/categories/tools-5</loc><lastmod>2026-06-27</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
-  <url><loc>https://aiglimpse.ai/categories/tools-6</loc><lastmod>2026-06-27</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
-  <url><loc>https://aiglimpse.ai/categories/tools-7</loc><lastmod>2026-06-27</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
-  <url><loc>https://aiglimpse.ai/categories/business-2</loc><lastmod>2026-06-27</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
-  <url><loc>https://aiglimpse.ai/categories/business-3</loc><lastmod>2026-06-27</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
-  <url><loc>https://aiglimpse.ai/categories/business-4</loc><lastmod>2026-06-27</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
+  <url><loc>https://aiglimpse.ai/</loc><lastmod>2026-07-01</lastmod><changefreq>hourly</changefreq><priority>1</priority></url>
+  <url><loc>https://aiglimpse.ai/categories/llms</loc><lastmod>2026-07-01</lastmod><changefreq>hourly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://aiglimpse.ai/categories/research</loc><lastmod>2026-07-01</lastmod><changefreq>hourly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://aiglimpse.ai/categories/tools</loc><lastmod>2026-07-01</lastmod><changefreq>hourly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://aiglimpse.ai/categories/business</loc><lastmod>2026-07-01</lastmod><changefreq>hourly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://aiglimpse.ai/categories/ethics</loc><lastmod>2026-07-01</lastmod><changefreq>hourly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://aiglimpse.ai/categories/industry</loc><lastmod>2026-07-01</lastmod><changefreq>hourly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://aiglimpse.ai/categories/robotics</loc><lastmod>2026-07-01</lastmod><changefreq>hourly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://aiglimpse.ai/guides.html</loc><lastmod>2026-07-01</lastmod><changefreq>weekly</changefreq><priority>0.95</priority></url>
+  <url><loc>https://aiglimpse.ai/pages/about</loc><lastmod>2026-07-01</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://aiglimpse.ai/pages/contact</loc><lastmod>2026-07-01</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://aiglimpse.ai/pages/editorial</loc><lastmod>2026-07-01</lastmod><changefreq>monthly</changefreq><priority>0.4</priority></url>
+  <url><loc>https://aiglimpse.ai/pages/advertise</loc><lastmod>2026-07-01</lastmod><changefreq>monthly</changefreq><priority>0.3</priority></url>
+  <url><loc>https://aiglimpse.ai/pages/privacy</loc><lastmod>2026-07-01</lastmod><changefreq>yearly</changefreq><priority>0.3</priority></url>
+  <url><loc>https://aiglimpse.ai/pages/terms</loc><lastmod>2026-07-01</lastmod><changefreq>yearly</changefreq><priority>0.3</priority></url>
+  <url><loc>https://aiglimpse.ai/categories/llms-2</loc><lastmod>2026-07-01</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
+  <url><loc>https://aiglimpse.ai/categories/llms-3</loc><lastmod>2026-07-01</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
+  <url><loc>https://aiglimpse.ai/categories/llms-4</loc><lastmod>2026-07-01</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
+  <url><loc>https://aiglimpse.ai/categories/research-2</loc><lastmod>2026-07-01</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
+  <url><loc>https://aiglimpse.ai/categories/research-3</loc><lastmod>2026-07-01</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
+  <url><loc>https://aiglimpse.ai/categories/research-4</loc><lastmod>2026-07-01</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
+  <url><loc>https://aiglimpse.ai/categories/research-5</loc><lastmod>2026-07-01</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
+  <url><loc>https://aiglimpse.ai/categories/research-6</loc><lastmod>2026-07-01</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
+  <url><loc>https://aiglimpse.ai/categories/research-7</loc><lastmod>2026-07-01</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
+  <url><loc>https://aiglimpse.ai/categories/research-8</loc><lastmod>2026-07-01</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
+  <url><loc>https://aiglimpse.ai/categories/research-9</loc><lastmod>2026-07-01</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
+  <url><loc>https://aiglimpse.ai/categories/tools-2</loc><lastmod>2026-07-01</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
+  <url><loc>https://aiglimpse.ai/categories/tools-3</loc><lastmod>2026-07-01</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
+  <url><loc>https://aiglimpse.ai/categories/tools-4</loc><lastmod>2026-07-01</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
+  <url><loc>https://aiglimpse.ai/categories/tools-5</loc><lastmod>2026-07-01</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
+  <url><loc>https://aiglimpse.ai/categories/tools-6</loc><lastmod>2026-07-01</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
+  <url><loc>https://aiglimpse.ai/categories/tools-7</loc><lastmod>2026-07-01</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
+  <url><loc>https://aiglimpse.ai/categories/tools-8</loc><lastmod>2026-07-01</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
+  <url><loc>https://aiglimpse.ai/categories/business-2</loc><lastmod>2026-07-01</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
+  <url><loc>https://aiglimpse.ai/categories/business-3</loc><lastmod>2026-07-01</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
+  <url><loc>https://aiglimpse.ai/categories/business-4</loc><lastmod>2026-07-01</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
+  <url><loc>https://aiglimpse.ai/categories/business-5</loc><lastmod>2026-07-01</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url>
     <loc>https://aiglimpse.ai/articles/researchers-develop-method-to-uncover-hidden-biases-in-ai-models-cb0b463c</loc>
+    <lastmod>2026-07-01</lastmod>
     <news:news>
       <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-07-01T17:46:33.000Z</news:publication_date>
@@ -45,6 +49,7 @@
   </url>
   <url>
     <loc>https://aiglimpse.ai/articles/language-based-feedback-helps-ai-learn-better-from-flawed-training-data-17b01797</loc>
+    <lastmod>2026-07-01</lastmod>
     <news:news>
       <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-07-01T17:57:22.000Z</news:publication_date>
@@ -54,6 +59,7 @@
   </url>
   <url>
     <loc>https://aiglimpse.ai/articles/middle-transformer-layers-hold-key-to-efficient-ai-training-cf3c31ed</loc>
+    <lastmod>2026-07-01</lastmod>
     <news:news>
       <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-07-01T17:59:54.000Z</news:publication_date>
@@ -63,6 +69,7 @@
   </url>
   <url>
     <loc>https://aiglimpse.ai/articles/study-reveals-llms-generate-narrower-research-ideas-than-human-scholars-995ddb5b</loc>
+    <lastmod>2026-07-01</lastmod>
     <news:news>
       <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-07-01T17:59:56.000Z</news:publication_date>
@@ -72,6 +79,7 @@
   </url>
   <url>
     <loc>https://aiglimpse.ai/articles/study-finds-gpt-4-turbo-more-credible-than-real-uk-politicians-4d15693f</loc>
+    <lastmod>2026-07-02</lastmod>
     <news:news>
       <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-07-02T00:00:00.000Z</news:publication_date>
@@ -81,6 +89,7 @@
   </url>
   <url>
     <loc>https://aiglimpse.ai/articles/new-ai-method-shrinks-3d-human-models-for-real-time-streaming-12be0fb9</loc>
+    <lastmod>2026-06-30</lastmod>
     <news:news>
       <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-06-30T17:59:05.000Z</news:publication_date>
@@ -90,6 +99,7 @@
   </url>
   <url>
     <loc>https://aiglimpse.ai/articles/spacex-shows-investors-handheld-ai-device-signaling-telecom-ambitions-7450d28b</loc>
+    <lastmod>2026-07-01</lastmod>
     <news:news>
       <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-07-01T18:54:18.000Z</news:publication_date>
@@ -99,6 +109,7 @@
   </url>
   <url>
     <loc>https://aiglimpse.ai/articles/ai-models-learn-to-explain-themselves-without-updated-training-data-9c7d8ce8</loc>
+    <lastmod>2026-06-30</lastmod>
     <news:news>
       <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-06-30T17:59:32.000Z</news:publication_date>
@@ -108,6 +119,7 @@
   </url>
   <url>
     <loc>https://aiglimpse.ai/articles/cerebras-and-hugging-face-deploy-gemma-4-for-streaming-voice-applications-51fedb49</loc>
+    <lastmod>2026-07-01</lastmod>
     <news:news>
       <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-07-01T00:00:00.000Z</news:publication_date>
@@ -117,6 +129,7 @@
   </url>
   <url>
     <loc>https://aiglimpse.ai/articles/new-training-method-teaches-ai-models-to-recognize-their-own-limitations-91900238</loc>
+    <lastmod>2026-06-30</lastmod>
     <news:news>
       <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-06-30T17:56:01.000Z</news:publication_date>
@@ -126,6 +139,7 @@
   </url>
   <url>
     <loc>https://aiglimpse.ai/articles/new-training-method-speeds-up-ai-image-generation-by-10x-96baa710</loc>
+    <lastmod>2026-06-30</lastmod>
     <news:news>
       <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-06-30T17:59:57.000Z</news:publication_date>
@@ -135,6 +149,7 @@
   </url>
   <url>
     <loc>https://aiglimpse.ai/articles/new-benchmark-exposes-flaws-in-ai-agent-training-methods-d3d8151e</loc>
+    <lastmod>2026-06-30</lastmod>
     <news:news>
       <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-06-30T17:58:23.000Z</news:publication_date>
@@ -144,6 +159,7 @@
   </url>
   <url>
     <loc>https://aiglimpse.ai/articles/new-ai-architecture-tackles-low-resolution-face-recognition-f1fc87e4</loc>
+    <lastmod>2026-06-30</lastmod>
     <news:news>
       <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-06-30T17:59:57.000Z</news:publication_date>
@@ -153,6 +169,7 @@
   </url>
   <url>
     <loc>https://aiglimpse.ai/articles/llm-api-pricing-comparison-2026</loc>
+    <lastmod>2026-07-01</lastmod>
     <news:news>
       <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-07-01T09:32:52.631Z</news:publication_date>
@@ -162,6 +179,7 @@
   </url>
   <url>
     <loc>https://aiglimpse.ai/articles/openai-releases-genebench-pro-to-evaluate-ai-in-life-sciences-bc51df6b</loc>
+    <lastmod>2026-06-30</lastmod>
     <news:news>
       <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-06-30T00:00:00.000Z</news:publication_date>
@@ -171,6 +189,7 @@
   </url>
   <url>
     <loc>https://aiglimpse.ai/articles/new-ai-method-lets-robots-improvise-with-everyday-objects-as-tools-13b1ccdc</loc>
+    <lastmod>2026-06-29</lastmod>
     <news:news>
       <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-06-29T17:56:53.000Z</news:publication_date>
@@ -180,6 +199,7 @@
   </url>
   <url>
     <loc>https://aiglimpse.ai/articles/chatgpt-use-cases-multiply-as-global-user-base-deepens-engagement-f42e1e30</loc>
+    <lastmod>2026-06-30</lastmod>
     <news:news>
       <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-06-30T09:00:00.000Z</news:publication_date>
@@ -189,6 +209,7 @@
   </url>
   <url>
     <loc>https://aiglimpse.ai/articles/new-benchmark-tests-ai-agents-on-legacy-code-migration-tasks-89624d17</loc>
+    <lastmod>2026-06-30</lastmod>
     <news:news>
       <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-06-30T18:32:50.000Z</news:publication_date>
@@ -198,6 +219,7 @@
   </url>
   <url>
     <loc>https://aiglimpse.ai/articles/the-ai-industrys-push-toward-specialized-models-over-one-size-fits-all-systems-b877e3bf</loc>
+    <lastmod>2026-06-30</lastmod>
     <news:news>
       <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-06-30T14:39:11.000Z</news:publication_date>
@@ -207,6 +229,7 @@
   </url>
   <url>
     <loc>https://aiglimpse.ai/articles/google-deepmind-launches-lightweight-ai-models-for-developers-c8e2d88d</loc>
+    <lastmod>2026-06-30</lastmod>
     <news:news>
       <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-06-30T16:02:40.000Z</news:publication_date>
@@ -216,6 +239,7 @@
   </url>
   <url>
     <loc>https://aiglimpse.ai/articles/asynchronous-pipeline-training-becomes-practical-for-billion-parameter-models-b122abc5</loc>
+    <lastmod>2026-06-29</lastmod>
     <news:news>
       <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-06-29T17:57:50.000Z</news:publication_date>
@@ -225,6 +249,7 @@
   </url>
   <url>
     <loc>https://aiglimpse.ai/articles/hugging-face-centralizes-model-evaluations-in-push-for-ai-transparency-0a0a3bf0</loc>
+    <lastmod>2026-06-30</lastmod>
     <news:news>
       <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-06-30T00:00:00.000Z</news:publication_date>
@@ -234,6 +259,7 @@
   </url>
   <url>
     <loc>https://aiglimpse.ai/articles/new-method-lets-3d-ai-models-understand-complex-language-queries-495b7314</loc>
+    <lastmod>2026-06-29</lastmod>
     <news:news>
       <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-06-29T17:58:41.000Z</news:publication_date>
@@ -243,6 +269,7 @@
   </url>
   <url>
     <loc>https://aiglimpse.ai/articles/new-framework-helps-ai-agents-learn-and-adapt-during-deployment-0e49f2c9</loc>
+    <lastmod>2026-06-29</lastmod>
     <news:news>
       <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-06-29T17:58:43.000Z</news:publication_date>
@@ -252,6 +279,7 @@
   </url>
   <url>
     <loc>https://aiglimpse.ai/articles/new-ai-model-tackles-full-length-song-generation-with-layered-learning-231c0ea8</loc>
+    <lastmod>2026-06-29</lastmod>
     <news:news>
       <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-06-29T17:59:20.000Z</news:publication_date>
@@ -261,6 +289,7 @@
   </url>
   <url>
     <loc>https://aiglimpse.ai/articles/researchers-train-humanoid-robots-using-synthetic-data-from-3d-scenes-ba85224d</loc>
+    <lastmod>2026-06-29</lastmod>
     <news:news>
       <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-06-29T17:59:55.000Z</news:publication_date>
@@ -270,6 +299,7 @@
   </url>
   <url>
     <loc>https://aiglimpse.ai/articles/managers-turn-to-chatgpt-for-high-stakes-hr-decisions-673c447c</loc>
+    <lastmod>2026-06-30</lastmod>
     <news:news>
       <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-06-30T00:00:00.000Z</news:publication_date>
@@ -279,6 +309,7 @@
   </url>
   <url>
     <loc>https://aiglimpse.ai/articles/base44-builds-proprietary-ai-model-to-compete-with-frontier-llms-3067ce51</loc>
+    <lastmod>2026-06-30</lastmod>
     <news:news>
       <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-06-30T02:28:41.000Z</news:publication_date>
@@ -288,6 +319,7 @@
   </url>
   <url>
     <loc>https://aiglimpse.ai/articles/healthcare-systems-rush-to-embed-ai-through-major-tech-partnerships-3a5cf2dc</loc>
+    <lastmod>2026-06-29</lastmod>
     <news:news>
       <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-06-29T21:18:15.000Z</news:publication_date>
@@ -297,6 +329,7 @@
   </url>
   <url>
     <loc>https://aiglimpse.ai/articles/metas-safety-testing-involved-impersonating-minors-online-83240c9b</loc>
+    <lastmod>2026-06-29</lastmod>
     <news:news>
       <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-06-29T21:49:26.000Z</news:publication_date>
@@ -306,6 +339,7 @@
   </url>
   <url>
     <loc>https://aiglimpse.ai/articles/south-korea-pledges-1t-to-dominate-ai-hardware-and-robotics-ad83b8bc</loc>
+    <lastmod>2026-06-29</lastmod>
     <news:news>
       <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-06-29T21:09:43.000Z</news:publication_date>
@@ -315,6 +349,7 @@
   </url>
   <url>
     <loc>https://aiglimpse.ai/articles/south-koreas-memory-giants-pledge-550b-to-fuel-ai-chip-capacity-7fa19bb3</loc>
+    <lastmod>2026-06-29</lastmod>
     <news:news>
       <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-06-29T18:07:48.000Z</news:publication_date>
@@ -324,6 +359,7 @@
   </url>
   <url>
     <loc>https://aiglimpse.ai/articles/new-transformer-model-unifies-density-and-score-estimation-cbfe2ff5</loc>
+    <lastmod>2026-06-29</lastmod>
     <news:news>
       <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-06-29T18:02:48.000Z</news:publication_date>
@@ -333,6 +369,7 @@
   </url>
   <url>
     <loc>https://aiglimpse.ai/articles/tech-teams-show-strong-confidence-in-ai-agents-for-enterprise-workflows-3d11571a</loc>
+    <lastmod>2026-06-29</lastmod>
     <news:news>
       <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-06-29T14:44:01.000Z</news:publication_date>
@@ -342,6 +379,7 @@
   </url>
   <url>
     <loc>https://aiglimpse.ai/articles/openai-study-charts-ais-reshaping-of-european-labor-market-4843796e</loc>
+    <lastmod>2026-06-29</lastmod>
     <news:news>
       <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-06-29T07:00:00.000Z</news:publication_date>
@@ -351,6 +389,7 @@
   </url>
   <url>
     <loc>https://aiglimpse.ai/articles/spacex-ipo-ignites-billion-dollar-exit-surge-driven-by-ai-deals-e13179af</loc>
+    <lastmod>2026-06-29</lastmod>
     <news:news>
       <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-06-29T11:00:43.000Z</news:publication_date>
@@ -360,6 +399,7 @@
   </url>
   <url>
     <loc>https://aiglimpse.ai/articles/stanford-research-exposes-racial-disparities-in-automated-hiring-systems-1c50a97c</loc>
+    <lastmod>2026-06-29</lastmod>
     <news:news>
       <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-06-29T00:00:00.000Z</news:publication_date>
@@ -369,6 +409,7 @@
   </url>
   <url>
     <loc>https://aiglimpse.ai/articles/hp-expands-openai-partnership-to-embed-ai-across-products-5b6019c7</loc>
+    <lastmod>2026-06-28</lastmod>
     <news:news>
       <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-06-28T17:00:00.000Z</news:publication_date>
@@ -378,6 +419,7 @@
   </url>
   <url>
     <loc>https://aiglimpse.ai/articles/new-router-cuts-llm-routing-latency-to-microseconds-without-api-calls-619ef334</loc>
+    <lastmod>2026-06-28</lastmod>
     <news:news>
       <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-06-28T00:00:00.000Z</news:publication_date>
@@ -387,6 +429,7 @@
   </url>
   <url>
     <loc>https://aiglimpse.ai/articles/chinese-ai-model-closes-gap-with-us-leaders-on-security-tasks-77573592</loc>
+    <lastmod>2026-06-28</lastmod>
     <news:news>
       <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-06-28T21:42:51.000Z</news:publication_date>
@@ -396,6 +439,7 @@
   </url>
   <url>
     <loc>https://aiglimpse.ai/articles/open-source-glm-52-outperforms-anthropics-claude-on-security-tasks-c345dd6e</loc>
+    <lastmod>2026-06-28</lastmod>
     <news:news>
       <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-06-28T17:50:47.000Z</news:publication_date>
@@ -405,6 +449,7 @@
   </url>
   <url>
     <loc>https://aiglimpse.ai/articles/suno-builds-artist-pathway-as-ai-music-platform-seeks-legitimacy-c3133fc9</loc>
+    <lastmod>2026-06-28</lastmod>
     <news:news>
       <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-06-28T20:27:36.000Z</news:publication_date>
@@ -414,6 +459,7 @@
   </url>
   <url>
     <loc>https://aiglimpse.ai/articles/developer-tests-claude-ai-for-medical-image-analysis-5e6e0777</loc>
+    <lastmod>2026-06-28</lastmod>
     <news:news>
       <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-06-28T16:35:19.000Z</news:publication_date>
@@ -423,6 +469,7 @@
   </url>
   <url>
     <loc>https://aiglimpse.ai/articles/ford-brings-back-veteran-engineers-as-ai-automation-proves-inadequate-63e94e8f</loc>
+    <lastmod>2026-06-28</lastmod>
     <news:news>
       <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-06-28T19:05:39.000Z</news:publication_date>
@@ -432,6 +479,7 @@
   </url>
   <url>
     <loc>https://aiglimpse.ai/articles/google-restricts-metas-access-to-gemini-ai-technology-418b592d</loc>
+    <lastmod>2026-06-28</lastmod>
     <news:news>
       <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-06-28T13:30:06.000Z</news:publication_date>
@@ -441,6 +489,7 @@
   </url>
   <url>
     <loc>https://aiglimpse.ai/articles/micron-emerges-as-wall-streets-next-ai-semiconductor-pick-137ef4d3</loc>
+    <lastmod>2026-06-28</lastmod>
     <news:news>
       <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-06-28T15:00:00.000Z</news:publication_date>
@@ -450,6 +499,7 @@
   </url>
   <url>
     <loc>https://aiglimpse.ai/articles/austria-pushes-eu-to-attract-anthropic-amid-us-ai-export-restrictions-7afe4388</loc>
+    <lastmod>2026-06-28</lastmod>
     <news:news>
       <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-06-28T13:34:14.000Z</news:publication_date>
@@ -459,6 +509,7 @@
   </url>
   <url>
     <loc>https://aiglimpse.ai/articles/chatgpt-conversations-become-trial-evidence-in-major-arson-case-7b569ab7</loc>
+    <lastmod>2026-06-28</lastmod>
     <news:news>
       <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-06-28T14:12:06.000Z</news:publication_date>
@@ -468,6 +519,7 @@
   </url>
   <url>
     <loc>https://aiglimpse.ai/articles/hong-kong-becomes-gateway-for-chinese-ai-ipos-as-tech-boom-drives-capital-surge-38e49797</loc>
+    <lastmod>2026-06-28</lastmod>
     <news:news>
       <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-06-28T00:00:00.000Z</news:publication_date>
@@ -477,6 +529,7 @@
   </url>
   <url>
     <loc>https://aiglimpse.ai/articles/resellers-exploit-anthropics-geographic-restrictions-for-claude-api-342d829c</loc>
+    <lastmod>2026-06-28</lastmod>
     <news:news>
       <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-06-28T00:00:00.000Z</news:publication_date>
@@ -486,6 +539,7 @@
   </url>
   <url>
     <loc>https://aiglimpse.ai/articles/white-house-clears-anthropic-to-deploy-advanced-ai-model-to-us-firms-f374b655</loc>
+    <lastmod>2026-06-27</lastmod>
     <news:news>
       <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-06-27T00:26:14.000Z</news:publication_date>
@@ -495,6 +549,7 @@
   </url>
   <url>
     <loc>https://aiglimpse.ai/articles/open-source-tool-intelligently-routes-queries-between-local-and-cloud-llms-1565f9a4</loc>
+    <lastmod>2026-06-28</lastmod>
     <news:news>
       <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-06-28T04:31:18.000Z</news:publication_date>
@@ -504,6 +559,7 @@
   </url>
   <url>
     <loc>https://aiglimpse.ai/articles/ai-transcription-pricing-comparison-2026</loc>
+    <lastmod>2026-06-28</lastmod>
     <news:news>
       <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-06-28T08:38:54.846Z</news:publication_date>
@@ -513,6 +569,7 @@
   </url>
   <url>
     <loc>https://aiglimpse.ai/articles/ai-regulation-risk-gatekeeping-over-safety-experts-warn-680bb2f2</loc>
+    <lastmod>2026-06-28</lastmod>
     <news:news>
       <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-06-28T00:00:00.000Z</news:publication_date>
@@ -522,6 +579,7 @@
   </url>
   <url>
     <loc>https://aiglimpse.ai/articles/new-tool-lets-developers-keep-macs-awake-during-ai-agent-tasks-ceccb80f</loc>
+    <lastmod>2026-06-28</lastmod>
     <news:news>
       <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-06-28T00:00:00.000Z</news:publication_date>
@@ -531,6 +589,7 @@
   </url>
   <url>
     <loc>https://aiglimpse.ai/articles/new-mac-tool-lets-ai-agents-keep-laptops-awake-without-draining-batteries-99145f5e</loc>
+    <lastmod>2026-06-27</lastmod>
     <news:news>
       <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-06-27T20:34:53.000Z</news:publication_date>
@@ -540,6 +599,7 @@
   </url>
   <url>
     <loc>https://aiglimpse.ai/articles/industry-skepticism-grows-over-space-based-ai-infrastructure-plans-c9a209d4</loc>
+    <lastmod>2026-06-27</lastmod>
     <news:news>
       <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-06-27T20:42:36.000Z</news:publication_date>
@@ -549,6 +609,7 @@
   </url>
   <url>
     <loc>https://aiglimpse.ai/articles/atwood-highlights-core-ai-weakness-unreliable-training-data-0a0f41e6</loc>
+    <lastmod>2026-06-27</lastmod>
     <news:news>
       <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-06-27T18:39:32.000Z</news:publication_date>
@@ -558,6 +619,7 @@
   </url>
   <url>
     <loc>https://aiglimpse.ai/articles/asian-ai-labs-build-homegrown-alternatives-as-us-export-controls-reshape-market-aa530456</loc>
+    <lastmod>2026-06-27</lastmod>
     <news:news>
       <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-06-27T12:00:00.000Z</news:publication_date>
