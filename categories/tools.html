@@ -24,6 +24,7 @@
   <link rel="alternate" type="application/rss+xml" title="AI Glimpse RSS" href="/rss.xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700;9..144,900&family=Inter+Tight:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap">
   <link rel="stylesheet" href="/css/main.css">
 
   <meta name="google-site-verification" content="B132aMlqf1nssWYhjOSKUgSjmfwNWgPgtozZsHDxWlU" />
@@ -46,10 +47,59 @@
   }
   </script>
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"ItemList","name":"AI Tools & Products | AI Glimpse","itemListElement":[{"@type":"ListItem","position":1,"url":"https://aiglimpse.ai/articles/apples-price-hikes-reflect-broader-ai-cost-crisis-across-tech-423c4068","name":"Apple's Price Hikes Reflect Broader AI Cost Crisis Across Tech"},{"@type":"ListItem","position":2,"url":"https://aiglimpse.ai/articles/deepseek-releases-speed-boost-for-ai-model-inference-8be5ab4f","name":"DeepSeek Releases Speed Boost for AI Model Inference"},{"@type":"ListItem","position":3,"url":"https://aiglimpse.ai/articles/anthropic-secures-limited-access-for-mythos-5-after-trump-admin-talks-eb077bdc","name":"Anthropic Secures Limited Access for Mythos 5 After Trump Admin Talks"},{"@type":"ListItem","position":4,"url":"https://aiglimpse.ai/articles/south-korea-eyes-ai-driven-drone-integration-across-military-331a0077","name":"South Korea Eyes AI-Driven Drone Integration Across Military"},{"@type":"ListItem","position":5,"url":"https://aiglimpse.ai/articles/hugging-face-streamlines-llm-deployment-with-one-command-vllm-integration-63855b20","name":"Hugging Face Streamlines LLM Deployment with One-Command vLLM Integration"},{"@type":"ListItem","position":6,"url":"https://aiglimpse.ai/articles/hybrid-models-show-promise-at-predicting-specific-token-types-e713dbfb","name":"Hybrid Models Show Promise at Predicting Specific Token Types"},{"@type":"ListItem","position":7,"url":"https://aiglimpse.ai/articles/google-search-now-saves-your-images-to-train-ai-models-1d7222bd","name":"Google Search Now Saves Your Images to Train AI Models"},{"@type":"ListItem","position":8,"url":"https://aiglimpse.ai/articles/google-deepminds-75m-a24-deal-signals-ais-growing-reach-in-film-1f9b13e8","name":"Google DeepMind's $75M A24 Deal Signals AI's Growing Reach in Film"},{"@type":"ListItem","position":9,"url":"https://aiglimpse.ai/articles/ai-safety-fears-cross-borders-as-us-china-rivalry-intensifies-a3b2a52c","name":"AI Safety Fears Cross Borders as US-China Rivalry Intensifies"},{"@type":"ListItem","position":10,"url":"https://aiglimpse.ai/articles/new-benchmark-brings-real-world-rigor-to-speech-recognition-ai-3d6bce02","name":"New Benchmark Brings Real-World Rigor to Speech Recognition AI"}]}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://aiglimpse.ai/"},{"@type":"ListItem","position":2,"name":"AI Tools & Products","item":"https://aiglimpse.ai/categories/tools"}]}</script>
 </head>
 <body>
 
-  <div id="site-header-slot"></div>
+  <header class="site-header" role="banner">
+    <div class="container">
+      <div class="header-bar">
+        <a href="/" class="logo" aria-label="AI Glimpse home">
+          <span class="logo-wordmark" aria-label="AI Glimpse">A<span class="iris-i" aria-hidden="true">ı</span><span aria-hidden="true"> Glimpse</span></span>
+        </a>
+        <nav class="nav-primary" aria-label="Primary">
+          <a href="/categories/llms">LLMs</a>
+            <a href="/categories/research">Research</a>
+            <a href="/categories/tools" class="active">Tools</a>
+            <a href="/categories/business">Business</a>
+            <a href="/categories/ethics">Ethics</a>
+            <a href="/categories/industry">Industry</a>
+            <a href="/categories/robotics">Robotics</a>
+        </nav>
+        <div class="header-actions">
+          <a class="search-btn" href="/search.html" aria-label="Search">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="11" cy="11" r="7"/><path d="M21 21l-4.35-4.35"/>
+            </svg>
+          </a>
+          <a href="#newsletter" class="btn btn--primary btn--sm">Subscribe</a>
+          <button class="menu-btn" aria-label="Open menu">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+  <aside class="mobile-menu" aria-label="Mobile menu">
+    <div class="mobile-menu-header">
+      <a href="/" class="logo">
+        <span class="logo-wordmark" aria-label="AI Glimpse">A<span class="iris-i" aria-hidden="true">ı</span><span aria-hidden="true"> Glimpse</span></span>
+      </a>
+      <button class="mobile-menu-close" aria-label="Close menu" style="font-size:24px;">×</button>
+    </div>
+    <a href="/categories/llms">LLMs</a>
+    <a href="/categories/research">Research</a>
+    <a href="/categories/tools">Tools</a>
+    <a href="/categories/business">Business</a>
+    <a href="/categories/ethics">Ethics</a>
+    <a href="/categories/industry">Industry</a>
+    <a href="/categories/robotics">Robotics</a>
+    <a href="/search.html">Search</a>
+    <a href="/pages/about">About</a>
+    <a href="#newsletter">Subscribe</a>
+  </aside>
 
   <main>
 
@@ -72,7 +122,7 @@
       <div class="container">
         <div class="grid grid-3">
           <article class="card card--large">
-            <a href="/articles/apples-price-hikes-reflect-broader-ai-cost-crisis-across-tech-423c4068"><div class="card-image"><img src="/images/articles/apples-price-hikes-reflect-broader-ai-cost-crisis-across-tech-423c4068.jpg" alt="Apple's Price Hikes Reflect Broader AI Cost Crisis Across Tech" loading="lazy" width="1200" height="630"></div></a>
+            <a href="/articles/apples-price-hikes-reflect-broader-ai-cost-crisis-across-tech-423c4068"><div class="card-image"><picture><source srcset="/images/articles/apples-price-hikes-reflect-broader-ai-cost-crisis-across-tech-423c4068.webp" type="image/webp"><img src="/images/articles/apples-price-hikes-reflect-broader-ai-cost-crisis-across-tech-423c4068.jpg" alt="Apple's Price Hikes Reflect Broader AI Cost Crisis Across Tech" loading="lazy" width="1200" height="630"></picture></div></a>
             <div class="card-meta">
               <span class="tag tag--tools">Tools</span>
               <span class="card-byline"><time datetime="2026-06-27T13:30:00.000Z">Jun 27, 2026</time></span>
@@ -81,7 +131,7 @@
             <p class="card-excerpt">As hardware makers absorb infrastructure expenses from AI development, consumers face steeper bills for devices and services across the industry.</p>
           </article>
           <article class="card card--large">
-            <a href="/articles/deepseek-releases-speed-boost-for-ai-model-inference-8be5ab4f"><div class="card-image"><img src="/images/articles/deepseek-releases-speed-boost-for-ai-model-inference-8be5ab4f.jpg" alt="DeepSeek Releases Speed Boost for AI Model Inference" loading="lazy" width="1200" height="630"></div></a>
+            <a href="/articles/deepseek-releases-speed-boost-for-ai-model-inference-8be5ab4f"><div class="card-image"><picture><source srcset="/images/articles/deepseek-releases-speed-boost-for-ai-model-inference-8be5ab4f.webp" type="image/webp"><img src="/images/articles/deepseek-releases-speed-boost-for-ai-model-inference-8be5ab4f.jpg" alt="DeepSeek Releases Speed Boost for AI Model Inference" loading="lazy" width="1200" height="630"></picture></div></a>
             <div class="card-meta">
               <span class="tag tag--tools">Tools</span>
               <span class="card-byline"><time datetime="2026-06-27T09:18:52.000Z">Jun 27, 2026</time></span>
@@ -90,7 +140,7 @@
             <p class="card-excerpt">Open-sourced optimization techniques could make running large language models significantly faster and cheaper for developers.</p>
           </article>
           <article class="card card--large">
-            <a href="/articles/anthropic-secures-limited-access-for-mythos-5-after-trump-admin-talks-eb077bdc"><div class="card-image"><img src="/images/articles/anthropic-secures-limited-access-for-mythos-5-after-trump-admin-talks-eb077bdc.jpg" alt="Anthropic Secures Limited Access for Mythos 5 After Trump Admin Talks" loading="lazy" width="1200" height="630"></div></a>
+            <a href="/articles/anthropic-secures-limited-access-for-mythos-5-after-trump-admin-talks-eb077bdc"><div class="card-image"><picture><source srcset="/images/articles/anthropic-secures-limited-access-for-mythos-5-after-trump-admin-talks-eb077bdc.webp" type="image/webp"><img src="/images/articles/anthropic-secures-limited-access-for-mythos-5-after-trump-admin-talks-eb077bdc.jpg" alt="Anthropic Secures Limited Access for Mythos 5 After Trump Admin Talks" loading="lazy" width="1200" height="630"></picture></div></a>
             <div class="card-meta">
               <span class="tag tag--tools">Tools</span>
               <span class="card-byline"><time datetime="2026-06-27T00:33:44.000Z">Jun 27, 2026</time></span>
@@ -99,16 +149,16 @@
             <p class="card-excerpt">The AI firm wins government approval for its advanced model with select partners, though broader public deployment remains uncertain.</p>
           </article>
           <article class="card card--large">
-            <a href="/articles/south-korea-eyes-ai-driven-drone-integration-across-military-331a0077"><div class="card-image"><img src="/images/articles/south-korea-eyes-ai-driven-drone-integration-across-military-331a0077.jpg" alt="South Korea Eyes AI-Driven Drone Integration Across Military" loading="lazy" width="1200" height="630"></div></a>
+            <a href="/articles/south-korea-eyes-ai-driven-drone-integration-across-military-331a0077"><div class="card-image"><picture><source srcset="/images/articles/south-korea-eyes-ai-driven-drone-integration-across-military-331a0077.webp" type="image/webp"><img src="/images/articles/south-korea-eyes-ai-driven-drone-integration-across-military-331a0077.jpg" alt="South Korea Eyes AI-Driven Drone Integration Across Military" loading="lazy" width="1200" height="630"></picture></div></a>
             <div class="card-meta">
               <span class="tag tag--tools">Tools</span>
-              <span class="card-byline"><time datetime="2026-06-26T22:19:05.000Z">Jun 26, 2026</time></span>
+              <span class="card-byline"><time datetime="2026-06-26T22:19:05.000Z">Jun 27, 2026</time></span>
             </div>
             <a href="/articles/south-korea-eyes-ai-driven-drone-integration-across-military-331a0077"><h2 class="card-title">South Korea Eyes AI-Driven Drone Integration Across Military</h2></a>
             <p class="card-excerpt">Seoul plans universal drone training for 500,000 troops, reshaping defense strategy through autonomous systems and AI automation.</p>
           </article>
           <article class="card card--large">
-            <a href="/articles/hugging-face-streamlines-llm-deployment-with-one-command-vllm-integration-63855b20"><div class="card-image"><img src="/images/articles/hugging-face-streamlines-llm-deployment-with-one-command-vllm-integration-63855b20.jpg" alt="Hugging Face Streamlines LLM Deployment with One-Command vLLM Integration" loading="lazy" width="1200" height="630"></div></a>
+            <a href="/articles/hugging-face-streamlines-llm-deployment-with-one-command-vllm-integration-63855b20"><div class="card-image"><picture><source srcset="/images/articles/hugging-face-streamlines-llm-deployment-with-one-command-vllm-integration-63855b20.webp" type="image/webp"><img src="/images/articles/hugging-face-streamlines-llm-deployment-with-one-command-vllm-integration-63855b20.jpg" alt="Hugging Face Streamlines LLM Deployment with One-Command vLLM Integration" loading="lazy" width="1200" height="630"></picture></div></a>
             <div class="card-meta">
               <span class="tag tag--tools">Tools</span>
               <span class="card-byline"><time datetime="2026-06-26T00:00:00.000Z">Jun 26, 2026</time></span>
@@ -117,7 +167,7 @@
             <p class="card-excerpt">The platform now lets developers launch optimized language model servers instantly, lowering barriers to AI inference at scale.</p>
           </article>
           <article class="card card--large">
-            <a href="/articles/hybrid-models-show-promise-at-predicting-specific-token-types-e713dbfb"><div class="card-image"><img src="/images/articles/hybrid-models-show-promise-at-predicting-specific-token-types-e713dbfb.jpg" alt="Hybrid Models Show Promise at Predicting Specific Token Types" loading="lazy" width="1200" height="630"></div></a>
+            <a href="/articles/hybrid-models-show-promise-at-predicting-specific-token-types-e713dbfb"><div class="card-image"><picture><source srcset="/images/articles/hybrid-models-show-promise-at-predicting-specific-token-types-e713dbfb.webp" type="image/webp"><img src="/images/articles/hybrid-models-show-promise-at-predicting-specific-token-types-e713dbfb.jpg" alt="Hybrid Models Show Promise at Predicting Specific Token Types" loading="lazy" width="1200" height="630"></picture></div></a>
             <div class="card-meta">
               <span class="tag tag--tools">Tools</span>
               <span class="card-byline"><time datetime="2026-06-25T16:11:42.000Z">Jun 25, 2026</time></span>
@@ -126,16 +176,16 @@
             <p class="card-excerpt">New research reveals how combining multiple prediction strategies improves language model accuracy on specialized vocabulary.</p>
           </article>
           <article class="card card--large">
-            <a href="/articles/google-search-now-saves-your-images-to-train-ai-models-1d7222bd"><div class="card-image"><img src="/images/articles/google-search-now-saves-your-images-to-train-ai-models-1d7222bd.jpg" alt="Google Search Now Saves Your Images to Train AI Models" loading="lazy" width="1200" height="630"></div></a>
+            <a href="/articles/google-search-now-saves-your-images-to-train-ai-models-1d7222bd"><div class="card-image"><picture><source srcset="/images/articles/google-search-now-saves-your-images-to-train-ai-models-1d7222bd.webp" type="image/webp"><img src="/images/articles/google-search-now-saves-your-images-to-train-ai-models-1d7222bd.jpg" alt="Google Search Now Saves Your Images to Train AI Models" loading="lazy" width="1200" height="630"></picture></div></a>
             <div class="card-meta">
               <span class="tag tag--tools">Tools</span>
-              <span class="card-byline"><time datetime="2026-06-24T22:36:16.000Z">Jun 24, 2026</time></span>
+              <span class="card-byline"><time datetime="2026-06-24T22:36:16.000Z">Jun 25, 2026</time></span>
             </div>
             <a href="/articles/google-search-now-saves-your-images-to-train-ai-models-1d7222bd"><h2 class="card-title">Google Search Now Saves Your Images to Train AI Models</h2></a>
             <p class="card-excerpt">A change to how Google handles search history means your uploaded media could feed machine learning systems unless you disable the feature.</p>
           </article>
           <article class="card card--large">
-            <a href="/articles/google-deepminds-75m-a24-deal-signals-ais-growing-reach-in-film-1f9b13e8"><div class="card-image"><img src="/images/articles/google-deepminds-75m-a24-deal-signals-ais-growing-reach-in-film-1f9b13e8.jpg" alt="Google DeepMind's $75M A24 Deal Signals AI's Growing Reach in Film" loading="lazy" width="1200" height="630"></div></a>
+            <a href="/articles/google-deepminds-75m-a24-deal-signals-ais-growing-reach-in-film-1f9b13e8"><div class="card-image"><picture><source srcset="/images/articles/google-deepminds-75m-a24-deal-signals-ais-growing-reach-in-film-1f9b13e8.webp" type="image/webp"><img src="/images/articles/google-deepminds-75m-a24-deal-signals-ais-growing-reach-in-film-1f9b13e8.jpg" alt="Google DeepMind's $75M A24 Deal Signals AI's Growing Reach in Film" loading="lazy" width="1200" height="630"></picture></div></a>
             <div class="card-meta">
               <span class="tag tag--tools">Tools</span>
               <span class="card-byline"><time datetime="2026-06-24T21:05:51.000Z">Jun 24, 2026</time></span>
@@ -144,7 +194,7 @@
             <p class="card-excerpt">The streaming giant's investment in the indie studio reveals how artificial intelligence companies are reshaping Hollywood's creative ecosystem.</p>
           </article>
           <article class="card card--large">
-            <a href="/articles/ai-safety-fears-cross-borders-as-us-china-rivalry-intensifies-a3b2a52c"><div class="card-image"><img src="/images/articles/ai-safety-fears-cross-borders-as-us-china-rivalry-intensifies-a3b2a52c.jpg" alt="AI Safety Fears Cross Borders as US-China Rivalry Intensifies" loading="lazy" width="1200" height="630"></div></a>
+            <a href="/articles/ai-safety-fears-cross-borders-as-us-china-rivalry-intensifies-a3b2a52c"><div class="card-image"><picture><source srcset="/images/articles/ai-safety-fears-cross-borders-as-us-china-rivalry-intensifies-a3b2a52c.webp" type="image/webp"><img src="/images/articles/ai-safety-fears-cross-borders-as-us-china-rivalry-intensifies-a3b2a52c.jpg" alt="AI Safety Fears Cross Borders as US-China Rivalry Intensifies" loading="lazy" width="1200" height="630"></picture></div></a>
             <div class="card-meta">
               <span class="tag tag--tools">Tools</span>
               <span class="card-byline"><time datetime="2026-06-24T18:45:00.000Z">Jun 24, 2026</time></span>
@@ -153,7 +203,7 @@
             <p class="card-excerpt">Researchers on both sides of the AI competition share deep concerns about catastrophic risks amid accelerating development cycles.</p>
           </article>
           <article class="card card--large">
-            <a href="/articles/new-benchmark-brings-real-world-rigor-to-speech-recognition-ai-3d6bce02"><div class="card-image"><img src="/images/articles/new-benchmark-brings-real-world-rigor-to-speech-recognition-ai-3d6bce02.jpg" alt="New Benchmark Brings Real-World Rigor to Speech Recognition AI" loading="lazy" width="1200" height="630"></div></a>
+            <a href="/articles/new-benchmark-brings-real-world-rigor-to-speech-recognition-ai-3d6bce02"><div class="card-image"><picture><source srcset="/images/articles/new-benchmark-brings-real-world-rigor-to-speech-recognition-ai-3d6bce02.webp" type="image/webp"><img src="/images/articles/new-benchmark-brings-real-world-rigor-to-speech-recognition-ai-3d6bce02.jpg" alt="New Benchmark Brings Real-World Rigor to Speech Recognition AI" loading="lazy" width="1200" height="630"></picture></div></a>
             <div class="card-meta">
               <span class="tag tag--tools">Tools</span>
               <span class="card-byline"><time datetime="2026-06-24T00:00:00.000Z">Jun 24, 2026</time></span>
@@ -162,7 +212,7 @@
             <p class="card-excerpt">A comprehensive leaderboard measures how well automatic speech recognition systems perform outside the lab, reshaping how the field evaluates progress.</p>
           </article>
           <article class="card card--large">
-            <a href="/articles/nvidia-nemo-automodel-cuts-llm-fine-tuning-time-by-half-6faaebb3"><div class="card-image"><img src="/images/articles/nvidia-nemo-automodel-cuts-llm-fine-tuning-time-by-half-6faaebb3.jpg" alt="NVIDIA NeMo AutoModel Cuts LLM Fine-Tuning Time by Half" loading="lazy" width="1200" height="630"></div></a>
+            <a href="/articles/nvidia-nemo-automodel-cuts-llm-fine-tuning-time-by-half-6faaebb3"><div class="card-image"><picture><source srcset="/images/articles/nvidia-nemo-automodel-cuts-llm-fine-tuning-time-by-half-6faaebb3.webp" type="image/webp"><img src="/images/articles/nvidia-nemo-automodel-cuts-llm-fine-tuning-time-by-half-6faaebb3.jpg" alt="NVIDIA NeMo AutoModel Cuts LLM Fine-Tuning Time by Half" loading="lazy" width="1200" height="630"></picture></div></a>
             <div class="card-meta">
               <span class="tag tag--tools">Tools</span>
               <span class="card-byline"><time datetime="2026-06-24T16:00:13.000Z">Jun 24, 2026</time></span>
@@ -171,7 +221,7 @@
             <p class="card-excerpt">New framework automates optimization steps, letting enterprises train large language models faster without manual tuning.</p>
           </article>
           <article class="card card--large">
-            <a href="/articles/hugging-face-tests-new-storage-method-for-browser-based-ai-models-65cd0329"><div class="card-image"><img src="/images/articles/hugging-face-tests-new-storage-method-for-browser-based-ai-models-65cd0329.jpg" alt="Hugging Face Tests New Storage Method for Browser-Based AI Models" loading="lazy" width="1200" height="630"></div></a>
+            <a href="/articles/hugging-face-tests-new-storage-method-for-browser-based-ai-models-65cd0329"><div class="card-image"><picture><source srcset="/images/articles/hugging-face-tests-new-storage-method-for-browser-based-ai-models-65cd0329.webp" type="image/webp"><img src="/images/articles/hugging-face-tests-new-storage-method-for-browser-based-ai-models-65cd0329.jpg" alt="Hugging Face Tests New Storage Method for Browser-Based AI Models" loading="lazy" width="1200" height="630"></picture></div></a>
             <div class="card-meta">
               <span class="tag tag--tools">Tools</span>
               <span class="card-byline"><time datetime="2026-06-23T00:00:00.000Z">Jun 23, 2026</time></span>
@@ -180,7 +230,7 @@
             <p class="card-excerpt">A proposed Cross-Origin Storage API could let web applications run machine learning models more efficiently across multiple domains.</p>
           </article>
           <article class="card card--large">
-            <a href="/articles/ibm-research-releases-cuga-framework-for-building-practical-ai-agents-ece3d920"><div class="card-image"><img src="/images/articles/ibm-research-releases-cuga-framework-for-building-practical-ai-agents-ece3d920.jpg" alt="IBM Research Releases CUGA Framework for Building Practical AI Agents" loading="lazy" width="1200" height="630"></div></a>
+            <a href="/articles/ibm-research-releases-cuga-framework-for-building-practical-ai-agents-ece3d920"><div class="card-image"><picture><source srcset="/images/articles/ibm-research-releases-cuga-framework-for-building-practical-ai-agents-ece3d920.webp" type="image/webp"><img src="/images/articles/ibm-research-releases-cuga-framework-for-building-practical-ai-agents-ece3d920.jpg" alt="IBM Research Releases CUGA Framework for Building Practical AI Agents" loading="lazy" width="1200" height="630"></picture></div></a>
             <div class="card-meta">
               <span class="tag tag--tools">Tools</span>
               <span class="card-byline"><time datetime="2026-06-23T12:51:55.000Z">Jun 23, 2026</time></span>
@@ -189,7 +239,7 @@
             <p class="card-excerpt">New toolkit with 24 working examples aims to simplify development of autonomous AI applications on modest hardware.</p>
           </article>
           <article class="card card--large">
-            <a href="/articles/hugging-face-automates-weekly-hub-releases-with-ai-assisted-pipeline-eb3deeb6"><div class="card-image"><img src="/images/articles/hugging-face-automates-weekly-hub-releases-with-ai-assisted-pipeline-eb3deeb6.jpg" alt="Hugging Face Automates Weekly Hub Releases With AI-Assisted Pipeline" loading="lazy" width="1200" height="630"></div></a>
+            <a href="/articles/hugging-face-automates-weekly-hub-releases-with-ai-assisted-pipeline-eb3deeb6"><div class="card-image"><picture><source srcset="/images/articles/hugging-face-automates-weekly-hub-releases-with-ai-assisted-pipeline-eb3deeb6.webp" type="image/webp"><img src="/images/articles/hugging-face-automates-weekly-hub-releases-with-ai-assisted-pipeline-eb3deeb6.jpg" alt="Hugging Face Automates Weekly Hub Releases With AI-Assisted Pipeline" loading="lazy" width="1200" height="630"></picture></div></a>
             <div class="card-meta">
               <span class="tag tag--tools">Tools</span>
               <span class="card-byline"><time datetime="2026-06-23T00:00:00.000Z">Jun 23, 2026</time></span>
@@ -198,7 +248,7 @@
             <p class="card-excerpt">The open-source platform combines machine learning with human review to ship updates reliably, setting a model for sustainable AI infrastructure maintenance.</p>
           </article>
           <article class="card card--large">
-            <a href="/articles/paddlepaddle-releases-lightweight-ocr-model-supporting-50-languages-74737716"><div class="card-image"><img src="/images/articles/paddlepaddle-releases-lightweight-ocr-model-supporting-50-languages-74737716.jpg" alt="PaddlePaddle Releases Lightweight OCR Model Supporting 50 Languages" loading="lazy" width="1200" height="630"></div></a>
+            <a href="/articles/paddlepaddle-releases-lightweight-ocr-model-supporting-50-languages-74737716"><div class="card-image"><picture><source srcset="/images/articles/paddlepaddle-releases-lightweight-ocr-model-supporting-50-languages-74737716.webp" type="image/webp"><img src="/images/articles/paddlepaddle-releases-lightweight-ocr-model-supporting-50-languages-74737716.jpg" alt="PaddlePaddle Releases Lightweight OCR Model Supporting 50 Languages" loading="lazy" width="1200" height="630"></picture></div></a>
             <div class="card-meta">
               <span class="tag tag--tools">Tools</span>
               <span class="card-byline"><time datetime="2026-06-22T13:18:56.000Z">Jun 22, 2026</time></span>
@@ -207,7 +257,7 @@
             <p class="card-excerpt">New PP-OCRv6 variants scale from 1.5M to 34.5M parameters, bringing affordable text recognition to resource-constrained devices.</p>
           </article>
           <article class="card card--large">
-            <a href="/articles/how-to-build-ai-agents-that-actually-work-when-it-matters-6c5a0c0f"><div class="card-image"><img src="/images/articles/how-to-build-ai-agents-that-actually-work-when-it-matters-6c5a0c0f.jpg" alt="How to Build AI Agents That Actually Work When It Matters" loading="lazy" width="1200" height="630"></div></a>
+            <a href="/articles/how-to-build-ai-agents-that-actually-work-when-it-matters-6c5a0c0f"><div class="card-image"><picture><source srcset="/images/articles/how-to-build-ai-agents-that-actually-work-when-it-matters-6c5a0c0f.webp" type="image/webp"><img src="/images/articles/how-to-build-ai-agents-that-actually-work-when-it-matters-6c5a0c0f.jpg" alt="How to Build AI Agents That Actually Work When It Matters" loading="lazy" width="1200" height="630"></picture></div></a>
             <div class="card-meta">
               <span class="tag tag--tools">Tools</span>
               <span class="card-byline"><time datetime="2026-06-21T04:28:39.000Z">Jun 21, 2026</time></span>
@@ -216,7 +266,7 @@
             <p class="card-excerpt">Engineers and researchers debate the engineering practices needed to create autonomous AI systems that can be trusted in production environments.</p>
           </article>
           <article class="card card--large">
-            <a href="/articles/deepminds-jumper-moves-to-anthropic-in-major-ai-lab-reshuffle-9b68f460"><div class="card-image"><img src="/images/articles/deepminds-jumper-moves-to-anthropic-in-major-ai-lab-reshuffle-9b68f460.jpg" alt="DeepMind's Jumper Moves to Anthropic in Major AI Lab Reshuffle" loading="lazy" width="1200" height="630"></div></a>
+            <a href="/articles/deepminds-jumper-moves-to-anthropic-in-major-ai-lab-reshuffle-9b68f460"><div class="card-image"><picture><source srcset="/images/articles/deepminds-jumper-moves-to-anthropic-in-major-ai-lab-reshuffle-9b68f460.webp" type="image/webp"><img src="/images/articles/deepminds-jumper-moves-to-anthropic-in-major-ai-lab-reshuffle-9b68f460.jpg" alt="DeepMind's Jumper Moves to Anthropic in Major AI Lab Reshuffle" loading="lazy" width="1200" height="630"></picture></div></a>
             <div class="card-meta">
               <span class="tag tag--tools">Tools</span>
               <span class="card-byline"><time datetime="2026-06-20T14:32:15.000Z">Jun 20, 2026</time></span>
@@ -225,7 +275,7 @@
             <p class="card-excerpt">The departure of a prominent researcher signals shifting dynamics in the race to develop safer, more capable AI systems.</p>
           </article>
           <article class="card card--large">
-            <a href="/articles/journalist-exposes-four-major-music-datasets-used-to-train-ai-models-190530c0"><div class="card-image"><img src="/images/articles/journalist-exposes-four-major-music-datasets-used-to-train-ai-models-190530c0.jpg" alt="Journalist Exposes Four Major Music Datasets Used to Train AI Models" loading="lazy" width="1200" height="630"></div></a>
+            <a href="/articles/journalist-exposes-four-major-music-datasets-used-to-train-ai-models-190530c0"><div class="card-image"><picture><source srcset="/images/articles/journalist-exposes-four-major-music-datasets-used-to-train-ai-models-190530c0.webp" type="image/webp"><img src="/images/articles/journalist-exposes-four-major-music-datasets-used-to-train-ai-models-190530c0.jpg" alt="Journalist Exposes Four Major Music Datasets Used to Train AI Models" loading="lazy" width="1200" height="630"></picture></div></a>
             <div class="card-meta">
               <span class="tag tag--tools">Tools</span>
               <span class="card-byline"><time datetime="2026-06-20T18:46:48.000Z">Jun 20, 2026</time></span>
@@ -234,6 +284,10 @@
             <p class="card-excerpt">A comprehensive searchable database reveals millions of songs powering generative AI, raising questions about artist consent and fair compensation.</p>
           </article>
         </div>
+        <nav aria-label="Pagination" style="display:flex;align-items:center;justify-content:center;gap:var(--space-5);margin-top:var(--space-7);padding-top:var(--space-5);border-top:1px solid var(--color-rule);">
+          <span style="color:var(--color-ink-muted);font-size:var(--text-sm);">Page 1 of 7</span>
+          <a class="btn btn--ghost btn--sm" href="/categories/tools-2" rel="next">Older →</a>
+        </nav>
       </div>
     </section>
 
@@ -260,7 +314,60 @@
 
   </main>
 
-  <div id="site-footer-slot"></div>
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="/" class="logo">
+            <span class="logo-wordmark" aria-label="AI Glimpse">A<span class="iris-i" aria-hidden="true">ı</span><span aria-hidden="true"> Glimpse</span></span>
+          </a>
+          <p>Your daily glimpse into AI. Independent reporting and analysis on the people, products, and policies shaping artificial intelligence.</p>
+        </div>
+        <div class="footer-col">
+          <h5>Categories</h5>
+          <ul>
+            <li><a href="/categories/llms">LLMs</a></li>
+            <li><a href="/categories/research">Research</a></li>
+            <li><a href="/categories/tools">Tools</a></li>
+            <li><a href="/categories/business">Business</a></li>
+            <li><a href="/categories/ethics">Ethics</a></li>
+            <li><a href="/categories/industry">Industry</a></li>
+            <li><a href="/categories/robotics">Robotics</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h5>About</h5>
+          <ul>
+            <li><a href="/pages/about">About AI Glimpse</a></li>
+            <li><a href="/pages/contact">Contact</a></li>
+            <li><a href="/pages/editorial">Editorial Standards</a></li>
+            <li><a href="/pages/advertise">Advertise</a></li>
+            <li><a href="/guides.html">Guides &amp; Explainers</a></li>
+            <li><a href="/search.html">Search</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h5>Legal</h5>
+          <ul>
+            <li><a href="/pages/privacy">Privacy Policy</a></li>
+            <li><a href="/pages/terms">Terms of Service</a></li>
+            <li><a href="#" data-consent-open>Cookie preferences</a></li>
+            <li><a href="/rss.xml">RSS Feed</a></li>
+            <li><a href="/sitemap.xml">Sitemap</a></li>
+            <li><a href="/llms.txt">LLMs.txt</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div>© <span id="year">2026</span> AI Glimpse · aiglimpse.ai</div>
+        <div class="footer-social">
+          <a href="#" aria-label="X (Twitter)"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></a>
+          <a href="#" aria-label="LinkedIn"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.063 2.063 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg></a>
+          <a href="/rss.xml" aria-label="RSS"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M6.503 20.752c0 1.794-1.456 3.248-3.251 3.248-1.796 0-3.252-1.454-3.252-3.248 0-1.794 1.456-3.248 3.252-3.248 1.795 0 3.251 1.454 3.251 3.248zm-6.503-12.572v4.811c6.05.062 10.96 4.966 11.022 11.009h4.817c-.062-8.71-7.118-15.758-15.839-15.82zm0-3.368c10.58.046 19.152 8.594 19.183 19.188h4.817c-.03-13.231-10.755-23.954-24-24v4.812z"/></svg></a>
+        </div>
+      </div>
+    </div>
+  </footer>
 
   <script src="/js/chrome.js"></script>
   <script src="/js/main.js"></script>

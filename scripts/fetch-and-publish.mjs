@@ -32,6 +32,10 @@ import { buildLlmsTxt } from './build-llms-txt.mjs';
 import { syndicate, syndicationStats } from './lib/syndicate.mjs';
 import { EVERGREEN_LINK_MAP } from './lib/evergreen-links.mjs';
 import { regenerateSitemap as writeSitemap, pingIndexNow } from './lib/sitemap.mjs';
+import { headerHtml, footerHtml, FONT_LINKS } from './lib/chrome.mjs';
+import { pictureHtml, heroPreload } from './lib/media.mjs';
+import { relatedSectionHtml, breadcrumbSchema } from './lib/related.mjs';
+import { buildSearchIndex } from './build-search-index.mjs';
 
 const ROOT = path.resolve(process.cwd());
 const ARTICLES_DIR = path.join(ROOT, 'articles');
@@ -280,7 +284,7 @@ function scrubDashes(obj) {
   };
 }
 
-function generateArticleHtml({ rewritten, source, slug, category, publishedAt, readingMinutes, imagePath }) {
+function generateArticleHtml({ rewritten, source, slug, category, publishedAt, readingMinutes, imagePath, published }) {
   const cat = CATEGORIES[category];
   const isoDate = publishedAt.toISOString();
   const displayDate = publishedAt.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
@@ -303,6 +307,9 @@ function generateArticleHtml({ rewritten, source, slug, category, publishedAt, r
       name: source.name || source.title || 'Original source'
     };
   }
+
+  const breadcrumbs = breadcrumbSchema(SITE_URL, { slug, category, categoryName: cat.name, title: rewritten.title });
+  const relatedHtml = relatedSectionHtml(published, { slug, category });
 
   return `<!DOCTYPE html>
 <html lang="en">
@@ -328,11 +335,12 @@ function generateArticleHtml({ rewritten, source, slug, category, publishedAt, r
   <meta name="twitter:image" content="${imageUrl}">
   <link rel="icon" type="image/svg+xml" href="/images/favicon.svg">
   <link rel="alternate" type="application/rss+xml" title="AI Glimpse RSS" href="/rss.xml">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  ${FONT_LINKS}
   <link rel="stylesheet" href="/css/main.css">
+  ${heroPreload(imagePath)}
   <style>.reading-progress{position:fixed;top:0;left:0;height:3px;background:var(--color-accent);width:0%;z-index:200;transition:width 100ms linear;}</style>
   <script type="application/ld+json">${JSON.stringify(schema)}</script>
+  <script type="application/ld+json">${JSON.stringify(breadcrumbs)}</script>
   <meta name="google-site-verification" content="B132aMlqf1nssWYhjOSKUgSjmfwNWgPgtozZsHDxWlU" />
   <meta name="msvalidate.01" content="F3762E555B3E685836AE39C90B79ECBF" />
   <!-- aiglimpse-consent-default v1: must run before AdSense, defaults all ad/analytics storage to denied -->
@@ -344,7 +352,7 @@ function generateArticleHtml({ rewritten, source, slug, category, publishedAt, r
 </head>
 <body>
   <div class="reading-progress" aria-hidden="true"></div>
-  <div id="site-header-slot"></div>
+  ${headerHtml()}
   <main>
     <article>
       <section class="article-hero">
@@ -367,7 +375,7 @@ function generateArticleHtml({ rewritten, source, slug, category, publishedAt, r
       </section>
       <section style="padding: var(--space-7) 0;">
         <div class="container container--narrow">
-          <figure class="article-image"><img src="${imagePath}" alt="${escapeHtml(rewritten.title)}" loading="eager" width="1200" height="630"></figure>
+          <figure class="article-image">${pictureHtml(imagePath, rewritten.title, { loading: 'eager', fetchpriority: 'high' })}</figure>
           <div class="article-body">${rewritten.body_html}</div>
           <!-- Inline ad slot, will be re-enabled once AdSense is approved -->
           <p style="font-size:var(--text-xs);color:var(--color-ink-faint);margin-top:var(--space-6);padding-top:var(--space-4);border-top:1px solid var(--color-rule);">
@@ -376,8 +384,9 @@ function generateArticleHtml({ rewritten, source, slug, category, publishedAt, r
         </div>
       </section>
     </article>
+    ${relatedHtml}
   </main>
-  <div id="site-footer-slot"></div>
+  ${footerHtml()}
   <script src="/js/chrome.js"></script>
   <script src="/js/main.js"></script>
 </body>
@@ -492,7 +501,7 @@ async function main() {
         rewritten.body_html = injectInlineImages(rewritten.body_html, inline);
       }
 
-      const html = generateArticleHtml({ rewritten, source: item, slug, category, publishedAt, readingMinutes, imagePath });
+      const html = generateArticleHtml({ rewritten, source: item, slug, category, publishedAt, readingMinutes, imagePath, published });
       await fs.writeFile(path.join(ARTICLES_DIR, `${slug}.html`), html);
 
       published.articles.unshift({
@@ -552,6 +561,7 @@ async function main() {
   await buildHomepage();
   await buildCategories();
   await buildLlmsTxt();
+  await buildSearchIndex();
 
   if (newUrls.length > 0) {
     const ping = await pingIndexNow([`${SITE_URL}/`, ...newUrls], SITE_URL);

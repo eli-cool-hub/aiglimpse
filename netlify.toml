@@ -14,6 +14,11 @@
   to = "/articles/:splat.html"
   status = 200
 
+[[redirects]]
+  from = "/search"
+  to = "/search.html"
+  status = 200
+
 # 404 fallback
 [[redirects]]
   from = "/*"
@@ -62,6 +67,12 @@
 
 [[headers]]
   for = "/rss.xml"
+  [headers.values]
+    Cache-Control = "public, max-age=600"
+
+# Client-side search index, refreshed on every publish run
+[[headers]]
+  for = "/search-index.json"
   [headers.values]
     Cache-Control = "public, max-age=600"
 

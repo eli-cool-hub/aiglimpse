@@ -24,6 +24,7 @@
   <link rel="alternate" type="application/rss+xml" title="AI Glimpse RSS" href="/rss.xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700;9..144,900&family=Inter+Tight:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap">
   <link rel="stylesheet" href="/css/main.css">
 
   <meta name="google-site-verification" content="B132aMlqf1nssWYhjOSKUgSjmfwNWgPgtozZsHDxWlU" />
@@ -46,10 +47,59 @@
   }
   </script>
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"ItemList","name":"AI Research | AI Glimpse","itemListElement":[{"@type":"ListItem","position":1,"url":"https://aiglimpse.ai/articles/ai-model-generates-linguistically-consistent-constructed-languages-504e651e","name":"AI Model Generates Linguistically Consistent Constructed Languages"},{"@type":"ListItem","position":2,"url":"https://aiglimpse.ai/articles/new-framework-bridges-gap-between-video-tracking-and-precise-image-matting-eeb1263a","name":"New Framework Bridges Gap Between Video Tracking and Precise Image Matting"},{"@type":"ListItem","position":3,"url":"https://aiglimpse.ai/articles/research-reveals-critical-gaps-in-domain-aware-data-matching-systems-71c7d904","name":"Research Reveals Critical Gaps in Domain-Aware Data Matching Systems"},{"@type":"ListItem","position":4,"url":"https://aiglimpse.ai/articles/new-technique-gives-ai-video-models-deeper-3d-scene-understanding-12d2b722","name":"New Technique Gives AI Video Models Deeper 3D Scene Understanding"},{"@type":"ListItem","position":5,"url":"https://aiglimpse.ai/articles/open-source-ai-pipeline-maps-europes-hidden-political-networks-53a6851f","name":"Open-Source AI Pipeline Maps Europe's Hidden Political Networks"},{"@type":"ListItem","position":6,"url":"https://aiglimpse.ai/articles/neural-networks-learn-to-fix-their-own-mistakes-in-physics-simulations-0ac7ead2","name":"Neural Networks Learn to Fix Their Own Mistakes in Physics Simulations"},{"@type":"ListItem","position":7,"url":"https://aiglimpse.ai/articles/new-ai-framework-dramatically-accelerates-molecular-sampling-71a1d2b9","name":"New AI Framework Dramatically Accelerates Molecular Sampling"},{"@type":"ListItem","position":8,"url":"https://aiglimpse.ai/articles/physiformer-uses-diffusion-transformers-to-model-3d-object-physics-8a333c4b","name":"PhysiFormer Uses Diffusion Transformers to Model 3D Object Physics"},{"@type":"ListItem","position":9,"url":"https://aiglimpse.ai/articles/researchers-crack-diversity-problem-in-ai-image-generation-bb57b7b4","name":"Researchers Crack Diversity Problem in AI Image Generation"},{"@type":"ListItem","position":10,"url":"https://aiglimpse.ai/articles/researchers-propose-denoising-attention-to-sharpen-visual-ai-models-a0fe0381","name":"Researchers Propose Denoising Attention to Sharpen Visual AI Models"}]}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://aiglimpse.ai/"},{"@type":"ListItem","position":2,"name":"AI Research","item":"https://aiglimpse.ai/categories/research"}]}</script>
 </head>
 <body>
 
-  <div id="site-header-slot"></div>
+  <header class="site-header" role="banner">
+    <div class="container">
+      <div class="header-bar">
+        <a href="/" class="logo" aria-label="AI Glimpse home">
+          <span class="logo-wordmark" aria-label="AI Glimpse">A<span class="iris-i" aria-hidden="true">ı</span><span aria-hidden="true"> Glimpse</span></span>
+        </a>
+        <nav class="nav-primary" aria-label="Primary">
+          <a href="/categories/llms">LLMs</a>
+            <a href="/categories/research" class="active">Research</a>
+            <a href="/categories/tools">Tools</a>
+            <a href="/categories/business">Business</a>
+            <a href="/categories/ethics">Ethics</a>
+            <a href="/categories/industry">Industry</a>
+            <a href="/categories/robotics">Robotics</a>
+        </nav>
+        <div class="header-actions">
+          <a class="search-btn" href="/search.html" aria-label="Search">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="11" cy="11" r="7"/><path d="M21 21l-4.35-4.35"/>
+            </svg>
+          </a>
+          <a href="#newsletter" class="btn btn--primary btn--sm">Subscribe</a>
+          <button class="menu-btn" aria-label="Open menu">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+  <aside class="mobile-menu" aria-label="Mobile menu">
+    <div class="mobile-menu-header">
+      <a href="/" class="logo">
+        <span class="logo-wordmark" aria-label="AI Glimpse">A<span class="iris-i" aria-hidden="true">ı</span><span aria-hidden="true"> Glimpse</span></span>
+      </a>
+      <button class="mobile-menu-close" aria-label="Close menu" style="font-size:24px;">×</button>
+    </div>
+    <a href="/categories/llms">LLMs</a>
+    <a href="/categories/research">Research</a>
+    <a href="/categories/tools">Tools</a>
+    <a href="/categories/business">Business</a>
+    <a href="/categories/ethics">Ethics</a>
+    <a href="/categories/industry">Industry</a>
+    <a href="/categories/robotics">Robotics</a>
+    <a href="/search.html">Search</a>
+    <a href="/pages/about">About</a>
+    <a href="#newsletter">Subscribe</a>
+  </aside>
 
   <main>
 
@@ -72,7 +122,7 @@
       <div class="container">
         <div class="grid grid-3">
           <article class="card card--large">
-            <a href="/articles/ai-model-generates-linguistically-consistent-constructed-languages-504e651e"><div class="card-image"><img src="/images/articles/ai-model-generates-linguistically-consistent-constructed-languages-504e651e.jpg" alt="AI Model Generates Linguistically Consistent Constructed Languages" loading="lazy" width="1200" height="630"></div></a>
+            <a href="/articles/ai-model-generates-linguistically-consistent-constructed-languages-504e651e"><div class="card-image"><picture><source srcset="/images/articles/ai-model-generates-linguistically-consistent-constructed-languages-504e651e.webp" type="image/webp"><img src="/images/articles/ai-model-generates-linguistically-consistent-constructed-languages-504e651e.jpg" alt="AI Model Generates Linguistically Consistent Constructed Languages" loading="lazy" width="1200" height="630"></picture></div></a>
             <div class="card-meta">
               <span class="tag tag--research">Research</span>
               <span class="card-byline"><time datetime="2026-06-27T13:00:01.000Z">Jun 27, 2026</time></span>
@@ -81,7 +131,7 @@
             <p class="card-excerpt">ConlangCrafter demonstrates that machine learning can create novel language systems with internal coherence, opening new pathways for NLP research.</p>
           </article>
           <article class="card card--large">
-            <a href="/articles/new-framework-bridges-gap-between-video-tracking-and-precise-image-matting-eeb1263a"><div class="card-image"><img src="/images/articles/new-framework-bridges-gap-between-video-tracking-and-precise-image-matting-eeb1263a.jpg" alt="New Framework Bridges Gap Between Video Tracking and Precise Image Matting" loading="lazy" width="1200" height="630"></div></a>
+            <a href="/articles/new-framework-bridges-gap-between-video-tracking-and-precise-image-matting-eeb1263a"><div class="card-image"><picture><source srcset="/images/articles/new-framework-bridges-gap-between-video-tracking-and-precise-image-matting-eeb1263a.webp" type="image/webp"><img src="/images/articles/new-framework-bridges-gap-between-video-tracking-and-precise-image-matting-eeb1263a.jpg" alt="New Framework Bridges Gap Between Video Tracking and Precise Image Matting" loading="lazy" width="1200" height="630"></picture></div></a>
             <div class="card-meta">
               <span class="tag tag--research">Research</span>
               <span class="card-byline"><time datetime="2026-06-25T17:48:27.000Z">Jun 25, 2026</time></span>
@@ -90,7 +140,7 @@
             <p class="card-excerpt">Researchers achieve state-of-the-art video matting results by decoupling tracking from fine-detail extraction, without requiring specialized video training data.</p>
           </article>
           <article class="card card--large">
-            <a href="/articles/research-reveals-critical-gaps-in-domain-aware-data-matching-systems-71c7d904"><div class="card-image"><img src="/images/articles/research-reveals-critical-gaps-in-domain-aware-data-matching-systems-71c7d904.jpg" alt="Research Reveals Critical Gaps in Domain-Aware Data Matching Systems" loading="lazy" width="1200" height="630"></div></a>
+            <a href="/articles/research-reveals-critical-gaps-in-domain-aware-data-matching-systems-71c7d904"><div class="card-image"><picture><source srcset="/images/articles/research-reveals-critical-gaps-in-domain-aware-data-matching-systems-71c7d904.webp" type="image/webp"><img src="/images/articles/research-reveals-critical-gaps-in-domain-aware-data-matching-systems-71c7d904.jpg" alt="Research Reveals Critical Gaps in Domain-Aware Data Matching Systems" loading="lazy" width="1200" height="630"></picture></div></a>
             <div class="card-meta">
               <span class="tag tag--research">Research</span>
               <span class="card-byline"><time datetime="2026-06-25T17:49:48.000Z">Jun 25, 2026</time></span>
@@ -99,7 +149,7 @@
             <p class="card-excerpt">New study exposes how resource constraints and data distribution shifts impact the performance of advanced entity matching frameworks in real-world applications.</p>
           </article>
           <article class="card card--large">
-            <a href="/articles/new-technique-gives-ai-video-models-deeper-3d-scene-understanding-12d2b722"><div class="card-image"><img src="/images/articles/new-technique-gives-ai-video-models-deeper-3d-scene-understanding-12d2b722.jpg" alt="New Technique Gives AI Video Models Deeper 3D Scene Understanding" loading="lazy" width="1200" height="630"></div></a>
+            <a href="/articles/new-technique-gives-ai-video-models-deeper-3d-scene-understanding-12d2b722"><div class="card-image"><picture><source srcset="/images/articles/new-technique-gives-ai-video-models-deeper-3d-scene-understanding-12d2b722.webp" type="image/webp"><img src="/images/articles/new-technique-gives-ai-video-models-deeper-3d-scene-understanding-12d2b722.jpg" alt="New Technique Gives AI Video Models Deeper 3D Scene Understanding" loading="lazy" width="1200" height="630"></picture></div></a>
             <div class="card-meta">
               <span class="tag tag--research">Research</span>
               <span class="card-byline"><time datetime="2026-06-25T17:51:02.000Z">Jun 25, 2026</time></span>
@@ -108,7 +158,7 @@
             <p class="card-excerpt">Researchers introduce geometric encoding method that improves consistency and camera control in AI-generated video sequences.</p>
           </article>
           <article class="card card--large">
-            <a href="/articles/open-source-ai-pipeline-maps-europes-hidden-political-networks-53a6851f"><div class="card-image"><img src="/images/articles/open-source-ai-pipeline-maps-europes-hidden-political-networks-53a6851f.jpg" alt="Open-Source AI Pipeline Maps Europe's Hidden Political Networks" loading="lazy" width="1200" height="630"></div></a>
+            <a href="/articles/open-source-ai-pipeline-maps-europes-hidden-political-networks-53a6851f"><div class="card-image"><picture><source srcset="/images/articles/open-source-ai-pipeline-maps-europes-hidden-political-networks-53a6851f.webp" type="image/webp"><img src="/images/articles/open-source-ai-pipeline-maps-europes-hidden-political-networks-53a6851f.jpg" alt="Open-Source AI Pipeline Maps Europe's Hidden Political Networks" loading="lazy" width="1200" height="630"></picture></div></a>
             <div class="card-meta">
               <span class="tag tag--research">Research</span>
               <span class="card-byline"><time datetime="2026-06-25T17:51:59.000Z">Jun 25, 2026</time></span>
@@ -117,7 +167,7 @@
             <p class="card-excerpt">Researchers develop multilingual language model system to automatically extract political relationships from news archives at continental scale.</p>
           </article>
           <article class="card card--large">
-            <a href="/articles/neural-networks-learn-to-fix-their-own-mistakes-in-physics-simulations-0ac7ead2"><div class="card-image"><img src="/images/articles/neural-networks-learn-to-fix-their-own-mistakes-in-physics-simulations-0ac7ead2.jpg" alt="Neural Networks Learn to Fix Their Own Mistakes in Physics Simulations" loading="lazy" width="1200" height="630"></div></a>
+            <a href="/articles/neural-networks-learn-to-fix-their-own-mistakes-in-physics-simulations-0ac7ead2"><div class="card-image"><picture><source srcset="/images/articles/neural-networks-learn-to-fix-their-own-mistakes-in-physics-simulations-0ac7ead2.webp" type="image/webp"><img src="/images/articles/neural-networks-learn-to-fix-their-own-mistakes-in-physics-simulations-0ac7ead2.jpg" alt="Neural Networks Learn to Fix Their Own Mistakes in Physics Simulations" loading="lazy" width="1200" height="630"></picture></div></a>
             <div class="card-meta">
               <span class="tag tag--research">Research</span>
               <span class="card-byline"><time datetime="2026-06-25T17:56:27.000Z">Jun 25, 2026</time></span>
@@ -126,7 +176,7 @@
             <p class="card-excerpt">New approach trains AI models to self-correct prediction errors without expensive optimization, showing 10x accuracy gains on complex fluid dynamics problems.</p>
           </article>
           <article class="card card--large">
-            <a href="/articles/new-ai-framework-dramatically-accelerates-molecular-sampling-71a1d2b9"><div class="card-image"><img src="/images/articles/new-ai-framework-dramatically-accelerates-molecular-sampling-71a1d2b9.jpg" alt="New AI Framework Dramatically Accelerates Molecular Sampling" loading="lazy" width="1200" height="630"></div></a>
+            <a href="/articles/new-ai-framework-dramatically-accelerates-molecular-sampling-71a1d2b9"><div class="card-image"><picture><source srcset="/images/articles/new-ai-framework-dramatically-accelerates-molecular-sampling-71a1d2b9.webp" type="image/webp"><img src="/images/articles/new-ai-framework-dramatically-accelerates-molecular-sampling-71a1d2b9.jpg" alt="New AI Framework Dramatically Accelerates Molecular Sampling" loading="lazy" width="1200" height="630"></picture></div></a>
             <div class="card-meta">
               <span class="tag tag--research">Research</span>
               <span class="card-byline"><time datetime="2026-06-25T17:58:21.000Z">Jun 25, 2026</time></span>
@@ -135,7 +185,7 @@
             <p class="card-excerpt">Researchers replace flow-based models with autoregressive architecture, cutting energy prediction errors by 60% on protein structures.</p>
           </article>
           <article class="card card--large">
-            <a href="/articles/physiformer-uses-diffusion-transformers-to-model-3d-object-physics-8a333c4b"><div class="card-image"><img src="/images/articles/physiformer-uses-diffusion-transformers-to-model-3d-object-physics-8a333c4b.jpg" alt="PhysiFormer Uses Diffusion Transformers to Model 3D Object Physics" loading="lazy" width="1200" height="630"></div></a>
+            <a href="/articles/physiformer-uses-diffusion-transformers-to-model-3d-object-physics-8a333c4b"><div class="card-image"><picture><source srcset="/images/articles/physiformer-uses-diffusion-transformers-to-model-3d-object-physics-8a333c4b.webp" type="image/webp"><img src="/images/articles/physiformer-uses-diffusion-transformers-to-model-3d-object-physics-8a333c4b.jpg" alt="PhysiFormer Uses Diffusion Transformers to Model 3D Object Physics" loading="lazy" width="1200" height="630"></picture></div></a>
             <div class="card-meta">
               <span class="tag tag--research">Research</span>
               <span class="card-byline"><time datetime="2026-06-25T17:59:00.000Z">Jun 25, 2026</time></span>
@@ -144,7 +194,7 @@
             <p class="card-excerpt">New AI system simulates realistic physical behavior for rigid and elastic objects without explicit constraints, advancing world models for robotics and design.</p>
           </article>
           <article class="card card--large">
-            <a href="/articles/researchers-crack-diversity-problem-in-ai-image-generation-bb57b7b4"><div class="card-image"><img src="/images/articles/researchers-crack-diversity-problem-in-ai-image-generation-bb57b7b4.jpg" alt="Researchers Crack Diversity Problem in AI Image Generation" loading="lazy" width="1200" height="630"></div></a>
+            <a href="/articles/researchers-crack-diversity-problem-in-ai-image-generation-bb57b7b4"><div class="card-image"><picture><source srcset="/images/articles/researchers-crack-diversity-problem-in-ai-image-generation-bb57b7b4.webp" type="image/webp"><img src="/images/articles/researchers-crack-diversity-problem-in-ai-image-generation-bb57b7b4.jpg" alt="Researchers Crack Diversity Problem in AI Image Generation" loading="lazy" width="1200" height="630"></picture></div></a>
             <div class="card-meta">
               <span class="tag tag--research">Research</span>
               <span class="card-byline"><time datetime="2026-06-25T17:59:47.000Z">Jun 25, 2026</time></span>
@@ -153,7 +203,7 @@
             <p class="card-excerpt">A new self-guidance technique helps flow models produce varied outputs without slowing down inference or requiring external systems.</p>
           </article>
           <article class="card card--large">
-            <a href="/articles/researchers-propose-denoising-attention-to-sharpen-visual-ai-models-a0fe0381"><div class="card-image"><img src="/images/articles/researchers-propose-denoising-attention-to-sharpen-visual-ai-models-a0fe0381.jpg" alt="Researchers Propose Denoising Attention to Sharpen Visual AI Models" loading="lazy" width="1200" height="630"></div></a>
+            <a href="/articles/researchers-propose-denoising-attention-to-sharpen-visual-ai-models-a0fe0381"><div class="card-image"><picture><source srcset="/images/articles/researchers-propose-denoising-attention-to-sharpen-visual-ai-models-a0fe0381.webp" type="image/webp"><img src="/images/articles/researchers-propose-denoising-attention-to-sharpen-visual-ai-models-a0fe0381.jpg" alt="Researchers Propose Denoising Attention to Sharpen Visual AI Models" loading="lazy" width="1200" height="630"></picture></div></a>
             <div class="card-meta">
               <span class="tag tag--research">Research</span>
               <span class="card-byline"><time datetime="2026-06-25T17:59:48.000Z">Jun 25, 2026</time></span>
@@ -162,7 +212,7 @@
             <p class="card-excerpt">A new attention mechanism reduces noise in transformer models, boosting image recognition accuracy and expanding benefits across video and multimodal tasks.</p>
           </article>
           <article class="card card--large">
-            <a href="/articles/probability-alone-wont-fix-ai-accuracy-new-research-finds-bf22661d"><div class="card-image"><img src="/images/articles/probability-alone-wont-fix-ai-accuracy-new-research-finds-bf22661d.jpg" alt="Probability Alone Won't Fix AI Accuracy, New Research Finds" loading="lazy" width="1200" height="630"></div></a>
+            <a href="/articles/probability-alone-wont-fix-ai-accuracy-new-research-finds-bf22661d"><div class="card-image"><picture><source srcset="/images/articles/probability-alone-wont-fix-ai-accuracy-new-research-finds-bf22661d.webp" type="image/webp"><img src="/images/articles/probability-alone-wont-fix-ai-accuracy-new-research-finds-bf22661d.jpg" alt="Probability Alone Won't Fix AI Accuracy, New Research Finds" loading="lazy" width="1200" height="630"></picture></div></a>
             <div class="card-meta">
               <span class="tag tag--research">Research</span>
               <span class="card-byline"><time datetime="2026-06-25T17:58:02.000Z">Jun 25, 2026</time></span>
@@ -171,7 +221,7 @@
             <p class="card-excerpt">A rigorous study reveals fundamental limits to improving LLM answers through decoding optimization.</p>
           </article>
           <article class="card card--large">
-            <a href="/articles/new-framework-fixes-ai-models-that-ignore-images-when-answering-questions-1fab0291"><div class="card-image"><img src="/images/articles/new-framework-fixes-ai-models-that-ignore-images-when-answering-questions-1fab0291.jpg" alt="New Framework Fixes AI Models That Ignore Images When Answering Questions" loading="lazy" width="1200" height="630"></div></a>
+            <a href="/articles/new-framework-fixes-ai-models-that-ignore-images-when-answering-questions-1fab0291"><div class="card-image"><picture><source srcset="/images/articles/new-framework-fixes-ai-models-that-ignore-images-when-answering-questions-1fab0291.webp" type="image/webp"><img src="/images/articles/new-framework-fixes-ai-models-that-ignore-images-when-answering-questions-1fab0291.jpg" alt="New Framework Fixes AI Models That Ignore Images When Answering Questions" loading="lazy" width="1200" height="630"></picture></div></a>
             <div class="card-meta">
               <span class="tag tag--research">Research</span>
               <span class="card-byline"><time datetime="2026-06-25T17:59:55.000Z">Jun 25, 2026</time></span>
@@ -180,7 +230,7 @@
             <p class="card-excerpt">Researchers tackle a fundamental flaw where multimodal AI systems rely too heavily on language patterns instead of actually analyzing visual content.</p>
           </article>
           <article class="card card--large">
-            <a href="/articles/new-training-method-lets-ai-learn-coding-without-perfect-answers-e3f23e96"><div class="card-image"><img src="/images/articles/new-training-method-lets-ai-learn-coding-without-perfect-answers-e3f23e96.jpg" alt="New Training Method Lets AI Learn Coding Without Perfect Answers" loading="lazy" width="1200" height="630"></div></a>
+            <a href="/articles/new-training-method-lets-ai-learn-coding-without-perfect-answers-e3f23e96"><div class="card-image"><picture><source srcset="/images/articles/new-training-method-lets-ai-learn-coding-without-perfect-answers-e3f23e96.webp" type="image/webp"><img src="/images/articles/new-training-method-lets-ai-learn-coding-without-perfect-answers-e3f23e96.jpg" alt="New Training Method Lets AI Learn Coding Without Perfect Answers" loading="lazy" width="1200" height="630"></picture></div></a>
             <div class="card-meta">
               <span class="tag tag--research">Research</span>
               <span class="card-byline"><time datetime="2026-06-25T17:59:36.000Z">Jun 25, 2026</time></span>
@@ -189,7 +239,7 @@
             <p class="card-excerpt">Researchers show language models can improve at programming tasks by learning from imperfect feedback, not just correct solutions.</p>
           </article>
           <article class="card card--large">
-            <a href="/articles/robots-learn-without-forgetting-using-ai-generated-memory-replays-091958c5"><div class="card-image"><img src="/images/articles/robots-learn-without-forgetting-using-ai-generated-memory-replays-091958c5.jpg" alt="Robots Learn Without Forgetting Using AI-Generated Memory Replays" loading="lazy" width="1200" height="630"></div></a>
+            <a href="/articles/robots-learn-without-forgetting-using-ai-generated-memory-replays-091958c5"><div class="card-image"><picture><source srcset="/images/articles/robots-learn-without-forgetting-using-ai-generated-memory-replays-091958c5.webp" type="image/webp"><img src="/images/articles/robots-learn-without-forgetting-using-ai-generated-memory-replays-091958c5.jpg" alt="Robots Learn Without Forgetting Using AI-Generated Memory Replays" loading="lazy" width="1200" height="630"></picture></div></a>
             <div class="card-meta">
               <span class="tag tag--research">Research</span>
               <span class="card-byline"><time datetime="2026-06-25T17:59:56.000Z">Jun 25, 2026</time></span>
@@ -198,7 +248,7 @@
             <p class="card-excerpt">New technique lets robots retain learned skills while adapting to new tasks, eliminating the need to store original training data.</p>
           </article>
           <article class="card card--large">
-            <a href="/articles/ai-model-teaches-itself-to-see-and-create-without-human-guidance-f2da12d6"><div class="card-image"><img src="/images/articles/ai-model-teaches-itself-to-see-and-create-without-human-guidance-f2da12d6.jpg" alt="AI Model Teaches Itself to See and Create Without Human Guidance" loading="lazy" width="1200" height="630"></div></a>
+            <a href="/articles/ai-model-teaches-itself-to-see-and-create-without-human-guidance-f2da12d6"><div class="card-image"><picture><source srcset="/images/articles/ai-model-teaches-itself-to-see-and-create-without-human-guidance-f2da12d6.webp" type="image/webp"><img src="/images/articles/ai-model-teaches-itself-to-see-and-create-without-human-guidance-f2da12d6.jpg" alt="AI Model Teaches Itself to See and Create Without Human Guidance" loading="lazy" width="1200" height="630"></picture></div></a>
             <div class="card-meta">
               <span class="tag tag--research">Research</span>
               <span class="card-byline"><time datetime="2026-06-25T17:59:57.000Z">Jun 25, 2026</time></span>
@@ -207,7 +257,7 @@
             <p class="card-excerpt">Researchers demonstrate self-improving multimodal systems that enhance both image understanding and generation using only unlabeled data.</p>
           </article>
           <article class="card card--large">
-            <a href="/articles/new-framework-lets-ai-image-models-master-multiple-tasks-at-once-9b0f8d88"><div class="card-image"><img src="/images/articles/new-framework-lets-ai-image-models-master-multiple-tasks-at-once-9b0f8d88.jpg" alt="New Framework Lets AI Image Models Master Multiple Tasks at Once" loading="lazy" width="1200" height="630"></div></a>
+            <a href="/articles/new-framework-lets-ai-image-models-master-multiple-tasks-at-once-9b0f8d88"><div class="card-image"><picture><source srcset="/images/articles/new-framework-lets-ai-image-models-master-multiple-tasks-at-once-9b0f8d88.webp" type="image/webp"><img src="/images/articles/new-framework-lets-ai-image-models-master-multiple-tasks-at-once-9b0f8d88.jpg" alt="New Framework Lets AI Image Models Master Multiple Tasks at Once" loading="lazy" width="1200" height="630"></picture></div></a>
             <div class="card-meta">
               <span class="tag tag--research">Research</span>
               <span class="card-byline"><time datetime="2026-06-25T17:59:58.000Z">Jun 25, 2026</time></span>
@@ -216,7 +266,7 @@
             <p class="card-excerpt">Researchers develop technique to unify text-to-image generation with editing capabilities without sacrificing quality.</p>
           </article>
           <article class="card card--large">
-            <a href="/articles/new-ai-model-bridges-gap-between-different-welding-technologies-09eb3b15"><div class="card-image"><img src="/images/articles/new-ai-model-bridges-gap-between-different-welding-technologies-09eb3b15.jpg" alt="New AI Model Bridges Gap Between Different Welding Technologies" loading="lazy" width="1200" height="630"></div></a>
+            <a href="/articles/new-ai-model-bridges-gap-between-different-welding-technologies-09eb3b15"><div class="card-image"><picture><source srcset="/images/articles/new-ai-model-bridges-gap-between-different-welding-technologies-09eb3b15.webp" type="image/webp"><img src="/images/articles/new-ai-model-bridges-gap-between-different-welding-technologies-09eb3b15.jpg" alt="New AI Model Bridges Gap Between Different Welding Technologies" loading="lazy" width="1200" height="630"></picture></div></a>
             <div class="card-meta">
               <span class="tag tag--research">Research</span>
               <span class="card-byline"><time datetime="2026-06-24T17:52:57.000Z">Jun 24, 2026</time></span>
@@ -225,7 +275,7 @@
             <p class="card-excerpt">Researchers solve a major challenge in deploying machine learning across industrial processes with fundamentally different physics.</p>
           </article>
           <article class="card card--large">
-            <a href="/articles/voice-ai-systems-ignore-emotion-despite-detecting-it-4ecd93d8"><div class="card-image"><img src="/images/articles/voice-ai-systems-ignore-emotion-despite-detecting-it-4ecd93d8.jpg" alt="Voice AI Systems Ignore Emotion Despite Detecting It" loading="lazy" width="1200" height="630"></div></a>
+            <a href="/articles/voice-ai-systems-ignore-emotion-despite-detecting-it-4ecd93d8"><div class="card-image"><picture><source srcset="/images/articles/voice-ai-systems-ignore-emotion-despite-detecting-it-4ecd93d8.webp" type="image/webp"><img src="/images/articles/voice-ai-systems-ignore-emotion-despite-detecting-it-4ecd93d8.jpg" alt="Voice AI Systems Ignore Emotion Despite Detecting It" loading="lazy" width="1200" height="630"></picture></div></a>
             <div class="card-meta">
               <span class="tag tag--research">Research</span>
               <span class="card-byline"><time datetime="2026-06-24T17:55:38.000Z">Jun 24, 2026</time></span>
@@ -234,6 +284,10 @@
             <p class="card-excerpt">New research reveals leading real-time voice assistants fail to act on vocal cues they can perceive, creating risks in high-stakes interactions.</p>
           </article>
         </div>
+        <nav aria-label="Pagination" style="display:flex;align-items:center;justify-content:center;gap:var(--space-5);margin-top:var(--space-7);padding-top:var(--space-5);border-top:1px solid var(--color-rule);">
+          <span style="color:var(--color-ink-muted);font-size:var(--text-sm);">Page 1 of 8</span>
+          <a class="btn btn--ghost btn--sm" href="/categories/research-2" rel="next">Older →</a>
+        </nav>
       </div>
     </section>
 
@@ -260,7 +314,60 @@
 
   </main>
 
-  <div id="site-footer-slot"></div>
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="/" class="logo">
+            <span class="logo-wordmark" aria-label="AI Glimpse">A<span class="iris-i" aria-hidden="true">ı</span><span aria-hidden="true"> Glimpse</span></span>
+          </a>
+          <p>Your daily glimpse into AI. Independent reporting and analysis on the people, products, and policies shaping artificial intelligence.</p>
+        </div>
+        <div class="footer-col">
+          <h5>Categories</h5>
+          <ul>
+            <li><a href="/categories/llms">LLMs</a></li>
+            <li><a href="/categories/research">Research</a></li>
+            <li><a href="/categories/tools">Tools</a></li>
+            <li><a href="/categories/business">Business</a></li>
+            <li><a href="/categories/ethics">Ethics</a></li>
+            <li><a href="/categories/industry">Industry</a></li>
+            <li><a href="/categories/robotics">Robotics</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h5>About</h5>
+          <ul>
+            <li><a href="/pages/about">About AI Glimpse</a></li>
+            <li><a href="/pages/contact">Contact</a></li>
+            <li><a href="/pages/editorial">Editorial Standards</a></li>
+            <li><a href="/pages/advertise">Advertise</a></li>
+            <li><a href="/guides.html">Guides &amp; Explainers</a></li>
+            <li><a href="/search.html">Search</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h5>Legal</h5>
+          <ul>
+            <li><a href="/pages/privacy">Privacy Policy</a></li>
+            <li><a href="/pages/terms">Terms of Service</a></li>
+            <li><a href="#" data-consent-open>Cookie preferences</a></li>
+            <li><a href="/rss.xml">RSS Feed</a></li>
+            <li><a href="/sitemap.xml">Sitemap</a></li>
+            <li><a href="/llms.txt">LLMs.txt</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div>© <span id="year">2026</span> AI Glimpse · aiglimpse.ai</div>
+        <div class="footer-social">
+          <a href="#" aria-label="X (Twitter)"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></a>
+          <a href="#" aria-label="LinkedIn"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.063 2.063 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg></a>
+          <a href="/rss.xml" aria-label="RSS"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M6.503 20.752c0 1.794-1.456 3.248-3.251 3.248-1.796 0-3.252-1.454-3.252-3.248 0-1.794 1.456-3.248 3.252-3.248 1.795 0 3.251 1.454 3.251 3.248zm-6.503-12.572v4.811c6.05.062 10.96 4.966 11.022 11.009h4.817c-.062-8.71-7.118-15.758-15.839-15.82zm0-3.368c10.58.046 19.152 8.594 19.183 19.188h4.817c-.03-13.231-10.755-23.954-24-24v4.812z"/></svg></a>
+        </div>
+      </div>
+    </div>
+  </footer>
 
   <script src="/js/chrome.js"></script>
   <script src="/js/main.js"></script>

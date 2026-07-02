@@ -33,6 +33,9 @@ import { syndicate } from './lib/syndicate.mjs';
 import { EVERGREEN_TOPICS } from './lib/evergreen-topics.mjs';
 import { EVERGREEN_LINK_MAP } from './lib/evergreen-links.mjs';
 import { buildGuidesPage } from './build-guides.mjs';
+import { headerHtml, footerHtml, FONT_LINKS } from './lib/chrome.mjs';
+import { pictureHtml, heroPreload } from './lib/media.mjs';
+import { relatedSectionHtml, breadcrumbSchema } from './lib/related.mjs';
 
 const ROOT = path.resolve(process.cwd());
 const ARTICLES_DIR = path.join(ROOT, 'articles');
@@ -306,7 +309,7 @@ function renderFaqHtml(faq) {
       </section>`;
 }
 
-function generateEvergreenHtml({ piece, slug, category, publishedAt, readingMinutes, imagePath }) {
+function generateEvergreenHtml({ piece, slug, category, publishedAt, readingMinutes, imagePath, published }) {
   const cat = CATEGORY_LABELS[category];
   const isoDate = publishedAt.toISOString();
   const displayDate = publishedAt.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
@@ -366,11 +369,12 @@ function generateEvergreenHtml({ piece, slug, category, publishedAt, readingMinu
   <meta name="twitter:image" content="${imageUrl}">
   <link rel="icon" type="image/svg+xml" href="/images/favicon.svg">
   <link rel="alternate" type="application/rss+xml" title="AI Glimpse RSS" href="/rss.xml">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  ${FONT_LINKS}
   <link rel="stylesheet" href="/css/main.css">
+  ${heroPreload(imagePath)}
   <style>.reading-progress{position:fixed;top:0;left:0;height:3px;background:var(--color-accent);width:0%;z-index:200;transition:width 100ms linear;}</style>
   <script type="application/ld+json">${JSON.stringify(articleSchema)}</script>
+  <script type="application/ld+json">${JSON.stringify(breadcrumbSchema(SITE_URL, { slug, category, categoryName: cat.name, title: piece.title }))}</script>
   ${faqSchema ? `<script type="application/ld+json">${JSON.stringify(faqSchema)}</script>` : ''}
   <meta name="google-site-verification" content="B132aMlqf1nssWYhjOSKUgSjmfwNWgPgtozZsHDxWlU" />
   <meta name="msvalidate.01" content="F3762E555B3E685836AE39C90B79ECBF" />
@@ -383,7 +387,7 @@ function generateEvergreenHtml({ piece, slug, category, publishedAt, readingMinu
 </head>
 <body>
   <div class="reading-progress" aria-hidden="true"></div>
-  <div id="site-header-slot"></div>
+  ${headerHtml()}
   <main>
     <article>
       <section class="article-hero">
@@ -408,7 +412,7 @@ function generateEvergreenHtml({ piece, slug, category, publishedAt, readingMinu
       </section>
       <section style="padding: var(--space-7) 0;">
         <div class="container container--narrow">
-          <figure class="article-image"><img src="${imagePath}" alt="${escapeHtml(piece.title)}" loading="eager" width="1200" height="630"></figure>
+          <figure class="article-image">${pictureHtml(imagePath, piece.title, { loading: 'eager', fetchpriority: 'high' })}</figure>
           <div class="article-body">${piece.body_html}</div>
 ${renderFaqHtml(piece.faq)}
           <p style="font-size:var(--text-xs);color:var(--color-ink-faint);margin-top:var(--space-6);padding-top:var(--space-4);border-top:1px solid var(--color-rule);">
@@ -417,8 +421,9 @@ ${renderFaqHtml(piece.faq)}
         </div>
       </section>
     </article>
+    ${relatedSectionHtml(published, { slug, category })}
   </main>
-  <div id="site-footer-slot"></div>
+  ${footerHtml()}
   <script src="/js/chrome.js"></script>
   <script src="/js/main.js"></script>
 </body>
@@ -514,7 +519,7 @@ async function main() {
 
     const html = generateEvergreenHtml({
       piece, slug: fileSlug, category: topic.category,
-      publishedAt, readingMinutes, imagePath
+      publishedAt, readingMinutes, imagePath, published
     });
     await fs.writeFile(filePath, html);
 

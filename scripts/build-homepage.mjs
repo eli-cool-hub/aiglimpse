@@ -14,6 +14,8 @@
 import fs from 'fs/promises';
 import path from 'path';
 import { fileURLToPath } from 'url';
+import { headerHtml, footerHtml, FONT_LINKS } from './lib/chrome.mjs';
+import { pictureHtml, heroPreload } from './lib/media.mjs';
 
 const ROOT = path.resolve(process.cwd());
 const PUBLISHED_PATH = path.join(ROOT, 'data', 'published.json');
@@ -62,7 +64,7 @@ function cardFeatured(a) {
   const u = articleUrl(a);
   return `<article class="card card--featured">
             <a href="${u}">
-              <div class="card-image"><img src="${articleImage(a)}" alt="${escapeHtml(a.title)}" loading="eager" width="1200" height="630"></div>
+              <div class="card-image">${pictureHtml(articleImage(a), a.title, { loading: 'eager', fetchpriority: 'high' })}</div>
             </a>
             <div class="card-meta">
               <span class="tag tag--${t.tag}">${escapeHtml(t.full)}</span>
@@ -90,7 +92,7 @@ function cardLarge(a) {
   const t = cat(a.category);
   const u = articleUrl(a);
   return `<article class="card card--large">
-            <a href="${u}"><div class="card-image"><img src="${articleImage(a)}" alt="${escapeHtml(a.title)}" loading="lazy" width="1200" height="630"></div></a>
+            <a href="${u}"><div class="card-image">${pictureHtml(articleImage(a), a.title, { loading: 'lazy' })}</div></a>
             <div class="card-meta">
               <span class="tag tag--${t.tag}">${escapeHtml(t.short)}</span>
               <span class="card-byline">${timeTag(a.publishedAt)}</span>
@@ -104,7 +106,7 @@ function cardCompact(a) {
   const t = cat(a.category);
   const u = articleUrl(a);
   return `<article class="card card--medium">
-            <a href="${u}"><div class="card-image"><img src="${articleImage(a)}" alt="${escapeHtml(a.title)}" loading="lazy" width="1200" height="630"></div></a>
+            <a href="${u}"><div class="card-image">${pictureHtml(articleImage(a), a.title, { loading: 'lazy' })}</div></a>
             <div class="card-meta">
               <span class="tag tag--${t.tag}">${escapeHtml(t.short)}</span>
               <span class="card-byline">${timeTag(a.publishedAt)}</span>
@@ -204,6 +206,7 @@ function renderMore(articles) {
 }
 
 function renderPage(articles) {
+  const featured = articles[0];
   return `<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -242,12 +245,12 @@ function renderPage(articles) {
   <!-- RSS -->
   <link rel="alternate" type="application/rss+xml" title="AI Glimpse RSS" href="/rss.xml">
 
-  <!-- Preconnect for performance -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- Fonts -->
+  ${FONT_LINKS}
 
   <!-- Styles -->
   <link rel="stylesheet" href="/css/main.css">
+  ${featured ? heroPreload(articleImage(featured)) : ''}
 
   <!-- Structured Data: Organization + WebSite -->
   <script type="application/ld+json">
@@ -298,7 +301,7 @@ function renderPage(articles) {
 </head>
 <body>
 
-  <div id="site-header-slot"></div>
+  ${headerHtml('/')}
 
   <!-- Breaking news ticker -->
   <div class="breaking-bar" aria-label="Breaking news">
@@ -382,7 +385,7 @@ ${renderMore(articles)}
 
   </main>
 
-  <div id="site-footer-slot"></div>
+  ${footerHtml()}
 
   <script src="/js/chrome.js"></script>
   <script src="/js/main.js"></script>

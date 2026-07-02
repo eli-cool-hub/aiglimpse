@@ -90,12 +90,7 @@
     }
   }
 
-  // ----- Search modal (basic) -----
-  const searchBtn = document.querySelector('.search-btn');
-  if (searchBtn) {
-    searchBtn.addEventListener('click', () => {
-      const q = prompt('Search AI Glimpse:');
-      if (q) window.location.href = `/search.html?q=${encodeURIComponent(q)}`;
-    });
-  }
+  // ----- Footer year -----
+  const yearEl = document.getElementById('year');
+  if (yearEl) yearEl.textContent = new Date().getFullYear();
 })();

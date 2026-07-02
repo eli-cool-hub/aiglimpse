@@ -14,6 +14,7 @@
 import fs from 'fs/promises';
 import path from 'path';
 import crypto from 'crypto';
+import { ensureWebp, pictureHtml } from './media.mjs';
 
 const ROOT = path.resolve(process.cwd());
 const IMAGES_DIR = path.join(ROOT, 'images', 'articles');
@@ -618,6 +619,7 @@ export async function generateArticleImage(slug, titleOrOpts, categoryMaybe) {
   try {
     const { buf, photographer, query } = await tryPexelsHero(slug, opts);
     await fs.writeFile(jpgPath, buf);
+    await ensureWebp(jpgPath, { force: true });
     try { await fs.unlink(svgPath); } catch {}
     try { await fs.unlink(jpgBackup); } catch {}
     try { await fs.unlink(svgBackup); } catch {}
@@ -688,6 +690,7 @@ export async function generateInlineImages(slug, titleOrOpts, categoryMaybe, cou
       if (!chosen) continue;
       const buf = await downloadPexelsPhoto(chosen);
       await fs.writeFile(filePath, buf);
+      await ensureWebp(filePath, { force: true });
       _usedPhotoIds.add(chosen.id);
       const heading = inlineHeadingForSlot(extractH2Headings(opts.bodyHtml), slot);
       out.push({
@@ -737,14 +740,13 @@ export function injectInlineImages(bodyHtml, images) {
 }
 
 function renderInlineFigure(img) {
-  const altEsc = String(img.alt || '').replace(/"/g, '&quot;');
   const credit = img.photographer
     ? `<figcaption class="article-image-credit">Photo by ${img.photoPage
         ? `<a href="${escapeAttr(img.photoPage)}" rel="nofollow noopener" target="_blank">${escapeAttr(img.photographer)}</a>`
         : escapeAttr(img.photographer)} on Pexels.</figcaption>`
     : '';
   return `<figure class="article-image article-image--inline">
-  <img src="${img.url}" alt="${altEsc}" loading="lazy" width="1200" height="630">
+  ${pictureHtml(img.url, img.alt || '', { loading: 'lazy' })}
   ${credit}
 </figure>`;
 }

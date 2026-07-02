@@ -13,6 +13,9 @@
 import fs from 'fs/promises';
 import path from 'path';
 import { fileURLToPath } from 'url';
+import { headerHtml, footerHtml, FONT_LINKS } from './lib/chrome.mjs';
+import { pictureHtml } from './lib/media.mjs';
+import { CATEGORY_PER_PAGE } from './lib/sitemap.mjs';
 
 const ROOT = path.resolve(process.cwd());
 const PUBLISHED_PATH = path.join(ROOT, 'data', 'published.json');
@@ -78,7 +81,7 @@ const CATEGORIES = {
   }
 };
 
-const PER_PAGE = 18; // articles to show per category page
+const PER_PAGE = CATEGORY_PER_PAGE; // articles per category page (shared with sitemap)
 
 function escapeHtml(s) {
   return String(s || '')
@@ -103,7 +106,7 @@ function timeTag(iso) {
 function card(a, cat) {
   const u = articleUrl(a);
   return `          <article class="card card--large">
-            <a href="${u}"><div class="card-image"><img src="${articleImage(a)}" alt="${escapeHtml(a.title)}" loading="lazy" width="1200" height="630"></div></a>
+            <a href="${u}"><div class="card-image">${pictureHtml(articleImage(a), a.title, { loading: 'lazy' })}</div></a>
             <div class="card-meta">
               <span class="tag tag--${cat.tag}">${escapeHtml(cat.short)}</span>
               <span class="card-byline">${timeTag(a.publishedAt)}</span>
@@ -121,13 +124,37 @@ function emptyState(catName) {
         </div>`;
 }
 
-function renderPage(slug, cat, articles) {
-  const url = `${SITE_URL}/categories/${slug}`;
+function paginationNav(slug, page, totalPages) {
+  if (totalPages <= 1) return '';
+  const pageHref = (p) => p === 1 ? `/categories/${slug}` : `/categories/${slug}-${p}`;
+  const links = [];
+  if (page > 1) links.push(`<a class="btn btn--ghost btn--sm" href="${pageHref(page - 1)}" rel="prev">← Newer</a>`);
+  links.push(`<span style="color:var(--color-ink-muted);font-size:var(--text-sm);">Page ${page} of ${totalPages}</span>`);
+  if (page < totalPages) links.push(`<a class="btn btn--ghost btn--sm" href="${pageHref(page + 1)}" rel="next">Older →</a>`);
+  return `<nav aria-label="Pagination" style="display:flex;align-items:center;justify-content:center;gap:var(--space-5);margin-top:var(--space-7);padding-top:var(--space-5);border-top:1px solid var(--color-rule);">
+          ${links.join('\n          ')}
+        </nav>`;
+}
+
+function renderPage(slug, cat, articles, page = 1, totalPages = 1) {
+  const pagePath = page === 1 ? `/categories/${slug}` : `/categories/${slug}-${page}`;
+  const url = `${SITE_URL}${pagePath}`;
+  const titleSuffix = page > 1 ? ` – Page ${page}` : '';
   const articleCards = articles.length
     ? `<div class="grid grid-3">
 ${articles.map(a => card(a, cat)).join('\n')}
-        </div>`
+        </div>
+        ${paginationNav(slug, page, totalPages)}`
     : emptyState(cat.name);
+
+  const breadcrumbSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: `${SITE_URL}/` },
+      { '@type': 'ListItem', position: 2, name: cat.name, item: `${SITE_URL}/categories/${slug}` }
+    ]
+  };
 
   const itemListSchema = articles.length ? {
     '@context': 'https://schema.org',
@@ -146,7 +173,7 @@ ${articles.map(a => card(a, cat)).join('\n')}
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>${escapeHtml(cat.name)}: Latest News &amp; Analysis | AI Glimpse</title>
+  <title>${escapeHtml(cat.name)}: Latest News &amp; Analysis${titleSuffix} | AI Glimpse</title>
   <meta name="description" content="${escapeHtml(cat.description)}">
   <meta name="keywords" content="${escapeHtml(cat.keywords)}">
   <link rel="canonical" href="${url}">
@@ -165,8 +192,7 @@ ${articles.map(a => card(a, cat)).join('\n')}
 
   <link rel="icon" type="image/svg+xml" href="/images/favicon.svg">
   <link rel="alternate" type="application/rss+xml" title="AI Glimpse RSS" href="/rss.xml">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  ${FONT_LINKS}
   <link rel="stylesheet" href="/css/main.css">
 
   <meta name="google-site-verification" content="B132aMlqf1nssWYhjOSKUgSjmfwNWgPgtozZsHDxWlU" />
@@ -189,10 +215,11 @@ ${articles.map(a => card(a, cat)).join('\n')}
   }
   </script>
 ${itemListSchema ? `  <script type="application/ld+json">${JSON.stringify(itemListSchema)}</script>` : ''}
+  <script type="application/ld+json">${JSON.stringify(breadcrumbSchema)}</script>
 </head>
 <body>
 
-  <div id="site-header-slot"></div>
+  ${headerHtml(`/categories/${slug}`)}
 
   <main>
 
@@ -200,10 +227,10 @@ ${itemListSchema ? `  <script type="application/ld+json">${JSON.stringify(itemLi
     <section style="padding: var(--space-7) 0 var(--space-6); border-bottom: 1px solid var(--color-rule);">
       <div class="container">
         <nav aria-label="Breadcrumb" style="margin-bottom:var(--space-3);font-size:var(--text-xs);color:var(--color-ink-muted);">
-          <a href="/" style="color:inherit;">Home</a> / <span>${escapeHtml(cat.name)}</span>
+          <a href="/" style="color:inherit;">Home</a> / <span>${escapeHtml(cat.name)}</span>${page > 1 ? ` / <span>Page ${page}</span>` : ''}
         </nav>
         <span class="tag tag--${cat.tag}" style="margin-bottom:var(--space-4);display:inline-block;">Category</span>
-        <h1 style="font-size: clamp(2.25rem, 5vw, var(--text-5xl)); margin-bottom: var(--space-3);">${escapeHtml(cat.name)}</h1>
+        <h1 style="font-size: clamp(2.25rem, 5vw, var(--text-5xl)); margin-bottom: var(--space-3);">${escapeHtml(cat.name)}${page > 1 ? ` <span style="color:var(--color-ink-faint);font-weight:400;">· Page ${page}</span>` : ''}</h1>
         <p style="font-size: var(--text-md); color: var(--color-ink-muted); max-width: 64ch;">${escapeHtml(cat.intro)}</p>
       </div>
     </section>
@@ -240,7 +267,7 @@ ${itemListSchema ? `  <script type="application/ld+json">${JSON.stringify(itemLi
 
   </main>
 
-  <div id="site-footer-slot"></div>
+  ${footerHtml()}
 
   <script src="/js/chrome.js"></script>
   <script src="/js/main.js"></script>
@@ -259,10 +286,15 @@ export async function buildCategories() {
 
   const summary = [];
   for (const [slug, cat] of Object.entries(CATEGORIES)) {
-    const filtered = articles.filter(a => a.category === slug).slice(0, PER_PAGE);
-    const html = renderPage(slug, cat, filtered);
-    await fs.writeFile(path.join(CATEGORIES_DIR, `${slug}.html`), html);
-    summary.push(`${slug}=${filtered.length}`);
+    const filtered = articles.filter(a => a.category === slug);
+    const totalPages = Math.max(1, Math.ceil(filtered.length / PER_PAGE));
+    for (let page = 1; page <= totalPages; page++) {
+      const pageArticles = filtered.slice((page - 1) * PER_PAGE, page * PER_PAGE);
+      const html = renderPage(slug, cat, pageArticles, page, totalPages);
+      const filename = page === 1 ? `${slug}.html` : `${slug}-${page}.html`;
+      await fs.writeFile(path.join(CATEGORIES_DIR, filename), html);
+    }
+    summary.push(`${slug}=${filtered.length}/${totalPages}p`);
   }
   console.log(`  ✓ categories rebuilt (${summary.join(', ')})`);
   return summary;

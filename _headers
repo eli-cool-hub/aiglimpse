@@ -34,6 +34,10 @@
 /rss.xml
   Cache-Control: public, max-age=600
 
+# Client-side search index, refreshed on every publish run
+/search-index.json
+  Cache-Control: public, max-age=600
+
 # AdSense crawler must see ads.txt as text/plain
 /ads.txt
   Content-Type: text/plain; charset=utf-8

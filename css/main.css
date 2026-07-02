@@ -3,8 +3,9 @@
    Editorial · Premium · SEO-Optimized
    ========================================================================== */
 
-/* Fonts: Fraunces (display, editorial serif) + Inter Tight (body) + JetBrains Mono (accents) */
-@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700;9..144,900&family=Inter+Tight:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+/* Fonts: Fraunces (display, editorial serif) + Inter Tight (body) + JetBrains Mono (accents).
+   Loaded via <link> in each page's <head> (see scripts/lib/chrome.mjs FONT_LINKS)
+   instead of a CSS @import, which would serialize the request chain. */
 
 /* ----------  RESET  ---------- */
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -363,6 +364,11 @@ p { margin: 0; }
   border-radius: 4px;
   background: var(--color-paper-soft);
 }
+
+/* <picture> wrappers (WebP sources) must not create their own box, or the
+   img's height:100% would resolve against the picture instead of the frame. */
+.card-image picture,
+.article-image picture { display: contents; }
 
 .card-image img {
   width: 100%;

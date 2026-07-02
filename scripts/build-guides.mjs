@@ -5,6 +5,8 @@ import fs from 'fs/promises';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import { EVERGREEN_TOPICS } from './lib/evergreen-topics.mjs';
+import { headerHtml, footerHtml, FONT_LINKS } from './lib/chrome.mjs';
+import { pictureHtml } from './lib/media.mjs';
 
 const ROOT = process.cwd();
 const PUBLISHED_PATH = path.join(ROOT, 'data', 'published.json');
@@ -26,7 +28,7 @@ export async function buildGuidesPage() {
     const topic = topicBySlug[a.slug];
     const href = `/articles/${a.slug}`;
     return `<article class="card card--large">
-    <a href="${href}"><div class="card-image"><img src="${a.image || '/images/placeholder.svg'}" alt="${escapeHtml(a.title)}" loading="lazy" width="1200" height="630"></div></a>
+    <a href="${href}"><div class="card-image">${pictureHtml(a.image || '/images/placeholder.svg', a.title, { loading: 'lazy' })}</div></a>
     <div class="card-meta">
       <span class="tag tag--research">Explainer</span>
       <span class="card-byline">${new Date(a.publishedAt).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })}</span>
@@ -52,6 +54,7 @@ export async function buildGuidesPage() {
   <meta property="og:title" content="AI Explainers & Guides | AI Glimpse">
   <meta property="og:description" content="Long-form evergreen guides on RAG, AI agents, LLMs, and production AI.">
   <meta property="og:url" content="${SITE}/guides.html">
+  ${FONT_LINKS}
   <link rel="stylesheet" href="/css/main.css">
   <script type="application/ld+json">${JSON.stringify({
     '@context': 'https://schema.org',
@@ -63,7 +66,7 @@ export async function buildGuidesPage() {
   <meta name="google-site-verification" content="B132aMlqf1nssWYhjOSKUgSjmfwNWgPgtozZsHDxWlU" />
 </head>
 <body>
-  <div id="site-header-slot"></div>
+  ${headerHtml('/guides.html')}
   <main>
     <section class="section">
       <div class="container">
@@ -81,7 +84,7 @@ export async function buildGuidesPage() {
       </div>
     </section>
   </main>
-  <div id="site-footer-slot"></div>
+  ${footerHtml()}
   <script src="/js/chrome.js"></script>
   <script src="/js/main.js"></script>
 </body>

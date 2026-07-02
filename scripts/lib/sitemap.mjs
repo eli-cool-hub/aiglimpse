@@ -5,12 +5,33 @@ import path from 'node:path';
 
 export const CATEGORY_SLUGS = ['llms', 'research', 'tools', 'business', 'ethics', 'industry', 'robotics'];
 
+// Articles per category page; shared with scripts/build-categories.mjs so the
+// sitemap and the actual pagination never disagree.
+export const CATEGORY_PER_PAGE = 18;
+
 export function escapeHtml(s) {
   return String(s)
     .replace(/&/g, '&amp;')
     .replace(/</g, '&lt;')
     .replace(/>/g, '&gt;')
     .replace(/"/g, '&quot;');
+}
+
+// Paginated category URLs beyond page 1 (/categories/llms-2, ...).
+export function categoryPaginationUrls(published, siteUrl) {
+  const base = siteUrl.replace(/\/$/, '');
+  const counts = {};
+  for (const a of published?.articles || []) {
+    counts[a.category] = (counts[a.category] || 0) + 1;
+  }
+  const urls = [];
+  for (const slug of CATEGORY_SLUGS) {
+    const pages = Math.ceil((counts[slug] || 0) / CATEGORY_PER_PAGE);
+    for (let p = 2; p <= pages; p++) {
+      urls.push({ loc: `${base}/categories/${slug}-${p}`, priority: 0.6, changefreq: 'daily' });
+    }
+  }
+  return urls;
 }
 
 export function staticSitemapUrls(siteUrl) {
@@ -30,7 +51,10 @@ export function staticSitemapUrls(siteUrl) {
 
 export function collectIndexableUrls(published, siteUrl = 'https://aiglimpse.ai') {
   const base = siteUrl.replace(/\/$/, '');
-  const urls = staticSitemapUrls(base).map(u => u.loc);
+  const urls = [
+    ...staticSitemapUrls(base).map(u => u.loc),
+    ...categoryPaginationUrls(published, base).map(u => u.loc)
+  ];
   for (const a of published.articles || []) {
     urls.push(`${base}/articles/${a.slug}`);
   }
@@ -40,10 +64,16 @@ export function collectIndexableUrls(published, siteUrl = 'https://aiglimpse.ai'
 export async function regenerateSitemap(published, siteUrl = 'https://aiglimpse.ai', root = process.cwd()) {
   const base = siteUrl.replace(/\/$/, '');
   const recent = (published.articles || []).slice(0, 1000);
-  const staticUrls = staticSitemapUrls(base);
+  const staticUrls = [...staticSitemapUrls(base), ...categoryPaginationUrls(published, base)];
+
+  // Homepage / category pages change on every publish run; use the newest
+  // article's timestamp as their lastmod. Static pages fall back to it too.
+  const newestIso = recent[0]?.publishedAt || new Date().toISOString();
+  const isoDay = (iso) => String(iso).substring(0, 10);
 
   const articleEntries = recent.map(a => `  <url>
     <loc>${base}/articles/${a.slug}</loc>
+    <lastmod>${isoDay(a.publishedAt)}</lastmod>
     <news:news>
       <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>${a.publishedAt}</news:publication_date>
@@ -54,7 +84,7 @@ export async function regenerateSitemap(published, siteUrl = 'https://aiglimpse.
 
   const xml = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
-${staticUrls.map(u => `  <url><loc>${u.loc}</loc><changefreq>${u.changefreq}</changefreq><priority>${u.priority}</priority></url>`).join('\n')}
+${staticUrls.map(u => `  <url><loc>${u.loc}</loc><lastmod>${isoDay(newestIso)}</lastmod><changefreq>${u.changefreq}</changefreq><priority>${u.priority}</priority></url>`).join('\n')}
 ${articleEntries}
 </urlset>`;
 

@@ -42,6 +42,18 @@ function setHeroInHtml(html, imagePath, alt) {
     /(<figure class="article-image">[\s\S]*?<img[^>]*\ssrc=")[^"]+(")/,
     `$1${imagePath}$2`
   );
+  // Keep the <picture> WebP source and the preload hint in sync with the hero.
+  const webp = imagePath.endsWith('.jpg') ? imagePath.replace(/\.jpg$/, '.webp') : null;
+  if (webp) {
+    next = next.replace(
+      /(<figure class="article-image"><picture><source srcset=")[^"]+(" type="image\/webp">)/,
+      `$1${webp}$2`
+    );
+    next = next.replace(
+      /(<link rel="preload" as="image" href=")[^"]+(" type="image\/webp")/,
+      `$1${webp}$2`
+    );
+  }
   next = next.replace(/<meta property="og:image" content="[^"]*">/, `<meta property="og:image" content="https://aiglimpse.ai${imagePath}">`);
   next = next.replace(/<meta name="twitter:image" content="[^"]*">/, `<meta name="twitter:image" content="https://aiglimpse.ai${imagePath}">`);
   if (alt) {

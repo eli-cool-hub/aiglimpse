@@ -16,6 +16,7 @@
 import fs from 'fs/promises';
 import path from 'path';
 import { generateArticleImage, resetImageSession } from './lib/images.mjs';
+import { webpUrl } from './lib/media.mjs';
 import { buildHomepage } from './build-homepage.mjs';
 import { buildCategories } from './build-categories.mjs';
 
@@ -39,6 +40,14 @@ async function rewriteArticleHtml(slug, oldUrl, newUrl) {
   try {
     let html = await fs.readFile(file, 'utf8');
     if (!html.includes(oldUrl)) return false;
+    // Update the WebP <source srcset> sibling too, so <picture> markup
+    // never points at a stale/deleted .webp.
+    const oldWebp = webpUrl(oldUrl);
+    const newWebp = webpUrl(newUrl);
+    if (oldWebp) {
+      if (newWebp) html = html.split(oldWebp).join(newWebp);
+      else html = html.replace(new RegExp(`<source srcset="${oldWebp.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}" type="image/webp">`, 'g'), '');
+    }
     html = html.split(oldUrl).join(newUrl);
     await fs.writeFile(file, html);
     return true;
@@ -75,6 +84,7 @@ for (const a of targets) {
 
   if (REFRESH && oldUrl.endsWith('.jpg')) {
     try { await fs.unlink(path.join(IMAGES_DIR, path.basename(oldUrl))); } catch {}
+    try { await fs.unlink(path.join(IMAGES_DIR, path.basename(oldUrl).replace(/\.jpg$/, '.webp'))); } catch {}
   }
   if (HEAL_SVG && oldUrl !== PLACEHOLDER && oldUrl.endsWith('.svg')) {
     try { await fs.unlink(path.join(IMAGES_DIR, path.basename(oldUrl))); } catch {}

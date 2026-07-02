@@ -43,6 +43,9 @@ function absolutizeUrls(html, canonicalUrl) {
 
 function htmlToMarkdown(html) {
   let md = html;
+  // Unwrap <picture> wrappers (WebP sources) down to the fallback <img>
+  // before figure conversion; markdown targets only need the JPG URL.
+  md = md.replace(/<picture[^>]*>\s*(?:<source[^>]*>\s*)*([\s\S]*?)<\/picture>/gi, '$1');
   md = md.replace(/<figure[^>]*>\s*<img[^>]*src="([^"]+)"[^>]*alt="([^"]*)"[^>]*>\s*(?:<figcaption[^>]*>([\s\S]*?)<\/figcaption>)?\s*<\/figure>/gi,
     (_, src, alt, cap) => `\n\n![${alt}](${src})${cap ? `\n*${cap.replace(/<[^>]+>/g, '').trim()}*` : ''}\n\n`);
   md = md.replace(/<img[^>]*src="([^"]+)"[^>]*alt="([^"]*)"[^>]*>/gi, (_, src, alt) => `\n\n![${alt}](${src})\n\n`);
