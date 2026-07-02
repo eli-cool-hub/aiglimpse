@@ -4952,6 +4952,852 @@
         "devto": true,
         "hashnode": false
       }
+    },
+    "atwood-highlights-core-ai-weakness-unreliable-training-data-0a0f41e6": {
+      "syndicated_at": "2026-06-27T21:06:21.581Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/atwood-highlights-core-ai-weakness-unreliable-training-data-nop",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 440,
+      "category": "tools",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
+    },
+    "new-mac-tool-lets-ai-agents-keep-laptops-awake-without-draining-batteries-99145f5e": {
+      "syndicated_at": "2026-06-27T23:04:30.624Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/new-mac-tool-lets-ai-agents-keep-laptops-awake-without-draining-batteries-3eh5",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 450,
+      "category": "tools",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
+    },
+    "new-tool-lets-developers-keep-macs-awake-during-ai-agent-tasks-ceccb80f": {
+      "syndicated_at": "2026-06-28T04:03:10.842Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/new-tool-lets-developers-keep-macs-awake-during-ai-agent-tasks-1agb",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 458,
+      "category": "llms",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
+    },
+    "ai-transcription-pricing-comparison-2026": {
+      "syndicated_at": "2026-06-28T08:38:56.473Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/ai-transcription-pricing-2026-whisper-vs-deepgram-vs-assemblyai-2eec",
+      "hashnode": null,
+      "gates": {
+        "medium": true,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 2253,
+      "category": "tools",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
+    },
+    "open-source-tool-intelligently-routes-queries-between-local-and-cloud-llms-1565f9a4": {
+      "syndicated_at": "2026-06-28T08:55:55.189Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/open-source-tool-intelligently-routes-queries-between-local-and-cloud-llms-282a",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 475,
+      "category": "tools",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
+    },
+    "white-house-clears-anthropic-to-deploy-advanced-ai-model-to-us-firms-f374b655": {
+      "syndicated_at": "2026-06-28T08:56:05.589Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/white-house-clears-anthropic-to-deploy-advanced-ai-model-to-us-firms-2n4",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 453,
+      "category": "tools",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
+    },
+    "resellers-exploit-anthropics-geographic-restrictions-for-claude-api-342d829c": {
+      "syndicated_at": "2026-06-28T11:48:12.903Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/resellers-exploit-anthropics-geographic-restrictions-for-claude-api-5ecn",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 529,
+      "category": "llms",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
+    },
+    "chatgpt-conversations-become-trial-evidence-in-major-arson-case-7b569ab7": {
+      "syndicated_at": "2026-06-28T15:19:36.063Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/chatgpt-conversations-become-trial-evidence-in-major-arson-case-e9d",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 478,
+      "category": "tools",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
+    },
+    "austria-pushes-eu-to-attract-anthropic-amid-us-ai-export-restrictions-7afe4388": {
+      "syndicated_at": "2026-06-28T15:19:45.788Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/austria-pushes-eu-to-attract-anthropic-amid-us-ai-export-restrictions-1mnl",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 461,
+      "category": "tools",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
+    },
+    "google-restricts-metas-access-to-gemini-ai-technology-418b592d": {
+      "syndicated_at": "2026-06-28T17:15:45.829Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/google-restricts-metas-access-to-gemini-ai-technology-33gb",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 458,
+      "category": "llms",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
+    },
+    "developer-tests-claude-ai-for-medical-image-analysis-5e6e0777": {
+      "syndicated_at": "2026-06-28T19:24:15.210Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/developer-tests-claude-ai-for-medical-image-analysis-4jdi",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 442,
+      "category": "tools",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
+    },
+    "suno-builds-artist-pathway-as-ai-music-platform-seeks-legitimacy-c3133fc9": {
+      "syndicated_at": "2026-06-28T21:04:16.136Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/suno-builds-artist-pathway-as-ai-music-platform-seeks-legitimacy-50ca",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 472,
+      "category": "tools",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
+    },
+    "open-source-glm-52-outperforms-anthropics-claude-on-security-tasks-c345dd6e": {
+      "syndicated_at": "2026-06-28T21:04:26.485Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/open-source-glm-52-outperforms-anthropics-claude-on-security-tasks-4ii3",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 458,
+      "category": "research",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
+    },
+    "chinese-ai-model-closes-gap-with-us-leaders-on-security-tasks-77573592": {
+      "syndicated_at": "2026-06-28T23:05:04.314Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/chinese-ai-model-closes-gap-with-us-leaders-on-security-tasks-5d6c",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 481,
+      "category": "tools",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
+    },
+    "new-router-cuts-llm-routing-latency-to-microseconds-without-api-calls-619ef334": {
+      "syndicated_at": "2026-06-28T23:05:15.850Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/new-router-cuts-llm-routing-latency-to-microseconds-without-api-calls-3omm",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 475,
+      "category": "llms",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
+    },
+    "hp-expands-openai-partnership-to-embed-ai-across-products-5b6019c7": {
+      "syndicated_at": "2026-06-29T04:09:54.614Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/hp-expands-openai-partnership-to-embed-ai-across-products-2haa",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 430,
+      "category": "llms",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
+    },
+    "openai-study-charts-ais-reshaping-of-european-labor-market-4843796e": {
+      "syndicated_at": "2026-06-29T15:51:27.109Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/openai-study-charts-ais-reshaping-of-european-labor-market-3ieg",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 459,
+      "category": "llms",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
+    },
+    "tech-teams-show-strong-confidence-in-ai-agents-for-enterprise-workflows-3d11571a": {
+      "syndicated_at": "2026-06-29T15:51:39.091Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/tech-teams-show-strong-confidence-in-ai-agents-for-enterprise-workflows-3ac4",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 502,
+      "category": "research",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
+    },
+    "new-transformer-model-unifies-density-and-score-estimation-cbfe2ff5": {
+      "syndicated_at": "2026-06-29T18:09:47.226Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/new-transformer-model-unifies-density-and-score-estimation-4fhp",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 434,
+      "category": "tools",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
+    },
+    "south-korea-pledges-1t-to-dominate-ai-hardware-and-robotics-ad83b8bc": {
+      "syndicated_at": "2026-06-29T21:28:00.898Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/south-korea-pledges-1t-to-dominate-ai-hardware-and-robotics-46cj",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 463,
+      "category": "tools",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
+    },
+    "metas-safety-testing-involved-impersonating-minors-online-83240c9b": {
+      "syndicated_at": "2026-06-29T23:00:56.879Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/metas-safety-testing-involved-impersonating-minors-online-1h6g",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 477,
+      "category": "tools",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
+    },
+    "healthcare-systems-rush-to-embed-ai-through-major-tech-partnerships-3a5cf2dc": {
+      "syndicated_at": "2026-06-29T23:01:09.200Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/healthcare-systems-rush-to-embed-ai-through-major-tech-partnerships-2e03",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 580,
+      "category": "industry",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
+    },
+    "researchers-train-humanoid-robots-using-synthetic-data-from-3d-scenes-ba85224d": {
+      "syndicated_at": "2026-06-30T07:55:52.569Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/researchers-train-humanoid-robots-using-synthetic-data-from-3d-scenes-2l2j",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 498,
+      "category": "research",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
+    },
+    "new-ai-model-tackles-full-length-song-generation-with-layered-learning-231c0ea8": {
+      "syndicated_at": "2026-06-30T07:56:03.519Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/new-ai-model-tackles-full-length-song-generation-with-layered-learning-2am4",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 487,
+      "category": "research",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
+    },
+    "new-framework-helps-ai-agents-learn-and-adapt-during-deployment-0e49f2c9": {
+      "syndicated_at": "2026-06-30T11:13:18.844Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/new-framework-helps-ai-agents-learn-and-adapt-during-deployment-6g3",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 482,
+      "category": "research",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
+    },
+    "new-method-lets-3d-ai-models-understand-complex-language-queries-495b7314": {
+      "syndicated_at": "2026-06-30T11:13:28.289Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/new-method-lets-3d-ai-models-understand-complex-language-queries-12o5",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 469,
+      "category": "research",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
+    },
+    "hugging-face-centralizes-model-evaluations-in-push-for-ai-transparency-0a0a3bf0": {
+      "syndicated_at": "2026-06-30T14:24:07.576Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/hugging-face-centralizes-model-evaluations-in-push-for-ai-transparency-4kdc",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 492,
+      "category": "tools",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
+    },
+    "asynchronous-pipeline-training-becomes-practical-for-billion-parameter-models-b122abc5": {
+      "syndicated_at": "2026-06-30T14:24:18.335Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/asynchronous-pipeline-training-becomes-practical-for-billion-parameter-models-28km",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 480,
+      "category": "research",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
+    },
+    "google-deepmind-launches-lightweight-ai-models-for-developers-c8e2d88d": {
+      "syndicated_at": "2026-06-30T17:57:31.607Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/google-deepmind-launches-lightweight-ai-models-for-developers-35gk",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 453,
+      "category": "research",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
+    },
+    "the-ai-industrys-push-toward-specialized-models-over-one-size-fits-all-systems-b877e3bf": {
+      "syndicated_at": "2026-06-30T17:57:42.440Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/the-ai-industrys-push-toward-specialized-models-over-one-size-fits-all-systems-4234",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 461,
+      "category": "tools",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
+    },
+    "new-benchmark-tests-ai-agents-on-legacy-code-migration-tasks-89624d17": {
+      "syndicated_at": "2026-06-30T20:08:45.523Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/new-benchmark-tests-ai-agents-on-legacy-code-migration-tasks-3d05",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 397,
+      "category": "tools",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
+    },
+    "chatgpt-use-cases-multiply-as-global-user-base-deepens-engagement-f42e1e30": {
+      "syndicated_at": "2026-06-30T20:08:56.403Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/chatgpt-use-cases-multiply-as-global-user-base-deepens-engagement-25i0",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 462,
+      "category": "llms",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
+    },
+    "new-ai-method-lets-robots-improvise-with-everyday-objects-as-tools-13b1ccdc": {
+      "syndicated_at": "2026-06-30T23:15:54.578Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/new-ai-method-lets-robots-improvise-with-everyday-objects-as-tools-4a25",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 516,
+      "category": "research",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
+    },
+    "openai-releases-genebench-pro-to-evaluate-ai-in-life-sciences-bc51df6b": {
+      "syndicated_at": "2026-07-01T04:06:53.529Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/openai-releases-genebench-pro-to-evaluate-ai-in-life-sciences-1kmg",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 453,
+      "category": "llms",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
+    },
+    "llm-api-pricing-comparison-2026": {
+      "syndicated_at": "2026-07-01T09:32:54.237Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/llm-api-pricing-compared-in-2026-which-provider-costs-least-1hcj",
+      "hashnode": null,
+      "gates": {
+        "medium": true,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 2436,
+      "category": "llms",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
+    },
+    "new-ai-architecture-tackles-low-resolution-face-recognition-f1fc87e4": {
+      "syndicated_at": "2026-07-01T09:52:10.594Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/new-ai-architecture-tackles-low-resolution-face-recognition-23n2",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 456,
+      "category": "research",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
+    },
+    "new-benchmark-exposes-flaws-in-ai-agent-training-methods-d3d8151e": {
+      "syndicated_at": "2026-07-01T09:52:21.499Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/new-benchmark-exposes-flaws-in-ai-agent-training-methods-2i1l",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 489,
+      "category": "research",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
+    },
+    "new-training-method-speeds-up-ai-image-generation-by-10x-96baa710": {
+      "syndicated_at": "2026-07-01T12:35:14.817Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/new-training-method-speeds-up-ai-image-generation-by-10x-52ga",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 441,
+      "category": "research",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
+    },
+    "new-training-method-teaches-ai-models-to-recognize-their-own-limitations-91900238": {
+      "syndicated_at": "2026-07-01T12:35:28.197Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/new-training-method-teaches-ai-models-to-recognize-their-own-limitations-21hm",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 538,
+      "category": "research",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
+    },
+    "cerebras-and-hugging-face-deploy-gemma-4-for-streaming-voice-applications-51fedb49": {
+      "syndicated_at": "2026-07-01T16:28:12.633Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/cerebras-and-hugging-face-deploy-gemma-4-for-streaming-voice-applications-3i8k",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 465,
+      "category": "tools",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
+    },
+    "ai-models-learn-to-explain-themselves-without-updated-training-data-9c7d8ce8": {
+      "syndicated_at": "2026-07-01T16:28:29.062Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/ai-models-learn-to-explain-themselves-without-updated-training-data-36mh",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 502,
+      "category": "research",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
+    },
+    "new-ai-method-shrinks-3d-human-models-for-real-time-streaming-12be0fb9": {
+      "syndicated_at": "2026-07-01T21:43:45.091Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/new-ai-method-shrinks-3d-human-models-for-real-time-streaming-56pl",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 496,
+      "category": "research",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
+    },
+    "study-finds-gpt-4-turbo-more-credible-than-real-uk-politicians-4d15693f": {
+      "syndicated_at": "2026-07-02T03:48:08.582Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/study-finds-gpt-4-turbo-more-credible-than-real-uk-politicians-23fc",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 484,
+      "category": "llms",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
+    },
+    "study-reveals-llms-generate-narrower-research-ideas-than-human-scholars-995ddb5b": {
+      "syndicated_at": "2026-07-02T07:34:58.999Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/study-reveals-llms-generate-narrower-research-ideas-than-human-scholars-44e4",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 583,
+      "category": "research",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
+    },
+    "middle-transformer-layers-hold-key-to-efficient-ai-training-cf3c31ed": {
+      "syndicated_at": "2026-07-02T07:35:09.254Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/middle-transformer-layers-hold-key-to-efficient-ai-training-3ko1",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 469,
+      "category": "research",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
+    },
+    "language-based-feedback-helps-ai-learn-better-from-flawed-training-data-17b01797": {
+      "syndicated_at": "2026-07-02T10:44:10.749Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/language-based-feedback-helps-ai-learn-better-from-flawed-training-data-383e",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 463,
+      "category": "research",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
+    },
+    "researchers-develop-method-to-uncover-hidden-biases-in-ai-models-cb0b463c": {
+      "syndicated_at": "2026-07-02T10:44:20.422Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/researchers-develop-method-to-uncover-hidden-biases-in-ai-models-4ik0",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 480,
+      "category": "research",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
     }
   }
 }

@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LLM API pricing compared in 2026: which provider costs least | AI Glimpse</title>
+  <meta name="description" content="Compare LLM API pricing across OpenAI, Anthropic, and Google. Real per-token costs, batch discounts, and cost per task for 2026 budgeting.">
+  <meta name="keywords" content="llm api pricing, gpt api cost, claude api pricing, gemini api pricing, cheapest llm api, token cost comparison, ai model pricing 2026">
+  <link rel="canonical" href="https://aiglimpse.ai/articles/llm-api-pricing-comparison-2026">
+  <meta property="og:type" content="article"><meta property="og:site_name" content="AI Glimpse">
+  <meta property="og:title" content="LLM API pricing compared in 2026: which provider costs least">
+  <meta property="og:description" content="Compare LLM API pricing across OpenAI, Anthropic, and Google. Real per-token costs, batch discounts, and cost per task for 2026 budgeting.">
+  <meta property="og:url" content="https://aiglimpse.ai/articles/llm-api-pricing-comparison-2026">
+  <meta property="og:image" content="https://aiglimpse.ai/images/articles/llm-api-pricing-comparison-2026.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="article:published_time" content="2026-07-01T09:32:52.631Z">
+  <meta property="article:section" content="LLMs & Chatbots">
+  <meta property="article:tag" content="llm api pricing">
+  <meta property="article:tag" content="gpt api cost">
+  <meta property="article:tag" content="claude api pricing">
+  <meta property="article:tag" content="gemini api pricing">
+  <meta property="article:tag" content="cheapest llm api">
+  <meta property="article:tag" content="token cost comparison">
+  <meta property="article:tag" content="ai model pricing 2026">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="LLM API pricing compared in 2026: which provider costs least">
+  <meta name="twitter:description" content="Compare LLM API pricing across OpenAI, Anthropic, and Google. Real per-token costs, batch discounts, and cost per task for 2026 budgeting.">
+  <meta name="twitter:image" content="https://aiglimpse.ai/images/articles/llm-api-pricing-comparison-2026.jpg">
+  <link rel="icon" type="image/svg+xml" href="/images/favicon.svg">
+  <link rel="alternate" type="application/rss+xml" title="AI Glimpse RSS" href="/rss.xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="/css/main.css">
+  <style>.reading-progress{position:fixed;top:0;left:0;height:3px;background:var(--color-accent);width:0%;z-index:200;transition:width 100ms linear;}</style>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","mainEntityOfPage":{"@type":"WebPage","@id":"https://aiglimpse.ai/articles/llm-api-pricing-comparison-2026"},"headline":"LLM API pricing compared in 2026: which provider costs least","description":"Compare LLM API pricing across OpenAI, Anthropic, and Google. Real per-token costs, batch discounts, and cost per task for 2026 budgeting.","image":["https://aiglimpse.ai/images/articles/llm-api-pricing-comparison-2026.jpg"],"datePublished":"2026-07-01T09:32:52.631Z","dateModified":"2026-07-01T09:32:52.631Z","author":{"@type":"Organization","name":"AI Glimpse Newsroom"},"publisher":{"@type":"Organization","name":"AI Glimpse","logo":{"@type":"ImageObject","url":"https://aiglimpse.ai/images/logo.svg"}},"articleSection":"LLMs & Chatbots","keywords":"llm api pricing, gpt api cost, claude api pricing, gemini api pricing, cheapest llm api, token cost comparison, ai model pricing 2026"}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What's the cheapest LLM API for text generation in 2026?","acceptedAnswer":{"@type":"Answer","text":"For simple text generation, Gemini 2.0 Flash remains the lowest-cost option at $0.075 per million input tokens. Claude 3.5 Haiku and GPT-4o mini are competitive for reasoning tasks. Price alone doesn't account for latency, accuracy, or output quality, which vary significantly by use case."}},{"@type":"Question","name":"Do batch processing discounts make cheaper models even cheaper?","acceptedAnswer":{"@type":"Answer","text":"Yes. OpenAI's batch API applies a 50% discount. Anthropic offers 50% batch discounts on Claude models. Google's batch pricing for Gemini is comparable. At scale (thousands of daily requests), batch processing can reduce effective token costs by half, shifting the economics toward longer-latency but cheaper processing."}},{"@type":"Question","name":"How much does a larger context window cost?","acceptedAnswer":{"@type":"Answer","text":"Context window pricing is baked into per-token rates. Claude 3.5 Sonnet and GPT-4o charge the same per token regardless of whether you use 8K or 200K context. Gemini 2.0 Flash has uniform pricing up to 1M tokens. The trade-off is latency and total spend per request (more tokens = higher cost), not a hidden window fee."}},{"@type":"Question","name":"Should my team use prompt caching?","acceptedAnswer":{"@type":"Answer","text":"Prompt caching (available on Claude and GPT-4o) reduces costs by 90% on cached input tokens, making it valuable for repeated RAG queries or system prompts. Setup requires token overhead, so it pays off after ~10 requests per prompt. For one-off queries, it adds latency without savings."}},{"@type":"Question","name":"What's the real cost per task: chat vs. summarization vs. coding?","acceptedAnswer":{"@type":"Answer","text":"Chat averages $0.01 to $0.05 per turn depending on model. Summarization of a 10K token document costs $0.10 to $0.20. Code generation is token-heavy and expensive (longer outputs), running $0.20 to $0.50 per request. Budget modeling should assume output tokens cost 2 to 5x more than input tokens."}},{"@type":"Question","name":"Are newer open-source APIs cheaper than proprietary LLMs?","acceptedAnswer":{"@type":"Answer","text":"Inference APIs for Llama 3.1, Mistral, and others (via Together.ai, Fireworks, Hugging Face Inference) typically cost $0.10 to $0.30 per million tokens. They undercut proprietary APIs but often have lower quality, longer latency, and weaker reasoning. Self-hosting eliminates per-token costs but requires engineering overhead."}},{"@type":"Question","name":"How should a FinOps team forecast LLM costs?","acceptedAnswer":{"@type":"Answer","text":"Start with baseline: estimate tokens per request (input + output), requests per day, and model tier. Apply discounts for batch (50%) and caching (70% to 90% on repeated input). Build 20% buffer for model upgrades or switching. Use cost alerts in provider dashboards. Review quarterly as pricing changes and model performance evolves."}}]}</script>
+  <meta name="google-site-verification" content="B132aMlqf1nssWYhjOSKUgSjmfwNWgPgtozZsHDxWlU" />
+  <meta name="msvalidate.01" content="F3762E555B3E685836AE39C90B79ECBF" />
+  <!-- aiglimpse-consent-default v1: must run before AdSense, defaults all ad/analytics storage to denied -->
+  <script>(function(){window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}window.gtag=gtag;gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'denied',functionality_storage:'granted',security_storage:'granted',wait_for_update:500});try{var s=JSON.parse(localStorage.getItem('aiglimpse-consent')||'null');if(s&&s.choice==='granted'){gtag('consent','update',{ad_storage:'granted',ad_user_data:'granted',ad_personalization:'granted',analytics_storage:'granted'});}}catch(e){}})();</script>
+  <!-- aiglimpse-ga4 v1: gtag.js loaded after consent default, so it buffers events until consent is granted -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-EVZ52DNQ8S"></script>
+  <script>gtag('js', new Date()); gtag('config', 'G-EVZ52DNQ8S', { anonymize_ip: true });</script>
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4263484717830850" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div class="reading-progress" aria-hidden="true"></div>
+  <div id="site-header-slot"></div>
+  <main>
+    <article>
+      <section class="article-hero">
+        <div class="container container--narrow">
+          <nav aria-label="Breadcrumb" style="margin-bottom:var(--space-4);font-size:var(--text-xs);color:var(--color-ink-muted);">
+            <a href="/" style="color:inherit;">Home</a> /
+            <a href="/categories/llms" style="color:inherit;">LLMs & Chatbots</a> /
+            <span>Explainer</span>
+          </nav>
+          <div class="article-hero-meta">
+            <span class="tag tag--llm">LLMs & Chatbots</span>
+            <span class="eyebrow eyebrow--accent">Explainer</span>
+            <span class="eyebrow">11 min read</span>
+          </div>
+          <h1 class="article-hero-title">LLM API pricing compared in 2026: which provider costs least</h1>
+          <p class="article-hero-subtitle">Per-token pricing, context windows, and batch discounts across OpenAI, Anthropic, Google, and newer challengers.</p>
+          <div class="article-byline">
+            <div>By <strong>AI Glimpse Newsroom</strong></div><div>·</div>
+            <div><time datetime="2026-07-01T09:32:52.631Z" data-relative="false">July 1, 2026</time></div>
+          </div>
+        </div>
+      </section>
+      <section style="padding: var(--space-7) 0;">
+        <div class="container container--narrow">
+          <figure class="article-image"><img src="/images/articles/llm-api-pricing-comparison-2026.jpg" alt="LLM API pricing compared in 2026: which provider costs least" loading="eager" width="1200" height="630"></figure>
+          <div class="article-body"><p><strong>Large language model API pricing in 2026 spans a 10x range depending on model capability and task.</strong> OpenAI's GPT-4o Turbo costs $30 per million input tokens; Google's Gemini 2.0 Flash costs $0.075 per million. For engineering leads and FinOps teams building LLM-powered applications, the difference between choosing the right model and the wrong one can mean hundreds of thousands of dollars annually. This guide compares real pricing across the major providers, accounts for discounts, and maps cost to specific use cases so your team can budget accurately.</p>
+
+<h2>Why this matters now</h2>
+
+<p>LLM pricing has compressed steadily since 2023, but the gap between premium and commodity models has widened. In mid-2026, there is no single "cheapest" option, because cost-per-task depends on model quality, context length, latency tolerance, and discount eligibility. A team that defaults to GPT-4 Turbo for all tasks will spend 50x more than one using Gemini Flash for summarization and GPT-4o mini for chat. Conversely, a team chasing the lowest per-token rate and choosing Gemini Flash for all tasks may face higher latency, worse reasoning on complex queries, and costly reruns when output quality is poor.</p>
+
+<p>Additionally, batch processing and prompt caching have become material cost levers. OpenAI's batch API applies a 50% discount, and caching can reduce input token costs by 90% on repeated queries. These features were optional in 2023; in 2026, ignoring them leaves money on the table. For a company processing millions of daily tokens, the difference between batched and real-time pricing, or cached and uncached input, can swing the math by orders of magnitude.</p>
+
+<h2>Pricing baseline: per-token rates across major providers</h2>
+<figure class="article-image article-image--inline">
+  <img src="/images/articles/llm-api-pricing-comparison-2026-inline-1.jpg" alt="Pricing baseline: per-token rates across major providers" loading="lazy" width="1200" height="630">
+  <figcaption class="article-image-credit">Photo by <a href="https://www.pexels.com/photo/screen-with-code-10816120/" rel="nofollow noopener" target="_blank">Stanislav Kondratiev</a> on Pexels.</figcaption>
+</figure>
+
+
+<p>Vendor pricing is denominated in cost per million tokens (PMT). Input tokens are almost always cheaper than output tokens, reflecting the asymmetry of generation cost. Below is the current landscape as of Q3 2026.</p>
+
+<ul>
+<li><strong>OpenAI GPT-4 Turbo:</strong> $30 input / $90 output PMT. Baseline for complex reasoning, long documents, and multi-step tasks.</li>
+<li><strong>OpenAI GPT-4o:</strong> $5 input / $15 output PMT. Multimodal support, faster, cheaper than Turbo. Mainstream production choice for reasoning and coding.</li>
+<li><strong>OpenAI GPT-4o mini:</strong> $0.15 input / $0.60 output PMT. Lightweight, low-cost, suitable for classification, simple extraction, and chat.</li>
+<li><strong>Anthropic Claude 3.5 Sonnet:</strong> $3 input / $15 output PMT. Strong reasoning, long context (200K tokens), competitive with GPT-4o on quality.</li>
+<li><strong>Anthropic Claude 3.5 Haiku:</strong> $0.80 input / $4 output PMT. Fast, cheap, good for real-time chat and classification.</li>
+<li><strong>Google Gemini 2.0 Flash:</strong> $0.075 input / $0.30 output PMT. Lowest base rate, 1M context window, fast, but lower reasoning depth than Sonnet or GPT-4o.</li>
+<li><strong>Google Gemini 2.0 Pro:</strong> $6 input / $24 output PMT. Premium reasoning, multimodal, comparable to GPT-4o and Claude 3.5 Sonnet.</li>
+<li><strong>Mistral Large (via API):</strong> $2 input / $6 output PMT. Competitive on cost and speed, weaker on long-context tasks.</li>
+<li><strong>Meta Llama 3.1 (inference APIs):</strong> $0.10 to $0.20 input / $0.30 to $0.60 output PMT (varies by provider: Together.ai, Fireworks, Replicate). Open-source, lower quality and reasoning than proprietary models, but ultra-cheap.</li>
+</ul>
+
+<p>A rule of thumb: output tokens cost 3 to 5 times more than input tokens. Budget conservatively by assuming 40% of a typical request is output tokens.</p>
+
+<h2>Context window size and cost implications</h2>
+
+<p>Context window pricing is already embedded in per-token rates, not a separate line item; however, larger windows create hidden costs.</p>
+
+<p>Claude 3.5 Sonnet and Haiku both support 200K context windows (and 1M for Claude 3.5 Sonnet with Batch API). GPT-4o supports up to 128K context. Gemini 2.0 supports 1M tokens. The pricing per token is identical whether you use 8K or 200K tokens in the prompt. The cost difference is that a 200K token document included in the request will increase your input token spend significantly compared to a small prompt.</p>
+
+<p>For <a href="/articles/what-is-retrieval-augmented-generation-rag">retrieval-augmented generation</a> (RAG) and document processing, larger context windows reduce API calls but increase per-request cost. A team indexing a 50K token research paper and querying it three times will spend more money sending the full document each time than chunking the document, embedding it, and only sending relevant 2K token excerpts to the model. Context window size enables flexibility; it does not eliminate the incentive to use retrieval and summarization to trim inputs.</p>
+
+<p>Prompt caching, available on Claude (25K minimum cached tokens) and GPT-4o (1K minimum), reduces cached input token cost by 90%. Caching a 100K token system prompt and document reference costs $0.003 per cache hit (vs. $0.30 without caching). For workflows with repeated prompts, caching is a first-order optimization. For one-off queries, the cost of creating and maintaining cache entries exceeds the savings.</p>
+
+<h2>Batch processing: 50% discount for latency trade-off</h2>
+<figure class="article-image article-image--inline">
+  <img src="/images/articles/llm-api-pricing-comparison-2026-inline-2.jpg" alt="Batch processing: 50% discount for latency trade-off" loading="lazy" width="1200" height="630">
+  <figcaption class="article-image-credit">Photo by <a href="https://www.pexels.com/photo/white-printer-paper-beside-macbook-pro-7567227/" rel="nofollow noopener" target="_blank">Tima Miroshnichenko</a> on Pexels.</figcaption>
+</figure>
+
+
+<p>Batch APIs process requests asynchronously, typically completing within 24 hours. OpenAI, Anthropic, and Google all offer batch discounts: 50% off standard pricing.</p>
+
+<p>A batch request using GPT-4o at $5 input / $15 output PMT becomes $2.50 input / $7.50 output PMT. For a team processing 10 million tokens daily, batching cuts LLM spend by $100 to $150 per day. Annualized, this is $36,000 to $54,000 in savings.</p>
+
+<p>Batch processing is practical for:</p>
+
+<ul>
+<li>Summarization (daily reports, document processing).</li>
+<li>Classification and tagging (bulk labeling, content moderation).</li>
+<li>Embedding and extraction (data enrichment, knowledge base updates).</li>
+<li>Training data generation for fine-tuning.</li>
+</ul>
+
+<p>Batch is not suitable for real-time chat, customer support, or interactive workflows where response latency matters. A hybrid approach is common: batch all non-urgent work, reserve real-time APIs for user-facing features.</p>
+
+<h2>Cost per task: concrete examples</h2>
+
+<p><strong>Task: Single turn chat (e.g., customer support).</strong> User sends 200 tokens, model responds with 150 tokens. Using Claude 3.5 Haiku ($0.80 input / $4 output PMT): (200 * $0.80 + 150 * $4) / 1,000,000 = $0.0008 per turn, or $0.8 per 1,000 turns. Using GPT-4o mini ($0.15 input / $0.60 output): (200 * $0.15 + 150 * $0.60) / 1,000,000 = $0.0000945 per turn. For high-volume chat, GPT-4o mini edges cheaper models on cost, though Haiku offers different latency and quality characteristics.</p>
+
+<p><strong>Task: Summarize a 10,000 token document.</strong> Input 10K tokens, output 1K tokens (typical for executive summary). Using Gemini 2.0 Flash ($0.075 input / $0.30 output PMT): (10,000 * $0.075 + 1,000 * $0.30) / 1,000,000 = $0.00105 per request. Using Claude 3.5 Sonnet ($3 input / $15 output PMT): (10,000 * $3 + 1,000 * $15) / 1,000,000 = $0.045 per request. Gemini Flash is 40x cheaper. For bulk summarization with batch processing, Flash is the clear choice. If the document summary must be highly accurate or handle complex edge cases, Sonnet's quality premium may justify the cost.</p>
+
+<p><strong>Task: Code generation (e.g., fix a bug in a 2K line file).</strong> Context (code + issue description) is 3K tokens, generated code + explanation is 1.5K tokens. Using GPT-4o ($5 input / $15 output): (3,000 * $5 + 1,500 * $15) / 1,000,000 = $0.0375 per request. Using Gemini 2.0 Flash ($0.075 input / $0.30 output): (3,000 * $0.075 + 1,500 * $0.30) / 1,000,000 = $0.00075 per request. Again, Flash is dramatically cheaper, but GPT-4o is widely known to produce more reliable code. A team running 100 code generations per day pays $3.75 with GPT-4o or $0.075 with Gemini Flash. The cost difference is material, but quality and correctness must factor into the decision.</p>
+
+<p><strong>Task: Retrieval-augmented generation (RAG) with caching.</strong> System prompt + 5 documents (20K tokens total, cached), user query (500 tokens, not cached), response (300 tokens). Using Claude 3.5 Sonnet with caching ($3 input / $15 output, 90% discount on cached input): (20,000 * $3 * 0.10 + 500 * $3 + 300 * $15) / 1,000,000 = $0.004 per query (after the first request, which includes cache setup cost). Without caching, the same query costs $0.065 per request. Over 1,000 queries per day, caching saves $61 per day or $22,000 per year. For production RAG systems with stable document sets, caching is essential.</p>
+
+<h2>Discount mechanics and when they apply</h2>
+
+<p><strong>Batch discounts (50% off):</strong> Available from OpenAI, Anthropic, and Google. Requires grouping requests into batch files and accepting 24-hour latency. No setup fee, no minimum volume. Useful for non-urgent work at any scale.</p>
+
+<p><strong>Prompt caching (70% to 90% off input tokens):</strong> Available on Claude and GPT-4o. Requires cached tokens to exceed minimum thresholds (1K for GPT-4o, 25K for Claude). Cache is request-specific (cannot be shared across different prompts or users easily). Useful for stable, repeated prompts in knowledge bases, RAG, and long-context workflows.</p>
+
+<p><strong>Volume discounts:</strong> OpenAI, Anthropic, and Google offer negotiated pricing for large annual commitments (typically $100K+). Discounts vary but can reach 20% to 40% for enterprise customers. A startup with $50K annual LLM spend will not qualify; a mid-market SaaS company with $500K annual spend may negotiate 15% to 25% off.</p>
+
+<p><strong>Free tier and credits:</strong> OpenAI and Google offer $5 to $300 in free credits for new users during the first 3 months. Anthropic offers a smaller free allowance. Credits are useful for prototyping; production budgeting should not rely on them.</p>
+
+<h2>Common pitfalls and when this fails</h2>
+
+<p><strong>Assuming the cheapest per-token rate is the cheapest total cost.</strong> Gemini 2.0 Flash is the lowest per-token cost, but if its reasoning is weak for your use case and you must rerun queries or post-process outputs, total cost may exceed a more expensive but more accurate model. Test models on representative queries before committing architecture.</p>
+
+<p><strong>Ignoring output token costs.</strong> Many teams budget only on input tokens and are blindsided by output costs, which often comprise 50% to 70% of a request. Long-form generation (blog posts, code, detailed analysis) skews expensive because output dominates. Measure actual token usage early in development.</p>
+
+<p><strong>Forgetting latency trade-offs with batch processing.</strong> Batch is 50% cheaper but asynchronous. A team that switches real-time API calls to batched requests without accounting for 24-hour delay will break user-facing workflows. Reserve batch for background jobs, not customer-facing requests.</p>
+
+<p><strong>Implementing caching without understanding cache invalidation.</strong> Prompt caches persist for 5 minutes to 5 days (depending on provider). If underlying documents change, cached results become stale. Caching works well for static reference material and system prompts; caching on frequently changing data requires explicit invalidation logic.</p>
+
+<p><strong>Over-estimating context window savings.</strong> A 200K context window does not mean stuffing a full document into every request. Best practice is still to retrieve and rank relevant excerpts (embedding-based retrieval) and only send 2K to 10K tokens of context to the LLM. Context windows enable handling longer documents, not eliminating the need for retrieval.</p>
+
+<p><strong>Changing models without monitoring quality.</strong> Switching from GPT-4o to Gemini Flash saves money but may degrade output quality. Always measure quality (latency, accuracy, user satisfaction) alongside cost. The optimal model is the one with the best cost-to-quality ratio for your task, not necessarily the cheapest per-token option.</p>
+
+<h2>Building a cost model for your team</h2>
+
+<p>Start with three inputs: tokens per request, requests per day, and model tier. Tokens per request is the sum of input tokens (prompt + context) and output tokens (response). For new systems, run a small pilot and measure average tokens per request. For existing systems, query your LLM provider's API logs or usage dashboard.</p>
+
+<p>Next, estimate baseline cost: (input tokens + output tokens) * request rate * per-token cost. For a team running 10,000 API calls per day using GPT-4o at an average 300 input tokens and 200 output tokens per request: (300 * $5 + 200 * $15) / 1,000,000 * 10,000 * 365 = $3,285 per year. Now apply discounts: if 30% of requests are batched (50% discount) and 50% of requests hit cached prompts (90% discount on input), effective cost drops to roughly $1,500 per year. Build a spreadsheet with baseline, discounts, and contingencies (e.g., what if request volume doubles, or you switch to a better model?).</p>
+
+<p>Set up cost alerts in your provider's dashboard (OpenAI, Google Cloud, Anthropic Workbench). Quarterly or monthly, review actual vs. budgeted spend and adjust models or discount strategies as needed. LLM pricing changes frequently (roughly every 6 to 12 months), so revisit vendor pricing quarterly and be prepared to re-evaluate your model mix.</p>
+
+<p>For large-scale deployment, consider reserved capacity or annual prepayment. OpenAI and Google offer discounts for annual commitments; Anthropic offers similar programs. If your forecast is stable, locking in pricing can save 15% to 25% compared to pay-as-you-go.</p>
+
+<p><strong>The practical next step:</strong> Audit your current LLM spend by model, task, and discount category (batched vs. real-time, cached vs. uncached). Identify the top 20% of costs and test cheaper alternative models on those specific use cases. Model switching is lowest-risk for summarization, classification, and extraction; reserve premium models for reasoning, coding, and customer-facing chat where quality is critical. Build a cost dashboard that tracks tokens, costs, and model performance side-by-side so your team can optimize for both velocity and budget.</p></div>
+
+      <section style="margin-top: var(--space-8);">
+        <h2 style="margin-bottom: var(--space-5);">Frequently asked questions</h2>
+        <div class="faq-list">
+    <details class="faq-item" style="border-bottom:1px solid var(--color-rule);padding:var(--space-4) 0;">
+      <summary style="cursor:pointer;font-weight:600;font-size:var(--text-md);list-style:none;display:flex;justify-content:space-between;align-items:flex-start;gap:var(--space-3);">
+        <span>What&#39;s the cheapest LLM API for text generation in 2026?</span>
+        <span aria-hidden="true" style="color:var(--color-ink-faint);font-weight:400;flex-shrink:0;">+</span>
+      </summary>
+      <div style="margin-top:var(--space-3);color:var(--color-ink-muted);line-height:1.7;">
+        <p>For simple text generation, Gemini 2.0 Flash remains the lowest-cost option at $0.075 per million input tokens. Claude 3.5 Haiku and GPT-4o mini are competitive for reasoning tasks. Price alone doesn&#39;t account for latency, accuracy, or output quality, which vary significantly by use case.</p>
+      </div>
+    </details>
+
+    <details class="faq-item" style="border-bottom:1px solid var(--color-rule);padding:var(--space-4) 0;">
+      <summary style="cursor:pointer;font-weight:600;font-size:var(--text-md);list-style:none;display:flex;justify-content:space-between;align-items:flex-start;gap:var(--space-3);">
+        <span>Do batch processing discounts make cheaper models even cheaper?</span>
+        <span aria-hidden="true" style="color:var(--color-ink-faint);font-weight:400;flex-shrink:0;">+</span>
+      </summary>
+      <div style="margin-top:var(--space-3);color:var(--color-ink-muted);line-height:1.7;">
+        <p>Yes. OpenAI&#39;s batch API applies a 50% discount. Anthropic offers 50% batch discounts on Claude models. Google&#39;s batch pricing for Gemini is comparable. At scale (thousands of daily requests), batch processing can reduce effective token costs by half, shifting the economics toward longer-latency but cheaper processing.</p>
+      </div>
+    </details>
+
+    <details class="faq-item" style="border-bottom:1px solid var(--color-rule);padding:var(--space-4) 0;">
+      <summary style="cursor:pointer;font-weight:600;font-size:var(--text-md);list-style:none;display:flex;justify-content:space-between;align-items:flex-start;gap:var(--space-3);">
+        <span>How much does a larger context window cost?</span>
+        <span aria-hidden="true" style="color:var(--color-ink-faint);font-weight:400;flex-shrink:0;">+</span>
+      </summary>
+      <div style="margin-top:var(--space-3);color:var(--color-ink-muted);line-height:1.7;">
+        <p>Context window pricing is baked into per-token rates. Claude 3.5 Sonnet and GPT-4o charge the same per token regardless of whether you use 8K or 200K context. Gemini 2.0 Flash has uniform pricing up to 1M tokens. The trade-off is latency and total spend per request (more tokens = higher cost), not a hidden window fee.</p>
+      </div>
+    </details>
+
+    <details class="faq-item" style="border-bottom:1px solid var(--color-rule);padding:var(--space-4) 0;">
+      <summary style="cursor:pointer;font-weight:600;font-size:var(--text-md);list-style:none;display:flex;justify-content:space-between;align-items:flex-start;gap:var(--space-3);">
+        <span>Should my team use prompt caching?</span>
+        <span aria-hidden="true" style="color:var(--color-ink-faint);font-weight:400;flex-shrink:0;">+</span>
+      </summary>
+      <div style="margin-top:var(--space-3);color:var(--color-ink-muted);line-height:1.7;">
+        <p>Prompt caching (available on Claude and GPT-4o) reduces costs by 90% on cached input tokens, making it valuable for repeated RAG queries or system prompts. Setup requires token overhead, so it pays off after ~10 requests per prompt. For one-off queries, it adds latency without savings.</p>
+      </div>
+    </details>
+
+    <details class="faq-item" style="border-bottom:1px solid var(--color-rule);padding:var(--space-4) 0;">
+      <summary style="cursor:pointer;font-weight:600;font-size:var(--text-md);list-style:none;display:flex;justify-content:space-between;align-items:flex-start;gap:var(--space-3);">
+        <span>What&#39;s the real cost per task: chat vs. summarization vs. coding?</span>
+        <span aria-hidden="true" style="color:var(--color-ink-faint);font-weight:400;flex-shrink:0;">+</span>
+      </summary>
+      <div style="margin-top:var(--space-3);color:var(--color-ink-muted);line-height:1.7;">
+        <p>Chat averages $0.01 to $0.05 per turn depending on model. Summarization of a 10K token document costs $0.10 to $0.20. Code generation is token-heavy and expensive (longer outputs), running $0.20 to $0.50 per request. Budget modeling should assume output tokens cost 2 to 5x more than input tokens.</p>
+      </div>
+    </details>
+
+    <details class="faq-item" style="border-bottom:1px solid var(--color-rule);padding:var(--space-4) 0;">
+      <summary style="cursor:pointer;font-weight:600;font-size:var(--text-md);list-style:none;display:flex;justify-content:space-between;align-items:flex-start;gap:var(--space-3);">
+        <span>Are newer open-source APIs cheaper than proprietary LLMs?</span>
+        <span aria-hidden="true" style="color:var(--color-ink-faint);font-weight:400;flex-shrink:0;">+</span>
+      </summary>
+      <div style="margin-top:var(--space-3);color:var(--color-ink-muted);line-height:1.7;">
+        <p>Inference APIs for Llama 3.1, Mistral, and others (via Together.ai, Fireworks, Hugging Face Inference) typically cost $0.10 to $0.30 per million tokens. They undercut proprietary APIs but often have lower quality, longer latency, and weaker reasoning. Self-hosting eliminates per-token costs but requires engineering overhead.</p>
+      </div>
+    </details>
+
+    <details class="faq-item" style="border-bottom:1px solid var(--color-rule);padding:var(--space-4) 0;">
+      <summary style="cursor:pointer;font-weight:600;font-size:var(--text-md);list-style:none;display:flex;justify-content:space-between;align-items:flex-start;gap:var(--space-3);">
+        <span>How should a FinOps team forecast LLM costs?</span>
+        <span aria-hidden="true" style="color:var(--color-ink-faint);font-weight:400;flex-shrink:0;">+</span>
+      </summary>
+      <div style="margin-top:var(--space-3);color:var(--color-ink-muted);line-height:1.7;">
+        <p>Start with baseline: estimate tokens per request (input + output), requests per day, and model tier. Apply discounts for batch (50%) and caching (70% to 90% on repeated input). Build 20% buffer for model upgrades or switching. Use cost alerts in provider dashboards. Review quarterly as pricing changes and model performance evolves.</p>
+      </div>
+    </details></div>
+      </section>
+          <p style="font-size:var(--text-xs);color:var(--color-ink-faint);margin-top:var(--space-6);padding-top:var(--space-4);border-top:1px solid var(--color-rule);">
+            An <strong>AI Glimpse</strong> explainer. We update this guide as the field evolves.
+          </p>
+        </div>
+      </section>
+    </article>
+  </main>
+  <div id="site-footer-slot"></div>
+  <script src="/js/chrome.js"></script>
+  <script src="/js/main.js"></script>
+</body>
+</html>

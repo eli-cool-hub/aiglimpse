@@ -1,0 +1,4116 @@
+{
+  "generated_at": "2026-06-28T10:38:49.099Z",
+  "site": "https://aiglimpse.ai/",
+  "sitemap": "https://aiglimpse.ai/sitemap.xml",
+  "url_count": 410,
+  "gsc_sitemap_submit": "ok",
+  "indexnow": "ok",
+  "summary": {
+    "indexed": 231,
+    "waiting": 62,
+    "not_indexed": 0,
+    "unknown": 117
+  },
+  "urls": [
+    {
+      "url": "/",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-25T02:20:00Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/categories/llms",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-26T13:07:34Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/categories/research",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-26T13:37:37Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/categories/tools",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-26T06:25:54Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/categories/business",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-26T13:22:34Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/categories/ethics",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-22T11:22:26Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/categories/industry",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-26T12:37:32Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/categories/robotics",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-22T10:32:26Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/guides.html",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-25T21:14:43Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/pages/about",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-20T11:42:37Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/pages/contact",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-18T22:30:56Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/pages/editorial",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-21T10:00:14Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/pages/advertise",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-21T04:10:06Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/pages/privacy",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-05-30T11:44:16Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/pages/terms",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-22T00:37:12Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/white-house-clears-anthropic-to-deploy-advanced-ai-model-to-us-firms-f374b655",
+      "verdict": "NEUTRAL",
+      "coverageState": "Discovered - currently not indexed",
+      "bucket": "waiting",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "/articles/open-source-tool-intelligently-routes-queries-between-local-and-cloud-llms-1565f9a4",
+      "verdict": "NEUTRAL",
+      "coverageState": "Discovered - currently not indexed",
+      "bucket": "waiting",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "/articles/ai-transcription-pricing-comparison-2026",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "bucket": "unknown",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "/articles/ai-regulation-risk-gatekeeping-over-safety-experts-warn-680bb2f2",
+      "verdict": "NEUTRAL",
+      "coverageState": "Discovered - currently not indexed",
+      "bucket": "waiting",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "/articles/new-tool-lets-developers-keep-macs-awake-during-ai-agent-tasks-ceccb80f",
+      "verdict": "NEUTRAL",
+      "coverageState": "Discovered - currently not indexed",
+      "bucket": "waiting",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "/articles/new-mac-tool-lets-ai-agents-keep-laptops-awake-without-draining-batteries-99145f5e",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "bucket": "unknown",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "/articles/industry-skepticism-grows-over-space-based-ai-infrastructure-plans-c9a209d4",
+      "verdict": "NEUTRAL",
+      "coverageState": "Discovered - currently not indexed",
+      "bucket": "waiting",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "/articles/atwood-highlights-core-ai-weakness-unreliable-training-data-0a0f41e6",
+      "verdict": "NEUTRAL",
+      "coverageState": "Discovered - currently not indexed",
+      "bucket": "waiting",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "/articles/asian-ai-labs-build-homegrown-alternatives-as-us-export-controls-reshape-market-aa530456",
+      "verdict": "NEUTRAL",
+      "coverageState": "Discovered - currently not indexed",
+      "bucket": "waiting",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "/articles/deepseeks-dspark-technique-cuts-llm-inference-time-in-half-d90e6401",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "bucket": "unknown",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "/articles/apple-vision-pro-leader-defects-to-openai-hardware-division-c709d3d7",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "bucket": "unknown",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "/articles/ai-model-generates-linguistically-consistent-constructed-languages-504e651e",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "bucket": "unknown",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "/articles/founder-uses-ai-to-personalize-cancer-treatment-strategy-30cfd60a",
+      "verdict": "NEUTRAL",
+      "coverageState": "Discovered - currently not indexed",
+      "bucket": "waiting",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "/articles/apples-price-hikes-reflect-broader-ai-cost-crisis-across-tech-423c4068",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "bucket": "unknown",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "/articles/new-framework-bridges-gap-between-video-tracking-and-precise-image-matting-eeb1263a",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "bucket": "unknown",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "/articles/deepseek-releases-speed-boost-for-ai-model-inference-8be5ab4f",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "bucket": "unknown",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "/articles/research-reveals-critical-gaps-in-domain-aware-data-matching-systems-71c7d904",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "bucket": "unknown",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "/articles/anthropic-secures-limited-access-for-mythos-5-after-trump-admin-talks-eb077bdc",
+      "verdict": "NEUTRAL",
+      "coverageState": "Discovered - currently not indexed",
+      "bucket": "waiting",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "/articles/new-technique-gives-ai-video-models-deeper-3d-scene-understanding-12d2b722",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "bucket": "unknown",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "/articles/trump-administration-grants-100-us-firms-access-to-anthropics-mythos-5-ai-f7540be1",
+      "verdict": "NEUTRAL",
+      "coverageState": "Discovered - currently not indexed",
+      "bucket": "waiting",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "/articles/open-source-ai-pipeline-maps-europes-hidden-political-networks-53a6851f",
+      "verdict": "NEUTRAL",
+      "coverageState": "Discovered - currently not indexed",
+      "bucket": "waiting",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "/articles/south-korea-eyes-ai-driven-drone-integration-across-military-331a0077",
+      "verdict": "NEUTRAL",
+      "coverageState": "Discovered - currently not indexed",
+      "bucket": "waiting",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "/articles/neural-networks-learn-to-fix-their-own-mistakes-in-physics-simulations-0ac7ead2",
+      "verdict": "NEUTRAL",
+      "coverageState": "Discovered - currently not indexed",
+      "bucket": "waiting",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "/articles/new-ai-framework-dramatically-accelerates-molecular-sampling-71a1d2b9",
+      "verdict": "NEUTRAL",
+      "coverageState": "Discovered - currently not indexed",
+      "bucket": "waiting",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "/articles/physiformer-uses-diffusion-transformers-to-model-3d-object-physics-8a333c4b",
+      "verdict": "NEUTRAL",
+      "coverageState": "Discovered - currently not indexed",
+      "bucket": "waiting",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "/articles/openai-unveils-gpt-56-sol-with-enhanced-coding-and-security-4a10819d",
+      "verdict": "NEUTRAL",
+      "coverageState": "Discovered - currently not indexed",
+      "bucket": "waiting",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "/articles/researchers-crack-diversity-problem-in-ai-image-generation-bb57b7b4",
+      "verdict": "NEUTRAL",
+      "coverageState": "Discovered - currently not indexed",
+      "bucket": "waiting",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "/articles/kaiser-permanentes-ai-powered-mri-system-slashes-wait-times-f3771517",
+      "verdict": "NEUTRAL",
+      "coverageState": "Discovered - currently not indexed",
+      "bucket": "waiting",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "/articles/researchers-propose-denoising-attention-to-sharpen-visual-ai-models-a0fe0381",
+      "verdict": "NEUTRAL",
+      "coverageState": "Discovered - currently not indexed",
+      "bucket": "waiting",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "/articles/probability-alone-wont-fix-ai-accuracy-new-research-finds-bf22661d",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "bucket": "unknown",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "/articles/new-framework-fixes-ai-models-that-ignore-images-when-answering-questions-1fab0291",
+      "verdict": "NEUTRAL",
+      "coverageState": "Discovered - currently not indexed",
+      "bucket": "waiting",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "/articles/new-training-method-lets-ai-learn-coding-without-perfect-answers-e3f23e96",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "bucket": "unknown",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "/articles/robots-learn-without-forgetting-using-ai-generated-memory-replays-091958c5",
+      "verdict": "NEUTRAL",
+      "coverageState": "Discovered - currently not indexed",
+      "bucket": "waiting",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "/articles/ai-model-teaches-itself-to-see-and-create-without-human-guidance-f2da12d6",
+      "verdict": "NEUTRAL",
+      "coverageState": "Discovered - currently not indexed",
+      "bucket": "waiting",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "/articles/new-framework-lets-ai-image-models-master-multiple-tasks-at-once-9b0f8d88",
+      "verdict": "NEUTRAL",
+      "coverageState": "Discovered - currently not indexed",
+      "bucket": "waiting",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "/articles/new-ai-model-bridges-gap-between-different-welding-technologies-09eb3b15",
+      "verdict": "NEUTRAL",
+      "coverageState": "Discovered - currently not indexed",
+      "bucket": "waiting",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "/articles/voice-ai-systems-ignore-emotion-despite-detecting-it-4ecd93d8",
+      "verdict": "NEUTRAL",
+      "coverageState": "Discovered - currently not indexed",
+      "bucket": "waiting",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "/articles/hugging-face-streamlines-llm-deployment-with-one-command-vllm-integration-63855b20",
+      "verdict": "NEUTRAL",
+      "coverageState": "Discovered - currently not indexed",
+      "bucket": "waiting",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "/articles/novel-method-improves-3d-video-generation-by-tracking-motion-cues-13ff3503",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "bucket": "unknown",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "/articles/hybrid-models-show-promise-at-predicting-specific-token-types-e713dbfb",
+      "verdict": "NEUTRAL",
+      "coverageState": "Discovered - currently not indexed",
+      "bucket": "waiting",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "/articles/self-distillation-training-narrows-ai-model-diversity-new-research-finds-66c42912",
+      "verdict": "NEUTRAL",
+      "coverageState": "Discovered - currently not indexed",
+      "bucket": "waiting",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "/articles/ai-system-enables-interactive-camera-control-in-virtual-try-on-videos-f34ebb21",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "bucket": "unknown",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "/articles/openai-research-shows-ai-agents-handling-complex-extended-tasks-46563fb6",
+      "verdict": "NEUTRAL",
+      "coverageState": "Discovered - currently not indexed",
+      "bucket": "waiting",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "/articles/researchers-develop-method-to-reverse-engineer-ai-agent-strategies-3db478df",
+      "verdict": "NEUTRAL",
+      "coverageState": "Discovered - currently not indexed",
+      "bucket": "waiting",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "/articles/two-stage-training-approach-gives-robots-better-motion-intuition-31d27a60",
+      "verdict": "NEUTRAL",
+      "coverageState": "Discovered - currently not indexed",
+      "bucket": "waiting",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "/articles/google-search-now-saves-your-images-to-train-ai-models-1d7222bd",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "bucket": "unknown",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "/articles/cerebras-shares-tank-on-margin-guidance-confusion-in-ipo-debut-5855364d",
+      "verdict": "NEUTRAL",
+      "coverageState": "Discovered - currently not indexed",
+      "bucket": "waiting",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "/articles/google-deepminds-75m-a24-deal-signals-ais-growing-reach-in-film-1f9b13e8",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "bucket": "unknown",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "/articles/new-benchmark-exposes-cancer-ai-models-blind-spots-in-minority-patients-8835df3e",
+      "verdict": "NEUTRAL",
+      "coverageState": "Discovered - currently not indexed",
+      "bucket": "waiting",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "/articles/ai-safety-fears-cross-borders-as-us-china-rivalry-intensifies-a3b2a52c",
+      "verdict": "NEUTRAL",
+      "coverageState": "Discovered - currently not indexed",
+      "bucket": "waiting",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "/articles/new-benchmark-brings-real-world-rigor-to-speech-recognition-ai-3d6bce02",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "bucket": "unknown",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "/articles/nvidia-nemo-automodel-cuts-llm-fine-tuning-time-by-half-6faaebb3",
+      "verdict": "NEUTRAL",
+      "coverageState": "Discovered - currently not indexed",
+      "bucket": "waiting",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "/articles/google-extends-computer-control-to-gemini-35-flash-model-0abf652d",
+      "verdict": "NEUTRAL",
+      "coverageState": "Discovered - currently not indexed",
+      "bucket": "waiting",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "/articles/healthcare-cios-push-back-against-ai-leadership-sidelines-5fe5d283",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-25T03:57:19Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/openai-and-broadcom-debut-custom-chip-for-language-model-inference-a646266f",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "bucket": "unknown",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "/articles/new-framework-boosts-language-model-performance-by-120-in-low-data-settings-5b9f085b",
+      "verdict": "NEUTRAL",
+      "coverageState": "Discovered - currently not indexed",
+      "bucket": "waiting",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "/articles/robots-learn-new-skills-without-human-training-data-63f07529",
+      "verdict": "NEUTRAL",
+      "coverageState": "Discovered - currently not indexed",
+      "bucket": "waiting",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "/articles/vector-databases-rag-guide-2026",
+      "verdict": "NEUTRAL",
+      "coverageState": "Discovered - currently not indexed",
+      "bucket": "waiting",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "/articles/new-method-adapts-classical-stereo-vision-algorithms-to-360-degree-cameras-aa848ca5",
+      "verdict": "NEUTRAL",
+      "coverageState": "Discovered - currently not indexed",
+      "bucket": "waiting",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "/articles/researchers-challenge-how-we-measure-ai-success-in-speech-tech-830d0a69",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-24T08:22:41Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/researchers-challenge-imagenet-only-testing-for-ai-image-models-732f2067",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-24T10:26:41Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/new-training-method-unlocks-math-and-reasoning-skills-in-vision-ai-bae046b6",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-24T08:15:40Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/new-training-method-helps-ai-models-handle-drastically-longer-text-020712b6",
+      "verdict": "NEUTRAL",
+      "coverageState": "Discovered - currently not indexed",
+      "bucket": "waiting",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "/articles/new-ai-system-reconstructs-moving-objects-from-single-video-angles-4803b230",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-24T09:01:43Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/openai-backs-industry-push-for-unified-ai-safety-standards-f0a73b74",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-24T08:35:40Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/hugging-face-tests-new-storage-method-for-browser-based-ai-models-65cd0329",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-24T09:14:40Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/advanced-ai-model-cracks-immunology-puzzle-accelerating-medical-research-2ac136b7",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-24T09:27:42Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/omio-redesigns-travel-booking-with-ai-powered-conversations-e3a38b4b",
+      "verdict": "NEUTRAL",
+      "coverageState": "Discovered - currently not indexed",
+      "bucket": "waiting",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "/articles/ibm-research-releases-cuga-framework-for-building-practical-ai-agents-ece3d920",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "bucket": "unknown",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "/articles/hugging-face-automates-weekly-hub-releases-with-ai-assisted-pipeline-eb3deeb6",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "bucket": "unknown",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "/articles/humanoid-robots-learn-to-manipulate-objects-while-walking-2e200fb2",
+      "verdict": "NEUTRAL",
+      "coverageState": "Discovered - currently not indexed",
+      "bucket": "waiting",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "/articles/automated-system-accelerates-robot-grasp-training-by-5x-d3ab27e6",
+      "verdict": "NEUTRAL",
+      "coverageState": "Discovered - currently not indexed",
+      "bucket": "waiting",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "/articles/tech-giants-blame-ai-for-wave-of-2026-workforce-cuts-ce95041b",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "bucket": "unknown",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "/articles/how-developers-use-codex-to-sustain-complex-projects-over-time-0c40d2dc",
+      "verdict": "NEUTRAL",
+      "coverageState": "Discovered - currently not indexed",
+      "bucket": "waiting",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "/articles/ai-diagnosis-tools-show-promise-but-evidence-gaps-remain-b99627d6",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-23T05:00:28Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/openai-launches-security-tools-to-automate-vulnerability-detection-2e2b6452",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "bucket": "unknown",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "/articles/openai-launches-security-program-to-help-open-source-maintainers-044b5299",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-22T23:59:49Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/paddlepaddle-releases-lightweight-ocr-model-supporting-50-languages-74737716",
+      "verdict": "NEUTRAL",
+      "coverageState": "Discovered - currently not indexed",
+      "bucket": "waiting",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "/articles/ai-agents-are-dismantling-the-saas-business-model-785f1f28",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-22T14:33:24Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/healthcare-systems-move-past-ai-skepticism-to-operational-integration-e93e2b6b",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-22T14:03:03Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/samsung-deploys-chatgpt-and-codex-across-global-workforce-1f31d838",
+      "verdict": "NEUTRAL",
+      "coverageState": "Discovered - currently not indexed",
+      "bucket": "waiting",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "/articles/how-to-build-ai-agents-that-actually-work-when-it-matters-6c5a0c0f",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "bucket": "unknown",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "/articles/openai-extends-codex-with-automation-features-for-enterprise-mac-users-252379db",
+      "verdict": "NEUTRAL",
+      "coverageState": "Discovered - currently not indexed",
+      "bucket": "waiting",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "/articles/deepminds-jumper-moves-to-anthropic-in-major-ai-lab-reshuffle-9b68f460",
+      "verdict": "NEUTRAL",
+      "coverageState": "Discovered - currently not indexed",
+      "bucket": "waiting",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "/articles/new-search-engine-ranks-ai-models-by-training-data-transparency-8a611f33",
+      "verdict": "NEUTRAL",
+      "coverageState": "Discovered - currently not indexed",
+      "bucket": "waiting",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "/articles/signal-leader-warns-against-treating-ai-chatbots-as-companions-14c6406f",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "bucket": "unknown",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "/articles/journalist-exposes-four-major-music-datasets-used-to-train-ai-models-190530c0",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "bucket": "unknown",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "/articles/nobel-prize-winner-jumper-exits-deepmind-for-anthropic-0c420e63",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "bucket": "unknown",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "/articles/nobel-laureate-john-jumper-joins-anthropics-ai-research-team-0046fbb8",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-20T22:12:23Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/the-architecture-crisis-why-modern-language-models-defy-simple-explanation-ff641f71",
+      "verdict": "NEUTRAL",
+      "coverageState": "Discovered - currently not indexed",
+      "bucket": "waiting",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "/articles/apples-reimagined-siri-shows-promise-as-conversational-ai-assistant-5c0c7ec9",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-20T13:48:14Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/new-attention-mechanism-treats-tokens-as-raw-geometric-elements-0e793cd8",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "bucket": "unknown",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "/articles/three-decades-of-failed-ai-export-controls-raise-questions-about-mythos-1056ff89",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "bucket": "unknown",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "/articles/new-framework-tackles-scale-and-context-in-ai-powered-recommendations-1688ad40",
+      "verdict": "NEUTRAL",
+      "coverageState": "Discovered - currently not indexed",
+      "bucket": "waiting",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "/articles/ieee-launches-rigorous-llm-training-program-as-engineering-demand-surges-53665212",
+      "verdict": "NEUTRAL",
+      "coverageState": "Discovered - currently not indexed",
+      "bucket": "waiting",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "/articles/researchers-simplify-3d-image-editing-with-geometric-control-system-f93e96c6",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "bucket": "unknown",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "/articles/why-ai-security-tools-face-the-same-export-control-failures-f0d74d82",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-20T05:41:48Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/researchers-solve-longstanding-problem-in-fair-machine-learning-ed0e82fa",
+      "verdict": "NEUTRAL",
+      "coverageState": "Discovered - currently not indexed",
+      "bucket": "waiting",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "/articles/amazon-shelves-altman-biopic-amid-openai-strategic-alliance-12c0dd2a",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-20T05:51:48Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/new-framework-unifies-egocentric-video-ai-training-across-multiple-sensors-08ca804d",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "bucket": "unknown",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "/articles/researchers-crack-the-black-box-of-googles-diffusion-based-language-model-88b2a1fd",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-19T23:06:48Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/reliance-integrates-ai-across-telecom-stack-for-half-a-billion-users-370963ad",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-20T05:21:48Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/us-alleges-advanced-chip-equipment-reached-china-despite-export-controls-cab03364",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "bucket": "unknown",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "/articles/new-ai-framework-cuts-video-analysis-costs-by-93-while-boosting-accuracy-114b378a",
+      "verdict": "NEUTRAL",
+      "coverageState": "Discovered - currently not indexed",
+      "bucket": "waiting",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "/articles/ai-model-cracks-18-undiagnosed-rare-childhood-diseases-2cb808ad",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "bucket": "unknown",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "/articles/researchers-demonstrate-rapid-3d-illusion-generation-using-ai-denoising-d13cc49a",
+      "verdict": "NEUTRAL",
+      "coverageState": "Discovered - currently not indexed",
+      "bucket": "waiting",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "/articles/openai-rolls-out-budget-tools-for-enterprise-chatgpt-users-4c5a7b12",
+      "verdict": "NEUTRAL",
+      "coverageState": "Discovered - currently not indexed",
+      "bucket": "waiting",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "/articles/research-agents-leak-sensitive-data-study-reveals-privacy-risks-f40688f0",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "bucket": "unknown",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "/articles/openai-upgrades-chatgpts-medical-reasoning-with-gpt-45-instant-c01e13c4",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-19T00:35:56Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/engineers-test-advanced-alternatives-to-lora-fine-tuning-49a4209e",
+      "verdict": "NEUTRAL",
+      "coverageState": "Discovered - currently not indexed",
+      "bucket": "waiting",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "/articles/autonomous-coding-agents-streamline-enterprise-data-pipeline-107819c6",
+      "verdict": "NEUTRAL",
+      "coverageState": "Discovered - currently not indexed",
+      "bucket": "waiting",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "/articles/researchers-develop-ai-method-to-train-better-user-simulators-03db9171",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "bucket": "unknown",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "/articles/new-benchmark-exposes-memory-limits-in-vision-language-ai-models-e9fbfb6e",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "bucket": "unknown",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "/articles/new-ai-agent-learns-to-watch-videos-smarter-not-longer-3e4220d2",
+      "verdict": "NEUTRAL",
+      "coverageState": "Discovered - currently not indexed",
+      "bucket": "waiting",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "/articles/researchers-rethink-transformer-design-with-uneven-layer-architecture-28b2648a",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-18T06:07:29Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/openai-unveils-lifescibench-to-test-ai-performance-on-biomedical-research-163b495b",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-18T09:40:24Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/hugging-face-launches-search-tools-for-ai-agent-development-ceafc447",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-18T01:03:26Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/ai-system-autonomously-optimizes-complex-drug-synthesis-reaction-a3bdd8f6",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-18T01:53:49Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/researchers-unify-image-understanding-and-generation-in-single-ai-model-7aadc684",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-18T02:30:56Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/ai-model-learns-to-predict-3d-motion-from-natural-language-commands-942732bc",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-18T02:55:56Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/alibabas-glm-52-takes-aim-at-complex-multi-step-ai-tasks-9f28c1b8",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-20T13:30:01Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/amazons-robotics-push-bridges-ai-models-to-physical-hardware-20e99bda",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-18T03:20:56Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/what-is-model-context-protocol-mcp",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-18T01:31:49Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/self-correcting-robots-learn-on-the-job-without-human-guidance-dc925ffd",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-17T08:47:05Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/new-ai-model-predicts-3d-worlds-more-accurately-for-autonomous-robots-7bb3ab64",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-21T11:59:09Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/openai-tests-ai-models-in-simulated-deployments-before-release-cfcf6de0",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-17T04:12:05Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/google-deepmind-deploys-ai-to-speed-uk-housing-approvals-1cd14ccc",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "bucket": "unknown",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "/articles/researchers-embed-3d-geometry-into-robot-learning-for-better-manipulation-ce42750a",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-17T05:27:05Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/new-method-simplifies-ai-image-reconstruction-from-corrupted-data-af8f9eac",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-17T10:39:35Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/new-training-method-helps-ai-models-find-needles-in-digital-haystacks-3785fb40",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-17T10:02:05Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/new-ai-framework-merges-physics-and-generation-for-realistic-urban-scene-reconst-2bbd5eb0",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-16T15:24:52Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/researchers-uncover-how-language-models-track-internal-success-metrics-4f3ee8f5",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-16T15:59:22Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/anthropic-battles-trump-admin-over-ai-model-export-restrictions-7d00b549",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-16T16:14:52Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/doj-claims-xais-infrastructure-critical-to-us-military-operations-c5064fea",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-21T00:02:01Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/upmcs-ai-portfolio-hits-milestones-in-clinical-quality-care-tools-e36b40d3",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-17T06:17:05Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/trump-administrations-anthropic-ban-signals-broader-ai-policy-shift-3a6d17a1",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "bucket": "unknown",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "/articles/tech-lobbyists-push-federal-ai-rules-before-congress-shifts-49ea9adb",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-20T01:36:48Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/us-government-forces-leading-ai-company-to-block-model-access-923e6543",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-15T23:16:21Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/saas-founders-face-radical-pitch-reset-as-ai-upends-business-model-58334d1b",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-17T14:24:35Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/community-questions-anthropics-role-in-recent-ai-industry-developments-c77064cc",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-21T12:43:16Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/openai-commits-150m-to-accelerate-enterprise-ai-adoption-0501fb05",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-23T13:47:51Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/users-report-claude-ai-growing-hostile-and-uncooperative-3c9b1067",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-17T22:21:55Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/anthropic-removes-claude-fable-5-following-federal-security-directive-6d96cc97",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-23T22:26:48Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/eu-commission-weighs-fallout-from-anthropic-regulatory-ruling-14498e7b",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-15T21:59:14Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/ai-startups-eye-public-markets-as-investment-window-widens-17f59db0",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-20T06:40:33Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/white-house-restricts-anthropic-model-over-foreign-access-concerns-694d38ae",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-16T00:06:48Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/brazilian-ai-teams-flagship-model-allegedly-built-from-existing-llm-f08ce607",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-14T19:46:58Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/yang-sees-ai-driven-cost-reduction-as-next-startup-frontier-b450d705",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "bucket": "unknown",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "/articles/apples-native-ai-photo-tools-signal-shift-in-mobile-image-processing-592b2869",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-14T22:05:31Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/meta-unwinds-2b-manus-deal-following-chinese-government-pressure-d3663b96",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-15T22:55:54Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/anthropic-trains-claude-to-reason-like-a-research-chemist-d1fb41a8",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-16T23:52:05Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/multi-state-probe-into-openai-intensifies-regulatory-scrutiny-150030e2",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "bucket": "unknown",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "/articles/us-government-forces-anthropic-to-disable-ai-models-over-security-risk-b5a81e0a",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-14T22:49:16Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/anthropics-model-restrictions-force-india-to-chart-own-ai-course-d65e7aed",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "bucket": "unknown",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "/articles/amazon-chiefs-security-warning-preceded-anthropic-model-shutdown-bd9c617e",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "bucket": "unknown",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "/articles/amazon-research-sparks-white-house-action-against-anthropic-models-0c434145",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-14T03:11:16Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/googles-gemini-generates-working-apps-from-text-but-still-needs-human-help-c18dfe1e",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-16T00:21:49Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/kpmg-withdraws-ai-report-after-finding-fabricated-data-dbc1c4f2",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "bucket": "unknown",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "/articles/amazon-chiefs-government-meetings-preceded-regulatory-action-against-anthropic-f5392fc1",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-22T15:22:40Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/state-officials-launch-broad-inquiry-into-openai-practices-8de1a78f",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-23T23:18:52Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/new-ai-system-transforms-scientific-papers-into-knowledge-graphs-9b9847b2",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-19T22:16:48Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/fastapi-starlette-security-ai-agents-guide",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-21T12:24:09Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/robot-emotion-recognition-hits-wall-tech-beats-facial-analysis-fails-trust-test-ada8f7da",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-25T02:46:58Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/researchers-uncover-hidden-limits-of-truncated-encodings-in-graph-ai-6b28d9b4",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-21T23:37:16Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/how-ai-models-learn-from-teachers-without-rewriting-themselves-3638e672",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-21T22:54:25Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/new-framework-lets-ai-agents-reason-about-3d-space-more-flexibly-9d55c676",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-23T22:08:47Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/new-framework-shifts-focus-to-environment-design-for-ai-research-agents-1217442f",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-21T23:59:42Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/new-ai-model-teaches-robots-to-understand-action-through-semantic-tokens-0039ebff",
+      "verdict": "NEUTRAL",
+      "coverageState": "Crawled - currently not indexed",
+      "bucket": "waiting",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-21T02:42:31Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/government-halts-anthropics-advanced-ai-model-over-security-concerns-0494a8d5",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "bucket": "unknown",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "/articles/anthropic-pulls-new-ai-models-after-us-security-concerns-11f43b18",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-24T08:09:40Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/ai-models-show-promise-in-automating-scientific-reproducibility-checks-5e8b8636",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-23T18:47:51Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/new-training-method-unlocks-depth-perception-in-image-generation-ai-79476b0d",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-24T10:18:41Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/researchers-teach-robots-to-master-complex-tools-through-animation-c13d0bf3",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-20T12:08:01Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/new-benchmark-exposes-ai-agents-struggle-with-changing-environments-480b27c3",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-22T01:41:19Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/openai-launches-skill-building-academy-to-train-workers-on-ai-54f756ce",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-13T01:51:24Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/allen-institute-releases-open-evaluation-framework-for-llm-development-b197ef1a",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-24T02:56:38Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/new-framework-enables-ai-image-generators-to-create-mixed-text-image-sequences-550232ef",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-24T21:09:54Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/preply-harnesses-openai-models-to-scale-personalized-language-tutoring-9d5adbe8",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-21T02:24:46Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/new-framework-teaches-ai-models-to-reason-through-analogies-43b3aa97",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-22T02:33:41Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/theker-secures-85m-to-develop-adaptable-factory-robots-4f139cc7",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-19T13:51:19Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/deepmind-backs-multi-agent-ai-safety-with-10m-research-fund-e23c322f",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-25T03:27:34Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/new-method-gives-cheap-robot-arms-force-sensing-without-costly-hardware-460b4644",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-25T03:15:59Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/minor-tweaks-to-image-processing-unlock-major-gains-for-ai-pathology-edf970d2",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-20T06:06:48Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/bbva-deploys-chatgpt-enterprise-across-100000-employees-bd6fdb19",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-20T12:58:01Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/openai-acquires-ona-to-power-long-running-ai-agents-8ae138ef",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-21T00:51:01Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/new-method-recovers-discarded-visual-data-in-ai-image-understanding-18db7c29",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-11T23:55:10Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/pytorch-optimization-techniques-accelerate-neural-network-training-154d4b0e",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-23T12:47:51Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/researchers-propose-new-method-to-solve-chatbot-memory-problem-3abd61f8",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-22T10:02:26Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/openai-backs-eu-push-for-ai-transparency-standards-d07423da",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-20T23:05:01Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/opendoors-india-pullback-signals-shift-in-ai-outsourcing-strategy-9976006a",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-20T04:06:48Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/openai-models-now-accessible-through-oracle-cloud-deployments-e484d7ea",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-20T13:26:48Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/ai-coding-tools-help-astrophysicists-model-black-hole-physics-cd878838",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-23T06:42:24Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/researchers-accelerate-ai-video-generation-with-multi-horizon-prediction-d379aebc",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-24T21:50:55Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/beijing-linked-actors-deploy-ai-in-covert-us-tech-policy-campaign-9286f71a",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-22T23:04:56Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/study-challenges-claims-that-ai-models-match-expert-performance-2bc408d6",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-24T11:04:51Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/google-deepmind-achieves-4x-speedup-in-ai-text-generation-ddd8a289",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-21T18:10:22Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/new-ai-model-unifies-image-understanding-generation-and-editing-21a12b05",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-18T05:01:28Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/lseg-deploys-openai-to-accelerate-decision-making-across-4000-workers-6e0cab93",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-21T15:11:57Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/rethinking-how-ai-models-learn-new-framework-challenges-standard-fine-tuning-1d5f2b81",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-19T16:20:38Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/new-framework-shows-when-to-use-alignment-vs-prediction-in-ai-models-8e2587da",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-19T16:42:08Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/hugging-face-launches-native-ci-pipeline-tool-to-rival-github-actions-ff09968a",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-20T15:30:01Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/google-debuts-real-time-speech-translation-in-gemini-35-0d975606",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-21T01:49:16Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/cohere-launches-north-mini-code-for-developer-focused-ai-d9cd1181",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-24T21:46:54Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/voice-ai-struggles-with-bilingual-speech-new-benchmark-reveals-06dccd73",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-23T22:06:47Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/ai-agent-automates-3d-gallery-creation-by-chaining-multiple-tools-5dcb8123",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-19T19:45:24Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/google-deepmind-backs-european-robotics-push-with-ai-investment-893b7c4d",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-24T21:47:55Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/google-deepmind-unveils-gemma-4-12b-streamlined-multimodal-ai-model-312d0c30",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-13T23:38:09Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/new-framework-gives-robots-memory-and-foresight-for-complex-tasks-28071e77",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-21T18:47:52Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/hugging-face-introduces-modular-agent-framework-for-ai-assistants-9ce815e8",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-21T19:25:22Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/researchers-accelerate-video-generation-with-latent-memory-model-21641bfc",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-24T04:49:40Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/apples-measured-ai-strategy-proves-competitive-as-industry-shifts-3f25ab41",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-23T21:08:12Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/openai-outlines-strategy-to-democratize-ai-while-tackling-safety-risks-d6cf24e8",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-21T12:43:15Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/altmans-biometric-startup-cuts-staff-amid-revenue-struggles-5ba2c865",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-19T18:31:48Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/openai-moves-toward-public-markets-with-confidential-sec-filing-d1446357",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-21T13:02:01Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/openai-files-confidential-ipo-registration-with-sec-d9671d85",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-23T09:01:23Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/open-source-community-rallies-behind-openenv-for-reinforcement-learning-32d3e22c",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-21T05:00:08Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/openai-launches-economic-research-exchange-to-study-ai-labor-impact-de12e22b",
+      "verdict": "NEUTRAL",
+      "coverageState": "Crawled - currently not indexed",
+      "bucket": "waiting",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": "2026-06-18T08:47:05Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/amazon-integrates-ai-design-tools-into-shopping-app-for-custom-merchandise-89500bec",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-21T20:02:52Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/how-multiple-ai-models-behave-in-simulated-economies-f92ffaaf",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-21T20:41:22Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/deepseek-v4-ignites-price-war-that-widens-us-china-ai-cost-gap-97329c2c",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-24T10:31:42Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/lawsuit-exposes-limits-of-ai-weapon-detection-in-school-safety-c79944d5",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-20T18:00:01Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/deepseek-v4-pro-outperforms-openais-latest-model-on-accuracy-tests-6fc739a3",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-19T01:50:56Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/researchers-challenge-claims-of-human-like-intelligence-in-ai-models-ff6e91b2",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-22T06:16:05Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/how-a-hackathon-project-exposed-the-limits-of-ai-in-healthcare-6d51ed92",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-19T20:11:48Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/ai-giants-face-pricing-pressure-as-ipo-plans-accelerate-b22386fb",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-21T10:04:15Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/notion-restores-claude-integration-after-brief-outage-8405ce40",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "bucket": "unknown",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "/articles/digital-impostors-why-spotting-ai-influencers-is-getting-harder-94c90844",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-20T19:15:01Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/openai-shifts-strategy-beyond-chat-as-company-pursues-integrated-platform-a11e2779",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "bucket": "unknown",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "/articles/software-engineers-grapple-with-career-uncertainty-as-llms-reshape-coding-work-dce59b14",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-24T13:07:31Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/ai-giants-face-massive-unit-economics-challenges-f58770a7",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "bucket": "unknown",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "/articles/linux-users-push-anthropic-to-release-official-claude-desktop-client-14fd9a1a",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-19T13:44:05Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/a-new-wave-of-startups-rejects-digital-first-culture-a37776d2",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "bucket": "unknown",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "/articles/openai-expands-developer-access-through-sponsored-hackathon-credits-20f33854",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-24T05:26:39Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/developers-increasingly-use-ai-chatbots-over-design-tools-25f13439",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-19T12:41:01Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/nvidias-blackwell-chip-arrives-on-windows-pcs-challenging-apple-and-amd-6bb3ab5f",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "bucket": "unknown",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "/articles/metas-ai-app-now-generates-clickbait-news-feed-content-5d1ef809",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-25T00:48:56Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/white-house-ai-advisor-krishnan-departs-to-launch-new-policy-institute-63732d3b",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-23T13:17:51Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/openai-introduces-lockdown-mode-to-defend-against-prompt-injection-attacks-8fe34c61",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-24T03:56:39Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/apples-ai-overhaul-siri-gets-deep-learning-upgrade-at-wwdc-2026-fc23a884",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-24T03:46:38Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/researchers-build-financial-simulations-using-compact-ai-models-e4465e5a",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-21T01:27:31Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/indiana-mayors-remarks-expose-class-tensions-in-data-center-debate-b2d3cb0d",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-24T21:46:54Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/trump-administration-explores-equity-stake-in-openai-6992741b",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-25T00:04:56Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/diffusion-models-learn-to-self-retrieve-beating-standard-rag-661f7c5b",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-22T09:32:27Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/new-benchmark-reveals-how-ai-writing-becomes-detectable-during-editing-9b88bc80",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-24T10:27:42Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/new-framework-lets-developers-map-personalities-into-ai-models-c9919e11",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-22T13:22:32Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/google-taps-spacex-for-11b-annual-ai-compute-in-major-infrastructure-deal-36d571b5",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-23T23:01:18Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/new-ai-model-teaches-machines-to-understand-3d-scenes-at-the-part-level-709c98cb",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-24T10:39:48Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/new-framework-helps-ai-agents-learn-cooperation-in-competitive-games-49bd64f3",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-20T06:59:18Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/techcrunchs-ai-startup-competition-enters-final-days-640d7ed9",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-21T14:46:57Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/researchers-demonstrate-multi-agent-ai-economy-on-compact-3b-model-90d3c3f4",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-20T15:48:46Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/new-framework-lets-robots-adjust-movement-speed-on-the-fly-c77c7f0b",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-22T01:32:27Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/researchers-solve-code-models-repository-problem-with-adapter-networks-ff4ac8d5",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-20T14:52:31Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/new-framework-helps-humanoid-robots-learn-complex-tasks-a7ae2321",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "bucket": "unknown",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "/articles/new-method-shields-ai-models-from-forgetting-during-continuous-learning-b56c4998",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-22T08:45:34Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/ai-startups-capture-record-funding-as-investors-bet-billions-on-automation-ed93d171",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "bucket": "unknown",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "/articles/defense-legal-ai-emerges-as-venture-capitals-next-frontier-03cf606c",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "bucket": "unknown",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "/articles/developers-train-llms-to-generate-documentation-in-retro-style-51270825",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-24T09:49:42Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/why-viral-robot-videos-mislead-the-public-on-ai-capabilities-0075318f",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-22T17:07:40Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/anthropics-revenue-surge-tests-ipo-confidence-in-ai-economics-d8a6af4c",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "bucket": "unknown",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "/articles/hugging-face-unveils-cli-tool-built-for-ai-agent-workflows-05982956",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "bucket": "unknown",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "/articles/ai-systems-could-transform-biological-defense-strategy-91a69374",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-22T09:47:27Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/chatgpt-gets-persistent-memory-to-improve-long-term-user-understanding-740532bc",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "bucket": "unknown",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "/articles/nvidia-releases-customizable-safety-framework-for-enterprise-ai-models-88143664",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-22T05:57:26Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/endava-restructures-development-operations-with-ai-agent-technology-a9ceef8c",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-21T21:17:52Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/nvidia-releases-tools-to-customize-speech-recognition-for-any-language-6830b206",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-22T10:57:26Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/new-benchmark-suite-evaluates-ai-agents-across-213-real-world-tasks-3aa17841",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-21T21:49:04Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/quantum-computing-startups-attract-billions-despite-losses-8cc9037d",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-23T11:52:54Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/major-ai-labs-push-congress-to-regulate-synthetic-dna-tracking-e948149b",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-24T11:31:41Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/openai-charts-multi-pronged-policy-roadmap-for-ai-governance-28ca46c7",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-23T00:19:56Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/wasmer-deploys-ai-assisted-development-to-speed-edge-runtime-609a6c1a",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-21T15:58:56Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/openai-proposes-federal-framework-for-advanced-ai-safety-9f358e7b",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-06T12:50:40Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/openai-expands-gpt-rosalind-for-drug-discovery-and-genomics-35577243",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-21T07:41:11Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/reachy-mini-robot-gains-ai-integration-via-model-context-protocol-e8ed9321",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-22T13:32:26Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/training-method-beyond-chat-models-shows-promise-for-ai-systems-af328793",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-22T07:12:26Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/openai-charts-independent-course-on-ai-regulation-and-ethics-df06e4e7",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-26T12:52:33Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/openais-codex-expands-beyond-developers-into-general-office-work-7305241d",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-21T15:24:28Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/new-training-method-teaches-ai-models-to-reason-about-hidden-spaces-7dc430ae",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-25T06:14:43Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/simple-tweaks-revive-older-lidar-models-challenge-ai-scene-understanding-5b95d638",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-24T04:49:41Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/openai-pushes-for-global-framework-to-protect-youth-from-ai-risks-4d6ee39c",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-22T01:15:42Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/openai-expands-codex-ecosystem-with-role-specific-tools-3bd6a18f",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-13T19:53:13Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/travelers-deploys-openai-powered-claims-assistant-nationwide-2bdcacd7",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-23T21:29:38Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/hugging-face-releases-holo31-a-faster-local-ai-agent-for-computer-tasks-14fd9645",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-24T04:11:38Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/new-framework-fixes-a-critical-flaw-in-how-ai-models-learn-multiple-tasks-4c14310c",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-24T11:42:41Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/new-ai-model-cuts-robot-training-data-needs-by-generating-synthetic-demonstratio-c6a60980",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-21T15:37:31Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/alphabet-to-deploy-80b-capital-for-ai-infrastructure-expansion-c3c39518",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "bucket": "unknown",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "/articles/openais-advanced-models-arrive-on-aws-for-enterprise-users-d925a057",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-19T21:01:50Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/nvidia-eyes-cpu-market-dominance-with-ai-agent-pc-push-1426e0a4",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "bucket": "unknown",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "/articles/openai-builds-1gw-data-center-in-michigan-for-ai-infrastructure-63ee8086",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-21T07:03:10Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/enterprise-ai-needs-smarter-agents-not-just-bigger-language-models-ed058bf4",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-26T00:16:48Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/jetbrains-unveils-mellum2-a-12b-mixture-of-experts-llm-c58a6a51",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-22T16:12:26Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/bostons-startup-scene-eclipsed-by-ai-gold-rush-in-silicon-valley-7571e784",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "bucket": "unknown",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "/articles/nvidia-unveils-cosmos-3-open-source-model-for-robot-reasoning-1670e12b",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "bucket": "unknown",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "/articles/popular-google-sheets-chatgpt-plugin-quietly-transmits-user-data-e6f6357d",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-20T07:36:48Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/brockovich-demands-transparency-in-ai-data-center-operations-66baafcf",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "bucket": "unknown",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "/articles/how-ai-is-collapsing-development-timelines-for-software-startups-9fd8ef02",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-21T16:50:22Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/odysseus-offers-self-hosted-alternative-to-cloud-ai-workspaces-f33c693e",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-26T10:08:57Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/bonsai-image-4b-brings-text-to-image-generation-to-edge-devices-8d0f82c1",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-22T06:27:26Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/are-tech-leaders-falling-into-an-ai-reality-trap-b5fe909c",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "bucket": "unknown",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "/articles/spacexs-trillion-dollar-ipo-raises-questions-about-market-reality-90b0ef82",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "bucket": "unknown",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "/articles/the-bitcoin-cannabis-vape-that-sounds-too-absurd-to-be-real-4f97eed3",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "bucket": "unknown",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "/articles/1980s-diy-roboticists-built-walking-humanoid-using-pneumatic-muscles-a32e3a71",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-16T02:04:18Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/the-browser-market-shifts-as-challengers-target-chromes-dominance-77c38d71",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-22T06:57:26Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/turkeys-hair-transplant-boom-how-tech-innovation-built-a-billion-dollar-industry-376bc5e2",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-21T08:45:12Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/meta-pivots-to-wearable-ai-with-reported-pendant-device-69cbfecc",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-25T07:51:04Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/tech-community-questions-core-principles-behind-generative-ai-4e437e8d",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "bucket": "unknown",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "/articles/softbank-commits-75b-to-french-data-center-expansion-86a63eec",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-21T13:32:31Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/why-specialized-knowledge-remains-ais-most-defensible-asset-103656d1",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-19T14:58:07Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/googles-gemini-spark-tackles-daily-tasks-with-surprising-effectiveness-2af9ce50",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-21T02:06:01Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/openrouter-secures-113m-in-series-b-funding-round-d24961a9",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-12T19:18:28Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/speaking-up-on-ai-ethics-risks-professional-isolation-bbfaf576",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-21T22:07:57Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/github-copilots-pricing-shift-triggers-backlash-from-developer-community-46a06796",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-19T23:56:48Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/lean-ai-model-detects-hidden-patterns-in-time-series-data-5453ead4",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-14T21:13:17Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/new-framework-teaches-robots-to-perceive-motion-not-just-objects-73a93525",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-06T14:39:40Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/new-tool-reveals-hidden-training-data-recipes-of-major-ai-models-5f7d317c",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-09T18:18:59Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/new-method-slashes-video-ai-memory-use-by-93-while-boosting-speed-fbd3f976",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-16T22:41:25Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/new-framework-adds-3d-awareness-to-video-object-tracking-c4267498",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-09T17:53:58Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/the-real-cost-of-ai-transcription-free-tools-vs-paid-plans-cbd96541",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-13T22:45:09Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/startup-offers-free-home-cleaning-to-gather-robot-training-data-bb085420",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-15T22:42:16Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/developers-launch-tiny-vllm-a-lightweight-engine-for-fast-ai-model-inference-51c7c42f",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-16T23:06:25Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/amazon-adapts-licensed-character-into-ai-animated-series-without-creator-approva-0cd854d2",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-16T21:16:50Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/how-endava-transformed-workflows-with-ai-powered-code-generation-aaa854d5",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-21T14:59:27Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/developer-dependency-on-ai-tools-may-create-long-term-code-quality-crisis-490165ff",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "bucket": "unknown",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "/articles/braintrust-accelerates-development-with-ai-powered-code-generation-3fa7148c",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-23T21:51:04Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/when-ai-coding-agents-fake-understanding-a-physicists-reality-check-168d527a",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-21T15:37:43Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/boston-childrens-deploys-ai-to-identify-dozens-of-rare-diseases-58d96d4a",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "bucket": "unknown",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "/articles/openai-publishes-framework-for-independent-ai-model-audits-4d1ce20f",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "bucket": "unknown",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "/articles/understanding-pytorch-performance-a-guide-to-built-in-profiling-b3239c8d",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-26T04:31:27Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/openai-unveils-rosalind-biodefense-program-for-public-health-ai-76d2e551",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-21T03:20:05Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/san-francisco-robotics-startup-faces-lawsuit-over-airbnb-testing-b3d35a02",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-23T20:50:47Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/unknown-ai-model-hy3-dominates-openrouter-rankings-d85b52d6",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-21T01:08:46Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/enterprise-ai-search-startup-glean-hits-300m-revenue-472eb66b",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "bucket": "unknown",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "/articles/ai-models-absorb-false-claims-despite-explicit-warning-labels-60b8d887",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-19T12:05:01Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/new-ai-model-stabilizes-video-lighting-effects-with-temporal-precision-7757ce88",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "bucket": "unknown",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "/articles/new-search-method-lets-ai-models-improve-themselves-beyond-training-a37b1030",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-20T07:18:03Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/new-ai-model-tackles-multi-agent-world-simulation-at-scale-2a5a65e5",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-19T09:33:59Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/new-benchmark-reveals-hidden-trade-offs-in-ai-model-tuning-methods-0f5eae84",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-22T11:15:34Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/openai-unveils-governance-framework-aligned-with-global-ai-rules-57d5b2b7",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-25T14:58:11Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/enterprise-ai-shifts-focus-safety-now-trumps-innovation-4f1596b8",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "bucket": "unknown",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "/articles/musks-reframing-of-anthropic-deal-contradicts-spacex-filing-571f2682",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "bucket": "unknown",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "/articles/self-improving-ai-systems-become-the-new-frontier-as-labs-chase-rsi-63463539",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "bucket": "unknown",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "/articles/apples-ios-27-siri-redesign-takes-cues-from-chatgpt-690d2e41",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-22T07:27:26Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/apples-reimagined-siri-aims-to-compete-in-generative-ai-race-83428ac9",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "bucket": "unknown",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "/articles/waymo-launches-chinese-built-robotaxi-service-across-two-states-d118b3d4",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "bucket": "unknown",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "/articles/vision-language-models-dont-universally-beat-text-only-ai-on-human-alignment-07ef8287",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "bucket": "unknown",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "/articles/new-native-vision-model-merges-image-and-language-without-separate-encoders-bc6fd5e5",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "bucket": "unknown",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "/articles/vertu-launches-ai-powered-foldable-for-enterprise-leaders-a501228c",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "bucket": "unknown",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "/articles/hugging-face-tackles-massive-model-distribution-with-delta-sync-7c0535cb",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "bucket": "unknown",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "/articles/googles-latest-ai-model-struggles-with-basic-spelling-tasks-7e847648",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "bucket": "unknown",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "/articles/openai-prepares-election-safeguards-for-2026-global-voting-7a69697a",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "bucket": "unknown",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "/articles/cisco-taps-openai-codex-to-accelerate-enterprise-software-development-9f506aa6",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "bucket": "unknown",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "/articles/reachy-mini-robot-now-runs-conversations-entirely-on-device-89801fac",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "bucket": "unknown",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "/articles/warp-harnesses-gpt-55-to-unify-open-source-development-879c2f38",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "bucket": "unknown",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "/articles/openai-codex-powers-self-improving-tax-filing-agent-8f187d34",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "bucket": "unknown",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "/articles/leading-ai-models-stumble-on-enterprise-it-tasks-in-new-benchmark-d6596e16",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "bucket": "unknown",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "/articles/new-research-exposes-critical-flaw-in-ai-safety-training-method-f900b106",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "bucket": "unknown",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "/articles/new-ai-model-simplifies-3d-scene-reconstruction-using-gravity-e60d4ae9",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "bucket": "unknown",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "/articles/huawei-researchers-propose-self-improving-ai-agents-that-learn-from-experience-97ccf2f2",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "bucket": "unknown",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "/articles/concentration-of-hiring-algorithms-creates-racial-disparities-05f80109",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "bucket": "unknown",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "/articles/search-users-flee-to-alternatives-as-google-overhauls-results-0805bad6",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "bucket": "unknown",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "/articles/how-large-language-models-work-clear-explainer",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-20T00:46:48Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/gpt-5-vs-claude-4-5-vs-gemini-ultra-2026",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-24T11:55:42Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/what-are-ai-agents-practical-guide-2026",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-24T18:39:01Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/rag-vs-fine-tuning-vs-prompt-engineering",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "bucket": "unknown",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "/articles/what-is-retrieval-augmented-generation-rag",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-18T06:14:29Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/turning-chores-into-ai-training-data-the-hidden-cost-eeb43980",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-20T02:51:48Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/critical-flaw-in-popular-python-framework-exposes-ai-agents-globally-dba2f662",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-16T21:54:25Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/manufacturings-digital-divide-when-to-deploy-simulation-vs-digital-twins-3104388d",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-16T03:19:18Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/three-major-ai-teams-unite-on-eagle-31-inference-acceleration-62073e49",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "bucket": "unknown",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "/articles/ai-powered-thermal-system-shields-san-francisco-whales-from-ship-strikes-974c8504",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "bucket": "unknown",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "/articles/umg-and-tiktok-extend-partnership-to-police-ai-generated-music-756c4525",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "bucket": "unknown",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "/articles/indian-gig-workers-become-data-collectors-for-global-robot-training-bb04c84a",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "bucket": "unknown",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "/articles/vatican-warns-against-ai-monopolies-in-historic-papal-letter-c91a6e9b",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "bucket": "unknown",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "/articles/vatican-signals-shift-on-ai-ethics-by-elevating-anthropic-1dad1cc2",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "bucket": "unknown",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "/articles/researchers-propose-sleep-like-memory-process-for-large-language-models-dc32a346",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "bucket": "unknown",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "/articles/intbot-and-certis-deploy-social-robots-across-singapore-cbb21cde",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "bucket": "indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-06-16T01:14:19Z",
+      "pageFetchState": "SUCCESSFUL"
+    },
+    {
+      "url": "/articles/enterprise-ai-agents-demand-fundamental-organizational-overhaul-445a6a5e",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "bucket": "unknown",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "/articles/affordable-3d-printed-robot-legs-open-new-frontiers-for-ai-research-4e103816",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "bucket": "unknown",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "/articles/openrouter-reaches-13b-valuation-as-multi-model-ai-adoption-accelerates-dffcea3d",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "bucket": "unknown",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "/articles/defining-ai-agent-architecture-key-terminology-every-developer-needs-a479bf7f",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "bucket": "unknown",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "/articles/openai-integrates-major-brazilian-news-outlets-into-chatgpt-d5890e0e",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "bucket": "unknown",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "/articles/researchers-propose-sleep-mechanism-to-fix-llm-context-limits-94675ebb",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "bucket": "unknown",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "/articles/llms-transform-code-review-by-labeling-patch-structure-78e840ad",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "bucket": "unknown",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "/articles/new-framework-lets-ai-segment-objects-using-natural-language-ffa522c5",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "bucket": "unknown",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "/articles/hybrid-3d-vision-pipeline-bridges-classical-and-ai-methods-f91fba4b",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "bucket": "unknown",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "/articles/new-framework-fixes-ai-video-search-when-switching-domains-1897ae40",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "bucket": "unknown",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "/articles/new-method-lets-ai-systems-distill-video-models-without-teacher-access-859cf3d6",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "bucket": "unknown",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "/articles/looped-diffusion-models-match-autoregressive-performance-with-far-less-compute-cb661905",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "bucket": "unknown",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "/articles/new-method-balances-text-understanding-with-face-identity-in-ai-image-generation-9c2e81fe",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "bucket": "unknown",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "/articles/new-technique-speeds-up-ai-image-generation-while-boosting-quality-7fd44e35",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "bucket": "unknown",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "/articles/helix4d-tackles-video-to-4d-mesh-generations-hardest-problems-1e0eb59c",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "bucket": "unknown",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "/articles/new-framework-accelerates-development-of-multimodal-ai-models-f5bf9aac",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "bucket": "unknown",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "/articles/ai-research-building-better-agent-architecture-beyond-raw-model-power-645c1ef2",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "bucket": "unknown",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "/articles/new-framework-generates-photorealistic-driving-scenarios-for-ai-training-1f4050cb",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "bucket": "unknown",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "/articles/new-platform-lets-ai-agents-train-on-mobile-apps-at-scale-c85911de",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "bucket": "unknown",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "/articles/new-ai-method-turns-3d-scene-images-into-physics-ready-models-b4629f45",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "bucket": "unknown",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    }
+  ]
+}
