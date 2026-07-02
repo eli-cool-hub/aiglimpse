@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "study-finds-gpt-4-turbo-more-credible-than-real-uk-politicians-4d15693f",
+      "title": "Study Finds GPT-4 Turbo More Credible Than Real UK Politicians",
+      "subtitle": "A peer-reviewed experiment reveals language models can outperform public figures on perceived authenticity, raising stakes for AI regulation and election integrity.",
+      "category": "llms",
+      "publishedAt": "2026-07-02T00:00:00.000Z",
+      "sourceUrl": "https://404media.co/untitled-28",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/study-finds-gpt-4-turbo-more-credible-than-real-uk-politicians-4d15693f.jpg"
+    },
+    {
       "slug": "new-ai-method-shrinks-3d-human-models-for-real-time-streaming-12be0fb9",
       "title": "New AI Method Shrinks 3D Human Models for Real-Time Streaming",
       "subtitle": "Researchers introduce PointSplat, a technique that dramatically reduces file sizes while maintaining visual quality for live-action virtual experiences.",
@@ -5289,6 +5300,7 @@
     "51fedb493c2a10c2",
     "9c7d8ce826068923",
     "7450d28b7329ab73",
-    "12be0fb983221deb"
+    "12be0fb983221deb",
+    "4d15693fdbc6b26a"
   ]
 }
