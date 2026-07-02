@@ -33,6 +33,7 @@ import { syndicate } from './lib/syndicate.mjs';
 import { EVERGREEN_TOPICS } from './lib/evergreen-topics.mjs';
 import { EVERGREEN_LINK_MAP } from './lib/evergreen-links.mjs';
 import { buildGuidesPage } from './build-guides.mjs';
+import { buildSearchIndex } from './build-search-index.mjs';
 import { headerHtml, footerHtml, FONT_LINKS } from './lib/chrome.mjs';
 import { pictureHtml, heroPreload } from './lib/media.mjs';
 import { relatedSectionHtml, breadcrumbSchema } from './lib/related.mjs';
@@ -570,6 +571,7 @@ async function main() {
     await buildHomepage();
     await buildCategories();
     await buildGuidesPage();
+    await buildSearchIndex();
     const ping = await pingIndexNow([`${SITE_URL}/`, ...newUrls], SITE_URL);
     if (ping.ok) console.log(`  ✓ IndexNow pinged ${ping.count} URLs (${ping.status})`);
     else if (!ping.skipped) console.warn(`  IndexNow returned ${ping.status}: ${ping.body || ''}`);
