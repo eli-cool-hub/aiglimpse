@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "google-deepmind-partners-with-a24-on-ai-film-research-9793746e",
+      "title": "Google DeepMind Partners With A24 on AI Film Research",
+      "subtitle": "The AI lab and entertainment studio launch an unprecedented collaboration to explore how machine learning can advance creative storytelling.",
+      "category": "research",
+      "publishedAt": "2026-07-03T14:25:43.000Z",
+      "sourceUrl": "https://deepmind.google/blog/google-deepmind-and-a24-announce-first-of-its-kind-research-partnership/",
+      "sourceName": "Google DeepMind",
+      "sourceTier": 1,
+      "image": "/images/articles/google-deepmind-partners-with-a24-on-ai-film-research-9793746e.jpg"
+    },
+    {
       "slug": "simpler-ai-model-reconstructs-3d-geometry-from-single-photos-6e7b20e2",
       "title": "Simpler AI Model Reconstructs 3D Geometry From Single Photos",
       "subtitle": "Researchers demonstrate that minimalist diffusion architecture outperforms complex hybrid systems at converting 2D images to precise 3D spatial maps.",
@@ -5469,6 +5480,7 @@
     "202f73a32816593e",
     "d1ada7528b0ad1aa",
     "6a3890dc16b0af4a",
-    "6e7b20e2187c0aef"
+    "6e7b20e2187c0aef",
+    "9793746e70670ff3"
   ]
 }
