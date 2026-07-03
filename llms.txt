@@ -20,6 +20,8 @@ All content is original reporting by the AI Glimpse newsroom. Primary sources ar
 
 ## Recent articles
 
+- [New Research Challenges Core Assumptions in Diffusion Model Training](https://aiglimpse.ai/articles/new-research-challenges-core-assumptions-in-diffusion-model-training-da6d625d) (2026-07-02): Scientists discover that recent gains in image generation may stem from data augmentation rather than token interactions, reshaping how researchers approach model optimization.
+- [New Method Helps AI Models Better Use Information in Long Documents](https://aiglimpse.ai/articles/new-method-helps-ai-models-better-use-information-in-long-documents-adee119a) (2026-07-02): ReContext improves how language models extract and apply relevant evidence from extended contexts without requiring retraining.
 - [Real-Time Safety Monitors Could Catch Dangerous LLM Outputs](https://aiglimpse.ai/articles/real-time-safety-monitors-could-catch-dangerous-llm-outputs-470d2c41) (2026-07-02): Researchers develop a simple threshold-based system to detect when large language models produce unsafe content during deployment.
 - [Researchers Shrink AI Function Calls to Lightweight Local Programs](https://aiglimpse.ai/articles/researchers-shrink-ai-function-calls-to-lightweight-local-programs-86ef1caa) (2026-07-02): New method compiles natural language into compact neural adapters, reducing inference costs by 98% compared to direct API calls.
 - [Researchers Expose Flaws in AI Unlearning Methods](https://aiglimpse.ai/articles/researchers-expose-flaws-in-ai-unlearning-methods-2fc8af79) (2026-07-02): New benchmark reveals that popular techniques for erasing sensitive data from language models may merely hide knowledge rather than truly removing it.
@@ -48,8 +50,6 @@ All content is original reporting by the AI Glimpse newsroom. Primary sources ar
 - [New Training Method Speeds Up AI Image Generation By 10x](https://aiglimpse.ai/articles/new-training-method-speeds-up-ai-image-generation-by-10x-96baa710) (2026-06-30): Researchers jointly train image tokenizers and generators to eliminate bottlenecks in visual AI systems.
 - [New Benchmark Exposes Flaws in AI Agent Training Methods](https://aiglimpse.ai/articles/new-benchmark-exposes-flaws-in-ai-agent-training-methods-d3d8151e) (2026-06-30): Researchers introduce QVal, a training-free evaluation framework that challenges assumptions about how to guide language models through complex, multi-step tasks.
 - [New AI Architecture Tackles Low-Resolution Face Recognition](https://aiglimpse.ai/articles/new-ai-architecture-tackles-low-resolution-face-recognition-f1fc87e4) (2026-06-30): Researchers apply mixture-of-experts technique to improve facial identification from degraded images, achieving state-of-the-art results.
-- [LLM API pricing compared in 2026: which provider costs least](https://aiglimpse.ai/articles/llm-api-pricing-comparison-2026) (2026-07-01): Per-token pricing, context windows, and batch discounts across OpenAI, Anthropic, Google, and newer challengers.
-- [OpenAI Releases GeneBench-Pro to Evaluate AI in Life Sciences](https://aiglimpse.ai/articles/openai-releases-genebench-pro-to-evaluate-ai-in-life-sciences-bc51df6b) (2026-06-30): New benchmark measures artificial intelligence capabilities across genomics and biological research using authentic experimental data.
 
 ## Explainers (evergreen)
 
@@ -68,7 +68,7 @@ All content is original reporting by the AI Glimpse newsroom. Primary sources ar
 
 - [Sitemap](https://aiglimpse.ai/sitemap.xml): All article URLs with publish dates (Google News format).
 - [RSS](https://aiglimpse.ai/rss.xml): 50 most recent articles (RSS 2.0).
-- [Full content index](https://aiglimpse.ai/llms-full.txt): Extended article list for LLM crawlers (460 articles).
+- [Full content index](https://aiglimpse.ai/llms-full.txt): Extended article list for LLM crawlers (462 articles).
 
 ## About
 

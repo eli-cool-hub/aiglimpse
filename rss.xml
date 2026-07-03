@@ -7,6 +7,22 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>New Research Challenges Core Assumptions in Diffusion Model Training</title>
+      <link>https://aiglimpse.ai/articles/new-research-challenges-core-assumptions-in-diffusion-model-training-da6d625d</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-research-challenges-core-assumptions-in-diffusion-model-training-da6d625d</guid>
+      <description>Scientists discover that recent gains in image generation may stem from data augmentation rather than token interactions, reshaping how researchers approach model optimization.</description>
+      <pubDate>Thu, 02 Jul 2026 17:59:25 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
+      <title>New Method Helps AI Models Better Use Information in Long Documents</title>
+      <link>https://aiglimpse.ai/articles/new-method-helps-ai-models-better-use-information-in-long-documents-adee119a</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-method-helps-ai-models-better-use-information-in-long-documents-adee119a</guid>
+      <description>ReContext improves how language models extract and apply relevant evidence from extended contexts without requiring retraining.</description>
+      <pubDate>Thu, 02 Jul 2026 17:59:26 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
       <title>Real-Time Safety Monitors Could Catch Dangerous LLM Outputs</title>
       <link>https://aiglimpse.ai/articles/real-time-safety-monitors-could-catch-dangerous-llm-outputs-470d2c41</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/real-time-safety-monitors-could-catch-dangerous-llm-outputs-470d2c41</guid>
@@ -389,22 +405,6 @@
       <description>Researchers introduce DiScoFormer, a single architecture that handles multiple probability estimation tasks across different data distributions.</description>
       <pubDate>Mon, 29 Jun 2026 18:02:48 GMT</pubDate>
       <category>AI Tools &amp; Products</category>
-    </item>
-    <item>
-      <title>Tech Teams Show Strong Confidence in AI Agents for Enterprise Workflows</title>
-      <link>https://aiglimpse.ai/articles/tech-teams-show-strong-confidence-in-ai-agents-for-enterprise-workflows-3d11571a</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/tech-teams-show-strong-confidence-in-ai-agents-for-enterprise-workflows-3d11571a</guid>
-      <description>Survey reveals AI agents are gaining trust for complex IT tasks, but business context remains a critical bottleneck for broader adoption.</description>
-      <pubDate>Mon, 29 Jun 2026 14:44:01 GMT</pubDate>
-      <category>AI Research</category>
-    </item>
-    <item>
-      <title>OpenAI Study Charts AI's Reshaping of European Labor Market</title>
-      <link>https://aiglimpse.ai/articles/openai-study-charts-ais-reshaping-of-european-labor-market-4843796e</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/openai-study-charts-ais-reshaping-of-european-labor-market-4843796e</guid>
-      <description>New research maps which EU jobs face automation, growth, or transformation as artificial intelligence deployment accelerates across the continent.</description>
-      <pubDate>Mon, 29 Jun 2026 07:00:00 GMT</pubDate>
-      <category>LLMs &amp; Chatbots</category>
     </item>
   </channel>
 </rss>

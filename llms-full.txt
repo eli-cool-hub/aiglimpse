@@ -3,7 +3,7 @@
 > Machine-readable index for AI assistants, answer engines, and research crawlers.
 > Summary version: https://aiglimpse.ai/llms.txt
 
-Total articles: 460 | Evergreen explainers: 10 | Generated: 2026-07-03
+Total articles: 462 | Evergreen explainers: 10 | Generated: 2026-07-03
 
 ## Evergreen explainers
 
@@ -78,6 +78,20 @@ Total articles: 460 | Evergreen explainers: 10 | Generated: 2026-07-03
 - Type: evergreen explainer (FAQ schema on page)
 
 ## All articles (newest first)
+
+### New Research Challenges Core Assumptions in Diffusion Model Training
+- URL: https://aiglimpse.ai/articles/new-research-challenges-core-assumptions-in-diffusion-model-training-da6d625d
+- Published: 2026-07-02
+- Category: research
+- Summary: Scientists discover that recent gains in image generation may stem from data augmentation rather than token interactions, reshaping how researchers approach model optimization.
+- Source: http://arxiv.org/abs/2607.02508v1
+
+### New Method Helps AI Models Better Use Information in Long Documents
+- URL: https://aiglimpse.ai/articles/new-method-helps-ai-models-better-use-information-in-long-documents-adee119a
+- Published: 2026-07-02
+- Category: research
+- Summary: ReContext improves how language models extract and apply relevant evidence from extended contexts without requiring retraining.
+- Source: http://arxiv.org/abs/2607.02509v1
 
 ### Real-Time Safety Monitors Could Catch Dangerous LLM Outputs
 - URL: https://aiglimpse.ai/articles/real-time-safety-monitors-could-catch-dangerous-llm-outputs-470d2c41
