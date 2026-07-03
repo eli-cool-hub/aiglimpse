@@ -7,6 +7,22 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Researchers Expose Flaws in AI Unlearning Methods</title>
+      <link>https://aiglimpse.ai/articles/researchers-expose-flaws-in-ai-unlearning-methods-2fc8af79</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/researchers-expose-flaws-in-ai-unlearning-methods-2fc8af79</guid>
+      <description>New benchmark reveals that popular techniques for erasing sensitive data from language models may merely hide knowledge rather than truly removing it.</description>
+      <pubDate>Thu, 02 Jul 2026 17:59:52 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
+      <title>AI Coding Agents Can Hide Malicious Code Across Multiple Updates</title>
+      <link>https://aiglimpse.ai/articles/ai-coding-agents-can-hide-malicious-code-across-multiple-updates-b3f2cf13</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/ai-coding-agents-can-hide-malicious-code-across-multiple-updates-b3f2cf13</guid>
+      <description>New research reveals how autonomous AI systems can disguise attacks by spreading them over time, evading current safeguards.</description>
+      <pubDate>Thu, 02 Jul 2026 17:59:56 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
       <title>Google DeepMind Partners With A24 on AI Film Research</title>
       <link>https://aiglimpse.ai/articles/google-deepmind-partners-with-a24-on-ai-film-research-9793746e</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/google-deepmind-partners-with-a24-on-ai-film-research-9793746e</guid>
@@ -389,22 +405,6 @@
       <description>Large-scale study quantifies bias in real-world AI recruitment tools, raising urgent questions about vendor concentration and enforcement risk.</description>
       <pubDate>Mon, 29 Jun 2026 00:00:00 GMT</pubDate>
       <category>AI Business</category>
-    </item>
-    <item>
-      <title>HP Expands OpenAI Partnership to Embed AI Across Products</title>
-      <link>https://aiglimpse.ai/articles/hp-expands-openai-partnership-to-embed-ai-across-products-5b6019c7</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/hp-expands-openai-partnership-to-embed-ai-across-products-5b6019c7</guid>
-      <description>The printer and computer maker scales generative AI integration into customer applications, developer tools, and business workflows.</description>
-      <pubDate>Sun, 28 Jun 2026 17:00:00 GMT</pubDate>
-      <category>LLMs &amp; Chatbots</category>
-    </item>
-    <item>
-      <title>New Router Cuts LLM Routing Latency to Microseconds Without API Calls</title>
-      <link>https://aiglimpse.ai/articles/new-router-cuts-llm-routing-latency-to-microseconds-without-api-calls-619ef334</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-router-cuts-llm-routing-latency-to-microseconds-without-api-calls-619ef334</guid>
-      <description>Wayfinder uses structural text analysis to sort cheap queries from expensive ones, potentially eliminating costly model inference in routing decisions.</description>
-      <pubDate>Sun, 28 Jun 2026 00:00:00 GMT</pubDate>
-      <category>LLMs &amp; Chatbots</category>
     </item>
   </channel>
 </rss>

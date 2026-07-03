@@ -1,43 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
-  <url><loc>https://aiglimpse.ai/</loc><lastmod>2026-07-03</lastmod><changefreq>hourly</changefreq><priority>1</priority></url>
-  <url><loc>https://aiglimpse.ai/categories/llms</loc><lastmod>2026-07-03</lastmod><changefreq>hourly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://aiglimpse.ai/categories/research</loc><lastmod>2026-07-03</lastmod><changefreq>hourly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://aiglimpse.ai/categories/tools</loc><lastmod>2026-07-03</lastmod><changefreq>hourly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://aiglimpse.ai/categories/business</loc><lastmod>2026-07-03</lastmod><changefreq>hourly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://aiglimpse.ai/categories/ethics</loc><lastmod>2026-07-03</lastmod><changefreq>hourly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://aiglimpse.ai/categories/industry</loc><lastmod>2026-07-03</lastmod><changefreq>hourly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://aiglimpse.ai/categories/robotics</loc><lastmod>2026-07-03</lastmod><changefreq>hourly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://aiglimpse.ai/guides.html</loc><lastmod>2026-07-03</lastmod><changefreq>weekly</changefreq><priority>0.95</priority></url>
-  <url><loc>https://aiglimpse.ai/pages/about</loc><lastmod>2026-07-03</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
-  <url><loc>https://aiglimpse.ai/pages/contact</loc><lastmod>2026-07-03</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
-  <url><loc>https://aiglimpse.ai/pages/editorial</loc><lastmod>2026-07-03</lastmod><changefreq>monthly</changefreq><priority>0.4</priority></url>
-  <url><loc>https://aiglimpse.ai/pages/advertise</loc><lastmod>2026-07-03</lastmod><changefreq>monthly</changefreq><priority>0.3</priority></url>
-  <url><loc>https://aiglimpse.ai/pages/privacy</loc><lastmod>2026-07-03</lastmod><changefreq>yearly</changefreq><priority>0.3</priority></url>
-  <url><loc>https://aiglimpse.ai/pages/terms</loc><lastmod>2026-07-03</lastmod><changefreq>yearly</changefreq><priority>0.3</priority></url>
-  <url><loc>https://aiglimpse.ai/categories/llms-2</loc><lastmod>2026-07-03</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
-  <url><loc>https://aiglimpse.ai/categories/llms-3</loc><lastmod>2026-07-03</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
-  <url><loc>https://aiglimpse.ai/categories/llms-4</loc><lastmod>2026-07-03</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
-  <url><loc>https://aiglimpse.ai/categories/research-2</loc><lastmod>2026-07-03</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
-  <url><loc>https://aiglimpse.ai/categories/research-3</loc><lastmod>2026-07-03</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
-  <url><loc>https://aiglimpse.ai/categories/research-4</loc><lastmod>2026-07-03</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
-  <url><loc>https://aiglimpse.ai/categories/research-5</loc><lastmod>2026-07-03</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
-  <url><loc>https://aiglimpse.ai/categories/research-6</loc><lastmod>2026-07-03</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
-  <url><loc>https://aiglimpse.ai/categories/research-7</loc><lastmod>2026-07-03</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
-  <url><loc>https://aiglimpse.ai/categories/research-8</loc><lastmod>2026-07-03</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
-  <url><loc>https://aiglimpse.ai/categories/research-9</loc><lastmod>2026-07-03</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
-  <url><loc>https://aiglimpse.ai/categories/research-10</loc><lastmod>2026-07-03</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
-  <url><loc>https://aiglimpse.ai/categories/tools-2</loc><lastmod>2026-07-03</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
-  <url><loc>https://aiglimpse.ai/categories/tools-3</loc><lastmod>2026-07-03</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
-  <url><loc>https://aiglimpse.ai/categories/tools-4</loc><lastmod>2026-07-03</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
-  <url><loc>https://aiglimpse.ai/categories/tools-5</loc><lastmod>2026-07-03</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
-  <url><loc>https://aiglimpse.ai/categories/tools-6</loc><lastmod>2026-07-03</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
-  <url><loc>https://aiglimpse.ai/categories/tools-7</loc><lastmod>2026-07-03</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
-  <url><loc>https://aiglimpse.ai/categories/tools-8</loc><lastmod>2026-07-03</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
-  <url><loc>https://aiglimpse.ai/categories/business-2</loc><lastmod>2026-07-03</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
-  <url><loc>https://aiglimpse.ai/categories/business-3</loc><lastmod>2026-07-03</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
-  <url><loc>https://aiglimpse.ai/categories/business-4</loc><lastmod>2026-07-03</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
-  <url><loc>https://aiglimpse.ai/categories/business-5</loc><lastmod>2026-07-03</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
+  <url><loc>https://aiglimpse.ai/</loc><lastmod>2026-07-02</lastmod><changefreq>hourly</changefreq><priority>1</priority></url>
+  <url><loc>https://aiglimpse.ai/categories/llms</loc><lastmod>2026-07-02</lastmod><changefreq>hourly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://aiglimpse.ai/categories/research</loc><lastmod>2026-07-02</lastmod><changefreq>hourly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://aiglimpse.ai/categories/tools</loc><lastmod>2026-07-02</lastmod><changefreq>hourly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://aiglimpse.ai/categories/business</loc><lastmod>2026-07-02</lastmod><changefreq>hourly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://aiglimpse.ai/categories/ethics</loc><lastmod>2026-07-02</lastmod><changefreq>hourly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://aiglimpse.ai/categories/industry</loc><lastmod>2026-07-02</lastmod><changefreq>hourly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://aiglimpse.ai/categories/robotics</loc><lastmod>2026-07-02</lastmod><changefreq>hourly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://aiglimpse.ai/guides.html</loc><lastmod>2026-07-02</lastmod><changefreq>weekly</changefreq><priority>0.95</priority></url>
+  <url><loc>https://aiglimpse.ai/pages/about</loc><lastmod>2026-07-02</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://aiglimpse.ai/pages/contact</loc><lastmod>2026-07-02</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://aiglimpse.ai/pages/editorial</loc><lastmod>2026-07-02</lastmod><changefreq>monthly</changefreq><priority>0.4</priority></url>
+  <url><loc>https://aiglimpse.ai/pages/advertise</loc><lastmod>2026-07-02</lastmod><changefreq>monthly</changefreq><priority>0.3</priority></url>
+  <url><loc>https://aiglimpse.ai/pages/privacy</loc><lastmod>2026-07-02</lastmod><changefreq>yearly</changefreq><priority>0.3</priority></url>
+  <url><loc>https://aiglimpse.ai/pages/terms</loc><lastmod>2026-07-02</lastmod><changefreq>yearly</changefreq><priority>0.3</priority></url>
+  <url><loc>https://aiglimpse.ai/categories/llms-2</loc><lastmod>2026-07-02</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
+  <url><loc>https://aiglimpse.ai/categories/llms-3</loc><lastmod>2026-07-02</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
+  <url><loc>https://aiglimpse.ai/categories/llms-4</loc><lastmod>2026-07-02</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
+  <url><loc>https://aiglimpse.ai/categories/research-2</loc><lastmod>2026-07-02</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
+  <url><loc>https://aiglimpse.ai/categories/research-3</loc><lastmod>2026-07-02</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
+  <url><loc>https://aiglimpse.ai/categories/research-4</loc><lastmod>2026-07-02</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
+  <url><loc>https://aiglimpse.ai/categories/research-5</loc><lastmod>2026-07-02</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
+  <url><loc>https://aiglimpse.ai/categories/research-6</loc><lastmod>2026-07-02</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
+  <url><loc>https://aiglimpse.ai/categories/research-7</loc><lastmod>2026-07-02</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
+  <url><loc>https://aiglimpse.ai/categories/research-8</loc><lastmod>2026-07-02</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
+  <url><loc>https://aiglimpse.ai/categories/research-9</loc><lastmod>2026-07-02</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
+  <url><loc>https://aiglimpse.ai/categories/research-10</loc><lastmod>2026-07-02</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
+  <url><loc>https://aiglimpse.ai/categories/tools-2</loc><lastmod>2026-07-02</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
+  <url><loc>https://aiglimpse.ai/categories/tools-3</loc><lastmod>2026-07-02</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
+  <url><loc>https://aiglimpse.ai/categories/tools-4</loc><lastmod>2026-07-02</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
+  <url><loc>https://aiglimpse.ai/categories/tools-5</loc><lastmod>2026-07-02</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
+  <url><loc>https://aiglimpse.ai/categories/tools-6</loc><lastmod>2026-07-02</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
+  <url><loc>https://aiglimpse.ai/categories/tools-7</loc><lastmod>2026-07-02</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
+  <url><loc>https://aiglimpse.ai/categories/tools-8</loc><lastmod>2026-07-02</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
+  <url><loc>https://aiglimpse.ai/categories/business-2</loc><lastmod>2026-07-02</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
+  <url><loc>https://aiglimpse.ai/categories/business-3</loc><lastmod>2026-07-02</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
+  <url><loc>https://aiglimpse.ai/categories/business-4</loc><lastmod>2026-07-02</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
+  <url><loc>https://aiglimpse.ai/categories/business-5</loc><lastmod>2026-07-02</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
+  <url>
+    <loc>https://aiglimpse.ai/articles/researchers-expose-flaws-in-ai-unlearning-methods-2fc8af79</loc>
+    <lastmod>2026-07-02</lastmod>
+    <news:news>
+      <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-07-02T17:59:52.000Z</news:publication_date>
+      <news:title>Researchers Expose Flaws in AI Unlearning Methods</news:title>
+    </news:news>
+    <changefreq>daily</changefreq><priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://aiglimpse.ai/articles/ai-coding-agents-can-hide-malicious-code-across-multiple-updates-b3f2cf13</loc>
+    <lastmod>2026-07-02</lastmod>
+    <news:news>
+      <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-07-02T17:59:56.000Z</news:publication_date>
+      <news:title>AI Coding Agents Can Hide Malicious Code Across Multiple Updates</news:title>
+    </news:news>
+    <changefreq>daily</changefreq><priority>0.8</priority>
+  </url>
   <url>
     <loc>https://aiglimpse.ai/articles/google-deepmind-partners-with-a24-on-ai-film-research-9793746e</loc>
     <lastmod>2026-07-03</lastmod>

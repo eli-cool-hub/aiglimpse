@@ -5960,6 +5960,42 @@
         "devto": true,
         "hashnode": false
       }
+    },
+    "ai-coding-agents-can-hide-malicious-code-across-multiple-updates-b3f2cf13": {
+      "syndicated_at": "2026-07-03T19:26:06.031Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/ai-coding-agents-can-hide-malicious-code-across-multiple-updates-5gj",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 464,
+      "category": "research",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
+    },
+    "researchers-expose-flaws-in-ai-unlearning-methods-2fc8af79": {
+      "syndicated_at": "2026-07-03T19:26:15.567Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/researchers-expose-flaws-in-ai-unlearning-methods-1ekk",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 477,
+      "category": "research",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
     }
   }
 }
