@@ -3,7 +3,7 @@
 > Machine-readable index for AI assistants, answer engines, and research crawlers.
 > Summary version: https://aiglimpse.ai/llms.txt
 
-Total articles: 452 | Evergreen explainers: 10 | Generated: 2026-07-02
+Total articles: 453 | Evergreen explainers: 10 | Generated: 2026-07-03
 
 ## Evergreen explainers
 
@@ -78,6 +78,13 @@ Total articles: 452 | Evergreen explainers: 10 | Generated: 2026-07-02
 - Type: evergreen explainer (FAQ schema on page)
 
 ## All articles (newest first)
+
+### New AI Framework Enables Persistent Memory in Video World Models
+- URL: https://aiglimpse.ai/articles/new-ai-framework-enables-persistent-memory-in-video-world-models-d1ada752
+- Published: 2026-07-02
+- Category: research
+- Summary: WorldDirector decouples motion control from visual rendering, allowing AI to track objects across extended scenes with unprecedented realism.
+- Source: http://arxiv.org/abs/2607.02517v1
 
 ### Splitting Transformer Tasks Boosts Language Model Efficiency
 - URL: https://aiglimpse.ai/articles/splitting-transformer-tasks-boosts-language-model-efficiency-202f73a3

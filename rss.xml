@@ -7,6 +7,14 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>New AI Framework Enables Persistent Memory in Video World Models</title>
+      <link>https://aiglimpse.ai/articles/new-ai-framework-enables-persistent-memory-in-video-world-models-d1ada752</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-ai-framework-enables-persistent-memory-in-video-world-models-d1ada752</guid>
+      <description>WorldDirector decouples motion control from visual rendering, allowing AI to track objects across extended scenes with unprecedented realism.</description>
+      <pubDate>Thu, 02 Jul 2026 17:59:59 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
       <title>Splitting Transformer Tasks Boosts Language Model Efficiency</title>
       <link>https://aiglimpse.ai/articles/splitting-transformer-tasks-boosts-language-model-efficiency-202f73a3</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/splitting-transformer-tasks-boosts-language-model-efficiency-202f73a3</guid>
@@ -396,14 +404,6 @@
       <guid isPermaLink="true">https://aiglimpse.ai/articles/suno-builds-artist-pathway-as-ai-music-platform-seeks-legitimacy-c3133fc9</guid>
       <description>The generative music startup launches an incubator to cultivate independent creators while asking them to license their work back to the platform.</description>
       <pubDate>Sun, 28 Jun 2026 20:27:36 GMT</pubDate>
-      <category>AI Tools &amp; Products</category>
-    </item>
-    <item>
-      <title>Developer Tests Claude AI for Medical Image Analysis</title>
-      <link>https://aiglimpse.ai/articles/developer-tests-claude-ai-for-medical-image-analysis-5e6e0777</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/developer-tests-claude-ai-for-medical-image-analysis-5e6e0777</guid>
-      <description>A programmer explored whether large language models with code execution can provide meaningful second opinions on medical imaging, raising questions about AI's emerging diagnostic potential.</description>
-      <pubDate>Sun, 28 Jun 2026 16:35:19 GMT</pubDate>
       <category>AI Tools &amp; Products</category>
     </item>
   </channel>
