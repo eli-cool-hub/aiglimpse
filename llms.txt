@@ -20,6 +20,7 @@ All content is original reporting by the AI Glimpse newsroom. Primary sources ar
 
 ## Recent articles
 
+- [New Framework Simplifies Creating Dynamic 3D Objects From Any Input](https://aiglimpse.ai/articles/new-framework-simplifies-creating-dynamic-3d-objects-from-any-input-6a3890dc) (2026-07-02): Researchers introduce Align4D, a method that can generate coherent 4D content by aligning video motion with 3D geometry across multiple data modalities.
 - [New AI Framework Enables Persistent Memory in Video World Models](https://aiglimpse.ai/articles/new-ai-framework-enables-persistent-memory-in-video-world-models-d1ada752) (2026-07-02): WorldDirector decouples motion control from visual rendering, allowing AI to track objects across extended scenes with unprecedented realism.
 - [Splitting Transformer Tasks Boosts Language Model Efficiency](https://aiglimpse.ai/articles/splitting-transformer-tasks-boosts-language-model-efficiency-202f73a3) (2026-07-01): New architecture separates prediction from memory, improving performance by 2-3 percent across downstream tasks.
 - [New AI Framework Tackles 3D Texture Generation Using Video Models](https://aiglimpse.ai/articles/new-ai-framework-tackles-3d-texture-generation-using-video-models-bf7ff0ef) (2026-07-01): Researchers bridge the gap between 3D geometry synthesis and photorealistic surface details by leveraging pretrained video generation systems.
@@ -49,7 +50,6 @@ All content is original reporting by the AI Glimpse newsroom. Primary sources ar
 - [The AI Industry's Push Toward Specialized Models Over One-Size-Fits-All Systems](https://aiglimpse.ai/articles/the-ai-industrys-push-toward-specialized-models-over-one-size-fits-all-systems-b877e3bf) (2026-06-30): As large language models mature, the market is fragmenting into domain-specific AI tools optimized for particular tasks and industries.
 - [Google DeepMind Launches Lightweight AI Models for Developers](https://aiglimpse.ai/articles/google-deepmind-launches-lightweight-ai-models-for-developers-c8e2d88d) (2026-06-30): New streamlined versions of advanced language models aim to lower barriers for AI application development across devices.
 - [Asynchronous Pipeline Training Becomes Practical for Billion-Parameter Models](https://aiglimpse.ai/articles/asynchronous-pipeline-training-becomes-practical-for-billion-parameter-models-b122abc5) (2026-06-29): Researchers show that modern optimizers can handle delayed gradients at scale, unlocking faster LLM training without synchronization overhead.
-- [Hugging Face Centralizes Model Evaluations in Push for AI Transparency](https://aiglimpse.ai/articles/hugging-face-centralizes-model-evaluations-in-push-for-ai-transparency-0a0a3bf0) (2026-06-30): The platform now displays comprehensive benchmark results across all model cards, making AI performance comparisons more accessible to developers.
 
 ## Explainers (evergreen)
 
@@ -68,7 +68,7 @@ All content is original reporting by the AI Glimpse newsroom. Primary sources ar
 
 - [Sitemap](https://aiglimpse.ai/sitemap.xml): All article URLs with publish dates (Google News format).
 - [RSS](https://aiglimpse.ai/rss.xml): 50 most recent articles (RSS 2.0).
-- [Full content index](https://aiglimpse.ai/llms-full.txt): Extended article list for LLM crawlers (453 articles).
+- [Full content index](https://aiglimpse.ai/llms-full.txt): Extended article list for LLM crawlers (454 articles).
 
 ## About
 

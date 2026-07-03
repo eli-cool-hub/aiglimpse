@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "new-framework-simplifies-creating-dynamic-3d-objects-from-any-input-6a3890dc",
+      "title": "New Framework Simplifies Creating Dynamic 3D Objects From Any Input",
+      "subtitle": "Researchers introduce Align4D, a method that can generate coherent 4D content by aligning video motion with 3D geometry across multiple data modalities.",
+      "category": "research",
+      "publishedAt": "2026-07-02T17:59:57.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2607.02516v1",
+      "sourceName": "arXiv (Qiaowei Miao, Kehan Li, Yawei Luo, Yi Yang)",
+      "sourceTier": 1,
+      "image": "/images/articles/new-framework-simplifies-creating-dynamic-3d-objects-from-any-input-6a3890dc.jpg"
+    },
+    {
       "slug": "new-ai-framework-enables-persistent-memory-in-video-world-models-d1ada752",
       "title": "New AI Framework Enables Persistent Memory in Video World Models",
       "subtitle": "WorldDirector decouples motion control from visual rendering, allowing AI to track objects across extended scenes with unprecedented realism.",
@@ -5445,6 +5456,7 @@
     "609fa7a0f6aaf27e",
     "bf7ff0efb731842e",
     "202f73a32816593e",
-    "d1ada7528b0ad1aa"
+    "d1ada7528b0ad1aa",
+    "6a3890dc16b0af4a"
   ]
 }
