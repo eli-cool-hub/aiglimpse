@@ -7,6 +7,14 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Simpler AI Model Reconstructs 3D Geometry From Single Photos</title>
+      <link>https://aiglimpse.ai/articles/simpler-ai-model-reconstructs-3d-geometry-from-single-photos-6e7b20e2</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/simpler-ai-model-reconstructs-3d-geometry-from-single-photos-6e7b20e2</guid>
+      <description>Researchers demonstrate that minimalist diffusion architecture outperforms complex hybrid systems at converting 2D images to precise 3D spatial maps.</description>
+      <pubDate>Thu, 02 Jul 2026 17:59:56 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
       <title>New Framework Simplifies Creating Dynamic 3D Objects From Any Input</title>
       <link>https://aiglimpse.ai/articles/new-framework-simplifies-creating-dynamic-3d-objects-from-any-input-6a3890dc</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/new-framework-simplifies-creating-dynamic-3d-objects-from-any-input-6a3890dc</guid>
@@ -397,14 +405,6 @@
       <description>Zhipu's latest release demonstrates competitive performance in vulnerability detection, raising fresh concerns about AI capability distribution.</description>
       <pubDate>Sun, 28 Jun 2026 21:42:51 GMT</pubDate>
       <category>AI Tools &amp; Products</category>
-    </item>
-    <item>
-      <title>Open-Source GLM 5.2 Outperforms Anthropic's Claude on Security Tasks</title>
-      <link>https://aiglimpse.ai/articles/open-source-glm-52-outperforms-anthropics-claude-on-security-tasks-c345dd6e</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/open-source-glm-52-outperforms-anthropics-claude-on-security-tasks-c345dd6e</guid>
-      <description>New benchmark results suggest Chinese-developed LLM excels at code vulnerability detection, challenging established players in specialized AI domains.</description>
-      <pubDate>Sun, 28 Jun 2026 17:50:47 GMT</pubDate>
-      <category>AI Research</category>
     </item>
   </channel>
 </rss>

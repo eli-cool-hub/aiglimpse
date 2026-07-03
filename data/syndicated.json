@@ -5924,6 +5924,24 @@
         "devto": true,
         "hashnode": false
       }
+    },
+    "simpler-ai-model-reconstructs-3d-geometry-from-single-photos-6e7b20e2": {
+      "syndicated_at": "2026-07-03T14:10:32.397Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/simpler-ai-model-reconstructs-3d-geometry-from-single-photos-4g18",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 498,
+      "category": "research",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
     }
   }
 }
