@@ -3,7 +3,7 @@
 > Machine-readable index for AI assistants, answer engines, and research crawlers.
 > Summary version: https://aiglimpse.ai/llms.txt
 
-Total articles: 458 | Evergreen explainers: 10 | Generated: 2026-07-03
+Total articles: 460 | Evergreen explainers: 10 | Generated: 2026-07-03
 
 ## Evergreen explainers
 
@@ -78,6 +78,20 @@ Total articles: 458 | Evergreen explainers: 10 | Generated: 2026-07-03
 - Type: evergreen explainer (FAQ schema on page)
 
 ## All articles (newest first)
+
+### Real-Time Safety Monitors Could Catch Dangerous LLM Outputs
+- URL: https://aiglimpse.ai/articles/real-time-safety-monitors-could-catch-dangerous-llm-outputs-470d2c41
+- Published: 2026-07-02
+- Category: research
+- Summary: Researchers develop a simple threshold-based system to detect when large language models produce unsafe content during deployment.
+- Source: http://arxiv.org/abs/2607.02510v1
+
+### Researchers Shrink AI Function Calls to Lightweight Local Programs
+- URL: https://aiglimpse.ai/articles/researchers-shrink-ai-function-calls-to-lightweight-local-programs-86ef1caa
+- Published: 2026-07-02
+- Category: research
+- Summary: New method compiles natural language into compact neural adapters, reducing inference costs by 98% compared to direct API calls.
+- Source: http://arxiv.org/abs/2607.02512v1
 
 ### Researchers Expose Flaws in AI Unlearning Methods
 - URL: https://aiglimpse.ai/articles/researchers-expose-flaws-in-ai-unlearning-methods-2fc8af79

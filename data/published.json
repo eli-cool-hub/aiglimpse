@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "real-time-safety-monitors-could-catch-dangerous-llm-outputs-470d2c41",
+      "title": "Real-Time Safety Monitors Could Catch Dangerous LLM Outputs",
+      "subtitle": "Researchers develop a simple threshold-based system to detect when large language models produce unsafe content during deployment.",
+      "category": "research",
+      "publishedAt": "2026-07-02T17:59:43.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2607.02510v1",
+      "sourceName": "arXiv (Mona Schirmer, Metod Jazbec, Alexander Timans, Christian Nae…)",
+      "sourceTier": 1,
+      "image": "/images/articles/real-time-safety-monitors-could-catch-dangerous-llm-outputs-470d2c41.jpg"
+    },
+    {
+      "slug": "researchers-shrink-ai-function-calls-to-lightweight-local-programs-86ef1caa",
+      "title": "Researchers Shrink AI Function Calls to Lightweight Local Programs",
+      "subtitle": "New method compiles natural language into compact neural adapters, reducing inference costs by 98% compared to direct API calls.",
+      "category": "research",
+      "publishedAt": "2026-07-02T17:59:50.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2607.02512v1",
+      "sourceName": "arXiv (Wentao Zhang, Liliana Hotsko, Woojeong Kim, Pengyu Nie, Stua…)",
+      "sourceTier": 1,
+      "image": "/images/articles/researchers-shrink-ai-function-calls-to-lightweight-local-programs-86ef1caa.jpg"
+    },
+    {
       "slug": "researchers-expose-flaws-in-ai-unlearning-methods-2fc8af79",
       "title": "Researchers Expose Flaws in AI Unlearning Methods",
       "subtitle": "New benchmark reveals that popular techniques for erasing sensitive data from language models may merely hide knowledge rather than truly removing it.",
@@ -5505,6 +5527,8 @@
     "6e7b20e2187c0aef",
     "9793746e70670ff3",
     "b3f2cf133f77dc44",
-    "2fc8af794af43235"
+    "2fc8af794af43235",
+    "86ef1caa6db64f86",
+    "470d2c41e69f6ab3"
   ]
 }

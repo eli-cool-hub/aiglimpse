@@ -5996,6 +5996,42 @@
         "devto": true,
         "hashnode": false
       }
+    },
+    "researchers-shrink-ai-function-calls-to-lightweight-local-programs-86ef1caa": {
+      "syndicated_at": "2026-07-03T21:09:36.749Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/researchers-shrink-ai-function-calls-to-lightweight-local-programs-423m",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 426,
+      "category": "research",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
+    },
+    "real-time-safety-monitors-could-catch-dangerous-llm-outputs-470d2c41": {
+      "syndicated_at": "2026-07-03T21:09:47.624Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/real-time-safety-monitors-could-catch-dangerous-llm-outputs-2eh8",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 490,
+      "category": "research",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
     }
   }
 }

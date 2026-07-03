@@ -7,6 +7,22 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Real-Time Safety Monitors Could Catch Dangerous LLM Outputs</title>
+      <link>https://aiglimpse.ai/articles/real-time-safety-monitors-could-catch-dangerous-llm-outputs-470d2c41</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/real-time-safety-monitors-could-catch-dangerous-llm-outputs-470d2c41</guid>
+      <description>Researchers develop a simple threshold-based system to detect when large language models produce unsafe content during deployment.</description>
+      <pubDate>Thu, 02 Jul 2026 17:59:43 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
+      <title>Researchers Shrink AI Function Calls to Lightweight Local Programs</title>
+      <link>https://aiglimpse.ai/articles/researchers-shrink-ai-function-calls-to-lightweight-local-programs-86ef1caa</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/researchers-shrink-ai-function-calls-to-lightweight-local-programs-86ef1caa</guid>
+      <description>New method compiles natural language into compact neural adapters, reducing inference costs by 98% compared to direct API calls.</description>
+      <pubDate>Thu, 02 Jul 2026 17:59:50 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
       <title>Researchers Expose Flaws in AI Unlearning Methods</title>
       <link>https://aiglimpse.ai/articles/researchers-expose-flaws-in-ai-unlearning-methods-2fc8af79</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/researchers-expose-flaws-in-ai-unlearning-methods-2fc8af79</guid>
@@ -389,22 +405,6 @@
       <description>New research maps which EU jobs face automation, growth, or transformation as artificial intelligence deployment accelerates across the continent.</description>
       <pubDate>Mon, 29 Jun 2026 07:00:00 GMT</pubDate>
       <category>LLMs &amp; Chatbots</category>
-    </item>
-    <item>
-      <title>SpaceX IPO Ignites Billion-Dollar Exit Surge Driven by AI Deals</title>
-      <link>https://aiglimpse.ai/articles/spacex-ipo-ignites-billion-dollar-exit-surge-driven-by-ai-deals-e13179af</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/spacex-ipo-ignites-billion-dollar-exit-surge-driven-by-ai-deals-e13179af</guid>
-      <description>Q2 2026 marks the strongest quarter for startup exits since 2021, powered by record-breaking space and AI company valuations.</description>
-      <pubDate>Mon, 29 Jun 2026 11:00:43 GMT</pubDate>
-      <category>AI Business</category>
-    </item>
-    <item>
-      <title>Stanford Research Exposes Racial Disparities in Automated Hiring Systems</title>
-      <link>https://aiglimpse.ai/articles/stanford-research-exposes-racial-disparities-in-automated-hiring-systems-1c50a97c</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/stanford-research-exposes-racial-disparities-in-automated-hiring-systems-1c50a97c</guid>
-      <description>Large-scale study quantifies bias in real-world AI recruitment tools, raising urgent questions about vendor concentration and enforcement risk.</description>
-      <pubDate>Mon, 29 Jun 2026 00:00:00 GMT</pubDate>
-      <category>AI Business</category>
     </item>
   </channel>
 </rss>
