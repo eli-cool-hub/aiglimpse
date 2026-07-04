@@ -7,6 +7,22 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Micron's $9.3B Japan Expansion Targets AI's Memory Bottleneck</title>
+      <link>https://aiglimpse.ai/articles/microns-93b-japan-expansion-targets-ais-memory-bottleneck-4914088d</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/microns-93b-japan-expansion-targets-ais-memory-bottleneck-4914088d</guid>
+      <description>High-bandwidth memory production emerges as the critical constraint limiting AI accelerator supply, prompting major capital investment.</description>
+      <pubDate>Sat, 04 Jul 2026 00:00:00 GMT</pubDate>
+      <category>Industry Applications</category>
+    </item>
+    <item>
+      <title>Google's July 4th Ad Imagines AI Rewriting American History</title>
+      <link>https://aiglimpse.ai/articles/googles-july-4th-ad-imagines-ai-rewriting-american-history-87bc1971</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/googles-july-4th-ad-imagines-ai-rewriting-american-history-87bc1971</guid>
+      <description>A new commercial explores how generative AI might have shaped the nation's founding document, raising questions about AI's role in creative and institutional work.</description>
+      <pubDate>Sat, 04 Jul 2026 20:55:25 GMT</pubDate>
+      <category>AI Business</category>
+    </item>
+    <item>
       <title>Mistral AI Builds Open-Source Challenge to OpenAI's Dominance</title>
       <link>https://aiglimpse.ai/articles/mistral-ai-builds-open-source-challenge-to-openais-dominance-41580820</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/mistral-ai-builds-open-source-challenge-to-openais-dominance-41580820</guid>
@@ -389,22 +405,6 @@
       <description>New adoption metrics reveal sustained growth across regions and languages, signaling the chatbot's expanding role in daily workflows.</description>
       <pubDate>Tue, 30 Jun 2026 09:00:00 GMT</pubDate>
       <category>LLMs &amp; Chatbots</category>
-    </item>
-    <item>
-      <title>New Benchmark Tests AI Agents on Legacy Code Migration Tasks</title>
-      <link>https://aiglimpse.ai/articles/new-benchmark-tests-ai-agents-on-legacy-code-migration-tasks-89624d17</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-benchmark-tests-ai-agents-on-legacy-code-migration-tasks-89624d17</guid>
-      <description>Researchers introduce evaluation framework to measure how well AI systems handle enterprise software modernization, a critical real-world challenge.</description>
-      <pubDate>Tue, 30 Jun 2026 18:32:50 GMT</pubDate>
-      <category>AI Tools &amp; Products</category>
-    </item>
-    <item>
-      <title>The AI Industry's Push Toward Specialized Models Over One-Size-Fits-All Systems</title>
-      <link>https://aiglimpse.ai/articles/the-ai-industrys-push-toward-specialized-models-over-one-size-fits-all-systems-b877e3bf</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/the-ai-industrys-push-toward-specialized-models-over-one-size-fits-all-systems-b877e3bf</guid>
-      <description>As large language models mature, the market is fragmenting into domain-specific AI tools optimized for particular tasks and industries.</description>
-      <pubDate>Tue, 30 Jun 2026 14:39:11 GMT</pubDate>
-      <category>AI Tools &amp; Products</category>
     </item>
   </channel>
 </rss>

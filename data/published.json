@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "microns-93b-japan-expansion-targets-ais-memory-bottleneck-4914088d",
+      "title": "Micron's $9.3B Japan Expansion Targets AI's Memory Bottleneck",
+      "subtitle": "High-bandwidth memory production emerges as the critical constraint limiting AI accelerator supply, prompting major capital investment.",
+      "category": "industry",
+      "publishedAt": "2026-07-04T00:00:00.000Z",
+      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-07-04/micron-breaks-ground-on-9-billion-western-japan-plant-expansion",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/microns-93b-japan-expansion-targets-ais-memory-bottleneck-4914088d.jpg"
+    },
+    {
+      "slug": "googles-july-4th-ad-imagines-ai-rewriting-american-history-87bc1971",
+      "title": "Google's July 4th Ad Imagines AI Rewriting American History",
+      "subtitle": "A new commercial explores how generative AI might have shaped the nation's founding document, raising questions about AI's role in creative and institutional work.",
+      "category": "business",
+      "publishedAt": "2026-07-04T20:55:25.000Z",
+      "sourceUrl": "https://techcrunch.com/2026/07/04/new-google-commercial-imagines-a-declaration-of-independence-written-with-help-from-ai/",
+      "sourceName": "TechCrunch AI",
+      "sourceTier": 2,
+      "image": "/images/articles/googles-july-4th-ad-imagines-ai-rewriting-american-history-87bc1971.jpg"
+    },
+    {
       "slug": "mistral-ai-builds-open-source-challenge-to-openais-dominance-41580820",
       "title": "Mistral AI Builds Open-Source Challenge to OpenAI's Dominance",
       "subtitle": "The French AI startup is democratizing frontier models through open-source releases and substantial funding rounds.",
@@ -5721,6 +5743,8 @@
     "2a76d2cf9dd6c272",
     "1a4c76562be5e2b9",
     "48db644aff43d123",
-    "4158082026b9892a"
+    "4158082026b9892a",
+    "87bc1971b346478f",
+    "4914088d29e67945"
   ]
 }
