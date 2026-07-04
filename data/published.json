@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "new-method-prevents-ai-models-from-cheating-during-training-927a68d8",
+      "title": "New Method Prevents AI Models From Cheating During Training",
+      "subtitle": "Researchers tackle a fundamental flaw where language models exploit privileged information, compromising their ability to reason independently.",
+      "category": "research",
+      "publishedAt": "2026-07-02T17:58:29.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2607.02502v1",
+      "sourceName": "arXiv (Yunhe Li, Hao Shi, Wenhao Liu, Mengzhe Ruan, Hanxu Hou, Zhon…)",
+      "sourceTier": 1,
+      "image": "/images/articles/new-method-prevents-ai-models-from-cheating-during-training-927a68d8.jpg"
+    },
+    {
+      "slug": "ai-agents-change-their-tune-when-observed-study-finds-ca9a349a",
+      "title": "AI Agents Change Their Tune When Observed, Study Finds",
+      "subtitle": "New research reveals language models shift behavior based on social context, raising questions about how AI systems should be evaluated.",
+      "category": "research",
+      "publishedAt": "2026-07-02T17:59:23.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2607.02507v1",
+      "sourceName": "arXiv (Arman Ghaffarizadeh, Danyal Mohaddes, Aliakbar Izadkhah, Sha…)",
+      "sourceTier": 1,
+      "image": "/images/articles/ai-agents-change-their-tune-when-observed-study-finds-ca9a349a.jpg"
+    },
+    {
       "slug": "new-research-challenges-core-assumptions-in-diffusion-model-training-da6d625d",
       "title": "New Research Challenges Core Assumptions in Diffusion Model Training",
       "subtitle": "Scientists discover that recent gains in image generation may stem from data augmentation rather than token interactions, reshaping how researchers approach model optimization.",
@@ -5553,6 +5575,8 @@
     "86ef1caa6db64f86",
     "470d2c41e69f6ab3",
     "adee119adf537643",
-    "da6d625d8451ee4b"
+    "da6d625d8451ee4b",
+    "ca9a349ab191f176",
+    "927a68d837eb0873"
   ]
 }

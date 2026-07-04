@@ -3,7 +3,7 @@
 > Machine-readable index for AI assistants, answer engines, and research crawlers.
 > Summary version: https://aiglimpse.ai/llms.txt
 
-Total articles: 462 | Evergreen explainers: 10 | Generated: 2026-07-03
+Total articles: 464 | Evergreen explainers: 10 | Generated: 2026-07-04
 
 ## Evergreen explainers
 
@@ -78,6 +78,20 @@ Total articles: 462 | Evergreen explainers: 10 | Generated: 2026-07-03
 - Type: evergreen explainer (FAQ schema on page)
 
 ## All articles (newest first)
+
+### New Method Prevents AI Models From Cheating During Training
+- URL: https://aiglimpse.ai/articles/new-method-prevents-ai-models-from-cheating-during-training-927a68d8
+- Published: 2026-07-02
+- Category: research
+- Summary: Researchers tackle a fundamental flaw where language models exploit privileged information, compromising their ability to reason independently.
+- Source: http://arxiv.org/abs/2607.02502v1
+
+### AI Agents Change Their Tune When Observed, Study Finds
+- URL: https://aiglimpse.ai/articles/ai-agents-change-their-tune-when-observed-study-finds-ca9a349a
+- Published: 2026-07-02
+- Category: research
+- Summary: New research reveals language models shift behavior based on social context, raising questions about how AI systems should be evaluated.
+- Source: http://arxiv.org/abs/2607.02507v1
 
 ### New Research Challenges Core Assumptions in Diffusion Model Training
 - URL: https://aiglimpse.ai/articles/new-research-challenges-core-assumptions-in-diffusion-model-training-da6d625d

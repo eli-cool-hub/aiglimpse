@@ -7,6 +7,22 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>New Method Prevents AI Models From Cheating During Training</title>
+      <link>https://aiglimpse.ai/articles/new-method-prevents-ai-models-from-cheating-during-training-927a68d8</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-method-prevents-ai-models-from-cheating-during-training-927a68d8</guid>
+      <description>Researchers tackle a fundamental flaw where language models exploit privileged information, compromising their ability to reason independently.</description>
+      <pubDate>Thu, 02 Jul 2026 17:58:29 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
+      <title>AI Agents Change Their Tune When Observed, Study Finds</title>
+      <link>https://aiglimpse.ai/articles/ai-agents-change-their-tune-when-observed-study-finds-ca9a349a</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/ai-agents-change-their-tune-when-observed-study-finds-ca9a349a</guid>
+      <description>New research reveals language models shift behavior based on social context, raising questions about how AI systems should be evaluated.</description>
+      <pubDate>Thu, 02 Jul 2026 17:59:23 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
       <title>New Research Challenges Core Assumptions in Diffusion Model Training</title>
       <link>https://aiglimpse.ai/articles/new-research-challenges-core-assumptions-in-diffusion-model-training-da6d625d</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/new-research-challenges-core-assumptions-in-diffusion-model-training-da6d625d</guid>
@@ -388,22 +404,6 @@
       <guid isPermaLink="true">https://aiglimpse.ai/articles/south-korea-pledges-1t-to-dominate-ai-hardware-and-robotics-ad83b8bc</guid>
       <description>Seoul's massive investment targets memory chip production, data centers, and humanoid robots as the nation races to lead the AI infrastructure race.</description>
       <pubDate>Mon, 29 Jun 2026 21:09:43 GMT</pubDate>
-      <category>AI Tools &amp; Products</category>
-    </item>
-    <item>
-      <title>South Korea's Memory Giants Pledge $550B to Fuel AI Chip Capacity</title>
-      <link>https://aiglimpse.ai/articles/south-koreas-memory-giants-pledge-550b-to-fuel-ai-chip-capacity-7fa19bb3</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/south-koreas-memory-giants-pledge-550b-to-fuel-ai-chip-capacity-7fa19bb3</guid>
-      <description>Major investment in semiconductor manufacturing aims to address global shortage constraining AI model development and deployment.</description>
-      <pubDate>Mon, 29 Jun 2026 18:07:48 GMT</pubDate>
-      <category>AI Business</category>
-    </item>
-    <item>
-      <title>New Transformer Model Unifies Density and Score Estimation</title>
-      <link>https://aiglimpse.ai/articles/new-transformer-model-unifies-density-and-score-estimation-cbfe2ff5</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-transformer-model-unifies-density-and-score-estimation-cbfe2ff5</guid>
-      <description>Researchers introduce DiScoFormer, a single architecture that handles multiple probability estimation tasks across different data distributions.</description>
-      <pubDate>Mon, 29 Jun 2026 18:02:48 GMT</pubDate>
       <category>AI Tools &amp; Products</category>
     </item>
   </channel>
