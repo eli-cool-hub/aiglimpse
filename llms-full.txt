@@ -3,7 +3,7 @@
 > Machine-readable index for AI assistants, answer engines, and research crawlers.
 > Summary version: https://aiglimpse.ai/llms.txt
 
-Total articles: 464 | Evergreen explainers: 10 | Generated: 2026-07-04
+Total articles: 466 | Evergreen explainers: 10 | Generated: 2026-07-04
 
 ## Evergreen explainers
 
@@ -78,6 +78,20 @@ Total articles: 464 | Evergreen explainers: 10 | Generated: 2026-07-04
 - Type: evergreen explainer (FAQ schema on page)
 
 ## All articles (newest first)
+
+### New C++ Runtime Simplifies AI Model Deployment on Robots
+- URL: https://aiglimpse.ai/articles/new-c-runtime-simplifies-ai-model-deployment-on-robots-113175f2
+- Published: 2026-07-02
+- Category: research
+- Summary: Embodied.cpp addresses fragmentation in robotics AI by providing a unified backend for diverse hardware platforms and model architectures.
+- Source: http://arxiv.org/abs/2607.02501v1
+
+### Reasoning Models Crack Speaker ID in TV Drama Using Multimodal AI
+- URL: https://aiglimpse.ai/articles/reasoning-models-crack-speaker-id-in-tv-drama-using-multimodal-ai-7f1b2a41
+- Published: 2026-07-02
+- Category: research
+- Summary: New benchmark and reasoning-based approach dramatically improves dialogue attribution in complex video narratives.
+- Source: http://arxiv.org/abs/2607.02504v1
 
 ### New Method Prevents AI Models From Cheating During Training
 - URL: https://aiglimpse.ai/articles/new-method-prevents-ai-models-from-cheating-during-training-927a68d8

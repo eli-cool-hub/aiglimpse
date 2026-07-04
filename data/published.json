@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "new-c-runtime-simplifies-ai-model-deployment-on-robots-113175f2",
+      "title": "New C++ Runtime Simplifies AI Model Deployment on Robots",
+      "subtitle": "Embodied.cpp addresses fragmentation in robotics AI by providing a unified backend for diverse hardware platforms and model architectures.",
+      "category": "research",
+      "publishedAt": "2026-07-02T17:58:28.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2607.02501v1",
+      "sourceName": "arXiv (Ling Xu, Chuyu Han, Borui Li, Hao Wu, Shiqi Jiang, Ting Cao,…)",
+      "sourceTier": 1,
+      "image": "/images/articles/new-c-runtime-simplifies-ai-model-deployment-on-robots-113175f2.jpg"
+    },
+    {
+      "slug": "reasoning-models-crack-speaker-id-in-tv-drama-using-multimodal-ai-7f1b2a41",
+      "title": "Reasoning Models Crack Speaker ID in TV Drama Using Multimodal AI",
+      "subtitle": "New benchmark and reasoning-based approach dramatically improves dialogue attribution in complex video narratives.",
+      "category": "research",
+      "publishedAt": "2026-07-02T17:58:52.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2607.02504v1",
+      "sourceName": "arXiv (Yuxuan Li, Lingxi Xie, Xinyue Huo, Jihao Qiu, Jiacheng Shao,…)",
+      "sourceTier": 1,
+      "image": "/images/articles/reasoning-models-crack-speaker-id-in-tv-drama-using-multimodal-ai-7f1b2a41.jpg"
+    },
+    {
       "slug": "new-method-prevents-ai-models-from-cheating-during-training-927a68d8",
       "title": "New Method Prevents AI Models From Cheating During Training",
       "subtitle": "Researchers tackle a fundamental flaw where language models exploit privileged information, compromising their ability to reason independently.",
@@ -5577,6 +5599,8 @@
     "adee119adf537643",
     "da6d625d8451ee4b",
     "ca9a349ab191f176",
-    "927a68d837eb0873"
+    "927a68d837eb0873",
+    "7f1b2a41daa59a9d",
+    "113175f2ad5e01ce"
   ]
 }
