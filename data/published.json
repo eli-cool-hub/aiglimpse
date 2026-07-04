@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "fanfiction-communities-deploy-flawed-ai-detection-tools-90940a89",
+      "title": "Fanfiction Communities Deploy Flawed AI Detection Tools",
+      "subtitle": "Writers face accusations based on unreliable detection methods as creative communities grapple with generative AI adoption.",
+      "category": "tools",
+      "publishedAt": "2026-07-04T12:00:00.000Z",
+      "sourceUrl": "https://www.theverge.com/tech/960854/ai-fanfiction-ao3-claude-detector",
+      "sourceName": "The Verge AI",
+      "sourceTier": 2,
+      "image": "/images/articles/fanfiction-communities-deploy-flawed-ai-detection-tools-90940a89.jpg"
+    },
+    {
+      "slug": "researchers-teach-ai-agents-to-search-360-degree-environments-781fabb5",
+      "title": "Researchers Teach AI Agents to Search 360-Degree Environments",
+      "subtitle": "New system combines vision-language models with spatial memory to help robots find objects in panoramic spaces efficiently.",
+      "category": "research",
+      "publishedAt": "2026-07-02T17:56:49.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2607.02497v1",
+      "sourceName": "arXiv (Song Tang, Shuming Hu, Xincheng Shuai, Henghui Ding, Yu-Gang…)",
+      "sourceTier": 1,
+      "image": "/images/articles/researchers-teach-ai-agents-to-search-360-degree-environments-781fabb5.jpg"
+    },
+    {
       "slug": "llm-evaluation-crisis-most-judge-models-lack-non-english-validation-7fb7611e",
       "title": "LLM Evaluation Crisis: Most Judge Models Lack Non-English Validation",
       "subtitle": "New research reveals AI assessment tools are systematically untested for multilingual performance, raising questions about model quality claims.",
@@ -5625,6 +5647,8 @@
     "7f1b2a41daa59a9d",
     "113175f2ad5e01ce",
     "ce9e14716ea5da74",
-    "7fb7611ef0017f1a"
+    "7fb7611ef0017f1a",
+    "781fabb54a8d6641",
+    "90940a89857d26c2"
   ]
 }

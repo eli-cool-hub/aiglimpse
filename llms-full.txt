@@ -3,7 +3,7 @@
 > Machine-readable index for AI assistants, answer engines, and research crawlers.
 > Summary version: https://aiglimpse.ai/llms.txt
 
-Total articles: 468 | Evergreen explainers: 10 | Generated: 2026-07-04
+Total articles: 470 | Evergreen explainers: 10 | Generated: 2026-07-04
 
 ## Evergreen explainers
 
@@ -78,6 +78,20 @@ Total articles: 468 | Evergreen explainers: 10 | Generated: 2026-07-04
 - Type: evergreen explainer (FAQ schema on page)
 
 ## All articles (newest first)
+
+### Fanfiction Communities Deploy Flawed AI Detection Tools
+- URL: https://aiglimpse.ai/articles/fanfiction-communities-deploy-flawed-ai-detection-tools-90940a89
+- Published: 2026-07-04
+- Category: tools
+- Summary: Writers face accusations based on unreliable detection methods as creative communities grapple with generative AI adoption.
+- Source: https://www.theverge.com/tech/960854/ai-fanfiction-ao3-claude-detector
+
+### Researchers Teach AI Agents to Search 360-Degree Environments
+- URL: https://aiglimpse.ai/articles/researchers-teach-ai-agents-to-search-360-degree-environments-781fabb5
+- Published: 2026-07-02
+- Category: research
+- Summary: New system combines vision-language models with spatial memory to help robots find objects in panoramic spaces efficiently.
+- Source: http://arxiv.org/abs/2607.02497v1
 
 ### LLM Evaluation Crisis: Most Judge Models Lack Non-English Validation
 - URL: https://aiglimpse.ai/articles/llm-evaluation-crisis-most-judge-models-lack-non-english-validation-7fb7611e
