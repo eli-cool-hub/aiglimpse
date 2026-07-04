@@ -7,6 +7,22 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Diffusion Language Models Contain Hidden Timing Signals, New Study Finds</title>
+      <link>https://aiglimpse.ai/articles/diffusion-language-models-contain-hidden-timing-signals-new-study-finds-cec6be67</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/diffusion-language-models-contain-hidden-timing-signals-new-study-finds-cec6be67</guid>
+      <description>Researchers discover internal denoising clocks that could reshape how AI systems are steered and interpreted.</description>
+      <pubDate>Sat, 04 Jul 2026 00:00:00 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
+      <title>New Research Reveals Critical Vulnerability in AI Agent Safety Checks</title>
+      <link>https://aiglimpse.ai/articles/new-research-reveals-critical-vulnerability-in-ai-agent-safety-checks-30e1ed11</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-research-reveals-critical-vulnerability-in-ai-agent-safety-checks-30e1ed11</guid>
+      <description>Study shows LLM-based agents can be fooled by their own internal reporting, raising questions about deployment safety practices.</description>
+      <pubDate>Sat, 04 Jul 2026 00:00:00 GMT</pubDate>
+      <category>Ethics &amp; Policy</category>
+    </item>
+    <item>
       <title>Fanfiction Communities Deploy Flawed AI Detection Tools</title>
       <link>https://aiglimpse.ai/articles/fanfiction-communities-deploy-flawed-ai-detection-tools-90940a89</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/fanfiction-communities-deploy-flawed-ai-detection-tools-90940a89</guid>
@@ -388,22 +404,6 @@
       <guid isPermaLink="true">https://aiglimpse.ai/articles/new-method-lets-3d-ai-models-understand-complex-language-queries-495b7314</guid>
       <description>Researchers bypass CLIP limitations to enable spatial reasoning in 3D scene understanding, advancing embodied AI capabilities.</description>
       <pubDate>Mon, 29 Jun 2026 17:58:41 GMT</pubDate>
-      <category>AI Research</category>
-    </item>
-    <item>
-      <title>New Framework Helps AI Agents Learn and Adapt During Deployment</title>
-      <link>https://aiglimpse.ai/articles/new-framework-helps-ai-agents-learn-and-adapt-during-deployment-0e49f2c9</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-framework-helps-ai-agents-learn-and-adapt-during-deployment-0e49f2c9</guid>
-      <description>Research introduces a system that continuously improves prediction accuracy without retraining, addressing a key bottleneck in autonomous agent planning.</description>
-      <pubDate>Mon, 29 Jun 2026 17:58:43 GMT</pubDate>
-      <category>AI Research</category>
-    </item>
-    <item>
-      <title>New AI Model Tackles Full-Length Song Generation With Layered Learning</title>
-      <link>https://aiglimpse.ai/articles/new-ai-model-tackles-full-length-song-generation-with-layered-learning-231c0ea8</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-ai-model-tackles-full-length-song-generation-with-layered-learning-231c0ea8</guid>
-      <description>Researchers introduce LeVo 2, a hybrid system that balances musical coherence with vocal and instrumental detail in AI-generated tracks.</description>
-      <pubDate>Mon, 29 Jun 2026 17:59:20 GMT</pubDate>
       <category>AI Research</category>
     </item>
   </channel>

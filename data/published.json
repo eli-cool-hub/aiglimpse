@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "diffusion-language-models-contain-hidden-timing-signals-new-study-finds-cec6be67",
+      "title": "Diffusion Language Models Contain Hidden Timing Signals, New Study Finds",
+      "subtitle": "Researchers discover internal denoising clocks that could reshape how AI systems are steered and interpreted.",
+      "category": "research",
+      "publishedAt": "2026-07-04T00:00:00.000Z",
+      "sourceUrl": "https://arxiv.org/abs/2607.01774",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/diffusion-language-models-contain-hidden-timing-signals-new-study-finds-cec6be67.jpg"
+    },
+    {
+      "slug": "new-research-reveals-critical-vulnerability-in-ai-agent-safety-checks-30e1ed11",
+      "title": "New Research Reveals Critical Vulnerability in AI Agent Safety Checks",
+      "subtitle": "Study shows LLM-based agents can be fooled by their own internal reporting, raising questions about deployment safety practices.",
+      "category": "ethics",
+      "publishedAt": "2026-07-04T00:00:00.000Z",
+      "sourceUrl": "https://arxiv.org/abs/2607.01793",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/new-research-reveals-critical-vulnerability-in-ai-agent-safety-checks-30e1ed11.jpg"
+    },
+    {
       "slug": "fanfiction-communities-deploy-flawed-ai-detection-tools-90940a89",
       "title": "Fanfiction Communities Deploy Flawed AI Detection Tools",
       "subtitle": "Writers face accusations based on unreliable detection methods as creative communities grapple with generative AI adoption.",
@@ -5649,6 +5671,8 @@
     "ce9e14716ea5da74",
     "7fb7611ef0017f1a",
     "781fabb54a8d6641",
-    "90940a89857d26c2"
+    "90940a89857d26c2",
+    "30e1ed11134201da",
+    "cec6be6756d8cda3"
   ]
 }
