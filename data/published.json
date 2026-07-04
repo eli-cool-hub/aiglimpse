@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "llm-evaluation-crisis-most-judge-models-lack-non-english-validation-7fb7611e",
+      "title": "LLM Evaluation Crisis: Most Judge Models Lack Non-English Validation",
+      "subtitle": "New research reveals AI assessment tools are systematically untested for multilingual performance, raising questions about model quality claims.",
+      "category": "llms",
+      "publishedAt": "2026-07-04T00:00:00.000Z",
+      "sourceUrl": "https://arxiv.org/abs/2607.02235",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/llm-evaluation-crisis-most-judge-models-lack-non-english-validation-7fb7611e.jpg"
+    },
+    {
+      "slug": "new-optimizers-outpace-adam-in-training-physics-ai-models-ce9e1471",
+      "title": "New Optimizers Outpace Adam in Training Physics AI Models",
+      "subtitle": "Research shows matrix-structured training methods can significantly accelerate machine learning interatomic potentials while improving accuracy.",
+      "category": "research",
+      "publishedAt": "2026-07-02T17:57:31.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2607.02499v1",
+      "sourceName": "arXiv (Gil Harari, Yoel Zimmermann, Ola Tangen Kulseng, Laura Zichi…)",
+      "sourceTier": 1,
+      "image": "/images/articles/new-optimizers-outpace-adam-in-training-physics-ai-models-ce9e1471.jpg"
+    },
+    {
       "slug": "new-c-runtime-simplifies-ai-model-deployment-on-robots-113175f2",
       "title": "New C++ Runtime Simplifies AI Model Deployment on Robots",
       "subtitle": "Embodied.cpp addresses fragmentation in robotics AI by providing a unified backend for diverse hardware platforms and model architectures.",
@@ -5601,6 +5623,8 @@
     "ca9a349ab191f176",
     "927a68d837eb0873",
     "7f1b2a41daa59a9d",
-    "113175f2ad5e01ce"
+    "113175f2ad5e01ce",
+    "ce9e14716ea5da74",
+    "7fb7611ef0017f1a"
   ]
 }
