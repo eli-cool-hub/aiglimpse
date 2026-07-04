@@ -3,7 +3,7 @@
 > Machine-readable index for AI assistants, answer engines, and research crawlers.
 > Summary version: https://aiglimpse.ai/llms.txt
 
-Total articles: 478 | Evergreen explainers: 10 | Generated: 2026-07-04
+Total articles: 480 | Evergreen explainers: 10 | Generated: 2026-07-04
 
 ## Evergreen explainers
 
@@ -78,6 +78,20 @@ Total articles: 478 | Evergreen explainers: 10 | Generated: 2026-07-04
 - Type: evergreen explainer (FAQ schema on page)
 
 ## All articles (newest first)
+
+### AI Closes the Founder Gap in Regulated Healthcare Startups
+- URL: https://aiglimpse.ai/articles/ai-closes-the-founder-gap-in-regulated-healthcare-startups-c7f96af2
+- Published: 2026-07-04
+- Category: industry
+- Summary: Non-technical founders are using language models to draft investment pitches and business strategies, unlocking opportunities in underserved sectors like Medicaid.
+- Source: https://www.reuters.com/business/healthcare-pharmaceuticals/one-small-business-ai-was-key-quick-start-expansion-2026-07-04/
+
+### OpenAI's GPT-5.5 Codex Faces Performance Issues From Token Clustering
+- URL: https://aiglimpse.ai/articles/openais-gpt-55-codex-faces-performance-issues-from-token-clustering-ecf2d92d
+- Published: 2026-07-04
+- Category: tools
+- Summary: Developer reports suggest reasoning token concentration may be undermining code generation capabilities in the latest Codex iteration.
+- Source: https://github.com/openai/codex/issues/30364
 
 ### Micron's $9.3B Japan Expansion Targets AI's Memory Bottleneck
 - URL: https://aiglimpse.ai/articles/microns-93b-japan-expansion-targets-ais-memory-bottleneck-4914088d

@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "ai-closes-the-founder-gap-in-regulated-healthcare-startups-c7f96af2",
+      "title": "AI Closes the Founder Gap in Regulated Healthcare Startups",
+      "subtitle": "Non-technical founders are using language models to draft investment pitches and business strategies, unlocking opportunities in underserved sectors like Medicaid.",
+      "category": "industry",
+      "publishedAt": "2026-07-04T00:00:00.000Z",
+      "sourceUrl": "https://www.reuters.com/business/healthcare-pharmaceuticals/one-small-business-ai-was-key-quick-start-expansion-2026-07-04/",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/ai-closes-the-founder-gap-in-regulated-healthcare-startups-c7f96af2.jpg"
+    },
+    {
+      "slug": "openais-gpt-55-codex-faces-performance-issues-from-token-clustering-ecf2d92d",
+      "title": "OpenAI's GPT-5.5 Codex Faces Performance Issues From Token Clustering",
+      "subtitle": "Developer reports suggest reasoning token concentration may be undermining code generation capabilities in the latest Codex iteration.",
+      "category": "tools",
+      "publishedAt": "2026-07-04T21:51:09.000Z",
+      "sourceUrl": "https://github.com/openai/codex/issues/30364",
+      "sourceName": "Hacker News (59 pts)",
+      "sourceTier": 2,
+      "image": "/images/articles/openais-gpt-55-codex-faces-performance-issues-from-token-clustering-ecf2d92d.jpg"
+    },
+    {
       "slug": "microns-93b-japan-expansion-targets-ais-memory-bottleneck-4914088d",
       "title": "Micron's $9.3B Japan Expansion Targets AI's Memory Bottleneck",
       "subtitle": "High-bandwidth memory production emerges as the critical constraint limiting AI accelerator supply, prompting major capital investment.",
@@ -5745,6 +5767,8 @@
     "48db644aff43d123",
     "4158082026b9892a",
     "87bc1971b346478f",
-    "4914088d29e67945"
+    "4914088d29e67945",
+    "ecf2d92d66d59d44",
+    "c7f96af2ff22fe70"
   ]
 }

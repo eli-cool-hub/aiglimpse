@@ -7,6 +7,22 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>AI Closes the Founder Gap in Regulated Healthcare Startups</title>
+      <link>https://aiglimpse.ai/articles/ai-closes-the-founder-gap-in-regulated-healthcare-startups-c7f96af2</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/ai-closes-the-founder-gap-in-regulated-healthcare-startups-c7f96af2</guid>
+      <description>Non-technical founders are using language models to draft investment pitches and business strategies, unlocking opportunities in underserved sectors like Medicaid.</description>
+      <pubDate>Sat, 04 Jul 2026 00:00:00 GMT</pubDate>
+      <category>Industry Applications</category>
+    </item>
+    <item>
+      <title>OpenAI's GPT-5.5 Codex Faces Performance Issues From Token Clustering</title>
+      <link>https://aiglimpse.ai/articles/openais-gpt-55-codex-faces-performance-issues-from-token-clustering-ecf2d92d</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/openais-gpt-55-codex-faces-performance-issues-from-token-clustering-ecf2d92d</guid>
+      <description>Developer reports suggest reasoning token concentration may be undermining code generation capabilities in the latest Codex iteration.</description>
+      <pubDate>Sat, 04 Jul 2026 21:51:09 GMT</pubDate>
+      <category>AI Tools &amp; Products</category>
+    </item>
+    <item>
       <title>Micron's $9.3B Japan Expansion Targets AI's Memory Bottleneck</title>
       <link>https://aiglimpse.ai/articles/microns-93b-japan-expansion-targets-ais-memory-bottleneck-4914088d</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/microns-93b-japan-expansion-targets-ais-memory-bottleneck-4914088d</guid>
@@ -388,22 +404,6 @@
       <guid isPermaLink="true">https://aiglimpse.ai/articles/openai-releases-genebench-pro-to-evaluate-ai-in-life-sciences-bc51df6b</guid>
       <description>New benchmark measures artificial intelligence capabilities across genomics and biological research using authentic experimental data.</description>
       <pubDate>Tue, 30 Jun 2026 00:00:00 GMT</pubDate>
-      <category>LLMs &amp; Chatbots</category>
-    </item>
-    <item>
-      <title>New AI Method Lets Robots Improvise With Everyday Objects as Tools</title>
-      <link>https://aiglimpse.ai/articles/new-ai-method-lets-robots-improvise-with-everyday-objects-as-tools-13b1ccdc</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-ai-method-lets-robots-improvise-with-everyday-objects-as-tools-13b1ccdc</guid>
-      <description>Researchers develop a system that enables robots to identify and use any object as a tool for novel tasks, bypassing the need for extensive training data.</description>
-      <pubDate>Mon, 29 Jun 2026 17:56:53 GMT</pubDate>
-      <category>AI Research</category>
-    </item>
-    <item>
-      <title>ChatGPT Use Cases Multiply as Global User Base Deepens Engagement</title>
-      <link>https://aiglimpse.ai/articles/chatgpt-use-cases-multiply-as-global-user-base-deepens-engagement-f42e1e30</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/chatgpt-use-cases-multiply-as-global-user-base-deepens-engagement-f42e1e30</guid>
-      <description>New adoption metrics reveal sustained growth across regions and languages, signaling the chatbot's expanding role in daily workflows.</description>
-      <pubDate>Tue, 30 Jun 2026 09:00:00 GMT</pubDate>
       <category>LLMs &amp; Chatbots</category>
     </item>
   </channel>
