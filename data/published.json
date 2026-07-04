@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "medical-ai-models-learn-to-show-their-work-not-just-answers-1a4c7656",
+      "title": "Medical AI Models Learn to Show Their Work, Not Just Answers",
+      "subtitle": "Researchers demonstrate that training language models to explain clinical reasoning step by step could unlock safer, more transparent healthcare AI.",
+      "category": "research",
+      "publishedAt": "2026-07-04T00:00:00.000Z",
+      "sourceUrl": "https://arxiv.org/abs/2607.01440",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/medical-ai-models-learn-to-show-their-work-not-just-answers-1a4c7656.jpg"
+    },
+    {
+      "slug": "alibaba-restricts-access-to-anthropics-claude-code-amid-security-concerns-2a76d2cf",
+      "title": "Alibaba Restricts Access to Anthropic's Claude Code Amid Security Concerns",
+      "subtitle": "The Chinese tech giant has flagged Claude Code as high-risk, signaling growing corporate caution around third-party AI coding tools.",
+      "category": "business",
+      "publishedAt": "2026-07-04T16:32:08.000Z",
+      "sourceUrl": "https://techcrunch.com/2026/07/04/alibaba-reportedly-bans-employees-from-using-claude-code/",
+      "sourceName": "TechCrunch AI",
+      "sourceTier": 2,
+      "image": "/images/articles/alibaba-restricts-access-to-anthropics-claude-code-amid-security-concerns-2a76d2cf.jpg"
+    },
+    {
       "slug": "diffusion-language-models-contain-hidden-timing-signals-new-study-finds-cec6be67",
       "title": "Diffusion Language Models Contain Hidden Timing Signals, New Study Finds",
       "subtitle": "Researchers discover internal denoising clocks that could reshape how AI systems are steered and interpreted.",
@@ -5673,6 +5695,8 @@
     "781fabb54a8d6641",
     "90940a89857d26c2",
     "30e1ed11134201da",
-    "cec6be6756d8cda3"
+    "cec6be6756d8cda3",
+    "2a76d2cf9dd6c272",
+    "1a4c76562be5e2b9"
   ]
 }

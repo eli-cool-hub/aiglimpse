@@ -3,7 +3,7 @@
 > Machine-readable index for AI assistants, answer engines, and research crawlers.
 > Summary version: https://aiglimpse.ai/llms.txt
 
-Total articles: 472 | Evergreen explainers: 10 | Generated: 2026-07-04
+Total articles: 474 | Evergreen explainers: 10 | Generated: 2026-07-04
 
 ## Evergreen explainers
 
@@ -78,6 +78,20 @@ Total articles: 472 | Evergreen explainers: 10 | Generated: 2026-07-04
 - Type: evergreen explainer (FAQ schema on page)
 
 ## All articles (newest first)
+
+### Medical AI Models Learn to Show Their Work, Not Just Answers
+- URL: https://aiglimpse.ai/articles/medical-ai-models-learn-to-show-their-work-not-just-answers-1a4c7656
+- Published: 2026-07-04
+- Category: research
+- Summary: Researchers demonstrate that training language models to explain clinical reasoning step by step could unlock safer, more transparent healthcare AI.
+- Source: https://arxiv.org/abs/2607.01440
+
+### Alibaba Restricts Access to Anthropic's Claude Code Amid Security Concerns
+- URL: https://aiglimpse.ai/articles/alibaba-restricts-access-to-anthropics-claude-code-amid-security-concerns-2a76d2cf
+- Published: 2026-07-04
+- Category: business
+- Summary: The Chinese tech giant has flagged Claude Code as high-risk, signaling growing corporate caution around third-party AI coding tools.
+- Source: https://techcrunch.com/2026/07/04/alibaba-reportedly-bans-employees-from-using-claude-code/
 
 ### Diffusion Language Models Contain Hidden Timing Signals, New Study Finds
 - URL: https://aiglimpse.ai/articles/diffusion-language-models-contain-hidden-timing-signals-new-study-finds-cec6be67

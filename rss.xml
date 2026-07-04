@@ -7,6 +7,22 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Medical AI Models Learn to Show Their Work, Not Just Answers</title>
+      <link>https://aiglimpse.ai/articles/medical-ai-models-learn-to-show-their-work-not-just-answers-1a4c7656</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/medical-ai-models-learn-to-show-their-work-not-just-answers-1a4c7656</guid>
+      <description>Researchers demonstrate that training language models to explain clinical reasoning step by step could unlock safer, more transparent healthcare AI.</description>
+      <pubDate>Sat, 04 Jul 2026 00:00:00 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
+      <title>Alibaba Restricts Access to Anthropic's Claude Code Amid Security Concerns</title>
+      <link>https://aiglimpse.ai/articles/alibaba-restricts-access-to-anthropics-claude-code-amid-security-concerns-2a76d2cf</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/alibaba-restricts-access-to-anthropics-claude-code-amid-security-concerns-2a76d2cf</guid>
+      <description>The Chinese tech giant has flagged Claude Code as high-risk, signaling growing corporate caution around third-party AI coding tools.</description>
+      <pubDate>Sat, 04 Jul 2026 16:32:08 GMT</pubDate>
+      <category>AI Business</category>
+    </item>
+    <item>
       <title>Diffusion Language Models Contain Hidden Timing Signals, New Study Finds</title>
       <link>https://aiglimpse.ai/articles/diffusion-language-models-contain-hidden-timing-signals-new-study-finds-cec6be67</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/diffusion-language-models-contain-hidden-timing-signals-new-study-finds-cec6be67</guid>
@@ -388,22 +404,6 @@
       <guid isPermaLink="true">https://aiglimpse.ai/articles/asynchronous-pipeline-training-becomes-practical-for-billion-parameter-models-b122abc5</guid>
       <description>Researchers show that modern optimizers can handle delayed gradients at scale, unlocking faster LLM training without synchronization overhead.</description>
       <pubDate>Mon, 29 Jun 2026 17:57:50 GMT</pubDate>
-      <category>AI Research</category>
-    </item>
-    <item>
-      <title>Hugging Face Centralizes Model Evaluations in Push for AI Transparency</title>
-      <link>https://aiglimpse.ai/articles/hugging-face-centralizes-model-evaluations-in-push-for-ai-transparency-0a0a3bf0</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/hugging-face-centralizes-model-evaluations-in-push-for-ai-transparency-0a0a3bf0</guid>
-      <description>The platform now displays comprehensive benchmark results across all model cards, making AI performance comparisons more accessible to developers.</description>
-      <pubDate>Tue, 30 Jun 2026 00:00:00 GMT</pubDate>
-      <category>AI Tools &amp; Products</category>
-    </item>
-    <item>
-      <title>New Method Lets 3D AI Models Understand Complex Language Queries</title>
-      <link>https://aiglimpse.ai/articles/new-method-lets-3d-ai-models-understand-complex-language-queries-495b7314</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-method-lets-3d-ai-models-understand-complex-language-queries-495b7314</guid>
-      <description>Researchers bypass CLIP limitations to enable spatial reasoning in 3D scene understanding, advancing embodied AI capabilities.</description>
-      <pubDate>Mon, 29 Jun 2026 17:58:41 GMT</pubDate>
       <category>AI Research</category>
     </item>
   </channel>
