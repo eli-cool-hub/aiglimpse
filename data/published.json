@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "mistral-ai-builds-open-source-challenge-to-openais-dominance-41580820",
+      "title": "Mistral AI Builds Open-Source Challenge to OpenAI's Dominance",
+      "subtitle": "The French AI startup is democratizing frontier models through open-source releases and substantial funding rounds.",
+      "category": "business",
+      "publishedAt": "2026-07-04T15:51:32.000Z",
+      "sourceUrl": "https://techcrunch.com/2026/07/04/what-is-mistral-ai-everything-to-know-about-the-openai-competitor/",
+      "sourceName": "TechCrunch AI",
+      "sourceTier": 2,
+      "image": "/images/articles/mistral-ai-builds-open-source-challenge-to-openais-dominance-41580820.jpg"
+    },
+    {
+      "slug": "midjourney-demands-hollywood-studios-disclose-their-own-ai-practices-48db644a",
+      "title": "Midjourney Demands Hollywood Studios Disclose Their Own AI Practices",
+      "subtitle": "The image generator is using discovery procedures to expose potential hypocrisy in a major lawsuit over AI training data.",
+      "category": "business",
+      "publishedAt": "2026-07-04T18:00:05.000Z",
+      "sourceUrl": "https://techcrunch.com/2026/07/04/midjourney-wants-hollywood-studios-to-reveal-the-details-of-their-ai-usage/",
+      "sourceName": "TechCrunch AI",
+      "sourceTier": 2,
+      "image": "/images/articles/midjourney-demands-hollywood-studios-disclose-their-own-ai-practices-48db644a.jpg"
+    },
+    {
       "slug": "medical-ai-models-learn-to-show-their-work-not-just-answers-1a4c7656",
       "title": "Medical AI Models Learn to Show Their Work, Not Just Answers",
       "subtitle": "Researchers demonstrate that training language models to explain clinical reasoning step by step could unlock safer, more transparent healthcare AI.",
@@ -5697,6 +5719,8 @@
     "30e1ed11134201da",
     "cec6be6756d8cda3",
     "2a76d2cf9dd6c272",
-    "1a4c76562be5e2b9"
+    "1a4c76562be5e2b9",
+    "48db644aff43d123",
+    "4158082026b9892a"
   ]
 }

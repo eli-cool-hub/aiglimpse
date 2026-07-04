@@ -7,6 +7,22 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Mistral AI Builds Open-Source Challenge to OpenAI's Dominance</title>
+      <link>https://aiglimpse.ai/articles/mistral-ai-builds-open-source-challenge-to-openais-dominance-41580820</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/mistral-ai-builds-open-source-challenge-to-openais-dominance-41580820</guid>
+      <description>The French AI startup is democratizing frontier models through open-source releases and substantial funding rounds.</description>
+      <pubDate>Sat, 04 Jul 2026 15:51:32 GMT</pubDate>
+      <category>AI Business</category>
+    </item>
+    <item>
+      <title>Midjourney Demands Hollywood Studios Disclose Their Own AI Practices</title>
+      <link>https://aiglimpse.ai/articles/midjourney-demands-hollywood-studios-disclose-their-own-ai-practices-48db644a</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/midjourney-demands-hollywood-studios-disclose-their-own-ai-practices-48db644a</guid>
+      <description>The image generator is using discovery procedures to expose potential hypocrisy in a major lawsuit over AI training data.</description>
+      <pubDate>Sat, 04 Jul 2026 18:00:05 GMT</pubDate>
+      <category>AI Business</category>
+    </item>
+    <item>
       <title>Medical AI Models Learn to Show Their Work, Not Just Answers</title>
       <link>https://aiglimpse.ai/articles/medical-ai-models-learn-to-show-their-work-not-just-answers-1a4c7656</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/medical-ai-models-learn-to-show-their-work-not-just-answers-1a4c7656</guid>
@@ -389,22 +405,6 @@
       <description>As large language models mature, the market is fragmenting into domain-specific AI tools optimized for particular tasks and industries.</description>
       <pubDate>Tue, 30 Jun 2026 14:39:11 GMT</pubDate>
       <category>AI Tools &amp; Products</category>
-    </item>
-    <item>
-      <title>Google DeepMind Launches Lightweight AI Models for Developers</title>
-      <link>https://aiglimpse.ai/articles/google-deepmind-launches-lightweight-ai-models-for-developers-c8e2d88d</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/google-deepmind-launches-lightweight-ai-models-for-developers-c8e2d88d</guid>
-      <description>New streamlined versions of advanced language models aim to lower barriers for AI application development across devices.</description>
-      <pubDate>Tue, 30 Jun 2026 16:02:40 GMT</pubDate>
-      <category>AI Research</category>
-    </item>
-    <item>
-      <title>Asynchronous Pipeline Training Becomes Practical for Billion-Parameter Models</title>
-      <link>https://aiglimpse.ai/articles/asynchronous-pipeline-training-becomes-practical-for-billion-parameter-models-b122abc5</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/asynchronous-pipeline-training-becomes-practical-for-billion-parameter-models-b122abc5</guid>
-      <description>Researchers show that modern optimizers can handle delayed gradients at scale, unlocking faster LLM training without synchronization overhead.</description>
-      <pubDate>Mon, 29 Jun 2026 17:57:50 GMT</pubDate>
-      <category>AI Research</category>
     </item>
   </channel>
 </rss>
