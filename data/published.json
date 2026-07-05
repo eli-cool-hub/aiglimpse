@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "charity-watchdogs-face-new-test-as-ai-generated-videos-blur-fundraising-lines-14c9cbed",
+      "title": "Charity Watchdogs Face New Test as AI-Generated Videos Blur Fundraising Lines",
+      "subtitle": "A foundation's use of synthetic media in donation campaigns raises questions about regulatory oversight and platform accountability for AI-made content.",
+      "category": "business",
+      "publishedAt": "2026-07-05T00:00:00.000Z",
+      "sourceUrl": "https://www.abc.net.au/news/2026-07-05/lily-jay-foundation-posts-ai-generated-misleading-videos/106866422",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/charity-watchdogs-face-new-test-as-ai-generated-videos-blur-fundraising-lines-14c9cbed.jpg"
+    },
+    {
+      "slug": "googles-founding-fathers-ai-ad-sparks-backlash-over-marketing-tone-8ebabc6e",
+      "title": "Google's Founding Fathers AI Ad Sparks Backlash Over Marketing Tone",
+      "subtitle": "A Workspace commercial imagining 18th-century collaboration with Gemini raises questions about how tech companies deploy AI in consumer messaging.",
+      "category": "tools",
+      "publishedAt": "2026-07-05T14:23:11.000Z",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/961468/google-ai-commercial-founding-fathers-declaration-of-independence",
+      "sourceName": "The Verge AI",
+      "sourceTier": 2,
+      "image": "/images/articles/googles-founding-fathers-ai-ad-sparks-backlash-over-marketing-tone-8ebabc6e.jpg"
+    },
+    {
       "slug": "claude-ai-writes-major-database-tool-update-for-under-150-ba0326eb",
       "title": "Claude AI Writes Major Database Tool Update for Under $150",
       "subtitle": "Anthropic's LLM substantially authored sqlite-utils 4.0rc2, raising questions about AI-driven open source development costs.",
@@ -5865,6 +5887,8 @@
     "d86a0b3b45e8133d",
     "d89c4fcfda73464e",
     "0b174815990e8df6",
-    "ba0326eb5cfb511d"
+    "ba0326eb5cfb511d",
+    "8ebabc6e2dec9dad",
+    "14c9cbede0261bcc"
   ]
 }
