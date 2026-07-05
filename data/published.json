@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "zuckerberg-signals-slowdown-in-autonomous-ai-agent-development-ca9f46e7",
+      "title": "Zuckerberg Signals Slowdown in Autonomous AI Agent Development",
+      "subtitle": "Meta's CEO tells employees that autonomous agent capabilities are advancing more slowly than anticipated, raising questions about timelines for workplace automation.",
+      "category": "tools",
+      "publishedAt": "2026-07-05T17:05:35.000Z",
+      "sourceUrl": "https://techcrunch.com/2026/07/02/mark-zuckerberg-tells-staff-that-ai-agents-havent-progressed-as-quickly-as-hed-hoped/",
+      "sourceName": "Hacker News (109 pts)",
+      "sourceTier": 2,
+      "image": "/images/articles/zuckerberg-signals-slowdown-in-autonomous-ai-agent-development-ca9f46e7.jpg"
+    },
+    {
       "slug": "charity-watchdogs-face-new-test-as-ai-generated-videos-blur-fundraising-lines-14c9cbed",
       "title": "Charity Watchdogs Face New Test as AI-Generated Videos Blur Fundraising Lines",
       "subtitle": "A foundation's use of synthetic media in donation campaigns raises questions about regulatory oversight and platform accountability for AI-made content.",
@@ -5889,6 +5900,7 @@
     "0b174815990e8df6",
     "ba0326eb5cfb511d",
     "8ebabc6e2dec9dad",
-    "14c9cbede0261bcc"
+    "14c9cbede0261bcc",
+    "ca9f46e73e7cea43"
   ]
 }
