@@ -3,7 +3,7 @@
 > Machine-readable index for AI assistants, answer engines, and research crawlers.
 > Summary version: https://aiglimpse.ai/llms.txt
 
-Total articles: 480 | Evergreen explainers: 10 | Generated: 2026-07-04
+Total articles: 482 | Evergreen explainers: 10 | Generated: 2026-07-05
 
 ## Evergreen explainers
 
@@ -78,6 +78,20 @@ Total articles: 480 | Evergreen explainers: 10 | Generated: 2026-07-04
 - Type: evergreen explainer (FAQ schema on page)
 
 ## All articles (newest first)
+
+### Study: Repository Overview Files Harm AI Coding Agent Performance
+- URL: https://aiglimpse.ai/articles/study-repository-overview-files-harm-ai-coding-agent-performance-58fe16ba
+- Published: 2026-07-05
+- Category: research
+- Summary: Research reveals popular documentation conventions reduce task success rates by over 20% without improving agent capabilities.
+- Source: https://arxiv.org/abs/2602.11988
+
+### New Tokenizer Release Aims to Unlock Whisper Performance on Underserved Languages
+- URL: https://aiglimpse.ai/articles/new-tokenizer-release-aims-to-unlock-whisper-performance-on-underserved-language-56e83813
+- Published: 2026-07-05
+- Category: business
+- Summary: Open-source per-language byte-pair encoders offer a critical fix for fine-tuning OpenAI's speech model on low-resource languages.
+- Source: https://github.com/vamsin07/multilingual-bpe-tokenizers
 
 ### AI Closes the Founder Gap in Regulated Healthcare Startups
 - URL: https://aiglimpse.ai/articles/ai-closes-the-founder-gap-in-regulated-healthcare-startups-c7f96af2

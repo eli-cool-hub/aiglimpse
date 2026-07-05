@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "study-repository-overview-files-harm-ai-coding-agent-performance-58fe16ba",
+      "title": "Study: Repository Overview Files Harm AI Coding Agent Performance",
+      "subtitle": "Research reveals popular documentation conventions reduce task success rates by over 20% without improving agent capabilities.",
+      "category": "research",
+      "publishedAt": "2026-07-05T00:00:00.000Z",
+      "sourceUrl": "https://arxiv.org/abs/2602.11988",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/study-repository-overview-files-harm-ai-coding-agent-performance-58fe16ba.jpg"
+    },
+    {
+      "slug": "new-tokenizer-release-aims-to-unlock-whisper-performance-on-underserved-language-56e83813",
+      "title": "New Tokenizer Release Aims to Unlock Whisper Performance on Underserved Languages",
+      "subtitle": "Open-source per-language byte-pair encoders offer a critical fix for fine-tuning OpenAI's speech model on low-resource languages.",
+      "category": "business",
+      "publishedAt": "2026-07-05T00:00:00.000Z",
+      "sourceUrl": "https://github.com/vamsin07/multilingual-bpe-tokenizers",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/new-tokenizer-release-aims-to-unlock-whisper-performance-on-underserved-language-56e83813.jpg"
+    },
+    {
       "slug": "ai-closes-the-founder-gap-in-regulated-healthcare-startups-c7f96af2",
       "title": "AI Closes the Founder Gap in Regulated Healthcare Startups",
       "subtitle": "Non-technical founders are using language models to draft investment pitches and business strategies, unlocking opportunities in underserved sectors like Medicaid.",
@@ -5769,6 +5791,8 @@
     "87bc1971b346478f",
     "4914088d29e67945",
     "ecf2d92d66d59d44",
-    "c7f96af2ff22fe70"
+    "c7f96af2ff22fe70",
+    "56e83813a75f13d6",
+    "58fe16baa84bb4fd"
   ]
 }

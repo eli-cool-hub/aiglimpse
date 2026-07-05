@@ -7,6 +7,22 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Study: Repository Overview Files Harm AI Coding Agent Performance</title>
+      <link>https://aiglimpse.ai/articles/study-repository-overview-files-harm-ai-coding-agent-performance-58fe16ba</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/study-repository-overview-files-harm-ai-coding-agent-performance-58fe16ba</guid>
+      <description>Research reveals popular documentation conventions reduce task success rates by over 20% without improving agent capabilities.</description>
+      <pubDate>Sun, 05 Jul 2026 00:00:00 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
+      <title>New Tokenizer Release Aims to Unlock Whisper Performance on Underserved Languages</title>
+      <link>https://aiglimpse.ai/articles/new-tokenizer-release-aims-to-unlock-whisper-performance-on-underserved-language-56e83813</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-tokenizer-release-aims-to-unlock-whisper-performance-on-underserved-language-56e83813</guid>
+      <description>Open-source per-language byte-pair encoders offer a critical fix for fine-tuning OpenAI's speech model on low-resource languages.</description>
+      <pubDate>Sun, 05 Jul 2026 00:00:00 GMT</pubDate>
+      <category>AI Business</category>
+    </item>
+    <item>
       <title>AI Closes the Founder Gap in Regulated Healthcare Startups</title>
       <link>https://aiglimpse.ai/articles/ai-closes-the-founder-gap-in-regulated-healthcare-startups-c7f96af2</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/ai-closes-the-founder-gap-in-regulated-healthcare-startups-c7f96af2</guid>
@@ -389,22 +405,6 @@
       <description>Researchers apply mixture-of-experts technique to improve facial identification from degraded images, achieving state-of-the-art results.</description>
       <pubDate>Tue, 30 Jun 2026 17:59:57 GMT</pubDate>
       <category>AI Research</category>
-    </item>
-    <item>
-      <title>LLM API pricing compared in 2026: which provider costs least</title>
-      <link>https://aiglimpse.ai/articles/llm-api-pricing-comparison-2026</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/llm-api-pricing-comparison-2026</guid>
-      <description>Per-token pricing, context windows, and batch discounts across OpenAI, Anthropic, Google, and newer challengers.</description>
-      <pubDate>Wed, 01 Jul 2026 09:32:52 GMT</pubDate>
-      <category>LLMs &amp; Chatbots</category>
-    </item>
-    <item>
-      <title>OpenAI Releases GeneBench-Pro to Evaluate AI in Life Sciences</title>
-      <link>https://aiglimpse.ai/articles/openai-releases-genebench-pro-to-evaluate-ai-in-life-sciences-bc51df6b</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/openai-releases-genebench-pro-to-evaluate-ai-in-life-sciences-bc51df6b</guid>
-      <description>New benchmark measures artificial intelligence capabilities across genomics and biological research using authentic experimental data.</description>
-      <pubDate>Tue, 30 Jun 2026 00:00:00 GMT</pubDate>
-      <category>LLMs &amp; Chatbots</category>
     </item>
   </channel>
 </rss>
