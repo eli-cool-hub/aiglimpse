@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "legal-scholar-pushes-corporate-accountability-as-path-to-ai-privacy-reform-d86a0b3b",
+      "title": "Legal Scholar Pushes Corporate Accountability as Path to AI Privacy Reform",
+      "subtitle": "Experts argue that treating AI systems as consumer products could force meaningful data practices before federal regulation arrives.",
+      "category": "ethics",
+      "publishedAt": "2026-07-05T00:00:00.000Z",
+      "sourceUrl": "https://www.wsj.com/tech/cybersecurity/ai-privacy-laws-data-26d9769f",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/legal-scholar-pushes-corporate-accountability-as-path-to-ai-privacy-reform-d86a0b3b.jpg"
+    },
+    {
+      "slug": "open-source-whisper-fine-tuning-starter-offers-practical-template-92e75e20",
+      "title": "Open Source Whisper Fine-Tuning Starter Offers Practical Template",
+      "subtitle": "New MIT-licensed toolkit with Kubernetes configs lowers barriers for developers adapting OpenAI's speech model to multilingual datasets.",
+      "category": "business",
+      "publishedAt": "2026-07-05T00:00:00.000Z",
+      "sourceUrl": "https://github.com/vamsin07/whisper-simple-finetune",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/open-source-whisper-fine-tuning-starter-offers-practical-template-92e75e20.jpg"
+    },
+    {
       "slug": "study-repository-overview-files-harm-ai-coding-agent-performance-58fe16ba",
       "title": "Study: Repository Overview Files Harm AI Coding Agent Performance",
       "subtitle": "Research reveals popular documentation conventions reduce task success rates by over 20% without improving agent capabilities.",
@@ -5793,6 +5815,8 @@
     "ecf2d92d66d59d44",
     "c7f96af2ff22fe70",
     "56e83813a75f13d6",
-    "58fe16baa84bb4fd"
+    "58fe16baa84bb4fd",
+    "92e75e205c65c70d",
+    "d86a0b3b45e8133d"
   ]
 }
