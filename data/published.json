@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "developer-shares-claude-design-system-prompt-sparking-ai-community-discussion-0b174815",
+      "title": "Developer Shares Claude Design System Prompt, Sparking AI Community Discussion",
+      "subtitle": "Open-source engineering effort reveals how developers are systematizing AI model behavior through shared prompting frameworks.",
+      "category": "tools",
+      "publishedAt": "2026-07-05T08:43:37.000Z",
+      "sourceUrl": "https://github.com/Trystan-SA/claude-design-system-prompt",
+      "sourceName": "Hacker News (67 pts)",
+      "sourceTier": 2,
+      "image": "/images/articles/developer-shares-claude-design-system-prompt-sparking-ai-community-discussion-0b174815.jpg"
+    },
+    {
       "slug": "new-method-lets-ai-image-models-stay-fast-while-fine-tuning-d89c4fcf",
       "title": "New Method Lets AI Image Models Stay Fast While Fine-Tuning",
       "subtitle": "Researchers introduce a self-distillation technique that preserves inference speed in optimized diffusion models, addressing a persistent bottleneck for production deployments.",
@@ -5841,6 +5852,7 @@
     "58fe16baa84bb4fd",
     "92e75e205c65c70d",
     "d86a0b3b45e8133d",
-    "d89c4fcfda73464e"
+    "d89c4fcfda73464e",
+    "0b174815990e8df6"
   ]
 }

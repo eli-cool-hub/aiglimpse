@@ -7,6 +7,14 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Developer Shares Claude Design System Prompt, Sparking AI Community Discussion</title>
+      <link>https://aiglimpse.ai/articles/developer-shares-claude-design-system-prompt-sparking-ai-community-discussion-0b174815</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/developer-shares-claude-design-system-prompt-sparking-ai-community-discussion-0b174815</guid>
+      <description>Open-source engineering effort reveals how developers are systematizing AI model behavior through shared prompting frameworks.</description>
+      <pubDate>Sun, 05 Jul 2026 08:43:37 GMT</pubDate>
+      <category>AI Tools &amp; Products</category>
+    </item>
+    <item>
       <title>New Method Lets AI Image Models Stay Fast While Fine-Tuning</title>
       <link>https://aiglimpse.ai/articles/new-method-lets-ai-image-models-stay-fast-while-fine-tuning-d89c4fcf</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/new-method-lets-ai-image-models-stay-fast-while-fine-tuning-d89c4fcf</guid>
@@ -397,14 +405,6 @@
       <description>Research reveals language models can develop faithful self-explanations even when trained on outdated supervision, tracking behavioral changes automatically.</description>
       <pubDate>Tue, 30 Jun 2026 17:59:32 GMT</pubDate>
       <category>AI Research</category>
-    </item>
-    <item>
-      <title>Cerebras and Hugging Face Deploy Gemma 4 for Streaming Voice Applications</title>
-      <link>https://aiglimpse.ai/articles/cerebras-and-hugging-face-deploy-gemma-4-for-streaming-voice-applications-51fedb49</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/cerebras-and-hugging-face-deploy-gemma-4-for-streaming-voice-applications-51fedb49</guid>
-      <description>New integration enables low-latency conversational AI, expanding language models beyond text into real-time audio interfaces.</description>
-      <pubDate>Wed, 01 Jul 2026 00:00:00 GMT</pubDate>
-      <category>AI Tools &amp; Products</category>
     </item>
   </channel>
 </rss>

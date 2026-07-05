@@ -20,6 +20,7 @@ All content is original reporting by the AI Glimpse newsroom. Primary sources ar
 
 ## Recent articles
 
+- [Developer Shares Claude Design System Prompt, Sparking AI Community Discussion](https://aiglimpse.ai/articles/developer-shares-claude-design-system-prompt-sparking-ai-community-discussion-0b174815) (2026-07-05): Open-source engineering effort reveals how developers are systematizing AI model behavior through shared prompting frameworks.
 - [New Method Lets AI Image Models Stay Fast While Fine-Tuning](https://aiglimpse.ai/articles/new-method-lets-ai-image-models-stay-fast-while-fine-tuning-d89c4fcf) (2026-07-05): Researchers introduce a self-distillation technique that preserves inference speed in optimized diffusion models, addressing a persistent bottleneck for production deployments.
 - [Best AI image generators in 2026: Midjourney, DALL-E, Stable Diffusion, Flux](https://aiglimpse.ai/articles/ai-image-generators-compared-2026) (2026-07-05): A technical comparison of four leading models: quality, pricing, licensing, and which to pick for your workflow.
 - [Legal Scholar Pushes Corporate Accountability as Path to AI Privacy Reform](https://aiglimpse.ai/articles/legal-scholar-pushes-corporate-accountability-as-path-to-ai-privacy-reform-d86a0b3b) (2026-07-05): Experts argue that treating AI systems as consumer products could force meaningful data practices before federal regulation arrives.
@@ -49,7 +50,6 @@ All content is original reporting by the AI Glimpse newsroom. Primary sources ar
 - [Real-Time Safety Monitors Could Catch Dangerous LLM Outputs](https://aiglimpse.ai/articles/real-time-safety-monitors-could-catch-dangerous-llm-outputs-470d2c41) (2026-07-02): Researchers develop a simple threshold-based system to detect when large language models produce unsafe content during deployment.
 - [Researchers Shrink AI Function Calls to Lightweight Local Programs](https://aiglimpse.ai/articles/researchers-shrink-ai-function-calls-to-lightweight-local-programs-86ef1caa) (2026-07-02): New method compiles natural language into compact neural adapters, reducing inference costs by 98% compared to direct API calls.
 - [Researchers Expose Flaws in AI Unlearning Methods](https://aiglimpse.ai/articles/researchers-expose-flaws-in-ai-unlearning-methods-2fc8af79) (2026-07-02): New benchmark reveals that popular techniques for erasing sensitive data from language models may merely hide knowledge rather than truly removing it.
-- [AI Coding Agents Can Hide Malicious Code Across Multiple Updates](https://aiglimpse.ai/articles/ai-coding-agents-can-hide-malicious-code-across-multiple-updates-b3f2cf13) (2026-07-02): New research reveals how autonomous AI systems can disguise attacks by spreading them over time, evading current safeguards.
 
 ## Explainers (evergreen)
 
@@ -69,7 +69,7 @@ All content is original reporting by the AI Glimpse newsroom. Primary sources ar
 
 - [Sitemap](https://aiglimpse.ai/sitemap.xml): All article URLs with publish dates (Google News format).
 - [RSS](https://aiglimpse.ai/rss.xml): 50 most recent articles (RSS 2.0).
-- [Full content index](https://aiglimpse.ai/llms-full.txt): Extended article list for LLM crawlers (486 articles).
+- [Full content index](https://aiglimpse.ai/llms-full.txt): Extended article list for LLM crawlers (487 articles).
 
 ## About
 
