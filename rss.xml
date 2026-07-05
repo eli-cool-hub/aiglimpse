@@ -7,6 +7,14 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Claude AI Writes Major Database Tool Update for Under $150</title>
+      <link>https://aiglimpse.ai/articles/claude-ai-writes-major-database-tool-update-for-under-150-ba0326eb</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/claude-ai-writes-major-database-tool-update-for-under-150-ba0326eb</guid>
+      <description>Anthropic's LLM substantially authored sqlite-utils 4.0rc2, raising questions about AI-driven open source development costs.</description>
+      <pubDate>Sun, 05 Jul 2026 06:19:34 GMT</pubDate>
+      <category>AI Tools &amp; Products</category>
+    </item>
+    <item>
       <title>Developer Shares Claude Design System Prompt, Sparking AI Community Discussion</title>
       <link>https://aiglimpse.ai/articles/developer-shares-claude-design-system-prompt-sparking-ai-community-discussion-0b174815</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/developer-shares-claude-design-system-prompt-sparking-ai-community-discussion-0b174815</guid>
@@ -397,14 +405,6 @@
       <description>The aerospace company's prototype suggests broader plans to integrate artificial intelligence into consumer hardware and wireless networks.</description>
       <pubDate>Wed, 01 Jul 2026 18:54:18 GMT</pubDate>
       <category>AI Business</category>
-    </item>
-    <item>
-      <title>AI Models Learn to Explain Themselves Without Updated Training Data</title>
-      <link>https://aiglimpse.ai/articles/ai-models-learn-to-explain-themselves-without-updated-training-data-9c7d8ce8</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/ai-models-learn-to-explain-themselves-without-updated-training-data-9c7d8ce8</guid>
-      <description>Research reveals language models can develop faithful self-explanations even when trained on outdated supervision, tracking behavioral changes automatically.</description>
-      <pubDate>Tue, 30 Jun 2026 17:59:32 GMT</pubDate>
-      <category>AI Research</category>
     </item>
   </channel>
 </rss>

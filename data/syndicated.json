@@ -6356,6 +6356,24 @@
         "devto": true,
         "hashnode": false
       }
+    },
+    "claude-ai-writes-major-database-tool-update-for-under-150-ba0326eb": {
+      "syndicated_at": "2026-07-05T15:14:37.505Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/claude-ai-writes-major-database-tool-update-for-under-150-50gn",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 435,
+      "category": "tools",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
     }
   }
 }

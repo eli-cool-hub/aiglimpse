@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "claude-ai-writes-major-database-tool-update-for-under-150-ba0326eb",
+      "title": "Claude AI Writes Major Database Tool Update for Under $150",
+      "subtitle": "Anthropic's LLM substantially authored sqlite-utils 4.0rc2, raising questions about AI-driven open source development costs.",
+      "category": "tools",
+      "publishedAt": "2026-07-05T06:19:34.000Z",
+      "sourceUrl": "https://simonwillison.net/2026/Jul/5/sqlite-utils-fable/",
+      "sourceName": "Hacker News (60 pts)",
+      "sourceTier": 2,
+      "image": "/images/articles/claude-ai-writes-major-database-tool-update-for-under-150-ba0326eb.jpg"
+    },
+    {
       "slug": "developer-shares-claude-design-system-prompt-sparking-ai-community-discussion-0b174815",
       "title": "Developer Shares Claude Design System Prompt, Sparking AI Community Discussion",
       "subtitle": "Open-source engineering effort reveals how developers are systematizing AI model behavior through shared prompting frameworks.",
@@ -5853,6 +5864,7 @@
     "92e75e205c65c70d",
     "d86a0b3b45e8133d",
     "d89c4fcfda73464e",
-    "0b174815990e8df6"
+    "0b174815990e8df6",
+    "ba0326eb5cfb511d"
   ]
 }
