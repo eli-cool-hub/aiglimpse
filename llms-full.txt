@@ -3,9 +3,16 @@
 > Machine-readable index for AI assistants, answer engines, and research crawlers.
 > Summary version: https://aiglimpse.ai/llms.txt
 
-Total articles: 484 | Evergreen explainers: 10 | Generated: 2026-07-05
+Total articles: 486 | Evergreen explainers: 11 | Generated: 2026-07-05
 
 ## Evergreen explainers
+
+### Best AI image generators in 2026: Midjourney, DALL-E, Stable Diffusion, Flux
+- URL: https://aiglimpse.ai/articles/ai-image-generators-compared-2026
+- Published: 2026-07-05
+- Category: tools
+- Summary: A technical comparison of four leading models: quality, pricing, licensing, and which to pick for your workflow.
+- Type: evergreen explainer (FAQ schema on page)
 
 ### LLM API pricing compared in 2026: which provider costs least
 - URL: https://aiglimpse.ai/articles/llm-api-pricing-comparison-2026
@@ -78,6 +85,20 @@ Total articles: 484 | Evergreen explainers: 10 | Generated: 2026-07-05
 - Type: evergreen explainer (FAQ schema on page)
 
 ## All articles (newest first)
+
+### New Method Lets AI Image Models Stay Fast While Fine-Tuning
+- URL: https://aiglimpse.ai/articles/new-method-lets-ai-image-models-stay-fast-while-fine-tuning-d89c4fcf
+- Published: 2026-07-05
+- Category: ethics
+- Summary: Researchers introduce a self-distillation technique that preserves inference speed in optimized diffusion models, addressing a persistent bottleneck for production deployments.
+- Source: https://arxiv.org/abs/2605.05204
+
+### Best AI image generators in 2026: Midjourney, DALL-E, Stable Diffusion, Flux
+- URL: https://aiglimpse.ai/articles/ai-image-generators-compared-2026
+- Published: 2026-07-05
+- Category: tools
+- Summary: A technical comparison of four leading models: quality, pricing, licensing, and which to pick for your workflow.
+- Type: evergreen explainer (FAQ schema on page)
 
 ### Legal Scholar Pushes Corporate Accountability as Path to AI Privacy Reform
 - URL: https://aiglimpse.ai/articles/legal-scholar-pushes-corporate-accountability-as-path-to-ai-privacy-reform-d86a0b3b

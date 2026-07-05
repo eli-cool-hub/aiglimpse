@@ -7,6 +7,22 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>New Method Lets AI Image Models Stay Fast While Fine-Tuning</title>
+      <link>https://aiglimpse.ai/articles/new-method-lets-ai-image-models-stay-fast-while-fine-tuning-d89c4fcf</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-method-lets-ai-image-models-stay-fast-while-fine-tuning-d89c4fcf</guid>
+      <description>Researchers introduce a self-distillation technique that preserves inference speed in optimized diffusion models, addressing a persistent bottleneck for production deployments.</description>
+      <pubDate>Sun, 05 Jul 2026 00:00:00 GMT</pubDate>
+      <category>Ethics &amp; Policy</category>
+    </item>
+    <item>
+      <title>Best AI image generators in 2026: Midjourney, DALL-E, Stable Diffusion, Flux</title>
+      <link>https://aiglimpse.ai/articles/ai-image-generators-compared-2026</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/ai-image-generators-compared-2026</guid>
+      <description>A technical comparison of four leading models: quality, pricing, licensing, and which to pick for your workflow.</description>
+      <pubDate>Sun, 05 Jul 2026 08:38:04 GMT</pubDate>
+      <category>AI Tools &amp; Products</category>
+    </item>
+    <item>
       <title>Legal Scholar Pushes Corporate Accountability as Path to AI Privacy Reform</title>
       <link>https://aiglimpse.ai/articles/legal-scholar-pushes-corporate-accountability-as-path-to-ai-privacy-reform-d86a0b3b</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/legal-scholar-pushes-corporate-accountability-as-path-to-ai-privacy-reform-d86a0b3b</guid>
@@ -389,22 +405,6 @@
       <description>New integration enables low-latency conversational AI, expanding language models beyond text into real-time audio interfaces.</description>
       <pubDate>Wed, 01 Jul 2026 00:00:00 GMT</pubDate>
       <category>AI Tools &amp; Products</category>
-    </item>
-    <item>
-      <title>New Training Method Teaches AI Models to Recognize Their Own Limitations</title>
-      <link>https://aiglimpse.ai/articles/new-training-method-teaches-ai-models-to-recognize-their-own-limitations-91900238</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-training-method-teaches-ai-models-to-recognize-their-own-limitations-91900238</guid>
-      <description>Reinforcement learning technique helps large language models express uncertainty accurately, addressing a critical trust and safety challenge.</description>
-      <pubDate>Tue, 30 Jun 2026 17:56:01 GMT</pubDate>
-      <category>AI Research</category>
-    </item>
-    <item>
-      <title>New Training Method Speeds Up AI Image Generation By 10x</title>
-      <link>https://aiglimpse.ai/articles/new-training-method-speeds-up-ai-image-generation-by-10x-96baa710</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-training-method-speeds-up-ai-image-generation-by-10x-96baa710</guid>
-      <description>Researchers jointly train image tokenizers and generators to eliminate bottlenecks in visual AI systems.</description>
-      <pubDate>Tue, 30 Jun 2026 17:59:57 GMT</pubDate>
-      <category>AI Research</category>
     </item>
   </channel>
 </rss>

@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "new-method-lets-ai-image-models-stay-fast-while-fine-tuning-d89c4fcf",
+      "title": "New Method Lets AI Image Models Stay Fast While Fine-Tuning",
+      "subtitle": "Researchers introduce a self-distillation technique that preserves inference speed in optimized diffusion models, addressing a persistent bottleneck for production deployments.",
+      "category": "ethics",
+      "publishedAt": "2026-07-05T00:00:00.000Z",
+      "sourceUrl": "https://arxiv.org/abs/2605.05204",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/new-method-lets-ai-image-models-stay-fast-while-fine-tuning-d89c4fcf.jpg"
+    },
+    {
       "slug": "ai-image-generators-compared-2026",
       "title": "Best AI image generators in 2026: Midjourney, DALL-E, Stable Diffusion, Flux",
       "subtitle": "A technical comparison of four leading models: quality, pricing, licensing, and which to pick for your workflow.",
@@ -5829,6 +5840,7 @@
     "56e83813a75f13d6",
     "58fe16baa84bb4fd",
     "92e75e205c65c70d",
-    "d86a0b3b45e8133d"
+    "d86a0b3b45e8133d",
+    "d89c4fcfda73464e"
   ]
 }
