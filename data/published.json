@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "sakana-ai-expands-product-team-as-reasoning-agents-target-enterprise-ea25f4d6",
+      "title": "Sakana AI expands product team as reasoning agents target enterprise",
+      "subtitle": "Tokyo-based lab transitions from research focus to commercialization, signaling confidence in long-context AI for corporate buyers.",
+      "category": "business",
+      "publishedAt": "2026-07-05T00:00:00.000Z",
+      "sourceUrl": "https://sakana.ai/careers/?category=product",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/sakana-ai-expands-product-team-as-reasoning-agents-target-enterprise-ea25f4d6.jpg"
+    },
+    {
+      "slug": "wealthy-families-embrace-ai-powered-education-as-alternative-to-traditional-scho-679d6b05",
+      "title": "Wealthy Families Embrace AI-Powered Education as Alternative to Traditional Schools",
+      "subtitle": "Affluent parents are enrolling children in costly AI tutoring programs, positioning their kids as early adopters of machine learning-based instruction.",
+      "category": "tools",
+      "publishedAt": "2026-07-05T22:30:54.000Z",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/961505/wealthy-ai-schools-alpha-forge-prep",
+      "sourceName": "The Verge AI",
+      "sourceTier": 2,
+      "image": "/images/articles/wealthy-families-embrace-ai-powered-education-as-alternative-to-traditional-scho-679d6b05.jpg"
+    },
+    {
       "slug": "south-africa-scraps-ai-policy-after-discovering-fabricated-sources-15708233",
       "title": "South Africa Scraps AI Policy After Discovering Fabricated Sources",
       "subtitle": "Government's rushed AI adoption exposes critical gap between deployment speed and verification, signaling broader risks in public sector AI governance.",
@@ -5925,6 +5947,8 @@
     "14c9cbede0261bcc",
     "ca9f46e73e7cea43",
     "c3d167c29747ba9a",
-    "1570823394032153"
+    "1570823394032153",
+    "679d6b05c097257c",
+    "ea25f4d689a6f2e7"
   ]
 }
