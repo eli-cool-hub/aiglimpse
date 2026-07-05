@@ -7,6 +7,22 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>South Africa Scraps AI Policy After Discovering Fabricated Sources</title>
+      <link>https://aiglimpse.ai/articles/south-africa-scraps-ai-policy-after-discovering-fabricated-sources-15708233</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/south-africa-scraps-ai-policy-after-discovering-fabricated-sources-15708233</guid>
+      <description>Government's rushed AI adoption exposes critical gap between deployment speed and verification, signaling broader risks in public sector AI governance.</description>
+      <pubDate>Sun, 05 Jul 2026 00:00:00 GMT</pubDate>
+      <category>Ethics &amp; Policy</category>
+    </item>
+    <item>
+      <title>Amazon Closes Mechanical Turk to New Users, Reshaping AI Training</title>
+      <link>https://aiglimpse.ai/articles/amazon-closes-mechanical-turk-to-new-users-reshaping-ai-training-c3d167c2</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/amazon-closes-mechanical-turk-to-new-users-reshaping-ai-training-c3d167c2</guid>
+      <description>The closure signals shifting priorities in how tech giants source human labor for machine learning projects.</description>
+      <pubDate>Sun, 05 Jul 2026 17:43:36 GMT</pubDate>
+      <category>AI Business</category>
+    </item>
+    <item>
       <title>Zuckerberg Signals Slowdown in Autonomous AI Agent Development</title>
       <link>https://aiglimpse.ai/articles/zuckerberg-signals-slowdown-in-autonomous-ai-agent-development-ca9f46e7</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/zuckerberg-signals-slowdown-in-autonomous-ai-agent-development-ca9f46e7</guid>
@@ -388,22 +404,6 @@
       <guid isPermaLink="true">https://aiglimpse.ai/articles/language-based-feedback-helps-ai-learn-better-from-flawed-training-data-17b01797</guid>
       <description>Researchers show that natural language critiques enable more robust policy learning than traditional scalar feedback methods.</description>
       <pubDate>Wed, 01 Jul 2026 17:57:22 GMT</pubDate>
-      <category>AI Research</category>
-    </item>
-    <item>
-      <title>Middle Transformer Layers Hold Key to Efficient AI Training</title>
-      <link>https://aiglimpse.ai/articles/middle-transformer-layers-hold-key-to-efficient-ai-training-cf3c31ed</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/middle-transformer-layers-hold-key-to-efficient-ai-training-cf3c31ed</guid>
-      <description>Research reveals that reinforcement learning gains concentrate in just one or two middle layers, potentially revolutionizing how we fine-tune large language models.</description>
-      <pubDate>Wed, 01 Jul 2026 17:59:54 GMT</pubDate>
-      <category>AI Research</category>
-    </item>
-    <item>
-      <title>Study Reveals LLMs Generate Narrower Research Ideas Than Human Scholars</title>
-      <link>https://aiglimpse.ai/articles/study-reveals-llms-generate-narrower-research-ideas-than-human-scholars-995ddb5b</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/study-reveals-llms-generate-narrower-research-ideas-than-human-scholars-995ddb5b</guid>
-      <description>New framework shows AI brainstorming tools favor incremental combinations over the diverse approaches that drive scientific breakthroughs.</description>
-      <pubDate>Wed, 01 Jul 2026 17:59:56 GMT</pubDate>
       <category>AI Research</category>
     </item>
   </channel>

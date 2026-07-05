@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "south-africa-scraps-ai-policy-after-discovering-fabricated-sources-15708233",
+      "title": "South Africa Scraps AI Policy After Discovering Fabricated Sources",
+      "subtitle": "Government's rushed AI adoption exposes critical gap between deployment speed and verification, signaling broader risks in public sector AI governance.",
+      "category": "ethics",
+      "publishedAt": "2026-07-05T00:00:00.000Z",
+      "sourceUrl": "https://restofworld.org/2026/government-ai-hallucinations-south-africa-deloitte",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/south-africa-scraps-ai-policy-after-discovering-fabricated-sources-15708233.jpg"
+    },
+    {
+      "slug": "amazon-closes-mechanical-turk-to-new-users-reshaping-ai-training-c3d167c2",
+      "title": "Amazon Closes Mechanical Turk to New Users, Reshaping AI Training",
+      "subtitle": "The closure signals shifting priorities in how tech giants source human labor for machine learning projects.",
+      "category": "business",
+      "publishedAt": "2026-07-05T17:43:36.000Z",
+      "sourceUrl": "https://techcrunch.com/2026/07/05/amazon-will-stop-accepting-new-customers-for-mechanical-turk/",
+      "sourceName": "TechCrunch AI",
+      "sourceTier": 2,
+      "image": "/images/articles/amazon-closes-mechanical-turk-to-new-users-reshaping-ai-training-c3d167c2.jpg"
+    },
+    {
       "slug": "zuckerberg-signals-slowdown-in-autonomous-ai-agent-development-ca9f46e7",
       "title": "Zuckerberg Signals Slowdown in Autonomous AI Agent Development",
       "subtitle": "Meta's CEO tells employees that autonomous agent capabilities are advancing more slowly than anticipated, raising questions about timelines for workplace automation.",
@@ -5901,6 +5923,8 @@
     "ba0326eb5cfb511d",
     "8ebabc6e2dec9dad",
     "14c9cbede0261bcc",
-    "ca9f46e73e7cea43"
+    "ca9f46e73e7cea43",
+    "c3d167c29747ba9a",
+    "1570823394032153"
   ]
 }
