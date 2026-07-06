@@ -3,7 +3,7 @@
 > Machine-readable index for AI assistants, answer engines, and research crawlers.
 > Summary version: https://aiglimpse.ai/llms.txt
 
-Total articles: 499 | Evergreen explainers: 11 | Generated: 2026-07-06
+Total articles: 501 | Evergreen explainers: 11 | Generated: 2026-07-06
 
 ## Evergreen explainers
 
@@ -85,6 +85,20 @@ Total articles: 499 | Evergreen explainers: 11 | Generated: 2026-07-06
 - Type: evergreen explainer (FAQ schema on page)
 
 ## All articles (newest first)
+
+### Anthropic Quietly Tracked Claude Users in China, Then Deleted Code
+- URL: https://aiglimpse.ai/articles/anthropic-quietly-tracked-claude-users-in-china-then-deleted-code-522b82c4
+- Published: 2026-07-06
+- Category: tools
+- Summary: The AI company embedded hidden monitoring in its Code interpreter to flag Chinese users, raising fresh questions about surveillance and user consent in AI products.
+- Source: https://arstechnica.com/tech-policy/2026/07/anthropic-outed-for-claude-tracker-that-secretly-monitored-chinese-users/
+
+### How Photoroom Built a Custom Dataset Strategy for AI Model Training
+- URL: https://aiglimpse.ai/articles/how-photoroom-built-a-custom-dataset-strategy-for-ai-model-training-adf1b5b7
+- Published: 2026-07-06
+- Category: tools
+- Summary: The company reveals how curated, high-quality data pipelines became essential to developing specialized computer vision models.
+- Source: https://huggingface.co/blog/Photoroom/prx-part4-data
 
 ### Hugging Face Releases LeRobot v0.6.0 with AI-Powered Robot Learning
 - URL: https://aiglimpse.ai/articles/hugging-face-releases-lerobot-v060-with-ai-powered-robot-learning-fcb16807

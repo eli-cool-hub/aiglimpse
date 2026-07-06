@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "anthropic-quietly-tracked-claude-users-in-china-then-deleted-code-522b82c4",
+      "title": "Anthropic Quietly Tracked Claude Users in China, Then Deleted Code",
+      "subtitle": "The AI company embedded hidden monitoring in its Code interpreter to flag Chinese users, raising fresh questions about surveillance and user consent in AI products.",
+      "category": "tools",
+      "publishedAt": "2026-07-06T16:44:18.000Z",
+      "sourceUrl": "https://arstechnica.com/tech-policy/2026/07/anthropic-outed-for-claude-tracker-that-secretly-monitored-chinese-users/",
+      "sourceName": "Ars Technica AI",
+      "sourceTier": 2,
+      "image": "/images/articles/anthropic-quietly-tracked-claude-users-in-china-then-deleted-code-522b82c4.jpg"
+    },
+    {
+      "slug": "how-photoroom-built-a-custom-dataset-strategy-for-ai-model-training-adf1b5b7",
+      "title": "How Photoroom Built a Custom Dataset Strategy for AI Model Training",
+      "subtitle": "The company reveals how curated, high-quality data pipelines became essential to developing specialized computer vision models.",
+      "category": "tools",
+      "publishedAt": "2026-07-06T15:30:55.000Z",
+      "sourceUrl": "https://huggingface.co/blog/Photoroom/prx-part4-data",
+      "sourceName": "Hugging Face",
+      "sourceTier": 1,
+      "image": "/images/articles/how-photoroom-built-a-custom-dataset-strategy-for-ai-model-training-adf1b5b7.jpg"
+    },
+    {
       "slug": "hugging-face-releases-lerobot-v060-with-ai-powered-robot-learning-fcb16807",
       "title": "Hugging Face Releases LeRobot v0.6.0 with AI-Powered Robot Learning",
       "subtitle": "New iteration brings evaluation and improvement tools for training robots, advancing the open-source robotics AI ecosystem.",
@@ -5997,6 +6019,8 @@
     "c471d4e0e949d36e",
     "4e0dca1fbd0449de",
     "ce7ca6224cd9e28b",
-    "fcb16807d356e041"
+    "fcb16807d356e041",
+    "adf1b5b7cd4b1a40",
+    "522b82c4bf440589"
   ]
 }

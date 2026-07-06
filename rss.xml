@@ -7,6 +7,22 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Anthropic Quietly Tracked Claude Users in China, Then Deleted Code</title>
+      <link>https://aiglimpse.ai/articles/anthropic-quietly-tracked-claude-users-in-china-then-deleted-code-522b82c4</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/anthropic-quietly-tracked-claude-users-in-china-then-deleted-code-522b82c4</guid>
+      <description>The AI company embedded hidden monitoring in its Code interpreter to flag Chinese users, raising fresh questions about surveillance and user consent in AI products.</description>
+      <pubDate>Mon, 06 Jul 2026 16:44:18 GMT</pubDate>
+      <category>AI Tools &amp; Products</category>
+    </item>
+    <item>
+      <title>How Photoroom Built a Custom Dataset Strategy for AI Model Training</title>
+      <link>https://aiglimpse.ai/articles/how-photoroom-built-a-custom-dataset-strategy-for-ai-model-training-adf1b5b7</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/how-photoroom-built-a-custom-dataset-strategy-for-ai-model-training-adf1b5b7</guid>
+      <description>The company reveals how curated, high-quality data pipelines became essential to developing specialized computer vision models.</description>
+      <pubDate>Mon, 06 Jul 2026 15:30:55 GMT</pubDate>
+      <category>AI Tools &amp; Products</category>
+    </item>
+    <item>
       <title>Hugging Face Releases LeRobot v0.6.0 with AI-Powered Robot Learning</title>
       <link>https://aiglimpse.ai/articles/hugging-face-releases-lerobot-v060-with-ai-powered-robot-learning-fcb16807</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/hugging-face-releases-lerobot-v060-with-ai-powered-robot-learning-fcb16807</guid>
@@ -388,22 +404,6 @@
       <guid isPermaLink="true">https://aiglimpse.ai/articles/splitting-transformer-tasks-boosts-language-model-efficiency-202f73a3</guid>
       <description>New architecture separates prediction from memory, improving performance by 2-3 percent across downstream tasks.</description>
       <pubDate>Wed, 01 Jul 2026 17:55:09 GMT</pubDate>
-      <category>AI Research</category>
-    </item>
-    <item>
-      <title>New AI Framework Tackles 3D Texture Generation Using Video Models</title>
-      <link>https://aiglimpse.ai/articles/new-ai-framework-tackles-3d-texture-generation-using-video-models-bf7ff0ef</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-ai-framework-tackles-3d-texture-generation-using-video-models-bf7ff0ef</guid>
-      <description>Researchers bridge the gap between 3D geometry synthesis and photorealistic surface details by leveraging pretrained video generation systems.</description>
-      <pubDate>Wed, 01 Jul 2026 17:56:39 GMT</pubDate>
-      <category>AI Research</category>
-    </item>
-    <item>
-      <title>New Framework Makes AI Reasoning Transparent and Auditable</title>
-      <link>https://aiglimpse.ai/articles/new-framework-makes-ai-reasoning-transparent-and-auditable-609fa7a0</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-framework-makes-ai-reasoning-transparent-and-auditable-609fa7a0</guid>
-      <description>Researchers demonstrate a verification system that traces AI logic step-by-step, catching hidden assumptions that fool conventional scoring methods.</description>
-      <pubDate>Wed, 01 Jul 2026 17:56:42 GMT</pubDate>
       <category>AI Research</category>
     </item>
   </channel>
