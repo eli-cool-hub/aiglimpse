@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "openais-next-gen-model-reportedly-set-for-codex-integration-ce7ca622",
+      "title": "OpenAI's Next-Gen Model Reportedly Set for Codex Integration",
+      "subtitle": "Community speculation surrounds the anticipated deployment of advanced language capabilities in developer tooling platform.",
+      "category": "tools",
+      "publishedAt": "2026-07-06T01:04:03.000Z",
+      "sourceUrl": "https://twitter.com/thsottiaux/status/2073933490513752151",
+      "sourceName": "Hacker News (252 pts)",
+      "sourceTier": 2,
+      "image": "/images/articles/openais-next-gen-model-reportedly-set-for-codex-integration-ce7ca622.jpg"
+    },
+    {
+      "slug": "hugging-face-overhauls-kernels-platform-for-faster-model-development-4e0dca1f",
+      "title": "Hugging Face Overhauls Kernels Platform for Faster Model Development",
+      "subtitle": "The AI community platform redesigns its collaborative coding environment to streamline machine learning workflows and reduce friction for researchers.",
+      "category": "tools",
+      "publishedAt": "2026-07-06T00:00:00.000Z",
+      "sourceUrl": "https://huggingface.co/blog/revamped-kernels",
+      "sourceName": "Hugging Face",
+      "sourceTier": 1,
+      "image": "/images/articles/hugging-face-overhauls-kernels-platform-for-faster-model-development-4e0dca1f.jpg"
+    },
+    {
       "slug": "ais-impact-on-jobs-outpaces-ability-to-measure-it-c471d4e0",
       "title": "AI's Impact on Jobs Outpaces Ability to Measure It",
       "subtitle": "Official economic data cannot yet determine whether artificial intelligence is eliminating or creating employment, leaving policymakers in the dark.",
@@ -5961,6 +5983,8 @@
     "1570823394032153",
     "679d6b05c097257c",
     "ea25f4d689a6f2e7",
-    "c471d4e0e949d36e"
+    "c471d4e0e949d36e",
+    "4e0dca1fbd0449de",
+    "ce7ca6224cd9e28b"
   ]
 }
