@@ -7,6 +7,22 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>OpenAI's Wealth-Sharing Plan Could Put $320 in Every American's Pocket</title>
+      <link>https://aiglimpse.ai/articles/openais-wealth-sharing-plan-could-put-320-in-every-americans-pocket-10130a10</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/openais-wealth-sharing-plan-could-put-320-in-every-americans-pocket-10130a10</guid>
+      <description>Sam Altman revives his proposal to distribute AI company equity to U.S. citizens, signaling a broader debate over who benefits from artificial intelligence.</description>
+      <pubDate>Mon, 06 Jul 2026 18:00:00 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
+      <title>Vercel CEO Makes Case for Decoupling AI Models from Agent Systems</title>
+      <link>https://aiglimpse.ai/articles/vercel-ceo-makes-case-for-decoupling-ai-models-from-agent-systems-c4fbfbad</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/vercel-ceo-makes-case-for-decoupling-ai-models-from-agent-systems-c4fbfbad</guid>
+      <description>Infrastructure leader argues production economics demand architectural separation between language models and autonomous agents.</description>
+      <pubDate>Mon, 06 Jul 2026 19:49:10 GMT</pubDate>
+      <category>AI Business</category>
+    </item>
+    <item>
       <title>Anthropic Quietly Tracked Claude Users in China, Then Deleted Code</title>
       <link>https://aiglimpse.ai/articles/anthropic-quietly-tracked-claude-users-in-china-then-deleted-code-522b82c4</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/anthropic-quietly-tracked-claude-users-in-china-then-deleted-code-522b82c4</guid>
@@ -388,22 +404,6 @@
       <guid isPermaLink="true">https://aiglimpse.ai/articles/new-framework-simplifies-creating-dynamic-3d-objects-from-any-input-6a3890dc</guid>
       <description>Researchers introduce Align4D, a method that can generate coherent 4D content by aligning video motion with 3D geometry across multiple data modalities.</description>
       <pubDate>Thu, 02 Jul 2026 17:59:57 GMT</pubDate>
-      <category>AI Research</category>
-    </item>
-    <item>
-      <title>New AI Framework Enables Persistent Memory in Video World Models</title>
-      <link>https://aiglimpse.ai/articles/new-ai-framework-enables-persistent-memory-in-video-world-models-d1ada752</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-ai-framework-enables-persistent-memory-in-video-world-models-d1ada752</guid>
-      <description>WorldDirector decouples motion control from visual rendering, allowing AI to track objects across extended scenes with unprecedented realism.</description>
-      <pubDate>Thu, 02 Jul 2026 17:59:59 GMT</pubDate>
-      <category>AI Research</category>
-    </item>
-    <item>
-      <title>Splitting Transformer Tasks Boosts Language Model Efficiency</title>
-      <link>https://aiglimpse.ai/articles/splitting-transformer-tasks-boosts-language-model-efficiency-202f73a3</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/splitting-transformer-tasks-boosts-language-model-efficiency-202f73a3</guid>
-      <description>New architecture separates prediction from memory, improving performance by 2-3 percent across downstream tasks.</description>
-      <pubDate>Wed, 01 Jul 2026 17:55:09 GMT</pubDate>
       <category>AI Research</category>
     </item>
   </channel>

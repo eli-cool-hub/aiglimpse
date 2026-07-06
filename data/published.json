@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "openais-wealth-sharing-plan-could-put-320-in-every-americans-pocket-10130a10",
+      "title": "OpenAI's Wealth-Sharing Plan Could Put $320 in Every American's Pocket",
+      "subtitle": "Sam Altman revives his proposal to distribute AI company equity to U.S. citizens, signaling a broader debate over who benefits from artificial intelligence.",
+      "category": "research",
+      "publishedAt": "2026-07-06T18:00:00.000Z",
+      "sourceUrl": "https://www.technologyreview.com/2026/07/06/1140176/your-familys-300-stake-in-openai/",
+      "sourceName": "MIT Technology Review AI",
+      "sourceTier": 2,
+      "image": "/images/articles/openais-wealth-sharing-plan-could-put-320-in-every-americans-pocket-10130a10.jpg"
+    },
+    {
+      "slug": "vercel-ceo-makes-case-for-decoupling-ai-models-from-agent-systems-c4fbfbad",
+      "title": "Vercel CEO Makes Case for Decoupling AI Models from Agent Systems",
+      "subtitle": "Infrastructure leader argues production economics demand architectural separation between language models and autonomous agents.",
+      "category": "business",
+      "publishedAt": "2026-07-06T19:49:10.000Z",
+      "sourceUrl": "https://techcrunch.com/2026/07/06/vercel-ceo-guillermo-rauch-on-the-fight-to-split-off-models-from-agents/",
+      "sourceName": "TechCrunch AI",
+      "sourceTier": 2,
+      "image": "/images/articles/vercel-ceo-makes-case-for-decoupling-ai-models-from-agent-systems-c4fbfbad.jpg"
+    },
+    {
       "slug": "anthropic-quietly-tracked-claude-users-in-china-then-deleted-code-522b82c4",
       "title": "Anthropic Quietly Tracked Claude Users in China, Then Deleted Code",
       "subtitle": "The AI company embedded hidden monitoring in its Code interpreter to flag Chinese users, raising fresh questions about surveillance and user consent in AI products.",
@@ -6021,6 +6043,8 @@
     "ce7ca6224cd9e28b",
     "fcb16807d356e041",
     "adf1b5b7cd4b1a40",
-    "522b82c4bf440589"
+    "522b82c4bf440589",
+    "c4fbfbad7d00a6d6",
+    "10130a10faef4250"
   ]
 }
