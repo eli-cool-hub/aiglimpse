@@ -6464,6 +6464,24 @@
         "devto": true,
         "hashnode": false
       }
+    },
+    "hugging-face-releases-lerobot-v060-with-ai-powered-robot-learning-fcb16807": {
+      "syndicated_at": "2026-07-06T13:48:04.164Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/hugging-face-releases-lerobot-v060-with-ai-powered-robot-learning-4cgo",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 422,
+      "category": "tools",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
     }
   }
 }

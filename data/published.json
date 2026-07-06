@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "hugging-face-releases-lerobot-v060-with-ai-powered-robot-learning-fcb16807",
+      "title": "Hugging Face Releases LeRobot v0.6.0 with AI-Powered Robot Learning",
+      "subtitle": "New iteration brings evaluation and improvement tools for training robots, advancing the open-source robotics AI ecosystem.",
+      "category": "tools",
+      "publishedAt": "2026-07-07T00:00:00.000Z",
+      "sourceUrl": "https://huggingface.co/blog/lerobot-release-v060",
+      "sourceName": "Hugging Face",
+      "sourceTier": 1,
+      "image": "/images/articles/hugging-face-releases-lerobot-v060-with-ai-powered-robot-learning-fcb16807.jpg"
+    },
+    {
       "slug": "openais-next-gen-model-reportedly-set-for-codex-integration-ce7ca622",
       "title": "OpenAI's Next-Gen Model Reportedly Set for Codex Integration",
       "subtitle": "Community speculation surrounds the anticipated deployment of advanced language capabilities in developer tooling platform.",
@@ -5985,6 +5996,7 @@
     "ea25f4d689a6f2e7",
     "c471d4e0e949d36e",
     "4e0dca1fbd0449de",
-    "ce7ca6224cd9e28b"
+    "ce7ca6224cd9e28b",
+    "fcb16807d356e041"
   ]
 }
