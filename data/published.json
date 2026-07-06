@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "apple-adds-voice-customization-to-siri-in-ios-27-beta-c27dd79f",
+      "title": "Apple Adds Voice Customization to Siri in iOS 27 Beta",
+      "subtitle": "New controls let users adjust speaking speed and emotional tone as Apple overhauls its assistant with generative AI technology.",
+      "category": "business",
+      "publishedAt": "2026-07-06T19:01:59.000Z",
+      "sourceUrl": "https://techcrunch.com/2026/07/06/you-can-now-customize-siris-pace-and-expressivity-in-the-latest-ios-27-beta/",
+      "sourceName": "TechCrunch AI",
+      "sourceTier": 2,
+      "image": "/images/articles/apple-adds-voice-customization-to-siri-in-ios-27-beta-c27dd79f.jpg"
+    },
+    {
+      "slug": "nyc-health-system-deploys-ai-platform-for-remote-patient-monitoring-323263db",
+      "title": "NYC Health System Deploys AI Platform for Remote Patient Monitoring",
+      "subtitle": "One Brooklyn Health adopts intelligent virtual care technology to predict adverse events and expand nurse oversight across multiple hospital units.",
+      "category": "industry",
+      "publishedAt": "2026-07-06T21:42:02.000Z",
+      "sourceUrl": "https://www.beckershospitalreview.com/healthcare-information-technology/ai/one-brooklyn-health-taps-ai-platform-for-virtual-care/",
+      "sourceName": "Becker's Hospital Review",
+      "sourceTier": 2,
+      "image": "/images/articles/nyc-health-system-deploys-ai-platform-for-remote-patient-monitoring-323263db.jpg"
+    },
+    {
       "slug": "openais-wealth-sharing-plan-could-put-320-in-every-americans-pocket-10130a10",
       "title": "OpenAI's Wealth-Sharing Plan Could Put $320 in Every American's Pocket",
       "subtitle": "Sam Altman revives his proposal to distribute AI company equity to U.S. citizens, signaling a broader debate over who benefits from artificial intelligence.",
@@ -6045,6 +6067,8 @@
     "adf1b5b7cd4b1a40",
     "522b82c4bf440589",
     "c4fbfbad7d00a6d6",
-    "10130a10faef4250"
+    "10130a10faef4250",
+    "323263db7abb0336",
+    "c27dd79f9cbd9aad"
   ]
 }

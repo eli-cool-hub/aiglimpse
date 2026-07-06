@@ -7,6 +7,22 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Apple Adds Voice Customization to Siri in iOS 27 Beta</title>
+      <link>https://aiglimpse.ai/articles/apple-adds-voice-customization-to-siri-in-ios-27-beta-c27dd79f</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/apple-adds-voice-customization-to-siri-in-ios-27-beta-c27dd79f</guid>
+      <description>New controls let users adjust speaking speed and emotional tone as Apple overhauls its assistant with generative AI technology.</description>
+      <pubDate>Mon, 06 Jul 2026 19:01:59 GMT</pubDate>
+      <category>AI Business</category>
+    </item>
+    <item>
+      <title>NYC Health System Deploys AI Platform for Remote Patient Monitoring</title>
+      <link>https://aiglimpse.ai/articles/nyc-health-system-deploys-ai-platform-for-remote-patient-monitoring-323263db</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/nyc-health-system-deploys-ai-platform-for-remote-patient-monitoring-323263db</guid>
+      <description>One Brooklyn Health adopts intelligent virtual care technology to predict adverse events and expand nurse oversight across multiple hospital units.</description>
+      <pubDate>Mon, 06 Jul 2026 21:42:02 GMT</pubDate>
+      <category>Industry Applications</category>
+    </item>
+    <item>
       <title>OpenAI's Wealth-Sharing Plan Could Put $320 in Every American's Pocket</title>
       <link>https://aiglimpse.ai/articles/openais-wealth-sharing-plan-could-put-320-in-every-americans-pocket-10130a10</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/openais-wealth-sharing-plan-could-put-320-in-every-americans-pocket-10130a10</guid>
@@ -388,22 +404,6 @@
       <guid isPermaLink="true">https://aiglimpse.ai/articles/google-deepmind-partners-with-a24-on-ai-film-research-9793746e</guid>
       <description>The AI lab and entertainment studio launch an unprecedented collaboration to explore how machine learning can advance creative storytelling.</description>
       <pubDate>Fri, 03 Jul 2026 14:25:43 GMT</pubDate>
-      <category>AI Research</category>
-    </item>
-    <item>
-      <title>Simpler AI Model Reconstructs 3D Geometry From Single Photos</title>
-      <link>https://aiglimpse.ai/articles/simpler-ai-model-reconstructs-3d-geometry-from-single-photos-6e7b20e2</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/simpler-ai-model-reconstructs-3d-geometry-from-single-photos-6e7b20e2</guid>
-      <description>Researchers demonstrate that minimalist diffusion architecture outperforms complex hybrid systems at converting 2D images to precise 3D spatial maps.</description>
-      <pubDate>Thu, 02 Jul 2026 17:59:56 GMT</pubDate>
-      <category>AI Research</category>
-    </item>
-    <item>
-      <title>New Framework Simplifies Creating Dynamic 3D Objects From Any Input</title>
-      <link>https://aiglimpse.ai/articles/new-framework-simplifies-creating-dynamic-3d-objects-from-any-input-6a3890dc</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-framework-simplifies-creating-dynamic-3d-objects-from-any-input-6a3890dc</guid>
-      <description>Researchers introduce Align4D, a method that can generate coherent 4D content by aligning video motion with 3D geometry across multiple data modalities.</description>
-      <pubDate>Thu, 02 Jul 2026 17:59:57 GMT</pubDate>
       <category>AI Research</category>
     </item>
   </channel>
