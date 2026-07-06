@@ -136,7 +136,6 @@
   <figcaption class="article-image-credit">Photo by <a href="https://www.pexels.com/photo/screen-with-code-10816120/" rel="nofollow noopener" target="_blank">Stanislav Kondratiev</a> on Pexels.</figcaption>
 </figure>
 
-
 <p>Vendor pricing is denominated in cost per million tokens (PMT). Input tokens are almost always cheaper than output tokens, reflecting the asymmetry of generation cost. Below is the current landscape as of Q3 2026.</p>
 
 <ul>
@@ -164,12 +163,6 @@
 <p>Prompt caching, available on Claude (25K minimum cached tokens) and GPT-4o (1K minimum), reduces cached input token cost by 90%. Caching a 100K token system prompt and document reference costs $0.003 per cache hit (vs. $0.30 without caching). For workflows with repeated prompts, caching is a first-order optimization. For one-off queries, the cost of creating and maintaining cache entries exceeds the savings.</p>
 
 <h2>Batch processing: 50% discount for latency trade-off</h2>
-<figure class="article-image article-image--inline">
-  <picture><source srcset="/images/articles/llm-api-pricing-comparison-2026-inline-2.webp" type="image/webp"><img src="/images/articles/llm-api-pricing-comparison-2026-inline-2.jpg" alt="Batch processing: 50% discount for latency trade-off" loading="lazy" width="1200" height="630"></picture>
-  <figcaption class="article-image-credit">Photo by <a href="https://www.pexels.com/photo/white-printer-paper-beside-macbook-pro-7567227/" rel="nofollow noopener" target="_blank">Tima Miroshnichenko</a> on Pexels.</figcaption>
-</figure>
-
-
 <p>Batch APIs process requests asynchronously, typically completing within 24 hours. OpenAI, Anthropic, and Google all offer batch discounts: 50% off standard pricing.</p>
 
 <p>A batch request using GPT-4o at $5 input / $15 output PMT becomes $2.50 input / $7.50 output PMT. For a team processing 10 million tokens daily, batching cuts LLM spend by $100 to $150 per day. Annualized, this is $36,000 to $54,000 in savings.</p>
