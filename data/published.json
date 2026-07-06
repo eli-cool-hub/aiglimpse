@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "ais-impact-on-jobs-outpaces-ability-to-measure-it-c471d4e0",
+      "title": "AI's Impact on Jobs Outpaces Ability to Measure It",
+      "subtitle": "Official economic data cannot yet determine whether artificial intelligence is eliminating or creating employment, leaving policymakers in the dark.",
+      "category": "business",
+      "publishedAt": "2026-07-06T00:00:00.000Z",
+      "sourceUrl": "https://nytimes.com/2026/07/02/business/economy/ai-economy-data.html",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/ais-impact-on-jobs-outpaces-ability-to-measure-it-c471d4e0.jpg"
+    },
+    {
       "slug": "sakana-ai-expands-product-team-as-reasoning-agents-target-enterprise-ea25f4d6",
       "title": "Sakana AI expands product team as reasoning agents target enterprise",
       "subtitle": "Tokyo-based lab transitions from research focus to commercialization, signaling confidence in long-context AI for corporate buyers.",
@@ -5949,6 +5960,7 @@
     "c3d167c29747ba9a",
     "1570823394032153",
     "679d6b05c097257c",
-    "ea25f4d689a6f2e7"
+    "ea25f4d689a6f2e7",
+    "c471d4e0e949d36e"
   ]
 }
