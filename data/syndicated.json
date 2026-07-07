@@ -6752,6 +6752,42 @@
         "devto": true,
         "hashnode": false
       }
+    },
+    "skypilot-and-hugging-face-partner-to-eliminate-cloud-lock-in-for-ai-training-a7ca69f6": {
+      "syndicated_at": "2026-07-07T23:04:16.000Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/skypilot-and-hugging-face-partner-to-eliminate-cloud-lock-in-for-ai-training-1ba6",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 475,
+      "category": "tools",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
+    },
+    "new-dataset-tackles-camera-calibration-problem-in-dynamic-video-7f485d59": {
+      "syndicated_at": "2026-07-07T23:04:25.288Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/new-dataset-tackles-camera-calibration-problem-in-dynamic-video-2d55",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 428,
+      "category": "research",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
     }
   }
 }

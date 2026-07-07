@@ -7,6 +7,22 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>New Dataset Tackles Camera Calibration Problem in Dynamic Video</title>
+      <link>https://aiglimpse.ai/articles/new-dataset-tackles-camera-calibration-problem-in-dynamic-video-7f485d59</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-dataset-tackles-camera-calibration-problem-in-dynamic-video-7f485d59</guid>
+      <description>Researchers release large-scale synthetic and real-world benchmarks to improve AI models that estimate changing camera settings from video frames.</description>
+      <pubDate>Mon, 06 Jul 2026 17:58:33 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
+      <title>SkyPilot and Hugging Face Partner to Eliminate Cloud Lock-In for AI Training</title>
+      <link>https://aiglimpse.ai/articles/skypilot-and-hugging-face-partner-to-eliminate-cloud-lock-in-for-ai-training-a7ca69f6</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/skypilot-and-hugging-face-partner-to-eliminate-cloud-lock-in-for-ai-training-a7ca69f6</guid>
+      <description>New integration lets researchers train models anywhere while keeping data on Hugging Face, solving a persistent friction point in machine learning infrastructure.</description>
+      <pubDate>Tue, 07 Jul 2026 00:00:00 GMT</pubDate>
+      <category>AI Tools &amp; Products</category>
+    </item>
+    <item>
       <title>Australian Payments Firm Accelerates Development With AI Coding Tools</title>
       <link>https://aiglimpse.ai/articles/australian-payments-firm-accelerates-development-with-ai-coding-tools-5c3fedb3</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/australian-payments-firm-accelerates-development-with-ai-coding-tools-5c3fedb3</guid>
@@ -388,22 +404,6 @@
       <guid isPermaLink="true">https://aiglimpse.ai/articles/researchers-teach-ai-agents-to-search-360-degree-environments-781fabb5</guid>
       <description>New system combines vision-language models with spatial memory to help robots find objects in panoramic spaces efficiently.</description>
       <pubDate>Thu, 02 Jul 2026 17:56:49 GMT</pubDate>
-      <category>AI Research</category>
-    </item>
-    <item>
-      <title>LLM Evaluation Crisis: Most Judge Models Lack Non-English Validation</title>
-      <link>https://aiglimpse.ai/articles/llm-evaluation-crisis-most-judge-models-lack-non-english-validation-7fb7611e</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/llm-evaluation-crisis-most-judge-models-lack-non-english-validation-7fb7611e</guid>
-      <description>New research reveals AI assessment tools are systematically untested for multilingual performance, raising questions about model quality claims.</description>
-      <pubDate>Sat, 04 Jul 2026 00:00:00 GMT</pubDate>
-      <category>LLMs &amp; Chatbots</category>
-    </item>
-    <item>
-      <title>New Optimizers Outpace Adam in Training Physics AI Models</title>
-      <link>https://aiglimpse.ai/articles/new-optimizers-outpace-adam-in-training-physics-ai-models-ce9e1471</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-optimizers-outpace-adam-in-training-physics-ai-models-ce9e1471</guid>
-      <description>Research shows matrix-structured training methods can significantly accelerate machine learning interatomic potentials while improving accuracy.</description>
-      <pubDate>Thu, 02 Jul 2026 17:57:31 GMT</pubDate>
       <category>AI Research</category>
     </item>
   </channel>

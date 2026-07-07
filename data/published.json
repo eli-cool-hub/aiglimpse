@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "new-dataset-tackles-camera-calibration-problem-in-dynamic-video-7f485d59",
+      "title": "New Dataset Tackles Camera Calibration Problem in Dynamic Video",
+      "subtitle": "Researchers release large-scale synthetic and real-world benchmarks to improve AI models that estimate changing camera settings from video frames.",
+      "category": "research",
+      "publishedAt": "2026-07-06T17:58:33.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2607.05389v1",
+      "sourceName": "arXiv (Erich Liang, Caleb Kha-Uong, Chinmaya Saran, Sreemanti Dey, …)",
+      "sourceTier": 1,
+      "image": "/images/articles/new-dataset-tackles-camera-calibration-problem-in-dynamic-video-7f485d59.jpg"
+    },
+    {
+      "slug": "skypilot-and-hugging-face-partner-to-eliminate-cloud-lock-in-for-ai-training-a7ca69f6",
+      "title": "SkyPilot and Hugging Face Partner to Eliminate Cloud Lock-In for AI Training",
+      "subtitle": "New integration lets researchers train models anywhere while keeping data on Hugging Face, solving a persistent friction point in machine learning infrastructure.",
+      "category": "tools",
+      "publishedAt": "2026-07-07T00:00:00.000Z",
+      "sourceUrl": "https://huggingface.co/blog/skypilot-hf-storage",
+      "sourceName": "Hugging Face",
+      "sourceTier": 1,
+      "image": "/images/articles/skypilot-and-hugging-face-partner-to-eliminate-cloud-lock-in-for-ai-training-a7ca69f6.jpg"
+    },
+    {
       "slug": "australian-payments-firm-accelerates-development-with-ai-coding-tools-5c3fedb3",
       "title": "Australian Payments Firm Accelerates Development With AI Coding Tools",
       "subtitle": "Enterprise deployment of generative AI streamlines payments infrastructure while preserving human oversight in critical financial decisions.",
@@ -6201,6 +6223,8 @@
     "7398bc2a09f40e79",
     "874b37e89b00bdfd",
     "d8387da30ddcb4cd",
-    "5c3fedb364bdb0df"
+    "5c3fedb364bdb0df",
+    "a7ca69f6e467ea11",
+    "7f485d59864b37a1"
   ]
 }
