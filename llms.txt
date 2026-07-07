@@ -20,6 +20,8 @@ All content is original reporting by the AI Glimpse newsroom. Primary sources ar
 
 ## Recent articles
 
+- [Researchers Challenge Fundamental Assumption in Offline AI Training](https://aiglimpse.ai/articles/researchers-challenge-fundamental-assumption-in-offline-ai-training-5b800e35) (2026-07-06): New method for evaluating AI decision-making policies eliminates a key mathematical requirement, potentially making offline reinforcement learning more practical.
+- [New Framework Scales 3D Scene Generation to Entire Environments](https://aiglimpse.ai/articles/new-framework-scales-3d-scene-generation-to-entire-environments-17292ac7) (2026-07-06): Researchers develop SynCity 3000, enabling AI to generate large, coherent 3D scenes from text prompts with precise layout control.
 - [New Framework Bridges Planning and Execution Gap in Robot Manipulation](https://aiglimpse.ai/articles/new-framework-bridges-planning-and-execution-gap-in-robot-manipulation-5f88e9f0) (2026-07-06): Researchers introduce Cortex, a dual-system approach that enables robots to handle complex, multi-step tasks by aligning high-level planning with low-level motor control.
 - [AI Model Spots Fake Astronomical Events Without Human Training Data](https://aiglimpse.ai/articles/ai-model-spots-fake-astronomical-events-without-human-training-data-b390a2a2) (2026-07-06): Researchers develop a machine learning system that classifies real versus false transient signals in sky surveys using only simulated data and uncertainty estimates.
 - [Researchers Propose LLM Verification Framework to Scale AI Agent Quality](https://aiglimpse.ai/articles/researchers-propose-llm-verification-framework-to-scale-ai-agent-quality-5f4b7927) (2026-07-06): New approach treats error-checking as a scaling axis, improving how AI systems evaluate their own outputs without additional training.
@@ -48,8 +50,6 @@ All content is original reporting by the AI Glimpse newsroom. Primary sources ar
 - [Best AI image generators in 2026: Midjourney, DALL-E, Stable Diffusion, Flux](https://aiglimpse.ai/articles/ai-image-generators-compared-2026) (2026-07-05): A technical comparison of four leading models: quality, pricing, licensing, and which to pick for your workflow.
 - [Legal Scholar Pushes Corporate Accountability as Path to AI Privacy Reform](https://aiglimpse.ai/articles/legal-scholar-pushes-corporate-accountability-as-path-to-ai-privacy-reform-d86a0b3b) (2026-07-05): Experts argue that treating AI systems as consumer products could force meaningful data practices before federal regulation arrives.
 - [Open Source Whisper Fine-Tuning Starter Offers Practical Template](https://aiglimpse.ai/articles/open-source-whisper-fine-tuning-starter-offers-practical-template-92e75e20) (2026-07-05): New MIT-licensed toolkit with Kubernetes configs lowers barriers for developers adapting OpenAI's speech model to multilingual datasets.
-- [Study: Repository Overview Files Harm AI Coding Agent Performance](https://aiglimpse.ai/articles/study-repository-overview-files-harm-ai-coding-agent-performance-58fe16ba) (2026-07-05): Research reveals popular documentation conventions reduce task success rates by over 20% without improving agent capabilities.
-- [New Tokenizer Release Aims to Unlock Whisper Performance on Underserved Languages](https://aiglimpse.ai/articles/new-tokenizer-release-aims-to-unlock-whisper-performance-on-underserved-language-56e83813) (2026-07-05): Open-source per-language byte-pair encoders offer a critical fix for fine-tuning OpenAI's speech model on low-resource languages.
 
 ## Explainers (evergreen)
 
@@ -69,7 +69,7 @@ All content is original reporting by the AI Glimpse newsroom. Primary sources ar
 
 - [Sitemap](https://aiglimpse.ai/sitemap.xml): All article URLs with publish dates (Google News format).
 - [RSS](https://aiglimpse.ai/rss.xml): 50 most recent articles (RSS 2.0).
-- [Full content index](https://aiglimpse.ai/llms-full.txt): Extended article list for LLM crawlers (510 articles).
+- [Full content index](https://aiglimpse.ai/llms-full.txt): Extended article list for LLM crawlers (512 articles).
 
 ## About
 

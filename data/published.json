@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "researchers-challenge-fundamental-assumption-in-offline-ai-training-5b800e35",
+      "title": "Researchers Challenge Fundamental Assumption in Offline AI Training",
+      "subtitle": "New method for evaluating AI decision-making policies eliminates a key mathematical requirement, potentially making offline reinforcement learning more practical.",
+      "category": "research",
+      "publishedAt": "2026-07-06T17:53:32.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2607.05375v1",
+      "sourceName": "arXiv (Lars van der Laan, Nathan Kallus)",
+      "sourceTier": 1,
+      "image": "/images/articles/researchers-challenge-fundamental-assumption-in-offline-ai-training-5b800e35.jpg"
+    },
+    {
+      "slug": "new-framework-scales-3d-scene-generation-to-entire-environments-17292ac7",
+      "title": "New Framework Scales 3D Scene Generation to Entire Environments",
+      "subtitle": "Researchers develop SynCity 3000, enabling AI to generate large, coherent 3D scenes from text prompts with precise layout control.",
+      "category": "research",
+      "publishedAt": "2026-07-06T17:59:35.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2607.05392v1",
+      "sourceName": "arXiv (Paul Engstler, Iro Laina, Christian Rupprecht, Andrea Vedald…)",
+      "sourceTier": 1,
+      "image": "/images/articles/new-framework-scales-3d-scene-generation-to-entire-environments-17292ac7.jpg"
+    },
+    {
       "slug": "new-framework-bridges-planning-and-execution-gap-in-robot-manipulation-5f88e9f0",
       "title": "New Framework Bridges Planning and Execution Gap in Robot Manipulation",
       "subtitle": "Researchers introduce Cortex, a dual-system approach that enables robots to handle complex, multi-step tasks by aligning high-level planning with low-level motor control.",
@@ -6129,6 +6151,8 @@
     "4ec29d0273b7cccd",
     "5f4b7927e3604684",
     "b390a2a29672f2fd",
-    "5f88e9f0fcace99b"
+    "5f88e9f0fcace99b",
+    "17292ac7edb7d0af",
+    "5b800e354184d057"
   ]
 }

@@ -3,7 +3,7 @@
 > Machine-readable index for AI assistants, answer engines, and research crawlers.
 > Summary version: https://aiglimpse.ai/llms.txt
 
-Total articles: 510 | Evergreen explainers: 11 | Generated: 2026-07-07
+Total articles: 512 | Evergreen explainers: 11 | Generated: 2026-07-07
 
 ## Evergreen explainers
 
@@ -85,6 +85,20 @@ Total articles: 510 | Evergreen explainers: 11 | Generated: 2026-07-07
 - Type: evergreen explainer (FAQ schema on page)
 
 ## All articles (newest first)
+
+### Researchers Challenge Fundamental Assumption in Offline AI Training
+- URL: https://aiglimpse.ai/articles/researchers-challenge-fundamental-assumption-in-offline-ai-training-5b800e35
+- Published: 2026-07-06
+- Category: research
+- Summary: New method for evaluating AI decision-making policies eliminates a key mathematical requirement, potentially making offline reinforcement learning more practical.
+- Source: http://arxiv.org/abs/2607.05375v1
+
+### New Framework Scales 3D Scene Generation to Entire Environments
+- URL: https://aiglimpse.ai/articles/new-framework-scales-3d-scene-generation-to-entire-environments-17292ac7
+- Published: 2026-07-06
+- Category: research
+- Summary: Researchers develop SynCity 3000, enabling AI to generate large, coherent 3D scenes from text prompts with precise layout control.
+- Source: http://arxiv.org/abs/2607.05392v1
 
 ### New Framework Bridges Planning and Execution Gap in Robot Manipulation
 - URL: https://aiglimpse.ai/articles/new-framework-bridges-planning-and-execution-gap-in-robot-manipulation-5f88e9f0
