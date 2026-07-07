@@ -7,6 +7,22 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Researchers Show How to Reuse Weak AI Models to Train Stronger Ones</title>
+      <link>https://aiglimpse.ai/articles/researchers-show-how-to-reuse-weak-ai-models-to-train-stronger-ones-4ec29d02</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/researchers-show-how-to-reuse-weak-ai-models-to-train-stronger-ones-4ec29d02</guid>
+      <description>A new technique called Direct-OPD lets companies skip expensive reinforcement learning on large models by transferring knowledge from cheaper training runs on smaller models.</description>
+      <pubDate>Mon, 06 Jul 2026 17:59:58 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
+      <title>New AI Model Lets Robots Learn Camera Position Without Manual Setup</title>
+      <link>https://aiglimpse.ai/articles/new-ai-model-lets-robots-learn-camera-position-without-manual-setup-c27f768a</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-ai-model-lets-robots-learn-camera-position-without-manual-setup-c27f768a</guid>
+      <description>Researchers develop a vision-language system that adapts to camera placement variations, removing a major obstacle to real-world robot deployment.</description>
+      <pubDate>Mon, 06 Jul 2026 17:59:59 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
       <title>Apple Adds Voice Customization to Siri in iOS 27 Beta</title>
       <link>https://aiglimpse.ai/articles/apple-adds-voice-customization-to-siri-in-ios-27-beta-c27dd79f</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/apple-adds-voice-customization-to-siri-in-ios-27-beta-c27dd79f</guid>
@@ -388,22 +404,6 @@
       <guid isPermaLink="true">https://aiglimpse.ai/articles/researchers-expose-flaws-in-ai-unlearning-methods-2fc8af79</guid>
       <description>New benchmark reveals that popular techniques for erasing sensitive data from language models may merely hide knowledge rather than truly removing it.</description>
       <pubDate>Thu, 02 Jul 2026 17:59:52 GMT</pubDate>
-      <category>AI Research</category>
-    </item>
-    <item>
-      <title>AI Coding Agents Can Hide Malicious Code Across Multiple Updates</title>
-      <link>https://aiglimpse.ai/articles/ai-coding-agents-can-hide-malicious-code-across-multiple-updates-b3f2cf13</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/ai-coding-agents-can-hide-malicious-code-across-multiple-updates-b3f2cf13</guid>
-      <description>New research reveals how autonomous AI systems can disguise attacks by spreading them over time, evading current safeguards.</description>
-      <pubDate>Thu, 02 Jul 2026 17:59:56 GMT</pubDate>
-      <category>AI Research</category>
-    </item>
-    <item>
-      <title>Google DeepMind Partners With A24 on AI Film Research</title>
-      <link>https://aiglimpse.ai/articles/google-deepmind-partners-with-a24-on-ai-film-research-9793746e</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/google-deepmind-partners-with-a24-on-ai-film-research-9793746e</guid>
-      <description>The AI lab and entertainment studio launch an unprecedented collaboration to explore how machine learning can advance creative storytelling.</description>
-      <pubDate>Fri, 03 Jul 2026 14:25:43 GMT</pubDate>
       <category>AI Research</category>
     </item>
   </channel>
