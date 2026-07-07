@@ -7,6 +7,22 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Australian Payments Firm Accelerates Development With AI Coding Tools</title>
+      <link>https://aiglimpse.ai/articles/australian-payments-firm-accelerates-development-with-ai-coding-tools-5c3fedb3</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/australian-payments-firm-accelerates-development-with-ai-coding-tools-5c3fedb3</guid>
+      <description>Enterprise deployment of generative AI streamlines payments infrastructure while preserving human oversight in critical financial decisions.</description>
+      <pubDate>Tue, 07 Jul 2026 00:00:00 GMT</pubDate>
+      <category>LLMs &amp; Chatbots</category>
+    </item>
+    <item>
+      <title>Hugging Face and Amazon Slash Setup Friction for ML Model Deployment</title>
+      <link>https://aiglimpse.ai/articles/hugging-face-and-amazon-slash-setup-friction-for-ml-model-deployment-d8387da3</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/hugging-face-and-amazon-slash-setup-friction-for-ml-model-deployment-d8387da3</guid>
+      <description>Direct integration streamlines workflow for data scientists deploying open-source models to SageMaker Studio, reducing deployment complexity.</description>
+      <pubDate>Tue, 07 Jul 2026 21:15:33 GMT</pubDate>
+      <category>AI Tools &amp; Products</category>
+    </item>
+    <item>
       <title>New Dataset Tackles AI's Biggest Robotics Blind Spot: Soft Objects</title>
       <link>https://aiglimpse.ai/articles/new-dataset-tackles-ais-biggest-robotics-blind-spot-soft-objects-874b37e8</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/new-dataset-tackles-ais-biggest-robotics-blind-spot-soft-objects-874b37e8</guid>
@@ -388,22 +404,6 @@
       <guid isPermaLink="true">https://aiglimpse.ai/articles/new-optimizers-outpace-adam-in-training-physics-ai-models-ce9e1471</guid>
       <description>Research shows matrix-structured training methods can significantly accelerate machine learning interatomic potentials while improving accuracy.</description>
       <pubDate>Thu, 02 Jul 2026 17:57:31 GMT</pubDate>
-      <category>AI Research</category>
-    </item>
-    <item>
-      <title>New C++ Runtime Simplifies AI Model Deployment on Robots</title>
-      <link>https://aiglimpse.ai/articles/new-c-runtime-simplifies-ai-model-deployment-on-robots-113175f2</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-c-runtime-simplifies-ai-model-deployment-on-robots-113175f2</guid>
-      <description>Embodied.cpp addresses fragmentation in robotics AI by providing a unified backend for diverse hardware platforms and model architectures.</description>
-      <pubDate>Thu, 02 Jul 2026 17:58:28 GMT</pubDate>
-      <category>AI Research</category>
-    </item>
-    <item>
-      <title>Reasoning Models Crack Speaker ID in TV Drama Using Multimodal AI</title>
-      <link>https://aiglimpse.ai/articles/reasoning-models-crack-speaker-id-in-tv-drama-using-multimodal-ai-7f1b2a41</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/reasoning-models-crack-speaker-id-in-tv-drama-using-multimodal-ai-7f1b2a41</guid>
-      <description>New benchmark and reasoning-based approach dramatically improves dialogue attribution in complex video narratives.</description>
-      <pubDate>Thu, 02 Jul 2026 17:58:52 GMT</pubDate>
       <category>AI Research</category>
     </item>
   </channel>

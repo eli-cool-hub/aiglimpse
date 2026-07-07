@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "australian-payments-firm-accelerates-development-with-ai-coding-tools-5c3fedb3",
+      "title": "Australian Payments Firm Accelerates Development With AI Coding Tools",
+      "subtitle": "Enterprise deployment of generative AI streamlines payments infrastructure while preserving human oversight in critical financial decisions.",
+      "category": "llms",
+      "publishedAt": "2026-07-07T00:00:00.000Z",
+      "sourceUrl": "https://openai.com/index/australian-payments-plus",
+      "sourceName": "OpenAI",
+      "sourceTier": 1,
+      "image": "/images/articles/australian-payments-firm-accelerates-development-with-ai-coding-tools-5c3fedb3.jpg"
+    },
+    {
+      "slug": "hugging-face-and-amazon-slash-setup-friction-for-ml-model-deployment-d8387da3",
+      "title": "Hugging Face and Amazon Slash Setup Friction for ML Model Deployment",
+      "subtitle": "Direct integration streamlines workflow for data scientists deploying open-source models to SageMaker Studio, reducing deployment complexity.",
+      "category": "tools",
+      "publishedAt": "2026-07-07T21:15:33.000Z",
+      "sourceUrl": "https://huggingface.co/blog/amazon/one-click-to-sagemaker-studio",
+      "sourceName": "Hugging Face",
+      "sourceTier": 1,
+      "image": "/images/articles/hugging-face-and-amazon-slash-setup-friction-for-ml-model-deployment-d8387da3.jpg"
+    },
+    {
       "slug": "new-dataset-tackles-ais-biggest-robotics-blind-spot-soft-objects-874b37e8",
       "title": "New Dataset Tackles AI's Biggest Robotics Blind Spot: Soft Objects",
       "subtitle": "Researchers release massive visuotactile benchmark to train robots that can manipulate deformable materials with human-like dexterity.",
@@ -6177,6 +6199,8 @@
     "17292ac7edb7d0af",
     "5b800e354184d057",
     "7398bc2a09f40e79",
-    "874b37e89b00bdfd"
+    "874b37e89b00bdfd",
+    "d8387da30ddcb4cd",
+    "5c3fedb364bdb0df"
   ]
 }
