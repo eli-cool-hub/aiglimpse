@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "new-framework-bridges-planning-and-execution-gap-in-robot-manipulation-5f88e9f0",
+      "title": "New Framework Bridges Planning and Execution Gap in Robot Manipulation",
+      "subtitle": "Researchers introduce Cortex, a dual-system approach that enables robots to handle complex, multi-step tasks by aligning high-level planning with low-level motor control.",
+      "category": "research",
+      "publishedAt": "2026-07-06T17:55:05.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2607.05377v1",
+      "sourceName": "arXiv (Jiaqi Peng, Xiqian Yu, Delin Feng, Yuqiang Yang, Wenzhe Cai,…)",
+      "sourceTier": 1,
+      "image": "/images/articles/new-framework-bridges-planning-and-execution-gap-in-robot-manipulation-5f88e9f0.jpg"
+    },
+    {
+      "slug": "ai-model-spots-fake-astronomical-events-without-human-training-data-b390a2a2",
+      "title": "AI Model Spots Fake Astronomical Events Without Human Training Data",
+      "subtitle": "Researchers develop a machine learning system that classifies real versus false transient signals in sky surveys using only simulated data and uncertainty estimates.",
+      "category": "research",
+      "publishedAt": "2026-07-06T17:59:58.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2607.05393v1",
+      "sourceName": "arXiv (Raphaël Bonnet-Guerrini, Bruno Sanchez, Dominique Fouchez, B…)",
+      "sourceTier": 1,
+      "image": "/images/articles/ai-model-spots-fake-astronomical-events-without-human-training-data-b390a2a2.jpg"
+    },
+    {
       "slug": "researchers-propose-llm-verification-framework-to-scale-ai-agent-quality-5f4b7927",
       "title": "Researchers Propose LLM Verification Framework to Scale AI Agent Quality",
       "subtitle": "New approach treats error-checking as a scaling axis, improving how AI systems evaluate their own outputs without additional training.",
@@ -6105,6 +6127,8 @@
     "c27dd79f9cbd9aad",
     "c27f768a7c5ec7f4",
     "4ec29d0273b7cccd",
-    "5f4b7927e3604684"
+    "5f4b7927e3604684",
+    "b390a2a29672f2fd",
+    "5f88e9f0fcace99b"
   ]
 }

@@ -7,6 +7,22 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>New Framework Bridges Planning and Execution Gap in Robot Manipulation</title>
+      <link>https://aiglimpse.ai/articles/new-framework-bridges-planning-and-execution-gap-in-robot-manipulation-5f88e9f0</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-framework-bridges-planning-and-execution-gap-in-robot-manipulation-5f88e9f0</guid>
+      <description>Researchers introduce Cortex, a dual-system approach that enables robots to handle complex, multi-step tasks by aligning high-level planning with low-level motor control.</description>
+      <pubDate>Mon, 06 Jul 2026 17:55:05 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
+      <title>AI Model Spots Fake Astronomical Events Without Human Training Data</title>
+      <link>https://aiglimpse.ai/articles/ai-model-spots-fake-astronomical-events-without-human-training-data-b390a2a2</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/ai-model-spots-fake-astronomical-events-without-human-training-data-b390a2a2</guid>
+      <description>Researchers develop a machine learning system that classifies real versus false transient signals in sky surveys using only simulated data and uncertainty estimates.</description>
+      <pubDate>Mon, 06 Jul 2026 17:59:58 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
       <title>Researchers Propose LLM Verification Framework to Scale AI Agent Quality</title>
       <link>https://aiglimpse.ai/articles/researchers-propose-llm-verification-framework-to-scale-ai-agent-quality-5f4b7927</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/researchers-propose-llm-verification-framework-to-scale-ai-agent-quality-5f4b7927</guid>
@@ -388,22 +404,6 @@
       <guid isPermaLink="true">https://aiglimpse.ai/articles/new-method-helps-ai-models-better-use-information-in-long-documents-adee119a</guid>
       <description>ReContext improves how language models extract and apply relevant evidence from extended contexts without requiring retraining.</description>
       <pubDate>Thu, 02 Jul 2026 17:59:26 GMT</pubDate>
-      <category>AI Research</category>
-    </item>
-    <item>
-      <title>Real-Time Safety Monitors Could Catch Dangerous LLM Outputs</title>
-      <link>https://aiglimpse.ai/articles/real-time-safety-monitors-could-catch-dangerous-llm-outputs-470d2c41</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/real-time-safety-monitors-could-catch-dangerous-llm-outputs-470d2c41</guid>
-      <description>Researchers develop a simple threshold-based system to detect when large language models produce unsafe content during deployment.</description>
-      <pubDate>Thu, 02 Jul 2026 17:59:43 GMT</pubDate>
-      <category>AI Research</category>
-    </item>
-    <item>
-      <title>Researchers Shrink AI Function Calls to Lightweight Local Programs</title>
-      <link>https://aiglimpse.ai/articles/researchers-shrink-ai-function-calls-to-lightweight-local-programs-86ef1caa</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/researchers-shrink-ai-function-calls-to-lightweight-local-programs-86ef1caa</guid>
-      <description>New method compiles natural language into compact neural adapters, reducing inference costs by 98% compared to direct API calls.</description>
-      <pubDate>Thu, 02 Jul 2026 17:59:50 GMT</pubDate>
       <category>AI Research</category>
     </item>
   </channel>

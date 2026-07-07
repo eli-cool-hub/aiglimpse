@@ -3,7 +3,7 @@
 > Machine-readable index for AI assistants, answer engines, and research crawlers.
 > Summary version: https://aiglimpse.ai/llms.txt
 
-Total articles: 508 | Evergreen explainers: 11 | Generated: 2026-07-07
+Total articles: 510 | Evergreen explainers: 11 | Generated: 2026-07-07
 
 ## Evergreen explainers
 
@@ -85,6 +85,20 @@ Total articles: 508 | Evergreen explainers: 11 | Generated: 2026-07-07
 - Type: evergreen explainer (FAQ schema on page)
 
 ## All articles (newest first)
+
+### New Framework Bridges Planning and Execution Gap in Robot Manipulation
+- URL: https://aiglimpse.ai/articles/new-framework-bridges-planning-and-execution-gap-in-robot-manipulation-5f88e9f0
+- Published: 2026-07-06
+- Category: research
+- Summary: Researchers introduce Cortex, a dual-system approach that enables robots to handle complex, multi-step tasks by aligning high-level planning with low-level motor control.
+- Source: http://arxiv.org/abs/2607.05377v1
+
+### AI Model Spots Fake Astronomical Events Without Human Training Data
+- URL: https://aiglimpse.ai/articles/ai-model-spots-fake-astronomical-events-without-human-training-data-b390a2a2
+- Published: 2026-07-06
+- Category: research
+- Summary: Researchers develop a machine learning system that classifies real versus false transient signals in sky surveys using only simulated data and uncertainty estimates.
+- Source: http://arxiv.org/abs/2607.05393v1
 
 ### Researchers Propose LLM Verification Framework to Scale AI Agent Quality
 - URL: https://aiglimpse.ai/articles/researchers-propose-llm-verification-framework-to-scale-ai-agent-quality-5f4b7927
