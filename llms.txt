@@ -20,6 +20,7 @@ All content is original reporting by the AI Glimpse newsroom. Primary sources ar
 
 ## Recent articles
 
+- [Researchers Propose LLM Verification Framework to Scale AI Agent Quality](https://aiglimpse.ai/articles/researchers-propose-llm-verification-framework-to-scale-ai-agent-quality-5f4b7927) (2026-07-06): New approach treats error-checking as a scaling axis, improving how AI systems evaluate their own outputs without additional training.
 - [Researchers Show How to Reuse Weak AI Models to Train Stronger Ones](https://aiglimpse.ai/articles/researchers-show-how-to-reuse-weak-ai-models-to-train-stronger-ones-4ec29d02) (2026-07-06): A new technique called Direct-OPD lets companies skip expensive reinforcement learning on large models by transferring knowledge from cheaper training runs on smaller models.
 - [New AI Model Lets Robots Learn Camera Position Without Manual Setup](https://aiglimpse.ai/articles/new-ai-model-lets-robots-learn-camera-position-without-manual-setup-c27f768a) (2026-07-06): Researchers develop a vision-language system that adapts to camera placement variations, removing a major obstacle to real-world robot deployment.
 - [Apple Adds Voice Customization to Siri in iOS 27 Beta](https://aiglimpse.ai/articles/apple-adds-voice-customization-to-siri-in-ios-27-beta-c27dd79f) (2026-07-06): New controls let users adjust speaking speed and emotional tone as Apple overhauls its assistant with generative AI technology.
@@ -49,7 +50,6 @@ All content is original reporting by the AI Glimpse newsroom. Primary sources ar
 - [New Tokenizer Release Aims to Unlock Whisper Performance on Underserved Languages](https://aiglimpse.ai/articles/new-tokenizer-release-aims-to-unlock-whisper-performance-on-underserved-language-56e83813) (2026-07-05): Open-source per-language byte-pair encoders offer a critical fix for fine-tuning OpenAI's speech model on low-resource languages.
 - [AI Closes the Founder Gap in Regulated Healthcare Startups](https://aiglimpse.ai/articles/ai-closes-the-founder-gap-in-regulated-healthcare-startups-c7f96af2) (2026-07-04): Non-technical founders are using language models to draft investment pitches and business strategies, unlocking opportunities in underserved sectors like Medicaid.
 - [OpenAI's GPT-5.5 Codex Faces Performance Issues From Token Clustering](https://aiglimpse.ai/articles/openais-gpt-55-codex-faces-performance-issues-from-token-clustering-ecf2d92d) (2026-07-04): Developer reports suggest reasoning token concentration may be undermining code generation capabilities in the latest Codex iteration.
-- [Micron's $9.3B Japan Expansion Targets AI's Memory Bottleneck](https://aiglimpse.ai/articles/microns-93b-japan-expansion-targets-ais-memory-bottleneck-4914088d) (2026-07-04): High-bandwidth memory production emerges as the critical constraint limiting AI accelerator supply, prompting major capital investment.
 
 ## Explainers (evergreen)
 
@@ -69,7 +69,7 @@ All content is original reporting by the AI Glimpse newsroom. Primary sources ar
 
 - [Sitemap](https://aiglimpse.ai/sitemap.xml): All article URLs with publish dates (Google News format).
 - [RSS](https://aiglimpse.ai/rss.xml): 50 most recent articles (RSS 2.0).
-- [Full content index](https://aiglimpse.ai/llms-full.txt): Extended article list for LLM crawlers (507 articles).
+- [Full content index](https://aiglimpse.ai/llms-full.txt): Extended article list for LLM crawlers (508 articles).
 
 ## About
 

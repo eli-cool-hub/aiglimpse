@@ -7,6 +7,14 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Researchers Propose LLM Verification Framework to Scale AI Agent Quality</title>
+      <link>https://aiglimpse.ai/articles/researchers-propose-llm-verification-framework-to-scale-ai-agent-quality-5f4b7927</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/researchers-propose-llm-verification-framework-to-scale-ai-agent-quality-5f4b7927</guid>
+      <description>New approach treats error-checking as a scaling axis, improving how AI systems evaluate their own outputs without additional training.</description>
+      <pubDate>Mon, 06 Jul 2026 17:59:35 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
       <title>Researchers Show How to Reuse Weak AI Models to Train Stronger Ones</title>
       <link>https://aiglimpse.ai/articles/researchers-show-how-to-reuse-weak-ai-models-to-train-stronger-ones-4ec29d02</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/researchers-show-how-to-reuse-weak-ai-models-to-train-stronger-ones-4ec29d02</guid>
@@ -396,14 +404,6 @@
       <guid isPermaLink="true">https://aiglimpse.ai/articles/researchers-shrink-ai-function-calls-to-lightweight-local-programs-86ef1caa</guid>
       <description>New method compiles natural language into compact neural adapters, reducing inference costs by 98% compared to direct API calls.</description>
       <pubDate>Thu, 02 Jul 2026 17:59:50 GMT</pubDate>
-      <category>AI Research</category>
-    </item>
-    <item>
-      <title>Researchers Expose Flaws in AI Unlearning Methods</title>
-      <link>https://aiglimpse.ai/articles/researchers-expose-flaws-in-ai-unlearning-methods-2fc8af79</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/researchers-expose-flaws-in-ai-unlearning-methods-2fc8af79</guid>
-      <description>New benchmark reveals that popular techniques for erasing sensitive data from language models may merely hide knowledge rather than truly removing it.</description>
-      <pubDate>Thu, 02 Jul 2026 17:59:52 GMT</pubDate>
       <category>AI Research</category>
     </item>
   </channel>

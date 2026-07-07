@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "researchers-propose-llm-verification-framework-to-scale-ai-agent-quality-5f4b7927",
+      "title": "Researchers Propose LLM Verification Framework to Scale AI Agent Quality",
+      "subtitle": "New approach treats error-checking as a scaling axis, improving how AI systems evaluate their own outputs without additional training.",
+      "category": "research",
+      "publishedAt": "2026-07-06T17:59:35.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2607.05391v1",
+      "sourceName": "arXiv (Jacky Kwok, Shulu Li, Pranav Atreya, Yuejiang Liu, Yixing Ji…)",
+      "sourceTier": 1,
+      "image": "/images/articles/researchers-propose-llm-verification-framework-to-scale-ai-agent-quality-5f4b7927.jpg"
+    },
+    {
       "slug": "researchers-show-how-to-reuse-weak-ai-models-to-train-stronger-ones-4ec29d02",
       "title": "Researchers Show How to Reuse Weak AI Models to Train Stronger Ones",
       "subtitle": "A new technique called Direct-OPD lets companies skip expensive reinforcement learning on large models by transferring knowledge from cheaper training runs on smaller models.",
@@ -6093,6 +6104,7 @@
     "323263db7abb0336",
     "c27dd79f9cbd9aad",
     "c27f768a7c5ec7f4",
-    "4ec29d0273b7cccd"
+    "4ec29d0273b7cccd",
+    "5f4b7927e3604684"
   ]
 }
