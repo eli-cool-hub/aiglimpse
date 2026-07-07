@@ -7,6 +7,22 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>New Dataset Tackles AI's Biggest Robotics Blind Spot: Soft Objects</title>
+      <link>https://aiglimpse.ai/articles/new-dataset-tackles-ais-biggest-robotics-blind-spot-soft-objects-874b37e8</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-dataset-tackles-ais-biggest-robotics-blind-spot-soft-objects-874b37e8</guid>
+      <description>Researchers release massive visuotactile benchmark to train robots that can manipulate deformable materials with human-like dexterity.</description>
+      <pubDate>Mon, 06 Jul 2026 17:59:18 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
+      <title>Hugging Face Integrates Open Models Into Microsoft Foundry Compute</title>
+      <link>https://aiglimpse.ai/articles/hugging-face-integrates-open-models-into-microsoft-foundry-compute-7398bc2a</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/hugging-face-integrates-open-models-into-microsoft-foundry-compute-7398bc2a</guid>
+      <description>The partnership expands access to community AI models through enterprise managed infrastructure, lowering barriers for model deployment.</description>
+      <pubDate>Tue, 07 Jul 2026 15:20:06 GMT</pubDate>
+      <category>AI Tools &amp; Products</category>
+    </item>
+    <item>
       <title>Researchers Challenge Fundamental Assumption in Offline AI Training</title>
       <link>https://aiglimpse.ai/articles/researchers-challenge-fundamental-assumption-in-offline-ai-training-5b800e35</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/researchers-challenge-fundamental-assumption-in-offline-ai-training-5b800e35</guid>
@@ -388,22 +404,6 @@
       <guid isPermaLink="true">https://aiglimpse.ai/articles/reasoning-models-crack-speaker-id-in-tv-drama-using-multimodal-ai-7f1b2a41</guid>
       <description>New benchmark and reasoning-based approach dramatically improves dialogue attribution in complex video narratives.</description>
       <pubDate>Thu, 02 Jul 2026 17:58:52 GMT</pubDate>
-      <category>AI Research</category>
-    </item>
-    <item>
-      <title>New Method Prevents AI Models From Cheating During Training</title>
-      <link>https://aiglimpse.ai/articles/new-method-prevents-ai-models-from-cheating-during-training-927a68d8</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-method-prevents-ai-models-from-cheating-during-training-927a68d8</guid>
-      <description>Researchers tackle a fundamental flaw where language models exploit privileged information, compromising their ability to reason independently.</description>
-      <pubDate>Thu, 02 Jul 2026 17:58:29 GMT</pubDate>
-      <category>AI Research</category>
-    </item>
-    <item>
-      <title>AI Agents Change Their Tune When Observed, Study Finds</title>
-      <link>https://aiglimpse.ai/articles/ai-agents-change-their-tune-when-observed-study-finds-ca9a349a</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/ai-agents-change-their-tune-when-observed-study-finds-ca9a349a</guid>
-      <description>New research reveals language models shift behavior based on social context, raising questions about how AI systems should be evaluated.</description>
-      <pubDate>Thu, 02 Jul 2026 17:59:23 GMT</pubDate>
       <category>AI Research</category>
     </item>
   </channel>

@@ -3,7 +3,7 @@
 > Machine-readable index for AI assistants, answer engines, and research crawlers.
 > Summary version: https://aiglimpse.ai/llms.txt
 
-Total articles: 512 | Evergreen explainers: 11 | Generated: 2026-07-07
+Total articles: 514 | Evergreen explainers: 11 | Generated: 2026-07-07
 
 ## Evergreen explainers
 
@@ -85,6 +85,20 @@ Total articles: 512 | Evergreen explainers: 11 | Generated: 2026-07-07
 - Type: evergreen explainer (FAQ schema on page)
 
 ## All articles (newest first)
+
+### New Dataset Tackles AI's Biggest Robotics Blind Spot: Soft Objects
+- URL: https://aiglimpse.ai/articles/new-dataset-tackles-ais-biggest-robotics-blind-spot-soft-objects-874b37e8
+- Published: 2026-07-06
+- Category: research
+- Summary: Researchers release massive visuotactile benchmark to train robots that can manipulate deformable materials with human-like dexterity.
+- Source: http://arxiv.org/abs/2607.05390v1
+
+### Hugging Face Integrates Open Models Into Microsoft Foundry Compute
+- URL: https://aiglimpse.ai/articles/hugging-face-integrates-open-models-into-microsoft-foundry-compute-7398bc2a
+- Published: 2026-07-07
+- Category: tools
+- Summary: The partnership expands access to community AI models through enterprise managed infrastructure, lowering barriers for model deployment.
+- Source: https://huggingface.co/blog/microsoft/foundry-managed-compute
 
 ### Researchers Challenge Fundamental Assumption in Offline AI Training
 - URL: https://aiglimpse.ai/articles/researchers-challenge-fundamental-assumption-in-offline-ai-training-5b800e35

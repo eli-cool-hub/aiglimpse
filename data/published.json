@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "new-dataset-tackles-ais-biggest-robotics-blind-spot-soft-objects-874b37e8",
+      "title": "New Dataset Tackles AI's Biggest Robotics Blind Spot: Soft Objects",
+      "subtitle": "Researchers release massive visuotactile benchmark to train robots that can manipulate deformable materials with human-like dexterity.",
+      "category": "research",
+      "publishedAt": "2026-07-06T17:59:18.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2607.05390v1",
+      "sourceName": "arXiv (Hongyu Li, Wanjia Fu, Xiaoyan Cong, Zekun Li, Binghao Huang,…)",
+      "sourceTier": 1,
+      "image": "/images/articles/new-dataset-tackles-ais-biggest-robotics-blind-spot-soft-objects-874b37e8.jpg"
+    },
+    {
+      "slug": "hugging-face-integrates-open-models-into-microsoft-foundry-compute-7398bc2a",
+      "title": "Hugging Face Integrates Open Models Into Microsoft Foundry Compute",
+      "subtitle": "The partnership expands access to community AI models through enterprise managed infrastructure, lowering barriers for model deployment.",
+      "category": "tools",
+      "publishedAt": "2026-07-07T15:20:06.000Z",
+      "sourceUrl": "https://huggingface.co/blog/microsoft/foundry-managed-compute",
+      "sourceName": "Hugging Face",
+      "sourceTier": 1,
+      "image": "/images/articles/hugging-face-integrates-open-models-into-microsoft-foundry-compute-7398bc2a.jpg"
+    },
+    {
       "slug": "researchers-challenge-fundamental-assumption-in-offline-ai-training-5b800e35",
       "title": "Researchers Challenge Fundamental Assumption in Offline AI Training",
       "subtitle": "New method for evaluating AI decision-making policies eliminates a key mathematical requirement, potentially making offline reinforcement learning more practical.",
@@ -6153,6 +6175,8 @@
     "b390a2a29672f2fd",
     "5f88e9f0fcace99b",
     "17292ac7edb7d0af",
-    "5b800e354184d057"
+    "5b800e354184d057",
+    "7398bc2a09f40e79",
+    "874b37e89b00bdfd"
   ]
 }

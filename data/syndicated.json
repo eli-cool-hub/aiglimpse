@@ -6680,6 +6680,42 @@
         "devto": true,
         "hashnode": false
       }
+    },
+    "hugging-face-integrates-open-models-into-microsoft-foundry-compute-7398bc2a": {
+      "syndicated_at": "2026-07-07T18:02:03.389Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/hugging-face-integrates-open-models-into-microsoft-foundry-compute-48o",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 457,
+      "category": "tools",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
+    },
+    "new-dataset-tackles-ais-biggest-robotics-blind-spot-soft-objects-874b37e8": {
+      "syndicated_at": "2026-07-07T18:02:16.390Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/new-dataset-tackles-ais-biggest-robotics-blind-spot-soft-objects-6bi",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 504,
+      "category": "research",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
     }
   }
 }
