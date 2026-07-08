@@ -7,6 +7,22 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>OpenAI and Walton Foundation Launch Teacher Training in AI</title>
+      <link>https://aiglimpse.ai/articles/openai-and-walton-foundation-launch-teacher-training-in-ai-bb7f3626</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/openai-and-walton-foundation-launch-teacher-training-in-ai-bb7f3626</guid>
+      <description>A new initiative aims to equip K-12 educators with the skills needed to integrate artificial intelligence into their classrooms.</description>
+      <pubDate>Wed, 08 Jul 2026 10:00:00 GMT</pubDate>
+      <category>LLMs &amp; Chatbots</category>
+    </item>
+    <item>
+      <title>NVIDIA and Hugging Face Release Open Dataset Standards for AI Agents</title>
+      <link>https://aiglimpse.ai/articles/nvidia-and-hugging-face-release-open-dataset-standards-for-ai-agents-8c78169d</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/nvidia-and-hugging-face-release-open-dataset-standards-for-ai-agents-8c78169d</guid>
+      <description>A new collaborative initiative aims to democratize training data for autonomous AI systems, addressing a critical bottleneck in agent development.</description>
+      <pubDate>Wed, 08 Jul 2026 17:16:05 GMT</pubDate>
+      <category>AI Tools &amp; Products</category>
+    </item>
+    <item>
       <title>Single AI Model Now Handles Multiple Vision Tasks Without Specialized Designs</title>
       <link>https://aiglimpse.ai/articles/single-ai-model-now-handles-multiple-vision-tasks-without-specialized-designs-4b925638</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/single-ai-model-now-handles-multiple-vision-tasks-without-specialized-designs-4b925638</guid>
@@ -389,22 +405,6 @@
       <description>Developer reports suggest reasoning token concentration may be undermining code generation capabilities in the latest Codex iteration.</description>
       <pubDate>Sat, 04 Jul 2026 21:51:09 GMT</pubDate>
       <category>AI Tools &amp; Products</category>
-    </item>
-    <item>
-      <title>Micron's $9.3B Japan Expansion Targets AI's Memory Bottleneck</title>
-      <link>https://aiglimpse.ai/articles/microns-93b-japan-expansion-targets-ais-memory-bottleneck-4914088d</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/microns-93b-japan-expansion-targets-ais-memory-bottleneck-4914088d</guid>
-      <description>High-bandwidth memory production emerges as the critical constraint limiting AI accelerator supply, prompting major capital investment.</description>
-      <pubDate>Sat, 04 Jul 2026 00:00:00 GMT</pubDate>
-      <category>Industry Applications</category>
-    </item>
-    <item>
-      <title>Google's July 4th Ad Imagines AI Rewriting American History</title>
-      <link>https://aiglimpse.ai/articles/googles-july-4th-ad-imagines-ai-rewriting-american-history-87bc1971</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/googles-july-4th-ad-imagines-ai-rewriting-american-history-87bc1971</guid>
-      <description>A new commercial explores how generative AI might have shaped the nation's founding document, raising questions about AI's role in creative and institutional work.</description>
-      <pubDate>Sat, 04 Jul 2026 20:55:25 GMT</pubDate>
-      <category>AI Business</category>
     </item>
   </channel>
 </rss>

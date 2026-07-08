@@ -6932,6 +6932,42 @@
         "devto": true,
         "hashnode": false
       }
+    },
+    "nvidia-and-hugging-face-release-open-dataset-standards-for-ai-agents-8c78169d": {
+      "syndicated_at": "2026-07-08T17:39:33.523Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/nvidia-and-hugging-face-release-open-dataset-standards-for-ai-agents-mk6",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 430,
+      "category": "tools",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
+    },
+    "openai-and-walton-foundation-launch-teacher-training-in-ai-bb7f3626": {
+      "syndicated_at": "2026-07-08T17:39:43.831Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/openai-and-walton-foundation-launch-teacher-training-in-ai-2b4p",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 501,
+      "category": "llms",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
     }
   }
 }
