@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "mufg-banks-on-openai-to-overhaul-operations-with-enterprise-ai-f45ffa9f",
+      "title": "MUFG Banks on OpenAI to Overhaul Operations with Enterprise AI",
+      "subtitle": "Japan's largest bank deploys ChatGPT Enterprise to restructure workflows and launch AI-driven financial products at scale.",
+      "category": "llms",
+      "publishedAt": "2026-07-07T00:00:00.000Z",
+      "sourceUrl": "https://openai.com/index/mufg",
+      "sourceName": "OpenAI",
+      "sourceTier": 1,
+      "image": "/images/articles/mufg-banks-on-openai-to-overhaul-operations-with-enterprise-ai-f45ffa9f.jpg"
+    },
+    {
+      "slug": "new-framework-teaches-robots-to-manipulate-objects-with-3d-awareness-35c18c4d",
+      "title": "New Framework Teaches Robots to Manipulate Objects With 3D Awareness",
+      "subtitle": "Lift3D-VLA combines spatial reasoning with action prediction to dramatically improve robotic task performance in simulation and the real world.",
+      "category": "research",
+      "publishedAt": "2026-07-07T17:59:47.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2607.06564v1",
+      "sourceName": "arXiv (Jiaming Liu, Qingpo Wuwu, Nuowei Han, Hao Chen, Zhuoyang Liu…)",
+      "sourceTier": 1,
+      "image": "/images/articles/new-framework-teaches-robots-to-manipulate-objects-with-3d-awareness-35c18c4d.jpg"
+    },
+    {
       "slug": "prompt-engineering-guide-2026",
       "title": "Prompt Engineering in 2026: Patterns That Work in Production",
       "subtitle": "The system prompts, few-shot techniques, and evaluation loops that ship in real LLM applications",
@@ -6285,6 +6307,8 @@
     "51efb43b9f963964",
     "cee5c3c0ed19c3e6",
     "b4067436a39987b0",
-    "581f9dc8741e6ef0"
+    "581f9dc8741e6ef0",
+    "35c18c4d726d83ba",
+    "f45ffa9fdbbccc3e"
   ]
 }

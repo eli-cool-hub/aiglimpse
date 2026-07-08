@@ -7,6 +7,30 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>MUFG Banks on OpenAI to Overhaul Operations with Enterprise AI</title>
+      <link>https://aiglimpse.ai/articles/mufg-banks-on-openai-to-overhaul-operations-with-enterprise-ai-f45ffa9f</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/mufg-banks-on-openai-to-overhaul-operations-with-enterprise-ai-f45ffa9f</guid>
+      <description>Japan's largest bank deploys ChatGPT Enterprise to restructure workflows and launch AI-driven financial products at scale.</description>
+      <pubDate>Tue, 07 Jul 2026 00:00:00 GMT</pubDate>
+      <category>LLMs &amp; Chatbots</category>
+    </item>
+    <item>
+      <title>New Framework Teaches Robots to Manipulate Objects With 3D Awareness</title>
+      <link>https://aiglimpse.ai/articles/new-framework-teaches-robots-to-manipulate-objects-with-3d-awareness-35c18c4d</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-framework-teaches-robots-to-manipulate-objects-with-3d-awareness-35c18c4d</guid>
+      <description>Lift3D-VLA combines spatial reasoning with action prediction to dramatically improve robotic task performance in simulation and the real world.</description>
+      <pubDate>Tue, 07 Jul 2026 17:59:47 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
+      <title>Prompt Engineering in 2026: Patterns That Work in Production</title>
+      <link>https://aiglimpse.ai/articles/prompt-engineering-guide-2026</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/prompt-engineering-guide-2026</guid>
+      <description>The system prompts, few-shot techniques, and evaluation loops that ship in real LLM applications</description>
+      <pubDate>Wed, 08 Jul 2026 08:11:39 GMT</pubDate>
+      <category>LLMs &amp; Chatbots</category>
+    </item>
+    <item>
       <title>AI Can Parse Animal Communication Without Training Data, Study Shows</title>
       <link>https://aiglimpse.ai/articles/ai-can-parse-animal-communication-without-training-data-study-shows-581f9dc8</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/ai-can-parse-animal-communication-without-training-data-study-shows-581f9dc8</guid>
@@ -380,30 +404,6 @@
       <guid isPermaLink="true">https://aiglimpse.ai/articles/mistral-ai-builds-open-source-challenge-to-openais-dominance-41580820</guid>
       <description>The French AI startup is democratizing frontier models through open-source releases and substantial funding rounds.</description>
       <pubDate>Sat, 04 Jul 2026 15:51:32 GMT</pubDate>
-      <category>AI Business</category>
-    </item>
-    <item>
-      <title>Midjourney Demands Hollywood Studios Disclose Their Own AI Practices</title>
-      <link>https://aiglimpse.ai/articles/midjourney-demands-hollywood-studios-disclose-their-own-ai-practices-48db644a</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/midjourney-demands-hollywood-studios-disclose-their-own-ai-practices-48db644a</guid>
-      <description>The image generator is using discovery procedures to expose potential hypocrisy in a major lawsuit over AI training data.</description>
-      <pubDate>Sat, 04 Jul 2026 18:00:05 GMT</pubDate>
-      <category>AI Business</category>
-    </item>
-    <item>
-      <title>Medical AI Models Learn to Show Their Work, Not Just Answers</title>
-      <link>https://aiglimpse.ai/articles/medical-ai-models-learn-to-show-their-work-not-just-answers-1a4c7656</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/medical-ai-models-learn-to-show-their-work-not-just-answers-1a4c7656</guid>
-      <description>Researchers demonstrate that training language models to explain clinical reasoning step by step could unlock safer, more transparent healthcare AI.</description>
-      <pubDate>Sat, 04 Jul 2026 00:00:00 GMT</pubDate>
-      <category>AI Research</category>
-    </item>
-    <item>
-      <title>Alibaba Restricts Access to Anthropic's Claude Code Amid Security Concerns</title>
-      <link>https://aiglimpse.ai/articles/alibaba-restricts-access-to-anthropics-claude-code-amid-security-concerns-2a76d2cf</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/alibaba-restricts-access-to-anthropics-claude-code-amid-security-concerns-2a76d2cf</guid>
-      <description>The Chinese tech giant has flagged Claude Code as high-risk, signaling growing corporate caution around third-party AI coding tools.</description>
-      <pubDate>Sat, 04 Jul 2026 16:32:08 GMT</pubDate>
       <category>AI Business</category>
     </item>
   </channel>
