@@ -3,7 +3,7 @@
 > Machine-readable index for AI assistants, answer engines, and research crawlers.
 > Summary version: https://aiglimpse.ai/llms.txt
 
-Total articles: 532 | Evergreen explainers: 12 | Generated: 2026-07-08
+Total articles: 534 | Evergreen explainers: 12 | Generated: 2026-07-08
 
 ## Evergreen explainers
 
@@ -92,6 +92,20 @@ Total articles: 532 | Evergreen explainers: 12 | Generated: 2026-07-08
 - Type: evergreen explainer (FAQ schema on page)
 
 ## All articles (newest first)
+
+### New AI Method Tracks Object Movement Without 3D Models or Depth Data
+- URL: https://aiglimpse.ai/articles/new-ai-method-tracks-object-movement-without-3d-models-or-depth-data-b3c6e165
+- Published: 2026-07-07
+- Category: research
+- Summary: ProxyPose uses video translation to simplify 6-DoF pose tracking, eliminating dependencies that have hindered computer vision systems for decades.
+- Source: http://arxiv.org/abs/2607.06555v1
+
+### Hugging Face and vLLM Join Forces to Accelerate Model Inference
+- URL: https://aiglimpse.ai/articles/hugging-face-and-vllm-join-forces-to-accelerate-model-inference-6f28be85
+- Published: 2026-07-08
+- Category: tools
+- Summary: A new integration brings native-speed performance to transformer deployments, reducing latency for language model applications at scale.
+- Source: https://huggingface.co/blog/native-speed-vllm-transformers-backend
 
 ### OpenAI Study Questions Reliability of Popular Code Benchmark
 - URL: https://aiglimpse.ai/articles/openai-study-questions-reliability-of-popular-code-benchmark-b157b014

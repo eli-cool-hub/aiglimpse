@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "new-ai-method-tracks-object-movement-without-3d-models-or-depth-data-b3c6e165",
+      "title": "New AI Method Tracks Object Movement Without 3D Models or Depth Data",
+      "subtitle": "ProxyPose uses video translation to simplify 6-DoF pose tracking, eliminating dependencies that have hindered computer vision systems for decades.",
+      "category": "research",
+      "publishedAt": "2026-07-07T17:56:07.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2607.06555v1",
+      "sourceName": "arXiv (Ruihang Zhang, Felix Taubner, Pooja Ravi, Kiriakos N. Kutula…)",
+      "sourceTier": 1,
+      "image": "/images/articles/new-ai-method-tracks-object-movement-without-3d-models-or-depth-data-b3c6e165.jpg"
+    },
+    {
+      "slug": "hugging-face-and-vllm-join-forces-to-accelerate-model-inference-6f28be85",
+      "title": "Hugging Face and vLLM Join Forces to Accelerate Model Inference",
+      "subtitle": "A new integration brings native-speed performance to transformer deployments, reducing latency for language model applications at scale.",
+      "category": "tools",
+      "publishedAt": "2026-07-08T00:00:00.000Z",
+      "sourceUrl": "https://huggingface.co/blog/native-speed-vllm-transformers-backend",
+      "sourceName": "Hugging Face",
+      "sourceTier": 1,
+      "image": "/images/articles/hugging-face-and-vllm-join-forces-to-accelerate-model-inference-6f28be85.jpg"
+    },
+    {
       "slug": "openai-study-questions-reliability-of-popular-code-benchmark-b157b014",
       "title": "OpenAI Study Questions Reliability of Popular Code Benchmark",
       "subtitle": "A critical examination of SWE-Bench Pro reveals methodological flaws that could skew how the industry measures AI coding capabilities.",
@@ -6393,6 +6415,8 @@
     "ef00787bf9ae2dfa",
     "c897305c3407a0fc",
     "0ffd7e6c634cf3a6",
-    "b157b01498a3c79a"
+    "b157b01498a3c79a",
+    "6f28be8550fed300",
+    "b3c6e165ff65dba0"
   ]
 }

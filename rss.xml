@@ -7,6 +7,22 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>New AI Method Tracks Object Movement Without 3D Models or Depth Data</title>
+      <link>https://aiglimpse.ai/articles/new-ai-method-tracks-object-movement-without-3d-models-or-depth-data-b3c6e165</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-ai-method-tracks-object-movement-without-3d-models-or-depth-data-b3c6e165</guid>
+      <description>ProxyPose uses video translation to simplify 6-DoF pose tracking, eliminating dependencies that have hindered computer vision systems for decades.</description>
+      <pubDate>Tue, 07 Jul 2026 17:56:07 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
+      <title>Hugging Face and vLLM Join Forces to Accelerate Model Inference</title>
+      <link>https://aiglimpse.ai/articles/hugging-face-and-vllm-join-forces-to-accelerate-model-inference-6f28be85</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/hugging-face-and-vllm-join-forces-to-accelerate-model-inference-6f28be85</guid>
+      <description>A new integration brings native-speed performance to transformer deployments, reducing latency for language model applications at scale.</description>
+      <pubDate>Wed, 08 Jul 2026 00:00:00 GMT</pubDate>
+      <category>AI Tools &amp; Products</category>
+    </item>
+    <item>
       <title>OpenAI Study Questions Reliability of Popular Code Benchmark</title>
       <link>https://aiglimpse.ai/articles/openai-study-questions-reliability-of-popular-code-benchmark-b157b014</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/openai-study-questions-reliability-of-popular-code-benchmark-b157b014</guid>
@@ -389,22 +405,6 @@
       <description>A technical comparison of four leading models: quality, pricing, licensing, and which to pick for your workflow.</description>
       <pubDate>Sun, 05 Jul 2026 08:38:04 GMT</pubDate>
       <category>AI Tools &amp; Products</category>
-    </item>
-    <item>
-      <title>Legal Scholar Pushes Corporate Accountability as Path to AI Privacy Reform</title>
-      <link>https://aiglimpse.ai/articles/legal-scholar-pushes-corporate-accountability-as-path-to-ai-privacy-reform-d86a0b3b</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/legal-scholar-pushes-corporate-accountability-as-path-to-ai-privacy-reform-d86a0b3b</guid>
-      <description>Experts argue that treating AI systems as consumer products could force meaningful data practices before federal regulation arrives.</description>
-      <pubDate>Sun, 05 Jul 2026 00:00:00 GMT</pubDate>
-      <category>Ethics &amp; Policy</category>
-    </item>
-    <item>
-      <title>Open Source Whisper Fine-Tuning Starter Offers Practical Template</title>
-      <link>https://aiglimpse.ai/articles/open-source-whisper-fine-tuning-starter-offers-practical-template-92e75e20</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/open-source-whisper-fine-tuning-starter-offers-practical-template-92e75e20</guid>
-      <description>New MIT-licensed toolkit with Kubernetes configs lowers barriers for developers adapting OpenAI's speech model to multilingual datasets.</description>
-      <pubDate>Sun, 05 Jul 2026 00:00:00 GMT</pubDate>
-      <category>AI Business</category>
     </item>
   </channel>
 </rss>
