@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "openai-study-questions-reliability-of-popular-code-benchmark-b157b014",
+      "title": "OpenAI Study Questions Reliability of Popular Code Benchmark",
+      "subtitle": "A critical examination of SWE-Bench Pro reveals methodological flaws that could skew how the industry measures AI coding capabilities.",
+      "category": "llms",
+      "publishedAt": "2026-07-08T13:00:00.000Z",
+      "sourceUrl": "https://openai.com/index/separating-signal-from-noise-coding-evaluations",
+      "sourceName": "OpenAI",
+      "sourceTier": 1,
+      "image": "/images/articles/openai-study-questions-reliability-of-popular-code-benchmark-b157b014.jpg"
+    },
+    {
+      "slug": "openai-outlines-framework-for-government-ai-partnerships-0ffd7e6c",
+      "title": "OpenAI Outlines Framework for Government AI Partnerships",
+      "subtitle": "The company details principles balancing national security collaboration with democratic oversight and responsible AI deployment.",
+      "category": "llms",
+      "publishedAt": "2026-07-08T13:30:00.000Z",
+      "sourceUrl": "https://openai.com/index/government-national-security-partnerships",
+      "sourceName": "OpenAI",
+      "sourceTier": 1,
+      "image": "/images/articles/openai-outlines-framework-for-government-ai-partnerships-0ffd7e6c.jpg"
+    },
+    {
       "slug": "google-photos-deploys-generative-ai-to-transform-video-content-c897305c",
       "title": "Google Photos Deploys Generative AI to Transform Video Content",
       "subtitle": "New machine learning capabilities let users apply cinematic effects, swap backgrounds, and stylize videos without manual editing expertise.",
@@ -6369,6 +6391,8 @@
     "8c78169dc35fcc3d",
     "bb7f3626973d35f2",
     "ef00787bf9ae2dfa",
-    "c897305c3407a0fc"
+    "c897305c3407a0fc",
+    "0ffd7e6c634cf3a6",
+    "b157b01498a3c79a"
   ]
 }

@@ -7,6 +7,22 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>OpenAI Study Questions Reliability of Popular Code Benchmark</title>
+      <link>https://aiglimpse.ai/articles/openai-study-questions-reliability-of-popular-code-benchmark-b157b014</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/openai-study-questions-reliability-of-popular-code-benchmark-b157b014</guid>
+      <description>A critical examination of SWE-Bench Pro reveals methodological flaws that could skew how the industry measures AI coding capabilities.</description>
+      <pubDate>Wed, 08 Jul 2026 13:00:00 GMT</pubDate>
+      <category>LLMs &amp; Chatbots</category>
+    </item>
+    <item>
+      <title>OpenAI Outlines Framework for Government AI Partnerships</title>
+      <link>https://aiglimpse.ai/articles/openai-outlines-framework-for-government-ai-partnerships-0ffd7e6c</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/openai-outlines-framework-for-government-ai-partnerships-0ffd7e6c</guid>
+      <description>The company details principles balancing national security collaboration with democratic oversight and responsible AI deployment.</description>
+      <pubDate>Wed, 08 Jul 2026 13:30:00 GMT</pubDate>
+      <category>LLMs &amp; Chatbots</category>
+    </item>
+    <item>
       <title>Google Photos Deploys Generative AI to Transform Video Content</title>
       <link>https://aiglimpse.ai/articles/google-photos-deploys-generative-ai-to-transform-video-content-c897305c</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/google-photos-deploys-generative-ai-to-transform-video-content-c897305c</guid>
@@ -387,22 +403,6 @@
       <link>https://aiglimpse.ai/articles/open-source-whisper-fine-tuning-starter-offers-practical-template-92e75e20</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/open-source-whisper-fine-tuning-starter-offers-practical-template-92e75e20</guid>
       <description>New MIT-licensed toolkit with Kubernetes configs lowers barriers for developers adapting OpenAI's speech model to multilingual datasets.</description>
-      <pubDate>Sun, 05 Jul 2026 00:00:00 GMT</pubDate>
-      <category>AI Business</category>
-    </item>
-    <item>
-      <title>Study: Repository Overview Files Harm AI Coding Agent Performance</title>
-      <link>https://aiglimpse.ai/articles/study-repository-overview-files-harm-ai-coding-agent-performance-58fe16ba</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/study-repository-overview-files-harm-ai-coding-agent-performance-58fe16ba</guid>
-      <description>Research reveals popular documentation conventions reduce task success rates by over 20% without improving agent capabilities.</description>
-      <pubDate>Sun, 05 Jul 2026 00:00:00 GMT</pubDate>
-      <category>AI Research</category>
-    </item>
-    <item>
-      <title>New Tokenizer Release Aims to Unlock Whisper Performance on Underserved Languages</title>
-      <link>https://aiglimpse.ai/articles/new-tokenizer-release-aims-to-unlock-whisper-performance-on-underserved-language-56e83813</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-tokenizer-release-aims-to-unlock-whisper-performance-on-underserved-language-56e83813</guid>
-      <description>Open-source per-language byte-pair encoders offer a critical fix for fine-tuning OpenAI's speech model on low-resource languages.</description>
       <pubDate>Sun, 05 Jul 2026 00:00:00 GMT</pubDate>
       <category>AI Business</category>
     </item>
