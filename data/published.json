@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "single-ai-model-now-handles-multiple-vision-tasks-without-specialized-designs-4b925638",
+      "title": "Single AI Model Now Handles Multiple Vision Tasks Without Specialized Designs",
+      "subtitle": "Researchers demonstrate that unified multimodal generation can consolidate diverse computer vision capabilities into one foundation model.",
+      "category": "research",
+      "publishedAt": "2026-07-07T17:58:33.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2607.06560v1",
+      "sourceName": "arXiv (Xiaoyang Han, Jianhua Li, Kewang Deng, Zukai Chen, Xuanke Sh…)",
+      "sourceTier": 1,
+      "image": "/images/articles/single-ai-model-now-handles-multiple-vision-tasks-without-specialized-designs-4b925638.jpg"
+    },
+    {
       "slug": "mufg-banks-on-openai-to-overhaul-operations-with-enterprise-ai-f45ffa9f",
       "title": "MUFG Banks on OpenAI to Overhaul Operations with Enterprise AI",
       "subtitle": "Japan's largest bank deploys ChatGPT Enterprise to restructure workflows and launch AI-driven financial products at scale.",
@@ -6309,6 +6320,7 @@
     "b4067436a39987b0",
     "581f9dc8741e6ef0",
     "35c18c4d726d83ba",
-    "f45ffa9fdbbccc3e"
+    "f45ffa9fdbbccc3e",
+    "4b92563813cccc9a"
   ]
 }
