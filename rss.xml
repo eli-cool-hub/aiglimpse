@@ -7,6 +7,22 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Google Photos Deploys Generative AI to Transform Video Content</title>
+      <link>https://aiglimpse.ai/articles/google-photos-deploys-generative-ai-to-transform-video-content-c897305c</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/google-photos-deploys-generative-ai-to-transform-video-content-c897305c</guid>
+      <description>New machine learning capabilities let users apply cinematic effects, swap backgrounds, and stylize videos without manual editing expertise.</description>
+      <pubDate>Wed, 08 Jul 2026 18:30:08 GMT</pubDate>
+      <category>AI Business</category>
+    </item>
+    <item>
+      <title>OpenAI Unveils Next-Gen Voice Models for Natural AI Conversations</title>
+      <link>https://aiglimpse.ai/articles/openai-unveils-next-gen-voice-models-for-natural-ai-conversations-ef00787b</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/openai-unveils-next-gen-voice-models-for-natural-ai-conversations-ef00787b</guid>
+      <description>New speech technology powers ChatGPT Voice with improved naturalness and responsiveness in human-AI dialogue.</description>
+      <pubDate>Wed, 08 Jul 2026 00:00:00 GMT</pubDate>
+      <category>LLMs &amp; Chatbots</category>
+    </item>
+    <item>
       <title>OpenAI and Walton Foundation Launch Teacher Training in AI</title>
       <link>https://aiglimpse.ai/articles/openai-and-walton-foundation-launch-teacher-training-in-ai-bb7f3626</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/openai-and-walton-foundation-launch-teacher-training-in-ai-bb7f3626</guid>
@@ -389,22 +405,6 @@
       <description>Open-source per-language byte-pair encoders offer a critical fix for fine-tuning OpenAI's speech model on low-resource languages.</description>
       <pubDate>Sun, 05 Jul 2026 00:00:00 GMT</pubDate>
       <category>AI Business</category>
-    </item>
-    <item>
-      <title>AI Closes the Founder Gap in Regulated Healthcare Startups</title>
-      <link>https://aiglimpse.ai/articles/ai-closes-the-founder-gap-in-regulated-healthcare-startups-c7f96af2</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/ai-closes-the-founder-gap-in-regulated-healthcare-startups-c7f96af2</guid>
-      <description>Non-technical founders are using language models to draft investment pitches and business strategies, unlocking opportunities in underserved sectors like Medicaid.</description>
-      <pubDate>Sat, 04 Jul 2026 00:00:00 GMT</pubDate>
-      <category>Industry Applications</category>
-    </item>
-    <item>
-      <title>OpenAI's GPT-5.5 Codex Faces Performance Issues From Token Clustering</title>
-      <link>https://aiglimpse.ai/articles/openais-gpt-55-codex-faces-performance-issues-from-token-clustering-ecf2d92d</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/openais-gpt-55-codex-faces-performance-issues-from-token-clustering-ecf2d92d</guid>
-      <description>Developer reports suggest reasoning token concentration may be undermining code generation capabilities in the latest Codex iteration.</description>
-      <pubDate>Sat, 04 Jul 2026 21:51:09 GMT</pubDate>
-      <category>AI Tools &amp; Products</category>
     </item>
   </channel>
 </rss>

@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "google-photos-deploys-generative-ai-to-transform-video-content-c897305c",
+      "title": "Google Photos Deploys Generative AI to Transform Video Content",
+      "subtitle": "New machine learning capabilities let users apply cinematic effects, swap backgrounds, and stylize videos without manual editing expertise.",
+      "category": "business",
+      "publishedAt": "2026-07-08T18:30:08.000Z",
+      "sourceUrl": "https://techcrunch.com/2026/07/08/google-photos-adds-a-new-ai-video-remix-tool/",
+      "sourceName": "TechCrunch AI",
+      "sourceTier": 2,
+      "image": "/images/articles/google-photos-deploys-generative-ai-to-transform-video-content-c897305c.jpg"
+    },
+    {
+      "slug": "openai-unveils-next-gen-voice-models-for-natural-ai-conversations-ef00787b",
+      "title": "OpenAI Unveils Next-Gen Voice Models for Natural AI Conversations",
+      "subtitle": "New speech technology powers ChatGPT Voice with improved naturalness and responsiveness in human-AI dialogue.",
+      "category": "llms",
+      "publishedAt": "2026-07-08T00:00:00.000Z",
+      "sourceUrl": "https://openai.com/index/introducing-gpt-live",
+      "sourceName": "OpenAI",
+      "sourceTier": 1,
+      "image": "/images/articles/openai-unveils-next-gen-voice-models-for-natural-ai-conversations-ef00787b.jpg"
+    },
+    {
       "slug": "openai-and-walton-foundation-launch-teacher-training-in-ai-bb7f3626",
       "title": "OpenAI and Walton Foundation Launch Teacher Training in AI",
       "subtitle": "A new initiative aims to equip K-12 educators with the skills needed to integrate artificial intelligence into their classrooms.",
@@ -6345,6 +6367,8 @@
     "f45ffa9fdbbccc3e",
     "4b92563813cccc9a",
     "8c78169dc35fcc3d",
-    "bb7f3626973d35f2"
+    "bb7f3626973d35f2",
+    "ef00787bf9ae2dfa",
+    "c897305c3407a0fc"
   ]
 }
