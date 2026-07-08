@@ -6860,6 +6860,24 @@
         "devto": true,
         "hashnode": false
       }
+    },
+    "prompt-engineering-guide-2026": {
+      "syndicated_at": "2026-07-08T08:11:42.606Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/prompt-engineering-in-2026-patterns-that-work-in-production-4n1j",
+      "hashnode": null,
+      "gates": {
+        "medium": true,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 2596,
+      "category": "llms",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
     }
   }
 }

@@ -1,6 +1,18 @@
 {
   "articles": [
     {
+      "slug": "prompt-engineering-guide-2026",
+      "title": "Prompt Engineering in 2026: Patterns That Work in Production",
+      "subtitle": "The system prompts, few-shot techniques, and evaluation loops that ship in real LLM applications",
+      "category": "llms",
+      "publishedAt": "2026-07-08T08:11:39.499Z",
+      "sourceUrl": null,
+      "sourceName": "AI Glimpse Newsroom",
+      "sourceTier": 0,
+      "image": "/images/articles/prompt-engineering-guide-2026.jpg",
+      "evergreen": true
+    },
+    {
       "slug": "ai-can-parse-animal-communication-without-training-data-study-shows-581f9dc8",
       "title": "AI Can Parse Animal Communication Without Training Data, Study Shows",
       "subtitle": "Researchers demonstrate that machine learning models can evaluate the accuracy of primate vocalizations and gestures without human-created reference standards.",
