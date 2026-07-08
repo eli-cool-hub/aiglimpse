@@ -7,6 +7,22 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Tailored LLM Pipelines Advance Biomedical Question Answering</title>
+      <link>https://aiglimpse.ai/articles/tailored-llm-pipelines-advance-biomedical-question-answering-cee5c3c0</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/tailored-llm-pipelines-advance-biomedical-question-answering-cee5c3c0</guid>
+      <description>Researchers demonstrate that customizing AI inference strategies by question type significantly improves accuracy in scientific literature search.</description>
+      <pubDate>Tue, 07 Jul 2026 16:12:51 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
+      <title>Researchers Build First Hindi Audio Description Dataset for Blind Audiences</title>
+      <link>https://aiglimpse.ai/articles/researchers-build-first-hindi-audio-description-dataset-for-blind-audiences-51efb43b</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/researchers-build-first-hindi-audio-description-dataset-for-blind-audiences-51efb43b</guid>
+      <description>New AI research tackles accessibility gap as India mandates described content in regional languages beyond English.</description>
+      <pubDate>Tue, 07 Jul 2026 16:15:46 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
       <title>New Dataset Tackles Camera Calibration Problem in Dynamic Video</title>
       <link>https://aiglimpse.ai/articles/new-dataset-tackles-camera-calibration-problem-in-dynamic-video-7f485d59</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/new-dataset-tackles-camera-calibration-problem-in-dynamic-video-7f485d59</guid>
@@ -389,22 +405,6 @@
       <description>Study shows LLM-based agents can be fooled by their own internal reporting, raising questions about deployment safety practices.</description>
       <pubDate>Sat, 04 Jul 2026 00:00:00 GMT</pubDate>
       <category>Ethics &amp; Policy</category>
-    </item>
-    <item>
-      <title>Fanfiction Communities Deploy Flawed AI Detection Tools</title>
-      <link>https://aiglimpse.ai/articles/fanfiction-communities-deploy-flawed-ai-detection-tools-90940a89</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/fanfiction-communities-deploy-flawed-ai-detection-tools-90940a89</guid>
-      <description>Writers face accusations based on unreliable detection methods as creative communities grapple with generative AI adoption.</description>
-      <pubDate>Sat, 04 Jul 2026 12:00:00 GMT</pubDate>
-      <category>AI Tools &amp; Products</category>
-    </item>
-    <item>
-      <title>Researchers Teach AI Agents to Search 360-Degree Environments</title>
-      <link>https://aiglimpse.ai/articles/researchers-teach-ai-agents-to-search-360-degree-environments-781fabb5</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/researchers-teach-ai-agents-to-search-360-degree-environments-781fabb5</guid>
-      <description>New system combines vision-language models with spatial memory to help robots find objects in panoramic spaces efficiently.</description>
-      <pubDate>Thu, 02 Jul 2026 17:56:49 GMT</pubDate>
-      <category>AI Research</category>
     </item>
   </channel>
 </rss>

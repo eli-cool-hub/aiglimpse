@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "tailored-llm-pipelines-advance-biomedical-question-answering-cee5c3c0",
+      "title": "Tailored LLM Pipelines Advance Biomedical Question Answering",
+      "subtitle": "Researchers demonstrate that customizing AI inference strategies by question type significantly improves accuracy in scientific literature search.",
+      "category": "research",
+      "publishedAt": "2026-07-07T16:12:51.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2607.06452v1",
+      "sourceName": "arXiv (Taeyun Roh, Eunha Lee, Wonjune Jang, Sohyun Chung, Junha Jun…)",
+      "sourceTier": 1,
+      "image": "/images/articles/tailored-llm-pipelines-advance-biomedical-question-answering-cee5c3c0.jpg"
+    },
+    {
+      "slug": "researchers-build-first-hindi-audio-description-dataset-for-blind-audiences-51efb43b",
+      "title": "Researchers Build First Hindi Audio Description Dataset for Blind Audiences",
+      "subtitle": "New AI research tackles accessibility gap as India mandates described content in regional languages beyond English.",
+      "category": "research",
+      "publishedAt": "2026-07-07T16:15:46.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2607.06457v1",
+      "sourceName": "arXiv (Ritabrata Chakraborty, Divy Kala, Nisheeth Bhooshan Gupta, G…)",
+      "sourceTier": 1,
+      "image": "/images/articles/researchers-build-first-hindi-audio-description-dataset-for-blind-audiences-51efb43b.jpg"
+    },
+    {
       "slug": "new-dataset-tackles-camera-calibration-problem-in-dynamic-video-7f485d59",
       "title": "New Dataset Tackles Camera Calibration Problem in Dynamic Video",
       "subtitle": "Researchers release large-scale synthetic and real-world benchmarks to improve AI models that estimate changing camera settings from video frames.",
@@ -6225,6 +6247,8 @@
     "d8387da30ddcb4cd",
     "5c3fedb364bdb0df",
     "a7ca69f6e467ea11",
-    "7f485d59864b37a1"
+    "7f485d59864b37a1",
+    "51efb43b9f963964",
+    "cee5c3c0ed19c3e6"
   ]
 }
