@@ -7,6 +7,22 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>AI Can Parse Animal Communication Without Training Data, Study Shows</title>
+      <link>https://aiglimpse.ai/articles/ai-can-parse-animal-communication-without-training-data-study-shows-581f9dc8</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/ai-can-parse-animal-communication-without-training-data-study-shows-581f9dc8</guid>
+      <description>Researchers demonstrate that machine learning models can evaluate the accuracy of primate vocalizations and gestures without human-created reference standards.</description>
+      <pubDate>Tue, 07 Jul 2026 17:47:26 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
+      <title>New AI Model Bridges Language and 3D Generation with Smarter Cross-Modal Design</title>
+      <link>https://aiglimpse.ai/articles/new-ai-model-bridges-language-and-3d-generation-with-smarter-cross-modal-design-b4067436</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-ai-model-bridges-language-and-3d-generation-with-smarter-cross-modal-design-b4067436</guid>
+      <description>ELSA3D uses anchored semantic routing to unify text understanding and 3D asset creation, cutting computational overhead in half.</description>
+      <pubDate>Tue, 07 Jul 2026 17:59:50 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
       <title>Tailored LLM Pipelines Advance Biomedical Question Answering</title>
       <link>https://aiglimpse.ai/articles/tailored-llm-pipelines-advance-biomedical-question-answering-cee5c3c0</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/tailored-llm-pipelines-advance-biomedical-question-answering-cee5c3c0</guid>
@@ -389,22 +405,6 @@
       <description>The Chinese tech giant has flagged Claude Code as high-risk, signaling growing corporate caution around third-party AI coding tools.</description>
       <pubDate>Sat, 04 Jul 2026 16:32:08 GMT</pubDate>
       <category>AI Business</category>
-    </item>
-    <item>
-      <title>Diffusion Language Models Contain Hidden Timing Signals, New Study Finds</title>
-      <link>https://aiglimpse.ai/articles/diffusion-language-models-contain-hidden-timing-signals-new-study-finds-cec6be67</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/diffusion-language-models-contain-hidden-timing-signals-new-study-finds-cec6be67</guid>
-      <description>Researchers discover internal denoising clocks that could reshape how AI systems are steered and interpreted.</description>
-      <pubDate>Sat, 04 Jul 2026 00:00:00 GMT</pubDate>
-      <category>AI Research</category>
-    </item>
-    <item>
-      <title>New Research Reveals Critical Vulnerability in AI Agent Safety Checks</title>
-      <link>https://aiglimpse.ai/articles/new-research-reveals-critical-vulnerability-in-ai-agent-safety-checks-30e1ed11</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-research-reveals-critical-vulnerability-in-ai-agent-safety-checks-30e1ed11</guid>
-      <description>Study shows LLM-based agents can be fooled by their own internal reporting, raising questions about deployment safety practices.</description>
-      <pubDate>Sat, 04 Jul 2026 00:00:00 GMT</pubDate>
-      <category>Ethics &amp; Policy</category>
     </item>
   </channel>
 </rss>

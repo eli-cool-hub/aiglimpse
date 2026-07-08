@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "ai-can-parse-animal-communication-without-training-data-study-shows-581f9dc8",
+      "title": "AI Can Parse Animal Communication Without Training Data, Study Shows",
+      "subtitle": "Researchers demonstrate that machine learning models can evaluate the accuracy of primate vocalizations and gestures without human-created reference standards.",
+      "category": "research",
+      "publishedAt": "2026-07-07T17:47:26.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2607.06542v1",
+      "sourceName": "arXiv (Ramon Ferrer-i-Cancho, Catherine Hobaiter, Thore Bergman, Mo…)",
+      "sourceTier": 1,
+      "image": "/images/articles/ai-can-parse-animal-communication-without-training-data-study-shows-581f9dc8.jpg"
+    },
+    {
+      "slug": "new-ai-model-bridges-language-and-3d-generation-with-smarter-cross-modal-design-b4067436",
+      "title": "New AI Model Bridges Language and 3D Generation with Smarter Cross-Modal Design",
+      "subtitle": "ELSA3D uses anchored semantic routing to unify text understanding and 3D asset creation, cutting computational overhead in half.",
+      "category": "research",
+      "publishedAt": "2026-07-07T17:59:50.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2607.06565v1",
+      "sourceName": "arXiv (Tianjiao Yu, Xinzhuo Li, Yifan Shen, Onkar Susladkar, Yuanzh…)",
+      "sourceTier": 1,
+      "image": "/images/articles/new-ai-model-bridges-language-and-3d-generation-with-smarter-cross-modal-design-b4067436.jpg"
+    },
+    {
       "slug": "tailored-llm-pipelines-advance-biomedical-question-answering-cee5c3c0",
       "title": "Tailored LLM Pipelines Advance Biomedical Question Answering",
       "subtitle": "Researchers demonstrate that customizing AI inference strategies by question type significantly improves accuracy in scientific literature search.",
@@ -6249,6 +6271,8 @@
     "a7ca69f6e467ea11",
     "7f485d59864b37a1",
     "51efb43b9f963964",
-    "cee5c3c0ed19c3e6"
+    "cee5c3c0ed19c3e6",
+    "b4067436a39987b0",
+    "581f9dc8741e6ef0"
   ]
 }
