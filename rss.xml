@@ -7,6 +7,22 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>New AI Architecture Separates Knowledge from Model Weights</title>
+      <link>https://aiglimpse.ai/articles/new-ai-architecture-separates-knowledge-from-model-weights-e3f5acd7</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-ai-architecture-separates-knowledge-from-model-weights-e3f5acd7</guid>
+      <description>Researchers demonstrate how externalized memory improves language model accuracy while enabling human oversight of factual outputs.</description>
+      <pubDate>Wed, 08 Jul 2026 17:59:45 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
+      <title>New AI Model Reasons Through Molecular and Crystal Structures</title>
+      <link>https://aiglimpse.ai/articles/new-ai-model-reasons-through-molecular-and-crystal-structures-aaeca158</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-ai-model-reasons-through-molecular-and-crystal-structures-aaeca158</guid>
+      <description>SciReasoner bridges scientific accuracy and interpretability by treating atomic arrangements as inspectable evidence for AI reasoning.</description>
+      <pubDate>Wed, 08 Jul 2026 17:59:59 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
       <title>New AI Method Tracks Object Movement Without 3D Models or Depth Data</title>
       <link>https://aiglimpse.ai/articles/new-ai-method-tracks-object-movement-without-3d-models-or-depth-data-b3c6e165</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/new-ai-method-tracks-object-movement-without-3d-models-or-depth-data-b3c6e165</guid>
@@ -388,22 +404,6 @@
       <guid isPermaLink="true">https://aiglimpse.ai/articles/developer-shares-claude-design-system-prompt-sparking-ai-community-discussion-0b174815</guid>
       <description>Open-source engineering effort reveals how developers are systematizing AI model behavior through shared prompting frameworks.</description>
       <pubDate>Sun, 05 Jul 2026 08:43:37 GMT</pubDate>
-      <category>AI Tools &amp; Products</category>
-    </item>
-    <item>
-      <title>New Method Lets AI Image Models Stay Fast While Fine-Tuning</title>
-      <link>https://aiglimpse.ai/articles/new-method-lets-ai-image-models-stay-fast-while-fine-tuning-d89c4fcf</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-method-lets-ai-image-models-stay-fast-while-fine-tuning-d89c4fcf</guid>
-      <description>Researchers introduce a self-distillation technique that preserves inference speed in optimized diffusion models, addressing a persistent bottleneck for production deployments.</description>
-      <pubDate>Sun, 05 Jul 2026 00:00:00 GMT</pubDate>
-      <category>Ethics &amp; Policy</category>
-    </item>
-    <item>
-      <title>Best AI image generators in 2026: Midjourney, DALL-E, Stable Diffusion, Flux</title>
-      <link>https://aiglimpse.ai/articles/ai-image-generators-compared-2026</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/ai-image-generators-compared-2026</guid>
-      <description>A technical comparison of four leading models: quality, pricing, licensing, and which to pick for your workflow.</description>
-      <pubDate>Sun, 05 Jul 2026 08:38:04 GMT</pubDate>
       <category>AI Tools &amp; Products</category>
     </item>
   </channel>

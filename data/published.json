@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "new-ai-architecture-separates-knowledge-from-model-weights-e3f5acd7",
+      "title": "New AI Architecture Separates Knowledge from Model Weights",
+      "subtitle": "Researchers demonstrate how externalized memory improves language model accuracy while enabling human oversight of factual outputs.",
+      "category": "research",
+      "publishedAt": "2026-07-08T17:59:45.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2607.07707v1",
+      "sourceName": "arXiv (Yair Feldman, Linxi Zhao, Nathan Godey, Dongyoung Go, Yilun …)",
+      "sourceTier": 1,
+      "image": "/images/articles/new-ai-architecture-separates-knowledge-from-model-weights-e3f5acd7.jpg"
+    },
+    {
+      "slug": "new-ai-model-reasons-through-molecular-and-crystal-structures-aaeca158",
+      "title": "New AI Model Reasons Through Molecular and Crystal Structures",
+      "subtitle": "SciReasoner bridges scientific accuracy and interpretability by treating atomic arrangements as inspectable evidence for AI reasoning.",
+      "category": "research",
+      "publishedAt": "2026-07-08T17:59:59.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2607.07708v1",
+      "sourceName": "arXiv (Chen Tang, Yizhou Wang, Jianyu Wu, Lintao Wang, Shixiang Tan…)",
+      "sourceTier": 1,
+      "image": "/images/articles/new-ai-model-reasons-through-molecular-and-crystal-structures-aaeca158.jpg"
+    },
+    {
       "slug": "new-ai-method-tracks-object-movement-without-3d-models-or-depth-data-b3c6e165",
       "title": "New AI Method Tracks Object Movement Without 3D Models or Depth Data",
       "subtitle": "ProxyPose uses video translation to simplify 6-DoF pose tracking, eliminating dependencies that have hindered computer vision systems for decades.",
@@ -6417,6 +6439,8 @@
     "0ffd7e6c634cf3a6",
     "b157b01498a3c79a",
     "6f28be8550fed300",
-    "b3c6e165ff65dba0"
+    "b3c6e165ff65dba0",
+    "aaeca158358763d3",
+    "e3f5acd774dd6db4"
   ]
 }

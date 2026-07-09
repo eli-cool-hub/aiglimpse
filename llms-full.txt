@@ -3,7 +3,7 @@
 > Machine-readable index for AI assistants, answer engines, and research crawlers.
 > Summary version: https://aiglimpse.ai/llms.txt
 
-Total articles: 534 | Evergreen explainers: 12 | Generated: 2026-07-08
+Total articles: 536 | Evergreen explainers: 12 | Generated: 2026-07-09
 
 ## Evergreen explainers
 
@@ -92,6 +92,20 @@ Total articles: 534 | Evergreen explainers: 12 | Generated: 2026-07-08
 - Type: evergreen explainer (FAQ schema on page)
 
 ## All articles (newest first)
+
+### New AI Architecture Separates Knowledge from Model Weights
+- URL: https://aiglimpse.ai/articles/new-ai-architecture-separates-knowledge-from-model-weights-e3f5acd7
+- Published: 2026-07-08
+- Category: research
+- Summary: Researchers demonstrate how externalized memory improves language model accuracy while enabling human oversight of factual outputs.
+- Source: http://arxiv.org/abs/2607.07707v1
+
+### New AI Model Reasons Through Molecular and Crystal Structures
+- URL: https://aiglimpse.ai/articles/new-ai-model-reasons-through-molecular-and-crystal-structures-aaeca158
+- Published: 2026-07-08
+- Category: research
+- Summary: SciReasoner bridges scientific accuracy and interpretability by treating atomic arrangements as inspectable evidence for AI reasoning.
+- Source: http://arxiv.org/abs/2607.07708v1
 
 ### New AI Method Tracks Object Movement Without 3D Models or Depth Data
 - URL: https://aiglimpse.ai/articles/new-ai-method-tracks-object-movement-without-3d-models-or-depth-data-b3c6e165
