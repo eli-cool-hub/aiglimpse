@@ -3,7 +3,7 @@
 > Machine-readable index for AI assistants, answer engines, and research crawlers.
 > Summary version: https://aiglimpse.ai/llms.txt
 
-Total articles: 538 | Evergreen explainers: 12 | Generated: 2026-07-09
+Total articles: 540 | Evergreen explainers: 12 | Generated: 2026-07-09
 
 ## Evergreen explainers
 
@@ -92,6 +92,20 @@ Total articles: 538 | Evergreen explainers: 12 | Generated: 2026-07-09
 - Type: evergreen explainer (FAQ schema on page)
 
 ## All articles (newest first)
+
+### Researchers Release Massive Skill Library to Ground AI Agents
+- URL: https://aiglimpse.ai/articles/researchers-release-massive-skill-library-to-ground-ai-agents-2d8af31e
+- Published: 2026-07-08
+- Category: research
+- Summary: New dataset of 216,000+ verified skills aims to make autonomous AI systems more reliable and traceable.
+- Source: http://arxiv.org/abs/2607.07676v1
+
+### New Framework Helps AI Agents Learn From Failures More Efficiently
+- URL: https://aiglimpse.ai/articles/new-framework-helps-ai-agents-learn-from-failures-more-efficiently-de5e87eb
+- Published: 2026-07-08
+- Category: research
+- Summary: Researchers introduce a method to filter noisy execution data and identify root causes of agent failures, boosting optimization by 40% on verification tasks.
+- Source: http://arxiv.org/abs/2607.07702v1
 
 ### How AI Deployment Rules Shape Multi-Agent Safety More Than Models
 - URL: https://aiglimpse.ai/articles/how-ai-deployment-rules-shape-multi-agent-safety-more-than-models-6c1d8aa6

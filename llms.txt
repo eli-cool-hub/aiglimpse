@@ -20,6 +20,8 @@ All content is original reporting by the AI Glimpse newsroom. Primary sources ar
 
 ## Recent articles
 
+- [Researchers Release Massive Skill Library to Ground AI Agents](https://aiglimpse.ai/articles/researchers-release-massive-skill-library-to-ground-ai-agents-2d8af31e) (2026-07-08): New dataset of 216,000+ verified skills aims to make autonomous AI systems more reliable and traceable.
+- [New Framework Helps AI Agents Learn From Failures More Efficiently](https://aiglimpse.ai/articles/new-framework-helps-ai-agents-learn-from-failures-more-efficiently-de5e87eb) (2026-07-08): Researchers introduce a method to filter noisy execution data and identify root causes of agent failures, boosting optimization by 40% on verification tasks.
 - [How AI Deployment Rules Shape Multi-Agent Safety More Than Models](https://aiglimpse.ai/articles/how-ai-deployment-rules-shape-multi-agent-safety-more-than-models-6c1d8aa6) (2026-07-08): New research reveals that operational guardrails, not just model architecture, fundamentally determine whether AI systems cooperate or exploit each other.
 - [Researchers Crack Code for Faster Transformer Inference with Linear Attention](https://aiglimpse.ai/articles/researchers-crack-code-for-faster-transformer-inference-with-linear-attention-33789dfd) (2026-07-08): New analysis reveals how to simplify transformer attention mechanisms without sacrificing accuracy on large language models.
 - [New AI Architecture Separates Knowledge from Model Weights](https://aiglimpse.ai/articles/new-ai-architecture-separates-knowledge-from-model-weights-e3f5acd7) (2026-07-08): Researchers demonstrate how externalized memory improves language model accuracy while enabling human oversight of factual outputs.
@@ -48,8 +50,6 @@ All content is original reporting by the AI Glimpse newsroom. Primary sources ar
 - [Hugging Face Integrates Open Models Into Microsoft Foundry Compute](https://aiglimpse.ai/articles/hugging-face-integrates-open-models-into-microsoft-foundry-compute-7398bc2a) (2026-07-07): The partnership expands access to community AI models through enterprise managed infrastructure, lowering barriers for model deployment.
 - [Researchers Challenge Fundamental Assumption in Offline AI Training](https://aiglimpse.ai/articles/researchers-challenge-fundamental-assumption-in-offline-ai-training-5b800e35) (2026-07-06): New method for evaluating AI decision-making policies eliminates a key mathematical requirement, potentially making offline reinforcement learning more practical.
 - [New Framework Scales 3D Scene Generation to Entire Environments](https://aiglimpse.ai/articles/new-framework-scales-3d-scene-generation-to-entire-environments-17292ac7) (2026-07-06): Researchers develop SynCity 3000, enabling AI to generate large, coherent 3D scenes from text prompts with precise layout control.
-- [New Framework Bridges Planning and Execution Gap in Robot Manipulation](https://aiglimpse.ai/articles/new-framework-bridges-planning-and-execution-gap-in-robot-manipulation-5f88e9f0) (2026-07-06): Researchers introduce Cortex, a dual-system approach that enables robots to handle complex, multi-step tasks by aligning high-level planning with low-level motor control.
-- [AI Model Spots Fake Astronomical Events Without Human Training Data](https://aiglimpse.ai/articles/ai-model-spots-fake-astronomical-events-without-human-training-data-b390a2a2) (2026-07-06): Researchers develop a machine learning system that classifies real versus false transient signals in sky surveys using only simulated data and uncertainty estimates.
 
 ## Explainers (evergreen)
 
@@ -70,7 +70,7 @@ All content is original reporting by the AI Glimpse newsroom. Primary sources ar
 
 - [Sitemap](https://aiglimpse.ai/sitemap.xml): All article URLs with publish dates (Google News format).
 - [RSS](https://aiglimpse.ai/rss.xml): 50 most recent articles (RSS 2.0).
-- [Full content index](https://aiglimpse.ai/llms-full.txt): Extended article list for LLM crawlers (538 articles).
+- [Full content index](https://aiglimpse.ai/llms-full.txt): Extended article list for LLM crawlers (540 articles).
 
 ## About
 

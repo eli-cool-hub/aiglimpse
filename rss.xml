@@ -7,6 +7,22 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Researchers Release Massive Skill Library to Ground AI Agents</title>
+      <link>https://aiglimpse.ai/articles/researchers-release-massive-skill-library-to-ground-ai-agents-2d8af31e</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/researchers-release-massive-skill-library-to-ground-ai-agents-2d8af31e</guid>
+      <description>New dataset of 216,000+ verified skills aims to make autonomous AI systems more reliable and traceable.</description>
+      <pubDate>Wed, 08 Jul 2026 17:34:28 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
+      <title>New Framework Helps AI Agents Learn From Failures More Efficiently</title>
+      <link>https://aiglimpse.ai/articles/new-framework-helps-ai-agents-learn-from-failures-more-efficiently-de5e87eb</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-framework-helps-ai-agents-learn-from-failures-more-efficiently-de5e87eb</guid>
+      <description>Researchers introduce a method to filter noisy execution data and identify root causes of agent failures, boosting optimization by 40% on verification tasks.</description>
+      <pubDate>Wed, 08 Jul 2026 17:57:27 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
       <title>How AI Deployment Rules Shape Multi-Agent Safety More Than Models</title>
       <link>https://aiglimpse.ai/articles/how-ai-deployment-rules-shape-multi-agent-safety-more-than-models-6c1d8aa6</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/how-ai-deployment-rules-shape-multi-agent-safety-more-than-models-6c1d8aa6</guid>
@@ -388,22 +404,6 @@
       <guid isPermaLink="true">https://aiglimpse.ai/articles/zuckerberg-signals-slowdown-in-autonomous-ai-agent-development-ca9f46e7</guid>
       <description>Meta's CEO tells employees that autonomous agent capabilities are advancing more slowly than anticipated, raising questions about timelines for workplace automation.</description>
       <pubDate>Sun, 05 Jul 2026 17:05:35 GMT</pubDate>
-      <category>AI Tools &amp; Products</category>
-    </item>
-    <item>
-      <title>Charity Watchdogs Face New Test as AI-Generated Videos Blur Fundraising Lines</title>
-      <link>https://aiglimpse.ai/articles/charity-watchdogs-face-new-test-as-ai-generated-videos-blur-fundraising-lines-14c9cbed</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/charity-watchdogs-face-new-test-as-ai-generated-videos-blur-fundraising-lines-14c9cbed</guid>
-      <description>A foundation's use of synthetic media in donation campaigns raises questions about regulatory oversight and platform accountability for AI-made content.</description>
-      <pubDate>Sun, 05 Jul 2026 00:00:00 GMT</pubDate>
-      <category>AI Business</category>
-    </item>
-    <item>
-      <title>Google's Founding Fathers AI Ad Sparks Backlash Over Marketing Tone</title>
-      <link>https://aiglimpse.ai/articles/googles-founding-fathers-ai-ad-sparks-backlash-over-marketing-tone-8ebabc6e</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/googles-founding-fathers-ai-ad-sparks-backlash-over-marketing-tone-8ebabc6e</guid>
-      <description>A Workspace commercial imagining 18th-century collaboration with Gemini raises questions about how tech companies deploy AI in consumer messaging.</description>
-      <pubDate>Sun, 05 Jul 2026 14:23:11 GMT</pubDate>
       <category>AI Tools &amp; Products</category>
     </item>
   </channel>
