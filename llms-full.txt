@@ -3,7 +3,7 @@
 > Machine-readable index for AI assistants, answer engines, and research crawlers.
 > Summary version: https://aiglimpse.ai/llms.txt
 
-Total articles: 541 | Evergreen explainers: 12 | Generated: 2026-07-09
+Total articles: 542 | Evergreen explainers: 12 | Generated: 2026-07-09
 
 ## Evergreen explainers
 
@@ -92,6 +92,13 @@ Total articles: 541 | Evergreen explainers: 12 | Generated: 2026-07-09
 - Type: evergreen explainer (FAQ schema on page)
 
 ## All articles (newest first)
+
+### Researchers Cut Diffusion Model Training Costs by 6x Through Smart Sampling
+- URL: https://aiglimpse.ai/articles/researchers-cut-diffusion-model-training-costs-by-6x-through-smart-sampling-dfc4d347
+- Published: 2026-07-08
+- Category: research
+- Summary: New technique makes reinforcement learning from human feedback practical by identifying which training steps actually matter.
+- Source: http://arxiv.org/abs/2607.07693v1
 
 ### LLMs Help Researchers Bypass Database Gatekeepers for Faster Analytics
 - URL: https://aiglimpse.ai/articles/llms-help-researchers-bypass-database-gatekeepers-for-faster-analytics-e9599874

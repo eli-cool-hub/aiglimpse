@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "researchers-cut-diffusion-model-training-costs-by-6x-through-smart-sampling-dfc4d347",
+      "title": "Researchers Cut Diffusion Model Training Costs by 6x Through Smart Sampling",
+      "subtitle": "New technique makes reinforcement learning from human feedback practical by identifying which training steps actually matter.",
+      "category": "research",
+      "publishedAt": "2026-07-08T17:49:49.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2607.07693v1",
+      "sourceName": "arXiv (Eric Zhu, Abhinav Shrivastava, Soumik Mukhopadhyay)",
+      "sourceTier": 1,
+      "image": "/images/articles/researchers-cut-diffusion-model-training-costs-by-6x-through-smart-sampling-dfc4d347.jpg"
+    },
+    {
       "slug": "llms-help-researchers-bypass-database-gatekeepers-for-faster-analytics-e9599874",
       "title": "LLMs Help Researchers Bypass Database Gatekeepers for Faster Analytics",
       "subtitle": "New technique uses AI-generated code to read database files directly, sidestep traditional query engines, and achieve massive speedups on analytical workloads.",
@@ -6501,6 +6512,7 @@
     "6c1d8aa6e9f0a923",
     "de5e87ebc35de727",
     "2d8af31ed893abb2",
-    "e959987494c4ed4a"
+    "e959987494c4ed4a",
+    "dfc4d34771cc70c9"
   ]
 }
