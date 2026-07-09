@@ -7,6 +7,22 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Rival AI Models Learn to Grade Each Other's Reasoning</title>
+      <link>https://aiglimpse.ai/articles/rival-ai-models-learn-to-grade-each-others-reasoning-6492fe7a</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/rival-ai-models-learn-to-grade-each-others-reasoning-6492fe7a</guid>
+      <description>New training method doubles reasoning performance by having competing models evaluate one another's problem-solving approaches.</description>
+      <pubDate>Wed, 08 Jul 2026 17:49:14 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
+      <title>OpenAI Unveils ChatGPT Work, an AI Agent Built for Complex Projects</title>
+      <link>https://aiglimpse.ai/articles/openai-unveils-chatgpt-work-an-ai-agent-built-for-complex-projects-c56ca77d</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/openai-unveils-chatgpt-work-an-ai-agent-built-for-complex-projects-c56ca77d</guid>
+      <description>The new offering enables ChatGPT to execute tasks across multiple applications and maintain focus on extended projects, marking a shift toward autonomous workplace AI.</description>
+      <pubDate>Thu, 09 Jul 2026 10:00:00 GMT</pubDate>
+      <category>LLMs &amp; Chatbots</category>
+    </item>
+    <item>
       <title>Researchers Cut Diffusion Model Training Costs by 6x Through Smart Sampling</title>
       <link>https://aiglimpse.ai/articles/researchers-cut-diffusion-model-training-costs-by-6x-through-smart-sampling-dfc4d347</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/researchers-cut-diffusion-model-training-costs-by-6x-through-smart-sampling-dfc4d347</guid>
@@ -389,22 +405,6 @@
       <description>Tokyo-based lab transitions from research focus to commercialization, signaling confidence in long-context AI for corporate buyers.</description>
       <pubDate>Sun, 05 Jul 2026 00:00:00 GMT</pubDate>
       <category>AI Business</category>
-    </item>
-    <item>
-      <title>Wealthy Families Embrace AI-Powered Education as Alternative to Traditional Schools</title>
-      <link>https://aiglimpse.ai/articles/wealthy-families-embrace-ai-powered-education-as-alternative-to-traditional-scho-679d6b05</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/wealthy-families-embrace-ai-powered-education-as-alternative-to-traditional-scho-679d6b05</guid>
-      <description>Affluent parents are enrolling children in costly AI tutoring programs, positioning their kids as early adopters of machine learning-based instruction.</description>
-      <pubDate>Sun, 05 Jul 2026 22:30:54 GMT</pubDate>
-      <category>AI Tools &amp; Products</category>
-    </item>
-    <item>
-      <title>South Africa Scraps AI Policy After Discovering Fabricated Sources</title>
-      <link>https://aiglimpse.ai/articles/south-africa-scraps-ai-policy-after-discovering-fabricated-sources-15708233</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/south-africa-scraps-ai-policy-after-discovering-fabricated-sources-15708233</guid>
-      <description>Government's rushed AI adoption exposes critical gap between deployment speed and verification, signaling broader risks in public sector AI governance.</description>
-      <pubDate>Sun, 05 Jul 2026 00:00:00 GMT</pubDate>
-      <category>Ethics &amp; Policy</category>
     </item>
   </channel>
 </rss>

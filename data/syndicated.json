@@ -7202,6 +7202,42 @@
         "devto": true,
         "hashnode": false
       }
+    },
+    "openai-unveils-chatgpt-work-an-ai-agent-built-for-complex-projects-c56ca77d": {
+      "syndicated_at": "2026-07-09T19:58:11.029Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/openai-unveils-chatgpt-work-an-ai-agent-built-for-complex-projects-2aip",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 399,
+      "category": "llms",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
+    },
+    "rival-ai-models-learn-to-grade-each-others-reasoning-6492fe7a": {
+      "syndicated_at": "2026-07-09T19:58:20.752Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/rival-ai-models-learn-to-grade-each-others-reasoning-n6c",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 467,
+      "category": "research",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
     }
   }
 }

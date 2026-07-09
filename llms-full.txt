@@ -3,7 +3,7 @@
 > Machine-readable index for AI assistants, answer engines, and research crawlers.
 > Summary version: https://aiglimpse.ai/llms.txt
 
-Total articles: 542 | Evergreen explainers: 12 | Generated: 2026-07-09
+Total articles: 544 | Evergreen explainers: 12 | Generated: 2026-07-09
 
 ## Evergreen explainers
 
@@ -92,6 +92,20 @@ Total articles: 542 | Evergreen explainers: 12 | Generated: 2026-07-09
 - Type: evergreen explainer (FAQ schema on page)
 
 ## All articles (newest first)
+
+### Rival AI Models Learn to Grade Each Other's Reasoning
+- URL: https://aiglimpse.ai/articles/rival-ai-models-learn-to-grade-each-others-reasoning-6492fe7a
+- Published: 2026-07-08
+- Category: research
+- Summary: New training method doubles reasoning performance by having competing models evaluate one another's problem-solving approaches.
+- Source: http://arxiv.org/abs/2607.07690v1
+
+### OpenAI Unveils ChatGPT Work, an AI Agent Built for Complex Projects
+- URL: https://aiglimpse.ai/articles/openai-unveils-chatgpt-work-an-ai-agent-built-for-complex-projects-c56ca77d
+- Published: 2026-07-09
+- Category: llms
+- Summary: The new offering enables ChatGPT to execute tasks across multiple applications and maintain focus on extended projects, marking a shift toward autonomous workplace AI.
+- Source: https://openai.com/index/chatgpt-for-your-most-ambitious-work
 
 ### Researchers Cut Diffusion Model Training Costs by 6x Through Smart Sampling
 - URL: https://aiglimpse.ai/articles/researchers-cut-diffusion-model-training-costs-by-6x-through-smart-sampling-dfc4d347

@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "rival-ai-models-learn-to-grade-each-others-reasoning-6492fe7a",
+      "title": "Rival AI Models Learn to Grade Each Other's Reasoning",
+      "subtitle": "New training method doubles reasoning performance by having competing models evaluate one another's problem-solving approaches.",
+      "category": "research",
+      "publishedAt": "2026-07-08T17:49:14.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2607.07690v1",
+      "sourceName": "arXiv (Vladislav Beliaev)",
+      "sourceTier": 1,
+      "image": "/images/articles/rival-ai-models-learn-to-grade-each-others-reasoning-6492fe7a.jpg"
+    },
+    {
+      "slug": "openai-unveils-chatgpt-work-an-ai-agent-built-for-complex-projects-c56ca77d",
+      "title": "OpenAI Unveils ChatGPT Work, an AI Agent Built for Complex Projects",
+      "subtitle": "The new offering enables ChatGPT to execute tasks across multiple applications and maintain focus on extended projects, marking a shift toward autonomous workplace AI.",
+      "category": "llms",
+      "publishedAt": "2026-07-09T10:00:00.000Z",
+      "sourceUrl": "https://openai.com/index/chatgpt-for-your-most-ambitious-work",
+      "sourceName": "OpenAI",
+      "sourceTier": 1,
+      "image": "/images/articles/openai-unveils-chatgpt-work-an-ai-agent-built-for-complex-projects-c56ca77d.jpg"
+    },
+    {
       "slug": "researchers-cut-diffusion-model-training-costs-by-6x-through-smart-sampling-dfc4d347",
       "title": "Researchers Cut Diffusion Model Training Costs by 6x Through Smart Sampling",
       "subtitle": "New technique makes reinforcement learning from human feedback practical by identifying which training steps actually matter.",
@@ -6513,6 +6535,8 @@
     "de5e87ebc35de727",
     "2d8af31ed893abb2",
     "e959987494c4ed4a",
-    "dfc4d34771cc70c9"
+    "dfc4d34771cc70c9",
+    "c56ca77da435ca4c",
+    "6492fe7a3e00fcec"
   ]
 }
