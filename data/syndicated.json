@@ -7166,6 +7166,24 @@
         "devto": true,
         "hashnode": false
       }
+    },
+    "llms-help-researchers-bypass-database-gatekeepers-for-faster-analytics-e9599874": {
+      "syndicated_at": "2026-07-09T15:14:39.219Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/llms-help-researchers-bypass-database-gatekeepers-for-faster-analytics-1ih7",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 489,
+      "category": "research",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
     }
   }
 }

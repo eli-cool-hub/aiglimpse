@@ -3,7 +3,7 @@
 > Machine-readable index for AI assistants, answer engines, and research crawlers.
 > Summary version: https://aiglimpse.ai/llms.txt
 
-Total articles: 540 | Evergreen explainers: 12 | Generated: 2026-07-09
+Total articles: 541 | Evergreen explainers: 12 | Generated: 2026-07-09
 
 ## Evergreen explainers
 
@@ -92,6 +92,13 @@ Total articles: 540 | Evergreen explainers: 12 | Generated: 2026-07-09
 - Type: evergreen explainer (FAQ schema on page)
 
 ## All articles (newest first)
+
+### LLMs Help Researchers Bypass Database Gatekeepers for Faster Analytics
+- URL: https://aiglimpse.ai/articles/llms-help-researchers-bypass-database-gatekeepers-for-faster-analytics-e9599874
+- Published: 2026-07-08
+- Category: research
+- Summary: New technique uses AI-generated code to read database files directly, sidestep traditional query engines, and achieve massive speedups on analytical workloads.
+- Source: http://arxiv.org/abs/2607.07696v1
 
 ### Researchers Release Massive Skill Library to Ground AI Agents
 - URL: https://aiglimpse.ai/articles/researchers-release-massive-skill-library-to-ground-ai-agents-2d8af31e

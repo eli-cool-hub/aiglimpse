@@ -7,6 +7,14 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>LLMs Help Researchers Bypass Database Gatekeepers for Faster Analytics</title>
+      <link>https://aiglimpse.ai/articles/llms-help-researchers-bypass-database-gatekeepers-for-faster-analytics-e9599874</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/llms-help-researchers-bypass-database-gatekeepers-for-faster-analytics-e9599874</guid>
+      <description>New technique uses AI-generated code to read database files directly, sidestep traditional query engines, and achieve massive speedups on analytical workloads.</description>
+      <pubDate>Wed, 08 Jul 2026 17:55:00 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
       <title>Researchers Release Massive Skill Library to Ground AI Agents</title>
       <link>https://aiglimpse.ai/articles/researchers-release-massive-skill-library-to-ground-ai-agents-2d8af31e</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/researchers-release-massive-skill-library-to-ground-ai-agents-2d8af31e</guid>
@@ -397,14 +405,6 @@
       <description>The closure signals shifting priorities in how tech giants source human labor for machine learning projects.</description>
       <pubDate>Sun, 05 Jul 2026 17:43:36 GMT</pubDate>
       <category>AI Business</category>
-    </item>
-    <item>
-      <title>Zuckerberg Signals Slowdown in Autonomous AI Agent Development</title>
-      <link>https://aiglimpse.ai/articles/zuckerberg-signals-slowdown-in-autonomous-ai-agent-development-ca9f46e7</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/zuckerberg-signals-slowdown-in-autonomous-ai-agent-development-ca9f46e7</guid>
-      <description>Meta's CEO tells employees that autonomous agent capabilities are advancing more slowly than anticipated, raising questions about timelines for workplace automation.</description>
-      <pubDate>Sun, 05 Jul 2026 17:05:35 GMT</pubDate>
-      <category>AI Tools &amp; Products</category>
     </item>
   </channel>
 </rss>
