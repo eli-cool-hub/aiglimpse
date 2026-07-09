@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "how-ai-deployment-rules-shape-multi-agent-safety-more-than-models-6c1d8aa6",
+      "title": "How AI Deployment Rules Shape Multi-Agent Safety More Than Models",
+      "subtitle": "New research reveals that operational guardrails, not just model architecture, fundamentally determine whether AI systems cooperate or exploit each other.",
+      "category": "research",
+      "publishedAt": "2026-07-08T17:53:56.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2607.07695v1",
+      "sourceName": "arXiv (Yujiao Chen)",
+      "sourceTier": 1,
+      "image": "/images/articles/how-ai-deployment-rules-shape-multi-agent-safety-more-than-models-6c1d8aa6.jpg"
+    },
+    {
+      "slug": "researchers-crack-code-for-faster-transformer-inference-with-linear-attention-33789dfd",
+      "title": "Researchers Crack Code for Faster Transformer Inference with Linear Attention",
+      "subtitle": "New analysis reveals how to simplify transformer attention mechanisms without sacrificing accuracy on large language models.",
+      "category": "research",
+      "publishedAt": "2026-07-08T17:59:09.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2607.07706v1",
+      "sourceName": "arXiv (Anna Kuzina, Paul N. Whatmough, Babak Ehteshami Bejnordi)",
+      "sourceTier": 1,
+      "image": "/images/articles/researchers-crack-code-for-faster-transformer-inference-with-linear-attention-33789dfd.jpg"
+    },
+    {
       "slug": "new-ai-architecture-separates-knowledge-from-model-weights-e3f5acd7",
       "title": "New AI Architecture Separates Knowledge from Model Weights",
       "subtitle": "Researchers demonstrate how externalized memory improves language model accuracy while enabling human oversight of factual outputs.",
@@ -6441,6 +6463,8 @@
     "6f28be8550fed300",
     "b3c6e165ff65dba0",
     "aaeca158358763d3",
-    "e3f5acd774dd6db4"
+    "e3f5acd774dd6db4",
+    "33789dfd33c3236d",
+    "6c1d8aa6e9f0a923"
   ]
 }

@@ -7,6 +7,22 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>How AI Deployment Rules Shape Multi-Agent Safety More Than Models</title>
+      <link>https://aiglimpse.ai/articles/how-ai-deployment-rules-shape-multi-agent-safety-more-than-models-6c1d8aa6</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/how-ai-deployment-rules-shape-multi-agent-safety-more-than-models-6c1d8aa6</guid>
+      <description>New research reveals that operational guardrails, not just model architecture, fundamentally determine whether AI systems cooperate or exploit each other.</description>
+      <pubDate>Wed, 08 Jul 2026 17:53:56 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
+      <title>Researchers Crack Code for Faster Transformer Inference with Linear Attention</title>
+      <link>https://aiglimpse.ai/articles/researchers-crack-code-for-faster-transformer-inference-with-linear-attention-33789dfd</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/researchers-crack-code-for-faster-transformer-inference-with-linear-attention-33789dfd</guid>
+      <description>New analysis reveals how to simplify transformer attention mechanisms without sacrificing accuracy on large language models.</description>
+      <pubDate>Wed, 08 Jul 2026 17:59:09 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
       <title>New AI Architecture Separates Knowledge from Model Weights</title>
       <link>https://aiglimpse.ai/articles/new-ai-architecture-separates-knowledge-from-model-weights-e3f5acd7</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/new-ai-architecture-separates-knowledge-from-model-weights-e3f5acd7</guid>
@@ -388,22 +404,6 @@
       <guid isPermaLink="true">https://aiglimpse.ai/articles/googles-founding-fathers-ai-ad-sparks-backlash-over-marketing-tone-8ebabc6e</guid>
       <description>A Workspace commercial imagining 18th-century collaboration with Gemini raises questions about how tech companies deploy AI in consumer messaging.</description>
       <pubDate>Sun, 05 Jul 2026 14:23:11 GMT</pubDate>
-      <category>AI Tools &amp; Products</category>
-    </item>
-    <item>
-      <title>Claude AI Writes Major Database Tool Update for Under $150</title>
-      <link>https://aiglimpse.ai/articles/claude-ai-writes-major-database-tool-update-for-under-150-ba0326eb</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/claude-ai-writes-major-database-tool-update-for-under-150-ba0326eb</guid>
-      <description>Anthropic's LLM substantially authored sqlite-utils 4.0rc2, raising questions about AI-driven open source development costs.</description>
-      <pubDate>Sun, 05 Jul 2026 06:19:34 GMT</pubDate>
-      <category>AI Tools &amp; Products</category>
-    </item>
-    <item>
-      <title>Developer Shares Claude Design System Prompt, Sparking AI Community Discussion</title>
-      <link>https://aiglimpse.ai/articles/developer-shares-claude-design-system-prompt-sparking-ai-community-discussion-0b174815</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/developer-shares-claude-design-system-prompt-sparking-ai-community-discussion-0b174815</guid>
-      <description>Open-source engineering effort reveals how developers are systematizing AI model behavior through shared prompting frameworks.</description>
-      <pubDate>Sun, 05 Jul 2026 08:43:37 GMT</pubDate>
       <category>AI Tools &amp; Products</category>
     </item>
   </channel>

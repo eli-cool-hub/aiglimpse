@@ -3,7 +3,7 @@
 > Machine-readable index for AI assistants, answer engines, and research crawlers.
 > Summary version: https://aiglimpse.ai/llms.txt
 
-Total articles: 536 | Evergreen explainers: 12 | Generated: 2026-07-09
+Total articles: 538 | Evergreen explainers: 12 | Generated: 2026-07-09
 
 ## Evergreen explainers
 
@@ -92,6 +92,20 @@ Total articles: 536 | Evergreen explainers: 12 | Generated: 2026-07-09
 - Type: evergreen explainer (FAQ schema on page)
 
 ## All articles (newest first)
+
+### How AI Deployment Rules Shape Multi-Agent Safety More Than Models
+- URL: https://aiglimpse.ai/articles/how-ai-deployment-rules-shape-multi-agent-safety-more-than-models-6c1d8aa6
+- Published: 2026-07-08
+- Category: research
+- Summary: New research reveals that operational guardrails, not just model architecture, fundamentally determine whether AI systems cooperate or exploit each other.
+- Source: http://arxiv.org/abs/2607.07695v1
+
+### Researchers Crack Code for Faster Transformer Inference with Linear Attention
+- URL: https://aiglimpse.ai/articles/researchers-crack-code-for-faster-transformer-inference-with-linear-attention-33789dfd
+- Published: 2026-07-08
+- Category: research
+- Summary: New analysis reveals how to simplify transformer attention mechanisms without sacrificing accuracy on large language models.
+- Source: http://arxiv.org/abs/2607.07706v1
 
 ### New AI Architecture Separates Knowledge from Model Weights
 - URL: https://aiglimpse.ai/articles/new-ai-architecture-separates-knowledge-from-model-weights-e3f5acd7
