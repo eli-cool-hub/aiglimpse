@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "researchers-combine-neural-networks-and-evolution-to-solve-complex-physics-desig-1076fe95",
+      "title": "Researchers Combine Neural Networks and Evolution to Solve Complex Physics Design Problems",
+      "subtitle": "A new AI framework dramatically cuts computational costs for inverse design by merging deep learning with evolutionary algorithms.",
+      "category": "research",
+      "publishedAt": "2026-07-08T17:41:56.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2607.07682v1",
+      "sourceName": "arXiv (Xiangming Huang, Guannan Zhang, Lu Lu, Raphaël Pestourie)",
+      "sourceTier": 1,
+      "image": "/images/articles/researchers-combine-neural-networks-and-evolution-to-solve-complex-physics-desig-1076fe95.jpg"
+    },
+    {
       "slug": "lightweight-ai-system-converts-paper-ecgs-to-digital-diagnoses-75dac73e",
       "title": "Lightweight AI System Converts Paper ECGs to Digital Diagnoses",
       "subtitle": "New research enables smartphone-based heart attack detection in remote clinics without high-speed internet or powerful computers.",
@@ -6549,6 +6560,7 @@
     "dfc4d34771cc70c9",
     "c56ca77da435ca4c",
     "6492fe7a3e00fcec",
-    "75dac73e2b7737b7"
+    "75dac73e2b7737b7",
+    "1076fe954bbe1754"
   ]
 }
