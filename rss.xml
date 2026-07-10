@@ -7,6 +7,22 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Researchers Create Safety-Focused Benchmark for Autonomous Driving AI</title>
+      <link>https://aiglimpse.ai/articles/researchers-create-safety-focused-benchmark-for-autonomous-driving-ai-5efdef8b</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/researchers-create-safety-focused-benchmark-for-autonomous-driving-ai-5efdef8b</guid>
+      <description>New dataset tests whether vision-language models can reliably understand dangerous driving scenarios from dashcam footage.</description>
+      <pubDate>Thu, 09 Jul 2026 17:46:24 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
+      <title>Researchers Shrink Depth-Detection AI to Run on Any Device</title>
+      <link>https://aiglimpse.ai/articles/researchers-shrink-depth-detection-ai-to-run-on-any-device-61cc1f42</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/researchers-shrink-depth-detection-ai-to-run-on-any-device-61cc1f42</guid>
+      <description>A new compact model achieves near-foundation-model accuracy while running 50x faster on phones and edge devices.</description>
+      <pubDate>Thu, 09 Jul 2026 17:59:58 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
       <title>Researchers Release Multitrack Pop Dataset to Benchmark Music AI</title>
       <link>https://aiglimpse.ai/articles/researchers-release-multitrack-pop-dataset-to-benchmark-music-ai-bea0b39a</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/researchers-release-multitrack-pop-dataset-to-benchmark-music-ai-bea0b39a</guid>
@@ -388,22 +404,6 @@
       <guid isPermaLink="true">https://aiglimpse.ai/articles/anthropic-quietly-tracked-claude-users-in-china-then-deleted-code-522b82c4</guid>
       <description>The AI company embedded hidden monitoring in its Code interpreter to flag Chinese users, raising fresh questions about surveillance and user consent in AI products.</description>
       <pubDate>Mon, 06 Jul 2026 16:44:18 GMT</pubDate>
-      <category>AI Tools &amp; Products</category>
-    </item>
-    <item>
-      <title>How Photoroom Built a Custom Dataset Strategy for AI Model Training</title>
-      <link>https://aiglimpse.ai/articles/how-photoroom-built-a-custom-dataset-strategy-for-ai-model-training-adf1b5b7</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/how-photoroom-built-a-custom-dataset-strategy-for-ai-model-training-adf1b5b7</guid>
-      <description>The company reveals how curated, high-quality data pipelines became essential to developing specialized computer vision models.</description>
-      <pubDate>Mon, 06 Jul 2026 15:30:55 GMT</pubDate>
-      <category>AI Tools &amp; Products</category>
-    </item>
-    <item>
-      <title>Hugging Face Releases LeRobot v0.6.0 with AI-Powered Robot Learning</title>
-      <link>https://aiglimpse.ai/articles/hugging-face-releases-lerobot-v060-with-ai-powered-robot-learning-fcb16807</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/hugging-face-releases-lerobot-v060-with-ai-powered-robot-learning-fcb16807</guid>
-      <description>New iteration brings evaluation and improvement tools for training robots, advancing the open-source robotics AI ecosystem.</description>
-      <pubDate>Tue, 07 Jul 2026 00:00:00 GMT</pubDate>
       <category>AI Tools &amp; Products</category>
     </item>
   </channel>

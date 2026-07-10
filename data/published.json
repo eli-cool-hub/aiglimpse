@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "researchers-create-safety-focused-benchmark-for-autonomous-driving-ai-5efdef8b",
+      "title": "Researchers Create Safety-Focused Benchmark for Autonomous Driving AI",
+      "subtitle": "New dataset tests whether vision-language models can reliably understand dangerous driving scenarios from dashcam footage.",
+      "category": "research",
+      "publishedAt": "2026-07-09T17:46:24.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2607.08745v1",
+      "sourceName": "arXiv (Siddharth Damodharan, Radhika Gupta, Ali Alshami, Ryan Rabin…)",
+      "sourceTier": 1,
+      "image": "/images/articles/researchers-create-safety-focused-benchmark-for-autonomous-driving-ai-5efdef8b.jpg"
+    },
+    {
+      "slug": "researchers-shrink-depth-detection-ai-to-run-on-any-device-61cc1f42",
+      "title": "Researchers Shrink Depth-Detection AI to Run on Any Device",
+      "subtitle": "A new compact model achieves near-foundation-model accuracy while running 50x faster on phones and edge devices.",
+      "category": "research",
+      "publishedAt": "2026-07-09T17:59:58.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2607.08771v1",
+      "sourceName": "arXiv (Fabio Tosi, Luca Bartolomei, Matteo Poggi, Stefano Mattoccia)",
+      "sourceTier": 1,
+      "image": "/images/articles/researchers-shrink-depth-detection-ai-to-run-on-any-device-61cc1f42.jpg"
+    },
+    {
       "slug": "researchers-release-multitrack-pop-dataset-to-benchmark-music-ai-bea0b39a",
       "title": "Researchers Release Multitrack Pop Dataset to Benchmark Music AI",
       "subtitle": "New benchmark reveals current music transcription models still struggle with 38% accuracy, highlighting a major challenge for AI-driven music analysis.",
@@ -6585,6 +6607,8 @@
     "75dac73e2b7737b7",
     "1076fe954bbe1754",
     "903fa3d8a8b7071b",
-    "bea0b39a0e838849"
+    "bea0b39a0e838849",
+    "61cc1f42a21b568c",
+    "5efdef8b579e1ec7"
   ]
 }

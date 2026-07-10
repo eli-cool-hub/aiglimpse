@@ -3,7 +3,7 @@
 > Machine-readable index for AI assistants, answer engines, and research crawlers.
 > Summary version: https://aiglimpse.ai/llms.txt
 
-Total articles: 548 | Evergreen explainers: 12 | Generated: 2026-07-10
+Total articles: 550 | Evergreen explainers: 12 | Generated: 2026-07-10
 
 ## Evergreen explainers
 
@@ -92,6 +92,20 @@ Total articles: 548 | Evergreen explainers: 12 | Generated: 2026-07-10
 - Type: evergreen explainer (FAQ schema on page)
 
 ## All articles (newest first)
+
+### Researchers Create Safety-Focused Benchmark for Autonomous Driving AI
+- URL: https://aiglimpse.ai/articles/researchers-create-safety-focused-benchmark-for-autonomous-driving-ai-5efdef8b
+- Published: 2026-07-09
+- Category: research
+- Summary: New dataset tests whether vision-language models can reliably understand dangerous driving scenarios from dashcam footage.
+- Source: http://arxiv.org/abs/2607.08745v1
+
+### Researchers Shrink Depth-Detection AI to Run on Any Device
+- URL: https://aiglimpse.ai/articles/researchers-shrink-depth-detection-ai-to-run-on-any-device-61cc1f42
+- Published: 2026-07-09
+- Category: research
+- Summary: A new compact model achieves near-foundation-model accuracy while running 50x faster on phones and edge devices.
+- Source: http://arxiv.org/abs/2607.08771v1
 
 ### Researchers Release Multitrack Pop Dataset to Benchmark Music AI
 - URL: https://aiglimpse.ai/articles/researchers-release-multitrack-pop-dataset-to-benchmark-music-ai-bea0b39a
