@@ -7,6 +7,14 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Apple Alleges OpenAI Misappropriated Hardware Trade Secrets</title>
+      <link>https://aiglimpse.ai/articles/apple-alleges-openai-misappropriated-hardware-trade-secrets-c285eab3</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/apple-alleges-openai-misappropriated-hardware-trade-secrets-c285eab3</guid>
+      <description>The dispute escalates tensions between Big Tech and AI startups over intellectual property protection and talent mobility.</description>
+      <pubDate>Fri, 10 Jul 2026 21:36:51 GMT</pubDate>
+      <category>AI Tools &amp; Products</category>
+    </item>
+    <item>
       <title>OpenAI Launches Bug Bounty for Biological AI Safety Research</title>
       <link>https://aiglimpse.ai/articles/openai-launches-bug-bounty-for-biological-ai-safety-research-3435ba29</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/openai-launches-bug-bounty-for-biological-ai-safety-research-3435ba29</guid>
@@ -396,14 +404,6 @@
       <guid isPermaLink="true">https://aiglimpse.ai/articles/new-framework-scales-3d-scene-generation-to-entire-environments-17292ac7</guid>
       <description>Researchers develop SynCity 3000, enabling AI to generate large, coherent 3D scenes from text prompts with precise layout control.</description>
       <pubDate>Mon, 06 Jul 2026 17:59:35 GMT</pubDate>
-      <category>AI Research</category>
-    </item>
-    <item>
-      <title>New Framework Bridges Planning and Execution Gap in Robot Manipulation</title>
-      <link>https://aiglimpse.ai/articles/new-framework-bridges-planning-and-execution-gap-in-robot-manipulation-5f88e9f0</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-framework-bridges-planning-and-execution-gap-in-robot-manipulation-5f88e9f0</guid>
-      <description>Researchers introduce Cortex, a dual-system approach that enables robots to handle complex, multi-step tasks by aligning high-level planning with low-level motor control.</description>
-      <pubDate>Mon, 06 Jul 2026 17:55:05 GMT</pubDate>
       <category>AI Research</category>
     </item>
   </channel>

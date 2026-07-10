@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "apple-alleges-openai-misappropriated-hardware-trade-secrets-c285eab3",
+      "title": "Apple Alleges OpenAI Misappropriated Hardware Trade Secrets",
+      "subtitle": "The dispute escalates tensions between Big Tech and AI startups over intellectual property protection and talent mobility.",
+      "category": "tools",
+      "publishedAt": "2026-07-10T21:36:51.000Z",
+      "sourceUrl": "https://www.theverge.com/tech/964350/apple-openai-lawsuit-trade-secrets",
+      "sourceName": "The Verge AI",
+      "sourceTier": 2,
+      "image": "/images/articles/apple-alleges-openai-misappropriated-hardware-trade-secrets-c285eab3.jpg"
+    },
+    {
       "slug": "openai-launches-bug-bounty-for-biological-ai-safety-research-3435ba29",
       "title": "OpenAI Launches Bug Bounty for Biological AI Safety Research",
       "subtitle": "The company seeks external researchers to identify risks in large language models trained on biological data.",
@@ -6717,6 +6728,7 @@
     "88709fd812213b8c",
     "b9f8defdba691616",
     "300c7b0662b9b226",
-    "3435ba2970b9e9be"
+    "3435ba2970b9e9be",
+    "c285eab372540393"
   ]
 }

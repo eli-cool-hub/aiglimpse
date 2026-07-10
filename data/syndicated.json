@@ -7490,6 +7490,24 @@
         "devto": true,
         "hashnode": false
       }
+    },
+    "apple-alleges-openai-misappropriated-hardware-trade-secrets-c285eab3": {
+      "syndicated_at": "2026-07-10T23:00:42.993Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/apple-alleges-openai-misappropriated-hardware-trade-secrets-5dhn",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 491,
+      "category": "tools",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
     }
   }
 }
