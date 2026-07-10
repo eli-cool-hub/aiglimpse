@@ -7346,6 +7346,42 @@
         "devto": true,
         "hashnode": false
       }
+    },
+    "deutsche-telekom-deploys-large-language-models-across-operations-20f06dd2": {
+      "syndicated_at": "2026-07-10T14:31:24.787Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/deutsche-telekom-deploys-large-language-models-across-operations-2aco",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 402,
+      "category": "llms",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
+    },
+    "researchers-tackle-event-camera-video-reconstruction-with-diffusion-models-01de911f": {
+      "syndicated_at": "2026-07-10T14:31:34.353Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/researchers-tackle-event-camera-video-reconstruction-with-diffusion-models-3oh9",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 451,
+      "category": "research",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
     }
   }
 }

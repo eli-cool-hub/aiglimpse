@@ -3,7 +3,7 @@
 > Machine-readable index for AI assistants, answer engines, and research crawlers.
 > Summary version: https://aiglimpse.ai/llms.txt
 
-Total articles: 551 | Evergreen explainers: 12 | Generated: 2026-07-10
+Total articles: 553 | Evergreen explainers: 12 | Generated: 2026-07-10
 
 ## Evergreen explainers
 
@@ -92,6 +92,20 @@ Total articles: 551 | Evergreen explainers: 12 | Generated: 2026-07-10
 - Type: evergreen explainer (FAQ schema on page)
 
 ## All articles (newest first)
+
+### Researchers Tackle Event Camera Video Reconstruction With Diffusion Models
+- URL: https://aiglimpse.ai/articles/researchers-tackle-event-camera-video-reconstruction-with-diffusion-models-01de911f
+- Published: 2026-07-09
+- Category: research
+- Summary: New technique combines sparse sensor data with generative AI to create stable, high-quality video across extended sequences.
+- Source: http://arxiv.org/abs/2607.08770v1
+
+### Deutsche Telekom Deploys Large Language Models Across Operations
+- URL: https://aiglimpse.ai/articles/deutsche-telekom-deploys-large-language-models-across-operations-20f06dd2
+- Published: 2026-07-10
+- Category: llms
+- Summary: The German carrier is using advanced AI to reshape customer interactions, workforce productivity, and network management at scale.
+- Source: https://openai.com/index/deutsche-telekom
 
 ### PyTorch Profiling Deep Dive: Optimizing Transformer Attention Layers
 - URL: https://aiglimpse.ai/articles/pytorch-profiling-deep-dive-optimizing-transformer-attention-layers-7e5d6f3c

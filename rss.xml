@@ -7,6 +7,22 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Researchers Tackle Event Camera Video Reconstruction With Diffusion Models</title>
+      <link>https://aiglimpse.ai/articles/researchers-tackle-event-camera-video-reconstruction-with-diffusion-models-01de911f</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/researchers-tackle-event-camera-video-reconstruction-with-diffusion-models-01de911f</guid>
+      <description>New technique combines sparse sensor data with generative AI to create stable, high-quality video across extended sequences.</description>
+      <pubDate>Thu, 09 Jul 2026 17:59:52 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
+      <title>Deutsche Telekom Deploys Large Language Models Across Operations</title>
+      <link>https://aiglimpse.ai/articles/deutsche-telekom-deploys-large-language-models-across-operations-20f06dd2</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/deutsche-telekom-deploys-large-language-models-across-operations-20f06dd2</guid>
+      <description>The German carrier is using advanced AI to reshape customer interactions, workforce productivity, and network management at scale.</description>
+      <pubDate>Fri, 10 Jul 2026 07:00:00 GMT</pubDate>
+      <category>LLMs &amp; Chatbots</category>
+    </item>
+    <item>
       <title>PyTorch Profiling Deep Dive: Optimizing Transformer Attention Layers</title>
       <link>https://aiglimpse.ai/articles/pytorch-profiling-deep-dive-optimizing-transformer-attention-layers-7e5d6f3c</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/pytorch-profiling-deep-dive-optimizing-transformer-attention-layers-7e5d6f3c</guid>
@@ -389,22 +405,6 @@
       <description>One Brooklyn Health adopts intelligent virtual care technology to predict adverse events and expand nurse oversight across multiple hospital units.</description>
       <pubDate>Mon, 06 Jul 2026 21:42:02 GMT</pubDate>
       <category>Industry Applications</category>
-    </item>
-    <item>
-      <title>OpenAI's Wealth-Sharing Plan Could Put $320 in Every American's Pocket</title>
-      <link>https://aiglimpse.ai/articles/openais-wealth-sharing-plan-could-put-320-in-every-americans-pocket-10130a10</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/openais-wealth-sharing-plan-could-put-320-in-every-americans-pocket-10130a10</guid>
-      <description>Sam Altman revives his proposal to distribute AI company equity to U.S. citizens, signaling a broader debate over who benefits from artificial intelligence.</description>
-      <pubDate>Mon, 06 Jul 2026 18:00:00 GMT</pubDate>
-      <category>AI Research</category>
-    </item>
-    <item>
-      <title>Vercel CEO Makes Case for Decoupling AI Models from Agent Systems</title>
-      <link>https://aiglimpse.ai/articles/vercel-ceo-makes-case-for-decoupling-ai-models-from-agent-systems-c4fbfbad</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/vercel-ceo-makes-case-for-decoupling-ai-models-from-agent-systems-c4fbfbad</guid>
-      <description>Infrastructure leader argues production economics demand architectural separation between language models and autonomous agents.</description>
-      <pubDate>Mon, 06 Jul 2026 19:49:10 GMT</pubDate>
-      <category>AI Business</category>
     </item>
   </channel>
 </rss>
