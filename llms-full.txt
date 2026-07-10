@@ -3,7 +3,7 @@
 > Machine-readable index for AI assistants, answer engines, and research crawlers.
 > Summary version: https://aiglimpse.ai/llms.txt
 
-Total articles: 550 | Evergreen explainers: 12 | Generated: 2026-07-10
+Total articles: 551 | Evergreen explainers: 12 | Generated: 2026-07-10
 
 ## Evergreen explainers
 
@@ -92,6 +92,13 @@ Total articles: 550 | Evergreen explainers: 12 | Generated: 2026-07-10
 - Type: evergreen explainer (FAQ schema on page)
 
 ## All articles (newest first)
+
+### PyTorch Profiling Deep Dive: Optimizing Transformer Attention Layers
+- URL: https://aiglimpse.ai/articles/pytorch-profiling-deep-dive-optimizing-transformer-attention-layers-7e5d6f3c
+- Published: 2026-07-10
+- Category: tools
+- Summary: Developers gain practical tools to identify performance bottlenecks in attention mechanisms that power modern large language models.
+- Source: https://huggingface.co/blog/torch-attention-profile
 
 ### Researchers Create Safety-Focused Benchmark for Autonomous Driving AI
 - URL: https://aiglimpse.ai/articles/researchers-create-safety-focused-benchmark-for-autonomous-driving-ai-5efdef8b

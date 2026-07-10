@@ -7328,6 +7328,24 @@
         "devto": true,
         "hashnode": false
       }
+    },
+    "pytorch-profiling-deep-dive-optimizing-transformer-attention-layers-7e5d6f3c": {
+      "syndicated_at": "2026-07-10T10:57:10.846Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/pytorch-profiling-deep-dive-optimizing-transformer-attention-layers-l1j",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 465,
+      "category": "tools",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
     }
   }
 }

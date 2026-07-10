@@ -20,6 +20,7 @@ All content is original reporting by the AI Glimpse newsroom. Primary sources ar
 
 ## Recent articles
 
+- [PyTorch Profiling Deep Dive: Optimizing Transformer Attention Layers](https://aiglimpse.ai/articles/pytorch-profiling-deep-dive-optimizing-transformer-attention-layers-7e5d6f3c) (2026-07-10): Developers gain practical tools to identify performance bottlenecks in attention mechanisms that power modern large language models.
 - [Researchers Create Safety-Focused Benchmark for Autonomous Driving AI](https://aiglimpse.ai/articles/researchers-create-safety-focused-benchmark-for-autonomous-driving-ai-5efdef8b) (2026-07-09): New dataset tests whether vision-language models can reliably understand dangerous driving scenarios from dashcam footage.
 - [Researchers Shrink Depth-Detection AI to Run on Any Device](https://aiglimpse.ai/articles/researchers-shrink-depth-detection-ai-to-run-on-any-device-61cc1f42) (2026-07-09): A new compact model achieves near-foundation-model accuracy while running 50x faster on phones and edge devices.
 - [Researchers Release Multitrack Pop Dataset to Benchmark Music AI](https://aiglimpse.ai/articles/researchers-release-multitrack-pop-dataset-to-benchmark-music-ai-bea0b39a) (2026-07-09): New benchmark reveals current music transcription models still struggle with 38% accuracy, highlighting a major challenge for AI-driven music analysis.
@@ -49,7 +50,6 @@ All content is original reporting by the AI Glimpse newsroom. Primary sources ar
 - [New Framework Teaches Robots to Manipulate Objects With 3D Awareness](https://aiglimpse.ai/articles/new-framework-teaches-robots-to-manipulate-objects-with-3d-awareness-35c18c4d) (2026-07-07): Lift3D-VLA combines spatial reasoning with action prediction to dramatically improve robotic task performance in simulation and the real world.
 - [Prompt Engineering in 2026: Patterns That Work in Production](https://aiglimpse.ai/articles/prompt-engineering-guide-2026) (2026-07-08): The system prompts, few-shot techniques, and evaluation loops that ship in real LLM applications
 - [AI Can Parse Animal Communication Without Training Data, Study Shows](https://aiglimpse.ai/articles/ai-can-parse-animal-communication-without-training-data-study-shows-581f9dc8) (2026-07-07): Researchers demonstrate that machine learning models can evaluate the accuracy of primate vocalizations and gestures without human-created reference standards.
-- [New AI Model Bridges Language and 3D Generation with Smarter Cross-Modal Design](https://aiglimpse.ai/articles/new-ai-model-bridges-language-and-3d-generation-with-smarter-cross-modal-design-b4067436) (2026-07-07): ELSA3D uses anchored semantic routing to unify text understanding and 3D asset creation, cutting computational overhead in half.
 
 ## Explainers (evergreen)
 
@@ -70,7 +70,7 @@ All content is original reporting by the AI Glimpse newsroom. Primary sources ar
 
 - [Sitemap](https://aiglimpse.ai/sitemap.xml): All article URLs with publish dates (Google News format).
 - [RSS](https://aiglimpse.ai/rss.xml): 50 most recent articles (RSS 2.0).
-- [Full content index](https://aiglimpse.ai/llms-full.txt): Extended article list for LLM crawlers (550 articles).
+- [Full content index](https://aiglimpse.ai/llms-full.txt): Extended article list for LLM crawlers (551 articles).
 
 ## About
 

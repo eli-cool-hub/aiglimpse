@@ -7,6 +7,14 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>PyTorch Profiling Deep Dive: Optimizing Transformer Attention Layers</title>
+      <link>https://aiglimpse.ai/articles/pytorch-profiling-deep-dive-optimizing-transformer-attention-layers-7e5d6f3c</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/pytorch-profiling-deep-dive-optimizing-transformer-attention-layers-7e5d6f3c</guid>
+      <description>Developers gain practical tools to identify performance bottlenecks in attention mechanisms that power modern large language models.</description>
+      <pubDate>Fri, 10 Jul 2026 00:00:00 GMT</pubDate>
+      <category>AI Tools &amp; Products</category>
+    </item>
+    <item>
       <title>Researchers Create Safety-Focused Benchmark for Autonomous Driving AI</title>
       <link>https://aiglimpse.ai/articles/researchers-create-safety-focused-benchmark-for-autonomous-driving-ai-5efdef8b</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/researchers-create-safety-focused-benchmark-for-autonomous-driving-ai-5efdef8b</guid>
@@ -397,14 +405,6 @@
       <description>Infrastructure leader argues production economics demand architectural separation between language models and autonomous agents.</description>
       <pubDate>Mon, 06 Jul 2026 19:49:10 GMT</pubDate>
       <category>AI Business</category>
-    </item>
-    <item>
-      <title>Anthropic Quietly Tracked Claude Users in China, Then Deleted Code</title>
-      <link>https://aiglimpse.ai/articles/anthropic-quietly-tracked-claude-users-in-china-then-deleted-code-522b82c4</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/anthropic-quietly-tracked-claude-users-in-china-then-deleted-code-522b82c4</guid>
-      <description>The AI company embedded hidden monitoring in its Code interpreter to flag Chinese users, raising fresh questions about surveillance and user consent in AI products.</description>
-      <pubDate>Mon, 06 Jul 2026 16:44:18 GMT</pubDate>
-      <category>AI Tools &amp; Products</category>
     </item>
   </channel>
 </rss>

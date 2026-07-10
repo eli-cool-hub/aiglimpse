@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "pytorch-profiling-deep-dive-optimizing-transformer-attention-layers-7e5d6f3c",
+      "title": "PyTorch Profiling Deep Dive: Optimizing Transformer Attention Layers",
+      "subtitle": "Developers gain practical tools to identify performance bottlenecks in attention mechanisms that power modern large language models.",
+      "category": "tools",
+      "publishedAt": "2026-07-10T00:00:00.000Z",
+      "sourceUrl": "https://huggingface.co/blog/torch-attention-profile",
+      "sourceName": "Hugging Face",
+      "sourceTier": 1,
+      "image": "/images/articles/pytorch-profiling-deep-dive-optimizing-transformer-attention-layers-7e5d6f3c.jpg"
+    },
+    {
       "slug": "researchers-create-safety-focused-benchmark-for-autonomous-driving-ai-5efdef8b",
       "title": "Researchers Create Safety-Focused Benchmark for Autonomous Driving AI",
       "subtitle": "New dataset tests whether vision-language models can reliably understand dangerous driving scenarios from dashcam footage.",
@@ -6609,6 +6620,7 @@
     "903fa3d8a8b7071b",
     "bea0b39a0e838849",
     "61cc1f42a21b568c",
-    "5efdef8b579e1ec7"
+    "5efdef8b579e1ec7",
+    "7e5d6f3c4c424341"
   ]
 }
