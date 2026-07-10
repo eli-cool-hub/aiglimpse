@@ -3,7 +3,7 @@
 > Machine-readable index for AI assistants, answer engines, and research crawlers.
 > Summary version: https://aiglimpse.ai/llms.txt
 
-Total articles: 557 | Evergreen explainers: 12 | Generated: 2026-07-10
+Total articles: 559 | Evergreen explainers: 12 | Generated: 2026-07-10
 
 ## Evergreen explainers
 
@@ -92,6 +92,20 @@ Total articles: 557 | Evergreen explainers: 12 | Generated: 2026-07-10
 - Type: evergreen explainer (FAQ schema on page)
 
 ## All articles (newest first)
+
+### OpenAI Launches Bug Bounty for Biological AI Safety Research
+- URL: https://aiglimpse.ai/articles/openai-launches-bug-bounty-for-biological-ai-safety-research-3435ba29
+- Published: 2026-07-09
+- Category: llms
+- Summary: The company seeks external researchers to identify risks in large language models trained on biological data.
+- Source: https://openai.com/index/bio-bug-bounty
+
+### Researchers Tackle Video AI Quality Decay in Fast Generation Models
+- URL: https://aiglimpse.ai/articles/researchers-tackle-video-ai-quality-decay-in-fast-generation-models-300c7b06
+- Published: 2026-07-09
+- Category: research
+- Summary: New training method helps autoregressive video models maintain visual coherence and motion quality over longer sequences without slowing inference.
+- Source: http://arxiv.org/abs/2607.08766v1
 
 ### OpenAI Releases GPT-5.6, Targeting Cost and Performance Gains
 - URL: https://aiglimpse.ai/articles/openai-releases-gpt-56-targeting-cost-and-performance-gains-b9f8defd

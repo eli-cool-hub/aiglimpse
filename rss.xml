@@ -7,6 +7,22 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>OpenAI Launches Bug Bounty for Biological AI Safety Research</title>
+      <link>https://aiglimpse.ai/articles/openai-launches-bug-bounty-for-biological-ai-safety-research-3435ba29</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/openai-launches-bug-bounty-for-biological-ai-safety-research-3435ba29</guid>
+      <description>The company seeks external researchers to identify risks in large language models trained on biological data.</description>
+      <pubDate>Thu, 09 Jul 2026 10:00:00 GMT</pubDate>
+      <category>LLMs &amp; Chatbots</category>
+    </item>
+    <item>
+      <title>Researchers Tackle Video AI Quality Decay in Fast Generation Models</title>
+      <link>https://aiglimpse.ai/articles/researchers-tackle-video-ai-quality-decay-in-fast-generation-models-300c7b06</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/researchers-tackle-video-ai-quality-decay-in-fast-generation-models-300c7b06</guid>
+      <description>New training method helps autoregressive video models maintain visual coherence and motion quality over longer sequences without slowing inference.</description>
+      <pubDate>Thu, 09 Jul 2026 17:59:11 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
       <title>OpenAI Releases GPT-5.6, Targeting Cost and Performance Gains</title>
       <link>https://aiglimpse.ai/articles/openai-releases-gpt-56-targeting-cost-and-performance-gains-b9f8defd</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/openai-releases-gpt-56-targeting-cost-and-performance-gains-b9f8defd</guid>
@@ -388,22 +404,6 @@
       <guid isPermaLink="true">https://aiglimpse.ai/articles/new-framework-bridges-planning-and-execution-gap-in-robot-manipulation-5f88e9f0</guid>
       <description>Researchers introduce Cortex, a dual-system approach that enables robots to handle complex, multi-step tasks by aligning high-level planning with low-level motor control.</description>
       <pubDate>Mon, 06 Jul 2026 17:55:05 GMT</pubDate>
-      <category>AI Research</category>
-    </item>
-    <item>
-      <title>AI Model Spots Fake Astronomical Events Without Human Training Data</title>
-      <link>https://aiglimpse.ai/articles/ai-model-spots-fake-astronomical-events-without-human-training-data-b390a2a2</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/ai-model-spots-fake-astronomical-events-without-human-training-data-b390a2a2</guid>
-      <description>Researchers develop a machine learning system that classifies real versus false transient signals in sky surveys using only simulated data and uncertainty estimates.</description>
-      <pubDate>Mon, 06 Jul 2026 17:59:58 GMT</pubDate>
-      <category>AI Research</category>
-    </item>
-    <item>
-      <title>Researchers Propose LLM Verification Framework to Scale AI Agent Quality</title>
-      <link>https://aiglimpse.ai/articles/researchers-propose-llm-verification-framework-to-scale-ai-agent-quality-5f4b7927</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/researchers-propose-llm-verification-framework-to-scale-ai-agent-quality-5f4b7927</guid>
-      <description>New approach treats error-checking as a scaling axis, improving how AI systems evaluate their own outputs without additional training.</description>
-      <pubDate>Mon, 06 Jul 2026 17:59:35 GMT</pubDate>
       <category>AI Research</category>
     </item>
   </channel>

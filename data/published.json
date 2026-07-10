@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "openai-launches-bug-bounty-for-biological-ai-safety-research-3435ba29",
+      "title": "OpenAI Launches Bug Bounty for Biological AI Safety Research",
+      "subtitle": "The company seeks external researchers to identify risks in large language models trained on biological data.",
+      "category": "llms",
+      "publishedAt": "2026-07-09T10:00:00.000Z",
+      "sourceUrl": "https://openai.com/index/bio-bug-bounty",
+      "sourceName": "OpenAI",
+      "sourceTier": 1,
+      "image": "/images/articles/openai-launches-bug-bounty-for-biological-ai-safety-research-3435ba29.jpg"
+    },
+    {
+      "slug": "researchers-tackle-video-ai-quality-decay-in-fast-generation-models-300c7b06",
+      "title": "Researchers Tackle Video AI Quality Decay in Fast Generation Models",
+      "subtitle": "New training method helps autoregressive video models maintain visual coherence and motion quality over longer sequences without slowing inference.",
+      "category": "research",
+      "publishedAt": "2026-07-09T17:59:11.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2607.08766v1",
+      "sourceName": "arXiv (Hongyu Liu, Chun Wang, Feng Gao, Xuanhua He, Yue Ma, Ziyu Wa…)",
+      "sourceTier": 1,
+      "image": "/images/articles/researchers-tackle-video-ai-quality-decay-in-fast-generation-models-300c7b06.jpg"
+    },
+    {
       "slug": "openai-releases-gpt-56-targeting-cost-and-performance-gains-b9f8defd",
       "title": "OpenAI Releases GPT-5.6, Targeting Cost and Performance Gains",
       "subtitle": "The latest model promises improved efficiency and scaled capabilities, reshaping economics for enterprise AI deployment.",
@@ -6693,6 +6715,8 @@
     "4a40ecfa02488788",
     "e3081bf2f3ebc09e",
     "88709fd812213b8c",
-    "b9f8defdba691616"
+    "b9f8defdba691616",
+    "300c7b0662b9b226",
+    "3435ba2970b9e9be"
   ]
 }

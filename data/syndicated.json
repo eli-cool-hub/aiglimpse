@@ -7454,6 +7454,42 @@
         "devto": true,
         "hashnode": false
       }
+    },
+    "researchers-tackle-video-ai-quality-decay-in-fast-generation-models-300c7b06": {
+      "syndicated_at": "2026-07-10T21:07:28.890Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/researchers-tackle-video-ai-quality-decay-in-fast-generation-models-3b8o",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 450,
+      "category": "research",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
+    },
+    "openai-launches-bug-bounty-for-biological-ai-safety-research-3435ba29": {
+      "syndicated_at": "2026-07-10T21:07:38.624Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/openai-launches-bug-bounty-for-biological-ai-safety-research-2857",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 470,
+      "category": "llms",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
     }
   }
 }
