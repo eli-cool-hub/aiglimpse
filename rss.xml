@@ -7,6 +7,22 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Researchers Release Multitrack Pop Dataset to Benchmark Music AI</title>
+      <link>https://aiglimpse.ai/articles/researchers-release-multitrack-pop-dataset-to-benchmark-music-ai-bea0b39a</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/researchers-release-multitrack-pop-dataset-to-benchmark-music-ai-bea0b39a</guid>
+      <description>New benchmark reveals current music transcription models still struggle with 38% accuracy, highlighting a major challenge for AI-driven music analysis.</description>
+      <pubDate>Thu, 09 Jul 2026 17:55:33 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
+      <title>New AI Model Maps Underwater Terrain Without Human Labels</title>
+      <link>https://aiglimpse.ai/articles/new-ai-model-maps-underwater-terrain-without-human-labels-903fa3d8</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-ai-model-maps-underwater-terrain-without-human-labels-903fa3d8</guid>
+      <description>Researchers develop self-learning framework that adapts surface computer vision for ocean environments, addressing a critical gap in marine robotics.</description>
+      <pubDate>Thu, 09 Jul 2026 17:59:58 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
       <title>Researchers Combine Neural Networks and Evolution to Solve Complex Physics Design Problems</title>
       <link>https://aiglimpse.ai/articles/researchers-combine-neural-networks-and-evolution-to-solve-complex-physics-desig-1076fe95</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/researchers-combine-neural-networks-and-evolution-to-solve-complex-physics-desig-1076fe95</guid>
@@ -388,22 +404,6 @@
       <guid isPermaLink="true">https://aiglimpse.ai/articles/hugging-face-releases-lerobot-v060-with-ai-powered-robot-learning-fcb16807</guid>
       <description>New iteration brings evaluation and improvement tools for training robots, advancing the open-source robotics AI ecosystem.</description>
       <pubDate>Tue, 07 Jul 2026 00:00:00 GMT</pubDate>
-      <category>AI Tools &amp; Products</category>
-    </item>
-    <item>
-      <title>OpenAI's Next-Gen Model Reportedly Set for Codex Integration</title>
-      <link>https://aiglimpse.ai/articles/openais-next-gen-model-reportedly-set-for-codex-integration-ce7ca622</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/openais-next-gen-model-reportedly-set-for-codex-integration-ce7ca622</guid>
-      <description>Community speculation surrounds the anticipated deployment of advanced language capabilities in developer tooling platform.</description>
-      <pubDate>Mon, 06 Jul 2026 01:04:03 GMT</pubDate>
-      <category>AI Tools &amp; Products</category>
-    </item>
-    <item>
-      <title>Hugging Face Overhauls Kernels Platform for Faster Model Development</title>
-      <link>https://aiglimpse.ai/articles/hugging-face-overhauls-kernels-platform-for-faster-model-development-4e0dca1f</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/hugging-face-overhauls-kernels-platform-for-faster-model-development-4e0dca1f</guid>
-      <description>The AI community platform redesigns its collaborative coding environment to streamline machine learning workflows and reduce friction for researchers.</description>
-      <pubDate>Mon, 06 Jul 2026 00:00:00 GMT</pubDate>
       <category>AI Tools &amp; Products</category>
     </item>
   </channel>
