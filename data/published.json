@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "openai-releases-gpt-56-targeting-cost-and-performance-gains-b9f8defd",
+      "title": "OpenAI Releases GPT-5.6, Targeting Cost and Performance Gains",
+      "subtitle": "The latest model promises improved efficiency and scaled capabilities, reshaping economics for enterprise AI deployment.",
+      "category": "llms",
+      "publishedAt": "2026-07-09T10:00:00.000Z",
+      "sourceUrl": "https://openai.com/index/gpt-5-6",
+      "sourceName": "OpenAI",
+      "sourceTier": 1,
+      "image": "/images/articles/openai-releases-gpt-56-targeting-cost-and-performance-gains-b9f8defd.jpg"
+    },
+    {
+      "slug": "researchers-unveil-uniclawbench-to-test-ai-agents-in-real-world-tasks-88709fd8",
+      "title": "Researchers Unveil UniClawBench to Test AI Agents in Real-World Tasks",
+      "subtitle": "New capability-focused benchmark addresses critical gaps in how AI systems are evaluated for practical, everyday tool use.",
+      "category": "research",
+      "publishedAt": "2026-07-09T17:59:32.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2607.08768v1",
+      "sourceName": "arXiv (Zhekai Chen, Chengqi Duan, Kaiyue Sun, Bohao Li, Yuqing Wang…)",
+      "sourceTier": 1,
+      "image": "/images/articles/researchers-unveil-uniclawbench-to-test-ai-agents-in-real-world-tasks-88709fd8.jpg"
+    },
+    {
       "slug": "microsoft-365-copilot-upgrades-to-openais-latest-model-e3081bf2",
       "title": "Microsoft 365 Copilot Upgrades to OpenAI's Latest Model",
       "subtitle": "GPT-5.6 integration brings faster processing and improved accuracy across Office productivity tools, signaling continued AI advancement in enterprise software.",
@@ -6669,6 +6691,8 @@
     "20f06dd2abfd8785",
     "01de911f4aac8c21",
     "4a40ecfa02488788",
-    "e3081bf2f3ebc09e"
+    "e3081bf2f3ebc09e",
+    "88709fd812213b8c",
+    "b9f8defdba691616"
   ]
 }

@@ -7,6 +7,22 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>OpenAI Releases GPT-5.6, Targeting Cost and Performance Gains</title>
+      <link>https://aiglimpse.ai/articles/openai-releases-gpt-56-targeting-cost-and-performance-gains-b9f8defd</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/openai-releases-gpt-56-targeting-cost-and-performance-gains-b9f8defd</guid>
+      <description>The latest model promises improved efficiency and scaled capabilities, reshaping economics for enterprise AI deployment.</description>
+      <pubDate>Thu, 09 Jul 2026 10:00:00 GMT</pubDate>
+      <category>LLMs &amp; Chatbots</category>
+    </item>
+    <item>
+      <title>Researchers Unveil UniClawBench to Test AI Agents in Real-World Tasks</title>
+      <link>https://aiglimpse.ai/articles/researchers-unveil-uniclawbench-to-test-ai-agents-in-real-world-tasks-88709fd8</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/researchers-unveil-uniclawbench-to-test-ai-agents-in-real-world-tasks-88709fd8</guid>
+      <description>New capability-focused benchmark addresses critical gaps in how AI systems are evaluated for practical, everyday tool use.</description>
+      <pubDate>Thu, 09 Jul 2026 17:59:32 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
       <title>Microsoft 365 Copilot Upgrades to OpenAI's Latest Model</title>
       <link>https://aiglimpse.ai/articles/microsoft-365-copilot-upgrades-to-openais-latest-model-e3081bf2</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/microsoft-365-copilot-upgrades-to-openais-latest-model-e3081bf2</guid>
@@ -388,22 +404,6 @@
       <guid isPermaLink="true">https://aiglimpse.ai/articles/researchers-propose-llm-verification-framework-to-scale-ai-agent-quality-5f4b7927</guid>
       <description>New approach treats error-checking as a scaling axis, improving how AI systems evaluate their own outputs without additional training.</description>
       <pubDate>Mon, 06 Jul 2026 17:59:35 GMT</pubDate>
-      <category>AI Research</category>
-    </item>
-    <item>
-      <title>Researchers Show How to Reuse Weak AI Models to Train Stronger Ones</title>
-      <link>https://aiglimpse.ai/articles/researchers-show-how-to-reuse-weak-ai-models-to-train-stronger-ones-4ec29d02</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/researchers-show-how-to-reuse-weak-ai-models-to-train-stronger-ones-4ec29d02</guid>
-      <description>A new technique called Direct-OPD lets companies skip expensive reinforcement learning on large models by transferring knowledge from cheaper training runs on smaller models.</description>
-      <pubDate>Mon, 06 Jul 2026 17:59:58 GMT</pubDate>
-      <category>AI Research</category>
-    </item>
-    <item>
-      <title>New AI Model Lets Robots Learn Camera Position Without Manual Setup</title>
-      <link>https://aiglimpse.ai/articles/new-ai-model-lets-robots-learn-camera-position-without-manual-setup-c27f768a</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-ai-model-lets-robots-learn-camera-position-without-manual-setup-c27f768a</guid>
-      <description>Researchers develop a vision-language system that adapts to camera placement variations, removing a major obstacle to real-world robot deployment.</description>
-      <pubDate>Mon, 06 Jul 2026 17:59:59 GMT</pubDate>
       <category>AI Research</category>
     </item>
   </channel>
