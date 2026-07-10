@@ -7,6 +7,22 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Microsoft 365 Copilot Upgrades to OpenAI's Latest Model</title>
+      <link>https://aiglimpse.ai/articles/microsoft-365-copilot-upgrades-to-openais-latest-model-e3081bf2</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/microsoft-365-copilot-upgrades-to-openais-latest-model-e3081bf2</guid>
+      <description>GPT-5.6 integration brings faster processing and improved accuracy across Office productivity tools, signaling continued AI advancement in enterprise software.</description>
+      <pubDate>Thu, 09 Jul 2026 13:00:00 GMT</pubDate>
+      <category>LLMs &amp; Chatbots</category>
+    </item>
+    <item>
+      <title>Researchers Tackle 360-Degree Scene Reconstruction with Novel AI Framework</title>
+      <link>https://aiglimpse.ai/articles/researchers-tackle-360-degree-scene-reconstruction-with-novel-ai-framework-4a40ecfa</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/researchers-tackle-360-degree-scene-reconstruction-with-novel-ai-framework-4a40ecfa</guid>
+      <description>New method uses panoramic imaging to scale 3D neural rendering to massive outdoor environments while maintaining computational efficiency.</description>
+      <pubDate>Thu, 09 Jul 2026 17:59:43 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
       <title>Researchers Tackle Event Camera Video Reconstruction With Diffusion Models</title>
       <link>https://aiglimpse.ai/articles/researchers-tackle-event-camera-video-reconstruction-with-diffusion-models-01de911f</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/researchers-tackle-event-camera-video-reconstruction-with-diffusion-models-01de911f</guid>
@@ -389,22 +405,6 @@
       <description>Researchers develop a vision-language system that adapts to camera placement variations, removing a major obstacle to real-world robot deployment.</description>
       <pubDate>Mon, 06 Jul 2026 17:59:59 GMT</pubDate>
       <category>AI Research</category>
-    </item>
-    <item>
-      <title>Apple Adds Voice Customization to Siri in iOS 27 Beta</title>
-      <link>https://aiglimpse.ai/articles/apple-adds-voice-customization-to-siri-in-ios-27-beta-c27dd79f</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/apple-adds-voice-customization-to-siri-in-ios-27-beta-c27dd79f</guid>
-      <description>New controls let users adjust speaking speed and emotional tone as Apple overhauls its assistant with generative AI technology.</description>
-      <pubDate>Mon, 06 Jul 2026 19:01:59 GMT</pubDate>
-      <category>AI Business</category>
-    </item>
-    <item>
-      <title>NYC Health System Deploys AI Platform for Remote Patient Monitoring</title>
-      <link>https://aiglimpse.ai/articles/nyc-health-system-deploys-ai-platform-for-remote-patient-monitoring-323263db</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/nyc-health-system-deploys-ai-platform-for-remote-patient-monitoring-323263db</guid>
-      <description>One Brooklyn Health adopts intelligent virtual care technology to predict adverse events and expand nurse oversight across multiple hospital units.</description>
-      <pubDate>Mon, 06 Jul 2026 21:42:02 GMT</pubDate>
-      <category>Industry Applications</category>
     </item>
   </channel>
 </rss>
