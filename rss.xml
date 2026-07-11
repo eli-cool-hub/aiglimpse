@@ -7,6 +7,22 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>New Technique Enables Language Detection Built Into AI Tokenizers</title>
+      <link>https://aiglimpse.ai/articles/new-technique-enables-language-detection-built-into-ai-tokenizers-395a5786</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-technique-enables-language-detection-built-into-ai-tokenizers-395a5786</guid>
+      <description>Researchers demonstrate how multilingual language models can identify text languages using minimal training data and existing tokenizer infrastructure.</description>
+      <pubDate>Sat, 11 Jul 2026 00:00:00 GMT</pubDate>
+      <category>AI Business</category>
+    </item>
+    <item>
+      <title>How GPU Makers Are Funding Each Other in AI Infrastructure Boom</title>
+      <link>https://aiglimpse.ai/articles/how-gpu-makers-are-funding-each-other-in-ai-infrastructure-boom-c37730b1</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/how-gpu-makers-are-funding-each-other-in-ai-infrastructure-boom-c37730b1</guid>
+      <description>Nvidia, CoreWeave, and Nebius form interconnected investments that raise questions about circular financing in the AI hardware market.</description>
+      <pubDate>Sat, 11 Jul 2026 17:21:49 GMT</pubDate>
+      <category>AI Business</category>
+    </item>
+    <item>
       <title>Academic Papers Risk Hidden Flaws by Trusting LLMs Over Human Review</title>
       <link>https://aiglimpse.ai/articles/academic-papers-risk-hidden-flaws-by-trusting-llms-over-human-review-f3fe934d</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/academic-papers-risk-hidden-flaws-by-trusting-llms-over-human-review-f3fe934d</guid>
@@ -388,22 +404,6 @@
       <guid isPermaLink="true">https://aiglimpse.ai/articles/new-framework-teaches-robots-to-manipulate-objects-with-3d-awareness-35c18c4d</guid>
       <description>Lift3D-VLA combines spatial reasoning with action prediction to dramatically improve robotic task performance in simulation and the real world.</description>
       <pubDate>Tue, 07 Jul 2026 17:59:47 GMT</pubDate>
-      <category>AI Research</category>
-    </item>
-    <item>
-      <title>Prompt Engineering in 2026: Patterns That Work in Production</title>
-      <link>https://aiglimpse.ai/articles/prompt-engineering-guide-2026</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/prompt-engineering-guide-2026</guid>
-      <description>The system prompts, few-shot techniques, and evaluation loops that ship in real LLM applications</description>
-      <pubDate>Wed, 08 Jul 2026 08:11:39 GMT</pubDate>
-      <category>LLMs &amp; Chatbots</category>
-    </item>
-    <item>
-      <title>AI Can Parse Animal Communication Without Training Data, Study Shows</title>
-      <link>https://aiglimpse.ai/articles/ai-can-parse-animal-communication-without-training-data-study-shows-581f9dc8</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/ai-can-parse-animal-communication-without-training-data-study-shows-581f9dc8</guid>
-      <description>Researchers demonstrate that machine learning models can evaluate the accuracy of primate vocalizations and gestures without human-created reference standards.</description>
-      <pubDate>Tue, 07 Jul 2026 17:47:26 GMT</pubDate>
       <category>AI Research</category>
     </item>
   </channel>

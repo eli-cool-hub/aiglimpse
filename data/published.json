@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "new-technique-enables-language-detection-built-into-ai-tokenizers-395a5786",
+      "title": "New Technique Enables Language Detection Built Into AI Tokenizers",
+      "subtitle": "Researchers demonstrate how multilingual language models can identify text languages using minimal training data and existing tokenizer infrastructure.",
+      "category": "business",
+      "publishedAt": "2026-07-11T00:00:00.000Z",
+      "sourceUrl": "https://arxiv.org/abs/2602.17655",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/new-technique-enables-language-detection-built-into-ai-tokenizers-395a5786.jpg"
+    },
+    {
+      "slug": "how-gpu-makers-are-funding-each-other-in-ai-infrastructure-boom-c37730b1",
+      "title": "How GPU Makers Are Funding Each Other in AI Infrastructure Boom",
+      "subtitle": "Nvidia, CoreWeave, and Nebius form interconnected investments that raise questions about circular financing in the AI hardware market.",
+      "category": "business",
+      "publishedAt": "2026-07-11T17:21:49.000Z",
+      "sourceUrl": "https://io-fund.com/ai-stocks/nvidia-coreweave-nebius-circular-financing-gpu-boom",
+      "sourceName": "Hacker News (66 pts)",
+      "sourceTier": 2,
+      "image": "/images/articles/how-gpu-makers-are-funding-each-other-in-ai-infrastructure-boom-c37730b1.jpg"
+    },
+    {
       "slug": "academic-papers-risk-hidden-flaws-by-trusting-llms-over-human-review-f3fe934d",
       "title": "Academic Papers Risk Hidden Flaws by Trusting LLMs Over Human Review",
       "subtitle": "Researchers warn that social science journals lack standardized validation for AI-generated data, creating potential gaps in peer review and evidence quality.",
@@ -6861,6 +6883,8 @@
     "0970ac024bf1c2ec",
     "14e06648cf6e875d",
     "82f3af7bc3983855",
-    "f3fe934d47a57d69"
+    "f3fe934d47a57d69",
+    "c37730b19c6dc11c",
+    "395a57865bda2bbd"
   ]
 }

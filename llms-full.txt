@@ -3,7 +3,7 @@
 > Machine-readable index for AI assistants, answer engines, and research crawlers.
 > Summary version: https://aiglimpse.ai/llms.txt
 
-Total articles: 571 | Evergreen explainers: 12 | Generated: 2026-07-11
+Total articles: 573 | Evergreen explainers: 12 | Generated: 2026-07-11
 
 ## Evergreen explainers
 
@@ -92,6 +92,20 @@ Total articles: 571 | Evergreen explainers: 12 | Generated: 2026-07-11
 - Type: evergreen explainer (FAQ schema on page)
 
 ## All articles (newest first)
+
+### New Technique Enables Language Detection Built Into AI Tokenizers
+- URL: https://aiglimpse.ai/articles/new-technique-enables-language-detection-built-into-ai-tokenizers-395a5786
+- Published: 2026-07-11
+- Category: business
+- Summary: Researchers demonstrate how multilingual language models can identify text languages using minimal training data and existing tokenizer infrastructure.
+- Source: https://arxiv.org/abs/2602.17655
+
+### How GPU Makers Are Funding Each Other in AI Infrastructure Boom
+- URL: https://aiglimpse.ai/articles/how-gpu-makers-are-funding-each-other-in-ai-infrastructure-boom-c37730b1
+- Published: 2026-07-11
+- Category: business
+- Summary: Nvidia, CoreWeave, and Nebius form interconnected investments that raise questions about circular financing in the AI hardware market.
+- Source: https://io-fund.com/ai-stocks/nvidia-coreweave-nebius-circular-financing-gpu-boom
 
 ### Academic Papers Risk Hidden Flaws by Trusting LLMs Over Human Review
 - URL: https://aiglimpse.ai/articles/academic-papers-risk-hidden-flaws-by-trusting-llms-over-human-review-f3fe934d
