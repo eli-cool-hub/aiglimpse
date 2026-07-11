@@ -7,6 +7,22 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Twenty-Second Reviews Expose Limits of 'Human in the Loop' AI</title>
+      <link>https://aiglimpse.ai/articles/twenty-second-reviews-expose-limits-of-human-in-the-loop-ai-8b126088</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/twenty-second-reviews-expose-limits-of-human-in-the-loop-ai-8b126088</guid>
+      <description>Military targeting systems highlight critical gaps between stated oversight practices and actual implementation in high-stakes AI deployments.</description>
+      <pubDate>Sat, 11 Jul 2026 00:00:00 GMT</pubDate>
+      <category>AI Business</category>
+    </item>
+    <item>
+      <title>New Benchmark Reveals AI's Struggle With Scientific Lineage Reasoning</title>
+      <link>https://aiglimpse.ai/articles/new-benchmark-reveals-ais-struggle-with-scientific-lineage-reasoning-526094fe</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-benchmark-reveals-ais-struggle-with-scientific-lineage-reasoning-526094fe</guid>
+      <description>Researchers introduce IdeaGene-Bench to test whether large language models can trace intellectual inheritance in scientific work.</description>
+      <pubDate>Thu, 09 Jul 2026 17:55:53 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
       <title>Researchers Teach AI Video Models to Reason Through Sequential Frames</title>
       <link>https://aiglimpse.ai/articles/researchers-teach-ai-video-models-to-reason-through-sequential-frames-8b70cf9b</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/researchers-teach-ai-video-models-to-reason-through-sequential-frames-8b70cf9b</guid>
@@ -389,22 +405,6 @@
       <description>Researchers release large-scale synthetic and real-world benchmarks to improve AI models that estimate changing camera settings from video frames.</description>
       <pubDate>Mon, 06 Jul 2026 17:58:33 GMT</pubDate>
       <category>AI Research</category>
-    </item>
-    <item>
-      <title>SkyPilot and Hugging Face Partner to Eliminate Cloud Lock-In for AI Training</title>
-      <link>https://aiglimpse.ai/articles/skypilot-and-hugging-face-partner-to-eliminate-cloud-lock-in-for-ai-training-a7ca69f6</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/skypilot-and-hugging-face-partner-to-eliminate-cloud-lock-in-for-ai-training-a7ca69f6</guid>
-      <description>New integration lets researchers train models anywhere while keeping data on Hugging Face, solving a persistent friction point in machine learning infrastructure.</description>
-      <pubDate>Tue, 07 Jul 2026 00:00:00 GMT</pubDate>
-      <category>AI Tools &amp; Products</category>
-    </item>
-    <item>
-      <title>Australian Payments Firm Accelerates Development With AI Coding Tools</title>
-      <link>https://aiglimpse.ai/articles/australian-payments-firm-accelerates-development-with-ai-coding-tools-5c3fedb3</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/australian-payments-firm-accelerates-development-with-ai-coding-tools-5c3fedb3</guid>
-      <description>Enterprise deployment of generative AI streamlines payments infrastructure while preserving human oversight in critical financial decisions.</description>
-      <pubDate>Tue, 07 Jul 2026 00:00:00 GMT</pubDate>
-      <category>LLMs &amp; Chatbots</category>
     </item>
   </channel>
 </rss>
