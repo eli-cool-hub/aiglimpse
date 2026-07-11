@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "academic-papers-risk-hidden-flaws-by-trusting-llms-over-human-review-f3fe934d",
+      "title": "Academic Papers Risk Hidden Flaws by Trusting LLMs Over Human Review",
+      "subtitle": "Researchers warn that social science journals lack standardized validation for AI-generated data, creating potential gaps in peer review and evidence quality.",
+      "category": "llms",
+      "publishedAt": "2026-07-11T00:00:00.000Z",
+      "sourceUrl": "https://arxiv.org/abs/2607.07915",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/academic-papers-risk-hidden-flaws-by-trusting-llms-over-human-review-f3fe934d.jpg"
+    },
+    {
+      "slug": "ais-hidden-risk-tool-convenience-may-be-eroding-scientific-diversity-82f3af7b",
+      "title": "AI's Hidden Risk: Tool Convenience May Be Eroding Scientific Diversity",
+      "subtitle": "Researchers warn that AI adoption threatens to homogenize inquiry methods, narrowing which questions scientists pursue.",
+      "category": "research",
+      "publishedAt": "2026-07-11T00:00:00.000Z",
+      "sourceUrl": "https://www.nature.com/articles/s41586-024-07146-0?error=cookies_not_supported&code=81f45906-b963-42b9-9ab6-d6af8838a3eb",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/ais-hidden-risk-tool-convenience-may-be-eroding-scientific-diversity-82f3af7b.jpg"
+    },
+    {
       "slug": "openai-expands-chatgpt-focus-to-family-users-and-elderly-adults-14e06648",
       "title": "OpenAI Expands ChatGPT Focus to Family Users and Elderly Adults",
       "subtitle": "The AI company is hiring specialized talent to build household-centered features, signaling a strategic pivot beyond enterprise and power users.",
@@ -6837,6 +6859,8 @@
     "526094fe36cba87d",
     "8b126088a0f0889e",
     "0970ac024bf1c2ec",
-    "14e06648cf6e875d"
+    "14e06648cf6e875d",
+    "82f3af7bc3983855",
+    "f3fe934d47a57d69"
   ]
 }

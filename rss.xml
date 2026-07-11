@@ -7,6 +7,22 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Academic Papers Risk Hidden Flaws by Trusting LLMs Over Human Review</title>
+      <link>https://aiglimpse.ai/articles/academic-papers-risk-hidden-flaws-by-trusting-llms-over-human-review-f3fe934d</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/academic-papers-risk-hidden-flaws-by-trusting-llms-over-human-review-f3fe934d</guid>
+      <description>Researchers warn that social science journals lack standardized validation for AI-generated data, creating potential gaps in peer review and evidence quality.</description>
+      <pubDate>Sat, 11 Jul 2026 00:00:00 GMT</pubDate>
+      <category>LLMs &amp; Chatbots</category>
+    </item>
+    <item>
+      <title>AI's Hidden Risk: Tool Convenience May Be Eroding Scientific Diversity</title>
+      <link>https://aiglimpse.ai/articles/ais-hidden-risk-tool-convenience-may-be-eroding-scientific-diversity-82f3af7b</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/ais-hidden-risk-tool-convenience-may-be-eroding-scientific-diversity-82f3af7b</guid>
+      <description>Researchers warn that AI adoption threatens to homogenize inquiry methods, narrowing which questions scientists pursue.</description>
+      <pubDate>Sat, 11 Jul 2026 00:00:00 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
       <title>OpenAI Expands ChatGPT Focus to Family Users and Elderly Adults</title>
       <link>https://aiglimpse.ai/articles/openai-expands-chatgpt-focus-to-family-users-and-elderly-adults-14e06648</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/openai-expands-chatgpt-focus-to-family-users-and-elderly-adults-14e06648</guid>
@@ -388,22 +404,6 @@
       <guid isPermaLink="true">https://aiglimpse.ai/articles/ai-can-parse-animal-communication-without-training-data-study-shows-581f9dc8</guid>
       <description>Researchers demonstrate that machine learning models can evaluate the accuracy of primate vocalizations and gestures without human-created reference standards.</description>
       <pubDate>Tue, 07 Jul 2026 17:47:26 GMT</pubDate>
-      <category>AI Research</category>
-    </item>
-    <item>
-      <title>New AI Model Bridges Language and 3D Generation with Smarter Cross-Modal Design</title>
-      <link>https://aiglimpse.ai/articles/new-ai-model-bridges-language-and-3d-generation-with-smarter-cross-modal-design-b4067436</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-ai-model-bridges-language-and-3d-generation-with-smarter-cross-modal-design-b4067436</guid>
-      <description>ELSA3D uses anchored semantic routing to unify text understanding and 3D asset creation, cutting computational overhead in half.</description>
-      <pubDate>Tue, 07 Jul 2026 17:59:50 GMT</pubDate>
-      <category>AI Research</category>
-    </item>
-    <item>
-      <title>Tailored LLM Pipelines Advance Biomedical Question Answering</title>
-      <link>https://aiglimpse.ai/articles/tailored-llm-pipelines-advance-biomedical-question-answering-cee5c3c0</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/tailored-llm-pipelines-advance-biomedical-question-answering-cee5c3c0</guid>
-      <description>Researchers demonstrate that customizing AI inference strategies by question type significantly improves accuracy in scientific literature search.</description>
-      <pubDate>Tue, 07 Jul 2026 16:12:51 GMT</pubDate>
       <category>AI Research</category>
     </item>
   </channel>
