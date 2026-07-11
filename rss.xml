@@ -7,6 +7,22 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Apple's Trade Secret Lawsuit Threatens OpenAI Partnership</title>
+      <link>https://aiglimpse.ai/articles/apples-trade-secret-lawsuit-threatens-openai-partnership-febc1d1b</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/apples-trade-secret-lawsuit-threatens-openai-partnership-febc1d1b</guid>
+      <description>A major intellectual property dispute could disrupt Apple Intelligence rollout and force tech leaders to reconsider their AI strategy.</description>
+      <pubDate>Sat, 11 Jul 2026 00:00:00 GMT</pubDate>
+      <category>AI Business</category>
+    </item>
+    <item>
+      <title>Researchers Develop Framework for High-Fidelity 360-Degree Image Generation</title>
+      <link>https://aiglimpse.ai/articles/researchers-develop-framework-for-high-fidelity-360-degree-image-generation-45b48a10</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/researchers-develop-framework-for-high-fidelity-360-degree-image-generation-45b48a10</guid>
+      <description>A new two-stage AI model tackles the challenge of creating coherent panoramic images through geometry-aware training and a custom dataset of 1 million samples.</description>
+      <pubDate>Thu, 09 Jul 2026 17:59:06 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
       <title>New AI Detection Method Targets Plot Structure, Not Writing Style</title>
       <link>https://aiglimpse.ai/articles/new-ai-detection-method-targets-plot-structure-not-writing-style-de612503</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/new-ai-detection-method-targets-plot-structure-not-writing-style-de612503</guid>
@@ -388,22 +404,6 @@
       <guid isPermaLink="true">https://aiglimpse.ai/articles/hugging-face-and-amazon-slash-setup-friction-for-ml-model-deployment-d8387da3</guid>
       <description>Direct integration streamlines workflow for data scientists deploying open-source models to SageMaker Studio, reducing deployment complexity.</description>
       <pubDate>Tue, 07 Jul 2026 21:15:33 GMT</pubDate>
-      <category>AI Tools &amp; Products</category>
-    </item>
-    <item>
-      <title>New Dataset Tackles AI's Biggest Robotics Blind Spot: Soft Objects</title>
-      <link>https://aiglimpse.ai/articles/new-dataset-tackles-ais-biggest-robotics-blind-spot-soft-objects-874b37e8</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-dataset-tackles-ais-biggest-robotics-blind-spot-soft-objects-874b37e8</guid>
-      <description>Researchers release massive visuotactile benchmark to train robots that can manipulate deformable materials with human-like dexterity.</description>
-      <pubDate>Mon, 06 Jul 2026 17:59:18 GMT</pubDate>
-      <category>AI Research</category>
-    </item>
-    <item>
-      <title>Hugging Face Integrates Open Models Into Microsoft Foundry Compute</title>
-      <link>https://aiglimpse.ai/articles/hugging-face-integrates-open-models-into-microsoft-foundry-compute-7398bc2a</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/hugging-face-integrates-open-models-into-microsoft-foundry-compute-7398bc2a</guid>
-      <description>The partnership expands access to community AI models through enterprise managed infrastructure, lowering barriers for model deployment.</description>
-      <pubDate>Tue, 07 Jul 2026 15:20:06 GMT</pubDate>
       <category>AI Tools &amp; Products</category>
     </item>
   </channel>

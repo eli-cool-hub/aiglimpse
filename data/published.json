@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "apples-trade-secret-lawsuit-threatens-openai-partnership-febc1d1b",
+      "title": "Apple's Trade Secret Lawsuit Threatens OpenAI Partnership",
+      "subtitle": "A major intellectual property dispute could disrupt Apple Intelligence rollout and force tech leaders to reconsider their AI strategy.",
+      "category": "business",
+      "publishedAt": "2026-07-11T00:00:00.000Z",
+      "sourceUrl": "https://cnbc.com/amp/2026/07/10/apple-openai-lawsuit-trade-secrets.html",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/apples-trade-secret-lawsuit-threatens-openai-partnership-febc1d1b.jpg"
+    },
+    {
+      "slug": "researchers-develop-framework-for-high-fidelity-360-degree-image-generation-45b48a10",
+      "title": "Researchers Develop Framework for High-Fidelity 360-Degree Image Generation",
+      "subtitle": "A new two-stage AI model tackles the challenge of creating coherent panoramic images through geometry-aware training and a custom dataset of 1 million samples.",
+      "category": "research",
+      "publishedAt": "2026-07-09T17:59:06.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2607.08765v1",
+      "sourceName": "arXiv (Haoran Feng, Ruiyang Zhang, Longyi Zhang, Dizhe Zhang, Lu Qi)",
+      "sourceTier": 1,
+      "image": "/images/articles/researchers-develop-framework-for-high-fidelity-360-degree-image-generation-45b48a10.jpg"
+    },
+    {
       "slug": "new-ai-detection-method-targets-plot-structure-not-writing-style-de612503",
       "title": "New AI Detection Method Targets Plot Structure, Not Writing Style",
       "subtitle": "Researchers develop narrative-based approach to identifying machine-generated fiction, making AI detection harder to evade.",
@@ -6753,6 +6775,8 @@
     "3435ba2970b9e9be",
     "c285eab372540393",
     "03e76e73158f07ca",
-    "de612503676b2cc3"
+    "de612503676b2cc3",
+    "45b48a10f0364d79",
+    "febc1d1bfca57eaf"
   ]
 }
