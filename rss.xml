@@ -7,6 +7,22 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>UN Pivots AI Governance to Technical Standards Bodies</title>
+      <link>https://aiglimpse.ai/articles/un-pivots-ai-governance-to-technical-standards-bodies-5e82dea4</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/un-pivots-ai-governance-to-technical-standards-bodies-5e82dea4</guid>
+      <description>Industry groups are gaining dominance in ITU working groups where regulatory frameworks will be quietly shaped.</description>
+      <pubDate>Sat, 11 Jul 2026 00:00:00 GMT</pubDate>
+      <category>AI Business</category>
+    </item>
+    <item>
+      <title>Vision Models Fall Short in Open-Ended Creative Tasks</title>
+      <link>https://aiglimpse.ai/articles/vision-models-fall-short-in-open-ended-creative-tasks-8ce45966</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/vision-models-fall-short-in-open-ended-creative-tasks-8ce45966</guid>
+      <description>Sakana research reveals fundamental gaps in AI creativity as vision-language models struggle with sustained independent discovery.</description>
+      <pubDate>Sat, 11 Jul 2026 00:00:00 GMT</pubDate>
+      <category>AI Business</category>
+    </item>
+    <item>
       <title>New Technique Enables Language Detection Built Into AI Tokenizers</title>
       <link>https://aiglimpse.ai/articles/new-technique-enables-language-detection-built-into-ai-tokenizers-395a5786</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/new-technique-enables-language-detection-built-into-ai-tokenizers-395a5786</guid>
@@ -388,22 +404,6 @@
       <guid isPermaLink="true">https://aiglimpse.ai/articles/single-ai-model-now-handles-multiple-vision-tasks-without-specialized-designs-4b925638</guid>
       <description>Researchers demonstrate that unified multimodal generation can consolidate diverse computer vision capabilities into one foundation model.</description>
       <pubDate>Tue, 07 Jul 2026 17:58:33 GMT</pubDate>
-      <category>AI Research</category>
-    </item>
-    <item>
-      <title>MUFG Banks on OpenAI to Overhaul Operations with Enterprise AI</title>
-      <link>https://aiglimpse.ai/articles/mufg-banks-on-openai-to-overhaul-operations-with-enterprise-ai-f45ffa9f</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/mufg-banks-on-openai-to-overhaul-operations-with-enterprise-ai-f45ffa9f</guid>
-      <description>Japan's largest bank deploys ChatGPT Enterprise to restructure workflows and launch AI-driven financial products at scale.</description>
-      <pubDate>Tue, 07 Jul 2026 00:00:00 GMT</pubDate>
-      <category>LLMs &amp; Chatbots</category>
-    </item>
-    <item>
-      <title>New Framework Teaches Robots to Manipulate Objects With 3D Awareness</title>
-      <link>https://aiglimpse.ai/articles/new-framework-teaches-robots-to-manipulate-objects-with-3d-awareness-35c18c4d</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-framework-teaches-robots-to-manipulate-objects-with-3d-awareness-35c18c4d</guid>
-      <description>Lift3D-VLA combines spatial reasoning with action prediction to dramatically improve robotic task performance in simulation and the real world.</description>
-      <pubDate>Tue, 07 Jul 2026 17:59:47 GMT</pubDate>
       <category>AI Research</category>
     </item>
   </channel>

@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "un-pivots-ai-governance-to-technical-standards-bodies-5e82dea4",
+      "title": "UN Pivots AI Governance to Technical Standards Bodies",
+      "subtitle": "Industry groups are gaining dominance in ITU working groups where regulatory frameworks will be quietly shaped.",
+      "category": "business",
+      "publishedAt": "2026-07-11T00:00:00.000Z",
+      "sourceUrl": "https://www.techpolicy.press/can-the-united-nations-bring-the-world-together-on-ai/",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/un-pivots-ai-governance-to-technical-standards-bodies-5e82dea4.jpg"
+    },
+    {
+      "slug": "vision-models-fall-short-in-open-ended-creative-tasks-8ce45966",
+      "title": "Vision Models Fall Short in Open-Ended Creative Tasks",
+      "subtitle": "Sakana research reveals fundamental gaps in AI creativity as vision-language models struggle with sustained independent discovery.",
+      "category": "business",
+      "publishedAt": "2026-07-11T00:00:00.000Z",
+      "sourceUrl": "https://pub.sakana.ai/picbreeder-vlm/",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/vision-models-fall-short-in-open-ended-creative-tasks-8ce45966.jpg"
+    },
+    {
       "slug": "new-technique-enables-language-detection-built-into-ai-tokenizers-395a5786",
       "title": "New Technique Enables Language Detection Built Into AI Tokenizers",
       "subtitle": "Researchers demonstrate how multilingual language models can identify text languages using minimal training data and existing tokenizer infrastructure.",
@@ -6885,6 +6907,8 @@
     "82f3af7bc3983855",
     "f3fe934d47a57d69",
     "c37730b19c6dc11c",
-    "395a57865bda2bbd"
+    "395a57865bda2bbd",
+    "8ce45966783df07e",
+    "5e82dea45399fbe8"
   ]
 }
