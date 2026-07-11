@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "openai-expands-chatgpt-focus-to-family-users-and-elderly-adults-14e06648",
+      "title": "OpenAI Expands ChatGPT Focus to Family Users and Elderly Adults",
+      "subtitle": "The AI company is hiring specialized talent to build household-centered features, signaling a strategic pivot beyond enterprise and power users.",
+      "category": "business",
+      "publishedAt": "2026-07-11T14:13:00.000Z",
+      "sourceUrl": "https://techcrunch.com/2026/07/11/openai-bets-on-families-as-chatgpt-goes-deeper-into-households/",
+      "sourceName": "TechCrunch AI",
+      "sourceTier": 2,
+      "image": "/images/articles/openai-expands-chatgpt-focus-to-family-users-and-elderly-adults-14e06648.jpg"
+    },
+    {
+      "slug": "researchers-uncover-hidden-instability-in-diffusion-model-training-0970ac02",
+      "title": "Researchers Uncover Hidden Instability in Diffusion Model Training",
+      "subtitle": "New study reveals that standard accuracy metrics for AI image generation systems fail to catch critical numerical failures during sampling.",
+      "category": "research",
+      "publishedAt": "2026-07-09T17:55:52.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2607.08757v1",
+      "sourceName": "arXiv (Yiwei Zhou)",
+      "sourceTier": 1,
+      "image": "/images/articles/researchers-uncover-hidden-instability-in-diffusion-model-training-0970ac02.jpg"
+    },
+    {
       "slug": "twenty-second-reviews-expose-limits-of-human-in-the-loop-ai-8b126088",
       "title": "Twenty-Second Reviews Expose Limits of 'Human in the Loop' AI",
       "subtitle": "Military targeting systems highlight critical gaps between stated oversight practices and actual implementation in high-stakes AI deployments.",
@@ -6813,6 +6835,8 @@
     "febc1d1bfca57eaf",
     "8b70cf9bad8da93a",
     "526094fe36cba87d",
-    "8b126088a0f0889e"
+    "8b126088a0f0889e",
+    "0970ac024bf1c2ec",
+    "14e06648cf6e875d"
   ]
 }

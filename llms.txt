@@ -20,6 +20,8 @@ All content is original reporting by the AI Glimpse newsroom. Primary sources ar
 
 ## Recent articles
 
+- [OpenAI Expands ChatGPT Focus to Family Users and Elderly Adults](https://aiglimpse.ai/articles/openai-expands-chatgpt-focus-to-family-users-and-elderly-adults-14e06648) (2026-07-11): The AI company is hiring specialized talent to build household-centered features, signaling a strategic pivot beyond enterprise and power users.
+- [Researchers Uncover Hidden Instability in Diffusion Model Training](https://aiglimpse.ai/articles/researchers-uncover-hidden-instability-in-diffusion-model-training-0970ac02) (2026-07-09): New study reveals that standard accuracy metrics for AI image generation systems fail to catch critical numerical failures during sampling.
 - [Twenty-Second Reviews Expose Limits of 'Human in the Loop' AI](https://aiglimpse.ai/articles/twenty-second-reviews-expose-limits-of-human-in-the-loop-ai-8b126088) (2026-07-11): Military targeting systems highlight critical gaps between stated oversight practices and actual implementation in high-stakes AI deployments.
 - [New Benchmark Reveals AI's Struggle With Scientific Lineage Reasoning](https://aiglimpse.ai/articles/new-benchmark-reveals-ais-struggle-with-scientific-lineage-reasoning-526094fe) (2026-07-09): Researchers introduce IdeaGene-Bench to test whether large language models can trace intellectual inheritance in scientific work.
 - [Researchers Teach AI Video Models to Reason Through Sequential Frames](https://aiglimpse.ai/articles/researchers-teach-ai-video-models-to-reason-through-sequential-frames-8b70cf9b) (2026-07-09): New dataset and fine-tuned model demonstrate that temporal reasoning improves how AI systems solve complex logical tasks through generated video.
@@ -48,8 +50,6 @@ All content is original reporting by the AI Glimpse newsroom. Primary sources ar
 - [Researchers Cut Diffusion Model Training Costs by 6x Through Smart Sampling](https://aiglimpse.ai/articles/researchers-cut-diffusion-model-training-costs-by-6x-through-smart-sampling-dfc4d347) (2026-07-08): New technique makes reinforcement learning from human feedback practical by identifying which training steps actually matter.
 - [LLMs Help Researchers Bypass Database Gatekeepers for Faster Analytics](https://aiglimpse.ai/articles/llms-help-researchers-bypass-database-gatekeepers-for-faster-analytics-e9599874) (2026-07-08): New technique uses AI-generated code to read database files directly, sidestep traditional query engines, and achieve massive speedups on analytical workloads.
 - [Researchers Release Massive Skill Library to Ground AI Agents](https://aiglimpse.ai/articles/researchers-release-massive-skill-library-to-ground-ai-agents-2d8af31e) (2026-07-08): New dataset of 216,000+ verified skills aims to make autonomous AI systems more reliable and traceable.
-- [New Framework Helps AI Agents Learn From Failures More Efficiently](https://aiglimpse.ai/articles/new-framework-helps-ai-agents-learn-from-failures-more-efficiently-de5e87eb) (2026-07-08): Researchers introduce a method to filter noisy execution data and identify root causes of agent failures, boosting optimization by 40% on verification tasks.
-- [How AI Deployment Rules Shape Multi-Agent Safety More Than Models](https://aiglimpse.ai/articles/how-ai-deployment-rules-shape-multi-agent-safety-more-than-models-6c1d8aa6) (2026-07-08): New research reveals that operational guardrails, not just model architecture, fundamentally determine whether AI systems cooperate or exploit each other.
 
 ## Explainers (evergreen)
 
@@ -70,7 +70,7 @@ All content is original reporting by the AI Glimpse newsroom. Primary sources ar
 
 - [Sitemap](https://aiglimpse.ai/sitemap.xml): All article URLs with publish dates (Google News format).
 - [RSS](https://aiglimpse.ai/rss.xml): 50 most recent articles (RSS 2.0).
-- [Full content index](https://aiglimpse.ai/llms-full.txt): Extended article list for LLM crawlers (567 articles).
+- [Full content index](https://aiglimpse.ai/llms-full.txt): Extended article list for LLM crawlers (569 articles).
 
 ## About
 

@@ -7,6 +7,22 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>OpenAI Expands ChatGPT Focus to Family Users and Elderly Adults</title>
+      <link>https://aiglimpse.ai/articles/openai-expands-chatgpt-focus-to-family-users-and-elderly-adults-14e06648</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/openai-expands-chatgpt-focus-to-family-users-and-elderly-adults-14e06648</guid>
+      <description>The AI company is hiring specialized talent to build household-centered features, signaling a strategic pivot beyond enterprise and power users.</description>
+      <pubDate>Sat, 11 Jul 2026 14:13:00 GMT</pubDate>
+      <category>AI Business</category>
+    </item>
+    <item>
+      <title>Researchers Uncover Hidden Instability in Diffusion Model Training</title>
+      <link>https://aiglimpse.ai/articles/researchers-uncover-hidden-instability-in-diffusion-model-training-0970ac02</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/researchers-uncover-hidden-instability-in-diffusion-model-training-0970ac02</guid>
+      <description>New study reveals that standard accuracy metrics for AI image generation systems fail to catch critical numerical failures during sampling.</description>
+      <pubDate>Thu, 09 Jul 2026 17:55:52 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
       <title>Twenty-Second Reviews Expose Limits of 'Human in the Loop' AI</title>
       <link>https://aiglimpse.ai/articles/twenty-second-reviews-expose-limits-of-human-in-the-loop-ai-8b126088</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/twenty-second-reviews-expose-limits-of-human-in-the-loop-ai-8b126088</guid>
@@ -388,22 +404,6 @@
       <guid isPermaLink="true">https://aiglimpse.ai/articles/tailored-llm-pipelines-advance-biomedical-question-answering-cee5c3c0</guid>
       <description>Researchers demonstrate that customizing AI inference strategies by question type significantly improves accuracy in scientific literature search.</description>
       <pubDate>Tue, 07 Jul 2026 16:12:51 GMT</pubDate>
-      <category>AI Research</category>
-    </item>
-    <item>
-      <title>Researchers Build First Hindi Audio Description Dataset for Blind Audiences</title>
-      <link>https://aiglimpse.ai/articles/researchers-build-first-hindi-audio-description-dataset-for-blind-audiences-51efb43b</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/researchers-build-first-hindi-audio-description-dataset-for-blind-audiences-51efb43b</guid>
-      <description>New AI research tackles accessibility gap as India mandates described content in regional languages beyond English.</description>
-      <pubDate>Tue, 07 Jul 2026 16:15:46 GMT</pubDate>
-      <category>AI Research</category>
-    </item>
-    <item>
-      <title>New Dataset Tackles Camera Calibration Problem in Dynamic Video</title>
-      <link>https://aiglimpse.ai/articles/new-dataset-tackles-camera-calibration-problem-in-dynamic-video-7f485d59</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-dataset-tackles-camera-calibration-problem-in-dynamic-video-7f485d59</guid>
-      <description>Researchers release large-scale synthetic and real-world benchmarks to improve AI models that estimate changing camera settings from video frames.</description>
-      <pubDate>Mon, 06 Jul 2026 17:58:33 GMT</pubDate>
       <category>AI Research</category>
     </item>
   </channel>
