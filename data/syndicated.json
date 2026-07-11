@@ -7544,6 +7544,24 @@
         "devto": true,
         "hashnode": false
       }
+    },
+    "researchers-teach-ai-video-models-to-reason-through-sequential-frames-8b70cf9b": {
+      "syndicated_at": "2026-07-11T09:39:34.625Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/researchers-teach-ai-video-models-to-reason-through-sequential-frames-4ea9",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 503,
+      "category": "research",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
     }
   }
 }

@@ -7,6 +7,14 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Researchers Teach AI Video Models to Reason Through Sequential Frames</title>
+      <link>https://aiglimpse.ai/articles/researchers-teach-ai-video-models-to-reason-through-sequential-frames-8b70cf9b</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/researchers-teach-ai-video-models-to-reason-through-sequential-frames-8b70cf9b</guid>
+      <description>New dataset and fine-tuned model demonstrate that temporal reasoning improves how AI systems solve complex logical tasks through generated video.</description>
+      <pubDate>Thu, 09 Jul 2026 17:58:29 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
       <title>Apple's Trade Secret Lawsuit Threatens OpenAI Partnership</title>
       <link>https://aiglimpse.ai/articles/apples-trade-secret-lawsuit-threatens-openai-partnership-febc1d1b</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/apples-trade-secret-lawsuit-threatens-openai-partnership-febc1d1b</guid>
@@ -397,14 +405,6 @@
       <description>Enterprise deployment of generative AI streamlines payments infrastructure while preserving human oversight in critical financial decisions.</description>
       <pubDate>Tue, 07 Jul 2026 00:00:00 GMT</pubDate>
       <category>LLMs &amp; Chatbots</category>
-    </item>
-    <item>
-      <title>Hugging Face and Amazon Slash Setup Friction for ML Model Deployment</title>
-      <link>https://aiglimpse.ai/articles/hugging-face-and-amazon-slash-setup-friction-for-ml-model-deployment-d8387da3</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/hugging-face-and-amazon-slash-setup-friction-for-ml-model-deployment-d8387da3</guid>
-      <description>Direct integration streamlines workflow for data scientists deploying open-source models to SageMaker Studio, reducing deployment complexity.</description>
-      <pubDate>Tue, 07 Jul 2026 21:15:33 GMT</pubDate>
-      <category>AI Tools &amp; Products</category>
     </item>
   </channel>
 </rss>

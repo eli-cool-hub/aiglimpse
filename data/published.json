@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "researchers-teach-ai-video-models-to-reason-through-sequential-frames-8b70cf9b",
+      "title": "Researchers Teach AI Video Models to Reason Through Sequential Frames",
+      "subtitle": "New dataset and fine-tuned model demonstrate that temporal reasoning improves how AI systems solve complex logical tasks through generated video.",
+      "category": "research",
+      "publishedAt": "2026-07-09T17:58:29.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2607.08763v1",
+      "sourceName": "arXiv (Xinyan Chen, Ziyu Guo, Renrui Zhang, Dongzhi Jiang, Hongshen…)",
+      "sourceTier": 1,
+      "image": "/images/articles/researchers-teach-ai-video-models-to-reason-through-sequential-frames-8b70cf9b.jpg"
+    },
+    {
       "slug": "apples-trade-secret-lawsuit-threatens-openai-partnership-febc1d1b",
       "title": "Apple's Trade Secret Lawsuit Threatens OpenAI Partnership",
       "subtitle": "A major intellectual property dispute could disrupt Apple Intelligence rollout and force tech leaders to reconsider their AI strategy.",
@@ -6777,6 +6788,7 @@
     "03e76e73158f07ca",
     "de612503676b2cc3",
     "45b48a10f0364d79",
-    "febc1d1bfca57eaf"
+    "febc1d1bfca57eaf",
+    "8b70cf9bad8da93a"
   ]
 }
