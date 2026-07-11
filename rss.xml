@@ -7,6 +7,22 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>New AI Detection Method Targets Plot Structure, Not Writing Style</title>
+      <link>https://aiglimpse.ai/articles/new-ai-detection-method-targets-plot-structure-not-writing-style-de612503</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-ai-detection-method-targets-plot-structure-not-writing-style-de612503</guid>
+      <description>Researchers develop narrative-based approach to identifying machine-generated fiction, making AI detection harder to evade.</description>
+      <pubDate>Sat, 11 Jul 2026 00:00:00 GMT</pubDate>
+      <category>AI Business</category>
+    </item>
+    <item>
+      <title>OpenAI's Safety Chief Departs Amid Organizational Restructuring</title>
+      <link>https://aiglimpse.ai/articles/openais-safety-chief-departs-amid-organizational-restructuring-03e76e73</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/openais-safety-chief-departs-amid-organizational-restructuring-03e76e73</guid>
+      <description>The exit signals a major shift in how the AI company approaches risk management and research alignment.</description>
+      <pubDate>Sat, 11 Jul 2026 01:07:26 GMT</pubDate>
+      <category>AI Tools &amp; Products</category>
+    </item>
+    <item>
       <title>Apple Alleges OpenAI Misappropriated Hardware Trade Secrets</title>
       <link>https://aiglimpse.ai/articles/apple-alleges-openai-misappropriated-hardware-trade-secrets-c285eab3</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/apple-alleges-openai-misappropriated-hardware-trade-secrets-c285eab3</guid>
@@ -389,22 +405,6 @@
       <description>The partnership expands access to community AI models through enterprise managed infrastructure, lowering barriers for model deployment.</description>
       <pubDate>Tue, 07 Jul 2026 15:20:06 GMT</pubDate>
       <category>AI Tools &amp; Products</category>
-    </item>
-    <item>
-      <title>Researchers Challenge Fundamental Assumption in Offline AI Training</title>
-      <link>https://aiglimpse.ai/articles/researchers-challenge-fundamental-assumption-in-offline-ai-training-5b800e35</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/researchers-challenge-fundamental-assumption-in-offline-ai-training-5b800e35</guid>
-      <description>New method for evaluating AI decision-making policies eliminates a key mathematical requirement, potentially making offline reinforcement learning more practical.</description>
-      <pubDate>Mon, 06 Jul 2026 17:53:32 GMT</pubDate>
-      <category>AI Research</category>
-    </item>
-    <item>
-      <title>New Framework Scales 3D Scene Generation to Entire Environments</title>
-      <link>https://aiglimpse.ai/articles/new-framework-scales-3d-scene-generation-to-entire-environments-17292ac7</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-framework-scales-3d-scene-generation-to-entire-environments-17292ac7</guid>
-      <description>Researchers develop SynCity 3000, enabling AI to generate large, coherent 3D scenes from text prompts with precise layout control.</description>
-      <pubDate>Mon, 06 Jul 2026 17:59:35 GMT</pubDate>
-      <category>AI Research</category>
     </item>
   </channel>
 </rss>

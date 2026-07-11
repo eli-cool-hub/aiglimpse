@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "new-ai-detection-method-targets-plot-structure-not-writing-style-de612503",
+      "title": "New AI Detection Method Targets Plot Structure, Not Writing Style",
+      "subtitle": "Researchers develop narrative-based approach to identifying machine-generated fiction, making AI detection harder to evade.",
+      "category": "business",
+      "publishedAt": "2026-07-11T00:00:00.000Z",
+      "sourceUrl": "https://arxiv.org/abs/2604.03136",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/new-ai-detection-method-targets-plot-structure-not-writing-style-de612503.jpg"
+    },
+    {
+      "slug": "openais-safety-chief-departs-amid-organizational-restructuring-03e76e73",
+      "title": "OpenAI's Safety Chief Departs Amid Organizational Restructuring",
+      "subtitle": "The exit signals a major shift in how the AI company approaches risk management and research alignment.",
+      "category": "tools",
+      "publishedAt": "2026-07-11T01:07:26.000Z",
+      "sourceUrl": "https://www.wired.com/story/openai-head-of-safety-leaving/",
+      "sourceName": "Wired AI",
+      "sourceTier": 2,
+      "image": "/images/articles/openais-safety-chief-departs-amid-organizational-restructuring-03e76e73.jpg"
+    },
+    {
       "slug": "apple-alleges-openai-misappropriated-hardware-trade-secrets-c285eab3",
       "title": "Apple Alleges OpenAI Misappropriated Hardware Trade Secrets",
       "subtitle": "The dispute escalates tensions between Big Tech and AI startups over intellectual property protection and talent mobility.",
@@ -6729,6 +6751,8 @@
     "b9f8defdba691616",
     "300c7b0662b9b226",
     "3435ba2970b9e9be",
-    "c285eab372540393"
+    "c285eab372540393",
+    "03e76e73158f07ca",
+    "de612503676b2cc3"
   ]
 }
