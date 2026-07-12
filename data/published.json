@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "tcs-bets-big-on-ai-integration-plans-8900-new-engineers-b6986b6a",
+      "title": "TCS Bets Big on AI Integration, Plans 8,900 New Engineers",
+      "subtitle": "India's largest IT services firm rejects automation fears by positioning itself as a critical bridge between enterprise clients and multiple AI foundation models.",
+      "category": "business",
+      "publishedAt": "2026-07-12T00:00:00.000Z",
+      "sourceUrl": "https://www.reuters.com/world/india/indias-tata-consultancy-services-plans-up-8900-ai-deployment-engineers-seeks-ai-2026-07-12/",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/tcs-bets-big-on-ai-integration-plans-8900-new-engineers-b6986b6a.jpg"
+    },
+    {
+      "slug": "the-llm-reality-check-why-hype-obscures-genuine-ai-progress-6ee84c7b",
+      "title": "The LLM Reality Check: Why Hype Obscures Genuine AI Progress",
+      "subtitle": "A developer's candid take on separating transformative language model capabilities from industry overselling.",
+      "category": "research",
+      "publishedAt": "2026-07-12T18:31:56.000Z",
+      "sourceUrl": "https://geohot.github.io//blog/jekyll/update/2026/07/12/i-love-llms.html",
+      "sourceName": "Hacker News (175 pts)",
+      "sourceTier": 2,
+      "image": "/images/articles/the-llm-reality-check-why-hype-obscures-genuine-ai-progress-6ee84c7b.jpg"
+    },
+    {
       "slug": "apples-m7-ultra-to-offer-15tb-memory-for-on-device-ai-workloads-759e98a9",
       "title": "Apple's M7 Ultra to Offer 1.5TB Memory for On-Device AI Workloads",
       "subtitle": "The chip giant is building massive unified memory into future Macs, targeting local large language model inference but facing a years-long delay that favors cloud competitors.",
@@ -7113,6 +7135,8 @@
     "6e0ba2a93c435e9c",
     "4549ce9182d0ced3",
     "dbe705c250cebd57",
-    "759e98a9dabb25c1"
+    "759e98a9dabb25c1",
+    "6ee84c7b56b2c56c",
+    "b6986b6a76f2865f"
   ]
 }
