@@ -7670,6 +7670,24 @@
         "devto": true,
         "hashnode": false
       }
+    },
+    "how-to-reduce-llm-hallucinations": {
+      "syndicated_at": "2026-07-12T07:55:52.418Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/how-to-reduce-llm-hallucinations-rag-grounding-and-evaluation-4fn4",
+      "hashnode": null,
+      "gates": {
+        "medium": true,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 2479,
+      "category": "research",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
     }
   }
 }

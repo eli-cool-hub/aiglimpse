@@ -1,6 +1,18 @@
 {
   "articles": [
     {
+      "slug": "how-to-reduce-llm-hallucinations",
+      "title": "How to Reduce LLM Hallucinations: RAG, Grounding, and Evaluation",
+      "subtitle": "A production-focused guide to fixing made-up facts in customer-facing language models",
+      "category": "research",
+      "publishedAt": "2026-07-12T07:55:50.154Z",
+      "sourceUrl": null,
+      "sourceName": "AI Glimpse Newsroom",
+      "sourceTier": 0,
+      "image": "/images/articles/how-to-reduce-llm-hallucinations.jpg",
+      "evergreen": true
+    },
+    {
       "slug": "swapping-ai-contractors-masks-labor-issues-not-fixes-them-ef8a5bc2",
       "title": "Swapping AI Contractors Masks Labor Issues, Not Fixes Them",
       "subtitle": "Companies replacing problematic subcontractors risk simply shifting worker exploitation elsewhere without addressing root causes.",
