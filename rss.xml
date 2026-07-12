@@ -7,6 +7,30 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>The Fatigue of Default AI Solutions</title>
+      <link>https://aiglimpse.ai/articles/the-fatigue-of-default-ai-solutions-acb6a7ff</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/the-fatigue-of-default-ai-solutions-acb6a7ff</guid>
+      <description>A growing pushback suggests defaulting to large language models for every problem overlooks their limitations and real costs.</description>
+      <pubDate>Sat, 11 Jul 2026 22:28:48 GMT</pubDate>
+      <category>AI Tools &amp; Products</category>
+    </item>
+    <item>
+      <title>Anti-AI Movement Faces Internal Crisis as Leader Vanishes</title>
+      <link>https://aiglimpse.ai/articles/anti-ai-movement-faces-internal-crisis-as-leader-vanishes-7a502ccc</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/anti-ai-movement-faces-internal-crisis-as-leader-vanishes-7a502ccc</guid>
+      <description>Disappearance of Stop AI co-founder prompts radical faction to reassess strategy while AI labs boost security measures.</description>
+      <pubDate>Sun, 12 Jul 2026 00:00:00 GMT</pubDate>
+      <category>Ethics &amp; Policy</category>
+    </item>
+    <item>
+      <title>How to Reduce LLM Hallucinations: RAG, Grounding, and Evaluation</title>
+      <link>https://aiglimpse.ai/articles/how-to-reduce-llm-hallucinations</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/how-to-reduce-llm-hallucinations</guid>
+      <description>A production-focused guide to fixing made-up facts in customer-facing language models</description>
+      <pubDate>Sun, 12 Jul 2026 07:55:50 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
       <title>Swapping AI Contractors Masks Labor Issues, Not Fixes Them</title>
       <link>https://aiglimpse.ai/articles/swapping-ai-contractors-masks-labor-issues-not-fixes-them-ef8a5bc2</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/swapping-ai-contractors-masks-labor-issues-not-fixes-them-ef8a5bc2</guid>
@@ -381,30 +405,6 @@
       <description>A new integration brings native-speed performance to transformer deployments, reducing latency for language model applications at scale.</description>
       <pubDate>Wed, 08 Jul 2026 00:00:00 GMT</pubDate>
       <category>AI Tools &amp; Products</category>
-    </item>
-    <item>
-      <title>OpenAI Study Questions Reliability of Popular Code Benchmark</title>
-      <link>https://aiglimpse.ai/articles/openai-study-questions-reliability-of-popular-code-benchmark-b157b014</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/openai-study-questions-reliability-of-popular-code-benchmark-b157b014</guid>
-      <description>A critical examination of SWE-Bench Pro reveals methodological flaws that could skew how the industry measures AI coding capabilities.</description>
-      <pubDate>Wed, 08 Jul 2026 13:00:00 GMT</pubDate>
-      <category>LLMs &amp; Chatbots</category>
-    </item>
-    <item>
-      <title>OpenAI Outlines Framework for Government AI Partnerships</title>
-      <link>https://aiglimpse.ai/articles/openai-outlines-framework-for-government-ai-partnerships-0ffd7e6c</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/openai-outlines-framework-for-government-ai-partnerships-0ffd7e6c</guid>
-      <description>The company details principles balancing national security collaboration with democratic oversight and responsible AI deployment.</description>
-      <pubDate>Wed, 08 Jul 2026 13:30:00 GMT</pubDate>
-      <category>LLMs &amp; Chatbots</category>
-    </item>
-    <item>
-      <title>Google Photos Deploys Generative AI to Transform Video Content</title>
-      <link>https://aiglimpse.ai/articles/google-photos-deploys-generative-ai-to-transform-video-content-c897305c</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/google-photos-deploys-generative-ai-to-transform-video-content-c897305c</guid>
-      <description>New machine learning capabilities let users apply cinematic effects, swap backgrounds, and stylize videos without manual editing expertise.</description>
-      <pubDate>Wed, 08 Jul 2026 18:30:08 GMT</pubDate>
-      <category>AI Business</category>
     </item>
   </channel>
 </rss>

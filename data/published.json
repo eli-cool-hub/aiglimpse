@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "the-fatigue-of-default-ai-solutions-acb6a7ff",
+      "title": "The Fatigue of Default AI Solutions",
+      "subtitle": "A growing pushback suggests defaulting to large language models for every problem overlooks their limitations and real costs.",
+      "category": "tools",
+      "publishedAt": "2026-07-11T22:28:48.000Z",
+      "sourceUrl": "https://blog.yaelwrites.com/stop-telling-me-to-ask-an-llm/",
+      "sourceName": "Hacker News (178 pts)",
+      "sourceTier": 2,
+      "image": "/images/articles/the-fatigue-of-default-ai-solutions-acb6a7ff.jpg"
+    },
+    {
+      "slug": "anti-ai-movement-faces-internal-crisis-as-leader-vanishes-7a502ccc",
+      "title": "Anti-AI Movement Faces Internal Crisis as Leader Vanishes",
+      "subtitle": "Disappearance of Stop AI co-founder prompts radical faction to reassess strategy while AI labs boost security measures.",
+      "category": "ethics",
+      "publishedAt": "2026-07-12T00:00:00.000Z",
+      "sourceUrl": "https://www.wsj.com/tech/ai/anti-ai-activists-disappearance-sam-kirchner-6872879f",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/anti-ai-movement-faces-internal-crisis-as-leader-vanishes-7a502ccc.jpg"
+    },
+    {
       "slug": "how-to-reduce-llm-hallucinations",
       "title": "How to Reduce LLM Hallucinations: RAG, Grounding, and Evaluation",
       "subtitle": "A production-focused guide to fixing made-up facts in customer-facing language models",
@@ -6969,6 +6991,8 @@
     "9f6e17990c9d8bd8",
     "4fb6307d2b5d5a52",
     "9a2314ad32b1c950",
-    "ef8a5bc2cfae4986"
+    "ef8a5bc2cfae4986",
+    "7a502cccc64d6744",
+    "acb6a7ff59c9795d"
   ]
 }
