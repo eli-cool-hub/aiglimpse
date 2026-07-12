@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "federal-court-blocks-ai-driven-grant-cancellations-demands-human-oversight-3eb6e02c",
+      "title": "Federal Court Blocks AI-Driven Grant Cancellations, Demands Human Oversight",
+      "subtitle": "Ruling establishes that agencies deploying language models for consequential decisions must maintain audit trails and meaningful human review.",
+      "category": "business",
+      "publishedAt": "2026-07-11T00:00:00.000Z",
+      "sourceUrl": "https://www.techpolicy.press/a-judicial-wakeup-call-on-government-by-ai/",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/federal-court-blocks-ai-driven-grant-cancellations-demands-human-oversight-3eb6e02c.jpg"
+    },
+    {
+      "slug": "quantum-computing-and-ai-team-up-to-design-novel-drug-molecules-4e12f917",
+      "title": "Quantum Computing and AI Team Up to Design Novel Drug Molecules",
+      "subtitle": "Researchers demonstrate how hybrid quantum-AI systems could accelerate therapeutic development for neglected diseases and rare conditions.",
+      "category": "tools",
+      "publishedAt": "2026-07-12T10:00:00.000Z",
+      "sourceUrl": "https://www.wired.com/story/scientists-using-ai-and-quantum-computing-to-generate-new-peptides/",
+      "sourceName": "Wired AI",
+      "sourceTier": 2,
+      "image": "/images/articles/quantum-computing-and-ai-team-up-to-design-novel-drug-molecules-4e12f917.jpg"
+    },
+    {
       "slug": "the-fatigue-of-default-ai-solutions-acb6a7ff",
       "title": "The Fatigue of Default AI Solutions",
       "subtitle": "A growing pushback suggests defaulting to large language models for every problem overlooks their limitations and real costs.",
@@ -6993,6 +7015,8 @@
     "9a2314ad32b1c950",
     "ef8a5bc2cfae4986",
     "7a502cccc64d6744",
-    "acb6a7ff59c9795d"
+    "acb6a7ff59c9795d",
+    "4e12f917e9a46f8d",
+    "3eb6e02c051e2aa3"
   ]
 }

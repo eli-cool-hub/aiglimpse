@@ -7,6 +7,22 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Federal Court Blocks AI-Driven Grant Cancellations, Demands Human Oversight</title>
+      <link>https://aiglimpse.ai/articles/federal-court-blocks-ai-driven-grant-cancellations-demands-human-oversight-3eb6e02c</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/federal-court-blocks-ai-driven-grant-cancellations-demands-human-oversight-3eb6e02c</guid>
+      <description>Ruling establishes that agencies deploying language models for consequential decisions must maintain audit trails and meaningful human review.</description>
+      <pubDate>Sat, 11 Jul 2026 00:00:00 GMT</pubDate>
+      <category>AI Business</category>
+    </item>
+    <item>
+      <title>Quantum Computing and AI Team Up to Design Novel Drug Molecules</title>
+      <link>https://aiglimpse.ai/articles/quantum-computing-and-ai-team-up-to-design-novel-drug-molecules-4e12f917</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/quantum-computing-and-ai-team-up-to-design-novel-drug-molecules-4e12f917</guid>
+      <description>Researchers demonstrate how hybrid quantum-AI systems could accelerate therapeutic development for neglected diseases and rare conditions.</description>
+      <pubDate>Sun, 12 Jul 2026 10:00:00 GMT</pubDate>
+      <category>AI Tools &amp; Products</category>
+    </item>
+    <item>
       <title>The Fatigue of Default AI Solutions</title>
       <link>https://aiglimpse.ai/articles/the-fatigue-of-default-ai-solutions-acb6a7ff</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/the-fatigue-of-default-ai-solutions-acb6a7ff</guid>
@@ -389,22 +405,6 @@
       <description>SciReasoner bridges scientific accuracy and interpretability by treating atomic arrangements as inspectable evidence for AI reasoning.</description>
       <pubDate>Wed, 08 Jul 2026 17:59:59 GMT</pubDate>
       <category>AI Research</category>
-    </item>
-    <item>
-      <title>New AI Method Tracks Object Movement Without 3D Models or Depth Data</title>
-      <link>https://aiglimpse.ai/articles/new-ai-method-tracks-object-movement-without-3d-models-or-depth-data-b3c6e165</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-ai-method-tracks-object-movement-without-3d-models-or-depth-data-b3c6e165</guid>
-      <description>ProxyPose uses video translation to simplify 6-DoF pose tracking, eliminating dependencies that have hindered computer vision systems for decades.</description>
-      <pubDate>Tue, 07 Jul 2026 17:56:07 GMT</pubDate>
-      <category>AI Research</category>
-    </item>
-    <item>
-      <title>Hugging Face and vLLM Join Forces to Accelerate Model Inference</title>
-      <link>https://aiglimpse.ai/articles/hugging-face-and-vllm-join-forces-to-accelerate-model-inference-6f28be85</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/hugging-face-and-vllm-join-forces-to-accelerate-model-inference-6f28be85</guid>
-      <description>A new integration brings native-speed performance to transformer deployments, reducing latency for language model applications at scale.</description>
-      <pubDate>Wed, 08 Jul 2026 00:00:00 GMT</pubDate>
-      <category>AI Tools &amp; Products</category>
     </item>
   </channel>
 </rss>
