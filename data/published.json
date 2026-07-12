@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "swapping-ai-contractors-masks-labor-issues-not-fixes-them-ef8a5bc2",
+      "title": "Swapping AI Contractors Masks Labor Issues, Not Fixes Them",
+      "subtitle": "Companies replacing problematic subcontractors risk simply shifting worker exploitation elsewhere without addressing root causes.",
+      "category": "business",
+      "publishedAt": "2026-07-11T00:00:00.000Z",
+      "sourceUrl": "https://www.techpolicy.press/labor-power-and-the-role-of-subcontracting-in-the-ai-economy/",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/swapping-ai-contractors-masks-labor-issues-not-fixes-them-ef8a5bc2.jpg"
+    },
+    {
+      "slug": "irohs-mesh-llm-framework-brings-distributed-ai-computing-to-edge-networks-9a2314ad",
+      "title": "Iroh's Mesh LLM Framework Brings Distributed AI Computing to Edge Networks",
+      "subtitle": "New approach enables language models to run collaboratively across connected devices without centralized servers.",
+      "category": "tools",
+      "publishedAt": "2026-07-11T22:38:57.000Z",
+      "sourceUrl": "https://www.iroh.computer/blog/mesh-llm",
+      "sourceName": "Hacker News (184 pts)",
+      "sourceTier": 2,
+      "image": "/images/articles/irohs-mesh-llm-framework-brings-distributed-ai-computing-to-edge-networks-9a2314ad.jpg"
+    },
+    {
       "slug": "four-in-five-researchers-now-use-llms-making-ai-policy-obsolete-4fb6307d",
       "title": "Four in Five Researchers Now Use LLMs, Making AI Policy Obsolete",
       "subtitle": "A new study reveals widespread adoption of language models among active authors, exposing a gap between researcher behavior and institutional guidelines.",
@@ -6933,6 +6955,8 @@
     "8ce45966783df07e",
     "5e82dea45399fbe8",
     "9f6e17990c9d8bd8",
-    "4fb6307d2b5d5a52"
+    "4fb6307d2b5d5a52",
+    "9a2314ad32b1c950",
+    "ef8a5bc2cfae4986"
   ]
 }
