@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "chatgpts-hidden-life-as-a-storytelling-platform-2b093885",
+      "title": "ChatGPT's Hidden Life as a Storytelling Platform",
+      "subtitle": "New research reveals creative fiction generation dominates ChatGPT usage, forcing a reckoning over how AI companies should manage mass-market entertainment applications.",
+      "category": "business",
+      "publishedAt": "2026-07-11T00:00:00.000Z",
+      "sourceUrl": "https://arxiv.org/abs/2606.22748",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/chatgpts-hidden-life-as-a-storytelling-platform-2b093885.jpg"
+    },
+    {
+      "slug": "ai-giants-deploy-campus-ambassadors-to-capture-student-users-4b1223f9",
+      "title": "AI Giants Deploy Campus Ambassadors to Capture Student Users",
+      "subtitle": "Anthropic and Perplexity invest in peer recruitment programs, betting early adoption habits will drive long-term market dominance.",
+      "category": "business",
+      "publishedAt": "2026-07-11T00:00:00.000Z",
+      "sourceUrl": "https://www.nbcnews.com/tech/tech-news/ai-student-ambassador-anthropic-claude-perplexity-pay-salary-apply-rcna348955",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/ai-giants-deploy-campus-ambassadors-to-capture-student-users-4b1223f9.jpg"
+    },
+    {
       "slug": "open-source-maintainers-struggle-as-ai-tools-flood-their-projects-baa9bc98",
       "title": "Open-Source Maintainers Struggle as AI Tools Flood Their Projects",
       "subtitle": "The surge in AI-generated code contributions is straining volunteer developers, forcing critical projects to shut down without sustainable funding models.",
@@ -7041,6 +7063,8 @@
     "4e12f917e9a46f8d",
     "3eb6e02c051e2aa3",
     "3c631dc7beaeeeb5",
-    "baa9bc985e995c5a"
+    "baa9bc985e995c5a",
+    "4b1223f9a3afdebb",
+    "2b093885950f514a"
   ]
 }

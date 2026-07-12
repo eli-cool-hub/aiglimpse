@@ -7,6 +7,22 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>ChatGPT's Hidden Life as a Storytelling Platform</title>
+      <link>https://aiglimpse.ai/articles/chatgpts-hidden-life-as-a-storytelling-platform-2b093885</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/chatgpts-hidden-life-as-a-storytelling-platform-2b093885</guid>
+      <description>New research reveals creative fiction generation dominates ChatGPT usage, forcing a reckoning over how AI companies should manage mass-market entertainment applications.</description>
+      <pubDate>Sat, 11 Jul 2026 00:00:00 GMT</pubDate>
+      <category>AI Business</category>
+    </item>
+    <item>
+      <title>AI Giants Deploy Campus Ambassadors to Capture Student Users</title>
+      <link>https://aiglimpse.ai/articles/ai-giants-deploy-campus-ambassadors-to-capture-student-users-4b1223f9</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/ai-giants-deploy-campus-ambassadors-to-capture-student-users-4b1223f9</guid>
+      <description>Anthropic and Perplexity invest in peer recruitment programs, betting early adoption habits will drive long-term market dominance.</description>
+      <pubDate>Sat, 11 Jul 2026 00:00:00 GMT</pubDate>
+      <category>AI Business</category>
+    </item>
+    <item>
       <title>Open-Source Maintainers Struggle as AI Tools Flood Their Projects</title>
       <link>https://aiglimpse.ai/articles/open-source-maintainers-struggle-as-ai-tools-flood-their-projects-baa9bc98</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/open-source-maintainers-struggle-as-ai-tools-flood-their-projects-baa9bc98</guid>
@@ -388,22 +404,6 @@
       <guid isPermaLink="true">https://aiglimpse.ai/articles/new-framework-helps-ai-agents-learn-from-failures-more-efficiently-de5e87eb</guid>
       <description>Researchers introduce a method to filter noisy execution data and identify root causes of agent failures, boosting optimization by 40% on verification tasks.</description>
       <pubDate>Wed, 08 Jul 2026 17:57:27 GMT</pubDate>
-      <category>AI Research</category>
-    </item>
-    <item>
-      <title>How AI Deployment Rules Shape Multi-Agent Safety More Than Models</title>
-      <link>https://aiglimpse.ai/articles/how-ai-deployment-rules-shape-multi-agent-safety-more-than-models-6c1d8aa6</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/how-ai-deployment-rules-shape-multi-agent-safety-more-than-models-6c1d8aa6</guid>
-      <description>New research reveals that operational guardrails, not just model architecture, fundamentally determine whether AI systems cooperate or exploit each other.</description>
-      <pubDate>Wed, 08 Jul 2026 17:53:56 GMT</pubDate>
-      <category>AI Research</category>
-    </item>
-    <item>
-      <title>Researchers Crack Code for Faster Transformer Inference with Linear Attention</title>
-      <link>https://aiglimpse.ai/articles/researchers-crack-code-for-faster-transformer-inference-with-linear-attention-33789dfd</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/researchers-crack-code-for-faster-transformer-inference-with-linear-attention-33789dfd</guid>
-      <description>New analysis reveals how to simplify transformer attention mechanisms without sacrificing accuracy on large language models.</description>
-      <pubDate>Wed, 08 Jul 2026 17:59:09 GMT</pubDate>
       <category>AI Research</category>
     </item>
   </channel>
