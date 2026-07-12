@@ -7,6 +7,22 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Europe's AI Strategy Risks Deepening Tech Dependence, Critics Warn</title>
+      <link>https://aiglimpse.ai/articles/europes-ai-strategy-risks-deepening-tech-dependence-critics-warn-4549ce91</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/europes-ai-strategy-risks-deepening-tech-dependence-critics-warn-4549ce91</guid>
+      <description>Focusing on model development without addressing infrastructure gaps could undermine the continent's path to genuine artificial intelligence autonomy.</description>
+      <pubDate>Sun, 12 Jul 2026 00:00:00 GMT</pubDate>
+      <category>AI Business</category>
+    </item>
+    <item>
+      <title>Apple's Abandoned Vehicle Project Shaped Modern AI Chip Design</title>
+      <link>https://aiglimpse.ai/articles/apples-abandoned-vehicle-project-shaped-modern-ai-chip-design-6e0ba2a9</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/apples-abandoned-vehicle-project-shaped-modern-ai-chip-design-6e0ba2a9</guid>
+      <description>The company's failed autonomous driving initiative catalyzed development of neural processing architecture now central to its consumer devices.</description>
+      <pubDate>Sun, 12 Jul 2026 16:27:06 GMT</pubDate>
+      <category>AI Tools &amp; Products</category>
+    </item>
+    <item>
       <title>ChatGPT's Hidden Life as a Storytelling Platform</title>
       <link>https://aiglimpse.ai/articles/chatgpts-hidden-life-as-a-storytelling-platform-2b093885</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/chatgpts-hidden-life-as-a-storytelling-platform-2b093885</guid>
@@ -388,22 +404,6 @@
       <guid isPermaLink="true">https://aiglimpse.ai/articles/llms-help-researchers-bypass-database-gatekeepers-for-faster-analytics-e9599874</guid>
       <description>New technique uses AI-generated code to read database files directly, sidestep traditional query engines, and achieve massive speedups on analytical workloads.</description>
       <pubDate>Wed, 08 Jul 2026 17:55:00 GMT</pubDate>
-      <category>AI Research</category>
-    </item>
-    <item>
-      <title>Researchers Release Massive Skill Library to Ground AI Agents</title>
-      <link>https://aiglimpse.ai/articles/researchers-release-massive-skill-library-to-ground-ai-agents-2d8af31e</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/researchers-release-massive-skill-library-to-ground-ai-agents-2d8af31e</guid>
-      <description>New dataset of 216,000+ verified skills aims to make autonomous AI systems more reliable and traceable.</description>
-      <pubDate>Wed, 08 Jul 2026 17:34:28 GMT</pubDate>
-      <category>AI Research</category>
-    </item>
-    <item>
-      <title>New Framework Helps AI Agents Learn From Failures More Efficiently</title>
-      <link>https://aiglimpse.ai/articles/new-framework-helps-ai-agents-learn-from-failures-more-efficiently-de5e87eb</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-framework-helps-ai-agents-learn-from-failures-more-efficiently-de5e87eb</guid>
-      <description>Researchers introduce a method to filter noisy execution data and identify root causes of agent failures, boosting optimization by 40% on verification tasks.</description>
-      <pubDate>Wed, 08 Jul 2026 17:57:27 GMT</pubDate>
       <category>AI Research</category>
     </item>
   </channel>
