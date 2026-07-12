@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "four-in-five-researchers-now-use-llms-making-ai-policy-obsolete-4fb6307d",
+      "title": "Four in Five Researchers Now Use LLMs, Making AI Policy Obsolete",
+      "subtitle": "A new study reveals widespread adoption of language models among active authors, exposing a gap between researcher behavior and institutional guidelines.",
+      "category": "research",
+      "publishedAt": "2026-07-12T00:00:00.000Z",
+      "sourceUrl": "https://arxiv.org/abs/2411.05025",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/four-in-five-researchers-now-use-llms-making-ai-policy-obsolete-4fb6307d.jpg"
+    },
+    {
+      "slug": "dutch-ai-researchers-push-government-to-enforce-autonomous-weapons-controls-9f6e1799",
+      "title": "Dutch AI Researchers Push Government to Enforce Autonomous Weapons Controls",
+      "subtitle": "Over 170 experts call for legally binding human oversight requirements in military AI procurement, moving beyond voluntary guidelines.",
+      "category": "ethics",
+      "publishedAt": "2026-07-12T00:00:00.000Z",
+      "sourceUrl": "https://docs.google.com/document/d/1ubAli1csfahmAuzLHkgXoA9VthPbZ2xA/mobilebasic",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/dutch-ai-researchers-push-government-to-enforce-autonomous-weapons-controls-9f6e1799.jpg"
+    },
+    {
       "slug": "un-pivots-ai-governance-to-technical-standards-bodies-5e82dea4",
       "title": "UN Pivots AI Governance to Technical Standards Bodies",
       "subtitle": "Industry groups are gaining dominance in ITU working groups where regulatory frameworks will be quietly shaped.",
@@ -6909,6 +6931,8 @@
     "c37730b19c6dc11c",
     "395a57865bda2bbd",
     "8ce45966783df07e",
-    "5e82dea45399fbe8"
+    "5e82dea45399fbe8",
+    "9f6e17990c9d8bd8",
+    "4fb6307d2b5d5a52"
   ]
 }
