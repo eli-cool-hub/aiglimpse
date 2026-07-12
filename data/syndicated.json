@@ -7760,6 +7760,24 @@
         "devto": true,
         "hashnode": false
       }
+    },
+    "claude-code-consumes-five-times-more-tokens-than-opencode-dbe705c2": {
+      "syndicated_at": "2026-07-12T19:08:32.716Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/claude-code-consumes-five-times-more-tokens-than-opencode-475i",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 461,
+      "category": "research",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
     }
   }
 }

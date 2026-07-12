@@ -7,6 +7,22 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Apple's M7 Ultra to Offer 1.5TB Memory for On-Device AI Workloads</title>
+      <link>https://aiglimpse.ai/articles/apples-m7-ultra-to-offer-15tb-memory-for-on-device-ai-workloads-759e98a9</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/apples-m7-ultra-to-offer-15tb-memory-for-on-device-ai-workloads-759e98a9</guid>
+      <description>The chip giant is building massive unified memory into future Macs, targeting local large language model inference but facing a years-long delay that favors cloud competitors.</description>
+      <pubDate>Sun, 12 Jul 2026 00:00:00 GMT</pubDate>
+      <category>AI Business</category>
+    </item>
+    <item>
+      <title>Claude Code Consumes Five Times More Tokens Than OpenCode</title>
+      <link>https://aiglimpse.ai/articles/claude-code-consumes-five-times-more-tokens-than-opencode-dbe705c2</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/claude-code-consumes-five-times-more-tokens-than-opencode-dbe705c2</guid>
+      <description>New analysis reveals significant efficiency gaps in how leading AI coding assistants handle cache and system prompts.</description>
+      <pubDate>Sun, 12 Jul 2026 18:25:51 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
       <title>Europe's AI Strategy Risks Deepening Tech Dependence, Critics Warn</title>
       <link>https://aiglimpse.ai/articles/europes-ai-strategy-risks-deepening-tech-dependence-critics-warn-4549ce91</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/europes-ai-strategy-risks-deepening-tech-dependence-critics-warn-4549ce91</guid>
@@ -389,22 +405,6 @@
       <description>The new offering enables ChatGPT to execute tasks across multiple applications and maintain focus on extended projects, marking a shift toward autonomous workplace AI.</description>
       <pubDate>Thu, 09 Jul 2026 10:00:00 GMT</pubDate>
       <category>LLMs &amp; Chatbots</category>
-    </item>
-    <item>
-      <title>Researchers Cut Diffusion Model Training Costs by 6x Through Smart Sampling</title>
-      <link>https://aiglimpse.ai/articles/researchers-cut-diffusion-model-training-costs-by-6x-through-smart-sampling-dfc4d347</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/researchers-cut-diffusion-model-training-costs-by-6x-through-smart-sampling-dfc4d347</guid>
-      <description>New technique makes reinforcement learning from human feedback practical by identifying which training steps actually matter.</description>
-      <pubDate>Wed, 08 Jul 2026 17:49:49 GMT</pubDate>
-      <category>AI Research</category>
-    </item>
-    <item>
-      <title>LLMs Help Researchers Bypass Database Gatekeepers for Faster Analytics</title>
-      <link>https://aiglimpse.ai/articles/llms-help-researchers-bypass-database-gatekeepers-for-faster-analytics-e9599874</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/llms-help-researchers-bypass-database-gatekeepers-for-faster-analytics-e9599874</guid>
-      <description>New technique uses AI-generated code to read database files directly, sidestep traditional query engines, and achieve massive speedups on analytical workloads.</description>
-      <pubDate>Wed, 08 Jul 2026 17:55:00 GMT</pubDate>
-      <category>AI Research</category>
     </item>
   </channel>
 </rss>

@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "apples-m7-ultra-to-offer-15tb-memory-for-on-device-ai-workloads-759e98a9",
+      "title": "Apple's M7 Ultra to Offer 1.5TB Memory for On-Device AI Workloads",
+      "subtitle": "The chip giant is building massive unified memory into future Macs, targeting local large language model inference but facing a years-long delay that favors cloud competitors.",
+      "category": "business",
+      "publishedAt": "2026-07-12T00:00:00.000Z",
+      "sourceUrl": "https://www.bloomberg.com/news/newsletters/2026-07-12/apple-s-chip-plans-m6-m7-pro-m7-max-m7-ultra-m8-details-touch-macbook-pro",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/apples-m7-ultra-to-offer-15tb-memory-for-on-device-ai-workloads-759e98a9.jpg"
+    },
+    {
+      "slug": "claude-code-consumes-five-times-more-tokens-than-opencode-dbe705c2",
+      "title": "Claude Code Consumes Five Times More Tokens Than OpenCode",
+      "subtitle": "New analysis reveals significant efficiency gaps in how leading AI coding assistants handle cache and system prompts.",
+      "category": "research",
+      "publishedAt": "2026-07-12T18:25:51.000Z",
+      "sourceUrl": "https://systima.ai/blog/claude-code-vs-opencode-token-overhead",
+      "sourceName": "Hacker News (54 pts)",
+      "sourceTier": 2,
+      "image": "/images/articles/claude-code-consumes-five-times-more-tokens-than-opencode-dbe705c2.jpg"
+    },
+    {
       "slug": "europes-ai-strategy-risks-deepening-tech-dependence-critics-warn-4549ce91",
       "title": "Europe's AI Strategy Risks Deepening Tech Dependence, Critics Warn",
       "subtitle": "Focusing on model development without addressing infrastructure gaps could undermine the continent's path to genuine artificial intelligence autonomy.",
@@ -7089,6 +7111,8 @@
     "4b1223f9a3afdebb",
     "2b093885950f514a",
     "6e0ba2a93c435e9c",
-    "4549ce9182d0ced3"
+    "4549ce9182d0ced3",
+    "dbe705c250cebd57",
+    "759e98a9dabb25c1"
   ]
 }
