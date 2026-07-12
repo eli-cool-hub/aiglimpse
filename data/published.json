@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "researchers-use-causality-framework-to-decode-llm-reasoning-730faac9",
+      "title": "Researchers Use Causality Framework to Decode LLM Reasoning",
+      "subtitle": "A new approach borrowed from statistics promises to reveal how large language models make decisions at the component level.",
+      "category": "tools",
+      "publishedAt": "2026-07-12T18:04:41.000Z",
+      "sourceUrl": "https://cacm.acm.org/news/can-we-understand-how-large-language-models-reason/",
+      "sourceName": "Hacker News (70 pts)",
+      "sourceTier": 2,
+      "image": "/images/articles/researchers-use-causality-framework-to-decode-llm-reasoning-730faac9.jpg"
+    },
+    {
+      "slug": "musician-lorde-critiques-ai-glasses-at-madrid-festival-performance-967beec4",
+      "title": "Musician Lorde Critiques AI Glasses at Madrid Festival Performance",
+      "subtitle": "The artist's on-stage remarks highlight growing cultural skepticism toward AI-powered wearables and their integration into everyday life.",
+      "category": "tools",
+      "publishedAt": "2026-07-12T20:10:19.000Z",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/964539/lorde-says-ray-ban-meta-ai-glasses-are-not-sexy",
+      "sourceName": "The Verge AI",
+      "sourceTier": 2,
+      "image": "/images/articles/musician-lorde-critiques-ai-glasses-at-madrid-festival-performance-967beec4.jpg"
+    },
+    {
       "slug": "tcs-bets-big-on-ai-integration-plans-8900-new-engineers-b6986b6a",
       "title": "TCS Bets Big on AI Integration, Plans 8,900 New Engineers",
       "subtitle": "India's largest IT services firm rejects automation fears by positioning itself as a critical bridge between enterprise clients and multiple AI foundation models.",
@@ -7137,6 +7159,8 @@
     "dbe705c250cebd57",
     "759e98a9dabb25c1",
     "6ee84c7b56b2c56c",
-    "b6986b6a76f2865f"
+    "b6986b6a76f2865f",
+    "967beec43744020c",
+    "730faac95443f80c"
   ]
 }
