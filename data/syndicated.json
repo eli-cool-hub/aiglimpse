@@ -7724,6 +7724,24 @@
         "devto": true,
         "hashnode": false
       }
+    },
+    "communities-mobilize-against-ai-data-center-expansion-3c631dc7": {
+      "syndicated_at": "2026-07-12T13:24:17.907Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/communities-mobilize-against-ai-data-center-expansion-4g64",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 426,
+      "category": "tools",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
     }
   }
 }

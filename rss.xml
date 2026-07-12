@@ -7,6 +7,22 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Open-Source Maintainers Struggle as AI Tools Flood Their Projects</title>
+      <link>https://aiglimpse.ai/articles/open-source-maintainers-struggle-as-ai-tools-flood-their-projects-baa9bc98</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/open-source-maintainers-struggle-as-ai-tools-flood-their-projects-baa9bc98</guid>
+      <description>The surge in AI-generated code contributions is straining volunteer developers, forcing critical projects to shut down without sustainable funding models.</description>
+      <pubDate>Sun, 12 Jul 2026 00:00:00 GMT</pubDate>
+      <category>AI Business</category>
+    </item>
+    <item>
+      <title>Communities Mobilize Against AI Data Center Expansion</title>
+      <link>https://aiglimpse.ai/articles/communities-mobilize-against-ai-data-center-expansion-3c631dc7</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/communities-mobilize-against-ai-data-center-expansion-3c631dc7</guid>
+      <description>Grassroots opposition to massive computing facilities is intensifying as local leaders grapple with power demands and environmental costs.</description>
+      <pubDate>Sun, 12 Jul 2026 12:00:00 GMT</pubDate>
+      <category>AI Tools &amp; Products</category>
+    </item>
+    <item>
       <title>Federal Court Blocks AI-Driven Grant Cancellations, Demands Human Oversight</title>
       <link>https://aiglimpse.ai/articles/federal-court-blocks-ai-driven-grant-cancellations-demands-human-oversight-3eb6e02c</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/federal-court-blocks-ai-driven-grant-cancellations-demands-human-oversight-3eb6e02c</guid>
@@ -388,22 +404,6 @@
       <guid isPermaLink="true">https://aiglimpse.ai/articles/researchers-crack-code-for-faster-transformer-inference-with-linear-attention-33789dfd</guid>
       <description>New analysis reveals how to simplify transformer attention mechanisms without sacrificing accuracy on large language models.</description>
       <pubDate>Wed, 08 Jul 2026 17:59:09 GMT</pubDate>
-      <category>AI Research</category>
-    </item>
-    <item>
-      <title>New AI Architecture Separates Knowledge from Model Weights</title>
-      <link>https://aiglimpse.ai/articles/new-ai-architecture-separates-knowledge-from-model-weights-e3f5acd7</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-ai-architecture-separates-knowledge-from-model-weights-e3f5acd7</guid>
-      <description>Researchers demonstrate how externalized memory improves language model accuracy while enabling human oversight of factual outputs.</description>
-      <pubDate>Wed, 08 Jul 2026 17:59:45 GMT</pubDate>
-      <category>AI Research</category>
-    </item>
-    <item>
-      <title>New AI Model Reasons Through Molecular and Crystal Structures</title>
-      <link>https://aiglimpse.ai/articles/new-ai-model-reasons-through-molecular-and-crystal-structures-aaeca158</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-ai-model-reasons-through-molecular-and-crystal-structures-aaeca158</guid>
-      <description>SciReasoner bridges scientific accuracy and interpretability by treating atomic arrangements as inspectable evidence for AI reasoning.</description>
-      <pubDate>Wed, 08 Jul 2026 17:59:59 GMT</pubDate>
       <category>AI Research</category>
     </item>
   </channel>

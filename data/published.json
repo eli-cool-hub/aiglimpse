@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "open-source-maintainers-struggle-as-ai-tools-flood-their-projects-baa9bc98",
+      "title": "Open-Source Maintainers Struggle as AI Tools Flood Their Projects",
+      "subtitle": "The surge in AI-generated code contributions is straining volunteer developers, forcing critical projects to shut down without sustainable funding models.",
+      "category": "business",
+      "publishedAt": "2026-07-12T00:00:00.000Z",
+      "sourceUrl": "https://www.ft.com/content/b7f62212-989e-412f-b76a-6905b6333afd",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/open-source-maintainers-struggle-as-ai-tools-flood-their-projects-baa9bc98.jpg"
+    },
+    {
+      "slug": "communities-mobilize-against-ai-data-center-expansion-3c631dc7",
+      "title": "Communities Mobilize Against AI Data Center Expansion",
+      "subtitle": "Grassroots opposition to massive computing facilities is intensifying as local leaders grapple with power demands and environmental costs.",
+      "category": "tools",
+      "publishedAt": "2026-07-12T12:00:00.000Z",
+      "sourceUrl": "https://www.theverge.com/column/963346/ai-data-centers-fight",
+      "sourceName": "The Verge AI",
+      "sourceTier": 2,
+      "image": "/images/articles/communities-mobilize-against-ai-data-center-expansion-3c631dc7.jpg"
+    },
+    {
       "slug": "federal-court-blocks-ai-driven-grant-cancellations-demands-human-oversight-3eb6e02c",
       "title": "Federal Court Blocks AI-Driven Grant Cancellations, Demands Human Oversight",
       "subtitle": "Ruling establishes that agencies deploying language models for consequential decisions must maintain audit trails and meaningful human review.",
@@ -7017,6 +7039,8 @@
     "7a502cccc64d6744",
     "acb6a7ff59c9795d",
     "4e12f917e9a46f8d",
-    "3eb6e02c051e2aa3"
+    "3eb6e02c051e2aa3",
+    "3c631dc7beaeeeb5",
+    "baa9bc985e995c5a"
   ]
 }
