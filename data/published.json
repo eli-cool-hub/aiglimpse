@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "apple-transforms-siri-into-central-ai-hub-for-iphone-ffb4dd3f",
+      "title": "Apple Transforms Siri Into Central AI Hub for iPhone",
+      "subtitle": "The company's redesigned voice assistant now anchors the entire iOS experience, signaling a shift toward AI-first mobile computing.",
+      "category": "tools",
+      "publishedAt": "2026-07-13T21:39:09.000Z",
+      "sourceUrl": "https://www.wired.com/story/siri-ai-is-now-apple-everything-tool/",
+      "sourceName": "Wired AI",
+      "sourceTier": 2,
+      "image": "/images/articles/apple-transforms-siri-into-central-ai-hub-for-iphone-ffb4dd3f.jpg"
+    },
+    {
+      "slug": "study-ai-patient-message-drafts-often-require-more-editing-than-manual-writing-48c22885",
+      "title": "Study: AI Patient Message Drafts Often Require More Editing Than Manual Writing",
+      "subtitle": "Dartmouth researchers find that large language models struggle with clinical reasoning, potentially increasing physician workload rather than reducing it.",
+      "category": "industry",
+      "publishedAt": "2026-07-13T22:04:31.000Z",
+      "sourceUrl": "https://www.beckershospitalreview.com/healthcare-information-technology/ai/ai-drafted-patient-portal-messages-increase-physician-editing-time/",
+      "sourceName": "Becker's Hospital Review",
+      "sourceTier": 2,
+      "image": "/images/articles/study-ai-patient-message-drafts-often-require-more-editing-than-manual-writing-48c22885.jpg"
+    },
+    {
       "slug": "specialized-clinical-ai-tool-outperforms-gpt-55-in-physician-study-3523f004",
       "title": "Specialized Clinical AI Tool Outperforms GPT-5.5 in Physician Study",
       "subtitle": "A new evaluation contradicts earlier findings, adding uncertainty to hospitals' decisions about general-purpose versus dedicated medical AI systems.",
@@ -7305,6 +7327,8 @@
     "b0ac78b550e00fc7",
     "95b21aa22fe9b00b",
     "bbd61381adf4dd85",
-    "3523f004715a8a75"
+    "3523f004715a8a75",
+    "48c228852f8f2c4f",
+    "ffb4dd3f8997d36f"
   ]
 }
