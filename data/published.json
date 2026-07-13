@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "targeted-ai-attack-exposes-gaps-in-go-champion-katagos-defenses-dee8401c",
+      "title": "Targeted AI Attack Exposes Gaps in Go Champion KataGo's Defenses",
+      "subtitle": "New research reveals that superhuman benchmark performance doesn't guarantee robustness against adversarial strategies, raising urgent questions about AI safety evaluation.",
+      "category": "ethics",
+      "publishedAt": "2026-07-13T00:00:00.000Z",
+      "sourceUrl": "https://arxiv.org/abs/2211.00241",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/targeted-ai-attack-exposes-gaps-in-go-champion-katagos-defenses-dee8401c.jpg"
+    },
+    {
+      "slug": "tech-press-turns-skeptical-on-ai-industrys-feel-good-marketing-bf0009f7",
+      "title": "Tech Press Turns Skeptical on AI Industry's Feel-Good Marketing",
+      "subtitle": "A critical take on corporate AI celebrations signals shifting sentiment in mainstream tech journalism toward branded initiatives.",
+      "category": "business",
+      "publishedAt": "2026-07-13T00:00:00.000Z",
+      "sourceUrl": "https://www.engadget.com/2213147/what-are-your-plans-for-ai-appreciation-day/",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/tech-press-turns-skeptical-on-ai-industrys-feel-good-marketing-bf0009f7.jpg"
+    },
+    {
       "slug": "emerging-market-funds-forced-to-shed-ai-chip-giants-dc1e59a1",
       "title": "Emerging Market Funds Forced to Shed AI Chip Giants",
       "subtitle": "Portfolio concentration rules are driving a $4.4 trillion exodus from semiconductor leaders dominating EM allocations.",
@@ -7185,6 +7207,8 @@
     "967beec43744020c",
     "730faac95443f80c",
     "c54e715bb1f3cdba",
-    "dc1e59a1ec5094c5"
+    "dc1e59a1ec5094c5",
+    "bf0009f7d4d4e2de",
+    "dee8401c428bcc0d"
   ]
 }

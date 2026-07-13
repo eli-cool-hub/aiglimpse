@@ -7,6 +7,22 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Targeted AI Attack Exposes Gaps in Go Champion KataGo's Defenses</title>
+      <link>https://aiglimpse.ai/articles/targeted-ai-attack-exposes-gaps-in-go-champion-katagos-defenses-dee8401c</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/targeted-ai-attack-exposes-gaps-in-go-champion-katagos-defenses-dee8401c</guid>
+      <description>New research reveals that superhuman benchmark performance doesn't guarantee robustness against adversarial strategies, raising urgent questions about AI safety evaluation.</description>
+      <pubDate>Mon, 13 Jul 2026 00:00:00 GMT</pubDate>
+      <category>Ethics &amp; Policy</category>
+    </item>
+    <item>
+      <title>Tech Press Turns Skeptical on AI Industry's Feel-Good Marketing</title>
+      <link>https://aiglimpse.ai/articles/tech-press-turns-skeptical-on-ai-industrys-feel-good-marketing-bf0009f7</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/tech-press-turns-skeptical-on-ai-industrys-feel-good-marketing-bf0009f7</guid>
+      <description>A critical take on corporate AI celebrations signals shifting sentiment in mainstream tech journalism toward branded initiatives.</description>
+      <pubDate>Mon, 13 Jul 2026 00:00:00 GMT</pubDate>
+      <category>AI Business</category>
+    </item>
+    <item>
       <title>Emerging Market Funds Forced to Shed AI Chip Giants</title>
       <link>https://aiglimpse.ai/articles/emerging-market-funds-forced-to-shed-ai-chip-giants-dc1e59a1</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/emerging-market-funds-forced-to-shed-ai-chip-giants-dc1e59a1</guid>
@@ -389,22 +405,6 @@
       <description>Developers gain practical tools to identify performance bottlenecks in attention mechanisms that power modern large language models.</description>
       <pubDate>Fri, 10 Jul 2026 00:00:00 GMT</pubDate>
       <category>AI Tools &amp; Products</category>
-    </item>
-    <item>
-      <title>Researchers Create Safety-Focused Benchmark for Autonomous Driving AI</title>
-      <link>https://aiglimpse.ai/articles/researchers-create-safety-focused-benchmark-for-autonomous-driving-ai-5efdef8b</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/researchers-create-safety-focused-benchmark-for-autonomous-driving-ai-5efdef8b</guid>
-      <description>New dataset tests whether vision-language models can reliably understand dangerous driving scenarios from dashcam footage.</description>
-      <pubDate>Thu, 09 Jul 2026 17:46:24 GMT</pubDate>
-      <category>AI Research</category>
-    </item>
-    <item>
-      <title>Researchers Shrink Depth-Detection AI to Run on Any Device</title>
-      <link>https://aiglimpse.ai/articles/researchers-shrink-depth-detection-ai-to-run-on-any-device-61cc1f42</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/researchers-shrink-depth-detection-ai-to-run-on-any-device-61cc1f42</guid>
-      <description>A new compact model achieves near-foundation-model accuracy while running 50x faster on phones and edge devices.</description>
-      <pubDate>Thu, 09 Jul 2026 17:59:58 GMT</pubDate>
-      <category>AI Research</category>
     </item>
   </channel>
 </rss>
