@@ -7,6 +7,22 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Specialized Clinical AI Tool Outperforms GPT-5.5 in Physician Study</title>
+      <link>https://aiglimpse.ai/articles/specialized-clinical-ai-tool-outperforms-gpt-55-in-physician-study-3523f004</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/specialized-clinical-ai-tool-outperforms-gpt-55-in-physician-study-3523f004</guid>
+      <description>A new evaluation contradicts earlier findings, adding uncertainty to hospitals' decisions about general-purpose versus dedicated medical AI systems.</description>
+      <pubDate>Mon, 13 Jul 2026 20:00:30 GMT</pubDate>
+      <category>Industry Applications</category>
+    </item>
+    <item>
+      <title>Apple's Reimagined Siri Shows Promise in iOS 27 Beta</title>
+      <link>https://aiglimpse.ai/articles/apples-reimagined-siri-shows-promise-in-ios-27-beta-bbd61381</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/apples-reimagined-siri-shows-promise-in-ios-27-beta-bbd61381</guid>
+      <description>Early testers report meaningful improvements to voice assistant capabilities, signaling Apple's push to compete in the AI-powered smartphone market.</description>
+      <pubDate>Mon, 13 Jul 2026 20:43:20 GMT</pubDate>
+      <category>AI Tools &amp; Products</category>
+    </item>
+    <item>
       <title>Apple's Legal Case Against OpenAI Alleges Systematic IP Theft</title>
       <link>https://aiglimpse.ai/articles/apples-legal-case-against-openai-alleges-systematic-ip-theft-95b21aa2</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/apples-legal-case-against-openai-alleges-systematic-ip-theft-95b21aa2</guid>
@@ -387,22 +403,6 @@
       <link>https://aiglimpse.ai/articles/openai-launches-bug-bounty-for-biological-ai-safety-research-3435ba29</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/openai-launches-bug-bounty-for-biological-ai-safety-research-3435ba29</guid>
       <description>The company seeks external researchers to identify risks in large language models trained on biological data.</description>
-      <pubDate>Thu, 09 Jul 2026 10:00:00 GMT</pubDate>
-      <category>LLMs &amp; Chatbots</category>
-    </item>
-    <item>
-      <title>Researchers Tackle Video AI Quality Decay in Fast Generation Models</title>
-      <link>https://aiglimpse.ai/articles/researchers-tackle-video-ai-quality-decay-in-fast-generation-models-300c7b06</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/researchers-tackle-video-ai-quality-decay-in-fast-generation-models-300c7b06</guid>
-      <description>New training method helps autoregressive video models maintain visual coherence and motion quality over longer sequences without slowing inference.</description>
-      <pubDate>Thu, 09 Jul 2026 17:59:11 GMT</pubDate>
-      <category>AI Research</category>
-    </item>
-    <item>
-      <title>OpenAI Releases GPT-5.6, Targeting Cost and Performance Gains</title>
-      <link>https://aiglimpse.ai/articles/openai-releases-gpt-56-targeting-cost-and-performance-gains-b9f8defd</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/openai-releases-gpt-56-targeting-cost-and-performance-gains-b9f8defd</guid>
-      <description>The latest model promises improved efficiency and scaled capabilities, reshaping economics for enterprise AI deployment.</description>
       <pubDate>Thu, 09 Jul 2026 10:00:00 GMT</pubDate>
       <category>LLMs &amp; Chatbots</category>
     </item>
