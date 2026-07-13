@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "apples-legal-case-against-openai-alleges-systematic-ip-theft-95b21aa2",
+      "title": "Apple's Legal Case Against OpenAI Alleges Systematic IP Theft",
+      "subtitle": "Complaint details claims ranging from casual employee access to coordinated recruitment of Apple staff, raising questions about corporate espionage in AI.",
+      "category": "business",
+      "publishedAt": "2026-07-13T18:22:10.000Z",
+      "sourceUrl": "https://techcrunch.com/2026/07/13/the-wildest-allegations-in-apples-trade-secrets-lawsuit-against-openai/",
+      "sourceName": "TechCrunch AI",
+      "sourceTier": 2,
+      "image": "/images/articles/apples-legal-case-against-openai-alleges-systematic-ip-theft-95b21aa2.jpg"
+    },
+    {
       "slug": "apple-sues-openai-over-alleged-theft-of-hardware-secrets-b0ac78b5",
       "title": "Apple Sues OpenAI Over Alleged Theft of Hardware Secrets",
       "subtitle": "The lawsuit accuses the AI startup of recruiting Apple engineers and extracting confidential product designs and prototype information.",
@@ -7269,6 +7280,7 @@
     "0103dda9a17e6134",
     "53cb7d07c16d53d4",
     "7b94f3323633ac02",
-    "b0ac78b550e00fc7"
+    "b0ac78b550e00fc7",
+    "95b21aa22fe9b00b"
   ]
 }
