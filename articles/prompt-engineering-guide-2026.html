@@ -136,7 +136,6 @@
   <figcaption class="article-image-credit">Photo by <a href="https://www.pexels.com/photo/close-up-of-computer-screen-displaying-code-33607952/" rel="nofollow noopener" target="_blank">Simon Petereit</a> on Pexels.</figcaption>
 </figure>
 
-
 <p>A system prompt is not decoration. It is a binding specification for how the model should behave across all user interactions. The best production system prompts work like API documentation: they define input constraints, output format, error handling, and the model's authority boundaries.</p>
 
 <p>A strong system prompt includes four elements: role definition, constraints, output format, and failure mode guidance. Role definition answers "who is this model pretending to be?" not in a creative writing sense, but operationally. "You are a customer support agent" is weaker than "You are a Tier 2 support agent who resolves billing disputes. You cannot refund amounts over $500 or commit to features beyond the current product roadmap." Constraints are explicit red lines. "Never invent product features," "Always cite sources," and "Reject requests for personal financial advice" are not nice-to-haves; they are guardrails that prevent costly errors.</p>
@@ -164,12 +163,6 @@
 <p>Dynamic few-shot selection is an emerging pattern in production systems. Rather than using the same examples for every request, retrieve the 3 to 5 examples from your training set that are most similar (by embedding distance) to the current user input, then include those in the prompt. This approach, sometimes called "in-context retrieval augmented generation," boosts accuracy by 15 to 35 percent on diverse tasks. The tradeoff is added latency for embedding similarity search, typically 50 to 150 milliseconds.</p>
 
 <h2>Chain of thought for complex reasoning</h2>
-<figure class="article-image article-image--inline">
-  <picture><source srcset="/images/articles/prompt-engineering-guide-2026-inline-2.webp" type="image/webp"><img src="/images/articles/prompt-engineering-guide-2026-inline-2.jpg" alt="Chain of thought for complex reasoning" loading="lazy" width="1200" height="630"></picture>
-  <figcaption class="article-image-credit">Photo by <a href="https://www.pexels.com/photo/black-screen-of-a-monitor-5242012/" rel="nofollow noopener" target="_blank">Mathews Jumba</a> on Pexels.</figcaption>
-</figure>
-
-
 <p>Chain of thought prompting instructs the model to show its reasoning steps before outputting a final answer. The technique is especially powerful for multi-step reasoning, where intermediate steps can be evaluated or corrected.</p>
 
 <p>A basic chain of thought prompt looks like: "Think through this step by step. First, identify the key facts. Second, state any assumptions. Third, work through the logic. Finally, state your conclusion. Then provide your final answer."</p>
