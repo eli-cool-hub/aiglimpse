@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "google-brings-gemini-ai-to-waze-navigation-app-53cb7d07",
+      "title": "Google Brings Gemini AI to Waze Navigation App",
+      "subtitle": "Navigation service integrates LLM capabilities as Google pushes AI across its product lineup to challenge Apple Maps.",
+      "category": "business",
+      "publishedAt": "2026-07-13T14:18:16.000Z",
+      "sourceUrl": "https://techcrunch.com/2026/07/13/waze-adds-new-ai-powered-features-and-customization-updates/",
+      "sourceName": "TechCrunch AI",
+      "sourceTier": 2,
+      "image": "/images/articles/google-brings-gemini-ai-to-waze-navigation-app-53cb7d07.jpg"
+    },
+    {
       "slug": "anthropics-ai-claims-face-scrutiny-from-programming-community-0103dda9",
       "title": "Anthropic's AI Claims Face Scrutiny From Programming Community",
       "subtitle": "A heated debate emerges over how AI companies characterize their models' capabilities versus real-world performance.",
@@ -7233,6 +7244,7 @@
     "bf0009f7d4d4e2de",
     "dee8401c428bcc0d",
     "dac64dc47e8eb3b2",
-    "0103dda9a17e6134"
+    "0103dda9a17e6134",
+    "53cb7d07c16d53d4"
   ]
 }
