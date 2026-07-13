@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "apple-sues-openai-over-alleged-theft-of-hardware-secrets-b0ac78b5",
+      "title": "Apple Sues OpenAI Over Alleged Theft of Hardware Secrets",
+      "subtitle": "The lawsuit accuses the AI startup of recruiting Apple engineers and extracting confidential product designs and prototype information.",
+      "category": "tools",
+      "publishedAt": "2026-07-13T17:00:00.000Z",
+      "sourceUrl": "https://www.theverge.com/tech/964843/apple-openai-lawsuit-wildest-claims",
+      "sourceName": "The Verge AI",
+      "sourceTier": 2,
+      "image": "/images/articles/apple-sues-openai-over-alleged-theft-of-hardware-secrets-b0ac78b5.jpg"
+    },
+    {
+      "slug": "altmans-space-data-center-push-aligns-with-ai-infrastructure-consensus-7b94f332",
+      "title": "Altman's Space Data Center Push Aligns with AI Infrastructure Consensus",
+      "subtitle": "OpenAI chief's orbital computing vision reflects industry-wide recognition that ground-based resources may not scale with AI demands.",
+      "category": "business",
+      "publishedAt": "2026-07-13T17:28:37.000Z",
+      "sourceUrl": "https://techcrunch.com/2026/07/13/sam-altmans-space-data-center-trash-talk-is-what-most-experts-already-believe/",
+      "sourceName": "TechCrunch AI",
+      "sourceTier": 2,
+      "image": "/images/articles/altmans-space-data-center-push-aligns-with-ai-infrastructure-consensus-7b94f332.jpg"
+    },
+    {
       "slug": "google-brings-gemini-ai-to-waze-navigation-app-53cb7d07",
       "title": "Google Brings Gemini AI to Waze Navigation App",
       "subtitle": "Navigation service integrates LLM capabilities as Google pushes AI across its product lineup to challenge Apple Maps.",
@@ -7245,6 +7267,8 @@
     "dee8401c428bcc0d",
     "dac64dc47e8eb3b2",
     "0103dda9a17e6134",
-    "53cb7d07c16d53d4"
+    "53cb7d07c16d53d4",
+    "7b94f3323633ac02",
+    "b0ac78b550e00fc7"
   ]
 }
