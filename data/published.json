@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "emerging-market-funds-forced-to-shed-ai-chip-giants-dc1e59a1",
+      "title": "Emerging Market Funds Forced to Shed AI Chip Giants",
+      "subtitle": "Portfolio concentration rules are driving a $4.4 trillion exodus from semiconductor leaders dominating EM allocations.",
+      "category": "industry",
+      "publishedAt": "2026-07-12T00:00:00.000Z",
+      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-07-12/funds-fret-over-4-4-trillion-ai-trio-s-grip-on-emerging-markets",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/emerging-market-funds-forced-to-shed-ai-chip-giants-dc1e59a1.jpg"
+    },
+    {
+      "slug": "production-ai-agent-migration-shows-major-cost-and-speed-gains-c54e715b",
+      "title": "Production AI Agent Migration Shows Major Cost and Speed Gains",
+      "subtitle": "Real-world deployment of newer LLM achieves significant efficiency improvements, signaling growing viability of model upgrades for businesses.",
+      "category": "tools",
+      "publishedAt": "2026-07-12T17:13:07.000Z",
+      "sourceUrl": "https://ploy.ai/blog/migrating-a-production-ai-agent-to-gpt-5-6",
+      "sourceName": "Hacker News (146 pts)",
+      "sourceTier": 2,
+      "image": "/images/articles/production-ai-agent-migration-shows-major-cost-and-speed-gains-c54e715b.jpg"
+    },
+    {
       "slug": "researchers-use-causality-framework-to-decode-llm-reasoning-730faac9",
       "title": "Researchers Use Causality Framework to Decode LLM Reasoning",
       "subtitle": "A new approach borrowed from statistics promises to reveal how large language models make decisions at the component level.",
@@ -7161,6 +7183,8 @@
     "6ee84c7b56b2c56c",
     "b6986b6a76f2865f",
     "967beec43744020c",
-    "730faac95443f80c"
+    "730faac95443f80c",
+    "c54e715bb1f3cdba",
+    "dc1e59a1ec5094c5"
   ]
 }
