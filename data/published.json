@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "anthropics-ai-claims-face-scrutiny-from-programming-community-0103dda9",
+      "title": "Anthropic's AI Claims Face Scrutiny From Programming Community",
+      "subtitle": "A heated debate emerges over how AI companies characterize their models' capabilities versus real-world performance.",
+      "category": "tools",
+      "publishedAt": "2026-07-13T08:39:39.000Z",
+      "sourceUrl": "https://raymyers.org/post/zed-creator-calls-spade-a-spade/",
+      "sourceName": "Hacker News (330 pts)",
+      "sourceTier": 2,
+      "image": "/images/articles/anthropics-ai-claims-face-scrutiny-from-programming-community-0103dda9.jpg"
+    },
+    {
+      "slug": "growth-investors-recalibrate-ai-valuations-as-public-markets-diverge-dac64dc4",
+      "title": "Growth Investors Recalibrate AI Valuations as Public Markets Diverge",
+      "subtitle": "As public software stocks plummet while private AI funding surges, venture investors are rethinking how to measure startup success beyond traditional metrics.",
+      "category": "business",
+      "publishedAt": "2026-07-13T11:00:52.000Z",
+      "sourceUrl": "https://news.crunchbase.com/venture/ai-ma-ipo-valuations-b2b-ranum-sapphire-ventures/",
+      "sourceName": "Crunchbase News",
+      "sourceTier": 2,
+      "image": "/images/articles/growth-investors-recalibrate-ai-valuations-as-public-markets-diverge-dac64dc4.jpg"
+    },
+    {
       "slug": "targeted-ai-attack-exposes-gaps-in-go-champion-katagos-defenses-dee8401c",
       "title": "Targeted AI Attack Exposes Gaps in Go Champion KataGo's Defenses",
       "subtitle": "New research reveals that superhuman benchmark performance doesn't guarantee robustness against adversarial strategies, raising urgent questions about AI safety evaluation.",
@@ -7209,6 +7231,8 @@
     "c54e715bb1f3cdba",
     "dc1e59a1ec5094c5",
     "bf0009f7d4d4e2de",
-    "dee8401c428bcc0d"
+    "dee8401c428bcc0d",
+    "dac64dc47e8eb3b2",
+    "0103dda9a17e6134"
   ]
 }
