@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "new-approach-teaches-robots-dexterous-skills-from-single-human-demo-19b6f147",
+      "title": "New Approach Teaches Robots Dexterous Skills From Single Human Demo",
+      "subtitle": "Researchers demonstrate a streamlined method for training multi-fingered robots to perform complex manipulation tasks by learning from human motion.",
+      "category": "research",
+      "publishedAt": "2026-07-13T17:56:08.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2607.11874v1",
+      "sourceName": "arXiv (Yunhai Feng, Natalie Leung, Jiaxuan Wang, Lujie Yang, Haozhi…)",
+      "sourceTier": 1,
+      "image": "/images/articles/new-approach-teaches-robots-dexterous-skills-from-single-human-demo-19b6f147.jpg"
+    },
+    {
+      "slug": "enterprise-sales-teams-deploy-chatgpt-to-automate-pipeline-work-d4befd50",
+      "title": "Enterprise Sales Teams Deploy ChatGPT to Automate Pipeline Work",
+      "subtitle": "OpenAI's workplace AI tool helps revenue teams generate forecasts, client strategies, and deal recovery plans from operational data.",
+      "category": "llms",
+      "publishedAt": "2026-07-14T00:00:00.000Z",
+      "sourceUrl": "https://openai.com/academy/codex-for-work/how-sales-teams-use-codex",
+      "sourceName": "OpenAI",
+      "sourceTier": 1,
+      "image": "/images/articles/enterprise-sales-teams-deploy-chatgpt-to-automate-pipeline-work-d4befd50.jpg"
+    },
+    {
       "slug": "researchers-map-hidden-geometry-underlying-transformer-reasoning-d7a6c5dd",
       "title": "Researchers Map Hidden Geometry Underlying Transformer Reasoning",
       "subtitle": "New theoretical framework reveals how language models learn to reason, reducing millions of parameters to interpretable low-dimensional dynamics.",
@@ -7425,6 +7447,8 @@
     "ad779af0b71f9938",
     "ce0187acc5db0c71",
     "47ae4e75e4982983",
-    "d7a6c5dd26a9a7eb"
+    "d7a6c5dd26a9a7eb",
+    "d4befd504e2060c4",
+    "19b6f1474aa4225e"
   ]
 }
