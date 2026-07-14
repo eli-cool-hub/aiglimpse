@@ -7,6 +7,22 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Proprietary AI Models Threaten Scientific Reproducibility</title>
+      <link>https://aiglimpse.ai/articles/proprietary-ai-models-threaten-scientific-reproducibility-449143d5</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/proprietary-ai-models-threaten-scientific-reproducibility-449143d5</guid>
+      <description>Researchers warn that relying on closed LLMs for published findings risks invalidation when vendors push updates without notice.</description>
+      <pubDate>Tue, 14 Jul 2026 00:00:00 GMT</pubDate>
+      <category>AI Business</category>
+    </item>
+    <item>
+      <title>Uber Maps AI Strategy: Autonomous Vehicles and Selective Expansion</title>
+      <link>https://aiglimpse.ai/articles/uber-maps-ai-strategy-autonomous-vehicles-and-selective-expansion-c610218e</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/uber-maps-ai-strategy-autonomous-vehicles-and-selective-expansion-c610218e</guid>
+      <description>The ride-hailing giant's product leadership reveals how machine learning is reshaping transportation services while avoiding unfocused diversification.</description>
+      <pubDate>Tue, 14 Jul 2026 00:45:00 GMT</pubDate>
+      <category>AI Business</category>
+    </item>
+    <item>
       <title>Apple Transforms Siri Into Central AI Hub for iPhone</title>
       <link>https://aiglimpse.ai/articles/apple-transforms-siri-into-central-ai-hub-for-iphone-ffb4dd3f</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/apple-transforms-siri-into-central-ai-hub-for-iphone-ffb4dd3f</guid>
@@ -389,22 +405,6 @@
       <description>A new two-stage AI model tackles the challenge of creating coherent panoramic images through geometry-aware training and a custom dataset of 1 million samples.</description>
       <pubDate>Thu, 09 Jul 2026 17:59:06 GMT</pubDate>
       <category>AI Research</category>
-    </item>
-    <item>
-      <title>New AI Detection Method Targets Plot Structure, Not Writing Style</title>
-      <link>https://aiglimpse.ai/articles/new-ai-detection-method-targets-plot-structure-not-writing-style-de612503</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-ai-detection-method-targets-plot-structure-not-writing-style-de612503</guid>
-      <description>Researchers develop narrative-based approach to identifying machine-generated fiction, making AI detection harder to evade.</description>
-      <pubDate>Sat, 11 Jul 2026 00:00:00 GMT</pubDate>
-      <category>AI Business</category>
-    </item>
-    <item>
-      <title>OpenAI's Safety Chief Departs Amid Organizational Restructuring</title>
-      <link>https://aiglimpse.ai/articles/openais-safety-chief-departs-amid-organizational-restructuring-03e76e73</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/openais-safety-chief-departs-amid-organizational-restructuring-03e76e73</guid>
-      <description>The exit signals a major shift in how the AI company approaches risk management and research alignment.</description>
-      <pubDate>Sat, 11 Jul 2026 01:07:26 GMT</pubDate>
-      <category>AI Tools &amp; Products</category>
     </item>
   </channel>
 </rss>

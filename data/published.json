@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "proprietary-ai-models-threaten-scientific-reproducibility-449143d5",
+      "title": "Proprietary AI Models Threaten Scientific Reproducibility",
+      "subtitle": "Researchers warn that relying on closed LLMs for published findings risks invalidation when vendors push updates without notice.",
+      "category": "business",
+      "publishedAt": "2026-07-14T00:00:00.000Z",
+      "sourceUrl": "https://www.nature.com/articles/s44159-026-00593-8?error=cookies_not_supported&code=3ada62bc-7a59-4b84-b50d-a793d4b58e76",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/proprietary-ai-models-threaten-scientific-reproducibility-449143d5.jpg"
+    },
+    {
+      "slug": "uber-maps-ai-strategy-autonomous-vehicles-and-selective-expansion-c610218e",
+      "title": "Uber Maps AI Strategy: Autonomous Vehicles and Selective Expansion",
+      "subtitle": "The ride-hailing giant's product leadership reveals how machine learning is reshaping transportation services while avoiding unfocused diversification.",
+      "category": "business",
+      "publishedAt": "2026-07-14T00:45:00.000Z",
+      "sourceUrl": "https://techcrunch.com/2026/07/13/ubers-product-chief-on-hotels-robotaxis-and-why-the-company-doesnt-want-to-be-everything-for-everyone/",
+      "sourceName": "TechCrunch AI",
+      "sourceTier": 2,
+      "image": "/images/articles/uber-maps-ai-strategy-autonomous-vehicles-and-selective-expansion-c610218e.jpg"
+    },
+    {
       "slug": "apple-transforms-siri-into-central-ai-hub-for-iphone-ffb4dd3f",
       "title": "Apple Transforms Siri Into Central AI Hub for iPhone",
       "subtitle": "The company's redesigned voice assistant now anchors the entire iOS experience, signaling a shift toward AI-first mobile computing.",
@@ -7329,6 +7351,8 @@
     "bbd61381adf4dd85",
     "3523f004715a8a75",
     "48c228852f8f2c4f",
-    "ffb4dd3f8997d36f"
+    "ffb4dd3f8997d36f",
+    "c610218e4df0f89e",
+    "449143d55f0d35a5"
   ]
 }
