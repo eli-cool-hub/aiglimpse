@@ -7,6 +7,22 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Teaching Feedback Classification System Proves Resilient Across AI Models</title>
+      <link>https://aiglimpse.ai/articles/teaching-feedback-classification-system-proves-resilient-across-ai-models-0b2689fa</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/teaching-feedback-classification-system-proves-resilient-across-ai-models-0b2689fa</guid>
+      <description>New research shows instructor evaluation frameworks remain stable even as underlying language models advance, with practical implications for educational institutions.</description>
+      <pubDate>Mon, 13 Jul 2026 17:56:05 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
+      <title>Enterprises must rethink AI spending as autonomous agents reshape ROI</title>
+      <link>https://aiglimpse.ai/articles/enterprises-must-rethink-ai-spending-as-autonomous-agents-reshape-roi-a77f9820</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/enterprises-must-rethink-ai-spending-as-autonomous-agents-reshape-roi-a77f9820</guid>
+      <description>A framework for measuring productive output per dollar spent is becoming critical as AI systems take on independent decision-making roles.</description>
+      <pubDate>Tue, 14 Jul 2026 10:00:00 GMT</pubDate>
+      <category>LLMs &amp; Chatbots</category>
+    </item>
+    <item>
       <title>New Approach Teaches Robots Dexterous Skills From Single Human Demo</title>
       <link>https://aiglimpse.ai/articles/new-approach-teaches-robots-dexterous-skills-from-single-human-demo-19b6f147</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/new-approach-teaches-robots-dexterous-skills-from-single-human-demo-19b6f147</guid>
@@ -389,22 +405,6 @@
       <description>Researchers demonstrate how multilingual language models can identify text languages using minimal training data and existing tokenizer infrastructure.</description>
       <pubDate>Sat, 11 Jul 2026 00:00:00 GMT</pubDate>
       <category>AI Business</category>
-    </item>
-    <item>
-      <title>How GPU Makers Are Funding Each Other in AI Infrastructure Boom</title>
-      <link>https://aiglimpse.ai/articles/how-gpu-makers-are-funding-each-other-in-ai-infrastructure-boom-c37730b1</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/how-gpu-makers-are-funding-each-other-in-ai-infrastructure-boom-c37730b1</guid>
-      <description>Nvidia, CoreWeave, and Nebius form interconnected investments that raise questions about circular financing in the AI hardware market.</description>
-      <pubDate>Sat, 11 Jul 2026 17:21:49 GMT</pubDate>
-      <category>AI Business</category>
-    </item>
-    <item>
-      <title>Academic Papers Risk Hidden Flaws by Trusting LLMs Over Human Review</title>
-      <link>https://aiglimpse.ai/articles/academic-papers-risk-hidden-flaws-by-trusting-llms-over-human-review-f3fe934d</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/academic-papers-risk-hidden-flaws-by-trusting-llms-over-human-review-f3fe934d</guid>
-      <description>Researchers warn that social science journals lack standardized validation for AI-generated data, creating potential gaps in peer review and evidence quality.</description>
-      <pubDate>Sat, 11 Jul 2026 00:00:00 GMT</pubDate>
-      <category>LLMs &amp; Chatbots</category>
     </item>
   </channel>
 </rss>

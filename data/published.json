@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "teaching-feedback-classification-system-proves-resilient-across-ai-models-0b2689fa",
+      "title": "Teaching Feedback Classification System Proves Resilient Across AI Models",
+      "subtitle": "New research shows instructor evaluation frameworks remain stable even as underlying language models advance, with practical implications for educational institutions.",
+      "category": "research",
+      "publishedAt": "2026-07-13T17:56:05.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2607.11873v1",
+      "sourceName": "arXiv (Esteban U. Vega Barajas)",
+      "sourceTier": 1,
+      "image": "/images/articles/teaching-feedback-classification-system-proves-resilient-across-ai-models-0b2689fa.jpg"
+    },
+    {
+      "slug": "enterprises-must-rethink-ai-spending-as-autonomous-agents-reshape-roi-a77f9820",
+      "title": "Enterprises must rethink AI spending as autonomous agents reshape ROI",
+      "subtitle": "A framework for measuring productive output per dollar spent is becoming critical as AI systems take on independent decision-making roles.",
+      "category": "llms",
+      "publishedAt": "2026-07-14T10:00:00.000Z",
+      "sourceUrl": "https://openai.com/index/managing-ai-investments-in-agentic-era",
+      "sourceName": "OpenAI",
+      "sourceTier": 1,
+      "image": "/images/articles/enterprises-must-rethink-ai-spending-as-autonomous-agents-reshape-roi-a77f9820.jpg"
+    },
+    {
       "slug": "new-approach-teaches-robots-dexterous-skills-from-single-human-demo-19b6f147",
       "title": "New Approach Teaches Robots Dexterous Skills From Single Human Demo",
       "subtitle": "Researchers demonstrate a streamlined method for training multi-fingered robots to perform complex manipulation tasks by learning from human motion.",
@@ -7449,6 +7471,8 @@
     "47ae4e75e4982983",
     "d7a6c5dd26a9a7eb",
     "d4befd504e2060c4",
-    "19b6f1474aa4225e"
+    "19b6f1474aa4225e",
+    "a77f98202fe334e3",
+    "0b2689fa9f7c5099"
   ]
 }
