@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "researchers-challenge-black-box-video-ai-with-grounded-explanations-1dcf2288",
+      "title": "Researchers Challenge Black-Box Video AI with Grounded Explanations",
+      "subtitle": "New benchmark forces machine learning models to prove their answers by pinpointing visual evidence in video frames.",
+      "category": "research",
+      "publishedAt": "2026-07-13T17:49:10.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2607.11862v1",
+      "sourceName": "arXiv (Shijie Wang, Honglu Zhou, Ziyang Wang, Ran Xu, Caiming Xiong…)",
+      "sourceTier": 1,
+      "image": "/images/articles/researchers-challenge-black-box-video-ai-with-grounded-explanations-1dcf2288.jpg"
+    },
+    {
+      "slug": "researchers-decode-how-ai-judges-hide-bias-in-neural-networks-80b4f359",
+      "title": "Researchers Decode How AI Judges Hide Bias in Neural Networks",
+      "subtitle": "New mechanistic study reveals that language model bias operates as geometric patterns in hidden layers, enabling better detection and correction.",
+      "category": "research",
+      "publishedAt": "2026-07-13T17:55:19.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2607.11871v1",
+      "sourceName": "arXiv (Zixiang Xu, Sixian Li, Huaxing Liu, Xiang Wang, Shuai Li, Zi…)",
+      "sourceTier": 1,
+      "image": "/images/articles/researchers-decode-how-ai-judges-hide-bias-in-neural-networks-80b4f359.jpg"
+    },
+    {
       "slug": "teaching-feedback-classification-system-proves-resilient-across-ai-models-0b2689fa",
       "title": "Teaching Feedback Classification System Proves Resilient Across AI Models",
       "subtitle": "New research shows instructor evaluation frameworks remain stable even as underlying language models advance, with practical implications for educational institutions.",
@@ -7473,6 +7495,8 @@
     "d4befd504e2060c4",
     "19b6f1474aa4225e",
     "a77f98202fe334e3",
-    "0b2689fa9f7c5099"
+    "0b2689fa9f7c5099",
+    "80b4f3591485d476",
+    "1dcf2288ce54ee49"
   ]
 }

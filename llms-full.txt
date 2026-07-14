@@ -3,7 +3,7 @@
 > Machine-readable index for AI assistants, answer engines, and research crawlers.
 > Summary version: https://aiglimpse.ai/llms.txt
 
-Total articles: 622 | Evergreen explainers: 13 | Generated: 2026-07-14
+Total articles: 624 | Evergreen explainers: 13 | Generated: 2026-07-14
 
 ## Evergreen explainers
 
@@ -99,6 +99,20 @@ Total articles: 622 | Evergreen explainers: 13 | Generated: 2026-07-14
 - Type: evergreen explainer (FAQ schema on page)
 
 ## All articles (newest first)
+
+### Researchers Challenge Black-Box Video AI with Grounded Explanations
+- URL: https://aiglimpse.ai/articles/researchers-challenge-black-box-video-ai-with-grounded-explanations-1dcf2288
+- Published: 2026-07-13
+- Category: research
+- Summary: New benchmark forces machine learning models to prove their answers by pinpointing visual evidence in video frames.
+- Source: http://arxiv.org/abs/2607.11862v1
+
+### Researchers Decode How AI Judges Hide Bias in Neural Networks
+- URL: https://aiglimpse.ai/articles/researchers-decode-how-ai-judges-hide-bias-in-neural-networks-80b4f359
+- Published: 2026-07-13
+- Category: research
+- Summary: New mechanistic study reveals that language model bias operates as geometric patterns in hidden layers, enabling better detection and correction.
+- Source: http://arxiv.org/abs/2607.11871v1
 
 ### Teaching Feedback Classification System Proves Resilient Across AI Models
 - URL: https://aiglimpse.ai/articles/teaching-feedback-classification-system-proves-resilient-across-ai-models-0b2689fa

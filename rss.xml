@@ -7,6 +7,22 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Researchers Challenge Black-Box Video AI with Grounded Explanations</title>
+      <link>https://aiglimpse.ai/articles/researchers-challenge-black-box-video-ai-with-grounded-explanations-1dcf2288</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/researchers-challenge-black-box-video-ai-with-grounded-explanations-1dcf2288</guid>
+      <description>New benchmark forces machine learning models to prove their answers by pinpointing visual evidence in video frames.</description>
+      <pubDate>Mon, 13 Jul 2026 17:49:10 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
+      <title>Researchers Decode How AI Judges Hide Bias in Neural Networks</title>
+      <link>https://aiglimpse.ai/articles/researchers-decode-how-ai-judges-hide-bias-in-neural-networks-80b4f359</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/researchers-decode-how-ai-judges-hide-bias-in-neural-networks-80b4f359</guid>
+      <description>New mechanistic study reveals that language model bias operates as geometric patterns in hidden layers, enabling better detection and correction.</description>
+      <pubDate>Mon, 13 Jul 2026 17:55:19 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
       <title>Teaching Feedback Classification System Proves Resilient Across AI Models</title>
       <link>https://aiglimpse.ai/articles/teaching-feedback-classification-system-proves-resilient-across-ai-models-0b2689fa</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/teaching-feedback-classification-system-proves-resilient-across-ai-models-0b2689fa</guid>
@@ -387,22 +403,6 @@
       <link>https://aiglimpse.ai/articles/un-pivots-ai-governance-to-technical-standards-bodies-5e82dea4</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/un-pivots-ai-governance-to-technical-standards-bodies-5e82dea4</guid>
       <description>Industry groups are gaining dominance in ITU working groups where regulatory frameworks will be quietly shaped.</description>
-      <pubDate>Sat, 11 Jul 2026 00:00:00 GMT</pubDate>
-      <category>AI Business</category>
-    </item>
-    <item>
-      <title>Vision Models Fall Short in Open-Ended Creative Tasks</title>
-      <link>https://aiglimpse.ai/articles/vision-models-fall-short-in-open-ended-creative-tasks-8ce45966</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/vision-models-fall-short-in-open-ended-creative-tasks-8ce45966</guid>
-      <description>Sakana research reveals fundamental gaps in AI creativity as vision-language models struggle with sustained independent discovery.</description>
-      <pubDate>Sat, 11 Jul 2026 00:00:00 GMT</pubDate>
-      <category>AI Business</category>
-    </item>
-    <item>
-      <title>New Technique Enables Language Detection Built Into AI Tokenizers</title>
-      <link>https://aiglimpse.ai/articles/new-technique-enables-language-detection-built-into-ai-tokenizers-395a5786</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-technique-enables-language-detection-built-into-ai-tokenizers-395a5786</guid>
-      <description>Researchers demonstrate how multilingual language models can identify text languages using minimal training data and existing tokenizer infrastructure.</description>
       <pubDate>Sat, 11 Jul 2026 00:00:00 GMT</pubDate>
       <category>AI Business</category>
     </item>
