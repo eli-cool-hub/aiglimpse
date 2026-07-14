@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "new-ai-method-enables-precise-facial-edits-without-retraining-models-303106a3",
+      "title": "New AI Method Enables Precise Facial Edits Without Retraining Models",
+      "subtitle": "Researchers develop technique to manipulate identity representations in text-to-image systems, preserving consistency across multiple generated photos.",
+      "category": "research",
+      "publishedAt": "2026-07-13T17:59:49.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2607.11885v1",
+      "sourceName": "arXiv (Daniel Garibi, Ronen Kamenetsky, Hadar Averbuch-Elor, Daniel…)",
+      "sourceTier": 1,
+      "image": "/images/articles/new-ai-method-enables-precise-facial-edits-without-retraining-models-303106a3.jpg"
+    },
+    {
+      "slug": "new-method-turns-ai-image-models-into-self-improving-reward-systems-7609982a",
+      "title": "New Method Turns AI Image Models Into Self-Improving Reward Systems",
+      "subtitle": "Researchers show pretrained multimodal models can evaluate image generation without additional training, unlocking more efficient AI development.",
+      "category": "research",
+      "publishedAt": "2026-07-13T17:59:58.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2607.11886v1",
+      "sourceName": "arXiv (Runhui Huang, Qihui Zhang, Zhe Liu, Yu Gao, Jie Wu, Hengshua…)",
+      "sourceTier": 1,
+      "image": "/images/articles/new-method-turns-ai-image-models-into-self-improving-reward-systems-7609982a.jpg"
+    },
+    {
       "slug": "proprietary-ai-models-threaten-scientific-reproducibility-449143d5",
       "title": "Proprietary AI Models Threaten Scientific Reproducibility",
       "subtitle": "Researchers warn that relying on closed LLMs for published findings risks invalidation when vendors push updates without notice.",
@@ -7353,6 +7375,8 @@
     "48c228852f8f2c4f",
     "ffb4dd3f8997d36f",
     "c610218e4df0f89e",
-    "449143d55f0d35a5"
+    "449143d55f0d35a5",
+    "7609982aa7b5e5ef",
+    "303106a3a909f85c"
   ]
 }

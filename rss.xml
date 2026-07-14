@@ -7,6 +7,22 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>New AI Method Enables Precise Facial Edits Without Retraining Models</title>
+      <link>https://aiglimpse.ai/articles/new-ai-method-enables-precise-facial-edits-without-retraining-models-303106a3</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-ai-method-enables-precise-facial-edits-without-retraining-models-303106a3</guid>
+      <description>Researchers develop technique to manipulate identity representations in text-to-image systems, preserving consistency across multiple generated photos.</description>
+      <pubDate>Mon, 13 Jul 2026 17:59:49 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
+      <title>New Method Turns AI Image Models Into Self-Improving Reward Systems</title>
+      <link>https://aiglimpse.ai/articles/new-method-turns-ai-image-models-into-self-improving-reward-systems-7609982a</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-method-turns-ai-image-models-into-self-improving-reward-systems-7609982a</guid>
+      <description>Researchers show pretrained multimodal models can evaluate image generation without additional training, unlocking more efficient AI development.</description>
+      <pubDate>Mon, 13 Jul 2026 17:59:58 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
       <title>Proprietary AI Models Threaten Scientific Reproducibility</title>
       <link>https://aiglimpse.ai/articles/proprietary-ai-models-threaten-scientific-reproducibility-449143d5</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/proprietary-ai-models-threaten-scientific-reproducibility-449143d5</guid>
@@ -388,22 +404,6 @@
       <guid isPermaLink="true">https://aiglimpse.ai/articles/researchers-teach-ai-video-models-to-reason-through-sequential-frames-8b70cf9b</guid>
       <description>New dataset and fine-tuned model demonstrate that temporal reasoning improves how AI systems solve complex logical tasks through generated video.</description>
       <pubDate>Thu, 09 Jul 2026 17:58:29 GMT</pubDate>
-      <category>AI Research</category>
-    </item>
-    <item>
-      <title>Apple's Trade Secret Lawsuit Threatens OpenAI Partnership</title>
-      <link>https://aiglimpse.ai/articles/apples-trade-secret-lawsuit-threatens-openai-partnership-febc1d1b</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/apples-trade-secret-lawsuit-threatens-openai-partnership-febc1d1b</guid>
-      <description>A major intellectual property dispute could disrupt Apple Intelligence rollout and force tech leaders to reconsider their AI strategy.</description>
-      <pubDate>Sat, 11 Jul 2026 00:00:00 GMT</pubDate>
-      <category>AI Business</category>
-    </item>
-    <item>
-      <title>Researchers Develop Framework for High-Fidelity 360-Degree Image Generation</title>
-      <link>https://aiglimpse.ai/articles/researchers-develop-framework-for-high-fidelity-360-degree-image-generation-45b48a10</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/researchers-develop-framework-for-high-fidelity-360-degree-image-generation-45b48a10</guid>
-      <description>A new two-stage AI model tackles the challenge of creating coherent panoramic images through geometry-aware training and a custom dataset of 1 million samples.</description>
-      <pubDate>Thu, 09 Jul 2026 17:59:06 GMT</pubDate>
       <category>AI Research</category>
     </item>
   </channel>

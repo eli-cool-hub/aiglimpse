@@ -3,7 +3,7 @@
 > Machine-readable index for AI assistants, answer engines, and research crawlers.
 > Summary version: https://aiglimpse.ai/llms.txt
 
-Total articles: 612 | Evergreen explainers: 13 | Generated: 2026-07-14
+Total articles: 614 | Evergreen explainers: 13 | Generated: 2026-07-14
 
 ## Evergreen explainers
 
@@ -99,6 +99,20 @@ Total articles: 612 | Evergreen explainers: 13 | Generated: 2026-07-14
 - Type: evergreen explainer (FAQ schema on page)
 
 ## All articles (newest first)
+
+### New AI Method Enables Precise Facial Edits Without Retraining Models
+- URL: https://aiglimpse.ai/articles/new-ai-method-enables-precise-facial-edits-without-retraining-models-303106a3
+- Published: 2026-07-13
+- Category: research
+- Summary: Researchers develop technique to manipulate identity representations in text-to-image systems, preserving consistency across multiple generated photos.
+- Source: http://arxiv.org/abs/2607.11885v1
+
+### New Method Turns AI Image Models Into Self-Improving Reward Systems
+- URL: https://aiglimpse.ai/articles/new-method-turns-ai-image-models-into-self-improving-reward-systems-7609982a
+- Published: 2026-07-13
+- Category: research
+- Summary: Researchers show pretrained multimodal models can evaluate image generation without additional training, unlocking more efficient AI development.
+- Source: http://arxiv.org/abs/2607.11886v1
 
 ### Proprietary AI Models Threaten Scientific Reproducibility
 - URL: https://aiglimpse.ai/articles/proprietary-ai-models-threaten-scientific-reproducibility-449143d5
