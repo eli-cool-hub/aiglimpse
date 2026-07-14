@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "healthcare-denial-rates-rise-despite-two-decades-of-automation-investment-5f40f513",
+      "title": "Healthcare Denial Rates Rise Despite Two Decades of Automation Investment",
+      "subtitle": "As routine tasks get automated, providers discover the real bottleneck lies in judgment-based work where AI agents are now stepping in.",
+      "category": "industry",
+      "publishedAt": "2026-07-14T21:00:39.000Z",
+      "sourceUrl": "https://www.beckershospitalreview.com/finance/revenue-cycle-management/automation-paid-off-so-why-are-denials-still-rising/",
+      "sourceName": "Becker's Hospital Review",
+      "sourceTier": 2,
+      "image": "/images/articles/healthcare-denial-rates-rise-despite-two-decades-of-automation-investment-5f40f513.jpg"
+    },
+    {
+      "slug": "new-benchmark-exposes-limits-of-ai-in-advanced-mathematics-3d27d86c",
+      "title": "New Benchmark Exposes Limits of AI in Advanced Mathematics",
+      "subtitle": "Researchers reveal that even leading language models struggle with doctoral-level proofs, achieving under 75% accuracy on complex mathematical reasoning.",
+      "category": "research",
+      "publishedAt": "2026-07-13T17:38:22.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2607.11849v1",
+      "sourceName": "arXiv (Lingkai Kong, Zijian Wu, Yuzhe Gu, Haiteng Zhao, Wenyong Hua…)",
+      "sourceTier": 1,
+      "image": "/images/articles/new-benchmark-exposes-limits-of-ai-in-advanced-mathematics-3d27d86c.jpg"
+    },
+    {
       "slug": "researchers-challenge-black-box-video-ai-with-grounded-explanations-1dcf2288",
       "title": "Researchers Challenge Black-Box Video AI with Grounded Explanations",
       "subtitle": "New benchmark forces machine learning models to prove their answers by pinpointing visual evidence in video frames.",
@@ -7497,6 +7519,8 @@
     "a77f98202fe334e3",
     "0b2689fa9f7c5099",
     "80b4f3591485d476",
-    "1dcf2288ce54ee49"
+    "1dcf2288ce54ee49",
+    "3d27d86c33e44dbc",
+    "5f40f513170ecfe6"
   ]
 }
