@@ -7,6 +7,22 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Researchers Map the Emerging Frontier of Machine Self-Awareness</title>
+      <link>https://aiglimpse.ai/articles/researchers-map-the-emerging-frontier-of-machine-self-awareness-ce0187ac</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/researchers-map-the-emerging-frontier-of-machine-self-awareness-ce0187ac</guid>
+      <description>A new survey reveals how large language models can develop metacognitive abilities to become more reliable and trustworthy.</description>
+      <pubDate>Mon, 13 Jul 2026 17:58:37 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
+      <title>New Compression Method Reveals How AI Models Actually Store Knowledge</title>
+      <link>https://aiglimpse.ai/articles/new-compression-method-reveals-how-ai-models-actually-store-knowledge-ad779af0</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-compression-method-reveals-how-ai-models-actually-store-knowledge-ad779af0</guid>
+      <description>Requential coding technique generates dramatically shorter representations of neural networks, offering fresh insights into model generalization and learning efficiency.</description>
+      <pubDate>Mon, 13 Jul 2026 17:58:50 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
       <title>New AI Method Enables Precise Facial Edits Without Retraining Models</title>
       <link>https://aiglimpse.ai/articles/new-ai-method-enables-precise-facial-edits-without-retraining-models-303106a3</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/new-ai-method-enables-precise-facial-edits-without-retraining-models-303106a3</guid>
@@ -389,22 +405,6 @@
       <description>Military targeting systems highlight critical gaps between stated oversight practices and actual implementation in high-stakes AI deployments.</description>
       <pubDate>Sat, 11 Jul 2026 00:00:00 GMT</pubDate>
       <category>AI Business</category>
-    </item>
-    <item>
-      <title>New Benchmark Reveals AI's Struggle With Scientific Lineage Reasoning</title>
-      <link>https://aiglimpse.ai/articles/new-benchmark-reveals-ais-struggle-with-scientific-lineage-reasoning-526094fe</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-benchmark-reveals-ais-struggle-with-scientific-lineage-reasoning-526094fe</guid>
-      <description>Researchers introduce IdeaGene-Bench to test whether large language models can trace intellectual inheritance in scientific work.</description>
-      <pubDate>Thu, 09 Jul 2026 17:55:53 GMT</pubDate>
-      <category>AI Research</category>
-    </item>
-    <item>
-      <title>Researchers Teach AI Video Models to Reason Through Sequential Frames</title>
-      <link>https://aiglimpse.ai/articles/researchers-teach-ai-video-models-to-reason-through-sequential-frames-8b70cf9b</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/researchers-teach-ai-video-models-to-reason-through-sequential-frames-8b70cf9b</guid>
-      <description>New dataset and fine-tuned model demonstrate that temporal reasoning improves how AI systems solve complex logical tasks through generated video.</description>
-      <pubDate>Thu, 09 Jul 2026 17:58:29 GMT</pubDate>
-      <category>AI Research</category>
     </item>
   </channel>
 </rss>

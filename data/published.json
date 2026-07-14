@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "researchers-map-the-emerging-frontier-of-machine-self-awareness-ce0187ac",
+      "title": "Researchers Map the Emerging Frontier of Machine Self-Awareness",
+      "subtitle": "A new survey reveals how large language models can develop metacognitive abilities to become more reliable and trustworthy.",
+      "category": "research",
+      "publishedAt": "2026-07-13T17:58:37.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2607.11881v1",
+      "sourceName": "arXiv (Gabrielle Kaili-May Liu, Areeb Gani, Jacqueline Lu, Jordan T…)",
+      "sourceTier": 1,
+      "image": "/images/articles/researchers-map-the-emerging-frontier-of-machine-self-awareness-ce0187ac.jpg"
+    },
+    {
+      "slug": "new-compression-method-reveals-how-ai-models-actually-store-knowledge-ad779af0",
+      "title": "New Compression Method Reveals How AI Models Actually Store Knowledge",
+      "subtitle": "Requential coding technique generates dramatically shorter representations of neural networks, offering fresh insights into model generalization and learning efficiency.",
+      "category": "research",
+      "publishedAt": "2026-07-13T17:58:50.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2607.11883v1",
+      "sourceName": "arXiv (Shikai Qiu, Marc Finzi, Yujia Zheng, Kun Zhang, Andrew Gordo…)",
+      "sourceTier": 1,
+      "image": "/images/articles/new-compression-method-reveals-how-ai-models-actually-store-knowledge-ad779af0.jpg"
+    },
+    {
       "slug": "new-ai-method-enables-precise-facial-edits-without-retraining-models-303106a3",
       "title": "New AI Method Enables Precise Facial Edits Without Retraining Models",
       "subtitle": "Researchers develop technique to manipulate identity representations in text-to-image systems, preserving consistency across multiple generated photos.",
@@ -7377,6 +7399,8 @@
     "c610218e4df0f89e",
     "449143d55f0d35a5",
     "7609982aa7b5e5ef",
-    "303106a3a909f85c"
+    "303106a3a909f85c",
+    "ad779af0b71f9938",
+    "ce0187acc5db0c71"
   ]
 }
