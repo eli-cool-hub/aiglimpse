@@ -3,7 +3,7 @@
 > Machine-readable index for AI assistants, answer engines, and research crawlers.
 > Summary version: https://aiglimpse.ai/llms.txt
 
-Total articles: 616 | Evergreen explainers: 13 | Generated: 2026-07-14
+Total articles: 618 | Evergreen explainers: 13 | Generated: 2026-07-14
 
 ## Evergreen explainers
 
@@ -99,6 +99,20 @@ Total articles: 616 | Evergreen explainers: 13 | Generated: 2026-07-14
 - Type: evergreen explainer (FAQ schema on page)
 
 ## All articles (newest first)
+
+### Researchers Map Hidden Geometry Underlying Transformer Reasoning
+- URL: https://aiglimpse.ai/articles/researchers-map-hidden-geometry-underlying-transformer-reasoning-d7a6c5dd
+- Published: 2026-07-13
+- Category: research
+- Summary: New theoretical framework reveals how language models learn to reason, reducing millions of parameters to interpretable low-dimensional dynamics.
+- Source: http://arxiv.org/abs/2607.11875v1
+
+### Data Teams Leverage ChatGPT to Automate Analysis and Reporting
+- URL: https://aiglimpse.ai/articles/data-teams-leverage-chatgpt-to-automate-analysis-and-reporting-47ae4e75
+- Published: 2026-07-14
+- Category: llms
+- Summary: OpenAI's enterprise tool enables analytics professionals to generate insights and documentation at scale, reshaping how companies process business data.
+- Source: https://openai.com/academy/codex-for-work/how-data-science-teams-use-codex
 
 ### Researchers Map the Emerging Frontier of Machine Self-Awareness
 - URL: https://aiglimpse.ai/articles/researchers-map-the-emerging-frontier-of-machine-self-awareness-ce0187ac

@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "researchers-map-hidden-geometry-underlying-transformer-reasoning-d7a6c5dd",
+      "title": "Researchers Map Hidden Geometry Underlying Transformer Reasoning",
+      "subtitle": "New theoretical framework reveals how language models learn to reason, reducing millions of parameters to interpretable low-dimensional dynamics.",
+      "category": "research",
+      "publishedAt": "2026-07-13T17:56:11.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2607.11875v1",
+      "sourceName": "arXiv (Tiberiu Musat, Tiago Pimentel, Nicholas Zucchet, Thomas Hofm…)",
+      "sourceTier": 1,
+      "image": "/images/articles/researchers-map-hidden-geometry-underlying-transformer-reasoning-d7a6c5dd.jpg"
+    },
+    {
+      "slug": "data-teams-leverage-chatgpt-to-automate-analysis-and-reporting-47ae4e75",
+      "title": "Data Teams Leverage ChatGPT to Automate Analysis and Reporting",
+      "subtitle": "OpenAI's enterprise tool enables analytics professionals to generate insights and documentation at scale, reshaping how companies process business data.",
+      "category": "llms",
+      "publishedAt": "2026-07-14T00:00:00.000Z",
+      "sourceUrl": "https://openai.com/academy/codex-for-work/how-data-science-teams-use-codex",
+      "sourceName": "OpenAI",
+      "sourceTier": 1,
+      "image": "/images/articles/data-teams-leverage-chatgpt-to-automate-analysis-and-reporting-47ae4e75.jpg"
+    },
+    {
       "slug": "researchers-map-the-emerging-frontier-of-machine-self-awareness-ce0187ac",
       "title": "Researchers Map the Emerging Frontier of Machine Self-Awareness",
       "subtitle": "A new survey reveals how large language models can develop metacognitive abilities to become more reliable and trustworthy.",
@@ -7401,6 +7423,8 @@
     "7609982aa7b5e5ef",
     "303106a3a909f85c",
     "ad779af0b71f9938",
-    "ce0187acc5db0c71"
+    "ce0187acc5db0c71",
+    "47ae4e75e4982983",
+    "d7a6c5dd26a9a7eb"
   ]
 }

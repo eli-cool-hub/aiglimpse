@@ -7,6 +7,22 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Researchers Map Hidden Geometry Underlying Transformer Reasoning</title>
+      <link>https://aiglimpse.ai/articles/researchers-map-hidden-geometry-underlying-transformer-reasoning-d7a6c5dd</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/researchers-map-hidden-geometry-underlying-transformer-reasoning-d7a6c5dd</guid>
+      <description>New theoretical framework reveals how language models learn to reason, reducing millions of parameters to interpretable low-dimensional dynamics.</description>
+      <pubDate>Mon, 13 Jul 2026 17:56:11 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
+      <title>Data Teams Leverage ChatGPT to Automate Analysis and Reporting</title>
+      <link>https://aiglimpse.ai/articles/data-teams-leverage-chatgpt-to-automate-analysis-and-reporting-47ae4e75</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/data-teams-leverage-chatgpt-to-automate-analysis-and-reporting-47ae4e75</guid>
+      <description>OpenAI's enterprise tool enables analytics professionals to generate insights and documentation at scale, reshaping how companies process business data.</description>
+      <pubDate>Tue, 14 Jul 2026 00:00:00 GMT</pubDate>
+      <category>LLMs &amp; Chatbots</category>
+    </item>
+    <item>
       <title>Researchers Map the Emerging Frontier of Machine Self-Awareness</title>
       <link>https://aiglimpse.ai/articles/researchers-map-the-emerging-frontier-of-machine-self-awareness-ce0187ac</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/researchers-map-the-emerging-frontier-of-machine-self-awareness-ce0187ac</guid>
@@ -388,22 +404,6 @@
       <guid isPermaLink="true">https://aiglimpse.ai/articles/openai-expands-chatgpt-focus-to-family-users-and-elderly-adults-14e06648</guid>
       <description>The AI company is hiring specialized talent to build household-centered features, signaling a strategic pivot beyond enterprise and power users.</description>
       <pubDate>Sat, 11 Jul 2026 14:13:00 GMT</pubDate>
-      <category>AI Business</category>
-    </item>
-    <item>
-      <title>Researchers Uncover Hidden Instability in Diffusion Model Training</title>
-      <link>https://aiglimpse.ai/articles/researchers-uncover-hidden-instability-in-diffusion-model-training-0970ac02</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/researchers-uncover-hidden-instability-in-diffusion-model-training-0970ac02</guid>
-      <description>New study reveals that standard accuracy metrics for AI image generation systems fail to catch critical numerical failures during sampling.</description>
-      <pubDate>Thu, 09 Jul 2026 17:55:52 GMT</pubDate>
-      <category>AI Research</category>
-    </item>
-    <item>
-      <title>Twenty-Second Reviews Expose Limits of 'Human in the Loop' AI</title>
-      <link>https://aiglimpse.ai/articles/twenty-second-reviews-expose-limits-of-human-in-the-loop-ai-8b126088</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/twenty-second-reviews-expose-limits-of-human-in-the-loop-ai-8b126088</guid>
-      <description>Military targeting systems highlight critical gaps between stated oversight practices and actual implementation in high-stakes AI deployments.</description>
-      <pubDate>Sat, 11 Jul 2026 00:00:00 GMT</pubDate>
       <category>AI Business</category>
     </item>
   </channel>
