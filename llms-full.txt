@@ -3,7 +3,7 @@
 > Machine-readable index for AI assistants, answer engines, and research crawlers.
 > Summary version: https://aiglimpse.ai/llms.txt
 
-Total articles: 640 | Evergreen explainers: 14 | Generated: 2026-07-15
+Total articles: 642 | Evergreen explainers: 14 | Generated: 2026-07-15
 
 ## Evergreen explainers
 
@@ -106,6 +106,20 @@ Total articles: 640 | Evergreen explainers: 14 | Generated: 2026-07-15
 - Type: evergreen explainer (FAQ schema on page)
 
 ## All articles (newest first)
+
+### New AI Model Skips Turbulence Simulation Startup Phase
+- URL: https://aiglimpse.ai/articles/new-ai-model-skips-turbulence-simulation-startup-phase-59b8cdff
+- Published: 2026-07-14
+- Category: research
+- Summary: Researchers use generative AI to predict final turbulent states directly, bypassing costly computational warmup periods.
+- Source: http://arxiv.org/abs/2607.13022v1
+
+### What Developers Learn Building Autonomous AI Agents
+- URL: https://aiglimpse.ai/articles/what-developers-learn-building-autonomous-ai-agents-0c1f0a5f
+- Published: 2026-07-15
+- Category: tools
+- Summary: Allen Institute's Shippy project reveals critical insights into designing agents that can execute complex tasks independently.
+- Source: https://huggingface.co/blog/allenai/shippy-tech-blog
 
 ### New Framework Lets AI Agents Run Directly on Smartphones
 - URL: https://aiglimpse.ai/articles/new-framework-lets-ai-agents-run-directly-on-smartphones-c3501651

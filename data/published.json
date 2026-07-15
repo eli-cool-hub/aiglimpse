@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "new-ai-model-skips-turbulence-simulation-startup-phase-59b8cdff",
+      "title": "New AI Model Skips Turbulence Simulation Startup Phase",
+      "subtitle": "Researchers use generative AI to predict final turbulent states directly, bypassing costly computational warmup periods.",
+      "category": "research",
+      "publishedAt": "2026-07-14T17:58:13.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2607.13022v1",
+      "sourceName": "arXiv (Gianluca Galletti, Gerald Gutenbrunner, William Hornsby, Lor…)",
+      "sourceTier": 1,
+      "image": "/images/articles/new-ai-model-skips-turbulence-simulation-startup-phase-59b8cdff.svg"
+    },
+    {
+      "slug": "what-developers-learn-building-autonomous-ai-agents-0c1f0a5f",
+      "title": "What Developers Learn Building Autonomous AI Agents",
+      "subtitle": "Allen Institute's Shippy project reveals critical insights into designing agents that can execute complex tasks independently.",
+      "category": "tools",
+      "publishedAt": "2026-07-15T17:29:41.000Z",
+      "sourceUrl": "https://huggingface.co/blog/allenai/shippy-tech-blog",
+      "sourceName": "Hugging Face",
+      "sourceTier": 1,
+      "image": "/images/articles/what-developers-learn-building-autonomous-ai-agents-0c1f0a5f.jpg"
+    },
+    {
       "slug": "new-framework-lets-ai-agents-run-directly-on-smartphones-c3501651",
       "title": "New Framework Lets AI Agents Run Directly on Smartphones",
       "subtitle": "PalmClaw enables mobile devices to execute complex tasks autonomously while keeping computational overhead minimal.",
@@ -7689,6 +7711,8 @@
     "f7f882a401c2be4b",
     "ab0deb03ce906f84",
     "504bd3386af57d67",
-    "c350165118ac6d52"
+    "c350165118ac6d52",
+    "0c1f0a5fda80cfc0",
+    "59b8cdff6de379dd"
   ]
 }

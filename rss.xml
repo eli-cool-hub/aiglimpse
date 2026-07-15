@@ -7,6 +7,22 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>New AI Model Skips Turbulence Simulation Startup Phase</title>
+      <link>https://aiglimpse.ai/articles/new-ai-model-skips-turbulence-simulation-startup-phase-59b8cdff</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-ai-model-skips-turbulence-simulation-startup-phase-59b8cdff</guid>
+      <description>Researchers use generative AI to predict final turbulent states directly, bypassing costly computational warmup periods.</description>
+      <pubDate>Tue, 14 Jul 2026 17:58:13 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
+      <title>What Developers Learn Building Autonomous AI Agents</title>
+      <link>https://aiglimpse.ai/articles/what-developers-learn-building-autonomous-ai-agents-0c1f0a5f</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/what-developers-learn-building-autonomous-ai-agents-0c1f0a5f</guid>
+      <description>Allen Institute's Shippy project reveals critical insights into designing agents that can execute complex tasks independently.</description>
+      <pubDate>Wed, 15 Jul 2026 17:29:41 GMT</pubDate>
+      <category>AI Tools &amp; Products</category>
+    </item>
+    <item>
       <title>New Framework Lets AI Agents Run Directly on Smartphones</title>
       <link>https://aiglimpse.ai/articles/new-framework-lets-ai-agents-run-directly-on-smartphones-c3501651</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/new-framework-lets-ai-agents-run-directly-on-smartphones-c3501651</guid>
@@ -388,22 +404,6 @@
       <guid isPermaLink="true">https://aiglimpse.ai/articles/the-llm-reality-check-why-hype-obscures-genuine-ai-progress-6ee84c7b</guid>
       <description>A developer's candid take on separating transformative language model capabilities from industry overselling.</description>
       <pubDate>Sun, 12 Jul 2026 18:31:56 GMT</pubDate>
-      <category>AI Research</category>
-    </item>
-    <item>
-      <title>Apple's M7 Ultra to Offer 1.5TB Memory for On-Device AI Workloads</title>
-      <link>https://aiglimpse.ai/articles/apples-m7-ultra-to-offer-15tb-memory-for-on-device-ai-workloads-759e98a9</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/apples-m7-ultra-to-offer-15tb-memory-for-on-device-ai-workloads-759e98a9</guid>
-      <description>The chip giant is building massive unified memory into future Macs, targeting local large language model inference but facing a years-long delay that favors cloud competitors.</description>
-      <pubDate>Sun, 12 Jul 2026 00:00:00 GMT</pubDate>
-      <category>AI Business</category>
-    </item>
-    <item>
-      <title>Claude Code Consumes Five Times More Tokens Than OpenCode</title>
-      <link>https://aiglimpse.ai/articles/claude-code-consumes-five-times-more-tokens-than-opencode-dbe705c2</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/claude-code-consumes-five-times-more-tokens-than-opencode-dbe705c2</guid>
-      <description>New analysis reveals significant efficiency gaps in how leading AI coding assistants handle cache and system prompts.</description>
-      <pubDate>Sun, 12 Jul 2026 18:25:51 GMT</pubDate>
       <category>AI Research</category>
     </item>
   </channel>
