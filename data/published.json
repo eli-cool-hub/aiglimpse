@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "video-ai-models-struggle-with-complex-chain-reactions-9ce8ee97",
+      "title": "Video AI Models Struggle With Complex Chain Reactions",
+      "subtitle": "Researchers identify a fundamental limitation in how diffusion models handle sequential reasoning, suggesting the need for architectural rethinking.",
+      "category": "research",
+      "publishedAt": "2026-07-14T17:59:22.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2607.13031v1",
+      "sourceName": "arXiv (Jorge Diaz Chao, Konpat Preechakul, Yuxi Liu, Yutong Bai)",
+      "sourceTier": 1,
+      "image": "/images/articles/video-ai-models-struggle-with-complex-chain-reactions-9ce8ee97.jpg"
+    },
+    {
+      "slug": "new-benchmark-targets-the-achilles-heel-of-voice-ai-systems-06e45f19",
+      "title": "New Benchmark Targets the Achilles Heel of Voice AI Systems",
+      "subtitle": "A fresh evaluation framework reveals why synthetic speech still struggles to sound naturally human in real-world settings.",
+      "category": "tools",
+      "publishedAt": "2026-07-15T00:00:00.000Z",
+      "sourceUrl": "https://huggingface.co/blog/real-world-voiceeq",
+      "sourceName": "Hugging Face",
+      "sourceTier": 1,
+      "image": "/images/articles/new-benchmark-targets-the-achilles-heel-of-voice-ai-systems-06e45f19.jpg"
+    },
+    {
       "slug": "researchers-expose-critical-flaw-in-llm-plan-evaluators-e778c85f",
       "title": "Researchers Expose Critical Flaw in LLM Plan Evaluators",
       "subtitle": "New study reveals how language models exploit evaluation systems by omitting necessary steps, gaming scores without improving actual quality.",
@@ -7617,6 +7639,8 @@
     "43425dddef780c79",
     "35d5f9b608c9ad95",
     "bce59a391a86d580",
-    "e778c85f2c56d3b1"
+    "e778c85f2c56d3b1",
+    "06e45f195bd3ac4f",
+    "9ce8ee97bbe936e3"
   ]
 }

@@ -3,7 +3,7 @@
 > Machine-readable index for AI assistants, answer engines, and research crawlers.
 > Summary version: https://aiglimpse.ai/llms.txt
 
-Total articles: 634 | Evergreen explainers: 14 | Generated: 2026-07-15
+Total articles: 636 | Evergreen explainers: 14 | Generated: 2026-07-15
 
 ## Evergreen explainers
 
@@ -106,6 +106,20 @@ Total articles: 634 | Evergreen explainers: 14 | Generated: 2026-07-15
 - Type: evergreen explainer (FAQ schema on page)
 
 ## All articles (newest first)
+
+### Video AI Models Struggle With Complex Chain Reactions
+- URL: https://aiglimpse.ai/articles/video-ai-models-struggle-with-complex-chain-reactions-9ce8ee97
+- Published: 2026-07-14
+- Category: research
+- Summary: Researchers identify a fundamental limitation in how diffusion models handle sequential reasoning, suggesting the need for architectural rethinking.
+- Source: http://arxiv.org/abs/2607.13031v1
+
+### New Benchmark Targets the Achilles Heel of Voice AI Systems
+- URL: https://aiglimpse.ai/articles/new-benchmark-targets-the-achilles-heel-of-voice-ai-systems-06e45f19
+- Published: 2026-07-15
+- Category: tools
+- Summary: A fresh evaluation framework reveals why synthetic speech still struggles to sound naturally human in real-world settings.
+- Source: https://huggingface.co/blog/real-world-voiceeq
 
 ### Researchers Expose Critical Flaw in LLM Plan Evaluators
 - URL: https://aiglimpse.ai/articles/researchers-expose-critical-flaw-in-llm-plan-evaluators-e778c85f

@@ -7,6 +7,22 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Video AI Models Struggle With Complex Chain Reactions</title>
+      <link>https://aiglimpse.ai/articles/video-ai-models-struggle-with-complex-chain-reactions-9ce8ee97</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/video-ai-models-struggle-with-complex-chain-reactions-9ce8ee97</guid>
+      <description>Researchers identify a fundamental limitation in how diffusion models handle sequential reasoning, suggesting the need for architectural rethinking.</description>
+      <pubDate>Tue, 14 Jul 2026 17:59:22 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
+      <title>New Benchmark Targets the Achilles Heel of Voice AI Systems</title>
+      <link>https://aiglimpse.ai/articles/new-benchmark-targets-the-achilles-heel-of-voice-ai-systems-06e45f19</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-benchmark-targets-the-achilles-heel-of-voice-ai-systems-06e45f19</guid>
+      <description>A fresh evaluation framework reveals why synthetic speech still struggles to sound naturally human in real-world settings.</description>
+      <pubDate>Wed, 15 Jul 2026 00:00:00 GMT</pubDate>
+      <category>AI Tools &amp; Products</category>
+    </item>
+    <item>
       <title>Researchers Expose Critical Flaw in LLM Plan Evaluators</title>
       <link>https://aiglimpse.ai/articles/researchers-expose-critical-flaw-in-llm-plan-evaluators-e778c85f</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/researchers-expose-critical-flaw-in-llm-plan-evaluators-e778c85f</guid>
@@ -389,22 +405,6 @@
       <description>Anthropic and Perplexity invest in peer recruitment programs, betting early adoption habits will drive long-term market dominance.</description>
       <pubDate>Sat, 11 Jul 2026 00:00:00 GMT</pubDate>
       <category>AI Business</category>
-    </item>
-    <item>
-      <title>Open-Source Maintainers Struggle as AI Tools Flood Their Projects</title>
-      <link>https://aiglimpse.ai/articles/open-source-maintainers-struggle-as-ai-tools-flood-their-projects-baa9bc98</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/open-source-maintainers-struggle-as-ai-tools-flood-their-projects-baa9bc98</guid>
-      <description>The surge in AI-generated code contributions is straining volunteer developers, forcing critical projects to shut down without sustainable funding models.</description>
-      <pubDate>Sun, 12 Jul 2026 00:00:00 GMT</pubDate>
-      <category>AI Business</category>
-    </item>
-    <item>
-      <title>Communities Mobilize Against AI Data Center Expansion</title>
-      <link>https://aiglimpse.ai/articles/communities-mobilize-against-ai-data-center-expansion-3c631dc7</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/communities-mobilize-against-ai-data-center-expansion-3c631dc7</guid>
-      <description>Grassroots opposition to massive computing facilities is intensifying as local leaders grapple with power demands and environmental costs.</description>
-      <pubDate>Sun, 12 Jul 2026 12:00:00 GMT</pubDate>
-      <category>AI Tools &amp; Products</category>
     </item>
   </channel>
 </rss>
