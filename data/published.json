@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "the-hidden-complexity-of-routing-requests-across-multiple-ai-models-fef9e267",
+      "title": "The Hidden Complexity of Routing Requests Across Multiple AI Models",
+      "subtitle": "What seems like a straightforward engineering problem becomes a minefield of tradeoffs when deploying multiple specialized language models in production.",
+      "category": "tools",
+      "publishedAt": "2026-07-15T17:27:01.000Z",
+      "sourceUrl": "https://huggingface.co/blog/ibm-research/model-routing-is-simple-until-it-isnt",
+      "sourceName": "Hugging Face",
+      "sourceTier": 1,
+      "image": "/images/articles/the-hidden-complexity-of-routing-requests-across-multiple-ai-models-fef9e267.jpg"
+    },
+    {
       "slug": "new-ai-model-skips-turbulence-simulation-startup-phase-59b8cdff",
       "title": "New AI Model Skips Turbulence Simulation Startup Phase",
       "subtitle": "Researchers use generative AI to predict final turbulent states directly, bypassing costly computational warmup periods.",
@@ -7713,6 +7724,7 @@
     "504bd3386af57d67",
     "c350165118ac6d52",
     "0c1f0a5fda80cfc0",
-    "59b8cdff6de379dd"
+    "59b8cdff6de379dd",
+    "fef9e26748340199"
   ]
 }

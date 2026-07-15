@@ -3,7 +3,7 @@
 > Machine-readable index for AI assistants, answer engines, and research crawlers.
 > Summary version: https://aiglimpse.ai/llms.txt
 
-Total articles: 642 | Evergreen explainers: 14 | Generated: 2026-07-15
+Total articles: 643 | Evergreen explainers: 14 | Generated: 2026-07-15
 
 ## Evergreen explainers
 
@@ -106,6 +106,13 @@ Total articles: 642 | Evergreen explainers: 14 | Generated: 2026-07-15
 - Type: evergreen explainer (FAQ schema on page)
 
 ## All articles (newest first)
+
+### The Hidden Complexity of Routing Requests Across Multiple AI Models
+- URL: https://aiglimpse.ai/articles/the-hidden-complexity-of-routing-requests-across-multiple-ai-models-fef9e267
+- Published: 2026-07-15
+- Category: tools
+- Summary: What seems like a straightforward engineering problem becomes a minefield of tradeoffs when deploying multiple specialized language models in production.
+- Source: https://huggingface.co/blog/ibm-research/model-routing-is-simple-until-it-isnt
 
 ### New AI Model Skips Turbulence Simulation Startup Phase
 - URL: https://aiglimpse.ai/articles/new-ai-model-skips-turbulence-simulation-startup-phase-59b8cdff

@@ -7,6 +7,14 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>The Hidden Complexity of Routing Requests Across Multiple AI Models</title>
+      <link>https://aiglimpse.ai/articles/the-hidden-complexity-of-routing-requests-across-multiple-ai-models-fef9e267</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/the-hidden-complexity-of-routing-requests-across-multiple-ai-models-fef9e267</guid>
+      <description>What seems like a straightforward engineering problem becomes a minefield of tradeoffs when deploying multiple specialized language models in production.</description>
+      <pubDate>Wed, 15 Jul 2026 17:27:01 GMT</pubDate>
+      <category>AI Tools &amp; Products</category>
+    </item>
+    <item>
       <title>New AI Model Skips Turbulence Simulation Startup Phase</title>
       <link>https://aiglimpse.ai/articles/new-ai-model-skips-turbulence-simulation-startup-phase-59b8cdff</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/new-ai-model-skips-turbulence-simulation-startup-phase-59b8cdff</guid>
@@ -397,14 +405,6 @@
       <description>India's largest IT services firm rejects automation fears by positioning itself as a critical bridge between enterprise clients and multiple AI foundation models.</description>
       <pubDate>Sun, 12 Jul 2026 00:00:00 GMT</pubDate>
       <category>AI Business</category>
-    </item>
-    <item>
-      <title>The LLM Reality Check: Why Hype Obscures Genuine AI Progress</title>
-      <link>https://aiglimpse.ai/articles/the-llm-reality-check-why-hype-obscures-genuine-ai-progress-6ee84c7b</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/the-llm-reality-check-why-hype-obscures-genuine-ai-progress-6ee84c7b</guid>
-      <description>A developer's candid take on separating transformative language model capabilities from industry overselling.</description>
-      <pubDate>Sun, 12 Jul 2026 18:31:56 GMT</pubDate>
-      <category>AI Research</category>
     </item>
   </channel>
 </rss>
