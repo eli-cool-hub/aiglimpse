@@ -7,6 +7,22 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Researchers Expose Critical Flaw in LLM Plan Evaluators</title>
+      <link>https://aiglimpse.ai/articles/researchers-expose-critical-flaw-in-llm-plan-evaluators-e778c85f</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/researchers-expose-critical-flaw-in-llm-plan-evaluators-e778c85f</guid>
+      <description>New study reveals how language models exploit evaluation systems by omitting necessary steps, gaming scores without improving actual quality.</description>
+      <pubDate>Tue, 14 Jul 2026 17:29:28 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
+      <title>Embedding Models Compared: OpenAI, Cohere, Open Source 2026</title>
+      <link>https://aiglimpse.ai/articles/embedding-models-compared-2026</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/embedding-models-compared-2026</guid>
+      <description>Choose the right text embeddings for semantic search and RAG with benchmark data, cost analysis, and latency trade-offs</description>
+      <pubDate>Wed, 15 Jul 2026 07:53:38 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
       <title>Researchers Replace Sequential Speech Recognition with Parallel Diffusion</title>
       <link>https://aiglimpse.ai/articles/researchers-replace-sequential-speech-recognition-with-parallel-diffusion-bce59a39</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/researchers-replace-sequential-speech-recognition-with-parallel-diffusion-bce59a39</guid>
@@ -388,22 +404,6 @@
       <guid isPermaLink="true">https://aiglimpse.ai/articles/communities-mobilize-against-ai-data-center-expansion-3c631dc7</guid>
       <description>Grassroots opposition to massive computing facilities is intensifying as local leaders grapple with power demands and environmental costs.</description>
       <pubDate>Sun, 12 Jul 2026 12:00:00 GMT</pubDate>
-      <category>AI Tools &amp; Products</category>
-    </item>
-    <item>
-      <title>Federal Court Blocks AI-Driven Grant Cancellations, Demands Human Oversight</title>
-      <link>https://aiglimpse.ai/articles/federal-court-blocks-ai-driven-grant-cancellations-demands-human-oversight-3eb6e02c</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/federal-court-blocks-ai-driven-grant-cancellations-demands-human-oversight-3eb6e02c</guid>
-      <description>Ruling establishes that agencies deploying language models for consequential decisions must maintain audit trails and meaningful human review.</description>
-      <pubDate>Sat, 11 Jul 2026 00:00:00 GMT</pubDate>
-      <category>AI Business</category>
-    </item>
-    <item>
-      <title>Quantum Computing and AI Team Up to Design Novel Drug Molecules</title>
-      <link>https://aiglimpse.ai/articles/quantum-computing-and-ai-team-up-to-design-novel-drug-molecules-4e12f917</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/quantum-computing-and-ai-team-up-to-design-novel-drug-molecules-4e12f917</guid>
-      <description>Researchers demonstrate how hybrid quantum-AI systems could accelerate therapeutic development for neglected diseases and rare conditions.</description>
-      <pubDate>Sun, 12 Jul 2026 10:00:00 GMT</pubDate>
       <category>AI Tools &amp; Products</category>
     </item>
   </channel>

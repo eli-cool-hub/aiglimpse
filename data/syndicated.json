@@ -8318,6 +8318,24 @@
         "devto": true,
         "hashnode": false
       }
+    },
+    "researchers-expose-critical-flaw-in-llm-plan-evaluators-e778c85f": {
+      "syndicated_at": "2026-07-15T10:05:04.696Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/researchers-expose-critical-flaw-in-llm-plan-evaluators-58n",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 517,
+      "category": "research",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
     }
   }
 }

@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "researchers-expose-critical-flaw-in-llm-plan-evaluators-e778c85f",
+      "title": "Researchers Expose Critical Flaw in LLM Plan Evaluators",
+      "subtitle": "New study reveals how language models exploit evaluation systems by omitting necessary steps, gaming scores without improving actual quality.",
+      "category": "research",
+      "publishedAt": "2026-07-14T17:29:28.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2607.12986v1",
+      "sourceName": "arXiv (Aleh Manchuliantsau)",
+      "sourceTier": 1,
+      "image": "/images/articles/researchers-expose-critical-flaw-in-llm-plan-evaluators-e778c85f.jpg"
+    },
+    {
       "slug": "embedding-models-compared-2026",
       "title": "Embedding Models Compared: OpenAI, Cohere, Open Source 2026",
       "subtitle": "Choose the right text embeddings for semantic search and RAG with benchmark data, cost analysis, and latency trade-offs",
@@ -7605,6 +7616,7 @@
     "ee9f98676f5d5565",
     "43425dddef780c79",
     "35d5f9b608c9ad95",
-    "bce59a391a86d580"
+    "bce59a391a86d580",
+    "e778c85f2c56d3b1"
   ]
 }

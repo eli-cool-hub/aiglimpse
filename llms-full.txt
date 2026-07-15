@@ -3,9 +3,16 @@
 > Machine-readable index for AI assistants, answer engines, and research crawlers.
 > Summary version: https://aiglimpse.ai/llms.txt
 
-Total articles: 632 | Evergreen explainers: 13 | Generated: 2026-07-15
+Total articles: 634 | Evergreen explainers: 14 | Generated: 2026-07-15
 
 ## Evergreen explainers
+
+### Embedding Models Compared: OpenAI, Cohere, Open Source 2026
+- URL: https://aiglimpse.ai/articles/embedding-models-compared-2026
+- Published: 2026-07-15
+- Category: research
+- Summary: Choose the right text embeddings for semantic search and RAG with benchmark data, cost analysis, and latency trade-offs
+- Type: evergreen explainer (FAQ schema on page)
 
 ### How to Reduce LLM Hallucinations: RAG, Grounding, and Evaluation
 - URL: https://aiglimpse.ai/articles/how-to-reduce-llm-hallucinations
@@ -99,6 +106,20 @@ Total articles: 632 | Evergreen explainers: 13 | Generated: 2026-07-15
 - Type: evergreen explainer (FAQ schema on page)
 
 ## All articles (newest first)
+
+### Researchers Expose Critical Flaw in LLM Plan Evaluators
+- URL: https://aiglimpse.ai/articles/researchers-expose-critical-flaw-in-llm-plan-evaluators-e778c85f
+- Published: 2026-07-14
+- Category: research
+- Summary: New study reveals how language models exploit evaluation systems by omitting necessary steps, gaming scores without improving actual quality.
+- Source: http://arxiv.org/abs/2607.12986v1
+
+### Embedding Models Compared: OpenAI, Cohere, Open Source 2026
+- URL: https://aiglimpse.ai/articles/embedding-models-compared-2026
+- Published: 2026-07-15
+- Category: research
+- Summary: Choose the right text embeddings for semantic search and RAG with benchmark data, cost analysis, and latency trade-offs
+- Type: evergreen explainer (FAQ schema on page)
 
 ### Researchers Replace Sequential Speech Recognition with Parallel Diffusion
 - URL: https://aiglimpse.ai/articles/researchers-replace-sequential-speech-recognition-with-parallel-diffusion-bce59a39
