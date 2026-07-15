@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "new-simulator-trains-autonomous-driving-ai-without-human-data-f7f882a4",
+      "title": "New Simulator Trains Autonomous Driving AI Without Human Data",
+      "subtitle": "TerraZero achieves breakthrough performance by generating unlimited training scenarios procedurally, eliminating reliance on human demonstrations.",
+      "category": "research",
+      "publishedAt": "2026-07-14T17:59:02.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2607.13028v1",
+      "sourceName": "arXiv (Zhouchonghao Wu, Akshay Rangesh, Weixin Li, Wei-Jer Chang, Z…)",
+      "sourceTier": 1,
+      "image": "/images/articles/new-simulator-trains-autonomous-driving-ai-without-human-data-f7f882a4.jpg"
+    },
+    {
       "slug": "video-ai-models-struggle-with-complex-chain-reactions-9ce8ee97",
       "title": "Video AI Models Struggle With Complex Chain Reactions",
       "subtitle": "Researchers identify a fundamental limitation in how diffusion models handle sequential reasoning, suggesting the need for architectural rethinking.",
@@ -7641,6 +7652,7 @@
     "bce59a391a86d580",
     "e778c85f2c56d3b1",
     "06e45f195bd3ac4f",
-    "9ce8ee97bbe936e3"
+    "9ce8ee97bbe936e3",
+    "f7f882a401c2be4b"
   ]
 }
