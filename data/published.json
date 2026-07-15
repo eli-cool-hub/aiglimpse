@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "researchers-replace-sequential-speech-recognition-with-parallel-diffusion-bce59a39",
+      "title": "Researchers Replace Sequential Speech Recognition with Parallel Diffusion",
+      "subtitle": "New approach transcribes audio by refining entire outputs simultaneously rather than generating tokens one at a time.",
+      "category": "research",
+      "publishedAt": "2026-07-14T17:53:22.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2607.13013v1",
+      "sourceName": "arXiv (Harsha Vardhan Khurdula, Abhinav Kumar Singh, Yoeven D Kheml…)",
+      "sourceTier": 1,
+      "image": "/images/articles/researchers-replace-sequential-speech-recognition-with-parallel-diffusion-bce59a39.jpg"
+    },
+    {
+      "slug": "researchers-show-ai-agents-waste-resources-on-trivial-tasks-35d5f9b6",
+      "title": "Researchers Show AI Agents Waste Resources on Trivial Tasks",
+      "subtitle": "New framework helps AI systems distinguish between simple and complex work, cutting resource consumption by up to 91 percent.",
+      "category": "research",
+      "publishedAt": "2026-07-14T17:59:31.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2607.13034v1",
+      "sourceName": "arXiv (Junjie Yin, Xinyu Feng)",
+      "sourceTier": 1,
+      "image": "/images/articles/researchers-show-ai-agents-waste-resources-on-trivial-tasks-35d5f9b6.jpg"
+    },
+    {
       "slug": "anthropics-super-bowl-ad-backfires-drawing-criticism-from-ai-peers-43425ddd",
       "title": "Anthropic's Super Bowl Ad Backfires, Drawing Criticism From AI Peers",
       "subtitle": "A primetime safety-focused campaign undermines trust messaging at the worst possible moment for the AI industry.",
@@ -7569,6 +7591,8 @@
     "c890378fc29eb29a",
     "85549e7ed6fcc3ee",
     "ee9f98676f5d5565",
-    "43425dddef780c79"
+    "43425dddef780c79",
+    "35d5f9b608c9ad95",
+    "bce59a391a86d580"
   ]
 }

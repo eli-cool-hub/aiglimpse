@@ -7,6 +7,22 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Researchers Replace Sequential Speech Recognition with Parallel Diffusion</title>
+      <link>https://aiglimpse.ai/articles/researchers-replace-sequential-speech-recognition-with-parallel-diffusion-bce59a39</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/researchers-replace-sequential-speech-recognition-with-parallel-diffusion-bce59a39</guid>
+      <description>New approach transcribes audio by refining entire outputs simultaneously rather than generating tokens one at a time.</description>
+      <pubDate>Tue, 14 Jul 2026 17:53:22 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
+      <title>Researchers Show AI Agents Waste Resources on Trivial Tasks</title>
+      <link>https://aiglimpse.ai/articles/researchers-show-ai-agents-waste-resources-on-trivial-tasks-35d5f9b6</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/researchers-show-ai-agents-waste-resources-on-trivial-tasks-35d5f9b6</guid>
+      <description>New framework helps AI systems distinguish between simple and complex work, cutting resource consumption by up to 91 percent.</description>
+      <pubDate>Tue, 14 Jul 2026 17:59:31 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
       <title>Anthropic's Super Bowl Ad Backfires, Drawing Criticism From AI Peers</title>
       <link>https://aiglimpse.ai/articles/anthropics-super-bowl-ad-backfires-drawing-criticism-from-ai-peers-43425ddd</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/anthropics-super-bowl-ad-backfires-drawing-criticism-from-ai-peers-43425ddd</guid>
@@ -389,22 +405,6 @@
       <description>Researchers demonstrate how hybrid quantum-AI systems could accelerate therapeutic development for neglected diseases and rare conditions.</description>
       <pubDate>Sun, 12 Jul 2026 10:00:00 GMT</pubDate>
       <category>AI Tools &amp; Products</category>
-    </item>
-    <item>
-      <title>The Fatigue of Default AI Solutions</title>
-      <link>https://aiglimpse.ai/articles/the-fatigue-of-default-ai-solutions-acb6a7ff</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/the-fatigue-of-default-ai-solutions-acb6a7ff</guid>
-      <description>A growing pushback suggests defaulting to large language models for every problem overlooks their limitations and real costs.</description>
-      <pubDate>Sat, 11 Jul 2026 22:28:48 GMT</pubDate>
-      <category>AI Tools &amp; Products</category>
-    </item>
-    <item>
-      <title>Anti-AI Movement Faces Internal Crisis as Leader Vanishes</title>
-      <link>https://aiglimpse.ai/articles/anti-ai-movement-faces-internal-crisis-as-leader-vanishes-7a502ccc</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/anti-ai-movement-faces-internal-crisis-as-leader-vanishes-7a502ccc</guid>
-      <description>Disappearance of Stop AI co-founder prompts radical faction to reassess strategy while AI labs boost security measures.</description>
-      <pubDate>Sun, 12 Jul 2026 00:00:00 GMT</pubDate>
-      <category>Ethics &amp; Policy</category>
     </item>
   </channel>
 </rss>

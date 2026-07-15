@@ -3,7 +3,7 @@
 > Machine-readable index for AI assistants, answer engines, and research crawlers.
 > Summary version: https://aiglimpse.ai/llms.txt
 
-Total articles: 630 | Evergreen explainers: 13 | Generated: 2026-07-15
+Total articles: 632 | Evergreen explainers: 13 | Generated: 2026-07-15
 
 ## Evergreen explainers
 
@@ -99,6 +99,20 @@ Total articles: 630 | Evergreen explainers: 13 | Generated: 2026-07-15
 - Type: evergreen explainer (FAQ schema on page)
 
 ## All articles (newest first)
+
+### Researchers Replace Sequential Speech Recognition with Parallel Diffusion
+- URL: https://aiglimpse.ai/articles/researchers-replace-sequential-speech-recognition-with-parallel-diffusion-bce59a39
+- Published: 2026-07-14
+- Category: research
+- Summary: New approach transcribes audio by refining entire outputs simultaneously rather than generating tokens one at a time.
+- Source: http://arxiv.org/abs/2607.13013v1
+
+### Researchers Show AI Agents Waste Resources on Trivial Tasks
+- URL: https://aiglimpse.ai/articles/researchers-show-ai-agents-waste-resources-on-trivial-tasks-35d5f9b6
+- Published: 2026-07-14
+- Category: research
+- Summary: New framework helps AI systems distinguish between simple and complex work, cutting resource consumption by up to 91 percent.
+- Source: http://arxiv.org/abs/2607.13034v1
 
 ### Anthropic's Super Bowl Ad Backfires, Drawing Criticism From AI Peers
 - URL: https://aiglimpse.ai/articles/anthropics-super-bowl-ad-backfires-drawing-criticism-from-ai-peers-43425ddd
