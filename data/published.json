@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "new-framework-lets-ai-agents-run-directly-on-smartphones-c3501651",
+      "title": "New Framework Lets AI Agents Run Directly on Smartphones",
+      "subtitle": "PalmClaw enables mobile devices to execute complex tasks autonomously while keeping computational overhead minimal.",
+      "category": "research",
+      "publishedAt": "2026-07-14T17:58:57.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2607.13027v1",
+      "sourceName": "arXiv (Hongru Cai, Yongqi Li, Ran Wei, Wenjie Li)",
+      "sourceTier": 1,
+      "image": "/images/articles/new-framework-lets-ai-agents-run-directly-on-smartphones-c3501651.jpg"
+    },
+    {
       "slug": "openais-automated-red-teaming-system-targets-ai-vulnerability-detection-504bd338",
       "title": "OpenAI's Automated Red Teaming System Targets AI Vulnerability Detection",
       "subtitle": "New self-play framework aims to systematically identify and patch security flaws in large language models before deployment.",
@@ -7677,6 +7688,7 @@
     "9ce8ee97bbe936e3",
     "f7f882a401c2be4b",
     "ab0deb03ce906f84",
-    "504bd3386af57d67"
+    "504bd3386af57d67",
+    "c350165118ac6d52"
   ]
 }

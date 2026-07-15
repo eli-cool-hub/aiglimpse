@@ -7,6 +7,14 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>New Framework Lets AI Agents Run Directly on Smartphones</title>
+      <link>https://aiglimpse.ai/articles/new-framework-lets-ai-agents-run-directly-on-smartphones-c3501651</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-framework-lets-ai-agents-run-directly-on-smartphones-c3501651</guid>
+      <description>PalmClaw enables mobile devices to execute complex tasks autonomously while keeping computational overhead minimal.</description>
+      <pubDate>Tue, 14 Jul 2026 17:58:57 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
       <title>OpenAI's Automated Red Teaming System Targets AI Vulnerability Detection</title>
       <link>https://aiglimpse.ai/articles/openais-automated-red-teaming-system-targets-ai-vulnerability-detection-504bd338</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/openais-automated-red-teaming-system-targets-ai-vulnerability-detection-504bd338</guid>
@@ -397,14 +405,6 @@
       <description>New analysis reveals significant efficiency gaps in how leading AI coding assistants handle cache and system prompts.</description>
       <pubDate>Sun, 12 Jul 2026 18:25:51 GMT</pubDate>
       <category>AI Research</category>
-    </item>
-    <item>
-      <title>Europe's AI Strategy Risks Deepening Tech Dependence, Critics Warn</title>
-      <link>https://aiglimpse.ai/articles/europes-ai-strategy-risks-deepening-tech-dependence-critics-warn-4549ce91</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/europes-ai-strategy-risks-deepening-tech-dependence-critics-warn-4549ce91</guid>
-      <description>Focusing on model development without addressing infrastructure gaps could undermine the continent's path to genuine artificial intelligence autonomy.</description>
-      <pubDate>Sun, 12 Jul 2026 00:00:00 GMT</pubDate>
-      <category>AI Business</category>
     </item>
   </channel>
 </rss>
