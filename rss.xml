@@ -7,6 +7,22 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>OpenAI's Automated Red Teaming System Targets AI Vulnerability Detection</title>
+      <link>https://aiglimpse.ai/articles/openais-automated-red-teaming-system-targets-ai-vulnerability-detection-504bd338</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/openais-automated-red-teaming-system-targets-ai-vulnerability-detection-504bd338</guid>
+      <description>New self-play framework aims to systematically identify and patch security flaws in large language models before deployment.</description>
+      <pubDate>Wed, 15 Jul 2026 10:00:00 GMT</pubDate>
+      <category>LLMs &amp; Chatbots</category>
+    </item>
+    <item>
+      <title>State Laws Could Shape National AI Safety Standards, OpenAI Says</title>
+      <link>https://aiglimpse.ai/articles/state-laws-could-shape-national-ai-safety-standards-openai-says-ab0deb03</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/state-laws-could-shape-national-ai-safety-standards-openai-says-ab0deb03</guid>
+      <description>A decentralized approach to AI governance may create stronger protections than federal action alone, according to the AI lab.</description>
+      <pubDate>Wed, 15 Jul 2026 12:00:00 GMT</pubDate>
+      <category>LLMs &amp; Chatbots</category>
+    </item>
+    <item>
       <title>New Simulator Trains Autonomous Driving AI Without Human Data</title>
       <link>https://aiglimpse.ai/articles/new-simulator-trains-autonomous-driving-ai-without-human-data-f7f882a4</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/new-simulator-trains-autonomous-driving-ai-without-human-data-f7f882a4</guid>
@@ -388,22 +404,6 @@
       <guid isPermaLink="true">https://aiglimpse.ai/articles/europes-ai-strategy-risks-deepening-tech-dependence-critics-warn-4549ce91</guid>
       <description>Focusing on model development without addressing infrastructure gaps could undermine the continent's path to genuine artificial intelligence autonomy.</description>
       <pubDate>Sun, 12 Jul 2026 00:00:00 GMT</pubDate>
-      <category>AI Business</category>
-    </item>
-    <item>
-      <title>Apple's Abandoned Vehicle Project Shaped Modern AI Chip Design</title>
-      <link>https://aiglimpse.ai/articles/apples-abandoned-vehicle-project-shaped-modern-ai-chip-design-6e0ba2a9</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/apples-abandoned-vehicle-project-shaped-modern-ai-chip-design-6e0ba2a9</guid>
-      <description>The company's failed autonomous driving initiative catalyzed development of neural processing architecture now central to its consumer devices.</description>
-      <pubDate>Sun, 12 Jul 2026 16:27:06 GMT</pubDate>
-      <category>AI Tools &amp; Products</category>
-    </item>
-    <item>
-      <title>ChatGPT's Hidden Life as a Storytelling Platform</title>
-      <link>https://aiglimpse.ai/articles/chatgpts-hidden-life-as-a-storytelling-platform-2b093885</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/chatgpts-hidden-life-as-a-storytelling-platform-2b093885</guid>
-      <description>New research reveals creative fiction generation dominates ChatGPT usage, forcing a reckoning over how AI companies should manage mass-market entertainment applications.</description>
-      <pubDate>Sat, 11 Jul 2026 00:00:00 GMT</pubDate>
       <category>AI Business</category>
     </item>
   </channel>
