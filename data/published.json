@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "anthropics-super-bowl-ad-backfires-drawing-criticism-from-ai-peers-43425ddd",
+      "title": "Anthropic's Super Bowl Ad Backfires, Drawing Criticism From AI Peers",
+      "subtitle": "A primetime safety-focused campaign undermines trust messaging at the worst possible moment for the AI industry.",
+      "category": "business",
+      "publishedAt": "2026-07-15T00:00:00.000Z",
+      "sourceUrl": "https://techcrunch.com/2026/07/14/anthropics-newest-ad-is-creeping-people-out",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/anthropics-super-bowl-ad-backfires-drawing-criticism-from-ai-peers-43425ddd.jpg"
+    },
+    {
+      "slug": "google-deepmind-launches-ai-tutor-to-guide-indian-robotics-educators-ee9f9867",
+      "title": "Google DeepMind Launches AI Tutor to Guide Indian Robotics Educators",
+      "subtitle": "A Gemini-powered assistant aims to democratize AI instruction in India's school laboratories, reaching thousands of teachers.",
+      "category": "research",
+      "publishedAt": "2026-07-13T12:37:28.000Z",
+      "sourceUrl": "https://deepmind.google/blog/empowering-indias-next-generation-of-innovators-with-atl-saathi/",
+      "sourceName": "Google DeepMind",
+      "sourceTier": 1,
+      "image": "/images/articles/google-deepmind-launches-ai-tutor-to-guide-indian-robotics-educators-ee9f9867.jpg"
+    },
+    {
       "slug": "openai-plans-mobile-speaker-as-first-hardware-device-85549e7e",
       "title": "OpenAI Plans Mobile Speaker as First Hardware Device",
       "subtitle": "The company's entry into consumer hardware signals a shift toward embodied AI experiences beyond software interfaces.",
@@ -7545,6 +7567,8 @@
     "3d27d86c33e44dbc",
     "5f40f513170ecfe6",
     "c890378fc29eb29a",
-    "85549e7ed6fcc3ee"
+    "85549e7ed6fcc3ee",
+    "ee9f98676f5d5565",
+    "43425dddef780c79"
   ]
 }
