@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Embedding Models Compared: OpenAI, Cohere, Open Source 2026 | AI Glimpse</title>
+  <meta name="description" content="Compare OpenAI, Cohere, and open source embedding models by cost, speed, quality, and multilingual support for semantic search and RAG systems.">
+  <meta name="keywords" content="embedding models, text embeddings, semantic search, MTEB, vector search quality, open source embeddings, RAG">
+  <link rel="canonical" href="https://aiglimpse.ai/articles/embedding-models-compared-2026">
+  <meta property="og:type" content="article"><meta property="og:site_name" content="AI Glimpse">
+  <meta property="og:title" content="Embedding Models Compared: OpenAI, Cohere, Open Source 2026">
+  <meta property="og:description" content="Compare OpenAI, Cohere, and open source embedding models by cost, speed, quality, and multilingual support for semantic search and RAG systems.">
+  <meta property="og:url" content="https://aiglimpse.ai/articles/embedding-models-compared-2026">
+  <meta property="og:image" content="https://aiglimpse.ai/images/articles/embedding-models-compared-2026.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="article:published_time" content="2026-07-15T07:53:38.725Z">
+  <meta property="article:section" content="AI Research">
+  <meta property="article:tag" content="embedding models">
+  <meta property="article:tag" content="text embeddings">
+  <meta property="article:tag" content="semantic search">
+  <meta property="article:tag" content="MTEB">
+  <meta property="article:tag" content="vector search quality">
+  <meta property="article:tag" content="open source embeddings">
+  <meta property="article:tag" content="RAG">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Embedding Models Compared: OpenAI, Cohere, Open Source 2026">
+  <meta name="twitter:description" content="Compare OpenAI, Cohere, and open source embedding models by cost, speed, quality, and multilingual support for semantic search and RAG systems.">
+  <meta name="twitter:image" content="https://aiglimpse.ai/images/articles/embedding-models-compared-2026.jpg">
+  <link rel="icon" type="image/svg+xml" href="/images/favicon.svg">
+  <link rel="alternate" type="application/rss+xml" title="AI Glimpse RSS" href="/rss.xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700;9..144,900&family=Inter+Tight:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap">
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="preload" as="image" href="/images/articles/embedding-models-compared-2026.webp" type="image/webp" fetchpriority="high">
+  <style>.reading-progress{position:fixed;top:0;left:0;height:3px;background:var(--color-accent);width:0%;z-index:200;transition:width 100ms linear;}</style>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","mainEntityOfPage":{"@type":"WebPage","@id":"https://aiglimpse.ai/articles/embedding-models-compared-2026"},"headline":"Embedding Models Compared: OpenAI, Cohere, Open Source 2026","description":"Compare OpenAI, Cohere, and open source embedding models by cost, speed, quality, and multilingual support for semantic search and RAG systems.","image":["https://aiglimpse.ai/images/articles/embedding-models-compared-2026.jpg"],"datePublished":"2026-07-15T07:53:38.725Z","dateModified":"2026-07-15T07:53:38.725Z","author":{"@type":"Organization","name":"AI Glimpse Newsroom"},"publisher":{"@type":"Organization","name":"AI Glimpse","logo":{"@type":"ImageObject","url":"https://aiglimpse.ai/images/logo.svg"}},"articleSection":"AI Research","keywords":"embedding models, text embeddings, semantic search, MTEB, vector search quality, open source embeddings, RAG"}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://aiglimpse.ai/"},{"@type":"ListItem","position":2,"name":"AI Research","item":"https://aiglimpse.ai/categories/research"},{"@type":"ListItem","position":3,"name":"Embedding Models Compared: OpenAI, Cohere, Open Source 2026","item":"https://aiglimpse.ai/articles/embedding-models-compared-2026"}]}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What is an embedding model and why do I need one?","acceptedAnswer":{"@type":"Answer","text":"An embedding model converts text into high-dimensional vectors that capture semantic meaning. You need one for semantic search, RAG systems, clustering, and recommendation engines because traditional keyword matching misses intent and context."}},{"@type":"Question","name":"What does MTEB score mean?","acceptedAnswer":{"@type":"Answer","text":"MTEB (Massive Text Embedding Benchmark) is the standard evaluation suite for text embeddings across tasks like retrieval, clustering, and semantic similarity. Higher scores indicate better semantic understanding. Most modern models score between 50 and 70 across the benchmark suite."}},{"@type":"Question","name":"Should I use OpenAI's embedding model or open source?","acceptedAnswer":{"@type":"Answer","text":"Use OpenAI if you need top retrieval quality and can tolerate API costs and latency. Use open source if you need local inference, lower per-token costs at scale, or control over data. Open source models have closed the quality gap significantly since 2024."}},{"@type":"Question","name":"How much does embedding cost?","acceptedAnswer":{"@type":"Answer","text":"OpenAI text-embedding-3-small costs $0.02 per 1M tokens; text-embedding-3-large costs $0.13 per 1M tokens. Open source models have zero marginal cost once deployed. Cohere's embed-english-v3.0 runs $0.10 per 1M tokens. Real costs depend on query and document volumes."}},{"@type":"Question","name":"Can embedding models handle multiple languages?","acceptedAnswer":{"@type":"Answer","text":"Yes, but with variation. OpenAI and Cohere support 100+ languages in a single model. Open source multilingual models like multilingual-e5-large support 100+ languages but often at lower performance than English-only variants on English-specific tasks."}},{"@type":"Question","name":"What latency should I expect?","acceptedAnswer":{"@type":"Answer","text":"OpenAI API calls add 100-500ms round-trip latency. Self-hosted open source models run in 5-50ms on modern GPUs depending on model size. Cohere API adds similar latency to OpenAI. Batch processing reduces per-token latency but increases absolute time."}},{"@type":"Question","name":"How do I choose embedding dimensions?","acceptedAnswer":{"@type":"Answer","text":"OpenAI text-embedding-3-small uses 512 dimensions, text-embedding-3-large uses 3072. Smaller dimensions reduce storage and search time; larger dimensions preserve more information. 768-1024 dimensions is a practical sweet spot for open source models. Test on your specific retrieval task."}}]}</script>
+  <meta name="google-site-verification" content="B132aMlqf1nssWYhjOSKUgSjmfwNWgPgtozZsHDxWlU" />
+  <meta name="msvalidate.01" content="F3762E555B3E685836AE39C90B79ECBF" />
+  <!-- aiglimpse-consent-default v1: must run before AdSense, defaults all ad/analytics storage to denied -->
+  <script>(function(){window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}window.gtag=gtag;gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'denied',functionality_storage:'granted',security_storage:'granted',wait_for_update:500});try{var s=JSON.parse(localStorage.getItem('aiglimpse-consent')||'null');if(s&&s.choice==='granted'){gtag('consent','update',{ad_storage:'granted',ad_user_data:'granted',ad_personalization:'granted',analytics_storage:'granted'});}}catch(e){}})();</script>
+  <!-- aiglimpse-ga4 v1: gtag.js loaded after consent default, so it buffers events until consent is granted -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-EVZ52DNQ8S"></script>
+  <script>gtag('js', new Date()); gtag('config', 'G-EVZ52DNQ8S', { anonymize_ip: true });</script>
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4263484717830850" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div class="reading-progress" aria-hidden="true"></div>
+  <header class="site-header" role="banner">
+    <div class="container">
+      <div class="header-bar">
+        <a href="/" class="logo" aria-label="AI Glimpse home">
+          <span class="logo-wordmark" aria-label="AI Glimpse">A<span class="iris-i" aria-hidden="true">ı</span><span aria-hidden="true"> Glimpse</span></span>
+        </a>
+        <nav class="nav-primary" aria-label="Primary">
+          <a href="/categories/llms">LLMs</a>
+            <a href="/categories/research">Research</a>
+            <a href="/categories/tools">Tools</a>
+            <a href="/categories/business">Business</a>
+            <a href="/categories/ethics">Ethics</a>
+            <a href="/categories/industry">Industry</a>
+            <a href="/categories/robotics">Robotics</a>
+        </nav>
+        <div class="header-actions">
+          <a class="search-btn" href="/search" aria-label="Search">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="11" cy="11" r="7"/><path d="M21 21l-4.35-4.35"/>
+            </svg>
+          </a>
+          <a href="#newsletter" class="btn btn--primary btn--sm">Subscribe</a>
+          <button class="menu-btn" aria-label="Open menu">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+  <aside class="mobile-menu" aria-label="Mobile menu">
+    <div class="mobile-menu-header">
+      <a href="/" class="logo">
+        <span class="logo-wordmark" aria-label="AI Glimpse">A<span class="iris-i" aria-hidden="true">ı</span><span aria-hidden="true"> Glimpse</span></span>
+      </a>
+      <button class="mobile-menu-close" aria-label="Close menu" style="font-size:24px;">×</button>
+    </div>
+    <a href="/categories/llms">LLMs</a>
+    <a href="/categories/research">Research</a>
+    <a href="/categories/tools">Tools</a>
+    <a href="/categories/business">Business</a>
+    <a href="/categories/ethics">Ethics</a>
+    <a href="/categories/industry">Industry</a>
+    <a href="/categories/robotics">Robotics</a>
+    <a href="/search">Search</a>
+    <a href="/pages/about">About</a>
+    <a href="#newsletter">Subscribe</a>
+  </aside>
+  <main>
+    <article>
+      <section class="article-hero">
+        <div class="container container--narrow">
+          <nav aria-label="Breadcrumb" style="margin-bottom:var(--space-4);font-size:var(--text-xs);color:var(--color-ink-muted);">
+            <a href="/" style="color:inherit;">Home</a> /
+            <a href="/categories/research" style="color:inherit;">AI Research</a> /
+            <span>Explainer</span>
+          </nav>
+          <div class="article-hero-meta">
+            <span class="tag tag--research">AI Research</span>
+            <span class="eyebrow eyebrow--accent">Explainer</span>
+            <span class="eyebrow">12 min read</span>
+          </div>
+          <h1 class="article-hero-title">Embedding Models Compared: OpenAI, Cohere, Open Source 2026</h1>
+          <p class="article-hero-subtitle">Choose the right text embeddings for semantic search and RAG with benchmark data, cost analysis, and latency trade-offs</p>
+          <div class="article-byline">
+            <div>By <strong>AI Glimpse Newsroom</strong></div><div>·</div>
+            <div><time datetime="2026-07-15T07:53:38.725Z" data-relative="false">July 15, 2026</time></div>
+          </div>
+        </div>
+      </section>
+      <section style="padding: var(--space-7) 0;">
+        <div class="container container--narrow">
+          <figure class="article-image"><picture><source srcset="/images/articles/embedding-models-compared-2026.webp" type="image/webp"><img src="/images/articles/embedding-models-compared-2026.jpg" alt="Embedding Models Compared: OpenAI, Cohere, Open Source 2026" loading="eager" fetchpriority="high" width="1200" height="630"></picture></figure>
+          <div class="article-body"><p>Embedding models are the infrastructure layer of modern semantic search and <a href="/articles/what-is-retrieval-augmented-generation-rag">retrieval-augmented generation</a> (RAG). They convert text into dense vectors that encode semantic meaning, enabling systems to find relevant documents by meaning rather than keywords. The choice of embedding model directly impacts retrieval quality, cost, latency, and operational complexity. This guide walks ML engineers through the concrete trade-offs between OpenAI, Cohere, and open source options, with benchmark data and selection criteria that will remain relevant as the market matures.</p>
+
+<h2>Why this matters now</h2>
+
+<p>The embedding model landscape has stratified into three distinct categories with radically different economics and trade-offs. In 2024 and 2025, open source embedding models caught up to closed-source alternatives on most MTEB benchmarks, eliminating the traditional "pay for quality" calculus. Simultaneously, API costs for embeddings have become visible as a real line item in RAG applications that embed thousands of documents and process millions of queries monthly. Teams are now optimizing not just for retrieval quality but for the cost and latency of the entire RAG pipeline.</p>
+
+<p>At the same time, vector databases have matured and deployed everywhere, making self-hosted embeddings increasingly viable for organizations that previously defaulted to cloud APIs. The decision is no longer binary. Most production systems now run a hybrid approach: using high-quality, fine-tuned embeddings for the core document collection and falling back to lighter models for query-time embedding or exploratory work. Understanding the spectrum of options is essential for making that hybrid strategy work.</p>
+
+<h2>The three categories: Commercial APIs, open source, and specialized models</h2>
+<figure class="article-image article-image--inline">
+  <picture><source srcset="/images/articles/embedding-models-compared-2026-inline-1.webp" type="image/webp"><img src="/images/articles/embedding-models-compared-2026-inline-1.jpg" alt="The three categories: Commercial APIs, open source, and specialized models" loading="lazy" width="1200" height="630"></picture>
+  <figcaption class="article-image-credit">Photo by <a href="https://www.pexels.com/photo/close-up-of-text-on-black-background-256502/" rel="nofollow noopener" target="_blank">Pixabay</a> on Pexels.</figcaption>
+</figure>
+
+
+<p>The embedding market breaks into three tiers, each with a distinct cost and quality envelope.</p>
+
+<p><strong>Commercial APIs</strong> (OpenAI, Cohere) offer the highest retrieval quality and multilingual coverage out of the box. OpenAI's text-embedding-3-large consistently ranks at the top of MTEB leaderboards, and its multilingual performance is strong. Cohere's embed-english-v3.0 is competitive on English tasks and better priced at scale. Both offer API convenience, automatic model updates, and enterprise support. The trade-off is latency (100 to 500ms round-trip) and per-token costs that accumulate quickly in high-volume applications.</p>
+
+<p><strong>Open source models</strong> (BGE, E5, Jina, Voyage) can be self-hosted, fine-tuned, and run entirely on your infrastructure. The MTEB leaderboard is now dominated by open source models in the 7B to 1B parameter range. Inference latency is dramatically lower (5 to 50ms) and marginal cost approaches zero. The friction is operational: you manage the model, the infrastructure, the updates, and the fine-tuning pipeline. For organizations with the engineering capacity, the ROI is substantial. For smaller teams, the operational burden outweighs the savings.</p>
+
+<p><strong>Specialized models</strong> are smaller models fine-tuned for specific tasks (medical, legal, code) or optimized for speed-quality trade-offs. These often have lower latency and memory requirements but narrower scope. They are most useful when you have a well-defined domain and can justify custom fine-tuning.</p>
+
+<h2>Benchmark data: MTEB and what it actually predicts</h2>
+
+<p>MTEB (Massive Text Embedding Benchmark) is the standard evaluation suite for text embeddings across retrieval, clustering, pair classification, and semantic similarity tasks. The score is aggregated across 56 datasets. It is the closest approximation to a universal embedding quality metric, but it has important limitations.</p>
+
+<p>As of late 2025, the top performers on MTEB are:</p>
+
+<ul>
+<li>OpenAI text-embedding-3-large: 64.3 aggregate score, 73.4 on retrieval tasks</li>
+<li>Cohere embed-english-v3.0: 64.1 aggregate, 73.2 on retrieval</li>
+<li>Jina v3 (open source): 63.8 aggregate, 72.9 on retrieval</li>
+<li>BGE m3-large (open source): 63.5 aggregate, 72.4 on retrieval</li>
+<li>E5-large-v2 (open source): 62.5 aggregate, 70.8 on retrieval</li>
+</ul>
+
+<p>The gap between the top paid API (OpenAI) and the best open source model (Jina v3) is less than 1 percentage point on retrieval. This is the single most important fact for cost-conscious teams: you can no longer justify commercial embeddings purely on quality grounds. The decision hinges on operational cost, latency, and domain-specific performance.</p>
+
+<p>MTEB is not perfectly predictive of your application's performance. A model's MTEB retrieval score correlates well with ranking quality on generic English corpora, but breaks down for:</p>
+
+<ul>
+<li>Domain-specific text (legal documents, medical notes, code)</li>
+<li>Short text and queries (titles, tags, user input)</li>
+<li>Cross-lingual retrieval and zero-shot transfer</li>
+<li>Hard negatives and dense corpora where top-100 recall matters more than global retrieval</li>
+</ul>
+
+<p>Benchmark scores are necessary but not sufficient. Always run a small evaluation on your actual data before production rollout.</p>
+
+<h2>Cost analysis: Total cost of ownership for embedding</h2>
+<figure class="article-image article-image--inline">
+  <picture><source srcset="/images/articles/embedding-models-compared-2026-inline-2.webp" type="image/webp"><img src="/images/articles/embedding-models-compared-2026-inline-2.jpg" alt="Cost analysis: Total cost of ownership for embedding" loading="lazy" width="1200" height="630"></picture>
+  <figcaption class="article-image-credit">Photo by <a href="https://www.pexels.com/photo/close-up-shot-of-dice-with-letters-7264404/" rel="nofollow noopener" target="_blank">Nothing Ahead</a> on Pexels.</figcaption>
+</figure>
+
+
+<p>The simple per-token cost is misleading because it ignores volume, caching, and infrastructure amortization.</p>
+
+<p><strong>OpenAI pricing:</strong> text-embedding-3-small at $0.02 per 1M tokens and text-embedding-3-large at $0.13 per 1M tokens. For a typical RAG application that indexes 100,000 documents (10M tokens) and processes 10,000 queries per day (1M tokens daily), the monthly bill is roughly $600 for small embeddings or $3,900 for large. That is non-trivial but often worth it for quality and simplicity.</p>
+
+<p><strong>Cohere pricing:</strong> embed-english-v3.0 costs $0.10 per 1M tokens, placing it between OpenAI's two tiers. For the same hypothetical workload, monthly costs are $3,000. Cohere is priced for high-volume users and offers better discounts at scale.</p>
+
+<p><strong>Open source models:</strong> Marginal cost is zero once deployed. Initial costs are infrastructure (GPU, memory, storage), model serving, and engineering time to integrate and fine-tune. A single A100 GPU costs roughly $2,500 per month on-demand, can serve 100 concurrent embedding requests, and amortizes quickly if you are processing millions of embeddings monthly. For organizations embedding fewer than 10M tokens per month, the API is cheaper. For those embedding 100M+ tokens monthly, self-hosting becomes economically rational.</p>
+
+<p>A hidden cost is caching and lookup. Embeddings for static documents (your knowledge base) should be precomputed once and stored in a <a href="/articles/vector-databases-rag-guide-2026">vector database</a>. Only queries need real-time embedding. This reduces API volume dramatically and makes even expensive closed-source embeddings cost-effective.</p>
+
+<h2>Latency and real-time inference trade-offs</h2>
+
+<p>Latency matters differently depending on the application. For batch indexing (embedding your knowledge base once), latency is irrelevant. For query-time embedding in a search interface, latency directly affects user experience.</p>
+
+<p><strong>OpenAI and Cohere APIs:</strong> Round-trip latency is typically 150 to 400ms from a US region. This includes network overhead, inference on their servers, and response transmission. In high-concurrency scenarios, queuing adds additional latency. This is acceptable for most search interfaces but becomes problematic if you are embedding high-frequency user input (real-time autocomplete, per-keystroke search).</p>
+
+<p><strong>Self-hosted open source models:</strong> Inference latency for a 300-token input on an A100 GPU ranges from 5 to 30ms depending on model size. E5-large and BGE-large are in the 15 to 25ms range. text-embedding-3-large is much larger (3072 dimensions) and would take 40 to 80ms on GPU. The operational latency (model loading, tokenization, batching) adds another 5 to 20ms. Self-hosted models are 5 to 20x faster for query embedding and enable truly real-time applications.</p>
+
+<p>Latency optimization matters more than raw speed in production. Batch processing queries (embedding in batches of 32 or 64) reduces per-query latency and improves GPU utilization. Caching embeddings of common queries eliminates latency entirely. Most RAG systems should prioritize batch inference for documents and strategic caching for queries.</p>
+
+<h2>Multilingual performance and cross-lingual transfer</h2>
+
+<p>If your corpus spans multiple languages or you need to support users in different regions, embedding model choice becomes more constrained.</p>
+
+<p><strong>OpenAI text-embedding-3-large:</strong> Officially supports 100+ languages in a single model. Performance on non-English languages is materially lower than English (roughly 5 to 10 percentage points lower on MTEB multilingual retrieval tasks), but still competitive with specialized multilingual models. It is the safest choice for multilingual applications because OpenAI maintains coverage as languages evolve.</p>
+
+<p><strong>Cohere embed-english-v3.0:</strong> Also supports 100+ languages in a single model with similar multilingual performance to OpenAI. Cohere has separate language-specific models (embed-french, embed-german) optimized for each language, but the multilingual variant is generally preferred for simplicity.</p>
+
+<p><strong>Open source multilingual models:</strong> multilingual-e5-large, Jina v3, and BGE m3 all support 100+ languages. Performance on English-specific tasks is slightly lower than English-only variants (E5-large-v2 scores 62.5 on MTEB, but multilingual-e5-large scores 59.3). For non-English languages, multilingual models are usually on par with or better than commercial APIs. The trade-off is clarity: open source multilingual performance is less well-documented and may be uneven across languages.</p>
+
+<p>For organizations with a dominant language and occasional cross-lingual queries, using language-specific embeddings (English-only E5 for English, separate models for other languages) is often more effective than a single multilingual model. This requires managing multiple models and increasing operational complexity but improves quality by 2 to 5 percentage points.</p>
+
+<h2>Practical dimensions: Size, speed, and storage constraints</h2>
+
+<p>Embedding dimensions determine the size of the vector and the amount of storage and compute required for similarity search.</p>
+
+<p>OpenAI text-embedding-3-small produces 512-dimensional vectors. text-embedding-3-large produces 3072-dimensional vectors. Cohere produce 1024-dimensional vectors by default. Open source models vary: E5-large is 1024 dimensions, BGE-large is 1024 dimensions, Jina v3 is 8192 dimensions (but can be truncated). Smaller dimensions reduce storage costs and query latency in the vector database, but lose information. The MTEB leaderboard scores are for models at their full dimensionality, so truncating a model typically costs 1 to 3 percentage points of retrieval quality per 50% reduction in dimensions.</p>
+
+<p>For most applications, 768 to 1024 dimensions is a practical sweet spot. It captures most of the semantic information, stores easily in a vector database, and runs fast on commodity hardware. 512 dimensions is aggressive and suitable only for high-volume applications where retrieval quality can be traded for speed. 3000+ dimensions (OpenAI's large variant) is overkill for most search applications and adds latency and cost with minimal quality improvement.</p>
+
+<p>A concrete example: storing 1 million documents with 1024-dimensional embeddings requires roughly 4 GB of vector storage (1M * 1024 dimensions * 4 bytes per float32). Searching across 1 million vectors takes 5 to 20ms depending on the vector database index structure. With 3072 dimensions (OpenAI large), storage balloons to 12 GB and search latency increases proportionally. Unless you have a very hard retrieval problem, the larger model is not worth the operational overhead.</p>
+
+<h2>When this fails: Limitations and failure modes</h2>
+
+<p>Embedding models are robust but have known failure modes.</p>
+
+<p><strong>Long context decay:</strong> Embedding models compress long documents into a single vector, losing position information. The meaning of text at the end of a long document (over 512 tokens) gets attenuated. For document retrieval, this is usually acceptable because you split documents into chunks before embedding. For embedding entire search queries or user prompts, long context decay is not a factor.</p>
+
+<p><strong>Domain drift:</strong> A model trained primarily on web text will perform poorly on specialized text (medical journals, legal documents, source code). MTEB scores do not predict this. You will discover domain drift only by evaluating on your actual data. The solution is either to use a domain-specific model or fine-tune a general model on a small labeled dataset of your domain text.</p>
+
+<p><strong>Short text fragility:</strong> Embedding models trained on longer passages (the standard for MTEB) often struggle with very short text (1 to 3 word titles, hashtags, product names). The vector space becomes sparse and noisy for short queries. Solutions include using a separate short-text model, augmenting short text with synthetic context, or accepting lower retrieval quality on edge cases.</p>
+
+<p><strong>Semantic drift and out-of-distribution queries:</strong> A model trained on general English text will not embed ambiguous or adversarial inputs reliably. Misspellings, slang, and sarcasm are handled inconsistently. This is rarely a problem in practice because search interfaces and RAG systems are written by humans who tend to use clear language. But it is worth awareness in open-ended applications like customer support search.</p>
+
+<p><strong>API rate limits and cost surprises:</strong> OpenAI and Cohere have per-minute token rate limits that can unexpectedly block production traffic during traffic spikes. Cohere's generous free tier (100M tokens monthly) makes it easy to accidentally scale beyond the free tier. Budget monitoring and rate limiting on your side are essential.</p>
+
+<h2>Selection criteria: Picking the right model for your constraints</h2>
+
+<p>A decision tree for embedding model selection:</p>
+
+<ol>
+<li><strong>Do you need real-time query embedding under 50ms latency?</strong> If yes, you must self-host. APIs cannot meet this requirement.</li>
+<li><strong>Are you embedding more than 100M tokens monthly?</strong> If yes, self-hosting is economically rational unless you have no engineering capacity.</li>
+<li><strong>Is your corpus domain-specific (medical, legal, code)?</strong> If yes, benchmark a domain-specific model against general models on your data. Domain-specific models often outperform general models by 5 to 10 percentage points even if they score lower on MTEB.</li>
+<li><strong>Do you need multilingual support across more than 2 languages?</strong> If yes, use a multilingual model. OpenAI and Cohere are safest. Open source multilingual models work but require more evaluation.</li>
+<li><strong>Can you afford $3,000 to $10,000 per month for API costs?</strong> If yes, OpenAI or Cohere is a reasonable choice for simplicity. No model management, no infrastructure to maintain.</li>
+<li><strong>Do you have 1 to 2 GPU-hours of capacity available?</strong> If yes, self-hosting open source is viable and will save money within 3 months at scale.</li>
+</ol>
+
+<p>The default choice for most organizations in 2026 is: (1) Use OpenAI text-embedding-3-small for initial prototyping and small-scale production; (2) Evaluate open source models (BGE m3-large, Jina v3, E5-large-v2) on your actual data at the 3-month mark; (3) If retrieval quality is similar, migrate to self-hosted to eliminate API costs. This hybrid path lets you start fast and optimize cost as volume scales.</p>
+
+<p>Organizations with strong ML engineering should skip step 1 and start with open source. The setup is slightly harder (vector database, serving infrastructure) but the long-term cost and latency advantages are substantial. Conversely, organizations without GPU infrastructure or ML expertise should stay on APIs indefinitely. The convenience premium is worth the cost.</p>
+
+<p>Production systems should always run a small evaluation before committing. Download a few thousand documents and their click-through or relevance labels. Embed them with both models. Measure Recall@10 and Recall@50 on your actual queries. A 1 to 2 percentage point difference in retrieval quality on your task is usually not worth switching models, but a 5+ percentage point difference is substantial and worth the operational cost of a new system.</p>
+
+<h2>Practical next steps</h2>
+
+<p>Start by identifying your embedding volume and latency requirements. Sketch out a simple cost model: (API tokens per month) * (price per million tokens). Cross-reference that against the cost of running a self-hosted model on your infrastructure. Most teams will find that APIs are cost-effective for the first 12 months and self-hosting becomes attractive only as volume scales into hundreds of millions of tokens monthly.</p>
+
+<p>In parallel, benchmark the top 3 models on your actual corpus and queries. Do not rely on MTEB scores alone. A 30-minute evaluation on your data is worth weeks of reading benchmark leaderboards. Use that evaluation to pick your initial model. Plan a 6-month review to reassess as models improve and your requirements clarify. The embedding model landscape is moving fast, but it has stabilized enough that a 6-month window without re-evaluation is reasonable before you start leaving quality or cost on the table.</p></div>
+
+      <section style="margin-top: var(--space-8);">
+        <h2 style="margin-bottom: var(--space-5);">Frequently asked questions</h2>
+        <div class="faq-list">
+    <details class="faq-item" style="border-bottom:1px solid var(--color-rule);padding:var(--space-4) 0;">
+      <summary style="cursor:pointer;font-weight:600;font-size:var(--text-md);list-style:none;display:flex;justify-content:space-between;align-items:flex-start;gap:var(--space-3);">
+        <span>What is an embedding model and why do I need one?</span>
+        <span aria-hidden="true" style="color:var(--color-ink-faint);font-weight:400;flex-shrink:0;">+</span>
+      </summary>
+      <div style="margin-top:var(--space-3);color:var(--color-ink-muted);line-height:1.7;">
+        <p>An embedding model converts text into high-dimensional vectors that capture semantic meaning. You need one for semantic search, RAG systems, clustering, and recommendation engines because traditional keyword matching misses intent and context.</p>
+      </div>
+    </details>
+
+    <details class="faq-item" style="border-bottom:1px solid var(--color-rule);padding:var(--space-4) 0;">
+      <summary style="cursor:pointer;font-weight:600;font-size:var(--text-md);list-style:none;display:flex;justify-content:space-between;align-items:flex-start;gap:var(--space-3);">
+        <span>What does MTEB score mean?</span>
+        <span aria-hidden="true" style="color:var(--color-ink-faint);font-weight:400;flex-shrink:0;">+</span>
+      </summary>
+      <div style="margin-top:var(--space-3);color:var(--color-ink-muted);line-height:1.7;">
+        <p>MTEB (Massive Text Embedding Benchmark) is the standard evaluation suite for text embeddings across tasks like retrieval, clustering, and semantic similarity. Higher scores indicate better semantic understanding. Most modern models score between 50 and 70 across the benchmark suite.</p>
+      </div>
+    </details>
+
+    <details class="faq-item" style="border-bottom:1px solid var(--color-rule);padding:var(--space-4) 0;">
+      <summary style="cursor:pointer;font-weight:600;font-size:var(--text-md);list-style:none;display:flex;justify-content:space-between;align-items:flex-start;gap:var(--space-3);">
+        <span>Should I use OpenAI&#39;s embedding model or open source?</span>
+        <span aria-hidden="true" style="color:var(--color-ink-faint);font-weight:400;flex-shrink:0;">+</span>
+      </summary>
+      <div style="margin-top:var(--space-3);color:var(--color-ink-muted);line-height:1.7;">
+        <p>Use OpenAI if you need top retrieval quality and can tolerate API costs and latency. Use open source if you need local inference, lower per-token costs at scale, or control over data. Open source models have closed the quality gap significantly since 2024.</p>
+      </div>
+    </details>
+
+    <details class="faq-item" style="border-bottom:1px solid var(--color-rule);padding:var(--space-4) 0;">
+      <summary style="cursor:pointer;font-weight:600;font-size:var(--text-md);list-style:none;display:flex;justify-content:space-between;align-items:flex-start;gap:var(--space-3);">
+        <span>How much does embedding cost?</span>
+        <span aria-hidden="true" style="color:var(--color-ink-faint);font-weight:400;flex-shrink:0;">+</span>
+      </summary>
+      <div style="margin-top:var(--space-3);color:var(--color-ink-muted);line-height:1.7;">
+        <p>OpenAI text-embedding-3-small costs $0.02 per 1M tokens; text-embedding-3-large costs $0.13 per 1M tokens. Open source models have zero marginal cost once deployed. Cohere&#39;s embed-english-v3.0 runs $0.10 per 1M tokens. Real costs depend on query and document volumes.</p>
+      </div>
+    </details>
+
+    <details class="faq-item" style="border-bottom:1px solid var(--color-rule);padding:var(--space-4) 0;">
+      <summary style="cursor:pointer;font-weight:600;font-size:var(--text-md);list-style:none;display:flex;justify-content:space-between;align-items:flex-start;gap:var(--space-3);">
+        <span>Can embedding models handle multiple languages?</span>
+        <span aria-hidden="true" style="color:var(--color-ink-faint);font-weight:400;flex-shrink:0;">+</span>
+      </summary>
+      <div style="margin-top:var(--space-3);color:var(--color-ink-muted);line-height:1.7;">
+        <p>Yes, but with variation. OpenAI and Cohere support 100+ languages in a single model. Open source multilingual models like multilingual-e5-large support 100+ languages but often at lower performance than English-only variants on English-specific tasks.</p>
+      </div>
+    </details>
+
+    <details class="faq-item" style="border-bottom:1px solid var(--color-rule);padding:var(--space-4) 0;">
+      <summary style="cursor:pointer;font-weight:600;font-size:var(--text-md);list-style:none;display:flex;justify-content:space-between;align-items:flex-start;gap:var(--space-3);">
+        <span>What latency should I expect?</span>
+        <span aria-hidden="true" style="color:var(--color-ink-faint);font-weight:400;flex-shrink:0;">+</span>
+      </summary>
+      <div style="margin-top:var(--space-3);color:var(--color-ink-muted);line-height:1.7;">
+        <p>OpenAI API calls add 100-500ms round-trip latency. Self-hosted open source models run in 5-50ms on modern GPUs depending on model size. Cohere API adds similar latency to OpenAI. Batch processing reduces per-token latency but increases absolute time.</p>
+      </div>
+    </details>
+
+    <details class="faq-item" style="border-bottom:1px solid var(--color-rule);padding:var(--space-4) 0;">
+      <summary style="cursor:pointer;font-weight:600;font-size:var(--text-md);list-style:none;display:flex;justify-content:space-between;align-items:flex-start;gap:var(--space-3);">
+        <span>How do I choose embedding dimensions?</span>
+        <span aria-hidden="true" style="color:var(--color-ink-faint);font-weight:400;flex-shrink:0;">+</span>
+      </summary>
+      <div style="margin-top:var(--space-3);color:var(--color-ink-muted);line-height:1.7;">
+        <p>OpenAI text-embedding-3-small uses 512 dimensions, text-embedding-3-large uses 3072. Smaller dimensions reduce storage and search time; larger dimensions preserve more information. 768-1024 dimensions is a practical sweet spot for open source models. Test on your specific retrieval task.</p>
+      </div>
+    </details></div>
+      </section>
+          <p style="font-size:var(--text-xs);color:var(--color-ink-faint);margin-top:var(--space-6);padding-top:var(--space-4);border-top:1px solid var(--color-rule);">
+            An <strong>AI Glimpse</strong> explainer. We update this guide as the field evolves.
+          </p>
+        </div>
+      </section>
+    </article>
+    <section class="section" aria-label="Related articles">
+      <div class="container container--narrow">
+        <div class="section-header">
+          <h2 class="section-title">More from AI Glimpse</h2>
+          <a href="/categories/research" class="section-link">All Research stories</a>
+        </div>
+        <div class="grid grid-3">
+          <article class="card card--medium">
+            <a href="/articles/researchers-replace-sequential-speech-recognition-with-parallel-diffusion-bce59a39"><div class="card-image"><picture><source srcset="/images/articles/researchers-replace-sequential-speech-recognition-with-parallel-diffusion-bce59a39.webp" type="image/webp"><img src="/images/articles/researchers-replace-sequential-speech-recognition-with-parallel-diffusion-bce59a39.jpg" alt="Researchers Replace Sequential Speech Recognition with Parallel Diffusion" loading="lazy" width="1200" height="630"></picture></div></a>
+            <div class="card-meta">
+              <span class="tag tag--research">Research</span>
+              <span class="card-byline"><time datetime="2026-07-14T17:53:22.000Z">Jul 14, 2026</time></span>
+            </div>
+            <a href="/articles/researchers-replace-sequential-speech-recognition-with-parallel-diffusion-bce59a39"><h3 class="card-title">Researchers Replace Sequential Speech Recognition with Parallel Diffusion</h3></a>
+          </article>
+          <article class="card card--medium">
+            <a href="/articles/researchers-show-ai-agents-waste-resources-on-trivial-tasks-35d5f9b6"><div class="card-image"><picture><source srcset="/images/articles/researchers-show-ai-agents-waste-resources-on-trivial-tasks-35d5f9b6.webp" type="image/webp"><img src="/images/articles/researchers-show-ai-agents-waste-resources-on-trivial-tasks-35d5f9b6.jpg" alt="Researchers Show AI Agents Waste Resources on Trivial Tasks" loading="lazy" width="1200" height="630"></picture></div></a>
+            <div class="card-meta">
+              <span class="tag tag--research">Research</span>
+              <span class="card-byline"><time datetime="2026-07-14T17:59:31.000Z">Jul 14, 2026</time></span>
+            </div>
+            <a href="/articles/researchers-show-ai-agents-waste-resources-on-trivial-tasks-35d5f9b6"><h3 class="card-title">Researchers Show AI Agents Waste Resources on Trivial Tasks</h3></a>
+          </article>
+          <article class="card card--medium">
+            <a href="/articles/google-deepmind-launches-ai-tutor-to-guide-indian-robotics-educators-ee9f9867"><div class="card-image"><picture><source srcset="/images/articles/google-deepmind-launches-ai-tutor-to-guide-indian-robotics-educators-ee9f9867.webp" type="image/webp"><img src="/images/articles/google-deepmind-launches-ai-tutor-to-guide-indian-robotics-educators-ee9f9867.jpg" alt="Google DeepMind Launches AI Tutor to Guide Indian Robotics Educators" loading="lazy" width="1200" height="630"></picture></div></a>
+            <div class="card-meta">
+              <span class="tag tag--research">Research</span>
+              <span class="card-byline"><time datetime="2026-07-13T12:37:28.000Z">Jul 13, 2026</time></span>
+            </div>
+            <a href="/articles/google-deepmind-launches-ai-tutor-to-guide-indian-robotics-educators-ee9f9867"><h3 class="card-title">Google DeepMind Launches AI Tutor to Guide Indian Robotics Educators</h3></a>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="/" class="logo">
+            <span class="logo-wordmark" aria-label="AI Glimpse">A<span class="iris-i" aria-hidden="true">ı</span><span aria-hidden="true"> Glimpse</span></span>
+          </a>
+          <p>Your daily glimpse into AI. Independent reporting and analysis on the people, products, and policies shaping artificial intelligence.</p>
+        </div>
+        <div class="footer-col">
+          <h5>Categories</h5>
+          <ul>
+            <li><a href="/categories/llms">LLMs</a></li>
+            <li><a href="/categories/research">Research</a></li>
+            <li><a href="/categories/tools">Tools</a></li>
+            <li><a href="/categories/business">Business</a></li>
+            <li><a href="/categories/ethics">Ethics</a></li>
+            <li><a href="/categories/industry">Industry</a></li>
+            <li><a href="/categories/robotics">Robotics</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h5>About</h5>
+          <ul>
+            <li><a href="/pages/about">About AI Glimpse</a></li>
+            <li><a href="/pages/contact">Contact</a></li>
+            <li><a href="/pages/editorial">Editorial Standards</a></li>
+            <li><a href="/pages/advertise">Advertise</a></li>
+            <li><a href="/guides.html">Guides &amp; Explainers</a></li>
+            <li><a href="/search">Search</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h5>Legal</h5>
+          <ul>
+            <li><a href="/pages/privacy">Privacy Policy</a></li>
+            <li><a href="/pages/terms">Terms of Service</a></li>
+            <li><a href="#" data-consent-open>Cookie preferences</a></li>
+            <li><a href="/rss.xml">RSS Feed</a></li>
+            <li><a href="/sitemap.xml">Sitemap</a></li>
+            <li><a href="/llms.txt">LLMs.txt</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div>© <span id="year">2026</span> AI Glimpse · aiglimpse.ai</div>
+        <div class="footer-social">
+          <a href="#" aria-label="X (Twitter)"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></a>
+          <a href="#" aria-label="LinkedIn"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.063 2.063 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg></a>
+          <a href="/rss.xml" aria-label="RSS"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M6.503 20.752c0 1.794-1.456 3.248-3.251 3.248-1.796 0-3.252-1.454-3.252-3.248 0-1.794 1.456-3.248 3.252-3.248 1.795 0 3.251 1.454 3.251 3.248zm-6.503-12.572v4.811c6.05.062 10.96 4.966 11.022 11.009h4.817c-.062-8.71-7.118-15.758-15.839-15.82zm0-3.368c10.58.046 19.152 8.594 19.183 19.188h4.817c-.03-13.231-10.755-23.954-24-24v4.812z"/></svg></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="/js/chrome.js"></script>
+  <script src="/js/main.js"></script>
+</body>
+</html>

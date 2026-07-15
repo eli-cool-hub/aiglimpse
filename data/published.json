@@ -1,6 +1,18 @@
 {
   "articles": [
     {
+      "slug": "embedding-models-compared-2026",
+      "title": "Embedding Models Compared: OpenAI, Cohere, Open Source 2026",
+      "subtitle": "Choose the right text embeddings for semantic search and RAG with benchmark data, cost analysis, and latency trade-offs",
+      "category": "research",
+      "publishedAt": "2026-07-15T07:53:38.725Z",
+      "sourceUrl": null,
+      "sourceName": "AI Glimpse Newsroom",
+      "sourceTier": 0,
+      "image": "/images/articles/embedding-models-compared-2026.jpg",
+      "evergreen": true
+    },
+    {
       "slug": "researchers-replace-sequential-speech-recognition-with-parallel-diffusion-bce59a39",
       "title": "Researchers Replace Sequential Speech Recognition with Parallel Diffusion",
       "subtitle": "New approach transcribes audio by refining entire outputs simultaneously rather than generating tokens one at a time.",

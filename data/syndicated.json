@@ -8300,6 +8300,24 @@
         "devto": true,
         "hashnode": false
       }
+    },
+    "embedding-models-compared-2026": {
+      "syndicated_at": "2026-07-15T07:53:40.615Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/embedding-models-compared-openai-cohere-open-source-2026-17oo",
+      "hashnode": null,
+      "gates": {
+        "medium": true,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 2710,
+      "category": "research",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
     }
   }
 }
