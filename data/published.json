@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "unlabeled-data-boosts-neural-decoding-for-brain-computer-interfaces-893957ca",
+      "title": "Unlabeled Data Boosts Neural Decoding for Brain-Computer Interfaces",
+      "subtitle": "New training method combines supervised and self-supervised learning to improve brain signal interpretation with minimal labeled data.",
+      "category": "research",
+      "publishedAt": "2026-07-15T17:58:00.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2607.14086v1",
+      "sourceName": "arXiv (Ximeng Mao, Nanda H. Krishna, Avery Hee-Woon Ryoo, Matthew G…)",
+      "sourceTier": 1,
+      "image": "/images/articles/unlabeled-data-boosts-neural-decoding-for-brain-computer-interfaces-893957ca.jpg"
+    },
+    {
+      "slug": "newer-ai-models-maintain-edge-over-older-alternatives-c0e57473",
+      "title": "Newer AI Models Maintain Edge Over Older Alternatives",
+      "subtitle": "Latest research shows generational improvements in language models persist across different architectures and scales.",
+      "category": "tools",
+      "publishedAt": "2026-07-16T11:49:48.000Z",
+      "sourceUrl": "https://huggingface.co/blog/Dharma-AI/newer-models-same-advantages",
+      "sourceName": "Hugging Face",
+      "sourceTier": 1,
+      "image": "/images/articles/newer-ai-models-maintain-edge-over-older-alternatives-c0e57473.jpg"
+    },
+    {
       "slug": "thinking-machines-launches-inkling-a-new-ai-model-for-visual-reasoning-c9cb1570",
       "title": "Thinking Machines Launches Inkling, a New AI Model for Visual Reasoning",
       "subtitle": "The startup introduces a specialized language model designed to improve how AI systems understand and process visual information.",
@@ -7785,6 +7807,8 @@
     "b00e98d4e578abd0",
     "969d61502c6bee51",
     "f8b1d6b2a5d0059e",
-    "c9cb1570af23f104"
+    "c9cb1570af23f104",
+    "c0e574730220f7a6",
+    "893957ca9ab4e5e6"
   ]
 }

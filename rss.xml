@@ -7,6 +7,22 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Unlabeled Data Boosts Neural Decoding for Brain-Computer Interfaces</title>
+      <link>https://aiglimpse.ai/articles/unlabeled-data-boosts-neural-decoding-for-brain-computer-interfaces-893957ca</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/unlabeled-data-boosts-neural-decoding-for-brain-computer-interfaces-893957ca</guid>
+      <description>New training method combines supervised and self-supervised learning to improve brain signal interpretation with minimal labeled data.</description>
+      <pubDate>Wed, 15 Jul 2026 17:58:00 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
+      <title>Newer AI Models Maintain Edge Over Older Alternatives</title>
+      <link>https://aiglimpse.ai/articles/newer-ai-models-maintain-edge-over-older-alternatives-c0e57473</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/newer-ai-models-maintain-edge-over-older-alternatives-c0e57473</guid>
+      <description>Latest research shows generational improvements in language models persist across different architectures and scales.</description>
+      <pubDate>Thu, 16 Jul 2026 11:49:48 GMT</pubDate>
+      <category>AI Tools &amp; Products</category>
+    </item>
+    <item>
       <title>Thinking Machines Launches Inkling, a New AI Model for Visual Reasoning</title>
       <link>https://aiglimpse.ai/articles/thinking-machines-launches-inkling-a-new-ai-model-for-visual-reasoning-c9cb1570</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/thinking-machines-launches-inkling-a-new-ai-model-for-visual-reasoning-c9cb1570</guid>
@@ -388,22 +404,6 @@
       <guid isPermaLink="true">https://aiglimpse.ai/articles/growth-investors-recalibrate-ai-valuations-as-public-markets-diverge-dac64dc4</guid>
       <description>As public software stocks plummet while private AI funding surges, venture investors are rethinking how to measure startup success beyond traditional metrics.</description>
       <pubDate>Mon, 13 Jul 2026 11:00:52 GMT</pubDate>
-      <category>AI Business</category>
-    </item>
-    <item>
-      <title>Targeted AI Attack Exposes Gaps in Go Champion KataGo's Defenses</title>
-      <link>https://aiglimpse.ai/articles/targeted-ai-attack-exposes-gaps-in-go-champion-katagos-defenses-dee8401c</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/targeted-ai-attack-exposes-gaps-in-go-champion-katagos-defenses-dee8401c</guid>
-      <description>New research reveals that superhuman benchmark performance doesn't guarantee robustness against adversarial strategies, raising urgent questions about AI safety evaluation.</description>
-      <pubDate>Mon, 13 Jul 2026 00:00:00 GMT</pubDate>
-      <category>Ethics &amp; Policy</category>
-    </item>
-    <item>
-      <title>Tech Press Turns Skeptical on AI Industry's Feel-Good Marketing</title>
-      <link>https://aiglimpse.ai/articles/tech-press-turns-skeptical-on-ai-industrys-feel-good-marketing-bf0009f7</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/tech-press-turns-skeptical-on-ai-industrys-feel-good-marketing-bf0009f7</guid>
-      <description>A critical take on corporate AI celebrations signals shifting sentiment in mainstream tech journalism toward branded initiatives.</description>
-      <pubDate>Mon, 13 Jul 2026 00:00:00 GMT</pubDate>
       <category>AI Business</category>
     </item>
   </channel>

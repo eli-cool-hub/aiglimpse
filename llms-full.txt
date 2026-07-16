@@ -3,7 +3,7 @@
 > Machine-readable index for AI assistants, answer engines, and research crawlers.
 > Summary version: https://aiglimpse.ai/llms.txt
 
-Total articles: 648 | Evergreen explainers: 14 | Generated: 2026-07-16
+Total articles: 650 | Evergreen explainers: 14 | Generated: 2026-07-16
 
 ## Evergreen explainers
 
@@ -106,6 +106,20 @@ Total articles: 648 | Evergreen explainers: 14 | Generated: 2026-07-16
 - Type: evergreen explainer (FAQ schema on page)
 
 ## All articles (newest first)
+
+### Unlabeled Data Boosts Neural Decoding for Brain-Computer Interfaces
+- URL: https://aiglimpse.ai/articles/unlabeled-data-boosts-neural-decoding-for-brain-computer-interfaces-893957ca
+- Published: 2026-07-15
+- Category: research
+- Summary: New training method combines supervised and self-supervised learning to improve brain signal interpretation with minimal labeled data.
+- Source: http://arxiv.org/abs/2607.14086v1
+
+### Newer AI Models Maintain Edge Over Older Alternatives
+- URL: https://aiglimpse.ai/articles/newer-ai-models-maintain-edge-over-older-alternatives-c0e57473
+- Published: 2026-07-16
+- Category: tools
+- Summary: Latest research shows generational improvements in language models persist across different architectures and scales.
+- Source: https://huggingface.co/blog/Dharma-AI/newer-models-same-advantages
 
 ### Thinking Machines Launches Inkling, a New AI Model for Visual Reasoning
 - URL: https://aiglimpse.ai/articles/thinking-machines-launches-inkling-a-new-ai-model-for-visual-reasoning-c9cb1570
