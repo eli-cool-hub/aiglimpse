@@ -20,6 +20,8 @@ All content is original reporting by the AI Glimpse newsroom. Primary sources ar
 
 ## Recent articles
 
+- [Rust Code Generation Gets Smarter With Real-Time Compiler Feedback](https://aiglimpse.ai/articles/rust-code-generation-gets-smarter-with-real-time-compiler-feedback-0f5b4008) (2026-07-18): Researchers embed compiler errors directly into LLM decoding, moving beyond trial-and-error code generation toward integrated AI development.
+- [New Foundation Model Harnesses Recording Metadata to Improve Bird Species Detection](https://aiglimpse.ai/articles/new-foundation-model-harnesses-recording-metadata-to-improve-bird-species-detect-6029229c) (2026-07-15): Researchers show that incorporating location and temporal data alongside audio analysis produces more robust models for wildlife monitoring.
 - [EU Forces Google to Open Android AI Access, Challenging Search Dominance](https://aiglimpse.ai/articles/eu-forces-google-to-open-android-ai-access-challenging-search-dominance-8b0c67af) (2026-07-16): European regulators mandate interoperability requirements for Google's AI and search services under the Digital Markets Act, reshaping competition.
 - [Researchers Propose Game Engine Model for AI-Driven Interactive Worlds](https://aiglimpse.ai/articles/researchers-propose-game-engine-model-for-ai-driven-interactive-worlds-56cb4964) (2026-07-15): New framework treats video generation models as game engines, addressing critical gaps in real-time interactivity and persistent state management.
 - [Cars24 Deploys AI Agents to Handle 1M Monthly Conversations](https://aiglimpse.ai/articles/cars24-deploys-ai-agents-to-handle-1m-monthly-conversations-a23d3291) (2026-07-16): The used-car marketplace leverages large language models to automate customer service and recover millions in abandoned sales.
@@ -48,8 +50,6 @@ All content is original reporting by the AI Glimpse newsroom. Primary sources ar
 - [Researchers Replace Sequential Speech Recognition with Parallel Diffusion](https://aiglimpse.ai/articles/researchers-replace-sequential-speech-recognition-with-parallel-diffusion-bce59a39) (2026-07-14): New approach transcribes audio by refining entire outputs simultaneously rather than generating tokens one at a time.
 - [Researchers Show AI Agents Waste Resources on Trivial Tasks](https://aiglimpse.ai/articles/researchers-show-ai-agents-waste-resources-on-trivial-tasks-35d5f9b6) (2026-07-14): New framework helps AI systems distinguish between simple and complex work, cutting resource consumption by up to 91 percent.
 - [Anthropic's Super Bowl Ad Backfires, Drawing Criticism From AI Peers](https://aiglimpse.ai/articles/anthropics-super-bowl-ad-backfires-drawing-criticism-from-ai-peers-43425ddd) (2026-07-15): A primetime safety-focused campaign undermines trust messaging at the worst possible moment for the AI industry.
-- [Google DeepMind Launches AI Tutor to Guide Indian Robotics Educators](https://aiglimpse.ai/articles/google-deepmind-launches-ai-tutor-to-guide-indian-robotics-educators-ee9f9867) (2026-07-13): A Gemini-powered assistant aims to democratize AI instruction in India's school laboratories, reaching thousands of teachers.
-- [OpenAI Plans Mobile Speaker as First Hardware Device](https://aiglimpse.ai/articles/openai-plans-mobile-speaker-as-first-hardware-device-85549e7e) (2026-07-14): The company's entry into consumer hardware signals a shift toward embodied AI experiences beyond software interfaces.
 
 ## Explainers (evergreen)
 
@@ -72,7 +72,7 @@ All content is original reporting by the AI Glimpse newsroom. Primary sources ar
 
 - [Sitemap](https://aiglimpse.ai/sitemap.xml): All article URLs with publish dates (Google News format).
 - [RSS](https://aiglimpse.ai/rss.xml): 50 most recent articles (RSS 2.0).
-- [Full content index](https://aiglimpse.ai/llms-full.txt): Extended article list for LLM crawlers (657 articles).
+- [Full content index](https://aiglimpse.ai/llms-full.txt): Extended article list for LLM crawlers (659 articles).
 
 ## About
 

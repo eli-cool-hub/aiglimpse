@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "rust-code-generation-gets-smarter-with-real-time-compiler-feedback-0f5b4008",
+      "title": "Rust Code Generation Gets Smarter With Real-Time Compiler Feedback",
+      "subtitle": "Researchers embed compiler errors directly into LLM decoding, moving beyond trial-and-error code generation toward integrated AI development.",
+      "category": "llms",
+      "publishedAt": "2026-07-18T00:00:00.000Z",
+      "sourceUrl": "https://arxiv.org/abs/2607.13921",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/rust-code-generation-gets-smarter-with-real-time-compiler-feedback-0f5b4008.jpg"
+    },
+    {
+      "slug": "new-foundation-model-harnesses-recording-metadata-to-improve-bird-species-detect-6029229c",
+      "title": "New Foundation Model Harnesses Recording Metadata to Improve Bird Species Detection",
+      "subtitle": "Researchers show that incorporating location and temporal data alongside audio analysis produces more robust models for wildlife monitoring.",
+      "category": "research",
+      "publishedAt": "2026-07-15T17:42:41.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2607.14072v1",
+      "sourceName": "arXiv (Mustafa Chasmai, Vincent Dumoulin, Jenny Hamer)",
+      "sourceTier": 1,
+      "image": "/images/articles/new-foundation-model-harnesses-recording-metadata-to-improve-bird-species-detect-6029229c.jpg"
+    },
+    {
       "slug": "eu-forces-google-to-open-android-ai-access-challenging-search-dominance-8b0c67af",
       "title": "EU Forces Google to Open Android AI Access, Challenging Search Dominance",
       "subtitle": "European regulators mandate interoperability requirements for Google's AI and search services under the Digital Markets Act, reshaping competition.",
@@ -7893,6 +7915,8 @@
     "95827ce4d781a58c",
     "a23d32910dc745d1",
     "56cb4964d43b79b8",
-    "8b0c67af35cf9af0"
+    "8b0c67af35cf9af0",
+    "6029229ca9702b7a",
+    "0f5b400814ff6ac5"
   ]
 }

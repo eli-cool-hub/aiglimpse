@@ -3,7 +3,7 @@
 > Machine-readable index for AI assistants, answer engines, and research crawlers.
 > Summary version: https://aiglimpse.ai/llms.txt
 
-Total articles: 657 | Evergreen explainers: 14 | Generated: 2026-07-16
+Total articles: 659 | Evergreen explainers: 14 | Generated: 2026-07-16
 
 ## Evergreen explainers
 
@@ -106,6 +106,20 @@ Total articles: 657 | Evergreen explainers: 14 | Generated: 2026-07-16
 - Type: evergreen explainer (FAQ schema on page)
 
 ## All articles (newest first)
+
+### Rust Code Generation Gets Smarter With Real-Time Compiler Feedback
+- URL: https://aiglimpse.ai/articles/rust-code-generation-gets-smarter-with-real-time-compiler-feedback-0f5b4008
+- Published: 2026-07-18
+- Category: llms
+- Summary: Researchers embed compiler errors directly into LLM decoding, moving beyond trial-and-error code generation toward integrated AI development.
+- Source: https://arxiv.org/abs/2607.13921
+
+### New Foundation Model Harnesses Recording Metadata to Improve Bird Species Detection
+- URL: https://aiglimpse.ai/articles/new-foundation-model-harnesses-recording-metadata-to-improve-bird-species-detect-6029229c
+- Published: 2026-07-15
+- Category: research
+- Summary: Researchers show that incorporating location and temporal data alongside audio analysis produces more robust models for wildlife monitoring.
+- Source: http://arxiv.org/abs/2607.14072v1
 
 ### EU Forces Google to Open Android AI Access, Challenging Search Dominance
 - URL: https://aiglimpse.ai/articles/eu-forces-google-to-open-android-ai-access-challenging-search-dominance-8b0c67af

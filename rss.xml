@@ -7,6 +7,22 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Rust Code Generation Gets Smarter With Real-Time Compiler Feedback</title>
+      <link>https://aiglimpse.ai/articles/rust-code-generation-gets-smarter-with-real-time-compiler-feedback-0f5b4008</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/rust-code-generation-gets-smarter-with-real-time-compiler-feedback-0f5b4008</guid>
+      <description>Researchers embed compiler errors directly into LLM decoding, moving beyond trial-and-error code generation toward integrated AI development.</description>
+      <pubDate>Sat, 18 Jul 2026 00:00:00 GMT</pubDate>
+      <category>LLMs &amp; Chatbots</category>
+    </item>
+    <item>
+      <title>New Foundation Model Harnesses Recording Metadata to Improve Bird Species Detection</title>
+      <link>https://aiglimpse.ai/articles/new-foundation-model-harnesses-recording-metadata-to-improve-bird-species-detect-6029229c</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-foundation-model-harnesses-recording-metadata-to-improve-bird-species-detect-6029229c</guid>
+      <description>Researchers show that incorporating location and temporal data alongside audio analysis produces more robust models for wildlife monitoring.</description>
+      <pubDate>Wed, 15 Jul 2026 17:42:41 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
       <title>EU Forces Google to Open Android AI Access, Challenging Search Dominance</title>
       <link>https://aiglimpse.ai/articles/eu-forces-google-to-open-android-ai-access-challenging-search-dominance-8b0c67af</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/eu-forces-google-to-open-android-ai-access-challenging-search-dominance-8b0c67af</guid>
@@ -389,22 +405,6 @@
       <description>The company's redesigned voice assistant now anchors the entire iOS experience, signaling a shift toward AI-first mobile computing.</description>
       <pubDate>Mon, 13 Jul 2026 21:39:09 GMT</pubDate>
       <category>AI Tools &amp; Products</category>
-    </item>
-    <item>
-      <title>Study: AI Patient Message Drafts Often Require More Editing Than Manual Writing</title>
-      <link>https://aiglimpse.ai/articles/study-ai-patient-message-drafts-often-require-more-editing-than-manual-writing-48c22885</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/study-ai-patient-message-drafts-often-require-more-editing-than-manual-writing-48c22885</guid>
-      <description>Dartmouth researchers find that large language models struggle with clinical reasoning, potentially increasing physician workload rather than reducing it.</description>
-      <pubDate>Mon, 13 Jul 2026 22:04:31 GMT</pubDate>
-      <category>Industry Applications</category>
-    </item>
-    <item>
-      <title>Specialized Clinical AI Tool Outperforms GPT-5.5 in Physician Study</title>
-      <link>https://aiglimpse.ai/articles/specialized-clinical-ai-tool-outperforms-gpt-55-in-physician-study-3523f004</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/specialized-clinical-ai-tool-outperforms-gpt-55-in-physician-study-3523f004</guid>
-      <description>A new evaluation contradicts earlier findings, adding uncertainty to hospitals' decisions about general-purpose versus dedicated medical AI systems.</description>
-      <pubDate>Mon, 13 Jul 2026 20:00:30 GMT</pubDate>
-      <category>Industry Applications</category>
     </item>
   </channel>
 </rss>

@@ -8750,6 +8750,42 @@
         "devto": true,
         "hashnode": false
       }
+    },
+    "new-foundation-model-harnesses-recording-metadata-to-improve-bird-species-detect-6029229c": {
+      "syndicated_at": "2026-07-16T22:58:18.116Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/new-foundation-model-harnesses-recording-metadata-to-improve-bird-species-detection-a6o",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 468,
+      "category": "research",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
+    },
+    "rust-code-generation-gets-smarter-with-real-time-compiler-feedback-0f5b4008": {
+      "syndicated_at": "2026-07-16T22:58:28.805Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/rust-code-generation-gets-smarter-with-real-time-compiler-feedback-3kon",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 464,
+      "category": "llms",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
     }
   }
 }
