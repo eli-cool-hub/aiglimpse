@@ -8660,6 +8660,42 @@
         "devto": true,
         "hashnode": false
       }
+    },
+    "nvidias-nemotron-3-embed-tops-retrieval-benchmark-30e70df6": {
+      "syndicated_at": "2026-07-16T17:19:05.380Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/nvidias-nemotron-3-embed-tops-retrieval-benchmark-cbc",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 421,
+      "category": "tools",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
+    },
+    "openai-implements-teen-focused-safeguards-for-chatgpt-access-95827ce4": {
+      "syndicated_at": "2026-07-16T17:19:16.125Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/openai-implements-teen-focused-safeguards-for-chatgpt-access-cjf",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 492,
+      "category": "llms",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
     }
   }
 }

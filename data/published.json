@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "openai-implements-teen-focused-safeguards-for-chatgpt-access-95827ce4",
+      "title": "OpenAI Implements Teen-Focused Safeguards for ChatGPT Access",
+      "subtitle": "The AI company deploys age-appropriate controls and parental oversight tools to make large language models safer for younger users.",
+      "category": "llms",
+      "publishedAt": "2026-07-16T16:00:00.000Z",
+      "sourceUrl": "https://openai.com/index/why-teens-deserve-access-safe-ai",
+      "sourceName": "OpenAI",
+      "sourceTier": 1,
+      "image": "/images/articles/openai-implements-teen-focused-safeguards-for-chatgpt-access-95827ce4.jpg"
+    },
+    {
+      "slug": "nvidias-nemotron-3-embed-tops-retrieval-benchmark-30e70df6",
+      "title": "NVIDIA's Nemotron 3 Embed Tops Retrieval Benchmark",
+      "subtitle": "New embedding model achieves state-of-the-art performance, signaling advances in retrieval systems for AI agents.",
+      "category": "tools",
+      "publishedAt": "2026-07-16T16:01:21.000Z",
+      "sourceUrl": "https://huggingface.co/blog/nvidia/nemotron-3-embed-wins-rteb",
+      "sourceName": "Hugging Face",
+      "sourceTier": 1,
+      "image": "/images/articles/nvidias-nemotron-3-embed-tops-retrieval-benchmark-30e70df6.jpg"
+    },
+    {
       "slug": "new-math-framework-simplifies-signal-separation-in-machine-learning-8c1e1c6e",
       "title": "New Math Framework Simplifies Signal Separation in Machine Learning",
       "subtitle": "Researchers propose optimal transport method for independent component analysis, eliminating restrictive distributional assumptions.",
@@ -7833,6 +7855,8 @@
     "c0e574730220f7a6",
     "893957ca9ab4e5e6",
     "3e3417e9ef640769",
-    "8c1e1c6e0e932dad"
+    "8c1e1c6e0e932dad",
+    "30e70df666fb760e",
+    "95827ce4d781a58c"
   ]
 }
