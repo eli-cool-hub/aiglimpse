@@ -3,7 +3,7 @@
 > Machine-readable index for AI assistants, answer engines, and research crawlers.
 > Summary version: https://aiglimpse.ai/llms.txt
 
-Total articles: 650 | Evergreen explainers: 14 | Generated: 2026-07-16
+Total articles: 652 | Evergreen explainers: 14 | Generated: 2026-07-16
 
 ## Evergreen explainers
 
@@ -106,6 +106,20 @@ Total articles: 650 | Evergreen explainers: 14 | Generated: 2026-07-16
 - Type: evergreen explainer (FAQ schema on page)
 
 ## All articles (newest first)
+
+### New Math Framework Simplifies Signal Separation in Machine Learning
+- URL: https://aiglimpse.ai/articles/new-math-framework-simplifies-signal-separation-in-machine-learning-8c1e1c6e
+- Published: 2026-07-15
+- Category: research
+- Summary: Researchers propose optimal transport method for independent component analysis, eliminating restrictive distributional assumptions.
+- Source: http://arxiv.org/abs/2607.14081v1
+
+### Hugging Face Discloses Security Breach Affecting Model Repository
+- URL: https://aiglimpse.ai/articles/hugging-face-discloses-security-breach-affecting-model-repository-3e3417e9
+- Published: 2026-07-16
+- Category: tools
+- Summary: The AI model hub reveals unauthorized access incident, raising questions about security practices across the open-source machine learning ecosystem.
+- Source: https://huggingface.co/blog/security-incident-july-2026
 
 ### Unlabeled Data Boosts Neural Decoding for Brain-Computer Interfaces
 - URL: https://aiglimpse.ai/articles/unlabeled-data-boosts-neural-decoding-for-brain-computer-interfaces-893957ca

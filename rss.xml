@@ -7,6 +7,22 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>New Math Framework Simplifies Signal Separation in Machine Learning</title>
+      <link>https://aiglimpse.ai/articles/new-math-framework-simplifies-signal-separation-in-machine-learning-8c1e1c6e</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-math-framework-simplifies-signal-separation-in-machine-learning-8c1e1c6e</guid>
+      <description>Researchers propose optimal transport method for independent component analysis, eliminating restrictive distributional assumptions.</description>
+      <pubDate>Wed, 15 Jul 2026 17:56:11 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
+      <title>Hugging Face Discloses Security Breach Affecting Model Repository</title>
+      <link>https://aiglimpse.ai/articles/hugging-face-discloses-security-breach-affecting-model-repository-3e3417e9</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/hugging-face-discloses-security-breach-affecting-model-repository-3e3417e9</guid>
+      <description>The AI model hub reveals unauthorized access incident, raising questions about security practices across the open-source machine learning ecosystem.</description>
+      <pubDate>Thu, 16 Jul 2026 00:00:00 GMT</pubDate>
+      <category>AI Tools &amp; Products</category>
+    </item>
+    <item>
       <title>Unlabeled Data Boosts Neural Decoding for Brain-Computer Interfaces</title>
       <link>https://aiglimpse.ai/articles/unlabeled-data-boosts-neural-decoding-for-brain-computer-interfaces-893957ca</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/unlabeled-data-boosts-neural-decoding-for-brain-computer-interfaces-893957ca</guid>
@@ -388,22 +404,6 @@
       <guid isPermaLink="true">https://aiglimpse.ai/articles/google-brings-gemini-ai-to-waze-navigation-app-53cb7d07</guid>
       <description>Navigation service integrates LLM capabilities as Google pushes AI across its product lineup to challenge Apple Maps.</description>
       <pubDate>Mon, 13 Jul 2026 14:18:16 GMT</pubDate>
-      <category>AI Business</category>
-    </item>
-    <item>
-      <title>Anthropic's AI Claims Face Scrutiny From Programming Community</title>
-      <link>https://aiglimpse.ai/articles/anthropics-ai-claims-face-scrutiny-from-programming-community-0103dda9</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/anthropics-ai-claims-face-scrutiny-from-programming-community-0103dda9</guid>
-      <description>A heated debate emerges over how AI companies characterize their models' capabilities versus real-world performance.</description>
-      <pubDate>Mon, 13 Jul 2026 08:39:39 GMT</pubDate>
-      <category>AI Tools &amp; Products</category>
-    </item>
-    <item>
-      <title>Growth Investors Recalibrate AI Valuations as Public Markets Diverge</title>
-      <link>https://aiglimpse.ai/articles/growth-investors-recalibrate-ai-valuations-as-public-markets-diverge-dac64dc4</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/growth-investors-recalibrate-ai-valuations-as-public-markets-diverge-dac64dc4</guid>
-      <description>As public software stocks plummet while private AI funding surges, venture investors are rethinking how to measure startup success beyond traditional metrics.</description>
-      <pubDate>Mon, 13 Jul 2026 11:00:52 GMT</pubDate>
       <category>AI Business</category>
     </item>
   </channel>

@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "new-math-framework-simplifies-signal-separation-in-machine-learning-8c1e1c6e",
+      "title": "New Math Framework Simplifies Signal Separation in Machine Learning",
+      "subtitle": "Researchers propose optimal transport method for independent component analysis, eliminating restrictive distributional assumptions.",
+      "category": "research",
+      "publishedAt": "2026-07-15T17:56:11.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2607.14081v1",
+      "sourceName": "arXiv (Ashutosh Jha, Michel Besserve, Simon Buchholz)",
+      "sourceTier": 1,
+      "image": "/images/articles/new-math-framework-simplifies-signal-separation-in-machine-learning-8c1e1c6e.jpg"
+    },
+    {
+      "slug": "hugging-face-discloses-security-breach-affecting-model-repository-3e3417e9",
+      "title": "Hugging Face Discloses Security Breach Affecting Model Repository",
+      "subtitle": "The AI model hub reveals unauthorized access incident, raising questions about security practices across the open-source machine learning ecosystem.",
+      "category": "tools",
+      "publishedAt": "2026-07-16T00:00:00.000Z",
+      "sourceUrl": "https://huggingface.co/blog/security-incident-july-2026",
+      "sourceName": "Hugging Face",
+      "sourceTier": 1,
+      "image": "/images/articles/hugging-face-discloses-security-breach-affecting-model-repository-3e3417e9.jpg"
+    },
+    {
       "slug": "unlabeled-data-boosts-neural-decoding-for-brain-computer-interfaces-893957ca",
       "title": "Unlabeled Data Boosts Neural Decoding for Brain-Computer Interfaces",
       "subtitle": "New training method combines supervised and self-supervised learning to improve brain signal interpretation with minimal labeled data.",
@@ -7809,6 +7831,8 @@
     "f8b1d6b2a5d0059e",
     "c9cb1570af23f104",
     "c0e574730220f7a6",
-    "893957ca9ab4e5e6"
+    "893957ca9ab4e5e6",
+    "3e3417e9ef640769",
+    "8c1e1c6e0e932dad"
   ]
 }

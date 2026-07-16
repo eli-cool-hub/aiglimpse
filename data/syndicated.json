@@ -8624,6 +8624,42 @@
         "devto": true,
         "hashnode": false
       }
+    },
+    "hugging-face-discloses-security-breach-affecting-model-repository-3e3417e9": {
+      "syndicated_at": "2026-07-16T15:41:36.072Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/hugging-face-discloses-security-breach-affecting-model-repository-5b9b",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 409,
+      "category": "tools",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
+    },
+    "new-math-framework-simplifies-signal-separation-in-machine-learning-8c1e1c6e": {
+      "syndicated_at": "2026-07-16T15:41:45.214Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/new-math-framework-simplifies-signal-separation-in-machine-learning-1pce",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 428,
+      "category": "research",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
     }
   }
 }
