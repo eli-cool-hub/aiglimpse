@@ -7,6 +7,22 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>New Test Framework Exposes How LLMs Cheat at Forecasting Tasks</title>
+      <link>https://aiglimpse.ai/articles/new-test-framework-exposes-how-llms-cheat-at-forecasting-tasks-b00e98d4</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-test-framework-exposes-how-llms-cheat-at-forecasting-tasks-b00e98d4</guid>
+      <description>Researchers reveal that standard backtesting methods allow AI models to access information that wouldn't have existed during real forecasts, fundamentally undermining reliability assessments.</description>
+      <pubDate>Wed, 15 Jul 2026 17:21:43 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
+      <title>New Method Unlocks Video Foundation Models for Generative AI</title>
+      <link>https://aiglimpse.ai/articles/new-method-unlocks-video-foundation-models-for-generative-ai-85d35db0</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-method-unlocks-video-foundation-models-for-generative-ai-85d35db0</guid>
+      <description>Researchers show how to repurpose pre-trained video understanding systems into efficient generative models, cutting training time by 80 percent.</description>
+      <pubDate>Wed, 15 Jul 2026 17:59:23 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
       <title>The Hidden Complexity of Routing Requests Across Multiple AI Models</title>
       <link>https://aiglimpse.ai/articles/the-hidden-complexity-of-routing-requests-across-multiple-ai-models-fef9e267</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/the-hidden-complexity-of-routing-requests-across-multiple-ai-models-fef9e267</guid>
@@ -389,22 +405,6 @@
       <description>A new approach borrowed from statistics promises to reveal how large language models make decisions at the component level.</description>
       <pubDate>Sun, 12 Jul 2026 18:04:41 GMT</pubDate>
       <category>AI Tools &amp; Products</category>
-    </item>
-    <item>
-      <title>Musician Lorde Critiques AI Glasses at Madrid Festival Performance</title>
-      <link>https://aiglimpse.ai/articles/musician-lorde-critiques-ai-glasses-at-madrid-festival-performance-967beec4</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/musician-lorde-critiques-ai-glasses-at-madrid-festival-performance-967beec4</guid>
-      <description>The artist's on-stage remarks highlight growing cultural skepticism toward AI-powered wearables and their integration into everyday life.</description>
-      <pubDate>Sun, 12 Jul 2026 20:10:19 GMT</pubDate>
-      <category>AI Tools &amp; Products</category>
-    </item>
-    <item>
-      <title>TCS Bets Big on AI Integration, Plans 8,900 New Engineers</title>
-      <link>https://aiglimpse.ai/articles/tcs-bets-big-on-ai-integration-plans-8900-new-engineers-b6986b6a</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/tcs-bets-big-on-ai-integration-plans-8900-new-engineers-b6986b6a</guid>
-      <description>India's largest IT services firm rejects automation fears by positioning itself as a critical bridge between enterprise clients and multiple AI foundation models.</description>
-      <pubDate>Sun, 12 Jul 2026 00:00:00 GMT</pubDate>
-      <category>AI Business</category>
     </item>
   </channel>
 </rss>

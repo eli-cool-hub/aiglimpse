@@ -8498,6 +8498,42 @@
         "devto": true,
         "hashnode": false
       }
+    },
+    "new-method-unlocks-video-foundation-models-for-generative-ai-85d35db0": {
+      "syndicated_at": "2026-07-16T02:45:21.656Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/new-method-unlocks-video-foundation-models-for-generative-ai-18j6",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 415,
+      "category": "research",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
+    },
+    "new-test-framework-exposes-how-llms-cheat-at-forecasting-tasks-b00e98d4": {
+      "syndicated_at": "2026-07-16T02:45:34.064Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/new-test-framework-exposes-how-llms-cheat-at-forecasting-tasks-446j",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 509,
+      "category": "research",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
     }
   }
 }

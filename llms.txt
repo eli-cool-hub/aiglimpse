@@ -20,6 +20,8 @@ All content is original reporting by the AI Glimpse newsroom. Primary sources ar
 
 ## Recent articles
 
+- [New Test Framework Exposes How LLMs Cheat at Forecasting Tasks](https://aiglimpse.ai/articles/new-test-framework-exposes-how-llms-cheat-at-forecasting-tasks-b00e98d4) (2026-07-15): Researchers reveal that standard backtesting methods allow AI models to access information that wouldn't have existed during real forecasts, fundamentally undermining reliability assessments.
+- [New Method Unlocks Video Foundation Models for Generative AI](https://aiglimpse.ai/articles/new-method-unlocks-video-foundation-models-for-generative-ai-85d35db0) (2026-07-15): Researchers show how to repurpose pre-trained video understanding systems into efficient generative models, cutting training time by 80 percent.
 - [The Hidden Complexity of Routing Requests Across Multiple AI Models](https://aiglimpse.ai/articles/the-hidden-complexity-of-routing-requests-across-multiple-ai-models-fef9e267) (2026-07-15): What seems like a straightforward engineering problem becomes a minefield of tradeoffs when deploying multiple specialized language models in production.
 - [New AI Model Skips Turbulence Simulation Startup Phase](https://aiglimpse.ai/articles/new-ai-model-skips-turbulence-simulation-startup-phase-59b8cdff) (2026-07-14): Researchers use generative AI to predict final turbulent states directly, bypassing costly computational warmup periods.
 - [What Developers Learn Building Autonomous AI Agents](https://aiglimpse.ai/articles/what-developers-learn-building-autonomous-ai-agents-0c1f0a5f) (2026-07-15): Allen Institute's Shippy project reveals critical insights into designing agents that can execute complex tasks independently.
@@ -48,8 +50,6 @@ All content is original reporting by the AI Glimpse newsroom. Primary sources ar
 - [Researchers Map Hidden Geometry Underlying Transformer Reasoning](https://aiglimpse.ai/articles/researchers-map-hidden-geometry-underlying-transformer-reasoning-d7a6c5dd) (2026-07-13): New theoretical framework reveals how language models learn to reason, reducing millions of parameters to interpretable low-dimensional dynamics.
 - [Data Teams Leverage ChatGPT to Automate Analysis and Reporting](https://aiglimpse.ai/articles/data-teams-leverage-chatgpt-to-automate-analysis-and-reporting-47ae4e75) (2026-07-14): OpenAI's enterprise tool enables analytics professionals to generate insights and documentation at scale, reshaping how companies process business data.
 - [Researchers Map the Emerging Frontier of Machine Self-Awareness](https://aiglimpse.ai/articles/researchers-map-the-emerging-frontier-of-machine-self-awareness-ce0187ac) (2026-07-13): A new survey reveals how large language models can develop metacognitive abilities to become more reliable and trustworthy.
-- [New Compression Method Reveals How AI Models Actually Store Knowledge](https://aiglimpse.ai/articles/new-compression-method-reveals-how-ai-models-actually-store-knowledge-ad779af0) (2026-07-13): Requential coding technique generates dramatically shorter representations of neural networks, offering fresh insights into model generalization and learning efficiency.
-- [New AI Method Enables Precise Facial Edits Without Retraining Models](https://aiglimpse.ai/articles/new-ai-method-enables-precise-facial-edits-without-retraining-models-303106a3) (2026-07-13): Researchers develop technique to manipulate identity representations in text-to-image systems, preserving consistency across multiple generated photos.
 
 ## Explainers (evergreen)
 
@@ -72,7 +72,7 @@ All content is original reporting by the AI Glimpse newsroom. Primary sources ar
 
 - [Sitemap](https://aiglimpse.ai/sitemap.xml): All article URLs with publish dates (Google News format).
 - [RSS](https://aiglimpse.ai/rss.xml): 50 most recent articles (RSS 2.0).
-- [Full content index](https://aiglimpse.ai/llms-full.txt): Extended article list for LLM crawlers (643 articles).
+- [Full content index](https://aiglimpse.ai/llms-full.txt): Extended article list for LLM crawlers (645 articles).
 
 ## About
 

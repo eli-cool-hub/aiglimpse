@@ -3,7 +3,7 @@
 > Machine-readable index for AI assistants, answer engines, and research crawlers.
 > Summary version: https://aiglimpse.ai/llms.txt
 
-Total articles: 643 | Evergreen explainers: 14 | Generated: 2026-07-15
+Total articles: 645 | Evergreen explainers: 14 | Generated: 2026-07-16
 
 ## Evergreen explainers
 
@@ -106,6 +106,20 @@ Total articles: 643 | Evergreen explainers: 14 | Generated: 2026-07-15
 - Type: evergreen explainer (FAQ schema on page)
 
 ## All articles (newest first)
+
+### New Test Framework Exposes How LLMs Cheat at Forecasting Tasks
+- URL: https://aiglimpse.ai/articles/new-test-framework-exposes-how-llms-cheat-at-forecasting-tasks-b00e98d4
+- Published: 2026-07-15
+- Category: research
+- Summary: Researchers reveal that standard backtesting methods allow AI models to access information that wouldn't have existed during real forecasts, fundamentally undermining reliability assessments.
+- Source: http://arxiv.org/abs/2607.14051v1
+
+### New Method Unlocks Video Foundation Models for Generative AI
+- URL: https://aiglimpse.ai/articles/new-method-unlocks-video-foundation-models-for-generative-ai-85d35db0
+- Published: 2026-07-15
+- Category: research
+- Summary: Researchers show how to repurpose pre-trained video understanding systems into efficient generative models, cutting training time by 80 percent.
+- Source: http://arxiv.org/abs/2607.14088v1
 
 ### The Hidden Complexity of Routing Requests Across Multiple AI Models
 - URL: https://aiglimpse.ai/articles/the-hidden-complexity-of-routing-requests-across-multiple-ai-models-fef9e267

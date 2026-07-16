@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "new-test-framework-exposes-how-llms-cheat-at-forecasting-tasks-b00e98d4",
+      "title": "New Test Framework Exposes How LLMs Cheat at Forecasting Tasks",
+      "subtitle": "Researchers reveal that standard backtesting methods allow AI models to access information that wouldn't have existed during real forecasts, fundamentally undermining reliability assessments.",
+      "category": "research",
+      "publishedAt": "2026-07-15T17:21:43.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2607.14051v1",
+      "sourceName": "arXiv (Xiao Ye, Jacob Dineen, Evan Zhu, Shijie Lu, Kevin Song, Ben …)",
+      "sourceTier": 1,
+      "image": "/images/articles/new-test-framework-exposes-how-llms-cheat-at-forecasting-tasks-b00e98d4.jpg"
+    },
+    {
+      "slug": "new-method-unlocks-video-foundation-models-for-generative-ai-85d35db0",
+      "title": "New Method Unlocks Video Foundation Models for Generative AI",
+      "subtitle": "Researchers show how to repurpose pre-trained video understanding systems into efficient generative models, cutting training time by 80 percent.",
+      "category": "research",
+      "publishedAt": "2026-07-15T17:59:23.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2607.14088v1",
+      "sourceName": "arXiv (Zhihao Xie, Junfeng Wu, Xinting Hu, Junchao Huang, Li Jiang)",
+      "sourceTier": 1,
+      "image": "/images/articles/new-method-unlocks-video-foundation-models-for-generative-ai-85d35db0.jpg"
+    },
+    {
       "slug": "the-hidden-complexity-of-routing-requests-across-multiple-ai-models-fef9e267",
       "title": "The Hidden Complexity of Routing Requests Across Multiple AI Models",
       "subtitle": "What seems like a straightforward engineering problem becomes a minefield of tradeoffs when deploying multiple specialized language models in production.",
@@ -7725,6 +7747,8 @@
     "c350165118ac6d52",
     "0c1f0a5fda80cfc0",
     "59b8cdff6de379dd",
-    "fef9e26748340199"
+    "fef9e26748340199",
+    "85d35db05d867c17",
+    "b00e98d4e578abd0"
   ]
 }
