@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "thinking-machines-launches-inkling-a-new-ai-model-for-visual-reasoning-c9cb1570",
+      "title": "Thinking Machines Launches Inkling, a New AI Model for Visual Reasoning",
+      "subtitle": "The startup introduces a specialized language model designed to improve how AI systems understand and process visual information.",
+      "category": "tools",
+      "publishedAt": "2026-07-15T00:00:00.000Z",
+      "sourceUrl": "https://huggingface.co/blog/thinkingmachines-inkling",
+      "sourceName": "Hugging Face",
+      "sourceTier": 1,
+      "image": "/images/articles/thinking-machines-launches-inkling-a-new-ai-model-for-visual-reasoning-c9cb1570.jpg"
+    },
+    {
+      "slug": "deepmind-and-isomorphic-labs-chart-new-path-for-ai-resilience-f8b1d6b2",
+      "title": "DeepMind and Isomorphic Labs Chart New Path for AI Resilience",
+      "subtitle": "The AI research giants outline a coordinated strategy to build artificial intelligence systems capable of withstanding real-world biological challenges.",
+      "category": "research",
+      "publishedAt": "2026-07-16T09:30:42.000Z",
+      "sourceUrl": "https://deepmind.google/blog/our-approach-to-bioresilience/",
+      "sourceName": "Google DeepMind",
+      "sourceTier": 1,
+      "image": "/images/articles/deepmind-and-isomorphic-labs-chart-new-path-for-ai-resilience-f8b1d6b2.jpg"
+    },
+    {
       "slug": "researchers-push-large-language-models-beyond-word-for-word-translation-969d6150",
       "title": "Researchers Push Large Language Models Beyond Word-for-Word Translation",
       "subtitle": "New system shows LLMs can reformulate entire documents for target languages, moving past the sentence-by-sentence translation bottleneck.",
@@ -7761,6 +7783,8 @@
     "fef9e26748340199",
     "85d35db05d867c17",
     "b00e98d4e578abd0",
-    "969d61502c6bee51"
+    "969d61502c6bee51",
+    "f8b1d6b2a5d0059e",
+    "c9cb1570af23f104"
   ]
 }
