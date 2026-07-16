@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "researchers-propose-game-engine-model-for-ai-driven-interactive-worlds-56cb4964",
+      "title": "Researchers Propose Game Engine Model for AI-Driven Interactive Worlds",
+      "subtitle": "New framework treats video generation models as game engines, addressing critical gaps in real-time interactivity and persistent state management.",
+      "category": "research",
+      "publishedAt": "2026-07-15T17:48:48.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2607.14076v1",
+      "sourceName": "arXiv (Zhen Li, Zian Meng, Shuwei Shi, Mingliang Zhai, Jiaming Tan,…)",
+      "sourceTier": 1,
+      "image": "/images/articles/researchers-propose-game-engine-model-for-ai-driven-interactive-worlds-56cb4964.jpg"
+    },
+    {
+      "slug": "cars24-deploys-ai-agents-to-handle-1m-monthly-conversations-a23d3291",
+      "title": "Cars24 Deploys AI Agents to Handle 1M Monthly Conversations",
+      "subtitle": "The used-car marketplace leverages large language models to automate customer service and recover millions in abandoned sales.",
+      "category": "llms",
+      "publishedAt": "2026-07-16T00:00:00.000Z",
+      "sourceUrl": "https://openai.com/index/cars24",
+      "sourceName": "OpenAI",
+      "sourceTier": 1,
+      "image": "/images/articles/cars24-deploys-ai-agents-to-handle-1m-monthly-conversations-a23d3291.jpg"
+    },
+    {
       "slug": "openai-implements-teen-focused-safeguards-for-chatgpt-access-95827ce4",
       "title": "OpenAI Implements Teen-Focused Safeguards for ChatGPT Access",
       "subtitle": "The AI company deploys age-appropriate controls and parental oversight tools to make large language models safer for younger users.",
@@ -7857,6 +7879,8 @@
     "3e3417e9ef640769",
     "8c1e1c6e0e932dad",
     "30e70df666fb760e",
-    "95827ce4d781a58c"
+    "95827ce4d781a58c",
+    "a23d32910dc745d1",
+    "56cb4964d43b79b8"
   ]
 }

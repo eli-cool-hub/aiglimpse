@@ -8696,6 +8696,42 @@
         "devto": true,
         "hashnode": false
       }
+    },
+    "cars24-deploys-ai-agents-to-handle-1m-monthly-conversations-a23d3291": {
+      "syndicated_at": "2026-07-16T19:14:46.416Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/cars24-deploys-ai-agents-to-handle-1m-monthly-conversations-4afm",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 521,
+      "category": "llms",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
+    },
+    "researchers-propose-game-engine-model-for-ai-driven-interactive-worlds-56cb4964": {
+      "syndicated_at": "2026-07-16T19:14:55.996Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/researchers-propose-game-engine-model-for-ai-driven-interactive-worlds-1j61",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 471,
+      "category": "research",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
     }
   }
 }

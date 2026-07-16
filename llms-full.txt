@@ -3,7 +3,7 @@
 > Machine-readable index for AI assistants, answer engines, and research crawlers.
 > Summary version: https://aiglimpse.ai/llms.txt
 
-Total articles: 654 | Evergreen explainers: 14 | Generated: 2026-07-16
+Total articles: 656 | Evergreen explainers: 14 | Generated: 2026-07-16
 
 ## Evergreen explainers
 
@@ -106,6 +106,20 @@ Total articles: 654 | Evergreen explainers: 14 | Generated: 2026-07-16
 - Type: evergreen explainer (FAQ schema on page)
 
 ## All articles (newest first)
+
+### Researchers Propose Game Engine Model for AI-Driven Interactive Worlds
+- URL: https://aiglimpse.ai/articles/researchers-propose-game-engine-model-for-ai-driven-interactive-worlds-56cb4964
+- Published: 2026-07-15
+- Category: research
+- Summary: New framework treats video generation models as game engines, addressing critical gaps in real-time interactivity and persistent state management.
+- Source: http://arxiv.org/abs/2607.14076v1
+
+### Cars24 Deploys AI Agents to Handle 1M Monthly Conversations
+- URL: https://aiglimpse.ai/articles/cars24-deploys-ai-agents-to-handle-1m-monthly-conversations-a23d3291
+- Published: 2026-07-16
+- Category: llms
+- Summary: The used-car marketplace leverages large language models to automate customer service and recover millions in abandoned sales.
+- Source: https://openai.com/index/cars24
 
 ### OpenAI Implements Teen-Focused Safeguards for ChatGPT Access
 - URL: https://aiglimpse.ai/articles/openai-implements-teen-focused-safeguards-for-chatgpt-access-95827ce4
