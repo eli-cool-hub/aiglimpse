@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "researchers-scale-robot-memory-to-8000-steps-unlocking-new-ai-skills-4b6a8c53",
+      "title": "Researchers Scale Robot Memory to 8,000 Steps, Unlocking New AI Skills",
+      "subtitle": "A new training method lets robot foundation models learn from extended visual histories, achieving 87% performance gains on physical manipulation tasks.",
+      "category": "research",
+      "publishedAt": "2026-07-16T17:59:06.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2607.15275v1",
+      "sourceName": "arXiv (Yunfan Jiang, Yevgen Chebotar, Ruijie Zheng, Fengyuan Hu, Yu…)",
+      "sourceTier": 1,
+      "image": "/images/articles/researchers-scale-robot-memory-to-8000-steps-unlocking-new-ai-skills-4b6a8c53.jpg"
+    },
+    {
       "slug": "new-ai-framework-enables-video-models-to-reason-through-multi-step-tasks-e1b75c6c",
       "title": "New AI Framework Enables Video Models to Reason Through Multi-Step Tasks",
       "subtitle": "Hierarchical denoising approach balances reasoning capability with real-time inference speed for complex visual problem-solving.",
@@ -7953,6 +7964,7 @@
     "0f5b400814ff6ac5",
     "bcda6c48c7c8680e",
     "ece8ab1e850ecc58",
-    "e1b75c6cac2c7f2c"
+    "e1b75c6cac2c7f2c",
+    "4b6a8c539469e239"
   ]
 }
