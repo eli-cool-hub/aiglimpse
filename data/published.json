@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "new-ai-method-enables-real-time-3d-video-synthesis-from-multiple-cameras-5eb778d2",
+      "title": "New AI Method Enables Real-Time 3D Video Synthesis from Multiple Cameras",
+      "subtitle": "Researchers decouple memory updates from rendering to achieve streaming video reconstruction without sacrificing speed or stability.",
+      "category": "research",
+      "publishedAt": "2026-07-16T17:58:18.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2607.15271v1",
+      "sourceName": "arXiv (Baback Elmieh, Lynn Tsai, Zeman Li, Srinivas Kaza, Tiancheng…)",
+      "sourceTier": 1,
+      "image": "/images/articles/new-ai-method-enables-real-time-3d-video-synthesis-from-multiple-cameras-5eb778d2.jpg"
+    },
+    {
+      "slug": "openai-proposes-framework-to-quantify-ai-system-value-e6a2209d",
+      "title": "OpenAI Proposes Framework to Quantify AI System Value",
+      "subtitle": "New metrics aim to help enterprises measure AI productivity gains beyond traditional cost analysis.",
+      "category": "llms",
+      "publishedAt": "2026-07-17T10:00:00.000Z",
+      "sourceUrl": "https://openai.com/index/a-scorecard-for-the-ai-age",
+      "sourceName": "OpenAI",
+      "sourceTier": 1,
+      "image": "/images/articles/openai-proposes-framework-to-quantify-ai-system-value-e6a2209d.jpg"
+    },
+    {
       "slug": "ai-system-learns-to-edit-scientific-diagrams-from-paper-revisions-b599b5f1",
       "title": "AI System Learns to Edit Scientific Diagrams From Paper Revisions",
       "subtitle": "Researchers develop an automated approach to figure editing that understands natural language instructions and learns from how scientists actually revise their work.",
@@ -7989,6 +8011,8 @@
     "e1b75c6cac2c7f2c",
     "4b6a8c539469e239",
     "4f5f5b8dbadb36ef",
-    "b599b5f1e1ec1761"
+    "b599b5f1e1ec1761",
+    "e6a2209db9e168bb",
+    "5eb778d2b0a4adc2"
   ]
 }

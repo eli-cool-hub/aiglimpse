@@ -3,7 +3,7 @@
 > Machine-readable index for AI assistants, answer engines, and research crawlers.
 > Summary version: https://aiglimpse.ai/llms.txt
 
-Total articles: 665 | Evergreen explainers: 14 | Generated: 2026-07-17
+Total articles: 667 | Evergreen explainers: 14 | Generated: 2026-07-17
 
 ## Evergreen explainers
 
@@ -106,6 +106,20 @@ Total articles: 665 | Evergreen explainers: 14 | Generated: 2026-07-17
 - Type: evergreen explainer (FAQ schema on page)
 
 ## All articles (newest first)
+
+### New AI Method Enables Real-Time 3D Video Synthesis from Multiple Cameras
+- URL: https://aiglimpse.ai/articles/new-ai-method-enables-real-time-3d-video-synthesis-from-multiple-cameras-5eb778d2
+- Published: 2026-07-16
+- Category: research
+- Summary: Researchers decouple memory updates from rendering to achieve streaming video reconstruction without sacrificing speed or stability.
+- Source: http://arxiv.org/abs/2607.15271v1
+
+### OpenAI Proposes Framework to Quantify AI System Value
+- URL: https://aiglimpse.ai/articles/openai-proposes-framework-to-quantify-ai-system-value-e6a2209d
+- Published: 2026-07-17
+- Category: llms
+- Summary: New metrics aim to help enterprises measure AI productivity gains beyond traditional cost analysis.
+- Source: https://openai.com/index/a-scorecard-for-the-ai-age
 
 ### AI System Learns to Edit Scientific Diagrams From Paper Revisions
 - URL: https://aiglimpse.ai/articles/ai-system-learns-to-edit-scientific-diagrams-from-paper-revisions-b599b5f1

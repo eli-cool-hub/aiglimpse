@@ -8894,6 +8894,42 @@
         "devto": true,
         "hashnode": false
       }
+    },
+    "openai-proposes-framework-to-quantify-ai-system-value-e6a2209d": {
+      "syndicated_at": "2026-07-17T15:15:29.214Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/openai-proposes-framework-to-quantify-ai-system-value-4p3n",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 485,
+      "category": "llms",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
+    },
+    "new-ai-method-enables-real-time-3d-video-synthesis-from-multiple-cameras-5eb778d2": {
+      "syndicated_at": "2026-07-17T15:15:41.159Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/new-ai-method-enables-real-time-3d-video-synthesis-from-multiple-cameras-5991",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 445,
+      "category": "research",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
     }
   }
 }

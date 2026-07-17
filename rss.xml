@@ -7,6 +7,22 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>New AI Method Enables Real-Time 3D Video Synthesis from Multiple Cameras</title>
+      <link>https://aiglimpse.ai/articles/new-ai-method-enables-real-time-3d-video-synthesis-from-multiple-cameras-5eb778d2</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-ai-method-enables-real-time-3d-video-synthesis-from-multiple-cameras-5eb778d2</guid>
+      <description>Researchers decouple memory updates from rendering to achieve streaming video reconstruction without sacrificing speed or stability.</description>
+      <pubDate>Thu, 16 Jul 2026 17:58:18 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
+      <title>OpenAI Proposes Framework to Quantify AI System Value</title>
+      <link>https://aiglimpse.ai/articles/openai-proposes-framework-to-quantify-ai-system-value-e6a2209d</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/openai-proposes-framework-to-quantify-ai-system-value-e6a2209d</guid>
+      <description>New metrics aim to help enterprises measure AI productivity gains beyond traditional cost analysis.</description>
+      <pubDate>Fri, 17 Jul 2026 10:00:00 GMT</pubDate>
+      <category>LLMs &amp; Chatbots</category>
+    </item>
+    <item>
       <title>AI System Learns to Edit Scientific Diagrams From Paper Revisions</title>
       <link>https://aiglimpse.ai/articles/ai-system-learns-to-edit-scientific-diagrams-from-paper-revisions-b599b5f1</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/ai-system-learns-to-edit-scientific-diagrams-from-paper-revisions-b599b5f1</guid>
@@ -388,22 +404,6 @@
       <guid isPermaLink="true">https://aiglimpse.ai/articles/researchers-map-hidden-geometry-underlying-transformer-reasoning-d7a6c5dd</guid>
       <description>New theoretical framework reveals how language models learn to reason, reducing millions of parameters to interpretable low-dimensional dynamics.</description>
       <pubDate>Mon, 13 Jul 2026 17:56:11 GMT</pubDate>
-      <category>AI Research</category>
-    </item>
-    <item>
-      <title>Data Teams Leverage ChatGPT to Automate Analysis and Reporting</title>
-      <link>https://aiglimpse.ai/articles/data-teams-leverage-chatgpt-to-automate-analysis-and-reporting-47ae4e75</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/data-teams-leverage-chatgpt-to-automate-analysis-and-reporting-47ae4e75</guid>
-      <description>OpenAI's enterprise tool enables analytics professionals to generate insights and documentation at scale, reshaping how companies process business data.</description>
-      <pubDate>Tue, 14 Jul 2026 00:00:00 GMT</pubDate>
-      <category>LLMs &amp; Chatbots</category>
-    </item>
-    <item>
-      <title>Researchers Map the Emerging Frontier of Machine Self-Awareness</title>
-      <link>https://aiglimpse.ai/articles/researchers-map-the-emerging-frontier-of-machine-self-awareness-ce0187ac</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/researchers-map-the-emerging-frontier-of-machine-self-awareness-ce0187ac</guid>
-      <description>A new survey reveals how large language models can develop metacognitive abilities to become more reliable and trustworthy.</description>
-      <pubDate>Mon, 13 Jul 2026 17:58:37 GMT</pubDate>
       <category>AI Research</category>
     </item>
   </channel>
