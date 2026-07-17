@@ -3,7 +3,7 @@
 > Machine-readable index for AI assistants, answer engines, and research crawlers.
 > Summary version: https://aiglimpse.ai/llms.txt
 
-Total articles: 659 | Evergreen explainers: 14 | Generated: 2026-07-16
+Total articles: 661 | Evergreen explainers: 14 | Generated: 2026-07-17
 
 ## Evergreen explainers
 
@@ -106,6 +106,20 @@ Total articles: 659 | Evergreen explainers: 14 | Generated: 2026-07-16
 - Type: evergreen explainer (FAQ schema on page)
 
 ## All articles (newest first)
+
+### Researchers Find Way to Fix Sampling Bias in AI Model Training
+- URL: https://aiglimpse.ai/articles/researchers-find-way-to-fix-sampling-bias-in-ai-model-training-ece8ab1e
+- Published: 2026-07-16
+- Category: research
+- Summary: New mathematical framework could dramatically speed up Bayesian inference methods used across machine learning.
+- Source: http://arxiv.org/abs/2607.15208v1
+
+### New AI System Reconstructs 3D Scenes from Video at Near Real-Time Speed
+- URL: https://aiglimpse.ai/articles/new-ai-system-reconstructs-3d-scenes-from-video-at-near-real-time-speed-bcda6c48
+- Published: 2026-07-16
+- Category: research
+- Summary: Researchers demonstrate multi-agent framework that tracks camera movement and builds 3D maps from standard smartphone footage.
+- Source: http://arxiv.org/abs/2607.15211v1
 
 ### Rust Code Generation Gets Smarter With Real-Time Compiler Feedback
 - URL: https://aiglimpse.ai/articles/rust-code-generation-gets-smarter-with-real-time-compiler-feedback-0f5b4008

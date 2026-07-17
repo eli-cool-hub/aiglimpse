@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "researchers-find-way-to-fix-sampling-bias-in-ai-model-training-ece8ab1e",
+      "title": "Researchers Find Way to Fix Sampling Bias in AI Model Training",
+      "subtitle": "New mathematical framework could dramatically speed up Bayesian inference methods used across machine learning.",
+      "category": "research",
+      "publishedAt": "2026-07-16T17:07:42.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2607.15208v1",
+      "sourceName": "arXiv (Yifan Chen, Xiaoou Cheng, Jonathan Niles-Weed, Jonathan Wear…)",
+      "sourceTier": 1,
+      "image": "/images/articles/researchers-find-way-to-fix-sampling-bias-in-ai-model-training-ece8ab1e.jpg"
+    },
+    {
+      "slug": "new-ai-system-reconstructs-3d-scenes-from-video-at-near-real-time-speed-bcda6c48",
+      "title": "New AI System Reconstructs 3D Scenes from Video at Near Real-Time Speed",
+      "subtitle": "Researchers demonstrate multi-agent framework that tracks camera movement and builds 3D maps from standard smartphone footage.",
+      "category": "research",
+      "publishedAt": "2026-07-16T17:12:58.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2607.15211v1",
+      "sourceName": "arXiv (Ziren Gong, Xiaohan Li, Fabio Tosi, Ninghui Xu, Stefano Matt…)",
+      "sourceTier": 1,
+      "image": "/images/articles/new-ai-system-reconstructs-3d-scenes-from-video-at-near-real-time-speed-bcda6c48.jpg"
+    },
+    {
       "slug": "rust-code-generation-gets-smarter-with-real-time-compiler-feedback-0f5b4008",
       "title": "Rust Code Generation Gets Smarter With Real-Time Compiler Feedback",
       "subtitle": "Researchers embed compiler errors directly into LLM decoding, moving beyond trial-and-error code generation toward integrated AI development.",
@@ -7917,6 +7939,8 @@
     "56cb4964d43b79b8",
     "8b0c67af35cf9af0",
     "6029229ca9702b7a",
-    "0f5b400814ff6ac5"
+    "0f5b400814ff6ac5",
+    "bcda6c48c7c8680e",
+    "ece8ab1e850ecc58"
   ]
 }
