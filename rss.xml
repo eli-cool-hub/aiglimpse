@@ -7,6 +7,14 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>New Method Adds Reinforcement Learning to Fast Image Generation Models</title>
+      <link>https://aiglimpse.ai/articles/new-method-adds-reinforcement-learning-to-fast-image-generation-models-4f5f5b8d</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-method-adds-reinforcement-learning-to-fast-image-generation-models-4f5f5b8d</guid>
+      <description>Researchers develop MeanFlowNFT to optimize rapid generative AI systems without sacrificing quality or speed.</description>
+      <pubDate>Thu, 16 Jul 2026 17:59:02 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
       <title>Researchers Scale Robot Memory to 8,000 Steps, Unlocking New AI Skills</title>
       <link>https://aiglimpse.ai/articles/researchers-scale-robot-memory-to-8000-steps-unlocking-new-ai-skills-4b6a8c53</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/researchers-scale-robot-memory-to-8000-steps-unlocking-new-ai-skills-4b6a8c53</guid>
@@ -396,14 +404,6 @@
       <guid isPermaLink="true">https://aiglimpse.ai/articles/new-compression-method-reveals-how-ai-models-actually-store-knowledge-ad779af0</guid>
       <description>Requential coding technique generates dramatically shorter representations of neural networks, offering fresh insights into model generalization and learning efficiency.</description>
       <pubDate>Mon, 13 Jul 2026 17:58:50 GMT</pubDate>
-      <category>AI Research</category>
-    </item>
-    <item>
-      <title>New AI Method Enables Precise Facial Edits Without Retraining Models</title>
-      <link>https://aiglimpse.ai/articles/new-ai-method-enables-precise-facial-edits-without-retraining-models-303106a3</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-ai-method-enables-precise-facial-edits-without-retraining-models-303106a3</guid>
-      <description>Researchers develop technique to manipulate identity representations in text-to-image systems, preserving consistency across multiple generated photos.</description>
-      <pubDate>Mon, 13 Jul 2026 17:59:49 GMT</pubDate>
       <category>AI Research</category>
     </item>
   </channel>

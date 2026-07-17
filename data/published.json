@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "new-method-adds-reinforcement-learning-to-fast-image-generation-models-4f5f5b8d",
+      "title": "New Method Adds Reinforcement Learning to Fast Image Generation Models",
+      "subtitle": "Researchers develop MeanFlowNFT to optimize rapid generative AI systems without sacrificing quality or speed.",
+      "category": "research",
+      "publishedAt": "2026-07-16T17:59:02.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2607.15273v1",
+      "sourceName": "arXiv (Yushi Huang, Xiangxin Zhou, Jun Zhang, Liefeng Bo, Tianyu Pa…)",
+      "sourceTier": 1,
+      "image": "/images/articles/new-method-adds-reinforcement-learning-to-fast-image-generation-models-4f5f5b8d.jpg"
+    },
+    {
       "slug": "researchers-scale-robot-memory-to-8000-steps-unlocking-new-ai-skills-4b6a8c53",
       "title": "Researchers Scale Robot Memory to 8,000 Steps, Unlocking New AI Skills",
       "subtitle": "A new training method lets robot foundation models learn from extended visual histories, achieving 87% performance gains on physical manipulation tasks.",
@@ -7965,6 +7976,7 @@
     "bcda6c48c7c8680e",
     "ece8ab1e850ecc58",
     "e1b75c6cac2c7f2c",
-    "4b6a8c539469e239"
+    "4b6a8c539469e239",
+    "4f5f5b8dbadb36ef"
   ]
 }
