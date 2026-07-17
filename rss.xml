@@ -7,6 +7,14 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Major Language Models Fail Basic Math Tests, Researchers Find</title>
+      <link>https://aiglimpse.ai/articles/major-language-models-fail-basic-math-tests-researchers-find-168ea5dc</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/major-language-models-fail-basic-math-tests-researchers-find-168ea5dc</guid>
+      <description>New research reveals that LLMs violate fundamental probability rules when breaking down complex problems into simpler parts.</description>
+      <pubDate>Thu, 16 Jul 2026 17:59:31 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
       <title>New AI Method Enables Real-Time 3D Video Synthesis from Multiple Cameras</title>
       <link>https://aiglimpse.ai/articles/new-ai-method-enables-real-time-3d-video-synthesis-from-multiple-cameras-5eb778d2</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/new-ai-method-enables-real-time-3d-video-synthesis-from-multiple-cameras-5eb778d2</guid>
@@ -397,14 +405,6 @@
       <description>OpenAI's workplace AI tool helps revenue teams generate forecasts, client strategies, and deal recovery plans from operational data.</description>
       <pubDate>Tue, 14 Jul 2026 00:00:00 GMT</pubDate>
       <category>LLMs &amp; Chatbots</category>
-    </item>
-    <item>
-      <title>Researchers Map Hidden Geometry Underlying Transformer Reasoning</title>
-      <link>https://aiglimpse.ai/articles/researchers-map-hidden-geometry-underlying-transformer-reasoning-d7a6c5dd</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/researchers-map-hidden-geometry-underlying-transformer-reasoning-d7a6c5dd</guid>
-      <description>New theoretical framework reveals how language models learn to reason, reducing millions of parameters to interpretable low-dimensional dynamics.</description>
-      <pubDate>Mon, 13 Jul 2026 17:56:11 GMT</pubDate>
-      <category>AI Research</category>
     </item>
   </channel>
 </rss>
