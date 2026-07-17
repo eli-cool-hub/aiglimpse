@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "new-ai-model-fuses-vision-audio-and-language-to-map-physical-scenes-038bc2d7",
+      "title": "New AI Model Fuses Vision, Audio, and Language to Map Physical Scenes",
+      "subtitle": "Researchers tackle a fundamental problem in multimodal AI: understanding not just what objects are present, but precisely where they exist in 3D space.",
+      "category": "research",
+      "publishedAt": "2026-07-16T17:55:15.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2607.15265v1",
+      "sourceName": "arXiv (Mingfei Chen, Zijun Cui, Ruoke Zhang, Hyeonggon Ryu, Eli Shl…)",
+      "sourceTier": 1,
+      "image": "/images/articles/new-ai-model-fuses-vision-audio-and-language-to-map-physical-scenes-038bc2d7.jpg"
+    },
+    {
       "slug": "new-research-challenges-how-ai-security-agents-are-benchmarked-f6e718cc",
       "title": "New Research Challenges How AI Security Agents Are Benchmarked",
       "subtitle": "Researchers argue that measuring success rates alone ignores the real-world operational costs that determine whether security AI systems are actually useful.",
@@ -8073,6 +8084,7 @@
     "2d3ebc29b9a1b882",
     "523593dabecfd430",
     "9b6ef032a8cd6900",
-    "f6e718cc8d3064dd"
+    "f6e718cc8d3064dd",
+    "038bc2d7cd136d08"
   ]
 }

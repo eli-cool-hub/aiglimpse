@@ -7,6 +7,14 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>New AI Model Fuses Vision, Audio, and Language to Map Physical Scenes</title>
+      <link>https://aiglimpse.ai/articles/new-ai-model-fuses-vision-audio-and-language-to-map-physical-scenes-038bc2d7</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-ai-model-fuses-vision-audio-and-language-to-map-physical-scenes-038bc2d7</guid>
+      <description>Researchers tackle a fundamental problem in multimodal AI: understanding not just what objects are present, but precisely where they exist in 3D space.</description>
+      <pubDate>Thu, 16 Jul 2026 17:55:15 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
       <title>New Research Challenges How AI Security Agents Are Benchmarked</title>
       <link>https://aiglimpse.ai/articles/new-research-challenges-how-ai-security-agents-are-benchmarked-f6e718cc</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/new-research-challenges-how-ai-security-agents-are-benchmarked-f6e718cc</guid>
@@ -396,14 +404,6 @@
       <guid isPermaLink="true">https://aiglimpse.ai/articles/researchers-challenge-black-box-video-ai-with-grounded-explanations-1dcf2288</guid>
       <description>New benchmark forces machine learning models to prove their answers by pinpointing visual evidence in video frames.</description>
       <pubDate>Mon, 13 Jul 2026 17:49:10 GMT</pubDate>
-      <category>AI Research</category>
-    </item>
-    <item>
-      <title>Researchers Decode How AI Judges Hide Bias in Neural Networks</title>
-      <link>https://aiglimpse.ai/articles/researchers-decode-how-ai-judges-hide-bias-in-neural-networks-80b4f359</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/researchers-decode-how-ai-judges-hide-bias-in-neural-networks-80b4f359</guid>
-      <description>New mechanistic study reveals that language model bias operates as geometric patterns in hidden layers, enabling better detection and correction.</description>
-      <pubDate>Mon, 13 Jul 2026 17:55:19 GMT</pubDate>
       <category>AI Research</category>
     </item>
   </channel>
