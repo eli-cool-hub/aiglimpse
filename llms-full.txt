@@ -3,7 +3,7 @@
 > Machine-readable index for AI assistants, answer engines, and research crawlers.
 > Summary version: https://aiglimpse.ai/llms.txt
 
-Total articles: 668 | Evergreen explainers: 14 | Generated: 2026-07-17
+Total articles: 670 | Evergreen explainers: 14 | Generated: 2026-07-17
 
 ## Evergreen explainers
 
@@ -106,6 +106,20 @@ Total articles: 668 | Evergreen explainers: 14 | Generated: 2026-07-17
 - Type: evergreen explainer (FAQ schema on page)
 
 ## All articles (newest first)
+
+### AI Model Boosts Heart Attack Detection in Ultrasound Scans
+- URL: https://aiglimpse.ai/articles/ai-model-boosts-heart-attack-detection-in-ultrasound-scans-523593da
+- Published: 2026-07-16
+- Category: research
+- Summary: New fusion framework combines motion tracking with vision models to improve myocardial infarction localization from echocardiography, addressing a major clinical bottleneck.
+- Source: http://arxiv.org/abs/2607.15268v1
+
+### NVIDIA and Hugging Face Enable Efficient Fine-Tuning of Vision Models
+- URL: https://aiglimpse.ai/articles/nvidia-and-hugging-face-enable-efficient-fine-tuning-of-vision-models-2d3ebc29
+- Published: 2026-07-17
+- Category: tools
+- Summary: New framework streamlines customization of image and video AI models, lowering barriers for enterprises seeking specialized applications.
+- Source: https://huggingface.co/blog/nvidia/scale-diffusers-finetuning-nemo-automodel
 
 ### Major Language Models Fail Basic Math Tests, Researchers Find
 - URL: https://aiglimpse.ai/articles/major-language-models-fail-basic-math-tests-researchers-find-168ea5dc

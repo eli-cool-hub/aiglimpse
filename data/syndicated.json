@@ -8948,6 +8948,42 @@
         "devto": true,
         "hashnode": false
       }
+    },
+    "nvidia-and-hugging-face-enable-efficient-fine-tuning-of-vision-models-2d3ebc29": {
+      "syndicated_at": "2026-07-17T19:13:18.604Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/nvidia-and-hugging-face-enable-efficient-fine-tuning-of-vision-models-3hoe",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 383,
+      "category": "tools",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
+    },
+    "ai-model-boosts-heart-attack-detection-in-ultrasound-scans-523593da": {
+      "syndicated_at": "2026-07-17T19:13:29.518Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/ai-model-boosts-heart-attack-detection-in-ultrasound-scans-o2m",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 496,
+      "category": "research",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
     }
   }
 }

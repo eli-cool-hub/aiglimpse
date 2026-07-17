@@ -7,6 +7,22 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>AI Model Boosts Heart Attack Detection in Ultrasound Scans</title>
+      <link>https://aiglimpse.ai/articles/ai-model-boosts-heart-attack-detection-in-ultrasound-scans-523593da</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/ai-model-boosts-heart-attack-detection-in-ultrasound-scans-523593da</guid>
+      <description>New fusion framework combines motion tracking with vision models to improve myocardial infarction localization from echocardiography, addressing a major clinical bottleneck.</description>
+      <pubDate>Thu, 16 Jul 2026 17:56:56 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
+      <title>NVIDIA and Hugging Face Enable Efficient Fine-Tuning of Vision Models</title>
+      <link>https://aiglimpse.ai/articles/nvidia-and-hugging-face-enable-efficient-fine-tuning-of-vision-models-2d3ebc29</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/nvidia-and-hugging-face-enable-efficient-fine-tuning-of-vision-models-2d3ebc29</guid>
+      <description>New framework streamlines customization of image and video AI models, lowering barriers for enterprises seeking specialized applications.</description>
+      <pubDate>Fri, 17 Jul 2026 15:57:54 GMT</pubDate>
+      <category>AI Tools &amp; Products</category>
+    </item>
+    <item>
       <title>Major Language Models Fail Basic Math Tests, Researchers Find</title>
       <link>https://aiglimpse.ai/articles/major-language-models-fail-basic-math-tests-researchers-find-168ea5dc</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/major-language-models-fail-basic-math-tests-researchers-find-168ea5dc</guid>
@@ -388,22 +404,6 @@
       <guid isPermaLink="true">https://aiglimpse.ai/articles/enterprises-must-rethink-ai-spending-as-autonomous-agents-reshape-roi-a77f9820</guid>
       <description>A framework for measuring productive output per dollar spent is becoming critical as AI systems take on independent decision-making roles.</description>
       <pubDate>Tue, 14 Jul 2026 10:00:00 GMT</pubDate>
-      <category>LLMs &amp; Chatbots</category>
-    </item>
-    <item>
-      <title>New Approach Teaches Robots Dexterous Skills From Single Human Demo</title>
-      <link>https://aiglimpse.ai/articles/new-approach-teaches-robots-dexterous-skills-from-single-human-demo-19b6f147</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-approach-teaches-robots-dexterous-skills-from-single-human-demo-19b6f147</guid>
-      <description>Researchers demonstrate a streamlined method for training multi-fingered robots to perform complex manipulation tasks by learning from human motion.</description>
-      <pubDate>Mon, 13 Jul 2026 17:56:08 GMT</pubDate>
-      <category>AI Research</category>
-    </item>
-    <item>
-      <title>Enterprise Sales Teams Deploy ChatGPT to Automate Pipeline Work</title>
-      <link>https://aiglimpse.ai/articles/enterprise-sales-teams-deploy-chatgpt-to-automate-pipeline-work-d4befd50</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/enterprise-sales-teams-deploy-chatgpt-to-automate-pipeline-work-d4befd50</guid>
-      <description>OpenAI's workplace AI tool helps revenue teams generate forecasts, client strategies, and deal recovery plans from operational data.</description>
-      <pubDate>Tue, 14 Jul 2026 00:00:00 GMT</pubDate>
       <category>LLMs &amp; Chatbots</category>
     </item>
   </channel>

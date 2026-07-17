@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "ai-model-boosts-heart-attack-detection-in-ultrasound-scans-523593da",
+      "title": "AI Model Boosts Heart Attack Detection in Ultrasound Scans",
+      "subtitle": "New fusion framework combines motion tracking with vision models to improve myocardial infarction localization from echocardiography, addressing a major clinical bottleneck.",
+      "category": "research",
+      "publishedAt": "2026-07-16T17:56:56.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2607.15268v1",
+      "sourceName": "arXiv (Guang Yang, Wentian Xu, Siyu Wang, Betty Raman, Lei Li, Vice…)",
+      "sourceTier": 1,
+      "image": "/images/articles/ai-model-boosts-heart-attack-detection-in-ultrasound-scans-523593da.jpg"
+    },
+    {
+      "slug": "nvidia-and-hugging-face-enable-efficient-fine-tuning-of-vision-models-2d3ebc29",
+      "title": "NVIDIA and Hugging Face Enable Efficient Fine-Tuning of Vision Models",
+      "subtitle": "New framework streamlines customization of image and video AI models, lowering barriers for enterprises seeking specialized applications.",
+      "category": "tools",
+      "publishedAt": "2026-07-17T15:57:54.000Z",
+      "sourceUrl": "https://huggingface.co/blog/nvidia/scale-diffusers-finetuning-nemo-automodel",
+      "sourceName": "Hugging Face",
+      "sourceTier": 1,
+      "image": "/images/articles/nvidia-and-hugging-face-enable-efficient-fine-tuning-of-vision-models-2d3ebc29.jpg"
+    },
+    {
       "slug": "major-language-models-fail-basic-math-tests-researchers-find-168ea5dc",
       "title": "Major Language Models Fail Basic Math Tests, Researchers Find",
       "subtitle": "New research reveals that LLMs violate fundamental probability rules when breaking down complex problems into simpler parts.",
@@ -8025,6 +8047,8 @@
     "b599b5f1e1ec1761",
     "e6a2209db9e168bb",
     "5eb778d2b0a4adc2",
-    "168ea5dc4536d3f9"
+    "168ea5dc4536d3f9",
+    "2d3ebc29b9a1b882",
+    "523593dabecfd430"
   ]
 }
