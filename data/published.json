@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "new-research-challenges-how-ai-security-agents-are-benchmarked-f6e718cc",
+      "title": "New Research Challenges How AI Security Agents Are Benchmarked",
+      "subtitle": "Researchers argue that measuring success rates alone ignores the real-world operational costs that determine whether security AI systems are actually useful.",
+      "category": "research",
+      "publishedAt": "2026-07-16T17:54:47.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2607.15263v1",
+      "sourceName": "arXiv (Paul Kassianik, Blaine Nelson, Yaron Singer)",
+      "sourceTier": 1,
+      "image": "/images/articles/new-research-challenges-how-ai-security-agents-are-benchmarked-f6e718cc.jpg"
+    },
+    {
+      "slug": "researchers-show-how-web-forums-can-poison-ai-training-data-9b6ef032",
+      "title": "Researchers Show How Web Forums Can Poison AI Training Data",
+      "subtitle": "New study reveals that language models absorb malicious content injected through public discussion sites, raising security concerns for AI development.",
+      "category": "research",
+      "publishedAt": "2026-07-16T17:56:05.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2607.15267v1",
+      "sourceName": "arXiv (Victoria Graf, Hannaneh Hajishirzi, Noah A. Smith, David Koh…)",
+      "sourceTier": 1,
+      "image": "/images/articles/researchers-show-how-web-forums-can-poison-ai-training-data-9b6ef032.jpg"
+    },
+    {
       "slug": "ai-model-boosts-heart-attack-detection-in-ultrasound-scans-523593da",
       "title": "AI Model Boosts Heart Attack Detection in Ultrasound Scans",
       "subtitle": "New fusion framework combines motion tracking with vision models to improve myocardial infarction localization from echocardiography, addressing a major clinical bottleneck.",
@@ -8049,6 +8071,8 @@
     "5eb778d2b0a4adc2",
     "168ea5dc4536d3f9",
     "2d3ebc29b9a1b882",
-    "523593dabecfd430"
+    "523593dabecfd430",
+    "9b6ef032a8cd6900",
+    "f6e718cc8d3064dd"
   ]
 }

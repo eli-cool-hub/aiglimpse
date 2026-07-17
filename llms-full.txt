@@ -3,7 +3,7 @@
 > Machine-readable index for AI assistants, answer engines, and research crawlers.
 > Summary version: https://aiglimpse.ai/llms.txt
 
-Total articles: 670 | Evergreen explainers: 14 | Generated: 2026-07-17
+Total articles: 672 | Evergreen explainers: 14 | Generated: 2026-07-17
 
 ## Evergreen explainers
 
@@ -106,6 +106,20 @@ Total articles: 670 | Evergreen explainers: 14 | Generated: 2026-07-17
 - Type: evergreen explainer (FAQ schema on page)
 
 ## All articles (newest first)
+
+### New Research Challenges How AI Security Agents Are Benchmarked
+- URL: https://aiglimpse.ai/articles/new-research-challenges-how-ai-security-agents-are-benchmarked-f6e718cc
+- Published: 2026-07-16
+- Category: research
+- Summary: Researchers argue that measuring success rates alone ignores the real-world operational costs that determine whether security AI systems are actually useful.
+- Source: http://arxiv.org/abs/2607.15263v1
+
+### Researchers Show How Web Forums Can Poison AI Training Data
+- URL: https://aiglimpse.ai/articles/researchers-show-how-web-forums-can-poison-ai-training-data-9b6ef032
+- Published: 2026-07-16
+- Category: research
+- Summary: New study reveals that language models absorb malicious content injected through public discussion sites, raising security concerns for AI development.
+- Source: http://arxiv.org/abs/2607.15267v1
 
 ### AI Model Boosts Heart Attack Detection in Ultrasound Scans
 - URL: https://aiglimpse.ai/articles/ai-model-boosts-heart-attack-detection-in-ultrasound-scans-523593da

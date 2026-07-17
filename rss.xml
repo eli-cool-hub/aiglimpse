@@ -7,6 +7,22 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>New Research Challenges How AI Security Agents Are Benchmarked</title>
+      <link>https://aiglimpse.ai/articles/new-research-challenges-how-ai-security-agents-are-benchmarked-f6e718cc</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-research-challenges-how-ai-security-agents-are-benchmarked-f6e718cc</guid>
+      <description>Researchers argue that measuring success rates alone ignores the real-world operational costs that determine whether security AI systems are actually useful.</description>
+      <pubDate>Thu, 16 Jul 2026 17:54:47 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
+      <title>Researchers Show How Web Forums Can Poison AI Training Data</title>
+      <link>https://aiglimpse.ai/articles/researchers-show-how-web-forums-can-poison-ai-training-data-9b6ef032</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/researchers-show-how-web-forums-can-poison-ai-training-data-9b6ef032</guid>
+      <description>New study reveals that language models absorb malicious content injected through public discussion sites, raising security concerns for AI development.</description>
+      <pubDate>Thu, 16 Jul 2026 17:56:05 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
       <title>AI Model Boosts Heart Attack Detection in Ultrasound Scans</title>
       <link>https://aiglimpse.ai/articles/ai-model-boosts-heart-attack-detection-in-ultrasound-scans-523593da</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/ai-model-boosts-heart-attack-detection-in-ultrasound-scans-523593da</guid>
@@ -389,22 +405,6 @@
       <description>New mechanistic study reveals that language model bias operates as geometric patterns in hidden layers, enabling better detection and correction.</description>
       <pubDate>Mon, 13 Jul 2026 17:55:19 GMT</pubDate>
       <category>AI Research</category>
-    </item>
-    <item>
-      <title>Teaching Feedback Classification System Proves Resilient Across AI Models</title>
-      <link>https://aiglimpse.ai/articles/teaching-feedback-classification-system-proves-resilient-across-ai-models-0b2689fa</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/teaching-feedback-classification-system-proves-resilient-across-ai-models-0b2689fa</guid>
-      <description>New research shows instructor evaluation frameworks remain stable even as underlying language models advance, with practical implications for educational institutions.</description>
-      <pubDate>Mon, 13 Jul 2026 17:56:05 GMT</pubDate>
-      <category>AI Research</category>
-    </item>
-    <item>
-      <title>Enterprises must rethink AI spending as autonomous agents reshape ROI</title>
-      <link>https://aiglimpse.ai/articles/enterprises-must-rethink-ai-spending-as-autonomous-agents-reshape-roi-a77f9820</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/enterprises-must-rethink-ai-spending-as-autonomous-agents-reshape-roi-a77f9820</guid>
-      <description>A framework for measuring productive output per dollar spent is becoming critical as AI systems take on independent decision-making roles.</description>
-      <pubDate>Tue, 14 Jul 2026 10:00:00 GMT</pubDate>
-      <category>LLMs &amp; Chatbots</category>
     </item>
   </channel>
 </rss>
