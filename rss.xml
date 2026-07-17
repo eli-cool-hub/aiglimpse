@@ -7,6 +7,14 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>New AI Framework Enables Video Models to Reason Through Multi-Step Tasks</title>
+      <link>https://aiglimpse.ai/articles/new-ai-framework-enables-video-models-to-reason-through-multi-step-tasks-e1b75c6c</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-ai-framework-enables-video-models-to-reason-through-multi-step-tasks-e1b75c6c</guid>
+      <description>Hierarchical denoising approach balances reasoning capability with real-time inference speed for complex visual problem-solving.</description>
+      <pubDate>Thu, 16 Jul 2026 17:59:57 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
       <title>Researchers Find Way to Fix Sampling Bias in AI Model Training</title>
       <link>https://aiglimpse.ai/articles/researchers-find-way-to-fix-sampling-bias-in-ai-model-training-ece8ab1e</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/researchers-find-way-to-fix-sampling-bias-in-ai-model-training-ece8ab1e</guid>
@@ -397,14 +405,6 @@
       <description>Researchers show pretrained multimodal models can evaluate image generation without additional training, unlocking more efficient AI development.</description>
       <pubDate>Mon, 13 Jul 2026 17:59:58 GMT</pubDate>
       <category>AI Research</category>
-    </item>
-    <item>
-      <title>Proprietary AI Models Threaten Scientific Reproducibility</title>
-      <link>https://aiglimpse.ai/articles/proprietary-ai-models-threaten-scientific-reproducibility-449143d5</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/proprietary-ai-models-threaten-scientific-reproducibility-449143d5</guid>
-      <description>Researchers warn that relying on closed LLMs for published findings risks invalidation when vendors push updates without notice.</description>
-      <pubDate>Tue, 14 Jul 2026 00:00:00 GMT</pubDate>
-      <category>AI Business</category>
     </item>
   </channel>
 </rss>
