@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "ai-system-learns-to-edit-scientific-diagrams-from-paper-revisions-b599b5f1",
+      "title": "AI System Learns to Edit Scientific Diagrams From Paper Revisions",
+      "subtitle": "Researchers develop an automated approach to figure editing that understands natural language instructions and learns from how scientists actually revise their work.",
+      "category": "research",
+      "publishedAt": "2026-07-16T17:58:36.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2607.15272v1",
+      "sourceName": "arXiv (Yasheng Sun, Zezi Zeng, Yifan Yang, Chong Luo, Wenyi Wang, Z…)",
+      "sourceTier": 1,
+      "image": "/images/articles/ai-system-learns-to-edit-scientific-diagrams-from-paper-revisions-b599b5f1.jpg"
+    },
+    {
       "slug": "new-method-adds-reinforcement-learning-to-fast-image-generation-models-4f5f5b8d",
       "title": "New Method Adds Reinforcement Learning to Fast Image Generation Models",
       "subtitle": "Researchers develop MeanFlowNFT to optimize rapid generative AI systems without sacrificing quality or speed.",
@@ -7977,6 +7988,7 @@
     "ece8ab1e850ecc58",
     "e1b75c6cac2c7f2c",
     "4b6a8c539469e239",
-    "4f5f5b8dbadb36ef"
+    "4f5f5b8dbadb36ef",
+    "b599b5f1e1ec1761"
   ]
 }

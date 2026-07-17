@@ -7,6 +7,14 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>AI System Learns to Edit Scientific Diagrams From Paper Revisions</title>
+      <link>https://aiglimpse.ai/articles/ai-system-learns-to-edit-scientific-diagrams-from-paper-revisions-b599b5f1</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/ai-system-learns-to-edit-scientific-diagrams-from-paper-revisions-b599b5f1</guid>
+      <description>Researchers develop an automated approach to figure editing that understands natural language instructions and learns from how scientists actually revise their work.</description>
+      <pubDate>Thu, 16 Jul 2026 17:58:36 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
       <title>New Method Adds Reinforcement Learning to Fast Image Generation Models</title>
       <link>https://aiglimpse.ai/articles/new-method-adds-reinforcement-learning-to-fast-image-generation-models-4f5f5b8d</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/new-method-adds-reinforcement-learning-to-fast-image-generation-models-4f5f5b8d</guid>
@@ -396,14 +404,6 @@
       <guid isPermaLink="true">https://aiglimpse.ai/articles/researchers-map-the-emerging-frontier-of-machine-self-awareness-ce0187ac</guid>
       <description>A new survey reveals how large language models can develop metacognitive abilities to become more reliable and trustworthy.</description>
       <pubDate>Mon, 13 Jul 2026 17:58:37 GMT</pubDate>
-      <category>AI Research</category>
-    </item>
-    <item>
-      <title>New Compression Method Reveals How AI Models Actually Store Knowledge</title>
-      <link>https://aiglimpse.ai/articles/new-compression-method-reveals-how-ai-models-actually-store-knowledge-ad779af0</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-compression-method-reveals-how-ai-models-actually-store-knowledge-ad779af0</guid>
-      <description>Requential coding technique generates dramatically shorter representations of neural networks, offering fresh insights into model generalization and learning efficiency.</description>
-      <pubDate>Mon, 13 Jul 2026 17:58:50 GMT</pubDate>
       <category>AI Research</category>
     </item>
   </channel>
