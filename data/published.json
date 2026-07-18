@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "researchers-use-machine-learning-to-decode-crypto-market-sentiment-60d4a377",
+      "title": "Researchers Use Machine Learning to Decode Crypto Market Sentiment",
+      "subtitle": "New AI model combines blockchain data with social media to classify Bitcoin investor emotion with 84% accuracy.",
+      "category": "research",
+      "publishedAt": "2026-07-16T17:52:26.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2607.15258v1",
+      "sourceName": "arXiv (Arthur G. Bubolz, Abreu Quevedo, Giancarlo Lucca, Rafael A. …)",
+      "sourceTier": 1,
+      "image": "/images/articles/researchers-use-machine-learning-to-decode-crypto-market-sentiment-60d4a377.jpg"
+    },
+    {
       "slug": "single-gradient-norm-unlocks-llm-confidence-signals-without-training-8e89bf01",
       "title": "Single Gradient Norm Unlocks LLM Confidence Signals Without Training",
       "subtitle": "Researchers propose a computationally cheap method to measure language model uncertainty, potentially eliminating the need for expensive ensemble approaches.",
@@ -8109,6 +8120,7 @@
     "f6e718cc8d3064dd",
     "038bc2d7cd136d08",
     "18f35c337d1f21f7",
-    "8e89bf017864269f"
+    "8e89bf017864269f",
+    "60d4a37765badf1d"
   ]
 }

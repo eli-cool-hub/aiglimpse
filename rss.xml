@@ -7,6 +7,14 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Researchers Use Machine Learning to Decode Crypto Market Sentiment</title>
+      <link>https://aiglimpse.ai/articles/researchers-use-machine-learning-to-decode-crypto-market-sentiment-60d4a377</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/researchers-use-machine-learning-to-decode-crypto-market-sentiment-60d4a377</guid>
+      <description>New AI model combines blockchain data with social media to classify Bitcoin investor emotion with 84% accuracy.</description>
+      <pubDate>Thu, 16 Jul 2026 17:52:26 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
       <title>Single Gradient Norm Unlocks LLM Confidence Signals Without Training</title>
       <link>https://aiglimpse.ai/articles/single-gradient-norm-unlocks-llm-confidence-signals-without-training-8e89bf01</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/single-gradient-norm-unlocks-llm-confidence-signals-without-training-8e89bf01</guid>
@@ -397,14 +405,6 @@
       <description>Researchers identify critical gaps in how language models process simultaneous camera feeds, pointing toward smarter AI systems for complex visual reasoning.</description>
       <pubDate>Mon, 13 Jul 2026 17:34:36 GMT</pubDate>
       <category>AI Research</category>
-    </item>
-    <item>
-      <title>Healthcare Denial Rates Rise Despite Two Decades of Automation Investment</title>
-      <link>https://aiglimpse.ai/articles/healthcare-denial-rates-rise-despite-two-decades-of-automation-investment-5f40f513</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/healthcare-denial-rates-rise-despite-two-decades-of-automation-investment-5f40f513</guid>
-      <description>As routine tasks get automated, providers discover the real bottleneck lies in judgment-based work where AI agents are now stepping in.</description>
-      <pubDate>Tue, 14 Jul 2026 21:00:39 GMT</pubDate>
-      <category>Industry Applications</category>
     </item>
   </channel>
 </rss>
