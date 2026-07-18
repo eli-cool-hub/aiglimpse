@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "developers-experiment-with-ai-controlled-mac-systems-for-automation-22a5d200",
+      "title": "Developers Experiment with AI-Controlled Mac Systems for Automation",
+      "subtitle": "Community explores running Claude Code on dedicated hardware to automate desktop tasks, sparking discussion about AI agent capabilities.",
+      "category": "tools",
+      "publishedAt": "2026-07-18T16:12:08.000Z",
+      "sourceUrl": "https://ykdojo.github.io/claude-controls-mac/",
+      "sourceName": "Hacker News (94 pts)",
+      "sourceTier": 2,
+      "image": "/images/articles/developers-experiment-with-ai-controlled-mac-systems-for-automation-22a5d200.jpg"
+    },
+    {
+      "slug": "moonshot-ais-latest-kimi-release-sparks-debate-over-model-accessibility-502140f4",
+      "title": "Moonshot AI's Latest Kimi Release Sparks Debate Over Model Accessibility",
+      "subtitle": "Chinese AI firm's new version raises questions about open development practices and competitive positioning in the global AI landscape.",
+      "category": "business",
+      "publishedAt": "2026-07-18T18:51:07.000Z",
+      "sourceUrl": "https://techcrunch.com/2026/07/18/kimi-threat-or-menace/",
+      "sourceName": "TechCrunch AI",
+      "sourceTier": 2,
+      "image": "/images/articles/moonshot-ais-latest-kimi-release-sparks-debate-over-model-accessibility-502140f4.jpg"
+    },
+    {
       "slug": "openais-gpt-56-solves-long-standing-math-problem-via-strategic-prompting-b31b287e",
       "title": "OpenAI's GPT-5.6 Solves Long-Standing Math Problem via Strategic Prompting",
       "subtitle": "The AI model bridges a three-decade gap in convex optimization research, signaling new possibilities for machine learning in theoretical mathematics.",
@@ -8193,6 +8215,8 @@
     "82e1751c359a7470",
     "1ba3c2eed2763479",
     "19858d2c7e034f04",
-    "b31b287e080bf714"
+    "b31b287e080bf714",
+    "502140f4b1500881",
+    "22a5d2008a02b5a1"
   ]
 }
