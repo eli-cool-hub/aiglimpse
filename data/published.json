@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "frontier-llms-face-off-on-complex-math-goal-framing-shows-promise-2c4c1508",
+      "title": "Frontier LLMs Face Off on Complex Math: Goal Framing Shows Promise",
+      "subtitle": "New community testing reveals how prompt structure influences AI performance on computationally difficult problems.",
+      "category": "tools",
+      "publishedAt": "2026-07-18T11:00:29.000Z",
+      "sourceUrl": "https://charlesazam.com/blog/fable-5-gpt-5-6-sol-goal/",
+      "sourceName": "Hacker News (184 pts)",
+      "sourceTier": 2,
+      "image": "/images/articles/frontier-llms-face-off-on-complex-math-goal-framing-shows-promise-2c4c1508.jpg"
+    },
+    {
       "slug": "developers-experiment-with-ai-controlled-mac-systems-for-automation-22a5d200",
       "title": "Developers Experiment with AI-Controlled Mac Systems for Automation",
       "subtitle": "Community explores running Claude Code on dedicated hardware to automate desktop tasks, sparking discussion about AI agent capabilities.",
@@ -8217,6 +8228,7 @@
     "19858d2c7e034f04",
     "b31b287e080bf714",
     "502140f4b1500881",
-    "22a5d2008a02b5a1"
+    "22a5d2008a02b5a1",
+    "2c4c15081acf2246"
   ]
 }
