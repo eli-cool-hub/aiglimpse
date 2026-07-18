@@ -7,6 +7,22 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>OpenAI's GPT-5.6 Solves Long-Standing Math Problem via Strategic Prompting</title>
+      <link>https://aiglimpse.ai/articles/openais-gpt-56-solves-long-standing-math-problem-via-strategic-prompting-b31b287e</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/openais-gpt-56-solves-long-standing-math-problem-via-strategic-prompting-b31b287e</guid>
+      <description>The AI model bridges a three-decade gap in convex optimization research, signaling new possibilities for machine learning in theoretical mathematics.</description>
+      <pubDate>Sat, 18 Jul 2026 13:00:52 GMT</pubDate>
+      <category>AI Tools &amp; Products</category>
+    </item>
+    <item>
+      <title>AI Search Agents Ignore What Makes Documents Actually Useful</title>
+      <link>https://aiglimpse.ai/articles/ai-search-agents-ignore-what-makes-documents-actually-useful-19858d2c</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/ai-search-agents-ignore-what-makes-documents-actually-useful-19858d2c</guid>
+      <description>New research reveals a fundamental mismatch between how retrieval systems are evaluated and how AI agents actually use information when reasoning across multiple steps.</description>
+      <pubDate>Thu, 16 Jul 2026 17:48:29 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
       <title>Reproductive Health Apps Quietly Share User Data With Third Parties</title>
       <link>https://aiglimpse.ai/articles/reproductive-health-apps-quietly-share-user-data-with-third-parties-1ba3c2ee</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/reproductive-health-apps-quietly-share-user-data-with-third-parties-1ba3c2ee</guid>
@@ -388,22 +404,6 @@
       <guid isPermaLink="true">https://aiglimpse.ai/articles/embedding-models-compared-2026</guid>
       <description>Choose the right text embeddings for semantic search and RAG with benchmark data, cost analysis, and latency trade-offs</description>
       <pubDate>Wed, 15 Jul 2026 07:53:38 GMT</pubDate>
-      <category>AI Research</category>
-    </item>
-    <item>
-      <title>Researchers Replace Sequential Speech Recognition with Parallel Diffusion</title>
-      <link>https://aiglimpse.ai/articles/researchers-replace-sequential-speech-recognition-with-parallel-diffusion-bce59a39</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/researchers-replace-sequential-speech-recognition-with-parallel-diffusion-bce59a39</guid>
-      <description>New approach transcribes audio by refining entire outputs simultaneously rather than generating tokens one at a time.</description>
-      <pubDate>Tue, 14 Jul 2026 17:53:22 GMT</pubDate>
-      <category>AI Research</category>
-    </item>
-    <item>
-      <title>Researchers Show AI Agents Waste Resources on Trivial Tasks</title>
-      <link>https://aiglimpse.ai/articles/researchers-show-ai-agents-waste-resources-on-trivial-tasks-35d5f9b6</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/researchers-show-ai-agents-waste-resources-on-trivial-tasks-35d5f9b6</guid>
-      <description>New framework helps AI systems distinguish between simple and complex work, cutting resource consumption by up to 91 percent.</description>
-      <pubDate>Tue, 14 Jul 2026 17:59:31 GMT</pubDate>
       <category>AI Research</category>
     </item>
   </channel>

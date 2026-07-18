@@ -9146,6 +9146,42 @@
         "devto": true,
         "hashnode": false
       }
+    },
+    "ai-search-agents-ignore-what-makes-documents-actually-useful-19858d2c": {
+      "syndicated_at": "2026-07-18T16:59:51.368Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/ai-search-agents-ignore-what-makes-documents-actually-useful-3o7p",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 509,
+      "category": "research",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
+    },
+    "openais-gpt-56-solves-long-standing-math-problem-via-strategic-prompting-b31b287e": {
+      "syndicated_at": "2026-07-18T17:00:01.500Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/openais-gpt-56-solves-long-standing-math-problem-via-strategic-prompting-539h",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 491,
+      "category": "tools",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
     }
   }
 }

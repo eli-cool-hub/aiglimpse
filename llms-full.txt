@@ -3,7 +3,7 @@
 > Machine-readable index for AI assistants, answer engines, and research crawlers.
 > Summary version: https://aiglimpse.ai/llms.txt
 
-Total articles: 680 | Evergreen explainers: 14 | Generated: 2026-07-18
+Total articles: 682 | Evergreen explainers: 14 | Generated: 2026-07-18
 
 ## Evergreen explainers
 
@@ -106,6 +106,20 @@ Total articles: 680 | Evergreen explainers: 14 | Generated: 2026-07-18
 - Type: evergreen explainer (FAQ schema on page)
 
 ## All articles (newest first)
+
+### OpenAI's GPT-5.6 Solves Long-Standing Math Problem via Strategic Prompting
+- URL: https://aiglimpse.ai/articles/openais-gpt-56-solves-long-standing-math-problem-via-strategic-prompting-b31b287e
+- Published: 2026-07-18
+- Category: tools
+- Summary: The AI model bridges a three-decade gap in convex optimization research, signaling new possibilities for machine learning in theoretical mathematics.
+- Source: https://old.reddit.com/r/math/comments/1uxj3cy/after_openais_cdc_proof_announcement_gpt56_used_a/
+
+### AI Search Agents Ignore What Makes Documents Actually Useful
+- URL: https://aiglimpse.ai/articles/ai-search-agents-ignore-what-makes-documents-actually-useful-19858d2c
+- Published: 2026-07-16
+- Category: research
+- Summary: New research reveals a fundamental mismatch between how retrieval systems are evaluated and how AI agents actually use information when reasoning across multiple steps.
+- Source: http://arxiv.org/abs/2607.15253v1
 
 ### Reproductive Health Apps Quietly Share User Data With Third Parties
 - URL: https://aiglimpse.ai/articles/reproductive-health-apps-quietly-share-user-data-with-third-parties-1ba3c2ee

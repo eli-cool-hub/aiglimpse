@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "openais-gpt-56-solves-long-standing-math-problem-via-strategic-prompting-b31b287e",
+      "title": "OpenAI's GPT-5.6 Solves Long-Standing Math Problem via Strategic Prompting",
+      "subtitle": "The AI model bridges a three-decade gap in convex optimization research, signaling new possibilities for machine learning in theoretical mathematics.",
+      "category": "tools",
+      "publishedAt": "2026-07-18T13:00:52.000Z",
+      "sourceUrl": "https://old.reddit.com/r/math/comments/1uxj3cy/after_openais_cdc_proof_announcement_gpt56_used_a/",
+      "sourceName": "Hacker News (274 pts)",
+      "sourceTier": 2,
+      "image": "/images/articles/openais-gpt-56-solves-long-standing-math-problem-via-strategic-prompting-b31b287e.jpg"
+    },
+    {
+      "slug": "ai-search-agents-ignore-what-makes-documents-actually-useful-19858d2c",
+      "title": "AI Search Agents Ignore What Makes Documents Actually Useful",
+      "subtitle": "New research reveals a fundamental mismatch between how retrieval systems are evaluated and how AI agents actually use information when reasoning across multiple steps.",
+      "category": "research",
+      "publishedAt": "2026-07-16T17:48:29.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2607.15253v1",
+      "sourceName": "arXiv (Debayan Mukhopadhyay, Utshab Kumar Ghosh, Shubham Chatterjee)",
+      "sourceTier": 1,
+      "image": "/images/articles/ai-search-agents-ignore-what-makes-documents-actually-useful-19858d2c.jpg"
+    },
+    {
       "slug": "reproductive-health-apps-quietly-share-user-data-with-third-parties-1ba3c2ee",
       "title": "Reproductive Health Apps Quietly Share User Data With Third Parties",
       "subtitle": "Privacy vulnerabilities in period tracking software expose intimate health information to advertisers and data brokers, raising urgent questions about informed consent.",
@@ -8169,6 +8191,8 @@
     "0ae28d6c1174bfdc",
     "16bee68ac004c844",
     "82e1751c359a7470",
-    "1ba3c2eed2763479"
+    "1ba3c2eed2763479",
+    "19858d2c7e034f04",
+    "b31b287e080bf714"
   ]
 }
