@@ -7,6 +7,22 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>DeepMind and Isomorphic Labs Unite on AI-Driven Biology</title>
+      <link>https://aiglimpse.ai/articles/deepmind-and-isomorphic-labs-unite-on-ai-driven-biology-d775fec0</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/deepmind-and-isomorphic-labs-unite-on-ai-driven-biology-d775fec0</guid>
+      <description>Google's research division and the Alphabet-backed startup combine computational intelligence with life sciences to tackle disease resilience.</description>
+      <pubDate>Sat, 18 Jul 2026 16:02:45 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
+      <title>Acclaimed Author Warns OpenAI Staff That ChatGPT Threatens Educational Practice</title>
+      <link>https://aiglimpse.ai/articles/acclaimed-author-warns-openai-staff-that-chatgpt-threatens-educational-practice-a2deddc4</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/acclaimed-author-warns-openai-staff-that-chatgpt-threatens-educational-practice-a2deddc4</guid>
+      <description>Dave Eggers delivered a sharp critique of generative AI's impact on teaching and creative work during a company talk last year.</description>
+      <pubDate>Sat, 18 Jul 2026 20:54:42 GMT</pubDate>
+      <category>AI Tools &amp; Products</category>
+    </item>
+    <item>
       <title>Frontier LLMs Face Off on Complex Math: Goal Framing Shows Promise</title>
       <link>https://aiglimpse.ai/articles/frontier-llms-face-off-on-complex-math-goal-framing-shows-promise-2c4c1508</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/frontier-llms-face-off-on-complex-math-goal-framing-shows-promise-2c4c1508</guid>
@@ -389,22 +405,6 @@
       <description>A decentralized approach to AI governance may create stronger protections than federal action alone, according to the AI lab.</description>
       <pubDate>Wed, 15 Jul 2026 12:00:00 GMT</pubDate>
       <category>LLMs &amp; Chatbots</category>
-    </item>
-    <item>
-      <title>New Simulator Trains Autonomous Driving AI Without Human Data</title>
-      <link>https://aiglimpse.ai/articles/new-simulator-trains-autonomous-driving-ai-without-human-data-f7f882a4</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-simulator-trains-autonomous-driving-ai-without-human-data-f7f882a4</guid>
-      <description>TerraZero achieves breakthrough performance by generating unlimited training scenarios procedurally, eliminating reliance on human demonstrations.</description>
-      <pubDate>Tue, 14 Jul 2026 17:59:02 GMT</pubDate>
-      <category>AI Research</category>
-    </item>
-    <item>
-      <title>Video AI Models Struggle With Complex Chain Reactions</title>
-      <link>https://aiglimpse.ai/articles/video-ai-models-struggle-with-complex-chain-reactions-9ce8ee97</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/video-ai-models-struggle-with-complex-chain-reactions-9ce8ee97</guid>
-      <description>Researchers identify a fundamental limitation in how diffusion models handle sequential reasoning, suggesting the need for architectural rethinking.</description>
-      <pubDate>Tue, 14 Jul 2026 17:59:22 GMT</pubDate>
-      <category>AI Research</category>
     </item>
   </channel>
 </rss>

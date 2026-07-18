@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "deepmind-and-isomorphic-labs-unite-on-ai-driven-biology-d775fec0",
+      "title": "DeepMind and Isomorphic Labs Unite on AI-Driven Biology",
+      "subtitle": "Google's research division and the Alphabet-backed startup combine computational intelligence with life sciences to tackle disease resilience.",
+      "category": "research",
+      "publishedAt": "2026-07-18T16:02:45.000Z",
+      "sourceUrl": "https://deepmind.google/blog/our-approach-to-bioresilience/",
+      "sourceName": "Hacker News (53 pts)",
+      "sourceTier": 2,
+      "image": "/images/articles/deepmind-and-isomorphic-labs-unite-on-ai-driven-biology-d775fec0.jpg"
+    },
+    {
+      "slug": "acclaimed-author-warns-openai-staff-that-chatgpt-threatens-educational-practice-a2deddc4",
+      "title": "Acclaimed Author Warns OpenAI Staff That ChatGPT Threatens Educational Practice",
+      "subtitle": "Dave Eggers delivered a sharp critique of generative AI's impact on teaching and creative work during a company talk last year.",
+      "category": "tools",
+      "publishedAt": "2026-07-18T20:54:42.000Z",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/967630/dave-eggers-openai-chatgpt-silencing-an-entire-generation",
+      "sourceName": "The Verge AI",
+      "sourceTier": 2,
+      "image": "/images/articles/acclaimed-author-warns-openai-staff-that-chatgpt-threatens-educational-practice-a2deddc4.jpg"
+    },
+    {
       "slug": "frontier-llms-face-off-on-complex-math-goal-framing-shows-promise-2c4c1508",
       "title": "Frontier LLMs Face Off on Complex Math: Goal Framing Shows Promise",
       "subtitle": "New community testing reveals how prompt structure influences AI performance on computationally difficult problems.",
@@ -8229,6 +8251,8 @@
     "b31b287e080bf714",
     "502140f4b1500881",
     "22a5d2008a02b5a1",
-    "2c4c15081acf2246"
+    "2c4c15081acf2246",
+    "a2deddc44c09b47a",
+    "d775fec01986a12e"
   ]
 }
