@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "researchers-use-llms-to-unlock-causal-insights-from-traffic-video-data-16bee68a",
+      "title": "Researchers Use LLMs to Unlock Causal Insights From Traffic Video Data",
+      "subtitle": "New system bridges natural language and causal inference to help traffic agencies understand what actually causes congestion and accidents.",
+      "category": "research",
+      "publishedAt": "2026-07-16T17:49:28.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2607.15254v1",
+      "sourceName": "arXiv (Qiwei Li, Jorge Ortiz)",
+      "sourceTier": 1,
+      "image": "/images/articles/researchers-use-llms-to-unlock-causal-insights-from-traffic-video-data-16bee68a.jpg"
+    },
+    {
+      "slug": "new-framework-teaches-ai-agents-to-search-smarter-and-remember-better-0ae28d6c",
+      "title": "New Framework Teaches AI Agents to Search Smarter and Remember Better",
+      "subtitle": "Researchers introduce SearchOS, a system that prevents AI from repeating failed searches by maintaining explicit task state and evidence tracking.",
+      "category": "research",
+      "publishedAt": "2026-07-16T17:51:23.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2607.15257v1",
+      "sourceName": "arXiv (Yuyao Zhang, Junjie Gao, Zhengxian Wu, Jiaming Fan, Jin Zhan…)",
+      "sourceTier": 1,
+      "image": "/images/articles/new-framework-teaches-ai-agents-to-search-smarter-and-remember-better-0ae28d6c.jpg"
+    },
+    {
       "slug": "researchers-use-machine-learning-to-decode-crypto-market-sentiment-60d4a377",
       "title": "Researchers Use Machine Learning to Decode Crypto Market Sentiment",
       "subtitle": "New AI model combines blockchain data with social media to classify Bitcoin investor emotion with 84% accuracy.",
@@ -8121,6 +8143,8 @@
     "038bc2d7cd136d08",
     "18f35c337d1f21f7",
     "8e89bf017864269f",
-    "60d4a37765badf1d"
+    "60d4a37765badf1d",
+    "0ae28d6c1174bfdc",
+    "16bee68ac004c844"
   ]
 }

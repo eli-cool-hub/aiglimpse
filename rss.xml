@@ -7,6 +7,22 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Researchers Use LLMs to Unlock Causal Insights From Traffic Video Data</title>
+      <link>https://aiglimpse.ai/articles/researchers-use-llms-to-unlock-causal-insights-from-traffic-video-data-16bee68a</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/researchers-use-llms-to-unlock-causal-insights-from-traffic-video-data-16bee68a</guid>
+      <description>New system bridges natural language and causal inference to help traffic agencies understand what actually causes congestion and accidents.</description>
+      <pubDate>Thu, 16 Jul 2026 17:49:28 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
+      <title>New Framework Teaches AI Agents to Search Smarter and Remember Better</title>
+      <link>https://aiglimpse.ai/articles/new-framework-teaches-ai-agents-to-search-smarter-and-remember-better-0ae28d6c</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-framework-teaches-ai-agents-to-search-smarter-and-remember-better-0ae28d6c</guid>
+      <description>Researchers introduce SearchOS, a system that prevents AI from repeating failed searches by maintaining explicit task state and evidence tracking.</description>
+      <pubDate>Thu, 16 Jul 2026 17:51:23 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
       <title>Researchers Use Machine Learning to Decode Crypto Market Sentiment</title>
       <link>https://aiglimpse.ai/articles/researchers-use-machine-learning-to-decode-crypto-market-sentiment-60d4a377</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/researchers-use-machine-learning-to-decode-crypto-market-sentiment-60d4a377</guid>
@@ -388,22 +404,6 @@
       <guid isPermaLink="true">https://aiglimpse.ai/articles/google-deepmind-launches-ai-tutor-to-guide-indian-robotics-educators-ee9f9867</guid>
       <description>A Gemini-powered assistant aims to democratize AI instruction in India's school laboratories, reaching thousands of teachers.</description>
       <pubDate>Mon, 13 Jul 2026 12:37:28 GMT</pubDate>
-      <category>AI Research</category>
-    </item>
-    <item>
-      <title>OpenAI Plans Mobile Speaker as First Hardware Device</title>
-      <link>https://aiglimpse.ai/articles/openai-plans-mobile-speaker-as-first-hardware-device-85549e7e</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/openai-plans-mobile-speaker-as-first-hardware-device-85549e7e</guid>
-      <description>The company's entry into consumer hardware signals a shift toward embodied AI experiences beyond software interfaces.</description>
-      <pubDate>Tue, 14 Jul 2026 22:22:24 GMT</pubDate>
-      <category>AI Business</category>
-    </item>
-    <item>
-      <title>New Benchmark Reveals How AI Struggles With Multi-View Sports Analysis</title>
-      <link>https://aiglimpse.ai/articles/new-benchmark-reveals-how-ai-struggles-with-multi-view-sports-analysis-c890378f</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-benchmark-reveals-how-ai-struggles-with-multi-view-sports-analysis-c890378f</guid>
-      <description>Researchers identify critical gaps in how language models process simultaneous camera feeds, pointing toward smarter AI systems for complex visual reasoning.</description>
-      <pubDate>Mon, 13 Jul 2026 17:34:36 GMT</pubDate>
       <category>AI Research</category>
     </item>
   </channel>

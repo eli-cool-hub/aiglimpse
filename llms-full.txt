@@ -3,7 +3,7 @@
 > Machine-readable index for AI assistants, answer engines, and research crawlers.
 > Summary version: https://aiglimpse.ai/llms.txt
 
-Total articles: 676 | Evergreen explainers: 14 | Generated: 2026-07-18
+Total articles: 678 | Evergreen explainers: 14 | Generated: 2026-07-18
 
 ## Evergreen explainers
 
@@ -106,6 +106,20 @@ Total articles: 676 | Evergreen explainers: 14 | Generated: 2026-07-18
 - Type: evergreen explainer (FAQ schema on page)
 
 ## All articles (newest first)
+
+### Researchers Use LLMs to Unlock Causal Insights From Traffic Video Data
+- URL: https://aiglimpse.ai/articles/researchers-use-llms-to-unlock-causal-insights-from-traffic-video-data-16bee68a
+- Published: 2026-07-16
+- Category: research
+- Summary: New system bridges natural language and causal inference to help traffic agencies understand what actually causes congestion and accidents.
+- Source: http://arxiv.org/abs/2607.15254v1
+
+### New Framework Teaches AI Agents to Search Smarter and Remember Better
+- URL: https://aiglimpse.ai/articles/new-framework-teaches-ai-agents-to-search-smarter-and-remember-better-0ae28d6c
+- Published: 2026-07-16
+- Category: research
+- Summary: Researchers introduce SearchOS, a system that prevents AI from repeating failed searches by maintaining explicit task state and evidence tracking.
+- Source: http://arxiv.org/abs/2607.15257v1
 
 ### Researchers Use Machine Learning to Decode Crypto Market Sentiment
 - URL: https://aiglimpse.ai/articles/researchers-use-machine-learning-to-decode-crypto-market-sentiment-60d4a377
