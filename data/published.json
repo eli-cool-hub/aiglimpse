@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "reproductive-health-apps-quietly-share-user-data-with-third-parties-1ba3c2ee",
+      "title": "Reproductive Health Apps Quietly Share User Data With Third Parties",
+      "subtitle": "Privacy vulnerabilities in period tracking software expose intimate health information to advertisers and data brokers, raising urgent questions about informed consent.",
+      "category": "tools",
+      "publishedAt": "2026-07-18T10:30:00.000Z",
+      "sourceUrl": "https://www.wired.com/story/security-news-this-week-your-period-tracker-is-probably-spying-on-you/",
+      "sourceName": "Wired AI",
+      "sourceTier": 2,
+      "image": "/images/articles/reproductive-health-apps-quietly-share-user-data-with-third-parties-1ba3c2ee.jpg"
+    },
+    {
+      "slug": "new-framework-tackles-landmark-bias-in-ai-powered-location-detection-82e1751c",
+      "title": "New Framework Tackles Landmark Bias in AI-Powered Location Detection",
+      "subtitle": "Researchers develop technique to prevent vision-language models from over-relying on iconic features when determining geographic coordinates.",
+      "category": "research",
+      "publishedAt": "2026-07-16T17:50:03.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2607.15255v1",
+      "sourceName": "arXiv (Pengcheng Zhou, Xuanyu Liu, Yanchen Yin, Bobo Li, Shengqiong…)",
+      "sourceTier": 1,
+      "image": "/images/articles/new-framework-tackles-landmark-bias-in-ai-powered-location-detection-82e1751c.jpg"
+    },
+    {
       "slug": "researchers-use-llms-to-unlock-causal-insights-from-traffic-video-data-16bee68a",
       "title": "Researchers Use LLMs to Unlock Causal Insights From Traffic Video Data",
       "subtitle": "New system bridges natural language and causal inference to help traffic agencies understand what actually causes congestion and accidents.",
@@ -8145,6 +8167,8 @@
     "8e89bf017864269f",
     "60d4a37765badf1d",
     "0ae28d6c1174bfdc",
-    "16bee68ac004c844"
+    "16bee68ac004c844",
+    "82e1751c359a7470",
+    "1ba3c2eed2763479"
   ]
 }

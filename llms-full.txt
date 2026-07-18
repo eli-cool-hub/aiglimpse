@@ -3,7 +3,7 @@
 > Machine-readable index for AI assistants, answer engines, and research crawlers.
 > Summary version: https://aiglimpse.ai/llms.txt
 
-Total articles: 678 | Evergreen explainers: 14 | Generated: 2026-07-18
+Total articles: 680 | Evergreen explainers: 14 | Generated: 2026-07-18
 
 ## Evergreen explainers
 
@@ -106,6 +106,20 @@ Total articles: 678 | Evergreen explainers: 14 | Generated: 2026-07-18
 - Type: evergreen explainer (FAQ schema on page)
 
 ## All articles (newest first)
+
+### Reproductive Health Apps Quietly Share User Data With Third Parties
+- URL: https://aiglimpse.ai/articles/reproductive-health-apps-quietly-share-user-data-with-third-parties-1ba3c2ee
+- Published: 2026-07-18
+- Category: tools
+- Summary: Privacy vulnerabilities in period tracking software expose intimate health information to advertisers and data brokers, raising urgent questions about informed consent.
+- Source: https://www.wired.com/story/security-news-this-week-your-period-tracker-is-probably-spying-on-you/
+
+### New Framework Tackles Landmark Bias in AI-Powered Location Detection
+- URL: https://aiglimpse.ai/articles/new-framework-tackles-landmark-bias-in-ai-powered-location-detection-82e1751c
+- Published: 2026-07-16
+- Category: research
+- Summary: Researchers develop technique to prevent vision-language models from over-relying on iconic features when determining geographic coordinates.
+- Source: http://arxiv.org/abs/2607.15255v1
 
 ### Researchers Use LLMs to Unlock Causal Insights From Traffic Video Data
 - URL: https://aiglimpse.ai/articles/researchers-use-llms-to-unlock-causal-insights-from-traffic-video-data-16bee68a
