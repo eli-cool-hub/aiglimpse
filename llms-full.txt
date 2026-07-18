@@ -3,7 +3,7 @@
 > Machine-readable index for AI assistants, answer engines, and research crawlers.
 > Summary version: https://aiglimpse.ai/llms.txt
 
-Total articles: 673 | Evergreen explainers: 14 | Generated: 2026-07-17
+Total articles: 675 | Evergreen explainers: 14 | Generated: 2026-07-18
 
 ## Evergreen explainers
 
@@ -106,6 +106,20 @@ Total articles: 673 | Evergreen explainers: 14 | Generated: 2026-07-17
 - Type: evergreen explainer (FAQ schema on page)
 
 ## All articles (newest first)
+
+### Single Gradient Norm Unlocks LLM Confidence Signals Without Training
+- URL: https://aiglimpse.ai/articles/single-gradient-norm-unlocks-llm-confidence-signals-without-training-8e89bf01
+- Published: 2026-07-18
+- Category: llms
+- Summary: Researchers propose a computationally cheap method to measure language model uncertainty, potentially eliminating the need for expensive ensemble approaches.
+- Source: https://arxiv.org/abs/2603.29466
+
+### China's Moonshot AI Releases Massive Open Model Challenging US Dominance
+- URL: https://aiglimpse.ai/articles/chinas-moonshot-ai-releases-massive-open-model-challenging-us-dominance-18f35c33
+- Published: 2026-07-18
+- Category: business
+- Summary: The K3 model brings performance parity with closed-source leaders, forcing developers to reconsider dependency on American AI platforms.
+- Source: https://venturebeat.com/technology/chinas-moonshot-ai-releases-kimi-k3-the-largest-open-source-model-ever-rivaling-top-u-s-systems
 
 ### New AI Model Fuses Vision, Audio, and Language to Map Physical Scenes
 - URL: https://aiglimpse.ai/articles/new-ai-model-fuses-vision-audio-and-language-to-map-physical-scenes-038bc2d7

@@ -9038,6 +9038,24 @@
         "devto": true,
         "hashnode": false
       }
+    },
+    "single-gradient-norm-unlocks-llm-confidence-signals-without-training-8e89bf01": {
+      "syndicated_at": "2026-07-18T02:39:49.923Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/single-gradient-norm-unlocks-llm-confidence-signals-without-training-1i2o",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 451,
+      "category": "llms",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
     }
   }
 }

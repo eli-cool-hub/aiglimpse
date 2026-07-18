@@ -7,6 +7,22 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Single Gradient Norm Unlocks LLM Confidence Signals Without Training</title>
+      <link>https://aiglimpse.ai/articles/single-gradient-norm-unlocks-llm-confidence-signals-without-training-8e89bf01</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/single-gradient-norm-unlocks-llm-confidence-signals-without-training-8e89bf01</guid>
+      <description>Researchers propose a computationally cheap method to measure language model uncertainty, potentially eliminating the need for expensive ensemble approaches.</description>
+      <pubDate>Sat, 18 Jul 2026 00:00:00 GMT</pubDate>
+      <category>LLMs &amp; Chatbots</category>
+    </item>
+    <item>
+      <title>China's Moonshot AI Releases Massive Open Model Challenging US Dominance</title>
+      <link>https://aiglimpse.ai/articles/chinas-moonshot-ai-releases-massive-open-model-challenging-us-dominance-18f35c33</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/chinas-moonshot-ai-releases-massive-open-model-challenging-us-dominance-18f35c33</guid>
+      <description>The K3 model brings performance parity with closed-source leaders, forcing developers to reconsider dependency on American AI platforms.</description>
+      <pubDate>Sat, 18 Jul 2026 00:00:00 GMT</pubDate>
+      <category>AI Business</category>
+    </item>
+    <item>
       <title>New AI Model Fuses Vision, Audio, and Language to Map Physical Scenes</title>
       <link>https://aiglimpse.ai/articles/new-ai-model-fuses-vision-audio-and-language-to-map-physical-scenes-038bc2d7</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/new-ai-model-fuses-vision-audio-and-language-to-map-physical-scenes-038bc2d7</guid>
@@ -389,22 +405,6 @@
       <description>As routine tasks get automated, providers discover the real bottleneck lies in judgment-based work where AI agents are now stepping in.</description>
       <pubDate>Tue, 14 Jul 2026 21:00:39 GMT</pubDate>
       <category>Industry Applications</category>
-    </item>
-    <item>
-      <title>New Benchmark Exposes Limits of AI in Advanced Mathematics</title>
-      <link>https://aiglimpse.ai/articles/new-benchmark-exposes-limits-of-ai-in-advanced-mathematics-3d27d86c</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-benchmark-exposes-limits-of-ai-in-advanced-mathematics-3d27d86c</guid>
-      <description>Researchers reveal that even leading language models struggle with doctoral-level proofs, achieving under 75% accuracy on complex mathematical reasoning.</description>
-      <pubDate>Mon, 13 Jul 2026 17:38:22 GMT</pubDate>
-      <category>AI Research</category>
-    </item>
-    <item>
-      <title>Researchers Challenge Black-Box Video AI with Grounded Explanations</title>
-      <link>https://aiglimpse.ai/articles/researchers-challenge-black-box-video-ai-with-grounded-explanations-1dcf2288</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/researchers-challenge-black-box-video-ai-with-grounded-explanations-1dcf2288</guid>
-      <description>New benchmark forces machine learning models to prove their answers by pinpointing visual evidence in video frames.</description>
-      <pubDate>Mon, 13 Jul 2026 17:49:10 GMT</pubDate>
-      <category>AI Research</category>
     </item>
   </channel>
 </rss>

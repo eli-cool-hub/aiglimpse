@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "single-gradient-norm-unlocks-llm-confidence-signals-without-training-8e89bf01",
+      "title": "Single Gradient Norm Unlocks LLM Confidence Signals Without Training",
+      "subtitle": "Researchers propose a computationally cheap method to measure language model uncertainty, potentially eliminating the need for expensive ensemble approaches.",
+      "category": "llms",
+      "publishedAt": "2026-07-18T00:00:00.000Z",
+      "sourceUrl": "https://arxiv.org/abs/2603.29466",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/single-gradient-norm-unlocks-llm-confidence-signals-without-training-8e89bf01.jpg"
+    },
+    {
+      "slug": "chinas-moonshot-ai-releases-massive-open-model-challenging-us-dominance-18f35c33",
+      "title": "China's Moonshot AI Releases Massive Open Model Challenging US Dominance",
+      "subtitle": "The K3 model brings performance parity with closed-source leaders, forcing developers to reconsider dependency on American AI platforms.",
+      "category": "business",
+      "publishedAt": "2026-07-18T00:00:00.000Z",
+      "sourceUrl": "https://venturebeat.com/technology/chinas-moonshot-ai-releases-kimi-k3-the-largest-open-source-model-ever-rivaling-top-u-s-systems",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/chinas-moonshot-ai-releases-massive-open-model-challenging-us-dominance-18f35c33.jpg"
+    },
+    {
       "slug": "new-ai-model-fuses-vision-audio-and-language-to-map-physical-scenes-038bc2d7",
       "title": "New AI Model Fuses Vision, Audio, and Language to Map Physical Scenes",
       "subtitle": "Researchers tackle a fundamental problem in multimodal AI: understanding not just what objects are present, but precisely where they exist in 3D space.",
@@ -8085,6 +8107,8 @@
     "523593dabecfd430",
     "9b6ef032a8cd6900",
     "f6e718cc8d3064dd",
-    "038bc2d7cd136d08"
+    "038bc2d7cd136d08",
+    "18f35c337d1f21f7",
+    "8e89bf017864269f"
   ]
 }
