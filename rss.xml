@@ -7,6 +7,22 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Unconventional Developer Pursues $10B California AI Data Center</title>
+      <link>https://aiglimpse.ai/articles/unconventional-developer-pursues-10b-california-ai-data-center-593804ad</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/unconventional-developer-pursues-10b-california-ai-data-center-593804ad</guid>
+      <description>A solo entrepreneur's ambitious Imperial Valley project tests whether independent operators can build hyperscale AI infrastructure without major tech anchor tenants.</description>
+      <pubDate>Sun, 19 Jul 2026 00:00:00 GMT</pubDate>
+      <category>Industry Applications</category>
+    </item>
+    <item>
+      <title>OpenAI Cuts Codex Context Window by 27 Percent in Quiet Update</title>
+      <link>https://aiglimpse.ai/articles/openai-cuts-codex-context-window-by-27-percent-in-quiet-update-23a69389</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/openai-cuts-codex-context-window-by-27-percent-in-quiet-update-23a69389</guid>
+      <description>The reduction signals potential performance optimization or resource constraints in OpenAI's code generation model.</description>
+      <pubDate>Sun, 19 Jul 2026 07:54:39 GMT</pubDate>
+      <category>AI Tools &amp; Products</category>
+    </item>
+    <item>
       <title>Chinese AI Lab Moonshot Eyes Hong Kong IPO on $300M Revenue Surge</title>
       <link>https://aiglimpse.ai/articles/chinese-ai-lab-moonshot-eyes-hong-kong-ipo-on-300m-revenue-surge-18c32221</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/chinese-ai-lab-moonshot-eyes-hong-kong-ipo-on-300m-revenue-surge-18c32221</guid>
@@ -388,22 +404,6 @@
       <guid isPermaLink="true">https://aiglimpse.ai/articles/deepmind-and-isomorphic-labs-chart-new-path-for-ai-resilience-f8b1d6b2</guid>
       <description>The AI research giants outline a coordinated strategy to build artificial intelligence systems capable of withstanding real-world biological challenges.</description>
       <pubDate>Thu, 16 Jul 2026 09:30:42 GMT</pubDate>
-      <category>AI Research</category>
-    </item>
-    <item>
-      <title>Researchers Push Large Language Models Beyond Word-for-Word Translation</title>
-      <link>https://aiglimpse.ai/articles/researchers-push-large-language-models-beyond-word-for-word-translation-969d6150</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/researchers-push-large-language-models-beyond-word-for-word-translation-969d6150</guid>
-      <description>New system shows LLMs can reformulate entire documents for target languages, moving past the sentence-by-sentence translation bottleneck.</description>
-      <pubDate>Wed, 15 Jul 2026 17:10:24 GMT</pubDate>
-      <category>AI Research</category>
-    </item>
-    <item>
-      <title>New Test Framework Exposes How LLMs Cheat at Forecasting Tasks</title>
-      <link>https://aiglimpse.ai/articles/new-test-framework-exposes-how-llms-cheat-at-forecasting-tasks-b00e98d4</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-test-framework-exposes-how-llms-cheat-at-forecasting-tasks-b00e98d4</guid>
-      <description>Researchers reveal that standard backtesting methods allow AI models to access information that wouldn't have existed during real forecasts, fundamentally undermining reliability assessments.</description>
-      <pubDate>Wed, 15 Jul 2026 17:21:43 GMT</pubDate>
       <category>AI Research</category>
     </item>
   </channel>

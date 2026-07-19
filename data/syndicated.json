@@ -9290,6 +9290,42 @@
         "devto": true,
         "hashnode": false
       }
+    },
+    "openai-cuts-codex-context-window-by-27-percent-in-quiet-update-23a69389": {
+      "syndicated_at": "2026-07-19T13:21:11.356Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/openai-cuts-codex-context-window-by-27-percent-in-quiet-update-1n3j",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 417,
+      "category": "tools",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
+    },
+    "unconventional-developer-pursues-10b-california-ai-data-center-593804ad": {
+      "syndicated_at": "2026-07-19T13:21:23.307Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/unconventional-developer-pursues-10b-california-ai-data-center-5503",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 464,
+      "category": "industry",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
     }
   }
 }

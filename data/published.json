@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "unconventional-developer-pursues-10b-california-ai-data-center-593804ad",
+      "title": "Unconventional Developer Pursues $10B California AI Data Center",
+      "subtitle": "A solo entrepreneur's ambitious Imperial Valley project tests whether independent operators can build hyperscale AI infrastructure without major tech anchor tenants.",
+      "category": "industry",
+      "publishedAt": "2026-07-19T00:00:00.000Z",
+      "sourceUrl": "https://www.wsj.com/us-news/he-ran-a-strip-club-now-he-wants-to-build-californias-biggest-data-center-2135e916",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/unconventional-developer-pursues-10b-california-ai-data-center-593804ad.jpg"
+    },
+    {
+      "slug": "openai-cuts-codex-context-window-by-27-percent-in-quiet-update-23a69389",
+      "title": "OpenAI Cuts Codex Context Window by 27 Percent in Quiet Update",
+      "subtitle": "The reduction signals potential performance optimization or resource constraints in OpenAI's code generation model.",
+      "category": "tools",
+      "publishedAt": "2026-07-19T07:54:39.000Z",
+      "sourceUrl": "https://github.com/openai/codex/pull/33972/files",
+      "sourceName": "Hacker News (72 pts)",
+      "sourceTier": 2,
+      "image": "/images/articles/openai-cuts-codex-context-window-by-27-percent-in-quiet-update-23a69389.jpg"
+    },
+    {
       "slug": "chinese-ai-lab-moonshot-eyes-hong-kong-ipo-on-300m-revenue-surge-18c32221",
       "title": "Chinese AI Lab Moonshot Eyes Hong Kong IPO on $300M Revenue Surge",
       "subtitle": "The startup's rapid commercialization of open-weight models challenges assumptions about closed API moats in frontier AI.",
@@ -8337,6 +8359,8 @@
     "f5bd2e8ead07060d",
     "9722030baa4cc162",
     "6c384940b1fe46fd",
-    "18c32221edace277"
+    "18c32221edace277",
+    "23a693892cab2344",
+    "593804ad0a243c39"
   ]
 }
