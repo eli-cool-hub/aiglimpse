@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "european-ai-firms-deploy-facial-recognition-in-india-despite-home-ban-f5bd2e8e",
+      "title": "European AI Firms Deploy Facial Recognition in India Despite Home Ban",
+      "subtitle": "Spanish biometrics vendor Herta scales technology banned under EU law into markets lacking data protections, raising regulatory and reputational risks.",
+      "category": "business",
+      "publishedAt": "2026-07-19T00:00:00.000Z",
+      "sourceUrl": "https://techpolicy.press/european-ai-firms-scale-banned-facial-recognition-systems-in-india",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/european-ai-firms-deploy-facial-recognition-in-india-despite-home-ban-f5bd2e8e.jpg"
+    },
+    {
+      "slug": "author-dave-eggers-challenges-openai-on-chatgpts-impact-in-schools-6e0cedef",
+      "title": "Author Dave Eggers Challenges OpenAI on ChatGPT's Impact in Schools",
+      "subtitle": "High-profile critic's visit to OpenAI headquarters signals shift in education AI debate, forcing vendors to address teacher concerns beyond detection tools.",
+      "category": "business",
+      "publishedAt": "2026-07-19T00:00:00.000Z",
+      "sourceUrl": "https://theverge.com/ai-artificial-intelligence/967630/dave-eggers-openai-chatgpt-silencing-an-entire-generation",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/author-dave-eggers-challenges-openai-on-chatgpts-impact-in-schools-6e0cedef.jpg"
+    },
+    {
       "slug": "cities-target-ai-image-generation-tools-forcing-app-store-removals-39eeae14",
       "title": "Cities Target AI Image Generation Tools, Forcing App Store Removals",
       "subtitle": "San Francisco's enforcement action signals a new era where local governments, not just tech platforms, set rules for consumer AI applications.",
@@ -8265,6 +8287,8 @@
     "2c4c15081acf2246",
     "a2deddc44c09b47a",
     "d775fec01986a12e",
-    "39eeae14005e25b4"
+    "39eeae14005e25b4",
+    "6e0cedefe1747478",
+    "f5bd2e8ead07060d"
   ]
 }
