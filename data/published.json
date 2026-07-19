@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "ai-transforms-entry-level-work-forcing-companies-to-rethink-career-pipelines-8b1ff12e",
+      "title": "AI Transforms Entry-Level Work, Forcing Companies to Rethink Career Pipelines",
+      "subtitle": "As artificial intelligence automates junior-level tasks, companies that don't redesign onboarding risk creating dangerous gaps in their future leadership.",
+      "category": "research",
+      "publishedAt": "2026-07-19T00:00:00.000Z",
+      "sourceUrl": "https://www.ft.com/content/6cb9570b-dccd-46f5-b42a-4d0b7b5de35a",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/ai-transforms-entry-level-work-forcing-companies-to-rethink-career-pipelines-8b1ff12e.jpg"
+    },
+    {
+      "slug": "nolan-warns-ai-poses-hidden-threat-like-trojan-horse-25a91f19",
+      "title": "Nolan Warns AI Poses Hidden Threat Like Trojan Horse",
+      "subtitle": "Acclaimed filmmaker compares artificial intelligence to a deceptive infiltration strategy, raising concerns about unexamined risks.",
+      "category": "business",
+      "publishedAt": "2026-07-19T14:52:08.000Z",
+      "sourceUrl": "https://techcrunch.com/2026/07/19/odyssey-director-christopher-nolan-calls-ai-an-obvious-trojan-horse/",
+      "sourceName": "TechCrunch AI",
+      "sourceTier": 2,
+      "image": "/images/articles/nolan-warns-ai-poses-hidden-threat-like-trojan-horse-25a91f19.jpg"
+    },
+    {
       "slug": "unconventional-developer-pursues-10b-california-ai-data-center-593804ad",
       "title": "Unconventional Developer Pursues $10B California AI Data Center",
       "subtitle": "A solo entrepreneur's ambitious Imperial Valley project tests whether independent operators can build hyperscale AI infrastructure without major tech anchor tenants.",
@@ -8361,6 +8383,8 @@
     "6c384940b1fe46fd",
     "18c32221edace277",
     "23a693892cab2344",
-    "593804ad0a243c39"
+    "593804ad0a243c39",
+    "25a91f1912af1b0e",
+    "8b1ff12ef40015e2"
   ]
 }
