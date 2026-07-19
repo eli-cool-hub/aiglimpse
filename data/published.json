@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "ai-generated-music-breaks-through-creative-barriers-in-producers-latest-ep-9edda249",
+      "title": "AI-Generated Music Breaks Through Creative Barriers in Producer's Latest EP",
+      "subtitle": "An artist's unapologetic embrace of Suno challenges preconceptions about machine-created audio quality and artistic legitimacy.",
+      "category": "tools",
+      "publishedAt": "2026-07-19T17:35:54.000Z",
+      "sourceUrl": "https://www.theverge.com/entertainment/967678/1010benja-semiramis-dream-suno-ai-music",
+      "sourceName": "The Verge AI",
+      "sourceTier": 2,
+      "image": "/images/articles/ai-generated-music-breaks-through-creative-barriers-in-producers-latest-ep-9edda249.jpg"
+    },
+    {
+      "slug": "huangs-japan-push-signals-nvidias-regional-ai-expansion-strategy-4f1e8f4b",
+      "title": "Huang's Japan Push Signals Nvidia's Regional AI Expansion Strategy",
+      "subtitle": "Nvidia's CEO secured multiple partnerships across Japan's tech sector, positioning the company to deepen its influence in a critical AI market.",
+      "category": "business",
+      "publishedAt": "2026-07-19T21:16:07.000Z",
+      "sourceUrl": "https://techcrunch.com/2026/07/19/what-to-watch-for-after-jensen-huangs-japan-visit/",
+      "sourceName": "TechCrunch AI",
+      "sourceTier": 2,
+      "image": "/images/articles/huangs-japan-push-signals-nvidias-regional-ai-expansion-strategy-4f1e8f4b.jpg"
+    },
+    {
       "slug": "apples-legal-push-could-complicate-openais-hardware-and-ipo-strategy-e2210db9",
       "title": "Apple's Legal Push Could Complicate OpenAI's Hardware and IPO Strategy",
       "subtitle": "A major lawsuit from Apple raises questions about whether OpenAI can execute its ambitions to build devices and go public.",
@@ -8433,6 +8455,8 @@
     "558fa2f13d59a21b",
     "4b34ee02d3135333",
     "e6244c7bf7cdae14",
-    "e2210db9d3b6c509"
+    "e2210db9d3b6c509",
+    "4f1e8f4bbaff1f86",
+    "9edda249c4cba1ca"
   ]
 }
