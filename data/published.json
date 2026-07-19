@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "acm-opens-digital-library-to-ai-training-shifts-control-to-authors-4b34ee02",
+      "title": "ACM Opens Digital Library to AI Training, Shifts Control to Authors",
+      "subtitle": "The scholarly publishing giant's licensing deal for language models hinges on individual researcher choices, not institutional agreements.",
+      "category": "business",
+      "publishedAt": "2026-07-19T00:00:00.000Z",
+      "sourceUrl": "https://docs.google.com/forms/d/e/1FAIpQLSeq7MFM7TlSXIaIXQnIltiQeWE_w3cl36HFPwql4S7u-drmzg/viewform",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/acm-opens-digital-library-to-ai-training-shifts-control-to-authors-4b34ee02.jpg"
+    },
+    {
+      "slug": "nonprofit-current-ai-pursues-inclusive-ai-infrastructure-model-558fa2f1",
+      "title": "Nonprofit Current AI Pursues Inclusive AI Infrastructure Model",
+      "subtitle": "A nonprofit organization is developing open-source AI tools designed to serve diverse global communities and reduce barriers to artificial intelligence adoption.",
+      "category": "business",
+      "publishedAt": "2026-07-19T14:00:00.000Z",
+      "sourceUrl": "https://techcrunch.com/2026/07/19/nonprofit-current-ai-is-racing-to-build-the-world-wide-web-of-ai-free-for-all/",
+      "sourceName": "TechCrunch AI",
+      "sourceTier": 2,
+      "image": "/images/articles/nonprofit-current-ai-pursues-inclusive-ai-infrastructure-model-558fa2f1.jpg"
+    },
+    {
       "slug": "ai-transforms-entry-level-work-forcing-companies-to-rethink-career-pipelines-8b1ff12e",
       "title": "AI Transforms Entry-Level Work, Forcing Companies to Rethink Career Pipelines",
       "subtitle": "As artificial intelligence automates junior-level tasks, companies that don't redesign onboarding risk creating dangerous gaps in their future leadership.",
@@ -8385,6 +8407,8 @@
     "23a693892cab2344",
     "593804ad0a243c39",
     "25a91f1912af1b0e",
-    "8b1ff12ef40015e2"
+    "8b1ff12ef40015e2",
+    "558fa2f13d59a21b",
+    "4b34ee02d3135333"
   ]
 }
