@@ -9272,6 +9272,24 @@
         "devto": true,
         "hashnode": false
       }
+    },
+    "anthropics-claude-code-now-runs-on-rust-based-bun-runtime-6c384940": {
+      "syndicated_at": "2026-07-19T11:09:42.679Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/anthropics-claude-code-now-runs-on-rust-based-bun-runtime-62c",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 423,
+      "category": "tools",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
     }
   }
 }

@@ -7,6 +7,22 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Chinese AI Lab Moonshot Eyes Hong Kong IPO on $300M Revenue Surge</title>
+      <link>https://aiglimpse.ai/articles/chinese-ai-lab-moonshot-eyes-hong-kong-ipo-on-300m-revenue-surge-18c32221</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/chinese-ai-lab-moonshot-eyes-hong-kong-ipo-on-300m-revenue-surge-18c32221</guid>
+      <description>The startup's rapid commercialization of open-weight models challenges assumptions about closed API moats in frontier AI.</description>
+      <pubDate>Sun, 19 Jul 2026 00:00:00 GMT</pubDate>
+      <category>AI Business</category>
+    </item>
+    <item>
+      <title>Anthropic's Claude Code Now Runs on Rust-Based Bun Runtime</title>
+      <link>https://aiglimpse.ai/articles/anthropics-claude-code-now-runs-on-rust-based-bun-runtime-6c384940</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/anthropics-claude-code-now-runs-on-rust-based-bun-runtime-6c384940</guid>
+      <description>The AI assistant's code execution environment switches to a faster, lighter JavaScript runtime built in Rust for improved performance.</description>
+      <pubDate>Sun, 19 Jul 2026 10:03:23 GMT</pubDate>
+      <category>AI Tools &amp; Products</category>
+    </item>
+    <item>
       <title>US Grants UAE AI Chipmaker Rare Access to Nvidia, AMD Silicon</title>
       <link>https://aiglimpse.ai/articles/us-grants-uae-ai-chipmaker-rare-access-to-nvidia-amd-silicon-9722030b</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/us-grants-uae-ai-chipmaker-rare-access-to-nvidia-amd-silicon-9722030b</guid>
@@ -389,22 +405,6 @@
       <description>Researchers reveal that standard backtesting methods allow AI models to access information that wouldn't have existed during real forecasts, fundamentally undermining reliability assessments.</description>
       <pubDate>Wed, 15 Jul 2026 17:21:43 GMT</pubDate>
       <category>AI Research</category>
-    </item>
-    <item>
-      <title>New Method Unlocks Video Foundation Models for Generative AI</title>
-      <link>https://aiglimpse.ai/articles/new-method-unlocks-video-foundation-models-for-generative-ai-85d35db0</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-method-unlocks-video-foundation-models-for-generative-ai-85d35db0</guid>
-      <description>Researchers show how to repurpose pre-trained video understanding systems into efficient generative models, cutting training time by 80 percent.</description>
-      <pubDate>Wed, 15 Jul 2026 17:59:23 GMT</pubDate>
-      <category>AI Research</category>
-    </item>
-    <item>
-      <title>The Hidden Complexity of Routing Requests Across Multiple AI Models</title>
-      <link>https://aiglimpse.ai/articles/the-hidden-complexity-of-routing-requests-across-multiple-ai-models-fef9e267</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/the-hidden-complexity-of-routing-requests-across-multiple-ai-models-fef9e267</guid>
-      <description>What seems like a straightforward engineering problem becomes a minefield of tradeoffs when deploying multiple specialized language models in production.</description>
-      <pubDate>Wed, 15 Jul 2026 17:27:01 GMT</pubDate>
-      <category>AI Tools &amp; Products</category>
     </item>
   </channel>
 </rss>

@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "chinese-ai-lab-moonshot-eyes-hong-kong-ipo-on-300m-revenue-surge-18c32221",
+      "title": "Chinese AI Lab Moonshot Eyes Hong Kong IPO on $300M Revenue Surge",
+      "subtitle": "The startup's rapid commercialization of open-weight models challenges assumptions about closed API moats in frontier AI.",
+      "category": "business",
+      "publishedAt": "2026-07-19T00:00:00.000Z",
+      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-07-19/china-s-moonshot-plans-ipo-in-six-months-after-ai-breakthrough",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/chinese-ai-lab-moonshot-eyes-hong-kong-ipo-on-300m-revenue-surge-18c32221.jpg"
+    },
+    {
+      "slug": "anthropics-claude-code-now-runs-on-rust-based-bun-runtime-6c384940",
+      "title": "Anthropic's Claude Code Now Runs on Rust-Based Bun Runtime",
+      "subtitle": "The AI assistant's code execution environment switches to a faster, lighter JavaScript runtime built in Rust for improved performance.",
+      "category": "tools",
+      "publishedAt": "2026-07-19T10:03:23.000Z",
+      "sourceUrl": "https://simonwillison.net/2026/Jul/19/claude-code-in-bun-in-rust/",
+      "sourceName": "Hacker News (57 pts)",
+      "sourceTier": 2,
+      "image": "/images/articles/anthropics-claude-code-now-runs-on-rust-based-bun-runtime-6c384940.jpg"
+    },
+    {
       "slug": "us-grants-uae-ai-chipmaker-rare-access-to-nvidia-amd-silicon-9722030b",
       "title": "US Grants UAE AI Chipmaker Rare Access to Nvidia, AMD Silicon",
       "subtitle": "Washington's approval of G42's US reincorporation signals a strategic shift in AI chip export controls, potentially weakening efforts to contain advanced semiconductors from reaching China.",
@@ -8313,6 +8335,8 @@
     "39eeae14005e25b4",
     "6e0cedefe1747478",
     "f5bd2e8ead07060d",
-    "9722030baa4cc162"
+    "9722030baa4cc162",
+    "6c384940b1fe46fd",
+    "18c32221edace277"
   ]
 }
