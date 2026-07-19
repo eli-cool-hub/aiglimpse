@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "us-grants-uae-ai-chipmaker-rare-access-to-nvidia-amd-silicon-9722030b",
+      "title": "US Grants UAE AI Chipmaker Rare Access to Nvidia, AMD Silicon",
+      "subtitle": "Washington's approval of G42's US reincorporation signals a strategic shift in AI chip export controls, potentially weakening efforts to contain advanced semiconductors from reaching China.",
+      "category": "ethics",
+      "publishedAt": "2026-07-19T00:00:00.000Z",
+      "sourceUrl": "https://www.wsj.com/world/middle-east/cia-spy-united-arab-emirates-ai-49d909a8",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/us-grants-uae-ai-chipmaker-rare-access-to-nvidia-amd-silicon-9722030b.jpg"
+    },
+    {
       "slug": "ai-coding-agents-developer-guide-2026",
       "title": "AI coding agents in 2026: What actually works in production",
       "subtitle": "A technical breakdown of Copilot, Cursor, and competing tools for real codebases, with honest limits.",
@@ -8301,6 +8312,7 @@
     "d775fec01986a12e",
     "39eeae14005e25b4",
     "6e0cedefe1747478",
-    "f5bd2e8ead07060d"
+    "f5bd2e8ead07060d",
+    "9722030baa4cc162"
   ]
 }
