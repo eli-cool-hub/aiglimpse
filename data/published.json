@@ -1,6 +1,18 @@
 {
   "articles": [
     {
+      "slug": "ai-coding-agents-developer-guide-2026",
+      "title": "AI coding agents in 2026: What actually works in production",
+      "subtitle": "A technical breakdown of Copilot, Cursor, and competing tools for real codebases, with honest limits.",
+      "category": "tools",
+      "publishedAt": "2026-07-19T07:55:54.458Z",
+      "sourceUrl": null,
+      "sourceName": "AI Glimpse Newsroom",
+      "sourceTier": 0,
+      "image": "/images/articles/ai-coding-agents-developer-guide-2026.jpg",
+      "evergreen": true
+    },
+    {
       "slug": "european-ai-firms-deploy-facial-recognition-in-india-despite-home-ban-f5bd2e8e",
       "title": "European AI Firms Deploy Facial Recognition in India Despite Home Ban",
       "subtitle": "Spanish biometrics vendor Herta scales technology banned under EU law into markets lacking data protections, raising regulatory and reputational risks.",
