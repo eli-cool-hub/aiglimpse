@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "ai-coding-tools-shift-focus-to-infrastructure-over-raw-models-080e2405",
+      "title": "AI Coding Tools Shift Focus to Infrastructure Over Raw Models",
+      "subtitle": "As language models mature, developers race to build better software layers that manage AI capabilities for coding tasks.",
+      "category": "tools",
+      "publishedAt": "2026-07-20T11:20:10.000Z",
+      "sourceUrl": "https://arstechnica.com/ai/2026/07/beyond-grep-the-case-for-a-context-rich-ai-coding-harness/",
+      "sourceName": "Ars Technica AI",
+      "sourceTier": 2,
+      "image": "/images/articles/ai-coding-tools-shift-focus-to-infrastructure-over-raw-models-080e2405.jpg"
+    },
+    {
       "slug": "chinese-ai-labs-challenge-us-dominance-with-cost-efficient-models-34dc6172",
       "title": "Chinese AI Labs Challenge US Dominance With Cost-Efficient Models",
       "subtitle": "Moonshot and Alibaba's latest releases signal a narrowing competitive gap as Beijing accelerates its push into frontier AI capabilities.",
@@ -8517,6 +8528,7 @@
     "f197d88c189fcbf1",
     "be169af9e4ac28cb",
     "be844daf2e18aecd",
-    "34dc61724e2e9078"
+    "34dc61724e2e9078",
+    "080e240576810522"
   ]
 }
