@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "chinese-chipmaker-eyes-8b-hong-kong-ipo-to-cement-ai-leadership-be844daf",
+      "title": "Chinese Chipmaker Eyes $8B Hong Kong IPO to Cement AI Leadership",
+      "subtitle": "Innolight's public offering signals Hong Kong's resurgence as a capital hub for semiconductor firms powering artificial intelligence infrastructure.",
+      "category": "industry",
+      "publishedAt": "2026-07-20T00:00:00.000Z",
+      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-07-20/zhongji-innolight-starts-gauging-interest-for-hong-kong-listing",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/chinese-chipmaker-eyes-8b-hong-kong-ipo-to-cement-ai-leadership-be844daf.jpg"
+    },
+    {
+      "slug": "ai-system-finds-potential-flaw-in-long-standing-math-problem-be169af9",
+      "title": "AI System Finds Potential Flaw in Long-Standing Math Problem",
+      "subtitle": "Claude may have discovered a counterexample to the Jacobian Conjecture, a decades-old unsolved problem in algebraic geometry.",
+      "category": "tools",
+      "publishedAt": "2026-07-20T02:51:16.000Z",
+      "sourceUrl": "https://xcancel.com/__alpoge__/status/2079028340955197566",
+      "sourceName": "Hacker News (261 pts)",
+      "sourceTier": 2,
+      "image": "/images/articles/ai-system-finds-potential-flaw-in-long-standing-math-problem-be169af9.jpg"
+    },
+    {
       "slug": "openai-reduces-codex-context-window-triggering-cost-surprises-f197d88c",
       "title": "OpenAI Reduces Codex Context Window, Triggering Cost Surprises",
       "subtitle": "A significant shrinkage in processing capacity masks hidden pricing changes that could blindside developers relying on legacy configurations.",
@@ -8481,6 +8503,8 @@
     "4f1e8f4bbaff1f86",
     "9edda249c4cba1ca",
     "8a0e1f84ec111fe5",
-    "f197d88c189fcbf1"
+    "f197d88c189fcbf1",
+    "be169af9e4ac28cb",
+    "be844daf2e18aecd"
   ]
 }

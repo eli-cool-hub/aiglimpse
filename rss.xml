@@ -7,6 +7,22 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Chinese Chipmaker Eyes $8B Hong Kong IPO to Cement AI Leadership</title>
+      <link>https://aiglimpse.ai/articles/chinese-chipmaker-eyes-8b-hong-kong-ipo-to-cement-ai-leadership-be844daf</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/chinese-chipmaker-eyes-8b-hong-kong-ipo-to-cement-ai-leadership-be844daf</guid>
+      <description>Innolight's public offering signals Hong Kong's resurgence as a capital hub for semiconductor firms powering artificial intelligence infrastructure.</description>
+      <pubDate>Mon, 20 Jul 2026 00:00:00 GMT</pubDate>
+      <category>Industry Applications</category>
+    </item>
+    <item>
+      <title>AI System Finds Potential Flaw in Long-Standing Math Problem</title>
+      <link>https://aiglimpse.ai/articles/ai-system-finds-potential-flaw-in-long-standing-math-problem-be169af9</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/ai-system-finds-potential-flaw-in-long-standing-math-problem-be169af9</guid>
+      <description>Claude may have discovered a counterexample to the Jacobian Conjecture, a decades-old unsolved problem in algebraic geometry.</description>
+      <pubDate>Mon, 20 Jul 2026 02:51:16 GMT</pubDate>
+      <category>AI Tools &amp; Products</category>
+    </item>
+    <item>
       <title>OpenAI Reduces Codex Context Window, Triggering Cost Surprises</title>
       <link>https://aiglimpse.ai/articles/openai-reduces-codex-context-window-triggering-cost-surprises-f197d88c</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/openai-reduces-codex-context-window-triggering-cost-surprises-f197d88c</guid>
@@ -389,22 +405,6 @@
       <description>Researchers embed compiler errors directly into LLM decoding, moving beyond trial-and-error code generation toward integrated AI development.</description>
       <pubDate>Sat, 18 Jul 2026 00:00:00 GMT</pubDate>
       <category>LLMs &amp; Chatbots</category>
-    </item>
-    <item>
-      <title>New Foundation Model Harnesses Recording Metadata to Improve Bird Species Detection</title>
-      <link>https://aiglimpse.ai/articles/new-foundation-model-harnesses-recording-metadata-to-improve-bird-species-detect-6029229c</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-foundation-model-harnesses-recording-metadata-to-improve-bird-species-detect-6029229c</guid>
-      <description>Researchers show that incorporating location and temporal data alongside audio analysis produces more robust models for wildlife monitoring.</description>
-      <pubDate>Wed, 15 Jul 2026 17:42:41 GMT</pubDate>
-      <category>AI Research</category>
-    </item>
-    <item>
-      <title>EU Forces Google to Open Android AI Access, Challenging Search Dominance</title>
-      <link>https://aiglimpse.ai/articles/eu-forces-google-to-open-android-ai-access-challenging-search-dominance-8b0c67af</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/eu-forces-google-to-open-android-ai-access-challenging-search-dominance-8b0c67af</guid>
-      <description>European regulators mandate interoperability requirements for Google's AI and search services under the Digital Markets Act, reshaping competition.</description>
-      <pubDate>Thu, 16 Jul 2026 20:41:45 GMT</pubDate>
-      <category>AI Tools &amp; Products</category>
     </item>
   </channel>
 </rss>
