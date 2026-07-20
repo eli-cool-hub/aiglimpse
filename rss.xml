@@ -7,6 +7,22 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>OpenAI Reduces Codex Context Window, Triggering Cost Surprises</title>
+      <link>https://aiglimpse.ai/articles/openai-reduces-codex-context-window-triggering-cost-surprises-f197d88c</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/openai-reduces-codex-context-window-triggering-cost-surprises-f197d88c</guid>
+      <description>A significant shrinkage in processing capacity masks hidden pricing changes that could blindside developers relying on legacy configurations.</description>
+      <pubDate>Sun, 19 Jul 2026 00:00:00 GMT</pubDate>
+      <category>LLMs &amp; Chatbots</category>
+    </item>
+    <item>
+      <title>Cryptography Expert Builds AI Tool to Automate Cipher Analysis</title>
+      <link>https://aiglimpse.ai/articles/cryptography-expert-builds-ai-tool-to-automate-cipher-analysis-8a0e1f84</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/cryptography-expert-builds-ai-tool-to-automate-cipher-analysis-8a0e1f84</guid>
+      <description>Domain-specific AI agents are gaining traction as developers prioritize depth over breadth in autonomous coding systems.</description>
+      <pubDate>Mon, 20 Jul 2026 00:00:00 GMT</pubDate>
+      <category>AI Business</category>
+    </item>
+    <item>
       <title>AI-Generated Music Breaks Through Creative Barriers in Producer's Latest EP</title>
       <link>https://aiglimpse.ai/articles/ai-generated-music-breaks-through-creative-barriers-in-producers-latest-ep-9edda249</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/ai-generated-music-breaks-through-creative-barriers-in-producers-latest-ep-9edda249</guid>
@@ -389,22 +405,6 @@
       <description>European regulators mandate interoperability requirements for Google's AI and search services under the Digital Markets Act, reshaping competition.</description>
       <pubDate>Thu, 16 Jul 2026 20:41:45 GMT</pubDate>
       <category>AI Tools &amp; Products</category>
-    </item>
-    <item>
-      <title>Researchers Propose Game Engine Model for AI-Driven Interactive Worlds</title>
-      <link>https://aiglimpse.ai/articles/researchers-propose-game-engine-model-for-ai-driven-interactive-worlds-56cb4964</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/researchers-propose-game-engine-model-for-ai-driven-interactive-worlds-56cb4964</guid>
-      <description>New framework treats video generation models as game engines, addressing critical gaps in real-time interactivity and persistent state management.</description>
-      <pubDate>Wed, 15 Jul 2026 17:48:48 GMT</pubDate>
-      <category>AI Research</category>
-    </item>
-    <item>
-      <title>Cars24 Deploys AI Agents to Handle 1M Monthly Conversations</title>
-      <link>https://aiglimpse.ai/articles/cars24-deploys-ai-agents-to-handle-1m-monthly-conversations-a23d3291</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/cars24-deploys-ai-agents-to-handle-1m-monthly-conversations-a23d3291</guid>
-      <description>The used-car marketplace leverages large language models to automate customer service and recover millions in abandoned sales.</description>
-      <pubDate>Thu, 16 Jul 2026 00:00:00 GMT</pubDate>
-      <category>LLMs &amp; Chatbots</category>
     </item>
   </channel>
 </rss>

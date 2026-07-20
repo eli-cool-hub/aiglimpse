@@ -3,7 +3,7 @@
 > Machine-readable index for AI assistants, answer engines, and research crawlers.
 > Summary version: https://aiglimpse.ai/llms.txt
 
-Total articles: 704 | Evergreen explainers: 15 | Generated: 2026-07-19
+Total articles: 706 | Evergreen explainers: 15 | Generated: 2026-07-20
 
 ## Evergreen explainers
 
@@ -113,6 +113,20 @@ Total articles: 704 | Evergreen explainers: 15 | Generated: 2026-07-19
 - Type: evergreen explainer (FAQ schema on page)
 
 ## All articles (newest first)
+
+### OpenAI Reduces Codex Context Window, Triggering Cost Surprises
+- URL: https://aiglimpse.ai/articles/openai-reduces-codex-context-window-triggering-cost-surprises-f197d88c
+- Published: 2026-07-19
+- Category: llms
+- Summary: A significant shrinkage in processing capacity masks hidden pricing changes that could blindside developers relying on legacy configurations.
+- Source: https://github.com/openai/codex/pull/33972/files
+
+### Cryptography Expert Builds AI Tool to Automate Cipher Analysis
+- URL: https://aiglimpse.ai/articles/cryptography-expert-builds-ai-tool-to-automate-cipher-analysis-8a0e1f84
+- Published: 2026-07-20
+- Category: business
+- Summary: Domain-specific AI agents are gaining traction as developers prioritize depth over breadth in autonomous coding systems.
+- Source: https://github.com/matthewdgreen/decipher
 
 ### AI-Generated Music Breaks Through Creative Barriers in Producer's Latest EP
 - URL: https://aiglimpse.ai/articles/ai-generated-music-breaks-through-creative-barriers-in-producers-latest-ep-9edda249

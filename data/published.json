@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "openai-reduces-codex-context-window-triggering-cost-surprises-f197d88c",
+      "title": "OpenAI Reduces Codex Context Window, Triggering Cost Surprises",
+      "subtitle": "A significant shrinkage in processing capacity masks hidden pricing changes that could blindside developers relying on legacy configurations.",
+      "category": "llms",
+      "publishedAt": "2026-07-19T00:00:00.000Z",
+      "sourceUrl": "https://github.com/openai/codex/pull/33972/files",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/openai-reduces-codex-context-window-triggering-cost-surprises-f197d88c.jpg"
+    },
+    {
+      "slug": "cryptography-expert-builds-ai-tool-to-automate-cipher-analysis-8a0e1f84",
+      "title": "Cryptography Expert Builds AI Tool to Automate Cipher Analysis",
+      "subtitle": "Domain-specific AI agents are gaining traction as developers prioritize depth over breadth in autonomous coding systems.",
+      "category": "business",
+      "publishedAt": "2026-07-20T00:00:00.000Z",
+      "sourceUrl": "https://github.com/matthewdgreen/decipher",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/cryptography-expert-builds-ai-tool-to-automate-cipher-analysis-8a0e1f84.jpg"
+    },
+    {
       "slug": "ai-generated-music-breaks-through-creative-barriers-in-producers-latest-ep-9edda249",
       "title": "AI-Generated Music Breaks Through Creative Barriers in Producer's Latest EP",
       "subtitle": "An artist's unapologetic embrace of Suno challenges preconceptions about machine-created audio quality and artistic legitimacy.",
@@ -8457,6 +8479,8 @@
     "e6244c7bf7cdae14",
     "e2210db9d3b6c509",
     "4f1e8f4bbaff1f86",
-    "9edda249c4cba1ca"
+    "9edda249c4cba1ca",
+    "8a0e1f84ec111fe5",
+    "f197d88c189fcbf1"
   ]
 }
