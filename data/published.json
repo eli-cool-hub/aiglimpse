@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "openai-details-safety-challenges-in-extended-horizon-ai-systems-37cd4375",
+      "title": "OpenAI Details Safety Challenges in Extended-Horizon AI Systems",
+      "subtitle": "The lab shares operational insights on managing risks as AI models handle longer, more complex reasoning tasks.",
+      "category": "llms",
+      "publishedAt": "2026-07-20T10:00:00.000Z",
+      "sourceUrl": "https://openai.com/index/safety-alignment-long-horizon-models",
+      "sourceName": "OpenAI",
+      "sourceTier": 1,
+      "image": "/images/articles/openai-details-safety-challenges-in-extended-horizon-ai-systems-37cd4375.jpg"
+    },
+    {
       "slug": "nvidia-launches-cosmos-3-edge-for-on-device-ai-video-generation-76648c1c",
       "title": "Nvidia Launches Cosmos 3 Edge for On-Device AI Video Generation",
       "subtitle": "New lightweight model brings generative video capabilities to edge devices, lowering barriers to deploying AI-powered visual content creation.",
@@ -8541,6 +8552,7 @@
     "be844daf2e18aecd",
     "34dc61724e2e9078",
     "080e240576810522",
-    "76648c1c24a480b0"
+    "76648c1c24a480b0",
+    "37cd4375e8f588d4"
   ]
 }
