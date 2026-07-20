@@ -9452,6 +9452,24 @@
         "devto": true,
         "hashnode": false
       }
+    },
+    "nvidia-launches-cosmos-3-edge-for-on-device-ai-video-generation-76648c1c": {
+      "syndicated_at": "2026-07-20T18:06:06.994Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/nvidia-launches-cosmos-3-edge-for-on-device-ai-video-generation-3gbo",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 395,
+      "category": "tools",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
     }
   }
 }

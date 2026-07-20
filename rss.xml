@@ -7,6 +7,14 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Nvidia Launches Cosmos 3 Edge for On-Device AI Video Generation</title>
+      <link>https://aiglimpse.ai/articles/nvidia-launches-cosmos-3-edge-for-on-device-ai-video-generation-76648c1c</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/nvidia-launches-cosmos-3-edge-for-on-device-ai-video-generation-76648c1c</guid>
+      <description>New lightweight model brings generative video capabilities to edge devices, lowering barriers to deploying AI-powered visual content creation.</description>
+      <pubDate>Mon, 20 Jul 2026 15:58:51 GMT</pubDate>
+      <category>AI Tools &amp; Products</category>
+    </item>
+    <item>
       <title>AI Coding Tools Shift Focus to Infrastructure Over Raw Models</title>
       <link>https://aiglimpse.ai/articles/ai-coding-tools-shift-focus-to-infrastructure-over-raw-models-080e2405</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/ai-coding-tools-shift-focus-to-infrastructure-over-raw-models-080e2405</guid>
@@ -396,14 +404,6 @@
       <guid isPermaLink="true">https://aiglimpse.ai/articles/new-ai-framework-enables-video-models-to-reason-through-multi-step-tasks-e1b75c6c</guid>
       <description>Hierarchical denoising approach balances reasoning capability with real-time inference speed for complex visual problem-solving.</description>
       <pubDate>Thu, 16 Jul 2026 17:59:57 GMT</pubDate>
-      <category>AI Research</category>
-    </item>
-    <item>
-      <title>Researchers Find Way to Fix Sampling Bias in AI Model Training</title>
-      <link>https://aiglimpse.ai/articles/researchers-find-way-to-fix-sampling-bias-in-ai-model-training-ece8ab1e</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/researchers-find-way-to-fix-sampling-bias-in-ai-model-training-ece8ab1e</guid>
-      <description>New mathematical framework could dramatically speed up Bayesian inference methods used across machine learning.</description>
-      <pubDate>Thu, 16 Jul 2026 17:07:42 GMT</pubDate>
       <category>AI Research</category>
     </item>
   </channel>
