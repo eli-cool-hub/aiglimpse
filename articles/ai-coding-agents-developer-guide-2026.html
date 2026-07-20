@@ -136,7 +136,6 @@
   <figcaption class="article-image-credit">Photo by <a href="https://www.pexels.com/photo/code-on-computer-screen-14553730/" rel="nofollow noopener" target="_blank">Bibek ghosh</a> on Pexels.</figcaption>
 </figure>
 
-
 <p><a href="/articles/what-are-ai-agents-practical-guide-2026">AI agents</a> excel at three categories of work: completion, scaffolding, and refactoring within a single file. In completion mode, agents predict the next method, function signature, or import statement. A developer types a function name or docstring, and the agent fills in the body. This is where productivity gains are most measurable. Teams report 20 to 40 percent reductions in authoring time for straightforward business logic, especially in languages with verbose syntax like Java or Go. The agent has seen millions of similar functions and can propose reasonable implementations without the developer consulting documentation.</p>
 
 <p>Scaffolding is the second strength. When a developer creates a new file or starts a new class, agents can generate boilerplate: constructor, getters, setters, test stubs, or configuration templates. This eliminates low-cognition overhead. In TypeScript projects, Copilot can generate a complete Redux slice from a comment or a React component shell from a class name. This saves 5 to 10 minutes per artifact but more importantly reduces cognitive context-switching.</p>
@@ -156,12 +155,6 @@
 <p>Finally, agents are unreliable on cross-cutting concerns like dependency injection, error handling strategies, and performance optimization. They can add error try-catch blocks, but they cannot reason about whether a circuit breaker or retry strategy is appropriate. They can generate a loop, but not whether that loop should be parallelized. These decisions require domain knowledge and business context that no model has internalized from its training data.</p>
 
 <h2>Copilot vs. Cursor: Practical differences for teams</h2>
-<figure class="article-image article-image--inline">
-  <picture><source srcset="/images/articles/ai-coding-agents-developer-guide-2026-inline-2.webp" type="image/webp"><img src="/images/articles/ai-coding-agents-developer-guide-2026-inline-2.jpg" alt="Copilot vs. Cursor: Practical differences for teams" loading="lazy" width="1200" height="630"></picture>
-  <figcaption class="article-image-credit">Photo by <a href="https://www.pexels.com/photo/close-up-of-codes-on-a-computer-screen-4976710/" rel="nofollow noopener" target="_blank">Godfrey  Atima</a> on Pexels.</figcaption>
-</figure>
-
-
 <p>GitHub Copilot and Cursor are the two most deployed agents in 2026. They are not competitors in the way VS Code and JetBrains are; rather, they occupy different positions in the developer workflow. Understanding the trade-offs clarifies which fits your team.</p>
 
 <p>GitHub Copilot is a completions and chat engine integrated into VS Code, JetBrains IDEs, Vim, and other editors. It costs roughly 10 to 20 dollars per user per month for individual developers, or 60 to 100 dollars per seat for enterprise customers. Copilot works passively: as a developer types, it offers suggestions. The developer accepts or rejects them. This low-friction approach makes adoption easy and requires no workflow change. Copilot also supports chat, where a developer can ask multi-turn questions and iterate on suggestions. However, Copilot does not index the codebase. It relies on open file tabs and the code you have written in the current session to infer context. For a developer working on a small feature in a file they understand, this is sufficient. For someone unfamiliar with the codebase or working on a refactoring that spans ten files, the lack of codebase awareness is a bottleneck.</p>
