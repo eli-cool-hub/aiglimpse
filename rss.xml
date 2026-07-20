@@ -7,6 +7,14 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Chinese AI Labs Challenge US Dominance With Cost-Efficient Models</title>
+      <link>https://aiglimpse.ai/articles/chinese-ai-labs-challenge-us-dominance-with-cost-efficient-models-34dc6172</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/chinese-ai-labs-challenge-us-dominance-with-cost-efficient-models-34dc6172</guid>
+      <description>Moonshot and Alibaba's latest releases signal a narrowing competitive gap as Beijing accelerates its push into frontier AI capabilities.</description>
+      <pubDate>Mon, 20 Jul 2026 10:16:33 GMT</pubDate>
+      <category>AI Tools &amp; Products</category>
+    </item>
+    <item>
       <title>Chinese Chipmaker Eyes $8B Hong Kong IPO to Cement AI Leadership</title>
       <link>https://aiglimpse.ai/articles/chinese-chipmaker-eyes-8b-hong-kong-ipo-to-cement-ai-leadership-be844daf</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/chinese-chipmaker-eyes-8b-hong-kong-ipo-to-cement-ai-leadership-be844daf</guid>
@@ -397,14 +405,6 @@
       <description>Researchers demonstrate multi-agent framework that tracks camera movement and builds 3D maps from standard smartphone footage.</description>
       <pubDate>Thu, 16 Jul 2026 17:12:58 GMT</pubDate>
       <category>AI Research</category>
-    </item>
-    <item>
-      <title>Rust Code Generation Gets Smarter With Real-Time Compiler Feedback</title>
-      <link>https://aiglimpse.ai/articles/rust-code-generation-gets-smarter-with-real-time-compiler-feedback-0f5b4008</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/rust-code-generation-gets-smarter-with-real-time-compiler-feedback-0f5b4008</guid>
-      <description>Researchers embed compiler errors directly into LLM decoding, moving beyond trial-and-error code generation toward integrated AI development.</description>
-      <pubDate>Sat, 18 Jul 2026 00:00:00 GMT</pubDate>
-      <category>LLMs &amp; Chatbots</category>
     </item>
   </channel>
 </rss>
