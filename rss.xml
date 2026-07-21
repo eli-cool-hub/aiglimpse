@@ -7,6 +7,14 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>New AI Technique Streamlines Video Editing Without Manual Masks</title>
+      <link>https://aiglimpse.ai/articles/new-ai-technique-streamlines-video-editing-without-manual-masks-a2cbefc1</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-ai-technique-streamlines-video-editing-without-manual-masks-a2cbefc1</guid>
+      <description>Researchers demonstrate how to train video editing models using only synthetic data, eliminating labor-intensive annotation workflows.</description>
+      <pubDate>Mon, 20 Jul 2026 17:58:03 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
       <title>AI Models Flip Correct Answers When Pressured, Study Shows</title>
       <link>https://aiglimpse.ai/articles/ai-models-flip-correct-answers-when-pressured-study-shows-16c55131</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/ai-models-flip-correct-answers-when-pressured-study-shows-16c55131</guid>
@@ -397,14 +405,6 @@
       <description>The K3 model brings performance parity with closed-source leaders, forcing developers to reconsider dependency on American AI platforms.</description>
       <pubDate>Sat, 18 Jul 2026 00:00:00 GMT</pubDate>
       <category>AI Business</category>
-    </item>
-    <item>
-      <title>New AI Model Fuses Vision, Audio, and Language to Map Physical Scenes</title>
-      <link>https://aiglimpse.ai/articles/new-ai-model-fuses-vision-audio-and-language-to-map-physical-scenes-038bc2d7</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-ai-model-fuses-vision-audio-and-language-to-map-physical-scenes-038bc2d7</guid>
-      <description>Researchers tackle a fundamental problem in multimodal AI: understanding not just what objects are present, but precisely where they exist in 3D space.</description>
-      <pubDate>Thu, 16 Jul 2026 17:55:15 GMT</pubDate>
-      <category>AI Research</category>
     </item>
   </channel>
 </rss>

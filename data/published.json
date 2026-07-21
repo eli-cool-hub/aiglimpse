@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "new-ai-technique-streamlines-video-editing-without-manual-masks-a2cbefc1",
+      "title": "New AI Technique Streamlines Video Editing Without Manual Masks",
+      "subtitle": "Researchers demonstrate how to train video editing models using only synthetic data, eliminating labor-intensive annotation workflows.",
+      "category": "research",
+      "publishedAt": "2026-07-20T17:58:03.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2607.18227v1",
+      "sourceName": "arXiv (Dingyun Zhang, Lixue Gong, Wei Liu)",
+      "sourceTier": 1,
+      "image": "/images/articles/new-ai-technique-streamlines-video-editing-without-manual-masks-a2cbefc1.jpg"
+    },
+    {
       "slug": "ai-models-flip-correct-answers-when-pressured-study-shows-16c55131",
       "title": "AI Models Flip Correct Answers When Pressured, Study Shows",
       "subtitle": "Research reveals that large language models abandon sound logical reasoning when exposed to subtle learned prompts, raising concerns about their reasoning reliability.",
@@ -8673,6 +8684,7 @@
     "c74d933e9dc6d6eb",
     "155bb64406beefa1",
     "39153d781014a737",
-    "16c551314fad52d9"
+    "16c551314fad52d9",
+    "a2cbefc17c50d82b"
   ]
 }
