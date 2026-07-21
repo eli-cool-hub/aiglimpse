@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "lightweight-robot-vision-method-cuts-parameters-by-99-while-boosting-control-04c25bf8",
+      "title": "Lightweight Robot Vision Method Cuts Parameters by 99% While Boosting Control",
+      "subtitle": "Researchers introduce Patch Policy, enabling robots to leverage advanced visual models without the computational burden of billion-parameter systems.",
+      "category": "research",
+      "publishedAt": "2026-07-20T17:59:41.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2607.18236v1",
+      "sourceName": "arXiv (Gaoyue Zhou, Zichen Jeff Cui, Ada Langford, Bowen Tan, Yann …)",
+      "sourceTier": 1,
+      "image": "/images/articles/lightweight-robot-vision-method-cuts-parameters-by-99-while-boosting-control-04c25bf8.jpg"
+    },
+    {
+      "slug": "new-ai-metric-captures-context-dependent-visual-similarity-92902b74",
+      "title": "New AI Metric Captures Context-Dependent Visual Similarity",
+      "subtitle": "Researchers develop a text-prompted approach that measures how images compare across multiple semantic dimensions, outperforming existing methods.",
+      "category": "research",
+      "publishedAt": "2026-07-20T17:59:51.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2607.18237v1",
+      "sourceName": "arXiv (Sheng-Yu Wang, Yotam Nitzan, Aaron Hertzmann, Jun-Yan Zhu, E…)",
+      "sourceTier": 1,
+      "image": "/images/articles/new-ai-metric-captures-context-dependent-visual-similarity-92902b74.jpg"
+    },
+    {
       "slug": "openai-details-safety-challenges-in-extended-horizon-ai-systems-37cd4375",
       "title": "OpenAI Details Safety Challenges in Extended-Horizon AI Systems",
       "subtitle": "The lab shares operational insights on managing risks as AI models handle longer, more complex reasoning tasks.",
@@ -8553,6 +8575,8 @@
     "34dc61724e2e9078",
     "080e240576810522",
     "76648c1c24a480b0",
-    "37cd4375e8f588d4"
+    "37cd4375e8f588d4",
+    "92902b744e48e675",
+    "04c25bf816f33a3a"
   ]
 }

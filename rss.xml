@@ -7,6 +7,22 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Lightweight Robot Vision Method Cuts Parameters by 99% While Boosting Control</title>
+      <link>https://aiglimpse.ai/articles/lightweight-robot-vision-method-cuts-parameters-by-99-while-boosting-control-04c25bf8</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/lightweight-robot-vision-method-cuts-parameters-by-99-while-boosting-control-04c25bf8</guid>
+      <description>Researchers introduce Patch Policy, enabling robots to leverage advanced visual models without the computational burden of billion-parameter systems.</description>
+      <pubDate>Mon, 20 Jul 2026 17:59:41 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
+      <title>New AI Metric Captures Context-Dependent Visual Similarity</title>
+      <link>https://aiglimpse.ai/articles/new-ai-metric-captures-context-dependent-visual-similarity-92902b74</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-ai-metric-captures-context-dependent-visual-similarity-92902b74</guid>
+      <description>Researchers develop a text-prompted approach that measures how images compare across multiple semantic dimensions, outperforming existing methods.</description>
+      <pubDate>Mon, 20 Jul 2026 17:59:51 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
       <title>OpenAI Details Safety Challenges in Extended-Horizon AI Systems</title>
       <link>https://aiglimpse.ai/articles/openai-details-safety-challenges-in-extended-horizon-ai-systems-37cd4375</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/openai-details-safety-challenges-in-extended-horizon-ai-systems-37cd4375</guid>
@@ -388,22 +404,6 @@
       <guid isPermaLink="true">https://aiglimpse.ai/articles/ai-system-learns-to-edit-scientific-diagrams-from-paper-revisions-b599b5f1</guid>
       <description>Researchers develop an automated approach to figure editing that understands natural language instructions and learns from how scientists actually revise their work.</description>
       <pubDate>Thu, 16 Jul 2026 17:58:36 GMT</pubDate>
-      <category>AI Research</category>
-    </item>
-    <item>
-      <title>New Method Adds Reinforcement Learning to Fast Image Generation Models</title>
-      <link>https://aiglimpse.ai/articles/new-method-adds-reinforcement-learning-to-fast-image-generation-models-4f5f5b8d</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-method-adds-reinforcement-learning-to-fast-image-generation-models-4f5f5b8d</guid>
-      <description>Researchers develop MeanFlowNFT to optimize rapid generative AI systems without sacrificing quality or speed.</description>
-      <pubDate>Thu, 16 Jul 2026 17:59:02 GMT</pubDate>
-      <category>AI Research</category>
-    </item>
-    <item>
-      <title>Researchers Scale Robot Memory to 8,000 Steps, Unlocking New AI Skills</title>
-      <link>https://aiglimpse.ai/articles/researchers-scale-robot-memory-to-8000-steps-unlocking-new-ai-skills-4b6a8c53</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/researchers-scale-robot-memory-to-8000-steps-unlocking-new-ai-skills-4b6a8c53</guid>
-      <description>A new training method lets robot foundation models learn from extended visual histories, achieving 87% performance gains on physical manipulation tasks.</description>
-      <pubDate>Thu, 16 Jul 2026 17:59:06 GMT</pubDate>
       <category>AI Research</category>
     </item>
   </channel>

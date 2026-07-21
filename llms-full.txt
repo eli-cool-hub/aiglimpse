@@ -3,7 +3,7 @@
 > Machine-readable index for AI assistants, answer engines, and research crawlers.
 > Summary version: https://aiglimpse.ai/llms.txt
 
-Total articles: 712 | Evergreen explainers: 15 | Generated: 2026-07-20
+Total articles: 714 | Evergreen explainers: 15 | Generated: 2026-07-21
 
 ## Evergreen explainers
 
@@ -113,6 +113,20 @@ Total articles: 712 | Evergreen explainers: 15 | Generated: 2026-07-20
 - Type: evergreen explainer (FAQ schema on page)
 
 ## All articles (newest first)
+
+### Lightweight Robot Vision Method Cuts Parameters by 99% While Boosting Control
+- URL: https://aiglimpse.ai/articles/lightweight-robot-vision-method-cuts-parameters-by-99-while-boosting-control-04c25bf8
+- Published: 2026-07-20
+- Category: research
+- Summary: Researchers introduce Patch Policy, enabling robots to leverage advanced visual models without the computational burden of billion-parameter systems.
+- Source: http://arxiv.org/abs/2607.18236v1
+
+### New AI Metric Captures Context-Dependent Visual Similarity
+- URL: https://aiglimpse.ai/articles/new-ai-metric-captures-context-dependent-visual-similarity-92902b74
+- Published: 2026-07-20
+- Category: research
+- Summary: Researchers develop a text-prompted approach that measures how images compare across multiple semantic dimensions, outperforming existing methods.
+- Source: http://arxiv.org/abs/2607.18237v1
 
 ### OpenAI Details Safety Challenges in Extended-Horizon AI Systems
 - URL: https://aiglimpse.ai/articles/openai-details-safety-challenges-in-extended-horizon-ai-systems-37cd4375

@@ -9488,6 +9488,42 @@
         "devto": true,
         "hashnode": false
       }
+    },
+    "new-ai-metric-captures-context-dependent-visual-similarity-92902b74": {
+      "syndicated_at": "2026-07-21T02:50:43.627Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/new-ai-metric-captures-context-dependent-visual-similarity-194d",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 492,
+      "category": "research",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
+    },
+    "lightweight-robot-vision-method-cuts-parameters-by-99-while-boosting-control-04c25bf8": {
+      "syndicated_at": "2026-07-21T02:50:54.632Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/lightweight-robot-vision-method-cuts-parameters-by-99-while-boosting-control-1ddh",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 496,
+      "category": "research",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
     }
   }
 }
