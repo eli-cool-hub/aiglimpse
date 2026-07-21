@@ -3,7 +3,7 @@
 > Machine-readable index for AI assistants, answer engines, and research crawlers.
 > Summary version: https://aiglimpse.ai/llms.txt
 
-Total articles: 723 | Evergreen explainers: 15 | Generated: 2026-07-21
+Total articles: 725 | Evergreen explainers: 15 | Generated: 2026-07-21
 
 ## Evergreen explainers
 
@@ -113,6 +113,20 @@ Total articles: 723 | Evergreen explainers: 15 | Generated: 2026-07-21
 - Type: evergreen explainer (FAQ schema on page)
 
 ## All articles (newest first)
+
+### OpenAI, Hugging Face Reveal Findings From Model Evaluation Security Breach
+- URL: https://aiglimpse.ai/articles/openai-hugging-face-reveal-findings-from-model-evaluation-security-breach-6cad59f6
+- Published: 2026-07-21
+- Category: llms
+- Summary: A joint investigation uncovers sophisticated attack methods during AI testing, offering critical lessons for the industry on defending machine learning infrastructure.
+- Source: https://openai.com/index/hugging-face-model-evaluation-security-incident
+
+### How Simulation Is Becoming Essential for Training Physical AI
+- URL: https://aiglimpse.ai/articles/how-simulation-is-becoming-essential-for-training-physical-ai-25680d46
+- Published: 2026-07-21
+- Category: tools
+- Summary: Digital environments are reshaping how robots learn to perceive and act in the real world, unlocking new possibilities for embodied AI systems.
+- Source: https://huggingface.co/blog/nvidia/state-of-simulation-for-physical-ai
 
 ### New AI Technique Streamlines Video Editing Without Manual Masks
 - URL: https://aiglimpse.ai/articles/new-ai-technique-streamlines-video-editing-without-manual-masks-a2cbefc1

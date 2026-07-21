@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "openai-hugging-face-reveal-findings-from-model-evaluation-security-breach-6cad59f6",
+      "title": "OpenAI, Hugging Face Reveal Findings From Model Evaluation Security Breach",
+      "subtitle": "A joint investigation uncovers sophisticated attack methods during AI testing, offering critical lessons for the industry on defending machine learning infrastructure.",
+      "category": "llms",
+      "publishedAt": "2026-07-21T07:00:00.000Z",
+      "sourceUrl": "https://openai.com/index/hugging-face-model-evaluation-security-incident",
+      "sourceName": "OpenAI",
+      "sourceTier": 1,
+      "image": "/images/articles/openai-hugging-face-reveal-findings-from-model-evaluation-security-breach-6cad59f6.jpg"
+    },
+    {
+      "slug": "how-simulation-is-becoming-essential-for-training-physical-ai-25680d46",
+      "title": "How Simulation Is Becoming Essential for Training Physical AI",
+      "subtitle": "Digital environments are reshaping how robots learn to perceive and act in the real world, unlocking new possibilities for embodied AI systems.",
+      "category": "tools",
+      "publishedAt": "2026-07-21T20:00:27.000Z",
+      "sourceUrl": "https://huggingface.co/blog/nvidia/state-of-simulation-for-physical-ai",
+      "sourceName": "Hugging Face",
+      "sourceTier": 1,
+      "image": "/images/articles/how-simulation-is-becoming-essential-for-training-physical-ai-25680d46.jpg"
+    },
+    {
       "slug": "new-ai-technique-streamlines-video-editing-without-manual-masks-a2cbefc1",
       "title": "New AI Technique Streamlines Video Editing Without Manual Masks",
       "subtitle": "Researchers demonstrate how to train video editing models using only synthetic data, eliminating labor-intensive annotation workflows.",
@@ -8685,6 +8707,8 @@
     "155bb64406beefa1",
     "39153d781014a737",
     "16c551314fad52d9",
-    "a2cbefc17c50d82b"
+    "a2cbefc17c50d82b",
+    "25680d4602b25175",
+    "6cad59f6a06bbf99"
   ]
 }
