@@ -7,6 +7,14 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Researchers Crack Pixel-Level Detection of AI-Generated Image Forgeries</title>
+      <link>https://aiglimpse.ai/articles/researchers-crack-pixel-level-detection-of-ai-generated-image-forgeries-6d804e82</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/researchers-crack-pixel-level-detection-of-ai-generated-image-forgeries-6d804e82</guid>
+      <description>New framework dramatically improves ability to spot manipulated content from ChatGPT, Gemini, and other advanced vision models.</description>
+      <pubDate>Mon, 20 Jul 2026 17:58:13 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
       <title>No Single AI Discovery Method Works Best Across All Problems</title>
       <link>https://aiglimpse.ai/articles/no-single-ai-discovery-method-works-best-across-all-problems-523a1b57</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/no-single-ai-discovery-method-works-best-across-all-problems-523a1b57</guid>
@@ -397,14 +405,6 @@
       <description>New framework streamlines customization of image and video AI models, lowering barriers for enterprises seeking specialized applications.</description>
       <pubDate>Fri, 17 Jul 2026 15:57:54 GMT</pubDate>
       <category>AI Tools &amp; Products</category>
-    </item>
-    <item>
-      <title>Major Language Models Fail Basic Math Tests, Researchers Find</title>
-      <link>https://aiglimpse.ai/articles/major-language-models-fail-basic-math-tests-researchers-find-168ea5dc</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/major-language-models-fail-basic-math-tests-researchers-find-168ea5dc</guid>
-      <description>New research reveals that LLMs violate fundamental probability rules when breaking down complex problems into simpler parts.</description>
-      <pubDate>Thu, 16 Jul 2026 17:59:31 GMT</pubDate>
-      <category>AI Research</category>
     </item>
   </channel>
 </rss>

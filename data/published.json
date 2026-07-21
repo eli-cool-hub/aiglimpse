@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "researchers-crack-pixel-level-detection-of-ai-generated-image-forgeries-6d804e82",
+      "title": "Researchers Crack Pixel-Level Detection of AI-Generated Image Forgeries",
+      "subtitle": "New framework dramatically improves ability to spot manipulated content from ChatGPT, Gemini, and other advanced vision models.",
+      "category": "research",
+      "publishedAt": "2026-07-20T17:58:13.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2607.18230v1",
+      "sourceName": "arXiv (Yi Tang, Xinyi Shang, Jiacheng Cui, Sondos Mahmoud Bsharat, …)",
+      "sourceTier": 1,
+      "image": "/images/articles/researchers-crack-pixel-level-detection-of-ai-generated-image-forgeries-6d804e82.jpg"
+    },
+    {
       "slug": "no-single-ai-discovery-method-works-best-across-all-problems-523a1b57",
       "title": "No Single AI Discovery Method Works Best Across All Problems",
       "subtitle": "A massive study of automated machine learning systems reveals that one-size-fits-all approaches fail, requiring problem-specific tuning instead.",
@@ -8613,6 +8624,7 @@
     "04c25bf816f33a3a",
     "1c1c07f28a57f4c4",
     "0127f8f454b04338",
-    "523a1b5768f38fd2"
+    "523a1b5768f38fd2",
+    "6d804e82d7380723"
   ]
 }
