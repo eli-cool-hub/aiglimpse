@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "anthropic-settles-major-copyright-case-for-15b-1c1c07f2",
+      "title": "Anthropic Settles Major Copyright Case for $1.5B",
+      "subtitle": "Court approval closes one legal battle, but fundamental questions about AI training data remain unresolved across the industry.",
+      "category": "business",
+      "publishedAt": "2026-07-21T00:12:24.000Z",
+      "sourceUrl": "https://techcrunch.com/2026/07/20/anthropics-landmark-1-5b-copyright-settlement-is-approved/",
+      "sourceName": "TechCrunch AI",
+      "sourceTier": 2,
+      "image": "/images/articles/anthropic-settles-major-copyright-case-for-15b-1c1c07f2.jpg"
+    },
+    {
       "slug": "lightweight-robot-vision-method-cuts-parameters-by-99-while-boosting-control-04c25bf8",
       "title": "Lightweight Robot Vision Method Cuts Parameters by 99% While Boosting Control",
       "subtitle": "Researchers introduce Patch Policy, enabling robots to leverage advanced visual models without the computational burden of billion-parameter systems.",
@@ -8577,6 +8588,7 @@
     "76648c1c24a480b0",
     "37cd4375e8f588d4",
     "92902b744e48e675",
-    "04c25bf816f33a3a"
+    "04c25bf816f33a3a",
+    "1c1c07f28a57f4c4"
   ]
 }
