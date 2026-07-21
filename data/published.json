@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "researchers-extend-ai-causal-discovery-to-handle-real-world-messy-data-0388e280",
+      "title": "Researchers Extend AI Causal Discovery to Handle Real-World Messy Data",
+      "subtitle": "New method adapts machine learning techniques to irregular time series, unlocking analysis of healthcare, finance, and sensor data.",
+      "category": "research",
+      "publishedAt": "2026-07-20T17:57:45.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2607.18226v1",
+      "sourceName": "arXiv (Martim Penim, Ricardo Ribeiro Pereira, Jacopo Bono, Hugo Fer…)",
+      "sourceTier": 1,
+      "image": "/images/articles/researchers-extend-ai-causal-discovery-to-handle-real-world-messy-data-0388e280.jpg"
+    },
+    {
+      "slug": "openai-names-fintech-and-tech-leaders-to-governance-boards-ed44166f",
+      "title": "OpenAI Names Fintech and Tech Leaders to Governance Boards",
+      "subtitle": "David Vélez and Robin Vince join OpenAI's leadership as the AI company strengthens its board composition with financial and technology expertise.",
+      "category": "llms",
+      "publishedAt": "2026-07-21T00:00:00.000Z",
+      "sourceUrl": "https://openai.com/index/david-velez-robin-vince-join-openai-boards",
+      "sourceName": "OpenAI",
+      "sourceTier": 1,
+      "image": "/images/articles/openai-names-fintech-and-tech-leaders-to-governance-boards-ed44166f.jpg"
+    },
+    {
       "slug": "openai-hugging-face-reveal-findings-from-model-evaluation-security-breach-6cad59f6",
       "title": "OpenAI, Hugging Face Reveal Findings From Model Evaluation Security Breach",
       "subtitle": "A joint investigation uncovers sophisticated attack methods during AI testing, offering critical lessons for the industry on defending machine learning infrastructure.",
@@ -8709,6 +8731,8 @@
     "16c551314fad52d9",
     "a2cbefc17c50d82b",
     "25680d4602b25175",
-    "6cad59f6a06bbf99"
+    "6cad59f6a06bbf99",
+    "ed44166f7c3cf0e5",
+    "0388e280489194d8"
   ]
 }

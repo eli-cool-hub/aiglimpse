@@ -9686,6 +9686,42 @@
         "devto": true,
         "hashnode": false
       }
+    },
+    "openai-names-fintech-and-tech-leaders-to-governance-boards-ed44166f": {
+      "syndicated_at": "2026-07-21T22:59:18.518Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/openai-names-fintech-and-tech-leaders-to-governance-boards-5bb3",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 448,
+      "category": "llms",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
+    },
+    "researchers-extend-ai-causal-discovery-to-handle-real-world-messy-data-0388e280": {
+      "syndicated_at": "2026-07-21T22:59:31.395Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/researchers-extend-ai-causal-discovery-to-handle-real-world-messy-data-1co9",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 539,
+      "category": "research",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
     }
   }
 }

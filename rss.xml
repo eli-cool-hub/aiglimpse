@@ -7,6 +7,22 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Researchers Extend AI Causal Discovery to Handle Real-World Messy Data</title>
+      <link>https://aiglimpse.ai/articles/researchers-extend-ai-causal-discovery-to-handle-real-world-messy-data-0388e280</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/researchers-extend-ai-causal-discovery-to-handle-real-world-messy-data-0388e280</guid>
+      <description>New method adapts machine learning techniques to irregular time series, unlocking analysis of healthcare, finance, and sensor data.</description>
+      <pubDate>Mon, 20 Jul 2026 17:57:45 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
+      <title>OpenAI Names Fintech and Tech Leaders to Governance Boards</title>
+      <link>https://aiglimpse.ai/articles/openai-names-fintech-and-tech-leaders-to-governance-boards-ed44166f</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/openai-names-fintech-and-tech-leaders-to-governance-boards-ed44166f</guid>
+      <description>David Vélez and Robin Vince join OpenAI's leadership as the AI company strengthens its board composition with financial and technology expertise.</description>
+      <pubDate>Tue, 21 Jul 2026 00:00:00 GMT</pubDate>
+      <category>LLMs &amp; Chatbots</category>
+    </item>
+    <item>
       <title>OpenAI, Hugging Face Reveal Findings From Model Evaluation Security Breach</title>
       <link>https://aiglimpse.ai/articles/openai-hugging-face-reveal-findings-from-model-evaluation-security-breach-6cad59f6</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/openai-hugging-face-reveal-findings-from-model-evaluation-security-breach-6cad59f6</guid>
@@ -388,22 +404,6 @@
       <guid isPermaLink="true">https://aiglimpse.ai/articles/researchers-use-llms-to-unlock-causal-insights-from-traffic-video-data-16bee68a</guid>
       <description>New system bridges natural language and causal inference to help traffic agencies understand what actually causes congestion and accidents.</description>
       <pubDate>Thu, 16 Jul 2026 17:49:28 GMT</pubDate>
-      <category>AI Research</category>
-    </item>
-    <item>
-      <title>New Framework Teaches AI Agents to Search Smarter and Remember Better</title>
-      <link>https://aiglimpse.ai/articles/new-framework-teaches-ai-agents-to-search-smarter-and-remember-better-0ae28d6c</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-framework-teaches-ai-agents-to-search-smarter-and-remember-better-0ae28d6c</guid>
-      <description>Researchers introduce SearchOS, a system that prevents AI from repeating failed searches by maintaining explicit task state and evidence tracking.</description>
-      <pubDate>Thu, 16 Jul 2026 17:51:23 GMT</pubDate>
-      <category>AI Research</category>
-    </item>
-    <item>
-      <title>Researchers Use Machine Learning to Decode Crypto Market Sentiment</title>
-      <link>https://aiglimpse.ai/articles/researchers-use-machine-learning-to-decode-crypto-market-sentiment-60d4a377</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/researchers-use-machine-learning-to-decode-crypto-market-sentiment-60d4a377</guid>
-      <description>New AI model combines blockchain data with social media to classify Bitcoin investor emotion with 84% accuracy.</description>
-      <pubDate>Thu, 16 Jul 2026 17:52:26 GMT</pubDate>
       <category>AI Research</category>
     </item>
   </channel>
