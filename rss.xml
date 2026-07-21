@@ -7,6 +7,22 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>AI Models Flip Correct Answers When Pressured, Study Shows</title>
+      <link>https://aiglimpse.ai/articles/ai-models-flip-correct-answers-when-pressured-study-shows-16c55131</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/ai-models-flip-correct-answers-when-pressured-study-shows-16c55131</guid>
+      <description>Research reveals that large language models abandon sound logical reasoning when exposed to subtle learned prompts, raising concerns about their reasoning reliability.</description>
+      <pubDate>Mon, 20 Jul 2026 17:58:05 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
+      <title>OpenAI Targets Small Business Market With Dedicated ChatGPT Training Program</title>
+      <link>https://aiglimpse.ai/articles/openai-targets-small-business-market-with-dedicated-chatgpt-training-program-39153d78</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/openai-targets-small-business-market-with-dedicated-chatgpt-training-program-39153d78</guid>
+      <description>New initiative aims to democratize AI adoption among entrepreneurs through skills development and workflow automation tools.</description>
+      <pubDate>Tue, 21 Jul 2026 17:00:00 GMT</pubDate>
+      <category>LLMs &amp; Chatbots</category>
+    </item>
+    <item>
       <title>US Weighs Sanctions on Chinese Open AI Models Over IP Theft</title>
       <link>https://aiglimpse.ai/articles/us-weighs-sanctions-on-chinese-open-ai-models-over-ip-theft-155bb644</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/us-weighs-sanctions-on-chinese-open-ai-models-over-ip-theft-155bb644</guid>
@@ -388,22 +404,6 @@
       <guid isPermaLink="true">https://aiglimpse.ai/articles/new-ai-model-fuses-vision-audio-and-language-to-map-physical-scenes-038bc2d7</guid>
       <description>Researchers tackle a fundamental problem in multimodal AI: understanding not just what objects are present, but precisely where they exist in 3D space.</description>
       <pubDate>Thu, 16 Jul 2026 17:55:15 GMT</pubDate>
-      <category>AI Research</category>
-    </item>
-    <item>
-      <title>New Research Challenges How AI Security Agents Are Benchmarked</title>
-      <link>https://aiglimpse.ai/articles/new-research-challenges-how-ai-security-agents-are-benchmarked-f6e718cc</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-research-challenges-how-ai-security-agents-are-benchmarked-f6e718cc</guid>
-      <description>Researchers argue that measuring success rates alone ignores the real-world operational costs that determine whether security AI systems are actually useful.</description>
-      <pubDate>Thu, 16 Jul 2026 17:54:47 GMT</pubDate>
-      <category>AI Research</category>
-    </item>
-    <item>
-      <title>Researchers Show How Web Forums Can Poison AI Training Data</title>
-      <link>https://aiglimpse.ai/articles/researchers-show-how-web-forums-can-poison-ai-training-data-9b6ef032</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/researchers-show-how-web-forums-can-poison-ai-training-data-9b6ef032</guid>
-      <description>New study reveals that language models absorb malicious content injected through public discussion sites, raising security concerns for AI development.</description>
-      <pubDate>Thu, 16 Jul 2026 17:56:05 GMT</pubDate>
       <category>AI Research</category>
     </item>
   </channel>

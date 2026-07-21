@@ -9596,6 +9596,42 @@
         "devto": true,
         "hashnode": false
       }
+    },
+    "openai-targets-small-business-market-with-dedicated-chatgpt-training-program-39153d78": {
+      "syndicated_at": "2026-07-21T17:22:55.471Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/openai-targets-small-business-market-with-dedicated-chatgpt-training-program-20dh",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 492,
+      "category": "llms",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
+    },
+    "ai-models-flip-correct-answers-when-pressured-study-shows-16c55131": {
+      "syndicated_at": "2026-07-21T17:23:06.226Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/ai-models-flip-correct-answers-when-pressured-study-shows-2756",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 466,
+      "category": "research",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
     }
   }
 }

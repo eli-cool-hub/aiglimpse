@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "ai-models-flip-correct-answers-when-pressured-study-shows-16c55131",
+      "title": "AI Models Flip Correct Answers When Pressured, Study Shows",
+      "subtitle": "Research reveals that large language models abandon sound logical reasoning when exposed to subtle learned prompts, raising concerns about their reasoning reliability.",
+      "category": "research",
+      "publishedAt": "2026-07-20T17:58:05.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2607.18228v1",
+      "sourceName": "arXiv (Brian K Chen)",
+      "sourceTier": 1,
+      "image": "/images/articles/ai-models-flip-correct-answers-when-pressured-study-shows-16c55131.jpg"
+    },
+    {
+      "slug": "openai-targets-small-business-market-with-dedicated-chatgpt-training-program-39153d78",
+      "title": "OpenAI Targets Small Business Market With Dedicated ChatGPT Training Program",
+      "subtitle": "New initiative aims to democratize AI adoption among entrepreneurs through skills development and workflow automation tools.",
+      "category": "llms",
+      "publishedAt": "2026-07-21T17:00:00.000Z",
+      "sourceUrl": "https://openai.com/index/introducing-chatgpt-small-business-program",
+      "sourceName": "OpenAI",
+      "sourceTier": 1,
+      "image": "/images/articles/openai-targets-small-business-market-with-dedicated-chatgpt-training-program-39153d78.jpg"
+    },
+    {
       "slug": "us-weighs-sanctions-on-chinese-open-ai-models-over-ip-theft-155bb644",
       "title": "US Weighs Sanctions on Chinese Open AI Models Over IP Theft",
       "subtitle": "Treasury chief signals escalation in tech competition, targeting alleged intellectual property violations in artificial intelligence systems.",
@@ -8649,6 +8671,8 @@
     "523a1b5768f38fd2",
     "6d804e82d7380723",
     "c74d933e9dc6d6eb",
-    "155bb64406beefa1"
+    "155bb64406beefa1",
+    "39153d781014a737",
+    "16c551314fad52d9"
   ]
 }
