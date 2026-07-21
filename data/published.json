@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "no-single-ai-discovery-method-works-best-across-all-problems-523a1b57",
+      "title": "No Single AI Discovery Method Works Best Across All Problems",
+      "subtitle": "A massive study of automated machine learning systems reveals that one-size-fits-all approaches fail, requiring problem-specific tuning instead.",
+      "category": "research",
+      "publishedAt": "2026-07-20T17:59:37.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2607.18235v1",
+      "sourceName": "arXiv (Akshat Gupta, Jermaine Lei, Alexander Lu, Gopala Anumanchipa…)",
+      "sourceTier": 1,
+      "image": "/images/articles/no-single-ai-discovery-method-works-best-across-all-problems-523a1b57.jpg"
+    },
+    {
+      "slug": "open-dataset-platform-aims-to-accelerate-robot-learning-0127f8f4",
+      "title": "Open Dataset Platform Aims to Accelerate Robot Learning",
+      "subtitle": "New system lets researchers share manipulation task data, potentially speeding up development of dexterous AI systems.",
+      "category": "tools",
+      "publishedAt": "2026-07-21T00:00:00.000Z",
+      "sourceUrl": "https://huggingface.co/blog/grabette",
+      "sourceName": "Hugging Face",
+      "sourceTier": 1,
+      "image": "/images/articles/open-dataset-platform-aims-to-accelerate-robot-learning-0127f8f4.jpg"
+    },
+    {
       "slug": "anthropic-settles-major-copyright-case-for-15b-1c1c07f2",
       "title": "Anthropic Settles Major Copyright Case for $1.5B",
       "subtitle": "Court approval closes one legal battle, but fundamental questions about AI training data remain unresolved across the industry.",
@@ -8589,6 +8611,8 @@
     "37cd4375e8f588d4",
     "92902b744e48e675",
     "04c25bf816f33a3a",
-    "1c1c07f28a57f4c4"
+    "1c1c07f28a57f4c4",
+    "0127f8f454b04338",
+    "523a1b5768f38fd2"
   ]
 }

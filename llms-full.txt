@@ -3,7 +3,7 @@
 > Machine-readable index for AI assistants, answer engines, and research crawlers.
 > Summary version: https://aiglimpse.ai/llms.txt
 
-Total articles: 715 | Evergreen explainers: 15 | Generated: 2026-07-21
+Total articles: 717 | Evergreen explainers: 15 | Generated: 2026-07-21
 
 ## Evergreen explainers
 
@@ -113,6 +113,20 @@ Total articles: 715 | Evergreen explainers: 15 | Generated: 2026-07-21
 - Type: evergreen explainer (FAQ schema on page)
 
 ## All articles (newest first)
+
+### No Single AI Discovery Method Works Best Across All Problems
+- URL: https://aiglimpse.ai/articles/no-single-ai-discovery-method-works-best-across-all-problems-523a1b57
+- Published: 2026-07-20
+- Category: research
+- Summary: A massive study of automated machine learning systems reveals that one-size-fits-all approaches fail, requiring problem-specific tuning instead.
+- Source: http://arxiv.org/abs/2607.18235v1
+
+### Open Dataset Platform Aims to Accelerate Robot Learning
+- URL: https://aiglimpse.ai/articles/open-dataset-platform-aims-to-accelerate-robot-learning-0127f8f4
+- Published: 2026-07-21
+- Category: tools
+- Summary: New system lets researchers share manipulation task data, potentially speeding up development of dexterous AI systems.
+- Source: https://huggingface.co/blog/grabette
 
 ### Anthropic Settles Major Copyright Case for $1.5B
 - URL: https://aiglimpse.ai/articles/anthropic-settles-major-copyright-case-for-15b-1c1c07f2
