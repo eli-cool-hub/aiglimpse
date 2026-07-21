@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "us-weighs-sanctions-on-chinese-open-ai-models-over-ip-theft-155bb644",
+      "title": "US Weighs Sanctions on Chinese Open AI Models Over IP Theft",
+      "subtitle": "Treasury chief signals escalation in tech competition, targeting alleged intellectual property violations in artificial intelligence systems.",
+      "category": "business",
+      "publishedAt": "2026-07-21T15:37:05.000Z",
+      "sourceUrl": "https://techcrunch.com/2026/07/21/us-threatens-sanctions-against-chinese-ai-models-over-ip-theft/",
+      "sourceName": "TechCrunch AI",
+      "sourceTier": 2,
+      "image": "/images/articles/us-weighs-sanctions-on-chinese-open-ai-models-over-ip-theft-155bb644.jpg"
+    },
+    {
+      "slug": "google-expands-gemini-lineup-with-three-new-model-variants-c74d933e",
+      "title": "Google Expands Gemini Lineup With Three New Model Variants",
+      "subtitle": "The tech giant rolls out faster, lighter versions of its AI engine designed for different speed and capability requirements.",
+      "category": "research",
+      "publishedAt": "2026-07-21T15:16:30.000Z",
+      "sourceUrl": "https://deepmind.google/blog/introducing-gemini-36-flash-35-flash-lite-and-35-flash-cyber/",
+      "sourceName": "Google DeepMind",
+      "sourceTier": 1,
+      "image": "/images/articles/google-expands-gemini-lineup-with-three-new-model-variants-c74d933e.jpg"
+    },
+    {
       "slug": "researchers-crack-pixel-level-detection-of-ai-generated-image-forgeries-6d804e82",
       "title": "Researchers Crack Pixel-Level Detection of AI-Generated Image Forgeries",
       "subtitle": "New framework dramatically improves ability to spot manipulated content from ChatGPT, Gemini, and other advanced vision models.",
@@ -8625,6 +8647,8 @@
     "1c1c07f28a57f4c4",
     "0127f8f454b04338",
     "523a1b5768f38fd2",
-    "6d804e82d7380723"
+    "6d804e82d7380723",
+    "c74d933e9dc6d6eb",
+    "155bb64406beefa1"
   ]
 }
