@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "openai-partners-with-us-energy-department-on-ai-driven-science-ce01249b",
+      "title": "OpenAI Partners With U.S. Energy Department on AI-Driven Science",
+      "subtitle": "The AI company aims to leverage cutting-edge machine learning models to accelerate research discoveries across America's national laboratories.",
+      "category": "llms",
+      "publishedAt": "2026-07-22T12:00:00.000Z",
+      "sourceUrl": "https://openai.com/index/advancing-the-next-era-of-national-science",
+      "sourceName": "OpenAI",
+      "sourceTier": 1,
+      "image": "/images/articles/openai-partners-with-us-energy-department-on-ai-driven-science-ce01249b.jpg"
+    },
+    {
       "slug": "openai-launches-georgia-data-center-to-expand-ai-infrastructure-e1574fcf",
       "title": "OpenAI Launches Georgia Data Center to Expand AI Infrastructure",
       "subtitle": "The company commits to local job creation and community benefits as it builds computational capacity for large language models.",
@@ -8841,6 +8852,7 @@
     "958ca5d23bb2514f",
     "33a80902da74ee63",
     "debdba1a799e2761",
-    "e1574fcf2e93ff3d"
+    "e1574fcf2e93ff3d",
+    "ce01249be27e66d2"
   ]
 }
