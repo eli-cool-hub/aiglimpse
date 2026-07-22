@@ -9830,6 +9830,42 @@
         "devto": true,
         "hashnode": false
       }
+    },
+    "google-deepmind-pledges-40m-to-accelerate-ai-driven-research-debdba1a": {
+      "syndicated_at": "2026-07-22T14:00:40.127Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/google-deepmind-pledges-40m-to-accelerate-ai-driven-research-1c6m",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 491,
+      "category": "research",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
+    },
+    "openai-launches-georgia-data-center-to-expand-ai-infrastructure-e1574fcf": {
+      "syndicated_at": "2026-07-22T14:00:49.377Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/openai-launches-georgia-data-center-to-expand-ai-infrastructure-27gh",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 423,
+      "category": "llms",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
     }
   }
 }
