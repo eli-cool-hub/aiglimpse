@@ -1,6 +1,18 @@
 {
   "articles": [
     {
+      "slug": "building-production-rag-pipeline",
+      "title": "Building a Production RAG Pipeline: From Documents to Answers",
+      "subtitle": "A technical guide to chunking, retrieval, re-ranking, and observability for RAG systems at scale",
+      "category": "research",
+      "publishedAt": "2026-07-22T08:11:54.425Z",
+      "sourceUrl": null,
+      "sourceName": "AI Glimpse Newsroom",
+      "sourceTier": 0,
+      "image": "/images/articles/building-production-rag-pipeline.jpg",
+      "evergreen": true
+    },
+    {
       "slug": "acquisition-frenzy-fuels-speculation-over-anthropic-physical-intelligence-deal-316d180e",
       "title": "Acquisition Frenzy Fuels Speculation Over Anthropic-Physical Intelligence Deal",
       "subtitle": "As major AI labs ramp up company purchases, unverified reports suggest Claude maker may pursue robotics startup.",

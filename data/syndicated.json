@@ -9776,6 +9776,24 @@
         "devto": true,
         "hashnode": false
       }
+    },
+    "building-production-rag-pipeline": {
+      "syndicated_at": "2026-07-22T08:11:56.749Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/building-a-production-rag-pipeline-from-documents-to-answers-55mk",
+      "hashnode": null,
+      "gates": {
+        "medium": true,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 2350,
+      "category": "research",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
     }
   }
 }

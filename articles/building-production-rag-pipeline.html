@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Building a Production RAG Pipeline: From Documents to Answers | AI Glimpse</title>
+  <meta name="description" content="Complete guide to building production RAG pipelines: chunking strategies, re-ranking, caching, monitoring, and avoiding common failures.">
+  <meta name="keywords" content="RAG pipeline, document chunking, retrieval evaluation, re-ranking, production LLM, knowledge base, vector search">
+  <link rel="canonical" href="https://aiglimpse.ai/articles/building-production-rag-pipeline">
+  <meta property="og:type" content="article"><meta property="og:site_name" content="AI Glimpse">
+  <meta property="og:title" content="Building a Production RAG Pipeline: From Documents to Answers">
+  <meta property="og:description" content="Complete guide to building production RAG pipelines: chunking strategies, re-ranking, caching, monitoring, and avoiding common failures.">
+  <meta property="og:url" content="https://aiglimpse.ai/articles/building-production-rag-pipeline">
+  <meta property="og:image" content="https://aiglimpse.ai/images/articles/building-production-rag-pipeline.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="article:published_time" content="2026-07-22T08:11:54.425Z">
+  <meta property="article:section" content="AI Research">
+  <meta property="article:tag" content="RAG pipeline">
+  <meta property="article:tag" content="document chunking">
+  <meta property="article:tag" content="retrieval evaluation">
+  <meta property="article:tag" content="re-ranking">
+  <meta property="article:tag" content="production LLM">
+  <meta property="article:tag" content="knowledge base">
+  <meta property="article:tag" content="vector search">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Building a Production RAG Pipeline: From Documents to Answers">
+  <meta name="twitter:description" content="Complete guide to building production RAG pipelines: chunking strategies, re-ranking, caching, monitoring, and avoiding common failures.">
+  <meta name="twitter:image" content="https://aiglimpse.ai/images/articles/building-production-rag-pipeline.jpg">
+  <link rel="icon" type="image/svg+xml" href="/images/favicon.svg">
+  <link rel="alternate" type="application/rss+xml" title="AI Glimpse RSS" href="/rss.xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700;9..144,900&family=Inter+Tight:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap">
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="preload" as="image" href="/images/articles/building-production-rag-pipeline.webp" type="image/webp" fetchpriority="high">
+  <style>.reading-progress{position:fixed;top:0;left:0;height:3px;background:var(--color-accent);width:0%;z-index:200;transition:width 100ms linear;}</style>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","mainEntityOfPage":{"@type":"WebPage","@id":"https://aiglimpse.ai/articles/building-production-rag-pipeline"},"headline":"Building a Production RAG Pipeline: From Documents to Answers","description":"Complete guide to building production RAG pipelines: chunking strategies, re-ranking, caching, monitoring, and avoiding common failures.","image":["https://aiglimpse.ai/images/articles/building-production-rag-pipeline.jpg"],"datePublished":"2026-07-22T08:11:54.425Z","dateModified":"2026-07-22T08:11:54.425Z","author":{"@type":"Organization","name":"AI Glimpse Newsroom"},"publisher":{"@type":"Organization","name":"AI Glimpse","logo":{"@type":"ImageObject","url":"https://aiglimpse.ai/images/logo.svg"}},"articleSection":"AI Research","keywords":"RAG pipeline, document chunking, retrieval evaluation, re-ranking, production LLM, knowledge base, vector search"}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://aiglimpse.ai/"},{"@type":"ListItem","position":2,"name":"AI Research","item":"https://aiglimpse.ai/categories/research"},{"@type":"ListItem","position":3,"name":"Building a Production RAG Pipeline: From Documents to Answers","item":"https://aiglimpse.ai/articles/building-production-rag-pipeline"}]}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What is the difference between RAG and fine-tuning?","acceptedAnswer":{"@type":"Answer","text":"RAG (retrieval-augmented generation) fetches relevant documents at query time and passes them to an LLM. Fine-tuning modifies model weights permanently. RAG is faster to update, cheaper to run, and better for proprietary or frequently-changing knowledge bases. Fine-tuning is best when you need to embed task-specific behavior or reasoning patterns into the model itself."}},{"@type":"Question","name":"How do you choose a chunk size?","acceptedAnswer":{"@type":"Answer","text":"Start with 512 to 1024 tokens per chunk. Smaller chunks (256 tokens) increase retrieval precision but hurt coherence; larger chunks (2048+ tokens) preserve context but reduce recall. Test on your domain: search benchmark datasets or customer queries. Optimal size depends on document type, retrieval model, and downstream LLM context window."}},{"@type":"Question","name":"What is re-ranking and when do you need it?","acceptedAnswer":{"@type":"Answer","text":"Re-ranking re-scores the top-k results from semantic search using a more expensive but accurate model (e.g., a cross-encoder). Use it when retrieval recall is >80% but precision is low, or when latency budget allows (~50 to 200ms). Skip it for latency-critical applications or when your base retriever already scores >70% MRR@10."}},{"@type":"Question","name":"How do you monitor RAG retrieval quality in production?","acceptedAnswer":{"@type":"Answer","text":"Track retrieval metrics: Mean Reciprocal Rank (MRR), NDCG@10, and hit rate at k. Log failed queries (no relevant documents retrieved) and user feedback signals (thumbs up/down, regeneration rate). Sample and manually audit 1 to 2% of queries weekly. Monitor latency, cache hit rates, and embedding API costs."}},{"@type":"Question","name":"Should you use a vector database or a traditional search engine?","acceptedAnswer":{"@type":"Answer","text":"Vector databases (Pinecone, Weaviate) excel at semantic search but offer weaker filtering. Traditional search (Elasticsearch, BM25) is fast, cheap, and great for keyword matching but misses semantic similarity. Hybrid search combining both often outperforms either alone. Choose based on your query patterns and infrastructure constraints."}},{"@type":"Question","name":"What causes a RAG pipeline to hallucinate?","acceptedAnswer":{"@type":"Answer","text":"RAG reduces but doesn't eliminate hallucination. Common causes: retriever fails to fetch relevant documents (recall failure), re-ranker promotes noisy results, LLM context window is full and documents are truncated, or the knowledge base lacks ground truth. Add retrieval confidence thresholds, re-rank aggressively, and set document count limits."}},{"@type":"Question","name":"How much latency is acceptable for a RAG query?","acceptedAnswer":{"@type":"Answer","text":"Target 500ms to 2 seconds for interactive applications. Embedding (~50ms) + retrieval (~100ms) + re-ranking (~100-200ms) + LLM generation (~500ms to 5 seconds depending on length) sum quickly. Use caching for common queries, batch embeddings, and async re-ranking. Trade-off: latency vs. accuracy with top-k limits and re-ranker thresholds."}}]}</script>
+  <meta name="google-site-verification" content="B132aMlqf1nssWYhjOSKUgSjmfwNWgPgtozZsHDxWlU" />
+  <meta name="msvalidate.01" content="F3762E555B3E685836AE39C90B79ECBF" />
+  <!-- aiglimpse-consent-default v1: must run before AdSense, defaults all ad/analytics storage to denied -->
+  <script>(function(){window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}window.gtag=gtag;gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'denied',functionality_storage:'granted',security_storage:'granted',wait_for_update:500});try{var s=JSON.parse(localStorage.getItem('aiglimpse-consent')||'null');if(s&&s.choice==='granted'){gtag('consent','update',{ad_storage:'granted',ad_user_data:'granted',ad_personalization:'granted',analytics_storage:'granted'});}}catch(e){}})();</script>
+  <!-- aiglimpse-ga4 v1: gtag.js loaded after consent default, so it buffers events until consent is granted -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-EVZ52DNQ8S"></script>
+  <script>gtag('js', new Date()); gtag('config', 'G-EVZ52DNQ8S', { anonymize_ip: true });</script>
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4263484717830850" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div class="reading-progress" aria-hidden="true"></div>
+  <header class="site-header" role="banner">
+    <div class="container">
+      <div class="header-bar">
+        <a href="/" class="logo" aria-label="AI Glimpse home">
+          <span class="logo-wordmark" aria-label="AI Glimpse">A<span class="iris-i" aria-hidden="true">ı</span><span aria-hidden="true"> Glimpse</span></span>
+        </a>
+        <nav class="nav-primary" aria-label="Primary">
+          <a href="/categories/llms">LLMs</a>
+            <a href="/categories/research">Research</a>
+            <a href="/categories/tools">Tools</a>
+            <a href="/categories/business">Business</a>
+            <a href="/categories/ethics">Ethics</a>
+            <a href="/categories/industry">Industry</a>
+            <a href="/categories/robotics">Robotics</a>
+        </nav>
+        <div class="header-actions">
+          <a class="search-btn" href="/search" aria-label="Search">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="11" cy="11" r="7"/><path d="M21 21l-4.35-4.35"/>
+            </svg>
+          </a>
+          <a href="#newsletter" class="btn btn--primary btn--sm">Subscribe</a>
+          <button class="menu-btn" aria-label="Open menu">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+  <aside class="mobile-menu" aria-label="Mobile menu">
+    <div class="mobile-menu-header">
+      <a href="/" class="logo">
+        <span class="logo-wordmark" aria-label="AI Glimpse">A<span class="iris-i" aria-hidden="true">ı</span><span aria-hidden="true"> Glimpse</span></span>
+      </a>
+      <button class="mobile-menu-close" aria-label="Close menu" style="font-size:24px;">×</button>
+    </div>
+    <a href="/categories/llms">LLMs</a>
+    <a href="/categories/research">Research</a>
+    <a href="/categories/tools">Tools</a>
+    <a href="/categories/business">Business</a>
+    <a href="/categories/ethics">Ethics</a>
+    <a href="/categories/industry">Industry</a>
+    <a href="/categories/robotics">Robotics</a>
+    <a href="/search">Search</a>
+    <a href="/pages/about">About</a>
+    <a href="#newsletter">Subscribe</a>
+  </aside>
+  <main>
+    <article>
+      <section class="article-hero">
+        <div class="container container--narrow">
+          <nav aria-label="Breadcrumb" style="margin-bottom:var(--space-4);font-size:var(--text-xs);color:var(--color-ink-muted);">
+            <a href="/" style="color:inherit;">Home</a> /
+            <a href="/categories/research" style="color:inherit;">AI Research</a> /
+            <span>Explainer</span>
+          </nav>
+          <div class="article-hero-meta">
+            <span class="tag tag--research">AI Research</span>
+            <span class="eyebrow eyebrow--accent">Explainer</span>
+            <span class="eyebrow">11 min read</span>
+          </div>
+          <h1 class="article-hero-title">Building a Production RAG Pipeline: From Documents to Answers</h1>
+          <p class="article-hero-subtitle">A technical guide to chunking, retrieval, re-ranking, and observability for RAG systems at scale</p>
+          <div class="article-byline">
+            <div>By <strong>AI Glimpse Newsroom</strong></div><div>·</div>
+            <div><time datetime="2026-07-22T08:11:54.425Z" data-relative="false">July 22, 2026</time></div>
+          </div>
+        </div>
+      </section>
+      <section style="padding: var(--space-7) 0;">
+        <div class="container container--narrow">
+          <figure class="article-image"><picture><source srcset="/images/articles/building-production-rag-pipeline.webp" type="image/webp"><img src="/images/articles/building-production-rag-pipeline.jpg" alt="Building a Production RAG Pipeline: From Documents to Answers" loading="eager" fetchpriority="high" width="1200" height="630"></picture></figure>
+          <div class="article-body"><p>A <a href="/articles/what-is-retrieval-augmented-generation-rag">retrieval-augmented generation</a> (RAG) pipeline is a system that fetches relevant documents from a knowledge base and passes them to a language model as context, enabling the model to answer questions grounded in factual, up-to-date information. The architecture sounds simple: ingest documents, chunk them, embed them, index them, retrieve relevant chunks at query time, optionally re-rank, then pass to an LLM. In practice, each step has enough depth to sink a production system. This guide walks through what works, what fails, and where to spend engineering effort.</p>
+
+<h2>Why this matters now</h2>
+
+<p>By 2026, RAG has become the default architecture for knowledge-intensive applications. Fine-tuning fell out of favor because it's expensive, stale within weeks, and legally risky for proprietary data. Vector databases matured, retrieval evaluation became a discipline, and the cost of LLM API calls dropped enough that triple-digit latency no longer kills user experience. But maturity also brought scars: teams learned that naive RAG fails catastrophically on edge cases, that chunking decisions made in week two still haunt production in month six, and that retrieval quality isn't a solved problem despite billions in VC funding.</p>
+
+<p>The stakes are high. A RAG system that hallucinates on financial queries or medical advice is worse than honest silence. A system that's slow or unreliable erodes trust faster than a system that doesn't exist. The teams winning are those that treat RAG as an engineering discipline, not a chatbot template, and measure ruthlessly from day one.</p>
+
+<h2>Document ingestion and preparation</h2>
+<figure class="article-image article-image--inline">
+  <picture><source srcset="/images/articles/building-production-rag-pipeline-inline-1.webp" type="image/webp"><img src="/images/articles/building-production-rag-pipeline-inline-1.jpg" alt="Document ingestion and preparation" loading="lazy" width="1200" height="630"></picture>
+  <figcaption class="article-image-credit">Photo by <a href="https://www.pexels.com/photo/person-holding-white-document-paper-8085931/" rel="nofollow noopener" target="_blank">Ron Lach</a> on Pexels.</figcaption>
+</figure>
+
+
+<p>The input layer determines everything downstream. Documents arrive in chaos: PDFs with scanned images, Markdown with front matter, unstructured HTML, tables, nested JSON. Before chunking, they must be parsed, cleaned, and normalized.</p>
+
+<p>Start with a document parser that respects structure. For PDFs, tools like PyPDF2 or pdfplumber extract text, but often mangled. A library like unstructured.io or LlamaIndex's document loaders handle semantic parsing: they recognize headers, lists, tables, and metadata. For web content, HTML parsers like BeautifulSoup or readability libraries strip boilerplate and extract the meat. The goal is structured data: chunks retain metadata (source, date, author, section), and logical boundaries are preserved.</p>
+
+<p>Metadata is not optional. Tag each document with source URI, modification date, version, and domain-specific fields. At retrieval time, you'll filter by date ("only documents from Q3 2025"), by section ("only FAQs, not blog posts"), or by confidence ("only verified sources"). Lose metadata in the ingestion pipeline, and your retriever becomes a blunt instrument.</p>
+
+<p>Normalization matters more than it seems. Standardize encodings (UTF-8), remove zero-width characters, collapse multiple spaces, and strip trailing whitespace. If your corpus mixes PDFs, Notion exports, and web scrapes, small inconsistencies compound at scale. A single unprintable character in a chunk can break downstream NLP pipelines or embedding APIs.</p>
+
+<h2>Chunking strategy and size selection</h2>
+
+<p>Chunking is the highest-leverage decision in a RAG pipeline, and it gets almost no attention. A bad chunking strategy ruins retrieval quality in ways that no re-ranker can fix.</p>
+
+<p>The goal is to break documents into semantic units that are small enough to fit in an LLM context window, large enough to contain meaning, and aligned with how questions are asked. A 50-token chunk may be retrieved perfectly but contain too little context for the LLM to answer. A 4000-token chunk drowns out the signal and wastes context. The Goldilocks zone is typically 512 to 1024 tokens for most domains.</p>
+
+<p>Start with simple overlap: split on sentence or paragraph boundaries, use fixed-size chunks with overlap (e.g., 768 tokens with 256-token overlap). Overlap prevents answers that split across chunk boundaries. Then measure and iterate. Log which chunks are retrieved for successful queries and which are missed for failures. If failures show you're splitting logic paragraphs, switch to semantic splitting: use a language model or a simple heuristic (e.g., "split on section headers, not paragraphs") to preserve meaning.</p>
+
+<p>Context-aware chunking is worth the effort at scale. If your knowledge base is structured (wikis, API docs), chunk by semantic unit: one chunk per function signature, per FAQ item, per policy section. For unstructured text, a trick that works: extract headers and topic boundaries, then chunk around them. A small hierarchical chunker that understands your domain beats generic token splitting.</p>
+
+<p>One subtle trap: don't chunk before you parse. Chunk after extraction and cleaning. A PDF header that appears in every chunk wastes retrieval signal and context window. Pre-process first, then chunk.</p>
+
+<h2>Embedding, indexing, and retrieval</h2>
+<figure class="article-image article-image--inline">
+  <picture><source srcset="/images/articles/building-production-rag-pipeline-inline-2.webp" type="image/webp"><img src="/images/articles/building-production-rag-pipeline-inline-2.jpg" alt="Embedding, indexing, and retrieval" loading="lazy" width="1200" height="630"></picture>
+  <figcaption class="article-image-credit">Photo by <a href="https://www.pexels.com/photo/man-wearing-eyeglasses-while-holding-papers-7877194/" rel="nofollow noopener" target="_blank">www.kaboompics.com</a> on Pexels.</figcaption>
+</figure>
+
+
+<p>Once chunks exist, they must be converted to <a href="/articles/embedding-models-compared-2026">embeddings</a> (dense vectors) and indexed for fast retrieval. The choice of embedding model is underrated. An older embedding model like text-embedding-ada-002 is cheap and reliable but weak on domain-specific tasks. A newer model like text-embedding-3-large is better but slower and pricier. A small open-source model like BAAI/bge-small-en-v1.5 is fast and free but less accurate on distant domains.</p>
+
+<p>A pragmatic heuristic: choose an embedding model that beats a strong BM25 baseline on your domain. If you don't have a domain benchmark yet, build one. Collect 100 queries (from users, customer support, or synthetic) and annotate which documents are relevant. Then measure. Most teams find that hybrid search (BM25 + semantic) outperforms pure vectors because keywords and meaning are orthogonal signals.</p>
+
+<p>Indexing is straightforward if you choose a mature tool. Vector databases like Pinecone, Weaviate, or Qdrant handle replication and durability. Elasticsearch supports vectors natively. LanceDB and Chroma work for smaller scales. What matters is that you pick something tested and move on. Don't build a vector search engine from scratch unless you have a specific constraint (e.g., everything must be on-premise, or latency is under 50ms with millions of documents).</p>
+
+<p>Retrieval at query time is a two-stage process: (1) fetch top-k candidates (e.g., top 50) using semantic search, (2) optionally re-rank them. The top-k recall is a hard ceiling on end-to-end quality. If the true answer isn't in the top 50, no re-ranker recovers it. A common target is top-100 recall above 85 to 90 percent on a held-out test set. Measure this early and often.</p>
+
+<p>Caching is free wins. Many RAG applications see query repetition: users ask the same question multiple ways, or the same underlying question recurring hourly. Cache embeddings and retrieval results with a simple LRU cache in front of your vector search. This cuts latency by 80 percent for warm queries and reduces API costs. TTL your cache based on how often your knowledge base updates.</p>
+
+<h2>Re-ranking and retrieval evaluation</h2>
+
+<p>Re-ranking is a controversial step because it adds latency and cost but often improves quality. The idea is simple: retrieve a larger set of candidates using a fast but approximate method (semantic search), then use a more accurate but slower method (cross-encoder or LLM) to re-score the top-k.</p>
+
+<p>A cross-encoder model like ms-marco-MiniLM-L-12-v2 takes a query and a document as input and outputs a relevance score. It's slower than semantic search (50 to 200ms for a batch of 50 documents) but often more accurate. When do you use it? When baseline retrieval recall is >80 percent but precision is low (many irrelevant documents in top-k), or when your latency budget allows. If you're already at 95 percent recall and 90 percent precision at top-5, re-ranking doesn't help.</p>
+
+<p>Measure retrieval quality relentlessly. Build a benchmark: 100 to 500 queries with hand-annotated relevant documents. Compute metrics: Mean Reciprocal Rank (MRR), NDCG@10, hit rate at k. These tell you what's working. MRR@10 of 0.6 means the first relevant document is, on average, at rank 1.67. That's decent but not great. NDCG@10 above 0.7 is a good target for production.</p>
+
+<p>Don't benchmark in a vacuum. Segment your queries by type (factual, comparative, exploratory) and document type (FAQ, policy, code). Retrieval quality often varies wildly by segment. If 80 percent of failures are on comparative queries ("compare X and Y"), your chunking strategy or embedding model may need refinement. If failures cluster on brand-new documents, implement a content freshness signal or boost new items in ranking.</p>
+
+<h2>Production monitoring and failure modes</h2>
+
+<p>A RAG system that works in a notebook often fails in production because production has different data, different query patterns, and different failure modes. Monitoring is not optional.</p>
+
+<p>Instrument the pipeline at each stage. Log retrieval results: which documents were retrieved, their scores, and how they ranked. Log the final generated answer and any user feedback (thumbs up/down, regeneration request). Compute retrieval hit rate (percentage of queries where at least one relevant document was retrieved) and compare it to your benchmark. If hit rate drops below 80 percent, alert.</p>
+
+<p>Implement a manual audit loop. Sample 1 to 2 percent of queries weekly and have a human review whether the retrieved documents actually answer the question. This catches distribution shifts early. If your knowledge base suddenly includes a lot of outdated or contradictory content, human auditors will see it before metrics do.</p>
+
+<p>Monitor latency at each stage. Embedding takes ~50ms, retrieval ~100ms, re-ranking ~100 to 200ms, LLM generation ~500ms to 5 seconds. If retrieval latency creeps from 100ms to 500ms, investigate. A bloated index or a <a href="/articles/vector-databases-rag-guide-2026">vector database</a> running out of memory is a slow failure mode. Set latency budgets and track percentiles (p50, p95, p99), not just means.</p>
+
+<p>Track embedding API costs. If your knowledge base grows from 10k to 100k documents and you re-embed everything weekly, costs scale linearly. Consider batch embedding, incremental updates (embed only new documents), or caching embeddings in cold storage.</p>
+
+<p>The most dangerous failure mode is silent <a href="/articles/how-to-reduce-llm-hallucinations">hallucination</a>: the LLM generates plausible but false answers that users believe because the source documents don't contradict them. Mitigate by setting a retrieval confidence threshold. If no document scored above 0.5 (using your chosen metric), return "I don't know" rather than generate an answer. Users accept honest uncertainty; they hate confident lies.</p>
+
+<h2>When this fails</h2>
+
+<p>RAG is not a panacea. Be honest about the limitations.</p>
+
+<p>First, retrieval can fail fundamentally. If a user asks "what is the revenue per customer?" and your knowledge base contains aggregate revenue and customer counts but never computed the ratio, RAG retrieves the raw numbers but the LLM must calculate. That works sometimes and fails silently sometimes. For questions requiring arithmetic, data fusion across documents, or reasoning over temporal data, RAG alone is insufficient. You need either a reasoning layer (chain-of-thought prompting, multi-hop retrieval) or direct integration with data systems (SQL databases, APIs).</p>
+
+<p>Second, chunking decisions have long tails. A chunking strategy optimized for FAQ retrieval may fail on narrative documents. A strategy tuned on Q2 data may break when Q3 introduces new document types. Chunking is not one-time. Plan to revisit it quarterly or when corpus composition changes significantly.</p>
+
+<p>Third, retrieval evaluation doesn't correlate perfectly with end-to-end accuracy. A system with 90 percent MRR@10 and a mediocre LLM can produce worse answers than a system with 70 percent MRR@10 and a strong LLM. Measure end-to-end answer quality, not just retrieval quality. Have humans rate a sample of final answers monthly.</p>
+
+<p>Fourth, latency compounds. If embedding takes 50ms, retrieval 100ms, re-ranking 150ms, and LLM generation 3 seconds, and you have 50 percent cache hit rate, your median latency is around 1.5 seconds. That's acceptable for many applications but not for real-time advisors or chat. Latency tuning requires trade-offs: smaller top-k (worse recall), no re-ranking (worse precision), or faster embeddings (worse quality).</p>
+
+<p>Finally, RAG systems are only as good as their knowledge base. If your documents are contradictory, outdated, or wrong, RAG will retrieve and amplify those problems. Before blaming the pipeline, audit the source data.</p>
+
+<h2>The path forward</h2>
+
+<p>Building a production RAG pipeline is an iterative discipline. Start with simple choices: a standard embedding model, a vector database, top-50 retrieval, and no re-ranking. Measure baseline retrieval and end-to-end accuracy on a 100-query benchmark. Then optimize: improve chunking, add re-ranking, tune top-k, implement caching. The goal is not perfection but a system that's accurate enough, fast enough, and reliable enough to be useful.</p>
+
+<p>Focus engineering effort on the parts that fail most often in production: evaluation (can you measure quality reliably?), monitoring (can you catch failures?), and chunking (are semantic boundaries preserved?). Those three give you 80 percent of the benefit. Everything else is refinement.</p></div>
+
+      <section style="margin-top: var(--space-8);">
+        <h2 style="margin-bottom: var(--space-5);">Frequently asked questions</h2>
+        <div class="faq-list">
+    <details class="faq-item" style="border-bottom:1px solid var(--color-rule);padding:var(--space-4) 0;">
+      <summary style="cursor:pointer;font-weight:600;font-size:var(--text-md);list-style:none;display:flex;justify-content:space-between;align-items:flex-start;gap:var(--space-3);">
+        <span>What is the difference between RAG and fine-tuning?</span>
+        <span aria-hidden="true" style="color:var(--color-ink-faint);font-weight:400;flex-shrink:0;">+</span>
+      </summary>
+      <div style="margin-top:var(--space-3);color:var(--color-ink-muted);line-height:1.7;">
+        <p>RAG (retrieval-augmented generation) fetches relevant documents at query time and passes them to an LLM. Fine-tuning modifies model weights permanently. RAG is faster to update, cheaper to run, and better for proprietary or frequently-changing knowledge bases. Fine-tuning is best when you need to embed task-specific behavior or reasoning patterns into the model itself.</p>
+      </div>
+    </details>
+
+    <details class="faq-item" style="border-bottom:1px solid var(--color-rule);padding:var(--space-4) 0;">
+      <summary style="cursor:pointer;font-weight:600;font-size:var(--text-md);list-style:none;display:flex;justify-content:space-between;align-items:flex-start;gap:var(--space-3);">
+        <span>How do you choose a chunk size?</span>
+        <span aria-hidden="true" style="color:var(--color-ink-faint);font-weight:400;flex-shrink:0;">+</span>
+      </summary>
+      <div style="margin-top:var(--space-3);color:var(--color-ink-muted);line-height:1.7;">
+        <p>Start with 512 to 1024 tokens per chunk. Smaller chunks (256 tokens) increase retrieval precision but hurt coherence; larger chunks (2048+ tokens) preserve context but reduce recall. Test on your domain: search benchmark datasets or customer queries. Optimal size depends on document type, retrieval model, and downstream LLM context window.</p>
+      </div>
+    </details>
+
+    <details class="faq-item" style="border-bottom:1px solid var(--color-rule);padding:var(--space-4) 0;">
+      <summary style="cursor:pointer;font-weight:600;font-size:var(--text-md);list-style:none;display:flex;justify-content:space-between;align-items:flex-start;gap:var(--space-3);">
+        <span>What is re-ranking and when do you need it?</span>
+        <span aria-hidden="true" style="color:var(--color-ink-faint);font-weight:400;flex-shrink:0;">+</span>
+      </summary>
+      <div style="margin-top:var(--space-3);color:var(--color-ink-muted);line-height:1.7;">
+        <p>Re-ranking re-scores the top-k results from semantic search using a more expensive but accurate model (e.g., a cross-encoder). Use it when retrieval recall is &gt;80% but precision is low, or when latency budget allows (~50 to 200ms). Skip it for latency-critical applications or when your base retriever already scores &gt;70% MRR@10.</p>
+      </div>
+    </details>
+
+    <details class="faq-item" style="border-bottom:1px solid var(--color-rule);padding:var(--space-4) 0;">
+      <summary style="cursor:pointer;font-weight:600;font-size:var(--text-md);list-style:none;display:flex;justify-content:space-between;align-items:flex-start;gap:var(--space-3);">
+        <span>How do you monitor RAG retrieval quality in production?</span>
+        <span aria-hidden="true" style="color:var(--color-ink-faint);font-weight:400;flex-shrink:0;">+</span>
+      </summary>
+      <div style="margin-top:var(--space-3);color:var(--color-ink-muted);line-height:1.7;">
+        <p>Track retrieval metrics: Mean Reciprocal Rank (MRR), NDCG@10, and hit rate at k. Log failed queries (no relevant documents retrieved) and user feedback signals (thumbs up/down, regeneration rate). Sample and manually audit 1 to 2% of queries weekly. Monitor latency, cache hit rates, and embedding API costs.</p>
+      </div>
+    </details>
+
+    <details class="faq-item" style="border-bottom:1px solid var(--color-rule);padding:var(--space-4) 0;">
+      <summary style="cursor:pointer;font-weight:600;font-size:var(--text-md);list-style:none;display:flex;justify-content:space-between;align-items:flex-start;gap:var(--space-3);">
+        <span>Should you use a vector database or a traditional search engine?</span>
+        <span aria-hidden="true" style="color:var(--color-ink-faint);font-weight:400;flex-shrink:0;">+</span>
+      </summary>
+      <div style="margin-top:var(--space-3);color:var(--color-ink-muted);line-height:1.7;">
+        <p>Vector databases (Pinecone, Weaviate) excel at semantic search but offer weaker filtering. Traditional search (Elasticsearch, BM25) is fast, cheap, and great for keyword matching but misses semantic similarity. Hybrid search combining both often outperforms either alone. Choose based on your query patterns and infrastructure constraints.</p>
+      </div>
+    </details>
+
+    <details class="faq-item" style="border-bottom:1px solid var(--color-rule);padding:var(--space-4) 0;">
+      <summary style="cursor:pointer;font-weight:600;font-size:var(--text-md);list-style:none;display:flex;justify-content:space-between;align-items:flex-start;gap:var(--space-3);">
+        <span>What causes a RAG pipeline to hallucinate?</span>
+        <span aria-hidden="true" style="color:var(--color-ink-faint);font-weight:400;flex-shrink:0;">+</span>
+      </summary>
+      <div style="margin-top:var(--space-3);color:var(--color-ink-muted);line-height:1.7;">
+        <p>RAG reduces but doesn&#39;t eliminate hallucination. Common causes: retriever fails to fetch relevant documents (recall failure), re-ranker promotes noisy results, LLM context window is full and documents are truncated, or the knowledge base lacks ground truth. Add retrieval confidence thresholds, re-rank aggressively, and set document count limits.</p>
+      </div>
+    </details>
+
+    <details class="faq-item" style="border-bottom:1px solid var(--color-rule);padding:var(--space-4) 0;">
+      <summary style="cursor:pointer;font-weight:600;font-size:var(--text-md);list-style:none;display:flex;justify-content:space-between;align-items:flex-start;gap:var(--space-3);">
+        <span>How much latency is acceptable for a RAG query?</span>
+        <span aria-hidden="true" style="color:var(--color-ink-faint);font-weight:400;flex-shrink:0;">+</span>
+      </summary>
+      <div style="margin-top:var(--space-3);color:var(--color-ink-muted);line-height:1.7;">
+        <p>Target 500ms to 2 seconds for interactive applications. Embedding (~50ms) + retrieval (~100ms) + re-ranking (~100-200ms) + LLM generation (~500ms to 5 seconds depending on length) sum quickly. Use caching for common queries, batch embeddings, and async re-ranking. Trade-off: latency vs. accuracy with top-k limits and re-ranker thresholds.</p>
+      </div>
+    </details></div>
+      </section>
+          <p style="font-size:var(--text-xs);color:var(--color-ink-faint);margin-top:var(--space-6);padding-top:var(--space-4);border-top:1px solid var(--color-rule);">
+            An <strong>AI Glimpse</strong> explainer. We update this guide as the field evolves.
+          </p>
+        </div>
+      </section>
+    </article>
+    <section class="section" aria-label="Related articles">
+      <div class="container container--narrow">
+        <div class="section-header">
+          <h2 class="section-title">More from AI Glimpse</h2>
+          <a href="/categories/research" class="section-link">All Research stories</a>
+        </div>
+        <div class="grid grid-3">
+          <article class="card card--medium">
+            <a href="/articles/new-ai-technique-gives-designers-precise-regional-control-over-image-generation-81f1fb4f"><div class="card-image"><picture><source srcset="/images/articles/new-ai-technique-gives-designers-precise-regional-control-over-image-generation-81f1fb4f.webp" type="image/webp"><img src="/images/articles/new-ai-technique-gives-designers-precise-regional-control-over-image-generation-81f1fb4f.jpg" alt="New AI Technique Gives Designers Precise Regional Control Over Image Generation" loading="lazy" width="1200" height="630"></picture></div></a>
+            <div class="card-meta">
+              <span class="tag tag--research">Research</span>
+              <span class="card-byline"><time datetime="2026-07-21T17:59:12.000Z">Jul 21, 2026</time></span>
+            </div>
+            <a href="/articles/new-ai-technique-gives-designers-precise-regional-control-over-image-generation-81f1fb4f"><h3 class="card-title">New AI Technique Gives Designers Precise Regional Control Over Image Generation</h3></a>
+          </article>
+          <article class="card card--medium">
+            <a href="/articles/new-adapter-methods-boost-reasoning-accuracy-in-language-models-b3f0c0dd"><div class="card-image"><picture><source srcset="/images/articles/new-adapter-methods-boost-reasoning-accuracy-in-language-models-b3f0c0dd.webp" type="image/webp"><img src="/images/articles/new-adapter-methods-boost-reasoning-accuracy-in-language-models-b3f0c0dd.jpg" alt="New Adapter Methods Boost Reasoning Accuracy in Language Models" loading="lazy" width="1200" height="630"></picture></div></a>
+            <div class="card-meta">
+              <span class="tag tag--research">Research</span>
+              <span class="card-byline"><time datetime="2026-07-21T17:47:57.000Z">Jul 21, 2026</time></span>
+            </div>
+            <a href="/articles/new-adapter-methods-boost-reasoning-accuracy-in-language-models-b3f0c0dd"><h3 class="card-title">New Adapter Methods Boost Reasoning Accuracy in Language Models</h3></a>
+          </article>
+          <article class="card card--medium">
+            <a href="/articles/ai-models-waste-context-by-copying-input-researchers-find-fix-f26f0779"><div class="card-image"><picture><source srcset="/images/articles/ai-models-waste-context-by-copying-input-researchers-find-fix-f26f0779.webp" type="image/webp"><img src="/images/articles/ai-models-waste-context-by-copying-input-researchers-find-fix-f26f0779.jpg" alt="AI Models Waste Context by Copying Input, Researchers Find Fix" loading="lazy" width="1200" height="630"></picture></div></a>
+            <div class="card-meta">
+              <span class="tag tag--research">Research</span>
+              <span class="card-byline"><time datetime="2026-07-21T17:59:21.000Z">Jul 21, 2026</time></span>
+            </div>
+            <a href="/articles/ai-models-waste-context-by-copying-input-researchers-find-fix-f26f0779"><h3 class="card-title">AI Models Waste Context by Copying Input, Researchers Find Fix</h3></a>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="/" class="logo">
+            <span class="logo-wordmark" aria-label="AI Glimpse">A<span class="iris-i" aria-hidden="true">ı</span><span aria-hidden="true"> Glimpse</span></span>
+          </a>
+          <p>Your daily glimpse into AI. Independent reporting and analysis on the people, products, and policies shaping artificial intelligence.</p>
+        </div>
+        <div class="footer-col">
+          <h5>Categories</h5>
+          <ul>
+            <li><a href="/categories/llms">LLMs</a></li>
+            <li><a href="/categories/research">Research</a></li>
+            <li><a href="/categories/tools">Tools</a></li>
+            <li><a href="/categories/business">Business</a></li>
+            <li><a href="/categories/ethics">Ethics</a></li>
+            <li><a href="/categories/industry">Industry</a></li>
+            <li><a href="/categories/robotics">Robotics</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h5>About</h5>
+          <ul>
+            <li><a href="/pages/about">About AI Glimpse</a></li>
+            <li><a href="/pages/contact">Contact</a></li>
+            <li><a href="/pages/editorial">Editorial Standards</a></li>
+            <li><a href="/pages/advertise">Advertise</a></li>
+            <li><a href="/guides.html">Guides &amp; Explainers</a></li>
+            <li><a href="/search">Search</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h5>Legal</h5>
+          <ul>
+            <li><a href="/pages/privacy">Privacy Policy</a></li>
+            <li><a href="/pages/terms">Terms of Service</a></li>
+            <li><a href="#" data-consent-open>Cookie preferences</a></li>
+            <li><a href="/rss.xml">RSS Feed</a></li>
+            <li><a href="/sitemap.xml">Sitemap</a></li>
+            <li><a href="/llms.txt">LLMs.txt</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div>© <span id="year">2026</span> AI Glimpse · aiglimpse.ai</div>
+        <div class="footer-social">
+          <a href="#" aria-label="X (Twitter)"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></a>
+          <a href="#" aria-label="LinkedIn"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.063 2.063 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg></a>
+          <a href="/rss.xml" aria-label="RSS"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M6.503 20.752c0 1.794-1.456 3.248-3.251 3.248-1.796 0-3.252-1.454-3.252-3.248 0-1.794 1.456-3.248 3.252-3.248 1.795 0 3.251 1.454 3.251 3.248zm-6.503-12.572v4.811c6.05.062 10.96 4.966 11.022 11.009h4.817c-.062-8.71-7.118-15.758-15.839-15.82zm0-3.368c10.58.046 19.152 8.594 19.183 19.188h4.817c-.03-13.231-10.755-23.954-24-24v4.812z"/></svg></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="/js/chrome.js"></script>
+  <script src="/js/main.js"></script>
+</body>
+</html>
