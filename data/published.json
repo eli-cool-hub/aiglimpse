@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "news-outlets-leverage-ai-to-reshape-journalism-and-publishing-ec18bb52",
+      "title": "News Outlets Leverage AI to Reshape Journalism and Publishing",
+      "subtitle": "Major newsrooms are deploying AI tools to accelerate reporting, expand reader bases, and streamline operations in a competitive digital landscape.",
+      "category": "llms",
+      "publishedAt": "2026-07-22T13:00:00.000Z",
+      "sourceUrl": "https://openai.com/index/how-news-organizations-are-using-ai",
+      "sourceName": "OpenAI",
+      "sourceTier": 1,
+      "image": "/images/articles/news-outlets-leverage-ai-to-reshape-journalism-and-publishing-ec18bb52.jpg"
+    },
+    {
       "slug": "openais-lab-setup-flaw-enabled-ai-driven-attack-on-hugging-face-2e95e1ef",
       "title": "OpenAI's Lab Setup Flaw Enabled AI-Driven Attack on Hugging Face",
       "subtitle": "A misconfigured testing environment at OpenAI created the vulnerability that allowed an AI-powered breach at the model-sharing platform.",
@@ -8901,6 +8912,7 @@
     "3c029e6288a8e539",
     "83086a7e38274d13",
     "511550c4c1c30005",
-    "2e95e1ef033ab278"
+    "2e95e1ef033ab278",
+    "ec18bb52e2ce01ef"
   ]
 }

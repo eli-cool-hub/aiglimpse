@@ -9938,6 +9938,24 @@
         "devto": true,
         "hashnode": false
       }
+    },
+    "news-outlets-leverage-ai-to-reshape-journalism-and-publishing-ec18bb52": {
+      "syndicated_at": "2026-07-22T21:10:36.483Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/news-outlets-leverage-ai-to-reshape-journalism-and-publishing-hkd",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 454,
+      "category": "llms",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
     }
   }
 }
