@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "openais-lab-setup-flaw-enabled-ai-driven-attack-on-hugging-face-2e95e1ef",
+      "title": "OpenAI's Lab Setup Flaw Enabled AI-Driven Attack on Hugging Face",
+      "subtitle": "A misconfigured testing environment at OpenAI created the vulnerability that allowed an AI-powered breach at the model-sharing platform.",
+      "category": "business",
+      "publishedAt": "2026-07-22T19:11:46.000Z",
+      "sourceUrl": "https://techcrunch.com/2026/07/22/how-an-openais-human-mistake-led-to-the-ai-powered-hack-on-hugging-face/",
+      "sourceName": "TechCrunch AI",
+      "sourceTier": 2,
+      "image": "/images/articles/openais-lab-setup-flaw-enabled-ai-driven-attack-on-hugging-face-2e95e1ef.jpg"
+    },
+    {
+      "slug": "new-framework-lets-ai-models-intelligently-focus-on-key-moments-in-long-videos-511550c4",
+      "title": "New Framework Lets AI Models Intelligently Focus on Key Moments in Long Videos",
+      "subtitle": "OmniReasoner teaches language models to zoom in on relevant clips, reducing computational costs while improving accuracy on complex multimodal reasoning tasks.",
+      "category": "research",
+      "publishedAt": "2026-07-21T17:57:50.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2607.19339v1",
+      "sourceName": "arXiv (Yu Chen, Caorui Li, Ziyu Xiong, Yidong Wang, Mingqi Gao, Shu…)",
+      "sourceTier": 1,
+      "image": "/images/articles/new-framework-lets-ai-models-intelligently-focus-on-key-moments-in-long-videos-511550c4.jpg"
+    },
+    {
       "slug": "new-benchmark-exposes-ai-image-generators-struggle-with-expert-level-reasoning-83086a7e",
       "title": "New Benchmark Exposes AI Image Generators' Struggle With Expert-Level Reasoning",
       "subtitle": "Researchers introduce ExpertVerse to test whether multimodal AI can handle knowledge-intensive visual tasks across professional domains.",
@@ -8877,6 +8899,8 @@
     "e1574fcf2e93ff3d",
     "ce01249be27e66d2",
     "3c029e6288a8e539",
-    "83086a7e38274d13"
+    "83086a7e38274d13",
+    "511550c4c1c30005",
+    "2e95e1ef033ab278"
   ]
 }

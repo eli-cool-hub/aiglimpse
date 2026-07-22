@@ -7,6 +7,22 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>OpenAI's Lab Setup Flaw Enabled AI-Driven Attack on Hugging Face</title>
+      <link>https://aiglimpse.ai/articles/openais-lab-setup-flaw-enabled-ai-driven-attack-on-hugging-face-2e95e1ef</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/openais-lab-setup-flaw-enabled-ai-driven-attack-on-hugging-face-2e95e1ef</guid>
+      <description>A misconfigured testing environment at OpenAI created the vulnerability that allowed an AI-powered breach at the model-sharing platform.</description>
+      <pubDate>Wed, 22 Jul 2026 19:11:46 GMT</pubDate>
+      <category>AI Business</category>
+    </item>
+    <item>
+      <title>New Framework Lets AI Models Intelligently Focus on Key Moments in Long Videos</title>
+      <link>https://aiglimpse.ai/articles/new-framework-lets-ai-models-intelligently-focus-on-key-moments-in-long-videos-511550c4</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-framework-lets-ai-models-intelligently-focus-on-key-moments-in-long-videos-511550c4</guid>
+      <description>OmniReasoner teaches language models to zoom in on relevant clips, reducing computational costs while improving accuracy on complex multimodal reasoning tasks.</description>
+      <pubDate>Tue, 21 Jul 2026 17:57:50 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
       <title>New Benchmark Exposes AI Image Generators' Struggle With Expert-Level Reasoning</title>
       <link>https://aiglimpse.ai/articles/new-benchmark-exposes-ai-image-generators-struggle-with-expert-level-reasoning-83086a7e</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/new-benchmark-exposes-ai-image-generators-struggle-with-expert-level-reasoning-83086a7e</guid>
@@ -389,22 +405,6 @@
       <description>Washington's approval of G42's US reincorporation signals a strategic shift in AI chip export controls, potentially weakening efforts to contain advanced semiconductors from reaching China.</description>
       <pubDate>Sun, 19 Jul 2026 00:00:00 GMT</pubDate>
       <category>Ethics &amp; Policy</category>
-    </item>
-    <item>
-      <title>AI coding agents in 2026: What actually works in production</title>
-      <link>https://aiglimpse.ai/articles/ai-coding-agents-developer-guide-2026</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/ai-coding-agents-developer-guide-2026</guid>
-      <description>A technical breakdown of Copilot, Cursor, and competing tools for real codebases, with honest limits.</description>
-      <pubDate>Sun, 19 Jul 2026 07:55:54 GMT</pubDate>
-      <category>AI Tools &amp; Products</category>
-    </item>
-    <item>
-      <title>European AI Firms Deploy Facial Recognition in India Despite Home Ban</title>
-      <link>https://aiglimpse.ai/articles/european-ai-firms-deploy-facial-recognition-in-india-despite-home-ban-f5bd2e8e</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/european-ai-firms-deploy-facial-recognition-in-india-despite-home-ban-f5bd2e8e</guid>
-      <description>Spanish biometrics vendor Herta scales technology banned under EU law into markets lacking data protections, raising regulatory and reputational risks.</description>
-      <pubDate>Sun, 19 Jul 2026 00:00:00 GMT</pubDate>
-      <category>AI Business</category>
     </item>
   </channel>
 </rss>

@@ -3,7 +3,7 @@
 > Machine-readable index for AI assistants, answer engines, and research crawlers.
 > Summary version: https://aiglimpse.ai/llms.txt
 
-Total articles: 739 | Evergreen explainers: 16 | Generated: 2026-07-22
+Total articles: 741 | Evergreen explainers: 16 | Generated: 2026-07-22
 
 ## Evergreen explainers
 
@@ -120,6 +120,20 @@ Total articles: 739 | Evergreen explainers: 16 | Generated: 2026-07-22
 - Type: evergreen explainer (FAQ schema on page)
 
 ## All articles (newest first)
+
+### OpenAI's Lab Setup Flaw Enabled AI-Driven Attack on Hugging Face
+- URL: https://aiglimpse.ai/articles/openais-lab-setup-flaw-enabled-ai-driven-attack-on-hugging-face-2e95e1ef
+- Published: 2026-07-22
+- Category: business
+- Summary: A misconfigured testing environment at OpenAI created the vulnerability that allowed an AI-powered breach at the model-sharing platform.
+- Source: https://techcrunch.com/2026/07/22/how-an-openais-human-mistake-led-to-the-ai-powered-hack-on-hugging-face/
+
+### New Framework Lets AI Models Intelligently Focus on Key Moments in Long Videos
+- URL: https://aiglimpse.ai/articles/new-framework-lets-ai-models-intelligently-focus-on-key-moments-in-long-videos-511550c4
+- Published: 2026-07-21
+- Category: research
+- Summary: OmniReasoner teaches language models to zoom in on relevant clips, reducing computational costs while improving accuracy on complex multimodal reasoning tasks.
+- Source: http://arxiv.org/abs/2607.19339v1
 
 ### New Benchmark Exposes AI Image Generators' Struggle With Expert-Level Reasoning
 - URL: https://aiglimpse.ai/articles/new-benchmark-exposes-ai-image-generators-struggle-with-expert-level-reasoning-83086a7e
