@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "major-us-utilities-commit-to-shielding-consumers-from-ai-energy-costs-33a80902",
+      "title": "Major US Utilities Commit to Shielding Consumers From AI Energy Costs",
+      "subtitle": "Nearly 200 companies pledge to prevent artificial intelligence infrastructure from driving up electricity bills for everyday Americans.",
+      "category": "tools",
+      "publishedAt": "2026-07-22T10:12:13.000Z",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/969137/us-utility-ai-electricty-data-center-rate-pledge-trump",
+      "sourceName": "The Verge AI",
+      "sourceTier": 2,
+      "image": "/images/articles/major-us-utilities-commit-to-shielding-consumers-from-ai-energy-costs-33a80902.jpg"
+    },
+    {
+      "slug": "researchers-teach-ai-video-models-to-control-robots-via-visual-trajectories-958ca5d2",
+      "title": "Researchers Teach AI Video Models to Control Robots via Visual Trajectories",
+      "subtitle": "A new technique lets pre-trained video models serve as robot controllers by treating actions as masked motion patterns, enabling learning from minimal real-world data.",
+      "category": "research",
+      "publishedAt": "2026-07-21T17:59:11.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2607.19343v1",
+      "sourceName": "arXiv (Hadi Alzayer, Wenlong Huang, Haonan Chen, Christopher Luey, …)",
+      "sourceTier": 1,
+      "image": "/images/articles/researchers-teach-ai-video-models-to-control-robots-via-visual-trajectories-958ca5d2.jpg"
+    },
+    {
       "slug": "building-production-rag-pipeline",
       "title": "Building a Production RAG Pipeline: From Documents to Answers",
       "subtitle": "A technical guide to chunking, retrieval, re-ranking, and observability for RAG systems at scale",
@@ -8793,6 +8815,8 @@
     "f26f0779adb8ba8a",
     "b3f0c0dd66c888bf",
     "81f1fb4ff75857f1",
-    "316d180ee4dd4ecc"
+    "316d180ee4dd4ecc",
+    "958ca5d23bb2514f",
+    "33a80902da74ee63"
   ]
 }

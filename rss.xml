@@ -7,6 +7,30 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Major US Utilities Commit to Shielding Consumers From AI Energy Costs</title>
+      <link>https://aiglimpse.ai/articles/major-us-utilities-commit-to-shielding-consumers-from-ai-energy-costs-33a80902</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/major-us-utilities-commit-to-shielding-consumers-from-ai-energy-costs-33a80902</guid>
+      <description>Nearly 200 companies pledge to prevent artificial intelligence infrastructure from driving up electricity bills for everyday Americans.</description>
+      <pubDate>Wed, 22 Jul 2026 10:12:13 GMT</pubDate>
+      <category>AI Tools &amp; Products</category>
+    </item>
+    <item>
+      <title>Researchers Teach AI Video Models to Control Robots via Visual Trajectories</title>
+      <link>https://aiglimpse.ai/articles/researchers-teach-ai-video-models-to-control-robots-via-visual-trajectories-958ca5d2</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/researchers-teach-ai-video-models-to-control-robots-via-visual-trajectories-958ca5d2</guid>
+      <description>A new technique lets pre-trained video models serve as robot controllers by treating actions as masked motion patterns, enabling learning from minimal real-world data.</description>
+      <pubDate>Tue, 21 Jul 2026 17:59:11 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
+      <title>Building a Production RAG Pipeline: From Documents to Answers</title>
+      <link>https://aiglimpse.ai/articles/building-production-rag-pipeline</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/building-production-rag-pipeline</guid>
+      <description>A technical guide to chunking, retrieval, re-ranking, and observability for RAG systems at scale</description>
+      <pubDate>Wed, 22 Jul 2026 08:11:54 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
       <title>Acquisition Frenzy Fuels Speculation Over Anthropic-Physical Intelligence Deal</title>
       <link>https://aiglimpse.ai/articles/acquisition-frenzy-fuels-speculation-over-anthropic-physical-intelligence-deal-316d180e</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/acquisition-frenzy-fuels-speculation-over-anthropic-physical-intelligence-deal-316d180e</guid>
@@ -380,30 +404,6 @@
       <guid isPermaLink="true">https://aiglimpse.ai/articles/frontier-llms-face-off-on-complex-math-goal-framing-shows-promise-2c4c1508</guid>
       <description>New community testing reveals how prompt structure influences AI performance on computationally difficult problems.</description>
       <pubDate>Sat, 18 Jul 2026 11:00:29 GMT</pubDate>
-      <category>AI Tools &amp; Products</category>
-    </item>
-    <item>
-      <title>Developers Experiment with AI-Controlled Mac Systems for Automation</title>
-      <link>https://aiglimpse.ai/articles/developers-experiment-with-ai-controlled-mac-systems-for-automation-22a5d200</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/developers-experiment-with-ai-controlled-mac-systems-for-automation-22a5d200</guid>
-      <description>Community explores running Claude Code on dedicated hardware to automate desktop tasks, sparking discussion about AI agent capabilities.</description>
-      <pubDate>Sat, 18 Jul 2026 16:12:08 GMT</pubDate>
-      <category>AI Tools &amp; Products</category>
-    </item>
-    <item>
-      <title>Moonshot AI's Latest Kimi Release Sparks Debate Over Model Accessibility</title>
-      <link>https://aiglimpse.ai/articles/moonshot-ais-latest-kimi-release-sparks-debate-over-model-accessibility-502140f4</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/moonshot-ais-latest-kimi-release-sparks-debate-over-model-accessibility-502140f4</guid>
-      <description>Chinese AI firm's new version raises questions about open development practices and competitive positioning in the global AI landscape.</description>
-      <pubDate>Sat, 18 Jul 2026 18:51:07 GMT</pubDate>
-      <category>AI Business</category>
-    </item>
-    <item>
-      <title>OpenAI's GPT-5.6 Solves Long-Standing Math Problem via Strategic Prompting</title>
-      <link>https://aiglimpse.ai/articles/openais-gpt-56-solves-long-standing-math-problem-via-strategic-prompting-b31b287e</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/openais-gpt-56-solves-long-standing-math-problem-via-strategic-prompting-b31b287e</guid>
-      <description>The AI model bridges a three-decade gap in convex optimization research, signaling new possibilities for machine learning in theoretical mathematics.</description>
-      <pubDate>Sat, 18 Jul 2026 13:00:52 GMT</pubDate>
       <category>AI Tools &amp; Products</category>
     </item>
   </channel>

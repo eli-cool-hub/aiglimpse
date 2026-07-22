@@ -3,9 +3,16 @@
 > Machine-readable index for AI assistants, answer engines, and research crawlers.
 > Summary version: https://aiglimpse.ai/llms.txt
 
-Total articles: 731 | Evergreen explainers: 15 | Generated: 2026-07-22
+Total articles: 734 | Evergreen explainers: 16 | Generated: 2026-07-22
 
 ## Evergreen explainers
+
+### Building a Production RAG Pipeline: From Documents to Answers
+- URL: https://aiglimpse.ai/articles/building-production-rag-pipeline
+- Published: 2026-07-22
+- Category: research
+- Summary: A technical guide to chunking, retrieval, re-ranking, and observability for RAG systems at scale
+- Type: evergreen explainer (FAQ schema on page)
 
 ### AI coding agents in 2026: What actually works in production
 - URL: https://aiglimpse.ai/articles/ai-coding-agents-developer-guide-2026
@@ -113,6 +120,27 @@ Total articles: 731 | Evergreen explainers: 15 | Generated: 2026-07-22
 - Type: evergreen explainer (FAQ schema on page)
 
 ## All articles (newest first)
+
+### Major US Utilities Commit to Shielding Consumers From AI Energy Costs
+- URL: https://aiglimpse.ai/articles/major-us-utilities-commit-to-shielding-consumers-from-ai-energy-costs-33a80902
+- Published: 2026-07-22
+- Category: tools
+- Summary: Nearly 200 companies pledge to prevent artificial intelligence infrastructure from driving up electricity bills for everyday Americans.
+- Source: https://www.theverge.com/ai-artificial-intelligence/969137/us-utility-ai-electricty-data-center-rate-pledge-trump
+
+### Researchers Teach AI Video Models to Control Robots via Visual Trajectories
+- URL: https://aiglimpse.ai/articles/researchers-teach-ai-video-models-to-control-robots-via-visual-trajectories-958ca5d2
+- Published: 2026-07-21
+- Category: research
+- Summary: A new technique lets pre-trained video models serve as robot controllers by treating actions as masked motion patterns, enabling learning from minimal real-world data.
+- Source: http://arxiv.org/abs/2607.19343v1
+
+### Building a Production RAG Pipeline: From Documents to Answers
+- URL: https://aiglimpse.ai/articles/building-production-rag-pipeline
+- Published: 2026-07-22
+- Category: research
+- Summary: A technical guide to chunking, retrieval, re-ranking, and observability for RAG systems at scale
+- Type: evergreen explainer (FAQ schema on page)
 
 ### Acquisition Frenzy Fuels Speculation Over Anthropic-Physical Intelligence Deal
 - URL: https://aiglimpse.ai/articles/acquisition-frenzy-fuels-speculation-over-anthropic-physical-intelligence-deal-316d180e

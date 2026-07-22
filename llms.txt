@@ -20,6 +20,9 @@ All content is original reporting by the AI Glimpse newsroom. Primary sources ar
 
 ## Recent articles
 
+- [Major US Utilities Commit to Shielding Consumers From AI Energy Costs](https://aiglimpse.ai/articles/major-us-utilities-commit-to-shielding-consumers-from-ai-energy-costs-33a80902) (2026-07-22): Nearly 200 companies pledge to prevent artificial intelligence infrastructure from driving up electricity bills for everyday Americans.
+- [Researchers Teach AI Video Models to Control Robots via Visual Trajectories](https://aiglimpse.ai/articles/researchers-teach-ai-video-models-to-control-robots-via-visual-trajectories-958ca5d2) (2026-07-21): A new technique lets pre-trained video models serve as robot controllers by treating actions as masked motion patterns, enabling learning from minimal real-world data.
+- [Building a Production RAG Pipeline: From Documents to Answers](https://aiglimpse.ai/articles/building-production-rag-pipeline) (2026-07-22): A technical guide to chunking, retrieval, re-ranking, and observability for RAG systems at scale
 - [Acquisition Frenzy Fuels Speculation Over Anthropic-Physical Intelligence Deal](https://aiglimpse.ai/articles/acquisition-frenzy-fuels-speculation-over-anthropic-physical-intelligence-deal-316d180e) (2026-07-22): As major AI labs ramp up company purchases, unverified reports suggest Claude maker may pursue robotics startup.
 - [New AI Technique Gives Designers Precise Regional Control Over Image Generation](https://aiglimpse.ai/articles/new-ai-technique-gives-designers-precise-regional-control-over-image-generation-81f1fb4f) (2026-07-21): Researchers introduce a method that lets creative professionals direct where and how different elements appear in AI-generated images without retraining models.
 - [New Adapter Methods Boost Reasoning Accuracy in Language Models](https://aiglimpse.ai/articles/new-adapter-methods-boost-reasoning-accuracy-in-language-models-b3f0c0dd) (2026-07-21): Researchers introduce dynamic state-tracking techniques that improve multi-hop reasoning performance across major LLM architectures.
@@ -47,12 +50,10 @@ All content is original reporting by the AI Glimpse newsroom. Primary sources ar
 - [AI System Finds Potential Flaw in Long-Standing Math Problem](https://aiglimpse.ai/articles/ai-system-finds-potential-flaw-in-long-standing-math-problem-be169af9) (2026-07-20): Claude may have discovered a counterexample to the Jacobian Conjecture, a decades-old unsolved problem in algebraic geometry.
 - [OpenAI Reduces Codex Context Window, Triggering Cost Surprises](https://aiglimpse.ai/articles/openai-reduces-codex-context-window-triggering-cost-surprises-f197d88c) (2026-07-19): A significant shrinkage in processing capacity masks hidden pricing changes that could blindside developers relying on legacy configurations.
 - [Cryptography Expert Builds AI Tool to Automate Cipher Analysis](https://aiglimpse.ai/articles/cryptography-expert-builds-ai-tool-to-automate-cipher-analysis-8a0e1f84) (2026-07-20): Domain-specific AI agents are gaining traction as developers prioritize depth over breadth in autonomous coding systems.
-- [AI-Generated Music Breaks Through Creative Barriers in Producer's Latest EP](https://aiglimpse.ai/articles/ai-generated-music-breaks-through-creative-barriers-in-producers-latest-ep-9edda249) (2026-07-19): An artist's unapologetic embrace of Suno challenges preconceptions about machine-created audio quality and artistic legitimacy.
-- [Huang's Japan Push Signals Nvidia's Regional AI Expansion Strategy](https://aiglimpse.ai/articles/huangs-japan-push-signals-nvidias-regional-ai-expansion-strategy-4f1e8f4b) (2026-07-19): Nvidia's CEO secured multiple partnerships across Japan's tech sector, positioning the company to deepen its influence in a critical AI market.
-- [Apple's Legal Push Could Complicate OpenAI's Hardware and IPO Strategy](https://aiglimpse.ai/articles/apples-legal-push-could-complicate-openais-hardware-and-ipo-strategy-e2210db9) (2026-07-19): A major lawsuit from Apple raises questions about whether OpenAI can execute its ambitions to build devices and go public.
 
 ## Explainers (evergreen)
 
+- [Building a Production RAG Pipeline: From Documents to Answers](https://aiglimpse.ai/articles/building-production-rag-pipeline) (2026-07-22): A technical guide to chunking, retrieval, re-ranking, and observability for RAG systems at scale
 - [AI coding agents in 2026: What actually works in production](https://aiglimpse.ai/articles/ai-coding-agents-developer-guide-2026) (2026-07-19): A technical breakdown of Copilot, Cursor, and competing tools for real codebases, with honest limits.
 - [Embedding Models Compared: OpenAI, Cohere, Open Source 2026](https://aiglimpse.ai/articles/embedding-models-compared-2026) (2026-07-15): Choose the right text embeddings for semantic search and RAG with benchmark data, cost analysis, and latency trade-offs
 - [How to Reduce LLM Hallucinations: RAG, Grounding, and Evaluation](https://aiglimpse.ai/articles/how-to-reduce-llm-hallucinations) (2026-07-12): A production-focused guide to fixing made-up facts in customer-facing language models
@@ -73,7 +74,7 @@ All content is original reporting by the AI Glimpse newsroom. Primary sources ar
 
 - [Sitemap](https://aiglimpse.ai/sitemap.xml): All article URLs with publish dates (Google News format).
 - [RSS](https://aiglimpse.ai/rss.xml): 50 most recent articles (RSS 2.0).
-- [Full content index](https://aiglimpse.ai/llms-full.txt): Extended article list for LLM crawlers (731 articles).
+- [Full content index](https://aiglimpse.ai/llms-full.txt): Extended article list for LLM crawlers (734 articles).
 
 ## About
 
