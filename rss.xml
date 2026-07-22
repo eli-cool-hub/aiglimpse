@@ -7,6 +7,22 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>New Adapter Methods Boost Reasoning Accuracy in Language Models</title>
+      <link>https://aiglimpse.ai/articles/new-adapter-methods-boost-reasoning-accuracy-in-language-models-b3f0c0dd</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-adapter-methods-boost-reasoning-accuracy-in-language-models-b3f0c0dd</guid>
+      <description>Researchers introduce dynamic state-tracking techniques that improve multi-hop reasoning performance across major LLM architectures.</description>
+      <pubDate>Tue, 21 Jul 2026 17:47:57 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
+      <title>AI Models Waste Context by Copying Input, Researchers Find Fix</title>
+      <link>https://aiglimpse.ai/articles/ai-models-waste-context-by-copying-input-researchers-find-fix-f26f0779</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/ai-models-waste-context-by-copying-input-researchers-find-fix-f26f0779</guid>
+      <description>New training method teaches language models to focus on relevant evidence rather than mindlessly reproducing source material.</description>
+      <pubDate>Tue, 21 Jul 2026 17:59:21 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
       <title>Researchers Extend AI Causal Discovery to Handle Real-World Messy Data</title>
       <link>https://aiglimpse.ai/articles/researchers-extend-ai-causal-discovery-to-handle-real-world-messy-data-0388e280</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/researchers-extend-ai-causal-discovery-to-handle-real-world-messy-data-0388e280</guid>
@@ -389,22 +405,6 @@
       <description>Privacy vulnerabilities in period tracking software expose intimate health information to advertisers and data brokers, raising urgent questions about informed consent.</description>
       <pubDate>Sat, 18 Jul 2026 10:30:00 GMT</pubDate>
       <category>AI Tools &amp; Products</category>
-    </item>
-    <item>
-      <title>New Framework Tackles Landmark Bias in AI-Powered Location Detection</title>
-      <link>https://aiglimpse.ai/articles/new-framework-tackles-landmark-bias-in-ai-powered-location-detection-82e1751c</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-framework-tackles-landmark-bias-in-ai-powered-location-detection-82e1751c</guid>
-      <description>Researchers develop technique to prevent vision-language models from over-relying on iconic features when determining geographic coordinates.</description>
-      <pubDate>Thu, 16 Jul 2026 17:50:03 GMT</pubDate>
-      <category>AI Research</category>
-    </item>
-    <item>
-      <title>Researchers Use LLMs to Unlock Causal Insights From Traffic Video Data</title>
-      <link>https://aiglimpse.ai/articles/researchers-use-llms-to-unlock-causal-insights-from-traffic-video-data-16bee68a</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/researchers-use-llms-to-unlock-causal-insights-from-traffic-video-data-16bee68a</guid>
-      <description>New system bridges natural language and causal inference to help traffic agencies understand what actually causes congestion and accidents.</description>
-      <pubDate>Thu, 16 Jul 2026 17:49:28 GMT</pubDate>
-      <category>AI Research</category>
     </item>
   </channel>
 </rss>

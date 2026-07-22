@@ -3,7 +3,7 @@
 > Machine-readable index for AI assistants, answer engines, and research crawlers.
 > Summary version: https://aiglimpse.ai/llms.txt
 
-Total articles: 727 | Evergreen explainers: 15 | Generated: 2026-07-21
+Total articles: 729 | Evergreen explainers: 15 | Generated: 2026-07-22
 
 ## Evergreen explainers
 
@@ -113,6 +113,20 @@ Total articles: 727 | Evergreen explainers: 15 | Generated: 2026-07-21
 - Type: evergreen explainer (FAQ schema on page)
 
 ## All articles (newest first)
+
+### New Adapter Methods Boost Reasoning Accuracy in Language Models
+- URL: https://aiglimpse.ai/articles/new-adapter-methods-boost-reasoning-accuracy-in-language-models-b3f0c0dd
+- Published: 2026-07-21
+- Category: research
+- Summary: Researchers introduce dynamic state-tracking techniques that improve multi-hop reasoning performance across major LLM architectures.
+- Source: http://arxiv.org/abs/2607.19326v1
+
+### AI Models Waste Context by Copying Input, Researchers Find Fix
+- URL: https://aiglimpse.ai/articles/ai-models-waste-context-by-copying-input-researchers-find-fix-f26f0779
+- Published: 2026-07-21
+- Category: research
+- Summary: New training method teaches language models to focus on relevant evidence rather than mindlessly reproducing source material.
+- Source: http://arxiv.org/abs/2607.19345v1
 
 ### Researchers Extend AI Causal Discovery to Handle Real-World Messy Data
 - URL: https://aiglimpse.ai/articles/researchers-extend-ai-causal-discovery-to-handle-real-world-messy-data-0388e280
