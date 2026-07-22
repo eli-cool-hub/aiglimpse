@@ -9884,6 +9884,42 @@
         "devto": true,
         "hashnode": false
       }
+    },
+    "openai-launches-enterprise-platform-for-deploying-ai-voice-and-chat-agents-3c029e62": {
+      "syndicated_at": "2026-07-22T17:22:27.653Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/openai-launches-enterprise-platform-for-deploying-ai-voice-and-chat-agents-3aci",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 441,
+      "category": "llms",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
+    },
+    "new-benchmark-exposes-ai-image-generators-struggle-with-expert-level-reasoning-83086a7e": {
+      "syndicated_at": "2026-07-22T17:22:38.759Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/new-benchmark-exposes-ai-image-generators-struggle-with-expert-level-reasoning-3fc5",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 467,
+      "category": "research",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
     }
   }
 }

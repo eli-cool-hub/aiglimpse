@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "new-benchmark-exposes-ai-image-generators-struggle-with-expert-level-reasoning-83086a7e",
+      "title": "New Benchmark Exposes AI Image Generators' Struggle With Expert-Level Reasoning",
+      "subtitle": "Researchers introduce ExpertVerse to test whether multimodal AI can handle knowledge-intensive visual tasks across professional domains.",
+      "category": "research",
+      "publishedAt": "2026-07-21T17:59:02.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2607.19341v1",
+      "sourceName": "arXiv (Yuan Wang, Yongchao Du, Mengting Chen, Jinsong Lan, Xuetao F…)",
+      "sourceTier": 1,
+      "image": "/images/articles/new-benchmark-exposes-ai-image-generators-struggle-with-expert-level-reasoning-83086a7e.jpg"
+    },
+    {
+      "slug": "openai-launches-enterprise-platform-for-deploying-ai-voice-and-chat-agents-3c029e62",
+      "title": "OpenAI Launches Enterprise Platform for Deploying AI Voice and Chat Agents",
+      "subtitle": "New system targets organizations seeking to automate customer interactions and internal processes with conversational AI.",
+      "category": "llms",
+      "publishedAt": "2026-07-22T05:30:00.000Z",
+      "sourceUrl": "https://openai.com/index/introducing-openai-presence",
+      "sourceName": "OpenAI",
+      "sourceTier": 1,
+      "image": "/images/articles/openai-launches-enterprise-platform-for-deploying-ai-voice-and-chat-agents-3c029e62.jpg"
+    },
+    {
       "slug": "openai-partners-with-us-energy-department-on-ai-driven-science-ce01249b",
       "title": "OpenAI Partners With U.S. Energy Department on AI-Driven Science",
       "subtitle": "The AI company aims to leverage cutting-edge machine learning models to accelerate research discoveries across America's national laboratories.",
@@ -8853,6 +8875,8 @@
     "33a80902da74ee63",
     "debdba1a799e2761",
     "e1574fcf2e93ff3d",
-    "ce01249be27e66d2"
+    "ce01249be27e66d2",
+    "3c029e6288a8e539",
+    "83086a7e38274d13"
   ]
 }
