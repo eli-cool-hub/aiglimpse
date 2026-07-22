@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "googles-cloud-growth-fueled-by-enterprise-ai-adoption-0283c3ce",
+      "title": "Google's Cloud Growth Fueled by Enterprise AI Adoption",
+      "subtitle": "Record profits underscore how AI infrastructure investments are reshaping Google's business model and competitive positioning.",
+      "category": "business",
+      "publishedAt": "2026-07-22T22:01:52.000Z",
+      "sourceUrl": "https://techcrunch.com/2026/07/22/google-justifies-its-massive-ai-spending-with-a-booming-cloud-business/",
+      "sourceName": "TechCrunch AI",
+      "sourceTier": 2,
+      "image": "/images/articles/googles-cloud-growth-fueled-by-enterprise-ai-adoption-0283c3ce.jpg"
+    },
+    {
+      "slug": "new-framework-cuts-ai-coding-agent-costs-by-65-without-sacrificing-accuracy-078dc227",
+      "title": "New Framework Cuts AI Coding Agent Costs by 65% Without Sacrificing Accuracy",
+      "subtitle": "Researchers develop intelligent routing system that decides when AI models should recover from errors cheaply versus escalating to premium versions.",
+      "category": "research",
+      "publishedAt": "2026-07-21T17:56:49.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2607.19338v1",
+      "sourceName": "arXiv (Qijia He, Jiayi Cheng, Chenqian Le, Rui Wang, Xunmei Liu, Yi…)",
+      "sourceTier": 1,
+      "image": "/images/articles/new-framework-cuts-ai-coding-agent-costs-by-65-without-sacrificing-accuracy-078dc227.jpg"
+    },
+    {
       "slug": "news-outlets-leverage-ai-to-reshape-journalism-and-publishing-ec18bb52",
       "title": "News Outlets Leverage AI to Reshape Journalism and Publishing",
       "subtitle": "Major newsrooms are deploying AI tools to accelerate reporting, expand reader bases, and streamline operations in a competitive digital landscape.",
@@ -8913,6 +8935,8 @@
     "83086a7e38274d13",
     "511550c4c1c30005",
     "2e95e1ef033ab278",
-    "ec18bb52e2ce01ef"
+    "ec18bb52e2ce01ef",
+    "078dc227a52b4609",
+    "0283c3ce4b12419b"
   ]
 }
