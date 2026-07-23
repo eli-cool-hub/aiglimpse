@@ -3,7 +3,7 @@
 > Machine-readable index for AI assistants, answer engines, and research crawlers.
 > Summary version: https://aiglimpse.ai/llms.txt
 
-Total articles: 752 | Evergreen explainers: 16 | Generated: 2026-07-23
+Total articles: 754 | Evergreen explainers: 16 | Generated: 2026-07-23
 
 ## Evergreen explainers
 
@@ -120,6 +120,20 @@ Total articles: 752 | Evergreen explainers: 16 | Generated: 2026-07-23
 - Type: evergreen explainer (FAQ schema on page)
 
 ## All articles (newest first)
+
+### New Framework Makes Video AI Explain Its Reasoning Before Captioning
+- URL: https://aiglimpse.ai/articles/new-framework-makes-video-ai-explain-its-reasoning-before-captioning-8fca2ad2
+- Published: 2026-07-22
+- Category: research
+- Summary: Researchers introduce a two-stage training approach that forces multimodal models to show their work by identifying objects and events before generating descriptions.
+- Source: http://arxiv.org/abs/2607.20389v1
+
+### Researchers Bring VR-Controlled Humanoid Robots to Smaller Scale
+- URL: https://aiglimpse.ai/articles/researchers-bring-vr-controlled-humanoid-robots-to-smaller-scale-e8b99af5
+- Published: 2026-07-22
+- Category: research
+- Summary: New control system ports advanced teleoperation and AI learning techniques from expensive full-size robots to affordable miniature platforms.
+- Source: http://arxiv.org/abs/2607.20399v1
 
 ### New AI Architecture Merges Visual Perception With Logical Reasoning
 - URL: https://aiglimpse.ai/articles/new-ai-architecture-merges-visual-perception-with-logical-reasoning-bc72fa0d

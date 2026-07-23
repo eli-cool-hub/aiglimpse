@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "new-framework-makes-video-ai-explain-its-reasoning-before-captioning-8fca2ad2",
+      "title": "New Framework Makes Video AI Explain Its Reasoning Before Captioning",
+      "subtitle": "Researchers introduce a two-stage training approach that forces multimodal models to show their work by identifying objects and events before generating descriptions.",
+      "category": "research",
+      "publishedAt": "2026-07-22T17:17:33.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2607.20389v1",
+      "sourceName": "arXiv (Yifan Xu, Zihao Wang, Zhixiao Wang, Jiaming Zhang, Yichun Ya…)",
+      "sourceTier": 1,
+      "image": "/images/articles/new-framework-makes-video-ai-explain-its-reasoning-before-captioning-8fca2ad2.jpg"
+    },
+    {
+      "slug": "researchers-bring-vr-controlled-humanoid-robots-to-smaller-scale-e8b99af5",
+      "title": "Researchers Bring VR-Controlled Humanoid Robots to Smaller Scale",
+      "subtitle": "New control system ports advanced teleoperation and AI learning techniques from expensive full-size robots to affordable miniature platforms.",
+      "category": "research",
+      "publishedAt": "2026-07-22T17:35:43.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2607.20399v1",
+      "sourceName": "arXiv (Nicolas Kosanovic, Jordan Dowdy, Jean Chagas Vaz)",
+      "sourceTier": 1,
+      "image": "/images/articles/researchers-bring-vr-controlled-humanoid-robots-to-smaller-scale-e8b99af5.jpg"
+    },
+    {
       "slug": "new-ai-architecture-merges-visual-perception-with-logical-reasoning-bc72fa0d",
       "title": "New AI Architecture Merges Visual Perception With Logical Reasoning",
       "subtitle": "Researchers eliminate a fundamental bottleneck preventing neural networks from seamlessly combining image understanding with symbolic deduction.",
@@ -9033,6 +9055,8 @@
     "cbb6e2b275bdcc58",
     "a90543e4543ddb36",
     "c4e51ea473c2eb53",
-    "bc72fa0dace7944d"
+    "bc72fa0dace7944d",
+    "e8b99af5719a583c",
+    "8fca2ad2441134ce"
   ]
 }
