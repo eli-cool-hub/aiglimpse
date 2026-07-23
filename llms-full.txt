@@ -3,7 +3,7 @@
 > Machine-readable index for AI assistants, answer engines, and research crawlers.
 > Summary version: https://aiglimpse.ai/llms.txt
 
-Total articles: 744 | Evergreen explainers: 16 | Generated: 2026-07-23
+Total articles: 746 | Evergreen explainers: 16 | Generated: 2026-07-23
 
 ## Evergreen explainers
 
@@ -120,6 +120,20 @@ Total articles: 744 | Evergreen explainers: 16 | Generated: 2026-07-23
 - Type: evergreen explainer (FAQ schema on page)
 
 ## All articles (newest first)
+
+### New AI Method Shrinks 3D Scene Rendering Models by 5.7x
+- URL: https://aiglimpse.ai/articles/new-ai-method-shrinks-3d-scene-rendering-models-by-57x-3988f814
+- Published: 2026-07-22
+- Category: research
+- Summary: Researchers introduce adaptive token approach that maintains visual quality while dramatically reducing computational requirements for real-time 3D synthesis.
+- Source: http://arxiv.org/abs/2607.20417v1
+
+### Hugging Face Optimizes Image Diffusion Models for Edge Hardware
+- URL: https://aiglimpse.ai/articles/hugging-face-optimizes-image-diffusion-models-for-edge-hardware-0cb6c526
+- Published: 2026-07-23
+- Category: tools
+- Summary: New quantization technique slashes memory requirements for running AI image generators on resource-constrained devices.
+- Source: https://huggingface.co/blog/nunchaku-diffusers
 
 ### Google's Cloud Growth Fueled by Enterprise AI Adoption
 - URL: https://aiglimpse.ai/articles/googles-cloud-growth-fueled-by-enterprise-ai-adoption-0283c3ce

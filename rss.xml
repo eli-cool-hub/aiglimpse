@@ -7,6 +7,22 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>New AI Method Shrinks 3D Scene Rendering Models by 5.7x</title>
+      <link>https://aiglimpse.ai/articles/new-ai-method-shrinks-3d-scene-rendering-models-by-57x-3988f814</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-ai-method-shrinks-3d-scene-rendering-models-by-57x-3988f814</guid>
+      <description>Researchers introduce adaptive token approach that maintains visual quality while dramatically reducing computational requirements for real-time 3D synthesis.</description>
+      <pubDate>Wed, 22 Jul 2026 17:54:44 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
+      <title>Hugging Face Optimizes Image Diffusion Models for Edge Hardware</title>
+      <link>https://aiglimpse.ai/articles/hugging-face-optimizes-image-diffusion-models-for-edge-hardware-0cb6c526</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/hugging-face-optimizes-image-diffusion-models-for-edge-hardware-0cb6c526</guid>
+      <description>New quantization technique slashes memory requirements for running AI image generators on resource-constrained devices.</description>
+      <pubDate>Thu, 23 Jul 2026 00:00:00 GMT</pubDate>
+      <category>AI Tools &amp; Products</category>
+    </item>
+    <item>
       <title>Google's Cloud Growth Fueled by Enterprise AI Adoption</title>
       <link>https://aiglimpse.ai/articles/googles-cloud-growth-fueled-by-enterprise-ai-adoption-0283c3ce</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/googles-cloud-growth-fueled-by-enterprise-ai-adoption-0283c3ce</guid>
@@ -389,22 +405,6 @@
       <description>Acclaimed filmmaker compares artificial intelligence to a deceptive infiltration strategy, raising concerns about unexamined risks.</description>
       <pubDate>Sun, 19 Jul 2026 14:52:08 GMT</pubDate>
       <category>AI Business</category>
-    </item>
-    <item>
-      <title>Unconventional Developer Pursues $10B California AI Data Center</title>
-      <link>https://aiglimpse.ai/articles/unconventional-developer-pursues-10b-california-ai-data-center-593804ad</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/unconventional-developer-pursues-10b-california-ai-data-center-593804ad</guid>
-      <description>A solo entrepreneur's ambitious Imperial Valley project tests whether independent operators can build hyperscale AI infrastructure without major tech anchor tenants.</description>
-      <pubDate>Sun, 19 Jul 2026 00:00:00 GMT</pubDate>
-      <category>Industry Applications</category>
-    </item>
-    <item>
-      <title>OpenAI Cuts Codex Context Window by 27 Percent in Quiet Update</title>
-      <link>https://aiglimpse.ai/articles/openai-cuts-codex-context-window-by-27-percent-in-quiet-update-23a69389</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/openai-cuts-codex-context-window-by-27-percent-in-quiet-update-23a69389</guid>
-      <description>The reduction signals potential performance optimization or resource constraints in OpenAI's code generation model.</description>
-      <pubDate>Sun, 19 Jul 2026 07:54:39 GMT</pubDate>
-      <category>AI Tools &amp; Products</category>
     </item>
   </channel>
 </rss>

@@ -9974,6 +9974,42 @@
         "devto": true,
         "hashnode": false
       }
+    },
+    "hugging-face-optimizes-image-diffusion-models-for-edge-hardware-0cb6c526": {
+      "syndicated_at": "2026-07-23T10:25:07.123Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/hugging-face-optimizes-image-diffusion-models-for-edge-hardware-d5j",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 459,
+      "category": "tools",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
+    },
+    "new-ai-method-shrinks-3d-scene-rendering-models-by-57x-3988f814": {
+      "syndicated_at": "2026-07-23T10:25:17.451Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/new-ai-method-shrinks-3d-scene-rendering-models-by-57x-2e8c",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 459,
+      "category": "research",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
     }
   }
 }
