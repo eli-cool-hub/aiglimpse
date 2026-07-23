@@ -3,7 +3,7 @@
 > Machine-readable index for AI assistants, answer engines, and research crawlers.
 > Summary version: https://aiglimpse.ai/llms.txt
 
-Total articles: 748 | Evergreen explainers: 16 | Generated: 2026-07-23
+Total articles: 750 | Evergreen explainers: 16 | Generated: 2026-07-23
 
 ## Evergreen explainers
 
@@ -120,6 +120,20 @@ Total articles: 748 | Evergreen explainers: 16 | Generated: 2026-07-23
 - Type: evergreen explainer (FAQ schema on page)
 
 ## All articles (newest first)
+
+### New Mathematical Framework Strengthens Reliability of AI Optimization
+- URL: https://aiglimpse.ai/articles/new-mathematical-framework-strengthens-reliability-of-ai-optimization-a90543e4
+- Published: 2026-07-22
+- Category: research
+- Summary: Researchers prove convergence guarantees for machine learning functions, resolving critical gaps in how AI systems learn from data.
+- Source: http://arxiv.org/abs/2607.20411v1
+
+### OpenAI Integrates Medical Records Into ChatGPT for Personalized Health Insights
+- URL: https://aiglimpse.ai/articles/openai-integrates-medical-records-into-chatgpt-for-personalized-health-insights-cbb6e2b2
+- Published: 2026-07-23
+- Category: llms
+- Summary: The AI chatbot can now access patient data and wearable health metrics to deliver contextual medical guidance, marking a significant expansion into healthcare applications.
+- Source: https://openai.com/index/health-in-chatgpt
 
 ### OpenAI, Anthropic Push Back Against Open-Source AI Models
 - URL: https://aiglimpse.ai/articles/openai-anthropic-push-back-against-open-source-ai-models-06357a27

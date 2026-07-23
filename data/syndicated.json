@@ -10046,6 +10046,42 @@
         "devto": true,
         "hashnode": false
       }
+    },
+    "openai-integrates-medical-records-into-chatgpt-for-personalized-health-insights-cbb6e2b2": {
+      "syndicated_at": "2026-07-23T17:24:32.658Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/openai-integrates-medical-records-into-chatgpt-for-personalized-health-insights-jd9",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 458,
+      "category": "llms",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
+    },
+    "new-mathematical-framework-strengthens-reliability-of-ai-optimization-a90543e4": {
+      "syndicated_at": "2026-07-23T17:24:43.715Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/new-mathematical-framework-strengthens-reliability-of-ai-optimization-879",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 474,
+      "category": "research",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
     }
   }
 }

@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "new-mathematical-framework-strengthens-reliability-of-ai-optimization-a90543e4",
+      "title": "New Mathematical Framework Strengthens Reliability of AI Optimization",
+      "subtitle": "Researchers prove convergence guarantees for machine learning functions, resolving critical gaps in how AI systems learn from data.",
+      "category": "research",
+      "publishedAt": "2026-07-22T17:50:53.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2607.20411v1",
+      "sourceName": "arXiv (Lai Tian, Johannes O. Royset)",
+      "sourceTier": 1,
+      "image": "/images/articles/new-mathematical-framework-strengthens-reliability-of-ai-optimization-a90543e4.jpg"
+    },
+    {
+      "slug": "openai-integrates-medical-records-into-chatgpt-for-personalized-health-insights-cbb6e2b2",
+      "title": "OpenAI Integrates Medical Records Into ChatGPT for Personalized Health Insights",
+      "subtitle": "The AI chatbot can now access patient data and wearable health metrics to deliver contextual medical guidance, marking a significant expansion into healthcare applications.",
+      "category": "llms",
+      "publishedAt": "2026-07-23T00:00:00.000Z",
+      "sourceUrl": "https://openai.com/index/health-in-chatgpt",
+      "sourceName": "OpenAI",
+      "sourceTier": 1,
+      "image": "/images/articles/openai-integrates-medical-records-into-chatgpt-for-personalized-health-insights-cbb6e2b2.jpg"
+    },
+    {
       "slug": "openai-anthropic-push-back-against-open-source-ai-models-06357a27",
       "title": "OpenAI, Anthropic Push Back Against Open-Source AI Models",
       "subtitle": "The two leading AI labs are coordinating efforts to highlight risks from freely distributed model weights, raising questions about competitive motives.",
@@ -8985,6 +9007,8 @@
     "0cb6c5266c1e6d50",
     "3988f814275d20d1",
     "59b3310e4b1a6a05",
-    "06357a27fa4bf267"
+    "06357a27fa4bf267",
+    "cbb6e2b275bdcc58",
+    "a90543e4543ddb36"
   ]
 }

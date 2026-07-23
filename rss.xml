@@ -7,6 +7,22 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>New Mathematical Framework Strengthens Reliability of AI Optimization</title>
+      <link>https://aiglimpse.ai/articles/new-mathematical-framework-strengthens-reliability-of-ai-optimization-a90543e4</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-mathematical-framework-strengthens-reliability-of-ai-optimization-a90543e4</guid>
+      <description>Researchers prove convergence guarantees for machine learning functions, resolving critical gaps in how AI systems learn from data.</description>
+      <pubDate>Wed, 22 Jul 2026 17:50:53 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
+      <title>OpenAI Integrates Medical Records Into ChatGPT for Personalized Health Insights</title>
+      <link>https://aiglimpse.ai/articles/openai-integrates-medical-records-into-chatgpt-for-personalized-health-insights-cbb6e2b2</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/openai-integrates-medical-records-into-chatgpt-for-personalized-health-insights-cbb6e2b2</guid>
+      <description>The AI chatbot can now access patient data and wearable health metrics to deliver contextual medical guidance, marking a significant expansion into healthcare applications.</description>
+      <pubDate>Thu, 23 Jul 2026 00:00:00 GMT</pubDate>
+      <category>LLMs &amp; Chatbots</category>
+    </item>
+    <item>
       <title>OpenAI, Anthropic Push Back Against Open-Source AI Models</title>
       <link>https://aiglimpse.ai/articles/openai-anthropic-push-back-against-open-source-ai-models-06357a27</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/openai-anthropic-push-back-against-open-source-ai-models-06357a27</guid>
@@ -388,22 +404,6 @@
       <guid isPermaLink="true">https://aiglimpse.ai/articles/apples-genius-bar-ai-transcription-could-set-industry-compliance-standard-e6244c7b</guid>
       <description>A cautious pilot program using on-device transcription may reshape how retailers and vendors approach customer-facing AI.</description>
       <pubDate>Sun, 19 Jul 2026 00:00:00 GMT</pubDate>
-      <category>AI Business</category>
-    </item>
-    <item>
-      <title>ACM Opens Digital Library to AI Training, Shifts Control to Authors</title>
-      <link>https://aiglimpse.ai/articles/acm-opens-digital-library-to-ai-training-shifts-control-to-authors-4b34ee02</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/acm-opens-digital-library-to-ai-training-shifts-control-to-authors-4b34ee02</guid>
-      <description>The scholarly publishing giant's licensing deal for language models hinges on individual researcher choices, not institutional agreements.</description>
-      <pubDate>Sun, 19 Jul 2026 00:00:00 GMT</pubDate>
-      <category>AI Business</category>
-    </item>
-    <item>
-      <title>Nonprofit Current AI Pursues Inclusive AI Infrastructure Model</title>
-      <link>https://aiglimpse.ai/articles/nonprofit-current-ai-pursues-inclusive-ai-infrastructure-model-558fa2f1</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/nonprofit-current-ai-pursues-inclusive-ai-infrastructure-model-558fa2f1</guid>
-      <description>A nonprofit organization is developing open-source AI tools designed to serve diverse global communities and reduce barriers to artificial intelligence adoption.</description>
-      <pubDate>Sun, 19 Jul 2026 14:00:00 GMT</pubDate>
       <category>AI Business</category>
     </item>
   </channel>
