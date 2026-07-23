@@ -10010,6 +10010,42 @@
         "devto": true,
         "hashnode": false
       }
+    },
+    "ntt-data-slashes-incident-response-time-to-30-minutes-using-ai-59b3310e": {
+      "syndicated_at": "2026-07-23T14:05:15.479Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/ntt-data-slashes-incident-response-time-to-30-minutes-using-ai-m0n",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 490,
+      "category": "llms",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
+    },
+    "openai-anthropic-push-back-against-open-source-ai-models-06357a27": {
+      "syndicated_at": "2026-07-23T14:05:26.665Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/openai-anthropic-push-back-against-open-source-ai-models-1pml",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 483,
+      "category": "tools",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
     }
   }
 }

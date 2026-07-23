@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "openai-anthropic-push-back-against-open-source-ai-models-06357a27",
+      "title": "OpenAI, Anthropic Push Back Against Open-Source AI Models",
+      "subtitle": "The two leading AI labs are coordinating efforts to highlight risks from freely distributed model weights, raising questions about competitive motives.",
+      "category": "tools",
+      "publishedAt": "2026-07-23T13:00:03.000Z",
+      "sourceUrl": "https://www.axios.com/2026/07/22/openai-anthropic-open-models-trump-china",
+      "sourceName": "Hacker News (123 pts)",
+      "sourceTier": 2,
+      "image": "/images/articles/openai-anthropic-push-back-against-open-source-ai-models-06357a27.jpg"
+    },
+    {
+      "slug": "ntt-data-slashes-incident-response-time-to-30-minutes-using-ai-59b3310e",
+      "title": "NTT DATA Slashes Incident Response Time to 30 Minutes Using AI",
+      "subtitle": "The Japanese IT giant demonstrates how enterprise AI platforms can dramatically accelerate operational workflows across thousands of workers.",
+      "category": "llms",
+      "publishedAt": "2026-07-22T00:00:00.000Z",
+      "sourceUrl": "https://openai.com/index/ntt-data",
+      "sourceName": "OpenAI",
+      "sourceTier": 1,
+      "image": "/images/articles/ntt-data-slashes-incident-response-time-to-30-minutes-using-ai-59b3310e.jpg"
+    },
+    {
       "slug": "new-ai-method-shrinks-3d-scene-rendering-models-by-57x-3988f814",
       "title": "New AI Method Shrinks 3D Scene Rendering Models by 5.7x",
       "subtitle": "Researchers introduce adaptive token approach that maintains visual quality while dramatically reducing computational requirements for real-time 3D synthesis.",
@@ -8961,6 +8983,8 @@
     "078dc227a52b4609",
     "0283c3ce4b12419b",
     "0cb6c5266c1e6d50",
-    "3988f814275d20d1"
+    "3988f814275d20d1",
+    "59b3310e4b1a6a05",
+    "06357a27fa4bf267"
   ]
 }
