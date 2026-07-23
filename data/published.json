@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "study-shows-llms-can-learn-from-past-mistakes-like-humans-do-f76ef943",
+      "title": "Study Shows LLMs Can Learn From Past Mistakes Like Humans Do",
+      "subtitle": "Researchers find that large language models improve problem-solving by extracting and reusing lessons from their own solution attempts.",
+      "category": "research",
+      "publishedAt": "2026-07-22T17:02:34.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2607.20372v1",
+      "sourceName": "arXiv (Chang Liu, Xinyu Li, Artur Dubrawski)",
+      "sourceTier": 1,
+      "image": "/images/articles/study-shows-llms-can-learn-from-past-mistakes-like-humans-do-f76ef943.jpg"
+    },
+    {
+      "slug": "new-synthetic-dataset-advances-persian-language-ocr-technology-1a8d6cbe",
+      "title": "New Synthetic Dataset Advances Persian Language OCR Technology",
+      "subtitle": "Researchers release 343,000 annotated text images to accelerate document digitization for 110 million Persian speakers.",
+      "category": "research",
+      "publishedAt": "2026-07-22T17:13:25.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2607.20385v1",
+      "sourceName": "arXiv (Pouria Mahdi, Haq Nawaz Malik)",
+      "sourceTier": 1,
+      "image": "/images/articles/new-synthetic-dataset-advances-persian-language-ocr-technology-1a8d6cbe.jpg"
+    },
+    {
       "slug": "new-framework-makes-video-ai-explain-its-reasoning-before-captioning-8fca2ad2",
       "title": "New Framework Makes Video AI Explain Its Reasoning Before Captioning",
       "subtitle": "Researchers introduce a two-stage training approach that forces multimodal models to show their work by identifying objects and events before generating descriptions.",
@@ -9057,6 +9079,8 @@
     "c4e51ea473c2eb53",
     "bc72fa0dace7944d",
     "e8b99af5719a583c",
-    "8fca2ad2441134ce"
+    "8fca2ad2441134ce",
+    "1a8d6cbe7e30ca44",
+    "f76ef943661c5300"
   ]
 }

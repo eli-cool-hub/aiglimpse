@@ -7,6 +7,22 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Study Shows LLMs Can Learn From Past Mistakes Like Humans Do</title>
+      <link>https://aiglimpse.ai/articles/study-shows-llms-can-learn-from-past-mistakes-like-humans-do-f76ef943</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/study-shows-llms-can-learn-from-past-mistakes-like-humans-do-f76ef943</guid>
+      <description>Researchers find that large language models improve problem-solving by extracting and reusing lessons from their own solution attempts.</description>
+      <pubDate>Wed, 22 Jul 2026 17:02:34 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
+      <title>New Synthetic Dataset Advances Persian Language OCR Technology</title>
+      <link>https://aiglimpse.ai/articles/new-synthetic-dataset-advances-persian-language-ocr-technology-1a8d6cbe</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-synthetic-dataset-advances-persian-language-ocr-technology-1a8d6cbe</guid>
+      <description>Researchers release 343,000 annotated text images to accelerate document digitization for 110 million Persian speakers.</description>
+      <pubDate>Wed, 22 Jul 2026 17:13:25 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
       <title>New Framework Makes Video AI Explain Its Reasoning Before Captioning</title>
       <link>https://aiglimpse.ai/articles/new-framework-makes-video-ai-explain-its-reasoning-before-captioning-8fca2ad2</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/new-framework-makes-video-ai-explain-its-reasoning-before-captioning-8fca2ad2</guid>
@@ -389,22 +405,6 @@
       <description>Claude may have discovered a counterexample to the Jacobian Conjecture, a decades-old unsolved problem in algebraic geometry.</description>
       <pubDate>Mon, 20 Jul 2026 02:51:16 GMT</pubDate>
       <category>AI Tools &amp; Products</category>
-    </item>
-    <item>
-      <title>OpenAI Reduces Codex Context Window, Triggering Cost Surprises</title>
-      <link>https://aiglimpse.ai/articles/openai-reduces-codex-context-window-triggering-cost-surprises-f197d88c</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/openai-reduces-codex-context-window-triggering-cost-surprises-f197d88c</guid>
-      <description>A significant shrinkage in processing capacity masks hidden pricing changes that could blindside developers relying on legacy configurations.</description>
-      <pubDate>Sun, 19 Jul 2026 00:00:00 GMT</pubDate>
-      <category>LLMs &amp; Chatbots</category>
-    </item>
-    <item>
-      <title>Cryptography Expert Builds AI Tool to Automate Cipher Analysis</title>
-      <link>https://aiglimpse.ai/articles/cryptography-expert-builds-ai-tool-to-automate-cipher-analysis-8a0e1f84</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/cryptography-expert-builds-ai-tool-to-automate-cipher-analysis-8a0e1f84</guid>
-      <description>Domain-specific AI agents are gaining traction as developers prioritize depth over breadth in autonomous coding systems.</description>
-      <pubDate>Mon, 20 Jul 2026 00:00:00 GMT</pubDate>
-      <category>AI Business</category>
     </item>
   </channel>
 </rss>
