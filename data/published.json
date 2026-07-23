@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "new-ai-architecture-merges-visual-perception-with-logical-reasoning-bc72fa0d",
+      "title": "New AI Architecture Merges Visual Perception With Logical Reasoning",
+      "subtitle": "Researchers eliminate a fundamental bottleneck preventing neural networks from seamlessly combining image understanding with symbolic deduction.",
+      "category": "research",
+      "publishedAt": "2026-07-22T17:38:39.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2607.20402v1",
+      "sourceName": "arXiv (Wael AbdAlmageed)",
+      "sourceTier": 1,
+      "image": "/images/articles/new-ai-architecture-merges-visual-perception-with-logical-reasoning-bc72fa0d.jpg"
+    },
+    {
+      "slug": "researchers-build-first-sri-lankan-value-aligned-language-model-c4e51ea4",
+      "title": "Researchers Build First Sri Lankan Value-Aligned Language Model",
+      "subtitle": "New dataset and benchmark address how AI systems perpetuate Western cultural biases in non-English speaking regions.",
+      "category": "research",
+      "publishedAt": "2026-07-22T17:49:37.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2607.20410v1",
+      "sourceName": "arXiv (Nethmi Muthugala, Supryadi, Surangika Ranathunga, Nisansa de…)",
+      "sourceTier": 1,
+      "image": "/images/articles/researchers-build-first-sri-lankan-value-aligned-language-model-c4e51ea4.jpg"
+    },
+    {
       "slug": "new-mathematical-framework-strengthens-reliability-of-ai-optimization-a90543e4",
       "title": "New Mathematical Framework Strengthens Reliability of AI Optimization",
       "subtitle": "Researchers prove convergence guarantees for machine learning functions, resolving critical gaps in how AI systems learn from data.",
@@ -9009,6 +9031,8 @@
     "59b3310e4b1a6a05",
     "06357a27fa4bf267",
     "cbb6e2b275bdcc58",
-    "a90543e4543ddb36"
+    "a90543e4543ddb36",
+    "c4e51ea473c2eb53",
+    "bc72fa0dace7944d"
   ]
 }
