@@ -15,10 +15,6 @@ const ROOT = path.resolve(process.cwd());
 // Each entry: { marker: substring uniquely identifying the snippet, snippet: HTML to insert }
 const SNIPPETS = [
   {
-    marker: 'adsbygoogle.js',
-    snippet: '<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4263484717830850" crossorigin="anonymous"></script>'
-  },
-  {
     marker: 'google-site-verification',
     snippet: '<meta name="google-site-verification" content="B132aMlqf1nssWYhjOSKUgSjmfwNWgPgtozZsHDxWlU" />'
   },
@@ -27,17 +23,12 @@ const SNIPPETS = [
     snippet: '<meta name="msvalidate.01" content="F3762E555B3E685836AE39C90B79ECBF" />'
   },
   {
-    // Inline gtag('consent','default') so all AdSense + Analytics storage is
-    // denied until the visitor accepts via the banner. Required for AdSense
-    // EEA/UK consent rules and GDPR. Must run before AdSense fires its first
-    // ad request, putting it inline in <head> guarantees that.
+    // Inline gtag('consent','default') so analytics storage is denied until
+    // the visitor accepts via the banner. Must run before GA4.
     marker: 'aiglimpse-consent-default v1',
-    snippet: `<!-- aiglimpse-consent-default v1: must run before AdSense, defaults all ad/analytics storage to denied -->\n  <script>(function(){window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}window.gtag=gtag;gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'denied',functionality_storage:'granted',security_storage:'granted',wait_for_update:500});try{var s=JSON.parse(localStorage.getItem('aiglimpse-consent')||'null');if(s&&s.choice==='granted'){gtag('consent','update',{ad_storage:'granted',ad_user_data:'granted',ad_personalization:'granted',analytics_storage:'granted'});}}catch(e){}})();</script>`
+    snippet: `<!-- aiglimpse-consent-default v1: defaults analytics storage to denied until consent -->\n  <script>(function(){window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}window.gtag=gtag;gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'denied',functionality_storage:'granted',security_storage:'granted',wait_for_update:500});try{var s=JSON.parse(localStorage.getItem('aiglimpse-consent')||'null');if(s&&s.choice==='granted'){gtag('consent','update',{ad_storage:'granted',ad_user_data:'granted',ad_personalization:'granted',analytics_storage:'granted'});}}catch(e){}})();</script>`
   },
   {
-    // GA4 tag. The consent-default snippet above defines window.gtag and sets
-    // all ad/analytics storage to denied, so this is safe to load before the
-    // visitor accepts. Once they accept via the banner, gtag flushes the queue.
     marker: 'aiglimpse-ga4 v1',
     snippet: `<!-- aiglimpse-ga4 v1: gtag.js loaded after consent default, so it buffers events until consent is granted -->\n  <script async src="https://www.googletagmanager.com/gtag/js?id=G-EVZ52DNQ8S"></script>\n  <script>gtag('js', new Date()); gtag('config', 'G-EVZ52DNQ8S', { anonymize_ip: true });</script>`
   }

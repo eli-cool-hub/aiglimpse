@@ -78,7 +78,7 @@ function buildEmailHtml(articles, dateLabel) {
         <tr><td style="padding:0 28px 8px 28px;"><table role="presentation" width="100%">${items}</table></td></tr>
         <tr><td style="padding:8px 28px 28px 28px;border-top:1px solid #ececea;">
           <p style="margin:16px 0 0 0;font-size:13px;color:#888;line-height:1.5;">
-            <a href="${SITE}/guides.html" style="color:#888;">Browse explainers</a> ·
+            <a href="${SITE}/guides" style="color:#888;">Browse explainers</a> ·
             <a href="${SITE}/" style="color:#888;">Visit site</a>
           </p>
           <p style="margin:12px 0 0 0;font-size:12px;color:#aaa;">You're receiving AI Glimpse Daily because you subscribed at aiglimpse.ai. Unsubscribe links are included in each Resend broadcast.</p>

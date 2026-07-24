@@ -50,23 +50,23 @@ export async function buildGuidesPage() {
   <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>AI Explainers & Guides | AI Glimpse</title>
   <meta name="description" content="Long-form evergreen guides on RAG, AI agents, LLMs, security, and production AI. Updated weekly.">
-  <link rel="canonical" href="${SITE}/guides.html">
+  <link rel="canonical" href="${SITE}/guides">
   <meta property="og:title" content="AI Explainers & Guides | AI Glimpse">
   <meta property="og:description" content="Long-form evergreen guides on RAG, AI agents, LLMs, and production AI.">
-  <meta property="og:url" content="${SITE}/guides.html">
+  <meta property="og:url" content="${SITE}/guides">
   ${FONT_LINKS}
   <link rel="stylesheet" href="/css/main.css">
   <script type="application/ld+json">${JSON.stringify({
     '@context': 'https://schema.org',
     '@type': 'CollectionPage',
     name: 'AI Explainers & Guides',
-    url: `${SITE}/guides.html`,
+    url: `${SITE}/guides`,
     isPartOf: { '@type': 'WebSite', name: 'AI Glimpse', url: `${SITE}/` }
   })}</script>
   <meta name="google-site-verification" content="B132aMlqf1nssWYhjOSKUgSjmfwNWgPgtozZsHDxWlU" />
 </head>
 <body>
-  ${headerHtml('/guides.html')}
+  ${headerHtml('/guides')}
   <main>
     <section class="section">
       <div class="container">

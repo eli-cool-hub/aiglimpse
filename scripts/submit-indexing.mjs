@@ -58,8 +58,26 @@ function summarizeCoverage(state = '') {
 }
 
 const published = JSON.parse(await fs.readFile(path.join(process.cwd(), 'data', 'published.json'), 'utf8'));
-const urls = await regenerateSitemap(published, SITE_URL);
+let urls = await regenerateSitemap(published, SITE_URL);
 console.log(`Sitemap refreshed with ${urls.length} URLs`);
+
+// Triage: inspect hub pages and evergreen guides before the long tail of news
+// so GSC quota / IndexNow attention goes to pages that can actually rank.
+const evergreenSlugs = new Set((published.articles || []).filter(a => a.evergreen).map(a => a.slug));
+const base = SITE_URL.replace(/\/$/, '');
+function urlPriority(u) {
+  if (u === `${base}/` || u === base || u === `${base}`) return 0;
+  if (/\/categories\/[^/]+$/.test(u)) return 1;
+  if (u.includes('/guides')) return 2;
+  if (u.includes('/pages/')) return 3;
+  const m = u.match(/\/articles\/([^/?#]+)/);
+  if (m && evergreenSlugs.has(m[1])) return 4;
+  return 10;
+}
+urls = [...urls].sort((a, b) => urlPriority(a) - urlPriority(b));
+const priorityPing = urls.filter(u => urlPriority(u) <= 4).concat(
+  urls.filter(u => urlPriority(u) > 4).slice(0, 50)
+);
 
 const sitemapPath = encodeURIComponent(`${SITE_URL}sitemap.xml`);
 const siteEnc = encodeURIComponent(SITE_URL);
@@ -71,11 +89,11 @@ console.log(submit.ok
   ? `✓ GSC sitemap submit: ${SITE_URL}sitemap.xml`
   : `⚠ GSC sitemap submit HTTP ${submit.status}: ${JSON.stringify(submit.body).slice(0, 200)}`);
 
-const indexNow = await pingIndexNow(urls, SITE_URL);
+const indexNow = await pingIndexNow(priorityPing, SITE_URL);
 console.log(indexNow.skipped
   ? '↪ IndexNow skipped (no INDEXNOW_KEY)'
   : indexNow.ok
-    ? `✓ IndexNow pinged ${indexNow.count} URLs`
+    ? `✓ IndexNow pinged ${indexNow.count} priority URLs (hubs + evergreen + recent)`
     : `⚠ IndexNow HTTP ${indexNow.status}: ${indexNow.body}`);
 
 async function inspectOne(url) {
@@ -159,7 +177,8 @@ await fs.writeFile(
 await fs.writeFile(path.join(process.cwd(), 'data', 'indexing-status.json'), JSON.stringify({
   updated_at: report.generated_at,
   summary: report.summary,
-  url_count: report.url_count
+  url_count: report.url_count,
+  index_pct: Math.round((indexed / Math.max(1, report.url_count)) * 100)
 }, null, 2));
 
 console.log('\nIndexing summary');

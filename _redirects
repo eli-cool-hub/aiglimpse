@@ -8,6 +8,10 @@
 
 /articles/*/  /articles/:splat.html  200
 /categories/*/  /categories/:splat.html  200
+/guides  /guides.html  200
+/guides/  /guides.html  200
+/search  /search.html  200
+/search/  /search.html  200
 
 # www -> apex 301 is handled by functions/_middleware.js because the
 # Cloudflare Pages _redirects format only supports path-based sources, not

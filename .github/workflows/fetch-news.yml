@@ -2,9 +2,9 @@ name: Fetch AI News
 
 on:
   schedule:
-    # Every 2 hours, top of the hour. Steady drip, not bursts.
-    # Google prefers consistent newsroom cadence over flooding for new domains.
-    - cron: '0 */2 * * *'
+    # Every 4 hours. Quality over volume while the domain is still building
+    # topical authority — ~12 articles/day beats flooding Google with thin news.
+    - cron: '0 */4 * * *'
   workflow_dispatch: # allows manual trigger from GitHub UI
 
 concurrency:
@@ -23,7 +23,7 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: '22'
 
       - name: Install dependencies
         run: npm install --no-fund --no-audit
@@ -38,8 +38,8 @@ jobs:
           DEVTO_API_KEY: ${{ secrets.DEVTO_API_KEY }}
           HASHNODE_TOKEN: ${{ secrets.HASHNODE_TOKEN }}
           SITE_URL: https://aiglimpse.ai
-          # Steady drip: 2 articles per run, max 1 per category per run.
-          # Times 12 runs/day = ~24 articles/day, balanced across topics.
+          # 2 articles × 6 runs/day = ~12/day. Cap 1 per category so ethics /
+          # industry / robotics get a fair shot against research-heavy feeds.
           MAX_PER_RUN: '2'
           PER_CATEGORY_CAP: '1'
         run: npm run fetch

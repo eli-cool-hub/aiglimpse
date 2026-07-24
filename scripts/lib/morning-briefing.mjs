@@ -167,17 +167,31 @@ export function buildMorningBriefing(ctx) {
     issues.push('No articles published in the last 48 hours — check Fetch AI News workflow.');
   } else if (published24h === 0) {
     watches.push(`${published48h} article(s) in 48h but none in the last 24h — pipeline may have slowed.`);
-  } else if (published24h < 4) {
-    watches.push(`Only ${published24h} article(s) in the last 24h (target ~12–24 at 2/run × 12 runs/day).`);
+  } else if (published24h < 2) {
+    watches.push(`Only ${published24h} article(s) in the last 24h (target ~8–12 at quality cadence).`);
+  } else if (published24h > 18) {
+    watches.push(`${published24h} article(s) in 24h — high volume; prefer fewer stronger pieces while indexing lags.`);
   } else {
     wins.push(`${published24h} article(s) published in the last 24h — steady cadence.`);
   }
 
+  // Category balance: flag chronically under-served sections.
   for (const [cat, label] of Object.entries(CATEGORY_LABELS)) {
-    if ((cats[cat] || 0) === 0) {
+    const n = cats[cat] || 0;
+    if (n === 0) {
       watches.push(`"${label}" category is empty — add feeds or adjust classification.`);
       if (cat === 'industry') actions.push({ label: 'Check industry RSS sources in fetch pipeline', href: 'https://github.com/eli-cool-hub/aiglimpse/blob/main/scripts/lib/rss-sources.mjs' });
+    } else if (['ethics', 'industry', 'robotics'].includes(cat) && n < 15 && totalArticles >= 100) {
+      watches.push(`"${label}" is thin (${n} articles) — prioritize sources in this beat.`);
     }
+  }
+
+  const evergreenCount = (published?.articles || []).filter(a => a.evergreen).length;
+  if (totalArticles >= 100 && evergreenCount < 20) {
+    watches.push(`Only ${evergreenCount} evergreen guide(s) vs ${totalArticles} news pieces — ship more ranking hubs.`);
+    actions.push({ label: 'Evergreen explainer workflow (3×/week)', href: 'https://github.com/eli-cool-hub/aiglimpse/actions/workflows/evergreen.yml' });
+  } else if (evergreenCount >= 20) {
+    wins.push(`${evergreenCount} evergreen guides live — good hub depth.`);
   }
 
   const offTopic = scanOffTopic(published?.articles);
@@ -192,11 +206,15 @@ export function buildMorningBriefing(ctx) {
       watches.push(`Indexing report is ${Math.round(ageH)}h old — daily indexing workflow may have missed a run.`);
     }
     const idx = indexingStatus.summary || {};
-    if (idx.indexed > 0) wins.push(`${idx.indexed} URL(s) confirmed indexed in Search Console.`);
-    const unknown = idx.unknown || 0;
     const indexed = idx.indexed || 0;
-    if (unknown >= 50 && indexed < 15 && totalArticles < 200) {
-      wins.push(`${unknown} URLs awaiting first crawl (${indexed} indexed so far) — expected for a new site; daily indexing job is running.`);
+    const waiting = idx.waiting || 0;
+    const unknown = idx.unknown || 0;
+    const urlCount = indexingStatus.url_count || sitemapUrlCount || totalArticles || 1;
+    const indexPct = Math.round((indexed / urlCount) * 100);
+    if (indexed > 0) wins.push(`${indexed} URL(s) confirmed indexed in Search Console (${indexPct}% of ${urlCount}).`);
+    if (indexPct < 40 && urlCount >= 200) {
+      issues.push(`Indexing coverage only ${indexPct}% (${indexed}/${urlCount}) with ${waiting} waiting — slow news volume until Google catches up.`);
+      actions.push({ label: 'Prioritize evergreen + hub URL Inspection in GSC', href: 'https://search.google.com/search-console' });
     } else if (unknown >= 20) {
       watches.push(`${unknown} URLs still "unknown" to Google (${indexed} indexed).`);
       actions.push({ label: 'Indexing runs daily at 08:15 UTC', href: 'https://github.com/eli-cool-hub/aiglimpse/actions/workflows/indexing.yml' });
@@ -204,6 +222,17 @@ export function buildMorningBriefing(ctx) {
   } else {
     watches.push('No indexing-status snapshot found — run Submit URLs for indexing workflow.');
     actions.push({ label: 'Run indexing workflow', href: 'https://github.com/eli-cool-hub/aiglimpse/actions/workflows/indexing.yml' });
+  }
+
+  // Visibility decline: 0 organic + impressions dropping + position slipping.
+  if (weekAgo && latest) {
+    const wImpr = pctChange(latest.gsc_impressions_7d, weekAgo.gsc_impressions_7d);
+    const posWorse = (latest.gsc_avg_position_7d || 0) - (weekAgo.gsc_avg_position_7d || 0) >= 5;
+    if (organic === 0 && wImpr <= -30) {
+      issues.push(`Search visibility declining: impressions ${fmtPct(wImpr)} WoW with 0 organic sessions — throttle news, push evergreen hubs + distribution.`);
+    } else if (organic === 0 && posWorse && latest.gsc_impressions_7d < 40) {
+      watches.push(`Avg position slipped and impressions are low (${latest.gsc_impressions_7d}) with no organic traffic.`);
+    }
   }
 
   const expectedUrls = sitemapUrlCount || totalArticles;
@@ -299,7 +328,12 @@ export function briefingToMarkdown(briefing) {
     lines.push(`- Articles on site: **${op.articles_total}** (${op.articles_24h} in last 24h)`);
     lines.push(`- Organic sessions (7d): **${briefing.organic_sessions_7d}**`);
     if (op.indexing) {
-      lines.push(`- Indexing: **${op.indexing.indexed || 0}** indexed, **${op.indexing.unknown || 0}** unknown`);
+      const idx = op.indexing.indexed || 0;
+      const unk = op.indexing.unknown || 0;
+      const wait = op.indexing.waiting || 0;
+      const total = op.sitemap_urls || op.articles_total || 1;
+      const pct = Math.round((idx / total) * 100);
+      lines.push(`- Indexing: **${idx}** indexed (${pct}%), **${wait}** waiting, **${unk}** unknown`);
     }
     lines.push('');
   }

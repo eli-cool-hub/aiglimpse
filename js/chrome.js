@@ -48,7 +48,7 @@
         <div class="consent-banner-inner">
           <div class="consent-banner-text">
             <strong>We use cookies.</strong>
-            We use cookies to deliver relevant ads via Google AdSense and to understand how readers use AI Glimpse.
+            We use cookies to understand how readers use AI Glimpse (Google Analytics).
             You can accept all, reject non-essential cookies, or read our
             <a href="/pages/privacy">Privacy Policy</a>.
           </div>

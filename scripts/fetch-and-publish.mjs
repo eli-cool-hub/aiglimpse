@@ -89,20 +89,28 @@ function preClassify(item) {
 
 // Round-robin pick from ranked items so the homepage shows a balanced category mix
 // instead of (for example) 8 arXiv research papers in a row.
+// Underserved categories (ethics / industry / robotics) are visited first so
+// sparse sections fill before research/tools flood the slot budget.
+const CATEGORY_PRIORITY = ['ethics', 'industry', 'robotics', 'llms', 'business', 'tools', 'research'];
+
 function distributeAcrossCategories(items, totalCap, perCatCap) {
   const buckets = {};
   for (const item of items) {
     const cat = preClassify(item);
     (buckets[cat] = buckets[cat] || []).push(item);
   }
+  const order = [
+    ...CATEGORY_PRIORITY.filter(c => buckets[c]?.length),
+    ...Object.keys(buckets).filter(c => !CATEGORY_PRIORITY.includes(c))
+  ];
   const selected = [];
   const picks = {};
   while (selected.length < totalCap) {
     let pickedThisLoop = false;
-    for (const cat of Object.keys(buckets)) {
+    for (const cat of order) {
       if (selected.length >= totalCap) break;
       const bucket = buckets[cat];
-      if (!bucket.length) continue;
+      if (!bucket?.length) continue;
       if ((picks[cat] || 0) >= perCatCap) continue;
       selected.push(bucket.shift());
       picks[cat] = (picks[cat] || 0) + 1;
@@ -348,7 +356,6 @@ function generateArticleHtml({ rewritten, source, slug, category, publishedAt, r
   <!-- aiglimpse-ga4 v1: gtag.js loaded after consent default, so it buffers events until consent is granted -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-EVZ52DNQ8S"></script>
   <script>gtag('js', new Date()); gtag('config', 'G-EVZ52DNQ8S', { anonymize_ip: true });</script>
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4263484717830850" crossorigin="anonymous"></script>
 </head>
 <body>
   <div class="reading-progress" aria-hidden="true"></div>
@@ -472,8 +479,8 @@ async function main() {
         title: rewritten.title,
         summary: rewritten.subtitle,
         body: `${rewritten.body_html || ''} ${(rewritten.keywords || []).join(' ')}`
-      }, { minScore: 3 })) {
-        console.log(`  ↪ skip after rewrite (not AI): ${rewritten.title?.substring(0, 70)}`);
+      }, { minScore: 4 })) {
+        console.log(`  ↪ skip after rewrite (not AI enough): ${rewritten.title?.substring(0, 70)}`);
         continue;
       }
       const category = classify(`${rewritten.title} ${rewritten.body_html}`, item.suggestedCategory);

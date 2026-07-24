@@ -384,7 +384,6 @@ function generateEvergreenHtml({ piece, slug, category, publishedAt, readingMinu
   <!-- aiglimpse-ga4 v1: gtag.js loaded after consent default, so it buffers events until consent is granted -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-EVZ52DNQ8S"></script>
   <script>gtag('js', new Date()); gtag('config', 'G-EVZ52DNQ8S', { anonymize_ip: true });</script>
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4263484717830850" crossorigin="anonymous"></script>
 </head>
 <body>
   <div class="reading-progress" aria-hidden="true"></div>

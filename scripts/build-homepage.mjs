@@ -178,7 +178,7 @@ function renderDeepDives(articles) {
       <div class="container">
         <div class="section-header">
           <h2 class="section-title">Deep Dives</h2>
-          <a href="/guides.html" class="section-link">All explainers</a>
+          <a href="/guides" class="section-link">All explainers</a>
         </div>
         <div class="grid grid-2">
           ${items.map(cardLarge).join('\n          ')}
@@ -268,7 +268,7 @@ function renderPage(articles) {
           "width": 512,
           "height": 512
         },
-        "sameAs": ["https://twitter.com/aiglimpse", "https://linkedin.com/company/aiglimpse"]
+        "sameAs": []
       },
       {
         "@type": "WebSite",
@@ -293,7 +293,6 @@ function renderPage(articles) {
   <script>gtag('js', new Date()); gtag('config', 'G-EVZ52DNQ8S', { anonymize_ip: true });</script>
 
   <!-- Google AdSense (publisher ca-pub-4263484717830850) -->
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4263484717830850" crossorigin="anonymous"></script>
 
   <!-- Google Analytics 4, replace G-XXXX with your measurement ID -->
   <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>

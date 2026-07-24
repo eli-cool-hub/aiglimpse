@@ -1,7 +1,7 @@
-name: Evergreen explainer (2x/week)
+name: Evergreen explainer (3x/week)
 
 # Publishes one long-form SEO guide per scheduled run from the queued topic
-# catalogue. Runs twice a week (Wednesday + Sunday) = 2 evergreen guides/week.
+# catalogue. Runs Mon/Wed/Fri = 3 evergreen guides/week (ranking hubs).
 # First unpublished topic in scripts/lib/evergreen-topics.mjs wins.
 
 on:
@@ -17,10 +17,10 @@ on:
         default: false
         type: boolean
   schedule:
-    # Twice a week at 06:00 UTC — Wednesday and Sunday.
-    # Each run publishes the next queued topic (--weekly), so 2 guides/week.
+    # Three times a week at 06:00 UTC — Monday, Wednesday, Friday.
+    - cron: '0 6 * * 1'
     - cron: '0 6 * * 3'
-    - cron: '0 6 * * 0'
+    - cron: '0 6 * * 5'
 
 concurrency:
   group: aiglimpse-content-push
@@ -36,7 +36,7 @@ jobs:
 
       - uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: '22'
 
       - run: npm install --no-fund --no-audit
 
