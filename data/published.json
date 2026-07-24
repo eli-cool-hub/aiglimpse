@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "humanoid-robots-and-ai-systems-demonstrate-real-world-capabilities-34ce64ca",
+      "title": "Humanoid Robots and AI Systems Demonstrate Real-World Capabilities",
+      "subtitle": "Latest robotics breakthroughs show physical AI moving from research labs into practical applications across manufacturing, logistics, and healthcare.",
+      "category": "robotics",
+      "publishedAt": "2026-07-24T15:30:01.000Z",
+      "sourceUrl": "https://spectrum.ieee.org/video-friday-physical-ai-robotics",
+      "sourceName": "IEEE Spectrum Robotics",
+      "sourceTier": 2,
+      "image": "/images/articles/humanoid-robots-and-ai-systems-demonstrate-real-world-capabilities-34ce64ca.jpg"
+    },
+    {
+      "slug": "healthcare-systems-must-pool-ai-expertise-to-capture-innovation-value-bcee2706",
+      "title": "Healthcare Systems Must Pool AI Expertise to Capture Innovation Value",
+      "subtitle": "Health systems generate the data and clinical insights driving AI breakthroughs but rarely share in resulting profits. A new collaborative model could change that.",
+      "category": "industry",
+      "publishedAt": "2026-07-24T17:20:58.000Z",
+      "sourceUrl": "https://www.beckershospitalreview.com/hospital-management-administration/healthcare-needs-a-cooperative-advantage-to-build-a-learning-health-economy/",
+      "sourceName": "Becker's Hospital Review",
+      "sourceTier": 2,
+      "image": "/images/articles/healthcare-systems-must-pool-ai-expertise-to-capture-innovation-value-bcee2706.jpg"
+    },
+    {
       "slug": "llms-transform-medical-education-into-interactive-clinical-games-96eb7b8e",
       "title": "LLMs Transform Medical Education Into Interactive Clinical Games",
       "subtitle": "Researchers use AI to convert static case studies into adaptive learning scenarios that boost student engagement and knowledge retention.",
@@ -9141,6 +9163,8 @@
     "eb20616230228b05",
     "3d6dd603a560ad9f",
     "0a930e21dd41aa78",
-    "96eb7b8e2fed46bb"
+    "96eb7b8e2fed46bb",
+    "bcee2706c9565218",
+    "34ce64caa320f4b4"
   ]
 }

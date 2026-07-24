@@ -7,6 +7,22 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Humanoid Robots and AI Systems Demonstrate Real-World Capabilities</title>
+      <link>https://aiglimpse.ai/articles/humanoid-robots-and-ai-systems-demonstrate-real-world-capabilities-34ce64ca</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/humanoid-robots-and-ai-systems-demonstrate-real-world-capabilities-34ce64ca</guid>
+      <description>Latest robotics breakthroughs show physical AI moving from research labs into practical applications across manufacturing, logistics, and healthcare.</description>
+      <pubDate>Fri, 24 Jul 2026 15:30:01 GMT</pubDate>
+      <category>Robotics</category>
+    </item>
+    <item>
+      <title>Healthcare Systems Must Pool AI Expertise to Capture Innovation Value</title>
+      <link>https://aiglimpse.ai/articles/healthcare-systems-must-pool-ai-expertise-to-capture-innovation-value-bcee2706</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/healthcare-systems-must-pool-ai-expertise-to-capture-innovation-value-bcee2706</guid>
+      <description>Health systems generate the data and clinical insights driving AI breakthroughs but rarely share in resulting profits. A new collaborative model could change that.</description>
+      <pubDate>Fri, 24 Jul 2026 17:20:58 GMT</pubDate>
+      <category>Industry Applications</category>
+    </item>
+    <item>
       <title>LLMs Transform Medical Education Into Interactive Clinical Games</title>
       <link>https://aiglimpse.ai/articles/llms-transform-medical-education-into-interactive-clinical-games-96eb7b8e</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/llms-transform-medical-education-into-interactive-clinical-games-96eb7b8e</guid>
@@ -389,22 +405,6 @@
       <description>Researchers introduce Patch Policy, enabling robots to leverage advanced visual models without the computational burden of billion-parameter systems.</description>
       <pubDate>Mon, 20 Jul 2026 17:59:41 GMT</pubDate>
       <category>AI Research</category>
-    </item>
-    <item>
-      <title>New AI Metric Captures Context-Dependent Visual Similarity</title>
-      <link>https://aiglimpse.ai/articles/new-ai-metric-captures-context-dependent-visual-similarity-92902b74</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-ai-metric-captures-context-dependent-visual-similarity-92902b74</guid>
-      <description>Researchers develop a text-prompted approach that measures how images compare across multiple semantic dimensions, outperforming existing methods.</description>
-      <pubDate>Mon, 20 Jul 2026 17:59:51 GMT</pubDate>
-      <category>AI Research</category>
-    </item>
-    <item>
-      <title>OpenAI Details Safety Challenges in Extended-Horizon AI Systems</title>
-      <link>https://aiglimpse.ai/articles/openai-details-safety-challenges-in-extended-horizon-ai-systems-37cd4375</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/openai-details-safety-challenges-in-extended-horizon-ai-systems-37cd4375</guid>
-      <description>The lab shares operational insights on managing risks as AI models handle longer, more complex reasoning tasks.</description>
-      <pubDate>Mon, 20 Jul 2026 10:00:00 GMT</pubDate>
-      <category>LLMs &amp; Chatbots</category>
     </item>
   </channel>
 </rss>
