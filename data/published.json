@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "pennsylvania-towns-deploy-ai-without-governance-framework-8136fa0a",
+      "title": "Pennsylvania Towns Deploy AI Without Governance Framework",
+      "subtitle": "Small municipalities are already adopting generative AI systems faster than state lawmakers can establish policy guidelines.",
+      "category": "ethics",
+      "publishedAt": "2026-07-24T00:00:00.000Z",
+      "sourceUrl": "https://www.techpolicy.press/ai-reached-local-governments-before-policy-did/",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/pennsylvania-towns-deploy-ai-without-governance-framework-8136fa0a.jpg"
+    },
+    {
       "slug": "humanoid-robots-and-ai-systems-demonstrate-real-world-capabilities-34ce64ca",
       "title": "Humanoid Robots and AI Systems Demonstrate Real-World Capabilities",
       "subtitle": "Latest robotics breakthroughs show physical AI moving from research labs into practical applications across manufacturing, logistics, and healthcare.",
@@ -9165,6 +9176,7 @@
     "0a930e21dd41aa78",
     "96eb7b8e2fed46bb",
     "bcee2706c9565218",
-    "34ce64caa320f4b4"
+    "34ce64caa320f4b4",
+    "8136fa0a48f7431e"
   ]
 }
