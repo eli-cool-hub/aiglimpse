@@ -3,15 +3,11 @@
 #
 # Format: <from> <to> <status>
 # Cloudflare Pages already serves /articles/foo for /articles/foo.html
-# automatically, so we only need the trailing-slash rewrite for old links
-# that the wild has indexed with the slash.
+# and /guides for /guides.html automatically. Do NOT add extensionless
+# rewrites for those — they create 308 loops with CF's pretty-URL layer.
 
 /articles/*/  /articles/:splat.html  200
 /categories/*/  /categories/:splat.html  200
-/guides  /guides.html  200
-/guides/  /guides.html  200
-/search  /search.html  200
-/search/  /search.html  200
 
 # www -> apex 301 is handled by functions/_middleware.js because the
 # Cloudflare Pages _redirects format only supports path-based sources, not
