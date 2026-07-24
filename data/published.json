@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "llms-transform-medical-education-into-interactive-clinical-games-96eb7b8e",
+      "title": "LLMs Transform Medical Education Into Interactive Clinical Games",
+      "subtitle": "Researchers use AI to convert static case studies into adaptive learning scenarios that boost student engagement and knowledge retention.",
+      "category": "research",
+      "publishedAt": "2026-07-23T17:50:28.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2607.21570v1",
+      "sourceName": "arXiv (Qian Wu, Xinrong Zhou, Zizhan Ma, Kai Chen, Zheyao Gao, Xun …)",
+      "sourceTier": 1,
+      "image": "/images/articles/llms-transform-medical-education-into-interactive-clinical-games-96eb7b8e.jpg"
+    },
+    {
+      "slug": "new-ai-model-tackles-the-challenge-of-coordinating-multiple-agents-0a930e21",
+      "title": "New AI Model Tackles the Challenge of Coordinating Multiple Agents",
+      "subtitle": "Researchers introduce a diffusion model that maintains consistent world states across multiple agents and camera angles simultaneously.",
+      "category": "research",
+      "publishedAt": "2026-07-23T17:59:58.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2607.21594v1",
+      "sourceName": "arXiv (Sicheng Mo, Yuheng Li, Ziyang Leng, Krishna Kumar Singh, Bol…)",
+      "sourceTier": 1,
+      "image": "/images/articles/new-ai-model-tackles-the-challenge-of-coordinating-multiple-agents-0a930e21.jpg"
+    },
+    {
       "slug": "researchers-map-how-robots-misunderstand-instructions-3d6dd603",
       "title": "Researchers Map How Robots Misunderstand Instructions",
       "subtitle": "New diagnostic framework reveals which semantic components robots struggle to learn, enabling more efficient training with half the data.",
@@ -9117,6 +9139,8 @@
     "f76ef943661c5300",
     "473156a41fb87d7d",
     "eb20616230228b05",
-    "3d6dd603a560ad9f"
+    "3d6dd603a560ad9f",
+    "0a930e21dd41aa78",
+    "96eb7b8e2fed46bb"
   ]
 }

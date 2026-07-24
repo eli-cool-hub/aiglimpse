@@ -7,6 +7,22 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>LLMs Transform Medical Education Into Interactive Clinical Games</title>
+      <link>https://aiglimpse.ai/articles/llms-transform-medical-education-into-interactive-clinical-games-96eb7b8e</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/llms-transform-medical-education-into-interactive-clinical-games-96eb7b8e</guid>
+      <description>Researchers use AI to convert static case studies into adaptive learning scenarios that boost student engagement and knowledge retention.</description>
+      <pubDate>Thu, 23 Jul 2026 17:50:28 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
+      <title>New AI Model Tackles the Challenge of Coordinating Multiple Agents</title>
+      <link>https://aiglimpse.ai/articles/new-ai-model-tackles-the-challenge-of-coordinating-multiple-agents-0a930e21</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-ai-model-tackles-the-challenge-of-coordinating-multiple-agents-0a930e21</guid>
+      <description>Researchers introduce a diffusion model that maintains consistent world states across multiple agents and camera angles simultaneously.</description>
+      <pubDate>Thu, 23 Jul 2026 17:59:58 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
       <title>Researchers Map How Robots Misunderstand Instructions</title>
       <link>https://aiglimpse.ai/articles/researchers-map-how-robots-misunderstand-instructions-3d6dd603</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/researchers-map-how-robots-misunderstand-instructions-3d6dd603</guid>
@@ -389,22 +405,6 @@
       <description>The lab shares operational insights on managing risks as AI models handle longer, more complex reasoning tasks.</description>
       <pubDate>Mon, 20 Jul 2026 10:00:00 GMT</pubDate>
       <category>LLMs &amp; Chatbots</category>
-    </item>
-    <item>
-      <title>Nvidia Launches Cosmos 3 Edge for On-Device AI Video Generation</title>
-      <link>https://aiglimpse.ai/articles/nvidia-launches-cosmos-3-edge-for-on-device-ai-video-generation-76648c1c</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/nvidia-launches-cosmos-3-edge-for-on-device-ai-video-generation-76648c1c</guid>
-      <description>New lightweight model brings generative video capabilities to edge devices, lowering barriers to deploying AI-powered visual content creation.</description>
-      <pubDate>Mon, 20 Jul 2026 15:58:51 GMT</pubDate>
-      <category>AI Tools &amp; Products</category>
-    </item>
-    <item>
-      <title>AI Coding Tools Shift Focus to Infrastructure Over Raw Models</title>
-      <link>https://aiglimpse.ai/articles/ai-coding-tools-shift-focus-to-infrastructure-over-raw-models-080e2405</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/ai-coding-tools-shift-focus-to-infrastructure-over-raw-models-080e2405</guid>
-      <description>As language models mature, developers race to build better software layers that manage AI capabilities for coding tasks.</description>
-      <pubDate>Mon, 20 Jul 2026 11:20:10 GMT</pubDate>
-      <category>AI Tools &amp; Products</category>
     </item>
   </channel>
 </rss>
