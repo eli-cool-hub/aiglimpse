@@ -286,17 +286,11 @@ function renderPage(articles) {
   <meta name="google-site-verification" content="B132aMlqf1nssWYhjOSKUgSjmfwNWgPgtozZsHDxWlU" />
   <meta name="msvalidate.01" content="F3762E555B3E685836AE39C90B79ECBF" />
 
-  <!-- aiglimpse-consent-default v1: must run before AdSense, defaults all ad/analytics storage to denied -->
+  <!-- aiglimpse-consent-default v1: defaults analytics storage to denied until consent -->
   <script>(function(){window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}window.gtag=gtag;gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'denied',functionality_storage:'granted',security_storage:'granted',wait_for_update:500});try{var s=JSON.parse(localStorage.getItem('aiglimpse-consent')||'null');if(s&&s.choice==='granted'){gtag('consent','update',{ad_storage:'granted',ad_user_data:'granted',ad_personalization:'granted',analytics_storage:'granted'});}}catch(e){}})();</script>
   <!-- aiglimpse-ga4 v1: gtag.js loaded after consent default, so it buffers events until consent is granted -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-EVZ52DNQ8S"></script>
   <script>gtag('js', new Date()); gtag('config', 'G-EVZ52DNQ8S', { anonymize_ip: true });</script>
-
-  <!-- Google AdSense (publisher ca-pub-4263484717830850) -->
-
-  <!-- Google Analytics 4, replace G-XXXX with your measurement ID -->
-  <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
-  <script>window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-XXXXXXXXXX');</script> -->
 </head>
 <body>
 
@@ -357,7 +351,6 @@ function renderPage(articles) {
       </div>
     </section>
 
-    <!-- Leaderboard ad slot, will be re-enabled once AdSense is approved -->
 ${renderLatest(articles)}${renderDeepDives(articles)}
 
     <!-- NEWSLETTER -->
