@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "ai-safety-guardrails-create-friction-for-defensive-security-research-473156a4",
+      "title": "AI Safety Guardrails Create Friction for Defensive Security Research",
+      "subtitle": "Leading AI providers' protective measures are slowing legitimate cybersecurity work, researchers say.",
+      "category": "business",
+      "publishedAt": "2026-07-24T01:00:00.000Z",
+      "sourceUrl": "https://techcrunch.com/2026/07/23/how-ai-guardrails-are-impeding-the-work-of-offensive-cybersecurity-researchers/",
+      "sourceName": "TechCrunch AI",
+      "sourceTier": 2,
+      "image": "/images/articles/ai-safety-guardrails-create-friction-for-defensive-security-research-473156a4.jpg"
+    },
+    {
       "slug": "study-shows-llms-can-learn-from-past-mistakes-like-humans-do-f76ef943",
       "title": "Study Shows LLMs Can Learn From Past Mistakes Like Humans Do",
       "subtitle": "Researchers find that large language models improve problem-solving by extracting and reusing lessons from their own solution attempts.",
@@ -9081,6 +9092,7 @@
     "e8b99af5719a583c",
     "8fca2ad2441134ce",
     "1a8d6cbe7e30ca44",
-    "f76ef943661c5300"
+    "f76ef943661c5300",
+    "473156a41fb87d7d"
   ]
 }
