@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "researchers-map-how-robots-misunderstand-instructions-3d6dd603",
+      "title": "Researchers Map How Robots Misunderstand Instructions",
+      "subtitle": "New diagnostic framework reveals which semantic components robots struggle to learn, enabling more efficient training with half the data.",
+      "category": "research",
+      "publishedAt": "2026-07-23T17:57:09.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2607.21582v1",
+      "sourceName": "arXiv (Yu Qi, Zhang Ye, Xinyi Xu, Yuxuan Lu, Amitoj Sandhu, Boce Hu…)",
+      "sourceTier": 1,
+      "image": "/images/articles/researchers-map-how-robots-misunderstand-instructions-3d6dd603.jpg"
+    },
+    {
+      "slug": "researchers-teach-vision-language-models-to-understand-3d-space-eb206162",
+      "title": "Researchers Teach Vision-Language Models to Understand 3D Space",
+      "subtitle": "New framework injects spatial reasoning into VLMs using implicit and explicit geometry learned from video, without requiring 3D training data.",
+      "category": "research",
+      "publishedAt": "2026-07-23T17:59:59.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2607.21595v1",
+      "sourceName": "arXiv (Wenhao Li, Xueying Jiang, Quanhao Qian, Deli Zhao, Ran Xu, S…)",
+      "sourceTier": 1,
+      "image": "/images/articles/researchers-teach-vision-language-models-to-understand-3d-space-eb206162.jpg"
+    },
+    {
       "slug": "ai-safety-guardrails-create-friction-for-defensive-security-research-473156a4",
       "title": "AI Safety Guardrails Create Friction for Defensive Security Research",
       "subtitle": "Leading AI providers' protective measures are slowing legitimate cybersecurity work, researchers say.",
@@ -9093,6 +9115,8 @@
     "8fca2ad2441134ce",
     "1a8d6cbe7e30ca44",
     "f76ef943661c5300",
-    "473156a41fb87d7d"
+    "473156a41fb87d7d",
+    "eb20616230228b05",
+    "3d6dd603a560ad9f"
   ]
 }

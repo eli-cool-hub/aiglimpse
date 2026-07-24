@@ -7,6 +7,22 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Researchers Map How Robots Misunderstand Instructions</title>
+      <link>https://aiglimpse.ai/articles/researchers-map-how-robots-misunderstand-instructions-3d6dd603</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/researchers-map-how-robots-misunderstand-instructions-3d6dd603</guid>
+      <description>New diagnostic framework reveals which semantic components robots struggle to learn, enabling more efficient training with half the data.</description>
+      <pubDate>Thu, 23 Jul 2026 17:57:09 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
+      <title>Researchers Teach Vision-Language Models to Understand 3D Space</title>
+      <link>https://aiglimpse.ai/articles/researchers-teach-vision-language-models-to-understand-3d-space-eb206162</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/researchers-teach-vision-language-models-to-understand-3d-space-eb206162</guid>
+      <description>New framework injects spatial reasoning into VLMs using implicit and explicit geometry learned from video, without requiring 3D training data.</description>
+      <pubDate>Thu, 23 Jul 2026 17:59:59 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
       <title>AI Safety Guardrails Create Friction for Defensive Security Research</title>
       <link>https://aiglimpse.ai/articles/ai-safety-guardrails-create-friction-for-defensive-security-research-473156a4</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/ai-safety-guardrails-create-friction-for-defensive-security-research-473156a4</guid>
@@ -389,22 +405,6 @@
       <description>As language models mature, developers race to build better software layers that manage AI capabilities for coding tasks.</description>
       <pubDate>Mon, 20 Jul 2026 11:20:10 GMT</pubDate>
       <category>AI Tools &amp; Products</category>
-    </item>
-    <item>
-      <title>Chinese AI Labs Challenge US Dominance With Cost-Efficient Models</title>
-      <link>https://aiglimpse.ai/articles/chinese-ai-labs-challenge-us-dominance-with-cost-efficient-models-34dc6172</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/chinese-ai-labs-challenge-us-dominance-with-cost-efficient-models-34dc6172</guid>
-      <description>Moonshot and Alibaba's latest releases signal a narrowing competitive gap as Beijing accelerates its push into frontier AI capabilities.</description>
-      <pubDate>Mon, 20 Jul 2026 10:16:33 GMT</pubDate>
-      <category>AI Tools &amp; Products</category>
-    </item>
-    <item>
-      <title>Chinese Chipmaker Eyes $8B Hong Kong IPO to Cement AI Leadership</title>
-      <link>https://aiglimpse.ai/articles/chinese-chipmaker-eyes-8b-hong-kong-ipo-to-cement-ai-leadership-be844daf</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/chinese-chipmaker-eyes-8b-hong-kong-ipo-to-cement-ai-leadership-be844daf</guid>
-      <description>Innolight's public offering signals Hong Kong's resurgence as a capital hub for semiconductor firms powering artificial intelligence infrastructure.</description>
-      <pubDate>Mon, 20 Jul 2026 00:00:00 GMT</pubDate>
-      <category>Industry Applications</category>
     </item>
   </channel>
 </rss>

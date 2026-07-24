@@ -20,6 +20,8 @@ All content is original reporting by the AI Glimpse newsroom. Primary sources ar
 
 ## Recent articles
 
+- [Researchers Map How Robots Misunderstand Instructions](https://aiglimpse.ai/articles/researchers-map-how-robots-misunderstand-instructions-3d6dd603) (2026-07-23): New diagnostic framework reveals which semantic components robots struggle to learn, enabling more efficient training with half the data.
+- [Researchers Teach Vision-Language Models to Understand 3D Space](https://aiglimpse.ai/articles/researchers-teach-vision-language-models-to-understand-3d-space-eb206162) (2026-07-23): New framework injects spatial reasoning into VLMs using implicit and explicit geometry learned from video, without requiring 3D training data.
 - [AI Safety Guardrails Create Friction for Defensive Security Research](https://aiglimpse.ai/articles/ai-safety-guardrails-create-friction-for-defensive-security-research-473156a4) (2026-07-24): Leading AI providers' protective measures are slowing legitimate cybersecurity work, researchers say.
 - [Study Shows LLMs Can Learn From Past Mistakes Like Humans Do](https://aiglimpse.ai/articles/study-shows-llms-can-learn-from-past-mistakes-like-humans-do-f76ef943) (2026-07-22): Researchers find that large language models improve problem-solving by extracting and reusing lessons from their own solution attempts.
 - [New Synthetic Dataset Advances Persian Language OCR Technology](https://aiglimpse.ai/articles/new-synthetic-dataset-advances-persian-language-ocr-technology-1a8d6cbe) (2026-07-22): Researchers release 343,000 annotated text images to accelerate document digitization for 110 million Persian speakers.
@@ -48,8 +50,6 @@ All content is original reporting by the AI Glimpse newsroom. Primary sources ar
 - [Building a Production RAG Pipeline: From Documents to Answers](https://aiglimpse.ai/articles/building-production-rag-pipeline) (2026-07-22): A technical guide to chunking, retrieval, re-ranking, and observability for RAG systems at scale
 - [Acquisition Frenzy Fuels Speculation Over Anthropic-Physical Intelligence Deal](https://aiglimpse.ai/articles/acquisition-frenzy-fuels-speculation-over-anthropic-physical-intelligence-deal-316d180e) (2026-07-22): As major AI labs ramp up company purchases, unverified reports suggest Claude maker may pursue robotics startup.
 - [New AI Technique Gives Designers Precise Regional Control Over Image Generation](https://aiglimpse.ai/articles/new-ai-technique-gives-designers-precise-regional-control-over-image-generation-81f1fb4f) (2026-07-21): Researchers introduce a method that lets creative professionals direct where and how different elements appear in AI-generated images without retraining models.
-- [New Adapter Methods Boost Reasoning Accuracy in Language Models](https://aiglimpse.ai/articles/new-adapter-methods-boost-reasoning-accuracy-in-language-models-b3f0c0dd) (2026-07-21): Researchers introduce dynamic state-tracking techniques that improve multi-hop reasoning performance across major LLM architectures.
-- [AI Models Waste Context by Copying Input, Researchers Find Fix](https://aiglimpse.ai/articles/ai-models-waste-context-by-copying-input-researchers-find-fix-f26f0779) (2026-07-21): New training method teaches language models to focus on relevant evidence rather than mindlessly reproducing source material.
 
 ## Explainers (evergreen)
 
@@ -74,7 +74,7 @@ All content is original reporting by the AI Glimpse newsroom. Primary sources ar
 
 - [Sitemap](https://aiglimpse.ai/sitemap.xml): All article URLs with publish dates (Google News format).
 - [RSS](https://aiglimpse.ai/rss.xml): 50 most recent articles (RSS 2.0).
-- [Full content index](https://aiglimpse.ai/llms-full.txt): Extended article list for LLM crawlers (757 articles).
+- [Full content index](https://aiglimpse.ai/llms-full.txt): Extended article list for LLM crawlers (759 articles).
 
 ## About
 

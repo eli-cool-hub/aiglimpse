@@ -3,7 +3,7 @@
 > Machine-readable index for AI assistants, answer engines, and research crawlers.
 > Summary version: https://aiglimpse.ai/llms.txt
 
-Total articles: 757 | Evergreen explainers: 16 | Generated: 2026-07-24
+Total articles: 759 | Evergreen explainers: 16 | Generated: 2026-07-24
 
 ## Evergreen explainers
 
@@ -120,6 +120,20 @@ Total articles: 757 | Evergreen explainers: 16 | Generated: 2026-07-24
 - Type: evergreen explainer (FAQ schema on page)
 
 ## All articles (newest first)
+
+### Researchers Map How Robots Misunderstand Instructions
+- URL: https://aiglimpse.ai/articles/researchers-map-how-robots-misunderstand-instructions-3d6dd603
+- Published: 2026-07-23
+- Category: research
+- Summary: New diagnostic framework reveals which semantic components robots struggle to learn, enabling more efficient training with half the data.
+- Source: http://arxiv.org/abs/2607.21582v1
+
+### Researchers Teach Vision-Language Models to Understand 3D Space
+- URL: https://aiglimpse.ai/articles/researchers-teach-vision-language-models-to-understand-3d-space-eb206162
+- Published: 2026-07-23
+- Category: research
+- Summary: New framework injects spatial reasoning into VLMs using implicit and explicit geometry learned from video, without requiring 3D training data.
+- Source: http://arxiv.org/abs/2607.21595v1
 
 ### AI Safety Guardrails Create Friction for Defensive Security Research
 - URL: https://aiglimpse.ai/articles/ai-safety-guardrails-create-friction-for-defensive-security-research-473156a4
