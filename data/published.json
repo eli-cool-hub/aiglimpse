@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "deepseek-r1-shows-critical-reasoning-collapse-prompting-infrastructure-rethink-f37fabf6",
+      "title": "DeepSeek-R1 Shows Critical Reasoning Collapse, Prompting Infrastructure Rethink",
+      "subtitle": "Researchers identify early token failures in reasoning models, forcing cloud platforms to reconsider how they allocate compute resources in real time.",
+      "category": "business",
+      "publishedAt": "2026-07-25T00:00:00.000Z",
+      "sourceUrl": "https://arxiv.org/abs/2607.21433",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/deepseek-r1-shows-critical-reasoning-collapse-prompting-infrastructure-rethink-f37fabf6.jpg"
+    },
+    {
       "slug": "neura-robotics-opens-training-centers-to-develop-real-world-ai-for-robots-e7fc6c7c",
       "title": "NEURA Robotics Opens Training Centers to Develop Real-World AI for Robots",
       "subtitle": "German startup launches network of specialized facilities to bridge the data gap between simulation and physical robot deployment.",
@@ -9249,6 +9260,7 @@
     "89e9422b5997aaf6",
     "52688681df5d2323",
     "0be920b192640cae",
-    "e7fc6c7cc9a732ed"
+    "e7fc6c7cc9a732ed",
+    "f37fabf6dc12b041"
   ]
 }

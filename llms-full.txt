@@ -3,7 +3,7 @@
 > Machine-readable index for AI assistants, answer engines, and research crawlers.
 > Summary version: https://aiglimpse.ai/llms.txt
 
-Total articles: 770 | Evergreen explainers: 16 | Generated: 2026-07-25
+Total articles: 771 | Evergreen explainers: 16 | Generated: 2026-07-25
 
 ## Evergreen explainers
 
@@ -120,6 +120,13 @@ Total articles: 770 | Evergreen explainers: 16 | Generated: 2026-07-25
 - Type: evergreen explainer (FAQ schema on page)
 
 ## All articles (newest first)
+
+### DeepSeek-R1 Shows Critical Reasoning Collapse, Prompting Infrastructure Rethink
+- URL: https://aiglimpse.ai/articles/deepseek-r1-shows-critical-reasoning-collapse-prompting-infrastructure-rethink-f37fabf6
+- Published: 2026-07-25
+- Category: business
+- Summary: Researchers identify early token failures in reasoning models, forcing cloud platforms to reconsider how they allocate compute resources in real time.
+- Source: https://arxiv.org/abs/2607.21433
 
 ### NEURA Robotics Opens Training Centers to Develop Real-World AI for Robots
 - URL: https://aiglimpse.ai/articles/neura-robotics-opens-training-centers-to-develop-real-world-ai-for-robots-e7fc6c7c

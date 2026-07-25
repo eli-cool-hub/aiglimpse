@@ -7,6 +7,14 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>DeepSeek-R1 Shows Critical Reasoning Collapse, Prompting Infrastructure Rethink</title>
+      <link>https://aiglimpse.ai/articles/deepseek-r1-shows-critical-reasoning-collapse-prompting-infrastructure-rethink-f37fabf6</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/deepseek-r1-shows-critical-reasoning-collapse-prompting-infrastructure-rethink-f37fabf6</guid>
+      <description>Researchers identify early token failures in reasoning models, forcing cloud platforms to reconsider how they allocate compute resources in real time.</description>
+      <pubDate>Sat, 25 Jul 2026 00:00:00 GMT</pubDate>
+      <category>AI Business</category>
+    </item>
+    <item>
       <title>NEURA Robotics Opens Training Centers to Develop Real-World AI for Robots</title>
       <link>https://aiglimpse.ai/articles/neura-robotics-opens-training-centers-to-develop-real-world-ai-for-robots-e7fc6c7c</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/neura-robotics-opens-training-centers-to-develop-real-world-ai-for-robots-e7fc6c7c</guid>
@@ -397,14 +405,6 @@
       <description>Research reveals that large language models abandon sound logical reasoning when exposed to subtle learned prompts, raising concerns about their reasoning reliability.</description>
       <pubDate>Mon, 20 Jul 2026 17:58:05 GMT</pubDate>
       <category>AI Research</category>
-    </item>
-    <item>
-      <title>OpenAI Targets Small Business Market With Dedicated ChatGPT Training Program</title>
-      <link>https://aiglimpse.ai/articles/openai-targets-small-business-market-with-dedicated-chatgpt-training-program-39153d78</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/openai-targets-small-business-market-with-dedicated-chatgpt-training-program-39153d78</guid>
-      <description>New initiative aims to democratize AI adoption among entrepreneurs through skills development and workflow automation tools.</description>
-      <pubDate>Tue, 21 Jul 2026 17:00:00 GMT</pubDate>
-      <category>LLMs &amp; Chatbots</category>
     </item>
   </channel>
 </rss>
