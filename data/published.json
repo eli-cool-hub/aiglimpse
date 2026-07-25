@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "johnson-johnsons-ottava-surgical-robot-wins-fda-approval-326e21a6",
+      "title": "Johnson & Johnson's Ottava Surgical Robot Wins FDA Approval",
+      "subtitle": "The first integrated robotic surgery system embedded in operating tables promises to reclaim valuable OR space and reduce surgeon fatigue through AI-optimized workflows.",
+      "category": "robotics",
+      "publishedAt": "2026-07-25T14:00:13.000Z",
+      "sourceUrl": "https://www.therobotreport.com/photos-first-look-at-jjs-ottava-surgical-robot/",
+      "sourceName": "The Robot Report",
+      "sourceTier": 3,
+      "image": "/images/articles/johnson-johnsons-ottava-surgical-robot-wins-fda-approval-326e21a6.jpg"
+    },
+    {
+      "slug": "metas-smart-glasses-spark-privacy-debate-over-ai-recording-07bb293f",
+      "title": "Meta's Smart Glasses Spark Privacy Debate Over AI Recording",
+      "subtitle": "Indian activists challenge whether product disclaimers adequately protect bystanders from unauthorized video capture by AI-enabled wearables.",
+      "category": "ethics",
+      "publishedAt": "2026-07-25T00:00:00.000Z",
+      "sourceUrl": "https://techpolicy.press/an-indian-trans-persons-harrowing-encounter-fuels-backlash-against-meta-ai-pervert-glasses",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/metas-smart-glasses-spark-privacy-debate-over-ai-recording-07bb293f.jpg"
+    },
+    {
       "slug": "delhi-court-rules-against-news-publishers-in-openai-copyright-case-64cd4d3b",
       "title": "Delhi Court Rules Against News Publishers in OpenAI Copyright Case",
       "subtitle": "A significant interim judgment shifts legal burden to Indian media outlets, reshaping AI licensing negotiations globally.",
@@ -9273,6 +9295,8 @@
     "0be920b192640cae",
     "e7fc6c7cc9a732ed",
     "f37fabf6dc12b041",
-    "64cd4d3b53bb3fa1"
+    "64cd4d3b53bb3fa1",
+    "07bb293f782022a3",
+    "326e21a62fc4fccb"
   ]
 }
