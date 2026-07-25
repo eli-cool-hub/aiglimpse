@@ -7,6 +7,22 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Generalist's Foundation Model Learns to Control Diverse Robot Hands</title>
+      <link>https://aiglimpse.ai/articles/generalists-foundation-model-learns-to-control-diverse-robot-hands-72f71c33</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/generalists-foundation-model-learns-to-control-diverse-robot-hands-72f71c33</guid>
+      <description>A single AI model trained across thousands of different end effectors demonstrates how robots can develop universal physical reasoning.</description>
+      <pubDate>Fri, 24 Jul 2026 18:23:42 GMT</pubDate>
+      <category>Robotics</category>
+    </item>
+    <item>
+      <title>AI Tools Help Rural Hospitals Cut Specialist Wait Times to Weeks</title>
+      <link>https://aiglimpse.ai/articles/ai-tools-help-rural-hospitals-cut-specialist-wait-times-to-weeks-db929f25</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/ai-tools-help-rural-hospitals-cut-specialist-wait-times-to-weeks-db929f25</guid>
+      <description>Collaborative networks leverage machine learning to improve access and revenue at independent facilities struggling to compete with larger systems.</description>
+      <pubDate>Fri, 24 Jul 2026 18:00:48 GMT</pubDate>
+      <category>Industry Applications</category>
+    </item>
+    <item>
       <title>Pennsylvania Towns Deploy AI Without Governance Framework</title>
       <link>https://aiglimpse.ai/articles/pennsylvania-towns-deploy-ai-without-governance-framework-8136fa0a</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/pennsylvania-towns-deploy-ai-without-governance-framework-8136fa0a</guid>
@@ -389,22 +405,6 @@
       <description>A massive study of automated machine learning systems reveals that one-size-fits-all approaches fail, requiring problem-specific tuning instead.</description>
       <pubDate>Mon, 20 Jul 2026 17:59:37 GMT</pubDate>
       <category>AI Research</category>
-    </item>
-    <item>
-      <title>Open Dataset Platform Aims to Accelerate Robot Learning</title>
-      <link>https://aiglimpse.ai/articles/open-dataset-platform-aims-to-accelerate-robot-learning-0127f8f4</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/open-dataset-platform-aims-to-accelerate-robot-learning-0127f8f4</guid>
-      <description>New system lets researchers share manipulation task data, potentially speeding up development of dexterous AI systems.</description>
-      <pubDate>Tue, 21 Jul 2026 00:00:00 GMT</pubDate>
-      <category>AI Tools &amp; Products</category>
-    </item>
-    <item>
-      <title>Anthropic Settles Major Copyright Case for $1.5B</title>
-      <link>https://aiglimpse.ai/articles/anthropic-settles-major-copyright-case-for-15b-1c1c07f2</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/anthropic-settles-major-copyright-case-for-15b-1c1c07f2</guid>
-      <description>Court approval closes one legal battle, but fundamental questions about AI training data remain unresolved across the industry.</description>
-      <pubDate>Tue, 21 Jul 2026 00:12:24 GMT</pubDate>
-      <category>AI Business</category>
     </item>
   </channel>
 </rss>
