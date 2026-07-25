@@ -7,6 +7,22 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Time Series Databases Become Critical Infrastructure for Industrial Robotics</title>
+      <link>https://aiglimpse.ai/articles/time-series-databases-become-critical-infrastructure-for-industrial-robotics-52688681</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/time-series-databases-become-critical-infrastructure-for-industrial-robotics-52688681</guid>
+      <description>Specialized data platforms designed for temporal information are reshaping how manufacturing and automation systems process sensor data at scale.</description>
+      <pubDate>Fri, 24 Jul 2026 16:28:39 GMT</pubDate>
+      <category>Robotics</category>
+    </item>
+    <item>
+      <title>Healthcare AI's Real Impact: Automation Beats Hype in Supply Chains</title>
+      <link>https://aiglimpse.ai/articles/healthcare-ais-real-impact-automation-beats-hype-in-supply-chains-89e9422b</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/healthcare-ais-real-impact-automation-beats-hype-in-supply-chains-89e9422b</guid>
+      <description>Major hospital networks are finding AI's greatest value in eliminating manual work and improving data visibility, not autonomous decision-making.</description>
+      <pubDate>Fri, 24 Jul 2026 17:39:55 GMT</pubDate>
+      <category>Industry Applications</category>
+    </item>
+    <item>
       <title>Generalist's Foundation Model Learns to Control Diverse Robot Hands</title>
       <link>https://aiglimpse.ai/articles/generalists-foundation-model-learns-to-control-diverse-robot-hands-72f71c33</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/generalists-foundation-model-learns-to-control-diverse-robot-hands-72f71c33</guid>
@@ -388,22 +404,6 @@
       <guid isPermaLink="true">https://aiglimpse.ai/articles/google-expands-gemini-lineup-with-three-new-model-variants-c74d933e</guid>
       <description>The tech giant rolls out faster, lighter versions of its AI engine designed for different speed and capability requirements.</description>
       <pubDate>Tue, 21 Jul 2026 15:16:30 GMT</pubDate>
-      <category>AI Research</category>
-    </item>
-    <item>
-      <title>Researchers Crack Pixel-Level Detection of AI-Generated Image Forgeries</title>
-      <link>https://aiglimpse.ai/articles/researchers-crack-pixel-level-detection-of-ai-generated-image-forgeries-6d804e82</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/researchers-crack-pixel-level-detection-of-ai-generated-image-forgeries-6d804e82</guid>
-      <description>New framework dramatically improves ability to spot manipulated content from ChatGPT, Gemini, and other advanced vision models.</description>
-      <pubDate>Mon, 20 Jul 2026 17:58:13 GMT</pubDate>
-      <category>AI Research</category>
-    </item>
-    <item>
-      <title>No Single AI Discovery Method Works Best Across All Problems</title>
-      <link>https://aiglimpse.ai/articles/no-single-ai-discovery-method-works-best-across-all-problems-523a1b57</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/no-single-ai-discovery-method-works-best-across-all-problems-523a1b57</guid>
-      <description>A massive study of automated machine learning systems reveals that one-size-fits-all approaches fail, requiring problem-specific tuning instead.</description>
-      <pubDate>Mon, 20 Jul 2026 17:59:37 GMT</pubDate>
       <category>AI Research</category>
     </item>
   </channel>
