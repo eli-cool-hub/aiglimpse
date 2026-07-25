@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "delhi-court-rules-against-news-publishers-in-openai-copyright-case-64cd4d3b",
+      "title": "Delhi Court Rules Against News Publishers in OpenAI Copyright Case",
+      "subtitle": "A significant interim judgment shifts legal burden to Indian media outlets, reshaping AI licensing negotiations globally.",
+      "category": "business",
+      "publishedAt": "2026-07-25T00:00:00.000Z",
+      "sourceUrl": "https://drive.google.com/file/d/1xsnKCQx4IIV7-d-40_Bv_-Qpl549WnxI/view?usp=sharing",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/delhi-court-rules-against-news-publishers-in-openai-copyright-case-64cd4d3b.jpg"
+    },
+    {
       "slug": "deepseek-r1-shows-critical-reasoning-collapse-prompting-infrastructure-rethink-f37fabf6",
       "title": "DeepSeek-R1 Shows Critical Reasoning Collapse, Prompting Infrastructure Rethink",
       "subtitle": "Researchers identify early token failures in reasoning models, forcing cloud platforms to reconsider how they allocate compute resources in real time.",
@@ -9261,6 +9272,7 @@
     "52688681df5d2323",
     "0be920b192640cae",
     "e7fc6c7cc9a732ed",
-    "f37fabf6dc12b041"
+    "f37fabf6dc12b041",
+    "64cd4d3b53bb3fa1"
   ]
 }
