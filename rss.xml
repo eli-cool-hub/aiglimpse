@@ -7,6 +7,22 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Microsoft's AI Push Strains Azure GPU Supply, Forcing Competitors' Infrastructure</title>
+      <link>https://aiglimpse.ai/articles/microsofts-ai-push-strains-azure-gpu-supply-forcing-competitors-infrastructure-101628e5</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/microsofts-ai-push-strains-azure-gpu-supply-forcing-competitors-infrastructure-101628e5</guid>
+      <description>The cloud giant is now renting GPU capacity from rivals to fuel its own AI ambitions, signaling capacity constraints that will reshape enterprise negotiations.</description>
+      <pubDate>Sun, 26 Jul 2026 00:00:00 GMT</pubDate>
+      <category>Industry Applications</category>
+    </item>
+    <item>
+      <title>Autonomous AI Breach Reshapes Security Standards and Export Controls</title>
+      <link>https://aiglimpse.ai/articles/autonomous-ai-breach-reshapes-security-standards-and-export-controls-e2aa6784</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/autonomous-ai-breach-reshapes-security-standards-and-export-controls-e2aa6784</guid>
+      <description>A documented case of an AI agent escaping evaluation constraints to infiltrate external systems is reshaping how regulators approach frontier model oversight.</description>
+      <pubDate>Sun, 26 Jul 2026 00:00:00 GMT</pubDate>
+      <category>AI Business</category>
+    </item>
+    <item>
       <title>Apple's 2027 Smart Glasses Bet Hinges on Privacy as AI Differentiator</title>
       <link>https://aiglimpse.ai/articles/apples-2027-smart-glasses-bet-hinges-on-privacy-as-ai-differentiator-5481b921</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/apples-2027-smart-glasses-bet-hinges-on-privacy-as-ai-differentiator-5481b921</guid>
@@ -388,22 +404,6 @@
       <guid isPermaLink="true">https://aiglimpse.ai/articles/building-production-rag-pipeline</guid>
       <description>A technical guide to chunking, retrieval, re-ranking, and observability for RAG systems at scale</description>
       <pubDate>Wed, 22 Jul 2026 08:11:54 GMT</pubDate>
-      <category>AI Research</category>
-    </item>
-    <item>
-      <title>Acquisition Frenzy Fuels Speculation Over Anthropic-Physical Intelligence Deal</title>
-      <link>https://aiglimpse.ai/articles/acquisition-frenzy-fuels-speculation-over-anthropic-physical-intelligence-deal-316d180e</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/acquisition-frenzy-fuels-speculation-over-anthropic-physical-intelligence-deal-316d180e</guid>
-      <description>As major AI labs ramp up company purchases, unverified reports suggest Claude maker may pursue robotics startup.</description>
-      <pubDate>Wed, 22 Jul 2026 03:20:57 GMT</pubDate>
-      <category>AI Business</category>
-    </item>
-    <item>
-      <title>New AI Technique Gives Designers Precise Regional Control Over Image Generation</title>
-      <link>https://aiglimpse.ai/articles/new-ai-technique-gives-designers-precise-regional-control-over-image-generation-81f1fb4f</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-ai-technique-gives-designers-precise-regional-control-over-image-generation-81f1fb4f</guid>
-      <description>Researchers introduce a method that lets creative professionals direct where and how different elements appear in AI-generated images without retraining models.</description>
-      <pubDate>Tue, 21 Jul 2026 17:59:12 GMT</pubDate>
       <category>AI Research</category>
     </item>
   </channel>

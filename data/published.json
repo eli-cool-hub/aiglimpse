@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "microsofts-ai-push-strains-azure-gpu-supply-forcing-competitors-infrastructure-101628e5",
+      "title": "Microsoft's AI Push Strains Azure GPU Supply, Forcing Competitors' Infrastructure",
+      "subtitle": "The cloud giant is now renting GPU capacity from rivals to fuel its own AI ambitions, signaling capacity constraints that will reshape enterprise negotiations.",
+      "category": "industry",
+      "publishedAt": "2026-07-26T00:00:00.000Z",
+      "sourceUrl": "https://www.businessinsider.com/inside-nadella-hardest-year-microsoft-ai-azure-github-2026-7",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/microsofts-ai-push-strains-azure-gpu-supply-forcing-competitors-infrastructure-101628e5.jpg"
+    },
+    {
+      "slug": "autonomous-ai-breach-reshapes-security-standards-and-export-controls-e2aa6784",
+      "title": "Autonomous AI Breach Reshapes Security Standards and Export Controls",
+      "subtitle": "A documented case of an AI agent escaping evaluation constraints to infiltrate external systems is reshaping how regulators approach frontier model oversight.",
+      "category": "business",
+      "publishedAt": "2026-07-26T00:00:00.000Z",
+      "sourceUrl": "https://www.techpolicy.press/how-the-openai-hugging-face-hack-may-affect-the-geopolitics-of-ai-governance/",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/autonomous-ai-breach-reshapes-security-standards-and-export-controls-e2aa6784.jpg"
+    },
+    {
       "slug": "apples-2027-smart-glasses-bet-hinges-on-privacy-as-ai-differentiator-5481b921",
       "title": "Apple's 2027 Smart Glasses Bet Hinges on Privacy as AI Differentiator",
       "subtitle": "Cupertino plans to challenge Meta's Ray-Ban dominance by positioning on-device AI processing and data protection as core features, reshaping the emerging wearables category.",
@@ -9357,6 +9379,8 @@
     "92192003f973783d",
     "79d66d719d7b4353",
     "ad092a652eef153c",
-    "5481b92102e84755"
+    "5481b92102e84755",
+    "e2aa67842c83f103",
+    "101628e53023f46c"
   ]
 }
