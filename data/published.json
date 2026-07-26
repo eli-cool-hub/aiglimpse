@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "us-may-restrict-open-source-ai-models-within-six-months-8eb7bfef",
+      "title": "US May Restrict Open-Source AI Models Within Six Months",
+      "subtitle": "Policy shift could narrow commercial options to major tech firms and force enterprise reckoning with Chinese alternatives.",
+      "category": "ethics",
+      "publishedAt": "2026-07-26T00:00:00.000Z",
+      "sourceUrl": "https://interconnects.ai/p/6-months-to-live-for-open-models",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/us-may-restrict-open-source-ai-models-within-six-months-8eb7bfef.jpg"
+    },
+    {
       "slug": "johnson-johnsons-ottava-surgical-robot-wins-fda-approval-326e21a6",
       "title": "Johnson & Johnson's Ottava Surgical Robot Wins FDA Approval",
       "subtitle": "The first integrated robotic surgery system embedded in operating tables promises to reclaim valuable OR space and reduce surgeon fatigue through AI-optimized workflows.",
@@ -9297,6 +9308,7 @@
     "f37fabf6dc12b041",
     "64cd4d3b53bb3fa1",
     "07bb293f782022a3",
-    "326e21a62fc4fccb"
+    "326e21a62fc4fccb",
+    "8eb7bfefcdb1c690"
   ]
 }
