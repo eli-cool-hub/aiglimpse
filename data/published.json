@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "chatgpt-health-feature-faces-first-lawsuit-over-medical-harm-claims-92192003",
+      "title": "ChatGPT Health Feature Faces First Lawsuit Over Medical Harm Claims",
+      "subtitle": "Legal action against OpenAI signals emerging liability questions for AI-powered health advice tools and sets precedent for consumer medical features.",
+      "category": "business",
+      "publishedAt": "2026-07-26T00:00:00.000Z",
+      "sourceUrl": "https://nytimes.com/2026/07/22/well/openai-chatgpt-health-lawsuit.html",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/chatgpt-health-feature-faces-first-lawsuit-over-medical-harm-claims-92192003.jpg"
+    },
+    {
       "slug": "us-may-restrict-open-source-ai-models-within-six-months-8eb7bfef",
       "title": "US May Restrict Open-Source AI Models Within Six Months",
       "subtitle": "Policy shift could narrow commercial options to major tech firms and force enterprise reckoning with Chinese alternatives.",
@@ -9309,6 +9320,7 @@
     "64cd4d3b53bb3fa1",
     "07bb293f782022a3",
     "326e21a62fc4fccb",
-    "8eb7bfefcdb1c690"
+    "8eb7bfefcdb1c690",
+    "92192003f973783d"
   ]
 }
