@@ -7,6 +7,22 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>EU AI Act Enforcement Test: Meta's Defiance Challenges Regulator</title>
+      <link>https://aiglimpse.ai/articles/eu-ai-act-enforcement-test-metas-defiance-challenges-regulator-ad092a65</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/eu-ai-act-enforcement-test-metas-defiance-challenges-regulator-ad092a65</guid>
+      <description>The bloc's voluntary code becomes legally binding this August, forcing a showdown with major tech firms over compliance.</description>
+      <pubDate>Sun, 26 Jul 2026 00:00:00 GMT</pubDate>
+      <category>Ethics &amp; Policy</category>
+    </item>
+    <item>
+      <title>Cornell Researchers Beam AI Model Updates Directly Into Robot Memory</title>
+      <link>https://aiglimpse.ai/articles/cornell-researchers-beam-ai-model-updates-directly-into-robot-memory-79d66d71</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/cornell-researchers-beam-ai-model-updates-directly-into-robot-memory-79d66d71</guid>
+      <description>New optical receiver technology could slash energy consumption in AI systems by transmitting data via light instead of power-hungry electrical connections.</description>
+      <pubDate>Sun, 26 Jul 2026 13:00:01 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
       <title>ChatGPT Health Feature Faces First Lawsuit Over Medical Harm Claims</title>
       <link>https://aiglimpse.ai/articles/chatgpt-health-feature-faces-first-lawsuit-over-medical-harm-claims-92192003</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/chatgpt-health-feature-faces-first-lawsuit-over-medical-harm-claims-92192003</guid>
@@ -388,22 +404,6 @@
       <guid isPermaLink="true">https://aiglimpse.ai/articles/new-adapter-methods-boost-reasoning-accuracy-in-language-models-b3f0c0dd</guid>
       <description>Researchers introduce dynamic state-tracking techniques that improve multi-hop reasoning performance across major LLM architectures.</description>
       <pubDate>Tue, 21 Jul 2026 17:47:57 GMT</pubDate>
-      <category>AI Research</category>
-    </item>
-    <item>
-      <title>AI Models Waste Context by Copying Input, Researchers Find Fix</title>
-      <link>https://aiglimpse.ai/articles/ai-models-waste-context-by-copying-input-researchers-find-fix-f26f0779</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/ai-models-waste-context-by-copying-input-researchers-find-fix-f26f0779</guid>
-      <description>New training method teaches language models to focus on relevant evidence rather than mindlessly reproducing source material.</description>
-      <pubDate>Tue, 21 Jul 2026 17:59:21 GMT</pubDate>
-      <category>AI Research</category>
-    </item>
-    <item>
-      <title>Researchers Extend AI Causal Discovery to Handle Real-World Messy Data</title>
-      <link>https://aiglimpse.ai/articles/researchers-extend-ai-causal-discovery-to-handle-real-world-messy-data-0388e280</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/researchers-extend-ai-causal-discovery-to-handle-real-world-messy-data-0388e280</guid>
-      <description>New method adapts machine learning techniques to irregular time series, unlocking analysis of healthcare, finance, and sensor data.</description>
-      <pubDate>Mon, 20 Jul 2026 17:57:45 GMT</pubDate>
       <category>AI Research</category>
     </item>
   </channel>

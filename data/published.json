@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "eu-ai-act-enforcement-test-metas-defiance-challenges-regulator-ad092a65",
+      "title": "EU AI Act Enforcement Test: Meta's Defiance Challenges Regulator",
+      "subtitle": "The bloc's voluntary code becomes legally binding this August, forcing a showdown with major tech firms over compliance.",
+      "category": "ethics",
+      "publishedAt": "2026-07-26T00:00:00.000Z",
+      "sourceUrl": "https://www.techpolicy.press/chatgpt-didnt-break-the-ai-act-it-showed-why-adaptive-regulation-matters/",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/eu-ai-act-enforcement-test-metas-defiance-challenges-regulator-ad092a65.jpg"
+    },
+    {
+      "slug": "cornell-researchers-beam-ai-model-updates-directly-into-robot-memory-79d66d71",
+      "title": "Cornell Researchers Beam AI Model Updates Directly Into Robot Memory",
+      "subtitle": "New optical receiver technology could slash energy consumption in AI systems by transmitting data via light instead of power-hungry electrical connections.",
+      "category": "research",
+      "publishedAt": "2026-07-26T13:00:01.000Z",
+      "sourceUrl": "https://spectrum.ieee.org/ai-in-robotics",
+      "sourceName": "IEEE Spectrum AI",
+      "sourceTier": 2,
+      "image": "/images/articles/cornell-researchers-beam-ai-model-updates-directly-into-robot-memory-79d66d71.jpg"
+    },
+    {
       "slug": "chatgpt-health-feature-faces-first-lawsuit-over-medical-harm-claims-92192003",
       "title": "ChatGPT Health Feature Faces First Lawsuit Over Medical Harm Claims",
       "subtitle": "Legal action against OpenAI signals emerging liability questions for AI-powered health advice tools and sets precedent for consumer medical features.",
@@ -9321,6 +9343,8 @@
     "07bb293f782022a3",
     "326e21a62fc4fccb",
     "8eb7bfefcdb1c690",
-    "92192003f973783d"
+    "92192003f973783d",
+    "79d66d719d7b4353",
+    "ad092a652eef153c"
   ]
 }
