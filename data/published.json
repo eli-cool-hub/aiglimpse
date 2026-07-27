@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "microsoft-expands-healthcare-ai-team-with-six-figure-positions-bf45b038",
+      "title": "Microsoft Expands Healthcare AI Team With Six-Figure Positions",
+      "subtitle": "The tech giant is aggressively staffing clinical AI roles, signaling serious investment in healthcare transformation alongside Mayo Clinic.",
+      "category": "industry",
+      "publishedAt": "2026-07-27T14:19:20.000Z",
+      "sourceUrl": "https://www.beckershospitalreview.com/disruptors/microsofts-pay-for-3-health-tech-jobs/",
+      "sourceName": "Becker's Hospital Review",
+      "sourceTier": 2,
+      "image": "/images/articles/microsoft-expands-healthcare-ai-team-with-six-figure-positions-bf45b038.jpg"
+    },
+    {
+      "slug": "nvidia-convenes-44-partners-to-build-open-ai-security-standard-1d00a32b",
+      "title": "Nvidia Convenes 44 Partners to Build Open AI Security Standard",
+      "subtitle": "A new industry coalition aims to establish vendor-neutral security tools for enterprise AI systems, moving beyond proprietary approaches.",
+      "category": "ethics",
+      "publishedAt": "2026-07-27T00:00:00.000Z",
+      "sourceUrl": "https://blogs.nvidia.com/blog/open-secure-ai-alliance/",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/nvidia-convenes-44-partners-to-build-open-ai-security-standard-1d00a32b.jpg"
+    },
+    {
       "slug": "ai-is-redefining-job-roles-as-workers-embrace-new-capabilities-8b18663d",
       "title": "AI Is Redefining Job Roles as Workers Embrace New Capabilities",
       "subtitle": "Research reveals how ChatGPT users are expanding their professional responsibilities and breaking down traditional job boundaries.",
@@ -9429,6 +9451,8 @@
     "101628e53023f46c",
     "a30a97956a4912a5",
     "014f04d10eacb7b3",
-    "8b18663dd6e95799"
+    "8b18663dd6e95799",
+    "1d00a32be6bad03b",
+    "bf45b03832eac6f2"
   ]
 }
