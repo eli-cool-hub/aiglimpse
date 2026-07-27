@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "enterprise-ai-agents-need-systems-design-not-just-better-models-96068a0b",
+      "title": "Enterprise AI Agents Need Systems Design, Not Just Better Models",
+      "subtitle": "New research reveals why deploying autonomous AI workflows at scale requires rethinking infrastructure, monitoring, and capacity planning entirely.",
+      "category": "research",
+      "publishedAt": "2026-07-27T11:32:58.000Z",
+      "sourceUrl": "https://www.technologyreview.com/2026/07/27/1140668/building-the-enterprise-environment-for-agentic-ai/",
+      "sourceName": "MIT Technology Review AI",
+      "sourceTier": 2,
+      "image": "/images/articles/enterprise-ai-agents-need-systems-design-not-just-better-models-96068a0b.jpg"
+    },
+    {
+      "slug": "apples-14-billion-ai-gamble-hinges-on-industry-collapse-3321b1e2",
+      "title": "Apple's $14 Billion AI Gamble Hinges on Industry Collapse",
+      "subtitle": "The tech giant's strategy to build AI capabilities only pays off if the market implodes. Otherwise, it faces years of dependency on rivals.",
+      "category": "ethics",
+      "publishedAt": "2026-07-27T00:00:00.000Z",
+      "sourceUrl": "https://www.macrumors.com/2026/07/27/ed-zitron-apple-watch-it-burn-ai-bubble-bursts/",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/apples-14-billion-ai-gamble-hinges-on-industry-collapse-3321b1e2.jpg"
+    },
+    {
       "slug": "microsoft-expands-healthcare-ai-team-with-six-figure-positions-bf45b038",
       "title": "Microsoft Expands Healthcare AI Team With Six-Figure Positions",
       "subtitle": "The tech giant is aggressively staffing clinical AI roles, signaling serious investment in healthcare transformation alongside Mayo Clinic.",
@@ -9453,6 +9475,8 @@
     "014f04d10eacb7b3",
     "8b18663dd6e95799",
     "1d00a32be6bad03b",
-    "bf45b03832eac6f2"
+    "bf45b03832eac6f2",
+    "3321b1e291871be6",
+    "96068a0be3253c0f"
   ]
 }

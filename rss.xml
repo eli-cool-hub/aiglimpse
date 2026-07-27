@@ -7,6 +7,22 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Enterprise AI Agents Need Systems Design, Not Just Better Models</title>
+      <link>https://aiglimpse.ai/articles/enterprise-ai-agents-need-systems-design-not-just-better-models-96068a0b</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/enterprise-ai-agents-need-systems-design-not-just-better-models-96068a0b</guid>
+      <description>New research reveals why deploying autonomous AI workflows at scale requires rethinking infrastructure, monitoring, and capacity planning entirely.</description>
+      <pubDate>Mon, 27 Jul 2026 11:32:58 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
+      <title>Apple's $14 Billion AI Gamble Hinges on Industry Collapse</title>
+      <link>https://aiglimpse.ai/articles/apples-14-billion-ai-gamble-hinges-on-industry-collapse-3321b1e2</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/apples-14-billion-ai-gamble-hinges-on-industry-collapse-3321b1e2</guid>
+      <description>The tech giant's strategy to build AI capabilities only pays off if the market implodes. Otherwise, it faces years of dependency on rivals.</description>
+      <pubDate>Mon, 27 Jul 2026 00:00:00 GMT</pubDate>
+      <category>Ethics &amp; Policy</category>
+    </item>
+    <item>
       <title>Microsoft Expands Healthcare AI Team With Six-Figure Positions</title>
       <link>https://aiglimpse.ai/articles/microsoft-expands-healthcare-ai-team-with-six-figure-positions-bf45b038</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/microsoft-expands-healthcare-ai-team-with-six-figure-positions-bf45b038</guid>
@@ -389,22 +405,6 @@
       <description>OmniReasoner teaches language models to zoom in on relevant clips, reducing computational costs while improving accuracy on complex multimodal reasoning tasks.</description>
       <pubDate>Tue, 21 Jul 2026 17:57:50 GMT</pubDate>
       <category>AI Research</category>
-    </item>
-    <item>
-      <title>New Benchmark Exposes AI Image Generators' Struggle With Expert-Level Reasoning</title>
-      <link>https://aiglimpse.ai/articles/new-benchmark-exposes-ai-image-generators-struggle-with-expert-level-reasoning-83086a7e</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-benchmark-exposes-ai-image-generators-struggle-with-expert-level-reasoning-83086a7e</guid>
-      <description>Researchers introduce ExpertVerse to test whether multimodal AI can handle knowledge-intensive visual tasks across professional domains.</description>
-      <pubDate>Tue, 21 Jul 2026 17:59:02 GMT</pubDate>
-      <category>AI Research</category>
-    </item>
-    <item>
-      <title>OpenAI Launches Enterprise Platform for Deploying AI Voice and Chat Agents</title>
-      <link>https://aiglimpse.ai/articles/openai-launches-enterprise-platform-for-deploying-ai-voice-and-chat-agents-3c029e62</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/openai-launches-enterprise-platform-for-deploying-ai-voice-and-chat-agents-3c029e62</guid>
-      <description>New system targets organizations seeking to automate customer interactions and internal processes with conversational AI.</description>
-      <pubDate>Wed, 22 Jul 2026 05:30:00 GMT</pubDate>
-      <category>LLMs &amp; Chatbots</category>
     </item>
   </channel>
 </rss>
