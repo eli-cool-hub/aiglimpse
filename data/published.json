@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "ai-is-redefining-job-roles-as-workers-embrace-new-capabilities-8b18663d",
+      "title": "AI Is Redefining Job Roles as Workers Embrace New Capabilities",
+      "subtitle": "Research reveals how ChatGPT users are expanding their professional responsibilities and breaking down traditional job boundaries.",
+      "category": "llms",
+      "publishedAt": "2026-07-27T03:30:00.000Z",
+      "sourceUrl": "https://openai.com/index/how-ai-is-expanding-what-people-do-at-work",
+      "sourceName": "OpenAI",
+      "sourceTier": 1,
+      "image": "/images/articles/ai-is-redefining-job-roles-as-workers-embrace-new-capabilities-8b18663d.jpg"
+    },
+    {
+      "slug": "nvidia-unveils-real-time-simulation-model-for-surgical-robot-training-014f04d1",
+      "title": "NVIDIA Unveils Real-Time Simulation Model for Surgical Robot Training",
+      "subtitle": "New generative AI system enables faster, safer development of autonomous surgical systems through physics-based digital environments.",
+      "category": "tools",
+      "publishedAt": "2026-07-27T09:32:20.000Z",
+      "sourceUrl": "https://huggingface.co/blog/nvidia/cosmos-h-dreams",
+      "sourceName": "Hugging Face",
+      "sourceTier": 1,
+      "image": "/images/articles/nvidia-unveils-real-time-simulation-model-for-surgical-robot-training-014f04d1.jpg"
+    },
+    {
       "slug": "llm-context-window-explained",
       "title": "LLM Context Windows Explained: Tokens, Limits, and Trade-offs",
       "subtitle": "What counts as tokens, why context length matters, and how to choose models for your workload.",
@@ -9405,6 +9427,8 @@
     "5481b92102e84755",
     "e2aa67842c83f103",
     "101628e53023f46c",
-    "a30a97956a4912a5"
+    "a30a97956a4912a5",
+    "014f04d10eacb7b3",
+    "8b18663dd6e95799"
   ]
 }

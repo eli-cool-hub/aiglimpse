@@ -7,6 +7,30 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>AI Is Redefining Job Roles as Workers Embrace New Capabilities</title>
+      <link>https://aiglimpse.ai/articles/ai-is-redefining-job-roles-as-workers-embrace-new-capabilities-8b18663d</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/ai-is-redefining-job-roles-as-workers-embrace-new-capabilities-8b18663d</guid>
+      <description>Research reveals how ChatGPT users are expanding their professional responsibilities and breaking down traditional job boundaries.</description>
+      <pubDate>Mon, 27 Jul 2026 03:30:00 GMT</pubDate>
+      <category>LLMs &amp; Chatbots</category>
+    </item>
+    <item>
+      <title>NVIDIA Unveils Real-Time Simulation Model for Surgical Robot Training</title>
+      <link>https://aiglimpse.ai/articles/nvidia-unveils-real-time-simulation-model-for-surgical-robot-training-014f04d1</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/nvidia-unveils-real-time-simulation-model-for-surgical-robot-training-014f04d1</guid>
+      <description>New generative AI system enables faster, safer development of autonomous surgical systems through physics-based digital environments.</description>
+      <pubDate>Mon, 27 Jul 2026 09:32:20 GMT</pubDate>
+      <category>AI Tools &amp; Products</category>
+    </item>
+    <item>
+      <title>LLM Context Windows Explained: Tokens, Limits, and Trade-offs</title>
+      <link>https://aiglimpse.ai/articles/llm-context-window-explained</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/llm-context-window-explained</guid>
+      <description>What counts as tokens, why context length matters, and how to choose models for your workload.</description>
+      <pubDate>Mon, 27 Jul 2026 10:03:32 GMT</pubDate>
+      <category>LLMs &amp; Chatbots</category>
+    </item>
+    <item>
       <title>OpenAI's Math Breakthrough Could Reset AI Safety Rules</title>
       <link>https://aiglimpse.ai/articles/openais-math-breakthrough-could-reset-ai-safety-rules-a30a9795</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/openais-math-breakthrough-could-reset-ai-safety-rules-a30a9795</guid>
@@ -381,30 +405,6 @@
       <description>The company commits to local job creation and community benefits as it builds computational capacity for large language models.</description>
       <pubDate>Wed, 22 Jul 2026 13:00:00 GMT</pubDate>
       <category>LLMs &amp; Chatbots</category>
-    </item>
-    <item>
-      <title>Google DeepMind Pledges $40M to Accelerate AI-Driven Research</title>
-      <link>https://aiglimpse.ai/articles/google-deepmind-pledges-40m-to-accelerate-ai-driven-research-debdba1a</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/google-deepmind-pledges-40m-to-accelerate-ai-driven-research-debdba1a</guid>
-      <description>The tech giant backs the Genesis Mission with computational resources to unlock breakthroughs across scientific disciplines.</description>
-      <pubDate>Wed, 22 Jul 2026 13:38:54 GMT</pubDate>
-      <category>AI Research</category>
-    </item>
-    <item>
-      <title>Major US Utilities Commit to Shielding Consumers From AI Energy Costs</title>
-      <link>https://aiglimpse.ai/articles/major-us-utilities-commit-to-shielding-consumers-from-ai-energy-costs-33a80902</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/major-us-utilities-commit-to-shielding-consumers-from-ai-energy-costs-33a80902</guid>
-      <description>Nearly 200 companies pledge to prevent artificial intelligence infrastructure from driving up electricity bills for everyday Americans.</description>
-      <pubDate>Wed, 22 Jul 2026 10:12:13 GMT</pubDate>
-      <category>AI Tools &amp; Products</category>
-    </item>
-    <item>
-      <title>Researchers Teach AI Video Models to Control Robots via Visual Trajectories</title>
-      <link>https://aiglimpse.ai/articles/researchers-teach-ai-video-models-to-control-robots-via-visual-trajectories-958ca5d2</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/researchers-teach-ai-video-models-to-control-robots-via-visual-trajectories-958ca5d2</guid>
-      <description>A new technique lets pre-trained video models serve as robot controllers by treating actions as masked motion patterns, enabling learning from minimal real-world data.</description>
-      <pubDate>Tue, 21 Jul 2026 17:59:11 GMT</pubDate>
-      <category>AI Research</category>
     </item>
   </channel>
 </rss>
