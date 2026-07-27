@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "openais-math-breakthrough-could-reset-ai-safety-rules-a30a9795",
+      "title": "OpenAI's Math Breakthrough Could Reset AI Safety Rules",
+      "subtitle": "Altman plans White House pitch on autonomous theorem-proving capabilities, potentially reshaping regulatory frameworks for competing labs.",
+      "category": "ethics",
+      "publishedAt": "2026-07-26T00:00:00.000Z",
+      "sourceUrl": "https://www.axios.com/2026/07/26/sam-altman-openai-trump-white-house-visit",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/openais-math-breakthrough-could-reset-ai-safety-rules-a30a9795.jpg"
+    },
+    {
       "slug": "microsofts-ai-push-strains-azure-gpu-supply-forcing-competitors-infrastructure-101628e5",
       "title": "Microsoft's AI Push Strains Azure GPU Supply, Forcing Competitors' Infrastructure",
       "subtitle": "The cloud giant is now renting GPU capacity from rivals to fuel its own AI ambitions, signaling capacity constraints that will reshape enterprise negotiations.",
@@ -9381,6 +9392,7 @@
     "ad092a652eef153c",
     "5481b92102e84755",
     "e2aa67842c83f103",
-    "101628e53023f46c"
+    "101628e53023f46c",
+    "a30a97956a4912a5"
   ]
 }
