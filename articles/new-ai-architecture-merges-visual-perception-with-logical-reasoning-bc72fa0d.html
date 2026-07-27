@@ -132,7 +132,6 @@
   <figcaption class="article-image-credit">Photo by <a href="https://www.pexels.com/photo/black-and-white-geometric-representation-of-data-25626446/" rel="nofollow noopener" target="_blank">Google DeepMind</a> on Pexels.</figcaption>
 </figure>
 
-
 <p>The new framework maintains continuous mathematical bridges throughout the reasoning process. Rather than producing discrete symbolic outputs, perception generates probabilistic "soft" representations. These soft estimates flow directly into the deductive system, which performs reasoning operations while preserving the ability to compute gradients - the mathematical signals that drive learning.</p>
 
 <p>The system represents its logical state as a tensor of soft interpretations across candidate entities and predicates. External knowledge stored in knowledge graphs enters as high-confidence evidence, and every reasoning step from querying predicates to updating the logical state remains fully differentiable. The core technical contribution involves a learned, differentiable version of the "immediate-consequence operator," a classical concept from formal logic that determines what conclusions follow from given premises.</p>

@@ -135,7 +135,6 @@
   <figcaption class="article-image-credit">Photo by <a href="https://www.pexels.com/photo/person-holding-white-document-paper-8085931/" rel="nofollow noopener" target="_blank">Ron Lach</a> on Pexels.</figcaption>
 </figure>
 
-
 <p>The input layer determines everything downstream. Documents arrive in chaos: PDFs with scanned images, Markdown with front matter, unstructured HTML, tables, nested JSON. Before chunking, they must be parsed, cleaned, and normalized.</p>
 
 <p>Start with a document parser that respects structure. For PDFs, tools like PyPDF2 or pdfplumber extract text, but often mangled. A library like unstructured.io or LlamaIndex's document loaders handle semantic parsing: they recognize headers, lists, tables, and metadata. For web content, HTML parsers like BeautifulSoup or readability libraries strip boilerplate and extract the meat. The goal is structured data: chunks retain metadata (source, date, author, section), and logical boundaries are preserved.</p>
@@ -157,12 +156,6 @@
 <p>One subtle trap: don't chunk before you parse. Chunk after extraction and cleaning. A PDF header that appears in every chunk wastes retrieval signal and context window. Pre-process first, then chunk.</p>
 
 <h2>Embedding, indexing, and retrieval</h2>
-<figure class="article-image article-image--inline">
-  <picture><source srcset="/images/articles/building-production-rag-pipeline-inline-2.webp" type="image/webp"><img src="/images/articles/building-production-rag-pipeline-inline-2.jpg" alt="Embedding, indexing, and retrieval" loading="lazy" width="1200" height="630"></picture>
-  <figcaption class="article-image-credit">Photo by <a href="https://www.pexels.com/photo/man-wearing-eyeglasses-while-holding-papers-7877194/" rel="nofollow noopener" target="_blank">www.kaboompics.com</a> on Pexels.</figcaption>
-</figure>
-
-
 <p>Once chunks exist, they must be converted to <a href="/articles/embedding-models-compared-2026">embeddings</a> (dense vectors) and indexed for fast retrieval. The choice of embedding model is underrated. An older embedding model like text-embedding-ada-002 is cheap and reliable but weak on domain-specific tasks. A newer model like text-embedding-3-large is better but slower and pricier. A small open-source model like BAAI/bge-small-en-v1.5 is fast and free but less accurate on distant domains.</p>
 
 <p>A pragmatic heuristic: choose an embedding model that beats a strong BM25 baseline on your domain. If you don't have a domain benchmark yet, build one. Collect 100 queries (from users, customer support, or synthetic) and annotate which documents are relevant. Then measure. Most teams find that hybrid search (BM25 + semantic) outperforms pure vectors because keywords and meaning are orthogonal signals.</p>
