@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LLM Context Windows Explained: Tokens, Limits, and Trade-offs | AI Glimpse</title>
+  <meta name="description" content="Complete guide to LLM context windows: how tokens work, why limits matter, long-context trade-offs, and cost implications for developers.">
+  <meta name="keywords" content="context window, LLM tokens, long context, token limits, context length, input tokens, language model">
+  <link rel="canonical" href="https://aiglimpse.ai/articles/llm-context-window-explained">
+  <meta property="og:type" content="article"><meta property="og:site_name" content="AI Glimpse">
+  <meta property="og:title" content="LLM Context Windows Explained: Tokens, Limits, and Trade-offs">
+  <meta property="og:description" content="Complete guide to LLM context windows: how tokens work, why limits matter, long-context trade-offs, and cost implications for developers.">
+  <meta property="og:url" content="https://aiglimpse.ai/articles/llm-context-window-explained">
+  <meta property="og:image" content="https://aiglimpse.ai/images/articles/llm-context-window-explained.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="article:published_time" content="2026-07-27T10:03:32.240Z">
+  <meta property="article:section" content="LLMs & Chatbots">
+  <meta property="article:tag" content="context window">
+  <meta property="article:tag" content="LLM tokens">
+  <meta property="article:tag" content="long context">
+  <meta property="article:tag" content="token limits">
+  <meta property="article:tag" content="context length">
+  <meta property="article:tag" content="input tokens">
+  <meta property="article:tag" content="language model">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="LLM Context Windows Explained: Tokens, Limits, and Trade-offs">
+  <meta name="twitter:description" content="Complete guide to LLM context windows: how tokens work, why limits matter, long-context trade-offs, and cost implications for developers.">
+  <meta name="twitter:image" content="https://aiglimpse.ai/images/articles/llm-context-window-explained.jpg">
+  <link rel="icon" type="image/svg+xml" href="/images/favicon.svg">
+  <link rel="alternate" type="application/rss+xml" title="AI Glimpse RSS" href="/rss.xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700;9..144,900&family=Inter+Tight:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap">
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="preload" as="image" href="/images/articles/llm-context-window-explained.webp" type="image/webp" fetchpriority="high">
+  <style>.reading-progress{position:fixed;top:0;left:0;height:3px;background:var(--color-accent);width:0%;z-index:200;transition:width 100ms linear;}</style>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","mainEntityOfPage":{"@type":"WebPage","@id":"https://aiglimpse.ai/articles/llm-context-window-explained"},"headline":"LLM Context Windows Explained: Tokens, Limits, and Trade-offs","description":"Complete guide to LLM context windows: how tokens work, why limits matter, long-context trade-offs, and cost implications for developers.","image":["https://aiglimpse.ai/images/articles/llm-context-window-explained.jpg"],"datePublished":"2026-07-27T10:03:32.240Z","dateModified":"2026-07-27T10:03:32.240Z","author":{"@type":"Organization","name":"AI Glimpse Newsroom"},"publisher":{"@type":"Organization","name":"AI Glimpse","logo":{"@type":"ImageObject","url":"https://aiglimpse.ai/images/logo.svg"}},"articleSection":"LLMs & Chatbots","keywords":"context window, LLM tokens, long context, token limits, context length, input tokens, language model"}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://aiglimpse.ai/"},{"@type":"ListItem","position":2,"name":"LLMs & Chatbots","item":"https://aiglimpse.ai/categories/llms"},{"@type":"ListItem","position":3,"name":"LLM Context Windows Explained: Tokens, Limits, and Trade-offs","item":"https://aiglimpse.ai/articles/llm-context-window-explained"}]}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What is a token in an LLM context window?","acceptedAnswer":{"@type":"Answer","text":"A token is a unit of text that an LLM processes. Most commonly, one token represents roughly 4 characters or 0.75 words in English. Tokenization varies by model, but GPT-style models use subword tokenization, splitting text into pieces smaller than full words. Spaces, punctuation, and even partial words can each be a token."}},{"@type":"Question","name":"Why do context windows have limits?","acceptedAnswer":{"@type":"Answer","text":"Context windows are limited by GPU memory, computational cost, and model training choices. Larger context requires more processing power and memory during inference. Models are trained with a maximum sequence length in mind, and exceeding it risks degraded performance or instability."}},{"@type":"Question","name":"Do longer context windows always cost more?","acceptedAnswer":{"@type":"Answer","text":"Yes, per-token pricing is typically identical, but using more context means more input tokens billed. Some providers charge differently for input versus output tokens. A 100k-token context window at full capacity will cost roughly 10 times more than a 10k window with identical prose."}},{"@type":"Question","name":"What is the 'lost in the middle' problem?","acceptedAnswer":{"@type":"Answer","text":"Many LLMs perform worse on information buried in the middle of a long context window. They often focus on the beginning and end while ignoring mid-document details. This is a real limitation when using long-context models for retrieval or summarization tasks."}},{"@type":"Question","name":"Should I use a long-context model for everything?","acceptedAnswer":{"@type":"Answer","text":"No. Longer context windows add latency and cost. For short queries or well-structured prompts, smaller context windows are faster and cheaper. Long-context models are best suited for document processing, code review, or conversation threads where you genuinely need to keep large amounts of prior information in play."}},{"@type":"Question","name":"How do I estimate tokens before querying an API?","acceptedAnswer":{"@type":"Answer","text":"Use a tokenizer for your target model: OpenAI provides a Python tiktoken library, Anthropic publishes their token counter, and Hugging Face hosts most open-source tokenizers. As a rule of thumb, assume 1 token per 4 characters or 0.75 words for English text, but always validate with the real tokenizer."}},{"@type":"Question","name":"What is the practical limit for long-context retrieval?","acceptedAnswer":{"@type":"Answer","text":"Beyond about 50k tokens, retrieval quality often degrades, and latency becomes noticeable. Most real-world workloads benefit more from semantic search plus few-shot examples than from dumping an entire corpus into one prompt. Hybrid approaches (RAG with smaller context windows) often outperform brute-force long-context filling."}}]}</script>
+  <meta name="google-site-verification" content="B132aMlqf1nssWYhjOSKUgSjmfwNWgPgtozZsHDxWlU" />
+  <meta name="msvalidate.01" content="F3762E555B3E685836AE39C90B79ECBF" />
+  <!-- aiglimpse-consent-default v1: must run before AdSense, defaults all ad/analytics storage to denied -->
+  <script>(function(){window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}window.gtag=gtag;gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'denied',functionality_storage:'granted',security_storage:'granted',wait_for_update:500});try{var s=JSON.parse(localStorage.getItem('aiglimpse-consent')||'null');if(s&&s.choice==='granted'){gtag('consent','update',{ad_storage:'granted',ad_user_data:'granted',ad_personalization:'granted',analytics_storage:'granted'});}}catch(e){}})();</script>
+  <!-- aiglimpse-ga4 v1: gtag.js loaded after consent default, so it buffers events until consent is granted -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-EVZ52DNQ8S"></script>
+  <script>gtag('js', new Date()); gtag('config', 'G-EVZ52DNQ8S', { anonymize_ip: true });</script>
+</head>
+<body>
+  <div class="reading-progress" aria-hidden="true"></div>
+  <header class="site-header" role="banner">
+    <div class="container">
+      <div class="header-bar">
+        <a href="/" class="logo" aria-label="AI Glimpse home">
+          <span class="logo-wordmark" aria-label="AI Glimpse">A<span class="iris-i" aria-hidden="true">ı</span><span aria-hidden="true"> Glimpse</span></span>
+        </a>
+        <nav class="nav-primary" aria-label="Primary">
+          <a href="/categories/llms">LLMs</a>
+            <a href="/categories/research">Research</a>
+            <a href="/categories/tools">Tools</a>
+            <a href="/categories/business">Business</a>
+            <a href="/categories/ethics">Ethics</a>
+            <a href="/categories/industry">Industry</a>
+            <a href="/categories/robotics">Robotics</a>
+        </nav>
+        <div class="header-actions">
+          <a class="search-btn" href="/search" aria-label="Search">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="11" cy="11" r="7"/><path d="M21 21l-4.35-4.35"/>
+            </svg>
+          </a>
+          <a href="#newsletter" class="btn btn--primary btn--sm">Subscribe</a>
+          <button class="menu-btn" aria-label="Open menu">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+  <aside class="mobile-menu" aria-label="Mobile menu">
+    <div class="mobile-menu-header">
+      <a href="/" class="logo">
+        <span class="logo-wordmark" aria-label="AI Glimpse">A<span class="iris-i" aria-hidden="true">ı</span><span aria-hidden="true"> Glimpse</span></span>
+      </a>
+      <button class="mobile-menu-close" aria-label="Close menu" style="font-size:24px;">×</button>
+    </div>
+    <a href="/categories/llms">LLMs</a>
+    <a href="/categories/research">Research</a>
+    <a href="/categories/tools">Tools</a>
+    <a href="/categories/business">Business</a>
+    <a href="/categories/ethics">Ethics</a>
+    <a href="/categories/industry">Industry</a>
+    <a href="/categories/robotics">Robotics</a>
+    <a href="/search">Search</a>
+    <a href="/pages/about">About</a>
+    <a href="#newsletter">Subscribe</a>
+  </aside>
+  <main>
+    <article>
+      <section class="article-hero">
+        <div class="container container--narrow">
+          <nav aria-label="Breadcrumb" style="margin-bottom:var(--space-4);font-size:var(--text-xs);color:var(--color-ink-muted);">
+            <a href="/" style="color:inherit;">Home</a> /
+            <a href="/categories/llms" style="color:inherit;">LLMs & Chatbots</a> /
+            <span>Explainer</span>
+          </nav>
+          <div class="article-hero-meta">
+            <span class="tag tag--llm">LLMs & Chatbots</span>
+            <span class="eyebrow eyebrow--accent">Explainer</span>
+            <span class="eyebrow">10 min read</span>
+          </div>
+          <h1 class="article-hero-title">LLM Context Windows Explained: Tokens, Limits, and Trade-offs</h1>
+          <p class="article-hero-subtitle">What counts as tokens, why context length matters, and how to choose models for your workload.</p>
+          <div class="article-byline">
+            <div>By <strong>AI Glimpse Newsroom</strong></div><div>·</div>
+            <div><time datetime="2026-07-27T10:03:32.240Z" data-relative="false">July 27, 2026</time></div>
+          </div>
+        </div>
+      </section>
+      <section style="padding: var(--space-7) 0;">
+        <div class="container container--narrow">
+          <figure class="article-image"><picture><source srcset="/images/articles/llm-context-window-explained.webp" type="image/webp"><img src="/images/articles/llm-context-window-explained.jpg" alt="LLM Context Windows Explained: Tokens, Limits, and Trade-offs" loading="eager" fetchpriority="high" width="1200" height="630"></picture></figure>
+          <div class="article-body"><p>A context window is the maximum amount of text an LLM can process in a single request, measured in tokens. It is the hard boundary between what a model can see and what it cannot. For a developer or product manager sizing workloads, the context window determines what fits in a single API call, how much history a chatbot can retain, and ultimately, whether a $0.01 problem becomes a $1.00 problem. Understanding context windows means understanding tokens, why limits exist, what trade-offs long-context models introduce, and when they are worth the cost.</p>
+
+<h2>Why this matters now</h2>
+
+<p>In 2026, context windows are no longer a constraint but a design choice. Claude 3.5 Sonnet ships with a 200k token window. GPT-4o supports 128k. Open-source models like LLaMA 3.1 offer windows up to 128k. Ten years ago, a 2k context window was standard. Five years ago, 4k felt luxurious. Today, "long-context" has become table stakes in the model market. Yet abundance has created a new problem: developers now struggle to decide whether they need it.</p>
+
+<p>This shift matters because context window size directly affects cost, latency, and application architecture. A <a href="/articles/what-is-retrieval-augmented-generation-rag">retrieval-augmented generation</a> (RAG) system using semantic search is fundamentally different from one that stuffs 100k tokens of raw documents into a prompt. The choice between them is not purely technical; it is economic and architectural. It shapes whether you build a simple, stateless API or a complex system with database lookups, ranking pipelines, and state management. Getting this decision wrong wastes engineering time and money.</p>
+
+<h2>What tokens actually are</h2>
+<figure class="article-image article-image--inline">
+  <picture><source srcset="/images/articles/llm-context-window-explained-inline-1.webp" type="image/webp"><img src="/images/articles/llm-context-window-explained-inline-1.jpg" alt="What tokens actually are" loading="lazy" width="1200" height="630"></picture>
+  <figcaption class="article-image-credit">Photo by <a href="https://www.pexels.com/photo/black-framed-eyeglasses-on-the-laptop-8358143/" rel="nofollow noopener" target="_blank">Leeloo The First</a> on Pexels.</figcaption>
+</figure>
+
+
+<p>A token is the unit of text that an LLM processes. It is not a word. It is not a character. It is a subword unit chosen by the model's training process.</p>
+
+<p>Most modern LLMs use byte-pair encoding (BPE) or similar subword tokenization schemes. Here is what that means in practice: the English sentence "Hello, world!" tokenizes into roughly 3 to 4 tokens, not 2. The comma might be its own token. The space before "world" might be bundled with "world" as a single token. A word like "international" might split into "inter" and "national", or "international" might stay whole, depending on how frequently it appeared in the training corpus. Common words and punctuation tend to be single tokens. Uncommon words, numbers, and code often split into multiple tokens.</p>
+
+<p>Why this design choice? Tokenization is a trade-off between vocabulary size and sequence length. If an LLM had a vocabulary of single characters, a 1000-word document would require 5000 or more tokens. If the vocabulary included every possible word, it would balloon to millions of entries, making the model harder to train. Subword tokenization finds a middle ground: a vocabulary of around 50k to 100k tokens can represent almost any text, keeping sequence length manageable while maintaining coverage.</p>
+
+<p>For your purposes, remember this rule of thumb: one token is roughly 4 characters, or about 0.75 English words. That estimate holds for English prose. For code, numbers, or non-English text, the ratio is worse (fewer characters per token). Always validate with the actual tokenizer for your model before you submit a workload.</p>
+
+<h2>How context windows constrain what you can do</h2>
+
+<p>A context window is a hard limit. If your input (prompt plus all prior conversation history, documents, examples) exceeds the window, the model either refuses the request or you must truncate content. There is no sneaking around it.</p>
+
+<p>Consider a practical example: a developer building a multi-turn chatbot on GPT-4o (128k context window) might retain all conversation history. With a 4k window model, they would need to summarize old messages or discard them. For a document processing task, a 32k window means you can fit roughly 8,000 words at a time. A 200k window can fit a whole book, or eight books, or a few books plus additional instructions and examples.</p>
+
+<p>Context length also affects latency. Processing a 100k token prompt takes noticeably longer than processing a 10k token prompt on the same hardware. The time scales roughly with the square of the context size due to the self-attention mechanism in transformer architectures. In production, a system that routinely hits the top 80% of available context will feel slower and tie up GPU resources longer than one that stays under 50%.</p>
+
+<p>Finally, context windows interact with pricing. Most LLM APIs charge per token, with separate rates for input and output tokens. A longer context window means more input tokens billed per request. At OpenAI's GPT-4o pricing (roughly $3 per million input tokens as of early 2026), a 100k token input costs about $0.30. The same content at a 10k context would cost $0.03. This compounds across millions of requests.</p>
+
+<h2>Long-context models trade throughput and latency for flexibility</h2>
+<figure class="article-image article-image--inline">
+  <picture><source srcset="/images/articles/llm-context-window-explained-inline-2.webp" type="image/webp"><img src="/images/articles/llm-context-window-explained-inline-2.jpg" alt="Long-context models trade throughput and latency for flexibility" loading="lazy" width="1200" height="630"></picture>
+  <figcaption class="article-image-credit">Photo by <a href="https://www.pexels.com/photo/brick-building-view-through-urban-window-38240610/" rel="nofollow noopener" target="_blank">Plato Terentev</a> on Pexels.</figcaption>
+</figure>
+
+
+<p>The appeal of a 200k context window is obvious: fit more into one request, simplify orchestration, reduce state management. The hidden cost is less obvious.</p>
+
+<p>First, latency increases. A 200k token prompt takes 4 to 10 times longer to process than a 10k prompt on the same model family. This is not a small constant overhead; it scales with the complexity of attention computation. If your application needs sub-second response times, a long-context model may not be an option, even if the model is otherwise superior.</p>
+
+<p>Second, throughput per dollar falls. A GPU batch-processing shorter requests completes more requests per hour than one processing long-context requests. If you run inference on your own hardware, long-context requests reduce your effective throughput and increase your cost per completed task. With cloud APIs, you pay directly for tokens, so the math is more transparent, but the economics are identical.</p>
+
+<p>Third, long-context models often exhibit the "lost in the middle" problem. Researchers at Stanford and MIT have documented that many LLMs perform worse on information buried in the middle of a long context window. When asked to retrieve a fact from position 50k in an input, these models sometimes perform worse than when the fact is at position 5k or 95k. This is not universal; newer models like Claude 3.5 mitigate it significantly. But it remains a real consideration. If you plan to throw raw data at a long-context model and expect it to find needles in a haystack, test it first.</p>
+
+<p>Fourth, long-context capabilities may come with trade-offs in other areas. A model trained to handle 200k tokens may have been optimized at the expense of short-context reasoning, instruction-following, or output quality on narrower tasks. The model that is best at everything does not exist. Trade-offs are real.</p>
+
+<h2>When to use long-context windows, and when not to</h2>
+
+<p>Long-context models are best suited for document processing, code understanding, and conversation history. A few concrete use cases:</p>
+
+<ul>
+  <li>Summarizing a 20k-word research paper in a single request rather than splitting it into chunks.</li>
+  <li>Analyzing a full codebase file (say, 10k to 50k tokens of code) without losing context across functions and classes.</li>
+  <li>Maintaining a full conversation thread of 20+ turns without summarizing or truncating history.</li>
+  <li>Processing a legal contract, book chapter, or technical manual in one request.</li>
+  <li>Running a few-shot learning scenario with 20+ examples plus a query, all in one prompt.</li>
+</ul>
+
+<p>Long-context windows are not necessary, and often counterproductive, for:</p>
+
+<ul>
+  <li>Single-turn question answering ("What is the capital of France?").</li>
+  <li>Classification tasks with consistent, short inputs.</li>
+  <li>Retrieval-augmented generation where semantic search already filters the corpus to the most relevant snippets.</li>
+  <li>Real-time applications where latency must be under 500ms.</li>
+  <li>Workloads where you need high throughput and cost efficiency, rather than convenience.</li>
+</ul>
+
+<p>The honest answer: if you are unsure whether you need long context, you probably do not. Start with a 4k or 8k context model. Add longer context only when you hit a concrete limitation. In many cases, a hybrid approach where you use semantic search to pre-filter documents, then pass the filtered results to the LLM, outperforms blind context-stuffing both in quality and cost.</p>
+
+<h2>Tokenization quirks that surprise engineers</h2>
+
+<p>Tokenization is not universal. Different models tokenize the same text differently. OpenAI's tiktoken tokenizer, Anthropic's tokenizer, and open-source models each have their own vocabulary. The same 1000-word essay might be 1300 tokens in one model and 1500 in another. This is not a bug; it is a consequence of different training corpora and design choices.</p>
+
+<p>A second surprise: whitespace and formatting matter. A string with many newlines, tabs, or inconsistent spacing will tokenize differently from the same string formatted tightly. Leading and trailing spaces around words can add tokens. This matters when you are trying to fit content precisely into a context window.</p>
+
+<p>Code and non-English text tokenize less efficiently than English prose. A line of Python or JSON can require 1.5 to 2 times as many tokens as the equivalent amount of English prose. If you are building a system that processes code, budget generously for context window usage.</p>
+
+<p>Numbers and proper nouns are inefficient. The number "123456789" might tokenize into 4 to 5 tokens, not 1. Long names, URLs, and hex strings likewise break into many tokens. If your workload includes lots of these, your effective context window is smaller than the nominal limit.</p>
+
+<h2>Common pitfalls when building on context windows</h2>
+
+<p>Underestimating tokenization costs is the most frequent mistake. Developers estimate content size in characters or words, then run an API call and find themselves $50 over budget. Use a tokenizer before you deploy.</p>
+
+<p>Assuming context window size equals quality is a second pitfall. A 200k context is not automatically better than a 64k context. The model architecture, training data, and instruction-tuning matter more than raw size. A smaller model with superior instruction-following can outperform a larger model with more raw context.</p>
+
+<p>The third pitfall: forgetting that context is not free storage. Some developers treat a long-context window as a way to avoid a proper database or retrieval system. They stuff historical data, cached results, and log files into prompts. This works until you hit latency timeouts or usage caps. A database with semantic search is almost always cheaper and faster for retrieval than scanning through a long prompt.</p>
+
+<p>A fourth pitfall: neglecting to test for the lost-in-the-middle problem. If your application puts critical information in the middle of a long context, test how well the model retrieves it. Do not assume a 200k window means the model is equally attentive across all 200k tokens.</p>
+
+<p>Finally, ignoring the cost of token-efficient alternatives. A system that uses RAG with a 4k context window might process the same documents as one using a 128k window, but at a fraction of the cost and latency. The engineering overhead is real, but so are the benefits. Evaluate the trade-off.</p>
+
+<h2>Practical next steps</h2>
+
+<p>If you are building on LLMs and sizing context windows, start here: use a tokenizer to measure your actual input sizes. OpenAI's tiktoken is free and accurate for GPT models. Anthropic publishes a token counter. Count the characters in your prompts, examples, and documents, then convert to tokens. This takes an hour and saves weeks of confusion later.</p>
+
+<p>Second, model your costs. A 100k token input at $3 per million tokens costs $0.30 per request. If you process 1000 requests a day, that is $90 per day, or $32,850 per year, for input alone. Calculate the same for a 10k context approach. The gap often surprises people.</p>
+
+<p>Third, if you are working with large documents or knowledge bases, test RAG first. Build a semantic search retrieval system that returns the top 5 to 10 most relevant passages, then pass only those to the LLM. Measure latency and quality. Compare it to the brute-force long-context approach. In most real-world scenarios, RAG wins.</p>
+
+<p>Finally, do not chase the latest 200k context window just because it exists. Context windows are a tool, not a goal. Use what solves your problem at the lowest cost and latency. If that is a 4k window with RAG, great. If you genuinely need 128k because you are analyzing full codebases or long research papers, use it without guilt. Measure, test, and optimize based on your actual constraints, not industry hype.</p></div>
+
+      <section style="margin-top: var(--space-8);">
+        <h2 style="margin-bottom: var(--space-5);">Frequently asked questions</h2>
+        <div class="faq-list">
+    <details class="faq-item" style="border-bottom:1px solid var(--color-rule);padding:var(--space-4) 0;">
+      <summary style="cursor:pointer;font-weight:600;font-size:var(--text-md);list-style:none;display:flex;justify-content:space-between;align-items:flex-start;gap:var(--space-3);">
+        <span>What is a token in an LLM context window?</span>
+        <span aria-hidden="true" style="color:var(--color-ink-faint);font-weight:400;flex-shrink:0;">+</span>
+      </summary>
+      <div style="margin-top:var(--space-3);color:var(--color-ink-muted);line-height:1.7;">
+        <p>A token is a unit of text that an LLM processes. Most commonly, one token represents roughly 4 characters or 0.75 words in English. Tokenization varies by model, but GPT-style models use subword tokenization, splitting text into pieces smaller than full words. Spaces, punctuation, and even partial words can each be a token.</p>
+      </div>
+    </details>
+
+    <details class="faq-item" style="border-bottom:1px solid var(--color-rule);padding:var(--space-4) 0;">
+      <summary style="cursor:pointer;font-weight:600;font-size:var(--text-md);list-style:none;display:flex;justify-content:space-between;align-items:flex-start;gap:var(--space-3);">
+        <span>Why do context windows have limits?</span>
+        <span aria-hidden="true" style="color:var(--color-ink-faint);font-weight:400;flex-shrink:0;">+</span>
+      </summary>
+      <div style="margin-top:var(--space-3);color:var(--color-ink-muted);line-height:1.7;">
+        <p>Context windows are limited by GPU memory, computational cost, and model training choices. Larger context requires more processing power and memory during inference. Models are trained with a maximum sequence length in mind, and exceeding it risks degraded performance or instability.</p>
+      </div>
+    </details>
+
+    <details class="faq-item" style="border-bottom:1px solid var(--color-rule);padding:var(--space-4) 0;">
+      <summary style="cursor:pointer;font-weight:600;font-size:var(--text-md);list-style:none;display:flex;justify-content:space-between;align-items:flex-start;gap:var(--space-3);">
+        <span>Do longer context windows always cost more?</span>
+        <span aria-hidden="true" style="color:var(--color-ink-faint);font-weight:400;flex-shrink:0;">+</span>
+      </summary>
+      <div style="margin-top:var(--space-3);color:var(--color-ink-muted);line-height:1.7;">
+        <p>Yes, per-token pricing is typically identical, but using more context means more input tokens billed. Some providers charge differently for input versus output tokens. A 100k-token context window at full capacity will cost roughly 10 times more than a 10k window with identical prose.</p>
+      </div>
+    </details>
+
+    <details class="faq-item" style="border-bottom:1px solid var(--color-rule);padding:var(--space-4) 0;">
+      <summary style="cursor:pointer;font-weight:600;font-size:var(--text-md);list-style:none;display:flex;justify-content:space-between;align-items:flex-start;gap:var(--space-3);">
+        <span>What is the &#39;lost in the middle&#39; problem?</span>
+        <span aria-hidden="true" style="color:var(--color-ink-faint);font-weight:400;flex-shrink:0;">+</span>
+      </summary>
+      <div style="margin-top:var(--space-3);color:var(--color-ink-muted);line-height:1.7;">
+        <p>Many LLMs perform worse on information buried in the middle of a long context window. They often focus on the beginning and end while ignoring mid-document details. This is a real limitation when using long-context models for retrieval or summarization tasks.</p>
+      </div>
+    </details>
+
+    <details class="faq-item" style="border-bottom:1px solid var(--color-rule);padding:var(--space-4) 0;">
+      <summary style="cursor:pointer;font-weight:600;font-size:var(--text-md);list-style:none;display:flex;justify-content:space-between;align-items:flex-start;gap:var(--space-3);">
+        <span>Should I use a long-context model for everything?</span>
+        <span aria-hidden="true" style="color:var(--color-ink-faint);font-weight:400;flex-shrink:0;">+</span>
+      </summary>
+      <div style="margin-top:var(--space-3);color:var(--color-ink-muted);line-height:1.7;">
+        <p>No. Longer context windows add latency and cost. For short queries or well-structured prompts, smaller context windows are faster and cheaper. Long-context models are best suited for document processing, code review, or conversation threads where you genuinely need to keep large amounts of prior information in play.</p>
+      </div>
+    </details>
+
+    <details class="faq-item" style="border-bottom:1px solid var(--color-rule);padding:var(--space-4) 0;">
+      <summary style="cursor:pointer;font-weight:600;font-size:var(--text-md);list-style:none;display:flex;justify-content:space-between;align-items:flex-start;gap:var(--space-3);">
+        <span>How do I estimate tokens before querying an API?</span>
+        <span aria-hidden="true" style="color:var(--color-ink-faint);font-weight:400;flex-shrink:0;">+</span>
+      </summary>
+      <div style="margin-top:var(--space-3);color:var(--color-ink-muted);line-height:1.7;">
+        <p>Use a tokenizer for your target model: OpenAI provides a Python tiktoken library, Anthropic publishes their token counter, and Hugging Face hosts most open-source tokenizers. As a rule of thumb, assume 1 token per 4 characters or 0.75 words for English text, but always validate with the real tokenizer.</p>
+      </div>
+    </details>
+
+    <details class="faq-item" style="border-bottom:1px solid var(--color-rule);padding:var(--space-4) 0;">
+      <summary style="cursor:pointer;font-weight:600;font-size:var(--text-md);list-style:none;display:flex;justify-content:space-between;align-items:flex-start;gap:var(--space-3);">
+        <span>What is the practical limit for long-context retrieval?</span>
+        <span aria-hidden="true" style="color:var(--color-ink-faint);font-weight:400;flex-shrink:0;">+</span>
+      </summary>
+      <div style="margin-top:var(--space-3);color:var(--color-ink-muted);line-height:1.7;">
+        <p>Beyond about 50k tokens, retrieval quality often degrades, and latency becomes noticeable. Most real-world workloads benefit more from semantic search plus few-shot examples than from dumping an entire corpus into one prompt. Hybrid approaches (RAG with smaller context windows) often outperform brute-force long-context filling.</p>
+      </div>
+    </details></div>
+      </section>
+          <p style="font-size:var(--text-xs);color:var(--color-ink-faint);margin-top:var(--space-6);padding-top:var(--space-4);border-top:1px solid var(--color-rule);">
+            An <strong>AI Glimpse</strong> explainer. We update this guide as the field evolves.
+          </p>
+        </div>
+      </section>
+    </article>
+    <section class="section" aria-label="Related articles">
+      <div class="container container--narrow">
+        <div class="section-header">
+          <h2 class="section-title">More from AI Glimpse</h2>
+          <a href="/categories/llms" class="section-link">All LLMs stories</a>
+        </div>
+        <div class="grid grid-3">
+          <article class="card card--medium">
+            <a href="/articles/openai-integrates-medical-records-into-chatgpt-for-personalized-health-insights-cbb6e2b2"><div class="card-image"><picture><source srcset="/images/articles/openai-integrates-medical-records-into-chatgpt-for-personalized-health-insights-cbb6e2b2.webp" type="image/webp"><img src="/images/articles/openai-integrates-medical-records-into-chatgpt-for-personalized-health-insights-cbb6e2b2.jpg" alt="OpenAI Integrates Medical Records Into ChatGPT for Personalized Health Insights" loading="lazy" width="1200" height="630"></picture></div></a>
+            <div class="card-meta">
+              <span class="tag tag--llm">LLMs</span>
+              <span class="card-byline"><time datetime="2026-07-23T00:00:00.000Z">Jul 23, 2026</time></span>
+            </div>
+            <a href="/articles/openai-integrates-medical-records-into-chatgpt-for-personalized-health-insights-cbb6e2b2"><h3 class="card-title">OpenAI Integrates Medical Records Into ChatGPT for Personalized Health Insights</h3></a>
+          </article>
+          <article class="card card--medium">
+            <a href="/articles/ntt-data-slashes-incident-response-time-to-30-minutes-using-ai-59b3310e"><div class="card-image"><picture><source srcset="/images/articles/ntt-data-slashes-incident-response-time-to-30-minutes-using-ai-59b3310e.webp" type="image/webp"><img src="/images/articles/ntt-data-slashes-incident-response-time-to-30-minutes-using-ai-59b3310e.jpg" alt="NTT DATA Slashes Incident Response Time to 30 Minutes Using AI" loading="lazy" width="1200" height="630"></picture></div></a>
+            <div class="card-meta">
+              <span class="tag tag--llm">LLMs</span>
+              <span class="card-byline"><time datetime="2026-07-22T00:00:00.000Z">Jul 22, 2026</time></span>
+            </div>
+            <a href="/articles/ntt-data-slashes-incident-response-time-to-30-minutes-using-ai-59b3310e"><h3 class="card-title">NTT DATA Slashes Incident Response Time to 30 Minutes Using AI</h3></a>
+          </article>
+          <article class="card card--medium">
+            <a href="/articles/news-outlets-leverage-ai-to-reshape-journalism-and-publishing-ec18bb52"><div class="card-image"><picture><source srcset="/images/articles/news-outlets-leverage-ai-to-reshape-journalism-and-publishing-ec18bb52.webp" type="image/webp"><img src="/images/articles/news-outlets-leverage-ai-to-reshape-journalism-and-publishing-ec18bb52.jpg" alt="News Outlets Leverage AI to Reshape Journalism and Publishing" loading="lazy" width="1200" height="630"></picture></div></a>
+            <div class="card-meta">
+              <span class="tag tag--llm">LLMs</span>
+              <span class="card-byline"><time datetime="2026-07-22T13:00:00.000Z">Jul 22, 2026</time></span>
+            </div>
+            <a href="/articles/news-outlets-leverage-ai-to-reshape-journalism-and-publishing-ec18bb52"><h3 class="card-title">News Outlets Leverage AI to Reshape Journalism and Publishing</h3></a>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="/" class="logo">
+            <span class="logo-wordmark" aria-label="AI Glimpse">A<span class="iris-i" aria-hidden="true">ı</span><span aria-hidden="true"> Glimpse</span></span>
+          </a>
+          <p>Your daily glimpse into AI. Independent reporting and analysis on the people, products, and policies shaping artificial intelligence.</p>
+        </div>
+        <div class="footer-col">
+          <h5>Categories</h5>
+          <ul>
+            <li><a href="/categories/llms">LLMs</a></li>
+            <li><a href="/categories/research">Research</a></li>
+            <li><a href="/categories/tools">Tools</a></li>
+            <li><a href="/categories/business">Business</a></li>
+            <li><a href="/categories/ethics">Ethics</a></li>
+            <li><a href="/categories/industry">Industry</a></li>
+            <li><a href="/categories/robotics">Robotics</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h5>About</h5>
+          <ul>
+            <li><a href="/pages/about">About AI Glimpse</a></li>
+            <li><a href="/pages/contact">Contact</a></li>
+            <li><a href="/pages/editorial">Editorial Standards</a></li>
+            <li><a href="/pages/advertise">Advertise</a></li>
+            <li><a href="/guides">Guides &amp; Explainers</a></li>
+            <li><a href="/search">Search</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h5>Legal</h5>
+          <ul>
+            <li><a href="/pages/privacy">Privacy Policy</a></li>
+            <li><a href="/pages/terms">Terms of Service</a></li>
+            <li><a href="#" data-consent-open>Cookie preferences</a></li>
+            <li><a href="/rss.xml">RSS Feed</a></li>
+            <li><a href="/sitemap.xml">Sitemap</a></li>
+            <li><a href="/llms.txt">LLMs.txt</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div>© <span id="year">2026</span> AI Glimpse · aiglimpse.ai</div>
+        <div class="footer-social">
+          <a href="/rss.xml" aria-label="RSS"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M6.503 20.752c0 1.794-1.456 3.248-3.251 3.248-1.796 0-3.252-1.454-3.252-3.248 0-1.794 1.456-3.248 3.252-3.248 1.795 0 3.251 1.454 3.251 3.248zm-6.503-12.572v4.811c6.05.062 10.96 4.966 11.022 11.009h4.817c-.062-8.71-7.118-15.758-15.839-15.82zm0-3.368c10.58.046 19.152 8.594 19.183 19.188h4.817c-.03-13.231-10.755-23.954-24-24v4.812z"/></svg></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="/js/chrome.js"></script>
+  <script src="/js/main.js"></script>
+</body>
+</html>

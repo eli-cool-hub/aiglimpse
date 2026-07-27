@@ -1,6 +1,18 @@
 {
   "articles": [
     {
+      "slug": "llm-context-window-explained",
+      "title": "LLM Context Windows Explained: Tokens, Limits, and Trade-offs",
+      "subtitle": "What counts as tokens, why context length matters, and how to choose models for your workload.",
+      "category": "llms",
+      "publishedAt": "2026-07-27T10:03:32.240Z",
+      "sourceUrl": null,
+      "sourceName": "AI Glimpse Newsroom",
+      "sourceTier": 0,
+      "image": "/images/articles/llm-context-window-explained.jpg",
+      "evergreen": true
+    },
+    {
       "slug": "openais-math-breakthrough-could-reset-ai-safety-rules-a30a9795",
       "title": "OpenAI's Math Breakthrough Could Reset AI Safety Rules",
       "subtitle": "Altman plans White House pitch on autonomous theorem-proving capabilities, potentially reshaping regulatory frameworks for competing labs.",

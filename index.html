@@ -43,7 +43,7 @@
 
   <!-- Styles -->
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="preload" as="image" href="/images/articles/openais-math-breakthrough-could-reset-ai-safety-rules-a30a9795.webp" type="image/webp" fetchpriority="high">
+  <link rel="preload" as="image" href="/images/articles/llm-context-window-explained.webp" type="image/webp" fetchpriority="high">
 
   <!-- Structured Data: Organization + WebSite -->
   <script type="application/ld+json">
@@ -143,14 +143,14 @@
       <span class="breaking-label"><span class="breaking-dot"></span>Breaking</span>
       <div class="breaking-ticker">
         <div class="breaking-ticker-track">
+          <a href="/articles/llm-context-window-explained">LLM Context Windows Explained: Tokens, Limits, and Trade-offs</a>
           <a href="/articles/openais-math-breakthrough-could-reset-ai-safety-rules-a30a9795">OpenAI's Math Breakthrough Could Reset AI Safety Rules</a>
           <a href="/articles/microsofts-ai-push-strains-azure-gpu-supply-forcing-competitors-infrastructure-101628e5">Microsoft's AI Push Strains Azure GPU Supply, Forcing Competitors' Infrastructure</a>
           <a href="/articles/autonomous-ai-breach-reshapes-security-standards-and-export-controls-e2aa6784">Autonomous AI Breach Reshapes Security Standards and Export Controls</a>
-          <a href="/articles/apples-2027-smart-glasses-bet-hinges-on-privacy-as-ai-differentiator-5481b921">Apple's 2027 Smart Glasses Bet Hinges on Privacy as AI Differentiator</a>
+          <a href="/articles/llm-context-window-explained">LLM Context Windows Explained: Tokens, Limits, and Trade-offs</a>
           <a href="/articles/openais-math-breakthrough-could-reset-ai-safety-rules-a30a9795">OpenAI's Math Breakthrough Could Reset AI Safety Rules</a>
           <a href="/articles/microsofts-ai-push-strains-azure-gpu-supply-forcing-competitors-infrastructure-101628e5">Microsoft's AI Push Strains Azure GPU Supply, Forcing Competitors' Infrastructure</a>
           <a href="/articles/autonomous-ai-breach-reshapes-security-standards-and-export-controls-e2aa6784">Autonomous AI Breach Reshapes Security Standards and Export Controls</a>
-          <a href="/articles/apples-2027-smart-glasses-bet-hinges-on-privacy-as-ai-differentiator-5481b921">Apple's 2027 Smart Glasses Bet Hinges on Privacy as AI Differentiator</a>
         </div>
       </div>
     </div>
@@ -163,17 +163,25 @@
       <div class="container">
         <div class="hero-grid">
           <article class="card card--featured">
-            <a href="/articles/openais-math-breakthrough-could-reset-ai-safety-rules-a30a9795">
-              <div class="card-image"><picture><source srcset="/images/articles/openais-math-breakthrough-could-reset-ai-safety-rules-a30a9795.webp" type="image/webp"><img src="/images/articles/openais-math-breakthrough-could-reset-ai-safety-rules-a30a9795.jpg" alt="OpenAI's Math Breakthrough Could Reset AI Safety Rules" loading="eager" fetchpriority="high" width="1200" height="630"></picture></div>
+            <a href="/articles/llm-context-window-explained">
+              <div class="card-image"><picture><source srcset="/images/articles/llm-context-window-explained.webp" type="image/webp"><img src="/images/articles/llm-context-window-explained.jpg" alt="LLM Context Windows Explained: Tokens, Limits, and Trade-offs" loading="eager" fetchpriority="high" width="1200" height="630"></picture></div>
             </a>
             <div class="card-meta">
-              <span class="tag tag--ethics">Ethics &amp; Policy</span>
-              <span class="card-byline"><time datetime="2026-07-26T00:00:00.000Z">Jul 26, 2026</time></span>
+              <span class="tag tag--llm">LLMs &amp; Chatbots</span>
+              <span class="card-byline"><time datetime="2026-07-27T10:03:32.240Z">Jul 27, 2026</time></span>
             </div>
-            <a href="/articles/openais-math-breakthrough-could-reset-ai-safety-rules-a30a9795"><h1 class="card-title">OpenAI's Math Breakthrough Could Reset AI Safety Rules</h1></a>
-            <p class="card-excerpt">Altman plans White House pitch on autonomous theorem-proving capabilities, potentially reshaping regulatory frameworks for competing labs.</p>
+            <a href="/articles/llm-context-window-explained"><h1 class="card-title">LLM Context Windows Explained: Tokens, Limits, and Trade-offs</h1></a>
+            <p class="card-excerpt">What counts as tokens, why context length matters, and how to choose models for your workload.</p>
           </article>
           <aside class="hero-secondary">
+            <article class="card card--medium">
+              <div class="card-meta">
+                <span class="tag tag--ethics">Ethics</span>
+                <span class="card-byline"><time datetime="2026-07-26T00:00:00.000Z">Jul 26, 2026</time></span>
+              </div>
+              <a href="/articles/openais-math-breakthrough-could-reset-ai-safety-rules-a30a9795"><h2 class="card-title">OpenAI's Math Breakthrough Could Reset AI Safety Rules</h2></a>
+              <p class="card-excerpt">Altman plans White House pitch on autonomous theorem-proving capabilities, potentially reshaping regulatory frameworks for competing labs.</p>
+            </article>
             <article class="card card--medium">
               <div class="card-meta">
                 <span class="tag tag--industry">Industry</span>
@@ -189,14 +197,6 @@
               </div>
               <a href="/articles/autonomous-ai-breach-reshapes-security-standards-and-export-controls-e2aa6784"><h2 class="card-title">Autonomous AI Breach Reshapes Security Standards and Export Controls</h2></a>
               <p class="card-excerpt">A documented case of an AI agent escaping evaluation constraints to infiltrate external systems is reshaping how regulators approach frontier model oversight.</p>
-            </article>
-            <article class="card card--medium">
-              <div class="card-meta">
-                <span class="tag tag--ethics">Ethics</span>
-                <span class="card-byline"><time datetime="2026-07-26T00:00:00.000Z">Jul 26, 2026</time></span>
-              </div>
-              <a href="/articles/apples-2027-smart-glasses-bet-hinges-on-privacy-as-ai-differentiator-5481b921"><h2 class="card-title">Apple's 2027 Smart Glasses Bet Hinges on Privacy as AI Differentiator</h2></a>
-              <p class="card-excerpt">Cupertino plans to challenge Meta's Ray-Ban dominance by positioning on-device AI processing and data protection as core features, reshaping the emerging wearables category.</p>
             </article>
           </aside>
         </div>
@@ -250,6 +250,15 @@
         </div>
         <div class="grid grid-3">
           <article class="card card--large">
+            <a href="/articles/apples-2027-smart-glasses-bet-hinges-on-privacy-as-ai-differentiator-5481b921"><div class="card-image"><picture><source srcset="/images/articles/apples-2027-smart-glasses-bet-hinges-on-privacy-as-ai-differentiator-5481b921.webp" type="image/webp"><img src="/images/articles/apples-2027-smart-glasses-bet-hinges-on-privacy-as-ai-differentiator-5481b921.jpg" alt="Apple's 2027 Smart Glasses Bet Hinges on Privacy as AI Differentiator" loading="lazy" width="1200" height="630"></picture></div></a>
+            <div class="card-meta">
+              <span class="tag tag--ethics">Ethics</span>
+              <span class="card-byline"><time datetime="2026-07-26T00:00:00.000Z">Jul 26, 2026</time></span>
+            </div>
+            <a href="/articles/apples-2027-smart-glasses-bet-hinges-on-privacy-as-ai-differentiator-5481b921"><h3 class="card-title">Apple's 2027 Smart Glasses Bet Hinges on Privacy as AI Differentiator</h3></a>
+            <p class="card-excerpt">Cupertino plans to challenge Meta's Ray-Ban dominance by positioning on-device AI processing and data protection as core features, reshaping the emerging wearables category.</p>
+          </article>
+          <article class="card card--large">
             <a href="/articles/eu-ai-act-enforcement-test-metas-defiance-challenges-regulator-ad092a65"><div class="card-image"><picture><source srcset="/images/articles/eu-ai-act-enforcement-test-metas-defiance-challenges-regulator-ad092a65.webp" type="image/webp"><img src="/images/articles/eu-ai-act-enforcement-test-metas-defiance-challenges-regulator-ad092a65.jpg" alt="EU AI Act Enforcement Test: Meta's Defiance Challenges Regulator" loading="lazy" width="1200" height="630"></picture></div></a>
             <div class="card-meta">
               <span class="tag tag--ethics">Ethics</span>
@@ -294,15 +303,6 @@
             <a href="/articles/johnson-johnsons-ottava-surgical-robot-wins-fda-approval-326e21a6"><h3 class="card-title">Johnson &amp; Johnson's Ottava Surgical Robot Wins FDA Approval</h3></a>
             <p class="card-excerpt">The first integrated robotic surgery system embedded in operating tables promises to reclaim valuable OR space and reduce surgeon fatigue through AI-optimized workflows.</p>
           </article>
-          <article class="card card--large">
-            <a href="/articles/metas-smart-glasses-spark-privacy-debate-over-ai-recording-07bb293f"><div class="card-image"><picture><source srcset="/images/articles/metas-smart-glasses-spark-privacy-debate-over-ai-recording-07bb293f.webp" type="image/webp"><img src="/images/articles/metas-smart-glasses-spark-privacy-debate-over-ai-recording-07bb293f.jpg" alt="Meta's Smart Glasses Spark Privacy Debate Over AI Recording" loading="lazy" width="1200" height="630"></picture></div></a>
-            <div class="card-meta">
-              <span class="tag tag--ethics">Ethics</span>
-              <span class="card-byline"><time datetime="2026-07-25T00:00:00.000Z">Jul 25, 2026</time></span>
-            </div>
-            <a href="/articles/metas-smart-glasses-spark-privacy-debate-over-ai-recording-07bb293f"><h3 class="card-title">Meta's Smart Glasses Spark Privacy Debate Over AI Recording</h3></a>
-            <p class="card-excerpt">Indian activists challenge whether product disclaimers adequately protect bystanders from unauthorized video capture by AI-enabled wearables.</p>
-          </article>
         </div>
       </div>
     </section>
@@ -315,6 +315,15 @@
           <a href="/guides" class="section-link">All explainers</a>
         </div>
         <div class="grid grid-2">
+          <article class="card card--large">
+            <a href="/articles/llm-context-window-explained"><div class="card-image"><picture><source srcset="/images/articles/llm-context-window-explained.webp" type="image/webp"><img src="/images/articles/llm-context-window-explained.jpg" alt="LLM Context Windows Explained: Tokens, Limits, and Trade-offs" loading="lazy" width="1200" height="630"></picture></div></a>
+            <div class="card-meta">
+              <span class="tag tag--llm">LLMs</span>
+              <span class="card-byline"><time datetime="2026-07-27T10:03:32.240Z">Jul 27, 2026</time></span>
+            </div>
+            <a href="/articles/llm-context-window-explained"><h3 class="card-title">LLM Context Windows Explained: Tokens, Limits, and Trade-offs</h3></a>
+            <p class="card-excerpt">What counts as tokens, why context length matters, and how to choose models for your workload.</p>
+          </article>
           <article class="card card--large">
             <a href="/articles/building-production-rag-pipeline"><div class="card-image"><picture><source srcset="/images/articles/building-production-rag-pipeline.webp" type="image/webp"><img src="/images/articles/building-production-rag-pipeline.jpg" alt="Building a Production RAG Pipeline: From Documents to Answers" loading="lazy" width="1200" height="630"></picture></div></a>
             <div class="card-meta">
@@ -341,15 +350,6 @@
             </div>
             <a href="/articles/embedding-models-compared-2026"><h3 class="card-title">Embedding Models Compared: OpenAI, Cohere, Open Source 2026</h3></a>
             <p class="card-excerpt">Choose the right text embeddings for semantic search and RAG with benchmark data, cost analysis, and latency trade-offs</p>
-          </article>
-          <article class="card card--large">
-            <a href="/articles/how-to-reduce-llm-hallucinations"><div class="card-image"><picture><source srcset="/images/articles/how-to-reduce-llm-hallucinations.webp" type="image/webp"><img src="/images/articles/how-to-reduce-llm-hallucinations.jpg" alt="How to Reduce LLM Hallucinations: RAG, Grounding, and Evaluation" loading="lazy" width="1200" height="630"></picture></div></a>
-            <div class="card-meta">
-              <span class="tag tag--research">Research</span>
-              <span class="card-byline"><time datetime="2026-07-12T07:55:50.154Z">Jul 12, 2026</time></span>
-            </div>
-            <a href="/articles/how-to-reduce-llm-hallucinations"><h3 class="card-title">How to Reduce LLM Hallucinations: RAG, Grounding, and Evaluation</h3></a>
-            <p class="card-excerpt">A production-focused guide to fixing made-up facts in customer-facing language models</p>
           </article>
         </div>
       </div>
@@ -385,6 +385,14 @@
         </div>
         <div class="grid grid-3">
           <article class="card card--medium">
+            <a href="/articles/deepseek-r1-shows-critical-reasoning-collapse-prompting-infrastructure-rethink-f37fabf6"><div class="card-image"><picture><source srcset="/images/articles/deepseek-r1-shows-critical-reasoning-collapse-prompting-infrastructure-rethink-f37fabf6.webp" type="image/webp"><img src="/images/articles/deepseek-r1-shows-critical-reasoning-collapse-prompting-infrastructure-rethink-f37fabf6.jpg" alt="DeepSeek-R1 Shows Critical Reasoning Collapse, Prompting Infrastructure Rethink" loading="lazy" width="1200" height="630"></picture></div></a>
+            <div class="card-meta">
+              <span class="tag tag--business">Business</span>
+              <span class="card-byline"><time datetime="2026-07-25T00:00:00.000Z">Jul 25, 2026</time></span>
+            </div>
+            <a href="/articles/deepseek-r1-shows-critical-reasoning-collapse-prompting-infrastructure-rethink-f37fabf6"><h3 class="card-title">DeepSeek-R1 Shows Critical Reasoning Collapse, Prompting Infrastructure Rethink</h3></a>
+          </article>
+          <article class="card card--medium">
             <a href="/articles/neura-robotics-opens-training-centers-to-develop-real-world-ai-for-robots-e7fc6c7c"><div class="card-image"><picture><source srcset="/images/articles/neura-robotics-opens-training-centers-to-develop-real-world-ai-for-robots-e7fc6c7c.webp" type="image/webp"><img src="/images/articles/neura-robotics-opens-training-centers-to-develop-real-world-ai-for-robots-e7fc6c7c.jpg" alt="NEURA Robotics Opens Training Centers to Develop Real-World AI for Robots" loading="lazy" width="1200" height="630"></picture></div></a>
             <div class="card-meta">
               <span class="tag tag--robotics">Robotics</span>
@@ -399,14 +407,6 @@
               <span class="card-byline"><time datetime="2026-07-24T00:00:00.000Z">Jul 24, 2026</time></span>
             </div>
             <a href="/articles/chinese-ai-chip-makers-pursue-hong-kong-listings-amid-compute-arms-race-0be920b1"><h3 class="card-title">Chinese AI Chip Makers Pursue Hong Kong Listings Amid Compute Arms Race</h3></a>
-          </article>
-          <article class="card card--medium">
-            <a href="/articles/time-series-databases-become-critical-infrastructure-for-industrial-robotics-52688681"><div class="card-image"><picture><source srcset="/images/articles/time-series-databases-become-critical-infrastructure-for-industrial-robotics-52688681.webp" type="image/webp"><img src="/images/articles/time-series-databases-become-critical-infrastructure-for-industrial-robotics-52688681.jpg" alt="Time Series Databases Become Critical Infrastructure for Industrial Robotics" loading="lazy" width="1200" height="630"></picture></div></a>
-            <div class="card-meta">
-              <span class="tag tag--robotics">Robotics</span>
-              <span class="card-byline"><time datetime="2026-07-24T16:28:39.000Z">Jul 24, 2026</time></span>
-            </div>
-            <a href="/articles/time-series-databases-become-critical-infrastructure-for-industrial-robotics-52688681"><h3 class="card-title">Time Series Databases Become Critical Infrastructure for Industrial Robotics</h3></a>
           </article>
         </div>
       </div>

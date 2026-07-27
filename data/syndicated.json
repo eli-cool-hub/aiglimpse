@@ -10370,6 +10370,24 @@
         "devto": true,
         "hashnode": false
       }
+    },
+    "llm-context-window-explained": {
+      "syndicated_at": "2026-07-27T10:03:35.682Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/llm-context-windows-explained-tokens-limits-and-trade-offs-3off",
+      "hashnode": null,
+      "gates": {
+        "medium": true,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 2308,
+      "category": "llms",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
     }
   }
 }
