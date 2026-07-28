@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "researchers-identify-critical-flaw-in-diffusion-model-training-method-98c60c2c",
+      "title": "Researchers Identify Critical Flaw in Diffusion Model Training Method",
+      "subtitle": "New research reveals how a fundamental mismatch in guidance mechanisms undermines knowledge transfer in modern image generation systems.",
+      "category": "research",
+      "publishedAt": "2026-07-27T17:57:02.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2607.24731v1",
+      "sourceName": "arXiv (Bingnan Li, Haozhe Wang, Haozhong Xiong, Fangtai Wu, Jinpeng…)",
+      "sourceTier": 1,
+      "image": "/images/articles/researchers-identify-critical-flaw-in-diffusion-model-training-method-98c60c2c.jpg"
+    },
+    {
       "slug": "enterprise-ai-agents-need-systems-design-not-just-better-models-96068a0b",
       "title": "Enterprise AI Agents Need Systems Design, Not Just Better Models",
       "subtitle": "New research reveals why deploying autonomous AI workflows at scale requires rethinking infrastructure, monitoring, and capacity planning entirely.",
@@ -9477,6 +9488,7 @@
     "1d00a32be6bad03b",
     "bf45b03832eac6f2",
     "3321b1e291871be6",
-    "96068a0be3253c0f"
+    "96068a0be3253c0f",
+    "98c60c2cb0bbf44f"
   ]
 }

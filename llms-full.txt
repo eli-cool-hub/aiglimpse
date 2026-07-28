@@ -3,7 +3,7 @@
 > Machine-readable index for AI assistants, answer engines, and research crawlers.
 > Summary version: https://aiglimpse.ai/llms.txt
 
-Total articles: 789 | Evergreen explainers: 17 | Generated: 2026-07-28
+Total articles: 790 | Evergreen explainers: 17 | Generated: 2026-07-28
 
 ## Evergreen explainers
 
@@ -127,6 +127,13 @@ Total articles: 789 | Evergreen explainers: 17 | Generated: 2026-07-28
 - Type: evergreen explainer (FAQ schema on page)
 
 ## All articles (newest first)
+
+### Researchers Identify Critical Flaw in Diffusion Model Training Method
+- URL: https://aiglimpse.ai/articles/researchers-identify-critical-flaw-in-diffusion-model-training-method-98c60c2c
+- Published: 2026-07-27
+- Category: research
+- Summary: New research reveals how a fundamental mismatch in guidance mechanisms undermines knowledge transfer in modern image generation systems.
+- Source: http://arxiv.org/abs/2607.24731v1
 
 ### Enterprise AI Agents Need Systems Design, Not Just Better Models
 - URL: https://aiglimpse.ai/articles/enterprise-ai-agents-need-systems-design-not-just-better-models-96068a0b
