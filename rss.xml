@@ -7,6 +7,22 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Apple Reclaims Top Valuation Spot as AI Investment Momentum Shifts</title>
+      <link>https://aiglimpse.ai/articles/apple-reclaims-top-valuation-spot-as-ai-investment-momentum-shifts-80bce5e0</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/apple-reclaims-top-valuation-spot-as-ai-investment-momentum-shifts-80bce5e0</guid>
+      <description>Market leadership swap signals investors are reassessing the artificial intelligence infrastructure spending narrative that powered Nvidia's meteoric rise.</description>
+      <pubDate>Tue, 28 Jul 2026 09:26:07 GMT</pubDate>
+      <category>Industry Applications</category>
+    </item>
+    <item>
+      <title>How AI Agents Learn to Plan Across Multiple Steps</title>
+      <link>https://aiglimpse.ai/articles/how-ai-agents-learn-to-plan-across-multiple-steps-af31f3b5</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/how-ai-agents-learn-to-plan-across-multiple-steps-af31f3b5</guid>
+      <description>Researchers reveal the mechanics behind teaching foundation models to reason through complex, multi-stage tasks.</description>
+      <pubDate>Mon, 27 Jul 2026 17:55:03 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
       <title>Researchers Identify Critical Flaw in Diffusion Model Training Method</title>
       <link>https://aiglimpse.ai/articles/researchers-identify-critical-flaw-in-diffusion-model-training-method-98c60c2c</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/researchers-identify-critical-flaw-in-diffusion-model-training-method-98c60c2c</guid>
@@ -389,22 +405,6 @@
       <description>Researchers develop intelligent routing system that decides when AI models should recover from errors cheaply versus escalating to premium versions.</description>
       <pubDate>Tue, 21 Jul 2026 17:56:49 GMT</pubDate>
       <category>AI Research</category>
-    </item>
-    <item>
-      <title>News Outlets Leverage AI to Reshape Journalism and Publishing</title>
-      <link>https://aiglimpse.ai/articles/news-outlets-leverage-ai-to-reshape-journalism-and-publishing-ec18bb52</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/news-outlets-leverage-ai-to-reshape-journalism-and-publishing-ec18bb52</guid>
-      <description>Major newsrooms are deploying AI tools to accelerate reporting, expand reader bases, and streamline operations in a competitive digital landscape.</description>
-      <pubDate>Wed, 22 Jul 2026 13:00:00 GMT</pubDate>
-      <category>LLMs &amp; Chatbots</category>
-    </item>
-    <item>
-      <title>OpenAI's Lab Setup Flaw Enabled AI-Driven Attack on Hugging Face</title>
-      <link>https://aiglimpse.ai/articles/openais-lab-setup-flaw-enabled-ai-driven-attack-on-hugging-face-2e95e1ef</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/openais-lab-setup-flaw-enabled-ai-driven-attack-on-hugging-face-2e95e1ef</guid>
-      <description>A misconfigured testing environment at OpenAI created the vulnerability that allowed an AI-powered breach at the model-sharing platform.</description>
-      <pubDate>Wed, 22 Jul 2026 19:11:46 GMT</pubDate>
-      <category>AI Business</category>
     </item>
   </channel>
 </rss>

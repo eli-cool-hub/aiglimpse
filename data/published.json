@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "apple-reclaims-top-valuation-spot-as-ai-investment-momentum-shifts-80bce5e0",
+      "title": "Apple Reclaims Top Valuation Spot as AI Investment Momentum Shifts",
+      "subtitle": "Market leadership swap signals investors are reassessing the artificial intelligence infrastructure spending narrative that powered Nvidia's meteoric rise.",
+      "category": "industry",
+      "publishedAt": "2026-07-28T09:26:07.000Z",
+      "sourceUrl": "https://9to5mac.com/2026/07/27/apple-reclaims-most-valuable-company-title-from-nvidia-as-it-barrels-toward-5t/",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/apple-reclaims-top-valuation-spot-as-ai-investment-momentum-shifts-80bce5e0.jpg"
+    },
+    {
+      "slug": "how-ai-agents-learn-to-plan-across-multiple-steps-af31f3b5",
+      "title": "How AI Agents Learn to Plan Across Multiple Steps",
+      "subtitle": "Researchers reveal the mechanics behind teaching foundation models to reason through complex, multi-stage tasks.",
+      "category": "research",
+      "publishedAt": "2026-07-27T17:55:03.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2607.24720v1",
+      "sourceName": "arXiv (Tianyi Men, Zhuoran Jin, Kang Liu, Jun Zhao)",
+      "sourceTier": 1,
+      "image": "/images/articles/how-ai-agents-learn-to-plan-across-multiple-steps-af31f3b5.jpg"
+    },
+    {
       "slug": "researchers-identify-critical-flaw-in-diffusion-model-training-method-98c60c2c",
       "title": "Researchers Identify Critical Flaw in Diffusion Model Training Method",
       "subtitle": "New research reveals how a fundamental mismatch in guidance mechanisms undermines knowledge transfer in modern image generation systems.",
@@ -9489,6 +9511,8 @@
     "bf45b03832eac6f2",
     "3321b1e291871be6",
     "96068a0be3253c0f",
-    "98c60c2cb0bbf44f"
+    "98c60c2cb0bbf44f",
+    "af31f3b535263cd3",
+    "80bce5e0c79ed083"
   ]
 }
