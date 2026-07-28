@@ -7,6 +7,22 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Recursive Superintelligence Commits $400M to AWS for AI Infrastructure</title>
+      <link>https://aiglimpse.ai/articles/recursive-superintelligence-commits-400m-to-aws-for-ai-infrastructure-fadc678b</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/recursive-superintelligence-commits-400m-to-aws-for-ai-infrastructure-fadc678b</guid>
+      <description>The stealth-exit startup deploys most of its Series A funding on cloud compute, signaling confidence in Amazon's AI capabilities.</description>
+      <pubDate>Tue, 28 Jul 2026 13:56:46 GMT</pubDate>
+      <category>Industry Applications</category>
+    </item>
+    <item>
+      <title>Popular Image Models on Hugging Face Can Generate Nonconsensual Deepfakes</title>
+      <link>https://aiglimpse.ai/articles/popular-image-models-on-hugging-face-can-generate-nonconsensual-deepfakes-7eff9f35</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/popular-image-models-on-hugging-face-can-generate-nonconsensual-deepfakes-7eff9f35</guid>
+      <description>Security researchers expose a critical vulnerability in widely-used AI tools, raising urgent questions about platform responsibility and content moderation.</description>
+      <pubDate>Tue, 28 Jul 2026 11:00:27 GMT</pubDate>
+      <category>Ethics &amp; Policy</category>
+    </item>
+    <item>
       <title>Apple Reclaims Top Valuation Spot as AI Investment Momentum Shifts</title>
       <link>https://aiglimpse.ai/articles/apple-reclaims-top-valuation-spot-as-ai-investment-momentum-shifts-80bce5e0</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/apple-reclaims-top-valuation-spot-as-ai-investment-momentum-shifts-80bce5e0</guid>
@@ -389,22 +405,6 @@
       <description>New quantization technique slashes memory requirements for running AI image generators on resource-constrained devices.</description>
       <pubDate>Thu, 23 Jul 2026 00:00:00 GMT</pubDate>
       <category>AI Tools &amp; Products</category>
-    </item>
-    <item>
-      <title>Google's Cloud Growth Fueled by Enterprise AI Adoption</title>
-      <link>https://aiglimpse.ai/articles/googles-cloud-growth-fueled-by-enterprise-ai-adoption-0283c3ce</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/googles-cloud-growth-fueled-by-enterprise-ai-adoption-0283c3ce</guid>
-      <description>Record profits underscore how AI infrastructure investments are reshaping Google's business model and competitive positioning.</description>
-      <pubDate>Wed, 22 Jul 2026 22:01:52 GMT</pubDate>
-      <category>AI Business</category>
-    </item>
-    <item>
-      <title>New Framework Cuts AI Coding Agent Costs by 65% Without Sacrificing Accuracy</title>
-      <link>https://aiglimpse.ai/articles/new-framework-cuts-ai-coding-agent-costs-by-65-without-sacrificing-accuracy-078dc227</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-framework-cuts-ai-coding-agent-costs-by-65-without-sacrificing-accuracy-078dc227</guid>
-      <description>Researchers develop intelligent routing system that decides when AI models should recover from errors cheaply versus escalating to premium versions.</description>
-      <pubDate>Tue, 21 Jul 2026 17:56:49 GMT</pubDate>
-      <category>AI Research</category>
     </item>
   </channel>
 </rss>

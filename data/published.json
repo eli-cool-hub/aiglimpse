@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "recursive-superintelligence-commits-400m-to-aws-for-ai-infrastructure-fadc678b",
+      "title": "Recursive Superintelligence Commits $400M to AWS for AI Infrastructure",
+      "subtitle": "The stealth-exit startup deploys most of its Series A funding on cloud compute, signaling confidence in Amazon's AI capabilities.",
+      "category": "industry",
+      "publishedAt": "2026-07-28T13:56:46.000Z",
+      "sourceUrl": "https://techcrunch.com/2026/07/28/recursive-superintelligence-signs-400-compute-deal-with-amazon/",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/recursive-superintelligence-commits-400m-to-aws-for-ai-infrastructure-fadc678b.jpg"
+    },
+    {
+      "slug": "popular-image-models-on-hugging-face-can-generate-nonconsensual-deepfakes-7eff9f35",
+      "title": "Popular Image Models on Hugging Face Can Generate Nonconsensual Deepfakes",
+      "subtitle": "Security researchers expose a critical vulnerability in widely-used AI tools, raising urgent questions about platform responsibility and content moderation.",
+      "category": "ethics",
+      "publishedAt": "2026-07-28T11:00:27.000Z",
+      "sourceUrl": "https://www.wired.com/story/hugging-face-has-a-nonconsensual-deepfakes-problem/",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/popular-image-models-on-hugging-face-can-generate-nonconsensual-deepfakes-7eff9f35.jpg"
+    },
+    {
       "slug": "apple-reclaims-top-valuation-spot-as-ai-investment-momentum-shifts-80bce5e0",
       "title": "Apple Reclaims Top Valuation Spot as AI Investment Momentum Shifts",
       "subtitle": "Market leadership swap signals investors are reassessing the artificial intelligence infrastructure spending narrative that powered Nvidia's meteoric rise.",
@@ -9513,6 +9535,8 @@
     "96068a0be3253c0f",
     "98c60c2cb0bbf44f",
     "af31f3b535263cd3",
-    "80bce5e0c79ed083"
+    "80bce5e0c79ed083",
+    "7eff9f3529e72375",
+    "fadc678be5e35e64"
   ]
 }
