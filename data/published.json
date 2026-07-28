@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "new-framework-maps-data-strategy-for-training-better-robot-systems-5e9907a9",
+      "title": "New Framework Maps Data Strategy for Training Better Robot Systems",
+      "subtitle": "Researchers outline how to combine real-world, simulation, and vision-language datasets to build embodied AI agents that can manipulate objects effectively.",
+      "category": "research",
+      "publishedAt": "2026-07-27T17:59:58.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2607.24744v1",
+      "sourceName": "arXiv (Yifan Ye, Yankai Fu, Yaoxu Lv, Bohan Hou, Jun Cen, Lingdong …)",
+      "sourceTier": 1,
+      "image": "/images/articles/new-framework-maps-data-strategy-for-training-better-robot-systems-5e9907a9.jpg"
+    },
+    {
+      "slug": "openai-and-anthropic-researchers-call-for-government-ai-oversight-2c4cdd6b",
+      "title": "OpenAI and Anthropic Researchers Call for Government AI Oversight",
+      "subtitle": "Internal staff at leading AI labs push US to coordinate international effort slowing frontier model development amid safety concerns.",
+      "category": "ethics",
+      "publishedAt": "2026-07-28T19:57:18.000Z",
+      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-07-28/openai-anthropic-staff-share-letter-asking-us-to-help-pace-ai-progress",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/openai-and-anthropic-researchers-call-for-government-ai-oversight-2c4cdd6b.jpg"
+    },
+    {
       "slug": "federal-health-agency-faces-scrutiny-over-ai-governance-standards-0b62b3c9",
       "title": "Federal Health Agency Faces Scrutiny Over AI Governance Standards",
       "subtitle": "HHS Inspector General launches comprehensive audit to assess whether artificial intelligence systems meet security, privacy, and accountability requirements.",
@@ -9561,6 +9583,8 @@
     "7eff9f3529e72375",
     "fadc678be5e35e64",
     "c8d8397b42dcc370",
-    "0b62b3c998c22baf"
+    "0b62b3c998c22baf",
+    "2c4cdd6b9366ef8f",
+    "5e9907a91575428d"
   ]
 }

@@ -7,6 +7,22 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>New Framework Maps Data Strategy for Training Better Robot Systems</title>
+      <link>https://aiglimpse.ai/articles/new-framework-maps-data-strategy-for-training-better-robot-systems-5e9907a9</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-framework-maps-data-strategy-for-training-better-robot-systems-5e9907a9</guid>
+      <description>Researchers outline how to combine real-world, simulation, and vision-language datasets to build embodied AI agents that can manipulate objects effectively.</description>
+      <pubDate>Mon, 27 Jul 2026 17:59:58 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
+      <title>OpenAI and Anthropic Researchers Call for Government AI Oversight</title>
+      <link>https://aiglimpse.ai/articles/openai-and-anthropic-researchers-call-for-government-ai-oversight-2c4cdd6b</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/openai-and-anthropic-researchers-call-for-government-ai-oversight-2c4cdd6b</guid>
+      <description>Internal staff at leading AI labs push US to coordinate international effort slowing frontier model development amid safety concerns.</description>
+      <pubDate>Tue, 28 Jul 2026 19:57:18 GMT</pubDate>
+      <category>Ethics &amp; Policy</category>
+    </item>
+    <item>
       <title>Federal Health Agency Faces Scrutiny Over AI Governance Standards</title>
       <link>https://aiglimpse.ai/articles/federal-health-agency-faces-scrutiny-over-ai-governance-standards-0b62b3c9</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/federal-health-agency-faces-scrutiny-over-ai-governance-standards-0b62b3c9</guid>
@@ -388,22 +404,6 @@
       <guid isPermaLink="true">https://aiglimpse.ai/articles/openai-integrates-medical-records-into-chatgpt-for-personalized-health-insights-cbb6e2b2</guid>
       <description>The AI chatbot can now access patient data and wearable health metrics to deliver contextual medical guidance, marking a significant expansion into healthcare applications.</description>
       <pubDate>Thu, 23 Jul 2026 00:00:00 GMT</pubDate>
-      <category>LLMs &amp; Chatbots</category>
-    </item>
-    <item>
-      <title>OpenAI, Anthropic Push Back Against Open-Source AI Models</title>
-      <link>https://aiglimpse.ai/articles/openai-anthropic-push-back-against-open-source-ai-models-06357a27</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/openai-anthropic-push-back-against-open-source-ai-models-06357a27</guid>
-      <description>The two leading AI labs are coordinating efforts to highlight risks from freely distributed model weights, raising questions about competitive motives.</description>
-      <pubDate>Thu, 23 Jul 2026 13:00:03 GMT</pubDate>
-      <category>AI Tools &amp; Products</category>
-    </item>
-    <item>
-      <title>NTT DATA Slashes Incident Response Time to 30 Minutes Using AI</title>
-      <link>https://aiglimpse.ai/articles/ntt-data-slashes-incident-response-time-to-30-minutes-using-ai-59b3310e</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/ntt-data-slashes-incident-response-time-to-30-minutes-using-ai-59b3310e</guid>
-      <description>The Japanese IT giant demonstrates how enterprise AI platforms can dramatically accelerate operational workflows across thousands of workers.</description>
-      <pubDate>Wed, 22 Jul 2026 00:00:00 GMT</pubDate>
       <category>LLMs &amp; Chatbots</category>
     </item>
   </channel>
