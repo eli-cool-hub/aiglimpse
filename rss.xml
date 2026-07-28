@@ -7,6 +7,22 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Federal Health Agency Faces Scrutiny Over AI Governance Standards</title>
+      <link>https://aiglimpse.ai/articles/federal-health-agency-faces-scrutiny-over-ai-governance-standards-0b62b3c9</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/federal-health-agency-faces-scrutiny-over-ai-governance-standards-0b62b3c9</guid>
+      <description>HHS Inspector General launches comprehensive audit to assess whether artificial intelligence systems meet security, privacy, and accountability requirements.</description>
+      <pubDate>Tue, 28 Jul 2026 16:48:12 GMT</pubDate>
+      <category>Industry Applications</category>
+    </item>
+    <item>
+      <title>EPA Exempts Private AI Data Center Power Plants From Acid Rain Rules</title>
+      <link>https://aiglimpse.ai/articles/epa-exempts-private-ai-data-center-power-plants-from-acid-rain-rules-c8d8397b</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/epa-exempts-private-ai-data-center-power-plants-from-acid-rain-rules-c8d8397b</guid>
+      <description>A regulatory interpretation allows AI companies to dodge major pollution controls on dedicated power generation, raising environmental policy questions.</description>
+      <pubDate>Tue, 28 Jul 2026 16:58:40 GMT</pubDate>
+      <category>Ethics &amp; Policy</category>
+    </item>
+    <item>
       <title>Recursive Superintelligence Commits $400M to AWS for AI Infrastructure</title>
       <link>https://aiglimpse.ai/articles/recursive-superintelligence-commits-400m-to-aws-for-ai-infrastructure-fadc678b</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/recursive-superintelligence-commits-400m-to-aws-for-ai-infrastructure-fadc678b</guid>
@@ -389,22 +405,6 @@
       <description>The Japanese IT giant demonstrates how enterprise AI platforms can dramatically accelerate operational workflows across thousands of workers.</description>
       <pubDate>Wed, 22 Jul 2026 00:00:00 GMT</pubDate>
       <category>LLMs &amp; Chatbots</category>
-    </item>
-    <item>
-      <title>New AI Method Shrinks 3D Scene Rendering Models by 5.7x</title>
-      <link>https://aiglimpse.ai/articles/new-ai-method-shrinks-3d-scene-rendering-models-by-57x-3988f814</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-ai-method-shrinks-3d-scene-rendering-models-by-57x-3988f814</guid>
-      <description>Researchers introduce adaptive token approach that maintains visual quality while dramatically reducing computational requirements for real-time 3D synthesis.</description>
-      <pubDate>Wed, 22 Jul 2026 17:54:44 GMT</pubDate>
-      <category>AI Research</category>
-    </item>
-    <item>
-      <title>Hugging Face Optimizes Image Diffusion Models for Edge Hardware</title>
-      <link>https://aiglimpse.ai/articles/hugging-face-optimizes-image-diffusion-models-for-edge-hardware-0cb6c526</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/hugging-face-optimizes-image-diffusion-models-for-edge-hardware-0cb6c526</guid>
-      <description>New quantization technique slashes memory requirements for running AI image generators on resource-constrained devices.</description>
-      <pubDate>Thu, 23 Jul 2026 00:00:00 GMT</pubDate>
-      <category>AI Tools &amp; Products</category>
     </item>
   </channel>
 </rss>

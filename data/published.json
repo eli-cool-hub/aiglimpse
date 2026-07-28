@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "federal-health-agency-faces-scrutiny-over-ai-governance-standards-0b62b3c9",
+      "title": "Federal Health Agency Faces Scrutiny Over AI Governance Standards",
+      "subtitle": "HHS Inspector General launches comprehensive audit to assess whether artificial intelligence systems meet security, privacy, and accountability requirements.",
+      "category": "industry",
+      "publishedAt": "2026-07-28T16:48:12.000Z",
+      "sourceUrl": "https://www.beckershospitalreview.com/healthcare-information-technology/ai/hhs-oig-launches-audit-of-departments-ai-governance-framework/",
+      "sourceName": "Becker's Hospital Review",
+      "sourceTier": 2,
+      "image": "/images/articles/federal-health-agency-faces-scrutiny-over-ai-governance-standards-0b62b3c9.jpg"
+    },
+    {
+      "slug": "epa-exempts-private-ai-data-center-power-plants-from-acid-rain-rules-c8d8397b",
+      "title": "EPA Exempts Private AI Data Center Power Plants From Acid Rain Rules",
+      "subtitle": "A regulatory interpretation allows AI companies to dodge major pollution controls on dedicated power generation, raising environmental policy questions.",
+      "category": "ethics",
+      "publishedAt": "2026-07-28T16:58:40.000Z",
+      "sourceUrl": "https://www.reuters.com/legal/litigation/epa-says-power-data-centers-can-sidestep-pollution-laws-2026-07-27/",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/epa-exempts-private-ai-data-center-power-plants-from-acid-rain-rules-c8d8397b.jpg"
+    },
+    {
       "slug": "recursive-superintelligence-commits-400m-to-aws-for-ai-infrastructure-fadc678b",
       "title": "Recursive Superintelligence Commits $400M to AWS for AI Infrastructure",
       "subtitle": "The stealth-exit startup deploys most of its Series A funding on cloud compute, signaling confidence in Amazon's AI capabilities.",
@@ -9537,6 +9559,8 @@
     "af31f3b535263cd3",
     "80bce5e0c79ed083",
     "7eff9f3529e72375",
-    "fadc678be5e35e64"
+    "fadc678be5e35e64",
+    "c8d8397b42dcc370",
+    "0b62b3c998c22baf"
   ]
 }
