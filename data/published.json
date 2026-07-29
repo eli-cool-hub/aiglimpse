@@ -1,6 +1,18 @@
 {
   "articles": [
     {
+      "slug": "tool-use-function-calling-guide",
+      "title": "Function Calling and Tool Use: A Builder's Guide to LLM Agents",
+      "subtitle": "Design schemas, handle errors, and secure API connections for production agentic systems.",
+      "category": "tools",
+      "publishedAt": "2026-07-29T08:24:55.429Z",
+      "sourceUrl": null,
+      "sourceName": "AI Glimpse Newsroom",
+      "sourceTier": 0,
+      "image": "/images/articles/tool-use-function-calling-guide.jpg",
+      "evergreen": true
+    },
+    {
       "slug": "hospital-ai-systems-face-hidden-security-blind-spot-30fdf25d",
       "title": "Hospital AI Systems Face Hidden Security Blind Spot",
       "subtitle": "A new industry alliance highlights how commercial AI guardrails can block emergency breach response, forcing health systems to rethink their security infrastructure.",

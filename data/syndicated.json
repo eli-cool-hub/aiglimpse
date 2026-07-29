@@ -10622,6 +10622,24 @@
         "devto": true,
         "hashnode": false
       }
+    },
+    "tool-use-function-calling-guide": {
+      "syndicated_at": "2026-07-29T08:24:58.526Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/function-calling-and-tool-use-a-builders-guide-to-llm-agents-pkc",
+      "hashnode": null,
+      "gates": {
+        "medium": true,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 2709,
+      "category": "tools",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
     }
   }
 }

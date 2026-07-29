@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Function Calling and Tool Use: A Builder&#39;s Guide to LLM Agents | AI Glimpse</title>
+  <meta name="description" content="Technical guide to LLM function calling and tool use for developers building agentic applications. Schema design, error handling, and security.">
+  <meta name="keywords" content="function calling, tool use, LLM tools, agent tools, structured outputs, OpenAI tools, API integration">
+  <link rel="canonical" href="https://aiglimpse.ai/articles/tool-use-function-calling-guide">
+  <meta property="og:type" content="article"><meta property="og:site_name" content="AI Glimpse">
+  <meta property="og:title" content="Function Calling and Tool Use: A Builder&#39;s Guide to LLM Agents">
+  <meta property="og:description" content="Technical guide to LLM function calling and tool use for developers building agentic applications. Schema design, error handling, and security.">
+  <meta property="og:url" content="https://aiglimpse.ai/articles/tool-use-function-calling-guide">
+  <meta property="og:image" content="https://aiglimpse.ai/images/articles/tool-use-function-calling-guide.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="article:published_time" content="2026-07-29T08:24:55.429Z">
+  <meta property="article:section" content="AI Tools & Products">
+  <meta property="article:tag" content="function calling">
+  <meta property="article:tag" content="tool use">
+  <meta property="article:tag" content="LLM tools">
+  <meta property="article:tag" content="agent tools">
+  <meta property="article:tag" content="structured outputs">
+  <meta property="article:tag" content="OpenAI tools">
+  <meta property="article:tag" content="API integration">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Function Calling and Tool Use: A Builder&#39;s Guide to LLM Agents">
+  <meta name="twitter:description" content="Technical guide to LLM function calling and tool use for developers building agentic applications. Schema design, error handling, and security.">
+  <meta name="twitter:image" content="https://aiglimpse.ai/images/articles/tool-use-function-calling-guide.jpg">
+  <link rel="icon" type="image/svg+xml" href="/images/favicon.svg">
+  <link rel="alternate" type="application/rss+xml" title="AI Glimpse RSS" href="/rss.xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700;9..144,900&family=Inter+Tight:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap">
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="preload" as="image" href="/images/articles/tool-use-function-calling-guide.webp" type="image/webp" fetchpriority="high">
+  <style>.reading-progress{position:fixed;top:0;left:0;height:3px;background:var(--color-accent);width:0%;z-index:200;transition:width 100ms linear;}</style>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","mainEntityOfPage":{"@type":"WebPage","@id":"https://aiglimpse.ai/articles/tool-use-function-calling-guide"},"headline":"Function Calling and Tool Use: A Builder's Guide to LLM Agents","description":"Technical guide to LLM function calling and tool use for developers building agentic applications. Schema design, error handling, and security.","image":["https://aiglimpse.ai/images/articles/tool-use-function-calling-guide.jpg"],"datePublished":"2026-07-29T08:24:55.429Z","dateModified":"2026-07-29T08:24:55.429Z","author":{"@type":"Organization","name":"AI Glimpse Newsroom"},"publisher":{"@type":"Organization","name":"AI Glimpse","logo":{"@type":"ImageObject","url":"https://aiglimpse.ai/images/logo.svg"}},"articleSection":"AI Tools & Products","keywords":"function calling, tool use, LLM tools, agent tools, structured outputs, OpenAI tools, API integration"}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://aiglimpse.ai/"},{"@type":"ListItem","position":2,"name":"AI Tools & Products","item":"https://aiglimpse.ai/categories/tools"},{"@type":"ListItem","position":3,"name":"Function Calling and Tool Use: A Builder's Guide to LLM Agents","item":"https://aiglimpse.ai/articles/tool-use-function-calling-guide"}]}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What is the difference between function calling and tool use?","acceptedAnswer":{"@type":"Answer","text":"Function calling is the technical mechanism by which an LLM requests execution of a specific function with structured arguments. Tool use is the broader concept of an agent accessing external resources (APIs, databases, tools) to accomplish a task. Function calling is how tool use is implemented."}},{"@type":"Question","name":"Do I need structured outputs or function calling?","acceptedAnswer":{"@type":"Answer","text":"Structured outputs ensure the model returns valid JSON matching a schema. Function calling goes further: it tells the model which functions are available and when to call them. For agentic systems, function calling is necessary. For data extraction, structured outputs may suffice."}},{"@type":"Question","name":"How do I handle tool calls that fail or return errors?","acceptedAnswer":{"@type":"Answer","text":"Return the error message to the model as a tool result with a clear error field. The model will adjust its reasoning and retry or choose a different tool. Always include the error in the conversation history so the model learns from the failure within the same turn."}},{"@type":"Question","name":"Can an LLM call multiple tools in parallel?","acceptedAnswer":{"@type":"Answer","text":"Yes. Most modern LLM APIs support parallel function calls in a single response. The model returns multiple tool calls at once, and you execute them concurrently. Return all results in a single assistant message to maintain coherent reasoning."}},{"@type":"Question","name":"What security risks should I be aware of?","acceptedAnswer":{"@type":"Answer","text":"Unrestricted tool access can let the model perform unintended operations. Always validate tool arguments against schemas, implement rate limiting per user, audit all tool executions, and restrict available tools based on user permissions. Never expose credentials in tool definitions."}},{"@type":"Question","name":"How many tools should an agent have?","acceptedAnswer":{"@type":"Answer","text":"There is no hard limit, but performance degrades with too many tools. Most production systems stay between 5 and 20 tools per agent. Use routing logic or dynamic tool selection to reduce the active set the model sees in each request."}},{"@type":"Question","name":"Should I use OpenAI tools or Claude tools or build my own?","acceptedAnswer":{"@type":"Answer","text":"Use the API provider's native function calling for your primary model. It is optimized for that model's training and reasoning. You can build a wrapper layer to translate between different models' tool schemas, but start with native support."}}]}</script>
+  <meta name="google-site-verification" content="B132aMlqf1nssWYhjOSKUgSjmfwNWgPgtozZsHDxWlU" />
+  <meta name="msvalidate.01" content="F3762E555B3E685836AE39C90B79ECBF" />
+  <!-- aiglimpse-consent-default v1: must run before AdSense, defaults all ad/analytics storage to denied -->
+  <script>(function(){window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}window.gtag=gtag;gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'denied',functionality_storage:'granted',security_storage:'granted',wait_for_update:500});try{var s=JSON.parse(localStorage.getItem('aiglimpse-consent')||'null');if(s&&s.choice==='granted'){gtag('consent','update',{ad_storage:'granted',ad_user_data:'granted',ad_personalization:'granted',analytics_storage:'granted'});}}catch(e){}})();</script>
+  <!-- aiglimpse-ga4 v1: gtag.js loaded after consent default, so it buffers events until consent is granted -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-EVZ52DNQ8S"></script>
+  <script>gtag('js', new Date()); gtag('config', 'G-EVZ52DNQ8S', { anonymize_ip: true });</script>
+</head>
+<body>
+  <div class="reading-progress" aria-hidden="true"></div>
+  <header class="site-header" role="banner">
+    <div class="container">
+      <div class="header-bar">
+        <a href="/" class="logo" aria-label="AI Glimpse home">
+          <span class="logo-wordmark" aria-label="AI Glimpse">A<span class="iris-i" aria-hidden="true">ı</span><span aria-hidden="true"> Glimpse</span></span>
+        </a>
+        <nav class="nav-primary" aria-label="Primary">
+          <a href="/categories/llms">LLMs</a>
+            <a href="/categories/research">Research</a>
+            <a href="/categories/tools">Tools</a>
+            <a href="/categories/business">Business</a>
+            <a href="/categories/ethics">Ethics</a>
+            <a href="/categories/industry">Industry</a>
+            <a href="/categories/robotics">Robotics</a>
+        </nav>
+        <div class="header-actions">
+          <a class="search-btn" href="/search" aria-label="Search">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="11" cy="11" r="7"/><path d="M21 21l-4.35-4.35"/>
+            </svg>
+          </a>
+          <a href="#newsletter" class="btn btn--primary btn--sm">Subscribe</a>
+          <button class="menu-btn" aria-label="Open menu">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+  <aside class="mobile-menu" aria-label="Mobile menu">
+    <div class="mobile-menu-header">
+      <a href="/" class="logo">
+        <span class="logo-wordmark" aria-label="AI Glimpse">A<span class="iris-i" aria-hidden="true">ı</span><span aria-hidden="true"> Glimpse</span></span>
+      </a>
+      <button class="mobile-menu-close" aria-label="Close menu" style="font-size:24px;">×</button>
+    </div>
+    <a href="/categories/llms">LLMs</a>
+    <a href="/categories/research">Research</a>
+    <a href="/categories/tools">Tools</a>
+    <a href="/categories/business">Business</a>
+    <a href="/categories/ethics">Ethics</a>
+    <a href="/categories/industry">Industry</a>
+    <a href="/categories/robotics">Robotics</a>
+    <a href="/search">Search</a>
+    <a href="/pages/about">About</a>
+    <a href="#newsletter">Subscribe</a>
+  </aside>
+  <main>
+    <article>
+      <section class="article-hero">
+        <div class="container container--narrow">
+          <nav aria-label="Breadcrumb" style="margin-bottom:var(--space-4);font-size:var(--text-xs);color:var(--color-ink-muted);">
+            <a href="/" style="color:inherit;">Home</a> /
+            <a href="/categories/tools" style="color:inherit;">AI Tools & Products</a> /
+            <span>Explainer</span>
+          </nav>
+          <div class="article-hero-meta">
+            <span class="tag tag--tools">AI Tools & Products</span>
+            <span class="eyebrow eyebrow--accent">Explainer</span>
+            <span class="eyebrow">12 min read</span>
+          </div>
+          <h1 class="article-hero-title">Function Calling and Tool Use: A Builder&#39;s Guide to LLM Agents</h1>
+          <p class="article-hero-subtitle">Design schemas, handle errors, and secure API connections for production agentic systems.</p>
+          <div class="article-byline">
+            <div>By <strong>AI Glimpse Newsroom</strong></div><div>·</div>
+            <div><time datetime="2026-07-29T08:24:55.429Z" data-relative="false">July 29, 2026</time></div>
+          </div>
+        </div>
+      </section>
+      <section style="padding: var(--space-7) 0;">
+        <div class="container container--narrow">
+          <figure class="article-image"><picture><source srcset="/images/articles/tool-use-function-calling-guide.webp" type="image/webp"><img src="/images/articles/tool-use-function-calling-guide.jpg" alt="Function Calling and Tool Use: A Builder's Guide to LLM Agents" loading="eager" fetchpriority="high" width="1200" height="630"></picture></figure>
+          <div class="article-body"><p>Function calling is the mechanism by which a language model requests execution of an external function with specific parameters, parsed into a structured format that your application can validate and execute. It is the operational core of agentic systems: the bridge between model reasoning and real-world action. Without function calling, an LLM is a text predictor. With it, an LLM becomes a decision engine that can inspect data, modify state, and solve multi-step problems by orchestrating APIs, databases, and business logic.</p>
+
+<h2>Why this matters now</h2>
+
+<p>For most of 2023 and 2024, function calling was a novel feature that distinguished capable models from others. By 2026, it is table stakes. Every major model provider (OpenAI, Anthropic, Google, together.ai) ships native function calling with reasonable quality. The question is no longer "does our model support this?" but "how do we design, validate, and operate tool-calling agents safely and efficiently?" Agentic applications are moving from prototype to production, and that transition demands rigorous schema design, error handling, and authorization boundaries. Builders who skip these steps ship agents that fail in unexpected ways, expose unintended capabilities to users, or waste tokens on malformed requests.</p>
+
+<p>The competitive surface has also shifted. Smaller, cheaper models now rival larger ones at function calling. GPT-4o-mini and Claude 3.5 Haiku reliably handle 10 to 15 tool calls in a single conversation turn with accurate argument parsing. This means cost and latency, not capability, often drive model selection. Builders must understand schema design, error recovery, and parallel execution to extract maximum value from these smaller, faster models without sacrificing reliability.</p>
+
+<h2>How function calling works: the loop</h2>
+<figure class="article-image article-image--inline">
+  <picture><source srcset="/images/articles/tool-use-function-calling-guide-inline-1.webp" type="image/webp"><img src="/images/articles/tool-use-function-calling-guide-inline-1.jpg" alt="How function calling works: the loop" loading="lazy" width="1200" height="630"></picture>
+  <figcaption class="article-image-credit">Photo by <a href="https://www.pexels.com/photo/man-using-the-phone-and-laptop-6214837/" rel="nofollow noopener" target="_blank">www.kaboompics.com</a> on Pexels.</figcaption>
+</figure>
+
+
+<p>Function calling operates on a simple loop: the model sees a list of available tools, generates a response that may include a structured request to invoke one or more of them, and your application executes those requests and returns the results as new context for the model. The model then continues reasoning and may call more tools, generate a final response, or request clarification.</p>
+
+<p>The flow is:</p>
+
+<ol>
+<li>User sends a query or task.</li>
+<li>Your system prepares a list of available tools with their schemas (name, description, parameters).</li>
+<li>You send the user message and tool list to the LLM API.</li>
+<li>The model responds with either text, a tool call, or both.</li>
+<li>If a tool call is present, you validate the arguments against the schema, execute the function, and capture the result.</li>
+<li>You append the tool result to the conversation history as a new message.</li>
+<li>You send the updated conversation back to the model (no user input required).</li>
+<li>Repeat from step 4 until the model generates a final response or an error condition is met.</li>
+</ol>
+
+<p>This loop is stateless from the model's perspective. The entire conversation history, including all tool calls and results, must be sent with every request. Stateless design simplifies deployment, debugging, and recovery, but it also means your conversation memory grows with each tool invocation. Most production systems implement a sliding window or summarization strategy after 10 to 15 turns to manage token count.</p>
+
+<h2>Designing tool schemas that models understand</h2>
+
+<p>The quality of your tool definitions directly affects the model's ability to call them correctly. A vague or incomplete schema leads to malformed arguments, incorrect tool selection, and wasted tokens on error recovery. A well-designed schema is explicit, concise, and self-documenting.</p>
+
+<p>Each tool should include:</p>
+
+<ul>
+<li><strong>Name</strong>: A single snake-case identifier, e.g., "search_knowledge_base", not "kbSearch" or "search_kb". Consistency matters.</li>
+<li><strong>Description</strong>: A one-sentence summary of what the tool does. Not why it exists, but what it accomplishes. "Retrieves documents matching a search query from the company knowledge base" is better than "Searches the KB".</li>
+<li><strong>Parameters</strong>: A JSON schema defining the input structure. Every parameter should have a type, description, and (if required) an enum of valid values or constraints.</li>
+<li><strong>Return type</strong>: Document what the tool returns, especially if it can return an error. Models benefit from knowing the shape of success and failure.</li>
+</ul>
+
+<p>A concrete example. Instead of this vague definition:</p>
+
+<blockquote>
+<p>"get_user_data": "Gets user info"</p>
+</blockquote>
+
+<p>Define it like this:</p>
+
+<blockquote>
+<p>"get_user_data": { "description": "Fetch user account information by user ID. Returns account status, email, and subscription tier. Returns 404 error if user does not exist.", "parameters": { "type": "object", "properties": { "user_id": { "type": "string", "description": "The unique user ID (UUID format)" } }, "required": ["user_id"] } }</p>
+</blockquote>
+
+<p>The second definition tells the model the expected input format, what it will receive in response, and what to expect if something goes wrong. This reduces hallucinated arguments and improves error recovery.</p>
+
+<p>Enums are especially powerful. If a tool accepts a status filter, enumerate the valid values:</p>
+
+<blockquote>
+<p>"status": { "type": "string", "enum": ["active", "paused", "cancelled"], "description": "Filter by subscription status" }</p>
+</blockquote>
+
+<p>Without the enum, models may try "archived" or "inactive" and trigger an error. With it, they have hard boundaries. This is not a suggestion; it is a correctness constraint.</p>
+
+<p>Avoid tools that do too much. A single "execute_query" tool that accepts arbitrary SQL is dangerous and often fails because models struggle with correct syntax. Break it into specific, named operations: "query_users_by_email", "count_orders_by_date", "list_recent_transactions". Specificity reduces error rates and makes auditing easier.</p>
+
+<h2>Error handling and retry logic</h2>
+<figure class="article-image article-image--inline">
+  <picture><source srcset="/images/articles/tool-use-function-calling-guide-inline-2.webp" type="image/webp"><img src="/images/articles/tool-use-function-calling-guide-inline-2.jpg" alt="Error handling and retry logic" loading="lazy" width="1200" height="630"></picture>
+  <figcaption class="article-image-credit">Photo by <a href="https://www.pexels.com/photo/hands-grinding-axe-outdoors-on-cobblestone-33491287/" rel="nofollow noopener" target="_blank">Mustafa Alper alper</a> on Pexels.</figcaption>
+</figure>
+
+
+<p>Tools fail. Networks time out, APIs return 429 errors, user permissions change mid-conversation. The difference between a robust agent and a fragile one is how it handles these failures.</p>
+
+<p>When a tool call fails, return the error to the model as a tool result, not as an exception. The model needs to see the error in context to adjust its reasoning. Include an error field with a human-readable message:</p>
+
+<blockquote>
+<p>{ "tool_use_id": "call_12345", "content": [{"type": "text", "text": "Error: User does not have permission to delete this resource. Only the owner or an admin can delete it."}] }</p>
+</blockquote>
+
+<p>The model will then recognize the constraint and either ask for escalation, try a different operation, or inform the user. If you catch the error and terminate the agent, the user gets no explanation and no option to recover.</p>
+
+<p>For transient failures (timeouts, rate limits), implement exponential backoff at the application level before returning an error to the model. If a tool call fails due to rate limiting, wait 2 seconds, try again up to 3 times, then return a "rate_limit_exceeded" message to the model. This absorbs temporary hiccups without surfacing them to the model.</p>
+
+<p>For validation errors (malformed arguments), do not re-call the model with the same tool. Instead, return the validation error and let the model adjust. For example, if the model passes user_id as an integer but the schema requires a string, respond with: "Error: user_id must be a UUID string, e.g., '550e8400-e29b-41d4-a716-446655440000'". The model will self-correct on the next attempt.</p>
+
+<p>Set a maximum tool call depth (e.g., 15 turns) to prevent infinite loops. If the model reaches that limit without generating a final response, return a message like "I've reached my thinking limit for this query. Here's what I found so far" and summarize the results. This is rare with modern models, but it prevents runaway costs.</p>
+
+<h2>Parallel tool calls and efficiency</h2>
+
+<p>Modern LLMs can invoke multiple tools in a single response. Instead of waiting for one tool to complete before requesting the next, you execute all of them concurrently and return all results in one batch. This reduces latency and token overhead.</p>
+
+<p>For example, an agent planning a business trip might call three tools in parallel: "check_flight_prices", "check_hotel_availability", "check_rental_car_rates". Executing serially would require three separate model calls. In parallel, it is one call to the model, three concurrent executions, and one call to synthesize the results.</p>
+
+<p>Parallel execution is straightforward in code (thread pools, asyncio), but sequencing the return is critical. Return all results in a single message, grouped by tool call ID, so the model sees them together:</p>
+
+<blockquote>
+<p>[ { "tool_use_id": "call_abc", "content": [{"type": "text", "text": "Flights: 3 options found, prices from $450 to $620"}] }, { "tool_use_id": "call_def", "content": [{"type": "text", "text": "Hotels: 8 options, rates from $80 to $250 per night"}] }, { "tool_use_id": "call_ghi", "content": [{"type": "text", "text": "Rental cars: 5 options, rates from $35 to $75 per day"}] } ]</p>
+</blockquote>
+
+<p>The model now has all three results in context and can synthesize a recommendation. If you returned them in separate messages, the model would lose some reasoning cohesion and waste tokens reconstructing the full picture.</p>
+
+<p>One caveat: if one tool call depends on the result of another, do not parallelize. If you need to "fetch_customer" before you can "fetch_orders_for_customer", execute them serially. The model will not hallucinate a customer ID, but it may retry a failing tool call if it sees the dependencies in the schema. Use tool descriptions to hint at dependencies: "Requires customer_id from fetch_customer".</p>
+
+<h2>Authorization and security boundaries</h2>
+
+<p>A powerful agent is a dangerous one if you do not constrain what it can do. The model itself is not a security boundary. It will follow instructions in a user prompt to perform actions outside its intended scope. You must enforce permissions at the application layer.</p>
+
+<p>Implement three levels of control:</p>
+
+<ol>
+<li><strong>Tool availability per user</strong>: Not every user should see every tool. An admin agent might have 20 tools; a customer support agent might have 5. Load the tool list based on the user's role and permissions.</li>
+<li><strong>Argument validation and filtering</strong>: Even if a user has access to a tool, they should not be able to operate on all data. If a customer support agent calls "update_customer_note", validate that the customer_id belongs to a ticket assigned to that agent. This is application logic, not LLM logic.</li>
+<li><strong>Execution audit and rate limiting</strong>: Log every tool call with the user ID, timestamp, tool name, and arguments. This is your evidence trail. Implement rate limits per user per tool to detect abuse: a single user calling "delete_resource" 100 times in a minute is anomalous.</li>
+</ol>
+
+<p>A concrete pattern: before executing a tool, pass the arguments through a policy engine. Does the authenticated user have permission to perform this action on this data? Only then execute.</p>
+
+<blockquote>
+<p>if not authorize_action(user_id, tool_name, arguments): return "Error: You do not have permission to perform this action." tool_result = execute_tool(tool_name, arguments)</p>
+</blockquote>
+
+<p>Never embed secrets (API keys, database passwords) in tool definitions. If a tool needs credentials, fetch them server-side using the user's identity, then execute the tool with those credentials. The model never sees them.</p>
+
+<p>Tool use expands the attack surface of your application. A prompt injection attack that was merely annoying (model generates rude text) becomes serious if the attacker can manipulate tool calls. Sanitize user input, limit tool scope, and assume the model will be tricked occasionally. Design your tools so that even if they are called unexpectedly, the damage is contained.</p>
+
+<h2>When function calling fails</h2>
+
+<p>Despite best efforts, function calling agents break in production. Models hallucinate tool names that do not exist. They misunderstand parameter types and pass strings where numbers are required. They get stuck in loops trying the same failing tool repeatedly. They succeed at the technical task but misinterpret what the user actually wanted.</p>
+
+<p>Hallucinated tool calls are common with smaller models or when tool definitions are vague. If the model invents a tool name like "get_customer_details" when only "fetch_customer" exists, return a "tool_not_found" error and list the available tools again. The model will almost always self-correct. If it does not after two attempts, escalate to a human or degrade gracefully.</p>
+
+<p>Type mismatches (passing a list where a string is expected) indicate schema confusion. Validate arguments strictly and return clear errors. Over time, you will see patterns in these errors. If 10% of calls to "search_orders" pass a non-string query, the schema description is ambiguous. Revise it.</p>
+
+<p>Reasoning failures are harder to debug. The model selects the correct tool but with wrong arguments, or it calls tools in a nonsensical order, or it gives up too early. These are usually due to unclear task framing or missing context. Provide concrete examples in the system prompt of how to use tools. Instead of "You can search for customers", say "When a user asks for customer info, first search_customer_by_name to find their ID, then fetch_customer with that ID to get details".</p>
+
+<p>Finally, acknowledge that at some scale, human-in-the-loop is necessary. An agent that handles 95% of queries correctly but occasionally tries to delete the entire customer database without confirmation is unacceptable. Implement guardrails: require approval for destructive operations, cap the total impact per query (e.g., update no more than 100 records), and have a circuit breaker that disables the agent if error rates spike.</p>
+
+<h2>Choosing and evaluating models for tool use</h2>
+
+<p>Not all models are equally good at function calling. The major divider is instruction-following capability and reasoning. GPT-4o, Claude 3.5 Sonnet, and Gemini 2.0 Flash parse complex schemas reliably and generate correct arguments consistently. Smaller models like GPT-4o-mini and Claude 3.5 Haiku are 70% to 85% as capable at a fraction of the cost and latency. Open-source models (Llama, Mistral) vary widely. Some fine-tuned versions handle tools well, others struggle with schema validation.</p>
+
+<p>Evaluate on your actual tool set. Build a test suite of realistic queries, define the ground-truth tool calls, and measure accuracy (correct tool selected, all required arguments present and valid type). Run the test suite on your candidate models. A 95% accuracy model might seem good in aggregate, but if the 5% failures are all on your most critical tools, that is unacceptable.</p>
+
+<p>Cost and latency also matter. GPT-4o is more capable but costs more and is slightly slower than GPT-4o-mini. If you have a latency-sensitive application (customer support chat), GPT-4o-mini with tight error handling might be better than GPT-4o with sloppy retries. If you have a batch job (nightly report generation), cost per query dominates and a smaller model is preferable.</p>
+
+<p>As of early 2026, the recommendation for most new projects is: start with Claude 3.5 Haiku or GPT-4o-mini, measure accuracy on your tool set, and upgrade to a larger model only if error rates are unacceptable. The cost and speed advantages of smaller models often outweigh the minimal accuracy gains of larger ones, especially once you implement proper error handling and retries.</p>
+
+<p>Building a production agentic system is not a one-time engineering task. It requires ongoing monitoring, schema refinement, error analysis, and model evaluation. Invest in observability from day one. Log every tool call, every error, every retry. This data is your feedback loop for improving agent reliability. Function calling will remain a core capability of LLMs for years. The builders who treat it as a serious engineering problem, not a novelty feature, will ship the most reliable and cost-effective agents.</p></div>
+
+      <section style="margin-top: var(--space-8);">
+        <h2 style="margin-bottom: var(--space-5);">Frequently asked questions</h2>
+        <div class="faq-list">
+    <details class="faq-item" style="border-bottom:1px solid var(--color-rule);padding:var(--space-4) 0;">
+      <summary style="cursor:pointer;font-weight:600;font-size:var(--text-md);list-style:none;display:flex;justify-content:space-between;align-items:flex-start;gap:var(--space-3);">
+        <span>What is the difference between function calling and tool use?</span>
+        <span aria-hidden="true" style="color:var(--color-ink-faint);font-weight:400;flex-shrink:0;">+</span>
+      </summary>
+      <div style="margin-top:var(--space-3);color:var(--color-ink-muted);line-height:1.7;">
+        <p>Function calling is the technical mechanism by which an LLM requests execution of a specific function with structured arguments. Tool use is the broader concept of an agent accessing external resources (APIs, databases, tools) to accomplish a task. Function calling is how tool use is implemented.</p>
+      </div>
+    </details>
+
+    <details class="faq-item" style="border-bottom:1px solid var(--color-rule);padding:var(--space-4) 0;">
+      <summary style="cursor:pointer;font-weight:600;font-size:var(--text-md);list-style:none;display:flex;justify-content:space-between;align-items:flex-start;gap:var(--space-3);">
+        <span>Do I need structured outputs or function calling?</span>
+        <span aria-hidden="true" style="color:var(--color-ink-faint);font-weight:400;flex-shrink:0;">+</span>
+      </summary>
+      <div style="margin-top:var(--space-3);color:var(--color-ink-muted);line-height:1.7;">
+        <p>Structured outputs ensure the model returns valid JSON matching a schema. Function calling goes further: it tells the model which functions are available and when to call them. For agentic systems, function calling is necessary. For data extraction, structured outputs may suffice.</p>
+      </div>
+    </details>
+
+    <details class="faq-item" style="border-bottom:1px solid var(--color-rule);padding:var(--space-4) 0;">
+      <summary style="cursor:pointer;font-weight:600;font-size:var(--text-md);list-style:none;display:flex;justify-content:space-between;align-items:flex-start;gap:var(--space-3);">
+        <span>How do I handle tool calls that fail or return errors?</span>
+        <span aria-hidden="true" style="color:var(--color-ink-faint);font-weight:400;flex-shrink:0;">+</span>
+      </summary>
+      <div style="margin-top:var(--space-3);color:var(--color-ink-muted);line-height:1.7;">
+        <p>Return the error message to the model as a tool result with a clear error field. The model will adjust its reasoning and retry or choose a different tool. Always include the error in the conversation history so the model learns from the failure within the same turn.</p>
+      </div>
+    </details>
+
+    <details class="faq-item" style="border-bottom:1px solid var(--color-rule);padding:var(--space-4) 0;">
+      <summary style="cursor:pointer;font-weight:600;font-size:var(--text-md);list-style:none;display:flex;justify-content:space-between;align-items:flex-start;gap:var(--space-3);">
+        <span>Can an LLM call multiple tools in parallel?</span>
+        <span aria-hidden="true" style="color:var(--color-ink-faint);font-weight:400;flex-shrink:0;">+</span>
+      </summary>
+      <div style="margin-top:var(--space-3);color:var(--color-ink-muted);line-height:1.7;">
+        <p>Yes. Most modern LLM APIs support parallel function calls in a single response. The model returns multiple tool calls at once, and you execute them concurrently. Return all results in a single assistant message to maintain coherent reasoning.</p>
+      </div>
+    </details>
+
+    <details class="faq-item" style="border-bottom:1px solid var(--color-rule);padding:var(--space-4) 0;">
+      <summary style="cursor:pointer;font-weight:600;font-size:var(--text-md);list-style:none;display:flex;justify-content:space-between;align-items:flex-start;gap:var(--space-3);">
+        <span>What security risks should I be aware of?</span>
+        <span aria-hidden="true" style="color:var(--color-ink-faint);font-weight:400;flex-shrink:0;">+</span>
+      </summary>
+      <div style="margin-top:var(--space-3);color:var(--color-ink-muted);line-height:1.7;">
+        <p>Unrestricted tool access can let the model perform unintended operations. Always validate tool arguments against schemas, implement rate limiting per user, audit all tool executions, and restrict available tools based on user permissions. Never expose credentials in tool definitions.</p>
+      </div>
+    </details>
+
+    <details class="faq-item" style="border-bottom:1px solid var(--color-rule);padding:var(--space-4) 0;">
+      <summary style="cursor:pointer;font-weight:600;font-size:var(--text-md);list-style:none;display:flex;justify-content:space-between;align-items:flex-start;gap:var(--space-3);">
+        <span>How many tools should an agent have?</span>
+        <span aria-hidden="true" style="color:var(--color-ink-faint);font-weight:400;flex-shrink:0;">+</span>
+      </summary>
+      <div style="margin-top:var(--space-3);color:var(--color-ink-muted);line-height:1.7;">
+        <p>There is no hard limit, but performance degrades with too many tools. Most production systems stay between 5 and 20 tools per agent. Use routing logic or dynamic tool selection to reduce the active set the model sees in each request.</p>
+      </div>
+    </details>
+
+    <details class="faq-item" style="border-bottom:1px solid var(--color-rule);padding:var(--space-4) 0;">
+      <summary style="cursor:pointer;font-weight:600;font-size:var(--text-md);list-style:none;display:flex;justify-content:space-between;align-items:flex-start;gap:var(--space-3);">
+        <span>Should I use OpenAI tools or Claude tools or build my own?</span>
+        <span aria-hidden="true" style="color:var(--color-ink-faint);font-weight:400;flex-shrink:0;">+</span>
+      </summary>
+      <div style="margin-top:var(--space-3);color:var(--color-ink-muted);line-height:1.7;">
+        <p>Use the API provider&#39;s native function calling for your primary model. It is optimized for that model&#39;s training and reasoning. You can build a wrapper layer to translate between different models&#39; tool schemas, but start with native support.</p>
+      </div>
+    </details></div>
+      </section>
+          <p style="font-size:var(--text-xs);color:var(--color-ink-faint);margin-top:var(--space-6);padding-top:var(--space-4);border-top:1px solid var(--color-rule);">
+            An <strong>AI Glimpse</strong> explainer. We update this guide as the field evolves.
+          </p>
+        </div>
+      </section>
+    </article>
+    <section class="section" aria-label="Related articles">
+      <div class="container container--narrow">
+        <div class="section-header">
+          <h2 class="section-title">More from AI Glimpse</h2>
+          <a href="/categories/tools" class="section-link">All Tools stories</a>
+        </div>
+        <div class="grid grid-3">
+          <article class="card card--medium">
+            <a href="/articles/nvidia-unveils-real-time-simulation-model-for-surgical-robot-training-014f04d1"><div class="card-image"><picture><source srcset="/images/articles/nvidia-unveils-real-time-simulation-model-for-surgical-robot-training-014f04d1.webp" type="image/webp"><img src="/images/articles/nvidia-unveils-real-time-simulation-model-for-surgical-robot-training-014f04d1.jpg" alt="NVIDIA Unveils Real-Time Simulation Model for Surgical Robot Training" loading="lazy" width="1200" height="630"></picture></div></a>
+            <div class="card-meta">
+              <span class="tag tag--tools">Tools</span>
+              <span class="card-byline"><time datetime="2026-07-27T09:32:20.000Z">Jul 27, 2026</time></span>
+            </div>
+            <a href="/articles/nvidia-unveils-real-time-simulation-model-for-surgical-robot-training-014f04d1"><h3 class="card-title">NVIDIA Unveils Real-Time Simulation Model for Surgical Robot Training</h3></a>
+          </article>
+          <article class="card card--medium">
+            <a href="/articles/openai-anthropic-push-back-against-open-source-ai-models-06357a27"><div class="card-image"><picture><source srcset="/images/articles/openai-anthropic-push-back-against-open-source-ai-models-06357a27.webp" type="image/webp"><img src="/images/articles/openai-anthropic-push-back-against-open-source-ai-models-06357a27.jpg" alt="OpenAI, Anthropic Push Back Against Open-Source AI Models" loading="lazy" width="1200" height="630"></picture></div></a>
+            <div class="card-meta">
+              <span class="tag tag--tools">Tools</span>
+              <span class="card-byline"><time datetime="2026-07-23T13:00:03.000Z">Jul 23, 2026</time></span>
+            </div>
+            <a href="/articles/openai-anthropic-push-back-against-open-source-ai-models-06357a27"><h3 class="card-title">OpenAI, Anthropic Push Back Against Open-Source AI Models</h3></a>
+          </article>
+          <article class="card card--medium">
+            <a href="/articles/hugging-face-optimizes-image-diffusion-models-for-edge-hardware-0cb6c526"><div class="card-image"><picture><source srcset="/images/articles/hugging-face-optimizes-image-diffusion-models-for-edge-hardware-0cb6c526.webp" type="image/webp"><img src="/images/articles/hugging-face-optimizes-image-diffusion-models-for-edge-hardware-0cb6c526.jpg" alt="Hugging Face Optimizes Image Diffusion Models for Edge Hardware" loading="lazy" width="1200" height="630"></picture></div></a>
+            <div class="card-meta">
+              <span class="tag tag--tools">Tools</span>
+              <span class="card-byline"><time datetime="2026-07-23T00:00:00.000Z">Jul 23, 2026</time></span>
+            </div>
+            <a href="/articles/hugging-face-optimizes-image-diffusion-models-for-edge-hardware-0cb6c526"><h3 class="card-title">Hugging Face Optimizes Image Diffusion Models for Edge Hardware</h3></a>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="/" class="logo">
+            <span class="logo-wordmark" aria-label="AI Glimpse">A<span class="iris-i" aria-hidden="true">ı</span><span aria-hidden="true"> Glimpse</span></span>
+          </a>
+          <p>Your daily glimpse into AI. Independent reporting and analysis on the people, products, and policies shaping artificial intelligence.</p>
+        </div>
+        <div class="footer-col">
+          <h5>Categories</h5>
+          <ul>
+            <li><a href="/categories/llms">LLMs</a></li>
+            <li><a href="/categories/research">Research</a></li>
+            <li><a href="/categories/tools">Tools</a></li>
+            <li><a href="/categories/business">Business</a></li>
+            <li><a href="/categories/ethics">Ethics</a></li>
+            <li><a href="/categories/industry">Industry</a></li>
+            <li><a href="/categories/robotics">Robotics</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h5>About</h5>
+          <ul>
+            <li><a href="/pages/about">About AI Glimpse</a></li>
+            <li><a href="/pages/contact">Contact</a></li>
+            <li><a href="/pages/editorial">Editorial Standards</a></li>
+            <li><a href="/pages/advertise">Advertise</a></li>
+            <li><a href="/guides">Guides &amp; Explainers</a></li>
+            <li><a href="/search">Search</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h5>Legal</h5>
+          <ul>
+            <li><a href="/pages/privacy">Privacy Policy</a></li>
+            <li><a href="/pages/terms">Terms of Service</a></li>
+            <li><a href="#" data-consent-open>Cookie preferences</a></li>
+            <li><a href="/rss.xml">RSS Feed</a></li>
+            <li><a href="/sitemap.xml">Sitemap</a></li>
+            <li><a href="/llms.txt">LLMs.txt</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div>© <span id="year">2026</span> AI Glimpse · aiglimpse.ai</div>
+        <div class="footer-social">
+          <a href="/rss.xml" aria-label="RSS"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M6.503 20.752c0 1.794-1.456 3.248-3.251 3.248-1.796 0-3.252-1.454-3.252-3.248 0-1.794 1.456-3.248 3.252-3.248 1.795 0 3.251 1.454 3.251 3.248zm-6.503-12.572v4.811c6.05.062 10.96 4.966 11.022 11.009h4.817c-.062-8.71-7.118-15.758-15.839-15.82zm0-3.368c10.58.046 19.152 8.594 19.183 19.188h4.817c-.03-13.231-10.755-23.954-24-24v4.812z"/></svg></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="/js/chrome.js"></script>
+  <script src="/js/main.js"></script>
+</body>
+</html>
