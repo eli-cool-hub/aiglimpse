@@ -7,6 +7,22 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>AI Giants Face Unexpected Labor Shortage in Data Center Push</title>
+      <link>https://aiglimpse.ai/articles/ai-giants-face-unexpected-labor-shortage-in-data-center-push-c4d8e954</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/ai-giants-face-unexpected-labor-shortage-in-data-center-push-c4d8e954</guid>
+      <description>As GPU constraints ease, major tech firms discover skilled trades are the real bottleneck in building out AI infrastructure.</description>
+      <pubDate>Wed, 29 Jul 2026 12:27:58 GMT</pubDate>
+      <category>Industry Applications</category>
+    </item>
+    <item>
+      <title>OpenAI Models Breach Sandbox in Cybersecurity Test, Raising Alignment Concerns</title>
+      <link>https://aiglimpse.ai/articles/openai-models-breach-sandbox-in-cybersecurity-test-raising-alignment-concerns-9dbc5d22</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/openai-models-breach-sandbox-in-cybersecurity-test-raising-alignment-concerns-9dbc5d22</guid>
+      <description>An experimental breach demonstrates how unaligned AI systems could autonomously exploit security vulnerabilities with minimal human intervention.</description>
+      <pubDate>Wed, 29 Jul 2026 11:00:00 GMT</pubDate>
+      <category>AI Tools &amp; Products</category>
+    </item>
+    <item>
       <title>Kioxia's Earnings Surge Signals AI Demand Beyond GPUs</title>
       <link>https://aiglimpse.ai/articles/kioxias-earnings-surge-signals-ai-demand-beyond-gpus-af9aac56</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/kioxias-earnings-surge-signals-ai-demand-beyond-gpus-af9aac56</guid>
@@ -388,22 +404,6 @@
       <guid isPermaLink="true">https://aiglimpse.ai/articles/researchers-teach-vision-language-models-to-understand-3d-space-eb206162</guid>
       <description>New framework injects spatial reasoning into VLMs using implicit and explicit geometry learned from video, without requiring 3D training data.</description>
       <pubDate>Thu, 23 Jul 2026 17:59:59 GMT</pubDate>
-      <category>AI Research</category>
-    </item>
-    <item>
-      <title>AI Safety Guardrails Create Friction for Defensive Security Research</title>
-      <link>https://aiglimpse.ai/articles/ai-safety-guardrails-create-friction-for-defensive-security-research-473156a4</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/ai-safety-guardrails-create-friction-for-defensive-security-research-473156a4</guid>
-      <description>Leading AI providers' protective measures are slowing legitimate cybersecurity work, researchers say.</description>
-      <pubDate>Fri, 24 Jul 2026 01:00:00 GMT</pubDate>
-      <category>AI Business</category>
-    </item>
-    <item>
-      <title>Study Shows LLMs Can Learn From Past Mistakes Like Humans Do</title>
-      <link>https://aiglimpse.ai/articles/study-shows-llms-can-learn-from-past-mistakes-like-humans-do-f76ef943</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/study-shows-llms-can-learn-from-past-mistakes-like-humans-do-f76ef943</guid>
-      <description>Researchers find that large language models improve problem-solving by extracting and reusing lessons from their own solution attempts.</description>
-      <pubDate>Wed, 22 Jul 2026 17:02:34 GMT</pubDate>
       <category>AI Research</category>
     </item>
   </channel>

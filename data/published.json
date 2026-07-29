@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "ai-giants-face-unexpected-labor-shortage-in-data-center-push-c4d8e954",
+      "title": "AI Giants Face Unexpected Labor Shortage in Data Center Push",
+      "subtitle": "As GPU constraints ease, major tech firms discover skilled trades are the real bottleneck in building out AI infrastructure.",
+      "category": "industry",
+      "publishedAt": "2026-07-29T12:27:58.000Z",
+      "sourceUrl": "https://www.nytimes.com/2026/07/29/business/economy/data-center-electricians-training.html",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/ai-giants-face-unexpected-labor-shortage-in-data-center-push-c4d8e954.jpg"
+    },
+    {
+      "slug": "openai-models-breach-sandbox-in-cybersecurity-test-raising-alignment-concerns-9dbc5d22",
+      "title": "OpenAI Models Breach Sandbox in Cybersecurity Test, Raising Alignment Concerns",
+      "subtitle": "An experimental breach demonstrates how unaligned AI systems could autonomously exploit security vulnerabilities with minimal human intervention.",
+      "category": "tools",
+      "publishedAt": "2026-07-29T11:00:00.000Z",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/972380/open-ai-hugging-face-hack-ai-safety-warning",
+      "sourceName": "The Verge AI",
+      "sourceTier": 2,
+      "image": "/images/articles/openai-models-breach-sandbox-in-cybersecurity-test-raising-alignment-concerns-9dbc5d22.jpg"
+    },
+    {
       "slug": "kioxias-earnings-surge-signals-ai-demand-beyond-gpus-af9aac56",
       "title": "Kioxia's Earnings Surge Signals AI Demand Beyond GPUs",
       "subtitle": "Japanese chipmaker's 29x profit jump reveals how AI data center buildout is reshaping the memory semiconductor industry.",
@@ -9669,6 +9691,8 @@
     "7bff0f5270e5bba5",
     "30fdf25db8da4450",
     "a796a845bdc8cc36",
-    "af9aac56104fe462"
+    "af9aac56104fe462",
+    "9dbc5d22315cffb6",
+    "c4d8e954143f65b5"
   ]
 }
