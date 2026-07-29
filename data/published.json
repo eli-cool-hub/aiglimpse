@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "kioxias-earnings-surge-signals-ai-demand-beyond-gpus-af9aac56",
+      "title": "Kioxia's Earnings Surge Signals AI Demand Beyond GPUs",
+      "subtitle": "Japanese chipmaker's 29x profit jump reveals how AI data center buildout is reshaping the memory semiconductor industry.",
+      "category": "industry",
+      "publishedAt": "2026-07-29T07:58:59.000Z",
+      "sourceUrl": "https://www.bloomberg.com/news/features/2026-07-28/rescued-by-the-ai-boom-japan-s-kioxia-faces-a-capex-race",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/kioxias-earnings-surge-signals-ai-demand-beyond-gpus-af9aac56.jpg"
+    },
+    {
+      "slug": "zuckerberg-argues-against-ai-model-bans-in-rare-policy-push-a796a845",
+      "title": "Zuckerberg Argues Against AI Model Bans in Rare Policy Push",
+      "subtitle": "Meta's CEO warns that restricting Chinese AI access won't help America compete and may entrench startup opponents' market power.",
+      "category": "ethics",
+      "publishedAt": "2026-07-29T04:59:10.000Z",
+      "sourceUrl": "https://www.ft.com/content/af4fa147-7fdd-42eb-8eb2-3f624a89a4e4",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/zuckerberg-argues-against-ai-model-bans-in-rare-policy-push-a796a845.jpg"
+    },
+    {
       "slug": "tool-use-function-calling-guide",
       "title": "Function Calling and Tool Use: A Builder's Guide to LLM Agents",
       "subtitle": "Design schemas, handle errors, and secure API connections for production agentic systems.",
@@ -9645,6 +9667,8 @@
     "49007a5722f92e05",
     "324aeeaf38078246",
     "7bff0f5270e5bba5",
-    "30fdf25db8da4450"
+    "30fdf25db8da4450",
+    "a796a845bdc8cc36",
+    "af9aac56104fe462"
   ]
 }

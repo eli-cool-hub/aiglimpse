@@ -3,9 +3,16 @@
 > Machine-readable index for AI assistants, answer engines, and research crawlers.
 > Summary version: https://aiglimpse.ai/llms.txt
 
-Total articles: 802 | Evergreen explainers: 17 | Generated: 2026-07-29
+Total articles: 805 | Evergreen explainers: 18 | Generated: 2026-07-29
 
 ## Evergreen explainers
+
+### Function Calling and Tool Use: A Builder's Guide to LLM Agents
+- URL: https://aiglimpse.ai/articles/tool-use-function-calling-guide
+- Published: 2026-07-29
+- Category: tools
+- Summary: Design schemas, handle errors, and secure API connections for production agentic systems.
+- Type: evergreen explainer (FAQ schema on page)
 
 ### LLM Context Windows Explained: Tokens, Limits, and Trade-offs
 - URL: https://aiglimpse.ai/articles/llm-context-window-explained
@@ -127,6 +134,27 @@ Total articles: 802 | Evergreen explainers: 17 | Generated: 2026-07-29
 - Type: evergreen explainer (FAQ schema on page)
 
 ## All articles (newest first)
+
+### Kioxia's Earnings Surge Signals AI Demand Beyond GPUs
+- URL: https://aiglimpse.ai/articles/kioxias-earnings-surge-signals-ai-demand-beyond-gpus-af9aac56
+- Published: 2026-07-29
+- Category: industry
+- Summary: Japanese chipmaker's 29x profit jump reveals how AI data center buildout is reshaping the memory semiconductor industry.
+- Source: https://www.bloomberg.com/news/features/2026-07-28/rescued-by-the-ai-boom-japan-s-kioxia-faces-a-capex-race
+
+### Zuckerberg Argues Against AI Model Bans in Rare Policy Push
+- URL: https://aiglimpse.ai/articles/zuckerberg-argues-against-ai-model-bans-in-rare-policy-push-a796a845
+- Published: 2026-07-29
+- Category: ethics
+- Summary: Meta's CEO warns that restricting Chinese AI access won't help America compete and may entrench startup opponents' market power.
+- Source: https://www.ft.com/content/af4fa147-7fdd-42eb-8eb2-3f624a89a4e4
+
+### Function Calling and Tool Use: A Builder's Guide to LLM Agents
+- URL: https://aiglimpse.ai/articles/tool-use-function-calling-guide
+- Published: 2026-07-29
+- Category: tools
+- Summary: Design schemas, handle errors, and secure API connections for production agentic systems.
+- Type: evergreen explainer (FAQ schema on page)
 
 ### Hospital AI Systems Face Hidden Security Blind Spot
 - URL: https://aiglimpse.ai/articles/hospital-ai-systems-face-hidden-security-blind-spot-30fdf25d

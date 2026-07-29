@@ -7,6 +7,30 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Kioxia's Earnings Surge Signals AI Demand Beyond GPUs</title>
+      <link>https://aiglimpse.ai/articles/kioxias-earnings-surge-signals-ai-demand-beyond-gpus-af9aac56</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/kioxias-earnings-surge-signals-ai-demand-beyond-gpus-af9aac56</guid>
+      <description>Japanese chipmaker's 29x profit jump reveals how AI data center buildout is reshaping the memory semiconductor industry.</description>
+      <pubDate>Wed, 29 Jul 2026 07:58:59 GMT</pubDate>
+      <category>Industry Applications</category>
+    </item>
+    <item>
+      <title>Zuckerberg Argues Against AI Model Bans in Rare Policy Push</title>
+      <link>https://aiglimpse.ai/articles/zuckerberg-argues-against-ai-model-bans-in-rare-policy-push-a796a845</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/zuckerberg-argues-against-ai-model-bans-in-rare-policy-push-a796a845</guid>
+      <description>Meta's CEO warns that restricting Chinese AI access won't help America compete and may entrench startup opponents' market power.</description>
+      <pubDate>Wed, 29 Jul 2026 04:59:10 GMT</pubDate>
+      <category>Ethics &amp; Policy</category>
+    </item>
+    <item>
+      <title>Function Calling and Tool Use: A Builder's Guide to LLM Agents</title>
+      <link>https://aiglimpse.ai/articles/tool-use-function-calling-guide</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/tool-use-function-calling-guide</guid>
+      <description>Design schemas, handle errors, and secure API connections for production agentic systems.</description>
+      <pubDate>Wed, 29 Jul 2026 08:24:55 GMT</pubDate>
+      <category>AI Tools &amp; Products</category>
+    </item>
+    <item>
       <title>Hospital AI Systems Face Hidden Security Blind Spot</title>
       <link>https://aiglimpse.ai/articles/hospital-ai-systems-face-hidden-security-blind-spot-30fdf25d</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/hospital-ai-systems-face-hidden-security-blind-spot-30fdf25d</guid>
@@ -380,30 +404,6 @@
       <guid isPermaLink="true">https://aiglimpse.ai/articles/study-shows-llms-can-learn-from-past-mistakes-like-humans-do-f76ef943</guid>
       <description>Researchers find that large language models improve problem-solving by extracting and reusing lessons from their own solution attempts.</description>
       <pubDate>Wed, 22 Jul 2026 17:02:34 GMT</pubDate>
-      <category>AI Research</category>
-    </item>
-    <item>
-      <title>New Synthetic Dataset Advances Persian Language OCR Technology</title>
-      <link>https://aiglimpse.ai/articles/new-synthetic-dataset-advances-persian-language-ocr-technology-1a8d6cbe</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-synthetic-dataset-advances-persian-language-ocr-technology-1a8d6cbe</guid>
-      <description>Researchers release 343,000 annotated text images to accelerate document digitization for 110 million Persian speakers.</description>
-      <pubDate>Wed, 22 Jul 2026 17:13:25 GMT</pubDate>
-      <category>AI Research</category>
-    </item>
-    <item>
-      <title>New Framework Makes Video AI Explain Its Reasoning Before Captioning</title>
-      <link>https://aiglimpse.ai/articles/new-framework-makes-video-ai-explain-its-reasoning-before-captioning-8fca2ad2</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-framework-makes-video-ai-explain-its-reasoning-before-captioning-8fca2ad2</guid>
-      <description>Researchers introduce a two-stage training approach that forces multimodal models to show their work by identifying objects and events before generating descriptions.</description>
-      <pubDate>Wed, 22 Jul 2026 17:17:33 GMT</pubDate>
-      <category>AI Research</category>
-    </item>
-    <item>
-      <title>Researchers Bring VR-Controlled Humanoid Robots to Smaller Scale</title>
-      <link>https://aiglimpse.ai/articles/researchers-bring-vr-controlled-humanoid-robots-to-smaller-scale-e8b99af5</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/researchers-bring-vr-controlled-humanoid-robots-to-smaller-scale-e8b99af5</guid>
-      <description>New control system ports advanced teleoperation and AI learning techniques from expensive full-size robots to affordable miniature platforms.</description>
-      <pubDate>Wed, 22 Jul 2026 17:35:43 GMT</pubDate>
       <category>AI Research</category>
     </item>
   </channel>

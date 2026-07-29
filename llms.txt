@@ -20,6 +20,9 @@ All content is original reporting by the AI Glimpse newsroom. Primary sources ar
 
 ## Recent articles
 
+- [Kioxia's Earnings Surge Signals AI Demand Beyond GPUs](https://aiglimpse.ai/articles/kioxias-earnings-surge-signals-ai-demand-beyond-gpus-af9aac56) (2026-07-29): Japanese chipmaker's 29x profit jump reveals how AI data center buildout is reshaping the memory semiconductor industry.
+- [Zuckerberg Argues Against AI Model Bans in Rare Policy Push](https://aiglimpse.ai/articles/zuckerberg-argues-against-ai-model-bans-in-rare-policy-push-a796a845) (2026-07-29): Meta's CEO warns that restricting Chinese AI access won't help America compete and may entrench startup opponents' market power.
+- [Function Calling and Tool Use: A Builder's Guide to LLM Agents](https://aiglimpse.ai/articles/tool-use-function-calling-guide) (2026-07-29): Design schemas, handle errors, and secure API connections for production agentic systems.
 - [Hospital AI Systems Face Hidden Security Blind Spot](https://aiglimpse.ai/articles/hospital-ai-systems-face-hidden-security-blind-spot-30fdf25d) (2026-07-28): A new industry alliance highlights how commercial AI guardrails can block emergency breach response, forcing health systems to rethink their security infrastructure.
 - [Researchers Cut AI Model Training Time in Half With Strategic Teacher Handoffs](https://aiglimpse.ai/articles/researchers-cut-ai-model-training-time-in-half-with-strategic-teacher-handoffs-7bff0f52) (2026-07-28): New distillation technique lets smaller language models learn more efficiently by having teachers intervene at critical moments.
 - [SK Hynix Posts Record Profits on AI Chip Demand Surge](https://aiglimpse.ai/articles/sk-hynix-posts-record-profits-on-ai-chip-demand-surge-324aeeaf) (2026-07-29): Korean chipmaker's explosive growth in high-bandwidth memory signals intensifying competition for AI infrastructure dominance.
@@ -47,12 +50,10 @@ All content is original reporting by the AI Glimpse newsroom. Primary sources ar
 - [EU AI Act Enforcement Test: Meta's Defiance Challenges Regulator](https://aiglimpse.ai/articles/eu-ai-act-enforcement-test-metas-defiance-challenges-regulator-ad092a65) (2026-07-26): The bloc's voluntary code becomes legally binding this August, forcing a showdown with major tech firms over compliance.
 - [Cornell Researchers Beam AI Model Updates Directly Into Robot Memory](https://aiglimpse.ai/articles/cornell-researchers-beam-ai-model-updates-directly-into-robot-memory-79d66d71) (2026-07-26): New optical receiver technology could slash energy consumption in AI systems by transmitting data via light instead of power-hungry electrical connections.
 - [ChatGPT Health Feature Faces First Lawsuit Over Medical Harm Claims](https://aiglimpse.ai/articles/chatgpt-health-feature-faces-first-lawsuit-over-medical-harm-claims-92192003) (2026-07-26): Legal action against OpenAI signals emerging liability questions for AI-powered health advice tools and sets precedent for consumer medical features.
-- [US May Restrict Open-Source AI Models Within Six Months](https://aiglimpse.ai/articles/us-may-restrict-open-source-ai-models-within-six-months-8eb7bfef) (2026-07-26): Policy shift could narrow commercial options to major tech firms and force enterprise reckoning with Chinese alternatives.
-- [Johnson & Johnson's Ottava Surgical Robot Wins FDA Approval](https://aiglimpse.ai/articles/johnson-johnsons-ottava-surgical-robot-wins-fda-approval-326e21a6) (2026-07-25): The first integrated robotic surgery system embedded in operating tables promises to reclaim valuable OR space and reduce surgeon fatigue through AI-optimized workflows.
-- [Meta's Smart Glasses Spark Privacy Debate Over AI Recording](https://aiglimpse.ai/articles/metas-smart-glasses-spark-privacy-debate-over-ai-recording-07bb293f) (2026-07-25): Indian activists challenge whether product disclaimers adequately protect bystanders from unauthorized video capture by AI-enabled wearables.
 
 ## Explainers (evergreen)
 
+- [Function Calling and Tool Use: A Builder's Guide to LLM Agents](https://aiglimpse.ai/articles/tool-use-function-calling-guide) (2026-07-29): Design schemas, handle errors, and secure API connections for production agentic systems.
 - [LLM Context Windows Explained: Tokens, Limits, and Trade-offs](https://aiglimpse.ai/articles/llm-context-window-explained) (2026-07-27): What counts as tokens, why context length matters, and how to choose models for your workload.
 - [Building a Production RAG Pipeline: From Documents to Answers](https://aiglimpse.ai/articles/building-production-rag-pipeline) (2026-07-22): A technical guide to chunking, retrieval, re-ranking, and observability for RAG systems at scale
 - [AI coding agents in 2026: What actually works in production](https://aiglimpse.ai/articles/ai-coding-agents-developer-guide-2026) (2026-07-19): A technical breakdown of Copilot, Cursor, and competing tools for real codebases, with honest limits.
@@ -75,7 +76,7 @@ All content is original reporting by the AI Glimpse newsroom. Primary sources ar
 
 - [Sitemap](https://aiglimpse.ai/sitemap.xml): All article URLs with publish dates (Google News format).
 - [RSS](https://aiglimpse.ai/rss.xml): 50 most recent articles (RSS 2.0).
-- [Full content index](https://aiglimpse.ai/llms-full.txt): Extended article list for LLM crawlers (802 articles).
+- [Full content index](https://aiglimpse.ai/llms-full.txt): Extended article list for LLM crawlers (805 articles).
 
 ## About
 
