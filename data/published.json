@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "sk-hynix-posts-record-profits-on-ai-chip-demand-surge-324aeeaf",
+      "title": "SK Hynix Posts Record Profits on AI Chip Demand Surge",
+      "subtitle": "Korean chipmaker's explosive growth in high-bandwidth memory signals intensifying competition for AI infrastructure dominance.",
+      "category": "industry",
+      "publishedAt": "2026-07-29T01:59:39.000Z",
+      "sourceUrl": "https://www.cnbc.com/2026/07/29/sk-hynix-earnings-profit-revenue-hbm-memory.html",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/sk-hynix-posts-record-profits-on-ai-chip-demand-surge-324aeeaf.jpg"
+    },
+    {
+      "slug": "xai-challenges-minnesotas-ai-generated-intimate-imagery-ban-49007a57",
+      "title": "xAI Challenges Minnesota's AI-Generated Intimate Imagery Ban",
+      "subtitle": "Elon Musk's company argues First Amendment protections override state law targeting non-consensual deepfake pornography.",
+      "category": "ethics",
+      "publishedAt": "2026-07-29T01:59:39.000Z",
+      "sourceUrl": "https://www.cbsnews.com/minnesota/news/elon-musk-xai-sues-minnesota-law-banning-ai-nudification/",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/xai-challenges-minnesotas-ai-generated-intimate-imagery-ban-49007a57.jpg"
+    },
+    {
       "slug": "new-framework-maps-data-strategy-for-training-better-robot-systems-5e9907a9",
       "title": "New Framework Maps Data Strategy for Training Better Robot Systems",
       "subtitle": "Researchers outline how to combine real-world, simulation, and vision-language datasets to build embodied AI agents that can manipulate objects effectively.",
@@ -9585,6 +9607,8 @@
     "c8d8397b42dcc370",
     "0b62b3c998c22baf",
     "2c4cdd6b9366ef8f",
-    "5e9907a91575428d"
+    "5e9907a91575428d",
+    "49007a5722f92e05",
+    "324aeeaf38078246"
   ]
 }
