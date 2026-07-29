@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "enterprise-ai-agents-struggle-with-policy-documents-new-study-shows-f3132fa3",
+      "title": "Enterprise AI Agents Struggle With Policy Documents, New Study Shows",
+      "subtitle": "Research reveals that injecting lengthy handbooks into AI systems fails to improve task completion rates across business-critical workflows.",
+      "category": "ethics",
+      "publishedAt": "2026-07-29T19:57:28.000Z",
+      "sourceUrl": "https://arxiv.org/abs/2607.25398",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/enterprise-ai-agents-struggle-with-policy-documents-new-study-shows-f3132fa3.jpg"
+    },
+    {
       "slug": "ai-giants-face-unexpected-labor-shortage-in-data-center-push-c4d8e954",
       "title": "AI Giants Face Unexpected Labor Shortage in Data Center Push",
       "subtitle": "As GPU constraints ease, major tech firms discover skilled trades are the real bottleneck in building out AI infrastructure.",
@@ -9693,6 +9704,7 @@
     "a796a845bdc8cc36",
     "af9aac56104fe462",
     "9dbc5d22315cffb6",
-    "c4d8e954143f65b5"
+    "c4d8e954143f65b5",
+    "f3132fa3fb4a4ddd"
   ]
 }

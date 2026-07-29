@@ -7,6 +7,14 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Enterprise AI Agents Struggle With Policy Documents, New Study Shows</title>
+      <link>https://aiglimpse.ai/articles/enterprise-ai-agents-struggle-with-policy-documents-new-study-shows-f3132fa3</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/enterprise-ai-agents-struggle-with-policy-documents-new-study-shows-f3132fa3</guid>
+      <description>Research reveals that injecting lengthy handbooks into AI systems fails to improve task completion rates across business-critical workflows.</description>
+      <pubDate>Wed, 29 Jul 2026 19:57:28 GMT</pubDate>
+      <category>Ethics &amp; Policy</category>
+    </item>
+    <item>
       <title>AI Giants Face Unexpected Labor Shortage in Data Center Push</title>
       <link>https://aiglimpse.ai/articles/ai-giants-face-unexpected-labor-shortage-in-data-center-push-c4d8e954</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/ai-giants-face-unexpected-labor-shortage-in-data-center-push-c4d8e954</guid>
@@ -396,14 +404,6 @@
       <guid isPermaLink="true">https://aiglimpse.ai/articles/researchers-map-how-robots-misunderstand-instructions-3d6dd603</guid>
       <description>New diagnostic framework reveals which semantic components robots struggle to learn, enabling more efficient training with half the data.</description>
       <pubDate>Thu, 23 Jul 2026 17:57:09 GMT</pubDate>
-      <category>AI Research</category>
-    </item>
-    <item>
-      <title>Researchers Teach Vision-Language Models to Understand 3D Space</title>
-      <link>https://aiglimpse.ai/articles/researchers-teach-vision-language-models-to-understand-3d-space-eb206162</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/researchers-teach-vision-language-models-to-understand-3d-space-eb206162</guid>
-      <description>New framework injects spatial reasoning into VLMs using implicit and explicit geometry learned from video, without requiring 3D training data.</description>
-      <pubDate>Thu, 23 Jul 2026 17:59:59 GMT</pubDate>
       <category>AI Research</category>
     </item>
   </channel>
