@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "hospital-ai-systems-face-hidden-security-blind-spot-30fdf25d",
+      "title": "Hospital AI Systems Face Hidden Security Blind Spot",
+      "subtitle": "A new industry alliance highlights how commercial AI guardrails can block emergency breach response, forcing health systems to rethink their security infrastructure.",
+      "category": "industry",
+      "publishedAt": "2026-07-28T21:51:02.000Z",
+      "sourceUrl": "https://www.beckershospitalreview.com/healthcare-information-technology/cybersecurity/what-the-ai-security-alliance-means-for-hospital-cybersecurity-teams/",
+      "sourceName": "Becker's Hospital Review",
+      "sourceTier": 2,
+      "image": "/images/articles/hospital-ai-systems-face-hidden-security-blind-spot-30fdf25d.jpg"
+    },
+    {
+      "slug": "researchers-cut-ai-model-training-time-in-half-with-strategic-teacher-handoffs-7bff0f52",
+      "title": "Researchers Cut AI Model Training Time in Half With Strategic Teacher Handoffs",
+      "subtitle": "New distillation technique lets smaller language models learn more efficiently by having teachers intervene at critical moments.",
+      "category": "research",
+      "publishedAt": "2026-07-28T17:59:46.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2607.26057v1",
+      "sourceName": "arXiv (Haolei Xu, Xiaowen Xu, Haiwen Hong, Zixuan Ni, Hongxing Li, …)",
+      "sourceTier": 1,
+      "image": "/images/articles/researchers-cut-ai-model-training-time-in-half-with-strategic-teacher-handoffs-7bff0f52.jpg"
+    },
+    {
       "slug": "sk-hynix-posts-record-profits-on-ai-chip-demand-surge-324aeeaf",
       "title": "SK Hynix Posts Record Profits on AI Chip Demand Surge",
       "subtitle": "Korean chipmaker's explosive growth in high-bandwidth memory signals intensifying competition for AI infrastructure dominance.",
@@ -9609,6 +9631,8 @@
     "2c4cdd6b9366ef8f",
     "5e9907a91575428d",
     "49007a5722f92e05",
-    "324aeeaf38078246"
+    "324aeeaf38078246",
+    "7bff0f5270e5bba5",
+    "30fdf25db8da4450"
   ]
 }
