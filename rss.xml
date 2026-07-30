@@ -7,6 +7,22 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Qualcomm Completes Modular Acquisition, Establishes AI Software Division</title>
+      <link>https://aiglimpse.ai/articles/qualcomm-completes-modular-acquisition-establishes-ai-software-division-38f79576</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/qualcomm-completes-modular-acquisition-establishes-ai-software-division-38f79576</guid>
+      <description>Chipmaker absorbs AI infrastructure startup, elevates founder Chris Lattner to EVP overseeing software platforms across hardware ecosystems.</description>
+      <pubDate>Thu, 30 Jul 2026 09:30:43 GMT</pubDate>
+      <category>Industry Applications</category>
+    </item>
+    <item>
+      <title>Frontier AI Agents Struggle With Independent Research Tasks</title>
+      <link>https://aiglimpse.ai/articles/frontier-ai-agents-struggle-with-independent-research-tasks-b69a6448</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/frontier-ai-agents-struggle-with-independent-research-tasks-b69a6448</guid>
+      <description>New study reveals significant gaps in how well advanced AI systems can autonomously tackle open-ended scientific problems.</description>
+      <pubDate>Thu, 30 Jul 2026 04:55:39 GMT</pubDate>
+      <category>Ethics &amp; Policy</category>
+    </item>
+    <item>
       <title>Enterprise AI Agents Struggle With Policy Documents, New Study Shows</title>
       <link>https://aiglimpse.ai/articles/enterprise-ai-agents-struggle-with-policy-documents-new-study-shows-f3132fa3</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/enterprise-ai-agents-struggle-with-policy-documents-new-study-shows-f3132fa3</guid>
@@ -388,22 +404,6 @@
       <guid isPermaLink="true">https://aiglimpse.ai/articles/llms-transform-medical-education-into-interactive-clinical-games-96eb7b8e</guid>
       <description>Researchers use AI to convert static case studies into adaptive learning scenarios that boost student engagement and knowledge retention.</description>
       <pubDate>Thu, 23 Jul 2026 17:50:28 GMT</pubDate>
-      <category>AI Research</category>
-    </item>
-    <item>
-      <title>New AI Model Tackles the Challenge of Coordinating Multiple Agents</title>
-      <link>https://aiglimpse.ai/articles/new-ai-model-tackles-the-challenge-of-coordinating-multiple-agents-0a930e21</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-ai-model-tackles-the-challenge-of-coordinating-multiple-agents-0a930e21</guid>
-      <description>Researchers introduce a diffusion model that maintains consistent world states across multiple agents and camera angles simultaneously.</description>
-      <pubDate>Thu, 23 Jul 2026 17:59:58 GMT</pubDate>
-      <category>AI Research</category>
-    </item>
-    <item>
-      <title>Researchers Map How Robots Misunderstand Instructions</title>
-      <link>https://aiglimpse.ai/articles/researchers-map-how-robots-misunderstand-instructions-3d6dd603</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/researchers-map-how-robots-misunderstand-instructions-3d6dd603</guid>
-      <description>New diagnostic framework reveals which semantic components robots struggle to learn, enabling more efficient training with half the data.</description>
-      <pubDate>Thu, 23 Jul 2026 17:57:09 GMT</pubDate>
       <category>AI Research</category>
     </item>
   </channel>

@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "qualcomm-completes-modular-acquisition-establishes-ai-software-division-38f79576",
+      "title": "Qualcomm Completes Modular Acquisition, Establishes AI Software Division",
+      "subtitle": "Chipmaker absorbs AI infrastructure startup, elevates founder Chris Lattner to EVP overseeing software platforms across hardware ecosystems.",
+      "category": "industry",
+      "publishedAt": "2026-07-30T09:30:43.000Z",
+      "sourceUrl": "https://www.hpcwire.com/aiwire/2026/07/29/qualcomm-completes-acquisition-of-modular/",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/qualcomm-completes-modular-acquisition-establishes-ai-software-division-38f79576.jpg"
+    },
+    {
+      "slug": "frontier-ai-agents-struggle-with-independent-research-tasks-b69a6448",
+      "title": "Frontier AI Agents Struggle With Independent Research Tasks",
+      "subtitle": "New study reveals significant gaps in how well advanced AI systems can autonomously tackle open-ended scientific problems.",
+      "category": "ethics",
+      "publishedAt": "2026-07-30T04:55:39.000Z",
+      "sourceUrl": "https://huggingface.co/papers/2607.27191",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/frontier-ai-agents-struggle-with-independent-research-tasks-b69a6448.jpg"
+    },
+    {
       "slug": "enterprise-ai-agents-struggle-with-policy-documents-new-study-shows-f3132fa3",
       "title": "Enterprise AI Agents Struggle With Policy Documents, New Study Shows",
       "subtitle": "Research reveals that injecting lengthy handbooks into AI systems fails to improve task completion rates across business-critical workflows.",
@@ -9705,6 +9727,8 @@
     "af9aac56104fe462",
     "9dbc5d22315cffb6",
     "c4d8e954143f65b5",
-    "f3132fa3fb4a4ddd"
+    "f3132fa3fb4a4ddd",
+    "b69a6448da663649",
+    "38f7957677061163"
   ]
 }
