@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "banks-arrange-15b-financing-for-anthropics-texas-ai-data-center-8e57010e",
+      "title": "Banks Arrange $15B Financing for Anthropic's Texas AI Data Center",
+      "subtitle": "Google's power and lease guarantees unlock major infrastructure funding, signaling confidence in AI compute demand.",
+      "category": "industry",
+      "publishedAt": "2026-07-30T18:32:32.000Z",
+      "sourceUrl": "https://www.wsj.com/tech/banks-in-talks-to-lend-15-billion-for-anthropic-data-center-backed-by-google-606d7afd",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/banks-arrange-15b-financing-for-anthropics-texas-ai-data-center-8e57010e.jpg"
+    },
+    {
+      "slug": "pentagons-legal-case-against-anthropic-deteriorates-judge-signals-9b53f73f",
+      "title": "Pentagon's Legal Case Against Anthropic Deteriorates, Judge Signals",
+      "subtitle": "Federal judge's skepticism over AI safety controls suggests government faces uphill battle in dispute with leading AI safety company.",
+      "category": "ethics",
+      "publishedAt": "2026-07-30T19:55:46.000Z",
+      "sourceUrl": "https://www.axios.com/2026/07/30/judge-pentagon-case-worse-anthropic",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/pentagons-legal-case-against-anthropic-deteriorates-judge-signals-9b53f73f.jpg"
+    },
+    {
       "slug": "critical-azure-cosmos-db-flaw-exposed-cross-tenant-data-access-risk-2df9ecbf",
       "title": "Critical Azure Cosmos DB Flaw Exposed Cross-Tenant Data Access Risk",
       "subtitle": "Security researchers reveal how a patched vulnerability could have compromised multiple cloud customers' databases simultaneously.",
@@ -9777,6 +9799,8 @@
     "709abd335a0f7068",
     "ad2e5b46c3754c9d",
     "659bee0efa973b25",
-    "2df9ecbf7cab4278"
+    "2df9ecbf7cab4278",
+    "9b53f73fd7f74b5b",
+    "8e57010ed6fdd35d"
   ]
 }
