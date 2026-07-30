@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "critical-azure-cosmos-db-flaw-exposed-cross-tenant-data-access-risk-2df9ecbf",
+      "title": "Critical Azure Cosmos DB Flaw Exposed Cross-Tenant Data Access Risk",
+      "subtitle": "Security researchers reveal how a patched vulnerability could have compromised multiple cloud customers' databases simultaneously.",
+      "category": "industry",
+      "publishedAt": "2026-07-30T16:56:01.000Z",
+      "sourceUrl": "https://www.reuters.com/technology/cyber-firm-wiz-says-flaw-could-have-led-mass-exposure-microsoft-cloud-customers-2026-07-30/",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/critical-azure-cosmos-db-flaw-exposed-cross-tenant-data-access-risk-2df9ecbf.jpg"
+    },
+    {
+      "slug": "ai-video-tools-weaponized-in-fda-supplement-scam-network-659bee0e",
+      "title": "AI Video Tools Weaponized in FDA Supplement Scam Network",
+      "subtitle": "Creators use Google Veo 3 and voice synthesis to generate fake doctor endorsements for recalled health products sold via TikTok Shop.",
+      "category": "ethics",
+      "publishedAt": "2026-07-30T16:56:01.000Z",
+      "sourceUrl": "https://404media.co/inside-an-ai-tiktok-shop-slop-factory-that-shills-supplements-recalled-by-the-fda",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/ai-video-tools-weaponized-in-fda-supplement-scam-network-659bee0e.jpg"
+    },
+    {
       "slug": "how-startups-are-mining-home-kitchens-for-robot-training-data-ad2e5b46",
       "title": "How Startups Are Mining Home Kitchens for Robot Training Data",
       "subtitle": "A German robotics firm is compensating people with free meals in exchange for filming cooking demonstrations to teach humanoids complex hand movements.",
@@ -9753,6 +9775,8 @@
     "b69a6448da663649",
     "38f7957677061163",
     "709abd335a0f7068",
-    "ad2e5b46c3754c9d"
+    "ad2e5b46c3754c9d",
+    "659bee0efa973b25",
+    "2df9ecbf7cab4278"
   ]
 }
