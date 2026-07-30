@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "how-startups-are-mining-home-kitchens-for-robot-training-data-ad2e5b46",
+      "title": "How Startups Are Mining Home Kitchens for Robot Training Data",
+      "subtitle": "A German robotics firm is compensating people with free meals in exchange for filming cooking demonstrations to teach humanoids complex hand movements.",
+      "category": "tools",
+      "publishedAt": "2026-07-30T09:00:00.000Z",
+      "sourceUrl": "https://www.wired.com/story/i-let-a-private-chef-film-my-kitchen-for-robot-training-data/",
+      "sourceName": "Wired AI",
+      "sourceTier": 2,
+      "image": "/images/articles/how-startups-are-mining-home-kitchens-for-robot-training-data-ad2e5b46.jpg"
+    },
+    {
+      "slug": "ai-compute-could-become-15x-more-expensive-analysis-suggests-709abd33",
+      "title": "AI Compute Could Become 15x More Expensive, Analysis Suggests",
+      "subtitle": "Economic valuation models hint that GPU pricing may be drastically undervalued relative to the engineering talent they could replace.",
+      "category": "industry",
+      "publishedAt": "2026-07-30T10:58:23.000Z",
+      "sourceUrl": "https://www.dwarkesh.com/p/why-compute-might-get-10x-more-expensive",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/ai-compute-could-become-15x-more-expensive-analysis-suggests-709abd33.jpg"
+    },
+    {
       "slug": "qualcomm-completes-modular-acquisition-establishes-ai-software-division-38f79576",
       "title": "Qualcomm Completes Modular Acquisition, Establishes AI Software Division",
       "subtitle": "Chipmaker absorbs AI infrastructure startup, elevates founder Chris Lattner to EVP overseeing software platforms across hardware ecosystems.",
@@ -9729,6 +9751,8 @@
     "c4d8e954143f65b5",
     "f3132fa3fb4a4ddd",
     "b69a6448da663649",
-    "38f7957677061163"
+    "38f7957677061163",
+    "709abd335a0f7068",
+    "ad2e5b46c3754c9d"
   ]
 }
