@@ -1,6 +1,18 @@
 {
   "articles": [
     {
+      "slug": "fine-tuning-lora-practical-guide",
+      "title": "Fine-Tune LLMs with LoRA: When It's Worth It and How to Do It Safely",
+      "subtitle": "A practical guide to LoRA fine-tuning, QLoRA quantization, cost considerations, and failure modes for ML engineers.",
+      "category": "research",
+      "publishedAt": "2026-07-31T08:35:24.755Z",
+      "sourceUrl": null,
+      "sourceName": "AI Glimpse Newsroom",
+      "sourceTier": 0,
+      "image": "/images/articles/fine-tuning-lora-practical-guide.jpg",
+      "evergreen": true
+    },
+    {
       "slug": "big-techs-ai-spending-surge-725b-planned-for-2026-408669db",
       "title": "Big Tech's AI Spending Surge: $725B Planned for 2026",
       "subtitle": "Amazon, Microsoft, Alphabet, and Meta are nearly doubling infrastructure investments to build the computing foundation for advanced AI systems.",

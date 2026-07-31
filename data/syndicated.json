@@ -10838,6 +10838,24 @@
         "devto": true,
         "hashnode": false
       }
+    },
+    "fine-tuning-lora-practical-guide": {
+      "syndicated_at": "2026-07-31T08:35:26.273Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/fine-tune-llms-with-lora-when-its-worth-it-and-how-to-do-it-safely-1lmo",
+      "hashnode": null,
+      "gates": {
+        "medium": true,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 2810,
+      "category": "research",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
     }
   }
 }
