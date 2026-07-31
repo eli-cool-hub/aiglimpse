@@ -7,6 +7,22 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Big Tech's AI Spending Surge: $725B Planned for 2026</title>
+      <link>https://aiglimpse.ai/articles/big-techs-ai-spending-surge-725b-planned-for-2026-408669db</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/big-techs-ai-spending-surge-725b-planned-for-2026-408669db</guid>
+      <description>Amazon, Microsoft, Alphabet, and Meta are nearly doubling infrastructure investments to build the computing foundation for advanced AI systems.</description>
+      <pubDate>Fri, 31 Jul 2026 05:00:15 GMT</pubDate>
+      <category>Industry Applications</category>
+    </item>
+    <item>
+      <title>Humanoid Robot Learns to Dodge in Real Time Using Camera Vision</title>
+      <link>https://aiglimpse.ai/articles/humanoid-robot-learns-to-dodge-in-real-time-using-camera-vision-d5bf2fb6</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/humanoid-robot-learns-to-dodge-in-real-time-using-camera-vision-d5bf2fb6</guid>
+      <description>New framework merges safety constraints with realistic onboard sensors to help robots evade moving objects without perfect information.</description>
+      <pubDate>Thu, 30 Jul 2026 17:59:35 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
       <title>Healthcare Systems Must Build Independent AI Infrastructure, Not Rely on EHR Vendors</title>
       <link>https://aiglimpse.ai/articles/healthcare-systems-must-build-independent-ai-infrastructure-not-rely-on-ehr-vend-c3bdc273</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/healthcare-systems-must-build-independent-ai-infrastructure-not-rely-on-ehr-vend-c3bdc273</guid>
@@ -388,22 +404,6 @@
       <guid isPermaLink="true">https://aiglimpse.ai/articles/neura-robotics-opens-training-centers-to-develop-real-world-ai-for-robots-e7fc6c7c</guid>
       <description>German startup launches network of specialized facilities to bridge the data gap between simulation and physical robot deployment.</description>
       <pubDate>Fri, 24 Jul 2026 12:30:42 GMT</pubDate>
-      <category>Robotics</category>
-    </item>
-    <item>
-      <title>Chinese AI Chip Makers Pursue Hong Kong Listings Amid Compute Arms Race</title>
-      <link>https://aiglimpse.ai/articles/chinese-ai-chip-makers-pursue-hong-kong-listings-amid-compute-arms-race-0be920b1</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/chinese-ai-chip-makers-pursue-hong-kong-listings-amid-compute-arms-race-0be920b1</guid>
-      <description>A wave of domestic GPU startups is securing capital and shifting AI workload preferences, forcing global hardware vendors to reassess their China strategy.</description>
-      <pubDate>Fri, 24 Jul 2026 00:00:00 GMT</pubDate>
-      <category>Industry Applications</category>
-    </item>
-    <item>
-      <title>Time Series Databases Become Critical Infrastructure for Industrial Robotics</title>
-      <link>https://aiglimpse.ai/articles/time-series-databases-become-critical-infrastructure-for-industrial-robotics-52688681</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/time-series-databases-become-critical-infrastructure-for-industrial-robotics-52688681</guid>
-      <description>Specialized data platforms designed for temporal information are reshaping how manufacturing and automation systems process sensor data at scale.</description>
-      <pubDate>Fri, 24 Jul 2026 16:28:39 GMT</pubDate>
       <category>Robotics</category>
     </item>
   </channel>

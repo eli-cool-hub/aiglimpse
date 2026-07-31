@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "big-techs-ai-spending-surge-725b-planned-for-2026-408669db",
+      "title": "Big Tech's AI Spending Surge: $725B Planned for 2026",
+      "subtitle": "Amazon, Microsoft, Alphabet, and Meta are nearly doubling infrastructure investments to build the computing foundation for advanced AI systems.",
+      "category": "industry",
+      "publishedAt": "2026-07-31T05:00:15.000Z",
+      "sourceUrl": "https://www.ft.com/content/dcf3873e-7b32-4a24-a90d-3bccf1d2c996",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/big-techs-ai-spending-surge-725b-planned-for-2026-408669db.jpg"
+    },
+    {
+      "slug": "humanoid-robot-learns-to-dodge-in-real-time-using-camera-vision-d5bf2fb6",
+      "title": "Humanoid Robot Learns to Dodge in Real Time Using Camera Vision",
+      "subtitle": "New framework merges safety constraints with realistic onboard sensors to help robots evade moving objects without perfect information.",
+      "category": "research",
+      "publishedAt": "2026-07-30T17:59:35.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2607.28623v1",
+      "sourceName": "arXiv (Lizhi Yang, Junheng Li, Aaron D. Ames)",
+      "sourceTier": 1,
+      "image": "/images/articles/humanoid-robot-learns-to-dodge-in-real-time-using-camera-vision-d5bf2fb6.jpg"
+    },
+    {
       "slug": "healthcare-systems-must-build-independent-ai-infrastructure-not-rely-on-ehr-vend-c3bdc273",
       "title": "Healthcare Systems Must Build Independent AI Infrastructure, Not Rely on EHR Vendors",
       "subtitle": "Health systems pursuing clinical AI through vendor upgrade cycles are outsourcing the technology that will determine patient outcomes and institutional liability.",
@@ -9813,6 +9835,8 @@
     "2df9ecbf7cab4278",
     "9b53f73fd7f74b5b",
     "8e57010ed6fdd35d",
-    "c3bdc2733553aff5"
+    "c3bdc2733553aff5",
+    "d5bf2fb68fc6ada9",
+    "408669db3fa5cb98"
   ]
 }
