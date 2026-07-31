@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "healthcare-systems-must-build-independent-ai-infrastructure-not-rely-on-ehr-vend-c3bdc273",
+      "title": "Healthcare Systems Must Build Independent AI Infrastructure, Not Rely on EHR Vendors",
+      "subtitle": "Health systems pursuing clinical AI through vendor upgrade cycles are outsourcing the technology that will determine patient outcomes and institutional liability.",
+      "category": "industry",
+      "publishedAt": "2026-07-30T21:28:04.000Z",
+      "sourceUrl": "https://www.beckershospitalreview.com/healthcare-information-technology/get-off-the-ehr-upgrade-treadmill-architectural-sovereignty-is-the-real-clinical-ai-strategy/",
+      "sourceName": "Becker's Hospital Review",
+      "sourceTier": 2,
+      "image": "/images/articles/healthcare-systems-must-build-independent-ai-infrastructure-not-rely-on-ehr-vend-c3bdc273.jpg"
+    },
+    {
       "slug": "banks-arrange-15b-financing-for-anthropics-texas-ai-data-center-8e57010e",
       "title": "Banks Arrange $15B Financing for Anthropic's Texas AI Data Center",
       "subtitle": "Google's power and lease guarantees unlock major infrastructure funding, signaling confidence in AI compute demand.",
@@ -9801,6 +9812,7 @@
     "659bee0efa973b25",
     "2df9ecbf7cab4278",
     "9b53f73fd7f74b5b",
-    "8e57010ed6fdd35d"
+    "8e57010ed6fdd35d",
+    "c3bdc2733553aff5"
   ]
 }
