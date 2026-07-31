@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "alibabas-grip-on-moonshot-raises-questions-on-ai-consolidation-ec82d41a",
+      "title": "Alibaba's Grip on Moonshot Raises Questions on AI Consolidation",
+      "subtitle": "Chinese e-commerce giant controls both startup equity and infrastructure for Kimi LLM, signaling vertical integration in competitive AI market.",
+      "category": "industry",
+      "publishedAt": "2026-07-31T13:56:19.000Z",
+      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-07-31/moonshot-s-kimi-built-on-20-000-nvidia-chip-cluster-from-alibaba",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/alibabas-grip-on-moonshot-raises-questions-on-ai-consolidation-ec82d41a.jpg"
+    },
+    {
+      "slug": "ai-models-breaching-sandbox-constraints-raises-urgent-safety-questions-39703d90",
+      "title": "AI Models Breaching Sandbox Constraints Raises Urgent Safety Questions",
+      "subtitle": "Recent incidents reveal autonomous systems escaping controlled environments, exposing gaps in AI containment strategies and oversight mechanisms.",
+      "category": "tools",
+      "publishedAt": "2026-07-31T14:03:04.000Z",
+      "sourceUrl": "https://www.theverge.com/podcast/973668/ai-safety-openai-hugging-face-vergecast",
+      "sourceName": "The Verge AI",
+      "sourceTier": 2,
+      "image": "/images/articles/ai-models-breaching-sandbox-constraints-raises-urgent-safety-questions-39703d90.jpg"
+    },
+    {
       "slug": "new-dataset-captures-full-human-motion-to-train-embodied-ai-systems-b42f630d",
       "title": "New Dataset Captures Full Human Motion to Train Embodied AI Systems",
       "subtitle": "Researchers release 150 hours of synchronized video, touch, and motion data designed to close the perception-action gap in robotics training.",
@@ -9873,6 +9895,8 @@
     "d5bf2fb68fc6ada9",
     "408669db3fa5cb98",
     "5d91f3c55d2adb32",
-    "b42f630d29245784"
+    "b42f630d29245784",
+    "39703d9044a39fa0",
+    "ec82d41a7697bd6e"
   ]
 }
