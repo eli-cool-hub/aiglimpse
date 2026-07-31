@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "thermal-battery-startup-antora-raises-550m-as-ai-data-centers-fuel-energy-storag-c061ae00",
+      "title": "Thermal Battery Startup Antora Raises $550M as AI Data Centers Fuel Energy Storage Demand",
+      "subtitle": "A carbon-block heat storage company valued at $2.47B has closed its latest funding round, signaling how artificial intelligence infrastructure is reshaping the energy technology sector.",
+      "category": "industry",
+      "publishedAt": "2026-07-31T17:02:38.000Z",
+      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-07-30/battery-startup-raises-550-million-amid-boom-in-ai-data-centers",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/thermal-battery-startup-antora-raises-550m-as-ai-data-centers-fuel-energy-storag-c061ae00.jpg"
+    },
+    {
+      "slug": "robotics-research-ditches-search-for-direct-action-control-ea6214e8",
+      "title": "Robotics Research Ditches Search for Direct Action Control",
+      "subtitle": "New approach eliminates expensive inference searches by mapping desired outcomes directly to robot actions through learned intent-to-action interfaces.",
+      "category": "ethics",
+      "publishedAt": "2026-07-31T15:54:27.000Z",
+      "sourceUrl": "https://arxiv.org/abs/2607.26056",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/robotics-research-ditches-search-for-direct-action-control-ea6214e8.jpg"
+    },
+    {
       "slug": "alibabas-grip-on-moonshot-raises-questions-on-ai-consolidation-ec82d41a",
       "title": "Alibaba's Grip on Moonshot Raises Questions on AI Consolidation",
       "subtitle": "Chinese e-commerce giant controls both startup equity and infrastructure for Kimi LLM, signaling vertical integration in competitive AI market.",
@@ -9897,6 +9919,8 @@
     "5d91f3c55d2adb32",
     "b42f630d29245784",
     "39703d9044a39fa0",
-    "ec82d41a7697bd6e"
+    "ec82d41a7697bd6e",
+    "ea6214e8d522f8b9",
+    "c061ae00761c0b84"
   ]
 }
