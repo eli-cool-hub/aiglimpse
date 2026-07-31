@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "new-dataset-captures-full-human-motion-to-train-embodied-ai-systems-b42f630d",
+      "title": "New Dataset Captures Full Human Motion to Train Embodied AI Systems",
+      "subtitle": "Researchers release 150 hours of synchronized video, touch, and motion data designed to close the perception-action gap in robotics training.",
+      "category": "research",
+      "publishedAt": "2026-07-30T17:59:50.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2607.28625v1",
+      "sourceName": "arXiv (Yukang Cao, Haozhe Xie, Beichen Wen, Runmao Yao, Yinghao Liu…)",
+      "sourceTier": 1,
+      "image": "/images/articles/new-dataset-captures-full-human-motion-to-train-embodied-ai-systems-b42f630d.jpg"
+    },
+    {
+      "slug": "infrastructure-delays-not-chips-may-cost-us-ai-dominance-5d91f3c5",
+      "title": "Infrastructure Delays, Not Chips, May Cost US AI Dominance",
+      "subtitle": "Senate Commerce Committee identifies grid and fiber buildout as critical bottleneck in competition with China, not semiconductor supply.",
+      "category": "industry",
+      "publishedAt": "2026-07-31T05:00:15.000Z",
+      "sourceUrl": "https://www.scmp.com/news/china/diplomacy/article/3362471/will-us-red-tape-and-other-infrastructure-delays-give-china-lead-ai-race",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/infrastructure-delays-not-chips-may-cost-us-ai-dominance-5d91f3c5.jpg"
+    },
+    {
       "slug": "fine-tuning-lora-practical-guide",
       "title": "Fine-Tune LLMs with LoRA: When It's Worth It and How to Do It Safely",
       "subtitle": "A practical guide to LoRA fine-tuning, QLoRA quantization, cost considerations, and failure modes for ML engineers.",
@@ -9849,6 +9871,8 @@
     "8e57010ed6fdd35d",
     "c3bdc2733553aff5",
     "d5bf2fb68fc6ada9",
-    "408669db3fa5cb98"
+    "408669db3fa5cb98",
+    "5d91f3c55d2adb32",
+    "b42f630d29245784"
   ]
 }

@@ -3,9 +3,16 @@
 > Machine-readable index for AI assistants, answer engines, and research crawlers.
 > Summary version: https://aiglimpse.ai/llms.txt
 
-Total articles: 819 | Evergreen explainers: 18 | Generated: 2026-07-31
+Total articles: 822 | Evergreen explainers: 19 | Generated: 2026-07-31
 
 ## Evergreen explainers
+
+### Fine-Tune LLMs with LoRA: When It's Worth It and How to Do It Safely
+- URL: https://aiglimpse.ai/articles/fine-tuning-lora-practical-guide
+- Published: 2026-07-31
+- Category: research
+- Summary: A practical guide to LoRA fine-tuning, QLoRA quantization, cost considerations, and failure modes for ML engineers.
+- Type: evergreen explainer (FAQ schema on page)
 
 ### Function Calling and Tool Use: A Builder's Guide to LLM Agents
 - URL: https://aiglimpse.ai/articles/tool-use-function-calling-guide
@@ -134,6 +141,27 @@ Total articles: 819 | Evergreen explainers: 18 | Generated: 2026-07-31
 - Type: evergreen explainer (FAQ schema on page)
 
 ## All articles (newest first)
+
+### New Dataset Captures Full Human Motion to Train Embodied AI Systems
+- URL: https://aiglimpse.ai/articles/new-dataset-captures-full-human-motion-to-train-embodied-ai-systems-b42f630d
+- Published: 2026-07-30
+- Category: research
+- Summary: Researchers release 150 hours of synchronized video, touch, and motion data designed to close the perception-action gap in robotics training.
+- Source: http://arxiv.org/abs/2607.28625v1
+
+### Infrastructure Delays, Not Chips, May Cost US AI Dominance
+- URL: https://aiglimpse.ai/articles/infrastructure-delays-not-chips-may-cost-us-ai-dominance-5d91f3c5
+- Published: 2026-07-31
+- Category: industry
+- Summary: Senate Commerce Committee identifies grid and fiber buildout as critical bottleneck in competition with China, not semiconductor supply.
+- Source: https://www.scmp.com/news/china/diplomacy/article/3362471/will-us-red-tape-and-other-infrastructure-delays-give-china-lead-ai-race
+
+### Fine-Tune LLMs with LoRA: When It's Worth It and How to Do It Safely
+- URL: https://aiglimpse.ai/articles/fine-tuning-lora-practical-guide
+- Published: 2026-07-31
+- Category: research
+- Summary: A practical guide to LoRA fine-tuning, QLoRA quantization, cost considerations, and failure modes for ML engineers.
+- Type: evergreen explainer (FAQ schema on page)
 
 ### Big Tech's AI Spending Surge: $725B Planned for 2026
 - URL: https://aiglimpse.ai/articles/big-techs-ai-spending-surge-725b-planned-for-2026-408669db

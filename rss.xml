@@ -7,6 +7,30 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>New Dataset Captures Full Human Motion to Train Embodied AI Systems</title>
+      <link>https://aiglimpse.ai/articles/new-dataset-captures-full-human-motion-to-train-embodied-ai-systems-b42f630d</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-dataset-captures-full-human-motion-to-train-embodied-ai-systems-b42f630d</guid>
+      <description>Researchers release 150 hours of synchronized video, touch, and motion data designed to close the perception-action gap in robotics training.</description>
+      <pubDate>Thu, 30 Jul 2026 17:59:50 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
+      <title>Infrastructure Delays, Not Chips, May Cost US AI Dominance</title>
+      <link>https://aiglimpse.ai/articles/infrastructure-delays-not-chips-may-cost-us-ai-dominance-5d91f3c5</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/infrastructure-delays-not-chips-may-cost-us-ai-dominance-5d91f3c5</guid>
+      <description>Senate Commerce Committee identifies grid and fiber buildout as critical bottleneck in competition with China, not semiconductor supply.</description>
+      <pubDate>Fri, 31 Jul 2026 05:00:15 GMT</pubDate>
+      <category>Industry Applications</category>
+    </item>
+    <item>
+      <title>Fine-Tune LLMs with LoRA: When It's Worth It and How to Do It Safely</title>
+      <link>https://aiglimpse.ai/articles/fine-tuning-lora-practical-guide</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/fine-tuning-lora-practical-guide</guid>
+      <description>A practical guide to LoRA fine-tuning, QLoRA quantization, cost considerations, and failure modes for ML engineers.</description>
+      <pubDate>Fri, 31 Jul 2026 08:35:24 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
       <title>Big Tech's AI Spending Surge: $725B Planned for 2026</title>
       <link>https://aiglimpse.ai/articles/big-techs-ai-spending-surge-725b-planned-for-2026-408669db</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/big-techs-ai-spending-surge-725b-planned-for-2026-408669db</guid>
@@ -381,30 +405,6 @@
       <description>Indian activists challenge whether product disclaimers adequately protect bystanders from unauthorized video capture by AI-enabled wearables.</description>
       <pubDate>Sat, 25 Jul 2026 00:00:00 GMT</pubDate>
       <category>Ethics &amp; Policy</category>
-    </item>
-    <item>
-      <title>Delhi Court Rules Against News Publishers in OpenAI Copyright Case</title>
-      <link>https://aiglimpse.ai/articles/delhi-court-rules-against-news-publishers-in-openai-copyright-case-64cd4d3b</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/delhi-court-rules-against-news-publishers-in-openai-copyright-case-64cd4d3b</guid>
-      <description>A significant interim judgment shifts legal burden to Indian media outlets, reshaping AI licensing negotiations globally.</description>
-      <pubDate>Sat, 25 Jul 2026 00:00:00 GMT</pubDate>
-      <category>AI Business</category>
-    </item>
-    <item>
-      <title>DeepSeek-R1 Shows Critical Reasoning Collapse, Prompting Infrastructure Rethink</title>
-      <link>https://aiglimpse.ai/articles/deepseek-r1-shows-critical-reasoning-collapse-prompting-infrastructure-rethink-f37fabf6</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/deepseek-r1-shows-critical-reasoning-collapse-prompting-infrastructure-rethink-f37fabf6</guid>
-      <description>Researchers identify early token failures in reasoning models, forcing cloud platforms to reconsider how they allocate compute resources in real time.</description>
-      <pubDate>Sat, 25 Jul 2026 00:00:00 GMT</pubDate>
-      <category>AI Business</category>
-    </item>
-    <item>
-      <title>NEURA Robotics Opens Training Centers to Develop Real-World AI for Robots</title>
-      <link>https://aiglimpse.ai/articles/neura-robotics-opens-training-centers-to-develop-real-world-ai-for-robots-e7fc6c7c</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/neura-robotics-opens-training-centers-to-develop-real-world-ai-for-robots-e7fc6c7c</guid>
-      <description>German startup launches network of specialized facilities to bridge the data gap between simulation and physical robot deployment.</description>
-      <pubDate>Fri, 24 Jul 2026 12:30:42 GMT</pubDate>
-      <category>Robotics</category>
     </item>
   </channel>
 </rss>
