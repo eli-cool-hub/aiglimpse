@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "chinese-ai-giants-abandon-consumer-giveaways-for-enterprise-models-e3f95c69",
+      "title": "Chinese AI Giants Abandon Consumer Giveaways for Enterprise Models",
+      "subtitle": "ByteDance, Alibaba, and Tencent shift strategy from free-tier competition to business-focused pricing as capabilities mature.",
+      "category": "business",
+      "publishedAt": "2026-08-01T06:37:03.000Z",
+      "sourceUrl": "https://www.semafor.com/article/07/31/2026/chinese-ai-companies-aim-to-serve-businesses",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/chinese-ai-giants-abandon-consumer-giveaways-for-enterprise-models-e3f95c69.jpg"
+    },
+    {
+      "slug": "minnesotas-ai-deepfake-ban-survives-first-legal-challenge-938677f6",
+      "title": "Minnesota's AI Deepfake Ban Survives First Legal Challenge",
+      "subtitle": "A federal judge rejected xAI's attempt to block the state's restriction on AI-generated intimate imagery, dealing a blow to Musk's company.",
+      "category": "ethics",
+      "publishedAt": "2026-08-01T07:58:40.000Z",
+      "sourceUrl": "https://www.nbcnews.com/tech/elon-musk/judge-denies-request-elon-musks-xai-block-mn-nudification-ban-rcna589993",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/minnesotas-ai-deepfake-ban-survives-first-legal-challenge-938677f6.jpg"
+    },
+    {
       "slug": "court-ruling-strengthens-copyright-protections-against-ai-data-scrapers-eb1bf7e3",
       "title": "Court Ruling Strengthens Copyright Protections Against AI Data Scrapers",
       "subtitle": "A federal judge's decision to advance Reddit's anti-circumvention claims against Perplexity and SerpApi signals growing legal headwinds for AI systems built on scraped web content.",
@@ -9957,6 +9979,8 @@
     "c061ae00761c0b84",
     "e920387ec134eabe",
     "4c0eb02e41291e16",
-    "eb1bf7e32f652270"
+    "eb1bf7e32f652270",
+    "938677f6bca3dffc",
+    "e3f95c69180ebc07"
   ]
 }

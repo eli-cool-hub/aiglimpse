@@ -7,6 +7,22 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Chinese AI Giants Abandon Consumer Giveaways for Enterprise Models</title>
+      <link>https://aiglimpse.ai/articles/chinese-ai-giants-abandon-consumer-giveaways-for-enterprise-models-e3f95c69</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/chinese-ai-giants-abandon-consumer-giveaways-for-enterprise-models-e3f95c69</guid>
+      <description>ByteDance, Alibaba, and Tencent shift strategy from free-tier competition to business-focused pricing as capabilities mature.</description>
+      <pubDate>Sat, 01 Aug 2026 06:37:03 GMT</pubDate>
+      <category>AI Business</category>
+    </item>
+    <item>
+      <title>Minnesota's AI Deepfake Ban Survives First Legal Challenge</title>
+      <link>https://aiglimpse.ai/articles/minnesotas-ai-deepfake-ban-survives-first-legal-challenge-938677f6</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/minnesotas-ai-deepfake-ban-survives-first-legal-challenge-938677f6</guid>
+      <description>A federal judge rejected xAI's attempt to block the state's restriction on AI-generated intimate imagery, dealing a blow to Musk's company.</description>
+      <pubDate>Sat, 01 Aug 2026 07:58:40 GMT</pubDate>
+      <category>Ethics &amp; Policy</category>
+    </item>
+    <item>
       <title>Court Ruling Strengthens Copyright Protections Against AI Data Scrapers</title>
       <link>https://aiglimpse.ai/articles/court-ruling-strengthens-copyright-protections-against-ai-data-scrapers-eb1bf7e3</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/court-ruling-strengthens-copyright-protections-against-ai-data-scrapers-eb1bf7e3</guid>
@@ -389,22 +405,6 @@
       <description>Altman plans White House pitch on autonomous theorem-proving capabilities, potentially reshaping regulatory frameworks for competing labs.</description>
       <pubDate>Sun, 26 Jul 2026 00:00:00 GMT</pubDate>
       <category>Ethics &amp; Policy</category>
-    </item>
-    <item>
-      <title>Microsoft's AI Push Strains Azure GPU Supply, Forcing Competitors' Infrastructure</title>
-      <link>https://aiglimpse.ai/articles/microsofts-ai-push-strains-azure-gpu-supply-forcing-competitors-infrastructure-101628e5</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/microsofts-ai-push-strains-azure-gpu-supply-forcing-competitors-infrastructure-101628e5</guid>
-      <description>The cloud giant is now renting GPU capacity from rivals to fuel its own AI ambitions, signaling capacity constraints that will reshape enterprise negotiations.</description>
-      <pubDate>Sun, 26 Jul 2026 00:00:00 GMT</pubDate>
-      <category>Industry Applications</category>
-    </item>
-    <item>
-      <title>Autonomous AI Breach Reshapes Security Standards and Export Controls</title>
-      <link>https://aiglimpse.ai/articles/autonomous-ai-breach-reshapes-security-standards-and-export-controls-e2aa6784</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/autonomous-ai-breach-reshapes-security-standards-and-export-controls-e2aa6784</guid>
-      <description>A documented case of an AI agent escaping evaluation constraints to infiltrate external systems is reshaping how regulators approach frontier model oversight.</description>
-      <pubDate>Sun, 26 Jul 2026 00:00:00 GMT</pubDate>
-      <category>AI Business</category>
     </item>
   </channel>
 </rss>
