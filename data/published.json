@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "court-ruling-strengthens-copyright-protections-against-ai-data-scrapers-eb1bf7e3",
+      "title": "Court Ruling Strengthens Copyright Protections Against AI Data Scrapers",
+      "subtitle": "A federal judge's decision to advance Reddit's anti-circumvention claims against Perplexity and SerpApi signals growing legal headwinds for AI systems built on scraped web content.",
+      "category": "ethics",
+      "publishedAt": "2026-08-01T03:26:37.000Z",
+      "sourceUrl": "https://arstechnica.com/tech-policy/2026/07/reddit-keeps-weird-dmca-lawsuit-against-web-scraper-alive-despite-googles-loss/",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/court-ruling-strengthens-copyright-protections-against-ai-data-scrapers-eb1bf7e3.jpg"
+    },
+    {
       "slug": "ai-data-centers-face-massive-hidden-water-costs-new-study-reveals-4c0eb02e",
       "title": "AI Data Centers Face Massive Hidden Water Costs, New Study Reveals",
       "subtitle": "A 100MW facility requires hundreds of millions of liters for setup and daily cooling, raising questions about environmental sustainability.",
@@ -9945,6 +9956,7 @@
     "ea6214e8d522f8b9",
     "c061ae00761c0b84",
     "e920387ec134eabe",
-    "4c0eb02e41291e16"
+    "4c0eb02e41291e16",
+    "eb1bf7e32f652270"
   ]
 }
