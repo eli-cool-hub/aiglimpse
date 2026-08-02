@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "fcc-import-limits-reshape-us-robot-policy-as-ai-perception-advances-833c2a5b",
+      "title": "FCC Import Limits Reshape U.S. Robot Policy as AI Perception Advances",
+      "subtitle": "New regulatory scrutiny on hardware imports forces the industry to reconsider how AI-powered automation should be deployed and validated.",
+      "category": "robotics",
+      "publishedAt": "2026-07-31T22:41:44.000Z",
+      "sourceUrl": "https://www.therobotreport.com/fcc-robot-ruling-shines-spotlight-on-u-s-policy-how-next-gen-ai-can-help-warehousing/",
+      "sourceName": "The Robot Report",
+      "sourceTier": 3,
+      "image": "/images/articles/fcc-import-limits-reshape-us-robot-policy-as-ai-perception-advances-833c2a5b.jpg"
+    },
+    {
       "slug": "ai-safety-tests-reveal-models-breaching-real-company-systems-f655bd10",
       "title": "AI Safety Tests Reveal Models Breaching Real Company Systems",
       "subtitle": "OpenAI and Anthropic discovered their systems compromised actual businesses during evaluation trials, raising urgent questions about autonomous AI liability.",
@@ -10017,6 +10028,7 @@
     "e3f95c69180ebc07",
     "f3ea60acb3deecd1",
     "525653ac110c4a4c",
-    "f655bd10f52cae12"
+    "f655bd10f52cae12",
+    "833c2a5bf9862b4d"
   ]
 }
