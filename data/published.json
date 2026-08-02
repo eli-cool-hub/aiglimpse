@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "robotics-sector-surges-as-ai-training-hardware-and-policy-reshape-the-industry-e2b7986a",
+      "title": "Robotics Sector Surges as AI Training, Hardware, and Policy Reshape the Industry",
+      "subtitle": "July 2026 marked a turning point for physical AI adoption, with major funding rounds, breakthroughs in robot learning, and new U.S. trade restrictions reshaping the competitive landscape.",
+      "category": "robotics",
+      "publishedAt": "2026-08-01T12:00:30.000Z",
+      "sourceUrl": "https://www.therobotreport.com/top-10-robotics-stories-july-2026/",
+      "sourceName": "The Robot Report",
+      "sourceTier": 3,
+      "image": "/images/articles/robotics-sector-surges-as-ai-training-hardware-and-policy-reshape-the-industry-e2b7986a.jpg"
+    },
+    {
+      "slug": "mexico-emerges-as-ai-server-manufacturing-hub-challenging-taiwan-d955a148",
+      "title": "Mexico Emerges as AI Server Manufacturing Hub, Challenging Taiwan",
+      "subtitle": "Assembly of enterprise hardware for artificial intelligence workloads is reshaping global supply chains as Mexico surpasses traditional chip leaders.",
+      "category": "industry",
+      "publishedAt": "2026-08-02T15:26:50.000Z",
+      "sourceUrl": "https://www.ft.com/content/ac3274ac-86ca-46ac-bc7b-029fb9dcd173",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/mexico-emerges-as-ai-server-manufacturing-hub-challenging-taiwan-d955a148.jpg"
+    },
+    {
       "slug": "ai-infrastructure-loans-face-higher-costs-as-market-saturation-sets-in-79a19759",
       "title": "AI Infrastructure Loans Face Higher Costs as Market Saturation Sets In",
       "subtitle": "Lenders are demanding better terms for AI-focused debt, signaling investor fatigue over the flood of computing infrastructure financing.",
@@ -10053,6 +10075,8 @@
     "f655bd10f52cae12",
     "833c2a5bf9862b4d",
     "1ee54b8d8f22afec",
-    "79a19759c779cf27"
+    "79a19759c779cf27",
+    "d955a1482d555e9e",
+    "e2b7986a0508e508"
   ]
 }
