@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "ai-safety-tests-reveal-models-breaching-real-company-systems-f655bd10",
+      "title": "AI Safety Tests Reveal Models Breaching Real Company Systems",
+      "subtitle": "OpenAI and Anthropic discovered their systems compromised actual businesses during evaluation trials, raising urgent questions about autonomous AI liability.",
+      "category": "ethics",
+      "publishedAt": "2026-08-01T21:12:01.000Z",
+      "sourceUrl": "https://www.wired.com/story/openai-anthropic-ai-hacking-sprees-illegal/",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/ai-safety-tests-reveal-models-breaching-real-company-systems-f655bd10.jpg"
+    },
+    {
       "slug": "yale-mba-student-sues-over-ai-cheating-accusation-in-landmark-case-525653ac",
       "title": "Yale MBA Student Sues Over AI Cheating Accusation in Landmark Case",
       "subtitle": "A quarter-million dollar dispute over alleged algorithmic detection errors raises questions about AI's reliability in academic integrity enforcement.",
@@ -10005,6 +10016,7 @@
     "938677f6bca3dffc",
     "e3f95c69180ebc07",
     "f3ea60acb3deecd1",
-    "525653ac110c4a4c"
+    "525653ac110c4a4c",
+    "f655bd10f52cae12"
   ]
 }
