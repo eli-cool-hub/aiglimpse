@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "openai-reports-breakthroughs-on-long-standing-math-problems-0ebdfa6c",
+      "title": "OpenAI Reports Breakthroughs on Long-Standing Math Problems",
+      "subtitle": "AI system solves open questions in geometry, cryptography, and complexity theory, signaling potential for machine learning in pure mathematics.",
+      "category": "llms",
+      "publishedAt": "2026-08-01T00:00:00.000Z",
+      "sourceUrl": "https://openai.com/index/ten-advances-in-mathematics",
+      "sourceName": "OpenAI",
+      "sourceTier": 1,
+      "image": "/images/articles/openai-reports-breakthroughs-on-long-standing-math-problems-0ebdfa6c.jpg"
+    },
+    {
       "slug": "robotics-sector-surges-as-ai-training-hardware-and-policy-reshape-the-industry-e2b7986a",
       "title": "Robotics Sector Surges as AI Training, Hardware, and Policy Reshape the Industry",
       "subtitle": "July 2026 marked a turning point for physical AI adoption, with major funding rounds, breakthroughs in robot learning, and new U.S. trade restrictions reshaping the competitive landscape.",
@@ -10077,6 +10088,7 @@
     "1ee54b8d8f22afec",
     "79a19759c779cf27",
     "d955a1482d555e9e",
-    "e2b7986a0508e508"
+    "e2b7986a0508e508",
+    "0ebdfa6cfe53843c"
   ]
 }

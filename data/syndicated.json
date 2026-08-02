@@ -11018,6 +11018,24 @@
         "devto": true,
         "hashnode": false
       }
+    },
+    "openai-reports-breakthroughs-on-long-standing-math-problems-0ebdfa6c": {
+      "syndicated_at": "2026-08-02T20:55:52.679Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/openai-reports-breakthroughs-on-long-standing-math-problems-11b9",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 469,
+      "category": "llms",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
     }
   }
 }

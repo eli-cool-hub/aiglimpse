@@ -7,6 +7,14 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>OpenAI Reports Breakthroughs on Long-Standing Math Problems</title>
+      <link>https://aiglimpse.ai/articles/openai-reports-breakthroughs-on-long-standing-math-problems-0ebdfa6c</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/openai-reports-breakthroughs-on-long-standing-math-problems-0ebdfa6c</guid>
+      <description>AI system solves open questions in geometry, cryptography, and complexity theory, signaling potential for machine learning in pure mathematics.</description>
+      <pubDate>Sat, 01 Aug 2026 00:00:00 GMT</pubDate>
+      <category>LLMs &amp; Chatbots</category>
+    </item>
+    <item>
       <title>Robotics Sector Surges as AI Training, Hardware, and Policy Reshape the Industry</title>
       <link>https://aiglimpse.ai/articles/robotics-sector-surges-as-ai-training-hardware-and-policy-reshape-the-industry-e2b7986a</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/robotics-sector-surges-as-ai-training-hardware-and-policy-reshape-the-industry-e2b7986a</guid>
@@ -396,14 +404,6 @@
       <guid isPermaLink="true">https://aiglimpse.ai/articles/how-ai-agents-learn-to-plan-across-multiple-steps-af31f3b5</guid>
       <description>Researchers reveal the mechanics behind teaching foundation models to reason through complex, multi-stage tasks.</description>
       <pubDate>Mon, 27 Jul 2026 17:55:03 GMT</pubDate>
-      <category>AI Research</category>
-    </item>
-    <item>
-      <title>Researchers Identify Critical Flaw in Diffusion Model Training Method</title>
-      <link>https://aiglimpse.ai/articles/researchers-identify-critical-flaw-in-diffusion-model-training-method-98c60c2c</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/researchers-identify-critical-flaw-in-diffusion-model-training-method-98c60c2c</guid>
-      <description>New research reveals how a fundamental mismatch in guidance mechanisms undermines knowledge transfer in modern image generation systems.</description>
-      <pubDate>Mon, 27 Jul 2026 17:57:02 GMT</pubDate>
       <category>AI Research</category>
     </item>
   </channel>
