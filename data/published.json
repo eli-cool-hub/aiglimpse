@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "youtuber-halts-production-over-problematic-ai-writing-integration-5fcd69eb",
+      "title": "YouTuber Halts Production Over Problematic AI Writing Integration",
+      "subtitle": "Hank Green's pause signals growing creator anxiety about generative AI authenticity and audience trust.",
+      "category": "ethics",
+      "publishedAt": "2026-08-02T12:30:52.000Z",
+      "sourceUrl": "https://techcrunch.com/2026/08/01/youtuber-hank-green-says-his-ai-usage-is-not-healthy/",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/youtuber-halts-production-over-problematic-ai-writing-integration-5fcd69eb.jpg"
+    },
+    {
       "slug": "openai-reports-breakthroughs-on-long-standing-math-problems-0ebdfa6c",
       "title": "OpenAI Reports Breakthroughs on Long-Standing Math Problems",
       "subtitle": "AI system solves open questions in geometry, cryptography, and complexity theory, signaling potential for machine learning in pure mathematics.",
@@ -10089,6 +10100,7 @@
     "79a19759c779cf27",
     "d955a1482d555e9e",
     "e2b7986a0508e508",
-    "0ebdfa6cfe53843c"
+    "0ebdfa6cfe53843c",
+    "5fcd69eb7ff6120a"
   ]
 }
