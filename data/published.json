@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "digital-fish-and-robot-reveal-how-physical-bodies-shape-neural-circuits-e4a3f135",
+      "title": "Digital Fish and Robot Reveal How Physical Bodies Shape Neural Circuits",
+      "subtitle": "Scientists use AI simulation and biomimetic robots to understand how embodied systems process sensory information without invasive animal experiments.",
+      "category": "robotics",
+      "publishedAt": "2026-08-03T11:17:56.000Z",
+      "sourceUrl": "https://robohub.org/simulated-zebrafish-and-a-vision-equipped-robotic-fish-reveal-how-the-body-shapes-brain-circuits/",
+      "sourceName": "Robohub",
+      "sourceTier": 3,
+      "image": "/images/articles/digital-fish-and-robot-reveal-how-physical-bodies-shape-neural-circuits-e4a3f135.jpg"
+    },
+    {
+      "slug": "healthcare-systems-grapple-with-spiraling-ai-token-costs-86618491",
+      "title": "Healthcare Systems Grapple With Spiraling AI Token Costs",
+      "subtitle": "As hospitals scale AI tools, consumption-based pricing models threaten budgets and ROI, forcing health systems to impose strict usage controls.",
+      "category": "industry",
+      "publishedAt": "2026-08-03T14:07:43.000Z",
+      "sourceUrl": "https://www.beckershospitalreview.com/healthcare-information-technology/ai/the-hidden-cost-of-ai-tokens/",
+      "sourceName": "Becker's Hospital Review",
+      "sourceTier": 2,
+      "image": "/images/articles/healthcare-systems-grapple-with-spiraling-ai-token-costs-86618491.jpg"
+    },
+    {
       "slug": "benioff-backed-startup-targets-ai-implementation-bottleneck-feaa3f74",
       "title": "Benioff-Backed Startup Targets AI Implementation Bottleneck",
       "subtitle": "June launches with $20M to streamline how enterprises deploy machine learning systems at scale.",
@@ -10149,6 +10171,8 @@
     "5fcd69eb7ff6120a",
     "a41501aa5f85bd2b",
     "dc1ca120085b0604",
-    "feaa3f74fa57c2b3"
+    "feaa3f74fa57c2b3",
+    "86618491ac681daa",
+    "e4a3f13557eda5f5"
   ]
 }
