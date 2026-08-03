@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "new-robot-model-combines-vision-touch-and-language-for-physical-tasks-dc1ca120",
+      "title": "New Robot Model Combines Vision, Touch, and Language for Physical Tasks",
+      "subtitle": "Researchers introduce first large-scale tactile foundation model that outperforms existing systems across multiple manipulation benchmarks.",
+      "category": "robotics",
+      "publishedAt": "2026-08-03T03:56:28.000Z",
+      "sourceUrl": "https://arxiv.org/abs/2607.23782",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/new-robot-model-combines-vision-touch-and-language-for-physical-tasks-dc1ca120.jpg"
+    },
+    {
+      "slug": "central-asia-emerges-as-ai-infrastructure-hub-with-major-data-center-push-a41501aa",
+      "title": "Central Asia Emerges as AI Infrastructure Hub with Major Data-Center Push",
+      "subtitle": "Saudi and Nvidia-backed projects signal shift in AI compute geography, bringing advanced GPU capacity to underserved regions.",
+      "category": "industry",
+      "publishedAt": "2026-08-03T04:59:18.000Z",
+      "sourceUrl": "https://asia.nikkei.com/business/technology/artificial-intelligence/starting-gun-for-central-asia-data-center-race-triggered",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/central-asia-emerges-as-ai-infrastructure-hub-with-major-data-center-push-a41501aa.jpg"
+    },
+    {
       "slug": "youtuber-halts-production-over-problematic-ai-writing-integration-5fcd69eb",
       "title": "YouTuber Halts Production Over Problematic AI Writing Integration",
       "subtitle": "Hank Green's pause signals growing creator anxiety about generative AI authenticity and audience trust.",
@@ -10101,6 +10123,8 @@
     "d955a1482d555e9e",
     "e2b7986a0508e508",
     "0ebdfa6cfe53843c",
-    "5fcd69eb7ff6120a"
+    "5fcd69eb7ff6120a",
+    "a41501aa5f85bd2b",
+    "dc1ca120085b0604"
   ]
 }
