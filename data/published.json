@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "autonomous-pentesting-agent-now-runs-entirely-on-android-devices-99639128",
+      "title": "Autonomous Pentesting Agent Now Runs Entirely on Android Devices",
+      "subtitle": "Garage HQ's Nightcrawler demonstrates how on-device AI models eliminate cloud dependencies for security testing.",
+      "category": "business",
+      "publishedAt": "2026-08-03T20:01:10.000Z",
+      "sourceUrl": "https://github.com/garagehq/nightcrawler/",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/autonomous-pentesting-agent-now-runs-entirely-on-android-devices-99639128.jpg"
+    },
+    {
       "slug": "newyork-presbyterian-centralizes-ai-governance-across-health-system-58058311",
       "title": "NewYork-Presbyterian Centralizes AI Governance Across Health System",
       "subtitle": "Major medical center adopts unified platform to manage hundreds of AI tools, setting new standard for responsible deployment in healthcare.",
@@ -10185,6 +10196,7 @@
     "feaa3f74fa57c2b3",
     "86618491ac681daa",
     "e4a3f13557eda5f5",
-    "580583110e9dcd7e"
+    "580583110e9dcd7e",
+    "996391283cda05c6"
   ]
 }
