@@ -135,7 +135,6 @@
   <figcaption class="article-image-credit">Photo by <a href="https://www.pexels.com/photo/black-framed-eyeglasses-on-the-laptop-8358143/" rel="nofollow noopener" target="_blank">Leeloo The First</a> on Pexels.</figcaption>
 </figure>
 
-
 <p>A token is the unit of text that an LLM processes. It is not a word. It is not a character. It is a subword unit chosen by the model's training process.</p>
 
 <p>Most modern LLMs use byte-pair encoding (BPE) or similar subword tokenization schemes. Here is what that means in practice: the English sentence "Hello, world!" tokenizes into roughly 3 to 4 tokens, not 2. The comma might be its own token. The space before "world" might be bundled with "world" as a single token. A word like "international" might split into "inter" and "national", or "international" might stay whole, depending on how frequently it appeared in the training corpus. Common words and punctuation tend to be single tokens. Uncommon words, numbers, and code often split into multiple tokens.</p>
@@ -155,12 +154,6 @@
 <p>Finally, context windows interact with pricing. Most LLM APIs charge per token, with separate rates for input and output tokens. A longer context window means more input tokens billed per request. At OpenAI's GPT-4o pricing (roughly $3 per million input tokens as of early 2026), a 100k token input costs about $0.30. The same content at a 10k context would cost $0.03. This compounds across millions of requests.</p>
 
 <h2>Long-context models trade throughput and latency for flexibility</h2>
-<figure class="article-image article-image--inline">
-  <picture><source srcset="/images/articles/llm-context-window-explained-inline-2.webp" type="image/webp"><img src="/images/articles/llm-context-window-explained-inline-2.jpg" alt="Long-context models trade throughput and latency for flexibility" loading="lazy" width="1200" height="630"></picture>
-  <figcaption class="article-image-credit">Photo by <a href="https://www.pexels.com/photo/brick-building-view-through-urban-window-38240610/" rel="nofollow noopener" target="_blank">Plato Terentev</a> on Pexels.</figcaption>
-</figure>
-
-
 <p>The appeal of a 200k context window is obvious: fit more into one request, simplify orchestration, reduce state management. The hidden cost is less obvious.</p>
 
 <p>First, latency increases. A 200k token prompt takes 4 to 10 times longer to process than a 10k prompt on the same model family. This is not a small constant overhead; it scales with the complexity of attention computation. If your application needs sub-second response times, a long-context model may not be an option, even if the model is otherwise superior.</p>

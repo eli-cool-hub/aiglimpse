@@ -120,7 +120,7 @@
       </section>
       <section style="padding: var(--space-7) 0;">
         <div class="container container--narrow">
-          <figure class="article-image"><picture><source srcset="/images/articles/fine-tuning-lora-practical-guide.webp" type="image/webp"><img src="/images/articles/fine-tuning-lora-practical-guide.jpg" alt="Fine-Tune LLMs with LoRA: When It's Worth It and How to Do It Safely" loading="eager" fetchpriority="high" width="1200" height="630"></picture></figure>
+          <figure class="article-image"><picture><source srcset="/images/articles/fine-tuning-lora-practical-guide.webp" type="image/webp"><img src="/images/articles/fine-tuning-lora-practical-guide.jpg" alt="Fine-Tune LLMs with LoRA: When It&#39;s Worth It and How to Do It Safely" loading="eager" fetchpriority="high" width="1200" height="630"></picture></figure>
           <div class="article-body"><p><strong>Fine-tuning an LLM means adapting a pre-trained model to your specific task or domain by training it further on your own data.</strong> LoRA (Low-Rank Adaptation) is a parameter-efficient technique that adds small, trainable matrices to frozen model weights, reducing memory and compute by 10x to 50x compared to full fine-tuning. QLoRA extends this by quantizing the base model to 4-bit precision, enabling fine-tuning on modest hardware. The catch: fine-tuning only makes sense if your problem requires it. <a href="/articles/prompt-engineering-guide-2026">Prompt engineering</a>, retrieval augmented generation, or inference-time tools often deliver better return on investment with less complexity.</p>
 
 <h2>Why this matters now</h2>
@@ -132,9 +132,8 @@
 <h2>When to fine-tune (and when not to)</h2>
 <figure class="article-image article-image--inline">
   <picture><source srcset="/images/articles/fine-tuning-lora-practical-guide-inline-1.webp" type="image/webp"><img src="/images/articles/fine-tuning-lora-practical-guide-inline-1.jpg" alt="When to fine-tune (and when not to)" loading="lazy" width="1200" height="630"></picture>
-  <figcaption class="article-image-credit">Photo by <a href="https://www.pexels.com/photo/retro-portable-tv-set-9227560/" rel="nofollow noopener" target="_blank">DS stories</a> on Pexels.</figcaption>
+  <figcaption class="article-image-credit">Photo by <a href="https://www.pexels.com/photo/touchscreen-of-sound-mixer-27141311/" rel="nofollow noopener" target="_blank">Egor Komarov</a> on Pexels.</figcaption>
 </figure>
-
 
 <p>Before committing resources, assess whether fine-tuning is necessary or whether a simpler tool will solve the problem faster and cheaper. Start with a simple decision tree: Can prompt engineering or instruction-following in the base model handle your use case? If your task is factual question-answering over a knowledge base, retrieval augmented generation will almost always outperform fine-tuning. Can you use an API-based customization, such as OpenAI's system prompt, <a href="/articles/tool-use-function-calling-guide">function calling</a>, or vision capabilities, to solve the problem? If so, do that. Is your model already meeting accuracy targets in limited testing? If yes, ship it; over-engineering is the silent killer of ML projects.</p>
 
@@ -153,12 +152,6 @@
 <p>Address demographic and representational biases in your training data explicitly. If your data is collected from a single customer or geography, your fine-tuned model will overfit to that distribution. If your data under-represents edge cases, rare queries, or adversarial inputs, your model will fail on them. Document these limitations clearly; a model that works well on 90% of inputs but fails catastrophically on 10% is worse than a model that is mediocre on all inputs.</p>
 
 <h2>LoRA and QLoRA in practice</h2>
-<figure class="article-image article-image--inline">
-  <picture><source srcset="/images/articles/fine-tuning-lora-practical-guide-inline-2.webp" type="image/webp"><img src="/images/articles/fine-tuning-lora-practical-guide-inline-2.jpg" alt="LoRA and QLoRA in practice" loading="lazy" width="1200" height="630"></picture>
-  <figcaption class="article-image-credit">Photo by <a href="https://www.pexels.com/photo/nighttime-seaside-portrait-with-cityscape-38690902/" rel="nofollow noopener" target="_blank">quang vinh</a> on Pexels.</figcaption>
-</figure>
-
-
 <p>LoRA (Low-Rank Adaptation), introduced by Microsoft in 2021, is elegant in its simplicity. Instead of fine-tuning all weights of a large model, LoRA adds small trainable matrices (adapters) alongside the frozen pre-trained weights. For a weight matrix W of shape (d_in, d_out), LoRA introduces two low-rank matrices A (d_in, r) and B (r, d_out), where r is the rank (typically 8 to 64). During forward pass, the output is W*x + B*A*x. The number of trainable parameters scales as 2*r*(d_in + d_out), which is far smaller than the original d_in*d_out. For a 7 billion parameter model, LoRA typically reduces trainable parameters to 0.5 to 1% of the original, cutting memory usage by 10x to 50x and training time by similar factors.</p>
 
 <p>QLoRA (Quantized LoRA), introduced by Dettmers et al. in 2023, pushes this further by quantizing the base model weights to 4-bit precision while keeping adapters in full precision. This allows fine-tuning of large models on consumer GPUs. A 13B parameter model can be fine-tuned on a single A40 (48GB VRAM) with QLoRA, whereas standard LoRA might require a larger GPU. The trade-off is that inference on the quantized base model with LoRA adapters can be slightly slower than inference on a full-precision model, though the wall-clock difference is usually negligible.</p>

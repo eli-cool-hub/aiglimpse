@@ -120,7 +120,7 @@
       </section>
       <section style="padding: var(--space-7) 0;">
         <div class="container container--narrow">
-          <figure class="article-image"><picture><source srcset="/images/articles/tool-use-function-calling-guide.webp" type="image/webp"><img src="/images/articles/tool-use-function-calling-guide.jpg" alt="Function Calling and Tool Use: A Builder's Guide to LLM Agents" loading="eager" fetchpriority="high" width="1200" height="630"></picture></figure>
+          <figure class="article-image"><picture><source srcset="/images/articles/tool-use-function-calling-guide.webp" type="image/webp"><img src="/images/articles/tool-use-function-calling-guide.jpg" alt="Function Calling and Tool Use: A Builder&#39;s Guide to LLM Agents" loading="eager" fetchpriority="high" width="1200" height="630"></picture></figure>
           <div class="article-body"><p>Function calling is the mechanism by which a language model requests execution of an external function with specific parameters, parsed into a structured format that your application can validate and execute. It is the operational core of agentic systems: the bridge between model reasoning and real-world action. Without function calling, an LLM is a text predictor. With it, an LLM becomes a decision engine that can inspect data, modify state, and solve multi-step problems by orchestrating APIs, databases, and business logic.</p>
 
 <h2>Why this matters now</h2>
@@ -132,9 +132,8 @@
 <h2>How function calling works: the loop</h2>
 <figure class="article-image article-image--inline">
   <picture><source srcset="/images/articles/tool-use-function-calling-guide-inline-1.webp" type="image/webp"><img src="/images/articles/tool-use-function-calling-guide-inline-1.jpg" alt="How function calling works: the loop" loading="lazy" width="1200" height="630"></picture>
-  <figcaption class="article-image-credit">Photo by <a href="https://www.pexels.com/photo/man-using-the-phone-and-laptop-6214837/" rel="nofollow noopener" target="_blank">www.kaboompics.com</a> on Pexels.</figcaption>
+  <figcaption class="article-image-credit">Photo by <a href="https://www.pexels.com/photo/man-using-the-phone-and-laptop-6214837/" rel="nofollow noopener" target="_blank">https://kaboompics.com/</a> on Pexels.</figcaption>
 </figure>
-
 
 <p>Function calling operates on a simple loop: the model sees a list of available tools, generates a response that may include a structured request to invoke one or more of them, and your application executes those requests and returns the results as new context for the model. The model then continues reasoning and may call more tools, generate a final response, or request clarification.</p>
 
@@ -191,12 +190,6 @@
 <p>Avoid tools that do too much. A single "execute_query" tool that accepts arbitrary SQL is dangerous and often fails because models struggle with correct syntax. Break it into specific, named operations: "query_users_by_email", "count_orders_by_date", "list_recent_transactions". Specificity reduces error rates and makes auditing easier.</p>
 
 <h2>Error handling and retry logic</h2>
-<figure class="article-image article-image--inline">
-  <picture><source srcset="/images/articles/tool-use-function-calling-guide-inline-2.webp" type="image/webp"><img src="/images/articles/tool-use-function-calling-guide-inline-2.jpg" alt="Error handling and retry logic" loading="lazy" width="1200" height="630"></picture>
-  <figcaption class="article-image-credit">Photo by <a href="https://www.pexels.com/photo/hands-grinding-axe-outdoors-on-cobblestone-33491287/" rel="nofollow noopener" target="_blank">Mustafa Alper alper</a> on Pexels.</figcaption>
-</figure>
-
-
 <p>Tools fail. Networks time out, APIs return 429 errors, user permissions change mid-conversation. The difference between a robust agent and a fragile one is how it handles these failures.</p>
 
 <p>When a tool call fails, return the error to the model as a tool result, not as an exception. The model needs to see the error in context to adjust its reasoning. Include an error field with a human-readable message:</p>
