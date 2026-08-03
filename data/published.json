@@ -1,6 +1,18 @@
 {
   "articles": [
     {
+      "slug": "local-llms-vs-cloud-api",
+      "title": "Local LLMs vs Cloud APIs: The Real Cost and Trade-Off Guide",
+      "subtitle": "How to evaluate on-prem and self-hosted LLMs against API providers for your infrastructure",
+      "category": "llms",
+      "publishedAt": "2026-08-03T09:58:41.313Z",
+      "sourceUrl": null,
+      "sourceName": "AI Glimpse Newsroom",
+      "sourceTier": 0,
+      "image": "/images/articles/local-llms-vs-cloud-api.jpg",
+      "evergreen": true
+    },
+    {
       "slug": "new-robot-model-combines-vision-touch-and-language-for-physical-tasks-dc1ca120",
       "title": "New Robot Model Combines Vision, Touch, and Language for Physical Tasks",
       "subtitle": "Researchers introduce first large-scale tactile foundation model that outperforms existing systems across multiple manipulation benchmarks.",

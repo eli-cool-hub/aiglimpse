@@ -11054,6 +11054,24 @@
         "devto": true,
         "hashnode": false
       }
+    },
+    "local-llms-vs-cloud-api": {
+      "syndicated_at": "2026-08-03T09:58:44.134Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/local-llms-vs-cloud-apis-the-real-cost-and-trade-off-guide-5b92",
+      "hashnode": null,
+      "gates": {
+        "medium": true,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 2286,
+      "category": "llms",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
     }
   }
 }

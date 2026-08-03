@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Local LLMs vs Cloud APIs: The Real Cost and Trade-Off Guide | AI Glimpse</title>
+  <meta name="description" content="Complete breakdown of local LLM vs cloud API costs, latency, privacy, and quality. For CTOs planning AI infrastructure.">
+  <meta name="keywords" content="local LLM, self-hosted LLM, Ollama, LLM API cost, on-prem AI, open weight models, cloud API">
+  <link rel="canonical" href="https://aiglimpse.ai/articles/local-llms-vs-cloud-api">
+  <meta property="og:type" content="article"><meta property="og:site_name" content="AI Glimpse">
+  <meta property="og:title" content="Local LLMs vs Cloud APIs: The Real Cost and Trade-Off Guide">
+  <meta property="og:description" content="Complete breakdown of local LLM vs cloud API costs, latency, privacy, and quality. For CTOs planning AI infrastructure.">
+  <meta property="og:url" content="https://aiglimpse.ai/articles/local-llms-vs-cloud-api">
+  <meta property="og:image" content="https://aiglimpse.ai/images/articles/local-llms-vs-cloud-api.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="article:published_time" content="2026-08-03T09:58:41.313Z">
+  <meta property="article:section" content="LLMs & Chatbots">
+  <meta property="article:tag" content="local LLM">
+  <meta property="article:tag" content="self-hosted LLM">
+  <meta property="article:tag" content="Ollama">
+  <meta property="article:tag" content="LLM API cost">
+  <meta property="article:tag" content="on-prem AI">
+  <meta property="article:tag" content="open weight models">
+  <meta property="article:tag" content="cloud API">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Local LLMs vs Cloud APIs: The Real Cost and Trade-Off Guide">
+  <meta name="twitter:description" content="Complete breakdown of local LLM vs cloud API costs, latency, privacy, and quality. For CTOs planning AI infrastructure.">
+  <meta name="twitter:image" content="https://aiglimpse.ai/images/articles/local-llms-vs-cloud-api.jpg">
+  <link rel="icon" type="image/svg+xml" href="/images/favicon.svg">
+  <link rel="alternate" type="application/rss+xml" title="AI Glimpse RSS" href="/rss.xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700;9..144,900&family=Inter+Tight:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap">
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="preload" as="image" href="/images/articles/local-llms-vs-cloud-api.webp" type="image/webp" fetchpriority="high">
+  <style>.reading-progress{position:fixed;top:0;left:0;height:3px;background:var(--color-accent);width:0%;z-index:200;transition:width 100ms linear;}</style>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","mainEntityOfPage":{"@type":"WebPage","@id":"https://aiglimpse.ai/articles/local-llms-vs-cloud-api"},"headline":"Local LLMs vs Cloud APIs: The Real Cost and Trade-Off Guide","description":"Complete breakdown of local LLM vs cloud API costs, latency, privacy, and quality. For CTOs planning AI infrastructure.","image":["https://aiglimpse.ai/images/articles/local-llms-vs-cloud-api.jpg"],"datePublished":"2026-08-03T09:58:41.313Z","dateModified":"2026-08-03T09:58:41.313Z","author":{"@type":"Organization","name":"AI Glimpse Newsroom"},"publisher":{"@type":"Organization","name":"AI Glimpse","logo":{"@type":"ImageObject","url":"https://aiglimpse.ai/images/logo.svg"}},"articleSection":"LLMs & Chatbots","keywords":"local LLM, self-hosted LLM, Ollama, LLM API cost, on-prem AI, open weight models, cloud API"}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://aiglimpse.ai/"},{"@type":"ListItem","position":2,"name":"LLMs & Chatbots","item":"https://aiglimpse.ai/categories/llms"},{"@type":"ListItem","position":3,"name":"Local LLMs vs Cloud APIs: The Real Cost and Trade-Off Guide","item":"https://aiglimpse.ai/articles/local-llms-vs-cloud-api"}]}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What size GPU do I need to run a local LLM?","acceptedAnswer":{"@type":"Answer","text":"It depends on model size. A 7B parameter model needs roughly 14-16GB VRAM (one RTX 4060 Ti). A 13B model needs 24-32GB (RTX 4090 or A100). For 70B models, you'll need multiple GPUs or tensor parallelism. Quantization (4-bit or 8-bit) can cut memory use by 50-75%."}},{"@type":"Question","name":"Is a local LLM always cheaper than an API?","acceptedAnswer":{"@type":"Answer","text":"Not always. A $2,000 GPU amortized over 2 years plus power costs roughly $5 per day in operating cost. If your inference volume is low, an API at $0.001 to $0.01 per token may be cheaper. Break-even is typically 10M to 100M tokens per month depending on hardware and pricing tier."}},{"@type":"Question","name":"How much slower is a local LLM than a cloud API?","acceptedAnswer":{"@type":"Answer","text":"Latency depends on hardware and batch size. Consumer GPUs (RTX 4090) generate tokens at 50-150 tokens/sec. Cloud APIs (GPT-4, Claude) achieve 100-300+ tokens/sec with better hardware and serving optimization. For inference-only workloads, difference is 200-800ms per request, which rarely matters for non-real-time use."}},{"@type":"Question","name":"Do local LLMs have worse quality than cloud models?","acceptedAnswer":{"@type":"Answer","text":"For general tasks, no. Llama 2 70B and Mixtral 8x7B match or exceed GPT-3.5 on many benchmarks. However, specialized domains (medical coding, legal analysis, reasoning chains) still favor closed models like GPT-4 or Claude. Always benchmark against your exact workload."}},{"@type":"Question","name":"What compliance advantage does on-prem AI actually give?","acceptedAnswer":{"@type":"Answer","text":"You control data residency and avoid third-party processing, which helps with HIPAA, GDPR, and SOC 2. But you still own the security of your infrastructure, which is often harder than outsourcing to a mature API provider. Local does not equal compliant."}},{"@type":"Question","name":"Can I use Ollama for production inference?","acceptedAnswer":{"@type":"Answer","text":"Ollama is excellent for development and small-scale inference, but lacks distributed serving, model versioning, and monitoring for production. For production, use vLLM, TGI (Text Generation Inference), or dedicated platforms like Together AI or RunPod."}},{"@type":"Question","name":"Should I quantize my model?","acceptedAnswer":{"@type":"Answer","text":"Yes, in most cases. 4-bit quantization cuts memory and latency by 50-75% with minimal accuracy loss on standard tasks. 8-bit is safer for safety-critical workloads. Test on your own data first, especially for tasks requiring precise reasoning."}}]}</script>
+  <meta name="google-site-verification" content="B132aMlqf1nssWYhjOSKUgSjmfwNWgPgtozZsHDxWlU" />
+  <meta name="msvalidate.01" content="F3762E555B3E685836AE39C90B79ECBF" />
+  <!-- aiglimpse-consent-default v1: must run before AdSense, defaults all ad/analytics storage to denied -->
+  <script>(function(){window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}window.gtag=gtag;gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'denied',functionality_storage:'granted',security_storage:'granted',wait_for_update:500});try{var s=JSON.parse(localStorage.getItem('aiglimpse-consent')||'null');if(s&&s.choice==='granted'){gtag('consent','update',{ad_storage:'granted',ad_user_data:'granted',ad_personalization:'granted',analytics_storage:'granted'});}}catch(e){}})();</script>
+  <!-- aiglimpse-ga4 v1: gtag.js loaded after consent default, so it buffers events until consent is granted -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-EVZ52DNQ8S"></script>
+  <script>gtag('js', new Date()); gtag('config', 'G-EVZ52DNQ8S', { anonymize_ip: true });</script>
+</head>
+<body>
+  <div class="reading-progress" aria-hidden="true"></div>
+  <header class="site-header" role="banner">
+    <div class="container">
+      <div class="header-bar">
+        <a href="/" class="logo" aria-label="AI Glimpse home">
+          <span class="logo-wordmark" aria-label="AI Glimpse">A<span class="iris-i" aria-hidden="true">ı</span><span aria-hidden="true"> Glimpse</span></span>
+        </a>
+        <nav class="nav-primary" aria-label="Primary">
+          <a href="/categories/llms">LLMs</a>
+            <a href="/categories/research">Research</a>
+            <a href="/categories/tools">Tools</a>
+            <a href="/categories/business">Business</a>
+            <a href="/categories/ethics">Ethics</a>
+            <a href="/categories/industry">Industry</a>
+            <a href="/categories/robotics">Robotics</a>
+        </nav>
+        <div class="header-actions">
+          <a class="search-btn" href="/search" aria-label="Search">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="11" cy="11" r="7"/><path d="M21 21l-4.35-4.35"/>
+            </svg>
+          </a>
+          <a href="#newsletter" class="btn btn--primary btn--sm">Subscribe</a>
+          <button class="menu-btn" aria-label="Open menu">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+  <aside class="mobile-menu" aria-label="Mobile menu">
+    <div class="mobile-menu-header">
+      <a href="/" class="logo">
+        <span class="logo-wordmark" aria-label="AI Glimpse">A<span class="iris-i" aria-hidden="true">ı</span><span aria-hidden="true"> Glimpse</span></span>
+      </a>
+      <button class="mobile-menu-close" aria-label="Close menu" style="font-size:24px;">×</button>
+    </div>
+    <a href="/categories/llms">LLMs</a>
+    <a href="/categories/research">Research</a>
+    <a href="/categories/tools">Tools</a>
+    <a href="/categories/business">Business</a>
+    <a href="/categories/ethics">Ethics</a>
+    <a href="/categories/industry">Industry</a>
+    <a href="/categories/robotics">Robotics</a>
+    <a href="/search">Search</a>
+    <a href="/pages/about">About</a>
+    <a href="#newsletter">Subscribe</a>
+  </aside>
+  <main>
+    <article>
+      <section class="article-hero">
+        <div class="container container--narrow">
+          <nav aria-label="Breadcrumb" style="margin-bottom:var(--space-4);font-size:var(--text-xs);color:var(--color-ink-muted);">
+            <a href="/" style="color:inherit;">Home</a> /
+            <a href="/categories/llms" style="color:inherit;">LLMs & Chatbots</a> /
+            <span>Explainer</span>
+          </nav>
+          <div class="article-hero-meta">
+            <span class="tag tag--llm">LLMs & Chatbots</span>
+            <span class="eyebrow eyebrow--accent">Explainer</span>
+            <span class="eyebrow">10 min read</span>
+          </div>
+          <h1 class="article-hero-title">Local LLMs vs Cloud APIs: The Real Cost and Trade-Off Guide</h1>
+          <p class="article-hero-subtitle">How to evaluate on-prem and self-hosted LLMs against API providers for your infrastructure</p>
+          <div class="article-byline">
+            <div>By <strong>AI Glimpse Newsroom</strong></div><div>·</div>
+            <div><time datetime="2026-08-03T09:58:41.313Z" data-relative="false">August 3, 2026</time></div>
+          </div>
+        </div>
+      </section>
+      <section style="padding: var(--space-7) 0;">
+        <div class="container container--narrow">
+          <figure class="article-image"><picture><source srcset="/images/articles/local-llms-vs-cloud-api.webp" type="image/webp"><img src="/images/articles/local-llms-vs-cloud-api.jpg" alt="Local LLMs vs Cloud APIs: The Real Cost and Trade-Off Guide" loading="eager" fetchpriority="high" width="1200" height="630"></picture></figure>
+          <div class="article-body"><p>Choosing between a local LLM and a cloud API is not a binary decision between two equivalent products at different price points. It is a decision between two architectures with distinct cost structures, privacy models, performance characteristics, and quality profiles. Teams that treat it as a simple cost optimization exercise typically end up rearchitecting after six months of production pain.</p>
+
+<h2>Why this matters now</h2>
+
+<p>In 2026, the infrastructure landscape has fractured. Cloud APIs like OpenAI, Anthropic, and Google now offer highly optimized inference at scale, but with per-token costs and vendor lock-in. Open-weight models like Llama 2, Mixtral, and Phi have matured to production-grade quality. Hardware costs have fallen, with enterprise-grade GPUs and accelerators now accessible to teams at any scale. At the same time, regulatory pressure around data residency (GDPR, HIPAA, state-level AI governance) has made local deployment attractive to compliance-focused organizations.</p>
+
+<p>The result: infrastructure leaders now face a genuine technical choice rather than a forced hand. But making that choice requires more than a napkin calculation. You need to understand your actual token volume, the true cost of operating GPU infrastructure, the quality gap on your specific workloads, and what "privacy" and "latency" actually cost in your context.</p>
+
+<h2>Total cost of ownership: why the math is not obvious</h2>
+<figure class="article-image article-image--inline">
+  <picture><source srcset="/images/articles/local-llms-vs-cloud-api-inline-1.webp" type="image/webp"><img src="/images/articles/local-llms-vs-cloud-api-inline-1.jpg" alt="Total cost of ownership: why the math is not obvious" loading="lazy" width="1200" height="630"></picture>
+  <figcaption class="article-image-credit">Photo by <a href="https://www.pexels.com/photo/a-woman-sitting-on-the-black-leather-seat-at-the-white-table-with-laptop-7875857/" rel="nofollow noopener" target="_blank">https://kaboompics.com/</a> on Pexels.</figcaption>
+</figure>
+
+
+<p>Local LLM deployments appear cheaper until you account for the full cost of ownership. A single 4090 GPU costs roughly $1,600 to $2,000 today. If you amortize that over a typical 2 to 3 year lifespan, you are paying $22 to $33 per month in depreciation alone. Then add power consumption: a 4090 draws 320W under load, which at $0.12/kWh costs about $280 per month if running 24/7, or $40 to $70 per month for typical enterprise duty cycles. Add rack space, cooling, networking, and operating system licensing, and a single GPU installation costs $150 to $250 per month to operate.</p>
+
+<p>At 300 tokens/sec throughput and 80 percent utilization, that GPU generates roughly 260 million tokens per month. Divide total cost by token volume, and your effective cost per token is $0.0005 to $0.001. That beats GPT-4 pricing ($0.03 per 1K input tokens, $0.06 per 1K output tokens) but not GPT-3.5 ($0.0005 to $0.0015) or Claude's cheaper tiers.</p>
+
+<p>But this math assumes 100 percent utilization and zero failure. In practice, GPU clusters see 40 to 60 percent utilization due to bursty traffic patterns, model serving overhead (vLLM, TGI), and maintenance windows. That doubles your effective cost. Factor in redundancy: a production system needs two to three GPUs to handle failover and rolling updates, which multiplies costs again.</p>
+
+<p>The break-even point for self-hosting is typically 10 million to 100 million tokens per month, depending on your cost of capital, electricity, and labor for infrastructure management. Below that, an API is almost always cheaper. Above 500 million tokens per month, local deployment becomes cost-effective even at modest utilization.</p>
+
+<blockquote><strong>Rough TCO comparison for 100M tokens/month:</strong> Cloud API (GPT-3.5): $100 to $150. On-prem (3x4090 cluster with redundancy, ops overhead): $400 to $600. At 1B tokens/month, those numbers are $1,000 to $1,500 for API vs $1,200 to $2,000 for on-prem, making on-prem viable.</blockquote>
+
+<h2>Quality gaps: where open-weight models still lag</h2>
+
+<p>Open-weight models have closed the gap on many tasks, but not all. Llama 2 70B benchmarks comparably to GPT-3.5 on code generation, summarization, and factual Q&A. Mixtral 8x7B offers competitive performance on multi-lingual tasks. But specialized domains remain harder.</p>
+
+<p>GPT-4 and Claude still maintain measurable leads in:</p>
+
+<ul>
+<li>Long-context reasoning (200K to 1M token windows with coherence). Open models degrade beyond 8K to 32K tokens in most cases.</li>
+<li>Chain-of-thought and multi-step reasoning, especially in mathematics and logic puzzles.</li>
+<li>Instruction-following and creative writing tasks requiring semantic nuance.</li>
+<li>Safety and refusal behavior aligned to complex policy guidelines.</li>
+<li>Knowledge cutoffs. Cloud APIs are updated monthly or more; open models lag by months or years.</li>
+</ul>
+
+<p>The practical implication: test on your actual workload before committing to architecture. If your use case is domain-specific <a href="/articles/what-is-retrieval-augmented-generation-rag">retrieval-augmented generation</a> (RAG) with short contexts (under 8K tokens), open-weight models often outperform on latency and cost. If your task requires multi-step reasoning over long documents or highly specialized domain knowledge, closed models may be worth the per-token cost.</p>
+
+<p>Quantization complicates quality assessment. A 7B model quantized to 4-bit loses 1-3 points on MMLU (a multi-task knowledge benchmark) but costs half as much in memory and inference time. A 13B quantized model can match an unquantized 7B model on most tasks. Always benchmark with quantization applied to your target hardware.</p>
+
+<h2>Privacy and compliance: what you control vs what you trade</h2>
+<figure class="article-image article-image--inline">
+  <picture><source srcset="/images/articles/local-llms-vs-cloud-api-inline-2.webp" type="image/webp"><img src="/images/articles/local-llms-vs-cloud-api-inline-2.jpg" alt="Privacy and compliance: what you control vs what you trade" loading="lazy" width="1200" height="630"></picture>
+  <figcaption class="article-image-credit">Photo by <a href="https://www.pexels.com/photo/a-woman-sitting-in-the-office-7875834/" rel="nofollow noopener" target="_blank">https://kaboompics.com/</a> on Pexels.</figcaption>
+</figure>
+
+
+<p>The privacy argument for local LLMs is straightforward: data stays on your infrastructure, never sent to a third party. This satisfies strict interpretations of HIPAA (healthcare), GDPR (EU personal data), and SOC 2 Type II audit requirements that restrict data movement. For teams processing sensitive data (medical records, financial transactions, personally identifiable information), this is often non-negotiable.</p>
+
+<p>But the compliance reality is more nuanced. Hosting a local LLM does not automatically make you compliant. You still must ensure:</p>
+
+<ul>
+<li>Encryption in transit and at rest on your storage layer.</li>
+<li>Access controls, audit logging, and identity management for the inference service.</li>
+<li>Regular security patching of the model serving software (vLLM, TGI, Ray Serve) and the underlying operating system.</li>
+<li>Data retention policies and secure deletion of inference logs.</li>
+<li>Backup and disaster recovery procedures that do not expose data.</li>
+</ul>
+
+<p>On this list, many teams find that cloud providers with dedicated compliance offerings (AWS HealthLake with HIPAA compliance, Azure Government for FedRAMP, Google Cloud's regulated industries program) actually reduce compliance burden. These providers have teams dedicated to audit, security updates, and policy documentation. Running your own Kubernetes cluster with vLLM requires that overhead in-house.</p>
+
+<p>The second privacy angle is data residency. GDPR and certain state-level regulations (like California's emerging data localization rules) require that personal data be processed in specific geographic regions. Closed APIs do not give you control over this. Open-weight models and self-hosted inference do, as long as you run the infrastructure in the required region. This is a real advantage for multinational teams but does not apply to most organizations.</p>
+
+<h2>Latency and throughput in real deployments</h2>
+
+<p>Latency matters for user-facing applications and real-time decision making. Throughput matters for batch processing and bulk inference jobs. Cloud APIs and on-prem deployments optimize for different constraints.</p>
+
+<p>Cloud APIs prioritize latency through hardware optimization and request batching. OpenAI's infrastructure is built on specialized hardware (reportedly custom Nvidia H100s and A100s) with custom serving software. First-token latency is typically 200 to 400ms, and subsequent token generation runs at 100 to 300+ tokens per second. This is hard to match on consumer hardware.</p>
+
+<p>Consumer GPU clusters (RTX 4090, A100) achieve lower throughput but acceptable latency for non-real-time use. A single 4090 generates tokens at 50 to 150 tokens/sec (4 to 20ms per token), meaning a 100-token response takes 1 to 2 seconds total. For chatbots and search interfaces, this is noticeable but acceptable. For real-time applications (live captions, low-latency API responses), cloud APIs win.</p>
+
+<p>Throughput (tokens per second across all concurrent requests) is where on-prem deployments shine once scaled. A cluster of 8 x 4090 GPUs can sustain 20 to 50M tokens per day at 60 percent utilization. An equivalent cloud API quota costs $200 to $500 per day. At high volume, distributed on-prem inference wins on economics.</p>
+
+<p>In practice, hybrid approaches are common: use cloud APIs for low-latency, user-facing inference (chatbots, live suggestions). Use on-prem or spot-market GPUs for batch processing (reranking, document indexing, synthetic data generation). This splits the cost and optimizes for each workload's constraints.</p>
+
+<h2>Common pitfalls and when local LLMs fail</h2>
+
+<p>Local LLM deployments hit predictable failure modes. Understanding them can save months of rework.</p>
+
+<p><strong>Underestimating operational overhead.</strong> Running a GPU cluster requires expertise in CUDA, containerization (Docker, Kubernetes), distributed serving frameworks (vLLM, Ray), monitoring, and security. Many teams assume this is "like running a database" and discover six months in that it requires dedicated infrastructure expertise. If you do not have or plan to hire for this, the operational cost of self-hosting exceeds the token cost savings.</p>
+
+<p><strong>Overestimating quality of older models.</strong> Llama 2 was trained in early 2023. Llama 3 improved substantially but still trails GPT-4 on specialized tasks. Teams deploy an older open model, find quality issues with edge cases, and must revert to a cloud API. Always benchmark your exact use case on multiple models before committing.</p>
+
+<p><strong>Ignoring quantization trade-offs.</strong> Quantizing a model to 4-bit saves memory and latency but can break edge cases, especially for tasks requiring numerical precision or rare linguistic patterns. Some teams quantize aggressively, experience silent failures in production, and have no easy rollback. Use quantization, but validate thoroughly on your data.</p>
+
+<p><strong>Capacity planning failures.</strong> Token volume grows faster than expected (10x in a year is common for successful AI features). A single GPU cluster becomes saturated. Scaling from one to four GPUs requires distributed serving, which introduces queuing, batching, and potential consistency issues. Plan for 3 to 5x growth before deployment.</p>
+
+<p><strong>Model and framework churn.</strong> New models (Llama 3.1, Mixtral MoE variants) are released quarterly. Serving frameworks like vLLM and TGI update monthly with breaking changes. Keeping up requires ongoing integration work. Cloud APIs abstract away this complexity at the cost of less control.</p>
+
+<p><strong>Security misconfigurations.</strong> A local LLM API exposed to the internet without authentication is a free inference service for anyone. A misconfigured Kubernetes cluster can leak training data or model weights. On-prem deployments require security discipline that many teams underestimate.</p>
+
+<h2>How to choose: a decision framework</h2>
+
+<p>Use this framework to guide the decision:</p>
+
+<p><strong>Choose cloud APIs if:</strong> Monthly token volume is below 50M, user-facing latency is critical (under 1 second), your team lacks GPU infrastructure expertise, or your workload requires the highest-quality models (medical coding, legal analysis, complex reasoning). Cloud APIs are also the right choice for prototype and pilot phases where you do not yet know volume or use-case stability.</p>
+
+<p><strong>Choose self-hosted LLMs if:</strong> Monthly token volume exceeds 500M, data cannot leave your infrastructure due to compliance constraints, you have in-house infra expertise, or your workload has stable, predictable compute requirements. Self-hosting is also attractive if model customization (finetuning, continued pretraining) is part of your roadmap.</p>
+
+<p><strong>Choose hybrid (API for some workloads, on-prem for others) if:</strong> You have mixed latency and volume requirements. Use cloud APIs for user-facing, latency-sensitive tasks and on-prem for batch inference, reranking, and embedding generation.</p>
+
+<p>In most cases, the decision should not be made at architecture time. Instead, start with cloud APIs for proof of concept, measure actual token volume and latency requirements over 2 to 3 months, then re-evaluate. Many teams that initially assumed they needed local inference find that cloud APIs at scale are cost-competitive and operationally simpler than expected.</p>
+
+<h2>Emerging tools and platforms</h2>
+
+<p>The infrastructure landscape has matured significantly. Ollama and similar tools make local model serving trivial for development. For production, vLLM and Text Generation Inference (TGI) offer distributed inference with batching, caching, and monitoring. Platforms like Together AI, Replicate, and RunPod offer managed inference on rented GPUs, blurring the line between cloud API and on-prem: you get control over model choice and data residency, but avoid owning hardware.</p>
+
+<p>These managed GPU platforms are underrated for mid-scale deployments. A team with 100M to 500M monthly tokens can rent GPU capacity from spot markets or managed providers for $2,000 to $4,000 per month, avoiding $10,000+ capital expenditure and the operational burden of a Kubernetes cluster. This middle ground often wins on economics and operational simplicity.</p>
+
+<p>Teams evaluating architecture should explicitly test against managed GPU providers before deciding to own hardware. The cost difference is often smaller than expected, and the operational burden is dramatically lower.</p>
+
+<p>The choice between local LLMs and cloud APIs is not settling; it is optimizing. The right architecture depends on your token volume, latency budget, data sensitivity, and operational capacity. Most organizations will find that a hybrid approach, or a managed GPU provider, outperforms pure on-prem or pure cloud. Test your assumptions with real data before committing to infrastructure.</p></div>
+
+      <section style="margin-top: var(--space-8);">
+        <h2 style="margin-bottom: var(--space-5);">Frequently asked questions</h2>
+        <div class="faq-list">
+    <details class="faq-item" style="border-bottom:1px solid var(--color-rule);padding:var(--space-4) 0;">
+      <summary style="cursor:pointer;font-weight:600;font-size:var(--text-md);list-style:none;display:flex;justify-content:space-between;align-items:flex-start;gap:var(--space-3);">
+        <span>What size GPU do I need to run a local LLM?</span>
+        <span aria-hidden="true" style="color:var(--color-ink-faint);font-weight:400;flex-shrink:0;">+</span>
+      </summary>
+      <div style="margin-top:var(--space-3);color:var(--color-ink-muted);line-height:1.7;">
+        <p>It depends on model size. A 7B parameter model needs roughly 14-16GB VRAM (one RTX 4060 Ti). A 13B model needs 24-32GB (RTX 4090 or A100). For 70B models, you&#39;ll need multiple GPUs or tensor parallelism. Quantization (4-bit or 8-bit) can cut memory use by 50-75%.</p>
+      </div>
+    </details>
+
+    <details class="faq-item" style="border-bottom:1px solid var(--color-rule);padding:var(--space-4) 0;">
+      <summary style="cursor:pointer;font-weight:600;font-size:var(--text-md);list-style:none;display:flex;justify-content:space-between;align-items:flex-start;gap:var(--space-3);">
+        <span>Is a local LLM always cheaper than an API?</span>
+        <span aria-hidden="true" style="color:var(--color-ink-faint);font-weight:400;flex-shrink:0;">+</span>
+      </summary>
+      <div style="margin-top:var(--space-3);color:var(--color-ink-muted);line-height:1.7;">
+        <p>Not always. A $2,000 GPU amortized over 2 years plus power costs roughly $5 per day in operating cost. If your inference volume is low, an API at $0.001 to $0.01 per token may be cheaper. Break-even is typically 10M to 100M tokens per month depending on hardware and pricing tier.</p>
+      </div>
+    </details>
+
+    <details class="faq-item" style="border-bottom:1px solid var(--color-rule);padding:var(--space-4) 0;">
+      <summary style="cursor:pointer;font-weight:600;font-size:var(--text-md);list-style:none;display:flex;justify-content:space-between;align-items:flex-start;gap:var(--space-3);">
+        <span>How much slower is a local LLM than a cloud API?</span>
+        <span aria-hidden="true" style="color:var(--color-ink-faint);font-weight:400;flex-shrink:0;">+</span>
+      </summary>
+      <div style="margin-top:var(--space-3);color:var(--color-ink-muted);line-height:1.7;">
+        <p>Latency depends on hardware and batch size. Consumer GPUs (RTX 4090) generate tokens at 50-150 tokens/sec. Cloud APIs (GPT-4, Claude) achieve 100-300+ tokens/sec with better hardware and serving optimization. For inference-only workloads, difference is 200-800ms per request, which rarely matters for non-real-time use.</p>
+      </div>
+    </details>
+
+    <details class="faq-item" style="border-bottom:1px solid var(--color-rule);padding:var(--space-4) 0;">
+      <summary style="cursor:pointer;font-weight:600;font-size:var(--text-md);list-style:none;display:flex;justify-content:space-between;align-items:flex-start;gap:var(--space-3);">
+        <span>Do local LLMs have worse quality than cloud models?</span>
+        <span aria-hidden="true" style="color:var(--color-ink-faint);font-weight:400;flex-shrink:0;">+</span>
+      </summary>
+      <div style="margin-top:var(--space-3);color:var(--color-ink-muted);line-height:1.7;">
+        <p>For general tasks, no. Llama 2 70B and Mixtral 8x7B match or exceed GPT-3.5 on many benchmarks. However, specialized domains (medical coding, legal analysis, reasoning chains) still favor closed models like GPT-4 or Claude. Always benchmark against your exact workload.</p>
+      </div>
+    </details>
+
+    <details class="faq-item" style="border-bottom:1px solid var(--color-rule);padding:var(--space-4) 0;">
+      <summary style="cursor:pointer;font-weight:600;font-size:var(--text-md);list-style:none;display:flex;justify-content:space-between;align-items:flex-start;gap:var(--space-3);">
+        <span>What compliance advantage does on-prem AI actually give?</span>
+        <span aria-hidden="true" style="color:var(--color-ink-faint);font-weight:400;flex-shrink:0;">+</span>
+      </summary>
+      <div style="margin-top:var(--space-3);color:var(--color-ink-muted);line-height:1.7;">
+        <p>You control data residency and avoid third-party processing, which helps with HIPAA, GDPR, and SOC 2. But you still own the security of your infrastructure, which is often harder than outsourcing to a mature API provider. Local does not equal compliant.</p>
+      </div>
+    </details>
+
+    <details class="faq-item" style="border-bottom:1px solid var(--color-rule);padding:var(--space-4) 0;">
+      <summary style="cursor:pointer;font-weight:600;font-size:var(--text-md);list-style:none;display:flex;justify-content:space-between;align-items:flex-start;gap:var(--space-3);">
+        <span>Can I use Ollama for production inference?</span>
+        <span aria-hidden="true" style="color:var(--color-ink-faint);font-weight:400;flex-shrink:0;">+</span>
+      </summary>
+      <div style="margin-top:var(--space-3);color:var(--color-ink-muted);line-height:1.7;">
+        <p>Ollama is excellent for development and small-scale inference, but lacks distributed serving, model versioning, and monitoring for production. For production, use vLLM, TGI (Text Generation Inference), or dedicated platforms like Together AI or RunPod.</p>
+      </div>
+    </details>
+
+    <details class="faq-item" style="border-bottom:1px solid var(--color-rule);padding:var(--space-4) 0;">
+      <summary style="cursor:pointer;font-weight:600;font-size:var(--text-md);list-style:none;display:flex;justify-content:space-between;align-items:flex-start;gap:var(--space-3);">
+        <span>Should I quantize my model?</span>
+        <span aria-hidden="true" style="color:var(--color-ink-faint);font-weight:400;flex-shrink:0;">+</span>
+      </summary>
+      <div style="margin-top:var(--space-3);color:var(--color-ink-muted);line-height:1.7;">
+        <p>Yes, in most cases. 4-bit quantization cuts memory and latency by 50-75% with minimal accuracy loss on standard tasks. 8-bit is safer for safety-critical workloads. Test on your own data first, especially for tasks requiring precise reasoning.</p>
+      </div>
+    </details></div>
+      </section>
+          <p style="font-size:var(--text-xs);color:var(--color-ink-faint);margin-top:var(--space-6);padding-top:var(--space-4);border-top:1px solid var(--color-rule);">
+            An <strong>AI Glimpse</strong> explainer. We update this guide as the field evolves.
+          </p>
+        </div>
+      </section>
+    </article>
+    <section class="section" aria-label="Related articles">
+      <div class="container container--narrow">
+        <div class="section-header">
+          <h2 class="section-title">More from AI Glimpse</h2>
+          <a href="/categories/llms" class="section-link">All LLMs stories</a>
+        </div>
+        <div class="grid grid-3">
+          <article class="card card--medium">
+            <a href="/articles/openai-reports-breakthroughs-on-long-standing-math-problems-0ebdfa6c"><div class="card-image"><picture><source srcset="/images/articles/openai-reports-breakthroughs-on-long-standing-math-problems-0ebdfa6c.webp" type="image/webp"><img src="/images/articles/openai-reports-breakthroughs-on-long-standing-math-problems-0ebdfa6c.jpg" alt="OpenAI Reports Breakthroughs on Long-Standing Math Problems" loading="lazy" width="1200" height="630"></picture></div></a>
+            <div class="card-meta">
+              <span class="tag tag--llm">LLMs</span>
+              <span class="card-byline"><time datetime="2026-08-01T00:00:00.000Z">Aug 1, 2026</time></span>
+            </div>
+            <a href="/articles/openai-reports-breakthroughs-on-long-standing-math-problems-0ebdfa6c"><h3 class="card-title">OpenAI Reports Breakthroughs on Long-Standing Math Problems</h3></a>
+          </article>
+          <article class="card card--medium">
+            <a href="/articles/ai-is-redefining-job-roles-as-workers-embrace-new-capabilities-8b18663d"><div class="card-image"><picture><source srcset="/images/articles/ai-is-redefining-job-roles-as-workers-embrace-new-capabilities-8b18663d.webp" type="image/webp"><img src="/images/articles/ai-is-redefining-job-roles-as-workers-embrace-new-capabilities-8b18663d.jpg" alt="AI Is Redefining Job Roles as Workers Embrace New Capabilities" loading="lazy" width="1200" height="630"></picture></div></a>
+            <div class="card-meta">
+              <span class="tag tag--llm">LLMs</span>
+              <span class="card-byline"><time datetime="2026-07-27T03:30:00.000Z">Jul 27, 2026</time></span>
+            </div>
+            <a href="/articles/ai-is-redefining-job-roles-as-workers-embrace-new-capabilities-8b18663d"><h3 class="card-title">AI Is Redefining Job Roles as Workers Embrace New Capabilities</h3></a>
+          </article>
+          <article class="card card--medium">
+            <a href="/articles/llm-context-window-explained"><div class="card-image"><picture><source srcset="/images/articles/llm-context-window-explained.webp" type="image/webp"><img src="/images/articles/llm-context-window-explained.jpg" alt="LLM Context Windows Explained: Tokens, Limits, and Trade-offs" loading="lazy" width="1200" height="630"></picture></div></a>
+            <div class="card-meta">
+              <span class="tag tag--llm">LLMs</span>
+              <span class="card-byline"><time datetime="2026-07-27T10:03:32.240Z">Jul 27, 2026</time></span>
+            </div>
+            <a href="/articles/llm-context-window-explained"><h3 class="card-title">LLM Context Windows Explained: Tokens, Limits, and Trade-offs</h3></a>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="/" class="logo">
+            <span class="logo-wordmark" aria-label="AI Glimpse">A<span class="iris-i" aria-hidden="true">ı</span><span aria-hidden="true"> Glimpse</span></span>
+          </a>
+          <p>Your daily glimpse into AI. Independent reporting and analysis on the people, products, and policies shaping artificial intelligence.</p>
+        </div>
+        <div class="footer-col">
+          <h5>Categories</h5>
+          <ul>
+            <li><a href="/categories/llms">LLMs</a></li>
+            <li><a href="/categories/research">Research</a></li>
+            <li><a href="/categories/tools">Tools</a></li>
+            <li><a href="/categories/business">Business</a></li>
+            <li><a href="/categories/ethics">Ethics</a></li>
+            <li><a href="/categories/industry">Industry</a></li>
+            <li><a href="/categories/robotics">Robotics</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h5>About</h5>
+          <ul>
+            <li><a href="/pages/about">About AI Glimpse</a></li>
+            <li><a href="/pages/contact">Contact</a></li>
+            <li><a href="/pages/editorial">Editorial Standards</a></li>
+            <li><a href="/pages/advertise">Advertise</a></li>
+            <li><a href="/guides">Guides &amp; Explainers</a></li>
+            <li><a href="/search">Search</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h5>Legal</h5>
+          <ul>
+            <li><a href="/pages/privacy">Privacy Policy</a></li>
+            <li><a href="/pages/terms">Terms of Service</a></li>
+            <li><a href="#" data-consent-open>Cookie preferences</a></li>
+            <li><a href="/rss.xml">RSS Feed</a></li>
+            <li><a href="/sitemap.xml">Sitemap</a></li>
+            <li><a href="/llms.txt">LLMs.txt</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div>© <span id="year">2026</span> AI Glimpse · aiglimpse.ai</div>
+        <div class="footer-social">
+          <a href="/rss.xml" aria-label="RSS"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M6.503 20.752c0 1.794-1.456 3.248-3.251 3.248-1.796 0-3.252-1.454-3.252-3.248 0-1.794 1.456-3.248 3.252-3.248 1.795 0 3.251 1.454 3.251 3.248zm-6.503-12.572v4.811c6.05.062 10.96 4.966 11.022 11.009h4.817c-.062-8.71-7.118-15.758-15.839-15.82zm0-3.368c10.58.046 19.152 8.594 19.183 19.188h4.817c-.03-13.231-10.755-23.954-24-24v4.812z"/></svg></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="/js/chrome.js"></script>
+  <script src="/js/main.js"></script>
+</body>
+</html>
