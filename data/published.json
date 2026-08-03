@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "benioff-backed-startup-targets-ai-implementation-bottleneck-feaa3f74",
+      "title": "Benioff-Backed Startup Targets AI Implementation Bottleneck",
+      "subtitle": "June launches with $20M to streamline how enterprises deploy machine learning systems at scale.",
+      "category": "business",
+      "publishedAt": "2026-08-03T10:00:00.000Z",
+      "sourceUrl": "https://techcrunch.com/2026/08/03/a-marc-benioff-backed-startup-thinks-ai-can-solve-the-ai-deployment-problem/",
+      "sourceName": "TechCrunch AI",
+      "sourceTier": 2,
+      "image": "/images/articles/benioff-backed-startup-targets-ai-implementation-bottleneck-feaa3f74.jpg"
+    },
+    {
       "slug": "local-llms-vs-cloud-api",
       "title": "Local LLMs vs Cloud APIs: The Real Cost and Trade-Off Guide",
       "subtitle": "How to evaluate on-prem and self-hosted LLMs against API providers for your infrastructure",
@@ -10137,6 +10148,7 @@
     "0ebdfa6cfe53843c",
     "5fcd69eb7ff6120a",
     "a41501aa5f85bd2b",
-    "dc1ca120085b0604"
+    "dc1ca120085b0604",
+    "feaa3f74fa57c2b3"
   ]
 }

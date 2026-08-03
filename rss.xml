@@ -7,6 +7,22 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Benioff-Backed Startup Targets AI Implementation Bottleneck</title>
+      <link>https://aiglimpse.ai/articles/benioff-backed-startup-targets-ai-implementation-bottleneck-feaa3f74</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/benioff-backed-startup-targets-ai-implementation-bottleneck-feaa3f74</guid>
+      <description>June launches with $20M to streamline how enterprises deploy machine learning systems at scale.</description>
+      <pubDate>Mon, 03 Aug 2026 10:00:00 GMT</pubDate>
+      <category>AI Business</category>
+    </item>
+    <item>
+      <title>Local LLMs vs Cloud APIs: The Real Cost and Trade-Off Guide</title>
+      <link>https://aiglimpse.ai/articles/local-llms-vs-cloud-api</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/local-llms-vs-cloud-api</guid>
+      <description>How to evaluate on-prem and self-hosted LLMs against API providers for your infrastructure</description>
+      <pubDate>Mon, 03 Aug 2026 09:58:41 GMT</pubDate>
+      <category>LLMs &amp; Chatbots</category>
+    </item>
+    <item>
       <title>New Robot Model Combines Vision, Touch, and Language for Physical Tasks</title>
       <link>https://aiglimpse.ai/articles/new-robot-model-combines-vision-touch-and-language-for-physical-tasks-dc1ca120</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/new-robot-model-combines-vision-touch-and-language-for-physical-tasks-dc1ca120</guid>
@@ -388,22 +404,6 @@
       <guid isPermaLink="true">https://aiglimpse.ai/articles/federal-health-agency-faces-scrutiny-over-ai-governance-standards-0b62b3c9</guid>
       <description>HHS Inspector General launches comprehensive audit to assess whether artificial intelligence systems meet security, privacy, and accountability requirements.</description>
       <pubDate>Tue, 28 Jul 2026 16:48:12 GMT</pubDate>
-      <category>Industry Applications</category>
-    </item>
-    <item>
-      <title>EPA Exempts Private AI Data Center Power Plants From Acid Rain Rules</title>
-      <link>https://aiglimpse.ai/articles/epa-exempts-private-ai-data-center-power-plants-from-acid-rain-rules-c8d8397b</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/epa-exempts-private-ai-data-center-power-plants-from-acid-rain-rules-c8d8397b</guid>
-      <description>A regulatory interpretation allows AI companies to dodge major pollution controls on dedicated power generation, raising environmental policy questions.</description>
-      <pubDate>Tue, 28 Jul 2026 16:58:40 GMT</pubDate>
-      <category>Ethics &amp; Policy</category>
-    </item>
-    <item>
-      <title>Recursive Superintelligence Commits $400M to AWS for AI Infrastructure</title>
-      <link>https://aiglimpse.ai/articles/recursive-superintelligence-commits-400m-to-aws-for-ai-infrastructure-fadc678b</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/recursive-superintelligence-commits-400m-to-aws-for-ai-infrastructure-fadc678b</guid>
-      <description>The stealth-exit startup deploys most of its Series A funding on cloud compute, signaling confidence in Amazon's AI capabilities.</description>
-      <pubDate>Tue, 28 Jul 2026 13:56:46 GMT</pubDate>
       <category>Industry Applications</category>
     </item>
   </channel>

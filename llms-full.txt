@@ -3,9 +3,16 @@
 > Machine-readable index for AI assistants, answer engines, and research crawlers.
 > Summary version: https://aiglimpse.ai/llms.txt
 
-Total articles: 843 | Evergreen explainers: 19 | Generated: 2026-08-03
+Total articles: 845 | Evergreen explainers: 20 | Generated: 2026-08-03
 
 ## Evergreen explainers
+
+### Local LLMs vs Cloud APIs: The Real Cost and Trade-Off Guide
+- URL: https://aiglimpse.ai/articles/local-llms-vs-cloud-api
+- Published: 2026-08-03
+- Category: llms
+- Summary: How to evaluate on-prem and self-hosted LLMs against API providers for your infrastructure
+- Type: evergreen explainer (FAQ schema on page)
 
 ### Fine-Tune LLMs with LoRA: When It's Worth It and How to Do It Safely
 - URL: https://aiglimpse.ai/articles/fine-tuning-lora-practical-guide
@@ -141,6 +148,20 @@ Total articles: 843 | Evergreen explainers: 19 | Generated: 2026-08-03
 - Type: evergreen explainer (FAQ schema on page)
 
 ## All articles (newest first)
+
+### Benioff-Backed Startup Targets AI Implementation Bottleneck
+- URL: https://aiglimpse.ai/articles/benioff-backed-startup-targets-ai-implementation-bottleneck-feaa3f74
+- Published: 2026-08-03
+- Category: business
+- Summary: June launches with $20M to streamline how enterprises deploy machine learning systems at scale.
+- Source: https://techcrunch.com/2026/08/03/a-marc-benioff-backed-startup-thinks-ai-can-solve-the-ai-deployment-problem/
+
+### Local LLMs vs Cloud APIs: The Real Cost and Trade-Off Guide
+- URL: https://aiglimpse.ai/articles/local-llms-vs-cloud-api
+- Published: 2026-08-03
+- Category: llms
+- Summary: How to evaluate on-prem and self-hosted LLMs against API providers for your infrastructure
+- Type: evergreen explainer (FAQ schema on page)
 
 ### New Robot Model Combines Vision, Touch, and Language for Physical Tasks
 - URL: https://aiglimpse.ai/articles/new-robot-model-combines-vision-touch-and-language-for-physical-tasks-dc1ca120
