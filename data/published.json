@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "wall-street-forecasts-500b-ai-chip-financing-boom-through-2028-e9b551e2",
+      "title": "Wall Street Forecasts $500B AI Chip Financing Boom Through 2028",
+      "subtitle": "Major market maker predicts unprecedented debt issuance as AI infrastructure demands reshape credit markets and corporate balance sheets.",
+      "category": "industry",
+      "publishedAt": "2026-08-04T05:03:01.000Z",
+      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-08-03/citadel-securities-sees-a-500-billion-chip-financing-debt-binge",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/wall-street-forecasts-500b-ai-chip-financing-boom-through-2028-e9b551e2.jpg"
+    },
+    {
+      "slug": "researchers-develop-safety-layer-for-dual-arm-robot-coordination-326a40c3",
+      "title": "Researchers Develop Safety Layer for Dual-Arm Robot Coordination",
+      "subtitle": "New intervention framework uses predictive models to improve robotic task completion while preventing unsafe actions in complex two-handed operations.",
+      "category": "research",
+      "publishedAt": "2026-08-03T17:51:58.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2608.02578v1",
+      "sourceName": "arXiv (Shuaijun Liu, Qifu Wen, Shuyang Hao, Qi Luo, Chenglong Zhang…)",
+      "sourceTier": 1,
+      "image": "/images/articles/researchers-develop-safety-layer-for-dual-arm-robot-coordination-326a40c3.jpg"
+    },
+    {
       "slug": "d-matrix-bolsters-ai-inference-stack-with-wallarooai-deal-745496b4",
       "title": "d-Matrix Bolsters AI Inference Stack With Wallaroo.ai Deal",
       "subtitle": "Hardware maker pivots to end-to-end software solutions as inference deployment becomes critical bottleneck for enterprise AI.",
@@ -10221,6 +10243,8 @@
     "580583110e9dcd7e",
     "996391283cda05c6",
     "0025c79cd66699a0",
-    "745496b4268b7dd9"
+    "745496b4268b7dd9",
+    "326a40c3f7e140b5",
+    "e9b551e29134f07f"
   ]
 }
