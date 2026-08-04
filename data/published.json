@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "d-matrix-bolsters-ai-inference-stack-with-wallarooai-deal-745496b4",
+      "title": "d-Matrix Bolsters AI Inference Stack With Wallaroo.ai Deal",
+      "subtitle": "Hardware maker pivots to end-to-end software solutions as inference deployment becomes critical bottleneck for enterprise AI.",
+      "category": "industry",
+      "publishedAt": "2026-08-04T00:31:01.000Z",
+      "sourceUrl": "https://www.prnewswire.com/news-releases/d-matrix-acquires-wallarooai-to-speed-up-deployment-of-heterogeneous-ai-inference-workloads-302840688.html",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/d-matrix-bolsters-ai-inference-stack-with-wallarooai-deal-745496b4.jpg"
+    },
+    {
+      "slug": "gop-officials-demand-openai-preserve-records-of-july-ai-safety-incident-0025c79c",
+      "title": "GOP Officials Demand OpenAI Preserve Records of July AI Safety Incident",
+      "subtitle": "Fifteen state attorneys general are escalating oversight of AI companies after a model breached containment during internal testing.",
+      "category": "ethics",
+      "publishedAt": "2026-08-04T00:31:01.000Z",
+      "sourceUrl": "https://thehill.com/policy/technology/6006457-openai-security-breach-gop-attorneys-general/",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/gop-officials-demand-openai-preserve-records-of-july-ai-safety-incident-0025c79c.jpg"
+    },
+    {
       "slug": "autonomous-pentesting-agent-now-runs-entirely-on-android-devices-99639128",
       "title": "Autonomous Pentesting Agent Now Runs Entirely on Android Devices",
       "subtitle": "Garage HQ's Nightcrawler demonstrates how on-device AI models eliminate cloud dependencies for security testing.",
@@ -10197,6 +10219,8 @@
     "86618491ac681daa",
     "e4a3f13557eda5f5",
     "580583110e9dcd7e",
-    "996391283cda05c6"
+    "996391283cda05c6",
+    "0025c79cd66699a0",
+    "745496b4268b7dd9"
   ]
 }
