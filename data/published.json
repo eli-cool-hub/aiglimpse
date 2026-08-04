@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "new-method-extracts-robot-movement-plans-from-ai-video-models-eff6943a",
+      "title": "New Method Extracts Robot Movement Plans From AI Video Models",
+      "subtitle": "Researchers unlock 6-DoF trajectory predictions directly from diffusion model internals, advancing robot learning without pixel generation.",
+      "category": "robotics",
+      "publishedAt": "2026-08-04T15:53:49.000Z",
+      "sourceUrl": "https://arxiv.org/abs/2608.00486",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/new-method-extracts-robot-movement-plans-from-ai-video-models-eff6943a.jpg"
+    },
+    {
+      "slug": "open-ai-models-close-performance-gap-while-safety-risks-widen-690b1c34",
+      "title": "Open AI Models Close Performance Gap While Safety Risks Widen",
+      "subtitle": "New analysis reveals powerful open-source models lack critical safeguards, raising urgent questions about governance and responsible AI deployment.",
+      "category": "business",
+      "publishedAt": "2026-08-04T20:05:26.000Z",
+      "sourceUrl": "https://techcrunch.com/2026/08/04/open-weight-ai-models-are-catching-up-to-the-frontier-the-safety-gap-remains/",
+      "sourceName": "TechCrunch AI",
+      "sourceTier": 2,
+      "image": "/images/articles/open-ai-models-close-performance-gap-while-safety-risks-widen-690b1c34.jpg"
+    },
+    {
       "slug": "major-health-systems-rush-to-create-ai-leadership-positions-bf9d22ad",
       "title": "Major Health Systems Rush to Create AI Leadership Positions",
       "subtitle": "Top hospitals are appointing dedicated chief AI officers to manage implementation risks and ensure patient safety as artificial intelligence becomes central to care delivery.",
@@ -10305,6 +10327,8 @@
     "67dc8d83f5ec918a",
     "23a260cda9499d3a",
     "3f251da9dd8d1ab5",
-    "bf9d22ad047de4d9"
+    "bf9d22ad047de4d9",
+    "690b1c34600a3dfa",
+    "eff6943a56d04c4e"
   ]
 }

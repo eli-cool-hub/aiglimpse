@@ -7,6 +7,22 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>New Method Extracts Robot Movement Plans From AI Video Models</title>
+      <link>https://aiglimpse.ai/articles/new-method-extracts-robot-movement-plans-from-ai-video-models-eff6943a</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-method-extracts-robot-movement-plans-from-ai-video-models-eff6943a</guid>
+      <description>Researchers unlock 6-DoF trajectory predictions directly from diffusion model internals, advancing robot learning without pixel generation.</description>
+      <pubDate>Tue, 04 Aug 2026 15:53:49 GMT</pubDate>
+      <category>Robotics</category>
+    </item>
+    <item>
+      <title>Open AI Models Close Performance Gap While Safety Risks Widen</title>
+      <link>https://aiglimpse.ai/articles/open-ai-models-close-performance-gap-while-safety-risks-widen-690b1c34</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/open-ai-models-close-performance-gap-while-safety-risks-widen-690b1c34</guid>
+      <description>New analysis reveals powerful open-source models lack critical safeguards, raising urgent questions about governance and responsible AI deployment.</description>
+      <pubDate>Tue, 04 Aug 2026 20:05:26 GMT</pubDate>
+      <category>AI Business</category>
+    </item>
+    <item>
       <title>Major Health Systems Rush to Create AI Leadership Positions</title>
       <link>https://aiglimpse.ai/articles/major-health-systems-rush-to-create-ai-leadership-positions-bf9d22ad</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/major-health-systems-rush-to-create-ai-leadership-positions-bf9d22ad</guid>
@@ -389,22 +405,6 @@
       <description>Economic valuation models hint that GPU pricing may be drastically undervalued relative to the engineering talent they could replace.</description>
       <pubDate>Thu, 30 Jul 2026 10:58:23 GMT</pubDate>
       <category>Industry Applications</category>
-    </item>
-    <item>
-      <title>Qualcomm Completes Modular Acquisition, Establishes AI Software Division</title>
-      <link>https://aiglimpse.ai/articles/qualcomm-completes-modular-acquisition-establishes-ai-software-division-38f79576</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/qualcomm-completes-modular-acquisition-establishes-ai-software-division-38f79576</guid>
-      <description>Chipmaker absorbs AI infrastructure startup, elevates founder Chris Lattner to EVP overseeing software platforms across hardware ecosystems.</description>
-      <pubDate>Thu, 30 Jul 2026 09:30:43 GMT</pubDate>
-      <category>Industry Applications</category>
-    </item>
-    <item>
-      <title>Frontier AI Agents Struggle With Independent Research Tasks</title>
-      <link>https://aiglimpse.ai/articles/frontier-ai-agents-struggle-with-independent-research-tasks-b69a6448</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/frontier-ai-agents-struggle-with-independent-research-tasks-b69a6448</guid>
-      <description>New study reveals significant gaps in how well advanced AI systems can autonomously tackle open-ended scientific problems.</description>
-      <pubDate>Thu, 30 Jul 2026 04:55:39 GMT</pubDate>
-      <category>Ethics &amp; Policy</category>
     </item>
   </channel>
 </rss>
