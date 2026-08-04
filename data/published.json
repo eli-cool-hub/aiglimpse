@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "wall-street-banks-orchestrate-200b-financing-for-anthropics-ai-infrastructure-67dc8d83",
+      "title": "Wall Street Banks Orchestrate $200B Financing for Anthropic's AI Infrastructure",
+      "subtitle": "Google, Broadcom, and major financial firms structure unprecedented capital arrangement to fund the startup's compute buildout.",
+      "category": "industry",
+      "publishedAt": "2026-08-04T09:31:39.000Z",
+      "sourceUrl": "https://www.ft.com/content/549f2e23-5aa2-49c7-9ea6-a9784ab7087c",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/wall-street-banks-orchestrate-200b-financing-for-anthropics-ai-infrastructure-67dc8d83.jpg"
+    },
+    {
+      "slug": "openai-goes-public-with-defense-against-apple-ip-lawsuit-b3663c1d",
+      "title": "OpenAI Goes Public With Defense Against Apple IP Lawsuit",
+      "subtitle": "The AI firm breaks litigation norms by publishing evidence online, challenging Apple's intellectual property claims with documented communications.",
+      "category": "ethics",
+      "publishedAt": "2026-08-04T09:31:39.000Z",
+      "sourceUrl": "https://9to5mac.com/2026/08/03/openai-rebuts-apple-trade-secrets-allegations-in-new-response-and-evidence/",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/openai-goes-public-with-defense-against-apple-ip-lawsuit-b3663c1d.jpg"
+    },
+    {
       "slug": "wall-street-forecasts-500b-ai-chip-financing-boom-through-2028-e9b551e2",
       "title": "Wall Street Forecasts $500B AI Chip Financing Boom Through 2028",
       "subtitle": "Major market maker predicts unprecedented debt issuance as AI infrastructure demands reshape credit markets and corporate balance sheets.",
@@ -10245,6 +10267,8 @@
     "0025c79cd66699a0",
     "745496b4268b7dd9",
     "326a40c3f7e140b5",
-    "e9b551e29134f07f"
+    "e9b551e29134f07f",
+    "b3663c1dedd07135",
+    "67dc8d83f5ec918a"
   ]
 }
