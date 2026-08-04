@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "hackensack-meridian-health-appoints-executive-to-lead-ai-strategy-3f251da9",
+      "title": "Hackensack Meridian Health Appoints Executive to Lead AI Strategy",
+      "subtitle": "Major health system elevates artificial intelligence to executive leadership, signaling industry push to operationalize machine learning across clinical operations.",
+      "category": "industry",
+      "publishedAt": "2026-08-04T14:05:01.000Z",
+      "sourceUrl": "https://www.beckershospitalreview.com/hospital-executive-moves/hackensack-meridian-health-names-chief-ai-and-data-officer/",
+      "sourceName": "Becker's Hospital Review",
+      "sourceTier": 2,
+      "image": "/images/articles/hackensack-meridian-health-appoints-executive-to-lead-ai-strategy-3f251da9.jpg"
+    },
+    {
+      "slug": "us-regulators-move-to-block-chinese-optical-components-from-ai-data-centers-23a260cd",
+      "title": "U.S. Regulators Move to Block Chinese Optical Components from AI Data Centers",
+      "subtitle": "Federal officials are drafting restrictions on imported transceivers to protect AI infrastructure from foreign interference and espionage.",
+      "category": "ethics",
+      "publishedAt": "2026-08-04T12:30:24.000Z",
+      "sourceUrl": "https://www.reuters.com/world/trump-administration-drafting-ban-chinese-data-center-devices-sources-say-2026-08-04/",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/us-regulators-move-to-block-chinese-optical-components-from-ai-data-centers-23a260cd.jpg"
+    },
+    {
       "slug": "wall-street-banks-orchestrate-200b-financing-for-anthropics-ai-infrastructure-67dc8d83",
       "title": "Wall Street Banks Orchestrate $200B Financing for Anthropic's AI Infrastructure",
       "subtitle": "Google, Broadcom, and major financial firms structure unprecedented capital arrangement to fund the startup's compute buildout.",
@@ -10269,6 +10291,8 @@
     "326a40c3f7e140b5",
     "e9b551e29134f07f",
     "b3663c1dedd07135",
-    "67dc8d83f5ec918a"
+    "67dc8d83f5ec918a",
+    "23a260cda9499d3a",
+    "3f251da9dd8d1ab5"
   ]
 }
