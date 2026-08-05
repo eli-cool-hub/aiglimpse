@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "wayves-self-driving-tech-gets-london-regulatory-approval-e7340bdf",
+      "title": "Wayve's Self-Driving Tech Gets London Regulatory Approval",
+      "subtitle": "Transport for London grants license to Wayve-powered robotaxis, marking a critical milestone for autonomous vehicle deployment in a major city.",
+      "category": "business",
+      "publishedAt": "2026-08-05T11:00:24.000Z",
+      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-08-05/uber-and-wayve-win-licenses-for-supervised-robotaxis-in-london",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/wayves-self-driving-tech-gets-london-regulatory-approval-e7340bdf.jpg"
+    },
+    {
       "slug": "researchers-expose-hidden-backdoors-in-ai-agent-skill-libraries-26fa0229",
       "title": "Researchers Expose Hidden Backdoors in AI Agent Skill Libraries",
       "subtitle": "Tencent lab reveals how poisoned training data can hide malicious behavior in autonomous agent systems, bypassing safety filters.",
@@ -10389,6 +10400,7 @@
     "425a68e31379e341",
     "da102e6a50bf78fb",
     "8a7f3bd8108e119a",
-    "26fa0229f7fb3234"
+    "26fa0229f7fb3234",
+    "e7340bdfd0da6937"
   ]
 }
