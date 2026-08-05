@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Best Open Source LLMs in 2026: Llama, Mistral, Qwen | AI Glimpse</title>
+  <meta name="description" content="2026 guide to top open-source LLMs: Llama, Mistral, Qwen. Benchmarks, licenses, hardware needs, and deployment strategies.">
+  <meta name="keywords" content="open source LLM, Llama 4, Mistral, Qwen, open weight model, self-hosted chatbot, LLM deployment">
+  <link rel="canonical" href="https://aiglimpse.ai/articles/open-source-llms-comparison-2026">
+  <meta property="og:type" content="article"><meta property="og:site_name" content="AI Glimpse">
+  <meta property="og:title" content="Best Open Source LLMs in 2026: Llama, Mistral, Qwen">
+  <meta property="og:description" content="2026 guide to top open-source LLMs: Llama, Mistral, Qwen. Benchmarks, licenses, hardware needs, and deployment strategies.">
+  <meta property="og:url" content="https://aiglimpse.ai/articles/open-source-llms-comparison-2026">
+  <meta property="og:image" content="https://aiglimpse.ai/images/articles/open-source-llms-comparison-2026.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="article:published_time" content="2026-08-05T08:22:45.644Z">
+  <meta property="article:section" content="LLMs & Chatbots">
+  <meta property="article:tag" content="open source LLM">
+  <meta property="article:tag" content="Llama 4">
+  <meta property="article:tag" content="Mistral">
+  <meta property="article:tag" content="Qwen">
+  <meta property="article:tag" content="open weight model">
+  <meta property="article:tag" content="self-hosted chatbot">
+  <meta property="article:tag" content="LLM deployment">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Best Open Source LLMs in 2026: Llama, Mistral, Qwen">
+  <meta name="twitter:description" content="2026 guide to top open-source LLMs: Llama, Mistral, Qwen. Benchmarks, licenses, hardware needs, and deployment strategies.">
+  <meta name="twitter:image" content="https://aiglimpse.ai/images/articles/open-source-llms-comparison-2026.jpg">
+  <link rel="icon" type="image/svg+xml" href="/images/favicon.svg">
+  <link rel="alternate" type="application/rss+xml" title="AI Glimpse RSS" href="/rss.xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700;9..144,900&family=Inter+Tight:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap">
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="preload" as="image" href="/images/articles/open-source-llms-comparison-2026.webp" type="image/webp" fetchpriority="high">
+  <style>.reading-progress{position:fixed;top:0;left:0;height:3px;background:var(--color-accent);width:0%;z-index:200;transition:width 100ms linear;}</style>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","mainEntityOfPage":{"@type":"WebPage","@id":"https://aiglimpse.ai/articles/open-source-llms-comparison-2026"},"headline":"Best Open Source LLMs in 2026: Llama, Mistral, Qwen","description":"2026 guide to top open-source LLMs: Llama, Mistral, Qwen. Benchmarks, licenses, hardware needs, and deployment strategies.","image":["https://aiglimpse.ai/images/articles/open-source-llms-comparison-2026.jpg"],"datePublished":"2026-08-05T08:22:45.644Z","dateModified":"2026-08-05T08:22:45.644Z","author":{"@type":"Organization","name":"AI Glimpse Newsroom"},"publisher":{"@type":"Organization","name":"AI Glimpse","logo":{"@type":"ImageObject","url":"https://aiglimpse.ai/images/logo.svg"}},"articleSection":"LLMs & Chatbots","keywords":"open source LLM, Llama 4, Mistral, Qwen, open weight model, self-hosted chatbot, LLM deployment"}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://aiglimpse.ai/"},{"@type":"ListItem","position":2,"name":"LLMs & Chatbots","item":"https://aiglimpse.ai/categories/llms"},{"@type":"ListItem","position":3,"name":"Best Open Source LLMs in 2026: Llama, Mistral, Qwen","item":"https://aiglimpse.ai/articles/open-source-llms-comparison-2026"}]}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What's the difference between open source and open weight LLMs?","acceptedAnswer":{"@type":"Answer","text":"Open source includes code, training data, and weights under a permissive license. Open weight means only model weights are public; training code or data may be proprietary. Most models discussed here are open weight. True open source LLMs are rarer and often smaller."}},{"@type":"Question","name":"Can I use these models commercially?","acceptedAnswer":{"@type":"Answer","text":"Most yes, but license matters. Llama 2/3 use Llama Community License (commercial use allowed). Mistral 7B and Qwen use Apache 2.0 (fully commercial). Always audit fine-tuning terms if you modify weights. Consult legal before production use."}},{"@type":"Question","name":"How much GPU memory do I need to run a 70B model?","acceptedAnswer":{"@type":"Answer","text":"A 70B parameter model in float16 needs roughly 140 GB VRAM for inference. Using int8 quantization cuts this to 70 GB. int4 (GGUF format) reduces it to 35-40 GB. Consumer GPUs rarely exceed 48 GB, so A100s or H100s are typical for full-precision inference."}},{"@type":"Question","name":"Are open-source models as good as ChatGPT?","acceptedAnswer":{"@type":"Answer","text":"Llama 3.1 and Mistral Large match or exceed GPT-3.5 on many tasks. On reasoning, code, and math, GPT-4 still leads. Qwen 2.5 is strongest on Chinese tasks and coding. For summarization, Q&A, and classification, open models are competitive and cheaper to deploy."}},{"@type":"Question","name":"What's the best model for a small team with limited GPU budget?","acceptedAnswer":{"@type":"Answer","text":"Mistral 7B or Llama 3.1 8B. Both run on a single A10G GPU (24 GB). Quantize to int4 (GGUF) to run on CPU if needed. For chat, they outperform older 13B models. If budget is tighter, Phi 3.5 Mini is strong for a 4 GB footprint."}},{"@type":"Question","name":"Should I fine-tune or use retrieval-augmented generation (RAG)?","acceptedAnswer":{"@type":"Answer","text":"RAG is faster and cheaper to build. Fine-tuning is better if you need style adaptation, rare domain knowledge, or closed-domain accuracy. Start with RAG and a good base model. Fine-tune only if RAG accuracy plateaus or cost justifies GPU hours."}},{"@type":"Question","name":"What quantization format should I use in production?","acceptedAnswer":{"@type":"Answer","text":"GGUF (int4 or int8) for CPU or single-GPU inference. GPTQ for multi-GPU or batching. AWQ if you need speed and minimal accuracy loss. For full precision, use vLLM with tensor parallelism on multiple GPUs. Benchmark your use case; quality loss from int4 is often invisible."}}]}</script>
+  <meta name="google-site-verification" content="B132aMlqf1nssWYhjOSKUgSjmfwNWgPgtozZsHDxWlU" />
+  <meta name="msvalidate.01" content="F3762E555B3E685836AE39C90B79ECBF" />
+  <!-- aiglimpse-consent-default v1: must run before AdSense, defaults all ad/analytics storage to denied -->
+  <script>(function(){window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}window.gtag=gtag;gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'denied',functionality_storage:'granted',security_storage:'granted',wait_for_update:500});try{var s=JSON.parse(localStorage.getItem('aiglimpse-consent')||'null');if(s&&s.choice==='granted'){gtag('consent','update',{ad_storage:'granted',ad_user_data:'granted',ad_personalization:'granted',analytics_storage:'granted'});}}catch(e){}})();</script>
+  <!-- aiglimpse-ga4 v1: gtag.js loaded after consent default, so it buffers events until consent is granted -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-EVZ52DNQ8S"></script>
+  <script>gtag('js', new Date()); gtag('config', 'G-EVZ52DNQ8S', { anonymize_ip: true });</script>
+</head>
+<body>
+  <div class="reading-progress" aria-hidden="true"></div>
+  <header class="site-header" role="banner">
+    <div class="container">
+      <div class="header-bar">
+        <a href="/" class="logo" aria-label="AI Glimpse home">
+          <span class="logo-wordmark" aria-label="AI Glimpse">A<span class="iris-i" aria-hidden="true">ı</span><span aria-hidden="true"> Glimpse</span></span>
+        </a>
+        <nav class="nav-primary" aria-label="Primary">
+          <a href="/categories/llms">LLMs</a>
+            <a href="/categories/research">Research</a>
+            <a href="/categories/tools">Tools</a>
+            <a href="/categories/business">Business</a>
+            <a href="/categories/ethics">Ethics</a>
+            <a href="/categories/industry">Industry</a>
+            <a href="/categories/robotics">Robotics</a>
+        </nav>
+        <div class="header-actions">
+          <a class="search-btn" href="/search" aria-label="Search">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="11" cy="11" r="7"/><path d="M21 21l-4.35-4.35"/>
+            </svg>
+          </a>
+          <a href="#newsletter" class="btn btn--primary btn--sm">Subscribe</a>
+          <button class="menu-btn" aria-label="Open menu">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+  <aside class="mobile-menu" aria-label="Mobile menu">
+    <div class="mobile-menu-header">
+      <a href="/" class="logo">
+        <span class="logo-wordmark" aria-label="AI Glimpse">A<span class="iris-i" aria-hidden="true">ı</span><span aria-hidden="true"> Glimpse</span></span>
+      </a>
+      <button class="mobile-menu-close" aria-label="Close menu" style="font-size:24px;">×</button>
+    </div>
+    <a href="/categories/llms">LLMs</a>
+    <a href="/categories/research">Research</a>
+    <a href="/categories/tools">Tools</a>
+    <a href="/categories/business">Business</a>
+    <a href="/categories/ethics">Ethics</a>
+    <a href="/categories/industry">Industry</a>
+    <a href="/categories/robotics">Robotics</a>
+    <a href="/search">Search</a>
+    <a href="/pages/about">About</a>
+    <a href="#newsletter">Subscribe</a>
+  </aside>
+  <main>
+    <article>
+      <section class="article-hero">
+        <div class="container container--narrow">
+          <nav aria-label="Breadcrumb" style="margin-bottom:var(--space-4);font-size:var(--text-xs);color:var(--color-ink-muted);">
+            <a href="/" style="color:inherit;">Home</a> /
+            <a href="/categories/llms" style="color:inherit;">LLMs & Chatbots</a> /
+            <span>Explainer</span>
+          </nav>
+          <div class="article-hero-meta">
+            <span class="tag tag--llm">LLMs & Chatbots</span>
+            <span class="eyebrow eyebrow--accent">Explainer</span>
+            <span class="eyebrow">11 min read</span>
+          </div>
+          <h1 class="article-hero-title">Best Open Source LLMs in 2026: Llama, Mistral, Qwen</h1>
+          <p class="article-hero-subtitle">Compare leading open-weight models, licenses, benchmarks, and deployment paths for self-hosted AI stacks.</p>
+          <div class="article-byline">
+            <div>By <strong>AI Glimpse Newsroom</strong></div><div>·</div>
+            <div><time datetime="2026-08-05T08:22:45.644Z" data-relative="false">August 5, 2026</time></div>
+          </div>
+        </div>
+      </section>
+      <section style="padding: var(--space-7) 0;">
+        <div class="container container--narrow">
+          <figure class="article-image"><picture><source srcset="/images/articles/open-source-llms-comparison-2026.webp" type="image/webp"><img src="/images/articles/open-source-llms-comparison-2026.jpg" alt="Best Open Source LLMs in 2026: Llama, Mistral, Qwen" loading="eager" fetchpriority="high" width="1200" height="630"></picture></figure>
+          <div class="article-body"><p>By 2026, the landscape of open-weight <a href="/articles/how-large-language-models-work-clear-explainer">language models</a> has stabilized around a small number of dominant architectures. Llama, Mistral, and Qwen represent the three largest ecosystems. Teams building self-hosted AI stacks now face a simpler but still consequential choice: which model balances capability, cost, license clarity, and deployment ease for your specific workload. This guide compares these families on concrete dimensions: benchmark performance, inference cost, hardware requirements, and production considerations.</p>
+
+<h2>Why this matters now</h2>
+
+<p>Open-weight models have crossed a usability threshold. Llama 3.1 (405B) and Mistral Large outperform GPT-3.5 on standard benchmarks and rival GPT-4 on many tasks. The cost curve has inverted: self-hosting a 70B model on cloud infrastructure (AWS, GCP, Azure) now costs less per token than API access for consistent, high-volume inference. Equally important, commercial restrictions have clarified. Meta's Llama Community License, Mistral's Apache 2.0, and Alibaba's Qwen Apache license all permit commercial use without royalties.</p>
+
+<p>The practical upside is real for teams with non-trivial inference volume (10M tokens/month or higher). A startup running a chatbot, classification pipeline, or content moderation system can reduce per-token costs by 60 to 80 percent compared to GPT-4 API pricing, while retaining full control over data and model behavior. The downside is operational: hosting, quantization, fine-tuning, and serving infrastructure now become your responsibility. This tradeoff has made open-source model selection a strategic, not just technical, decision.</p>
+
+<h2>Llama: Scale and stability</h2>
+<figure class="article-image article-image--inline">
+  <picture><source srcset="/images/articles/open-source-llms-comparison-2026-inline-1.webp" type="image/webp"><img src="/images/articles/open-source-llms-comparison-2026-inline-1.jpg" alt="Llama: Scale and stability" loading="lazy" width="1200" height="630"></picture>
+  <figcaption class="article-image-credit">Photo by <a href="https://www.pexels.com/photo/llama-overlooking-scenic-cityscape-35670115/" rel="nofollow noopener" target="_blank">Leandro Rossi</a> on Pexels.</figcaption>
+</figure>
+
+
+<p>Llama 3.1 remains the reference model for open-weight LLMs in 2026, with a 405B variant that matches GPT-4 Turbo on many benchmarks and an 8B version competitive with models triple its size.</p>
+
+<p>Meta released Llama 3.1 (8B, 70B, 405B) in mid-2024 and has committed to regular updates. The 8B model achieves ~95 percent of 70B capability on most tasks, making it the de facto standard for edge deployment and cost-conscious teams. The 70B model is the "sweet spot" for production: strong enough for reasoning, code generation, and multi-turn dialogue, yet fits on dual A100 GPUs with int8 quantization. The 405B variant trains on 15.6 trillion tokens and competes directly with proprietary frontier models, though inference cost at this scale exceeds most open alternatives.</p>
+
+<p>Llama benchmarks (MMLU, HumanEval, GSM8K):</p>
+
+<ul>
+<li>Llama 3.1 8B: 66.7% (MMLU), 62.2% (HumanEval)</li>
+<li>Llama 3.1 70B: 85.2% (MMLU), 81.7% (HumanEval)</li>
+<li>Llama 3.1 405B: 87.6% (MMLU), 87.3% (HumanEval)</li>
+</ul>
+
+<p>License: Llama Community License (permissive for commercial use, no royalties).</p>
+
+<p>Deployment: Llama models are optimized for vLLM, which is the fastest open inference server on AWS and GCP. A single A100 40GB GPU serves Llama 70B int8 at 20-40 tokens/second depending on batch size. For cost-cutting, int4 quantization (GGUF or GPTQ) reduces VRAM by half with minimal quality loss (typically 1-2 percent on benchmarks, hard to detect in production). Llama 3.1 8B runs on a T4 GPU (16 GB) with int4 quantization, opening access to cost-conscious labs.</p>
+
+<h2>Mistral: Efficiency and speed</h2>
+
+<p>Mistral has prioritized model efficiency and inference speed over raw parameter count, resulting in smaller, faster models that often match or exceed larger competitors.</p>
+
+<p>Mistral 7B (2023) proved that 7B parameters could compete with 13B models from other vendors when trained on curated data and optimized for inference. Mistral has since released Mistral 8x7B (Mixture of Experts), which offers 7B parameters but activates only 2.6B per token, and Mistral Large, which targets GPT-4 performance in a lean package. The 8x7B model is particularly interesting for teams with high throughput needs: it's fast, memory-efficient, and the MoE architecture reduces inference latency.</p>
+
+<p>Mistral benchmarks:</p>
+
+<ul>
+<li>Mistral 7B: 64.2% (MMLU), 47.4% (HumanEval)</li>
+<li>Mistral 8x7B: 80.2% (MMLU), 74.4% (HumanEval)</li>
+<li>Mistral Large: 84.0% (MMLU), 85.2% (HumanEval)</li>
+</ul>
+
+<p>License: Apache 2.0 (unrestricted commercial use).</p>
+
+<p>Deployment: Mistral models are optimized for TensorRT-LLM and are the fastest models to serve on NVIDIA hardware. Mistral 7B achieves 50+ tokens/second on a single A10G GPU. Mistral 8x7B, despite routing overhead, is nearly as fast and fits on dual T4s (16 GB each) with int4 quantization. Mistral has published official GGUF quantizations, making CPU inference practical for low-traffic services. A key advantage: Mistral models have smaller context windows (32K tokens for Mistral Large, versus 100K+ for newer Llamas), which lowers memory pressure and inference time for typical chat and RAG tasks.</p>
+
+<h2>Qwen: Multilingual and Chinese-first</h2>
+<figure class="article-image article-image--inline">
+  <picture><source srcset="/images/articles/open-source-llms-comparison-2026-inline-2.webp" type="image/webp"><img src="/images/articles/open-source-llms-comparison-2026-inline-2.jpg" alt="Qwen: Multilingual and Chinese-first" loading="lazy" width="1200" height="630"></picture>
+  <figcaption class="article-image-credit">Photo by <a href="https://www.pexels.com/photo/llama-gazing-through-a-wire-fence-outdoors-36207735/" rel="nofollow noopener" target="_blank">Dr Photographer</a> on Pexels.</figcaption>
+</figure>
+
+
+<p>Qwen (Alibaba) has built the strongest open-weight model for Chinese and multilingual tasks, with Qwen 2.5 now competitive on English benchmarks and code.</p>
+
+<p>Qwen 2 and its successor Qwen 2.5 excel on Chinese, math, and code. The 72B variant outperforms Llama 3.1 70B on Chinese MMLU and Chinese coding tasks, a critical advantage for teams operating in Mandarin or serving multilingual audiences. Qwen's alignment for instruction-following is strong; the models are less prone to refusals than Llama and produce longer, more detailed responses. For non-English-speaking teams, Qwen should be the default consideration.</p>
+
+<p>Qwen benchmarks (Qwen 2.5 72B):</p>
+
+<ul>
+<li>English MMLU: 84.9%</li>
+<li>Chinese MMLU (CMMLU): 88.1%</li>
+<li>HumanEval: 83.6%</li>
+<li>MATH (competition problems): 57.3%</li>
+</ul>
+
+<p>License: Apache 2.0 (unrestricted).</p>
+
+<p>Deployment: Qwen 2.5 models have long context windows (128K tokens) by default, which is ideal for RAG and document summarization but increases memory usage. A Qwen 72B model in int8 requires 144 GB VRAM, comparable to Llama 70B. However, context compression techniques (attention outliers, kv-cache quantization) reduce this by 20-30 percent with minimal accuracy loss. Qwen's official quantization toolchain (AutoGPTQ, GPTQ-Int4) is mature; int4 quantization is stable and widely tested by the Qwen community. For single-GPU setups, Qwen 32B (int4) is a strong alternative to Llama 70B on 40 GB hardware.</p>
+
+<h2>Practical sizing and hardware recommendations</h2>
+
+<p>Choosing a model tier depends on latency, throughput, and total cost. This matrix covers typical production scenarios.</p>
+
+<p><strong>Single GPU (24-40 GB VRAM):</strong> Llama 3.1 8B (full precision on A10G, A30) or Mistral 7B (full precision). Both achieve <100 ms latency for single-user requests. For throughput, quantize to int4 and expect 2x speedup. If you need more capability, Llama 3.1 70B int4 fits on a 40 GB A100, with latency of 300-500 ms per request in batch mode.</p>
+
+<p><strong>Dual GPU (40-80 GB VRAM):</strong> Llama 3.1 70B int8 (A100 40GB x2 or A6000 48GB x2). This is the standard for production RAG and chat systems. Expect 30-40 tokens/second in batch mode, or <200 ms latency for single requests. Mistral 8x7B on the same hardware is significantly faster (50-60 tokens/second) due to mixture-of-experts routing.</p>
+
+<p><strong>Multi-GPU cluster (80+ GB VRAM):</strong> Llama 3.1 405B or Qwen 2.5 72B (full precision). Llama 405B requires tensor parallelism across 4-8 GPUs depending on batch size and acceptable latency. This tier is cost-effective only for high-throughput services (100M+ tokens/day) or latency-insensitive batch processing.</p>
+
+<p><strong>CPU-only or edge devices:</strong> Mistral 7B or Llama 3.1 8B quantized to GGUF int4 (Ollama, llama.cpp). Expect 5-10 tokens/second on modern CPUs (2024 Xeon, AMD EPYC). This is viable for chatbots, autocomplete, and content filtering where sub-second latency is not required.</p>
+
+<h2>License, compliance, and commercial use</h2>
+
+<p>All three model families permit commercial deployment, but fine-print matters for high-stakes use cases.</p>
+
+<p>Llama 2 and 3 use the Llama Community License, which allows commercial use, redistribution, and fine-tuning without royalties. The license does prohibit use to develop competing <a href="/articles/how-large-language-models-work-clear-explainer">large language models</a>, a restriction that rarely matters in practice. Meta has been clear that Llama models are free to use and modify.</p>
+
+<p>Mistral and Qwen both use Apache 2.0, which is unrestricted. You can modify, sell, and relicense derived works. There are no "no competition" clauses.</p>
+
+<p>In practice, all three are safe for commercial chatbots, content moderation, and data processing. If your use case is building a competitive LLM (training a model on a corpus and releasing it), Mistral and Qwen are slightly less ambiguous, though Meta's enforcement history suggests Llama is also fine in this context. Consult legal counsel before production deployment if you operate in regulated industries (finance, healthcare, legal).</p>
+
+<h2>Quantization, inference, and total cost of ownership</h2>
+
+<p>Quantization is not optional for cost-conscious production; it is the standard.</p>
+
+<p>Int8 quantization (e.g., AutoAWQ, vLLM's FP8) reduces model size by 50 percent with negligible accuracy loss (<1 percent on benchmarks). It is reversible and widely supported. Int4 quantization (GPTQ, GGUF) cuts memory by 75 percent and often adds a small latency boost due to reduced memory bandwidth. Quality loss is minimal for most applications; on summarization, classification, and Q&A, int4 is invisible. On creative writing and reasoning tasks, you might notice a 2-3 percent drop in human preference scores.</p>
+
+<p>Monthly inference cost for a typical production workload (1M tokens/day, one year commitment on AWS):</p>
+
+<ul>
+<li>Llama 3.1 8B on g4dn.xlarge (A10G, $0.80/hr): $580/month</li>
+<li>Llama 3.1 70B on p3.8xlarge (V100 x4, $24.48/hr): $18,000/month (or split across tenants)</li>
+<li>OpenAI GPT-4 (API): $60,000+/month (at $0.06 per 1K tokens)</li>
+</ul>
+
+<p>This math changes dramatically at scale. A 10M token/day workload on proprietary APIs costs $600k/year; the same on Llama 70B costs under $200k/year in cloud infrastructure plus operational overhead (monitoring, updates, security). The ROI breakeven for self-hosting is typically 5-10M tokens/day.</p>
+
+<h2>When open-source LLMs fail (and when to use APIs)</h2>
+
+<p>Open-weight models are not a universal replacement for commercial APIs. Understand the gaps.</p>
+
+<p><strong>Reasoning and planning:</strong> On complex, multi-step reasoning tasks (e.g., long-horizon planning, formal logic, scientific synthesis), GPT-4 and Claude 3.5 still lead by a visible margin. Llama 3.1 405B closes the gap on many tasks, but inference cost at that scale often exceeds API pricing. If your application is reasoning-heavy, test thoroughly before committing to self-hosted inference.</p>
+
+<p><strong>Rare or specialized knowledge:</strong> Open models are trained on publicly available data with a knowledge cutoff (April 2024 for Llama 3.1, earlier for most others). If your use case requires real-time information, recent events, or proprietary databases, pair any open model with <a href="/articles/what-is-retrieval-augmented-generation-rag">retrieval-augmented generation</a> (RAG). For knowledge-dependent tasks, RAG on an open model often outperforms an API without RAG, but setup and monitoring are more complex.</p>
+
+<p><strong>Safety and moderation:</strong> Commercial APIs include additional safety training, adversarial testing, and compliance scaffolding. Open models can produce harmful content when pushed. If you serve public users, budget for safety fine-tuning, red-teaming, and monitoring. Llama 3.1 is aligned better than older Llama 2, but not on par with commercial models.</p>
+
+<p><strong>Latency-critical applications:</strong> Commercial APIs guarantee SLA latency (e.g., <500 ms). Self-hosted inference adds operational complexity: autoscaling, failover, queue depth. For sub-100 ms latency requirements, cloud inference services (AWS Bedrock, GCP Vertex AI) or edge deployment (ONNX Runtime, TensorRT) may be more practical than managing GPU infrastructure.</p>
+
+<p><strong>Low-cost, low-volume workloads:</strong> If you need <1M tokens/month, API pricing is cheaper than the capital and operational cost of a GPU. The breakeven is roughly 5-10M tokens/month depending on region and instance type.</p>
+
+<h2>Deployment architectures and getting started</h2>
+
+<p>Three patterns dominate production deployments in 2026.</p>
+
+<p><strong>Managed inference on cloud VMs:</strong> Rent a g4dn.xlarge or p3.8xlarge on AWS EC2, GCP Compute Engine, or Azure. Run vLLM or TensorRT-LLM as a Docker container. Expose an OpenAI-compatible API endpoint (http://localhost:8000/v1/chat/completions). This approach gives you full control and pricing transparency, with minimal DevOps overhead. Cost is predictable, scaling is manual (resize the instance or add replicas behind a load balancer). Recommended for teams with <100M tokens/month.</p>
+
+<p><strong>Serverless or batch inference:</strong> Use Lambda, Cloud Run, or Batch for infrequent requests or batch jobs. Models are loaded cold on each invocation, so latency is high (5-30 seconds for first request), but you pay only for execution time. Cost-effective for one-off summarization, classification, or cron jobs. Not suitable for real-time chat or APIs.</p>
+
+<p><strong>On-premise or edge deployment:</strong> Run a quantized model (GGUF, ONNX) locally using llama.cpp, Ollama, or ONNX Runtime. No cloud costs, full data privacy, but limited capability (typically 8B or 13B models). Suitable for internal tools, local development, and embedded devices. Throughput is low (5-20 tokens/second on CPU), so batch processing and asynchronous architecture are required.</p>
+
+<p>For teams just starting, the fastest path is: (1) Download a GGUF-quantized model (e.g., Mistral 7B or Llama 3.1 8B from Hugging Face). (2) Install Ollama and run it locally to validate behavior and latency. (3) If you need production-grade throughput, rent a g4dn.xlarge on AWS, deploy vLLM with the model, and expose an API. Total time to first inference: <30 minutes. Total time to production: 2-4 weeks including monitoring, logging, and safety testing.</p>
+
+<h2>Model selection decision tree</h2>
+
+<p>Use this framework to narrow the choice.</p>
+
+<p><strong>Do you need multilingual or Chinese capability?</strong> If yes, choose Qwen. Otherwise, continue.</p>
+
+<p><strong>Is latency critical (sub-200 ms)?</strong> If yes, prefer Mistral 7B or 8x7B (faster inference, smaller <a href="/articles/llm-context-window-explained">context window</a>). Llama 3.1 8B is also good. Otherwise, continue.</p>
+
+<p><strong>Do you need cutting-edge reasoning or math?</strong> If yes, Llama 3.1 70B or 405B. Qwen 2.5 72B is also strong on math. Otherwise, continue.</p>
+
+<p><strong>What is your total inference volume per month?</strong> <1M tokens: use an API (ChatGPT, Claude). 1-10M tokens: Llama 3.1 8B on a single GPU. 10-50M tokens: Llama 3.1 70B on dual GPUs. 50M+: Consider Qwen 72B, Mistral 8x7B, or split across multiple instances.</p>
+
+<h2>Staying current</h2>
+
+<p>Open-weight model releases are now quarterly. Llama 3.2 (announced for late 2024) includes vision capabilities. Mistral and Qwen are on similar cadences. For long-term projects, plan for model upgrades every 6-12 months. The good news: new models are backward-compatible in API, so switching is a matter of redeploying weights and re-benchmarking.</p>
+
+<p>Follow model releases via Hugging Face (huggingface.co/models), arxiv (arxiv.org/list/cs.CL), and vendor announcements. Benchmark new models on your specific use case before upgrading; published benchmarks often do not predict performance on custom tasks.</p>
+
+<p>Production teams should freeze model versions for consistency. If you deploy Llama 3.1 70B today, do not auto-upgrade to Llama 3.2 without testing. Version pinning is standard practice and prevents silent degradation.</p>
+
+<p>The decision to self-host an open-weight model is now simpler than it was in 2023: Llama, Mistral, and Qwen are all mature, well-documented, and commercially viable. The question is not whether to use them, but when the operational cost of self-hosting falls below the API alternative for your specific workload. For teams with consistent inference volume and data-privacy requirements, that crossover point is here. For others, APIs remain the right tool. Start with a proof-of-concept on a single GPU, measure real-world latency and quality on your data, and scale from there.</p></div>
+
+      <section style="margin-top: var(--space-8);">
+        <h2 style="margin-bottom: var(--space-5);">Frequently asked questions</h2>
+        <div class="faq-list">
+    <details class="faq-item" style="border-bottom:1px solid var(--color-rule);padding:var(--space-4) 0;">
+      <summary style="cursor:pointer;font-weight:600;font-size:var(--text-md);list-style:none;display:flex;justify-content:space-between;align-items:flex-start;gap:var(--space-3);">
+        <span>What&#39;s the difference between open source and open weight LLMs?</span>
+        <span aria-hidden="true" style="color:var(--color-ink-faint);font-weight:400;flex-shrink:0;">+</span>
+      </summary>
+      <div style="margin-top:var(--space-3);color:var(--color-ink-muted);line-height:1.7;">
+        <p>Open source includes code, training data, and weights under a permissive license. Open weight means only model weights are public; training code or data may be proprietary. Most models discussed here are open weight. True open source LLMs are rarer and often smaller.</p>
+      </div>
+    </details>
+
+    <details class="faq-item" style="border-bottom:1px solid var(--color-rule);padding:var(--space-4) 0;">
+      <summary style="cursor:pointer;font-weight:600;font-size:var(--text-md);list-style:none;display:flex;justify-content:space-between;align-items:flex-start;gap:var(--space-3);">
+        <span>Can I use these models commercially?</span>
+        <span aria-hidden="true" style="color:var(--color-ink-faint);font-weight:400;flex-shrink:0;">+</span>
+      </summary>
+      <div style="margin-top:var(--space-3);color:var(--color-ink-muted);line-height:1.7;">
+        <p>Most yes, but license matters. Llama 2/3 use Llama Community License (commercial use allowed). Mistral 7B and Qwen use Apache 2.0 (fully commercial). Always audit fine-tuning terms if you modify weights. Consult legal before production use.</p>
+      </div>
+    </details>
+
+    <details class="faq-item" style="border-bottom:1px solid var(--color-rule);padding:var(--space-4) 0;">
+      <summary style="cursor:pointer;font-weight:600;font-size:var(--text-md);list-style:none;display:flex;justify-content:space-between;align-items:flex-start;gap:var(--space-3);">
+        <span>How much GPU memory do I need to run a 70B model?</span>
+        <span aria-hidden="true" style="color:var(--color-ink-faint);font-weight:400;flex-shrink:0;">+</span>
+      </summary>
+      <div style="margin-top:var(--space-3);color:var(--color-ink-muted);line-height:1.7;">
+        <p>A 70B parameter model in float16 needs roughly 140 GB VRAM for inference. Using int8 quantization cuts this to 70 GB. int4 (GGUF format) reduces it to 35-40 GB. Consumer GPUs rarely exceed 48 GB, so A100s or H100s are typical for full-precision inference.</p>
+      </div>
+    </details>
+
+    <details class="faq-item" style="border-bottom:1px solid var(--color-rule);padding:var(--space-4) 0;">
+      <summary style="cursor:pointer;font-weight:600;font-size:var(--text-md);list-style:none;display:flex;justify-content:space-between;align-items:flex-start;gap:var(--space-3);">
+        <span>Are open-source models as good as ChatGPT?</span>
+        <span aria-hidden="true" style="color:var(--color-ink-faint);font-weight:400;flex-shrink:0;">+</span>
+      </summary>
+      <div style="margin-top:var(--space-3);color:var(--color-ink-muted);line-height:1.7;">
+        <p>Llama 3.1 and Mistral Large match or exceed GPT-3.5 on many tasks. On reasoning, code, and math, GPT-4 still leads. Qwen 2.5 is strongest on Chinese tasks and coding. For summarization, Q&amp;A, and classification, open models are competitive and cheaper to deploy.</p>
+      </div>
+    </details>
+
+    <details class="faq-item" style="border-bottom:1px solid var(--color-rule);padding:var(--space-4) 0;">
+      <summary style="cursor:pointer;font-weight:600;font-size:var(--text-md);list-style:none;display:flex;justify-content:space-between;align-items:flex-start;gap:var(--space-3);">
+        <span>What&#39;s the best model for a small team with limited GPU budget?</span>
+        <span aria-hidden="true" style="color:var(--color-ink-faint);font-weight:400;flex-shrink:0;">+</span>
+      </summary>
+      <div style="margin-top:var(--space-3);color:var(--color-ink-muted);line-height:1.7;">
+        <p>Mistral 7B or Llama 3.1 8B. Both run on a single A10G GPU (24 GB). Quantize to int4 (GGUF) to run on CPU if needed. For chat, they outperform older 13B models. If budget is tighter, Phi 3.5 Mini is strong for a 4 GB footprint.</p>
+      </div>
+    </details>
+
+    <details class="faq-item" style="border-bottom:1px solid var(--color-rule);padding:var(--space-4) 0;">
+      <summary style="cursor:pointer;font-weight:600;font-size:var(--text-md);list-style:none;display:flex;justify-content:space-between;align-items:flex-start;gap:var(--space-3);">
+        <span>Should I fine-tune or use retrieval-augmented generation (RAG)?</span>
+        <span aria-hidden="true" style="color:var(--color-ink-faint);font-weight:400;flex-shrink:0;">+</span>
+      </summary>
+      <div style="margin-top:var(--space-3);color:var(--color-ink-muted);line-height:1.7;">
+        <p>RAG is faster and cheaper to build. Fine-tuning is better if you need style adaptation, rare domain knowledge, or closed-domain accuracy. Start with RAG and a good base model. Fine-tune only if RAG accuracy plateaus or cost justifies GPU hours.</p>
+      </div>
+    </details>
+
+    <details class="faq-item" style="border-bottom:1px solid var(--color-rule);padding:var(--space-4) 0;">
+      <summary style="cursor:pointer;font-weight:600;font-size:var(--text-md);list-style:none;display:flex;justify-content:space-between;align-items:flex-start;gap:var(--space-3);">
+        <span>What quantization format should I use in production?</span>
+        <span aria-hidden="true" style="color:var(--color-ink-faint);font-weight:400;flex-shrink:0;">+</span>
+      </summary>
+      <div style="margin-top:var(--space-3);color:var(--color-ink-muted);line-height:1.7;">
+        <p>GGUF (int4 or int8) for CPU or single-GPU inference. GPTQ for multi-GPU or batching. AWQ if you need speed and minimal accuracy loss. For full precision, use vLLM with tensor parallelism on multiple GPUs. Benchmark your use case; quality loss from int4 is often invisible.</p>
+      </div>
+    </details></div>
+      </section>
+          <p style="font-size:var(--text-xs);color:var(--color-ink-faint);margin-top:var(--space-6);padding-top:var(--space-4);border-top:1px solid var(--color-rule);">
+            An <strong>AI Glimpse</strong> explainer. We update this guide as the field evolves.
+          </p>
+        </div>
+      </section>
+    </article>
+    <section class="section" aria-label="Related articles">
+      <div class="container container--narrow">
+        <div class="section-header">
+          <h2 class="section-title">More from AI Glimpse</h2>
+          <a href="/categories/llms" class="section-link">All LLMs stories</a>
+        </div>
+        <div class="grid grid-3">
+          <article class="card card--medium">
+            <a href="/articles/local-llms-vs-cloud-api"><div class="card-image"><picture><source srcset="/images/articles/local-llms-vs-cloud-api.webp" type="image/webp"><img src="/images/articles/local-llms-vs-cloud-api.jpg" alt="Local LLMs vs Cloud APIs: The Real Cost and Trade-Off Guide" loading="lazy" width="1200" height="630"></picture></div></a>
+            <div class="card-meta">
+              <span class="tag tag--llm">LLMs</span>
+              <span class="card-byline"><time datetime="2026-08-03T09:58:41.313Z">Aug 3, 2026</time></span>
+            </div>
+            <a href="/articles/local-llms-vs-cloud-api"><h3 class="card-title">Local LLMs vs Cloud APIs: The Real Cost and Trade-Off Guide</h3></a>
+          </article>
+          <article class="card card--medium">
+            <a href="/articles/openai-reports-breakthroughs-on-long-standing-math-problems-0ebdfa6c"><div class="card-image"><picture><source srcset="/images/articles/openai-reports-breakthroughs-on-long-standing-math-problems-0ebdfa6c.webp" type="image/webp"><img src="/images/articles/openai-reports-breakthroughs-on-long-standing-math-problems-0ebdfa6c.jpg" alt="OpenAI Reports Breakthroughs on Long-Standing Math Problems" loading="lazy" width="1200" height="630"></picture></div></a>
+            <div class="card-meta">
+              <span class="tag tag--llm">LLMs</span>
+              <span class="card-byline"><time datetime="2026-08-01T00:00:00.000Z">Aug 1, 2026</time></span>
+            </div>
+            <a href="/articles/openai-reports-breakthroughs-on-long-standing-math-problems-0ebdfa6c"><h3 class="card-title">OpenAI Reports Breakthroughs on Long-Standing Math Problems</h3></a>
+          </article>
+          <article class="card card--medium">
+            <a href="/articles/ai-is-redefining-job-roles-as-workers-embrace-new-capabilities-8b18663d"><div class="card-image"><picture><source srcset="/images/articles/ai-is-redefining-job-roles-as-workers-embrace-new-capabilities-8b18663d.webp" type="image/webp"><img src="/images/articles/ai-is-redefining-job-roles-as-workers-embrace-new-capabilities-8b18663d.jpg" alt="AI Is Redefining Job Roles as Workers Embrace New Capabilities" loading="lazy" width="1200" height="630"></picture></div></a>
+            <div class="card-meta">
+              <span class="tag tag--llm">LLMs</span>
+              <span class="card-byline"><time datetime="2026-07-27T03:30:00.000Z">Jul 27, 2026</time></span>
+            </div>
+            <a href="/articles/ai-is-redefining-job-roles-as-workers-embrace-new-capabilities-8b18663d"><h3 class="card-title">AI Is Redefining Job Roles as Workers Embrace New Capabilities</h3></a>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="/" class="logo">
+            <span class="logo-wordmark" aria-label="AI Glimpse">A<span class="iris-i" aria-hidden="true">ı</span><span aria-hidden="true"> Glimpse</span></span>
+          </a>
+          <p>Your daily glimpse into AI. Independent reporting and analysis on the people, products, and policies shaping artificial intelligence.</p>
+        </div>
+        <div class="footer-col">
+          <h5>Categories</h5>
+          <ul>
+            <li><a href="/categories/llms">LLMs</a></li>
+            <li><a href="/categories/research">Research</a></li>
+            <li><a href="/categories/tools">Tools</a></li>
+            <li><a href="/categories/business">Business</a></li>
+            <li><a href="/categories/ethics">Ethics</a></li>
+            <li><a href="/categories/industry">Industry</a></li>
+            <li><a href="/categories/robotics">Robotics</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h5>About</h5>
+          <ul>
+            <li><a href="/pages/about">About AI Glimpse</a></li>
+            <li><a href="/pages/contact">Contact</a></li>
+            <li><a href="/pages/editorial">Editorial Standards</a></li>
+            <li><a href="/pages/advertise">Advertise</a></li>
+            <li><a href="/guides">Guides &amp; Explainers</a></li>
+            <li><a href="/search">Search</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h5>Legal</h5>
+          <ul>
+            <li><a href="/pages/privacy">Privacy Policy</a></li>
+            <li><a href="/pages/terms">Terms of Service</a></li>
+            <li><a href="#" data-consent-open>Cookie preferences</a></li>
+            <li><a href="/rss.xml">RSS Feed</a></li>
+            <li><a href="/sitemap.xml">Sitemap</a></li>
+            <li><a href="/llms.txt">LLMs.txt</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div>© <span id="year">2026</span> AI Glimpse · aiglimpse.ai</div>
+        <div class="footer-social">
+          <a href="/rss.xml" aria-label="RSS"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M6.503 20.752c0 1.794-1.456 3.248-3.251 3.248-1.796 0-3.252-1.454-3.252-3.248 0-1.794 1.456-3.248 3.252-3.248 1.795 0 3.251 1.454 3.251 3.248zm-6.503-12.572v4.811c6.05.062 10.96 4.966 11.022 11.009h4.817c-.062-8.71-7.118-15.758-15.839-15.82zm0-3.368c10.58.046 19.152 8.594 19.183 19.188h4.817c-.03-13.231-10.755-23.954-24-24v4.812z"/></svg></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="/js/chrome.js"></script>
+  <script src="/js/main.js"></script>
+</body>
+</html>

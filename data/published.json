@@ -1,6 +1,18 @@
 {
   "articles": [
     {
+      "slug": "open-source-llms-comparison-2026",
+      "title": "Best Open Source LLMs in 2026: Llama, Mistral, Qwen",
+      "subtitle": "Compare leading open-weight models, licenses, benchmarks, and deployment paths for self-hosted AI stacks.",
+      "category": "llms",
+      "publishedAt": "2026-08-05T08:22:45.644Z",
+      "sourceUrl": null,
+      "sourceName": "AI Glimpse Newsroom",
+      "sourceTier": 0,
+      "image": "/images/articles/open-source-llms-comparison-2026.jpg",
+      "evergreen": true
+    },
+    {
       "slug": "african-ai-safety-debate-reveals-gap-in-global-governance-8a7f3bd8",
       "title": "African AI Safety Debate Reveals Gap in Global Governance",
       "subtitle": "International AI safety frameworks focus on model risks while overlooking harms African users experience daily, experts warn.",

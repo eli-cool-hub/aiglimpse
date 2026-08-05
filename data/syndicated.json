@@ -11234,6 +11234,24 @@
         "devto": true,
         "hashnode": false
       }
+    },
+    "open-source-llms-comparison-2026": {
+      "syndicated_at": "2026-08-05T08:22:48.520Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/best-open-source-llms-in-2026-llama-mistral-qwen-1pgj",
+      "hashnode": null,
+      "gates": {
+        "medium": true,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 2377,
+      "category": "llms",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
     }
   }
 }
