@@ -3,9 +3,16 @@
 > Machine-readable index for AI assistants, answer engines, and research crawlers.
 > Summary version: https://aiglimpse.ai/llms.txt
 
-Total articles: 863 | Evergreen explainers: 20 | Generated: 2026-08-05
+Total articles: 865 | Evergreen explainers: 21 | Generated: 2026-08-05
 
 ## Evergreen explainers
+
+### Best Open Source LLMs in 2026: Llama, Mistral, Qwen
+- URL: https://aiglimpse.ai/articles/open-source-llms-comparison-2026
+- Published: 2026-08-05
+- Category: llms
+- Summary: Compare leading open-weight models, licenses, benchmarks, and deployment paths for self-hosted AI stacks.
+- Type: evergreen explainer (FAQ schema on page)
 
 ### Local LLMs vs Cloud APIs: The Real Cost and Trade-Off Guide
 - URL: https://aiglimpse.ai/articles/local-llms-vs-cloud-api
@@ -148,6 +155,20 @@ Total articles: 863 | Evergreen explainers: 20 | Generated: 2026-08-05
 - Type: evergreen explainer (FAQ schema on page)
 
 ## All articles (newest first)
+
+### Researchers Expose Hidden Backdoors in AI Agent Skill Libraries
+- URL: https://aiglimpse.ai/articles/researchers-expose-hidden-backdoors-in-ai-agent-skill-libraries-26fa0229
+- Published: 2026-08-05
+- Category: ethics
+- Summary: Tencent lab reveals how poisoned training data can hide malicious behavior in autonomous agent systems, bypassing safety filters.
+- Source: https://huggingface.co/papers/2608.03509
+
+### Best Open Source LLMs in 2026: Llama, Mistral, Qwen
+- URL: https://aiglimpse.ai/articles/open-source-llms-comparison-2026
+- Published: 2026-08-05
+- Category: llms
+- Summary: Compare leading open-weight models, licenses, benchmarks, and deployment paths for self-hosted AI stacks.
+- Type: evergreen explainer (FAQ schema on page)
 
 ### African AI Safety Debate Reveals Gap in Global Governance
 - URL: https://aiglimpse.ai/articles/african-ai-safety-debate-reveals-gap-in-global-governance-8a7f3bd8

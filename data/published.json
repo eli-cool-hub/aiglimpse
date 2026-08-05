@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "researchers-expose-hidden-backdoors-in-ai-agent-skill-libraries-26fa0229",
+      "title": "Researchers Expose Hidden Backdoors in AI Agent Skill Libraries",
+      "subtitle": "Tencent lab reveals how poisoned training data can hide malicious behavior in autonomous agent systems, bypassing safety filters.",
+      "category": "ethics",
+      "publishedAt": "2026-08-05T03:30:23.000Z",
+      "sourceUrl": "https://huggingface.co/papers/2608.03509",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/researchers-expose-hidden-backdoors-in-ai-agent-skill-libraries-26fa0229.jpg"
+    },
+    {
       "slug": "open-source-llms-comparison-2026",
       "title": "Best Open Source LLMs in 2026: Llama, Mistral, Qwen",
       "subtitle": "Compare leading open-weight models, licenses, benchmarks, and deployment paths for self-hosted AI stacks.",
@@ -10377,6 +10388,7 @@
     "eff6943a56d04c4e",
     "425a68e31379e341",
     "da102e6a50bf78fb",
-    "8a7f3bd8108e119a"
+    "8a7f3bd8108e119a",
+    "26fa0229f7fb3234"
   ]
 }
