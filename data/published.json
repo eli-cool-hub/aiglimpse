@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "african-ai-safety-debate-reveals-gap-in-global-governance-8a7f3bd8",
+      "title": "African AI Safety Debate Reveals Gap in Global Governance",
+      "subtitle": "International AI safety frameworks focus on model risks while overlooking harms African users experience daily, experts warn.",
+      "category": "ethics",
+      "publishedAt": "2026-08-05T06:12:01.000Z",
+      "sourceUrl": "https://techpolicy.press/why-the-global-ai-safety-agenda-cannot-see-african-harms",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/african-ai-safety-debate-reveals-gap-in-global-governance-8a7f3bd8.jpg"
+    },
+    {
       "slug": "oxide-computer-raises-445m-for-ai-ready-data-center-hardware-da102e6a",
       "title": "Oxide Computer Raises $445M for AI-Ready Data Center Hardware",
       "subtitle": "Infrastructure startup more than doubles funding to accelerate on-premises cloud computing for enterprise AI workloads.",
@@ -10353,6 +10364,7 @@
     "690b1c34600a3dfa",
     "eff6943a56d04c4e",
     "425a68e31379e341",
-    "da102e6a50bf78fb"
+    "da102e6a50bf78fb",
+    "8a7f3bd8108e119a"
   ]
 }
