@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "oxide-computer-raises-445m-for-ai-ready-data-center-hardware-da102e6a",
+      "title": "Oxide Computer Raises $445M for AI-Ready Data Center Hardware",
+      "subtitle": "Infrastructure startup more than doubles funding to accelerate on-premises cloud computing for enterprise AI workloads.",
+      "category": "industry",
+      "publishedAt": "2026-08-04T22:59:43.000Z",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1795071/000179507126000002/xslFormDX01/primary_doc.xml",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/oxide-computer-raises-445m-for-ai-ready-data-center-hardware-da102e6a.jpg"
+    },
+    {
+      "slug": "trumps-ai-oversight-plan-targets-only-proprietary-models-425a68e3",
+      "title": "Trump's AI Oversight Plan Targets Only Proprietary Models",
+      "subtitle": "New framework leaves open-source AI largely unregulated while imposing vague security standards on private developers.",
+      "category": "ethics",
+      "publishedAt": "2026-08-05T01:59:43.000Z",
+      "sourceUrl": "https://www.axios.com/2026/08/04/inside-trump-ai-framework",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/trumps-ai-oversight-plan-targets-only-proprietary-models-425a68e3.jpg"
+    },
+    {
       "slug": "new-method-extracts-robot-movement-plans-from-ai-video-models-eff6943a",
       "title": "New Method Extracts Robot Movement Plans From AI Video Models",
       "subtitle": "Researchers unlock 6-DoF trajectory predictions directly from diffusion model internals, advancing robot learning without pixel generation.",
@@ -10329,6 +10351,8 @@
     "3f251da9dd8d1ab5",
     "bf9d22ad047de4d9",
     "690b1c34600a3dfa",
-    "eff6943a56d04c4e"
+    "eff6943a56d04c4e",
+    "425a68e31379e341",
+    "da102e6a50bf78fb"
   ]
 }
