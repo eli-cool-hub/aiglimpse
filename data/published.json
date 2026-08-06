@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "sequoias-new-leaders-deploy-10b-wager-on-ai-and-industrial-revival-11b2fc0f",
+      "title": "Sequoia's New Leaders Deploy $10B Wager on AI and Industrial Revival",
+      "subtitle": "Fresh leadership at the legendary venture firm is betting big on artificial intelligence and manufacturing renaissance, signaling a major strategic pivot.",
+      "category": "industry",
+      "publishedAt": "2026-08-06T08:08:23.000Z",
+      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-08-05/sequoia-aims-10-billion-at-ai-reindustrialization",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/sequoias-new-leaders-deploy-10b-wager-on-ai-and-industrial-revival-11b2fc0f.jpg"
+    },
+    {
+      "slug": "new-training-method-fixes-critical-imbalance-in-multimodal-ai-models-94e9e916",
+      "title": "New Training Method Fixes Critical Imbalance in Multimodal AI Models",
+      "subtitle": "Researchers show how balancing text and vision processing during training significantly improves reasoning in large multimodal models while cutting computational costs.",
+      "category": "research",
+      "publishedAt": "2026-08-05T17:53:06.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2608.05131v1",
+      "sourceName": "arXiv (Aniri, Jinhe Bi, Peng Liao, Zengjie Jin, Volker Tresp, Fei S…)",
+      "sourceTier": 1,
+      "image": "/images/articles/new-training-method-fixes-critical-imbalance-in-multimodal-ai-models-94e9e916.jpg"
+    },
+    {
       "slug": "researchers-transform-human-video-into-robot-training-data-at-scale-e4ca4a99",
       "title": "Researchers Transform Human Video Into Robot Training Data at Scale",
       "subtitle": "A new method synthesizes tens of thousands of hours of robot learning data from first-person video, potentially solving robotics' persistent data shortage.",
@@ -10449,6 +10471,8 @@
     "2d78c7d9ce4c4cb2",
     "965c386bd8a8f855",
     "0e6d38a204cf25e1",
-    "e4ca4a99e2783a2d"
+    "e4ca4a99e2783a2d",
+    "94e9e9166692a633",
+    "11b2fc0f1c9aeb70"
   ]
 }
