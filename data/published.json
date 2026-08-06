@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "metas-texas-ai-hub-taps-813-gas-generators-for-power-1b92a488",
+      "title": "Meta's Texas AI Hub Taps 813 Gas Generators for Power",
+      "subtitle": "As AI compute demands surge, tech giants are building massive on-site power plants to fuel training and inference at scale.",
+      "category": "industry",
+      "publishedAt": "2026-08-06T06:44:31.000Z",
+      "sourceUrl": "https://www.nytimes.com/2026/08/05/climate/data-centers-pollution-trump-ai-energy.html",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/metas-texas-ai-hub-taps-813-gas-generators-for-power-1b92a488.jpg"
+    },
+    {
       "slug": "sequoias-new-leaders-deploy-10b-wager-on-ai-and-industrial-revival-11b2fc0f",
       "title": "Sequoia's New Leaders Deploy $10B Wager on AI and Industrial Revival",
       "subtitle": "Fresh leadership at the legendary venture firm is betting big on artificial intelligence and manufacturing renaissance, signaling a major strategic pivot.",
@@ -10473,6 +10484,7 @@
     "0e6d38a204cf25e1",
     "e4ca4a99e2783a2d",
     "94e9e9166692a633",
-    "11b2fc0f1c9aeb70"
+    "11b2fc0f1c9aeb70",
+    "1b92a488d84f42a3"
   ]
 }
