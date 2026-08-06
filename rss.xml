@@ -7,6 +7,14 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Researchers Transform Human Video Into Robot Training Data at Scale</title>
+      <link>https://aiglimpse.ai/articles/researchers-transform-human-video-into-robot-training-data-at-scale-e4ca4a99</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/researchers-transform-human-video-into-robot-training-data-at-scale-e4ca4a99</guid>
+      <description>A new method synthesizes tens of thousands of hours of robot learning data from first-person video, potentially solving robotics' persistent data shortage.</description>
+      <pubDate>Thu, 06 Aug 2026 04:03:17 GMT</pubDate>
+      <category>Robotics</category>
+    </item>
+    <item>
       <title>SanDisk Crushes Earnings on AI Data Center Demand Surge</title>
       <link>https://aiglimpse.ai/articles/sandisk-crushes-earnings-on-ai-data-center-demand-surge-0e6d38a2</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/sandisk-crushes-earnings-on-ai-data-center-demand-surge-0e6d38a2</guid>
@@ -397,14 +405,6 @@
       <description>Senate Commerce Committee identifies grid and fiber buildout as critical bottleneck in competition with China, not semiconductor supply.</description>
       <pubDate>Fri, 31 Jul 2026 05:00:15 GMT</pubDate>
       <category>Industry Applications</category>
-    </item>
-    <item>
-      <title>Fine-Tune LLMs with LoRA: When It's Worth It and How to Do It Safely</title>
-      <link>https://aiglimpse.ai/articles/fine-tuning-lora-practical-guide</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/fine-tuning-lora-practical-guide</guid>
-      <description>A practical guide to LoRA fine-tuning, QLoRA quantization, cost considerations, and failure modes for ML engineers.</description>
-      <pubDate>Fri, 31 Jul 2026 08:35:24 GMT</pubDate>
-      <category>AI Research</category>
     </item>
   </channel>
 </rss>

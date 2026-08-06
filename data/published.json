@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "researchers-transform-human-video-into-robot-training-data-at-scale-e4ca4a99",
+      "title": "Researchers Transform Human Video Into Robot Training Data at Scale",
+      "subtitle": "A new method synthesizes tens of thousands of hours of robot learning data from first-person video, potentially solving robotics' persistent data shortage.",
+      "category": "robotics",
+      "publishedAt": "2026-08-06T04:03:17.000Z",
+      "sourceUrl": "https://arxiv.org/abs/2608.02580",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/researchers-transform-human-video-into-robot-training-data-at-scale-e4ca4a99.jpg"
+    },
+    {
       "slug": "sandisk-crushes-earnings-on-ai-data-center-demand-surge-0e6d38a2",
       "title": "SanDisk Crushes Earnings on AI Data Center Demand Surge",
       "subtitle": "Memory maker reports record quarterly revenue driven by explosive datacenter storage needs, signaling robust enterprise AI infrastructure buildout.",
@@ -10437,6 +10448,7 @@
     "e7340bdfd0da6937",
     "2d78c7d9ce4c4cb2",
     "965c386bd8a8f855",
-    "0e6d38a204cf25e1"
+    "0e6d38a204cf25e1",
+    "e4ca4a99e2783a2d"
   ]
 }
