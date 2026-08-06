@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "sandisk-crushes-earnings-on-ai-data-center-demand-surge-0e6d38a2",
+      "title": "SanDisk Crushes Earnings on AI Data Center Demand Surge",
+      "subtitle": "Memory maker reports record quarterly revenue driven by explosive datacenter storage needs, signaling robust enterprise AI infrastructure buildout.",
+      "category": "industry",
+      "publishedAt": "2026-08-05T22:57:28.000Z",
+      "sourceUrl": "https://www.stocktitan.net/news/SNDK/sandisk-reports-fiscal-fourth-quarter-2026-financial-kc0v6ojj1c1u.html",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/sandisk-crushes-earnings-on-ai-data-center-demand-surge-0e6d38a2.jpg"
+    },
+    {
+      "slug": "chinese-ai-labs-glm-52-matches-frontier-models-on-dangerous-capabilities-965c386b",
+      "title": "Chinese AI Lab's GLM-5.2 Matches Frontier Models on Dangerous Capabilities",
+      "subtitle": "Open-weight models are catching up to closed systems in raw power, but safety safeguards are falling further behind.",
+      "category": "ethics",
+      "publishedAt": "2026-08-05T22:57:28.000Z",
+      "sourceUrl": "https://techcrunch.com/2026/08/04/open-weight-ai-models-are-catching-up-to-the-frontier-the-safety-gap-remains/",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/chinese-ai-labs-glm-52-matches-frontier-models-on-dangerous-capabilities-965c386b.jpg"
+    },
+    {
       "slug": "precision-gearbox-maker-gam-acquires-schaeffler-tech-for-supply-chain-control-2d78c7d9",
       "title": "Precision Gearbox Maker GAM Acquires Schaeffler Tech for Supply Chain Control",
       "subtitle": "The move gives the Illinois automation supplier direct ownership of critical reducer technology that powers its robotics systems.",
@@ -10413,6 +10435,8 @@
     "8a7f3bd8108e119a",
     "26fa0229f7fb3234",
     "e7340bdfd0da6937",
-    "2d78c7d9ce4c4cb2"
+    "2d78c7d9ce4c4cb2",
+    "965c386bd8a8f855",
+    "0e6d38a204cf25e1"
   ]
 }
