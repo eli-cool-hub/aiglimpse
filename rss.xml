@@ -7,6 +7,30 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>AI as Medical Intermediary: Reshaping Doctor-Patient Communication</title>
+      <link>https://aiglimpse.ai/articles/ai-as-medical-intermediary-reshaping-doctor-patient-communication-144d222b</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/ai-as-medical-intermediary-reshaping-doctor-patient-communication-144d222b</guid>
+      <description>Healthcare systems are discovering that AI-assisted patient education and clinical decision support can fundamentally transform how medical care is delivered.</description>
+      <pubDate>Thu, 06 Aug 2026 22:28:33 GMT</pubDate>
+      <category>Industry Applications</category>
+    </item>
+    <item>
+      <title>New Framework Uses Resource Limits to Govern Deployed AI Agents</title>
+      <link>https://aiglimpse.ai/articles/new-framework-uses-resource-limits-to-govern-deployed-ai-agents-5c501187</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-framework-uses-resource-limits-to-govern-deployed-ai-agents-5c501187</guid>
+      <description>Researchers propose a mechanism-design model treating computational budgets as the primary lever for controlling AI systems in real-world deployment.</description>
+      <pubDate>Thu, 06 Aug 2026 17:53:24 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
+      <title>Semantic Search With Embeddings: Architecture and Evaluation</title>
+      <link>https://aiglimpse.ai/articles/semantic-search-embeddings-guide</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/semantic-search-embeddings-guide</guid>
+      <description>How to build vector search systems that outperform keyword matching, and where they fail.</description>
+      <pubDate>Fri, 07 Aug 2026 07:01:07 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
       <title>GitHub's Repeated Outages Signal Deeper Infrastructure Crisis</title>
       <link>https://aiglimpse.ai/articles/githubs-repeated-outages-signal-deeper-infrastructure-crisis-ab17a8a1</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/githubs-repeated-outages-signal-deeper-infrastructure-crisis-ab17a8a1</guid>
@@ -381,30 +405,6 @@
       <description>A federal judge's decision to advance Reddit's anti-circumvention claims against Perplexity and SerpApi signals growing legal headwinds for AI systems built on scraped web content.</description>
       <pubDate>Sat, 01 Aug 2026 03:26:37 GMT</pubDate>
       <category>Ethics &amp; Policy</category>
-    </item>
-    <item>
-      <title>AI Data Centers Face Massive Hidden Water Costs, New Study Reveals</title>
-      <link>https://aiglimpse.ai/articles/ai-data-centers-face-massive-hidden-water-costs-new-study-reveals-4c0eb02e</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/ai-data-centers-face-massive-hidden-water-costs-new-study-reveals-4c0eb02e</guid>
-      <description>A 100MW facility requires hundreds of millions of liters for setup and daily cooling, raising questions about environmental sustainability.</description>
-      <pubDate>Sat, 01 Aug 2026 00:12:01 GMT</pubDate>
-      <category>Industry Applications</category>
-    </item>
-    <item>
-      <title>Leading AI Labs Face Scrutiny Over Security Failures in Agent Testing</title>
-      <link>https://aiglimpse.ai/articles/leading-ai-labs-face-scrutiny-over-security-failures-in-agent-testing-e920387e</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/leading-ai-labs-face-scrutiny-over-security-failures-in-agent-testing-e920387e</guid>
-      <description>Anthropic and OpenAI's disclosure of containment breaches raises questions about safeguard rigor at frontier AI companies.</description>
-      <pubDate>Sat, 01 Aug 2026 02:03:45 GMT</pubDate>
-      <category>Ethics &amp; Policy</category>
-    </item>
-    <item>
-      <title>Thermal Battery Startup Antora Raises $550M as AI Data Centers Fuel Energy Storage Demand</title>
-      <link>https://aiglimpse.ai/articles/thermal-battery-startup-antora-raises-550m-as-ai-data-centers-fuel-energy-storag-c061ae00</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/thermal-battery-startup-antora-raises-550m-as-ai-data-centers-fuel-energy-storag-c061ae00</guid>
-      <description>A carbon-block heat storage company valued at $2.47B has closed its latest funding round, signaling how artificial intelligence infrastructure is reshaping the energy technology sector.</description>
-      <pubDate>Fri, 31 Jul 2026 17:02:38 GMT</pubDate>
-      <category>Industry Applications</category>
     </item>
   </channel>
 </rss>

@@ -11378,6 +11378,42 @@
         "devto": true,
         "hashnode": false
       }
+    },
+    "new-framework-uses-resource-limits-to-govern-deployed-ai-agents-5c501187": {
+      "syndicated_at": "2026-08-07T08:59:19.610Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/new-framework-uses-resource-limits-to-govern-deployed-ai-agents-bbc",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 487,
+      "category": "research",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
+    },
+    "ai-as-medical-intermediary-reshaping-doctor-patient-communication-144d222b": {
+      "syndicated_at": "2026-08-07T08:59:30.401Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/ai-as-medical-intermediary-reshaping-doctor-patient-communication-1pg",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 437,
+      "category": "industry",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
     }
   }
 }

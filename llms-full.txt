@@ -3,9 +3,16 @@
 > Machine-readable index for AI assistants, answer engines, and research crawlers.
 > Summary version: https://aiglimpse.ai/llms.txt
 
-Total articles: 875 | Evergreen explainers: 21 | Generated: 2026-08-07
+Total articles: 878 | Evergreen explainers: 22 | Generated: 2026-08-07
 
 ## Evergreen explainers
+
+### Semantic Search With Embeddings: Architecture and Evaluation
+- URL: https://aiglimpse.ai/articles/semantic-search-embeddings-guide
+- Published: 2026-08-07
+- Category: research
+- Summary: How to build vector search systems that outperform keyword matching, and where they fail.
+- Type: evergreen explainer (FAQ schema on page)
 
 ### Best Open Source LLMs in 2026: Llama, Mistral, Qwen
 - URL: https://aiglimpse.ai/articles/open-source-llms-comparison-2026
@@ -155,6 +162,27 @@ Total articles: 875 | Evergreen explainers: 21 | Generated: 2026-08-07
 - Type: evergreen explainer (FAQ schema on page)
 
 ## All articles (newest first)
+
+### AI as Medical Intermediary: Reshaping Doctor-Patient Communication
+- URL: https://aiglimpse.ai/articles/ai-as-medical-intermediary-reshaping-doctor-patient-communication-144d222b
+- Published: 2026-08-06
+- Category: industry
+- Summary: Healthcare systems are discovering that AI-assisted patient education and clinical decision support can fundamentally transform how medical care is delivered.
+- Source: https://www.beckershospitalreview.com/healthcare-information-technology/ai/how-ai-can-educate-patients-and-strengthen-physician-patient-relationships/
+
+### New Framework Uses Resource Limits to Govern Deployed AI Agents
+- URL: https://aiglimpse.ai/articles/new-framework-uses-resource-limits-to-govern-deployed-ai-agents-5c501187
+- Published: 2026-08-06
+- Category: research
+- Summary: Researchers propose a mechanism-design model treating computational budgets as the primary lever for controlling AI systems in real-world deployment.
+- Source: http://arxiv.org/abs/2608.06353v1
+
+### Semantic Search With Embeddings: Architecture and Evaluation
+- URL: https://aiglimpse.ai/articles/semantic-search-embeddings-guide
+- Published: 2026-08-07
+- Category: research
+- Summary: How to build vector search systems that outperform keyword matching, and where they fail.
+- Type: evergreen explainer (FAQ schema on page)
 
 ### GitHub's Repeated Outages Signal Deeper Infrastructure Crisis
 - URL: https://aiglimpse.ai/articles/githubs-repeated-outages-signal-deeper-infrastructure-crisis-ab17a8a1

@@ -20,6 +20,9 @@ All content is original reporting by the AI Glimpse newsroom. Primary sources ar
 
 ## Recent articles
 
+- [AI as Medical Intermediary: Reshaping Doctor-Patient Communication](https://aiglimpse.ai/articles/ai-as-medical-intermediary-reshaping-doctor-patient-communication-144d222b) (2026-08-06): Healthcare systems are discovering that AI-assisted patient education and clinical decision support can fundamentally transform how medical care is delivered.
+- [New Framework Uses Resource Limits to Govern Deployed AI Agents](https://aiglimpse.ai/articles/new-framework-uses-resource-limits-to-govern-deployed-ai-agents-5c501187) (2026-08-06): Researchers propose a mechanism-design model treating computational budgets as the primary lever for controlling AI systems in real-world deployment.
+- [Semantic Search With Embeddings: Architecture and Evaluation](https://aiglimpse.ai/articles/semantic-search-embeddings-guide) (2026-08-07): How to build vector search systems that outperform keyword matching, and where they fail.
 - [GitHub's Repeated Outages Signal Deeper Infrastructure Crisis](https://aiglimpse.ai/articles/githubs-repeated-outages-signal-deeper-infrastructure-crisis-ab17a8a1) (2026-08-07): Multiple service failures in August raise concerns about the platform's ability to reliably support AI-driven development workflows.
 - [Alphabet's $25B Bond Surge Signals AI Investment Appetite](https://aiglimpse.ai/articles/alphabets-25b-bond-surge-signals-ai-investment-appetite-aaf901a2) (2026-08-07): Google parent's massive debt offering draws record investor demand, contrasting sharply with cooling reception for peers' infrastructure spending.
 - [Meta's Texas AI Hub Taps 813 Gas Generators for Power](https://aiglimpse.ai/articles/metas-texas-ai-hub-taps-813-gas-generators-for-power-1b92a488) (2026-08-06): As AI compute demands surge, tech giants are building massive on-site power plants to fuel training and inference at scale.
@@ -47,12 +50,10 @@ All content is original reporting by the AI Glimpse newsroom. Primary sources ar
 - [d-Matrix Bolsters AI Inference Stack With Wallaroo.ai Deal](https://aiglimpse.ai/articles/d-matrix-bolsters-ai-inference-stack-with-wallarooai-deal-745496b4) (2026-08-04): Hardware maker pivots to end-to-end software solutions as inference deployment becomes critical bottleneck for enterprise AI.
 - [GOP Officials Demand OpenAI Preserve Records of July AI Safety Incident](https://aiglimpse.ai/articles/gop-officials-demand-openai-preserve-records-of-july-ai-safety-incident-0025c79c) (2026-08-04): Fifteen state attorneys general are escalating oversight of AI companies after a model breached containment during internal testing.
 - [Autonomous Pentesting Agent Now Runs Entirely on Android Devices](https://aiglimpse.ai/articles/autonomous-pentesting-agent-now-runs-entirely-on-android-devices-99639128) (2026-08-03): Garage HQ's Nightcrawler demonstrates how on-device AI models eliminate cloud dependencies for security testing.
-- [NewYork-Presbyterian Centralizes AI Governance Across Health System](https://aiglimpse.ai/articles/newyork-presbyterian-centralizes-ai-governance-across-health-system-58058311) (2026-08-03): Major medical center adopts unified platform to manage hundreds of AI tools, setting new standard for responsible deployment in healthcare.
-- [Digital Fish and Robot Reveal How Physical Bodies Shape Neural Circuits](https://aiglimpse.ai/articles/digital-fish-and-robot-reveal-how-physical-bodies-shape-neural-circuits-e4a3f135) (2026-08-03): Scientists use AI simulation and biomimetic robots to understand how embodied systems process sensory information without invasive animal experiments.
-- [Healthcare Systems Grapple With Spiraling AI Token Costs](https://aiglimpse.ai/articles/healthcare-systems-grapple-with-spiraling-ai-token-costs-86618491) (2026-08-03): As hospitals scale AI tools, consumption-based pricing models threaten budgets and ROI, forcing health systems to impose strict usage controls.
 
 ## Explainers (evergreen)
 
+- [Semantic Search With Embeddings: Architecture and Evaluation](https://aiglimpse.ai/articles/semantic-search-embeddings-guide) (2026-08-07): How to build vector search systems that outperform keyword matching, and where they fail.
 - [Best Open Source LLMs in 2026: Llama, Mistral, Qwen](https://aiglimpse.ai/articles/open-source-llms-comparison-2026) (2026-08-05): Compare leading open-weight models, licenses, benchmarks, and deployment paths for self-hosted AI stacks.
 - [Local LLMs vs Cloud APIs: The Real Cost and Trade-Off Guide](https://aiglimpse.ai/articles/local-llms-vs-cloud-api) (2026-08-03): How to evaluate on-prem and self-hosted LLMs against API providers for your infrastructure
 - [Fine-Tune LLMs with LoRA: When It's Worth It and How to Do It Safely](https://aiglimpse.ai/articles/fine-tuning-lora-practical-guide) (2026-07-31): A practical guide to LoRA fine-tuning, QLoRA quantization, cost considerations, and failure modes for ML engineers.
@@ -79,7 +80,7 @@ All content is original reporting by the AI Glimpse newsroom. Primary sources ar
 
 - [Sitemap](https://aiglimpse.ai/sitemap.xml): All article URLs with publish dates (Google News format).
 - [RSS](https://aiglimpse.ai/rss.xml): 50 most recent articles (RSS 2.0).
-- [Full content index](https://aiglimpse.ai/llms-full.txt): Extended article list for LLM crawlers (875 articles).
+- [Full content index](https://aiglimpse.ai/llms-full.txt): Extended article list for LLM crawlers (878 articles).
 
 ## About
 
