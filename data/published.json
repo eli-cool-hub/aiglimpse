@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "mit-researchers-use-ai-agents-to-generate-training-worlds-for-robots-fe968df8",
+      "title": "MIT Researchers Use AI Agents to Generate Training Worlds for Robots",
+      "subtitle": "A new system called SceneSmith harnesses multi-modal AI to automatically create photorealistic 3D environments, drastically reducing the time robots need to spend learning real-world tasks.",
+      "category": "robotics",
+      "publishedAt": "2026-08-07T07:17:33.000Z",
+      "sourceUrl": "https://robohub.org/ai-agents-create-virtual-playgrounds-to-help-robots-get-crucial-training-data/",
+      "sourceName": "Robohub",
+      "sourceTier": 3,
+      "image": "/images/articles/mit-researchers-use-ai-agents-to-generate-training-worlds-for-robots-fe968df8.jpg"
+    },
+    {
       "slug": "ai-as-medical-intermediary-reshaping-doctor-patient-communication-144d222b",
       "title": "AI as Medical Intermediary: Reshaping Doctor-Patient Communication",
       "subtitle": "Healthcare systems are discovering that AI-assisted patient education and clinical decision support can fundamentally transform how medical care is delivered.",
@@ -10545,6 +10556,7 @@
     "aaf901a24e951cb5",
     "ab17a8a12b8f01b7",
     "5c501187a02e10a7",
-    "144d222ba764c1fe"
+    "144d222ba764c1fe",
+    "fe968df844d60874"
   ]
 }

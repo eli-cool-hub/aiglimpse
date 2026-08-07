@@ -7,6 +7,14 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>MIT Researchers Use AI Agents to Generate Training Worlds for Robots</title>
+      <link>https://aiglimpse.ai/articles/mit-researchers-use-ai-agents-to-generate-training-worlds-for-robots-fe968df8</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/mit-researchers-use-ai-agents-to-generate-training-worlds-for-robots-fe968df8</guid>
+      <description>A new system called SceneSmith harnesses multi-modal AI to automatically create photorealistic 3D environments, drastically reducing the time robots need to spend learning real-world tasks.</description>
+      <pubDate>Fri, 07 Aug 2026 07:17:33 GMT</pubDate>
+      <category>Robotics</category>
+    </item>
+    <item>
       <title>AI as Medical Intermediary: Reshaping Doctor-Patient Communication</title>
       <link>https://aiglimpse.ai/articles/ai-as-medical-intermediary-reshaping-doctor-patient-communication-144d222b</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/ai-as-medical-intermediary-reshaping-doctor-patient-communication-144d222b</guid>
@@ -396,14 +404,6 @@
       <guid isPermaLink="true">https://aiglimpse.ai/articles/minnesotas-ai-deepfake-ban-survives-first-legal-challenge-938677f6</guid>
       <description>A federal judge rejected xAI's attempt to block the state's restriction on AI-generated intimate imagery, dealing a blow to Musk's company.</description>
       <pubDate>Sat, 01 Aug 2026 07:58:40 GMT</pubDate>
-      <category>Ethics &amp; Policy</category>
-    </item>
-    <item>
-      <title>Court Ruling Strengthens Copyright Protections Against AI Data Scrapers</title>
-      <link>https://aiglimpse.ai/articles/court-ruling-strengthens-copyright-protections-against-ai-data-scrapers-eb1bf7e3</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/court-ruling-strengthens-copyright-protections-against-ai-data-scrapers-eb1bf7e3</guid>
-      <description>A federal judge's decision to advance Reddit's anti-circumvention claims against Perplexity and SerpApi signals growing legal headwinds for AI systems built on scraped web content.</description>
-      <pubDate>Sat, 01 Aug 2026 03:26:37 GMT</pubDate>
       <category>Ethics &amp; Policy</category>
     </item>
   </channel>
