@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "githubs-repeated-outages-signal-deeper-infrastructure-crisis-ab17a8a1",
+      "title": "GitHub's Repeated Outages Signal Deeper Infrastructure Crisis",
+      "subtitle": "Multiple service failures in August raise concerns about the platform's ability to reliably support AI-driven development workflows.",
+      "category": "industry",
+      "publishedAt": "2026-08-07T03:30:17.000Z",
+      "sourceUrl": "https://www.theregister.com/devops/2026/08/06/latest-github-outage-squeezes-actions-pages-to-death/5284297",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/githubs-repeated-outages-signal-deeper-infrastructure-crisis-ab17a8a1.jpg"
+    },
+    {
       "slug": "alphabets-25b-bond-surge-signals-ai-investment-appetite-aaf901a2",
       "title": "Alphabet's $25B Bond Surge Signals AI Investment Appetite",
       "subtitle": "Google parent's massive debt offering draws record investor demand, contrasting sharply with cooling reception for peers' infrastructure spending.",
@@ -10497,6 +10508,7 @@
     "94e9e9166692a633",
     "11b2fc0f1c9aeb70",
     "1b92a488d84f42a3",
-    "aaf901a24e951cb5"
+    "aaf901a24e951cb5",
+    "ab17a8a12b8f01b7"
   ]
 }
