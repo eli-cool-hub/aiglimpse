@@ -11360,6 +11360,24 @@
         "devto": true,
         "hashnode": false
       }
+    },
+    "semantic-search-embeddings-guide": {
+      "syndicated_at": "2026-08-07T07:01:09.549Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/semantic-search-with-embeddings-architecture-and-evaluation-1624",
+      "hashnode": null,
+      "gates": {
+        "medium": true,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 2792,
+      "category": "research",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
     }
   }
 }

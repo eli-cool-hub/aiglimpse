@@ -1,6 +1,18 @@
 {
   "articles": [
     {
+      "slug": "semantic-search-embeddings-guide",
+      "title": "Semantic Search With Embeddings: Architecture and Evaluation",
+      "subtitle": "How to build vector search systems that outperform keyword matching, and where they fail.",
+      "category": "research",
+      "publishedAt": "2026-08-07T07:01:07.878Z",
+      "sourceUrl": null,
+      "sourceName": "AI Glimpse Newsroom",
+      "sourceTier": 0,
+      "image": "/images/articles/semantic-search-embeddings-guide.jpg",
+      "evergreen": true
+    },
+    {
       "slug": "githubs-repeated-outages-signal-deeper-infrastructure-crisis-ab17a8a1",
       "title": "GitHub's Repeated Outages Signal Deeper Infrastructure Crisis",
       "subtitle": "Multiple service failures in August raise concerns about the platform's ability to reliably support AI-driven development workflows.",

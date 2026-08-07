@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Semantic Search With Embeddings: Architecture and Evaluation | AI Glimpse</title>
+  <meta name="description" content="Semantic search with embeddings lets you find meaning, not just keywords. Learn architecture, hybrid retrieval, freshness trade-offs, and how to measure search quality.">
+  <meta name="keywords" content="semantic search, vector search, embeddings, search relevance, hybrid retrieval, kNN search, vector database">
+  <link rel="canonical" href="https://aiglimpse.ai/articles/semantic-search-embeddings-guide">
+  <meta property="og:type" content="article"><meta property="og:site_name" content="AI Glimpse">
+  <meta property="og:title" content="Semantic Search With Embeddings: Architecture and Evaluation">
+  <meta property="og:description" content="Semantic search with embeddings lets you find meaning, not just keywords. Learn architecture, hybrid retrieval, freshness trade-offs, and how to measure search quality.">
+  <meta property="og:url" content="https://aiglimpse.ai/articles/semantic-search-embeddings-guide">
+  <meta property="og:image" content="https://aiglimpse.ai/images/articles/semantic-search-embeddings-guide.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="article:published_time" content="2026-08-07T07:01:07.878Z">
+  <meta property="article:section" content="AI Research">
+  <meta property="article:tag" content="semantic search">
+  <meta property="article:tag" content="vector search">
+  <meta property="article:tag" content="embeddings">
+  <meta property="article:tag" content="search relevance">
+  <meta property="article:tag" content="hybrid retrieval">
+  <meta property="article:tag" content="kNN search">
+  <meta property="article:tag" content="vector database">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Semantic Search With Embeddings: Architecture and Evaluation">
+  <meta name="twitter:description" content="Semantic search with embeddings lets you find meaning, not just keywords. Learn architecture, hybrid retrieval, freshness trade-offs, and how to measure search quality.">
+  <meta name="twitter:image" content="https://aiglimpse.ai/images/articles/semantic-search-embeddings-guide.jpg">
+  <link rel="icon" type="image/svg+xml" href="/images/favicon.svg">
+  <link rel="alternate" type="application/rss+xml" title="AI Glimpse RSS" href="/rss.xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700;9..144,900&family=Inter+Tight:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap">
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="preload" as="image" href="/images/articles/semantic-search-embeddings-guide.webp" type="image/webp" fetchpriority="high">
+  <style>.reading-progress{position:fixed;top:0;left:0;height:3px;background:var(--color-accent);width:0%;z-index:200;transition:width 100ms linear;}</style>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","mainEntityOfPage":{"@type":"WebPage","@id":"https://aiglimpse.ai/articles/semantic-search-embeddings-guide"},"headline":"Semantic Search With Embeddings: Architecture and Evaluation","description":"Semantic search with embeddings lets you find meaning, not just keywords. Learn architecture, hybrid retrieval, freshness trade-offs, and how to measure search quality.","image":["https://aiglimpse.ai/images/articles/semantic-search-embeddings-guide.jpg"],"datePublished":"2026-08-07T07:01:07.878Z","dateModified":"2026-08-07T07:01:07.878Z","author":{"@type":"Organization","name":"AI Glimpse Newsroom"},"publisher":{"@type":"Organization","name":"AI Glimpse","logo":{"@type":"ImageObject","url":"https://aiglimpse.ai/images/logo.svg"}},"articleSection":"AI Research","keywords":"semantic search, vector search, embeddings, search relevance, hybrid retrieval, kNN search, vector database"}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://aiglimpse.ai/"},{"@type":"ListItem","position":2,"name":"AI Research","item":"https://aiglimpse.ai/categories/research"},{"@type":"ListItem","position":3,"name":"Semantic Search With Embeddings: Architecture and Evaluation","item":"https://aiglimpse.ai/articles/semantic-search-embeddings-guide"}]}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What's the difference between semantic search and keyword search?","acceptedAnswer":{"@type":"Answer","text":"Keyword search matches exact terms or stems in documents. Semantic search uses embeddings to understand meaning, so it can find 'automobile' when you search 'car.' Semantic search also handles typos and synonyms better, but it's slower and more expensive to index and query."}},{"@type":"Question","name":"Do I have to replace keyword search with semantic search?","acceptedAnswer":{"@type":"Answer","text":"No. Hybrid retrieval, which combines both methods, usually outperforms pure semantic search. You run both in parallel, rank results from both, then re-rank the merged set. This keeps latency reasonable while improving relevance."}},{"@type":"Question","name":"How do I measure if my semantic search is actually better?","acceptedAnswer":{"@type":"Answer","text":"Use metrics like Mean Reciprocal Rank (MRR), Normalized Discounted Cumulative Gain (NDCG), and click-through rate (CTR). Build a labeled test set of queries and expected top results, then A/B test new search with a live holdout. Relevance without engagement is incomplete."}},{"@type":"Question","name":"What embedding model should I use?","acceptedAnswer":{"@type":"Answer","text":"Open-source models like BAAI/bge-base-en-v1.5 and Voyage AI are solid defaults. Consider closed models like OpenAI's text-embedding-3-small if cost and latency permit. Pick models evaluated on your domain: code, science, e-commerce all have specialized benchmarks."}},{"@type":"Question","name":"How do I keep embeddings fresh when documents change?","acceptedAnswer":{"@type":"Answer","text":"Batch re-embedding every 24 hours works for many use cases. For real-time or near-real-time search, index new documents immediately but accept a lag. Use versioning and timestamps so you can rebuild the index without downtime. Some vector databases support incremental updates."}},{"@type":"Question","name":"Why is my semantic search returning off-topic results?","acceptedAnswer":{"@type":"Answer","text":"Embeddings capture statistical similarity, not true understanding. A query about 'python' might return results about snakes if they're vector-close. Use hybrid retrieval with keyword filters, add metadata filters, or fine-tune your embedding model on domain data."}},{"@type":"Question","name":"What vector database should I use?","acceptedAnswer":{"@type":"Answer","text":"Postgres with pgvector, Weaviate, Pinecone, and Qdrant are all production-ready. Postgres works if you already use it and query volume is moderate. Managed services (Pinecone, Weaviate Cloud) are easier to operate but cost more. Self-hosted Qdrant offers good balance."}}]}</script>
+  <meta name="google-site-verification" content="B132aMlqf1nssWYhjOSKUgSjmfwNWgPgtozZsHDxWlU" />
+  <meta name="msvalidate.01" content="F3762E555B3E685836AE39C90B79ECBF" />
+  <!-- aiglimpse-consent-default v1: must run before AdSense, defaults all ad/analytics storage to denied -->
+  <script>(function(){window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}window.gtag=gtag;gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'denied',functionality_storage:'granted',security_storage:'granted',wait_for_update:500});try{var s=JSON.parse(localStorage.getItem('aiglimpse-consent')||'null');if(s&&s.choice==='granted'){gtag('consent','update',{ad_storage:'granted',ad_user_data:'granted',ad_personalization:'granted',analytics_storage:'granted'});}}catch(e){}})();</script>
+  <!-- aiglimpse-ga4 v1: gtag.js loaded after consent default, so it buffers events until consent is granted -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-EVZ52DNQ8S"></script>
+  <script>gtag('js', new Date()); gtag('config', 'G-EVZ52DNQ8S', { anonymize_ip: true });</script>
+</head>
+<body>
+  <div class="reading-progress" aria-hidden="true"></div>
+  <header class="site-header" role="banner">
+    <div class="container">
+      <div class="header-bar">
+        <a href="/" class="logo" aria-label="AI Glimpse home">
+          <span class="logo-wordmark" aria-label="AI Glimpse">A<span class="iris-i" aria-hidden="true">ı</span><span aria-hidden="true"> Glimpse</span></span>
+        </a>
+        <nav class="nav-primary" aria-label="Primary">
+          <a href="/categories/llms">LLMs</a>
+            <a href="/categories/research">Research</a>
+            <a href="/categories/tools">Tools</a>
+            <a href="/categories/business">Business</a>
+            <a href="/categories/ethics">Ethics</a>
+            <a href="/categories/industry">Industry</a>
+            <a href="/categories/robotics">Robotics</a>
+        </nav>
+        <div class="header-actions">
+          <a class="search-btn" href="/search" aria-label="Search">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="11" cy="11" r="7"/><path d="M21 21l-4.35-4.35"/>
+            </svg>
+          </a>
+          <a href="#newsletter" class="btn btn--primary btn--sm">Subscribe</a>
+          <button class="menu-btn" aria-label="Open menu">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+  <aside class="mobile-menu" aria-label="Mobile menu">
+    <div class="mobile-menu-header">
+      <a href="/" class="logo">
+        <span class="logo-wordmark" aria-label="AI Glimpse">A<span class="iris-i" aria-hidden="true">ı</span><span aria-hidden="true"> Glimpse</span></span>
+      </a>
+      <button class="mobile-menu-close" aria-label="Close menu" style="font-size:24px;">×</button>
+    </div>
+    <a href="/categories/llms">LLMs</a>
+    <a href="/categories/research">Research</a>
+    <a href="/categories/tools">Tools</a>
+    <a href="/categories/business">Business</a>
+    <a href="/categories/ethics">Ethics</a>
+    <a href="/categories/industry">Industry</a>
+    <a href="/categories/robotics">Robotics</a>
+    <a href="/search">Search</a>
+    <a href="/pages/about">About</a>
+    <a href="#newsletter">Subscribe</a>
+  </aside>
+  <main>
+    <article>
+      <section class="article-hero">
+        <div class="container container--narrow">
+          <nav aria-label="Breadcrumb" style="margin-bottom:var(--space-4);font-size:var(--text-xs);color:var(--color-ink-muted);">
+            <a href="/" style="color:inherit;">Home</a> /
+            <a href="/categories/research" style="color:inherit;">AI Research</a> /
+            <span>Explainer</span>
+          </nav>
+          <div class="article-hero-meta">
+            <span class="tag tag--research">AI Research</span>
+            <span class="eyebrow eyebrow--accent">Explainer</span>
+            <span class="eyebrow">13 min read</span>
+          </div>
+          <h1 class="article-hero-title">Semantic Search With Embeddings: Architecture and Evaluation</h1>
+          <p class="article-hero-subtitle">How to build vector search systems that outperform keyword matching, and where they fail.</p>
+          <div class="article-byline">
+            <div>By <strong>AI Glimpse Newsroom</strong></div><div>·</div>
+            <div><time datetime="2026-08-07T07:01:07.878Z" data-relative="false">August 7, 2026</time></div>
+          </div>
+        </div>
+      </section>
+      <section style="padding: var(--space-7) 0;">
+        <div class="container container--narrow">
+          <figure class="article-image"><picture><source srcset="/images/articles/semantic-search-embeddings-guide.webp" type="image/webp"><img src="/images/articles/semantic-search-embeddings-guide.jpg" alt="Semantic Search With Embeddings: Architecture and Evaluation" loading="eager" fetchpriority="high" width="1200" height="630"></picture></figure>
+          <div class="article-body"><p>Semantic search with <a href="/articles/embedding-models-compared-2026">embeddings</a> lets you find what users mean, not just what they type. Instead of matching keywords, you convert queries and documents into high-dimensional vectors that capture meaning, then retrieve neighbors in that space. The result is often better relevance for typos, synonyms, and intent. The cost is latency, complexity, and a pile of new failure modes. This guide walks search and product engineers through the decisions you face when moving from keyword search to semantic search, and how to know if it's actually working.</p>
+
+<h2>Why this matters now</h2>
+
+<p>Embedding models have crossed a quality threshold. In 2020, semantic search was a research toy. By 2024, open models like BAAI/bge-base-en-v1.5 and Voyage AI deliver strong relevance on diverse domains at reasonable latency. Inference costs have dropped below one cent per million tokens. This means semantic search is now cost-effective for search at scale, not just for chatbots or small collections. Meanwhile, end-users expect search to understand intent, not parse keywords. The pressure to migrate away from BM25 or Elasticsearch keyword-only stacks is real.</p>
+
+<p>But 2026 reality includes vector databases, hybrid retrieval, and freshness problems that didn't exist when you shipped keyword search. Embeddings are expensive to compute, require a separate index, and degrade when documents change. Hybrid retrieval (combining keyword and semantic) has become the default production architecture, not an edge case. Evaluation shifted from "does it rank relevant docs first" to "do users click, stay, and convert," because embeddings can be statistically similar without being actually useful. This guide covers all three layers: why semantic search matters, how to build it without breaking, and how to know you've built it right.</p>
+
+<h2>From keyword search to embeddings: what changes</h2>
+<figure class="article-image article-image--inline">
+  <picture><source srcset="/images/articles/semantic-search-embeddings-guide-inline-1.webp" type="image/webp"><img src="/images/articles/semantic-search-embeddings-guide-inline-1.jpg" alt="From keyword search to embeddings: what changes" loading="lazy" width="1200" height="630"></picture>
+  <figcaption class="article-image-credit">Photo by <a href="https://www.pexels.com/photo/black-samsung-tablet-display-google-browser-on-screen-218717/" rel="nofollow noopener" target="_blank">AS Photography</a> on Pexels.</figcaption>
+</figure>
+
+
+<p>Keyword search indexes exact terms. When a user types "laptop battery life," the search engine finds documents containing those words or stems (laptop, batter, life). Matching is fast, deterministic, and cheap. Relevance depends entirely on term frequency, field boosts, and link structure. Synonyms and intent are invisible.</p>
+
+<p>Semantic search converts both the query and every indexed document into a dense vector, usually 384 to 1536 dimensions, representing semantic meaning. A query for "laptop battery life" and a document titled "How long does a MacBook Pro last?" are both encoded into vectors. The search engine then finds the k nearest neighbors (kNN) in vector space. A document about snakes won't rank, no matter how many times the word "python" appears, because the vector is far away. A document about "device power duration" will rank higher if it's semantically close, even if it shares no keywords with the query.</p>
+
+<p>The trade-off is immediate: semantic search is slower (kNN search is O(n) without heavy indexing), more expensive (encoding every document costs money), and less predictable (the semantic space can be noisy). But it handles typos, synonyms, and queries that require understanding context, not just term overlap.</p>
+
+<h2>Architecture: embedding pipelines and hybrid retrieval</h2>
+
+<p>A production semantic search system has three layers: embedding generation, vector indexing, and retrieval ranking.</p>
+
+<p><strong>Embedding generation.</strong> Before any search happens, you need vectors for all documents. This is a batch or stream process. For a 10 million document collection, you embed once at scale (using GPUs or a batch API), then update incrementally when documents change. Embedding models are often open (BAAI/bge-base-en-v1.5, Sentence Transformers, MiniLM) or closed (OpenAI text-embedding-3-small, Voyage AI). Open models run on your infrastructure; closed models are APIs. For most teams, an open model on rented GPU or a managed embedding API (like Cohere or Voyage) is the middle ground: no self-hosting complexity, no vendor lock-in to a single closed model. Store vectors alongside documents in your <a href="/articles/vector-databases-rag-guide-2026">vector database</a> or in a secondary index.</p>
+
+<p><strong>Vector indexing.</strong> Raw k-nearest-neighbor search is linear in collection size. At scale, you need an index. Standard options include HNSW (Hierarchical Navigable Small World), IVF (Inverted File), and PQ (Product Quantization). HNSW is the default for most production systems: it trades a small amount of recall (you might miss 5-10 percent of true nearest neighbors) for much faster query time. A vector database like Postgres with pgvector, Weaviate, Qdrant, or Pinecone handles this indexing for you. Choosing between them is mostly about operational burden and feature set, not search quality. Postgres is simplest if you're already using it; managed services like Pinecone reduce operational overhead but lock you into their infrastructure.</p>
+
+<p><strong>Hybrid retrieval.</strong> Pure semantic search often ranks off-topic results if they're vector-close to the query. A search for "python programming" might rank content about snakes. Hybrid retrieval merges keyword and semantic results before final ranking, using both. The typical pattern:</p>
+
+<ol>
+<li>Run the query against your keyword index (Elasticsearch, Postgres full-text, or similar) and retrieve the top 100 documents.</li>
+<li>Encode the query into an embedding and run kNN search on your vector index, retrieving the top 100 documents.</li>
+<li>Merge both result sets, removing duplicates.</li>
+<li>Re-rank the merged set using a learned-to-rank model (LTR) or hand-tuned scoring function that weights semantic similarity, keyword match, freshness, and other signals.</li>
+<li>Return the top k results.</li>
+</ol>
+
+<p>Hybrid retrieval adds latency (you're making two queries instead of one), but it recovers precision without sacrificing recall. In practice, hybrid systems outperform pure semantic search on most real-world queries. The keyword index catches exact-match queries and filters out off-topic results. The semantic index handles intent and synonyms. The merge step ensures both methods contribute.</p>
+
+<h2>Managing freshness and index updates</h2>
+<figure class="article-image article-image--inline">
+  <picture><source srcset="/images/articles/semantic-search-embeddings-guide-inline-2.webp" type="image/webp"><img src="/images/articles/semantic-search-embeddings-guide-inline-2.jpg" alt="Managing freshness and index updates" loading="lazy" width="1200" height="630"></picture>
+  <figcaption class="article-image-credit">Photo by <a href="https://www.pexels.com/photo/macbook-air-on-grey-wooden-table-67112/" rel="nofollow noopener" target="_blank">Caio</a> on Pexels.</figcaption>
+</figure>
+
+
+<p>Keyword indexes handle updates easily: add or remove a document from the inverted index, re-index a few postings lists, done. Vector indexes are slower to update. Recomputing an embedding for a changed document is cheap (milliseconds per vector), but rebuilding the HNSW index structure is expensive. Many vector databases support incremental updates (delete old vector, insert new one), but the index can become suboptimal over time, requiring a full reindex every few days or weeks.</p>
+
+<p>In practice, most teams batch re-embedding. If a document changes, you queue it for the next nightly batch job. New documents are indexed within 24 hours. For higher-frequency updates, some options:</p>
+
+<ul>
+<li><strong>Real-time embedding in write path.</strong> When a document is created or updated, embed it immediately and insert into the vector database. This works if your write volume is moderate (thousands of documents per day). If you're indexing millions of new documents daily, batch is faster and cheaper.</li>
+<li><strong>Index versioning.</strong> Maintain two vector indexes: the current one (read-only) and a staging one (being built). Queries read from current. Once staging is ready, swap. This avoids downtime during reindexing, but doubles storage temporarily.</li>
+<li><strong>Acceptable staleness.</strong> Be explicit about how old your vectors can be. If you're indexing news, 1 hour old might be acceptable. For e-commerce inventory, 30 minutes. For documentation, 24 hours is fine. This lets you batch updates at scale without falling into a real-time trap.</li>
+<li><strong>Hybrid coverage.</strong> Use hybrid retrieval to mitigate embedding staleness. If a document was updated but the vector is still old, the keyword search catches it. This is a pragmatic trade-off: lose some semantic relevance but gain freshness.</li>
+</ul>
+
+<h2>Choosing and evaluating embedding models</h2>
+
+<p>Embedding quality directly affects search relevance. A weak model creates a weak index. Fortunately, the gap between a good model and a great model is now small, and good models are free or cheap.</p>
+
+<p>Benchmark your candidate models on your own queries and data, not just public leaderboards. BEIR is a standard benchmark for semantic search, but it's generic. If you're searching e-commerce products, domain-specific benchmarks (like those from LLM4eCommerce) correlate better with real-world performance. Start with BAAI/bge-base-en-v1.5 (384 dims, open source, strong on many domains) or Sentence Transformers MPNet (768 dims, also open). For closed models, OpenAI's text-embedding-3-small is cost-effective; text-embedding-3-large is stronger but slower. Voyage AI's models (voyage-2, voyage-3) are competitive alternatives.</p>
+
+<p>Test on a holdout set of 200-1000 real queries from your application. Encode them and your documents with each candidate model. Measure retrieval@10 (does the first relevant document appear in the top 10?), MRR (mean reciprocal rank), and NDCG (normalized discounted cumulative gain). Run an offline evaluation: "Does model A rank the ground-truth relevant result higher than model B?" Then run a live A/B test with real users to measure engagement (click-through rate, dwell time, conversion). A model that wins offline might lose online if it ranks unpopular results, or if its speed trade-off increases bounce rate.</p>
+
+<p>Once chosen, commit to a version. Embedding models change between releases. If you upgrade from bge-base-1.5 to 2.0, old vectors become incompatible with the new model. You'll need to recompute vectors for the entire collection. This is expensive at scale. Plan quarterly or semi-annual upgrades, not continuous ones, unless you have infrastructure to re-embed on a schedule.</p>
+
+<h2>Common pitfalls and when semantic search fails</h2>
+
+<p>Semantic search is not magic. It will fail in ways keyword search doesn't, and vice versa.</p>
+
+<p><strong>Off-topic results due to semantic similarity.</strong> A search for "apple fruit" might rank results about Apple Inc. if the vectors are close. A query about "python" might rank snake content. Embeddings capture statistical similarity in the training data, not true understanding. Mitigation: use hybrid retrieval with keyword filters, add metadata fields to re-rank by category or domain, or fine-tune the embedding model on your data so it learns your domain-specific semantics.</p>
+
+<p><strong>Typos and misspellings.</strong> Semantic search handles some typos (the embedding of "laptpo" might still be close to "laptop"). But don't rely on it. Add a spell-check or fuzzy-match layer in your keyword search pipeline. Hybrid search makes this less critical, but it's still needed for good UX.</p>
+
+<p><strong>Embedding costs at scale.</strong> Encoding 100 million documents costs money. If you use a closed API (OpenAI, Cohere), expect hundreds or thousands of dollars. If you self-host, GPU costs mount quickly. Calculate total cost of ownership: embedding compute, storage, query latency, and engineering time. For some use cases (internal docs, small catalogs), the cost is easy to justify. For others (high-volume e-commerce), it might exceed the lift in relevance. Measure ROI, not just relevance.</p>
+
+<p><strong>Latency and P95.</strong> kNN search is slower than keyword search. A Postgres full-text query might take 10ms. A vector similarity search might take 100-200ms. This matters on latency-sensitive applications (search autocomplete, instant results). HNSW indexing helps, but doesn't eliminate the gap. Some teams use semantic search for initial ranking and keyword search for re-ranking, or limit semantic search to certain query types (long-form queries, not short keywords).</p>
+
+<p><strong>Stale embeddings.</strong> If you batch re-embed daily but serve traffic 24/7, up to 24 hours of documents might have stale vectors. For time-sensitive content (news, events), this is a problem. Hybrid retrieval helps: the keyword index catches new documents. But you'll sacrifice some semantic relevance until the vectors refresh.</p>
+
+<p><strong>Cold start and relevance cliffs.</strong> When you first roll out semantic search, relevance is often worse than the keyword search it replaces, because the embedding model has never seen your data and hasn't been tuned for your domain. Expect a 2-4 week period of negative A/B results before relevance stabilizes. Some teams mitigate this by starting with a small holdout (5-10 percent of traffic) and shipping hybrid search, not pure semantic, to avoid a noticeable drop.</p>
+
+<p><strong>Model drift and benchmark gaming.</strong> As you fine-tune or switch embedding models, offline metrics and online metrics can diverge. A model that ranks "relevant" documents first offline might rank unclicked results online. Build a continuous feedback loop: measure offline NDCG weekly, but weight online CTR and engagement more heavily. Don't optimize for offline metrics in isolation.</p>
+
+<h2>Measuring search quality in production</h2>
+
+<p>You have semantic search built and deployed. How do you know it's actually helping?</p>
+
+<p>Offline metrics (MRR, NDCG, retrieval@10) are necessary but not sufficient. A model that ranks the "right" document first but is ignored by users is a false positive. Build a labeling pipeline: sample 500-2000 real queries monthly, have humans label the top-3 results as "relevant," "somewhat relevant," or "not relevant." Compute NDCG@3 and NDCG@10. Track it weekly as a KPI. This grounds relevance in your actual data and intentions.</p>
+
+<p>Online metrics are the truth:</p>
+
+<ul>
+<li><strong>Click-through rate (CTR).</strong> Percentage of searches with at least one click. Higher is better, but plateaus quickly.</li>
+<li><strong>Clicks per search (CPS).</strong> Average number of results clicked per query. Higher means results are useful or users are browsing.</li>
+<li><strong>Dwell time.</strong> Time spent on a clicked result. If users click a result and bounce in 2 seconds, it wasn't useful. If they stay 30+ seconds, it was. Measure median dwell time by result position.</li>
+<li><strong>Query success rate.</strong> Percentage of queries that led to a meaningful outcome (purchase, document view, etc.). Domain-specific.</li>
+<li><strong>Zero-result rate.</strong> Percentage of queries that returned no results. Should be under 5 percent for most applications.</li>
+</ul>
+
+<p>A/B test continuously. Split traffic 50/50 between keyword search and hybrid semantic + keyword search. Run each test for at least 1-2 weeks to stabilize metrics. Measure CTR, dwell time, and conversion as primary metrics. Offline relevance is the secondary check: if online metrics are equal but offline metrics improve, you're likely capturing benefits that take time to show up online.</p>
+
+<p>Track cost per query. If semantic search increases your embedding and vector database costs by 30 percent but increases conversion by 2 percent, the trade-off might be worth it. If it increases cost by 50 percent for no gain, abandon it. Don't optimize for pure relevance without considering operational expense.</p>
+
+<h2>Getting started: a practical roadmap</h2>
+
+<p>If you're replacing keyword search with semantic search, here's a sequence:</p>
+
+<ol>
+<li><strong>Evaluate models offline on your data.</strong> Pick 5 candidate models. Encode a sample of 500 queries and documents. Measure retrieval@10 and NDCG@3. Pick the top 2 models.</li>
+<li><strong>Set up a vector database.</strong> If you're already using Postgres, add pgvector. If you're starting fresh, try Qdrant (self-hosted) or Pinecone (managed). Load your document collection and generate embeddings (batch or streaming).</li>
+<li><strong>Implement hybrid retrieval.</strong> Don't replace keyword search. Run both in parallel. Merge and re-rank using a simple formula (0.6 * semantic_score + 0.4 * keyword_score) or a learned-to-rank model. Test on a small holdout (10-20 percent of traffic).</li>
+<li><strong>Establish an evaluation baseline.</strong> Label 500 queries (or pull relevance data from search logs). Compute offline NDCG@3 for your hybrid system. This is your baseline.</li>
+<li><strong>Run an A/B test.</strong> Ship hybrid search to 50 percent of users. Measure CTR, dwell time, and conversion for 2 weeks. If metrics improve, roll out to 100 percent. If they degrade, revert and adjust weights or add filters.</li>
+<li><strong>Iterate on freshness and cost.</strong> Once live, measure embedding staleness (how often vectors lag behind documents). If it's a problem, move to real-time embedding or reduce batch interval. Monitor vector database costs. If they're too high, consider a smaller embedding model or sampling strategy.</li>
+</ol>
+
+<p>Semantic search is not a drop-in replacement for keyword search. It's a complementary technology that works best in hybrid form. Start small, measure rigorously, and iterate. Most teams see relevance improve 5-15 percent after 4-8 weeks, with an operational cost of 20-40 percent higher than keyword search alone. Whether that trade-off is worth it depends on your domain, traffic, and margin. Build the measurement infrastructure first, then commit to a long-term evaluation plan. Semantic search pays off on platforms where relevance directly drives engagement or revenue. On smaller collections or lower-value search, it might not justify the complexity.</p></div>
+
+      <section style="margin-top: var(--space-8);">
+        <h2 style="margin-bottom: var(--space-5);">Frequently asked questions</h2>
+        <div class="faq-list">
+    <details class="faq-item" style="border-bottom:1px solid var(--color-rule);padding:var(--space-4) 0;">
+      <summary style="cursor:pointer;font-weight:600;font-size:var(--text-md);list-style:none;display:flex;justify-content:space-between;align-items:flex-start;gap:var(--space-3);">
+        <span>What&#39;s the difference between semantic search and keyword search?</span>
+        <span aria-hidden="true" style="color:var(--color-ink-faint);font-weight:400;flex-shrink:0;">+</span>
+      </summary>
+      <div style="margin-top:var(--space-3);color:var(--color-ink-muted);line-height:1.7;">
+        <p>Keyword search matches exact terms or stems in documents. Semantic search uses embeddings to understand meaning, so it can find &#39;automobile&#39; when you search &#39;car.&#39; Semantic search also handles typos and synonyms better, but it&#39;s slower and more expensive to index and query.</p>
+      </div>
+    </details>
+
+    <details class="faq-item" style="border-bottom:1px solid var(--color-rule);padding:var(--space-4) 0;">
+      <summary style="cursor:pointer;font-weight:600;font-size:var(--text-md);list-style:none;display:flex;justify-content:space-between;align-items:flex-start;gap:var(--space-3);">
+        <span>Do I have to replace keyword search with semantic search?</span>
+        <span aria-hidden="true" style="color:var(--color-ink-faint);font-weight:400;flex-shrink:0;">+</span>
+      </summary>
+      <div style="margin-top:var(--space-3);color:var(--color-ink-muted);line-height:1.7;">
+        <p>No. Hybrid retrieval, which combines both methods, usually outperforms pure semantic search. You run both in parallel, rank results from both, then re-rank the merged set. This keeps latency reasonable while improving relevance.</p>
+      </div>
+    </details>
+
+    <details class="faq-item" style="border-bottom:1px solid var(--color-rule);padding:var(--space-4) 0;">
+      <summary style="cursor:pointer;font-weight:600;font-size:var(--text-md);list-style:none;display:flex;justify-content:space-between;align-items:flex-start;gap:var(--space-3);">
+        <span>How do I measure if my semantic search is actually better?</span>
+        <span aria-hidden="true" style="color:var(--color-ink-faint);font-weight:400;flex-shrink:0;">+</span>
+      </summary>
+      <div style="margin-top:var(--space-3);color:var(--color-ink-muted);line-height:1.7;">
+        <p>Use metrics like Mean Reciprocal Rank (MRR), Normalized Discounted Cumulative Gain (NDCG), and click-through rate (CTR). Build a labeled test set of queries and expected top results, then A/B test new search with a live holdout. Relevance without engagement is incomplete.</p>
+      </div>
+    </details>
+
+    <details class="faq-item" style="border-bottom:1px solid var(--color-rule);padding:var(--space-4) 0;">
+      <summary style="cursor:pointer;font-weight:600;font-size:var(--text-md);list-style:none;display:flex;justify-content:space-between;align-items:flex-start;gap:var(--space-3);">
+        <span>What embedding model should I use?</span>
+        <span aria-hidden="true" style="color:var(--color-ink-faint);font-weight:400;flex-shrink:0;">+</span>
+      </summary>
+      <div style="margin-top:var(--space-3);color:var(--color-ink-muted);line-height:1.7;">
+        <p>Open-source models like BAAI/bge-base-en-v1.5 and Voyage AI are solid defaults. Consider closed models like OpenAI&#39;s text-embedding-3-small if cost and latency permit. Pick models evaluated on your domain: code, science, e-commerce all have specialized benchmarks.</p>
+      </div>
+    </details>
+
+    <details class="faq-item" style="border-bottom:1px solid var(--color-rule);padding:var(--space-4) 0;">
+      <summary style="cursor:pointer;font-weight:600;font-size:var(--text-md);list-style:none;display:flex;justify-content:space-between;align-items:flex-start;gap:var(--space-3);">
+        <span>How do I keep embeddings fresh when documents change?</span>
+        <span aria-hidden="true" style="color:var(--color-ink-faint);font-weight:400;flex-shrink:0;">+</span>
+      </summary>
+      <div style="margin-top:var(--space-3);color:var(--color-ink-muted);line-height:1.7;">
+        <p>Batch re-embedding every 24 hours works for many use cases. For real-time or near-real-time search, index new documents immediately but accept a lag. Use versioning and timestamps so you can rebuild the index without downtime. Some vector databases support incremental updates.</p>
+      </div>
+    </details>
+
+    <details class="faq-item" style="border-bottom:1px solid var(--color-rule);padding:var(--space-4) 0;">
+      <summary style="cursor:pointer;font-weight:600;font-size:var(--text-md);list-style:none;display:flex;justify-content:space-between;align-items:flex-start;gap:var(--space-3);">
+        <span>Why is my semantic search returning off-topic results?</span>
+        <span aria-hidden="true" style="color:var(--color-ink-faint);font-weight:400;flex-shrink:0;">+</span>
+      </summary>
+      <div style="margin-top:var(--space-3);color:var(--color-ink-muted);line-height:1.7;">
+        <p>Embeddings capture statistical similarity, not true understanding. A query about &#39;python&#39; might return results about snakes if they&#39;re vector-close. Use hybrid retrieval with keyword filters, add metadata filters, or fine-tune your embedding model on domain data.</p>
+      </div>
+    </details>
+
+    <details class="faq-item" style="border-bottom:1px solid var(--color-rule);padding:var(--space-4) 0;">
+      <summary style="cursor:pointer;font-weight:600;font-size:var(--text-md);list-style:none;display:flex;justify-content:space-between;align-items:flex-start;gap:var(--space-3);">
+        <span>What vector database should I use?</span>
+        <span aria-hidden="true" style="color:var(--color-ink-faint);font-weight:400;flex-shrink:0;">+</span>
+      </summary>
+      <div style="margin-top:var(--space-3);color:var(--color-ink-muted);line-height:1.7;">
+        <p>Postgres with pgvector, Weaviate, Pinecone, and Qdrant are all production-ready. Postgres works if you already use it and query volume is moderate. Managed services (Pinecone, Weaviate Cloud) are easier to operate but cost more. Self-hosted Qdrant offers good balance.</p>
+      </div>
+    </details></div>
+      </section>
+          <p style="font-size:var(--text-xs);color:var(--color-ink-faint);margin-top:var(--space-6);padding-top:var(--space-4);border-top:1px solid var(--color-rule);">
+            An <strong>AI Glimpse</strong> explainer. We update this guide as the field evolves.
+          </p>
+        </div>
+      </section>
+    </article>
+    <section class="section" aria-label="Related articles">
+      <div class="container container--narrow">
+        <div class="section-header">
+          <h2 class="section-title">More from AI Glimpse</h2>
+          <a href="/categories/research" class="section-link">All Research stories</a>
+        </div>
+        <div class="grid grid-3">
+          <article class="card card--medium">
+            <a href="/articles/new-training-method-fixes-critical-imbalance-in-multimodal-ai-models-94e9e916"><div class="card-image"><picture><source srcset="/images/articles/new-training-method-fixes-critical-imbalance-in-multimodal-ai-models-94e9e916.webp" type="image/webp"><img src="/images/articles/new-training-method-fixes-critical-imbalance-in-multimodal-ai-models-94e9e916.jpg" alt="New Training Method Fixes Critical Imbalance in Multimodal AI Models" loading="lazy" width="1200" height="630"></picture></div></a>
+            <div class="card-meta">
+              <span class="tag tag--research">Research</span>
+              <span class="card-byline"><time datetime="2026-08-05T17:53:06.000Z">Aug 5, 2026</time></span>
+            </div>
+            <a href="/articles/new-training-method-fixes-critical-imbalance-in-multimodal-ai-models-94e9e916"><h3 class="card-title">New Training Method Fixes Critical Imbalance in Multimodal AI Models</h3></a>
+          </article>
+          <article class="card card--medium">
+            <a href="/articles/researchers-develop-safety-layer-for-dual-arm-robot-coordination-326a40c3"><div class="card-image"><picture><source srcset="/images/articles/researchers-develop-safety-layer-for-dual-arm-robot-coordination-326a40c3.webp" type="image/webp"><img src="/images/articles/researchers-develop-safety-layer-for-dual-arm-robot-coordination-326a40c3.jpg" alt="Researchers Develop Safety Layer for Dual-Arm Robot Coordination" loading="lazy" width="1200" height="630"></picture></div></a>
+            <div class="card-meta">
+              <span class="tag tag--research">Research</span>
+              <span class="card-byline"><time datetime="2026-08-03T17:51:58.000Z">Aug 3, 2026</time></span>
+            </div>
+            <a href="/articles/researchers-develop-safety-layer-for-dual-arm-robot-coordination-326a40c3"><h3 class="card-title">Researchers Develop Safety Layer for Dual-Arm Robot Coordination</h3></a>
+          </article>
+          <article class="card card--medium">
+            <a href="/articles/new-dataset-captures-full-human-motion-to-train-embodied-ai-systems-b42f630d"><div class="card-image"><picture><source srcset="/images/articles/new-dataset-captures-full-human-motion-to-train-embodied-ai-systems-b42f630d.webp" type="image/webp"><img src="/images/articles/new-dataset-captures-full-human-motion-to-train-embodied-ai-systems-b42f630d.jpg" alt="New Dataset Captures Full Human Motion to Train Embodied AI Systems" loading="lazy" width="1200" height="630"></picture></div></a>
+            <div class="card-meta">
+              <span class="tag tag--research">Research</span>
+              <span class="card-byline"><time datetime="2026-07-30T17:59:50.000Z">Jul 30, 2026</time></span>
+            </div>
+            <a href="/articles/new-dataset-captures-full-human-motion-to-train-embodied-ai-systems-b42f630d"><h3 class="card-title">New Dataset Captures Full Human Motion to Train Embodied AI Systems</h3></a>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="/" class="logo">
+            <span class="logo-wordmark" aria-label="AI Glimpse">A<span class="iris-i" aria-hidden="true">ı</span><span aria-hidden="true"> Glimpse</span></span>
+          </a>
+          <p>Your daily glimpse into AI. Independent reporting and analysis on the people, products, and policies shaping artificial intelligence.</p>
+        </div>
+        <div class="footer-col">
+          <h5>Categories</h5>
+          <ul>
+            <li><a href="/categories/llms">LLMs</a></li>
+            <li><a href="/categories/research">Research</a></li>
+            <li><a href="/categories/tools">Tools</a></li>
+            <li><a href="/categories/business">Business</a></li>
+            <li><a href="/categories/ethics">Ethics</a></li>
+            <li><a href="/categories/industry">Industry</a></li>
+            <li><a href="/categories/robotics">Robotics</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h5>About</h5>
+          <ul>
+            <li><a href="/pages/about">About AI Glimpse</a></li>
+            <li><a href="/pages/contact">Contact</a></li>
+            <li><a href="/pages/editorial">Editorial Standards</a></li>
+            <li><a href="/pages/advertise">Advertise</a></li>
+            <li><a href="/guides">Guides &amp; Explainers</a></li>
+            <li><a href="/search">Search</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h5>Legal</h5>
+          <ul>
+            <li><a href="/pages/privacy">Privacy Policy</a></li>
+            <li><a href="/pages/terms">Terms of Service</a></li>
+            <li><a href="#" data-consent-open>Cookie preferences</a></li>
+            <li><a href="/rss.xml">RSS Feed</a></li>
+            <li><a href="/sitemap.xml">Sitemap</a></li>
+            <li><a href="/llms.txt">LLMs.txt</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div>© <span id="year">2026</span> AI Glimpse · aiglimpse.ai</div>
+        <div class="footer-social">
+          <a href="/rss.xml" aria-label="RSS"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M6.503 20.752c0 1.794-1.456 3.248-3.251 3.248-1.796 0-3.252-1.454-3.252-3.248 0-1.794 1.456-3.248 3.252-3.248 1.795 0 3.251 1.454 3.251 3.248zm-6.503-12.572v4.811c6.05.062 10.96 4.966 11.022 11.009h4.817c-.062-8.71-7.118-15.758-15.839-15.82zm0-3.368c10.58.046 19.152 8.594 19.183 19.188h4.817c-.03-13.231-10.755-23.954-24-24v4.812z"/></svg></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="/js/chrome.js"></script>
+  <script src="/js/main.js"></script>
+</body>
+</html>
