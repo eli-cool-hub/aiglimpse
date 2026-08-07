@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "alphabets-25b-bond-surge-signals-ai-investment-appetite-aaf901a2",
+      "title": "Alphabet's $25B Bond Surge Signals AI Investment Appetite",
+      "subtitle": "Google parent's massive debt offering draws record investor demand, contrasting sharply with cooling reception for peers' infrastructure spending.",
+      "category": "industry",
+      "publishedAt": "2026-08-07T00:30:41.000Z",
+      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-08-06/alphabet-returns-to-bond-market-amid-ai-spending-worries",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/alphabets-25b-bond-surge-signals-ai-investment-appetite-aaf901a2.jpg"
+    },
+    {
       "slug": "metas-texas-ai-hub-taps-813-gas-generators-for-power-1b92a488",
       "title": "Meta's Texas AI Hub Taps 813 Gas Generators for Power",
       "subtitle": "As AI compute demands surge, tech giants are building massive on-site power plants to fuel training and inference at scale.",
@@ -10485,6 +10496,7 @@
     "e4ca4a99e2783a2d",
     "94e9e9166692a633",
     "11b2fc0f1c9aeb70",
-    "1b92a488d84f42a3"
+    "1b92a488d84f42a3",
+    "aaf901a24e951cb5"
   ]
 }
