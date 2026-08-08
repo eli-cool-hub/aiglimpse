@@ -11468,6 +11468,24 @@
         "devto": true,
         "hashnode": false
       }
+    },
+    "cloudflare-builds-browser-optimized-specifically-for-ai-agents-54d4cfc7": {
+      "syndicated_at": "2026-08-08T16:33:30.583Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/cloudflare-builds-browser-optimized-specifically-for-ai-agents-k3k",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 488,
+      "category": "industry",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
     }
   }
 }

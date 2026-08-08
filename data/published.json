@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "cloudflare-builds-browser-optimized-specifically-for-ai-agents-54d4cfc7",
+      "title": "Cloudflare Builds Browser Optimized Specifically for AI Agents",
+      "subtitle": "Kitesurf ditches human-centric features to prioritize token efficiency and cost reduction for language model automation.",
+      "category": "industry",
+      "publishedAt": "2026-08-08T11:06:04.000Z",
+      "sourceUrl": "https://blog.cloudflare.com/kitesurf/",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/cloudflare-builds-browser-optimized-specifically-for-ai-agents-54d4cfc7.jpg"
+    },
+    {
       "slug": "amazons-2b-ai-data-center-built-with-minimal-public-oversight-35eb693d",
       "title": "Amazon's $2B AI Data Center Built With Minimal Public Oversight",
       "subtitle": "A California city approved AWS infrastructure through administrative process, raising questions about how Big Tech deploys AI compute resources.",
@@ -10677,6 +10688,7 @@
     "87b39ae6d9f9c7ae",
     "1f1cf2cc7314a637",
     "c24b767dd9669787",
-    "35eb693d155ee59b"
+    "35eb693d155ee59b",
+    "54d4cfc73505d7d9"
   ]
 }
