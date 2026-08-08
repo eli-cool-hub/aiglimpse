@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anthropic Dramatically Reduces Safeguard Errors in Claude 5 | AI Glimpse</title>
+  <meta name="description" content="Anthropic reduces false biology-related refusals in Claude 5 by 85% through constitutional retraining, improving user experience across products.">
+  <meta name="keywords" content="Anthropic, Claude, AI safety, safety classifiers, content moderation">
+  <link rel="canonical" href="https://aiglimpse.ai/articles/anthropic-dramatically-reduces-safeguard-errors-in-claude-5-c24b767d">
+  <meta property="og:type" content="article"><meta property="og:site_name" content="AI Glimpse">
+  <meta property="og:title" content="Anthropic Dramatically Reduces Safeguard Errors in Claude 5">
+  <meta property="og:description" content="Anthropic reduces false biology-related refusals in Claude 5 by 85% through constitutional retraining, improving user experience across products.">
+  <meta property="og:url" content="https://aiglimpse.ai/articles/anthropic-dramatically-reduces-safeguard-errors-in-claude-5-c24b767d">
+  <meta property="og:image" content="https://aiglimpse.ai/images/articles/anthropic-dramatically-reduces-safeguard-errors-in-claude-5-c24b767d.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="article:published_time" content="2026-08-08T09:28:17.000Z">
+  <meta property="article:section" content="Ethics & Policy">
+  <meta property="article:tag" content="Anthropic">
+  <meta property="article:tag" content="Claude">
+  <meta property="article:tag" content="AI safety">
+  <meta property="article:tag" content="safety classifiers">
+  <meta property="article:tag" content="content moderation">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Anthropic Dramatically Reduces Safeguard Errors in Claude 5">
+  <meta name="twitter:description" content="Anthropic reduces false biology-related refusals in Claude 5 by 85% through constitutional retraining, improving user experience across products.">
+  <meta name="twitter:image" content="https://aiglimpse.ai/images/articles/anthropic-dramatically-reduces-safeguard-errors-in-claude-5-c24b767d.jpg">
+  <link rel="icon" type="image/svg+xml" href="/images/favicon.svg">
+  <link rel="alternate" type="application/rss+xml" title="AI Glimpse RSS" href="/rss.xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700;9..144,900&family=Inter+Tight:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap">
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="preload" as="image" href="/images/articles/anthropic-dramatically-reduces-safeguard-errors-in-claude-5-c24b767d.webp" type="image/webp" fetchpriority="high">
+  <style>.reading-progress{position:fixed;top:0;left:0;height:3px;background:var(--color-accent);width:0%;z-index:200;transition:width 100ms linear;}</style>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"NewsArticle","mainEntityOfPage":{"@type":"WebPage","@id":"https://aiglimpse.ai/articles/anthropic-dramatically-reduces-safeguard-errors-in-claude-5-c24b767d"},"headline":"Anthropic Dramatically Reduces Safeguard Errors in Claude 5","description":"Anthropic reduces false biology-related refusals in Claude 5 by 85% through constitutional retraining, improving user experience across products.","image":["https://aiglimpse.ai/images/articles/anthropic-dramatically-reduces-safeguard-errors-in-claude-5-c24b767d.jpg"],"datePublished":"2026-08-08T09:28:17.000Z","dateModified":"2026-08-08T09:28:17.000Z","author":{"@type":"Organization","name":"AI Glimpse Newsroom"},"publisher":{"@type":"Organization","name":"AI Glimpse","logo":{"@type":"ImageObject","url":"https://aiglimpse.ai/images/logo.svg"}},"articleSection":"Ethics & Policy","keywords":"Anthropic, Claude, AI safety, safety classifiers, content moderation","isBasedOn":{"@type":"CreativeWork","url":"https://www.anthropic.com/news/improving-fable-5-s-biology-safeguards","name":"Anthropic Retunes Fable 5, Cuts Biology Fallbacks by 85%"}}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://aiglimpse.ai/"},{"@type":"ListItem","position":2,"name":"Ethics & Policy","item":"https://aiglimpse.ai/categories/ethics"},{"@type":"ListItem","position":3,"name":"Anthropic Dramatically Reduces Safeguard Errors in Claude 5","item":"https://aiglimpse.ai/articles/anthropic-dramatically-reduces-safeguard-errors-in-claude-5-c24b767d"}]}</script>
+  <meta name="google-site-verification" content="B132aMlqf1nssWYhjOSKUgSjmfwNWgPgtozZsHDxWlU" />
+  <meta name="msvalidate.01" content="F3762E555B3E685836AE39C90B79ECBF" />
+  <!-- aiglimpse-consent-default v1: must run before AdSense, defaults all ad/analytics storage to denied -->
+  <script>(function(){window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}window.gtag=gtag;gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'denied',functionality_storage:'granted',security_storage:'granted',wait_for_update:500});try{var s=JSON.parse(localStorage.getItem('aiglimpse-consent')||'null');if(s&&s.choice==='granted'){gtag('consent','update',{ad_storage:'granted',ad_user_data:'granted',ad_personalization:'granted',analytics_storage:'granted'});}}catch(e){}})();</script>
+  <!-- aiglimpse-ga4 v1: gtag.js loaded after consent default, so it buffers events until consent is granted -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-EVZ52DNQ8S"></script>
+  <script>gtag('js', new Date()); gtag('config', 'G-EVZ52DNQ8S', { anonymize_ip: true });</script>
+</head>
+<body>
+  <div class="reading-progress" aria-hidden="true"></div>
+  <header class="site-header" role="banner">
+    <div class="container">
+      <div class="header-bar">
+        <a href="/" class="logo" aria-label="AI Glimpse home">
+          <span class="logo-wordmark" aria-label="AI Glimpse">A<span class="iris-i" aria-hidden="true">ı</span><span aria-hidden="true"> Glimpse</span></span>
+        </a>
+        <nav class="nav-primary" aria-label="Primary">
+          <a href="/categories/llms">LLMs</a>
+            <a href="/categories/research">Research</a>
+            <a href="/categories/tools">Tools</a>
+            <a href="/categories/business">Business</a>
+            <a href="/categories/ethics">Ethics</a>
+            <a href="/categories/industry">Industry</a>
+            <a href="/categories/robotics">Robotics</a>
+        </nav>
+        <div class="header-actions">
+          <a class="search-btn" href="/search" aria-label="Search">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="11" cy="11" r="7"/><path d="M21 21l-4.35-4.35"/>
+            </svg>
+          </a>
+          <a href="#newsletter" class="btn btn--primary btn--sm">Subscribe</a>
+          <button class="menu-btn" aria-label="Open menu">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+  <aside class="mobile-menu" aria-label="Mobile menu">
+    <div class="mobile-menu-header">
+      <a href="/" class="logo">
+        <span class="logo-wordmark" aria-label="AI Glimpse">A<span class="iris-i" aria-hidden="true">ı</span><span aria-hidden="true"> Glimpse</span></span>
+      </a>
+      <button class="mobile-menu-close" aria-label="Close menu" style="font-size:24px;">×</button>
+    </div>
+    <a href="/categories/llms">LLMs</a>
+    <a href="/categories/research">Research</a>
+    <a href="/categories/tools">Tools</a>
+    <a href="/categories/business">Business</a>
+    <a href="/categories/ethics">Ethics</a>
+    <a href="/categories/industry">Industry</a>
+    <a href="/categories/robotics">Robotics</a>
+    <a href="/search">Search</a>
+    <a href="/pages/about">About</a>
+    <a href="#newsletter">Subscribe</a>
+  </aside>
+  <main>
+    <article>
+      <section class="article-hero">
+        <div class="container container--narrow">
+          <nav aria-label="Breadcrumb" style="margin-bottom:var(--space-4);font-size:var(--text-xs);color:var(--color-ink-muted);">
+            <a href="/" style="color:inherit;">Home</a> /
+            <a href="/categories/ethics" style="color:inherit;">Ethics & Policy</a>
+          </nav>
+          <div class="article-hero-meta">
+            <span class="tag tag--ethics">Ethics & Policy</span>
+            <span class="eyebrow">2 min read</span>
+          </div>
+          <h1 class="article-hero-title">Anthropic Dramatically Reduces Safeguard Errors in Claude 5</h1>
+          <p class="article-hero-subtitle">New constitutional approach cuts biology-related refusals by 85%, showing how safety classifiers perform better with careful retraining.</p>
+          <div class="article-byline">
+            <div>By <strong>AI Glimpse Newsroom</strong></div><div>·</div>
+            <div><time datetime="2026-08-08T09:28:17.000Z" data-relative="false">August 8, 2026</time></div>
+          </div>
+        </div>
+      </section>
+      <section style="padding: var(--space-7) 0;">
+        <div class="container container--narrow">
+          <figure class="article-image"><picture><source srcset="/images/articles/anthropic-dramatically-reduces-safeguard-errors-in-claude-5-c24b767d.webp" type="image/webp"><img src="/images/articles/anthropic-dramatically-reduces-safeguard-errors-in-claude-5-c24b767d.jpg" alt="Anthropic Dramatically Reduces Safeguard Errors in Claude 5" loading="eager" fetchpriority="high" width="1200" height="630"></picture></figure>
+          <div class="article-body"><p>Anthropic has achieved a significant improvement in how Claude 5 handles requests related to biological topics, according to <a href="https://www.anthropic.com/news/improving-fable-5-s-biology-safeguards">AI Weekly</a>. The company deployed a redesigned safety classification system that reduced false rejections by roughly 85 percent across its lineup of products, while cutting overall refusal rates by between 17 and 67 percent depending on the platform.</p><p>The advancement highlights a growing area of focus in AI development: narrowing the gap between how safety systems behave in controlled testing environments and how they perform when serving real users. Safety classifiers represent a crucial but imperfect component of modern <a href="/articles/how-large-language-models-work-clear-explainer">language models</a>, and balancing their protective function against user experience remains a persistent challenge.</p><h2>How the Update Works</h2><p>The improvements stemmed from two complementary changes. Anthropic rewrote the set of constitutional principles that guide the safety classifier's decision-making, then retrained the underlying model using this updated framework. This dual approach proved more effective than either change alone would have been.</p><p>The biology safeguards specifically addressed a domain where classifiers frequently produce false positives, mistakenly rejecting legitimate scientific, educational, or medical inquiries. By refining what the classifier actually considers problematic rather than simply loosening all restrictions, Anthropic achieved higher accuracy without sacrificing safety.</p><h2>Varied Impact Across Platforms</h2><p>The effectiveness of the update varied across Anthropic's different product surfaces:</p><ul><li>Claude.ai showed a 67 percent reduction in total refusal volume</li><li>Cowork experienced a 55 percent decrease</li><li>Claude Code saw a 17 percent improvement</li></ul><p>These differences reflect how user behavior and request patterns differ across platforms. The stricter reductions on specialized products suggest that targeted users issue fewer edge-case biology queries requiring safeguard intervention.</p><h2>Broader Implications</h2><p>This project underscores a fundamental truth in AI safety work: preventing misuse and enabling legitimate use are not entirely separate problems. Overly aggressive safeguards frustrate users attempting normal tasks, potentially driving them elsewhere. Conversely, permissive systems create risks that erode user trust.</p><p>The constitutional approach that powered these improvements represents Anthropic's broader research direction. Rather than relying solely on rule-based filtering or manual lists of prohibited content, the company trains models to reason about what kinds of outputs align with desired principles. When those principles are well-calibrated, the resulting behavior improves considerably.</p><p>The work also demonstrates that safety performance is not fixed at training time. Post-training adjustments, classifier retraining, and constitutional refinements can meaningfully alter how deployed systems behave in production. This suggests that AI safety is increasingly an iterative engineering discipline rather than a one-time alignment problem solved before deployment.</p><p>As <a href="/categories/llms">language models</a> become more widely deployed across sensitive domains like healthcare, education, and scientific research, reducing false rejections without compromising safety will remain critical. Anthropic's latest refinement shows measurable progress on that front, though questions persist about whether current approaches can scale to handle increasingly complex safety scenarios.</p></div>
+          <!-- Inline ad slot, will be re-enabled once AdSense is approved -->
+          <p style="font-size:var(--text-xs);color:var(--color-ink-faint);margin-top:var(--space-6);padding-top:var(--space-4);border-top:1px solid var(--color-rule);">
+            Based on reporting from <a href="https://www.anthropic.com/news/improving-fable-5-s-biology-safeguards" rel="nofollow noopener" target="_blank" style="color:inherit;text-decoration:underline;">AI Weekly</a>.
+          </p>
+        </div>
+      </section>
+    </article>
+    <section class="section" aria-label="Related articles">
+      <div class="container container--narrow">
+        <div class="section-header">
+          <h2 class="section-title">More from AI Glimpse</h2>
+          <a href="/categories/ethics" class="section-link">All Ethics stories</a>
+        </div>
+        <div class="grid grid-3">
+          <article class="card card--medium">
+            <a href="/articles/security-lapse-at-openai-sparks-call-for-ai-lab-oversight-7bbf81df"><div class="card-image"><picture><source srcset="/images/articles/security-lapse-at-openai-sparks-call-for-ai-lab-oversight-7bbf81df.webp" type="image/webp"><img src="/images/articles/security-lapse-at-openai-sparks-call-for-ai-lab-oversight-7bbf81df.jpg" alt="Security Lapse at OpenAI Sparks Call for AI Lab Oversight" loading="lazy" width="1200" height="630"></picture></div></a>
+            <div class="card-meta">
+              <span class="tag tag--ethics">Ethics</span>
+              <span class="card-byline"><time datetime="2026-08-07T03:12:01.000Z">Aug 7, 2026</time></span>
+            </div>
+            <a href="/articles/security-lapse-at-openai-sparks-call-for-ai-lab-oversight-7bbf81df"><h3 class="card-title">Security Lapse at OpenAI Sparks Call for AI Lab Oversight</h3></a>
+          </article>
+          <article class="card card--medium">
+            <a href="/articles/wyden-proposes-excise-tax-on-ai-data-centers-as-democratic-consensus-fractures-951204a8"><div class="card-image"><picture><source srcset="/images/articles/wyden-proposes-excise-tax-on-ai-data-centers-as-democratic-consensus-fractures-951204a8.webp" type="image/webp"><img src="/images/articles/wyden-proposes-excise-tax-on-ai-data-centers-as-democratic-consensus-fractures-951204a8.jpg" alt="Wyden Proposes Excise Tax on AI Data Centers as Democratic Consensus Fractures" loading="lazy" width="1200" height="630"></picture></div></a>
+            <div class="card-meta">
+              <span class="tag tag--ethics">Ethics</span>
+              <span class="card-byline"><time datetime="2026-08-07T03:30:17.000Z">Aug 7, 2026</time></span>
+            </div>
+            <a href="/articles/wyden-proposes-excise-tax-on-ai-data-centers-as-democratic-consensus-fractures-951204a8"><h3 class="card-title">Wyden Proposes Excise Tax on AI Data Centers as Democratic Consensus Fractures</h3></a>
+          </article>
+          <article class="card card--medium">
+            <a href="/articles/chinese-ai-labs-glm-52-matches-frontier-models-on-dangerous-capabilities-965c386b"><div class="card-image"><picture><source srcset="/images/articles/chinese-ai-labs-glm-52-matches-frontier-models-on-dangerous-capabilities-965c386b.webp" type="image/webp"><img src="/images/articles/chinese-ai-labs-glm-52-matches-frontier-models-on-dangerous-capabilities-965c386b.jpg" alt="Chinese AI Lab's GLM-5.2 Matches Frontier Models on Dangerous Capabilities" loading="lazy" width="1200" height="630"></picture></div></a>
+            <div class="card-meta">
+              <span class="tag tag--ethics">Ethics</span>
+              <span class="card-byline"><time datetime="2026-08-05T22:57:28.000Z">Aug 5, 2026</time></span>
+            </div>
+            <a href="/articles/chinese-ai-labs-glm-52-matches-frontier-models-on-dangerous-capabilities-965c386b"><h3 class="card-title">Chinese AI Lab's GLM-5.2 Matches Frontier Models on Dangerous Capabilities</h3></a>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="/" class="logo">
+            <span class="logo-wordmark" aria-label="AI Glimpse">A<span class="iris-i" aria-hidden="true">ı</span><span aria-hidden="true"> Glimpse</span></span>
+          </a>
+          <p>Your daily glimpse into AI. Independent reporting and analysis on the people, products, and policies shaping artificial intelligence.</p>
+        </div>
+        <div class="footer-col">
+          <h5>Categories</h5>
+          <ul>
+            <li><a href="/categories/llms">LLMs</a></li>
+            <li><a href="/categories/research">Research</a></li>
+            <li><a href="/categories/tools">Tools</a></li>
+            <li><a href="/categories/business">Business</a></li>
+            <li><a href="/categories/ethics">Ethics</a></li>
+            <li><a href="/categories/industry">Industry</a></li>
+            <li><a href="/categories/robotics">Robotics</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h5>About</h5>
+          <ul>
+            <li><a href="/pages/about">About AI Glimpse</a></li>
+            <li><a href="/pages/contact">Contact</a></li>
+            <li><a href="/pages/editorial">Editorial Standards</a></li>
+            <li><a href="/pages/advertise">Advertise</a></li>
+            <li><a href="/guides">Guides &amp; Explainers</a></li>
+            <li><a href="/search">Search</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h5>Legal</h5>
+          <ul>
+            <li><a href="/pages/privacy">Privacy Policy</a></li>
+            <li><a href="/pages/terms">Terms of Service</a></li>
+            <li><a href="#" data-consent-open>Cookie preferences</a></li>
+            <li><a href="/rss.xml">RSS Feed</a></li>
+            <li><a href="/sitemap.xml">Sitemap</a></li>
+            <li><a href="/llms.txt">LLMs.txt</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div>© <span id="year">2026</span> AI Glimpse · aiglimpse.ai</div>
+        <div class="footer-social">
+          <a href="/rss.xml" aria-label="RSS"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M6.503 20.752c0 1.794-1.456 3.248-3.251 3.248-1.796 0-3.252-1.454-3.252-3.248 0-1.794 1.456-3.248 3.252-3.248 1.795 0 3.251 1.454 3.251 3.248zm-6.503-12.572v4.811c6.05.062 10.96 4.966 11.022 11.009h4.817c-.062-8.71-7.118-15.758-15.839-15.82zm0-3.368c10.58.046 19.152 8.594 19.183 19.188h4.817c-.03-13.231-10.755-23.954-24-24v4.812z"/></svg></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="/js/chrome.js"></script>
+  <script src="/js/main.js"></script>
+</body>
+</html>

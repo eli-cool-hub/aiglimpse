@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "amazons-2b-ai-data-center-built-with-minimal-public-oversight-35eb693d",
+      "title": "Amazon's $2B AI Data Center Built With Minimal Public Oversight",
+      "subtitle": "A California city approved AWS infrastructure through administrative process, raising questions about how Big Tech deploys AI compute resources.",
+      "category": "industry",
+      "publishedAt": "2026-08-08T12:37:07.000Z",
+      "sourceUrl": "https://www.wsj.com/us-news/how-amazon-built-a-data-center-in-a-california-town-without-anyone-noticing-8610bb67",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/amazons-2b-ai-data-center-built-with-minimal-public-oversight-35eb693d.jpg"
+    },
+    {
+      "slug": "anthropic-dramatically-reduces-safeguard-errors-in-claude-5-c24b767d",
+      "title": "Anthropic Dramatically Reduces Safeguard Errors in Claude 5",
+      "subtitle": "New constitutional approach cuts biology-related refusals by 85%, showing how safety classifiers perform better with careful retraining.",
+      "category": "ethics",
+      "publishedAt": "2026-08-08T09:28:17.000Z",
+      "sourceUrl": "https://www.anthropic.com/news/improving-fable-5-s-biology-safeguards",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/anthropic-dramatically-reduces-safeguard-errors-in-claude-5-c24b767d.jpg"
+    },
+    {
       "slug": "nvidia-invests-3b-in-power-infrastructure-to-secure-ai-compute-future-1f1cf2cc",
       "title": "Nvidia Invests $3B in Power Infrastructure to Secure AI Compute Future",
       "subtitle": "The chipmaker moves beyond hardware sales to control the energy backbone powering next-generation AI data centers.",
@@ -10653,6 +10675,8 @@
     "7bbf81df3055130b",
     "a53a628af307afd7",
     "87b39ae6d9f9c7ae",
-    "1f1cf2cc7314a637"
+    "1f1cf2cc7314a637",
+    "c24b767dd9669787",
+    "35eb693d155ee59b"
   ]
 }

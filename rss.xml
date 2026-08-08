@@ -7,6 +7,22 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Amazon's $2B AI Data Center Built With Minimal Public Oversight</title>
+      <link>https://aiglimpse.ai/articles/amazons-2b-ai-data-center-built-with-minimal-public-oversight-35eb693d</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/amazons-2b-ai-data-center-built-with-minimal-public-oversight-35eb693d</guid>
+      <description>A California city approved AWS infrastructure through administrative process, raising questions about how Big Tech deploys AI compute resources.</description>
+      <pubDate>Sat, 08 Aug 2026 12:37:07 GMT</pubDate>
+      <category>Industry Applications</category>
+    </item>
+    <item>
+      <title>Anthropic Dramatically Reduces Safeguard Errors in Claude 5</title>
+      <link>https://aiglimpse.ai/articles/anthropic-dramatically-reduces-safeguard-errors-in-claude-5-c24b767d</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/anthropic-dramatically-reduces-safeguard-errors-in-claude-5-c24b767d</guid>
+      <description>New constitutional approach cuts biology-related refusals by 85%, showing how safety classifiers perform better with careful retraining.</description>
+      <pubDate>Sat, 08 Aug 2026 09:28:17 GMT</pubDate>
+      <category>Ethics &amp; Policy</category>
+    </item>
+    <item>
       <title>Nvidia Invests $3B in Power Infrastructure to Secure AI Compute Future</title>
       <link>https://aiglimpse.ai/articles/nvidia-invests-3b-in-power-infrastructure-to-secure-ai-compute-future-1f1cf2cc</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/nvidia-invests-3b-in-power-infrastructure-to-secure-ai-compute-future-1f1cf2cc</guid>
@@ -389,22 +405,6 @@
       <description>AI system solves open questions in geometry, cryptography, and complexity theory, signaling potential for machine learning in pure mathematics.</description>
       <pubDate>Sat, 01 Aug 2026 00:00:00 GMT</pubDate>
       <category>LLMs &amp; Chatbots</category>
-    </item>
-    <item>
-      <title>Robotics Sector Surges as AI Training, Hardware, and Policy Reshape the Industry</title>
-      <link>https://aiglimpse.ai/articles/robotics-sector-surges-as-ai-training-hardware-and-policy-reshape-the-industry-e2b7986a</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/robotics-sector-surges-as-ai-training-hardware-and-policy-reshape-the-industry-e2b7986a</guid>
-      <description>July 2026 marked a turning point for physical AI adoption, with major funding rounds, breakthroughs in robot learning, and new U.S. trade restrictions reshaping the competitive landscape.</description>
-      <pubDate>Sat, 01 Aug 2026 12:00:30 GMT</pubDate>
-      <category>Robotics</category>
-    </item>
-    <item>
-      <title>Mexico Emerges as AI Server Manufacturing Hub, Challenging Taiwan</title>
-      <link>https://aiglimpse.ai/articles/mexico-emerges-as-ai-server-manufacturing-hub-challenging-taiwan-d955a148</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/mexico-emerges-as-ai-server-manufacturing-hub-challenging-taiwan-d955a148</guid>
-      <description>Assembly of enterprise hardware for artificial intelligence workloads is reshaping global supply chains as Mexico surpasses traditional chip leaders.</description>
-      <pubDate>Sun, 02 Aug 2026 15:26:50 GMT</pubDate>
-      <category>Industry Applications</category>
     </item>
   </channel>
 </rss>
