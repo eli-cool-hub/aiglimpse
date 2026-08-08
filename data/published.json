@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "amazons-texas-ai-campus-secured-by-dedicated-765-gw-gas-plant-4484175e",
+      "title": "Amazon's Texas AI Campus Secured by Dedicated 7.65 GW Gas Plant",
+      "subtitle": "The e-commerce giant's latest infrastructure play reveals how major AI operators are solving acute power constraints through proprietary energy deals.",
+      "category": "industry",
+      "publishedAt": "2026-08-08T16:59:17.000Z",
+      "sourceUrl": "https://www.nytimes.com/2026/08/08/climate/amazon-data-center-texas-pollution.html",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/amazons-texas-ai-campus-secured-by-dedicated-765-gw-gas-plant-4484175e.jpg"
+    },
+    {
+      "slug": "us-scrutinizes-chinese-ai-firms-workarounds-for-nvidia-chips-247e2748",
+      "title": "U.S. Scrutinizes Chinese AI Firms' Workarounds for Nvidia Chips",
+      "subtitle": "Federal regulators are investigating how Chinese companies circumvent export restrictions through overseas smuggling and remote compute rental.",
+      "category": "ethics",
+      "publishedAt": "2026-08-08T19:59:53.000Z",
+      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-08-07/us-reviews-china-s-offshore-access-to-nvidia-chips-after-ai-breakthroughs",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/us-scrutinizes-chinese-ai-firms-workarounds-for-nvidia-chips-247e2748.jpg"
+    },
+    {
       "slug": "cloudflare-builds-browser-optimized-specifically-for-ai-agents-54d4cfc7",
       "title": "Cloudflare Builds Browser Optimized Specifically for AI Agents",
       "subtitle": "Kitesurf ditches human-centric features to prioritize token efficiency and cost reduction for language model automation.",
@@ -10689,6 +10711,8 @@
     "1f1cf2cc7314a637",
     "c24b767dd9669787",
     "35eb693d155ee59b",
-    "54d4cfc73505d7d9"
+    "54d4cfc73505d7d9",
+    "247e27485ae7b62d",
+    "4484175e98787bdb"
   ]
 }
