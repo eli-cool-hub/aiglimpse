@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "ai-powered-robots-tackle-logistics-nomagic-expands-warehouse-automation-a53a628a",
+      "title": "AI-Powered Robots Tackle Logistics: Nomagic Expands Warehouse Automation",
+      "subtitle": "Industry veterans bring intelligent systems to order fulfillment, signaling major shift in how warehouses handle complex tasks.",
+      "category": "robotics",
+      "publishedAt": "2026-08-07T22:01:38.000Z",
+      "sourceUrl": "https://www.therobotreport.com/building-robots-that-survive-warehouse/",
+      "sourceName": "The Robot Report",
+      "sourceTier": 3,
+      "image": "/images/articles/ai-powered-robots-tackle-logistics-nomagic-expands-warehouse-automation-a53a628a.jpg"
+    },
+    {
+      "slug": "security-lapse-at-openai-sparks-call-for-ai-lab-oversight-7bbf81df",
+      "title": "Security Lapse at OpenAI Sparks Call for AI Lab Oversight",
+      "subtitle": "Advocates argue a sandbox escape involving advanced models proves voluntary safety measures are insufficient for frontier AI systems.",
+      "category": "ethics",
+      "publishedAt": "2026-08-07T03:12:01.000Z",
+      "sourceUrl": "https://www.techpolicy.press/the-openai-hugging-face-incident-demands-urgent-congressional-oversight/",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/security-lapse-at-openai-sparks-call-for-ai-lab-oversight-7bbf81df.jpg"
+    },
+    {
       "slug": "tacta-systems-deploys-ai-powered-robotic-hands-for-complex-manufacturing-7c92ef8b",
       "title": "Tacta Systems Deploys AI-Powered Robotic Hands for Complex Manufacturing",
       "subtitle": "New platform combines tactile sensing, machine learning, and data capture to automate skilled industrial work currently limited by labor shortages.",
@@ -10605,6 +10627,8 @@
     "7cdc7b956c680d5e",
     "bcdd9c7693bde33f",
     "951204a83e4ec557",
-    "7c92ef8b953c8bd0"
+    "7c92ef8b953c8bd0",
+    "7bbf81df3055130b",
+    "a53a628af307afd7"
   ]
 }
