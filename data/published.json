@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "nvidia-invests-3b-in-power-infrastructure-to-secure-ai-compute-future-1f1cf2cc",
+      "title": "Nvidia Invests $3B in Power Infrastructure to Secure AI Compute Future",
+      "subtitle": "The chipmaker moves beyond hardware sales to control the energy backbone powering next-generation AI data centers.",
+      "category": "industry",
+      "publishedAt": "2026-08-08T08:00:31.000Z",
+      "sourceUrl": "https://www.theinformation.com/articles/nvidia-invest-3-billion-blackstone-backed-power-firm-behind-stargate",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/nvidia-invests-3b-in-power-infrastructure-to-secure-ai-compute-future-1f1cf2cc.jpg"
+    },
+    {
+      "slug": "ai-safety-rules-create-unequal-playing-field-for-cyber-defense-87b39ae6",
+      "title": "AI Safety Rules Create Unequal Playing Field for Cyber Defense",
+      "subtitle": "Guardrails designed to prevent misuse are blocking defenders while failing to stop determined attackers, new research warns.",
+      "category": "research",
+      "publishedAt": "2026-08-06T19:25:39.000Z",
+      "sourceUrl": "https://spectrum.ieee.org/hugging-face-openai-cyberattack",
+      "sourceName": "IEEE Spectrum AI",
+      "sourceTier": 2,
+      "image": "/images/articles/ai-safety-rules-create-unequal-playing-field-for-cyber-defense-87b39ae6.jpg"
+    },
+    {
       "slug": "ai-powered-robots-tackle-logistics-nomagic-expands-warehouse-automation-a53a628a",
       "title": "AI-Powered Robots Tackle Logistics: Nomagic Expands Warehouse Automation",
       "subtitle": "Industry veterans bring intelligent systems to order fulfillment, signaling major shift in how warehouses handle complex tasks.",
@@ -10629,6 +10651,8 @@
     "951204a83e4ec557",
     "7c92ef8b953c8bd0",
     "7bbf81df3055130b",
-    "a53a628af307afd7"
+    "a53a628af307afd7",
+    "87b39ae6d9f9c7ae",
+    "1f1cf2cc7314a637"
   ]
 }
