@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "tacta-systems-deploys-ai-powered-robotic-hands-for-complex-manufacturing-7c92ef8b",
+      "title": "Tacta Systems Deploys AI-Powered Robotic Hands for Complex Manufacturing",
+      "subtitle": "New platform combines tactile sensing, machine learning, and data capture to automate skilled industrial work currently limited by labor shortages.",
+      "category": "robotics",
+      "publishedAt": "2026-08-07T21:53:33.000Z",
+      "sourceUrl": "https://www.therobotreport.com/tacta-systems-takes-aim-high-skilled-manufacturing-work-tactabot/",
+      "sourceName": "The Robot Report",
+      "sourceTier": 3,
+      "image": "/images/articles/tacta-systems-deploys-ai-powered-robotic-hands-for-complex-manufacturing-7c92ef8b.jpg"
+    },
+    {
+      "slug": "wyden-proposes-excise-tax-on-ai-data-centers-as-democratic-consensus-fractures-951204a8",
+      "title": "Wyden Proposes Excise Tax on AI Data Centers as Democratic Consensus Fractures",
+      "subtitle": "The Oregon senator's revenue-based approach signals a shift from AI regulation toward fiscal policy, exposing deep splits within the party.",
+      "category": "ethics",
+      "publishedAt": "2026-08-07T03:30:17.000Z",
+      "sourceUrl": "https://www.notus.org/technology/democrats-split-ai-grows-wyden-tax-data-centers",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/wyden-proposes-excise-tax-on-ai-data-centers-as-democratic-consensus-fractures-951204a8.jpg"
+    },
+    {
       "slug": "darpas-heavy-lift-drone-challenge-showcases-unconventional-aircraft-designs-bcdd9c76",
       "title": "DARPA's Heavy-Lift Drone Challenge Showcases Unconventional Aircraft Designs",
       "subtitle": "Pentagon-backed competition demonstrates radical approaches to autonomous cargo transport, signaling new era in military robotics.",
@@ -10581,6 +10603,8 @@
     "144d222ba764c1fe",
     "fe968df844d60874",
     "7cdc7b956c680d5e",
-    "bcdd9c7693bde33f"
+    "bcdd9c7693bde33f",
+    "951204a83e4ec557",
+    "7c92ef8b953c8bd0"
   ]
 }
