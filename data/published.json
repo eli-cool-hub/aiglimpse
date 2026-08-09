@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "analog-devices-deepens-robotics-push-with-massrobotics-partnership-0d17bf9c",
+      "title": "Analog Devices Deepens Robotics Push With MassRobotics Partnership",
+      "subtitle": "Chip maker renews sponsorship to accelerate hardware development for autonomous systems startups through technical mentorship and engineering resources.",
+      "category": "robotics",
+      "publishedAt": "2026-08-09T12:30:42.000Z",
+      "sourceUrl": "https://www.therobotreport.com/analog-devices-returns-strategic-sponsor-aid-massrobotics-startups/",
+      "sourceName": "The Robot Report",
+      "sourceTier": 3,
+      "image": "/images/articles/analog-devices-deepens-robotics-push-with-massrobotics-partnership-0d17bf9c.jpg"
+    },
+    {
+      "slug": "eus-ai-disclosure-rules-launch-with-minimal-safeguards-eed02464",
+      "title": "EU's AI Disclosure Rules Launch With Minimal Safeguards",
+      "subtitle": "New transparency requirements reduce synthetic content detection to a checkbox, leaving deeper protections voluntary.",
+      "category": "business",
+      "publishedAt": "2026-08-08T21:12:01.000Z",
+      "sourceUrl": "https://www.techpolicy.press/eu-ai-act-transparency-rules-are-now-in-effect-was-it-a-missed-opportunity/",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/eus-ai-disclosure-rules-launch-with-minimal-safeguards-eed02464.jpg"
+    },
+    {
       "slug": "googles-ai-risk-framework-splits-harms-into-tiers-reshaping-regulation-875e64e8",
       "title": "Google's AI Risk Framework Splits Harms Into Tiers, Reshaping Regulation",
       "subtitle": "The tech giant's governance proposal treats exceptional AI dangers differently, creating a blueprint that avoids both strict oversight and total deregulation.",
@@ -10761,6 +10783,8 @@
     "85ac81b92c925682",
     "80e4e8bd9aba6ebd",
     "69ba2696d7bf15ce",
-    "875e64e8babca950"
+    "875e64e8babca950",
+    "eed0246426f886ad",
+    "0d17bf9c6403a7aa"
   ]
 }
