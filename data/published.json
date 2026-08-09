@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "german-court-finds-suno-liable-for-copyright-infringement-in-ai-training-85ac81b9",
+      "title": "German Court Finds Suno Liable for Copyright Infringement in AI Training",
+      "subtitle": "A Munich tribunal rules that the US music generator violated intellectual property rights by using protected compositions without licensing agreements.",
+      "category": "business",
+      "publishedAt": "2026-08-09T00:37:46.000Z",
+      "sourceUrl": "https://www.reuters.com/world/german-court-rules-ai-music-firm-suno-broke-copyright-rules-2026-07-31",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/german-court-finds-suno-liable-for-copyright-infringement-in-ai-training-85ac81b9.jpg"
+    },
+    {
       "slug": "amazons-texas-ai-campus-secured-by-dedicated-765-gw-gas-plant-4484175e",
       "title": "Amazon's Texas AI Campus Secured by Dedicated 7.65 GW Gas Plant",
       "subtitle": "The e-commerce giant's latest infrastructure play reveals how major AI operators are solving acute power constraints through proprietary energy deals.",
@@ -10713,6 +10724,7 @@
     "35eb693d155ee59b",
     "54d4cfc73505d7d9",
     "247e27485ae7b62d",
-    "4484175e98787bdb"
+    "4484175e98787bdb",
+    "85ac81b92c925682"
   ]
 }
