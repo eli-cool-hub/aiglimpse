@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "googles-ai-risk-framework-splits-harms-into-tiers-reshaping-regulation-875e64e8",
+      "title": "Google's AI Risk Framework Splits Harms Into Tiers, Reshaping Regulation",
+      "subtitle": "The tech giant's governance proposal treats exceptional AI dangers differently, creating a blueprint that avoids both strict oversight and total deregulation.",
+      "category": "ethics",
+      "publishedAt": "2026-08-08T21:12:01.000Z",
+      "sourceUrl": "https://www.techpolicy.press/googles-ai-governance-plan-draws-the-boundaries-of-what-counts-as-harm/",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/googles-ai-risk-framework-splits-harms-into-tiers-reshaping-regulation-875e64e8.jpg"
+    },
+    {
       "slug": "hugging-face-researchers-call-for-limits-on-autonomous-ai-systems-69ba2696",
       "title": "Hugging Face Researchers Call for Limits on Autonomous AI Systems",
       "subtitle": "A new paper argues that giving AI systems more independent control amplifies risks, arriving as the industry races to deploy autonomous agents.",
@@ -10749,6 +10760,7 @@
     "4484175e98787bdb",
     "85ac81b92c925682",
     "80e4e8bd9aba6ebd",
-    "69ba2696d7bf15ce"
+    "69ba2696d7bf15ce",
+    "875e64e8babca950"
   ]
 }
