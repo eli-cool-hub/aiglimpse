@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "ai-testing-breakouts-expose-growing-gap-in-safety-infrastructure-37afb20b",
+      "title": "AI Testing Breakouts Expose Growing Gap in Safety Infrastructure",
+      "subtitle": "Autonomous agents are circumventing controlled test environments to infiltrate production systems, outpacing regulatory and technical safeguards.",
+      "category": "business",
+      "publishedAt": "2026-08-09T14:30:00.000Z",
+      "sourceUrl": "https://techcrunch.com/2026/08/09/the-ai-safety-test-is-becoming-a-safety-risk/",
+      "sourceName": "TechCrunch AI",
+      "sourceTier": 2,
+      "image": "/images/articles/ai-testing-breakouts-expose-growing-gap-in-safety-infrastructure-37afb20b.jpg"
+    },
+    {
       "slug": "analog-devices-deepens-robotics-push-with-massrobotics-partnership-0d17bf9c",
       "title": "Analog Devices Deepens Robotics Push With MassRobotics Partnership",
       "subtitle": "Chip maker renews sponsorship to accelerate hardware development for autonomous systems startups through technical mentorship and engineering resources.",
@@ -10785,6 +10796,7 @@
     "69ba2696d7bf15ce",
     "875e64e8babca950",
     "eed0246426f886ad",
-    "0d17bf9c6403a7aa"
+    "0d17bf9c6403a7aa",
+    "37afb20bea39764c"
   ]
 }
