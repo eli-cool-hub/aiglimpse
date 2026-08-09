@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "hugging-face-researchers-call-for-limits-on-autonomous-ai-systems-69ba2696",
+      "title": "Hugging Face Researchers Call for Limits on Autonomous AI Systems",
+      "subtitle": "A new paper argues that giving AI systems more independent control amplifies risks, arriving as the industry races to deploy autonomous agents.",
+      "category": "research",
+      "publishedAt": "2026-08-09T03:12:01.000Z",
+      "sourceUrl": "https://arxiv.org/abs/2502.02649",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/hugging-face-researchers-call-for-limits-on-autonomous-ai-systems-69ba2696.jpg"
+    },
+    {
+      "slug": "denmark-mandates-oral-exams-to-combat-ai-cheating-in-schools-80e4e8bd",
+      "title": "Denmark Mandates Oral Exams to Combat AI Cheating in Schools",
+      "subtitle": "Copenhagen becomes first European nation to systematically address generative AI abuse in secondary education through verification interviews.",
+      "category": "ethics",
+      "publishedAt": "2026-08-08T21:31:09.000Z",
+      "sourceUrl": "https://www.euronews.com/next/2026/08/07/denmark-tightens-rules-on-secondary-school-students-to-prevent-ai-cheating",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/denmark-mandates-oral-exams-to-combat-ai-cheating-in-schools-80e4e8bd.jpg"
+    },
+    {
       "slug": "german-court-finds-suno-liable-for-copyright-infringement-in-ai-training-85ac81b9",
       "title": "German Court Finds Suno Liable for Copyright Infringement in AI Training",
       "subtitle": "A Munich tribunal rules that the US music generator violated intellectual property rights by using protected compositions without licensing agreements.",
@@ -10725,6 +10747,8 @@
     "54d4cfc73505d7d9",
     "247e27485ae7b62d",
     "4484175e98787bdb",
-    "85ac81b92c925682"
+    "85ac81b92c925682",
+    "80e4e8bd9aba6ebd",
+    "69ba2696d7bf15ce"
   ]
 }

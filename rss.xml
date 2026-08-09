@@ -7,6 +7,22 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Hugging Face Researchers Call for Limits on Autonomous AI Systems</title>
+      <link>https://aiglimpse.ai/articles/hugging-face-researchers-call-for-limits-on-autonomous-ai-systems-69ba2696</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/hugging-face-researchers-call-for-limits-on-autonomous-ai-systems-69ba2696</guid>
+      <description>A new paper argues that giving AI systems more independent control amplifies risks, arriving as the industry races to deploy autonomous agents.</description>
+      <pubDate>Sun, 09 Aug 2026 03:12:01 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
+      <title>Denmark Mandates Oral Exams to Combat AI Cheating in Schools</title>
+      <link>https://aiglimpse.ai/articles/denmark-mandates-oral-exams-to-combat-ai-cheating-in-schools-80e4e8bd</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/denmark-mandates-oral-exams-to-combat-ai-cheating-in-schools-80e4e8bd</guid>
+      <description>Copenhagen becomes first European nation to systematically address generative AI abuse in secondary education through verification interviews.</description>
+      <pubDate>Sat, 08 Aug 2026 21:31:09 GMT</pubDate>
+      <category>Ethics &amp; Policy</category>
+    </item>
+    <item>
       <title>German Court Finds Suno Liable for Copyright Infringement in AI Training</title>
       <link>https://aiglimpse.ai/articles/german-court-finds-suno-liable-for-copyright-infringement-in-ai-training-85ac81b9</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/german-court-finds-suno-liable-for-copyright-infringement-in-ai-training-85ac81b9</guid>
@@ -389,22 +405,6 @@
       <description>As hospitals scale AI tools, consumption-based pricing models threaten budgets and ROI, forcing health systems to impose strict usage controls.</description>
       <pubDate>Mon, 03 Aug 2026 14:07:43 GMT</pubDate>
       <category>Industry Applications</category>
-    </item>
-    <item>
-      <title>Benioff-Backed Startup Targets AI Implementation Bottleneck</title>
-      <link>https://aiglimpse.ai/articles/benioff-backed-startup-targets-ai-implementation-bottleneck-feaa3f74</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/benioff-backed-startup-targets-ai-implementation-bottleneck-feaa3f74</guid>
-      <description>June launches with $20M to streamline how enterprises deploy machine learning systems at scale.</description>
-      <pubDate>Mon, 03 Aug 2026 10:00:00 GMT</pubDate>
-      <category>AI Business</category>
-    </item>
-    <item>
-      <title>Local LLMs vs Cloud APIs: The Real Cost and Trade-Off Guide</title>
-      <link>https://aiglimpse.ai/articles/local-llms-vs-cloud-api</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/local-llms-vs-cloud-api</guid>
-      <description>How to evaluate on-prem and self-hosted LLMs against API providers for your infrastructure</description>
-      <pubDate>Mon, 03 Aug 2026 09:58:41 GMT</pubDate>
-      <category>LLMs &amp; Chatbots</category>
     </item>
   </channel>
 </rss>
