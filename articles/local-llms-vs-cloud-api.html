@@ -135,7 +135,6 @@
   <figcaption class="article-image-credit">Photo by <a href="https://www.pexels.com/photo/a-woman-sitting-on-the-black-leather-seat-at-the-white-table-with-laptop-7875857/" rel="nofollow noopener" target="_blank">https://kaboompics.com/</a> on Pexels.</figcaption>
 </figure>
 
-
 <p>Local LLM deployments appear cheaper until you account for the full cost of ownership. A single 4090 GPU costs roughly $1,600 to $2,000 today. If you amortize that over a typical 2 to 3 year lifespan, you are paying $22 to $33 per month in depreciation alone. Then add power consumption: a 4090 draws 320W under load, which at $0.12/kWh costs about $280 per month if running 24/7, or $40 to $70 per month for typical enterprise duty cycles. Add rack space, cooling, networking, and operating system licensing, and a single GPU installation costs $150 to $250 per month to operate.</p>
 
 <p>At 300 tokens/sec throughput and 80 percent utilization, that GPU generates roughly 260 million tokens per month. Divide total cost by token volume, and your effective cost per token is $0.0005 to $0.001. That beats GPT-4 pricing ($0.03 per 1K input tokens, $0.06 per 1K output tokens) but not GPT-3.5 ($0.0005 to $0.0015) or Claude's cheaper tiers.</p>
@@ -165,12 +164,6 @@
 <p>Quantization complicates quality assessment. A 7B model quantized to 4-bit loses 1-3 points on MMLU (a multi-task knowledge benchmark) but costs half as much in memory and inference time. A 13B quantized model can match an unquantized 7B model on most tasks. Always benchmark with quantization applied to your target hardware.</p>
 
 <h2>Privacy and compliance: what you control vs what you trade</h2>
-<figure class="article-image article-image--inline">
-  <picture><source srcset="/images/articles/local-llms-vs-cloud-api-inline-2.webp" type="image/webp"><img src="/images/articles/local-llms-vs-cloud-api-inline-2.jpg" alt="Privacy and compliance: what you control vs what you trade" loading="lazy" width="1200" height="630"></picture>
-  <figcaption class="article-image-credit">Photo by <a href="https://www.pexels.com/photo/a-woman-sitting-in-the-office-7875834/" rel="nofollow noopener" target="_blank">https://kaboompics.com/</a> on Pexels.</figcaption>
-</figure>
-
-
 <p>The privacy argument for local LLMs is straightforward: data stays on your infrastructure, never sent to a third party. This satisfies strict interpretations of HIPAA (healthcare), GDPR (EU personal data), and SOC 2 Type II audit requirements that restrict data movement. For teams processing sensitive data (medical records, financial transactions, personally identifiable information), this is often non-negotiable.</p>
 
 <p>But the compliance reality is more nuanced. Hosting a local LLM does not automatically make you compliant. You still must ensure:</p>

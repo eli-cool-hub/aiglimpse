@@ -135,7 +135,6 @@
   <figcaption class="article-image-credit">Photo by <a href="https://www.pexels.com/photo/black-samsung-tablet-display-google-browser-on-screen-218717/" rel="nofollow noopener" target="_blank">AS Photography</a> on Pexels.</figcaption>
 </figure>
 
-
 <p>Keyword search indexes exact terms. When a user types "laptop battery life," the search engine finds documents containing those words or stems (laptop, batter, life). Matching is fast, deterministic, and cheap. Relevance depends entirely on term frequency, field boosts, and link structure. Synonyms and intent are invisible.</p>
 
 <p>Semantic search converts both the query and every indexed document into a dense vector, usually 384 to 1536 dimensions, representing semantic meaning. A query for "laptop battery life" and a document titled "How long does a MacBook Pro last?" are both encoded into vectors. The search engine then finds the k nearest neighbors (kNN) in vector space. A document about snakes won't rank, no matter how many times the word "python" appears, because the vector is far away. A document about "device power duration" will rank higher if it's semantically close, even if it shares no keywords with the query.</p>
@@ -163,12 +162,6 @@
 <p>Hybrid retrieval adds latency (you're making two queries instead of one), but it recovers precision without sacrificing recall. In practice, hybrid systems outperform pure semantic search on most real-world queries. The keyword index catches exact-match queries and filters out off-topic results. The semantic index handles intent and synonyms. The merge step ensures both methods contribute.</p>
 
 <h2>Managing freshness and index updates</h2>
-<figure class="article-image article-image--inline">
-  <picture><source srcset="/images/articles/semantic-search-embeddings-guide-inline-2.webp" type="image/webp"><img src="/images/articles/semantic-search-embeddings-guide-inline-2.jpg" alt="Managing freshness and index updates" loading="lazy" width="1200" height="630"></picture>
-  <figcaption class="article-image-credit">Photo by <a href="https://www.pexels.com/photo/macbook-air-on-grey-wooden-table-67112/" rel="nofollow noopener" target="_blank">Caio</a> on Pexels.</figcaption>
-</figure>
-
-
 <p>Keyword indexes handle updates easily: add or remove a document from the inverted index, re-index a few postings lists, done. Vector indexes are slower to update. Recomputing an embedding for a changed document is cheap (milliseconds per vector), but rebuilding the HNSW index structure is expensive. Many vector databases support incremental updates (delete old vector, insert new one), but the index can become suboptimal over time, requiring a full reindex every few days or weeks.</p>
 
 <p>In practice, most teams batch re-embedding. If a document changes, you queue it for the next nightly batch job. New documents are indexed within 24 hours. For higher-frequency updates, some options:</p>

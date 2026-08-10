@@ -135,7 +135,6 @@
   <figcaption class="article-image-credit">Photo by <a href="https://www.pexels.com/photo/llama-overlooking-scenic-cityscape-35670115/" rel="nofollow noopener" target="_blank">Leandro Rossi</a> on Pexels.</figcaption>
 </figure>
 
-
 <p>Llama 3.1 remains the reference model for open-weight LLMs in 2026, with a 405B variant that matches GPT-4 Turbo on many benchmarks and an 8B version competitive with models triple its size.</p>
 
 <p>Meta released Llama 3.1 (8B, 70B, 405B) in mid-2024 and has committed to regular updates. The 8B model achieves ~95 percent of 70B capability on most tasks, making it the de facto standard for edge deployment and cost-conscious teams. The 70B model is the "sweet spot" for production: strong enough for reasoning, code generation, and multi-turn dialogue, yet fits on dual A100 GPUs with int8 quantization. The 405B variant trains on 15.6 trillion tokens and competes directly with proprietary frontier models, though inference cost at this scale exceeds most open alternatives.</p>
@@ -171,12 +170,6 @@
 <p>Deployment: Mistral models are optimized for TensorRT-LLM and are the fastest models to serve on NVIDIA hardware. Mistral 7B achieves 50+ tokens/second on a single A10G GPU. Mistral 8x7B, despite routing overhead, is nearly as fast and fits on dual T4s (16 GB each) with int4 quantization. Mistral has published official GGUF quantizations, making CPU inference practical for low-traffic services. A key advantage: Mistral models have smaller context windows (32K tokens for Mistral Large, versus 100K+ for newer Llamas), which lowers memory pressure and inference time for typical chat and RAG tasks.</p>
 
 <h2>Qwen: Multilingual and Chinese-first</h2>
-<figure class="article-image article-image--inline">
-  <picture><source srcset="/images/articles/open-source-llms-comparison-2026-inline-2.webp" type="image/webp"><img src="/images/articles/open-source-llms-comparison-2026-inline-2.jpg" alt="Qwen: Multilingual and Chinese-first" loading="lazy" width="1200" height="630"></picture>
-  <figcaption class="article-image-credit">Photo by <a href="https://www.pexels.com/photo/llama-gazing-through-a-wire-fence-outdoors-36207735/" rel="nofollow noopener" target="_blank">Dr Photographer</a> on Pexels.</figcaption>
-</figure>
-
-
 <p>Qwen (Alibaba) has built the strongest open-weight model for Chinese and multilingual tasks, with Qwen 2.5 now competitive on English benchmarks and code.</p>
 
 <p>Qwen 2 and its successor Qwen 2.5 excel on Chinese, math, and code. The 72B variant outperforms Llama 3.1 70B on Chinese MMLU and Chinese coding tasks, a critical advantage for teams operating in Mandarin or serving multilingual audiences. Qwen's alignment for instruction-following is strong; the models are less prone to refusals than Llama and produce longer, more detailed responses. For non-English-speaking teams, Qwen should be the default consideration.</p>
