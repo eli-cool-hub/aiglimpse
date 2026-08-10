@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "china-pivots-to-market-driven-funding-for-ai-chip-dominance-7562127e",
+      "title": "China Pivots to Market-Driven Funding for AI Chip Dominance",
+      "subtitle": "Beijing redirects its $28 trillion capital markets to bankroll semiconductor advances, signaling a strategic shift away from state subsidy dependency.",
+      "category": "industry",
+      "publishedAt": "2026-08-10T03:26:24.000Z",
+      "sourceUrl": "https://www.bloomberg.com/news/features/2026-08-09/china-bets-on-ai-stocks-as-it-races-against-us-for-chip-tech-dominance",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/china-pivots-to-market-driven-funding-for-ai-chip-dominance-7562127e.jpg"
+    },
+    {
+      "slug": "new-scaling-law-cuts-ai-model-errors-by-up-to-3x-in-critical-regimes-70db18cf",
+      "title": "New Scaling Law Cuts AI Model Errors by Up to 3x in Critical Regimes",
+      "subtitle": "Researchers challenge how labs predict training outcomes, offering better guidance for data-limited and overtraining scenarios.",
+      "category": "ethics",
+      "publishedAt": "2026-08-10T03:55:17.000Z",
+      "sourceUrl": "https://arxiv.org/abs/2608.07222",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/new-scaling-law-cuts-ai-model-errors-by-up-to-3x-in-critical-regimes-70db18cf.jpg"
+    },
+    {
       "slug": "data-center-opposition-swells-to-500-us-jurisdictions-d2b120a1",
       "title": "Data Center Opposition Swells to 500+ US Jurisdictions",
       "subtitle": "State-level AI infrastructure bans signal a major shift in how localities grapple with the computational demands of large language models.",
@@ -10845,6 +10867,8 @@
     "2ae52dcf1dd2f0be",
     "6368236dc9b353e8",
     "3d9a5f0e12607eac",
-    "d2b120a16082520c"
+    "d2b120a16082520c",
+    "70db18cfa4af582d",
+    "7562127e8d27e1d0"
   ]
 }
