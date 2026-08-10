@@ -3,9 +3,16 @@
 > Machine-readable index for AI assistants, answer engines, and research crawlers.
 > Summary version: https://aiglimpse.ai/llms.txt
 
-Total articles: 905 | Evergreen explainers: 22 | Generated: 2026-08-10
+Total articles: 907 | Evergreen explainers: 23 | Generated: 2026-08-10
 
 ## Evergreen explainers
+
+### AI Agent Memory: Short-Term, Long-Term, and Vector-Backed Recall
+- URL: https://aiglimpse.ai/articles/ai-agent-memory-architectures
+- Published: 2026-08-10
+- Category: tools
+- Summary: Architecture patterns for persistent multi-session agents, from conversation buffers to semantic search over memory.
+- Type: evergreen explainer (FAQ schema on page)
 
 ### Semantic Search With Embeddings: Architecture and Evaluation
 - URL: https://aiglimpse.ai/articles/semantic-search-embeddings-guide
@@ -162,6 +169,20 @@ Total articles: 905 | Evergreen explainers: 22 | Generated: 2026-08-10
 - Type: evergreen explainer (FAQ schema on page)
 
 ## All articles (newest first)
+
+### The Transformer Era Faces Its Reckoning as Startups Race for LLM's Future
+- URL: https://aiglimpse.ai/articles/the-transformer-era-faces-its-reckoning-as-startups-race-for-llms-future-3c86c348
+- Published: 2026-08-10
+- Category: research
+- Summary: Nine years after their debut, transformers are showing their limits. A new wave of startups is betting they can build the next generation of language models.
+- Source: https://www.technologyreview.com/2026/08/10/1141511/these-startups-are-chasing-the-next-big-thing-in-llms/
+
+### AI Agent Memory: Short-Term, Long-Term, and Vector-Backed Recall
+- URL: https://aiglimpse.ai/articles/ai-agent-memory-architectures
+- Published: 2026-08-10
+- Category: tools
+- Summary: Architecture patterns for persistent multi-session agents, from conversation buffers to semantic search over memory.
+- Type: evergreen explainer (FAQ schema on page)
 
 ### China Pivots to Market-Driven Funding for AI Chip Dominance
 - URL: https://aiglimpse.ai/articles/china-pivots-to-market-driven-funding-for-ai-chip-dominance-7562127e

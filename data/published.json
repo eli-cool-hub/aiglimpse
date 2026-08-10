@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "the-transformer-era-faces-its-reckoning-as-startups-race-for-llms-future-3c86c348",
+      "title": "The Transformer Era Faces Its Reckoning as Startups Race for LLM's Future",
+      "subtitle": "Nine years after their debut, transformers are showing their limits. A new wave of startups is betting they can build the next generation of language models.",
+      "category": "research",
+      "publishedAt": "2026-08-10T09:00:00.000Z",
+      "sourceUrl": "https://www.technologyreview.com/2026/08/10/1141511/these-startups-are-chasing-the-next-big-thing-in-llms/",
+      "sourceName": "MIT Technology Review AI",
+      "sourceTier": 2,
+      "image": "/images/articles/the-transformer-era-faces-its-reckoning-as-startups-race-for-llms-future-3c86c348.jpg"
+    },
+    {
       "slug": "ai-agent-memory-architectures",
       "title": "AI Agent Memory: Short-Term, Long-Term, and Vector-Backed Recall",
       "subtitle": "Architecture patterns for persistent multi-session agents, from conversation buffers to semantic search over memory.",
@@ -10881,6 +10892,7 @@
     "3d9a5f0e12607eac",
     "d2b120a16082520c",
     "70db18cfa4af582d",
-    "7562127e8d27e1d0"
+    "7562127e8d27e1d0",
+    "3c86c348ef4cfc63"
   ]
 }

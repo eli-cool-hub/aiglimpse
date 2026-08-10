@@ -7,6 +7,22 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>The Transformer Era Faces Its Reckoning as Startups Race for LLM's Future</title>
+      <link>https://aiglimpse.ai/articles/the-transformer-era-faces-its-reckoning-as-startups-race-for-llms-future-3c86c348</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/the-transformer-era-faces-its-reckoning-as-startups-race-for-llms-future-3c86c348</guid>
+      <description>Nine years after their debut, transformers are showing their limits. A new wave of startups is betting they can build the next generation of language models.</description>
+      <pubDate>Mon, 10 Aug 2026 09:00:00 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
+      <title>AI Agent Memory: Short-Term, Long-Term, and Vector-Backed Recall</title>
+      <link>https://aiglimpse.ai/articles/ai-agent-memory-architectures</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/ai-agent-memory-architectures</guid>
+      <description>Architecture patterns for persistent multi-session agents, from conversation buffers to semantic search over memory.</description>
+      <pubDate>Mon, 10 Aug 2026 07:53:29 GMT</pubDate>
+      <category>AI Tools &amp; Products</category>
+    </item>
+    <item>
       <title>China Pivots to Market-Driven Funding for AI Chip Dominance</title>
       <link>https://aiglimpse.ai/articles/china-pivots-to-market-driven-funding-for-ai-chip-dominance-7562127e</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/china-pivots-to-market-driven-funding-for-ai-chip-dominance-7562127e</guid>
@@ -389,22 +405,6 @@
       <description>Top hospitals are appointing dedicated chief AI officers to manage implementation risks and ensure patient safety as artificial intelligence becomes central to care delivery.</description>
       <pubDate>Tue, 04 Aug 2026 16:16:33 GMT</pubDate>
       <category>Industry Applications</category>
-    </item>
-    <item>
-      <title>Hackensack Meridian Health Appoints Executive to Lead AI Strategy</title>
-      <link>https://aiglimpse.ai/articles/hackensack-meridian-health-appoints-executive-to-lead-ai-strategy-3f251da9</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/hackensack-meridian-health-appoints-executive-to-lead-ai-strategy-3f251da9</guid>
-      <description>Major health system elevates artificial intelligence to executive leadership, signaling industry push to operationalize machine learning across clinical operations.</description>
-      <pubDate>Tue, 04 Aug 2026 14:05:01 GMT</pubDate>
-      <category>Industry Applications</category>
-    </item>
-    <item>
-      <title>U.S. Regulators Move to Block Chinese Optical Components from AI Data Centers</title>
-      <link>https://aiglimpse.ai/articles/us-regulators-move-to-block-chinese-optical-components-from-ai-data-centers-23a260cd</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/us-regulators-move-to-block-chinese-optical-components-from-ai-data-centers-23a260cd</guid>
-      <description>Federal officials are drafting restrictions on imported transceivers to protect AI infrastructure from foreign interference and espionage.</description>
-      <pubDate>Tue, 04 Aug 2026 12:30:24 GMT</pubDate>
-      <category>Ethics &amp; Policy</category>
     </item>
   </channel>
 </rss>
