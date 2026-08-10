@@ -1,6 +1,18 @@
 {
   "articles": [
     {
+      "slug": "ai-agent-memory-architectures",
+      "title": "AI Agent Memory: Short-Term, Long-Term, and Vector-Backed Recall",
+      "subtitle": "Architecture patterns for persistent multi-session agents, from conversation buffers to semantic search over memory.",
+      "category": "tools",
+      "publishedAt": "2026-08-10T07:53:29.893Z",
+      "sourceUrl": null,
+      "sourceName": "AI Glimpse Newsroom",
+      "sourceTier": 0,
+      "image": "/images/articles/ai-agent-memory-architectures.jpg",
+      "evergreen": true
+    },
+    {
       "slug": "china-pivots-to-market-driven-funding-for-ai-chip-dominance-7562127e",
       "title": "China Pivots to Market-Driven Funding for AI Chip Dominance",
       "subtitle": "Beijing redirects its $28 trillion capital markets to bankroll semiconductor advances, signaling a strategic shift away from state subsidy dependency.",
