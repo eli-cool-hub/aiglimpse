@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "pre-pandemic-language-patterns-predicted-covid-political-divides-e4fed42e",
+      "title": "Pre-Pandemic Language Patterns Predicted COVID Political Divides",
+      "subtitle": "New research shows partisan splits on COVID-19 were largely baked into American discourse years before the virus emerged.",
+      "category": "research",
+      "publishedAt": "2026-08-10T12:12:01.000Z",
+      "sourceUrl": "https://arxiv.org/abs/2407.11190",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/pre-pandemic-language-patterns-predicted-covid-political-divides-e4fed42e.jpg"
+    },
+    {
       "slug": "the-transformer-era-faces-its-reckoning-as-startups-race-for-llms-future-3c86c348",
       "title": "The Transformer Era Faces Its Reckoning as Startups Race for LLM's Future",
       "subtitle": "Nine years after their debut, transformers are showing their limits. A new wave of startups is betting they can build the next generation of language models.",
@@ -10893,6 +10904,7 @@
     "d2b120a16082520c",
     "70db18cfa4af582d",
     "7562127e8d27e1d0",
-    "3c86c348ef4cfc63"
+    "3c86c348ef4cfc63",
+    "e4fed42e65c85169"
   ]
 }
