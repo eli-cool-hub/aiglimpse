@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "how-openais-cfo-built-finance-operations-around-ai-03b3e52a",
+      "title": "How OpenAI's CFO Built Finance Operations Around AI",
+      "subtitle": "Sarah Friar reveals core principles for integrating AI into corporate financial functions, from forecasting to risk management.",
+      "category": "llms",
+      "publishedAt": "2026-08-10T17:00:00.000Z",
+      "sourceUrl": "https://openai.com/index/building-an-ai-native-finance-function",
+      "sourceName": "OpenAI",
+      "sourceTier": 1,
+      "image": "/images/articles/how-openais-cfo-built-finance-operations-around-ai-03b3e52a.jpg"
+    },
+    {
       "slug": "pre-pandemic-language-patterns-predicted-covid-political-divides-e4fed42e",
       "title": "Pre-Pandemic Language Patterns Predicted COVID Political Divides",
       "subtitle": "New research shows partisan splits on COVID-19 were largely baked into American discourse years before the virus emerged.",
@@ -10905,6 +10916,7 @@
     "70db18cfa4af582d",
     "7562127e8d27e1d0",
     "3c86c348ef4cfc63",
-    "e4fed42e65c85169"
+    "e4fed42e65c85169",
+    "03b3e52ab715e5db"
   ]
 }

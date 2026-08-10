@@ -7,6 +7,14 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>How OpenAI's CFO Built Finance Operations Around AI</title>
+      <link>https://aiglimpse.ai/articles/how-openais-cfo-built-finance-operations-around-ai-03b3e52a</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/how-openais-cfo-built-finance-operations-around-ai-03b3e52a</guid>
+      <description>Sarah Friar reveals core principles for integrating AI into corporate financial functions, from forecasting to risk management.</description>
+      <pubDate>Mon, 10 Aug 2026 17:00:00 GMT</pubDate>
+      <category>LLMs &amp; Chatbots</category>
+    </item>
+    <item>
       <title>Pre-Pandemic Language Patterns Predicted COVID Political Divides</title>
       <link>https://aiglimpse.ai/articles/pre-pandemic-language-patterns-predicted-covid-political-divides-e4fed42e</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/pre-pandemic-language-patterns-predicted-covid-political-divides-e4fed42e</guid>
@@ -397,14 +405,6 @@
       <description>Researchers unlock 6-DoF trajectory predictions directly from diffusion model internals, advancing robot learning without pixel generation.</description>
       <pubDate>Tue, 04 Aug 2026 15:53:49 GMT</pubDate>
       <category>Robotics</category>
-    </item>
-    <item>
-      <title>Open AI Models Close Performance Gap While Safety Risks Widen</title>
-      <link>https://aiglimpse.ai/articles/open-ai-models-close-performance-gap-while-safety-risks-widen-690b1c34</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/open-ai-models-close-performance-gap-while-safety-risks-widen-690b1c34</guid>
-      <description>New analysis reveals powerful open-source models lack critical safeguards, raising urgent questions about governance and responsible AI deployment.</description>
-      <pubDate>Tue, 04 Aug 2026 20:05:26 GMT</pubDate>
-      <category>AI Business</category>
     </item>
   </channel>
 </rss>
