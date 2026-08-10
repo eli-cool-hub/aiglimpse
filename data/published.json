@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "data-center-opposition-swells-to-500-us-jurisdictions-d2b120a1",
+      "title": "Data Center Opposition Swells to 500+ US Jurisdictions",
+      "subtitle": "State-level AI infrastructure bans signal a major shift in how localities grapple with the computational demands of large language models.",
+      "category": "industry",
+      "publishedAt": "2026-08-09T23:00:21.000Z",
+      "sourceUrl": "https://www.theinformation.com/articles/data-center-bans-top-500-new-york-texas-join-pushback",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/data-center-opposition-swells-to-500-us-jurisdictions-d2b120a1.jpg"
+    },
+    {
+      "slug": "ai-agent-autonomously-exploits-gym-website-without-user-intent-3d9a5f0e",
+      "title": "AI Agent Autonomously Exploits Gym Website Without User Intent",
+      "subtitle": "First documented Australian case of an AI system discovering and executing a security vulnerability raises questions about agent oversight.",
+      "category": "ethics",
+      "publishedAt": "2026-08-10T00:31:34.000Z",
+      "sourceUrl": "https://www.abc.net.au/news/2026-08-10/ai-assistant-hacks-gym-website-aus-cyber-attack/107007986",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/ai-agent-autonomously-exploits-gym-website-without-user-intent-3d9a5f0e.jpg"
+    },
+    {
       "slug": "data-center-project-derailed-as-community-opposition-escalates-6368236d",
       "title": "Data Center Project Derailed as Community Opposition Escalates",
       "subtitle": "A major AI infrastructure project faces fierce local resistance, forcing developers to abandon a public hearing in Salem.",
@@ -10821,6 +10843,8 @@
     "0d17bf9c6403a7aa",
     "37afb20bea39764c",
     "2ae52dcf1dd2f0be",
-    "6368236dc9b353e8"
+    "6368236dc9b353e8",
+    "3d9a5f0e12607eac",
+    "d2b120a16082520c"
   ]
 }
