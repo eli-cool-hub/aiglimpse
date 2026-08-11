@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "robostore-spins-off-us-manufacturing-unit-to-localize-robot-deployment-e8e7b7b5",
+      "title": "RoboStore Spins Off U.S. Manufacturing Unit to Localize Robot Deployment",
+      "subtitle": "New Robo Inc. aims to build domestically-made automation solutions compliant with American regulations, signaling growing demand for localized robotics infrastructure.",
+      "category": "robotics",
+      "publishedAt": "2026-08-10T23:40:18.000Z",
+      "sourceUrl": "https://www.therobotreport.com/robostore-launches-robo-inc-to-help-u-s-organizations-deploy-robots/",
+      "sourceName": "The Robot Report",
+      "sourceTier": 3,
+      "image": "/images/articles/robostore-spins-off-us-manufacturing-unit-to-localize-robot-deployment-e8e7b7b5.jpg"
+    },
+    {
+      "slug": "security-flaw-exposes-encrypted-ai-reasoning-to-extraction-attacks-259a4129",
+      "title": "Security Flaw Exposes Encrypted AI Reasoning to Extraction Attacks",
+      "subtitle": "Researchers demonstrate how proprietary LLM reasoning blocks from major AI firms can be compromised, undermining promises of intellectual property protection.",
+      "category": "ethics",
+      "publishedAt": "2026-08-11T08:03:42.000Z",
+      "sourceUrl": "https://huggingface.co/papers/2608.09867",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/security-flaw-exposes-encrypted-ai-reasoning-to-extraction-attacks-259a4129.jpg"
+    },
+    {
       "slug": "georgia-health-system-joins-early-adopters-of-epics-ai-nursing-documentation-too-0ab7e695",
       "title": "Georgia Health System Joins Early Adopters of Epic's AI Nursing Documentation Tool",
       "subtitle": "Northeast Georgia becomes fifth hospital network to test ambient AI that drafts clinical notes, aiming to reduce documentation burden on nurses.",
@@ -10965,6 +10987,8 @@
     "c4a7132c6ce1e48b",
     "642cc1e95da6921a",
     "56f3b3af7517e406",
-    "0ab7e695cc0d4f15"
+    "0ab7e695cc0d4f15",
+    "259a412912a4f675",
+    "e8e7b7b502c355ba"
   ]
 }
