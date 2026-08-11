@@ -11648,6 +11648,24 @@
         "devto": true,
         "hashnode": false
       }
+    },
+    "nvidia-magpie-tts-brings-fast-multilingual-voice-to-open-ai-642cc1e9": {
+      "syndicated_at": "2026-08-11T01:45:41.025Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/nvidia-magpie-tts-brings-fast-multilingual-voice-to-open-ai-2pie",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 445,
+      "category": "tools",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
     }
   }
 }

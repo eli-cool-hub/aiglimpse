@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "nvidia-magpie-tts-brings-fast-multilingual-voice-to-open-ai-642cc1e9",
+      "title": "NVIDIA Magpie TTS Brings Fast Multilingual Voice to Open AI",
+      "subtitle": "New open-weight text-to-speech model enables developers to build responsive voice agents with full control over deployment and language support.",
+      "category": "tools",
+      "publishedAt": "2026-08-10T16:25:36.000Z",
+      "sourceUrl": "https://huggingface.co/blog/nvidia/magpie-tts-multilingual-voice-agents",
+      "sourceName": "Hugging Face",
+      "sourceTier": 1,
+      "image": "/images/articles/nvidia-magpie-tts-brings-fast-multilingual-voice-to-open-ai-642cc1e9.jpg"
+    },
+    {
+      "slug": "waymos-rapid-expansion-exposes-autonomous-vehicle-edge-cases-c4a7132c",
+      "title": "Waymo's Rapid Expansion Exposes Autonomous Vehicle Edge Cases",
+      "subtitle": "As the robotaxi fleet grows five-fold, recurring software and perception failures trigger multiple safety recalls.",
+      "category": "ethics",
+      "publishedAt": "2026-08-10T17:04:03.000Z",
+      "sourceUrl": "https://www.nytimes.com/2026/08/10/technology/waymo-expansion-edge-cases.html",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/waymos-rapid-expansion-exposes-autonomous-vehicle-edge-cases-c4a7132c.jpg"
+    },
+    {
       "slug": "how-openais-cfo-built-finance-operations-around-ai-03b3e52a",
       "title": "How OpenAI's CFO Built Finance Operations Around AI",
       "subtitle": "Sarah Friar reveals core principles for integrating AI into corporate financial functions, from forecasting to risk management.",
@@ -10917,6 +10939,8 @@
     "7562127e8d27e1d0",
     "3c86c348ef4cfc63",
     "e4fed42e65c85169",
-    "03b3e52ab715e5db"
+    "03b3e52ab715e5db",
+    "c4a7132c6ce1e48b",
+    "642cc1e95da6921a"
   ]
 }
