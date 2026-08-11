@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "georgia-health-system-joins-early-adopters-of-epics-ai-nursing-documentation-too-0ab7e695",
+      "title": "Georgia Health System Joins Early Adopters of Epic's AI Nursing Documentation Tool",
+      "subtitle": "Northeast Georgia becomes fifth hospital network to test ambient AI that drafts clinical notes, aiming to reduce documentation burden on nurses.",
+      "category": "industry",
+      "publishedAt": "2026-08-10T21:53:09.000Z",
+      "sourceUrl": "https://www.beckershospitalreview.com/healthcare-information-technology/ehrs/northeast-georgia-health-system-5th-to-launch-epic-nurse-ai-tool/",
+      "sourceName": "Becker's Hospital Review",
+      "sourceTier": 2,
+      "image": "/images/articles/georgia-health-system-joins-early-adopters-of-epics-ai-nursing-documentation-too-0ab7e695.jpg"
+    },
+    {
+      "slug": "openais-ethics-chief-departs-in-latest-safety-leadership-shake-up-56f3b3af",
+      "title": "OpenAI's Ethics Chief Departs in Latest Safety Leadership Shake-up",
+      "subtitle": "The rapid departure of Chloé Bakalar signals mounting pressure on AI safety priorities at the leading research firm.",
+      "category": "ethics",
+      "publishedAt": "2026-08-11T00:34:21.000Z",
+      "sourceUrl": "https://www.ft.com/content/e49dfb75-f841-4466-a577-f7aaff8779a0",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/openais-ethics-chief-departs-in-latest-safety-leadership-shake-up-56f3b3af.jpg"
+    },
+    {
       "slug": "nvidia-magpie-tts-brings-fast-multilingual-voice-to-open-ai-642cc1e9",
       "title": "NVIDIA Magpie TTS Brings Fast Multilingual Voice to Open AI",
       "subtitle": "New open-weight text-to-speech model enables developers to build responsive voice agents with full control over deployment and language support.",
@@ -10941,6 +10963,8 @@
     "e4fed42e65c85169",
     "03b3e52ab715e5db",
     "c4a7132c6ce1e48b",
-    "642cc1e95da6921a"
+    "642cc1e95da6921a",
+    "56f3b3af7517e406",
+    "0ab7e695cc0d4f15"
   ]
 }
