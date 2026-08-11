@@ -7,6 +7,14 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Regulators Focus on Wrong Target in AI Safety, Researchers Warn</title>
+      <link>https://aiglimpse.ai/articles/regulators-focus-on-wrong-target-in-ai-safety-researchers-warn-21433cfd</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/regulators-focus-on-wrong-target-in-ai-safety-researchers-warn-21433cfd</guid>
+      <description>Cambridge scholars argue that auditing system prompts alone creates false confidence in AI safety, missing the real vulnerabilities that matter.</description>
+      <pubDate>Tue, 11 Aug 2026 18:12:01 GMT</pubDate>
+      <category>Ethics &amp; Policy</category>
+    </item>
+    <item>
       <title>How a Major Children's Hospital Validates AI Before Clinical Deployment</title>
       <link>https://aiglimpse.ai/articles/how-a-major-childrens-hospital-validates-ai-before-clinical-deployment-fa1b6a93</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/how-a-major-childrens-hospital-validates-ai-before-clinical-deployment-fa1b6a93</guid>
@@ -397,14 +405,6 @@
       <description>Memory maker reports record quarterly revenue driven by explosive datacenter storage needs, signaling robust enterprise AI infrastructure buildout.</description>
       <pubDate>Wed, 05 Aug 2026 22:57:28 GMT</pubDate>
       <category>Industry Applications</category>
-    </item>
-    <item>
-      <title>Chinese AI Lab's GLM-5.2 Matches Frontier Models on Dangerous Capabilities</title>
-      <link>https://aiglimpse.ai/articles/chinese-ai-labs-glm-52-matches-frontier-models-on-dangerous-capabilities-965c386b</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/chinese-ai-labs-glm-52-matches-frontier-models-on-dangerous-capabilities-965c386b</guid>
-      <description>Open-weight models are catching up to closed systems in raw power, but safety safeguards are falling further behind.</description>
-      <pubDate>Wed, 05 Aug 2026 22:57:28 GMT</pubDate>
-      <category>Ethics &amp; Policy</category>
     </item>
   </channel>
 </rss>

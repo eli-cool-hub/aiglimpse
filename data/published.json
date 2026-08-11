@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "regulators-focus-on-wrong-target-in-ai-safety-researchers-warn-21433cfd",
+      "title": "Regulators Focus on Wrong Target in AI Safety, Researchers Warn",
+      "subtitle": "Cambridge scholars argue that auditing system prompts alone creates false confidence in AI safety, missing the real vulnerabilities that matter.",
+      "category": "ethics",
+      "publishedAt": "2026-08-11T18:12:01.000Z",
+      "sourceUrl": "https://www.techpolicy.press/making-ai-safe-requires-more-than-constraining-its-instructions/",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/regulators-focus-on-wrong-target-in-ai-safety-researchers-warn-21433cfd.jpg"
+    },
+    {
       "slug": "how-a-major-childrens-hospital-validates-ai-before-clinical-deployment-fa1b6a93",
       "title": "How a Major Children's Hospital Validates AI Before Clinical Deployment",
       "subtitle": "Lurie Children's implements a rigorous 'locking' protocol to verify AI accuracy and build clinician trust ahead of hospital-wide rollout.",
@@ -11013,6 +11024,7 @@
     "259a412912a4f675",
     "e8e7b7b502c355ba",
     "9d2f47dd7337b8da",
-    "fa1b6a9380cc6816"
+    "fa1b6a9380cc6816",
+    "21433cfdf0b8296a"
   ]
 }
