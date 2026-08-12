@@ -63,6 +63,16 @@
   <url><loc>https://aiglimpse.ai/categories/industry-4</loc><lastmod>2026-08-12</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://aiglimpse.ai/categories/robotics-2</loc><lastmod>2026-08-12</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url>
+    <loc>https://aiglimpse.ai/articles/llm-inference-cost-optimization</loc>
+    <lastmod>2026-08-12</lastmod>
+    <news:news>
+      <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-08-12T07:11:32.190Z</news:publication_date>
+      <news:title>LLM Inference Cost Optimization: A FinOps Guide</news:title>
+    </news:news>
+    <changefreq>daily</changefreq><priority>0.9</priority>
+  </url>
+  <url>
     <loc>https://aiglimpse.ai/articles/uk-courts-ban-meta-smart-glasses-citing-recording-risks-75bb6e55</loc>
     <lastmod>2026-08-12</lastmod>
     <news:news>

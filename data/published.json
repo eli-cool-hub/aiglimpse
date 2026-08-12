@@ -1,6 +1,18 @@
 {
   "articles": [
     {
+      "slug": "llm-inference-cost-optimization",
+      "title": "LLM Inference Cost Optimization: A FinOps Guide",
+      "subtitle": "Four concrete levers for reducing LLM bills: caching, routing, quantization, and batching.",
+      "category": "business",
+      "publishedAt": "2026-08-12T07:11:32.190Z",
+      "sourceUrl": null,
+      "sourceName": "AI Glimpse Newsroom",
+      "sourceTier": 0,
+      "image": "/images/articles/llm-inference-cost-optimization.jpg",
+      "evergreen": true
+    },
+    {
       "slug": "uk-courts-ban-meta-smart-glasses-citing-recording-risks-75bb6e55",
       "title": "UK Courts Ban Meta Smart Glasses, Citing Recording Risks",
       "subtitle": "England and Wales prohibit wearable devices in courtrooms while maintaining phone restrictions, raising questions about AI-enabled surveillance in legal settings.",

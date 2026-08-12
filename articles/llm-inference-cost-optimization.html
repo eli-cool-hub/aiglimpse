@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LLM Inference Cost Optimization: A FinOps Guide | AI Glimpse</title>
+  <meta name="description" content="A technical guide to LLM inference cost optimization. Learn prompt caching, model routing, quantization, and batching strategies for FinOps teams.">
+  <meta name="keywords" content="LLM cost, inference optimization, prompt caching, model routing, quantization, token cost, FinOps">
+  <link rel="canonical" href="https://aiglimpse.ai/articles/llm-inference-cost-optimization">
+  <meta property="og:type" content="article"><meta property="og:site_name" content="AI Glimpse">
+  <meta property="og:title" content="LLM Inference Cost Optimization: A FinOps Guide">
+  <meta property="og:description" content="A technical guide to LLM inference cost optimization. Learn prompt caching, model routing, quantization, and batching strategies for FinOps teams.">
+  <meta property="og:url" content="https://aiglimpse.ai/articles/llm-inference-cost-optimization">
+  <meta property="og:image" content="https://aiglimpse.ai/images/articles/llm-inference-cost-optimization.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="article:published_time" content="2026-08-12T07:11:32.190Z">
+  <meta property="article:section" content="AI Business">
+  <meta property="article:tag" content="LLM cost">
+  <meta property="article:tag" content="inference optimization">
+  <meta property="article:tag" content="prompt caching">
+  <meta property="article:tag" content="model routing">
+  <meta property="article:tag" content="quantization">
+  <meta property="article:tag" content="token cost">
+  <meta property="article:tag" content="FinOps">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="LLM Inference Cost Optimization: A FinOps Guide">
+  <meta name="twitter:description" content="A technical guide to LLM inference cost optimization. Learn prompt caching, model routing, quantization, and batching strategies for FinOps teams.">
+  <meta name="twitter:image" content="https://aiglimpse.ai/images/articles/llm-inference-cost-optimization.jpg">
+  <link rel="icon" type="image/svg+xml" href="/images/favicon.svg">
+  <link rel="alternate" type="application/rss+xml" title="AI Glimpse RSS" href="/rss.xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700;9..144,900&family=Inter+Tight:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap">
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="preload" as="image" href="/images/articles/llm-inference-cost-optimization.webp" type="image/webp" fetchpriority="high">
+  <style>.reading-progress{position:fixed;top:0;left:0;height:3px;background:var(--color-accent);width:0%;z-index:200;transition:width 100ms linear;}</style>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","mainEntityOfPage":{"@type":"WebPage","@id":"https://aiglimpse.ai/articles/llm-inference-cost-optimization"},"headline":"LLM Inference Cost Optimization: A FinOps Guide","description":"A technical guide to LLM inference cost optimization. Learn prompt caching, model routing, quantization, and batching strategies for FinOps teams.","image":["https://aiglimpse.ai/images/articles/llm-inference-cost-optimization.jpg"],"datePublished":"2026-08-12T07:11:32.190Z","dateModified":"2026-08-12T07:11:32.190Z","author":{"@type":"Organization","name":"AI Glimpse Newsroom"},"publisher":{"@type":"Organization","name":"AI Glimpse","logo":{"@type":"ImageObject","url":"https://aiglimpse.ai/images/logo.svg"}},"articleSection":"AI Business","keywords":"LLM cost, inference optimization, prompt caching, model routing, quantization, token cost, FinOps"}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://aiglimpse.ai/"},{"@type":"ListItem","position":2,"name":"AI Business","item":"https://aiglimpse.ai/categories/business"},{"@type":"ListItem","position":3,"name":"LLM Inference Cost Optimization: A FinOps Guide","item":"https://aiglimpse.ai/articles/llm-inference-cost-optimization"}]}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How much can prompt caching actually save?","acceptedAnswer":{"@type":"Answer","text":"Prompt caching reduces token cost for cached content by 90% compared to uncached input. For workloads with high repetition (e.g., analyzing the same document 100 times), savings reach 50-70% of total inference cost. Real savings depend on your cache hit ratio and whether cached prompts represent your biggest cost driver."}},{"@type":"Question","name":"When should we switch to smaller models?","acceptedAnswer":{"@type":"Answer","text":"Model routing makes sense when accuracy benchmarks allow. A smaller model at 95% of larger-model accuracy but 40% of the cost is a clear win. Start by running your test set through multiple models, measure quality metrics (BLEU, exact match, or domain-specific evals), then route based on task complexity or confidence thresholds."}},{"@type":"Question","name":"Does quantization hurt output quality?","acceptedAnswer":{"@type":"Answer","text":"For many workloads, quantization to int8 or int4 shows minimal quality loss. Chatbots, summarization, and classification degrade gracefully. Tasks requiring precise mathematical reasoning or long-context coherence may see 2-5% accuracy drops. Test on your actual use cases before committing to quantized models in production."}},{"@type":"Question","name":"What's the actual cost difference between batch and real-time APIs?","acceptedAnswer":{"@type":"Answer","text":"Batch APIs typically cost 50% of real-time inference. If you can tolerate 24-hour latency on non-critical workloads, batching is straightforward arbitrage. The trade-off: architectural complexity and reduced flexibility. Best for reporting, bulk analysis, and non-customer-facing workflows."}},{"@type":"Question","name":"How do we monitor LLM inference costs in practice?","acceptedAnswer":{"@type":"Answer","text":"Log every inference with: model name, input tokens, output tokens, timestamp, and user/feature. Push to a data warehouse or BI tool. Track cost per user, cost per feature, and token efficiency metrics. Set monthly budgets per team and alert above threshold. Include inference cost in your core product metrics dashboards."}},{"@type":"Question","name":"Can we combine caching, routing, and quantization?","acceptedAnswer":{"@type":"Answer","text":"Yes. A typical optimized stack layers them: cache expensive prompts, route simple queries to quantized small models, batch non-urgent workloads, and size containers to avoid overprovisioning. Start with one lever, measure impact, then layer the next. Diminishing returns kick in after two or three combined."}},{"@type":"Question","name":"What's a realistic timeline for implementing these optimizations?","acceptedAnswer":{"@type":"Answer","text":"Monitoring and alerting: 1 to 2 weeks. Prompt caching: 2 to 4 weeks (if you control prompts). Model routing: 3 to 8 weeks (requires evaluation and testing). Quantization: 2 to 6 weeks (if using pre-quantized models). Batching: 2 to 4 weeks. Most teams start with caching and monitoring in parallel, then layer routing."}}]}</script>
+  <meta name="google-site-verification" content="B132aMlqf1nssWYhjOSKUgSjmfwNWgPgtozZsHDxWlU" />
+  <meta name="msvalidate.01" content="F3762E555B3E685836AE39C90B79ECBF" />
+  <!-- aiglimpse-consent-default v1: must run before AdSense, defaults all ad/analytics storage to denied -->
+  <script>(function(){window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}window.gtag=gtag;gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'denied',functionality_storage:'granted',security_storage:'granted',wait_for_update:500});try{var s=JSON.parse(localStorage.getItem('aiglimpse-consent')||'null');if(s&&s.choice==='granted'){gtag('consent','update',{ad_storage:'granted',ad_user_data:'granted',ad_personalization:'granted',analytics_storage:'granted'});}}catch(e){}})();</script>
+  <!-- aiglimpse-ga4 v1: gtag.js loaded after consent default, so it buffers events until consent is granted -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-EVZ52DNQ8S"></script>
+  <script>gtag('js', new Date()); gtag('config', 'G-EVZ52DNQ8S', { anonymize_ip: true });</script>
+</head>
+<body>
+  <div class="reading-progress" aria-hidden="true"></div>
+  <header class="site-header" role="banner">
+    <div class="container">
+      <div class="header-bar">
+        <a href="/" class="logo" aria-label="AI Glimpse home">
+          <span class="logo-wordmark" aria-label="AI Glimpse">A<span class="iris-i" aria-hidden="true">ı</span><span aria-hidden="true"> Glimpse</span></span>
+        </a>
+        <nav class="nav-primary" aria-label="Primary">
+          <a href="/categories/llms">LLMs</a>
+            <a href="/categories/research">Research</a>
+            <a href="/categories/tools">Tools</a>
+            <a href="/categories/business">Business</a>
+            <a href="/categories/ethics">Ethics</a>
+            <a href="/categories/industry">Industry</a>
+            <a href="/categories/robotics">Robotics</a>
+        </nav>
+        <div class="header-actions">
+          <a class="search-btn" href="/search" aria-label="Search">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="11" cy="11" r="7"/><path d="M21 21l-4.35-4.35"/>
+            </svg>
+          </a>
+          <a href="#newsletter" class="btn btn--primary btn--sm">Subscribe</a>
+          <button class="menu-btn" aria-label="Open menu">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+  <aside class="mobile-menu" aria-label="Mobile menu">
+    <div class="mobile-menu-header">
+      <a href="/" class="logo">
+        <span class="logo-wordmark" aria-label="AI Glimpse">A<span class="iris-i" aria-hidden="true">ı</span><span aria-hidden="true"> Glimpse</span></span>
+      </a>
+      <button class="mobile-menu-close" aria-label="Close menu" style="font-size:24px;">×</button>
+    </div>
+    <a href="/categories/llms">LLMs</a>
+    <a href="/categories/research">Research</a>
+    <a href="/categories/tools">Tools</a>
+    <a href="/categories/business">Business</a>
+    <a href="/categories/ethics">Ethics</a>
+    <a href="/categories/industry">Industry</a>
+    <a href="/categories/robotics">Robotics</a>
+    <a href="/search">Search</a>
+    <a href="/pages/about">About</a>
+    <a href="#newsletter">Subscribe</a>
+  </aside>
+  <main>
+    <article>
+      <section class="article-hero">
+        <div class="container container--narrow">
+          <nav aria-label="Breadcrumb" style="margin-bottom:var(--space-4);font-size:var(--text-xs);color:var(--color-ink-muted);">
+            <a href="/" style="color:inherit;">Home</a> /
+            <a href="/categories/business" style="color:inherit;">AI Business</a> /
+            <span>Explainer</span>
+          </nav>
+          <div class="article-hero-meta">
+            <span class="tag tag--business">AI Business</span>
+            <span class="eyebrow eyebrow--accent">Explainer</span>
+            <span class="eyebrow">11 min read</span>
+          </div>
+          <h1 class="article-hero-title">LLM Inference Cost Optimization: A FinOps Guide</h1>
+          <p class="article-hero-subtitle">Four concrete levers for reducing LLM bills: caching, routing, quantization, and batching.</p>
+          <div class="article-byline">
+            <div>By <strong>AI Glimpse Newsroom</strong></div><div>·</div>
+            <div><time datetime="2026-08-12T07:11:32.190Z" data-relative="false">August 12, 2026</time></div>
+          </div>
+        </div>
+      </section>
+      <section style="padding: var(--space-7) 0;">
+        <div class="container container--narrow">
+          <figure class="article-image"><picture><source srcset="/images/articles/llm-inference-cost-optimization.webp" type="image/webp"><img src="/images/articles/llm-inference-cost-optimization.jpg" alt="LLM Inference Cost Optimization: A FinOps Guide" loading="eager" fetchpriority="high" width="1200" height="630"></picture></figure>
+          <div class="article-body"><p>LLM inference has become a line item on most engineering budgets, and unlike compute infrastructure, the per-unit cost is opaque and easy to underestimate. A single popular feature can generate millions of tokens per day. Teams discover their bill too late. This explainer covers four proven levers for reducing LLM inference cost without cutting features or training new models: prompt caching, model routing, quantization, and batching. These are not theoretical optimizations. They are in production at teams managing billions of tokens monthly and delivering 30 to 60 percent cost reductions. The goal is to give engineering leads and FinOps owners the language and decision framework to deploy them.</p>
+
+<h2>Why this matters now</h2>
+
+<p>In 2026, LLM inference cost has decoupled from Moore's Law. Chip density improves, but token pricing remains stubbornly flat or rises with model quality improvements. A team operating a chat application, internal search, or content generation pipeline will spend more on inference than on serving the equivalent amount of traditional API traffic. The difference: LLM tokens scale linearly with user input size and output length, not just request count. A single customer question can consume 10,000 tokens. Ten thousand customers per day means 100 million tokens. At $0.001 per 1,000 input tokens (a baseline rate for mid-tier models), that is $100 per day, or roughly $3,000 per month before any optimization.</p>
+
+<p>The math gets worse under growth. Doubling users doubles token volume. Enabling new features or increasing <a href="/articles/llm-context-window-explained">context window</a> size multiplies it. Unlike database queries or API calls, token cost has no natural ceiling without deliberate intervention. This is why LLM cost optimization is no longer optional for teams with inference workloads larger than a few million tokens per month. The return on engineering time is measurable: a 40 percent cost reduction on a $10,000 monthly bill is $4,000 saved with a single quarter's work. More importantly, cost controls remove the friction from adopting new models or features.</p>
+
+<h2>Prompt caching: Free compute for repeated context</h2>
+<figure class="article-image article-image--inline">
+  <picture><source srcset="/images/articles/llm-inference-cost-optimization-inline-1.webp" type="image/webp"><img src="/images/articles/llm-inference-cost-optimization-inline-1.jpg" alt="Prompt caching: Free compute for repeated context" loading="lazy" width="1200" height="630"></picture>
+  <figcaption class="article-image-credit">Photo by <a href="https://www.pexels.com/photo/close-up-of-computer-screen-with-code-and-glasses-34803991/" rel="nofollow noopener" target="_blank">Daniil Komov</a> on Pexels.</figcaption>
+</figure>
+
+
+<p>Prompt caching is the single highest-leverage optimization for most workloads. When an LLM processes a prompt, it computes a cache key for the input tokens. If the same tokens appear again within a retention window (typically 5 to 24 hours), the model skips recomputation and charges 90 percent less for cached tokens. This sounds simple because it is. The complexity is in architecture.</p>
+
+<p>Caching works best when your prompts contain stable, expensive context that repeats across requests. Examples include: a large document that multiple users analyze; a system prompt or instruction set that drives 100 percent of queries; a company knowledge base prepended to every search result. In each case, the first request pays full price. Subsequent requests with the same cached prefix pay 10 percent of the token cost. A document 50,000 tokens long, queried 100 times, costs 50,000 + (99 * 5,000) = 545,000 tokens without caching, and 50,000 + (99 * 500) = 99,500 tokens with caching. The savings: 82 percent on that workload.</p>
+
+<p>Implementation requires discipline. Cache keys are computed from exact token sequences. Adding a whitespace character or rephrasing a sentence invalidates the cache. Teams should hardcode stable prompts, version them in code, and avoid runtime concatenation of variable text. Tools like Anthropic's prompt caching or OpenAI's cache control headers make this straightforward, but you must structure prompts intentionally. The pattern is: fixed preamble (cached) followed by user input (uncached). Never interleave them.</p>
+
+<p>Cache hit rates of 50 to 70 percent are realistic for systems with document analysis, knowledge base augmentation, or multi-turn conversations where the system prompt repeats. Teams should instrument caching from day one, logging cache hits and misses by feature. Monitor the cost per cache hit separately from the cost per miss. Unexpected drops in hit rate often signal a bug (a timestamp or UUID accidentally embedded in the prompt) or a change in user behavior. Set alerts on cache hit ratio degradation.</p>
+
+<h2>Model routing: Right-sizing inference for each task</h2>
+
+<p>Not every query needs a frontier model. A customer service chatbot answering frequently asked questions does not need GPT-4 class performance. A classification task deciding between three product categories does not need the same model as a customer writing a long-form report. Model routing is the discipline of sending each inference request to the smallest model that will produce acceptable output.</p>
+
+<p>The savings are substantial. A small model (e.g., Llama 2 7B or Mistral 7B quantized) costs 10 to 20 percent of a frontier model. If 60 percent of your queries can run on a small model, you save roughly 40 percent on total token cost. The catch: you must be willing to measure quality per request type and accept occasional accuracy degradation.</p>
+
+<p>Implementing routing requires a decision tree. Start by running your actual workload through multiple models: a small model, a mid-tier model, and a frontier model. Log the outputs and measure accuracy, latency, and cost. For classification tasks, measure precision and recall. For generation tasks, measure factual accuracy or human-rated relevance. Once you have baseline data, route based on query attributes: complexity, token count, or a quick confidence check from the small model.</p>
+
+<p>A concrete example: a support ticket system can first classify incoming tickets with a small, fast model into categories like "billing", "technical", or "account". If confidence is above 95 percent, send a templated response. If below 95 percent, escalate to a larger model or a human. A tax accounting tool might use token count as a signal: if the uploaded document is under 5,000 tokens, route to a mid-tier model. If above 20,000 tokens, route to a frontier model with better long-context reasoning. These decisions are context-dependent, but they all follow the pattern: measure once, route consistently, monitor quality metrics in production.</p>
+
+<p>One critical rule: never route silently. Log every routing decision and the model used. When a small model produces a bad answer, it should be flagged in monitoring, not buried. Some teams implement a fallback mechanism: if a small model's response is rated low by users, automatically reprocess with a larger model and absorb the cost as a customer recovery expense. This turns model routing into a quality mechanism, not just a cost control.</p>
+
+<h2>Quantization: Trading precision for speed and cost</h2>
+<figure class="article-image article-image--inline">
+  <picture><source srcset="/images/articles/llm-inference-cost-optimization-inline-2.webp" type="image/webp"><img src="/images/articles/llm-inference-cost-optimization-inline-2.jpg" alt="Quantization: Trading precision for speed and cost" loading="lazy" width="1200" height="630"></picture>
+  <figcaption class="article-image-credit">Photo by <a href="https://www.pexels.com/photo/an-artist-s-illustration-of-artificial-intelligence-ai-this-image-was-inspired-by-neural-networks-used-in-deep-learning-it-was-created-by-novoto-studio-as-part-of-the-visualising-ai-pr-17483874/" rel="nofollow noopener" target="_blank">Google DeepMind</a> on Pexels.</figcaption>
+</figure>
+
+
+<p>Quantization is the process of reducing the precision of a model's weights and activations. A standard model uses 16-bit or 32-bit floating point numbers. A quantized model uses 8-bit or 4-bit integers. The effect on cost and speed is immediate: a 7B parameter model quantized to int4 can run on cheaper hardware, faster, and with lower memory bandwidth. In hosted APIs, quantized models may also receive pricing discounts.</p>
+
+<p>The trade-off is accuracy. A quantization-aware trained (QAT) model minimizes loss, but even the best quantized models degrade somewhat. The degradation depends on the task. Classification and retrieval tasks are robust. Generation tasks can show measurable differences. A quantized model might hallucinate slightly more or produce output with lower coherence on long sequences. The only way to know is to benchmark.</p>
+
+<p>Practically, teams should test quantization on a holdout test set that mirrors production. Run 500 to 1,000 representative queries through both the base and quantized model. Measure the difference in output quality using task-specific metrics. For a summarization task, compare ROUGE scores or human ratings. For a classification task, compare accuracy. If the quantized model is within your quality threshold (often 95 to 99 percent of base performance), deploy it. If not, keep the base model or use quantization only for low-stakes queries (e.g., internal tools).</p>
+
+<p>Quantized models are now widely available. Hugging Face, GGML, and vLLM all offer pre-quantized checkpoints. If you are self-hosting, quantization is straightforward. If you rely on hosted APIs like OpenAI or Anthropic, quantized variants may not be available, and you cannot quantize the model yourself. In that case, quantization is off the table unless you switch providers or self-host. This is a constraint worth understanding early.</p>
+
+<h2>Batching: Shifting urgency to reduce per-token cost</h2>
+
+<p>Batching groups multiple inference requests into a single batch, amortizing overhead and increasing GPU utilization. Hosted APIs often price batch requests at 50 percent of real-time rates, as batch processing allows the provider to schedule inference during off-peak hours and pack requests more densely on hardware. For teams self-hosting, batching reduces per-request latency and cost per token.</p>
+
+<p>The trade-off is latency. A real-time API returns results in milliseconds. A batch job may process requests hours or days later. This is acceptable for reporting, bulk analysis, async notification generation, and any workflow where the user does not wait. It is not acceptable for customer-facing chat, real-time search, or any interactive feature.</p>
+
+<p>Practical batching strategies: set up a daily or hourly batch job for asynchronous workloads. Examples include generating personalized emails for a user cohort, analyzing uploaded documents in bulk, or reranking search results overnight. Use real-time APIs only for features where latency matters. The cost savings are measurable. If 30 percent of your token volume is batchable, moving that 30 percent to a batch API reduces overall inference cost by roughly 15 percent (30 percent of volume at 50 percent of per-token cost).</p>
+
+<p>Implementation is straightforward: collect requests in a queue, set a batch threshold (e.g., 1,000 requests or 1 hour), submit the batch, and process results asynchronously. Use batch IDs to track results back to users. Most LLM providers (OpenAI, Anthropic, Cohere) offer batch APIs with clear pricing and SLAs. The engineering lift is moderate: a job queue, a scheduler, and a results processor.</p>
+
+<h2>Monitoring and governance: The unsexy necessity</h2>
+
+<p>Optimization without monitoring is guesswork. Teams should instrument LLM inference cost from day one, treating it like database query cost or API latency. Every inference should log: the model name, input token count, output token count, timestamp, user or account ID, and feature name. Push these logs to a data warehouse (BigQuery, Snowflake) or BI tool (Datadog, Grafana, Redshift).</p>
+
+<p>Establish dashboards that answer: What is our total monthly inference cost? Which features drive the most cost? What is the cost per user? What is our token efficiency trend? Which models are we using and at what volume? Segment by model, feature, and time window. Set alerts for: total monthly cost exceeding a threshold, cost per user spiking, or a feature's cost growing faster than expected.</p>
+
+<p>Governance is equally important. Assign ownership of inference cost to engineering teams or feature owners. Each team should know their monthly budget and actual spend. When a team ships a new feature, require a cost estimate (based on token projections) and track actual cost post-launch. If a team's feature costs 10x more than estimated, that is a signal to optimize or deprioritize.</p>
+
+<p>In practice, this means: a FinOps dashboard visible to all engineers, monthly cost reviews with leadership, and cost-aware code review. Engineers should ask, "How many tokens will this generate?" the same way they ask about latency or memory. Culture shifts when cost is visible and owned.</p>
+
+<h2>When optimization hits limits</h2>
+
+<p>These four levers are powerful, but they have constraints. Prompt caching requires stable, repeating context; a system where each query is entirely novel will see near-zero cache hits. Model routing requires quality tolerance; if your domain demands frontier model performance on every task, routing gains nothing. Quantization assumes your workload is robust to precision loss; high-stakes financial or medical advice may not be. Batching requires latency tolerance; real-time customer-facing features cannot use it.</p>
+
+<p>Some teams will implement all four and plateau at 50 to 60 percent cost reduction. Others may not be able to implement any. The right approach is to audit your workload honestly. Are your prompts repetitive? Are your tasks varied in complexity? Can you tolerate longer latencies on some requests? Can you accept small quality degradation? Answer these questions, then pick the levers that apply.</p>
+
+<p>There is also a limit to how far engineering can push. After caching, routing, quantization, and batching are maxed out, further cost reduction requires either architectural change (fewer tokens per task), model switching (moving to a cheaper provider), or volume reduction (narrower use cases). These are business decisions, not engineering optimizations. Know when you have hit that wall.</p>
+
+<p>Begin with monitoring and baseline cost. Run one optimization pilot (usually caching or routing) and measure the impact before layering in others. Communicate cost savings to stakeholders not as a cost-cutting exercise, but as a mechanism that unblocks new features and reduces the friction of scaling. Teams that treat LLM cost as a first-class metric will find optimization natural and continuous.</p></div>
+
+      <section style="margin-top: var(--space-8);">
+        <h2 style="margin-bottom: var(--space-5);">Frequently asked questions</h2>
+        <div class="faq-list">
+    <details class="faq-item" style="border-bottom:1px solid var(--color-rule);padding:var(--space-4) 0;">
+      <summary style="cursor:pointer;font-weight:600;font-size:var(--text-md);list-style:none;display:flex;justify-content:space-between;align-items:flex-start;gap:var(--space-3);">
+        <span>How much can prompt caching actually save?</span>
+        <span aria-hidden="true" style="color:var(--color-ink-faint);font-weight:400;flex-shrink:0;">+</span>
+      </summary>
+      <div style="margin-top:var(--space-3);color:var(--color-ink-muted);line-height:1.7;">
+        <p>Prompt caching reduces token cost for cached content by 90% compared to uncached input. For workloads with high repetition (e.g., analyzing the same document 100 times), savings reach 50-70% of total inference cost. Real savings depend on your cache hit ratio and whether cached prompts represent your biggest cost driver.</p>
+      </div>
+    </details>
+
+    <details class="faq-item" style="border-bottom:1px solid var(--color-rule);padding:var(--space-4) 0;">
+      <summary style="cursor:pointer;font-weight:600;font-size:var(--text-md);list-style:none;display:flex;justify-content:space-between;align-items:flex-start;gap:var(--space-3);">
+        <span>When should we switch to smaller models?</span>
+        <span aria-hidden="true" style="color:var(--color-ink-faint);font-weight:400;flex-shrink:0;">+</span>
+      </summary>
+      <div style="margin-top:var(--space-3);color:var(--color-ink-muted);line-height:1.7;">
+        <p>Model routing makes sense when accuracy benchmarks allow. A smaller model at 95% of larger-model accuracy but 40% of the cost is a clear win. Start by running your test set through multiple models, measure quality metrics (BLEU, exact match, or domain-specific evals), then route based on task complexity or confidence thresholds.</p>
+      </div>
+    </details>
+
+    <details class="faq-item" style="border-bottom:1px solid var(--color-rule);padding:var(--space-4) 0;">
+      <summary style="cursor:pointer;font-weight:600;font-size:var(--text-md);list-style:none;display:flex;justify-content:space-between;align-items:flex-start;gap:var(--space-3);">
+        <span>Does quantization hurt output quality?</span>
+        <span aria-hidden="true" style="color:var(--color-ink-faint);font-weight:400;flex-shrink:0;">+</span>
+      </summary>
+      <div style="margin-top:var(--space-3);color:var(--color-ink-muted);line-height:1.7;">
+        <p>For many workloads, quantization to int8 or int4 shows minimal quality loss. Chatbots, summarization, and classification degrade gracefully. Tasks requiring precise mathematical reasoning or long-context coherence may see 2-5% accuracy drops. Test on your actual use cases before committing to quantized models in production.</p>
+      </div>
+    </details>
+
+    <details class="faq-item" style="border-bottom:1px solid var(--color-rule);padding:var(--space-4) 0;">
+      <summary style="cursor:pointer;font-weight:600;font-size:var(--text-md);list-style:none;display:flex;justify-content:space-between;align-items:flex-start;gap:var(--space-3);">
+        <span>What&#39;s the actual cost difference between batch and real-time APIs?</span>
+        <span aria-hidden="true" style="color:var(--color-ink-faint);font-weight:400;flex-shrink:0;">+</span>
+      </summary>
+      <div style="margin-top:var(--space-3);color:var(--color-ink-muted);line-height:1.7;">
+        <p>Batch APIs typically cost 50% of real-time inference. If you can tolerate 24-hour latency on non-critical workloads, batching is straightforward arbitrage. The trade-off: architectural complexity and reduced flexibility. Best for reporting, bulk analysis, and non-customer-facing workflows.</p>
+      </div>
+    </details>
+
+    <details class="faq-item" style="border-bottom:1px solid var(--color-rule);padding:var(--space-4) 0;">
+      <summary style="cursor:pointer;font-weight:600;font-size:var(--text-md);list-style:none;display:flex;justify-content:space-between;align-items:flex-start;gap:var(--space-3);">
+        <span>How do we monitor LLM inference costs in practice?</span>
+        <span aria-hidden="true" style="color:var(--color-ink-faint);font-weight:400;flex-shrink:0;">+</span>
+      </summary>
+      <div style="margin-top:var(--space-3);color:var(--color-ink-muted);line-height:1.7;">
+        <p>Log every inference with: model name, input tokens, output tokens, timestamp, and user/feature. Push to a data warehouse or BI tool. Track cost per user, cost per feature, and token efficiency metrics. Set monthly budgets per team and alert above threshold. Include inference cost in your core product metrics dashboards.</p>
+      </div>
+    </details>
+
+    <details class="faq-item" style="border-bottom:1px solid var(--color-rule);padding:var(--space-4) 0;">
+      <summary style="cursor:pointer;font-weight:600;font-size:var(--text-md);list-style:none;display:flex;justify-content:space-between;align-items:flex-start;gap:var(--space-3);">
+        <span>Can we combine caching, routing, and quantization?</span>
+        <span aria-hidden="true" style="color:var(--color-ink-faint);font-weight:400;flex-shrink:0;">+</span>
+      </summary>
+      <div style="margin-top:var(--space-3);color:var(--color-ink-muted);line-height:1.7;">
+        <p>Yes. A typical optimized stack layers them: cache expensive prompts, route simple queries to quantized small models, batch non-urgent workloads, and size containers to avoid overprovisioning. Start with one lever, measure impact, then layer the next. Diminishing returns kick in after two or three combined.</p>
+      </div>
+    </details>
+
+    <details class="faq-item" style="border-bottom:1px solid var(--color-rule);padding:var(--space-4) 0;">
+      <summary style="cursor:pointer;font-weight:600;font-size:var(--text-md);list-style:none;display:flex;justify-content:space-between;align-items:flex-start;gap:var(--space-3);">
+        <span>What&#39;s a realistic timeline for implementing these optimizations?</span>
+        <span aria-hidden="true" style="color:var(--color-ink-faint);font-weight:400;flex-shrink:0;">+</span>
+      </summary>
+      <div style="margin-top:var(--space-3);color:var(--color-ink-muted);line-height:1.7;">
+        <p>Monitoring and alerting: 1 to 2 weeks. Prompt caching: 2 to 4 weeks (if you control prompts). Model routing: 3 to 8 weeks (requires evaluation and testing). Quantization: 2 to 6 weeks (if using pre-quantized models). Batching: 2 to 4 weeks. Most teams start with caching and monitoring in parallel, then layer routing.</p>
+      </div>
+    </details></div>
+      </section>
+          <p style="font-size:var(--text-xs);color:var(--color-ink-faint);margin-top:var(--space-6);padding-top:var(--space-4);border-top:1px solid var(--color-rule);">
+            An <strong>AI Glimpse</strong> explainer. We update this guide as the field evolves.
+          </p>
+        </div>
+      </section>
+    </article>
+    <section class="section" aria-label="Related articles">
+      <div class="container container--narrow">
+        <div class="section-header">
+          <h2 class="section-title">More from AI Glimpse</h2>
+          <a href="/categories/business" class="section-link">All Business stories</a>
+        </div>
+        <div class="grid grid-3">
+          <article class="card card--medium">
+            <a href="/articles/ai-testing-breakouts-expose-growing-gap-in-safety-infrastructure-37afb20b"><div class="card-image"><picture><source srcset="/images/articles/ai-testing-breakouts-expose-growing-gap-in-safety-infrastructure-37afb20b.webp" type="image/webp"><img src="/images/articles/ai-testing-breakouts-expose-growing-gap-in-safety-infrastructure-37afb20b.jpg" alt="AI Testing Breakouts Expose Growing Gap in Safety Infrastructure" loading="lazy" width="1200" height="630"></picture></div></a>
+            <div class="card-meta">
+              <span class="tag tag--business">Business</span>
+              <span class="card-byline"><time datetime="2026-08-09T14:30:00.000Z">Aug 9, 2026</time></span>
+            </div>
+            <a href="/articles/ai-testing-breakouts-expose-growing-gap-in-safety-infrastructure-37afb20b"><h3 class="card-title">AI Testing Breakouts Expose Growing Gap in Safety Infrastructure</h3></a>
+          </article>
+          <article class="card card--medium">
+            <a href="/articles/eus-ai-disclosure-rules-launch-with-minimal-safeguards-eed02464"><div class="card-image"><picture><source srcset="/images/articles/eus-ai-disclosure-rules-launch-with-minimal-safeguards-eed02464.webp" type="image/webp"><img src="/images/articles/eus-ai-disclosure-rules-launch-with-minimal-safeguards-eed02464.jpg" alt="EU's AI Disclosure Rules Launch With Minimal Safeguards" loading="lazy" width="1200" height="630"></picture></div></a>
+            <div class="card-meta">
+              <span class="tag tag--business">Business</span>
+              <span class="card-byline"><time datetime="2026-08-08T21:12:01.000Z">Aug 8, 2026</time></span>
+            </div>
+            <a href="/articles/eus-ai-disclosure-rules-launch-with-minimal-safeguards-eed02464"><h3 class="card-title">EU's AI Disclosure Rules Launch With Minimal Safeguards</h3></a>
+          </article>
+          <article class="card card--medium">
+            <a href="/articles/german-court-finds-suno-liable-for-copyright-infringement-in-ai-training-85ac81b9"><div class="card-image"><picture><source srcset="/images/articles/german-court-finds-suno-liable-for-copyright-infringement-in-ai-training-85ac81b9.webp" type="image/webp"><img src="/images/articles/german-court-finds-suno-liable-for-copyright-infringement-in-ai-training-85ac81b9.jpg" alt="German Court Finds Suno Liable for Copyright Infringement in AI Training" loading="lazy" width="1200" height="630"></picture></div></a>
+            <div class="card-meta">
+              <span class="tag tag--business">Business</span>
+              <span class="card-byline"><time datetime="2026-08-09T00:37:46.000Z">Aug 9, 2026</time></span>
+            </div>
+            <a href="/articles/german-court-finds-suno-liable-for-copyright-infringement-in-ai-training-85ac81b9"><h3 class="card-title">German Court Finds Suno Liable for Copyright Infringement in AI Training</h3></a>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="/" class="logo">
+            <span class="logo-wordmark" aria-label="AI Glimpse">A<span class="iris-i" aria-hidden="true">ı</span><span aria-hidden="true"> Glimpse</span></span>
+          </a>
+          <p>Your daily glimpse into AI. Independent reporting and analysis on the people, products, and policies shaping artificial intelligence.</p>
+        </div>
+        <div class="footer-col">
+          <h5>Categories</h5>
+          <ul>
+            <li><a href="/categories/llms">LLMs</a></li>
+            <li><a href="/categories/research">Research</a></li>
+            <li><a href="/categories/tools">Tools</a></li>
+            <li><a href="/categories/business">Business</a></li>
+            <li><a href="/categories/ethics">Ethics</a></li>
+            <li><a href="/categories/industry">Industry</a></li>
+            <li><a href="/categories/robotics">Robotics</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h5>About</h5>
+          <ul>
+            <li><a href="/pages/about">About AI Glimpse</a></li>
+            <li><a href="/pages/contact">Contact</a></li>
+            <li><a href="/pages/editorial">Editorial Standards</a></li>
+            <li><a href="/pages/advertise">Advertise</a></li>
+            <li><a href="/guides">Guides &amp; Explainers</a></li>
+            <li><a href="/search">Search</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h5>Legal</h5>
+          <ul>
+            <li><a href="/pages/privacy">Privacy Policy</a></li>
+            <li><a href="/pages/terms">Terms of Service</a></li>
+            <li><a href="#" data-consent-open>Cookie preferences</a></li>
+            <li><a href="/rss.xml">RSS Feed</a></li>
+            <li><a href="/sitemap.xml">Sitemap</a></li>
+            <li><a href="/llms.txt">LLMs.txt</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div>© <span id="year">2026</span> AI Glimpse · aiglimpse.ai</div>
+        <div class="footer-social">
+          <a href="/rss.xml" aria-label="RSS"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M6.503 20.752c0 1.794-1.456 3.248-3.251 3.248-1.796 0-3.252-1.454-3.252-3.248 0-1.794 1.456-3.248 3.252-3.248 1.795 0 3.251 1.454 3.251 3.248zm-6.503-12.572v4.811c6.05.062 10.96 4.966 11.022 11.009h4.817c-.062-8.71-7.118-15.758-15.839-15.82zm0-3.368c10.58.046 19.152 8.594 19.183 19.188h4.817c-.03-13.231-10.755-23.954-24-24v4.812z"/></svg></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="/js/chrome.js"></script>
+  <script src="/js/main.js"></script>
+</body>
+</html>
