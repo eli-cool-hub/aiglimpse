@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "video-pretraining-cuts-surgical-robot-training-data-needs-by-half-fa17e9c9",
+      "title": "Video Pretraining Cuts Surgical Robot Training Data Needs by Half",
+      "subtitle": "Researchers show that learning from unlabeled endoscopic footage dramatically improves surgical manipulation with limited labeled demonstrations.",
+      "category": "research",
+      "publishedAt": "2026-08-11T17:59:13.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2608.11204v1",
+      "sourceName": "arXiv (Wenrui Bao, Tianyun Jiang, Zhiben Chen, Ser-Nam Lim, Peter D…)",
+      "sourceTier": 1,
+      "image": "/images/articles/video-pretraining-cuts-surgical-robot-training-data-needs-by-half-fa17e9c9.jpg"
+    },
+    {
       "slug": "enterprise-ai-moves-beyond-chat-to-autonomous-task-execution-c0d7eece",
       "title": "Enterprise AI Moves Beyond Chat to Autonomous Task Execution",
       "subtitle": "New research shows leading companies are deploying agentic AI systems that operate independently, signaling a major shift in how organizations leverage artificial intelligence.",
@@ -11085,6 +11096,7 @@
     "d439dd642fe0716e",
     "75bb6e555f8c3655",
     "9f880a8ddc19acb8",
-    "c0d7eecee251b516"
+    "c0d7eecee251b516",
+    "fa17e9c9338d8885"
   ]
 }
