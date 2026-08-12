@@ -11738,6 +11738,24 @@
         "devto": true,
         "hashnode": false
       }
+    },
+    "enterprise-ai-moves-beyond-chat-to-autonomous-task-execution-c0d7eece": {
+      "syndicated_at": "2026-08-12T13:09:27.370Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/enterprise-ai-moves-beyond-chat-to-autonomous-task-execution-485o",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 452,
+      "category": "llms",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
     }
   }
 }

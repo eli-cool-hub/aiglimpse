@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "enterprise-ai-moves-beyond-chat-to-autonomous-task-execution-c0d7eece",
+      "title": "Enterprise AI Moves Beyond Chat to Autonomous Task Execution",
+      "subtitle": "New research shows leading companies are deploying agentic AI systems that operate independently, signaling a major shift in how organizations leverage artificial intelligence.",
+      "category": "llms",
+      "publishedAt": "2026-08-12T06:00:00.000Z",
+      "sourceUrl": "https://openai.com/index/how-enterprises-put-ai-to-work",
+      "sourceName": "OpenAI",
+      "sourceTier": 1,
+      "image": "/images/articles/enterprise-ai-moves-beyond-chat-to-autonomous-task-execution-c0d7eece.jpg"
+    },
+    {
       "slug": "healthcare-systems-report-measurable-profit-gains-from-ai-implementation-9f880a8d",
       "title": "Healthcare Systems Report Measurable Profit Gains From AI Implementation",
       "subtitle": "Financial leaders detail concrete returns as artificial intelligence moves beyond experimental pilots into clinical and administrative workflows.",
@@ -11073,6 +11084,7 @@
     "21433cfdf0b8296a",
     "d439dd642fe0716e",
     "75bb6e555f8c3655",
-    "9f880a8ddc19acb8"
+    "9f880a8ddc19acb8",
+    "c0d7eecee251b516"
   ]
 }
