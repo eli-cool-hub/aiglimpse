@@ -7,6 +7,22 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Healthcare Systems Report Measurable Profit Gains From AI Implementation</title>
+      <link>https://aiglimpse.ai/articles/healthcare-systems-report-measurable-profit-gains-from-ai-implementation-9f880a8d</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/healthcare-systems-report-measurable-profit-gains-from-ai-implementation-9f880a8d</guid>
+      <description>Financial leaders detail concrete returns as artificial intelligence moves beyond experimental pilots into clinical and administrative workflows.</description>
+      <pubDate>Tue, 11 Aug 2026 21:04:57 GMT</pubDate>
+      <category>Industry Applications</category>
+    </item>
+    <item>
+      <title>LLM Inference Cost Optimization: A FinOps Guide</title>
+      <link>https://aiglimpse.ai/articles/llm-inference-cost-optimization</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/llm-inference-cost-optimization</guid>
+      <description>Four concrete levers for reducing LLM bills: caching, routing, quantization, and batching.</description>
+      <pubDate>Wed, 12 Aug 2026 07:11:32 GMT</pubDate>
+      <category>AI Business</category>
+    </item>
+    <item>
       <title>UK Courts Ban Meta Smart Glasses, Citing Recording Risks</title>
       <link>https://aiglimpse.ai/articles/uk-courts-ban-meta-smart-glasses-citing-recording-risks-75bb6e55</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/uk-courts-ban-meta-smart-glasses-citing-recording-risks-75bb6e55</guid>
@@ -389,22 +405,6 @@
       <description>As AI compute demands surge, tech giants are building massive on-site power plants to fuel training and inference at scale.</description>
       <pubDate>Thu, 06 Aug 2026 06:44:31 GMT</pubDate>
       <category>Industry Applications</category>
-    </item>
-    <item>
-      <title>Sequoia's New Leaders Deploy $10B Wager on AI and Industrial Revival</title>
-      <link>https://aiglimpse.ai/articles/sequoias-new-leaders-deploy-10b-wager-on-ai-and-industrial-revival-11b2fc0f</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/sequoias-new-leaders-deploy-10b-wager-on-ai-and-industrial-revival-11b2fc0f</guid>
-      <description>Fresh leadership at the legendary venture firm is betting big on artificial intelligence and manufacturing renaissance, signaling a major strategic pivot.</description>
-      <pubDate>Thu, 06 Aug 2026 08:08:23 GMT</pubDate>
-      <category>Industry Applications</category>
-    </item>
-    <item>
-      <title>New Training Method Fixes Critical Imbalance in Multimodal AI Models</title>
-      <link>https://aiglimpse.ai/articles/new-training-method-fixes-critical-imbalance-in-multimodal-ai-models-94e9e916</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-training-method-fixes-critical-imbalance-in-multimodal-ai-models-94e9e916</guid>
-      <description>Researchers show how balancing text and vision processing during training significantly improves reasoning in large multimodal models while cutting computational costs.</description>
-      <pubDate>Wed, 05 Aug 2026 17:53:06 GMT</pubDate>
-      <category>AI Research</category>
     </item>
   </channel>
 </rss>
