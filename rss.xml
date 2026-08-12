@@ -7,6 +7,14 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>UK Courts Ban Meta Smart Glasses, Citing Recording Risks</title>
+      <link>https://aiglimpse.ai/articles/uk-courts-ban-meta-smart-glasses-citing-recording-risks-75bb6e55</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/uk-courts-ban-meta-smart-glasses-citing-recording-risks-75bb6e55</guid>
+      <description>England and Wales prohibit wearable devices in courtrooms while maintaining phone restrictions, raising questions about AI-enabled surveillance in legal settings.</description>
+      <pubDate>Wed, 12 Aug 2026 03:26:38 GMT</pubDate>
+      <category>Ethics &amp; Policy</category>
+    </item>
+    <item>
       <title>Congressional Democrats Demand Safety Details From OpenAI, Anthropic</title>
       <link>https://aiglimpse.ai/articles/congressional-democrats-demand-safety-details-from-openai-anthropic-d439dd64</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/congressional-democrats-demand-safety-details-from-openai-anthropic-d439dd64</guid>
@@ -397,14 +405,6 @@
       <description>Researchers show how balancing text and vision processing during training significantly improves reasoning in large multimodal models while cutting computational costs.</description>
       <pubDate>Wed, 05 Aug 2026 17:53:06 GMT</pubDate>
       <category>AI Research</category>
-    </item>
-    <item>
-      <title>Researchers Transform Human Video Into Robot Training Data at Scale</title>
-      <link>https://aiglimpse.ai/articles/researchers-transform-human-video-into-robot-training-data-at-scale-e4ca4a99</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/researchers-transform-human-video-into-robot-training-data-at-scale-e4ca4a99</guid>
-      <description>A new method synthesizes tens of thousands of hours of robot learning data from first-person video, potentially solving robotics' persistent data shortage.</description>
-      <pubDate>Thu, 06 Aug 2026 04:03:17 GMT</pubDate>
-      <category>Robotics</category>
     </item>
   </channel>
 </rss>

@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "uk-courts-ban-meta-smart-glasses-citing-recording-risks-75bb6e55",
+      "title": "UK Courts Ban Meta Smart Glasses, Citing Recording Risks",
+      "subtitle": "England and Wales prohibit wearable devices in courtrooms while maintaining phone restrictions, raising questions about AI-enabled surveillance in legal settings.",
+      "category": "ethics",
+      "publishedAt": "2026-08-12T03:26:38.000Z",
+      "sourceUrl": "https://www.engadget.com/2234606/england-and-wales-ban-meta-glasses-from-courtrooms/",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/uk-courts-ban-meta-smart-glasses-citing-recording-risks-75bb6e55.jpg"
+    },
+    {
       "slug": "congressional-democrats-demand-safety-details-from-openai-anthropic-d439dd64",
       "title": "Congressional Democrats Demand Safety Details From OpenAI, Anthropic",
       "subtitle": "Lawmakers seek transparency on AI agent containment failures during security testing",
@@ -11037,6 +11048,7 @@
     "9d2f47dd7337b8da",
     "fa1b6a9380cc6816",
     "21433cfdf0b8296a",
-    "d439dd642fe0716e"
+    "d439dd642fe0716e",
+    "75bb6e555f8c3655"
   ]
 }
