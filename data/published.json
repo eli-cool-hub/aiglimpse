@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "top-ai-researchers-defend-open-development-amid-safety-pushback-1c4c7e8e",
+      "title": "Top AI Researchers Defend Open Development Amid Safety Pushback",
+      "subtitle": "Three machine learning pioneers argue transparency remains essential even as regulators scrutinize the field's rapid expansion.",
+      "category": "business",
+      "publishedAt": "2026-08-12T17:51:00.000Z",
+      "sourceUrl": "https://techcrunch.com/2026/08/12/as-ai-safety-concerns-mount-three-pioneers-make-the-case-for-staying-open/",
+      "sourceName": "TechCrunch AI",
+      "sourceTier": 2,
+      "image": "/images/articles/top-ai-researchers-defend-open-development-amid-safety-pushback-1c4c7e8e.jpg"
+    },
+    {
       "slug": "video-pretraining-cuts-surgical-robot-training-data-needs-by-half-fa17e9c9",
       "title": "Video Pretraining Cuts Surgical Robot Training Data Needs by Half",
       "subtitle": "Researchers show that learning from unlabeled endoscopic footage dramatically improves surgical manipulation with limited labeled demonstrations.",
@@ -11097,6 +11108,7 @@
     "75bb6e555f8c3655",
     "9f880a8ddc19acb8",
     "c0d7eecee251b516",
-    "fa17e9c9338d8885"
+    "fa17e9c9338d8885",
+    "1c4c7e8e2eee6e5e"
   ]
 }
