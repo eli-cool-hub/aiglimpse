@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "pentagon-opens-ai-robotics-competition-to-strengthen-defense-manufacturing-4511bd1c",
+      "title": "Pentagon Opens AI Robotics Competition to Strengthen Defense Manufacturing",
+      "subtitle": "The ARM Institute launches a major funding call for autonomous systems and machine learning projects aimed at accelerating U.S. military production capabilities.",
+      "category": "robotics",
+      "publishedAt": "2026-08-13T12:35:42.000Z",
+      "sourceUrl": "https://www.therobotreport.com/arm-institute-calls-for-defense-manufacturing-technology-project/",
+      "sourceName": "The Robot Report",
+      "sourceTier": 3,
+      "image": "/images/articles/pentagon-opens-ai-robotics-competition-to-strengthen-defense-manufacturing-4511bd1c.jpg"
+    },
+    {
       "slug": "uber-divests-from-serve-robotics-as-delivery-robot-partnership-dissolves-4f45835c",
       "title": "Uber Divests From Serve Robotics as Delivery Robot Partnership Dissolves",
       "subtitle": "The ride-hailing giant's exit from its autonomous delivery venture signals growing challenges in commercializing last-mile robotics technology.",
@@ -11145,6 +11156,7 @@
     "1c4c7e8e2eee6e5e",
     "748531965aa68aee",
     "d631c9749b6243b1",
-    "4f45835c45c05d64"
+    "4f45835c45c05d64",
+    "4511bd1ce4cb84b8"
   ]
 }
