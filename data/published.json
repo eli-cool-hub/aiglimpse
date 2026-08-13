@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "health-system-achieves-88-automation-rate-for-insurance-claims-d631c974",
+      "title": "Health System Achieves 88% Automation Rate for Insurance Claims",
+      "subtitle": "St. Luke's and UnitedHealthcare leverage Epic's AI-powered platform to streamline revenue cycle operations and eliminate manual claim inquiries.",
+      "category": "industry",
+      "publishedAt": "2026-08-12T21:53:10.000Z",
+      "sourceUrl": "https://www.beckershospitalreview.com/healthcare-information-technology/ehrs/st-lukes-unitedhealthcare-automate-88-of-claim-statuses-via-epic/",
+      "sourceName": "Becker's Hospital Review",
+      "sourceTier": 2,
+      "image": "/images/articles/health-system-achieves-88-automation-rate-for-insurance-claims-d631c974.jpg"
+    },
+    {
+      "slug": "white-house-signals-regulatory-expansion-to-include-open-source-ai-models-74853196",
+      "title": "White House Signals Regulatory Expansion to Include Open-Source AI Models",
+      "subtitle": "The administration prepares to broaden its AI governance framework beyond closed commercial systems, marking a significant shift in federal technology policy.",
+      "category": "tools",
+      "publishedAt": "2026-08-12T21:00:00.000Z",
+      "sourceUrl": "https://www.wired.com/story/the-white-house-is-going-to-expand-its-ai-policy/",
+      "sourceName": "Wired AI",
+      "sourceTier": 2,
+      "image": "/images/articles/white-house-signals-regulatory-expansion-to-include-open-source-ai-models-74853196.jpg"
+    },
+    {
       "slug": "top-ai-researchers-defend-open-development-amid-safety-pushback-1c4c7e8e",
       "title": "Top AI Researchers Defend Open Development Amid Safety Pushback",
       "subtitle": "Three machine learning pioneers argue transparency remains essential even as regulators scrutinize the field's rapid expansion.",
@@ -11109,6 +11131,8 @@
     "9f880a8ddc19acb8",
     "c0d7eecee251b516",
     "fa17e9c9338d8885",
-    "1c4c7e8e2eee6e5e"
+    "1c4c7e8e2eee6e5e",
+    "748531965aa68aee",
+    "d631c9749b6243b1"
   ]
 }
