@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "unified-platform-simplifies-robot-learning-data-pipeline-e93aba9f",
+      "title": "Unified Platform Simplifies Robot Learning Data Pipeline",
+      "subtitle": "New integration lets teams capture, train, and deploy robot models in a single workflow, accelerating AI-powered automation development.",
+      "category": "tools",
+      "publishedAt": "2026-08-13T17:16:04.000Z",
+      "sourceUrl": "https://huggingface.co/blog/amazon/strands-lerobot-streaming-data-loop",
+      "sourceName": "Hugging Face",
+      "sourceTier": 1,
+      "image": "/images/articles/unified-platform-simplifies-robot-learning-data-pipeline-e93aba9f.jpg"
+    },
+    {
       "slug": "factory-robots-are-moving-beyond-humanoids-into-real-work-da4f2d2d",
       "title": "Factory Robots Are Moving Beyond Humanoids Into Real Work",
       "subtitle": "While humanoid startups grab headlines, mobile manipulators are already deployed in warehouses solving practical automation challenges.",
@@ -11181,6 +11192,7 @@
     "4f45835c45c05d64",
     "4511bd1ce4cb84b8",
     "8dc81be516840791",
-    "da4f2d2d9fec6a81"
+    "da4f2d2d9fec6a81",
+    "e93aba9f974a4679"
   ]
 }
