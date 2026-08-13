@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "factory-robots-are-moving-beyond-humanoids-into-real-work-da4f2d2d",
+      "title": "Factory Robots Are Moving Beyond Humanoids Into Real Work",
+      "subtitle": "While humanoid startups grab headlines, mobile manipulators are already deployed in warehouses solving practical automation challenges.",
+      "category": "robotics",
+      "publishedAt": "2026-08-13T15:06:47.000Z",
+      "sourceUrl": "https://www.therobotreport.com/mobile-manipulators-and-humanoids/",
+      "sourceName": "The Robot Report",
+      "sourceTier": 3,
+      "image": "/images/articles/factory-robots-are-moving-beyond-humanoids-into-real-work-da4f2d2d.jpg"
+    },
+    {
+      "slug": "epic-unveils-autonomous-ai-agents-and-predictive-tools-at-2026-conference-8dc81be5",
+      "title": "Epic Unveils Autonomous AI Agents and Predictive Tools at 2026 Conference",
+      "subtitle": "Healthcare software giant previews Agent Factory, AI-powered analytics, and expanded intelligence features for clinical workflows.",
+      "category": "industry",
+      "publishedAt": "2026-08-13T15:28:37.000Z",
+      "sourceUrl": "https://www.beckershospitalreview.com/healthcare-information-technology/ehrs/epics-ugm-2026-preview-ai-agents-cosmos-germany-debut/",
+      "sourceName": "Becker's Hospital Review",
+      "sourceTier": 2,
+      "image": "/images/articles/epic-unveils-autonomous-ai-agents-and-predictive-tools-at-2026-conference-8dc81be5.jpg"
+    },
+    {
       "slug": "pentagon-opens-ai-robotics-competition-to-strengthen-defense-manufacturing-4511bd1c",
       "title": "Pentagon Opens AI Robotics Competition to Strengthen Defense Manufacturing",
       "subtitle": "The ARM Institute launches a major funding call for autonomous systems and machine learning projects aimed at accelerating U.S. military production capabilities.",
@@ -11157,6 +11179,8 @@
     "748531965aa68aee",
     "d631c9749b6243b1",
     "4f45835c45c05d64",
-    "4511bd1ce4cb84b8"
+    "4511bd1ce4cb84b8",
+    "8dc81be516840791",
+    "da4f2d2d9fec6a81"
   ]
 }
