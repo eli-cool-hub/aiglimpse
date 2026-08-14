@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "robotics-firms-sidestep-traditional-ipos-through-spac-deals-3d30215c",
+      "title": "Robotics firms sidestep traditional IPOs through SPAC deals",
+      "subtitle": "As labor shortages drive demand, companies like Agility bypass conventional public offerings for faster market access and strategic capital.",
+      "category": "robotics",
+      "publishedAt": "2026-08-14T12:30:40.000Z",
+      "sourceUrl": "https://www.therobotreport.com/robots-on-wall-street-non-traditional-paths-public-markets-robotics-companies/",
+      "sourceName": "The Robot Report",
+      "sourceTier": 3,
+      "image": "/images/articles/robotics-firms-sidestep-traditional-ipos-through-spac-deals-3d30215c.jpg"
+    },
+    {
+      "slug": "healthcares-ai-success-hinges-on-leadership-not-technology-80370766",
+      "title": "Healthcare's AI Success Hinges on Leadership, Not Technology",
+      "subtitle": "Hospitals pursuing artificial intelligence must first transform their organizational culture and management practices to realize AI's potential.",
+      "category": "industry",
+      "publishedAt": "2026-08-14T12:02:00.000Z",
+      "sourceUrl": "https://www.beckershospitalreview.com/quality/leadership-in-the-age-of-learning/",
+      "sourceName": "Becker's Hospital Review",
+      "sourceTier": 2,
+      "image": "/images/articles/healthcares-ai-success-hinges-on-leadership-not-technology-80370766.jpg"
+    },
+    {
       "slug": "teaching-robots-to-handle-group-conversations-22706adc",
       "title": "Teaching Robots to Handle Group Conversations",
       "subtitle": "Researchers tackle the harder problem of social robots engaging multiple people simultaneously rather than one-on-one interactions.",
@@ -11229,6 +11251,8 @@
     "da4f2d2d9fec6a81",
     "e93aba9f974a4679",
     "72b3ba56d00f9dcc",
-    "22706adca0002b70"
+    "22706adca0002b70",
+    "80370766e29b1b6c",
+    "3d30215ca5e0a8d6"
   ]
 }
