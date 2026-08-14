@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "leading-roboticists-to-debate-humanoid-reality-vs-hype-at-industry-forum-72b3ba56",
+      "title": "Leading Roboticists to Debate Humanoid Reality vs. Hype at Industry Forum",
+      "subtitle": "Industry experts will dissect what humanoid robots can actually do today and what barriers must fall before they reshape manufacturing and logistics.",
+      "category": "robotics",
+      "publishedAt": "2026-08-13T12:30:25.000Z",
+      "sourceUrl": "https://www.therobotreport.com/experts-discuss-state-humanoid-robots-robobusiness-2026/",
+      "sourceName": "The Robot Report",
+      "sourceTier": 3,
+      "image": "/images/articles/leading-roboticists-to-debate-humanoid-reality-vs-hype-at-industry-forum-72b3ba56.jpg"
+    },
+    {
       "slug": "unified-platform-simplifies-robot-learning-data-pipeline-e93aba9f",
       "title": "Unified Platform Simplifies Robot Learning Data Pipeline",
       "subtitle": "New integration lets teams capture, train, and deploy robot models in a single workflow, accelerating AI-powered automation development.",
@@ -11193,6 +11204,7 @@
     "4511bd1ce4cb84b8",
     "8dc81be516840791",
     "da4f2d2d9fec6a81",
-    "e93aba9f974a4679"
+    "e93aba9f974a4679",
+    "72b3ba56d00f9dcc"
   ]
 }
