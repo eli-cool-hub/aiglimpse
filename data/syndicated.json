@@ -11846,6 +11846,24 @@
         "devto": true,
         "hashnode": false
       }
+    },
+    "multimodal-ai-models-explained": {
+      "syndicated_at": "2026-08-14T07:10:06.898Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/multimodal-ai-models-explained-vision-audio-and-unified-interfaces-2e4m",
+      "hashnode": null,
+      "gates": {
+        "medium": true,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 2295,
+      "category": "llms",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
     }
   }
 }
