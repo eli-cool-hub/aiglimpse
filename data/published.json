@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "teaching-robots-to-handle-group-conversations-22706adc",
+      "title": "Teaching Robots to Handle Group Conversations",
+      "subtitle": "Researchers tackle the harder problem of social robots engaging multiple people simultaneously rather than one-on-one interactions.",
+      "category": "robotics",
+      "publishedAt": "2026-08-14T09:04:11.000Z",
+      "sourceUrl": "https://robohub.org/what-does-it-take-for-a-robot-to-hold-a-conversation-with-a-room-not-just-a-person/",
+      "sourceName": "Robohub",
+      "sourceTier": 3,
+      "image": "/images/articles/teaching-robots-to-handle-group-conversations-22706adc.jpg"
+    },
+    {
       "slug": "multimodal-ai-models-explained",
       "title": "Multimodal AI models explained: vision, audio, and unified interfaces",
       "subtitle": "How vision-language models work and why they matter for product teams in 2026",
@@ -11217,6 +11228,7 @@
     "8dc81be516840791",
     "da4f2d2d9fec6a81",
     "e93aba9f974a4679",
-    "72b3ba56d00f9dcc"
+    "72b3ba56d00f9dcc",
+    "22706adca0002b70"
   ]
 }
