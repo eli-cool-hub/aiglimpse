@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "robotics-advances-accelerate-across-mobility-manipulation-and-autonomous-systems-1f70892e",
+      "title": "Robotics Advances Accelerate Across Mobility, Manipulation, and Autonomous Systems",
+      "subtitle": "Recent breakthroughs demonstrate practical progress in legged locomotion, aerial delivery, and specialized robotic applications.",
+      "category": "robotics",
+      "publishedAt": "2026-08-14T17:00:01.000Z",
+      "sourceUrl": "https://spectrum.ieee.org/video-friday-darpa-heavy-lift-challenge",
+      "sourceName": "IEEE Spectrum Robotics",
+      "sourceTier": 2,
+      "image": "/images/articles/robotics-advances-accelerate-across-mobility-manipulation-and-autonomous-systems-1f70892e.jpg"
+    },
+    {
+      "slug": "how-one-health-system-turned-surgical-ai-into-73m-revenue-2985e98f",
+      "title": "How one health system turned surgical AI into $7.3M revenue",
+      "subtitle": "Allina Health's phased approach to AI deployment shows how narrow use cases can scale across entire health systems when clinicians drive adoption.",
+      "category": "industry",
+      "publishedAt": "2026-08-14T18:42:40.000Z",
+      "sourceUrl": "https://www.beckershospitalreview.com/strategy/how-allina-healths-ai-operating-system-drove-7-3m-in-added-annual-surgical-contribution-margin/",
+      "sourceName": "Becker's Hospital Review",
+      "sourceTier": 2,
+      "image": "/images/articles/how-one-health-system-turned-surgical-ai-into-73m-revenue-2985e98f.jpg"
+    },
+    {
       "slug": "simple-pneumatic-system-outperforms-complex-robot-hands-65b9c73f",
       "title": "Simple Pneumatic System Outperforms Complex Robot Hands",
       "subtitle": "Researchers abandon anatomical mimicry for a minimalist approach that achieves superhuman dexterity at a fraction of the cost.",
@@ -11277,6 +11299,8 @@
     "80370766e29b1b6c",
     "3d30215ca5e0a8d6",
     "55c36a9a16248d35",
-    "65b9c73f54d0c949"
+    "65b9c73f54d0c949",
+    "2985e98fb1f82e0d",
+    "1f70892e65cf273c"
   ]
 }
