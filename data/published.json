@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "simple-pneumatic-system-outperforms-complex-robot-hands-65b9c73f",
+      "title": "Simple Pneumatic System Outperforms Complex Robot Hands",
+      "subtitle": "Researchers abandon anatomical mimicry for a minimalist approach that achieves superhuman dexterity at a fraction of the cost.",
+      "category": "robotics",
+      "publishedAt": "2026-08-13T12:15:02.000Z",
+      "sourceUrl": "https://www.therobotreport.com/bioflexbot-robot-hand-aims-to-replicate-key-human-hand-motions/",
+      "sourceName": "The Robot Report",
+      "sourceTier": 3,
+      "image": "/images/articles/simple-pneumatic-system-outperforms-complex-robot-hands-65b9c73f.jpg"
+    },
+    {
+      "slug": "ibm-to-train-thousands-of-consultants-on-openai-tech-55c36a9a",
+      "title": "IBM to Train Thousands of Consultants on OpenAI Tech",
+      "subtitle": "The partnership signals a major shift in how enterprises will adopt advanced AI capabilities through certified professional services.",
+      "category": "business",
+      "publishedAt": "2026-08-13T19:19:49.000Z",
+      "sourceUrl": "https://techcrunch.com/2026/08/13/ibm-partners-with-openai-to-bolster-enterprise-ai-push/",
+      "sourceName": "TechCrunch AI",
+      "sourceTier": 2,
+      "image": "/images/articles/ibm-to-train-thousands-of-consultants-on-openai-tech-55c36a9a.jpg"
+    },
+    {
       "slug": "robotics-firms-sidestep-traditional-ipos-through-spac-deals-3d30215c",
       "title": "Robotics firms sidestep traditional IPOs through SPAC deals",
       "subtitle": "As labor shortages drive demand, companies like Agility bypass conventional public offerings for faster market access and strategic capital.",
@@ -11253,6 +11275,8 @@
     "72b3ba56d00f9dcc",
     "22706adca0002b70",
     "80370766e29b1b6c",
-    "3d30215ca5e0a8d6"
+    "3d30215ca5e0a8d6",
+    "55c36a9a16248d35",
+    "65b9c73f54d0c949"
   ]
 }
