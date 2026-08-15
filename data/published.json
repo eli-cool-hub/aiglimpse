@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "researchers-create-elementary-school-ai-to-study-how-models-learn-4fa694c2",
+      "title": "Researchers Create Elementary-School AI to Study How Models Learn",
+      "subtitle": "A new sandbox environment lets scientists observe language model knowledge acquisition with unprecedented precision and control.",
+      "category": "research",
+      "publishedAt": "2026-08-13T17:56:12.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2608.13545v1",
+      "sourceName": "arXiv (Fanfei Li, Jana Zeller, Manuel Prada-Corral, Thaddäus Wiedem…)",
+      "sourceTier": 1,
+      "image": "/images/articles/researchers-create-elementary-school-ai-to-study-how-models-learn-4fa694c2.jpg"
+    },
+    {
+      "slug": "chinas-affordable-robot-gains-social-media-fame-but-workplace-reality-looms-a81bf8ae",
+      "title": "China's Affordable Robot Gains Social Media Fame, But Workplace Reality Looms",
+      "subtitle": "The Unitree G1 demonstrates how consumer robotics can capture public attention, yet industrial viability remains uncertain.",
+      "category": "tools",
+      "publishedAt": "2026-08-14T20:59:03.000Z",
+      "sourceUrl": "https://www.wired.com/story/unitree-influencer-4-foot-robot-from-china/",
+      "sourceName": "Wired AI",
+      "sourceTier": 2,
+      "image": "/images/articles/chinas-affordable-robot-gains-social-media-fame-but-workplace-reality-looms-a81bf8ae.jpg"
+    },
+    {
       "slug": "robotics-advances-accelerate-across-mobility-manipulation-and-autonomous-systems-1f70892e",
       "title": "Robotics Advances Accelerate Across Mobility, Manipulation, and Autonomous Systems",
       "subtitle": "Recent breakthroughs demonstrate practical progress in legged locomotion, aerial delivery, and specialized robotic applications.",
@@ -11301,6 +11323,8 @@
     "55c36a9a16248d35",
     "65b9c73f54d0c949",
     "2985e98fb1f82e0d",
-    "1f70892e65cf273c"
+    "1f70892e65cf273c",
+    "a81bf8ae2e82c4c4",
+    "4fa694c25d7d2d62"
   ]
 }
