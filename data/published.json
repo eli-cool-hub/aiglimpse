@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "zai-advances-glm-53-through-training-optimization-skips-pretraining-cycle-d22ed095",
+      "title": "Z.ai Advances GLM-5.3 Through Training Optimization, Skips Pretraining Cycle",
+      "subtitle": "Chinese AI lab demonstrates major performance gains using only post-training refinements, signaling a shift in how models reach competitive capability levels.",
+      "category": "ethics",
+      "publishedAt": "2026-08-15T07:59:14.000Z",
+      "sourceUrl": "https://z.ai/blog/glm-5.3",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/zai-advances-glm-53-through-training-optimization-skips-pretraining-cycle-d22ed095.jpg"
+    },
+    {
       "slug": "google-releases-gemini-37-flash-pushing-speed-in-ai-inference-785762d2",
       "title": "Google Releases Gemini 3.7 Flash, Pushing Speed in AI Inference",
       "subtitle": "The search giant's latest model prioritizes faster responses without sacrificing reasoning capability, signaling a shift toward practical deployment.",
@@ -11349,6 +11360,7 @@
     "a81bf8ae2e82c4c4",
     "4fa694c25d7d2d62",
     "564f293543ce1c6b",
-    "785762d236eb97fe"
+    "785762d236eb97fe",
+    "d22ed0954ce75f14"
   ]
 }

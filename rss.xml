@@ -7,6 +7,14 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Z.ai Advances GLM-5.3 Through Training Optimization, Skips Pretraining Cycle</title>
+      <link>https://aiglimpse.ai/articles/zai-advances-glm-53-through-training-optimization-skips-pretraining-cycle-d22ed095</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/zai-advances-glm-53-through-training-optimization-skips-pretraining-cycle-d22ed095</guid>
+      <description>Chinese AI lab demonstrates major performance gains using only post-training refinements, signaling a shift in how models reach competitive capability levels.</description>
+      <pubDate>Sat, 15 Aug 2026 07:59:14 GMT</pubDate>
+      <category>Ethics &amp; Policy</category>
+    </item>
+    <item>
       <title>Google Releases Gemini 3.7 Flash, Pushing Speed in AI Inference</title>
       <link>https://aiglimpse.ai/articles/google-releases-gemini-37-flash-pushing-speed-in-ai-inference-785762d2</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/google-releases-gemini-37-flash-pushing-speed-in-ai-inference-785762d2</guid>
@@ -397,14 +405,6 @@
       <description>New transparency requirements reduce synthetic content detection to a checkbox, leaving deeper protections voluntary.</description>
       <pubDate>Sat, 08 Aug 2026 21:12:01 GMT</pubDate>
       <category>AI Business</category>
-    </item>
-    <item>
-      <title>Google's AI Risk Framework Splits Harms Into Tiers, Reshaping Regulation</title>
-      <link>https://aiglimpse.ai/articles/googles-ai-risk-framework-splits-harms-into-tiers-reshaping-regulation-875e64e8</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/googles-ai-risk-framework-splits-harms-into-tiers-reshaping-regulation-875e64e8</guid>
-      <description>The tech giant's governance proposal treats exceptional AI dangers differently, creating a blueprint that avoids both strict oversight and total deregulation.</description>
-      <pubDate>Sat, 08 Aug 2026 21:12:01 GMT</pubDate>
-      <category>Ethics &amp; Policy</category>
     </item>
   </channel>
 </rss>
