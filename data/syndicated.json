@@ -11936,6 +11936,24 @@
         "devto": true,
         "hashnode": false
       }
+    },
+    "google-releases-gemini-37-flash-pushing-speed-in-ai-inference-785762d2": {
+      "syndicated_at": "2026-08-15T04:31:32.720Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/google-releases-gemini-37-flash-pushing-speed-in-ai-inference-56jc",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 457,
+      "category": "research",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
     }
   }
 }

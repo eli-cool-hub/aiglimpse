@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "google-releases-gemini-37-flash-pushing-speed-in-ai-inference-785762d2",
+      "title": "Google Releases Gemini 3.7 Flash, Pushing Speed in AI Inference",
+      "subtitle": "The search giant's latest model prioritizes faster responses without sacrificing reasoning capability, signaling a shift toward practical deployment.",
+      "category": "research",
+      "publishedAt": "2026-08-13T17:04:18.000Z",
+      "sourceUrl": "https://deepmind.google/blog/introducing-gemini-3-7-flash/",
+      "sourceName": "Google DeepMind",
+      "sourceTier": 1,
+      "image": "/images/articles/google-releases-gemini-37-flash-pushing-speed-in-ai-inference-785762d2.jpg"
+    },
+    {
+      "slug": "protolabs-uses-ai-to-compress-manufacturing-timelines-to-hours-564f2935",
+      "title": "Protolabs Uses AI to Compress Manufacturing Timelines to Hours",
+      "subtitle": "Advanced automation and machine learning are reshaping how quickly companies can move from digital designs to physical prototypes.",
+      "category": "robotics",
+      "publishedAt": "2026-08-14T22:14:19.000Z",
+      "sourceUrl": "https://www.therobotreport.com/how-protolabs-turns-cad-files-into-parts-under-24-hours/",
+      "sourceName": "The Robot Report",
+      "sourceTier": 3,
+      "image": "/images/articles/protolabs-uses-ai-to-compress-manufacturing-timelines-to-hours-564f2935.jpg"
+    },
+    {
       "slug": "researchers-create-elementary-school-ai-to-study-how-models-learn-4fa694c2",
       "title": "Researchers Create Elementary-School AI to Study How Models Learn",
       "subtitle": "A new sandbox environment lets scientists observe language model knowledge acquisition with unprecedented precision and control.",
@@ -11325,6 +11347,8 @@
     "2985e98fb1f82e0d",
     "1f70892e65cf273c",
     "a81bf8ae2e82c4c4",
-    "4fa694c25d7d2d62"
+    "4fa694c25d7d2d62",
+    "564f293543ce1c6b",
+    "785762d236eb97fe"
   ]
 }
