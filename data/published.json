@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "smic-expands-capacity-as-ai-chip-demand-shatters-2026-forecast-a9ea1aff",
+      "title": "SMIC Expands Capacity as AI Chip Demand Shatters 2026 Forecast",
+      "subtitle": "China's foundry giant is adding equipment to meet unprecedented artificial intelligence-driven orders that have already booked through 2027.",
+      "category": "industry",
+      "publishedAt": "2026-08-15T12:43:58.000Z",
+      "sourceUrl": "https://www.scmp.com/tech/big-tech/article/3363996/smic-weighs-more-capacity-ai-related-chip-demand-exceeds-forecasts",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/smic-expands-capacity-as-ai-chip-demand-shatters-2026-forecast-a9ea1aff.jpg"
+    },
+    {
+      "slug": "google-open-sources-compiler-to-make-encrypted-ai-inference-practical-9d5ae87f",
+      "title": "Google Open-Sources Compiler to Make Encrypted AI Inference Practical",
+      "subtitle": "The HEIR project automates homomorphic encryption for neural networks, potentially unlocking privacy-preserving AI at scale.",
+      "category": "ethics",
+      "publishedAt": "2026-08-15T07:59:14.000Z",
+      "sourceUrl": "https://blog.google/security/how-google-is-making-private-ai-practical-with-homomorphic-encryption/",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/google-open-sources-compiler-to-make-encrypted-ai-inference-practical-9d5ae87f.jpg"
+    },
+    {
       "slug": "nvidia-slashes-openai-data-center-commitment-by-over-50-percent-ffaef0c3",
       "title": "Nvidia Slashes OpenAI Data Center Commitment by Over 50 Percent",
       "subtitle": "The chip giant reduces its financial guarantee for the AI pioneer's Ohio campus from $250B to under $120B, signaling recalibration in mega-scale AI infrastructure deals.",
@@ -11385,6 +11407,8 @@
     "785762d236eb97fe",
     "d22ed0954ce75f14",
     "4e3e23c4d66a09d2",
-    "ffaef0c3f29b460d"
+    "ffaef0c3f29b460d",
+    "9d5ae87f265e9c60",
+    "a9ea1aff98918037"
   ]
 }

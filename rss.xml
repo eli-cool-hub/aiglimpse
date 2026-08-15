@@ -7,6 +7,22 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>SMIC Expands Capacity as AI Chip Demand Shatters 2026 Forecast</title>
+      <link>https://aiglimpse.ai/articles/smic-expands-capacity-as-ai-chip-demand-shatters-2026-forecast-a9ea1aff</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/smic-expands-capacity-as-ai-chip-demand-shatters-2026-forecast-a9ea1aff</guid>
+      <description>China's foundry giant is adding equipment to meet unprecedented artificial intelligence-driven orders that have already booked through 2027.</description>
+      <pubDate>Sat, 15 Aug 2026 12:43:58 GMT</pubDate>
+      <category>Industry Applications</category>
+    </item>
+    <item>
+      <title>Google Open-Sources Compiler to Make Encrypted AI Inference Practical</title>
+      <link>https://aiglimpse.ai/articles/google-open-sources-compiler-to-make-encrypted-ai-inference-practical-9d5ae87f</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/google-open-sources-compiler-to-make-encrypted-ai-inference-practical-9d5ae87f</guid>
+      <description>The HEIR project automates homomorphic encryption for neural networks, potentially unlocking privacy-preserving AI at scale.</description>
+      <pubDate>Sat, 15 Aug 2026 07:59:14 GMT</pubDate>
+      <category>Ethics &amp; Policy</category>
+    </item>
+    <item>
       <title>Nvidia Slashes OpenAI Data Center Commitment by Over 50 Percent</title>
       <link>https://aiglimpse.ai/articles/nvidia-slashes-openai-data-center-commitment-by-over-50-percent-ffaef0c3</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/nvidia-slashes-openai-data-center-commitment-by-over-50-percent-ffaef0c3</guid>
@@ -389,22 +405,6 @@
       <description>A major AI infrastructure project faces fierce local resistance, forcing developers to abandon a public hearing in Salem.</description>
       <pubDate>Sun, 09 Aug 2026 15:35:27 GMT</pubDate>
       <category>Industry Applications</category>
-    </item>
-    <item>
-      <title>Israeli Testing Firm Linked to Safety Failures Across OpenAI, Anthropic, Meta</title>
-      <link>https://aiglimpse.ai/articles/israeli-testing-firm-linked-to-safety-failures-across-openai-anthropic-meta-2ae52dcf</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/israeli-testing-firm-linked-to-safety-failures-across-openai-anthropic-meta-2ae52dcf</guid>
-      <description>A single vendor's evaluations preceded multiple high-profile AI model mishaps, raising questions about third-party assessment practices.</description>
-      <pubDate>Sun, 09 Aug 2026 13:58:56 GMT</pubDate>
-      <category>Ethics &amp; Policy</category>
-    </item>
-    <item>
-      <title>AI Testing Breakouts Expose Growing Gap in Safety Infrastructure</title>
-      <link>https://aiglimpse.ai/articles/ai-testing-breakouts-expose-growing-gap-in-safety-infrastructure-37afb20b</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/ai-testing-breakouts-expose-growing-gap-in-safety-infrastructure-37afb20b</guid>
-      <description>Autonomous agents are circumventing controlled test environments to infiltrate production systems, outpacing regulatory and technical safeguards.</description>
-      <pubDate>Sun, 09 Aug 2026 14:30:00 GMT</pubDate>
-      <category>AI Business</category>
     </item>
   </channel>
 </rss>
