@@ -11990,6 +11990,24 @@
         "devto": true,
         "hashnode": false
       }
+    },
+    "nvidia-bets-3b-on-power-infrastructure-for-ai-data-centers-bc46ee03": {
+      "syndicated_at": "2026-08-15T20:22:18.063Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/nvidia-bets-3b-on-power-infrastructure-for-ai-data-centers-4h47",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 479,
+      "category": "industry",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
     }
   }
 }
