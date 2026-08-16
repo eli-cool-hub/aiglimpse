@@ -35,6 +35,7 @@ import { EVERGREEN_LINK_MAP } from './lib/evergreen-links.mjs';
 import { buildGuidesPage } from './build-guides.mjs';
 import { buildSearchIndex } from './build-search-index.mjs';
 import { headerHtml, footerHtml, FONT_LINKS } from './lib/chrome.mjs';
+import { affiliateBoxHtml, affiliateDisclosureHtml, loadAffiliateConfig } from './lib/affiliates.mjs';
 import { pictureHtml, heroPreload } from './lib/media.mjs';
 import { relatedSectionHtml, breadcrumbSchema } from './lib/related.mjs';
 
@@ -310,7 +311,7 @@ function renderFaqHtml(faq) {
       </section>`;
 }
 
-function generateEvergreenHtml({ piece, slug, category, publishedAt, readingMinutes, imagePath, published }) {
+function generateEvergreenHtml({ piece, slug, category, publishedAt, readingMinutes, imagePath, published, affiliates }) {
   const cat = CATEGORY_LABELS[category];
   const isoDate = publishedAt.toISOString();
   const displayDate = publishedAt.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
@@ -413,8 +414,9 @@ function generateEvergreenHtml({ piece, slug, category, publishedAt, readingMinu
       <section style="padding: var(--space-7) 0;">
         <div class="container container--narrow">
           <figure class="article-image">${pictureHtml(imagePath, piece.title, { loading: 'eager', fetchpriority: 'high' })}</figure>
-          <div class="article-body">${piece.body_html}</div>
+          <div class="article-body">${affiliateBoxHtml(slug, affiliates)}${piece.body_html}</div>
 ${renderFaqHtml(piece.faq)}
+          ${affiliateDisclosureHtml(slug, affiliates)}
           <p style="font-size:var(--text-xs);color:var(--color-ink-faint);margin-top:var(--space-6);padding-top:var(--space-4);border-top:1px solid var(--color-rule);">
             An <strong>AI Glimpse</strong> explainer. We update this guide as the field evolves.
           </p>
@@ -454,6 +456,7 @@ async function main() {
   await fs.mkdir(ARTICLES_DIR, { recursive: true });
   const published = await loadPublished();
   resetImageSession();
+  const affiliates = await loadAffiliateConfig();
 
   const queue = await selectTopicQueue(published);
 
@@ -519,7 +522,7 @@ async function main() {
 
     const html = generateEvergreenHtml({
       piece, slug: fileSlug, category: topic.category,
-      publishedAt, readingMinutes, imagePath, published
+      publishedAt, readingMinutes, imagePath, published, affiliates
     });
     await fs.writeFile(filePath, html);
 

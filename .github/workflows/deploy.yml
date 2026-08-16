@@ -16,6 +16,12 @@ on:
       - 'functions/**'
       - 'css/**'
       - 'js/**'
+      - 'pages/**'
+      - 'robots.txt'
+      - 'sitemap.xml'
+      - 'sitemap-*.xml'
+      - 'data/affiliates.json'
+      - 'data/newsletter-sponsor.json'
       - '_headers'
       - '_redirects'
 

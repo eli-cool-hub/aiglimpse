@@ -24,7 +24,7 @@ export const NEWS_SITEMAP_MAX_AGE_MS = 48 * 60 * 60 * 1000;
 const STATIC_LASTMOD = {
   '/pages/privacy': '2026-05-27',
   '/pages/terms': '2026-05-27',
-  '/pages/advertise': '2026-05-27',
+  '/pages/advertise': '2026-08-16',
   '/pages/editorial': '2026-06-01',
   '/pages/about': '2026-06-01',
   '/pages/contact': '2026-06-01'
@@ -102,7 +102,7 @@ export function staticSitemapUrls(siteUrl) {
     { loc: `${base}/pages/about`, priority: 0.5, changefreq: 'monthly' },
     { loc: `${base}/pages/contact`, priority: 0.5, changefreq: 'monthly' },
     { loc: `${base}/pages/editorial`, priority: 0.4, changefreq: 'monthly' },
-    { loc: `${base}/pages/advertise`, priority: 0.3, changefreq: 'monthly' },
+    { loc: `${base}/pages/advertise`, priority: 0.6, changefreq: 'monthly' },
     { loc: `${base}/pages/privacy`, priority: 0.3, changefreq: 'yearly' },
     { loc: `${base}/pages/terms`, priority: 0.3, changefreq: 'yearly' }
   ];

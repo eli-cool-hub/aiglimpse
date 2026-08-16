@@ -17,6 +17,7 @@ const SITE = (process.env.SITE_URL || 'https://aiglimpse.ai').replace(/\/$/, '')
 const apiKey = process.env.RESEND_API_KEY;
 const from = process.env.RESEND_FROM_EMAIL;
 const segmentId = process.env.RESEND_SEGMENT_ID || process.env.RESEND_AUDIENCE_ID;
+const SPONSOR_PATH = path.join(process.cwd(), 'data/newsletter-sponsor.json');
 
 if (process.env.NEWSLETTER_SEND_ENABLED !== 'true' && !process.argv.includes('--force')) {
   console.log('Newsletter sends disabled (collect-only mode). Set NEWSLETTER_SEND_ENABLED=true or pass --force.');
@@ -53,7 +54,7 @@ function pickDigestArticles(articles) {
   return picks.slice(0, 8);
 }
 
-function buildEmailHtml(articles, dateLabel) {
+function buildEmailHtml(articles, dateLabel, sponsor) {
   const items = articles.map(a => {
     const url = `${SITE}/articles/${a.slug}`;
     return `<tr>
@@ -64,6 +65,18 @@ function buildEmailHtml(articles, dateLabel) {
       </td>
     </tr>`;
   }).join('');
+
+  const sponsorRow = sponsor?.active && sponsor.name && sponsor.url
+    ? `<tr><td style="padding:8px 28px 24px 28px;">
+        <table role="presentation" width="100%" style="background:#fafaf7;border:1px solid #ececea;border-radius:8px;">
+          <tr><td style="padding:16px 18px;">
+            <p style="margin:0 0 6px 0;font-size:11px;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;color:#888;">${escapeHtml(sponsor.label || 'Sponsor')}</p>
+            <a href="${escapeHtml(sponsor.url)}" style="color:#111;font-size:16px;font-weight:700;text-decoration:none;">${escapeHtml(sponsor.name)}</a>
+            ${sponsor.blurb ? `<p style="margin:6px 0 0 0;color:#555;font-size:14px;line-height:1.5;">${escapeHtml(sponsor.blurb)}</p>` : ''}
+          </td></tr>
+        </table>
+      </td></tr>`
+    : '';
 
   return `<!DOCTYPE html>
 <html><body style="margin:0;padding:0;background:#fafaf7;">
@@ -76,6 +89,7 @@ function buildEmailHtml(articles, dateLabel) {
           <p style="margin:0 0 24px 0;color:#555;font-size:15px;line-height:1.5;">The AI stories that matter, in five minutes.</p>
         </td></tr>
         <tr><td style="padding:0 28px 8px 28px;"><table role="presentation" width="100%">${items}</table></td></tr>
+        ${sponsorRow}
         <tr><td style="padding:8px 28px 28px 28px;border-top:1px solid #ececea;">
           <p style="margin:16px 0 0 0;font-size:13px;color:#888;line-height:1.5;">
             <a href="${SITE}/guides" style="color:#888;">Browse explainers</a> ·
@@ -113,7 +127,9 @@ if (!articles.length) {
 
 const dateLabel = formatDate(new Date());
 const subject = `AI Glimpse Daily — ${new Date().toLocaleDateString('en-US', { month: 'short', day: 'numeric' })}`;
-const html = buildEmailHtml(articles, dateLabel);
+let sponsor = { active: false };
+try { sponsor = JSON.parse(await fs.readFile(SPONSOR_PATH, 'utf8')); } catch { /* none booked */ }
+const html = buildEmailHtml(articles, dateLabel, sponsor);
 
 const createRes = await fetch('https://api.resend.com/broadcasts', {
   method: 'POST',
