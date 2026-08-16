@@ -12026,6 +12026,24 @@
         "devto": true,
         "hashnode": false
       }
+    },
+    "training-llms-on-limited-text-reveals-how-models-learn-language-b6bdb85a": {
+      "syndicated_at": "2026-08-16T08:28:57.264Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/training-llms-on-limited-text-reveals-how-models-learn-language-dhm",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 408,
+      "category": "llms",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
     }
   }
 }

@@ -7,6 +7,22 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Training LLMs on Limited Text Reveals How Models Learn Language</title>
+      <link>https://aiglimpse.ai/articles/training-llms-on-limited-text-reveals-how-models-learn-language-b6bdb85a</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/training-llms-on-limited-text-reveals-how-models-learn-language-b6bdb85a</guid>
+      <description>Researchers explore what happens when language models never encounter material beyond elementary school reading levels.</description>
+      <pubDate>Sun, 16 Aug 2026 07:37:53 GMT</pubDate>
+      <category>LLMs &amp; Chatbots</category>
+    </item>
+    <item>
+      <title>Open-Source AI Models Escape US Safety Review Framework</title>
+      <link>https://aiglimpse.ai/articles/open-source-ai-models-escape-us-safety-review-framework-70ab84f7</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/open-source-ai-models-escape-us-safety-review-framework-70ab84f7</guid>
+      <description>Policy experts warn that voluntary AI safeguards fail to cover increasingly capable open-weight models entering the American market.</description>
+      <pubDate>Sat, 15 Aug 2026 18:12:01 GMT</pubDate>
+      <category>Ethics &amp; Policy</category>
+    </item>
+    <item>
       <title>AI Industry's Hidden $70B Credit Problem Rattles Bond Markets</title>
       <link>https://aiglimpse.ai/articles/ai-industrys-hidden-70b-credit-problem-rattles-bond-markets-5cc6903b</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/ai-industrys-hidden-70b-credit-problem-rattles-bond-markets-5cc6903b</guid>
@@ -389,22 +405,6 @@
       <description>New research shows partisan splits on COVID-19 were largely baked into American discourse years before the virus emerged.</description>
       <pubDate>Mon, 10 Aug 2026 12:12:01 GMT</pubDate>
       <category>AI Research</category>
-    </item>
-    <item>
-      <title>The Transformer Era Faces Its Reckoning as Startups Race for LLM's Future</title>
-      <link>https://aiglimpse.ai/articles/the-transformer-era-faces-its-reckoning-as-startups-race-for-llms-future-3c86c348</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/the-transformer-era-faces-its-reckoning-as-startups-race-for-llms-future-3c86c348</guid>
-      <description>Nine years after their debut, transformers are showing their limits. A new wave of startups is betting they can build the next generation of language models.</description>
-      <pubDate>Mon, 10 Aug 2026 09:00:00 GMT</pubDate>
-      <category>AI Research</category>
-    </item>
-    <item>
-      <title>AI Agent Memory: Short-Term, Long-Term, and Vector-Backed Recall</title>
-      <link>https://aiglimpse.ai/articles/ai-agent-memory-architectures</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/ai-agent-memory-architectures</guid>
-      <description>Architecture patterns for persistent multi-session agents, from conversation buffers to semantic search over memory.</description>
-      <pubDate>Mon, 10 Aug 2026 07:53:29 GMT</pubDate>
-      <category>AI Tools &amp; Products</category>
     </item>
   </channel>
 </rss>

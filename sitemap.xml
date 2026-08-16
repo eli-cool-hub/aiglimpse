@@ -20,6 +20,7 @@
   <url><loc>https://aiglimpse.ai/categories/llms-4</loc><lastmod>2026-08-16</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://aiglimpse.ai/categories/llms-5</loc><lastmod>2026-08-16</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://aiglimpse.ai/categories/llms-6</loc><lastmod>2026-08-16</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
+  <url><loc>https://aiglimpse.ai/categories/llms-7</loc><lastmod>2026-08-16</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://aiglimpse.ai/categories/research-2</loc><lastmod>2026-08-16</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://aiglimpse.ai/categories/research-3</loc><lastmod>2026-08-16</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://aiglimpse.ai/categories/research-4</loc><lastmod>2026-08-16</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
@@ -63,6 +64,26 @@
   <url><loc>https://aiglimpse.ai/categories/industry-4</loc><lastmod>2026-08-16</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://aiglimpse.ai/categories/industry-5</loc><lastmod>2026-08-16</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://aiglimpse.ai/categories/robotics-2</loc><lastmod>2026-08-16</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
+  <url>
+    <loc>https://aiglimpse.ai/articles/training-llms-on-limited-text-reveals-how-models-learn-language-b6bdb85a</loc>
+    <lastmod>2026-08-16</lastmod>
+    <news:news>
+      <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-08-16T07:37:53.000Z</news:publication_date>
+      <news:title>Training LLMs on Limited Text Reveals How Models Learn Language</news:title>
+    </news:news>
+    <changefreq>daily</changefreq><priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://aiglimpse.ai/articles/open-source-ai-models-escape-us-safety-review-framework-70ab84f7</loc>
+    <lastmod>2026-08-15</lastmod>
+    <news:news>
+      <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-08-15T18:12:01.000Z</news:publication_date>
+      <news:title>Open-Source AI Models Escape US Safety Review Framework</news:title>
+    </news:news>
+    <changefreq>daily</changefreq><priority>0.8</priority>
+  </url>
   <url>
     <loc>https://aiglimpse.ai/articles/ai-industrys-hidden-70b-credit-problem-rattles-bond-markets-5cc6903b</loc>
     <lastmod>2026-08-16</lastmod>
