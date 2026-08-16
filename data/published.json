@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "y-combinator-backed-startup-uses-ai-to-design-personalized-cancer-vaccines-for-d-04475ed6",
+      "title": "Y Combinator-backed startup uses AI to design personalized cancer vaccines for dogs",
+      "subtitle": "Gamgee sequences tumors and leverages machine learning to create custom immunotherapies, marking a significant expansion of AI applications in veterinary medicine.",
+      "category": "industry",
+      "publishedAt": "2026-08-16T09:31:51.000Z",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/978671/ai-cured-dog-cancer-mrna-vaccine-startup-gamgee",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/y-combinator-backed-startup-uses-ai-to-design-personalized-cancer-vaccines-for-d-04475ed6.jpg"
+    },
+    {
+      "slug": "xai-faces-new-allegations-over-groks-misuse-in-child-abuse-content-a9bef5a5",
+      "title": "xAI Faces New Allegations Over Grok's Misuse in Child Abuse Content",
+      "subtitle": "Latest lawsuit claims AI image generator was weaponized to create thousands of exploitative images, raising fresh questions about safety guardrails.",
+      "category": "ethics",
+      "publishedAt": "2026-08-15T17:06:57.000Z",
+      "sourceUrl": "https://www.washingtonpost.com/technology/2026/08/15/woman-alleges-grok-made-thousands-sexual-abuse-images-childhood-snap/",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/xai-faces-new-allegations-over-groks-misuse-in-child-abuse-content-a9bef5a5.jpg"
+    },
+    {
       "slug": "training-llms-on-limited-text-reveals-how-models-learn-language-b6bdb85a",
       "title": "Training LLMs on Limited Text Reveals How Models Learn Language",
       "subtitle": "Researchers explore what happens when language models never encounter material beyond elementary school reading levels.",
@@ -11493,6 +11515,8 @@
     "bd143d922e87abcb",
     "5cc6903b31ab755d",
     "70ab84f743290ef0",
-    "b6bdb85a7afd2c67"
+    "b6bdb85a7afd2c67",
+    "a9bef5a5b996b563",
+    "04475ed643f49169"
   ]
 }
