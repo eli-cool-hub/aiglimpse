@@ -1,4 +1,12 @@
 // Shared sitemap generation and URL collection for indexing workflows.
+//
+// Google News sitemaps may only contain articles from the last two days.
+// Mixing months of news:news tags into the main sitemap is a documented
+// reason Google ignores the file. We therefore emit:
+//   sitemap.xml          — sitemap index
+//   sitemap-pages.xml    — hubs, categories, static pages
+//   sitemap-articles.xml — every article, no news extension
+//   sitemap-news.xml     — last 48h only, with news:news tags
 
 import fs from 'node:fs/promises';
 import path from 'node:path';
@@ -9,12 +17,63 @@ export const CATEGORY_SLUGS = ['llms', 'research', 'tools', 'business', 'ethics'
 // sitemap and the actual pagination never disagree.
 export const CATEGORY_PER_PAGE = 18;
 
+export const NEWS_SITEMAP_MAX_AGE_MS = 48 * 60 * 60 * 1000;
+
+// Legal / rarely-edited pages. Updating lastmod to "today" on every publish
+// run looks like sitemap spam and trains Google to distrust lastmod.
+const STATIC_LASTMOD = {
+  '/pages/privacy': '2026-05-27',
+  '/pages/terms': '2026-05-27',
+  '/pages/advertise': '2026-05-27',
+  '/pages/editorial': '2026-06-01',
+  '/pages/about': '2026-06-01',
+  '/pages/contact': '2026-06-01'
+};
+
+export const SITEMAP_FILES = [
+  'sitemap.xml',
+  'sitemap-pages.xml',
+  'sitemap-articles.xml',
+  'sitemap-news.xml'
+];
+
 export function escapeHtml(s) {
   return String(s)
     .replace(/&/g, '&amp;')
     .replace(/</g, '&lt;')
     .replace(/>/g, '&gt;')
     .replace(/"/g, '&quot;');
+}
+
+function isoDay(iso) {
+  return String(iso).substring(0, 10);
+}
+
+function urlsetXml(entries, extraXmlns = '') {
+  const ns = extraXmlns
+    ? `xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" ${extraXmlns}`
+    : 'xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"';
+  return `<?xml version="1.0" encoding="UTF-8"?>
+<urlset ${ns}>
+${entries.join('\n')}
+</urlset>`;
+}
+
+function urlXml({ loc, lastmod, changefreq, priority, news }) {
+  const newsBlock = news
+    ? `
+    <news:news>
+      <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>${news.publishedAt}</news:publication_date>
+      <news:title>${escapeHtml(news.title)}</news:title>
+    </news:news>`
+    : '';
+  return `  <url>
+    <loc>${loc}</loc>
+    <lastmod>${lastmod}</lastmod>${newsBlock}
+    <changefreq>${changefreq}</changefreq>
+    <priority>${priority}</priority>
+  </url>`;
 }
 
 // Paginated category URLs beyond page 1 (/categories/llms-2, ...).
@@ -61,34 +120,59 @@ export function collectIndexableUrls(published, siteUrl = 'https://aiglimpse.ai'
   return [...new Set(urls)];
 }
 
+export function recentNewsArticles(published, now = new Date()) {
+  const cutoff = now.getTime() - NEWS_SITEMAP_MAX_AGE_MS;
+  return (published.articles || []).filter(a => {
+    const t = Date.parse(a.publishedAt);
+    return Number.isFinite(t) && t >= cutoff;
+  });
+}
+
 export async function regenerateSitemap(published, siteUrl = 'https://aiglimpse.ai', root = process.cwd()) {
   const base = siteUrl.replace(/\/$/, '');
-  const recent = (published.articles || []).slice(0, 1000);
-  const staticUrls = [...staticSitemapUrls(base), ...categoryPaginationUrls(published, base)];
+  const articles = published.articles || [];
+  const newestIso = articles[0]?.publishedAt || new Date().toISOString();
+  const nowIso = new Date().toISOString();
+  const pageLastmod = isoDay(newestIso);
 
-  // Homepage / category pages change on every publish run; use the newest
-  // article's timestamp as their lastmod. Static pages fall back to it too.
-  const newestIso = recent[0]?.publishedAt || new Date().toISOString();
-  const isoDay = (iso) => String(iso).substring(0, 10);
+  const pageEntries = [...staticSitemapUrls(base), ...categoryPaginationUrls(published, base)].map(u => {
+    const pathPart = u.loc.replace(base, '') || '/';
+    const lastmod = STATIC_LASTMOD[pathPart] || pageLastmod;
+    return urlXml({ ...u, lastmod });
+  });
 
-  const articleEntries = recent.map(a => `  <url>
-    <loc>${base}/articles/${a.slug}</loc>
-    <lastmod>${isoDay(a.publishedAt)}</lastmod>
-    <news:news>
-      <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>${a.publishedAt}</news:publication_date>
-      <news:title>${escapeHtml(a.title)}</news:title>
-    </news:news>
-    <changefreq>daily</changefreq><priority>${a.evergreen ? '0.9' : '0.8'}</priority>
-  </url>`).join('\n');
+  const articleEntries = articles.map(a => urlXml({
+    loc: `${base}/articles/${a.slug}`,
+    lastmod: isoDay(a.publishedAt),
+    changefreq: a.evergreen ? 'weekly' : 'daily',
+    priority: a.evergreen ? '0.9' : '0.7'
+  }));
 
-  const xml = `<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
-${staticUrls.map(u => `  <url><loc>${u.loc}</loc><lastmod>${isoDay(newestIso)}</lastmod><changefreq>${u.changefreq}</changefreq><priority>${u.priority}</priority></url>`).join('\n')}
-${articleEntries}
-</urlset>`;
+  const newsEntries = recentNewsArticles(published).map(a => urlXml({
+    loc: `${base}/articles/${a.slug}`,
+    lastmod: isoDay(a.publishedAt),
+    changefreq: 'hourly',
+    priority: '0.9',
+    news: { publishedAt: a.publishedAt, title: a.title }
+  }));
 
-  await fs.writeFile(path.join(root, 'sitemap.xml'), xml);
+  const indexXml = `<?xml version="1.0" encoding="UTF-8"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <sitemap><loc>${base}/sitemap-pages.xml</loc><lastmod>${pageLastmod}</lastmod></sitemap>
+  <sitemap><loc>${base}/sitemap-articles.xml</loc><lastmod>${pageLastmod}</lastmod></sitemap>
+  <sitemap><loc>${base}/sitemap-news.xml</loc><lastmod>${isoDay(nowIso)}</lastmod></sitemap>
+</sitemapindex>`;
+
+  await Promise.all([
+    fs.writeFile(path.join(root, 'sitemap.xml'), indexXml),
+    fs.writeFile(path.join(root, 'sitemap-pages.xml'), urlsetXml(pageEntries)),
+    fs.writeFile(path.join(root, 'sitemap-articles.xml'), urlsetXml(articleEntries)),
+    fs.writeFile(
+      path.join(root, 'sitemap-news.xml'),
+      urlsetXml(newsEntries, 'xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"')
+    )
+  ]);
+
   return collectIndexableUrls(published, base);
 }
 
@@ -102,17 +186,22 @@ export async function pingIndexNow(urls, siteUrl = 'https://aiglimpse.ai') {
     host,
     key,
     keyLocation: `${base}/${key}.txt`,
-    urlList: urls.slice(0, 10000)
+    urlList: [...new Set(urls)].slice(0, 10000)
   };
 
-  const res = await fetch('https://api.indexnow.org/indexnow', {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json; charset=utf-8' },
-    body: JSON.stringify(body)
-  });
+  try {
+    const res = await fetch('https://api.indexnow.org/indexnow', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json; charset=utf-8' },
+      body: JSON.stringify(body),
+      signal: AbortSignal.timeout(20000)
+    });
 
-  if (!res.ok) {
-    return { ok: false, status: res.status, body: await res.text() };
+    if (!res.ok) {
+      return { ok: false, status: res.status, body: await res.text() };
+    }
+    return { ok: true, status: res.status, count: body.urlList.length };
+  } catch (err) {
+    return { ok: false, status: 0, body: String(err?.message || err) };
   }
-  return { ok: true, status: res.status, count: body.urlList.length };
 }

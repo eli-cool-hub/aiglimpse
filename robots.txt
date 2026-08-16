@@ -72,6 +72,7 @@ Allow: /
 Crawl-delay: 1
 
 Sitemap: https://aiglimpse.ai/sitemap.xml
+Sitemap: https://aiglimpse.ai/sitemap-news.xml
 
 # AI / LLM discovery files (https://llmstxt.org/)
 # LLMs-Txt: https://aiglimpse.ai/llms.txt

@@ -1,14 +1,20 @@
 #!/usr/bin/env node
-// Ensure every public URL is in sitemap.xml, submitted to Google Search Console,
-// pinged via IndexNow (Google/Bing/Yandex), and inspected for indexing status.
+// Refresh sitemaps, submit them to Google Search Console, ping IndexNow, and
+// inspect a prioritized slice of URLs. The job must always write a report —
+// a single URL Inspection timeout must not fail the workflow.
 //
 // Required env: GOOGLE_SERVICE_ACCOUNT_JSON
-// Optional env: INDEXNOW_KEY, SITE_URL
+// Optional env: INDEXNOW_KEY, SITE_URL, INSPECT_LIMIT
 
 import { JWT } from 'google-auth-library';
 import fs from 'node:fs/promises';
 import path from 'node:path';
-import { collectIndexableUrls, regenerateSitemap, pingIndexNow } from './lib/sitemap.mjs';
+import {
+  regenerateSitemap,
+  pingIndexNow,
+  recentNewsArticles,
+  SITEMAP_FILES
+} from './lib/sitemap.mjs';
 
 const SITE_URL = (process.env.SITE_URL || 'https://aiglimpse.ai').replace(/\/$/, '') + '/';
 const SA_JSON = process.env.GOOGLE_SERVICE_ACCOUNT_JSON;
@@ -16,6 +22,10 @@ if (!SA_JSON) {
   console.error('GOOGLE_SERVICE_ACCOUNT_JSON missing');
   process.exit(1);
 }
+
+const INSPECT_LIMIT = Math.max(40, Number(process.env.INSPECT_LIMIT || 220));
+const BATCH = 3;
+const REQUEST_TIMEOUT_MS = 45000;
 
 const creds = JSON.parse(SA_JSON);
 const jwt = new JWT({
@@ -29,24 +39,39 @@ const jwt = new JWT({
 await jwt.authorize();
 const token = jwt.credentials.access_token;
 
-async function googleApi(url, opts = {}) {
-  const res = await fetch(url, {
-    ...opts,
-    headers: {
-      ...(opts.headers || {}),
-      Authorization: `Bearer ${token}`,
-      'Content-Type': 'application/json'
-    },
-    signal: opts.signal || AbortSignal.timeout(30000)
-  });
-  const text = await res.text();
-  let body;
-  try { body = JSON.parse(text); } catch { body = text; }
-  return { status: res.status, ok: res.ok, body };
-}
-
 function sleep(ms) {
   return new Promise(r => setTimeout(r, ms));
+}
+
+async function googleApi(url, opts = {}, attempt = 0) {
+  try {
+    const res = await fetch(url, {
+      ...opts,
+      headers: {
+        ...(opts.headers || {}),
+        Authorization: `Bearer ${token}`,
+        'Content-Type': 'application/json'
+      },
+      signal: opts.signal || AbortSignal.timeout(REQUEST_TIMEOUT_MS)
+    });
+    const text = await res.text();
+    let body;
+    try { body = JSON.parse(text); } catch { body = text; }
+
+    if ((res.status === 429 || res.status >= 500) && attempt < 2) {
+      const wait = res.status === 429 ? 60000 : 2000 * (attempt + 1);
+      console.warn(`  HTTP ${res.status} — retry in ${wait / 1000}s`);
+      await sleep(wait);
+      return googleApi(url, opts, attempt + 1);
+    }
+    return { status: res.status, ok: res.ok, body };
+  } catch (err) {
+    if (attempt < 2) {
+      await sleep(1500 * (attempt + 1));
+      return googleApi(url, opts, attempt + 1);
+    }
+    return { status: 0, ok: false, timeout: true, body: { error: String(err?.message || err) } };
+  }
 }
 
 function summarizeCoverage(state = '') {
@@ -57,16 +82,19 @@ function summarizeCoverage(state = '') {
   return 'unknown';
 }
 
-const published = JSON.parse(await fs.readFile(path.join(process.cwd(), 'data', 'published.json'), 'utf8'));
-let urls = await regenerateSitemap(published, SITE_URL);
-console.log(`Sitemap refreshed with ${urls.length} URLs`);
+function toPath(absUrl) {
+  return absUrl.replace(SITE_URL, '/');
+}
 
-// Triage: inspect hub pages and evergreen guides before the long tail of news
-// so GSC quota / IndexNow attention goes to pages that can actually rank.
+const published = JSON.parse(await fs.readFile(path.join(process.cwd(), 'data', 'published.json'), 'utf8'));
+const urls = await regenerateSitemap(published, SITE_URL);
+console.log(`Sitemaps refreshed (${urls.length} indexable URLs)`);
+
 const evergreenSlugs = new Set((published.articles || []).filter(a => a.evergreen).map(a => a.slug));
 const base = SITE_URL.replace(/\/$/, '');
+
 function urlPriority(u) {
-  if (u === `${base}/` || u === base || u === `${base}`) return 0;
+  if (u === `${base}/` || u === base) return 0;
   if (/\/categories\/[^/]+$/.test(u)) return 1;
   if (u.includes('/guides')) return 2;
   if (u.includes('/pages/')) return 3;
@@ -74,36 +102,84 @@ function urlPriority(u) {
   if (m && evergreenSlugs.has(m[1])) return 4;
   return 10;
 }
-urls = [...urls].sort((a, b) => urlPriority(a) - urlPriority(b));
-const priorityPing = urls.filter(u => urlPriority(u) <= 4).concat(
-  urls.filter(u => urlPriority(u) > 4).slice(0, 50)
-);
 
-const sitemapPath = encodeURIComponent(`${SITE_URL}sitemap.xml`);
 const siteEnc = encodeURIComponent(SITE_URL);
-const submit = await googleApi(
-  `https://www.googleapis.com/webmasters/v3/sites/${siteEnc}/sitemaps/${sitemapPath}`,
-  { method: 'PUT' }
-);
-console.log(submit.ok
-  ? `✓ GSC sitemap submit: ${SITE_URL}sitemap.xml`
-  : `⚠ GSC sitemap submit HTTP ${submit.status}: ${JSON.stringify(submit.body).slice(0, 200)}`);
+const sitemapSubmit = {};
+for (const file of SITEMAP_FILES) {
+  const sitemapUrl = encodeURIComponent(`${SITE_URL}${file}`);
+  const submit = await googleApi(
+    `https://www.googleapis.com/webmasters/v3/sites/${siteEnc}/sitemaps/${sitemapUrl}`,
+    { method: 'PUT' }
+  );
+  sitemapSubmit[file] = submit.ok ? 'ok' : `error_${submit.status}`;
+  console.log(submit.ok
+    ? `✓ GSC sitemap submit: ${SITE_URL}${file}`
+    : `⚠ GSC sitemap submit ${file} HTTP ${submit.status}: ${JSON.stringify(submit.body).slice(0, 200)}`);
+}
 
+const newsUrls = recentNewsArticles(published).map(a => `${base}/articles/${a.slug}`);
+const priorityPing = [
+  ...urls.filter(u => urlPriority(u) <= 4),
+  ...newsUrls
+];
 const indexNow = await pingIndexNow(priorityPing, SITE_URL);
 console.log(indexNow.skipped
   ? '↪ IndexNow skipped (no INDEXNOW_KEY)'
   : indexNow.ok
-    ? `✓ IndexNow pinged ${indexNow.count} priority URLs (hubs + evergreen + recent)`
+    ? `✓ IndexNow pinged ${indexNow.count} URLs (hubs + evergreen + last 48h)`
     : `⚠ IndexNow HTTP ${indexNow.status}: ${indexNow.body}`);
+
+async function loadPrevious() {
+  try {
+    const raw = await fs.readFile(path.join(process.cwd(), 'reports', 'indexing', 'latest.json'), 'utf8');
+    return JSON.parse(raw);
+  } catch {
+    return { urls: [] };
+  }
+}
+
+const previous = await loadPrevious();
+const prevByPath = new Map((previous.urls || []).map(e => [e.url, e]));
+
+function inspectScore(absUrl) {
+  const prio = urlPriority(absUrl);
+  if (prio <= 4) return prio;
+  const prev = prevByPath.get(toPath(absUrl));
+  if (!prev) return 5;
+  if (prev.bucket === 'unknown' || /timeout|http \d/i.test(prev.coverageState || '')) return 6;
+  if (prev.coverageState === 'Crawled - currently not indexed') return 7;
+  if (prev.bucket === 'waiting') return 8;
+  if (prev.bucket === 'indexed') return 20;
+  return 10;
+}
+
+const inspectQueue = [...urls]
+  .sort((a, b) => inspectScore(a) - inspectScore(b) || urlPriority(a) - urlPriority(b))
+  .slice(0, INSPECT_LIMIT);
 
 async function inspectOne(url) {
   const r = await googleApi('https://searchconsole.googleapis.com/v1/urlInspection/index:inspect', {
     method: 'POST',
-    body: JSON.stringify({ inspectionUrl: url, siteUrl: SITE_URL }),
-    signal: AbortSignal.timeout(30000)
+    body: JSON.stringify({ inspectionUrl: url, siteUrl: SITE_URL })
   });
 
   if (r.status === 429) return { url, rateLimited: true };
+  if (r.timeout || r.status === 0) {
+    return {
+      url,
+      rateLimited: false,
+      entry: {
+        url: toPath(url),
+        verdict: null,
+        coverageState: 'Timeout',
+        bucket: 'unknown',
+        robotsTxtState: null,
+        indexingState: null,
+        lastCrawlTime: null,
+        pageFetchState: null
+      }
+    };
+  }
 
   const idx = r.body?.inspectionResult?.indexStatusResult || {};
   const coverageState = idx.coverageState || (r.ok ? 'Unknown' : `HTTP ${r.status}`);
@@ -111,7 +187,7 @@ async function inspectOne(url) {
     url,
     rateLimited: false,
     entry: {
-      url: url.replace(SITE_URL, '/'),
+      url: toPath(url),
       verdict: idx.verdict || null,
       coverageState,
       bucket: summarizeCoverage(coverageState),
@@ -123,16 +199,13 @@ async function inspectOne(url) {
   };
 }
 
-console.log(`Inspecting ${urls.length} URLs via Search Console (URL Inspection API)...`);
-const inspected = [];
-let indexed = 0;
-let waiting = 0;
-let notIndexed = 0;
-let unknown = 0;
-const BATCH = 8;
+console.log(`Inspecting ${inspectQueue.length}/${urls.length} URLs (priority hubs, evergreen, unknown, then newest)...`);
+const fresh = new Map();
+let timeouts = 0;
+let httpErrors = 0;
 
-for (let i = 0; i < urls.length; i += BATCH) {
-  const batch = urls.slice(i, i + BATCH);
+for (let i = 0; i < inspectQueue.length; i += BATCH) {
+  const batch = inspectQueue.slice(i, i + BATCH);
   let results = await Promise.all(batch.map(inspectOne));
 
   if (results.some(r => r.rateLimited)) {
@@ -143,28 +216,59 @@ for (let i = 0; i < urls.length; i += BATCH) {
 
   for (const r of results) {
     if (!r.entry) continue;
-    inspected.push(r.entry);
-    if (r.entry.bucket === 'indexed') indexed++;
-    else if (r.entry.bucket === 'waiting') waiting++;
-    else if (r.entry.bucket === 'not_indexed') notIndexed++;
-    else unknown++;
+    if (r.entry.coverageState === 'Timeout') timeouts++;
+    if (String(r.entry.coverageState).startsWith('HTTP ')) httpErrors++;
+    // Timeouts keep yesterday's row when we have one, so coverage doesn't flap.
+    if (r.entry.coverageState === 'Timeout' && prevByPath.has(r.entry.url)) {
+      fresh.set(r.entry.url, prevByPath.get(r.entry.url));
+    } else {
+      fresh.set(r.entry.url, r.entry);
+    }
   }
 
-  if ((i + BATCH) % 40 === 0 || i + BATCH >= urls.length) {
-    console.log(`  … ${Math.min(i + BATCH, urls.length)}/${urls.length}`);
+  if ((i + BATCH) % 30 === 0 || i + BATCH >= inspectQueue.length) {
+    console.log(`  … ${Math.min(i + BATCH, inspectQueue.length)}/${inspectQueue.length}`);
   }
   await sleep(400);
 }
 
+const merged = [];
+for (const abs of urls) {
+  const p = toPath(abs);
+  merged.push(fresh.get(p) || prevByPath.get(p) || {
+    url: p,
+    verdict: null,
+    coverageState: 'Not inspected this run',
+    bucket: 'unknown',
+    robotsTxtState: null,
+    indexingState: null,
+    lastCrawlTime: null,
+    pageFetchState: null
+  });
+}
+
+const summary = { indexed: 0, waiting: 0, not_indexed: 0, unknown: 0 };
+for (const e of merged) {
+  if (e.bucket === 'indexed') summary.indexed++;
+  else if (e.bucket === 'waiting') summary.waiting++;
+  else if (e.bucket === 'not_indexed') summary.not_indexed++;
+  else summary.unknown++;
+}
+
+const gscOk = Object.values(sitemapSubmit).every(v => v === 'ok');
 const report = {
   generated_at: new Date().toISOString(),
   site: SITE_URL,
   sitemap: `${SITE_URL}sitemap.xml`,
+  sitemaps: SITEMAP_FILES.map(f => `${SITE_URL}${f}`),
   url_count: urls.length,
-  gsc_sitemap_submit: submit.ok ? 'ok' : `error_${submit.status}`,
+  inspected_this_run: inspectQueue.length,
+  inspect_timeouts: timeouts,
+  inspect_http_errors: httpErrors,
+  gsc_sitemap_submit: gscOk ? 'ok' : sitemapSubmit,
   indexnow: indexNow.skipped ? 'skipped' : indexNow.ok ? 'ok' : `error_${indexNow.status}`,
-  summary: { indexed, waiting, not_indexed: notIndexed, unknown },
-  urls: inspected
+  summary,
+  urls: merged
 };
 
 const reportDir = path.join(process.cwd(), 'reports', 'indexing');
@@ -178,14 +282,16 @@ await fs.writeFile(path.join(process.cwd(), 'data', 'indexing-status.json'), JSO
   updated_at: report.generated_at,
   summary: report.summary,
   url_count: report.url_count,
-  index_pct: Math.round((indexed / Math.max(1, report.url_count)) * 100)
+  inspected_this_run: report.inspected_this_run,
+  index_pct: Math.round((summary.indexed / Math.max(1, report.url_count)) * 100)
 }, null, 2));
 
 console.log('\nIndexing summary');
-console.log(`  Indexed:           ${indexed}`);
-console.log(`  Waiting in Google: ${waiting}`);
-console.log(`  Not indexed:       ${notIndexed}`);
-console.log(`  Unknown:           ${unknown}`);
+console.log(`  Indexed:           ${summary.indexed}`);
+console.log(`  Waiting in Google: ${summary.waiting}`);
+console.log(`  Not indexed:       ${summary.not_indexed}`);
+console.log(`  Unknown:           ${summary.unknown}`);
+console.log(`  Inspected now:     ${inspectQueue.length} (${timeouts} timeouts)`);
 console.log(`Wrote reports/indexing/latest.json`);
 
 if (process.env.GITHUB_STEP_SUMMARY) {
@@ -193,10 +299,14 @@ if (process.env.GITHUB_STEP_SUMMARY) {
     '## Indexing report',
     '',
     `- URLs in sitemap: **${urls.length}**`,
-    `- GSC sitemap submit: **${report.gsc_sitemap_submit}**`,
+    `- Inspected this run: **${inspectQueue.length}** (${timeouts} timeouts)`,
+    `- GSC sitemap submit: **${typeof report.gsc_sitemap_submit === 'string' ? report.gsc_sitemap_submit : JSON.stringify(report.gsc_sitemap_submit)}**`,
     `- IndexNow: **${report.indexnow}**`,
-    `- Indexed: **${indexed}** | Waiting: **${waiting}** | Not indexed: **${notIndexed}**`,
+    `- Indexed: **${summary.indexed}** | Waiting: **${summary.waiting}** | Not indexed: **${summary.not_indexed}** | Unknown: **${summary.unknown}**`,
     ''
   ].join('\n');
   await fs.appendFile(process.env.GITHUB_STEP_SUMMARY, md);
 }
+
+// Inspection timeouts are expected on GSC's API; never fail the workflow after
+// sitemaps were written. The report + commit are the deliverable.

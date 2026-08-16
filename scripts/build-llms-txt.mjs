@@ -78,7 +78,7 @@ ${evergreens.length ? evergreens.map(articleLine).join('\n') : '- See guides hub
 
 ## Feeds and machine-readable indexes
 
-- [Sitemap](${SITE}/sitemap.xml): All article URLs with publish dates (Google News format).
+- [Sitemap](${SITE}/sitemap.xml): Sitemap index (pages, articles, Google News last 48h).
 - [RSS](${SITE}/rss.xml): 50 most recent articles (RSS 2.0).
 - [Full content index](${SITE}/llms-full.txt): Extended article list for LLM crawlers (${articles.length} articles).
 

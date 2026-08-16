@@ -1,8 +1,9 @@
 name: Submit URLs for indexing
 
-# Refreshes sitemap.xml, resubmits it to Google Search Console, pings
-# IndexNow (Google/Bing/Yandex), and records URL Inspection status for
-# every public page so we know what is indexed vs waiting in the queue.
+# Refreshes sitemap index + News/article/page sitemaps, resubmits them to
+# Google Search Console, pings IndexNow, and inspects a prioritized slice of
+# URLs (hubs, evergreen, unknown, newest). A single Inspection timeout must
+# not fail the job — the report is always committed.
 
 on:
   workflow_dispatch:
@@ -16,6 +17,7 @@ permissions:
 jobs:
   indexing:
     runs-on: ubuntu-latest
+    timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
 
@@ -24,9 +26,9 @@ jobs:
           node-version: '22'
 
       - name: Install dependencies
-        run: npm ci || npm install
+        run: npm install --no-fund --no-audit
 
-      - name: Submit sitemap and inspect URLs
+      - name: Submit sitemaps and inspect URLs
         env:
           GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
           INDEXNOW_KEY: ${{ secrets.INDEXNOW_KEY }}
@@ -39,7 +41,7 @@ jobs:
           set -euo pipefail
           git config user.name "aiglimpse-bot"
           git config user.email "bot@aiglimpse.ai"
-          git add sitemap.xml reports/indexing/ data/indexing-status.json
+          git add sitemap.xml sitemap-pages.xml sitemap-articles.xml sitemap-news.xml reports/indexing/ data/indexing-status.json
           if git diff --staged --quiet; then
             echo "No indexing report changes"
             echo "changed=false" >> "$GITHUB_OUTPUT"

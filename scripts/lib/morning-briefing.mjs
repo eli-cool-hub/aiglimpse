@@ -168,11 +168,11 @@ export function buildMorningBriefing(ctx) {
   } else if (published24h === 0) {
     watches.push(`${published48h} article(s) in 48h but none in the last 24h — pipeline may have slowed.`);
   } else if (published24h < 2) {
-    watches.push(`Only ${published24h} article(s) in the last 24h (target ~8–12 at quality cadence).`);
-  } else if (published24h > 18) {
-    watches.push(`${published24h} article(s) in 24h — high volume; prefer fewer stronger pieces while indexing lags.`);
+    watches.push(`Only ${published24h} article(s) in the last 24h (target ~4–6 while Google catches up).`);
+  } else if (published24h > 8) {
+    watches.push(`${published24h} article(s) in 24h — too much volume while indexing is stalled; cap news until coverage climbs.`);
   } else {
-    wins.push(`${published24h} article(s) published in the last 24h — steady cadence.`);
+    wins.push(`${published24h} article(s) published in the last 24h — cadence matches the indexing throttle.`);
   }
 
   // Category balance: flag chronically under-served sections.

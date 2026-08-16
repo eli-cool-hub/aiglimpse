@@ -68,18 +68,28 @@ async function getSitemap() {
   if (r.status !== 200) return { ok: false, error: r.body };
   const list = r.body?.sitemap || [];
   if (list.length === 0) return { ok: true, missing: true };
-  const s = list[0];
-  const submitted = (s.contents || []).reduce((a, c) => a + Number(c.submitted || 0), 0);
-  const indexed = (s.contents || []).reduce((a, c) => a + Number(c.indexed || 0), 0);
+  const submitted = list.reduce(
+    (a, s) => a + (s.contents || []).reduce((b, c) => b + Number(c.submitted || 0), 0),
+    0
+  );
+  const indexed = list.reduce(
+    (a, s) => a + (s.contents || []).reduce((b, c) => b + Number(c.indexed || 0), 0),
+    0
+  );
+  const warnings = list.reduce((a, s) => a + Number(s.warnings || 0), 0);
+  const errors = list.reduce((a, s) => a + Number(s.errors || 0), 0);
+  const latest = [...list].sort(
+    (a, b) => new Date(b.lastDownloaded || 0) - new Date(a.lastDownloaded || 0)
+  )[0];
   return {
     ok: true,
-    path: s.path,
+    path: list.map(s => s.path).filter(Boolean).join(', ') || latest?.path,
     submitted_urls: submitted,
     indexed_urls: indexed,
-    warnings: Number(s.warnings || 0),
-    errors: Number(s.errors || 0),
-    last_submitted: s.lastSubmitted,
-    last_downloaded: s.lastDownloaded
+    warnings,
+    errors,
+    last_submitted: latest?.lastSubmitted,
+    last_downloaded: latest?.lastDownloaded
   };
 }
 
@@ -304,7 +314,7 @@ if (snapshot.sitemap.ok && !snapshot.sitemap.missing) {
     recommendations.push({
       type: 'no_indexing_data',
       priority: 'info',
-      message: `Sitemap shows 0 indexed URLs of ${submitted} submitted, but this counter often stays empty even after Google indexes pages. Use the URL Inspection tool to confirm.`
+      message: `GSC sitemap API still reports 0 indexed of ${submitted} submitted. That counter is often empty — trust URL Inspection coverage on the dashboard instead.`
     });
   } else if (submitted > 0 && indexed < submitted * 0.5) {
     recommendations.push({
@@ -360,6 +370,17 @@ const organicSessions7d = (snapshot.ga4.sources || [])
   .reduce((sum, s) => sum + (s.sessions || 0), 0);
 snapshot.organic_sessions_7d = organicSessions7d;
 
+let publishedIndex = { articles: [] };
+let indexingStatus = null;
+try {
+  publishedIndex = JSON.parse(await fs.readFile(path.join(process.cwd(), 'data', 'published.json'), 'utf8'));
+} catch { /* empty site */ }
+try {
+  indexingStatus = JSON.parse(await fs.readFile(path.join(process.cwd(), 'data', 'indexing-status.json'), 'utf8'));
+} catch { /* not run yet */ }
+
+const sitemapUrlCount = collectIndexableUrls(publishedIndex, GSC_SITE).length;
+
 const todayEntry = {
   date: dISO,
   gsc_clicks_7d: snapshot.gsc.totals.clicks,
@@ -373,6 +394,9 @@ const todayEntry = {
   ga4_organic_sessions_7d: organicSessions7d,
   sitemap_submitted: snapshot.sitemap.submitted_urls || 0,
   sitemap_indexed: snapshot.sitemap.indexed_urls || 0,
+  indexed_urls: indexingStatus?.summary?.indexed || 0,
+  url_count: indexingStatus?.url_count || sitemapUrlCount || 0,
+  index_pct: indexingStatus?.index_pct ?? (sitemapUrlCount ? Math.round(((indexingStatus?.summary?.indexed || 0) / sitemapUrlCount) * 100) : 0),
   synd_total: snapshot.syndication?.total || 0,
   synd_devto: snapshot.syndication?.devto || 0
 };
@@ -384,17 +408,6 @@ if (history.daily.length > 365) history.daily = history.daily.slice(-365);
 await fs.mkdir(path.dirname(historyPath), { recursive: true });
 await fs.writeFile(historyPath, JSON.stringify(history, null, 2));
 
-// Morning briefing: growth + operational health (after history is current).
-let publishedIndex = { articles: [] };
-let indexingStatus = null;
-try {
-  publishedIndex = JSON.parse(await fs.readFile(path.join(process.cwd(), 'data', 'published.json'), 'utf8'));
-} catch { /* empty site */ }
-try {
-  indexingStatus = JSON.parse(await fs.readFile(path.join(process.cwd(), 'data', 'indexing-status.json'), 'utf8'));
-} catch { /* not run yet */ }
-
-const sitemapUrlCount = collectIndexableUrls(publishedIndex, GSC_SITE).length;
 snapshot.briefing = buildMorningBriefing({
   snapshot,
   history,
@@ -435,8 +448,11 @@ md('');
 if (snapshot.sitemap.ok && !snapshot.sitemap.missing) {
   md('## Sitemap');
   md('');
-  md(`- Submitted URLs: **${snapshot.sitemap.submitted_urls}**`);
-  md(`- Indexed URLs: **${snapshot.sitemap.indexed_urls}**`);
+  md(`- GSC submitted tally: **${snapshot.sitemap.submitted_urls}**`);
+  md(`- GSC sitemap "indexed" counter: **${snapshot.sitemap.indexed_urls}** (often stays 0)`);
+  if (indexingStatus?.summary) {
+    md(`- URL Inspection: **${indexingStatus.summary.indexed}** indexed, **${indexingStatus.summary.waiting || 0}** waiting, **${indexingStatus.summary.unknown || 0}** unknown (${indexingStatus.url_count || sitemapUrlCount} live URLs)`);
+  }
   md(`- Errors: ${snapshot.sitemap.errors}`);
   md(`- Last downloaded: ${snapshot.sitemap.last_downloaded}`);
   md('');

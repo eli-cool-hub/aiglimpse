@@ -2,8 +2,9 @@ name: Fetch AI News
 
 on:
   schedule:
-    # Every 4 hours. Quality over volume while the domain is still building
-    # topical authority — ~12 articles/day beats flooding Google with thin news.
+    # Every 4 hours. Google has indexed ~283 URLs and stopped — publishing
+    # ~12 similar news pieces/day is widening the unindexed backlog. Cap at
+    # 1/run × 6 runs = ~6/day until coverage climbs.
     - cron: '0 */4 * * *'
   workflow_dispatch: # allows manual trigger from GitHub UI
 
@@ -38,9 +39,9 @@ jobs:
           DEVTO_API_KEY: ${{ secrets.DEVTO_API_KEY }}
           HASHNODE_TOKEN: ${{ secrets.HASHNODE_TOKEN }}
           SITE_URL: https://aiglimpse.ai
-          # 2 articles × 6 runs/day = ~12/day. Cap 1 per category so ethics /
-          # industry / robotics get a fair shot against research-heavy feeds.
-          MAX_PER_RUN: '2'
+          # 1 article × 6 runs/day = ~6/day while Google's index is frozen.
+          # Cap 1 per category so ethics / industry / robotics still rotate.
+          MAX_PER_RUN: '1'
           PER_CATEGORY_CAP: '1'
         run: npm run fetch
 
@@ -50,7 +51,7 @@ jobs:
           set -euo pipefail
           git config user.name "AI Glimpse Bot"
           git config user.email "bot@aiglimpse.ai"
-          git add articles/ data/ sitemap.xml rss.xml index.html categories/ images/articles/ llms.txt llms-full.txt search-index.json
+          git add articles/ data/ sitemap.xml sitemap-pages.xml sitemap-articles.xml sitemap-news.xml rss.xml index.html categories/ images/articles/ llms.txt llms-full.txt search-index.json
           if git diff --staged --quiet; then
             echo "No new articles to commit."
             echo "changed=false" >> "$GITHUB_OUTPUT"

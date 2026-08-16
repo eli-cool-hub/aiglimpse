@@ -126,6 +126,10 @@
   <h2>At a glance</h2>
   <div class="kpis" id="kpis"></div>
 
+  <h2>Google indexing</h2>
+  <p class="section-note">URL Inspection coverage, not the GSC sitemap “indexed” counter (that API field stays 0). Indexed count has been flat while the URL inventory grew — that is the bottleneck, not the daily submit job.</p>
+  <div class="kpis" id="index-kpis"></div>
+
   <h2>Backlink syndication</h2>
   <div class="kpis" id="synd-kpis"></div>
 
@@ -305,6 +309,21 @@ document.getElementById('kpis').innerHTML = [
   renderKpiCard('GA4 users', fmt(SNAPSHOT.ga4.totals.users), delta(SNAPSHOT.ga4.totals.users, prev?.ga4_users_7d), 'ga4'),
   renderKpiCard('Pageviews', fmt(SNAPSHOT.ga4.totals.pageviews), delta(SNAPSHOT.ga4.totals.pageviews, prev?.ga4_pageviews_7d), 'ga4'),
   renderKpiCard('Avg session', dur(SNAPSHOT.ga4.totals.avg_session_duration), null, 'ga4')
+].join('');
+
+const ops = SNAPSHOT.briefing?.operations || {};
+const idx = ops.indexing || {};
+const indexedNow = idx.indexed ?? latest?.indexed_urls ?? 0;
+const waitingNow = idx.waiting ?? 0;
+const unknownNow = idx.unknown ?? 0;
+const liveUrls = ops.sitemap_urls ?? latest?.url_count ?? 0;
+const indexPctNow = liveUrls ? Math.round((indexedNow / liveUrls) * 100) : (latest?.index_pct ?? 0);
+document.getElementById('index-kpis').innerHTML = [
+  renderKpiCard('Indexed (inspect)', fmt(indexedNow), delta(indexedNow, prev?.indexed_urls), 'gsc'),
+  renderKpiCard('Coverage', indexPctNow + '%', delta(indexPctNow, prev?.index_pct), 'gsc'),
+  renderKpiCard('Waiting / discovered', fmt(waitingNow), null, 'gsc'),
+  renderKpiCard('Unknown to Google', fmt(unknownNow), null, 'gsc'),
+  renderKpiCard('Live URLs', fmt(liveUrls), delta(liveUrls, prev?.url_count))
 ].join('');
 
 const synd = SNAPSHOT.syndication || { total: 0, medium: 0, devto: 0, hashnode: 0 };
@@ -569,7 +588,10 @@ const METRICS = [
   { key: 'ga4_organic_sessions_7d', label: 'Organic sessions', color: '#2d8c47', format: v => fmt(v), invert: false },
   { key: 'ga4_users_7d', label: 'GA4 users', color: '#ea8600', format: v => fmt(v), invert: false },
   { key: 'ga4_pageviews_7d', label: 'Pageviews', color: '#ff5b1f', format: v => fmt(v), invert: false },
-  { key: 'sitemap_submitted', label: 'Sitemap URLs', color: '#2d8c47', format: v => fmt(v), invert: false },
+  { key: 'indexed_urls', label: 'URLs indexed (inspect)', color: '#4285f4', format: v => fmt(v), invert: false },
+  { key: 'url_count', label: 'Live URLs', color: '#6b6157', format: v => fmt(v), invert: false },
+  { key: 'index_pct', label: 'Index coverage %', color: '#2d8c47', format: v => v == null ? '-' : v + '%', invert: false },
+  { key: 'sitemap_submitted', label: 'GSC sitemap tally', color: '#9aa0a6', format: v => fmt(v), invert: false },
   { key: 'synd_devto', label: 'Dev.to posts', color: '#0a0a0a', format: v => fmt(v), invert: false }
 ];
 
@@ -622,10 +644,10 @@ trendSortSelect.addEventListener('change', () => renderTrendGrid(trendSortSelect
 
 const indexMetrics = [
   { key: 'gsc_impressions_7d', label: 'Impressions', color: '#4285f4' },
+  { key: 'indexed_urls', label: 'Indexed URLs', color: '#2d8c47' },
+  { key: 'url_count', label: 'Live URLs', color: '#6b6157' },
   { key: 'ga4_sessions_7d', label: 'Sessions', color: '#f4b400' },
   { key: 'ga4_pageviews_7d', label: 'Pageviews', color: '#ff5b1f' },
-  { key: 'ga4_users_7d', label: 'Users', color: '#ea8600' },
-  { key: 'sitemap_submitted', label: 'Sitemap URLs', color: '#2d8c47' },
   { key: 'synd_devto', label: 'Dev.to posts', color: '#0a0a0a' }
 ];
 
