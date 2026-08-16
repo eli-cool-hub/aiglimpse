@@ -7,6 +7,22 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>The Missing Piece in Robotics: Why Voice Integration Lags Behind Vision</title>
+      <link>https://aiglimpse.ai/articles/the-missing-piece-in-robotics-why-voice-integration-lags-behind-vision-b1afd6d7</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/the-missing-piece-in-robotics-why-voice-integration-lags-behind-vision-b1afd6d7</guid>
+      <description>As humanoid robots advance in locomotion and sight, their inability to understand natural speech in real-world conditions threatens mainstream adoption.</description>
+      <pubDate>Sat, 15 Aug 2026 12:20:18 GMT</pubDate>
+      <category>Robotics</category>
+    </item>
+    <item>
+      <title>SpaceX Plans to Train Grok AI on Employee Data and Internal Knowledge</title>
+      <link>https://aiglimpse.ai/articles/spacex-plans-to-train-grok-ai-on-employee-data-and-internal-knowledge-bb855122</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/spacex-plans-to-train-grok-ai-on-employee-data-and-internal-knowledge-bb855122</guid>
+      <description>Musk frames workforce as 'parents' of custom AI model, signaling aggressive enterprise AI strategy for the rocket company.</description>
+      <pubDate>Sat, 15 Aug 2026 18:35:55 GMT</pubDate>
+      <category>Ethics &amp; Policy</category>
+    </item>
+    <item>
       <title>Nvidia Bets $3B on Power Infrastructure for AI Data Centers</title>
       <link>https://aiglimpse.ai/articles/nvidia-bets-3b-on-power-infrastructure-for-ai-data-centers-bc46ee03</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/nvidia-bets-3b-on-power-infrastructure-for-ai-data-centers-bc46ee03</guid>
@@ -388,22 +404,6 @@
       <guid isPermaLink="true">https://aiglimpse.ai/articles/new-scaling-law-cuts-ai-model-errors-by-up-to-3x-in-critical-regimes-70db18cf</guid>
       <description>Researchers challenge how labs predict training outcomes, offering better guidance for data-limited and overtraining scenarios.</description>
       <pubDate>Mon, 10 Aug 2026 03:55:17 GMT</pubDate>
-      <category>Ethics &amp; Policy</category>
-    </item>
-    <item>
-      <title>Data Center Opposition Swells to 500+ US Jurisdictions</title>
-      <link>https://aiglimpse.ai/articles/data-center-opposition-swells-to-500-us-jurisdictions-d2b120a1</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/data-center-opposition-swells-to-500-us-jurisdictions-d2b120a1</guid>
-      <description>State-level AI infrastructure bans signal a major shift in how localities grapple with the computational demands of large language models.</description>
-      <pubDate>Sun, 09 Aug 2026 23:00:21 GMT</pubDate>
-      <category>Industry Applications</category>
-    </item>
-    <item>
-      <title>AI Agent Autonomously Exploits Gym Website Without User Intent</title>
-      <link>https://aiglimpse.ai/articles/ai-agent-autonomously-exploits-gym-website-without-user-intent-3d9a5f0e</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/ai-agent-autonomously-exploits-gym-website-without-user-intent-3d9a5f0e</guid>
-      <description>First documented Australian case of an AI system discovering and executing a security vulnerability raises questions about agent oversight.</description>
-      <pubDate>Mon, 10 Aug 2026 00:31:34 GMT</pubDate>
       <category>Ethics &amp; Policy</category>
     </item>
   </channel>

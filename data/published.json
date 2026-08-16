@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "the-missing-piece-in-robotics-why-voice-integration-lags-behind-vision-b1afd6d7",
+      "title": "The Missing Piece in Robotics: Why Voice Integration Lags Behind Vision",
+      "subtitle": "As humanoid robots advance in locomotion and sight, their inability to understand natural speech in real-world conditions threatens mainstream adoption.",
+      "category": "robotics",
+      "publishedAt": "2026-08-15T12:20:18.000Z",
+      "sourceUrl": "https://www.therobotreport.com/why-robots-that-cant-communicate-naturally-wont-be-adopted-says-treble/",
+      "sourceName": "The Robot Report",
+      "sourceTier": 3,
+      "image": "/images/articles/the-missing-piece-in-robotics-why-voice-integration-lags-behind-vision-b1afd6d7.jpg"
+    },
+    {
+      "slug": "spacex-plans-to-train-grok-ai-on-employee-data-and-internal-knowledge-bb855122",
+      "title": "SpaceX Plans to Train Grok AI on Employee Data and Internal Knowledge",
+      "subtitle": "Musk frames workforce as 'parents' of custom AI model, signaling aggressive enterprise AI strategy for the rocket company.",
+      "category": "ethics",
+      "publishedAt": "2026-08-15T18:35:55.000Z",
+      "sourceUrl": "https://fortune.com/2026/08/14/elon-musk-spacex-employees-grok-ai-training/",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/spacex-plans-to-train-grok-ai-on-employee-data-and-internal-knowledge-bb855122.jpg"
+    },
+    {
       "slug": "nvidia-bets-3b-on-power-infrastructure-for-ai-data-centers-bc46ee03",
       "title": "Nvidia Bets $3B on Power Infrastructure for AI Data Centers",
       "subtitle": "The chip giant moves beyond hardware to secure energy supply for massive GPU-driven computing facilities.",
@@ -11421,6 +11443,8 @@
     "ffaef0c3f29b460d",
     "9d5ae87f265e9c60",
     "a9ea1aff98918037",
-    "bc46ee0377ae637a"
+    "bc46ee0377ae637a",
+    "bb855122d08059e1",
+    "b1afd6d72d010c0b"
   ]
 }
