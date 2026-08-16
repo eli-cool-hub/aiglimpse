@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "ai-powered-robots-transform-stroke-recovery-with-adaptive-therapy-f039deb1",
+      "title": "AI-Powered Robots Transform Stroke Recovery With Adaptive Therapy",
+      "subtitle": "Machine learning systems are personalizing neurological rehabilitation, accelerating brain rewiring while extending care beyond hospital walls.",
+      "category": "robotics",
+      "publishedAt": "2026-08-16T12:30:18.000Z",
+      "sourceUrl": "https://www.therobotreport.com/how-robotics-is-revolutionizing-stroke-rehabilitation/",
+      "sourceName": "The Robot Report",
+      "sourceTier": 3,
+      "image": "/images/articles/ai-powered-robots-transform-stroke-recovery-with-adaptive-therapy-f039deb1.jpg"
+    },
+    {
       "slug": "y-combinator-backed-startup-uses-ai-to-design-personalized-cancer-vaccines-for-d-04475ed6",
       "title": "Y Combinator-backed startup uses AI to design personalized cancer vaccines for dogs",
       "subtitle": "Gamgee sequences tumors and leverages machine learning to create custom immunotherapies, marking a significant expansion of AI applications in veterinary medicine.",
@@ -11517,6 +11528,7 @@
     "70ab84f743290ef0",
     "b6bdb85a7afd2c67",
     "a9bef5a5b996b563",
-    "04475ed643f49169"
+    "04475ed643f49169",
+    "f039deb1292cd0c8"
   ]
 }
