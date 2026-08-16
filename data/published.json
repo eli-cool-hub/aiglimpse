@@ -1,6 +1,28 @@
 {
   "articles": [
     {
+      "slug": "ai-industrys-hidden-70b-credit-problem-rattles-bond-markets-5cc6903b",
+      "title": "AI Industry's Hidden $70B Credit Problem Rattles Bond Markets",
+      "subtitle": "Traders grow uneasy about off-balance-sheet financing arrangements that let AI companies dodge debt disclosure rules.",
+      "category": "industry",
+      "publishedAt": "2026-08-16T03:28:47.000Z",
+      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-08-15/bond-traders-agonize-over-ai-companies-70-billion-of-shadow-credit-backstops",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/ai-industrys-hidden-70b-credit-problem-rattles-bond-markets-5cc6903b.jpg"
+    },
+    {
+      "slug": "new-york-city-moves-to-restrict-facial-recognition-in-public-spaces-bd143d92",
+      "title": "New York City Moves to Restrict Facial Recognition in Public Spaces",
+      "subtitle": "A proposed law gaining momentum in the City Council would ban facial scanning technology in venues open to the public, marking a significant shift in AI regulation.",
+      "category": "ethics",
+      "publishedAt": "2026-08-16T03:12:01.000Z",
+      "sourceUrl": "https://wired.com/story/new-york-city-lawmakers-push-to-ban-the-scan-at-msg",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/new-york-city-moves-to-restrict-facial-recognition-in-public-spaces-bd143d92.jpg"
+    },
+    {
       "slug": "the-missing-piece-in-robotics-why-voice-integration-lags-behind-vision-b1afd6d7",
       "title": "The Missing Piece in Robotics: Why Voice Integration Lags Behind Vision",
       "subtitle": "As humanoid robots advance in locomotion and sight, their inability to understand natural speech in real-world conditions threatens mainstream adoption.",
@@ -11445,6 +11467,8 @@
     "a9ea1aff98918037",
     "bc46ee0377ae637a",
     "bb855122d08059e1",
-    "b1afd6d72d010c0b"
+    "b1afd6d72d010c0b",
+    "bd143d922e87abcb",
+    "5cc6903b31ab755d"
   ]
 }
