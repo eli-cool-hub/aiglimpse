@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "metas-14b-ai-data-center-in-el-paso-carries-significant-insurance-gap-d9cb67d6",
+      "title": "Meta's $14B AI Data Center in El Paso Carries Significant Insurance Gap",
+      "subtitle": "A joint venture between Meta and BlackRock reveals infrastructure risks as AI companies race to build massive computing facilities for training large language models.",
+      "category": "industry",
+      "publishedAt": "2026-08-17T11:00:17.000Z",
+      "sourceUrl": "https://www.ft.com/content/adeca274-67a3-4ee8-94f1-f43e4f28be97",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/metas-14b-ai-data-center-in-el-paso-carries-significant-insurance-gap-d9cb67d6.jpg"
+    },
+    {
       "slug": "alibabas-qwen-27b-model-shows-promise-hampered-by-default-settings-cb3777af",
       "title": "Alibaba's Qwen 27B Model Shows Promise, Hampered by Default Settings",
       "subtitle": "A new open-source language model delivers strong performance for local deployment but masks its capabilities behind a problematic preset configuration.",
@@ -11577,6 +11588,7 @@
     "f039deb1292cd0c8",
     "8a9a22c9cdbed21d",
     "181e51bee56593ee",
-    "cb3777afb3f86cdc"
+    "cb3777afb3f86cdc",
+    "d9cb67d68c04e6f0"
   ]
 }
