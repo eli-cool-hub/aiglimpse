@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LLM benchmarks explained: MMLU, HumanEval, MTEB, and what they actually measure | AI Glimpse</title>
+  <meta name="description" content="Understand LLM benchmarks: MMLU, HumanEval, MTEB explained. Learn what each measures, limitations, and how to run private evals.">
+  <meta name="keywords" content="LLM benchmarks, MMLU, HumanEval, MTEB, model evaluation, AI leaderboard, benchmark limitations">
+  <link rel="canonical" href="https://aiglimpse.ai/articles/ai-evaluation-benchmarks-explained">
+  <meta property="og:type" content="article"><meta property="og:site_name" content="AI Glimpse">
+  <meta property="og:title" content="LLM benchmarks explained: MMLU, HumanEval, MTEB, and what they actually measure">
+  <meta property="og:description" content="Understand LLM benchmarks: MMLU, HumanEval, MTEB explained. Learn what each measures, limitations, and how to run private evals.">
+  <meta property="og:url" content="https://aiglimpse.ai/articles/ai-evaluation-benchmarks-explained">
+  <meta property="og:image" content="https://aiglimpse.ai/images/articles/ai-evaluation-benchmarks-explained.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="article:published_time" content="2026-08-17T07:07:14.806Z">
+  <meta property="article:section" content="AI Research">
+  <meta property="article:tag" content="LLM benchmarks">
+  <meta property="article:tag" content="MMLU">
+  <meta property="article:tag" content="HumanEval">
+  <meta property="article:tag" content="MTEB">
+  <meta property="article:tag" content="model evaluation">
+  <meta property="article:tag" content="AI leaderboard">
+  <meta property="article:tag" content="benchmark limitations">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="LLM benchmarks explained: MMLU, HumanEval, MTEB, and what they actually measure">
+  <meta name="twitter:description" content="Understand LLM benchmarks: MMLU, HumanEval, MTEB explained. Learn what each measures, limitations, and how to run private evals.">
+  <meta name="twitter:image" content="https://aiglimpse.ai/images/articles/ai-evaluation-benchmarks-explained.jpg">
+  <link rel="icon" type="image/svg+xml" href="/images/favicon.svg">
+  <link rel="alternate" type="application/rss+xml" title="AI Glimpse RSS" href="/rss.xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700;9..144,900&family=Inter+Tight:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap">
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="preload" as="image" href="/images/articles/ai-evaluation-benchmarks-explained.webp" type="image/webp" fetchpriority="high">
+  <style>.reading-progress{position:fixed;top:0;left:0;height:3px;background:var(--color-accent);width:0%;z-index:200;transition:width 100ms linear;}</style>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","mainEntityOfPage":{"@type":"WebPage","@id":"https://aiglimpse.ai/articles/ai-evaluation-benchmarks-explained"},"headline":"LLM benchmarks explained: MMLU, HumanEval, MTEB, and what they actually measure","description":"Understand LLM benchmarks: MMLU, HumanEval, MTEB explained. Learn what each measures, limitations, and how to run private evals.","image":["https://aiglimpse.ai/images/articles/ai-evaluation-benchmarks-explained.jpg"],"datePublished":"2026-08-17T07:07:14.806Z","dateModified":"2026-08-17T07:07:14.806Z","author":{"@type":"Organization","name":"AI Glimpse Newsroom"},"publisher":{"@type":"Organization","name":"AI Glimpse","logo":{"@type":"ImageObject","url":"https://aiglimpse.ai/images/logo.svg"}},"articleSection":"AI Research","keywords":"LLM benchmarks, MMLU, HumanEval, MTEB, model evaluation, AI leaderboard, benchmark limitations"}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://aiglimpse.ai/"},{"@type":"ListItem","position":2,"name":"AI Research","item":"https://aiglimpse.ai/categories/research"},{"@type":"ListItem","position":3,"name":"LLM benchmarks explained: MMLU, HumanEval, MTEB, and what they actually measure","item":"https://aiglimpse.ai/articles/ai-evaluation-benchmarks-explained"}]}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What is MMLU and why is it so common?","acceptedAnswer":{"@type":"Answer","text":"MMLU (Massive Multitask Language Understanding) is a 57-task benchmark covering subjects from law to physics. Models take multiple-choice exams, mimicking university-level knowledge. It's ubiquitous because it's easy to score, publicly available, and correlates loosely with general capability, but it heavily rewards memorization and test-taking pattern recognition."}},{"@type":"Question","name":"Does a high MMLU score mean a model is actually intelligent?","acceptedAnswer":{"@type":"Answer","text":"Not necessarily. MMLU tests recall and pattern matching on multiple-choice questions, not reasoning depth, factual accuracy, or ability to handle ambiguous real-world problems. A model can score 95% on MMLU and still fail at tasks requiring novel reasoning or multi-step verification."}},{"@type":"Question","name":"What does HumanEval actually measure?","acceptedAnswer":{"@type":"Answer","text":"HumanEval is 164 Python coding problems that test functional correctness: does the code run and produce the right output? It measures code generation capability but not code quality, efficiency, readability, or ability to debug existing code. Models often memorize solutions during training."}},{"@type":"Question","name":"Why is MTEB different from MMLU and HumanEval?","acceptedAnswer":{"@type":"Answer","text":"MTEB (Massive Text Embedding Benchmark) evaluates embedding models, not generative LLMs. It tests semantic understanding through retrieval, clustering, and similarity tasks. It's domain-specific: not useful for comparing chat models, but essential for comparing vector databases and retrieval systems."}},{"@type":"Question","name":"Can I trust leaderboard rankings?","acceptedAnswer":{"@type":"Answer","text":"Leaderboards show a narrow slice of capability under controlled conditions. Models are often fine-tuned specifically for benchmark tasks. Rankings can shift based on prompt engineering, inference parameters, and which benchmarks are included. Always run private evaluations on your actual use cases."}},{"@type":"Question","name":"What benchmarks should I use for my own evaluation?","acceptedAnswer":{"@type":"Answer","text":"Start with public benchmarks for baseline comparison, but build custom evaluations: use your actual data, define success metrics tied to business outcomes, and include adversarial examples. Use tools like lm-eval, vLLM, or custom scripts to run benchmarks locally in consistent conditions."}},{"@type":"Question","name":"How do I detect benchmark cherry-picking?","acceptedAnswer":{"@type":"Answer","text":"Watch for: selective reporting (only showing benchmarks where the model wins), missing results on standard tests, vague evaluation descriptions, and claims that lack reproducible code or checkpoints. Request full eval details, inference settings, and reproducibility artifacts."}}]}</script>
+  <meta name="google-site-verification" content="B132aMlqf1nssWYhjOSKUgSjmfwNWgPgtozZsHDxWlU" />
+  <meta name="msvalidate.01" content="F3762E555B3E685836AE39C90B79ECBF" />
+  <!-- aiglimpse-consent-default v1: must run before AdSense, defaults all ad/analytics storage to denied -->
+  <script>(function(){window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}window.gtag=gtag;gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'denied',functionality_storage:'granted',security_storage:'granted',wait_for_update:500});try{var s=JSON.parse(localStorage.getItem('aiglimpse-consent')||'null');if(s&&s.choice==='granted'){gtag('consent','update',{ad_storage:'granted',ad_user_data:'granted',ad_personalization:'granted',analytics_storage:'granted'});}}catch(e){}})();</script>
+  <!-- aiglimpse-ga4 v1: gtag.js loaded after consent default, so it buffers events until consent is granted -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-EVZ52DNQ8S"></script>
+  <script>gtag('js', new Date()); gtag('config', 'G-EVZ52DNQ8S', { anonymize_ip: true });</script>
+</head>
+<body>
+  <div class="reading-progress" aria-hidden="true"></div>
+  <header class="site-header" role="banner">
+    <div class="container">
+      <div class="header-bar">
+        <a href="/" class="logo" aria-label="AI Glimpse home">
+          <span class="logo-wordmark" aria-label="AI Glimpse">A<span class="iris-i" aria-hidden="true">ı</span><span aria-hidden="true"> Glimpse</span></span>
+        </a>
+        <nav class="nav-primary" aria-label="Primary">
+          <a href="/categories/llms">LLMs</a>
+            <a href="/categories/research">Research</a>
+            <a href="/categories/tools">Tools</a>
+            <a href="/categories/business">Business</a>
+            <a href="/categories/ethics">Ethics</a>
+            <a href="/categories/industry">Industry</a>
+            <a href="/categories/robotics">Robotics</a>
+        </nav>
+        <div class="header-actions">
+          <a class="search-btn" href="/search" aria-label="Search">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="11" cy="11" r="7"/><path d="M21 21l-4.35-4.35"/>
+            </svg>
+          </a>
+          <a href="#newsletter" class="btn btn--primary btn--sm">Subscribe</a>
+          <button class="menu-btn" aria-label="Open menu">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+  <aside class="mobile-menu" aria-label="Mobile menu">
+    <div class="mobile-menu-header">
+      <a href="/" class="logo">
+        <span class="logo-wordmark" aria-label="AI Glimpse">A<span class="iris-i" aria-hidden="true">ı</span><span aria-hidden="true"> Glimpse</span></span>
+      </a>
+      <button class="mobile-menu-close" aria-label="Close menu" style="font-size:24px;">×</button>
+    </div>
+    <a href="/categories/llms">LLMs</a>
+    <a href="/categories/research">Research</a>
+    <a href="/categories/tools">Tools</a>
+    <a href="/categories/business">Business</a>
+    <a href="/categories/ethics">Ethics</a>
+    <a href="/categories/industry">Industry</a>
+    <a href="/categories/robotics">Robotics</a>
+    <a href="/search">Search</a>
+    <a href="/pages/about">About</a>
+    <a href="#newsletter">Subscribe</a>
+  </aside>
+  <main>
+    <article>
+      <section class="article-hero">
+        <div class="container container--narrow">
+          <nav aria-label="Breadcrumb" style="margin-bottom:var(--space-4);font-size:var(--text-xs);color:var(--color-ink-muted);">
+            <a href="/" style="color:inherit;">Home</a> /
+            <a href="/categories/research" style="color:inherit;">AI Research</a> /
+            <span>Explainer</span>
+          </nav>
+          <div class="article-hero-meta">
+            <span class="tag tag--research">AI Research</span>
+            <span class="eyebrow eyebrow--accent">Explainer</span>
+            <span class="eyebrow">11 min read</span>
+          </div>
+          <h1 class="article-hero-title">LLM benchmarks explained: MMLU, HumanEval, MTEB, and what they actually measure</h1>
+          <p class="article-hero-subtitle">A technical guide to understanding what AI model benchmarks test, their blind spots, and how to evaluate responsibly.</p>
+          <div class="article-byline">
+            <div>By <strong>AI Glimpse Newsroom</strong></div><div>·</div>
+            <div><time datetime="2026-08-17T07:07:14.806Z" data-relative="false">August 17, 2026</time></div>
+          </div>
+        </div>
+      </section>
+      <section style="padding: var(--space-7) 0;">
+        <div class="container container--narrow">
+          <figure class="article-image"><picture><source srcset="/images/articles/ai-evaluation-benchmarks-explained.webp" type="image/webp"><img src="/images/articles/ai-evaluation-benchmarks-explained.jpg" alt="LLM benchmarks explained: MMLU, HumanEval, MTEB, and what they actually measure" loading="eager" fetchpriority="high" width="1200" height="630"></picture></figure>
+          <div class="article-body"><p>An LLM benchmark is a standardized test that measures specific dimensions of model performance: knowledge retention, reasoning ability, code generation, or semantic understanding. Benchmarks use multiple-choice questions, code execution tests, or similarity rankings to produce a score. They are the closest thing the industry has to a standard for comparing models, yet nearly every popular benchmark has significant blind spots. Understanding what each test actually measures, and what it hides, is essential for engineers and product managers making model selection decisions.</p>
+
+<h2>Why this matters now</h2>
+
+<p>In 2026, the AI market has moved past "which model is smartest" and into "which model is right for my task and budget." Every major model vendor publishes benchmark results. Every AI leaderboard (OpenLI, Hugging Face, LMSYS) ranks dozens of models on dozens of benchmarks. Decision-makers are drowning in numbers and conflicting claims. A model that ranks first on MMLU might rank 15th on a code benchmark. A model trained primarily on English may perform poorly on multilingual tasks even if it scores high on general benchmarks. The risk is real: choosing a model based on cherry-picked benchmark results can waste engineering resources, miss critical failure modes, and lead to production issues that benchmarks never caught.</p>
+
+<p>This matters because benchmarks drive decisions that affect millions of users. They shape which models get funded, which architectures researchers pursue, and which tools end up in production. Yet most working benchmarks measure narrow slices of capability: pattern matching on multiple-choice questions, syntax correctness in code, or semantic similarity in vector space. None of them measure alignment, safety, consistency over time, or robustness to adversarial inputs. Understanding the gap between benchmark scores and real-world performance is the core competency for responsible model evaluation.</p>
+
+<h2>MMLU: The de facto standard (and its wall of limitations)</h2>
+<figure class="article-image article-image--inline">
+  <picture><source srcset="/images/articles/ai-evaluation-benchmarks-explained-inline-1.webp" type="image/webp"><img src="/images/articles/ai-evaluation-benchmarks-explained-inline-1.jpg" alt="MMLU: The de facto standard (and its wall of limitations)" loading="lazy" width="1200" height="630"></picture>
+  <figcaption class="article-image-credit">Photo by <a href="https://www.pexels.com/photo/focused-and-determined-this-young-boy-harnesses-the-power-of-technology-as-he-diligently-works-on-his-laptop-shaping-a-future-filled-with-endless-possibilities-17602818/" rel="nofollow noopener" target="_blank">Shantanu Kumar</a> on Pexels.</figcaption>
+</figure>
+
+
+<p>MMLU (Massive Multitask Language Understanding) is the most cited LLM benchmark in public model reports. Introduced in 2021, it covers 57 subjects ranging from abstract algebra and computer science to nutrition and psychology. Models answer 14,042 multiple-choice questions across these domains. A top-tier model typically scores 90-96% on MMLU. It is ubiquitous because it is easy to run, publicly available, and produces a single number that feels meaningful.</p>
+
+<p>What MMLU actually measures: knowledge breadth and multiple-choice test-taking ability. A model that scores 94% on MMLU has learned to associate question text with correct answer patterns across a wide range of domains. This correlates loosely with general knowledge and instruction-following capability. That loose correlation is why MMLU scores matter at all.</p>
+
+<p>What MMLU does not measure: reasoning depth, factual grounding, the ability to admit uncertainty, or robustness to paraphrasing. Consider a physics problem on MMLU. The model sees a question formatted in a specific way with four answer choices, one of which is correct. The model has likely seen similar problems during training. But MMLU cannot measure whether the model can solve a novel physics problem, explain its reasoning, or catch its own errors. A 96% MMLU score does not mean a model can reliably answer physics questions in production if the questions are structured differently, require explanation, or demand multi-step verification.</p>
+
+<p>MMLU also privileges models trained on academic and textbook data. Performance correlates with the quantity of educational material in the training set, not with the model's ability to perform on downstream tasks like customer support, code generation, or specialized domain work. A model that dominates MMLU may underperform on domain-specific tasks that require less breadth but more depth.</p>
+
+<h2>HumanEval: Code generation under ideal conditions</h2>
+
+<p>HumanEval is a benchmark of 164 Python coding problems, each with a function signature and docstring. The model generates code to solve the problem. The test harness runs the code and checks if it passes all test cases. Pass rates typically range from 50% to 90% for state-of-the-art models. It is the standard for measuring code generation capability.</p>
+
+<p>What HumanEval measures: the ability to generate syntactically correct, functionally correct Python code given a specification. It tests basic problem-solving: the model must parse a requirement and produce working code. Performance on HumanEval correlates with performance on other code generation tasks, making it a useful proxy for general code ability.</p>
+
+<p>The critical gap: HumanEval measures pass at first attempt on clean, isolated problems. It does not measure code that works in production. Real code requires debugging, refactoring, handling edge cases, reading and modifying existing code, and working in complex codebases. A model that scores 85% on HumanEval will fail to handle dependencies, error handling, or integrations with external systems. HumanEval also heavy-weights the training data problem: models memorize solutions. If training data includes LeetCode or GitHub repositories with the exact same problems (or near-identical variations), the benchmark becomes a test of data inclusion, not generalization.</p>
+
+<p>HumanEval is also biased toward Python and problems that fit the mold of competitive programming. It does not measure code review, refactoring ability, or the ability to generate code in other languages at the same quality. For a production evaluation, supplement HumanEval with private code evaluation: take real pull requests from your codebase, have the model generate solutions, and have senior engineers review the output for style, efficiency, and correctness.</p>
+
+<h2>MTEB: Embedding evaluation for retrieval and semantic tasks</h2>
+<figure class="article-image article-image--inline">
+  <picture><source srcset="/images/articles/ai-evaluation-benchmarks-explained-inline-2.webp" type="image/webp"><img src="/images/articles/ai-evaluation-benchmarks-explained-inline-2.jpg" alt="MTEB: Embedding evaluation for retrieval and semantic tasks" loading="lazy" width="1200" height="630"></picture>
+  <figcaption class="article-image-credit">Photo by <a href="https://www.pexels.com/photo/model-using-laptop-on-street-sidewlk-15505206/" rel="nofollow noopener" target="_blank">Shantanu Kumar</a> on Pexels.</figcaption>
+</figure>
+
+
+<p>MTEB (Massive Text Embedding Benchmark) is fundamentally different from MMLU and HumanEval because it evaluates embedding models, not generative models. An embedding model produces a vector representation of text, which is then used for semantic search, clustering, classification, or similarity matching. MTEB includes 58 tasks across eight categories: retrieval, ranking, clustering, classification, semantic textual similarity (STS), paraphrase detection, and reranking.</p>
+
+<p>What MTEB measures: semantic understanding as encoded in vector space. A model that ranks well on MTEB retrieval tasks can find relevant documents given a query. A model that ranks well on STS tasks captures semantic similarity between sentence pairs. Unlike MMLU or HumanEval, MTEB focuses on understanding meaning, not knowledge recall or syntax correctness.</p>
+
+<p>Why it matters for production: if you are building search, recommendation, or <a href="/articles/what-is-retrieval-augmented-generation-rag">retrieval-augmented generation</a> (RAG) systems, MTEB scores directly predict performance. A model that scores 65 on MTEB retrieval will outperform a model that scores 58 on the same tasks. MTEB is also the most honest benchmark in common use: it reflects realistic performance on downstream tasks because the tasks (finding relevant documents, clustering text) are directly useful in production.</p>
+
+<p>The limitations: MTEB is specific to embedding models. It does not help evaluate chat models or generative LLMs. It also does not measure downstream impact. A model with a 70 MTEB score might still produce poor search results if the queries are adversarial, out-of-distribution, or in specialized domains like medical or legal text. MTEB is multilingual, but performance varies widely by language, and some non-English languages are underrepresented in the benchmark.</p>
+
+<h2>Beyond the big three: benchmarks for reasoning, instruction-following, and safety</h2>
+
+<p>MMLU, HumanEval, and MTEB dominate public model reports, but they are incomplete. Other benchmarks measure different slices of capability.</p>
+
+<p><strong>Reasoning benchmarks:</strong> GSM8K (grade school math word problems) and MATH (competition math) measure step-by-step reasoning. A model that solves GSM8K problems must parse a word problem, set up equations, and verify answers. These benchmarks correlate with the ability to solve novel problems, not just pattern-match. Models that excel on reasoning benchmarks often generalize better to downstream tasks that require logical structure.</p>
+
+<p><strong>Instruction-following:</strong> IFEval (Instruction-Following Eval) measures whether a model follows specific constraints in its output: "generate exactly 3 bullet points," "do not use the word X," "format the answer as JSON." IFEval is more realistic than MMLU because real users give complex instructions, and models often fail to follow them. A model that scores 95% on IFEval but 60% on MMLU may be more useful in production for constrained output tasks.</p>
+
+<p><strong>Factuality and <a href="/articles/how-to-reduce-llm-hallucinations">hallucination</a>:</strong> TruthfulQA and FactKG measure whether a model generates true statements or hallucinates. These benchmarks are harder to game and more predictive of real-world risk. A model that scores 90% on MMLU but 50% on TruthfulQA is likely to confabulate confidently, which is dangerous in production.</p>
+
+<p><strong>Multilingual and specialized domains:</strong> XNLI (cross-lingual NLI), multilingual MMLU variants, and domain-specific benchmarks (MedQA, LawBench) measure performance outside English and general domains. If your use case is multilingual or domain-specific, these benchmarks are non-negotiable.</p>
+
+<h2>How leaderboards mislead (and how to read them honestly)</h2>
+
+<p>Model leaderboards rank hundreds of models on dozens of benchmarks. LMSYS, Hugging Face, and OpenLI aggregate results and publish rankings. These rankings are useful for baseline comparison but dangerous if taken literally.</p>
+
+<p>The mechanics of leaderboard manipulation are well-understood: (1) models are sometimes fine-tuned specifically for benchmark tasks, (2) inference settings (temperature, sampling strategy, prompt format) can shift benchmark scores by 5-10%, (3) leaderboards often include only the benchmarks where a model performs well (survivorship bias), and (4) results are often taken from third-party evaluations, not the model author, introducing inconsistency.</p>
+
+<p>A responsible approach to leaderboard reading: (1) check the date of the benchmark results; older results may not reflect the current version of a model, (2) cross-reference results across multiple leaderboards; if a model ranks first on one leaderboard but middle on another, the discrepancy suggests the benchmarks measure different things or the evaluation settings differ, (3) look for missing results; if a model is omitted from a benchmark, ask why, and (4) verify the evaluation code; if the leaderboard does not publish code or checkpoints, results are not reproducible, which is a red flag.</p>
+
+<h2>Common pitfalls: when benchmarks fail you</h2>
+
+<p>Benchmarks are a useful filter, not a decision. Several failure modes are common.</p>
+
+<p><strong>Task-benchmark mismatch:</strong> A model scores well on MMLU but performs poorly on your actual use case because the benchmark does not measure what you need. Example: a support chatbot that needs to follow format constraints, stay on-topic, and de-escalate tension. None of these are measured by standard benchmarks. The solution is to build custom evals on your actual data and success metrics.</p>
+
+<p><strong>Benchmark contamination:</strong> If training data includes a benchmark (or similar problems), the benchmark is no longer a fair test of capability. This is suspected in HumanEval (many models were trained on GitHub, which includes LeetCode solutions) and in some MMLU variants. Request training data documentation and look for independent evaluations on held-out data.</p>
+
+<p><strong>Shifting definitions:</strong> Benchmarks change over time. MMLU has new questions added, HumanEval variants exist, and embedding benchmarks evolve. When a model vendor reports "94% on MMLU," specify which version and subset. Public benchmarks should be versioned and frozen for reproducibility.</p>
+
+<p><strong>Ignoring outliers and distribution:</strong> Leaderboards report point estimates (e.g., "87.3% on MMLU"). They do not report variance, confidence intervals, or per-task performance. A model that averages 87% but fails 30% of the time on a specific task is riskier than a model that averages 85% but fails only 5% of the time. Ask for per-task breakdowns and error analysis.</p>
+
+<p><strong>Generalization gaps:</strong> A model that scores 96% on MMLU may score 60% on a paraphrased version of the same questions, or 30% when answers are reordered. This is not a limitation of the model; it is a limitation of the benchmark. Real evaluations should test robustness to input variation.</p>
+
+<h2>How to run private evaluations responsibly</h2>
+
+<p>The most credible evaluation is one you run yourself on your own data. This requires effort, but it is the only way to make a defensible decision.</p>
+
+<p><strong>Step 1: Define success metrics.</strong> Start with what matters to your business or users. For a search system, is it recall at K=10? For a chatbot, is it task completion rate? For code generation, is it the percentage of generated code that passes your test suite? Translate business goals into measurable metrics.</p>
+
+<p><strong>Step 2: Prepare a test set.</strong> Use real data, not synthetic data. If you are building a customer support chatbot, use actual customer questions. If you are building code generation, use real pull requests or issues from your codebase. The test set should include edge cases, adversarial examples, and out-of-distribution inputs that your production system will see. Aim for at least 100-200 examples per metric, more if possible.</p>
+
+<p><strong>Step 3: Implement consistent evaluation.</strong> Use tools like lm-eval, vLLM, or custom evaluation scripts to run all models under identical conditions: same inference server, same temperature, same prompt format, same randomness. Variance in evaluation setup can introduce larger errors than differences between models.</p>
+
+<p><strong>Step 4: Measure multiple dimensions.</strong> Do not just measure accuracy. Measure latency, cost, variance (does the model produce consistent outputs?), and failure modes. A model that is 2% more accurate but 10x slower may not be worth it. Include human evaluation for subjective metrics like output quality and tone.</p>
+
+<p><strong>Step 5: Document everything.</strong> Record model versions, inference settings, test set composition, and exact prompts. This makes results reproducible and comparable over time. When you upgrade models, run the same eval to measure the delta.</p>
+
+<p>Use public benchmarks as a baseline sanity check, but make the final decision based on private evaluation. If a model ranks well on public benchmarks but fails on your custom eval, trust your custom eval. If a model ranks poorly on public benchmarks but excels on your custom eval, it may be underrated for your specific use case.</p>
+
+<p>The responsible path forward: treat benchmarks as a starting point for model exploration, not a destination. Run private evaluations on your actual data with your actual success metrics. Document your evaluation process and share results internally so others can learn from your decisions. Over time, this builds institutional knowledge about which models work for which tasks, which is far more valuable than any leaderboard score.</p></div>
+
+      <section style="margin-top: var(--space-8);">
+        <h2 style="margin-bottom: var(--space-5);">Frequently asked questions</h2>
+        <div class="faq-list">
+    <details class="faq-item" style="border-bottom:1px solid var(--color-rule);padding:var(--space-4) 0;">
+      <summary style="cursor:pointer;font-weight:600;font-size:var(--text-md);list-style:none;display:flex;justify-content:space-between;align-items:flex-start;gap:var(--space-3);">
+        <span>What is MMLU and why is it so common?</span>
+        <span aria-hidden="true" style="color:var(--color-ink-faint);font-weight:400;flex-shrink:0;">+</span>
+      </summary>
+      <div style="margin-top:var(--space-3);color:var(--color-ink-muted);line-height:1.7;">
+        <p>MMLU (Massive Multitask Language Understanding) is a 57-task benchmark covering subjects from law to physics. Models take multiple-choice exams, mimicking university-level knowledge. It&#39;s ubiquitous because it&#39;s easy to score, publicly available, and correlates loosely with general capability, but it heavily rewards memorization and test-taking pattern recognition.</p>
+      </div>
+    </details>
+
+    <details class="faq-item" style="border-bottom:1px solid var(--color-rule);padding:var(--space-4) 0;">
+      <summary style="cursor:pointer;font-weight:600;font-size:var(--text-md);list-style:none;display:flex;justify-content:space-between;align-items:flex-start;gap:var(--space-3);">
+        <span>Does a high MMLU score mean a model is actually intelligent?</span>
+        <span aria-hidden="true" style="color:var(--color-ink-faint);font-weight:400;flex-shrink:0;">+</span>
+      </summary>
+      <div style="margin-top:var(--space-3);color:var(--color-ink-muted);line-height:1.7;">
+        <p>Not necessarily. MMLU tests recall and pattern matching on multiple-choice questions, not reasoning depth, factual accuracy, or ability to handle ambiguous real-world problems. A model can score 95% on MMLU and still fail at tasks requiring novel reasoning or multi-step verification.</p>
+      </div>
+    </details>
+
+    <details class="faq-item" style="border-bottom:1px solid var(--color-rule);padding:var(--space-4) 0;">
+      <summary style="cursor:pointer;font-weight:600;font-size:var(--text-md);list-style:none;display:flex;justify-content:space-between;align-items:flex-start;gap:var(--space-3);">
+        <span>What does HumanEval actually measure?</span>
+        <span aria-hidden="true" style="color:var(--color-ink-faint);font-weight:400;flex-shrink:0;">+</span>
+      </summary>
+      <div style="margin-top:var(--space-3);color:var(--color-ink-muted);line-height:1.7;">
+        <p>HumanEval is 164 Python coding problems that test functional correctness: does the code run and produce the right output? It measures code generation capability but not code quality, efficiency, readability, or ability to debug existing code. Models often memorize solutions during training.</p>
+      </div>
+    </details>
+
+    <details class="faq-item" style="border-bottom:1px solid var(--color-rule);padding:var(--space-4) 0;">
+      <summary style="cursor:pointer;font-weight:600;font-size:var(--text-md);list-style:none;display:flex;justify-content:space-between;align-items:flex-start;gap:var(--space-3);">
+        <span>Why is MTEB different from MMLU and HumanEval?</span>
+        <span aria-hidden="true" style="color:var(--color-ink-faint);font-weight:400;flex-shrink:0;">+</span>
+      </summary>
+      <div style="margin-top:var(--space-3);color:var(--color-ink-muted);line-height:1.7;">
+        <p>MTEB (Massive Text Embedding Benchmark) evaluates embedding models, not generative LLMs. It tests semantic understanding through retrieval, clustering, and similarity tasks. It&#39;s domain-specific: not useful for comparing chat models, but essential for comparing vector databases and retrieval systems.</p>
+      </div>
+    </details>
+
+    <details class="faq-item" style="border-bottom:1px solid var(--color-rule);padding:var(--space-4) 0;">
+      <summary style="cursor:pointer;font-weight:600;font-size:var(--text-md);list-style:none;display:flex;justify-content:space-between;align-items:flex-start;gap:var(--space-3);">
+        <span>Can I trust leaderboard rankings?</span>
+        <span aria-hidden="true" style="color:var(--color-ink-faint);font-weight:400;flex-shrink:0;">+</span>
+      </summary>
+      <div style="margin-top:var(--space-3);color:var(--color-ink-muted);line-height:1.7;">
+        <p>Leaderboards show a narrow slice of capability under controlled conditions. Models are often fine-tuned specifically for benchmark tasks. Rankings can shift based on prompt engineering, inference parameters, and which benchmarks are included. Always run private evaluations on your actual use cases.</p>
+      </div>
+    </details>
+
+    <details class="faq-item" style="border-bottom:1px solid var(--color-rule);padding:var(--space-4) 0;">
+      <summary style="cursor:pointer;font-weight:600;font-size:var(--text-md);list-style:none;display:flex;justify-content:space-between;align-items:flex-start;gap:var(--space-3);">
+        <span>What benchmarks should I use for my own evaluation?</span>
+        <span aria-hidden="true" style="color:var(--color-ink-faint);font-weight:400;flex-shrink:0;">+</span>
+      </summary>
+      <div style="margin-top:var(--space-3);color:var(--color-ink-muted);line-height:1.7;">
+        <p>Start with public benchmarks for baseline comparison, but build custom evaluations: use your actual data, define success metrics tied to business outcomes, and include adversarial examples. Use tools like lm-eval, vLLM, or custom scripts to run benchmarks locally in consistent conditions.</p>
+      </div>
+    </details>
+
+    <details class="faq-item" style="border-bottom:1px solid var(--color-rule);padding:var(--space-4) 0;">
+      <summary style="cursor:pointer;font-weight:600;font-size:var(--text-md);list-style:none;display:flex;justify-content:space-between;align-items:flex-start;gap:var(--space-3);">
+        <span>How do I detect benchmark cherry-picking?</span>
+        <span aria-hidden="true" style="color:var(--color-ink-faint);font-weight:400;flex-shrink:0;">+</span>
+      </summary>
+      <div style="margin-top:var(--space-3);color:var(--color-ink-muted);line-height:1.7;">
+        <p>Watch for: selective reporting (only showing benchmarks where the model wins), missing results on standard tests, vague evaluation descriptions, and claims that lack reproducible code or checkpoints. Request full eval details, inference settings, and reproducibility artifacts.</p>
+      </div>
+    </details></div>
+      </section>
+          
+          <p style="font-size:var(--text-xs);color:var(--color-ink-faint);margin-top:var(--space-6);padding-top:var(--space-4);border-top:1px solid var(--color-rule);">
+            An <strong>AI Glimpse</strong> explainer. We update this guide as the field evolves.
+          </p>
+        </div>
+      </section>
+    </article>
+    <section class="section" aria-label="Related articles">
+      <div class="container container--narrow">
+        <div class="section-header">
+          <h2 class="section-title">More from AI Glimpse</h2>
+          <a href="/categories/research" class="section-link">All Research stories</a>
+        </div>
+        <div class="grid grid-3">
+          <article class="card card--medium">
+            <a href="/articles/google-releases-gemini-37-flash-pushing-speed-in-ai-inference-785762d2"><div class="card-image"><picture><source srcset="/images/articles/google-releases-gemini-37-flash-pushing-speed-in-ai-inference-785762d2.webp" type="image/webp"><img src="/images/articles/google-releases-gemini-37-flash-pushing-speed-in-ai-inference-785762d2.jpg" alt="Google Releases Gemini 3.7 Flash, Pushing Speed in AI Inference" loading="lazy" width="1200" height="630"></picture></div></a>
+            <div class="card-meta">
+              <span class="tag tag--research">Research</span>
+              <span class="card-byline"><time datetime="2026-08-13T17:04:18.000Z">Aug 13, 2026</time></span>
+            </div>
+            <a href="/articles/google-releases-gemini-37-flash-pushing-speed-in-ai-inference-785762d2"><h3 class="card-title">Google Releases Gemini 3.7 Flash, Pushing Speed in AI Inference</h3></a>
+          </article>
+          <article class="card card--medium">
+            <a href="/articles/researchers-create-elementary-school-ai-to-study-how-models-learn-4fa694c2"><div class="card-image"><picture><source srcset="/images/articles/researchers-create-elementary-school-ai-to-study-how-models-learn-4fa694c2.webp" type="image/webp"><img src="/images/articles/researchers-create-elementary-school-ai-to-study-how-models-learn-4fa694c2.jpg" alt="Researchers Create Elementary-School AI to Study How Models Learn" loading="lazy" width="1200" height="630"></picture></div></a>
+            <div class="card-meta">
+              <span class="tag tag--research">Research</span>
+              <span class="card-byline"><time datetime="2026-08-13T17:56:12.000Z">Aug 13, 2026</time></span>
+            </div>
+            <a href="/articles/researchers-create-elementary-school-ai-to-study-how-models-learn-4fa694c2"><h3 class="card-title">Researchers Create Elementary-School AI to Study How Models Learn</h3></a>
+          </article>
+          <article class="card card--medium">
+            <a href="/articles/video-pretraining-cuts-surgical-robot-training-data-needs-by-half-fa17e9c9"><div class="card-image"><picture><source srcset="/images/articles/video-pretraining-cuts-surgical-robot-training-data-needs-by-half-fa17e9c9.webp" type="image/webp"><img src="/images/articles/video-pretraining-cuts-surgical-robot-training-data-needs-by-half-fa17e9c9.jpg" alt="Video Pretraining Cuts Surgical Robot Training Data Needs by Half" loading="lazy" width="1200" height="630"></picture></div></a>
+            <div class="card-meta">
+              <span class="tag tag--research">Research</span>
+              <span class="card-byline"><time datetime="2026-08-11T17:59:13.000Z">Aug 11, 2026</time></span>
+            </div>
+            <a href="/articles/video-pretraining-cuts-surgical-robot-training-data-needs-by-half-fa17e9c9"><h3 class="card-title">Video Pretraining Cuts Surgical Robot Training Data Needs by Half</h3></a>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="/" class="logo">
+            <span class="logo-wordmark" aria-label="AI Glimpse">A<span class="iris-i" aria-hidden="true">ı</span><span aria-hidden="true"> Glimpse</span></span>
+          </a>
+          <p>Your daily glimpse into AI. Independent reporting and analysis on the people, products, and policies shaping artificial intelligence.</p>
+        </div>
+        <div class="footer-col">
+          <h5>Categories</h5>
+          <ul>
+            <li><a href="/categories/llms">LLMs</a></li>
+            <li><a href="/categories/research">Research</a></li>
+            <li><a href="/categories/tools">Tools</a></li>
+            <li><a href="/categories/business">Business</a></li>
+            <li><a href="/categories/ethics">Ethics</a></li>
+            <li><a href="/categories/industry">Industry</a></li>
+            <li><a href="/categories/robotics">Robotics</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h5>About</h5>
+          <ul>
+            <li><a href="/pages/about">About AI Glimpse</a></li>
+            <li><a href="/pages/contact">Contact</a></li>
+            <li><a href="/pages/editorial">Editorial Standards</a></li>
+            <li><a href="/pages/advertise">Advertise</a></li>
+            <li><a href="/guides">Guides &amp; Explainers</a></li>
+            <li><a href="/search">Search</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h5>Legal</h5>
+          <ul>
+            <li><a href="/pages/privacy">Privacy Policy</a></li>
+            <li><a href="/pages/terms">Terms of Service</a></li>
+            <li><a href="#" data-consent-open>Cookie preferences</a></li>
+            <li><a href="/rss.xml">RSS Feed</a></li>
+            <li><a href="/sitemap.xml">Sitemap</a></li>
+            <li><a href="/llms.txt">LLMs.txt</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div>© <span id="year">2026</span> AI Glimpse · aiglimpse.ai</div>
+        <div class="footer-social">
+          <a href="/rss.xml" aria-label="RSS"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M6.503 20.752c0 1.794-1.456 3.248-3.251 3.248-1.796 0-3.252-1.454-3.252-3.248 0-1.794 1.456-3.248 3.252-3.248 1.795 0 3.251 1.454 3.251 3.248zm-6.503-12.572v4.811c6.05.062 10.96 4.966 11.022 11.009h4.817c-.062-8.71-7.118-15.758-15.839-15.82zm0-3.368c10.58.046 19.152 8.594 19.183 19.188h4.817c-.03-13.231-10.755-23.954-24-24v4.812z"/></svg></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="/js/chrome.js"></script>
+  <script src="/js/main.js"></script>
+</body>
+</html>

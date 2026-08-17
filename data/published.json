@@ -1,6 +1,18 @@
 {
   "articles": [
     {
+      "slug": "ai-evaluation-benchmarks-explained",
+      "title": "LLM benchmarks explained: MMLU, HumanEval, MTEB, and what they actually measure",
+      "subtitle": "A technical guide to understanding what AI model benchmarks test, their blind spots, and how to evaluate responsibly.",
+      "category": "research",
+      "publishedAt": "2026-08-17T07:07:14.806Z",
+      "sourceUrl": null,
+      "sourceName": "AI Glimpse Newsroom",
+      "sourceTier": 0,
+      "image": "/images/articles/ai-evaluation-benchmarks-explained.jpg",
+      "evergreen": true
+    },
+    {
       "slug": "singapore-pitches-ai-model-access-to-poach-fund-managers-from-hong-kong-181e51be",
       "title": "Singapore Pitches AI Model Access to Poach Fund Managers From Hong Kong",
       "subtitle": "The city-state is leveraging its diplomatic ties to offer financial firms unique access to both Western and Chinese AI systems.",
