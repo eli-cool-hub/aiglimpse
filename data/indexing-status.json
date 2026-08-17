@@ -1,11 +1,12 @@
 {
-  "updated_at": "2026-08-15T08:56:43.596Z",
+  "updated_at": "2026-08-17T09:10:27.792Z",
   "summary": {
     "indexed": 283,
-    "waiting": 607,
+    "waiting": 696,
     "not_indexed": 0,
-    "unknown": 119
+    "unknown": 50
   },
-  "url_count": 1009,
+  "url_count": 1029,
+  "inspected_this_run": 220,
   "index_pct": 28
 }
