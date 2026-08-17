@@ -135,7 +135,6 @@
   <figcaption class="article-image-credit">Photo by <a href="https://www.pexels.com/photo/close-up-of-computer-screen-with-code-and-menu-options-34804017/" rel="nofollow noopener" target="_blank">Daniil Komov</a> on Pexels.</figcaption>
 </figure>
 
-
 <p>The architecture of a multimodal AI model hinges on a component called a vision encoder, which translates images into a representation that a language model can understand. The vision encoder is typically a vision transformer (ViT), a convolutional network, or a hybrid, trained on large image datasets to extract spatial and semantic information. This encoder processes raw pixel data and outputs a sequence of numerical <a href="/articles/embedding-models-compared-2026">embeddings</a>, one per image patch or region. The language model then treats these visual embeddings as tokens alongside text tokens, allowing it to reason about both modalities in the same semantic space.</p>
 
 <p>The key insight is that the vision encoder does not need to "describe" the image in words. Instead, it creates a compressed numerical representation that the language model has learned to interpret during training. GPT-4V, for example, uses a vision transformer that encodes images into approximately 257 to 2,048 tokens, depending on resolution and complexity. These tokens sit in the model's <a href="/articles/llm-context-window-explained">context window</a> alongside natural language, allowing the model to answer questions like "What objects are in this image?" or "Is this invoice valid?" without any intermediate step.</p>
@@ -153,12 +152,6 @@
 <p>Audio introduces additional latency. Processing a 10-second audio clip through an audio encoder and language model can take 2 to 5 seconds depending on the model and infrastructure. This delay is acceptable for transcription and summarization tasks but prohibitive for real-time dialogue. Teams building voice interfaces often use specialized speech-to-text models (like Whisper) upstream, then feed text to a multimodal LLM, accepting the trade-off of lost audio context for lower latency.</p>
 
 <h2>Common production use cases and their constraints</h2>
-<figure class="article-image article-image--inline">
-  <picture><source srcset="/images/articles/multimodal-ai-models-explained-inline-2.webp" type="image/webp"><img src="/images/articles/multimodal-ai-models-explained-inline-2.jpg" alt="Common production use cases and their constraints" loading="lazy" width="1200" height="630"></picture>
-  <figcaption class="article-image-credit">Photo by <a href="https://www.pexels.com/photo/chat-gpt-welcome-screen-on-computer-16027824/" rel="nofollow noopener" target="_blank">Matheus Bertelli</a> on Pexels.</figcaption>
-</figure>
-
-
 <p>Document and invoice processing is the most straightforward multimodal application. A team can send a scanned invoice image plus a text prompt asking for extraction of vendor name, invoice number, and line items. The model responds with structured data. This works reliably for clean, well-formatted documents but struggles with handwritten text, non-standard layouts, or extreme image compression. Expect 80 to 95 percent accuracy on standard business documents; for edge cases, human review is necessary. Cost per document is roughly $0.01 to $0.05, making bulk processing economical.</p>
 
 <p>Visual question-answering and image analysis are common in customer support and content moderation. A user uploads a screenshot of a bug, and the model describes what it sees, suggests troubleshooting steps, or flags policy violations. Accuracy is good for high-level observations ("This is a login screen") but unreliable for subtle details or specific UI elements. The model may confidently misidentify small text or overlook important context. Testing with real user-submitted images before deployment is critical.</p>

@@ -132,9 +132,8 @@
 <h2>The three layers: short-term, long-term, and retrieval</h2>
 <figure class="article-image article-image--inline">
   <picture><source srcset="/images/articles/ai-agent-memory-architectures-inline-1.webp" type="image/webp"><img src="/images/articles/ai-agent-memory-architectures-inline-1.jpg" alt="The three layers: short-term, long-term, and retrieval" loading="lazy" width="1200" height="630"></picture>
-  <figcaption class="article-image-credit">Photo by <a href="https://www.pexels.com/photo/close-up-of-computer-ram-and-cpu-on-wooden-surface-35147277/" rel="nofollow noopener" target="_blank">Andrey Matveev</a> on Pexels.</figcaption>
+  <figcaption class="article-image-credit">Photo by <a href="https://www.pexels.com/photo/close-up-of-computer-cpu-and-ram-modules-37113174/" rel="nofollow noopener" target="_blank">Marta Branco</a> on Pexels.</figcaption>
 </figure>
-
 
 <p>A production agent memory system has three distinct functions, each with different performance and storage characteristics. The short-term layer is a fixed-size sliding window of recent messages, held in memory during inference. The long-term layer is a persistent database that stores facts, summaries, and embeddings. The retrieval layer decides what to pull from long-term into short-term for each turn.</p>
 
@@ -167,12 +166,6 @@
 <p>Total overhead: negligible compared to LLM latency. The bottleneck is never the buffer.</p>
 
 <h2>Long-term memory: storage, summarization, and decay</h2>
-<figure class="article-image article-image--inline">
-  <picture><source srcset="/images/articles/ai-agent-memory-architectures-inline-2.webp" type="image/webp"><img src="/images/articles/ai-agent-memory-architectures-inline-2.jpg" alt="Long-term memory: storage, summarization, and decay" loading="lazy" width="1200" height="630"></picture>
-  <figcaption class="article-image-credit">Photo by <a href="https://www.pexels.com/photo/pcb-board-with-golden-pins-18734753/" rel="nofollow noopener" target="_blank">Arturo Añez.</a> on Pexels.</figcaption>
-</figure>
-
-
 <p>Long-term memory must support millions of facts per agent instance without blowing storage budgets. A typical production agent accumulates 100 to 1000 distinct facts per user (preferences, account details, historical decisions, conversation summaries). Across 100,000 users, that's 10 to 100 million records. A single record might be: "User asked for feature request on 2025-11-03: dark mode for charts. Status: under consideration."</p>
 
 <p>Storage architecture depends on retrieval needs. If the agent only needs "retrieve the top 5 most relevant facts," a <a href="/articles/vector-databases-rag-guide-2026">vector database</a> (Pinecone, Weaviate, Qdrant) is ideal. If the agent needs "find all facts from March 2025 OR facts tagged 'billing'," a hybrid approach (vector DB plus relational DB) is necessary.</p>
