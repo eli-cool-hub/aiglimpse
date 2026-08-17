@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "healthcare-systems-must-control-ai-agent-access-before-debating-governance-1e74fc36",
+      "title": "Healthcare systems must control AI agent access before debating governance",
+      "subtitle": "Identity-based segmentation can limit autonomous AI reach across legacy medical infrastructure faster than traditional approval processes.",
+      "category": "industry",
+      "publishedAt": "2026-08-17T20:07:56.000Z",
+      "sourceUrl": "https://www.beckershospitalreview.com/healthcare-information-technology/what-an-ai-agent-can-reach-matters-more-than-who-approved-it/",
+      "sourceName": "Becker's Hospital Review",
+      "sourceTier": 2,
+      "image": "/images/articles/healthcare-systems-must-control-ai-agent-access-before-debating-governance-1e74fc36.jpg"
+    },
+    {
       "slug": "trump-backed-crypto-firm-enables-access-to-chinese-ai-models-on-security-watchli-4be5c3d6",
       "title": "Trump-Backed Crypto Firm Enables Access to Chinese AI Models on Security Watchlist",
       "subtitle": "A Hong Kong platform funded by World Liberty Financial provides access to AI systems built by companies the Pentagon has designated as military-aligned threats.",
@@ -11601,6 +11612,7 @@
     "181e51bee56593ee",
     "cb3777afb3f86cdc",
     "d9cb67d68c04e6f0",
-    "4be5c3d6dc7049b8"
+    "4be5c3d6dc7049b8",
+    "1e74fc3633f24624"
   ]
 }

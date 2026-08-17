@@ -12116,6 +12116,24 @@
         "devto": true,
         "hashnode": false
       }
+    },
+    "healthcare-systems-must-control-ai-agent-access-before-debating-governance-1e74fc36": {
+      "syndicated_at": "2026-08-17T20:27:04.342Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/healthcare-systems-must-control-ai-agent-access-before-debating-governance-2772",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 536,
+      "category": "industry",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
     }
   }
 }
