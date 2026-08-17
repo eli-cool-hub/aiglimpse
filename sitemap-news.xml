@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://aiglimpse.ai/articles/alibabas-qwen-27b-model-shows-promise-hampered-by-default-settings-cb3777af</loc>
+    <lastmod>2026-08-17</lastmod>
+    <news:news>
+      <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-08-17T03:12:01.000Z</news:publication_date>
+      <news:title>Alibaba's Qwen 27B Model Shows Promise, Hampered by Default Settings</news:title>
+    </news:news>
+    <changefreq>hourly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
     <loc>https://aiglimpse.ai/articles/ai-evaluation-benchmarks-explained</loc>
     <lastmod>2026-08-17</lastmod>
     <news:news>
@@ -150,50 +161,6 @@
       <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-08-15T12:43:58.000Z</news:publication_date>
       <news:title>SMIC Expands Capacity as AI Chip Demand Shatters 2026 Forecast</news:title>
-    </news:news>
-    <changefreq>hourly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://aiglimpse.ai/articles/google-open-sources-compiler-to-make-encrypted-ai-inference-practical-9d5ae87f</loc>
-    <lastmod>2026-08-15</lastmod>
-    <news:news>
-      <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-08-15T07:59:14.000Z</news:publication_date>
-      <news:title>Google Open-Sources Compiler to Make Encrypted AI Inference Practical</news:title>
-    </news:news>
-    <changefreq>hourly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://aiglimpse.ai/articles/nvidia-slashes-openai-data-center-commitment-by-over-50-percent-ffaef0c3</loc>
-    <lastmod>2026-08-15</lastmod>
-    <news:news>
-      <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-08-15T07:59:14.000Z</news:publication_date>
-      <news:title>Nvidia Slashes OpenAI Data Center Commitment by Over 50 Percent</news:title>
-    </news:news>
-    <changefreq>hourly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://aiglimpse.ai/articles/us-demands-nations-choose-between-american-chinese-ai-frameworks-4e3e23c4</loc>
-    <lastmod>2026-08-15</lastmod>
-    <news:news>
-      <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-08-15T07:59:14.000Z</news:publication_date>
-      <news:title>US Demands Nations Choose Between American, Chinese AI Frameworks</news:title>
-    </news:news>
-    <changefreq>hourly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://aiglimpse.ai/articles/zai-advances-glm-53-through-training-optimization-skips-pretraining-cycle-d22ed095</loc>
-    <lastmod>2026-08-15</lastmod>
-    <news:news>
-      <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-08-15T07:59:14.000Z</news:publication_date>
-      <news:title>Z.ai Advances GLM-5.3 Through Training Optimization, Skips Pretraining Cycle</news:title>
     </news:news>
     <changefreq>hourly</changefreq>
     <priority>0.9</priority>

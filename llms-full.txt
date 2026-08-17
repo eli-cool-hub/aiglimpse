@@ -3,9 +3,16 @@
 > Machine-readable index for AI assistants, answer engines, and research crawlers.
 > Summary version: https://aiglimpse.ai/llms.txt
 
-Total articles: 962 | Evergreen explainers: 25 | Generated: 2026-08-17
+Total articles: 964 | Evergreen explainers: 26 | Generated: 2026-08-17
 
 ## Evergreen explainers
+
+### LLM benchmarks explained: MMLU, HumanEval, MTEB, and what they actually measure
+- URL: https://aiglimpse.ai/articles/ai-evaluation-benchmarks-explained
+- Published: 2026-08-17
+- Category: research
+- Summary: A technical guide to understanding what AI model benchmarks test, their blind spots, and how to evaluate responsibly.
+- Type: evergreen explainer (FAQ schema on page)
 
 ### Multimodal AI models explained: vision, audio, and unified interfaces
 - URL: https://aiglimpse.ai/articles/multimodal-ai-models-explained
@@ -183,6 +190,20 @@ Total articles: 962 | Evergreen explainers: 25 | Generated: 2026-08-17
 - Type: evergreen explainer (FAQ schema on page)
 
 ## All articles (newest first)
+
+### Alibaba's Qwen 27B Model Shows Promise, Hampered by Default Settings
+- URL: https://aiglimpse.ai/articles/alibabas-qwen-27b-model-shows-promise-hampered-by-default-settings-cb3777af
+- Published: 2026-08-17
+- Category: business
+- Summary: A new open-source language model delivers strong performance for local deployment but masks its capabilities behind a problematic preset configuration.
+- Source: https://simonwillison.net/2026/Aug/16/qwen-38-27b/
+
+### LLM benchmarks explained: MMLU, HumanEval, MTEB, and what they actually measure
+- URL: https://aiglimpse.ai/articles/ai-evaluation-benchmarks-explained
+- Published: 2026-08-17
+- Category: research
+- Summary: A technical guide to understanding what AI model benchmarks test, their blind spots, and how to evaluate responsibly.
+- Type: evergreen explainer (FAQ schema on page)
 
 ### Singapore Pitches AI Model Access to Poach Fund Managers From Hong Kong
 - URL: https://aiglimpse.ai/articles/singapore-pitches-ai-model-access-to-poach-fund-managers-from-hong-kong-181e51be

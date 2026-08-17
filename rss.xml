@@ -7,6 +7,22 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Alibaba's Qwen 27B Model Shows Promise, Hampered by Default Settings</title>
+      <link>https://aiglimpse.ai/articles/alibabas-qwen-27b-model-shows-promise-hampered-by-default-settings-cb3777af</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/alibabas-qwen-27b-model-shows-promise-hampered-by-default-settings-cb3777af</guid>
+      <description>A new open-source language model delivers strong performance for local deployment but masks its capabilities behind a problematic preset configuration.</description>
+      <pubDate>Mon, 17 Aug 2026 03:12:01 GMT</pubDate>
+      <category>AI Business</category>
+    </item>
+    <item>
+      <title>LLM benchmarks explained: MMLU, HumanEval, MTEB, and what they actually measure</title>
+      <link>https://aiglimpse.ai/articles/ai-evaluation-benchmarks-explained</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/ai-evaluation-benchmarks-explained</guid>
+      <description>A technical guide to understanding what AI model benchmarks test, their blind spots, and how to evaluate responsibly.</description>
+      <pubDate>Mon, 17 Aug 2026 07:07:14 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
       <title>Singapore Pitches AI Model Access to Poach Fund Managers From Hong Kong</title>
       <link>https://aiglimpse.ai/articles/singapore-pitches-ai-model-access-to-poach-fund-managers-from-hong-kong-181e51be</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/singapore-pitches-ai-model-access-to-poach-fund-managers-from-hong-kong-181e51be</guid>
@@ -389,22 +405,6 @@
       <description>New Robo Inc. aims to build domestically-made automation solutions compliant with American regulations, signaling growing demand for localized robotics infrastructure.</description>
       <pubDate>Mon, 10 Aug 2026 23:40:18 GMT</pubDate>
       <category>Robotics</category>
-    </item>
-    <item>
-      <title>Security Flaw Exposes Encrypted AI Reasoning to Extraction Attacks</title>
-      <link>https://aiglimpse.ai/articles/security-flaw-exposes-encrypted-ai-reasoning-to-extraction-attacks-259a4129</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/security-flaw-exposes-encrypted-ai-reasoning-to-extraction-attacks-259a4129</guid>
-      <description>Researchers demonstrate how proprietary LLM reasoning blocks from major AI firms can be compromised, undermining promises of intellectual property protection.</description>
-      <pubDate>Tue, 11 Aug 2026 08:03:42 GMT</pubDate>
-      <category>Ethics &amp; Policy</category>
-    </item>
-    <item>
-      <title>Georgia Health System Joins Early Adopters of Epic's AI Nursing Documentation Tool</title>
-      <link>https://aiglimpse.ai/articles/georgia-health-system-joins-early-adopters-of-epics-ai-nursing-documentation-too-0ab7e695</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/georgia-health-system-joins-early-adopters-of-epics-ai-nursing-documentation-too-0ab7e695</guid>
-      <description>Northeast Georgia becomes fifth hospital network to test ambient AI that drafts clinical notes, aiming to reduce documentation burden on nurses.</description>
-      <pubDate>Mon, 10 Aug 2026 21:53:09 GMT</pubDate>
-      <category>Industry Applications</category>
     </item>
   </channel>
 </rss>

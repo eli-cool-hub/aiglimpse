@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "alibabas-qwen-27b-model-shows-promise-hampered-by-default-settings-cb3777af",
+      "title": "Alibaba's Qwen 27B Model Shows Promise, Hampered by Default Settings",
+      "subtitle": "A new open-source language model delivers strong performance for local deployment but masks its capabilities behind a problematic preset configuration.",
+      "category": "business",
+      "publishedAt": "2026-08-17T03:12:01.000Z",
+      "sourceUrl": "https://simonwillison.net/2026/Aug/16/qwen-38-27b/",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/alibabas-qwen-27b-model-shows-promise-hampered-by-default-settings-cb3777af.jpg"
+    },
+    {
       "slug": "ai-evaluation-benchmarks-explained",
       "title": "LLM benchmarks explained: MMLU, HumanEval, MTEB, and what they actually measure",
       "subtitle": "A technical guide to understanding what AI model benchmarks test, their blind spots, and how to evaluate responsibly.",
@@ -11565,6 +11576,7 @@
     "04475ed643f49169",
     "f039deb1292cd0c8",
     "8a9a22c9cdbed21d",
-    "181e51bee56593ee"
+    "181e51bee56593ee",
+    "cb3777afb3f86cdc"
   ]
 }
