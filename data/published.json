@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "us-plans-to-expand-ai-safety-rules-beyond-proprietary-models-8a9a22c9",
+      "title": "U.S. Plans to Expand AI Safety Rules Beyond Proprietary Models",
+      "subtitle": "The White House is preparing to subject open-source AI systems to federal oversight once they match the capabilities of leading commercial systems.",
+      "category": "ethics",
+      "publishedAt": "2026-08-17T00:12:02.000Z",
+      "sourceUrl": "https://www.wired.com/story/the-white-house-is-going-to-expand-its-ai-policy/",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/us-plans-to-expand-ai-safety-rules-beyond-proprietary-models-8a9a22c9.jpg"
+    },
+    {
       "slug": "ai-powered-robots-transform-stroke-recovery-with-adaptive-therapy-f039deb1",
       "title": "AI-Powered Robots Transform Stroke Recovery With Adaptive Therapy",
       "subtitle": "Machine learning systems are personalizing neurological rehabilitation, accelerating brain rewiring while extending care beyond hospital walls.",
@@ -11529,6 +11540,7 @@
     "b6bdb85a7afd2c67",
     "a9bef5a5b996b563",
     "04475ed643f49169",
-    "f039deb1292cd0c8"
+    "f039deb1292cd0c8",
+    "8a9a22c9cdbed21d"
   ]
 }
