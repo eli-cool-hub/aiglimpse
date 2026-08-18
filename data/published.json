@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "spacex-veterans-launch-ai-powered-steel-manufacturing-startup-8cb6ee1a",
+      "title": "SpaceX Veterans Launch AI-Powered Steel Manufacturing Startup",
+      "subtitle": "Former rocket engineers are automating industrial fabrication with machine learning and robotics, targeting data center infrastructure by 2027.",
+      "category": "tools",
+      "publishedAt": "2026-08-17T21:18:49.000Z",
+      "sourceUrl": "https://arstechnica.com/ai/2026/08/former-spacex-engineers-are-building-a-robotic-factory-for-making-steel-parts/",
+      "sourceName": "Ars Technica AI",
+      "sourceTier": 2,
+      "image": "/images/articles/spacex-veterans-launch-ai-powered-steel-manufacturing-startup-8cb6ee1a.jpg"
+    },
+    {
       "slug": "new-framework-cuts-robot-learning-time-exponentially-3b1b58c4",
       "title": "New Framework Cuts Robot Learning Time Exponentially",
       "subtitle": "Researchers propose BATON, a method that breaks long-horizon robot tasks into independently learnable subtasks, improving success rates by up to 15%.",
@@ -11637,6 +11648,7 @@
     "4be5c3d6dc7049b8",
     "1e74fc3633f24624",
     "66975711ee5d8cd3",
-    "3b1b58c405d8e0a9"
+    "3b1b58c405d8e0a9",
+    "8cb6ee1ac41bf443"
   ]
 }
