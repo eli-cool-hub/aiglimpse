@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "healthcare-ai-success-hinges-on-workflow-design-not-algorithm-power-66975711",
+      "title": "Healthcare AI Success Hinges on Workflow Design, Not Algorithm Power",
+      "subtitle": "As health systems scale AI beyond pilots, integration into existing processes matters far more than model accuracy.",
+      "category": "industry",
+      "publishedAt": "2026-08-17T21:50:42.000Z",
+      "sourceUrl": "https://www.beckershospitalreview.com/healthcare-information-technology/why-healthcare-ai-fails-without-workflow-redesign/",
+      "sourceName": "Becker's Hospital Review",
+      "sourceTier": 2,
+      "image": "/images/articles/healthcare-ai-success-hinges-on-workflow-design-not-algorithm-power-66975711.jpg"
+    },
+    {
       "slug": "healthcare-systems-must-control-ai-agent-access-before-debating-governance-1e74fc36",
       "title": "Healthcare systems must control AI agent access before debating governance",
       "subtitle": "Identity-based segmentation can limit autonomous AI reach across legacy medical infrastructure faster than traditional approval processes.",
@@ -11613,6 +11624,7 @@
     "cb3777afb3f86cdc",
     "d9cb67d68c04e6f0",
     "4be5c3d6dc7049b8",
-    "1e74fc3633f24624"
+    "1e74fc3633f24624",
+    "66975711ee5d8cd3"
   ]
 }
