@@ -3,7 +3,7 @@
 > Machine-readable index for AI assistants, answer engines, and research crawlers.
 > Summary version: https://aiglimpse.ai/llms.txt
 
-Total articles: 968 | Evergreen explainers: 26 | Generated: 2026-08-18
+Total articles: 969 | Evergreen explainers: 26 | Generated: 2026-08-18
 
 ## Evergreen explainers
 
@@ -190,6 +190,13 @@ Total articles: 968 | Evergreen explainers: 26 | Generated: 2026-08-18
 - Type: evergreen explainer (FAQ schema on page)
 
 ## All articles (newest first)
+
+### New Framework Cuts Robot Learning Time Exponentially
+- URL: https://aiglimpse.ai/articles/new-framework-cuts-robot-learning-time-exponentially-3b1b58c4
+- Published: 2026-08-17
+- Category: research
+- Summary: Researchers propose BATON, a method that breaks long-horizon robot tasks into independently learnable subtasks, improving success rates by up to 15%.
+- Source: http://arxiv.org/abs/2608.16889v1
 
 ### Healthcare AI Success Hinges on Workflow Design, Not Algorithm Power
 - URL: https://aiglimpse.ai/articles/healthcare-ai-success-hinges-on-workflow-design-not-algorithm-power-66975711

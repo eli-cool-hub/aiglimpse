@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://aiglimpse.ai/articles/new-framework-cuts-robot-learning-time-exponentially-3b1b58c4</loc>
+    <lastmod>2026-08-17</lastmod>
+    <news:news>
+      <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-08-17T17:59:57.000Z</news:publication_date>
+      <news:title>New Framework Cuts Robot Learning Time Exponentially</news:title>
+    </news:news>
+    <changefreq>hourly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
     <loc>https://aiglimpse.ai/articles/healthcare-ai-success-hinges-on-workflow-design-not-algorithm-power-66975711</loc>
     <lastmod>2026-08-17</lastmod>
     <news:news>
@@ -117,28 +128,6 @@
       <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-08-16T07:37:53.000Z</news:publication_date>
       <news:title>Training LLMs on Limited Text Reveals How Models Learn Language</news:title>
-    </news:news>
-    <changefreq>hourly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://aiglimpse.ai/articles/ai-industrys-hidden-70b-credit-problem-rattles-bond-markets-5cc6903b</loc>
-    <lastmod>2026-08-16</lastmod>
-    <news:news>
-      <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-08-16T03:28:47.000Z</news:publication_date>
-      <news:title>AI Industry's Hidden $70B Credit Problem Rattles Bond Markets</news:title>
-    </news:news>
-    <changefreq>hourly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://aiglimpse.ai/articles/new-york-city-moves-to-restrict-facial-recognition-in-public-spaces-bd143d92</loc>
-    <lastmod>2026-08-16</lastmod>
-    <news:news>
-      <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-08-16T03:12:01.000Z</news:publication_date>
-      <news:title>New York City Moves to Restrict Facial Recognition in Public Spaces</news:title>
     </news:news>
     <changefreq>hourly</changefreq>
     <priority>0.9</priority>

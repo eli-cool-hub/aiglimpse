@@ -7,6 +7,14 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>New Framework Cuts Robot Learning Time Exponentially</title>
+      <link>https://aiglimpse.ai/articles/new-framework-cuts-robot-learning-time-exponentially-3b1b58c4</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-framework-cuts-robot-learning-time-exponentially-3b1b58c4</guid>
+      <description>Researchers propose BATON, a method that breaks long-horizon robot tasks into independently learnable subtasks, improving success rates by up to 15%.</description>
+      <pubDate>Mon, 17 Aug 2026 17:59:57 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
       <title>Healthcare AI Success Hinges on Workflow Design, Not Algorithm Power</title>
       <link>https://aiglimpse.ai/articles/healthcare-ai-success-hinges-on-workflow-design-not-algorithm-power-66975711</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/healthcare-ai-success-hinges-on-workflow-design-not-algorithm-power-66975711</guid>
@@ -396,14 +404,6 @@
       <guid isPermaLink="true">https://aiglimpse.ai/articles/uk-courts-ban-meta-smart-glasses-citing-recording-risks-75bb6e55</guid>
       <description>England and Wales prohibit wearable devices in courtrooms while maintaining phone restrictions, raising questions about AI-enabled surveillance in legal settings.</description>
       <pubDate>Wed, 12 Aug 2026 03:26:38 GMT</pubDate>
-      <category>Ethics &amp; Policy</category>
-    </item>
-    <item>
-      <title>Congressional Democrats Demand Safety Details From OpenAI, Anthropic</title>
-      <link>https://aiglimpse.ai/articles/congressional-democrats-demand-safety-details-from-openai-anthropic-d439dd64</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/congressional-democrats-demand-safety-details-from-openai-anthropic-d439dd64</guid>
-      <description>Lawmakers seek transparency on AI agent containment failures during security testing</description>
-      <pubDate>Tue, 11 Aug 2026 18:32:07 GMT</pubDate>
       <category>Ethics &amp; Policy</category>
     </item>
   </channel>

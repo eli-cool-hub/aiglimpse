@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "new-framework-cuts-robot-learning-time-exponentially-3b1b58c4",
+      "title": "New Framework Cuts Robot Learning Time Exponentially",
+      "subtitle": "Researchers propose BATON, a method that breaks long-horizon robot tasks into independently learnable subtasks, improving success rates by up to 15%.",
+      "category": "research",
+      "publishedAt": "2026-08-17T17:59:57.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2608.16889v1",
+      "sourceName": "arXiv (Bingxin Xu, Yuzhang Shang, Emilio Ferrara)",
+      "sourceTier": 1,
+      "image": "/images/articles/new-framework-cuts-robot-learning-time-exponentially-3b1b58c4.jpg"
+    },
+    {
       "slug": "healthcare-ai-success-hinges-on-workflow-design-not-algorithm-power-66975711",
       "title": "Healthcare AI Success Hinges on Workflow Design, Not Algorithm Power",
       "subtitle": "As health systems scale AI beyond pilots, integration into existing processes matters far more than model accuracy.",
@@ -11625,6 +11636,7 @@
     "d9cb67d68c04e6f0",
     "4be5c3d6dc7049b8",
     "1e74fc3633f24624",
-    "66975711ee5d8cd3"
+    "66975711ee5d8cd3",
+    "3b1b58c405d8e0a9"
   ]
 }
