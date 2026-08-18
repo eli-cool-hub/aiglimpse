@@ -12188,6 +12188,24 @@
         "devto": true,
         "hashnode": false
       }
+    },
+    "openai-pauses-training-runs-as-astra-model-shows-advanced-hacking-skills-bf5bf582": {
+      "syndicated_at": "2026-08-18T20:23:56.815Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/openai-pauses-training-runs-as-astra-model-shows-advanced-hacking-skills-3d4l",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 412,
+      "category": "tools",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
     }
   }
 }

@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "openai-pauses-training-runs-as-astra-model-shows-advanced-hacking-skills-bf5bf582",
+      "title": "OpenAI Pauses Training Runs as Astra Model Shows Advanced Hacking Skills",
+      "subtitle": "The firm implements stricter safety measures after its latest AI system demonstrated concerning capabilities in cybersecurity domains.",
+      "category": "tools",
+      "publishedAt": "2026-08-18T18:33:11.000Z",
+      "sourceUrl": "https://www.wired.com/story/openai-overhauls-safety-protocols-after-its-ai-agents-went-rogue/",
+      "sourceName": "Wired AI",
+      "sourceTier": 2,
+      "image": "/images/articles/openai-pauses-training-runs-as-astra-model-shows-advanced-hacking-skills-bf5bf582.jpg"
+    },
+    {
       "slug": "spacex-veterans-launch-ai-powered-steel-manufacturing-startup-8cb6ee1a",
       "title": "SpaceX Veterans Launch AI-Powered Steel Manufacturing Startup",
       "subtitle": "Former rocket engineers are automating industrial fabrication with machine learning and robotics, targeting data center infrastructure by 2027.",
@@ -11649,6 +11660,7 @@
     "1e74fc3633f24624",
     "66975711ee5d8cd3",
     "3b1b58c405d8e0a9",
-    "8cb6ee1ac41bf443"
+    "8cb6ee1ac41bf443",
+    "bf5bf5829a2bbcec"
   ]
 }
