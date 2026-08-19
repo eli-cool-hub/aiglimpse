@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://aiglimpse.ai/articles/enterprise-ai-security-best-practices</loc>
+    <lastmod>2026-08-19</lastmod>
+    <news:news>
+      <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-08-19T06:29:24.569Z</news:publication_date>
+      <news:title>Enterprise AI Security: Mitigating Prompt Injection and Data Leakage</news:title>
+    </news:news>
+    <changefreq>hourly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
     <loc>https://aiglimpse.ai/articles/us-immigration-agency-restricts-use-of-meta-ai-glasses-by-field-agents-1eed1ee4</loc>
     <lastmod>2026-08-18</lastmod>
     <news:news>
@@ -89,34 +100,12 @@
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://aiglimpse.ai/articles/alibabas-qwen-27b-model-shows-promise-hampered-by-default-settings-cb3777af</loc>
-    <lastmod>2026-08-17</lastmod>
-    <news:news>
-      <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-08-17T03:12:01.000Z</news:publication_date>
-      <news:title>Alibaba's Qwen 27B Model Shows Promise, Hampered by Default Settings</news:title>
-    </news:news>
-    <changefreq>hourly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
     <loc>https://aiglimpse.ai/articles/ai-evaluation-benchmarks-explained</loc>
     <lastmod>2026-08-17</lastmod>
     <news:news>
       <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-08-17T07:07:14.806Z</news:publication_date>
       <news:title>LLM benchmarks explained: MMLU, HumanEval, MTEB, and what they actually measure</news:title>
-    </news:news>
-    <changefreq>hourly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://aiglimpse.ai/articles/singapore-pitches-ai-model-access-to-poach-fund-managers-from-hong-kong-181e51be</loc>
-    <lastmod>2026-08-17</lastmod>
-    <news:news>
-      <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-08-17T03:28:56.000Z</news:publication_date>
-      <news:title>Singapore Pitches AI Model Access to Poach Fund Managers From Hong Kong</news:title>
     </news:news>
     <changefreq>hourly</changefreq>
     <priority>0.9</priority>

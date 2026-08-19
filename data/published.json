@@ -1,6 +1,18 @@
 {
   "articles": [
     {
+      "slug": "enterprise-ai-security-best-practices",
+      "title": "Enterprise AI Security: Mitigating Prompt Injection and Data Leakage",
+      "subtitle": "A security checklist for deploying LLMs without exposing sensitive data or compromising model behavior",
+      "category": "ethics",
+      "publishedAt": "2026-08-19T06:29:24.569Z",
+      "sourceUrl": null,
+      "sourceName": "AI Glimpse Newsroom",
+      "sourceTier": 0,
+      "image": "/images/articles/enterprise-ai-security-best-practices.jpg",
+      "evergreen": true
+    },
+    {
       "slug": "us-immigration-agency-restricts-use-of-meta-ai-glasses-by-field-agents-1eed1ee4",
       "title": "U.S. Immigration Agency Restricts Use of Meta AI Glasses by Field Agents",
       "subtitle": "ICE's ban on smart eyewear raises questions about AI surveillance tools and federal employee policies in law enforcement.",
