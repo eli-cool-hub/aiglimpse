@@ -3,9 +3,16 @@
 > Machine-readable index for AI assistants, answer engines, and research crawlers.
 > Summary version: https://aiglimpse.ai/llms.txt
 
-Total articles: 972 | Evergreen explainers: 26 | Generated: 2026-08-19
+Total articles: 973 | Evergreen explainers: 27 | Generated: 2026-08-19
 
 ## Evergreen explainers
+
+### Enterprise AI Security: Mitigating Prompt Injection and Data Leakage
+- URL: https://aiglimpse.ai/articles/enterprise-ai-security-best-practices
+- Published: 2026-08-19
+- Category: ethics
+- Summary: A security checklist for deploying LLMs without exposing sensitive data or compromising model behavior
+- Type: evergreen explainer (FAQ schema on page)
 
 ### LLM benchmarks explained: MMLU, HumanEval, MTEB, and what they actually measure
 - URL: https://aiglimpse.ai/articles/ai-evaluation-benchmarks-explained
@@ -190,6 +197,13 @@ Total articles: 972 | Evergreen explainers: 26 | Generated: 2026-08-19
 - Type: evergreen explainer (FAQ schema on page)
 
 ## All articles (newest first)
+
+### Enterprise AI Security: Mitigating Prompt Injection and Data Leakage
+- URL: https://aiglimpse.ai/articles/enterprise-ai-security-best-practices
+- Published: 2026-08-19
+- Category: ethics
+- Summary: A security checklist for deploying LLMs without exposing sensitive data or compromising model behavior
+- Type: evergreen explainer (FAQ schema on page)
 
 ### U.S. Immigration Agency Restricts Use of Meta AI Glasses by Field Agents
 - URL: https://aiglimpse.ai/articles/us-immigration-agency-restricts-use-of-meta-ai-glasses-by-field-agents-1eed1ee4

@@ -7,6 +7,14 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Enterprise AI Security: Mitigating Prompt Injection and Data Leakage</title>
+      <link>https://aiglimpse.ai/articles/enterprise-ai-security-best-practices</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/enterprise-ai-security-best-practices</guid>
+      <description>A security checklist for deploying LLMs without exposing sensitive data or compromising model behavior</description>
+      <pubDate>Wed, 19 Aug 2026 06:29:24 GMT</pubDate>
+      <category>Ethics &amp; Policy</category>
+    </item>
+    <item>
       <title>U.S. Immigration Agency Restricts Use of Meta AI Glasses by Field Agents</title>
       <link>https://aiglimpse.ai/articles/us-immigration-agency-restricts-use-of-meta-ai-glasses-by-field-agents-1eed1ee4</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/us-immigration-agency-restricts-use-of-meta-ai-glasses-by-field-agents-1eed1ee4</guid>
@@ -397,14 +405,6 @@
       <description>Researchers show that learning from unlabeled endoscopic footage dramatically improves surgical manipulation with limited labeled demonstrations.</description>
       <pubDate>Tue, 11 Aug 2026 17:59:13 GMT</pubDate>
       <category>AI Research</category>
-    </item>
-    <item>
-      <title>Enterprise AI Moves Beyond Chat to Autonomous Task Execution</title>
-      <link>https://aiglimpse.ai/articles/enterprise-ai-moves-beyond-chat-to-autonomous-task-execution-c0d7eece</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/enterprise-ai-moves-beyond-chat-to-autonomous-task-execution-c0d7eece</guid>
-      <description>New research shows leading companies are deploying agentic AI systems that operate independently, signaling a major shift in how organizations leverage artificial intelligence.</description>
-      <pubDate>Wed, 12 Aug 2026 06:00:00 GMT</pubDate>
-      <category>LLMs &amp; Chatbots</category>
     </item>
   </channel>
 </rss>
