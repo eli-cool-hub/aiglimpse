@@ -7,6 +7,14 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>FORT Robotics Goes Public to Scale Safety Systems for Autonomous Machines</title>
+      <link>https://aiglimpse.ai/articles/fort-robotics-goes-public-to-scale-safety-systems-for-autonomous-machines-81da504c</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/fort-robotics-goes-public-to-scale-safety-systems-for-autonomous-machines-81da504c</guid>
+      <description>The company's trust platform aims to make human-robot collaboration safer and more scalable across industrial sectors.</description>
+      <pubDate>Tue, 18 Aug 2026 15:24:13 GMT</pubDate>
+      <category>Robotics</category>
+    </item>
+    <item>
       <title>Enterprise AI Security: Mitigating Prompt Injection and Data Leakage</title>
       <link>https://aiglimpse.ai/articles/enterprise-ai-security-best-practices</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/enterprise-ai-security-best-practices</guid>
@@ -397,14 +405,6 @@
       <description>Three machine learning pioneers argue transparency remains essential even as regulators scrutinize the field's rapid expansion.</description>
       <pubDate>Wed, 12 Aug 2026 17:51:00 GMT</pubDate>
       <category>AI Business</category>
-    </item>
-    <item>
-      <title>Video Pretraining Cuts Surgical Robot Training Data Needs by Half</title>
-      <link>https://aiglimpse.ai/articles/video-pretraining-cuts-surgical-robot-training-data-needs-by-half-fa17e9c9</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/video-pretraining-cuts-surgical-robot-training-data-needs-by-half-fa17e9c9</guid>
-      <description>Researchers show that learning from unlabeled endoscopic footage dramatically improves surgical manipulation with limited labeled demonstrations.</description>
-      <pubDate>Tue, 11 Aug 2026 17:59:13 GMT</pubDate>
-      <category>AI Research</category>
     </item>
   </channel>
 </rss>

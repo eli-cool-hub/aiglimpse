@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "fort-robotics-goes-public-to-scale-safety-systems-for-autonomous-machines-81da504c",
+      "title": "FORT Robotics Goes Public to Scale Safety Systems for Autonomous Machines",
+      "subtitle": "The company's trust platform aims to make human-robot collaboration safer and more scalable across industrial sectors.",
+      "category": "robotics",
+      "publishedAt": "2026-08-18T15:24:13.000Z",
+      "sourceUrl": "https://www.therobotreport.com/fort-robotics-takes-safety-stack-public-via-spac-merger/",
+      "sourceName": "The Robot Report",
+      "sourceTier": 3,
+      "image": "/images/articles/fort-robotics-goes-public-to-scale-safety-systems-for-autonomous-machines-81da504c.jpg"
+    },
+    {
       "slug": "enterprise-ai-security-best-practices",
       "title": "Enterprise AI Security: Mitigating Prompt Injection and Data Leakage",
       "subtitle": "A security checklist for deploying LLMs without exposing sensitive data or compromising model behavior",
@@ -11685,6 +11696,7 @@
     "3b1b58c405d8e0a9",
     "8cb6ee1ac41bf443",
     "bf5bf5829a2bbcec",
-    "1eed1ee479b5cf35"
+    "1eed1ee479b5cf35",
+    "81da504c25755a3f"
   ]
 }
