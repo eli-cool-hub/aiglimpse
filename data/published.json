@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "us-immigration-agency-restricts-use-of-meta-ai-glasses-by-field-agents-1eed1ee4",
+      "title": "U.S. Immigration Agency Restricts Use of Meta AI Glasses by Field Agents",
+      "subtitle": "ICE's ban on smart eyewear raises questions about AI surveillance tools and federal employee policies in law enforcement.",
+      "category": "ethics",
+      "publishedAt": "2026-08-18T22:59:08.000Z",
+      "sourceUrl": "https://www.nytimes.com/2026/08/18/technology/ice-meta-smart-glasses.html",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/us-immigration-agency-restricts-use-of-meta-ai-glasses-by-field-agents-1eed1ee4.jpg"
+    },
+    {
       "slug": "openai-pauses-training-runs-as-astra-model-shows-advanced-hacking-skills-bf5bf582",
       "title": "OpenAI Pauses Training Runs as Astra Model Shows Advanced Hacking Skills",
       "subtitle": "The firm implements stricter safety measures after its latest AI system demonstrated concerning capabilities in cybersecurity domains.",
@@ -11661,6 +11672,7 @@
     "66975711ee5d8cd3",
     "3b1b58c405d8e0a9",
     "8cb6ee1ac41bf443",
-    "bf5bf5829a2bbcec"
+    "bf5bf5829a2bbcec",
+    "1eed1ee479b5cf35"
   ]
 }
