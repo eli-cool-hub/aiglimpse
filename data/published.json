@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "fda-proposes-physician-level-testing-for-ai-medical-devices-858eaf31",
+      "title": "FDA Proposes Physician-Level Testing for AI Medical Devices",
+      "subtitle": "Regulators consider new standards requiring generative AI systems to demonstrate clinical competence before deployment in healthcare settings.",
+      "category": "ethics",
+      "publishedAt": "2026-08-19T19:58:37.000Z",
+      "sourceUrl": "https://www.pymnts.com/news/artificial-intelligence/2026/fda-weighs-clinician-style-tests-for-generative-ai-medical-devices/",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/fda-proposes-physician-level-testing-for-ai-medical-devices-858eaf31.jpg"
+    },
+    {
       "slug": "fort-robotics-goes-public-to-scale-safety-systems-for-autonomous-machines-81da504c",
       "title": "FORT Robotics Goes Public to Scale Safety Systems for Autonomous Machines",
       "subtitle": "The company's trust platform aims to make human-robot collaboration safer and more scalable across industrial sectors.",
@@ -11697,6 +11708,7 @@
     "8cb6ee1ac41bf443",
     "bf5bf5829a2bbcec",
     "1eed1ee479b5cf35",
-    "81da504c25755a3f"
+    "81da504c25755a3f",
+    "858eaf31b0fef5f0"
   ]
 }
