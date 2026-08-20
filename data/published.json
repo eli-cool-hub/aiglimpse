@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "metas-smart-glasses-recording-indicator-raises-privacy-concerns-c99b8d71",
+      "title": "Meta's Smart Glasses Recording Indicator Raises Privacy Concerns",
+      "subtitle": "Security researchers question whether the device's visual warning system adequately protects bystanders from covert video capture.",
+      "category": "ethics",
+      "publishedAt": "2026-08-20T03:12:02.000Z",
+      "sourceUrl": "https://theguardian.com/technology/ng-interactive/2026/aug/19/meta-glasses-privacy-surveillance",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/metas-smart-glasses-recording-indicator-raises-privacy-concerns-c99b8d71.jpg"
+    },
+    {
       "slug": "new-method-fixes-ai-training-flaw-in-long-context-reasoning-tasks-42e517d4",
       "title": "New Method Fixes AI Training Flaw in Long-Context Reasoning Tasks",
       "subtitle": "Researchers address a fundamental mismatch between how AI learns from teachers and what actually solves complex problems.",
@@ -11733,6 +11744,7 @@
     "81da504c25755a3f",
     "858eaf31b0fef5f0",
     "ab16a36fbb139b73",
-    "42e517d47e1bd481"
+    "42e517d47e1bd481",
+    "c99b8d71f29d2a49"
   ]
 }
