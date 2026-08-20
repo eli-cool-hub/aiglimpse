@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "metas-safety-systems-allegedly-built-to-underperform-former-engineer-testifies-ab16a36f",
+      "title": "Meta's Safety Systems Allegedly Built to Underperform, Former Engineer Testifies",
+      "subtitle": "A key witness claims Instagram's teen protection features were intentionally designed with inherent limitations, raising questions about AI safety standards.",
+      "category": "ethics",
+      "publishedAt": "2026-08-20T00:31:40.000Z",
+      "sourceUrl": "https://www.npr.org/2026/08/19/nx-s1-5936648/meta-trial-arturo-bejar-whistleblower-testimony",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/metas-safety-systems-allegedly-built-to-underperform-former-engineer-testifies-ab16a36f.jpg"
+    },
+    {
       "slug": "fda-proposes-physician-level-testing-for-ai-medical-devices-858eaf31",
       "title": "FDA Proposes Physician-Level Testing for AI Medical Devices",
       "subtitle": "Regulators consider new standards requiring generative AI systems to demonstrate clinical competence before deployment in healthcare settings.",
@@ -11709,6 +11720,7 @@
     "bf5bf5829a2bbcec",
     "1eed1ee479b5cf35",
     "81da504c25755a3f",
-    "858eaf31b0fef5f0"
+    "858eaf31b0fef5f0",
+    "ab16a36fbb139b73"
   ]
 }
