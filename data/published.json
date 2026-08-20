@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "new-method-fixes-ai-training-flaw-in-long-context-reasoning-tasks-42e517d4",
+      "title": "New Method Fixes AI Training Flaw in Long-Context Reasoning Tasks",
+      "subtitle": "Researchers address a fundamental mismatch between how AI learns from teachers and what actually solves complex problems.",
+      "category": "research",
+      "publishedAt": "2026-08-19T17:54:58.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2608.19181v1",
+      "sourceName": "arXiv (Zhu Zhang, Jixun Wang, Xiaoang Xu, Xiaorong Wang, Zihan Zhou…)",
+      "sourceTier": 1,
+      "image": "/images/articles/new-method-fixes-ai-training-flaw-in-long-context-reasoning-tasks-42e517d4.jpg"
+    },
+    {
       "slug": "metas-safety-systems-allegedly-built-to-underperform-former-engineer-testifies-ab16a36f",
       "title": "Meta's Safety Systems Allegedly Built to Underperform, Former Engineer Testifies",
       "subtitle": "A key witness claims Instagram's teen protection features were intentionally designed with inherent limitations, raising questions about AI safety standards.",
@@ -11721,6 +11732,7 @@
     "1eed1ee479b5cf35",
     "81da504c25755a3f",
     "858eaf31b0fef5f0",
-    "ab16a36fbb139b73"
+    "ab16a36fbb139b73",
+    "42e517d47e1bd481"
   ]
 }

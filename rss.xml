@@ -7,6 +7,14 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>New Method Fixes AI Training Flaw in Long-Context Reasoning Tasks</title>
+      <link>https://aiglimpse.ai/articles/new-method-fixes-ai-training-flaw-in-long-context-reasoning-tasks-42e517d4</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-method-fixes-ai-training-flaw-in-long-context-reasoning-tasks-42e517d4</guid>
+      <description>Researchers address a fundamental mismatch between how AI learns from teachers and what actually solves complex problems.</description>
+      <pubDate>Wed, 19 Aug 2026 17:54:58 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
       <title>Meta's Safety Systems Allegedly Built to Underperform, Former Engineer Testifies</title>
       <link>https://aiglimpse.ai/articles/metas-safety-systems-allegedly-built-to-underperform-former-engineer-testifies-ab16a36f</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/metas-safety-systems-allegedly-built-to-underperform-former-engineer-testifies-ab16a36f</guid>
@@ -397,14 +405,6 @@
       <description>The ride-hailing giant's exit from its autonomous delivery venture signals growing challenges in commercializing last-mile robotics technology.</description>
       <pubDate>Tue, 11 Aug 2026 21:27:13 GMT</pubDate>
       <category>AI Business</category>
-    </item>
-    <item>
-      <title>Health System Achieves 88% Automation Rate for Insurance Claims</title>
-      <link>https://aiglimpse.ai/articles/health-system-achieves-88-automation-rate-for-insurance-claims-d631c974</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/health-system-achieves-88-automation-rate-for-insurance-claims-d631c974</guid>
-      <description>St. Luke's and UnitedHealthcare leverage Epic's AI-powered platform to streamline revenue cycle operations and eliminate manual claim inquiries.</description>
-      <pubDate>Wed, 12 Aug 2026 21:53:10 GMT</pubDate>
-      <category>Industry Applications</category>
     </item>
   </channel>
 </rss>
