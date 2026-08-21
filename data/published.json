@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "flock-safetys-ai-tool-contradicts-public-claims-on-facial-recognition-cf9d2465",
+      "title": "Flock Safety's AI Tool Contradicts Public Claims on Facial Recognition",
+      "subtitle": "Surveillance vendor's new search capability undermines years of assurances that its camera network cannot identify individuals.",
+      "category": "ethics",
+      "publishedAt": "2026-08-19T21:31:52.000Z",
+      "sourceUrl": "https://thenextweb.com/news/flock-os-investigate-ai-police-search",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/flock-safetys-ai-tool-contradicts-public-claims-on-facial-recognition-cf9d2465.jpg"
+    },
+    {
       "slug": "runlayer-and-rippling-end-legal-battle-over-ai-automation-tools-dfaf1277",
       "title": "Runlayer and Rippling End Legal Battle Over AI Automation Tools",
       "subtitle": "Dismissed lawsuits highlight growing competitive tensions in the enterprise automation space as vendors race to deploy AI-driven workflow solutions.",
@@ -11757,6 +11768,7 @@
     "ab16a36fbb139b73",
     "42e517d47e1bd481",
     "c99b8d71f29d2a49",
-    "dfaf127759181c9a"
+    "dfaf127759181c9a",
+    "cf9d24651335c728"
   ]
 }

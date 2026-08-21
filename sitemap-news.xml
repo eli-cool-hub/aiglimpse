@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://aiglimpse.ai/articles/flock-safetys-ai-tool-contradicts-public-claims-on-facial-recognition-cf9d2465</loc>
+    <lastmod>2026-08-19</lastmod>
+    <news:news>
+      <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-08-19T21:31:52.000Z</news:publication_date>
+      <news:title>Flock Safety's AI Tool Contradicts Public Claims on Facial Recognition</news:title>
+    </news:news>
+    <changefreq>hourly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
     <loc>https://aiglimpse.ai/articles/runlayer-and-rippling-end-legal-battle-over-ai-automation-tools-dfaf1277</loc>
     <lastmod>2026-08-20</lastmod>
     <news:news>
@@ -62,17 +73,6 @@
       <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-08-19T06:29:24.569Z</news:publication_date>
       <news:title>Enterprise AI Security: Mitigating Prompt Injection and Data Leakage</news:title>
-    </news:news>
-    <changefreq>hourly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://aiglimpse.ai/articles/us-immigration-agency-restricts-use-of-meta-ai-glasses-by-field-agents-1eed1ee4</loc>
-    <lastmod>2026-08-18</lastmod>
-    <news:news>
-      <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-08-18T22:59:08.000Z</news:publication_date>
-      <news:title>U.S. Immigration Agency Restricts Use of Meta AI Glasses by Field Agents</news:title>
     </news:news>
     <changefreq>hourly</changefreq>
     <priority>0.9</priority>
