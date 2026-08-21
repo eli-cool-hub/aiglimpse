@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "ai-generated-exploits-target-hospital-infrastructure-controls-b1b884d1",
+      "title": "AI-Generated Exploits Target Hospital Infrastructure Controls",
+      "subtitle": "Federal agencies warn of machine learning tools automating attacks on building systems that keep hospitals operational.",
+      "category": "industry",
+      "publishedAt": "2026-08-20T20:53:45.000Z",
+      "sourceUrl": "https://www.beckershospitalreview.com/healthcare-information-technology/cybersecurity/aha-warns-hospitals-of-cyber-threats-on-building-control-systems/",
+      "sourceName": "Becker's Hospital Review",
+      "sourceTier": 2,
+      "image": "/images/articles/ai-generated-exploits-target-hospital-infrastructure-controls-b1b884d1.jpg"
+    },
+    {
       "slug": "ai-agents-vs-chatbots-difference",
       "title": "AI Agents vs Chatbots: Capabilities, Costs, and When to Build",
       "subtitle": "A technical comparison for product teams deciding between conversational AI and agentic systems.",
@@ -11793,6 +11804,7 @@
     "c99b8d71f29d2a49",
     "dfaf127759181c9a",
     "cf9d24651335c728",
-    "8a34c47f71ffe861"
+    "8a34c47f71ffe861",
+    "b1b884d12f1d00f3"
   ]
 }

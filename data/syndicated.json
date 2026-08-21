@@ -12260,6 +12260,24 @@
         "devto": true,
         "hashnode": false
       }
+    },
+    "ai-generated-exploits-target-hospital-infrastructure-controls-b1b884d1": {
+      "syndicated_at": "2026-08-21T08:40:43.034Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/ai-generated-exploits-target-hospital-infrastructure-controls-13h7",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 491,
+      "category": "industry",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
     }
   }
 }
