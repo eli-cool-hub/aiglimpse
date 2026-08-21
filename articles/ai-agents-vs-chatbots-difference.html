@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Agents vs Chatbots: Capabilities, Costs, and When to Build | AI Glimpse</title>
+  <meta name="description" content="Compare AI agents vs chatbots: capabilities, costs, reliability, and decision matrix for building autonomous workflows or conversational interfaces.">
+  <meta name="keywords" content="AI agent vs chatbot, agentic AI, conversational AI, autonomous workflow, tool use, customer support bot, AI product development">
+  <link rel="canonical" href="https://aiglimpse.ai/articles/ai-agents-vs-chatbots-difference">
+  <meta property="og:type" content="article"><meta property="og:site_name" content="AI Glimpse">
+  <meta property="og:title" content="AI Agents vs Chatbots: Capabilities, Costs, and When to Build">
+  <meta property="og:description" content="Compare AI agents vs chatbots: capabilities, costs, reliability, and decision matrix for building autonomous workflows or conversational interfaces.">
+  <meta property="og:url" content="https://aiglimpse.ai/articles/ai-agents-vs-chatbots-difference">
+  <meta property="og:image" content="https://aiglimpse.ai/images/articles/ai-agents-vs-chatbots-difference.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="article:published_time" content="2026-08-21T06:29:43.360Z">
+  <meta property="article:section" content="AI Tools & Products">
+  <meta property="article:tag" content="AI agent vs chatbot">
+  <meta property="article:tag" content="agentic AI">
+  <meta property="article:tag" content="conversational AI">
+  <meta property="article:tag" content="autonomous workflow">
+  <meta property="article:tag" content="tool use">
+  <meta property="article:tag" content="customer support bot">
+  <meta property="article:tag" content="AI product development">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="AI Agents vs Chatbots: Capabilities, Costs, and When to Build">
+  <meta name="twitter:description" content="Compare AI agents vs chatbots: capabilities, costs, reliability, and decision matrix for building autonomous workflows or conversational interfaces.">
+  <meta name="twitter:image" content="https://aiglimpse.ai/images/articles/ai-agents-vs-chatbots-difference.jpg">
+  <link rel="icon" type="image/svg+xml" href="/images/favicon.svg">
+  <link rel="alternate" type="application/rss+xml" title="AI Glimpse RSS" href="/rss.xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700;9..144,900&family=Inter+Tight:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap">
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="preload" as="image" href="/images/articles/ai-agents-vs-chatbots-difference.webp" type="image/webp" fetchpriority="high">
+  <style>.reading-progress{position:fixed;top:0;left:0;height:3px;background:var(--color-accent);width:0%;z-index:200;transition:width 100ms linear;}</style>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","mainEntityOfPage":{"@type":"WebPage","@id":"https://aiglimpse.ai/articles/ai-agents-vs-chatbots-difference"},"headline":"AI Agents vs Chatbots: Capabilities, Costs, and When to Build","description":"Compare AI agents vs chatbots: capabilities, costs, reliability, and decision matrix for building autonomous workflows or conversational interfaces.","image":["https://aiglimpse.ai/images/articles/ai-agents-vs-chatbots-difference.jpg"],"datePublished":"2026-08-21T06:29:43.360Z","dateModified":"2026-08-21T06:29:43.360Z","author":{"@type":"Organization","name":"AI Glimpse Newsroom"},"publisher":{"@type":"Organization","name":"AI Glimpse","logo":{"@type":"ImageObject","url":"https://aiglimpse.ai/images/logo.svg"}},"articleSection":"AI Tools & Products","keywords":"AI agent vs chatbot, agentic AI, conversational AI, autonomous workflow, tool use, customer support bot, AI product development"}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://aiglimpse.ai/"},{"@type":"ListItem","position":2,"name":"AI Tools & Products","item":"https://aiglimpse.ai/categories/tools"},{"@type":"ListItem","position":3,"name":"AI Agents vs Chatbots: Capabilities, Costs, and When to Build","item":"https://aiglimpse.ai/articles/ai-agents-vs-chatbots-difference"}]}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What is the main difference between an AI agent and a chatbot?","acceptedAnswer":{"@type":"Answer","text":"A chatbot responds to user input with text based on patterns or prompts. An AI agent can autonomously take actions like calling APIs, updating databases, or running code without waiting for user approval after each step. Agents execute multi-step workflows; chatbots answer questions."}},{"@type":"Question","name":"Can a chatbot use tools or APIs?","acceptedAnswer":{"@type":"Answer","text":"Yes, modern chatbots can retrieve real-time data and call APIs (e.g., checking a database or booking a flight). However, they typically do so in response to explicit user requests and don't plan or execute sequences of actions independently. Tool use alone does not make a system an agent."}},{"@type":"Question","name":"How much does it cost to run an AI agent versus a chatbot?","acceptedAnswer":{"@type":"Answer","text":"Chatbots cost roughly $0.01 to $0.10 per user message depending on model and token count. Agents can cost 5 to 50 times more because they use multiple model calls for planning, tool calls, and reflection loops. Budget 10 to 100x higher for agent-based systems."}},{"@type":"Question","name":"Which is more reliable for production use?","acceptedAnswer":{"@type":"Answer","text":"Chatbots are more predictable because they follow straightforward request-response patterns. Agents are more prone to failure because they reason, iterate, and make decisions; hallucination, tool failures, and infinite loops are real risks. Agents require robust monitoring and fallback logic."}},{"@type":"Question","name":"Do I need an AI agent or a chatbot for customer support?","acceptedAnswer":{"@type":"Answer","text":"Most customer support use cases are better served by a chatbot with tool use (FAQ retrieval, ticket creation, status lookup). Reserve agents for high-value, complex automation like multi-step claims processing or resource allocation where failure cost justifies the overhead."}},{"@type":"Question","name":"What's a concrete example of an AI agent in production?","acceptedAnswer":{"@type":"Answer","text":"A system that autonomously triages customer issues by examining descriptions, pulling ticket history, contacting team members, and assigning priority without human intervention is an agent. A system that answers \"What's my order status?\" by querying a database and responding is a chatbot."}},{"@type":"Question","name":"How do I decide which to build?","acceptedAnswer":{"@type":"Answer","text":"Build a chatbot if the interaction is request-response or requires simple tool integration. Build an agent if the task requires reasoning over multiple steps, handling ambiguity, recovering from tool failures, or operating without human-in-the-loop approval per action."}}]}</script>
+  <meta name="google-site-verification" content="B132aMlqf1nssWYhjOSKUgSjmfwNWgPgtozZsHDxWlU" />
+  <meta name="msvalidate.01" content="F3762E555B3E685836AE39C90B79ECBF" />
+  <!-- aiglimpse-consent-default v1: must run before AdSense, defaults all ad/analytics storage to denied -->
+  <script>(function(){window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}window.gtag=gtag;gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'denied',functionality_storage:'granted',security_storage:'granted',wait_for_update:500});try{var s=JSON.parse(localStorage.getItem('aiglimpse-consent')||'null');if(s&&s.choice==='granted'){gtag('consent','update',{ad_storage:'granted',ad_user_data:'granted',ad_personalization:'granted',analytics_storage:'granted'});}}catch(e){}})();</script>
+  <!-- aiglimpse-ga4 v1: gtag.js loaded after consent default, so it buffers events until consent is granted -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-EVZ52DNQ8S"></script>
+  <script>gtag('js', new Date()); gtag('config', 'G-EVZ52DNQ8S', { anonymize_ip: true });</script>
+</head>
+<body>
+  <div class="reading-progress" aria-hidden="true"></div>
+  <header class="site-header" role="banner">
+    <div class="container">
+      <div class="header-bar">
+        <a href="/" class="logo" aria-label="AI Glimpse home">
+          <span class="logo-wordmark" aria-label="AI Glimpse">A<span class="iris-i" aria-hidden="true">ı</span><span aria-hidden="true"> Glimpse</span></span>
+        </a>
+        <nav class="nav-primary" aria-label="Primary">
+          <a href="/categories/llms">LLMs</a>
+            <a href="/categories/research">Research</a>
+            <a href="/categories/tools">Tools</a>
+            <a href="/categories/business">Business</a>
+            <a href="/categories/ethics">Ethics</a>
+            <a href="/categories/industry">Industry</a>
+            <a href="/categories/robotics">Robotics</a>
+        </nav>
+        <div class="header-actions">
+          <a class="search-btn" href="/search" aria-label="Search">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="11" cy="11" r="7"/><path d="M21 21l-4.35-4.35"/>
+            </svg>
+          </a>
+          <a href="#newsletter" class="btn btn--primary btn--sm">Subscribe</a>
+          <button class="menu-btn" aria-label="Open menu">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+  <aside class="mobile-menu" aria-label="Mobile menu">
+    <div class="mobile-menu-header">
+      <a href="/" class="logo">
+        <span class="logo-wordmark" aria-label="AI Glimpse">A<span class="iris-i" aria-hidden="true">ı</span><span aria-hidden="true"> Glimpse</span></span>
+      </a>
+      <button class="mobile-menu-close" aria-label="Close menu" style="font-size:24px;">×</button>
+    </div>
+    <a href="/categories/llms">LLMs</a>
+    <a href="/categories/research">Research</a>
+    <a href="/categories/tools">Tools</a>
+    <a href="/categories/business">Business</a>
+    <a href="/categories/ethics">Ethics</a>
+    <a href="/categories/industry">Industry</a>
+    <a href="/categories/robotics">Robotics</a>
+    <a href="/search">Search</a>
+    <a href="/pages/about">About</a>
+    <a href="#newsletter">Subscribe</a>
+  </aside>
+  <main>
+    <article>
+      <section class="article-hero">
+        <div class="container container--narrow">
+          <nav aria-label="Breadcrumb" style="margin-bottom:var(--space-4);font-size:var(--text-xs);color:var(--color-ink-muted);">
+            <a href="/" style="color:inherit;">Home</a> /
+            <a href="/categories/tools" style="color:inherit;">AI Tools & Products</a> /
+            <span>Explainer</span>
+          </nav>
+          <div class="article-hero-meta">
+            <span class="tag tag--tools">AI Tools & Products</span>
+            <span class="eyebrow eyebrow--accent">Explainer</span>
+            <span class="eyebrow">9 min read</span>
+          </div>
+          <h1 class="article-hero-title">AI Agents vs Chatbots: Capabilities, Costs, and When to Build</h1>
+          <p class="article-hero-subtitle">A technical comparison for product teams deciding between conversational AI and agentic systems.</p>
+          <div class="article-byline">
+            <div>By <strong>AI Glimpse Newsroom</strong></div><div>·</div>
+            <div><time datetime="2026-08-21T06:29:43.360Z" data-relative="false">August 21, 2026</time></div>
+          </div>
+        </div>
+      </section>
+      <section style="padding: var(--space-7) 0;">
+        <div class="container container--narrow">
+          <figure class="article-image"><picture><source srcset="/images/articles/ai-agents-vs-chatbots-difference.webp" type="image/webp"><img src="/images/articles/ai-agents-vs-chatbots-difference.jpg" alt="AI Agents vs Chatbots: Capabilities, Costs, and When to Build" loading="eager" fetchpriority="high" width="1200" height="630"></picture></figure>
+          <div class="article-body"><p>An AI chatbot waits for a user message, processes it, and returns a response. An AI agent observes its environment, makes decisions, takes actions, and repeats this cycle without waiting for permission after each step. The distinction matters because it determines architecture, cost, failure modes, and whether a project is even feasible.</p>
+
+<p>For product managers scoping AI work, this difference is not semantic. Chatbots and agentic AI require different infrastructure, monitoring, and success metrics. A chatbot that hallucinates is annoying. An agent that hallucinates and then automatically executes a refund is costly. This guide provides a decision matrix and cost baseline so you can scope correctly.</p>
+
+<h2>Why this matters now</h2>
+
+<p>In 2024 and 2025, the gap between "chatbot" and "agent" has narrowed technically but widened in deployment reality. Models like Claude, GPT-4o, and open-source alternatives can reason over multi-step tasks and use tools reliably enough for production. At the same time, every company is being pitched "<a href="/articles/what-are-ai-agents-practical-guide-2026">AI agents</a> will automate your entire workflow" by vendors and consultants. Few of these claims hold up. Most production AI systems are still chatbots with sophisticated retrieval or tool-calling logic, not autonomous agents. Understanding the difference prevents costly over-engineering.</p>
+
+<p>Additionally, regulatory and cost pressure is mounting. A chatbot that outputs false information in a customer support context is a reputational risk. An agent that autonomously processes a customer refund based on a false premise is a financial and legal liability. As AI automation moves upstream (from support to operations to billing), the distinction between "helpful response system" and "decision-making system" becomes critical for compliance, budgeting, and risk management.</p>
+
+<h2>Definitions: the core technical difference</h2>
+<figure class="article-image article-image--inline">
+  <picture><source srcset="/images/articles/ai-agents-vs-chatbots-difference-inline-1.webp" type="image/webp"><img src="/images/articles/ai-agents-vs-chatbots-difference-inline-1.jpg" alt="Definitions: the core technical difference" loading="lazy" width="1200" height="630"></picture>
+  <figcaption class="article-image-credit">Photo by <a href="https://www.pexels.com/photo/chat-gpt-welcome-screen-on-computer-16027824/" rel="nofollow noopener" target="_blank">Matheus Bertelli</a> on Pexels.</figcaption>
+</figure>
+
+
+<p>A chatbot is a system that ingests text (or sometimes multimodal input), processes it through a language model or rule engine, and outputs a response. The user reads it, decides what to do, and sends the next message. The system has no initiative.</p>
+
+<p>An AI agent is a system that:
+
+<ul>
+<li>Observes state (current data, user request, environment)</li>
+<li>Plans actions (decides what to do next)</li>
+<li>Executes actions (calls APIs, writes files, runs code)</li>
+<li>Evaluates results (interprets the outcome)</li>
+<li>Loops until a terminal condition is met (goal achieved or failure threshold)</li>
+</ul>
+
+<p>Critically, an agent does not stop to ask "should I proceed?" at each step. The agent is designed to reach a goal state with minimal human intervention. A human may review the agent's work after completion, but the agent itself makes sequential decisions.</p>
+
+<p>In practice, this means chatbots are single-turn or loosely-coupled multi-turn systems. Agents are tightly looped, stateful, and plan-aware. A chatbot can call an API to look up a flight; an agent can search for flights, check prices, evaluate competitor options, and book the cheapest one that meets criteria, all without asking the user between steps.</p>
+
+<h2>Capability matrix: what each can realistically do</h2>
+
+<p>The following table summarizes production-grade capabilities as of early 2026, based on what is publicly deployed and what vendors claim with reasonable confidence:</p>
+
+<table style="width:100%;border-collapse:collapse;margin:1rem 0;">
+<tr style="background-color:#f0f0f0;">
+<th style="border:1px solid #ccc;padding:0.75rem;text-align:left;">Capability</th>
+<th style="border:1px solid #ccc;padding:0.75rem;text-align:left;">Chatbot</th>
+<th style="border:1px solid #ccc;padding:0.75rem;text-align:left;">AI Agent</th>
+</tr>
+<tr>
+<td style="border:1px solid #ccc;padding:0.75rem;">Retrieve and summarize information</td>
+<td style="border:1px solid #ccc;padding:0.75rem;">Yes, reliable</td>
+<td style="border:1px solid #ccc;padding:0.75rem;">Yes, reliable</td>
+</tr>
+<tr>
+<td style="border:1px solid #ccc;padding:0.75rem;">Call single API or database query</td>
+<td style="border:1px solid #ccc;padding:0.75rem;">Yes, reliable</td>
+<td style="border:1px solid #ccc;padding:0.75rem;">Yes, reliable</td>
+</tr>
+<tr>
+<td style="border:1px solid #ccc;padding:0.75rem;">Chain multiple tool calls with logic</td>
+<td style="border:1px solid #ccc;padding:0.75rem;">Possible, fragile</td>
+<td style="border:1px solid #ccc;padding:0.75rem;">Yes, moderately robust</td>
+</tr>
+<tr>
+<td style="border:1px solid #ccc;padding:0.75rem;">Recover from tool failures</td>
+<td style="border:1px solid #ccc;padding:0.75rem;">Limited, requires explicit fallback design</td>
+<td style="border:1px solid #ccc;padding:0.75rem;">Yes, part of agent loop</td>
+</tr>
+<tr>
+<td style="border:1px solid #ccc;padding:0.75rem;">Make decisions without human approval each step</td>
+<td style="border:1px solid #ccc;padding:0.75rem;">No, not designed for autonomy</td>
+<td style="border:1px solid #ccc;padding:0.75rem;">Yes, within guardrails</td>
+</tr>
+<tr>
+<td style="border:1px solid #ccc;padding:0.75rem;">Adapt to changing goals mid-execution</td>
+<td style="border:1px solid #ccc;padding:0.75rem;">No</td>
+<td style="border:1px solid #ccc;padding:0.75rem;">Limited, with prompting</td>
+</tr>
+<tr>
+<td style="border:1px solid #ccc;padding:0.75rem;">Operate unsupervised for hours or days</td>
+<td style="border:1px solid #ccc;padding:0.75rem;">No</td>
+<td style="border:1px solid #ccc;padding:0.75rem;">Possible, with safety constraints</td>
+</tr>
+</table>
+
+<p>The pattern is clear: chatbots excel at responsiveness and single-task accuracy. Agents excel at autonomy and multi-step workflows. Neither excels at real-time constraint handling or adversarial robustness. An agent cannot reliably refuse a harmful request based on context alone; it requires explicit rules and monitoring.</p>
+
+<h2>Cost and computational overhead</h2>
+<figure class="article-image article-image--inline">
+  <picture><source srcset="/images/articles/ai-agents-vs-chatbots-difference-inline-2.webp" type="image/webp"><img src="/images/articles/ai-agents-vs-chatbots-difference-inline-2.jpg" alt="Cost and computational overhead" loading="lazy" width="1200" height="630"></picture>
+  <figcaption class="article-image-credit">Photo by <a href="https://www.pexels.com/photo/ai-chat-interface-display-on-laptop-30530406/" rel="nofollow noopener" target="_blank">Matheus Bertelli</a> on Pexels.</figcaption>
+</figure>
+
+
+<p>A typical chatbot using a hosted API (e.g., OpenAI, Claude via Bedrock) costs between $0.01 and $0.10 per user message, depending on model choice and token count. A 500-token message on GPT-4o (input $0.005 per 1k tokens, output $0.015 per 1k tokens) costs roughly $0.003 to $0.010. Infrastructure, storage, and retrieval add 50% to 100% overhead, pushing real cost to $0.015 to $0.020 per message in a lean setup.</p>
+
+<p>AI agents are orders of magnitude more expensive. An agent to handle a complex customer request might require:
+
+<ol>
+<li>Initial planning call (1k tokens): $0.01</li>
+<li>Tool selection and execution (3 API calls, 500 tokens each): $0.03</li>
+<li>Reflection loop (2 reasoning passes, 1k tokens each): $0.05</li>
+<li>Final response synthesis (500 tokens): $0.01</li>
+</ol>
+
+<p>Total: $0.10 per request, or 5 to 10 times the cost of a chatbot doing the same task (if the chatbot could). For high-volume customer support (10,000 messages per day), this is the difference between $200 and $1,000 per day in API costs alone. At scale, agent overhead becomes a fundamental business constraint.</p>
+
+<p>Open-source models (Llama 2, Mixtral, etc.) can reduce per-token cost, but introduce hosting and fine-tuning overhead that often outweighs API savings unless volume exceeds tens of thousands of daily requests. For most product teams, this calculation favors hosted API chatbots until traffic and use case justify agent investment.</p>
+
+<h2>Reliability, monitoring, and failure modes</h2>
+
+<p>Chatbots fail gracefully and predictably. If a chatbot hallucinates, the user reads it and either corrects the system or ignores the response. If a retrieval call times out, the chatbot can return a fallback message. If the model is down, the entire system is down, but users know to retry. These are known failure modes with established mitigations.</p>
+
+<p>Agents fail in ways that are harder to predict and observe. An agent might:
+
+<ul>
+<li>Call the same tool twice in a loop, wasting tokens and never recovering</li>
+<li>Misinterpret a tool response and take an irreversible action (e.g., delete data)</li>
+<li>Become stuck in a state where no tool can resolve the goal, but the system doesn't know it's stuck</li>
+<li>Hallucinate a tool that doesn't exist and attempt to call it</li>
+</ul>
+
+<p>These are not theoretical. Deployed agents at scale (e.g., Anthropic's examples, internal reports from major tech firms) encounter these issues regularly. Mitigation requires:
+
+<ul>
+<li>Strict tool schemas and validation</li>
+<li>Max iteration limits (e.g., agent stops after 10 steps)</li>
+<li>Human-in-the-loop checkpoints at critical actions</li>
+<li>Comprehensive logging and anomaly detection</li>
+<li>Rollback or undo capabilities for irreversible tool calls</li>
+</ul>
+
+<p>A production agent requires monitoring infrastructure that a chatbot does not. Budget for observability tooling (tracing, logging, alerting) and human review workflows if the agent can affect data or customer accounts.</p>
+
+<h2>Decision framework: when to build each</h2>
+
+<p>Use this framework to decide whether a use case needs a chatbot or an agent.</p>
+
+<p><strong>Build a chatbot if:</strong>
+
+<ul>
+<li>The user initiates the interaction (request-response pattern)</li>
+<li>The task can be completed in a single API call or simple lookup</li>
+<li>Multiple-step workflows can be split into separate user interactions</li>
+<li>Failures can be handled by asking the user for clarification or retrying</li>
+<li>You need to ship quickly and manage costs tightly</li>
+</ul>
+
+<p><strong>Build an agent if:</strong>
+
+<ul>
+<li>The system must take action without waiting for user approval between steps</li>
+<li>The task requires planning (deciding what to do before doing it)</li>
+<li>Recovery from tool failures is critical to success</li>
+<li>The goal can be achieved through multiple valid paths, and the agent should adapt</li>
+<li>The cost of human intervention at each step exceeds the cost of the agent</li>
+</ul>
+
+<p><strong>Hybrid approach (most common in production):</strong>
+
+<p>Use a chatbot for customer-facing interactions and an agent for backend automation. For example, a support chatbot answers FAQs and fields requests (chatbot), while an internal agent processes refunds, reassigns tickets, and notifies teams (agent). This isolates agent risk and preserves chatbot cost efficiency for high-volume interactions.</p>
+
+<h2>Common pitfalls and when this fails</h2>
+
+<p>The most expensive mistake is building an agent when a chatbot would suffice. Agents are often positioned as the solution to "AI can't do multi-step tasks," but most multi-step tasks can be decomposed into sequential single-step chatbot interactions. The user can say "complete all of these," and the system can loop through them with a chatbot, saving cost and improving reliability.</p>
+
+<p>A second pitfall is underestimating monitoring overhead. Teams building their first agent often assume the system will "just work" after launch. Real deployments require on-call engineering to detect stuck agents, investigate hallucinations, and tune prompts when tool failures spike. Plan for 10 to 20% engineering overhead per deployed agent.</p>
+
+<p>Agents also struggle with ambiguity. If a user request is vague, a chatbot asks for clarification. An agent might confidently execute the wrong interpretation. Human-in-the-loop design (asking for confirmation before irreversible actions) is not optional for agents touching customer data.</p>
+
+<p>Neither chatbots nor agents are good at real-time constraints. If a tool call must complete within 500ms and the model takes 2 seconds to reason, both systems fail. Latency-critical systems still require traditional software automation or narrow, pre-trained models.</p>
+
+<p>Finally, both chatbots and agents are poor at adversarial robustness. A user can prompt-inject a chatbot into revealing system instructions. A user can craft requests that cause an agent to misuse its tools. These are not solved by better prompting; they require explicit safety layers (e.g., output filtering, guardrails APIs, tool access controls).</p>
+
+<h2>Practical next steps</h2>
+
+<p>If you are scoping AI for a product, start with a chatbot. Implement tool use if needed (API calls, retrieval). Measure cost, latency, and user satisfaction. If you hit a wall where multi-step autonomy is the blocker and the cost of human intervention is high, then prototype an agent for that specific workflow. Do not assume agents are faster or cheaper; they usually are not. Use them only when the use case genuinely requires autonomous decision-making and you can afford the operational overhead to keep them safe.</p></div>
+
+      <section style="margin-top: var(--space-8);">
+        <h2 style="margin-bottom: var(--space-5);">Frequently asked questions</h2>
+        <div class="faq-list">
+    <details class="faq-item" style="border-bottom:1px solid var(--color-rule);padding:var(--space-4) 0;">
+      <summary style="cursor:pointer;font-weight:600;font-size:var(--text-md);list-style:none;display:flex;justify-content:space-between;align-items:flex-start;gap:var(--space-3);">
+        <span>What is the main difference between an AI agent and a chatbot?</span>
+        <span aria-hidden="true" style="color:var(--color-ink-faint);font-weight:400;flex-shrink:0;">+</span>
+      </summary>
+      <div style="margin-top:var(--space-3);color:var(--color-ink-muted);line-height:1.7;">
+        <p>A chatbot responds to user input with text based on patterns or prompts. An AI agent can autonomously take actions like calling APIs, updating databases, or running code without waiting for user approval after each step. Agents execute multi-step workflows; chatbots answer questions.</p>
+      </div>
+    </details>
+
+    <details class="faq-item" style="border-bottom:1px solid var(--color-rule);padding:var(--space-4) 0;">
+      <summary style="cursor:pointer;font-weight:600;font-size:var(--text-md);list-style:none;display:flex;justify-content:space-between;align-items:flex-start;gap:var(--space-3);">
+        <span>Can a chatbot use tools or APIs?</span>
+        <span aria-hidden="true" style="color:var(--color-ink-faint);font-weight:400;flex-shrink:0;">+</span>
+      </summary>
+      <div style="margin-top:var(--space-3);color:var(--color-ink-muted);line-height:1.7;">
+        <p>Yes, modern chatbots can retrieve real-time data and call APIs (e.g., checking a database or booking a flight). However, they typically do so in response to explicit user requests and don&#39;t plan or execute sequences of actions independently. Tool use alone does not make a system an agent.</p>
+      </div>
+    </details>
+
+    <details class="faq-item" style="border-bottom:1px solid var(--color-rule);padding:var(--space-4) 0;">
+      <summary style="cursor:pointer;font-weight:600;font-size:var(--text-md);list-style:none;display:flex;justify-content:space-between;align-items:flex-start;gap:var(--space-3);">
+        <span>How much does it cost to run an AI agent versus a chatbot?</span>
+        <span aria-hidden="true" style="color:var(--color-ink-faint);font-weight:400;flex-shrink:0;">+</span>
+      </summary>
+      <div style="margin-top:var(--space-3);color:var(--color-ink-muted);line-height:1.7;">
+        <p>Chatbots cost roughly $0.01 to $0.10 per user message depending on model and token count. Agents can cost 5 to 50 times more because they use multiple model calls for planning, tool calls, and reflection loops. Budget 10 to 100x higher for agent-based systems.</p>
+      </div>
+    </details>
+
+    <details class="faq-item" style="border-bottom:1px solid var(--color-rule);padding:var(--space-4) 0;">
+      <summary style="cursor:pointer;font-weight:600;font-size:var(--text-md);list-style:none;display:flex;justify-content:space-between;align-items:flex-start;gap:var(--space-3);">
+        <span>Which is more reliable for production use?</span>
+        <span aria-hidden="true" style="color:var(--color-ink-faint);font-weight:400;flex-shrink:0;">+</span>
+      </summary>
+      <div style="margin-top:var(--space-3);color:var(--color-ink-muted);line-height:1.7;">
+        <p>Chatbots are more predictable because they follow straightforward request-response patterns. Agents are more prone to failure because they reason, iterate, and make decisions; hallucination, tool failures, and infinite loops are real risks. Agents require robust monitoring and fallback logic.</p>
+      </div>
+    </details>
+
+    <details class="faq-item" style="border-bottom:1px solid var(--color-rule);padding:var(--space-4) 0;">
+      <summary style="cursor:pointer;font-weight:600;font-size:var(--text-md);list-style:none;display:flex;justify-content:space-between;align-items:flex-start;gap:var(--space-3);">
+        <span>Do I need an AI agent or a chatbot for customer support?</span>
+        <span aria-hidden="true" style="color:var(--color-ink-faint);font-weight:400;flex-shrink:0;">+</span>
+      </summary>
+      <div style="margin-top:var(--space-3);color:var(--color-ink-muted);line-height:1.7;">
+        <p>Most customer support use cases are better served by a chatbot with tool use (FAQ retrieval, ticket creation, status lookup). Reserve agents for high-value, complex automation like multi-step claims processing or resource allocation where failure cost justifies the overhead.</p>
+      </div>
+    </details>
+
+    <details class="faq-item" style="border-bottom:1px solid var(--color-rule);padding:var(--space-4) 0;">
+      <summary style="cursor:pointer;font-weight:600;font-size:var(--text-md);list-style:none;display:flex;justify-content:space-between;align-items:flex-start;gap:var(--space-3);">
+        <span>What&#39;s a concrete example of an AI agent in production?</span>
+        <span aria-hidden="true" style="color:var(--color-ink-faint);font-weight:400;flex-shrink:0;">+</span>
+      </summary>
+      <div style="margin-top:var(--space-3);color:var(--color-ink-muted);line-height:1.7;">
+        <p>A system that autonomously triages customer issues by examining descriptions, pulling ticket history, contacting team members, and assigning priority without human intervention is an agent. A system that answers &quot;What&#39;s my order status?&quot; by querying a database and responding is a chatbot.</p>
+      </div>
+    </details>
+
+    <details class="faq-item" style="border-bottom:1px solid var(--color-rule);padding:var(--space-4) 0;">
+      <summary style="cursor:pointer;font-weight:600;font-size:var(--text-md);list-style:none;display:flex;justify-content:space-between;align-items:flex-start;gap:var(--space-3);">
+        <span>How do I decide which to build?</span>
+        <span aria-hidden="true" style="color:var(--color-ink-faint);font-weight:400;flex-shrink:0;">+</span>
+      </summary>
+      <div style="margin-top:var(--space-3);color:var(--color-ink-muted);line-height:1.7;">
+        <p>Build a chatbot if the interaction is request-response or requires simple tool integration. Build an agent if the task requires reasoning over multiple steps, handling ambiguity, recovering from tool failures, or operating without human-in-the-loop approval per action.</p>
+      </div>
+    </details></div>
+      </section>
+          
+          <p style="font-size:var(--text-xs);color:var(--color-ink-faint);margin-top:var(--space-6);padding-top:var(--space-4);border-top:1px solid var(--color-rule);">
+            An <strong>AI Glimpse</strong> explainer. We update this guide as the field evolves.
+          </p>
+        </div>
+      </section>
+    </article>
+    <section class="section" aria-label="Related articles">
+      <div class="container container--narrow">
+        <div class="section-header">
+          <h2 class="section-title">More from AI Glimpse</h2>
+          <a href="/categories/tools" class="section-link">All Tools stories</a>
+        </div>
+        <div class="grid grid-3">
+          <article class="card card--medium">
+            <a href="/articles/openai-pauses-training-runs-as-astra-model-shows-advanced-hacking-skills-bf5bf582"><div class="card-image"><picture><source srcset="/images/articles/openai-pauses-training-runs-as-astra-model-shows-advanced-hacking-skills-bf5bf582.webp" type="image/webp"><img src="/images/articles/openai-pauses-training-runs-as-astra-model-shows-advanced-hacking-skills-bf5bf582.jpg" alt="OpenAI Pauses Training Runs as Astra Model Shows Advanced Hacking Skills" loading="lazy" width="1200" height="630"></picture></div></a>
+            <div class="card-meta">
+              <span class="tag tag--tools">Tools</span>
+              <span class="card-byline"><time datetime="2026-08-18T18:33:11.000Z">Aug 18, 2026</time></span>
+            </div>
+            <a href="/articles/openai-pauses-training-runs-as-astra-model-shows-advanced-hacking-skills-bf5bf582"><h3 class="card-title">OpenAI Pauses Training Runs as Astra Model Shows Advanced Hacking Skills</h3></a>
+          </article>
+          <article class="card card--medium">
+            <a href="/articles/spacex-veterans-launch-ai-powered-steel-manufacturing-startup-8cb6ee1a"><div class="card-image"><picture><source srcset="/images/articles/spacex-veterans-launch-ai-powered-steel-manufacturing-startup-8cb6ee1a.webp" type="image/webp"><img src="/images/articles/spacex-veterans-launch-ai-powered-steel-manufacturing-startup-8cb6ee1a.jpg" alt="SpaceX Veterans Launch AI-Powered Steel Manufacturing Startup" loading="lazy" width="1200" height="630"></picture></div></a>
+            <div class="card-meta">
+              <span class="tag tag--tools">Tools</span>
+              <span class="card-byline"><time datetime="2026-08-17T21:18:49.000Z">Aug 17, 2026</time></span>
+            </div>
+            <a href="/articles/spacex-veterans-launch-ai-powered-steel-manufacturing-startup-8cb6ee1a"><h3 class="card-title">SpaceX Veterans Launch AI-Powered Steel Manufacturing Startup</h3></a>
+          </article>
+          <article class="card card--medium">
+            <a href="/articles/chinas-affordable-robot-gains-social-media-fame-but-workplace-reality-looms-a81bf8ae"><div class="card-image"><picture><source srcset="/images/articles/chinas-affordable-robot-gains-social-media-fame-but-workplace-reality-looms-a81bf8ae.webp" type="image/webp"><img src="/images/articles/chinas-affordable-robot-gains-social-media-fame-but-workplace-reality-looms-a81bf8ae.jpg" alt="China's Affordable Robot Gains Social Media Fame, But Workplace Reality Looms" loading="lazy" width="1200" height="630"></picture></div></a>
+            <div class="card-meta">
+              <span class="tag tag--tools">Tools</span>
+              <span class="card-byline"><time datetime="2026-08-14T20:59:03.000Z">Aug 14, 2026</time></span>
+            </div>
+            <a href="/articles/chinas-affordable-robot-gains-social-media-fame-but-workplace-reality-looms-a81bf8ae"><h3 class="card-title">China's Affordable Robot Gains Social Media Fame, But Workplace Reality Looms</h3></a>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="/" class="logo">
+            <span class="logo-wordmark" aria-label="AI Glimpse">A<span class="iris-i" aria-hidden="true">ı</span><span aria-hidden="true"> Glimpse</span></span>
+          </a>
+          <p>Your daily glimpse into AI. Independent reporting and analysis on the people, products, and policies shaping artificial intelligence.</p>
+        </div>
+        <div class="footer-col">
+          <h5>Categories</h5>
+          <ul>
+            <li><a href="/categories/llms">LLMs</a></li>
+            <li><a href="/categories/research">Research</a></li>
+            <li><a href="/categories/tools">Tools</a></li>
+            <li><a href="/categories/business">Business</a></li>
+            <li><a href="/categories/ethics">Ethics</a></li>
+            <li><a href="/categories/industry">Industry</a></li>
+            <li><a href="/categories/robotics">Robotics</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h5>About</h5>
+          <ul>
+            <li><a href="/pages/about">About AI Glimpse</a></li>
+            <li><a href="/pages/contact">Contact</a></li>
+            <li><a href="/pages/editorial">Editorial Standards</a></li>
+            <li><a href="/pages/advertise">Advertise</a></li>
+            <li><a href="/guides">Guides &amp; Explainers</a></li>
+            <li><a href="/search">Search</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h5>Legal</h5>
+          <ul>
+            <li><a href="/pages/privacy">Privacy Policy</a></li>
+            <li><a href="/pages/terms">Terms of Service</a></li>
+            <li><a href="#" data-consent-open>Cookie preferences</a></li>
+            <li><a href="/rss.xml">RSS Feed</a></li>
+            <li><a href="/sitemap.xml">Sitemap</a></li>
+            <li><a href="/llms.txt">LLMs.txt</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div>© <span id="year">2026</span> AI Glimpse · aiglimpse.ai</div>
+        <div class="footer-social">
+          <a href="/rss.xml" aria-label="RSS"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M6.503 20.752c0 1.794-1.456 3.248-3.251 3.248-1.796 0-3.252-1.454-3.252-3.248 0-1.794 1.456-3.248 3.252-3.248 1.795 0 3.251 1.454 3.251 3.248zm-6.503-12.572v4.811c6.05.062 10.96 4.966 11.022 11.009h4.817c-.062-8.71-7.118-15.758-15.839-15.82zm0-3.368c10.58.046 19.152 8.594 19.183 19.188h4.817c-.03-13.231-10.755-23.954-24-24v4.812z"/></svg></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="/js/chrome.js"></script>
+  <script src="/js/main.js"></script>
+</body>
+</html>

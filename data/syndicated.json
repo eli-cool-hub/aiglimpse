@@ -12242,6 +12242,24 @@
         "devto": true,
         "hashnode": false
       }
+    },
+    "ai-agents-vs-chatbots-difference": {
+      "syndicated_at": "2026-08-21T06:29:45.042Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/ai-agents-vs-chatbots-capabilities-costs-and-when-to-build-2m7i",
+      "hashnode": null,
+      "gates": {
+        "medium": true,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 1879,
+      "category": "tools",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
     }
   }
 }
