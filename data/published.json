@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "marvell-secures-google-partnership-with-122b-equity-deal-3d9902a8",
+      "title": "Marvell Secures Google Partnership With $12.2B Equity Deal",
+      "subtitle": "Google gains significant stake in chipmaker through warrant agreement tied to custom AI processor supply contract.",
+      "category": "industry",
+      "publishedAt": "2026-08-19T21:31:52.000Z",
+      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-08-19/marvell-gives-google-right-to-buy-up-to-12-2-billion-in-shares",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/marvell-secures-google-partnership-with-122b-equity-deal-3d9902a8.jpg"
+    },
+    {
       "slug": "ai-generated-exploits-target-hospital-infrastructure-controls-b1b884d1",
       "title": "AI-Generated Exploits Target Hospital Infrastructure Controls",
       "subtitle": "Federal agencies warn of machine learning tools automating attacks on building systems that keep hospitals operational.",
@@ -11805,6 +11816,7 @@
     "dfaf127759181c9a",
     "cf9d24651335c728",
     "8a34c47f71ffe861",
-    "b1b884d12f1d00f3"
+    "b1b884d12f1d00f3",
+    "3d9902a85a18e726"
   ]
 }
