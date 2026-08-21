@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://aiglimpse.ai/articles/general-catalysts-healthcare-ai-experiment-takes-shape-at-summa-health-1f8ac8a1</loc>
+    <lastmod>2026-08-21</lastmod>
+    <news:news>
+      <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-08-21T17:50:18.000Z</news:publication_date>
+      <news:title>General Catalyst's Healthcare AI Experiment Takes Shape at Summa Health</news:title>
+    </news:news>
+    <changefreq>hourly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
     <loc>https://aiglimpse.ai/articles/mayo-clinic-expands-ai-initiative-as-financial-performance-surges-07dd046d</loc>
     <lastmod>2026-08-21</lastmod>
     <news:news>
@@ -89,34 +100,12 @@
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://aiglimpse.ai/articles/new-method-fixes-ai-training-flaw-in-long-context-reasoning-tasks-42e517d4</loc>
-    <lastmod>2026-08-19</lastmod>
-    <news:news>
-      <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-08-19T17:54:58.000Z</news:publication_date>
-      <news:title>New Method Fixes AI Training Flaw in Long-Context Reasoning Tasks</news:title>
-    </news:news>
-    <changefreq>hourly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
     <loc>https://aiglimpse.ai/articles/metas-safety-systems-allegedly-built-to-underperform-former-engineer-testifies-ab16a36f</loc>
     <lastmod>2026-08-20</lastmod>
     <news:news>
       <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-08-20T00:31:40.000Z</news:publication_date>
       <news:title>Meta's Safety Systems Allegedly Built to Underperform, Former Engineer Testifies</news:title>
-    </news:news>
-    <changefreq>hourly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://aiglimpse.ai/articles/fda-proposes-physician-level-testing-for-ai-medical-devices-858eaf31</loc>
-    <lastmod>2026-08-19</lastmod>
-    <news:news>
-      <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-08-19T19:58:37.000Z</news:publication_date>
-      <news:title>FDA Proposes Physician-Level Testing for AI Medical Devices</news:title>
     </news:news>
     <changefreq>hourly</changefreq>
     <priority>0.9</priority>
