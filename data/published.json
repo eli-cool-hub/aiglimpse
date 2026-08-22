@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "software-defined-manufacturing-unlocks-new-flexibility-in-legacy-factories-749bbdf9",
+      "title": "Software-Defined Manufacturing Unlocks New Flexibility in Legacy Factories",
+      "subtitle": "AI-powered control systems are breathing new life into aging equipment, allowing manufacturers to modernize without complete overhauls.",
+      "category": "robotics",
+      "publishedAt": "2026-08-22T00:48:35.000Z",
+      "sourceUrl": "https://www.therobotreport.com/how-software-defined-manufacturing-fits-into-real-factory-operations/",
+      "sourceName": "The Robot Report",
+      "sourceTier": 3,
+      "image": "/images/articles/software-defined-manufacturing-unlocks-new-flexibility-in-legacy-factories-749bbdf9.jpg"
+    },
+    {
       "slug": "general-catalysts-healthcare-ai-experiment-takes-shape-at-summa-health-1f8ac8a1",
       "title": "General Catalyst's Healthcare AI Experiment Takes Shape at Summa Health",
       "subtitle": "Ohio health system names permanent CEO and assembles eight AI vendors to test a new model for hospital operations and care delivery.",
@@ -11841,6 +11852,7 @@
     "b1b884d12f1d00f3",
     "3d9902a85a18e726",
     "07dd046de2a0e27d",
-    "1f8ac8a142ba89cd"
+    "1f8ac8a142ba89cd",
+    "749bbdf979fe0596"
   ]
 }
