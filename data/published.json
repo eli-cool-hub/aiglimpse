@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "ai-and-satellite-navigation-poised-to-make-robot-mowers-mainstream-d797bfd1",
+      "title": "AI and Satellite Navigation Poised to Make Robot Mowers Mainstream",
+      "subtitle": "Advances in autonomous systems and computer vision could push robotic lawn care adoption to 50% of U.S. households within eight years.",
+      "category": "robotics",
+      "publishedAt": "2026-08-22T12:30:08.000Z",
+      "sourceUrl": "https://www.therobotreport.com/technology-could-bring-robot-mowers-one-half-american-lawns/",
+      "sourceName": "The Robot Report",
+      "sourceTier": 3,
+      "image": "/images/articles/ai-and-satellite-navigation-poised-to-make-robot-mowers-mainstream-d797bfd1.jpg"
+    },
+    {
       "slug": "the-hidden-labor-problem-behind-scaling-physical-ai-systems-83553504",
       "title": "The Hidden Labor Problem Behind Scaling Physical AI Systems",
       "subtitle": "As robots move from pilot projects to widespread deployment, companies are discovering that managing the human workforce may be harder than building the machines themselves.",
@@ -11901,6 +11912,7 @@
     "7fc745e9e90270c7",
     "762bf68b0473c9b4",
     "3af494c7187a776e",
-    "8355350426ac2c1a"
+    "8355350426ac2c1a",
+    "d797bfd1ed5b699b"
   ]
 }
