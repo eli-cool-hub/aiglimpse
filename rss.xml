@@ -7,6 +7,14 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>The murky legal frontier of AI training on published literature</title>
+      <link>https://aiglimpse.ai/articles/the-murky-legal-frontier-of-ai-training-on-published-literature-00343610</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/the-murky-legal-frontier-of-ai-training-on-published-literature-00343610</guid>
+      <description>As AI developers quietly use copyrighted books to build language models, courts and lawmakers grapple with whether this constitutes fair use or wholesale theft.</description>
+      <pubDate>Sun, 23 Aug 2026 15:00:00 GMT</pubDate>
+      <category>AI Business</category>
+    </item>
+    <item>
       <title>AI and Satellite Navigation Poised to Make Robot Mowers Mainstream</title>
       <link>https://aiglimpse.ai/articles/ai-and-satellite-navigation-poised-to-make-robot-mowers-mainstream-d797bfd1</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/ai-and-satellite-navigation-poised-to-make-robot-mowers-mainstream-d797bfd1</guid>
@@ -397,14 +405,6 @@
       <description>Advanced automation and machine learning are reshaping how quickly companies can move from digital designs to physical prototypes.</description>
       <pubDate>Fri, 14 Aug 2026 22:14:19 GMT</pubDate>
       <category>Robotics</category>
-    </item>
-    <item>
-      <title>Researchers Create Elementary-School AI to Study How Models Learn</title>
-      <link>https://aiglimpse.ai/articles/researchers-create-elementary-school-ai-to-study-how-models-learn-4fa694c2</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/researchers-create-elementary-school-ai-to-study-how-models-learn-4fa694c2</guid>
-      <description>A new sandbox environment lets scientists observe language model knowledge acquisition with unprecedented precision and control.</description>
-      <pubDate>Thu, 13 Aug 2026 17:56:12 GMT</pubDate>
-      <category>AI Research</category>
     </item>
   </channel>
 </rss>

@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "the-murky-legal-frontier-of-ai-training-on-published-literature-00343610",
+      "title": "The murky legal frontier of AI training on published literature",
+      "subtitle": "As AI developers quietly use copyrighted books to build language models, courts and lawmakers grapple with whether this constitutes fair use or wholesale theft.",
+      "category": "business",
+      "publishedAt": "2026-08-23T15:00:00.000Z",
+      "sourceUrl": "https://techcrunch.com/2026/08/23/is-it-legal-to-train-ai-models-on-copyrighted-books-its-complicated/",
+      "sourceName": "TechCrunch AI",
+      "sourceTier": 2,
+      "image": "/images/articles/the-murky-legal-frontier-of-ai-training-on-published-literature-00343610.jpg"
+    },
+    {
       "slug": "ai-and-satellite-navigation-poised-to-make-robot-mowers-mainstream-d797bfd1",
       "title": "AI and Satellite Navigation Poised to Make Robot Mowers Mainstream",
       "subtitle": "Advances in autonomous systems and computer vision could push robotic lawn care adoption to 50% of U.S. households within eight years.",
@@ -11913,6 +11924,7 @@
     "762bf68b0473c9b4",
     "3af494c7187a776e",
     "8355350426ac2c1a",
-    "d797bfd1ed5b699b"
+    "d797bfd1ed5b699b",
+    "003436103c89bf9d"
   ]
 }
