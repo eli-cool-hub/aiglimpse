@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "researchers-challenge-ai-audit-standards-as-insufficient-38083490",
+      "title": "Researchers Challenge AI Audit Standards as Insufficient",
+      "subtitle": "Academics warn that current fairness metrics may obscure systemic discrimination in algorithmic systems without examining underlying power dynamics.",
+      "category": "ethics",
+      "publishedAt": "2026-08-22T18:12:01.000Z",
+      "sourceUrl": "https://www.techpolicy.press/ai-audits-need-a-power-test-not-just-a-fairness-score/",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/researchers-challenge-ai-audit-standards-as-insufficient-38083490.jpg"
+    },
+    {
       "slug": "the-murky-legal-frontier-of-ai-training-on-published-literature-00343610",
       "title": "The murky legal frontier of AI training on published literature",
       "subtitle": "As AI developers quietly use copyrighted books to build language models, courts and lawmakers grapple with whether this constitutes fair use or wholesale theft.",
@@ -11925,6 +11936,7 @@
     "3af494c7187a776e",
     "8355350426ac2c1a",
     "d797bfd1ed5b699b",
-    "003436103c89bf9d"
+    "003436103c89bf9d",
+    "38083490dbc5074e"
   ]
 }

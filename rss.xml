@@ -7,6 +7,14 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Researchers Challenge AI Audit Standards as Insufficient</title>
+      <link>https://aiglimpse.ai/articles/researchers-challenge-ai-audit-standards-as-insufficient-38083490</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/researchers-challenge-ai-audit-standards-as-insufficient-38083490</guid>
+      <description>Academics warn that current fairness metrics may obscure systemic discrimination in algorithmic systems without examining underlying power dynamics.</description>
+      <pubDate>Sat, 22 Aug 2026 18:12:01 GMT</pubDate>
+      <category>Ethics &amp; Policy</category>
+    </item>
+    <item>
       <title>The murky legal frontier of AI training on published literature</title>
       <link>https://aiglimpse.ai/articles/the-murky-legal-frontier-of-ai-training-on-published-literature-00343610</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/the-murky-legal-frontier-of-ai-training-on-published-literature-00343610</guid>
@@ -397,14 +405,6 @@
       <description>The search giant's latest model prioritizes faster responses without sacrificing reasoning capability, signaling a shift toward practical deployment.</description>
       <pubDate>Thu, 13 Aug 2026 17:04:18 GMT</pubDate>
       <category>AI Research</category>
-    </item>
-    <item>
-      <title>Protolabs Uses AI to Compress Manufacturing Timelines to Hours</title>
-      <link>https://aiglimpse.ai/articles/protolabs-uses-ai-to-compress-manufacturing-timelines-to-hours-564f2935</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/protolabs-uses-ai-to-compress-manufacturing-timelines-to-hours-564f2935</guid>
-      <description>Advanced automation and machine learning are reshaping how quickly companies can move from digital designs to physical prototypes.</description>
-      <pubDate>Fri, 14 Aug 2026 22:14:19 GMT</pubDate>
-      <category>Robotics</category>
     </item>
   </channel>
 </rss>
