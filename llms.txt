@@ -20,6 +20,7 @@ All content is original reporting by the AI Glimpse newsroom. Primary sources ar
 
 ## Recent articles
 
+- [Hybrid Search for RAG: BM25 + Vector Fusion Explained](https://aiglimpse.ai/articles/hybrid-search-rag-guide) (2026-08-24): Combine keyword and semantic retrieval to boost RAG recall. Implementation patterns, tuning strategies, and when hybrid beats pure vector search.
 - [Researchers Challenge AI Audit Standards as Insufficient](https://aiglimpse.ai/articles/researchers-challenge-ai-audit-standards-as-insufficient-38083490) (2026-08-22): Academics warn that current fairness metrics may obscure systemic discrimination in algorithmic systems without examining underlying power dynamics.
 - [The murky legal frontier of AI training on published literature](https://aiglimpse.ai/articles/the-murky-legal-frontier-of-ai-training-on-published-literature-00343610) (2026-08-23): As AI developers quietly use copyrighted books to build language models, courts and lawmakers grapple with whether this constitutes fair use or wholesale theft.
 - [AI and Satellite Navigation Poised to Make Robot Mowers Mainstream](https://aiglimpse.ai/articles/ai-and-satellite-navigation-poised-to-make-robot-mowers-mainstream-d797bfd1) (2026-08-22): Advances in autonomous systems and computer vision could push robotic lawn care adoption to 50% of U.S. households within eight years.
@@ -49,10 +50,10 @@ All content is original reporting by the AI Glimpse newsroom. Primary sources ar
 - [Healthcare AI Success Hinges on Workflow Design, Not Algorithm Power](https://aiglimpse.ai/articles/healthcare-ai-success-hinges-on-workflow-design-not-algorithm-power-66975711) (2026-08-17): As health systems scale AI beyond pilots, integration into existing processes matters far more than model accuracy.
 - [Healthcare systems must control AI agent access before debating governance](https://aiglimpse.ai/articles/healthcare-systems-must-control-ai-agent-access-before-debating-governance-1e74fc36) (2026-08-17): Identity-based segmentation can limit autonomous AI reach across legacy medical infrastructure faster than traditional approval processes.
 - [Trump-Backed Crypto Firm Enables Access to Chinese AI Models on Security Watchlist](https://aiglimpse.ai/articles/trump-backed-crypto-firm-enables-access-to-chinese-ai-models-on-security-watchli-4be5c3d6) (2026-08-17): A Hong Kong platform funded by World Liberty Financial provides access to AI systems built by companies the Pentagon has designated as military-aligned threats.
-- [Meta's $14B AI Data Center in El Paso Carries Significant Insurance Gap](https://aiglimpse.ai/articles/metas-14b-ai-data-center-in-el-paso-carries-significant-insurance-gap-d9cb67d6) (2026-08-17): A joint venture between Meta and BlackRock reveals infrastructure risks as AI companies race to build massive computing facilities for training large language models.
 
 ## Explainers (evergreen)
 
+- [Hybrid Search for RAG: BM25 + Vector Fusion Explained](https://aiglimpse.ai/articles/hybrid-search-rag-guide) (2026-08-24): Combine keyword and semantic retrieval to boost RAG recall. Implementation patterns, tuning strategies, and when hybrid beats pure vector search.
 - [AI Agents vs Chatbots: Capabilities, Costs, and When to Build](https://aiglimpse.ai/articles/ai-agents-vs-chatbots-difference) (2026-08-21): A technical comparison for product teams deciding between conversational AI and agentic systems.
 - [Enterprise AI Security: Mitigating Prompt Injection and Data Leakage](https://aiglimpse.ai/articles/enterprise-ai-security-best-practices) (2026-08-19): A security checklist for deploying LLMs without exposing sensitive data or compromising model behavior
 - [LLM benchmarks explained: MMLU, HumanEval, MTEB, and what they actually measure](https://aiglimpse.ai/articles/ai-evaluation-benchmarks-explained) (2026-08-17): A technical guide to understanding what AI model benchmarks test, their blind spots, and how to evaluate responsibly.
@@ -86,7 +87,7 @@ All content is original reporting by the AI Glimpse newsroom. Primary sources ar
 
 - [Sitemap](https://aiglimpse.ai/sitemap.xml): Sitemap index (pages, articles, Google News last 48h).
 - [RSS](https://aiglimpse.ai/rss.xml): 50 most recent articles (RSS 2.0).
-- [Full content index](https://aiglimpse.ai/llms-full.txt): Extended article list for LLM crawlers (994 articles).
+- [Full content index](https://aiglimpse.ai/llms-full.txt): Extended article list for LLM crawlers (995 articles).
 
 ## About
 

@@ -3,9 +3,16 @@
 > Machine-readable index for AI assistants, answer engines, and research crawlers.
 > Summary version: https://aiglimpse.ai/llms.txt
 
-Total articles: 994 | Evergreen explainers: 28 | Generated: 2026-08-24
+Total articles: 995 | Evergreen explainers: 29 | Generated: 2026-08-24
 
 ## Evergreen explainers
+
+### Hybrid Search for RAG: BM25 + Vector Fusion Explained
+- URL: https://aiglimpse.ai/articles/hybrid-search-rag-guide
+- Published: 2026-08-24
+- Category: research
+- Summary: Combine keyword and semantic retrieval to boost RAG recall. Implementation patterns, tuning strategies, and when hybrid beats pure vector search.
+- Type: evergreen explainer (FAQ schema on page)
 
 ### AI Agents vs Chatbots: Capabilities, Costs, and When to Build
 - URL: https://aiglimpse.ai/articles/ai-agents-vs-chatbots-difference
@@ -204,6 +211,13 @@ Total articles: 994 | Evergreen explainers: 28 | Generated: 2026-08-24
 - Type: evergreen explainer (FAQ schema on page)
 
 ## All articles (newest first)
+
+### Hybrid Search for RAG: BM25 + Vector Fusion Explained
+- URL: https://aiglimpse.ai/articles/hybrid-search-rag-guide
+- Published: 2026-08-24
+- Category: research
+- Summary: Combine keyword and semantic retrieval to boost RAG recall. Implementation patterns, tuning strategies, and when hybrid beats pure vector search.
+- Type: evergreen explainer (FAQ schema on page)
 
 ### Researchers Challenge AI Audit Standards as Insufficient
 - URL: https://aiglimpse.ai/articles/researchers-challenge-ai-audit-standards-as-insufficient-38083490

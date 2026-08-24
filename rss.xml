@@ -7,6 +7,14 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Hybrid Search for RAG: BM25 + Vector Fusion Explained</title>
+      <link>https://aiglimpse.ai/articles/hybrid-search-rag-guide</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/hybrid-search-rag-guide</guid>
+      <description>Combine keyword and semantic retrieval to boost RAG recall. Implementation patterns, tuning strategies, and when hybrid beats pure vector search.</description>
+      <pubDate>Mon, 24 Aug 2026 07:10:54 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
       <title>Researchers Challenge AI Audit Standards as Insufficient</title>
       <link>https://aiglimpse.ai/articles/researchers-challenge-ai-audit-standards-as-insufficient-38083490</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/researchers-challenge-ai-audit-standards-as-insufficient-38083490</guid>
@@ -397,14 +405,6 @@
       <description>Chinese AI lab demonstrates major performance gains using only post-training refinements, signaling a shift in how models reach competitive capability levels.</description>
       <pubDate>Sat, 15 Aug 2026 07:59:14 GMT</pubDate>
       <category>Ethics &amp; Policy</category>
-    </item>
-    <item>
-      <title>Google Releases Gemini 3.7 Flash, Pushing Speed in AI Inference</title>
-      <link>https://aiglimpse.ai/articles/google-releases-gemini-37-flash-pushing-speed-in-ai-inference-785762d2</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/google-releases-gemini-37-flash-pushing-speed-in-ai-inference-785762d2</guid>
-      <description>The search giant's latest model prioritizes faster responses without sacrificing reasoning capability, signaling a shift toward practical deployment.</description>
-      <pubDate>Thu, 13 Aug 2026 17:04:18 GMT</pubDate>
-      <category>AI Research</category>
     </item>
   </channel>
 </rss>
