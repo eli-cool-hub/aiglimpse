@@ -135,7 +135,6 @@
   <figcaption class="article-image-credit">Photo by <a href="https://www.pexels.com/photo/focused-and-determined-this-young-boy-harnesses-the-power-of-technology-as-he-diligently-works-on-his-laptop-shaping-a-future-filled-with-endless-possibilities-17602818/" rel="nofollow noopener" target="_blank">Shantanu Kumar</a> on Pexels.</figcaption>
 </figure>
 
-
 <p>MMLU (Massive Multitask Language Understanding) is the most cited LLM benchmark in public model reports. Introduced in 2021, it covers 57 subjects ranging from abstract algebra and computer science to nutrition and psychology. Models answer 14,042 multiple-choice questions across these domains. A top-tier model typically scores 90-96% on MMLU. It is ubiquitous because it is easy to run, publicly available, and produces a single number that feels meaningful.</p>
 
 <p>What MMLU actually measures: knowledge breadth and multiple-choice test-taking ability. A model that scores 94% on MMLU has learned to associate question text with correct answer patterns across a wide range of domains. This correlates loosely with general knowledge and instruction-following capability. That loose correlation is why MMLU scores matter at all.</p>
@@ -155,12 +154,6 @@
 <p>HumanEval is also biased toward Python and problems that fit the mold of competitive programming. It does not measure code review, refactoring ability, or the ability to generate code in other languages at the same quality. For a production evaluation, supplement HumanEval with private code evaluation: take real pull requests from your codebase, have the model generate solutions, and have senior engineers review the output for style, efficiency, and correctness.</p>
 
 <h2>MTEB: Embedding evaluation for retrieval and semantic tasks</h2>
-<figure class="article-image article-image--inline">
-  <picture><source srcset="/images/articles/ai-evaluation-benchmarks-explained-inline-2.webp" type="image/webp"><img src="/images/articles/ai-evaluation-benchmarks-explained-inline-2.jpg" alt="MTEB: Embedding evaluation for retrieval and semantic tasks" loading="lazy" width="1200" height="630"></picture>
-  <figcaption class="article-image-credit">Photo by <a href="https://www.pexels.com/photo/model-using-laptop-on-street-sidewlk-15505206/" rel="nofollow noopener" target="_blank">Shantanu Kumar</a> on Pexels.</figcaption>
-</figure>
-
-
 <p>MTEB (Massive Text Embedding Benchmark) is fundamentally different from MMLU and HumanEval because it evaluates embedding models, not generative models. An embedding model produces a vector representation of text, which is then used for semantic search, clustering, classification, or similarity matching. MTEB includes 58 tasks across eight categories: retrieval, ranking, clustering, classification, semantic textual similarity (STS), paraphrase detection, and reranking.</p>
 
 <p>What MTEB measures: semantic understanding as encoded in vector space. A model that ranks well on MTEB retrieval tasks can find relevant documents given a query. A model that ranks well on STS tasks captures semantic similarity between sentence pairs. Unlike MMLU or HumanEval, MTEB focuses on understanding meaning, not knowledge recall or syntax correctness.</p>
