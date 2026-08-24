@@ -1,6 +1,18 @@
 {
   "articles": [
     {
+      "slug": "hybrid-search-rag-guide",
+      "title": "Hybrid Search for RAG: BM25 + Vector Fusion Explained",
+      "subtitle": "Combine keyword and semantic retrieval to boost RAG recall. Implementation patterns, tuning strategies, and when hybrid beats pure vector search.",
+      "category": "research",
+      "publishedAt": "2026-08-24T07:10:54.533Z",
+      "sourceUrl": null,
+      "sourceName": "AI Glimpse Newsroom",
+      "sourceTier": 0,
+      "image": "/images/articles/hybrid-search-rag-guide.jpg",
+      "evergreen": true
+    },
+    {
       "slug": "researchers-challenge-ai-audit-standards-as-insufficient-38083490",
       "title": "Researchers Challenge AI Audit Standards as Insufficient",
       "subtitle": "Academics warn that current fairness metrics may obscure systemic discrimination in algorithmic systems without examining underlying power dynamics.",
