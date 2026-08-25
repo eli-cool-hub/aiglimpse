@@ -7,6 +7,14 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Nvidia Unveils Vera CPU Architecture for Next-Generation AI Workloads</title>
+      <link>https://aiglimpse.ai/articles/nvidia-unveils-vera-cpu-architecture-for-next-generation-ai-workloads-bc54e07c</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/nvidia-unveils-vera-cpu-architecture-for-next-generation-ai-workloads-bc54e07c</guid>
+      <description>Six-chiplet design promises massive performance gains for enterprise machine learning infrastructure.</description>
+      <pubDate>Tue, 25 Aug 2026 06:41:01 GMT</pubDate>
+      <category>Industry Applications</category>
+    </item>
+    <item>
       <title>Researchers Deploy AI Model to Scale Road Safety Audits in Developing Nations</title>
       <link>https://aiglimpse.ai/articles/researchers-deploy-ai-model-to-scale-road-safety-audits-in-developing-nations-b9499e53</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/researchers-deploy-ai-model-to-scale-road-safety-audits-in-developing-nations-b9499e53</guid>
@@ -397,14 +405,6 @@
       <description>The HEIR project automates homomorphic encryption for neural networks, potentially unlocking privacy-preserving AI at scale.</description>
       <pubDate>Sat, 15 Aug 2026 07:59:14 GMT</pubDate>
       <category>Ethics &amp; Policy</category>
-    </item>
-    <item>
-      <title>Nvidia Slashes OpenAI Data Center Commitment by Over 50 Percent</title>
-      <link>https://aiglimpse.ai/articles/nvidia-slashes-openai-data-center-commitment-by-over-50-percent-ffaef0c3</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/nvidia-slashes-openai-data-center-commitment-by-over-50-percent-ffaef0c3</guid>
-      <description>The chip giant reduces its financial guarantee for the AI pioneer's Ohio campus from $250B to under $120B, signaling recalibration in mega-scale AI infrastructure deals.</description>
-      <pubDate>Sat, 15 Aug 2026 07:59:14 GMT</pubDate>
-      <category>Industry Applications</category>
     </item>
   </channel>
 </rss>

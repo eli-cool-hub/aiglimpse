@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "nvidia-unveils-vera-cpu-architecture-for-next-generation-ai-workloads-bc54e07c",
+      "title": "Nvidia Unveils Vera CPU Architecture for Next-Generation AI Workloads",
+      "subtitle": "Six-chiplet design promises massive performance gains for enterprise machine learning infrastructure.",
+      "category": "industry",
+      "publishedAt": "2026-08-25T06:41:01.000Z",
+      "sourceUrl": "https://www.servethehome.com/nvidia-vera-cpu-at-hot-chips-2026/",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/nvidia-unveils-vera-cpu-architecture-for-next-generation-ai-workloads-bc54e07c.jpg"
+    },
+    {
       "slug": "researchers-deploy-ai-model-to-scale-road-safety-audits-in-developing-nations-b9499e53",
       "title": "Researchers Deploy AI Model to Scale Road Safety Audits in Developing Nations",
       "subtitle": "A new vision-language system trained on expert assessments could dramatically expand safety inspections in resource-constrained regions.",
@@ -11973,6 +11984,7 @@
     "003436103c89bf9d",
     "38083490dbc5074e",
     "fa2d8637b51d3fb1",
-    "b9499e539b6be25e"
+    "b9499e539b6be25e",
+    "bc54e07ce570a3cc"
   ]
 }
