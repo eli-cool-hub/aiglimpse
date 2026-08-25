@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "researchers-deploy-ai-model-to-scale-road-safety-audits-in-developing-nations-b9499e53",
+      "title": "Researchers Deploy AI Model to Scale Road Safety Audits in Developing Nations",
+      "subtitle": "A new vision-language system trained on expert assessments could dramatically expand safety inspections in resource-constrained regions.",
+      "category": "research",
+      "publishedAt": "2026-08-24T17:58:41.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2608.23563v1",
+      "sourceName": "arXiv (Md Thamed Bin Zaman Chowdhury, Moazzem Hossain)",
+      "sourceTier": 1,
+      "image": "/images/articles/researchers-deploy-ai-model-to-scale-road-safety-audits-in-developing-nations-b9499e53.jpg"
+    },
+    {
       "slug": "dutch-regulator-imposes-record-gdpr-fine-on-uber-for-algorithmic-driver-suspensi-fa2d8637",
       "title": "Dutch Regulator Imposes Record GDPR Fine on Uber for Algorithmic Driver Suspensions",
       "subtitle": "The 825 million euro penalty highlights regulatory backlash against automated decision-making systems that affect people's livelihoods without meaningful human review.",
@@ -11961,6 +11972,7 @@
     "d797bfd1ed5b699b",
     "003436103c89bf9d",
     "38083490dbc5074e",
-    "fa2d8637b51d3fb1"
+    "fa2d8637b51d3fb1",
+    "b9499e539b6be25e"
   ]
 }
