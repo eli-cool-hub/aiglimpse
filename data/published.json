@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "dutch-regulator-imposes-record-gdpr-fine-on-uber-for-algorithmic-driver-suspensi-fa2d8637",
+      "title": "Dutch Regulator Imposes Record GDPR Fine on Uber for Algorithmic Driver Suspensions",
+      "subtitle": "The 825 million euro penalty highlights regulatory backlash against automated decision-making systems that affect people's livelihoods without meaningful human review.",
+      "category": "ethics",
+      "publishedAt": "2026-08-24T23:03:01.000Z",
+      "sourceUrl": "https://techcrunch.com/2026/08/23/uber-faces-fine-of-nearly-1b-over-automated-driver-suspensions/",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/dutch-regulator-imposes-record-gdpr-fine-on-uber-for-algorithmic-driver-suspensi-fa2d8637.jpg"
+    },
+    {
       "slug": "hybrid-search-rag-guide",
       "title": "Hybrid Search for RAG: BM25 + Vector Fusion Explained",
       "subtitle": "Combine keyword and semantic retrieval to boost RAG recall. Implementation patterns, tuning strategies, and when hybrid beats pure vector search.",
@@ -11949,6 +11960,7 @@
     "8355350426ac2c1a",
     "d797bfd1ed5b699b",
     "003436103c89bf9d",
-    "38083490dbc5074e"
+    "38083490dbc5074e",
+    "fa2d8637b51d3fb1"
   ]
 }
