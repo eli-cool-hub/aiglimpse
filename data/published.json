@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "epa-proposes-loosening-air-permit-rules-for-data-center-generators-aebcecff",
+      "title": "EPA Proposes Loosening Air Permit Rules for Data Center Generators",
+      "subtitle": "Regulatory shift could accelerate AI infrastructure expansion by reducing public oversight of diesel emissions from hyperscale facilities.",
+      "category": "ethics",
+      "publishedAt": "2026-08-25T18:32:44.000Z",
+      "sourceUrl": "https://www.nytimes.com/2026/08/25/climate/epa-data-centers-public-comment.html",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/epa-proposes-loosening-air-permit-rules-for-data-center-generators-aebcecff.jpg"
+    },
+    {
       "slug": "ai-robots-shift-from-task-automation-to-emotional-support-in-homes-f498f720",
       "title": "AI Robots Shift From Task Automation to Emotional Support in Homes",
       "subtitle": "A new generation of companion robots prioritizes persistent presence and emotional engagement over functionality, targeting isolated elderly adults, remote-parented children, and urban professionals.",
@@ -11997,6 +12008,7 @@
     "fa2d8637b51d3fb1",
     "b9499e539b6be25e",
     "bc54e07ce570a3cc",
-    "f498f720f7e4c436"
+    "f498f720f7e4c436",
+    "aebcecff6608afa8"
   ]
 }
