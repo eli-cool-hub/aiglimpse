@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "ai-robots-shift-from-task-automation-to-emotional-support-in-homes-f498f720",
+      "title": "AI Robots Shift From Task Automation to Emotional Support in Homes",
+      "subtitle": "A new generation of companion robots prioritizes persistent presence and emotional engagement over functionality, targeting isolated elderly adults, remote-parented children, and urban professionals.",
+      "category": "research",
+      "publishedAt": "2026-08-25T10:00:03.000Z",
+      "sourceUrl": "https://spectrum.ieee.org/ollobot-ai-companion-robot",
+      "sourceName": "IEEE Spectrum AI",
+      "sourceTier": 2,
+      "image": "/images/articles/ai-robots-shift-from-task-automation-to-emotional-support-in-homes-f498f720.jpg"
+    },
+    {
       "slug": "nvidia-unveils-vera-cpu-architecture-for-next-generation-ai-workloads-bc54e07c",
       "title": "Nvidia Unveils Vera CPU Architecture for Next-Generation AI Workloads",
       "subtitle": "Six-chiplet design promises massive performance gains for enterprise machine learning infrastructure.",
@@ -11985,6 +11996,7 @@
     "38083490dbc5074e",
     "fa2d8637b51d3fb1",
     "b9499e539b6be25e",
-    "bc54e07ce570a3cc"
+    "bc54e07ce570a3cc",
+    "f498f720f7e4c436"
   ]
 }
