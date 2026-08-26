@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "new-training-method-cuts-ai-agent-learning-time-by-removing-synchronization-bott-9be5edd9",
+      "title": "New Training Method Cuts AI Agent Learning Time by Removing Synchronization Bottleneck",
+      "subtitle": "Researchers propose SPO++ to accelerate reinforcement learning for language models using tools, eliminating costly waiting periods during training.",
+      "category": "research",
+      "publishedAt": "2026-08-25T17:52:19.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2608.24870v1",
+      "sourceName": "arXiv (Kai Ruan, Jinghao Lin, Qianshan Wei, Ziqi Zhou, Zihe Huang)",
+      "sourceTier": 1,
+      "image": "/images/articles/new-training-method-cuts-ai-agent-learning-time-by-removing-synchronization-bott-9be5edd9.jpg"
+    },
+    {
       "slug": "small-language-models-edge-ai",
       "title": "Small Language Models for Edge AI: On-Device Inference Guide",
       "subtitle": "How to run compact LLMs on phones and edge hardware with quantization, latency trade-offs, and framework options.",
@@ -12045,6 +12056,7 @@
     "f498f720f7e4c436",
     "aebcecff6608afa8",
     "c1d1d086b9fa24cc",
-    "fd2a3e095eee418d"
+    "fd2a3e095eee418d",
+    "9be5edd9e93e4c45"
   ]
 }

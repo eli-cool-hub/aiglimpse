@@ -7,6 +7,22 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>New Training Method Cuts AI Agent Learning Time by Removing Synchronization Bottleneck</title>
+      <link>https://aiglimpse.ai/articles/new-training-method-cuts-ai-agent-learning-time-by-removing-synchronization-bott-9be5edd9</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-training-method-cuts-ai-agent-learning-time-by-removing-synchronization-bott-9be5edd9</guid>
+      <description>Researchers propose SPO++ to accelerate reinforcement learning for language models using tools, eliminating costly waiting periods during training.</description>
+      <pubDate>Tue, 25 Aug 2026 17:52:19 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
+      <title>Small Language Models for Edge AI: On-Device Inference Guide</title>
+      <link>https://aiglimpse.ai/articles/small-language-models-edge-ai</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/small-language-models-edge-ai</guid>
+      <description>How to run compact LLMs on phones and edge hardware with quantization, latency trade-offs, and framework options.</description>
+      <pubDate>Wed, 26 Aug 2026 06:33:44 GMT</pubDate>
+      <category>AI Tools &amp; Products</category>
+    </item>
+    <item>
       <title>Researchers Expose Critical Flaw in Robot World Models</title>
       <link>https://aiglimpse.ai/articles/researchers-expose-critical-flaw-in-robot-world-models-fd2a3e09</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/researchers-expose-critical-flaw-in-robot-world-models-fd2a3e09</guid>
@@ -389,22 +405,6 @@
       <description>Traders grow uneasy about off-balance-sheet financing arrangements that let AI companies dodge debt disclosure rules.</description>
       <pubDate>Sun, 16 Aug 2026 03:28:47 GMT</pubDate>
       <category>Industry Applications</category>
-    </item>
-    <item>
-      <title>New York City Moves to Restrict Facial Recognition in Public Spaces</title>
-      <link>https://aiglimpse.ai/articles/new-york-city-moves-to-restrict-facial-recognition-in-public-spaces-bd143d92</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-york-city-moves-to-restrict-facial-recognition-in-public-spaces-bd143d92</guid>
-      <description>A proposed law gaining momentum in the City Council would ban facial scanning technology in venues open to the public, marking a significant shift in AI regulation.</description>
-      <pubDate>Sun, 16 Aug 2026 03:12:01 GMT</pubDate>
-      <category>Ethics &amp; Policy</category>
-    </item>
-    <item>
-      <title>The Missing Piece in Robotics: Why Voice Integration Lags Behind Vision</title>
-      <link>https://aiglimpse.ai/articles/the-missing-piece-in-robotics-why-voice-integration-lags-behind-vision-b1afd6d7</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/the-missing-piece-in-robotics-why-voice-integration-lags-behind-vision-b1afd6d7</guid>
-      <description>As humanoid robots advance in locomotion and sight, their inability to understand natural speech in real-world conditions threatens mainstream adoption.</description>
-      <pubDate>Sat, 15 Aug 2026 12:20:18 GMT</pubDate>
-      <category>Robotics</category>
     </item>
   </channel>
 </rss>

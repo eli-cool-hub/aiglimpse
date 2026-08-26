@@ -20,6 +20,8 @@ All content is original reporting by the AI Glimpse newsroom. Primary sources ar
 
 ## Recent articles
 
+- [New Training Method Cuts AI Agent Learning Time by Removing Synchronization Bottleneck](https://aiglimpse.ai/articles/new-training-method-cuts-ai-agent-learning-time-by-removing-synchronization-bott-9be5edd9) (2026-08-25): Researchers propose SPO++ to accelerate reinforcement learning for language models using tools, eliminating costly waiting periods during training.
+- [Small Language Models for Edge AI: On-Device Inference Guide](https://aiglimpse.ai/articles/small-language-models-edge-ai) (2026-08-26): How to run compact LLMs on phones and edge hardware with quantization, latency trade-offs, and framework options.
 - [Researchers Expose Critical Flaw in Robot World Models](https://aiglimpse.ai/articles/researchers-expose-critical-flaw-in-robot-world-models-fd2a3e09) (2026-08-25): New diagnostic tool reveals that AI-trained robot simulators fail to properly follow non-expert commands, threatening the reliability of policy learning systems.
 - [Why Most Hospital AI Projects Fail After Launch](https://aiglimpse.ai/articles/why-most-hospital-ai-projects-fail-after-launch-c1d1d086) (2026-08-25): Healthcare systems struggle less with AI technology than with organizational change. Stanford's ChatEHR offers a blueprint for success.
 - [EPA Proposes Loosening Air Permit Rules for Data Center Generators](https://aiglimpse.ai/articles/epa-proposes-loosening-air-permit-rules-for-data-center-generators-aebcecff) (2026-08-25): Regulatory shift could accelerate AI infrastructure expansion by reducing public oversight of diesel emissions from hyperscale facilities.
@@ -48,11 +50,10 @@ All content is original reporting by the AI Glimpse newsroom. Primary sources ar
 - [New Method Fixes AI Training Flaw in Long-Context Reasoning Tasks](https://aiglimpse.ai/articles/new-method-fixes-ai-training-flaw-in-long-context-reasoning-tasks-42e517d4) (2026-08-19): Researchers address a fundamental mismatch between how AI learns from teachers and what actually solves complex problems.
 - [Meta's Safety Systems Allegedly Built to Underperform, Former Engineer Testifies](https://aiglimpse.ai/articles/metas-safety-systems-allegedly-built-to-underperform-former-engineer-testifies-ab16a36f) (2026-08-20): A key witness claims Instagram's teen protection features were intentionally designed with inherent limitations, raising questions about AI safety standards.
 - [FDA Proposes Physician-Level Testing for AI Medical Devices](https://aiglimpse.ai/articles/fda-proposes-physician-level-testing-for-ai-medical-devices-858eaf31) (2026-08-19): Regulators consider new standards requiring generative AI systems to demonstrate clinical competence before deployment in healthcare settings.
-- [FORT Robotics Goes Public to Scale Safety Systems for Autonomous Machines](https://aiglimpse.ai/articles/fort-robotics-goes-public-to-scale-safety-systems-for-autonomous-machines-81da504c) (2026-08-18): The company's trust platform aims to make human-robot collaboration safer and more scalable across industrial sectors.
-- [Enterprise AI Security: Mitigating Prompt Injection and Data Leakage](https://aiglimpse.ai/articles/enterprise-ai-security-best-practices) (2026-08-19): A security checklist for deploying LLMs without exposing sensitive data or compromising model behavior
 
 ## Explainers (evergreen)
 
+- [Small Language Models for Edge AI: On-Device Inference Guide](https://aiglimpse.ai/articles/small-language-models-edge-ai) (2026-08-26): How to run compact LLMs on phones and edge hardware with quantization, latency trade-offs, and framework options.
 - [Hybrid Search for RAG: BM25 + Vector Fusion Explained](https://aiglimpse.ai/articles/hybrid-search-rag-guide) (2026-08-24): Combine keyword and semantic retrieval to boost RAG recall. Implementation patterns, tuning strategies, and when hybrid beats pure vector search.
 - [AI Agents vs Chatbots: Capabilities, Costs, and When to Build](https://aiglimpse.ai/articles/ai-agents-vs-chatbots-difference) (2026-08-21): A technical comparison for product teams deciding between conversational AI and agentic systems.
 - [Enterprise AI Security: Mitigating Prompt Injection and Data Leakage](https://aiglimpse.ai/articles/enterprise-ai-security-best-practices) (2026-08-19): A security checklist for deploying LLMs without exposing sensitive data or compromising model behavior
@@ -87,7 +88,7 @@ All content is original reporting by the AI Glimpse newsroom. Primary sources ar
 
 - [Sitemap](https://aiglimpse.ai/sitemap.xml): Sitemap index (pages, articles, Google News last 48h).
 - [RSS](https://aiglimpse.ai/rss.xml): 50 most recent articles (RSS 2.0).
-- [Full content index](https://aiglimpse.ai/llms-full.txt): Extended article list for LLM crawlers (1002 articles).
+- [Full content index](https://aiglimpse.ai/llms-full.txt): Extended article list for LLM crawlers (1004 articles).
 
 ## About
 

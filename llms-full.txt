@@ -3,9 +3,16 @@
 > Machine-readable index for AI assistants, answer engines, and research crawlers.
 > Summary version: https://aiglimpse.ai/llms.txt
 
-Total articles: 1002 | Evergreen explainers: 29 | Generated: 2026-08-26
+Total articles: 1004 | Evergreen explainers: 30 | Generated: 2026-08-26
 
 ## Evergreen explainers
+
+### Small Language Models for Edge AI: On-Device Inference Guide
+- URL: https://aiglimpse.ai/articles/small-language-models-edge-ai
+- Published: 2026-08-26
+- Category: tools
+- Summary: How to run compact LLMs on phones and edge hardware with quantization, latency trade-offs, and framework options.
+- Type: evergreen explainer (FAQ schema on page)
 
 ### Hybrid Search for RAG: BM25 + Vector Fusion Explained
 - URL: https://aiglimpse.ai/articles/hybrid-search-rag-guide
@@ -211,6 +218,20 @@ Total articles: 1002 | Evergreen explainers: 29 | Generated: 2026-08-26
 - Type: evergreen explainer (FAQ schema on page)
 
 ## All articles (newest first)
+
+### New Training Method Cuts AI Agent Learning Time by Removing Synchronization Bottleneck
+- URL: https://aiglimpse.ai/articles/new-training-method-cuts-ai-agent-learning-time-by-removing-synchronization-bott-9be5edd9
+- Published: 2026-08-25
+- Category: research
+- Summary: Researchers propose SPO++ to accelerate reinforcement learning for language models using tools, eliminating costly waiting periods during training.
+- Source: http://arxiv.org/abs/2608.24870v1
+
+### Small Language Models for Edge AI: On-Device Inference Guide
+- URL: https://aiglimpse.ai/articles/small-language-models-edge-ai
+- Published: 2026-08-26
+- Category: tools
+- Summary: How to run compact LLMs on phones and edge hardware with quantization, latency trade-offs, and framework options.
+- Type: evergreen explainer (FAQ schema on page)
 
 ### Researchers Expose Critical Flaw in Robot World Models
 - URL: https://aiglimpse.ai/articles/researchers-expose-critical-flaw-in-robot-world-models-fd2a3e09
