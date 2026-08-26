@@ -1,6 +1,18 @@
 {
   "articles": [
     {
+      "slug": "small-language-models-edge-ai",
+      "title": "Small Language Models for Edge AI: On-Device Inference Guide",
+      "subtitle": "How to run compact LLMs on phones and edge hardware with quantization, latency trade-offs, and framework options.",
+      "category": "tools",
+      "publishedAt": "2026-08-26T06:33:44.171Z",
+      "sourceUrl": null,
+      "sourceName": "AI Glimpse Newsroom",
+      "sourceTier": 0,
+      "image": "/images/articles/small-language-models-edge-ai.jpg",
+      "evergreen": true
+    },
+    {
       "slug": "researchers-expose-critical-flaw-in-robot-world-models-fd2a3e09",
       "title": "Researchers Expose Critical Flaw in Robot World Models",
       "subtitle": "New diagnostic tool reveals that AI-trained robot simulators fail to properly follow non-expert commands, threatening the reliability of policy learning systems.",

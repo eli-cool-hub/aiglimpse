@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Small Language Models for Edge AI: On-Device Inference Guide | AI Glimpse</title>
+  <meta name="description" content="Complete guide to small language models for edge AI. Learn model sizes, latency, quality gaps, and frameworks for on-device LLM inference.">
+  <meta name="keywords" content="small language model, edge AI, on-device LLM, mobile AI, SLM, quantized models, edge inference">
+  <link rel="canonical" href="https://aiglimpse.ai/articles/small-language-models-edge-ai">
+  <meta property="og:type" content="article"><meta property="og:site_name" content="AI Glimpse">
+  <meta property="og:title" content="Small Language Models for Edge AI: On-Device Inference Guide">
+  <meta property="og:description" content="Complete guide to small language models for edge AI. Learn model sizes, latency, quality gaps, and frameworks for on-device LLM inference.">
+  <meta property="og:url" content="https://aiglimpse.ai/articles/small-language-models-edge-ai">
+  <meta property="og:image" content="https://aiglimpse.ai/images/articles/small-language-models-edge-ai.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="article:published_time" content="2026-08-26T06:33:44.171Z">
+  <meta property="article:section" content="AI Tools & Products">
+  <meta property="article:tag" content="small language model">
+  <meta property="article:tag" content="edge AI">
+  <meta property="article:tag" content="on-device LLM">
+  <meta property="article:tag" content="mobile AI">
+  <meta property="article:tag" content="SLM">
+  <meta property="article:tag" content="quantized models">
+  <meta property="article:tag" content="edge inference">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Small Language Models for Edge AI: On-Device Inference Guide">
+  <meta name="twitter:description" content="Complete guide to small language models for edge AI. Learn model sizes, latency, quality gaps, and frameworks for on-device LLM inference.">
+  <meta name="twitter:image" content="https://aiglimpse.ai/images/articles/small-language-models-edge-ai.jpg">
+  <link rel="icon" type="image/svg+xml" href="/images/favicon.svg">
+  <link rel="alternate" type="application/rss+xml" title="AI Glimpse RSS" href="/rss.xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700;9..144,900&family=Inter+Tight:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap">
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="preload" as="image" href="/images/articles/small-language-models-edge-ai.webp" type="image/webp" fetchpriority="high">
+  <style>.reading-progress{position:fixed;top:0;left:0;height:3px;background:var(--color-accent);width:0%;z-index:200;transition:width 100ms linear;}</style>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","mainEntityOfPage":{"@type":"WebPage","@id":"https://aiglimpse.ai/articles/small-language-models-edge-ai"},"headline":"Small Language Models for Edge AI: On-Device Inference Guide","description":"Complete guide to small language models for edge AI. Learn model sizes, latency, quality gaps, and frameworks for on-device LLM inference.","image":["https://aiglimpse.ai/images/articles/small-language-models-edge-ai.jpg"],"datePublished":"2026-08-26T06:33:44.171Z","dateModified":"2026-08-26T06:33:44.171Z","author":{"@type":"Organization","name":"AI Glimpse Newsroom"},"publisher":{"@type":"Organization","name":"AI Glimpse","logo":{"@type":"ImageObject","url":"https://aiglimpse.ai/images/logo.svg"}},"articleSection":"AI Tools & Products","keywords":"small language model, edge AI, on-device LLM, mobile AI, SLM, quantized models, edge inference"}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://aiglimpse.ai/"},{"@type":"ListItem","position":2,"name":"AI Tools & Products","item":"https://aiglimpse.ai/categories/tools"},{"@type":"ListItem","position":3,"name":"Small Language Models for Edge AI: On-Device Inference Guide","item":"https://aiglimpse.ai/articles/small-language-models-edge-ai"}]}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What size small language model can run on a smartphone?","acceptedAnswer":{"@type":"Answer","text":"Models from 1B to 13B parameters can run on modern phones, depending on quantization and RAM. A 3B parameter model quantized to 4-bit requires roughly 1.5GB VRAM and can execute in 50-150ms per token on flagship hardware."}},{"@type":"Question","name":"How much faster is on-device inference than cloud API calls?","acceptedAnswer":{"@type":"Answer","text":"Latency is typically 10 to 100x lower for initial token generation (50-500ms vs 500-2000ms with network round-trip), but throughput for long sequences may be lower due to device constraints. The real win is privacy and offline capability, not speed alone."}},{"@type":"Question","name":"What is quantization and why does it matter for edge AI?","acceptedAnswer":{"@type":"Answer","text":"Quantization reduces model precision from 32-bit floats to 8-bit or 4-bit integers, shrinking model size by 75-85% with minimal accuracy loss. This is essential for fitting models into phone RAM and VRAM."}},{"@type":"Question","name":"Which frameworks are best for deploying SLMs on edge devices?","acceptedAnswer":{"@type":"Answer","text":"ONNX Runtime, TensorRT-LLM, Core ML, and TensorFlow Lite each excel in specific contexts. Android favors ONNX Runtime and TensorFlow Lite; iOS uses Core ML; servers use TensorRT-LLM. Choose based on your target hardware and latency budget."}},{"@type":"Question","name":"How much quality do you lose by running a smaller model instead of GPT-4?","acceptedAnswer":{"@type":"Answer","text":"A well-tuned 7B SLM is roughly at GPT-3.5 level on reasoning tasks; below that on complex multi-step problems. Quality loss depends heavily on task, fine-tuning, and use case. Benchmark on your specific workload rather than assume."}},{"@type":"Question","name":"Can edge AI models work offline?","acceptedAnswer":{"@type":"Answer","text":"Yes, that is a core advantage. Once deployed to device, SLMs require no network connection. This enables privacy-first applications like on-device summarization, local search, and real-time mobile assistance."}},{"@type":"Question","name":"What hardware do I need for production edge AI?","acceptedAnswer":{"@type":"Answer","text":"Modern flagship phones (Snapdragon 8 Gen 3, A17 Pro) support 3-7B models well. For robotics and industrial use, NVIDIA Jetson Orin (275 TOPS) or Qualcomm QCS8550 provide more headroom. Budget-class devices are limited to <1B parameter models."}}]}</script>
+  <meta name="google-site-verification" content="B132aMlqf1nssWYhjOSKUgSjmfwNWgPgtozZsHDxWlU" />
+  <meta name="msvalidate.01" content="F3762E555B3E685836AE39C90B79ECBF" />
+  <!-- aiglimpse-consent-default v1: must run before AdSense, defaults all ad/analytics storage to denied -->
+  <script>(function(){window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}window.gtag=gtag;gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'denied',functionality_storage:'granted',security_storage:'granted',wait_for_update:500});try{var s=JSON.parse(localStorage.getItem('aiglimpse-consent')||'null');if(s&&s.choice==='granted'){gtag('consent','update',{ad_storage:'granted',ad_user_data:'granted',ad_personalization:'granted',analytics_storage:'granted'});}}catch(e){}})();</script>
+  <!-- aiglimpse-ga4 v1: gtag.js loaded after consent default, so it buffers events until consent is granted -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-EVZ52DNQ8S"></script>
+  <script>gtag('js', new Date()); gtag('config', 'G-EVZ52DNQ8S', { anonymize_ip: true });</script>
+</head>
+<body>
+  <div class="reading-progress" aria-hidden="true"></div>
+  <header class="site-header" role="banner">
+    <div class="container">
+      <div class="header-bar">
+        <a href="/" class="logo" aria-label="AI Glimpse home">
+          <span class="logo-wordmark" aria-label="AI Glimpse">A<span class="iris-i" aria-hidden="true">ı</span><span aria-hidden="true"> Glimpse</span></span>
+        </a>
+        <nav class="nav-primary" aria-label="Primary">
+          <a href="/categories/llms">LLMs</a>
+            <a href="/categories/research">Research</a>
+            <a href="/categories/tools">Tools</a>
+            <a href="/categories/business">Business</a>
+            <a href="/categories/ethics">Ethics</a>
+            <a href="/categories/industry">Industry</a>
+            <a href="/categories/robotics">Robotics</a>
+        </nav>
+        <div class="header-actions">
+          <a class="search-btn" href="/search" aria-label="Search">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="11" cy="11" r="7"/><path d="M21 21l-4.35-4.35"/>
+            </svg>
+          </a>
+          <a href="#newsletter" class="btn btn--primary btn--sm">Subscribe</a>
+          <button class="menu-btn" aria-label="Open menu">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+  <aside class="mobile-menu" aria-label="Mobile menu">
+    <div class="mobile-menu-header">
+      <a href="/" class="logo">
+        <span class="logo-wordmark" aria-label="AI Glimpse">A<span class="iris-i" aria-hidden="true">ı</span><span aria-hidden="true"> Glimpse</span></span>
+      </a>
+      <button class="mobile-menu-close" aria-label="Close menu" style="font-size:24px;">×</button>
+    </div>
+    <a href="/categories/llms">LLMs</a>
+    <a href="/categories/research">Research</a>
+    <a href="/categories/tools">Tools</a>
+    <a href="/categories/business">Business</a>
+    <a href="/categories/ethics">Ethics</a>
+    <a href="/categories/industry">Industry</a>
+    <a href="/categories/robotics">Robotics</a>
+    <a href="/search">Search</a>
+    <a href="/pages/about">About</a>
+    <a href="#newsletter">Subscribe</a>
+  </aside>
+  <main>
+    <article>
+      <section class="article-hero">
+        <div class="container container--narrow">
+          <nav aria-label="Breadcrumb" style="margin-bottom:var(--space-4);font-size:var(--text-xs);color:var(--color-ink-muted);">
+            <a href="/" style="color:inherit;">Home</a> /
+            <a href="/categories/tools" style="color:inherit;">AI Tools & Products</a> /
+            <span>Explainer</span>
+          </nav>
+          <div class="article-hero-meta">
+            <span class="tag tag--tools">AI Tools & Products</span>
+            <span class="eyebrow eyebrow--accent">Explainer</span>
+            <span class="eyebrow">12 min read</span>
+          </div>
+          <h1 class="article-hero-title">Small Language Models for Edge AI: On-Device Inference Guide</h1>
+          <p class="article-hero-subtitle">How to run compact LLMs on phones and edge hardware with quantization, latency trade-offs, and framework options.</p>
+          <div class="article-byline">
+            <div>By <strong>AI Glimpse Newsroom</strong></div><div>·</div>
+            <div><time datetime="2026-08-26T06:33:44.171Z" data-relative="false">August 26, 2026</time></div>
+          </div>
+        </div>
+      </section>
+      <section style="padding: var(--space-7) 0;">
+        <div class="container container--narrow">
+          <figure class="article-image"><picture><source srcset="/images/articles/small-language-models-edge-ai.webp" type="image/webp"><img src="/images/articles/small-language-models-edge-ai.jpg" alt="Small Language Models for Edge AI: On-Device Inference Guide" loading="eager" fetchpriority="high" width="1200" height="630"></picture></figure>
+          <div class="article-body"><p>A small language model (SLM) is a compact neural network, typically between 1 billion and 13 billion parameters, designed to run directly on edge devices including smartphones, robots, and IoT hardware. Unlike frontier models such as GPT-4, which require cloud servers and cost cents per inference, SLMs trade some reasoning capacity for the ability to execute locally, offline, and with latencies under 500 milliseconds per token. This shift from cloud-first to edge-first AI is reshaping how products handle real-time inference, privacy, and cost at scale.</p>
+
+<h2>Why this matters now</h2>
+
+<p>Through 2026, the economics and capability of edge AI have reached an inflection point. Device hardware, particularly mobile neural processors, has crossed a threshold: flagship phones now pack 300+ TOPS of AI compute, enough to handle quantized models in the 3B to 7B parameter range. Simultaneously, techniques like 4-bit quantization and grouped query attention have reduced model weight without crippling quality. The result is that teams building mobile products, industrial robotics, and deployed sensors now have a realistic option to avoid the latency, cost, and privacy exposure of cloud APIs.</p>
+
+<p>This matters because the cost structure flips. A cloud-based inference pipeline that handles 100 million daily requests might cost hundreds of thousands monthly in API calls. An on-device SLM, deployed once, costs nearly nothing per inference after the initial development and device storage footprint. In regulated industries such as healthcare and financial services, edge inference also sidesteps data residency and compliance concerns entirely. At the same time, the quality and reasoning gaps between SLMs and frontier models remain real: teams must be honest about when a 7B model is sufficient and when you need GPT-4.</p>
+
+<h2>Model size, RAM, and device constraints</h2>
+<figure class="article-image article-image--inline">
+  <picture><source srcset="/images/articles/small-language-models-edge-ai-inline-1.webp" type="image/webp"><img src="/images/articles/small-language-models-edge-ai-inline-1.jpg" alt="Model size, RAM, and device constraints" loading="lazy" width="1200" height="630"></picture>
+  <figcaption class="article-image-credit">Photo by <a href="https://www.pexels.com/photo/programming-code-on-computer-screen-5223887/" rel="nofollow noopener" target="_blank">Godfrey  Atima</a> on Pexels.</figcaption>
+</figure>
+
+
+<p>The relationship between model parameters, quantization, and available device memory is non-negotiable: understand it or your deployment will fail in production.</p>
+
+<p>A model's size in memory depends on two variables: parameter count and precision. A 7B parameter model stored in full 32-bit floating-point format occupies roughly 28GB in RAM (7 billion parameters × 4 bytes per parameter). That fits no phone. Quantization shrinks this dramatically:</p>
+
+<ul>
+<li><strong>FP32 (32-bit float):</strong> baseline, no compression. 7B model = 28GB. Not viable on mobile.</li>
+<li><strong>FP16 (16-bit float):</strong> 7B model = 14GB. Still too large for most phones.</li>
+<li><strong>Int8 (8-bit integer):</strong> 7B model = 7GB. On the edge of large flagship phones with aggressive compression elsewhere.</li>
+<li><strong>Int4 (4-bit integer):</strong> 7B model = 3.5GB. Fits modern flagships with headroom. Quality loss is typically 1-3% on benchmarks when done carefully.</li>
+</ul>
+
+<p>An iPhone 16 Pro or Snapdragon 8 Gen 3 flagship typically offers 8-12GB of RAM. The OS reserves 2-4GB, leaving 4-8GB for your application. A quantized 7B SLM at 3.5GB is therefore plausible, but it fills most of the available space and leaves little room for other app operations. In practice, many teams deploy 3B to 5B models to stay comfortably under 2GB and reduce memory pressure on the OS.</p>
+
+<p>For inference itself, models do not need to load the entire weight matrix into RAM at once. Techniques like "streaming" weights from disk or using segment-by-segment execution can reduce peak memory usage below the full model size, at the cost of added latency. This matters on budget phones (2-4GB total RAM) where 1B parameter models are the practical ceiling.</p>
+
+<p>Robotics and edge servers offer more flexibility. An NVIDIA Jetson Orin Nano has 8GB VRAM and can handle 7B models comfortably. An Orin NX with 16GB VRAM can run models up to 20B parameters with quantization. Industrial applications with no size or power constraint can be more generous with model scale, enabling better quality at the cost of higher power draw.</p>
+
+<h2>Latency, throughput, and token generation speed</h2>
+
+<p>Latency is the wall-clock time to the first token (time-to-first-token or TTFT) and the time per subsequent token (tokens-per-second or TPS). These matter because they directly affect user experience in real-time applications.</p>
+
+<p>On a flagship mobile phone (e.g., A17 Pro with 16-core Neural Engine), a quantized 3B SLM typically generates the first token in 100-200ms and subsequent tokens at 5-15 tokens per second, depending on the specific model architecture and whether the device supports batch or speculative decoding. A 7B model under the same conditions takes 200-400ms for the first token and 3-8 tokens per second. These are rough ranges; actual performance varies with implementation, whether you are using optimized kernels (like ONNX Runtime's QNN provider for Snapdragon), and what else is running on the device.</p>
+
+<p>For comparison, a cloud API call (e.g., to Claude or GPT-4) typically incurs 500-2000ms of latency due to network round-trip, server queue, and processing time. For short requests, the edge device can be 5-10x faster. However, this advantage erodes if the edge model needs to generate long outputs: a 100-token response on-device (generating at 8 TPS) takes 12.5 seconds, while the cloud model might take only 3-4 seconds if it has higher throughput.</p>
+
+<p>The practical implication is that edge SLMs excel at latency-sensitive, short-output tasks: autocomplete, real-time translation, local search, or sentiment analysis. They are less ideal for tasks requiring long, multi-paragraph generations where total time-to-completion matters more than first-token latency.</p>
+
+<p>Memory bandwidth is another constraint rarely discussed but critical in practice. Mobile phones are designed for multimedia, not sustained matrix math. The peak memory bandwidth on an iPhone 16 Pro is around 120 GB/s. A 7B model at 4-bit precision requires roughly 3.5GB of weight data. During a single forward pass, this data must move from memory to compute. If the compute itself takes only a few billion operations (which is common in inference, not training), the model quickly becomes memory-bandwidth limited rather than compute-limited. This means faster hardware does not always translate to proportionally faster inference.</p>
+
+<h2>Quantization: the core technique for edge deployment</h2>
+<figure class="article-image article-image--inline">
+  <picture><source srcset="/images/articles/small-language-models-edge-ai-inline-2.webp" type="image/webp"><img src="/images/articles/small-language-models-edge-ai-inline-2.jpg" alt="Quantization: the core technique for edge deployment" loading="lazy" width="1200" height="630"></picture>
+  <figcaption class="article-image-credit">Photo by <a href="https://www.pexels.com/photo/close-up-of-computer-screen-with-code-and-menu-options-34804017/" rel="nofollow noopener" target="_blank">Daniil Komov</a> on Pexels.</figcaption>
+</figure>
+
+
+<p>Quantization is not one technique but a family of methods to reduce model precision. For on-device SLMs, the most common approaches are post-training quantization (PTQ) and quantization-aware training (QAT).</p>
+
+<p>Post-training quantization happens after the model is fully trained. You take a model in FP32 and convert weights and activations to lower precision (e.g., Int8 or Int4) using calibration data. The appeal is speed: you do not retrain. The downside is that aggressive quantization (especially Int4) can degrade accuracy by 2-5% on reasoning tasks if not done carefully. Techniques like symmetric vs. asymmetric quantization, per-channel vs. per-layer scaling, and learned quantization parameters all affect the output quality.</p>
+
+<p>Quantization-aware training, by contrast, simulates quantization during training so the model learns to operate in lower precision. QAT typically preserves accuracy better than PTQ (degradation under 1% even at Int4) but requires access to training infrastructure and labeled data, making it less accessible for practitioners working with open-source or pre-trained models.</p>
+
+<p>For most edge AI teams, the practical workflow is: download a pre-trained SLM, apply post-training quantization using a tool like GPTQ, AutoGPTQ, or ONNX Runtime quantization, benchmark on your target task, and iterate. If accuracy is insufficient, either fine-tune the quantized model on your task or move to a larger base model. Complete retraining from scratch is rarely necessary.</p>
+
+<p>A note on bit-width: Int4 and Int8 are the sweet spots for edge deployment. Int4 is aggressive and introduces more quantization error but cuts model size in half versus Int8. Some vendors also promote "mixed-bit" schemes where some layers stay at Int8 while others use Int4. The gains are incremental and the complexity is higher; Int4 uniformly is usually simpler and sufficient.</p>
+
+<h2>Frameworks and deployment ecosystems</h2>
+
+<p>Choosing a framework for SLM deployment depends on your target hardware and the depth of optimization you need. No single framework dominates all scenarios.</p>
+
+<p><strong>ONNX Runtime</strong> is the most hardware-agnostic option. You convert your model to ONNX format, then run it on ONNX Runtime, which supports CPU, GPU (via TensorRT or CoreML), and NPUs. ONNX is well-suited for teams that want a single model to work across Android, iOS, and desktop. The downside is that ONNX does not always expose the very latest optimizations from specialized accelerators, so latency can lag behind native solutions. For most SLM use cases, ONNX Runtime is fast enough.</p>
+
+<p><strong>TensorFlow Lite</strong> is Google's framework for mobile and edge deployment. It excels on Android and supports Android Neural Processing Unit (NNPU) acceleration. TensorFlow Lite has strong tooling for quantization and is widely used in production. The ecosystem is mature and documentation is good. On iOS, TensorFlow Lite works but is less natural than Core ML.</p>
+
+<p><strong>Core ML</strong> is Apple's native framework for on-device inference. It integrates tightly with iOS and can accelerate inference using the Neural Engine, GPU, or CPU as needed. For iOS-first products, Core ML is the fastest and most power-efficient option. Conversion from other formats (PyTorch, TensorFlow) to Core ML is straightforward via tools like coremltools.</p>
+
+<p><strong>TensorRT-LLM</strong> is NVIDIA's inference engine optimized for LLMs on CUDA-capable GPUs. It is not a mobile framework but essential for Jetson and data-center edge deployments. TensorRT-LLM applies aggressive kernel fusion, dynamic batching, and specialized optimizations for LLM patterns. If you are deploying on Jetson hardware, TensorRT-LLM is the path to best performance.</p>
+
+<p><strong>llama.cpp</strong> is an open-source inference engine for llama-family models that has become a de facto standard. It runs on CPU on almost any device (including older phones) and supports quantization. The appeal is simplicity and no framework overhead. The downside is CPU-only inference, which is slower than GPU or NPU acceleration. For learning and small-scale deployment, llama.cpp is excellent; for production on modern hardware, a framework that can leverage accelerators is preferable.</p>
+
+<p>In practice, the choice often comes down to: iOS primary? Use Core ML. Android primary? Use ONNX Runtime or TensorFlow Lite. Jetson-based robotics? Use TensorRT-LLM. Cross-platform but willing to optimize separately per platform? Use all three.</p>
+
+<h2>Quality gaps: when SLMs are insufficient</h2>
+
+<p>SLMs trade capacity for deployability. Understanding what you lose is crucial to avoid building products that fail silently in production.</p>
+
+<p>On factual recall and retrieval tasks, SLMs perform comparably to larger models if they have seen the relevant data. A 7B model fine-tuned on your domain can retrieve facts as accurately as GPT-4.</p>
+
+<p>On multi-step reasoning and novel problem-solving, the gaps are real. OpenAI's evals show that a 7B SLM reaches roughly GPT-3.5 capability on complex tasks like math (solving a SAT-level algebra problem) or code synthesis (writing a complete function from a specification). Below 7B, the degradation accelerates sharply. A 3B model is closer to GPT-3 or "good davinci" in 2023 terms.</p>
+
+<p>For tasks that require long context (>8k tokens), smaller models can struggle due to attention mechanism limitations and training data. Many SLMs are trained on sequences only up to 4k tokens, making them unsuitable for long-document summarization or context-heavy QA.</p>
+
+<p>The honest approach is to benchmark your specific task against your target SLM before committing to edge deployment. If your use case is autocomplete, sentiment analysis, or factual QA on your own data, a 3B-7B SLM is likely sufficient. If your use case involves chain-of-thought reasoning, open-ended creative writing, or solving unseen problems, you may need a larger model or a hybrid approach where the edge SLM handles preprocessing and the cloud handles the reasoning.</p>
+
+<h2>Common pitfalls and when edge AI fails</h2>
+
+<p>Edge AI is not a universal solution. Several patterns lead to failed deployments:</p>
+
+<p><strong>Underestimating power draw:</strong> SLMs on mobile generate heat, and continuous inference drains battery rapidly. A 7B model generating 10 tokens per second for 30 seconds can consume 5-10% of battery on a flagship phone. For applications that run sporadically (like a user typing a prompt), this is acceptable. For always-on or background inference, edge deployment becomes impractical without optimization.</p>
+
+<p><strong>Forgetting about latency variance:</strong> Benchmark latency under best-case conditions (device idle, cool CPU, no other apps running) and you will be surprised by real-world performance. When the user is already running Chrome, Slack, and a video call, inference on a shared CPU can be 2-5x slower. Always test under realistic load.</p>
+
+<p><strong>Deploying models too large for the target hardware:</strong> Testing on a flagship phone and then deploying to a mid-range device is a classic mistake. A 5B model that runs in 100ms on an A17 Pro may take 500ms on a Snapdragon 6 Gen 1. If your app needs to support a wide range of devices, either stick to 1-3B models or implement adaptive selection logic that downgrades to a smaller model on lower-end hardware.</p>
+
+<p><strong>Ignoring the update problem:</strong> Once deployed, updating SLM weights to a newer version can be challenging. App updates that swap a 2GB model file require re-shipping the entire app and user re-download. Teams building products that need to improve or fix models over time often choose a hybrid approach: ship a small edge model for latency-critical inference, but allow the backend to update and A/B test new models without breaking all users.</p>
+
+<p><strong>Missing the real-time constraint:</strong> Some tasks do not actually require on-device inference. If your SLM is generating a summary that the user will read in 5 seconds, a 2-second cloud call followed by local caching is often simpler and higher-quality than building custom on-device inference infrastructure. Edge AI excels at sub-100ms latency requirements. For tasks with looser timing, the cloud is often faster to market.</p>
+
+<h2>Practical implementation: a workflow</h2>
+
+<p>For a team starting with edge AI, a typical workflow is:</p>
+
+<ol>
+<li><strong>Choose a base model.</strong> Start with an open SLM such as Llama 2 7B, Mistral 7B, or Phi-3. These have proven deployability and available quantized versions.</li>
+<li><strong>Quantize and profile.</strong> Use AutoGPTQ or ONNX Runtime to quantize to Int4. Profile latency and memory on your target device (e.g., a mid-range Android phone and a modern iPhone).</li>
+<li><strong>Benchmark on your task.</strong> Run your inference workload (e.g., 100 real user prompts) and measure accuracy, latency, and memory usage. If latency exceeds your target, move to a smaller model. If accuracy is insufficient, consider fine-tuning or retrieval augmentation.</li>
+<li><strong>Choose a framework.</strong> Based on your target platform, select ONNX Runtime, Core ML, or TensorFlow Lite. Get an end-to-end hello-world running, then integrate into your app.</li>
+<li><strong>Test offline and on-device.</strong> Disable network and run inference. Measure battery drain and heat generation. If power is a concern, experiment with batching requests or running inference only when plugged in.</li>
+<li><strong>Plan for updates.</strong> Decide whether you will ship model updates as app updates, incremental downloads, or keep a cloud fallback. Each has trade-offs in size, latency, and maintenance burden.</li>
+</ol>
+
+<p>Most teams take 4-8 weeks from "we want on-device AI" to a beta build ready for internal testing. Scaling to production adds another 4-8 weeks of performance tuning, memory profiling, and battery testing.</p>
+
+<p>Edge AI is no longer experimental. The combination of hardware capability, quantization techniques, and mature frameworks makes on-device SLM inference practical for many real-world applications. The key is matching the right model size, quantization strategy, and framework to your hardware and latency budget, then testing ruthlessly on actual devices under realistic conditions. Teams that do this work rigorously can ship responsive, private, offline-first AI products at scale. Teams that skip it will burn cycles debugging mysterious slowdowns and out-of-memory crashes in production.</p></div>
+
+      <section style="margin-top: var(--space-8);">
+        <h2 style="margin-bottom: var(--space-5);">Frequently asked questions</h2>
+        <div class="faq-list">
+    <details class="faq-item" style="border-bottom:1px solid var(--color-rule);padding:var(--space-4) 0;">
+      <summary style="cursor:pointer;font-weight:600;font-size:var(--text-md);list-style:none;display:flex;justify-content:space-between;align-items:flex-start;gap:var(--space-3);">
+        <span>What size small language model can run on a smartphone?</span>
+        <span aria-hidden="true" style="color:var(--color-ink-faint);font-weight:400;flex-shrink:0;">+</span>
+      </summary>
+      <div style="margin-top:var(--space-3);color:var(--color-ink-muted);line-height:1.7;">
+        <p>Models from 1B to 13B parameters can run on modern phones, depending on quantization and RAM. A 3B parameter model quantized to 4-bit requires roughly 1.5GB VRAM and can execute in 50-150ms per token on flagship hardware.</p>
+      </div>
+    </details>
+
+    <details class="faq-item" style="border-bottom:1px solid var(--color-rule);padding:var(--space-4) 0;">
+      <summary style="cursor:pointer;font-weight:600;font-size:var(--text-md);list-style:none;display:flex;justify-content:space-between;align-items:flex-start;gap:var(--space-3);">
+        <span>How much faster is on-device inference than cloud API calls?</span>
+        <span aria-hidden="true" style="color:var(--color-ink-faint);font-weight:400;flex-shrink:0;">+</span>
+      </summary>
+      <div style="margin-top:var(--space-3);color:var(--color-ink-muted);line-height:1.7;">
+        <p>Latency is typically 10 to 100x lower for initial token generation (50-500ms vs 500-2000ms with network round-trip), but throughput for long sequences may be lower due to device constraints. The real win is privacy and offline capability, not speed alone.</p>
+      </div>
+    </details>
+
+    <details class="faq-item" style="border-bottom:1px solid var(--color-rule);padding:var(--space-4) 0;">
+      <summary style="cursor:pointer;font-weight:600;font-size:var(--text-md);list-style:none;display:flex;justify-content:space-between;align-items:flex-start;gap:var(--space-3);">
+        <span>What is quantization and why does it matter for edge AI?</span>
+        <span aria-hidden="true" style="color:var(--color-ink-faint);font-weight:400;flex-shrink:0;">+</span>
+      </summary>
+      <div style="margin-top:var(--space-3);color:var(--color-ink-muted);line-height:1.7;">
+        <p>Quantization reduces model precision from 32-bit floats to 8-bit or 4-bit integers, shrinking model size by 75-85% with minimal accuracy loss. This is essential for fitting models into phone RAM and VRAM.</p>
+      </div>
+    </details>
+
+    <details class="faq-item" style="border-bottom:1px solid var(--color-rule);padding:var(--space-4) 0;">
+      <summary style="cursor:pointer;font-weight:600;font-size:var(--text-md);list-style:none;display:flex;justify-content:space-between;align-items:flex-start;gap:var(--space-3);">
+        <span>Which frameworks are best for deploying SLMs on edge devices?</span>
+        <span aria-hidden="true" style="color:var(--color-ink-faint);font-weight:400;flex-shrink:0;">+</span>
+      </summary>
+      <div style="margin-top:var(--space-3);color:var(--color-ink-muted);line-height:1.7;">
+        <p>ONNX Runtime, TensorRT-LLM, Core ML, and TensorFlow Lite each excel in specific contexts. Android favors ONNX Runtime and TensorFlow Lite; iOS uses Core ML; servers use TensorRT-LLM. Choose based on your target hardware and latency budget.</p>
+      </div>
+    </details>
+
+    <details class="faq-item" style="border-bottom:1px solid var(--color-rule);padding:var(--space-4) 0;">
+      <summary style="cursor:pointer;font-weight:600;font-size:var(--text-md);list-style:none;display:flex;justify-content:space-between;align-items:flex-start;gap:var(--space-3);">
+        <span>How much quality do you lose by running a smaller model instead of GPT-4?</span>
+        <span aria-hidden="true" style="color:var(--color-ink-faint);font-weight:400;flex-shrink:0;">+</span>
+      </summary>
+      <div style="margin-top:var(--space-3);color:var(--color-ink-muted);line-height:1.7;">
+        <p>A well-tuned 7B SLM is roughly at GPT-3.5 level on reasoning tasks; below that on complex multi-step problems. Quality loss depends heavily on task, fine-tuning, and use case. Benchmark on your specific workload rather than assume.</p>
+      </div>
+    </details>
+
+    <details class="faq-item" style="border-bottom:1px solid var(--color-rule);padding:var(--space-4) 0;">
+      <summary style="cursor:pointer;font-weight:600;font-size:var(--text-md);list-style:none;display:flex;justify-content:space-between;align-items:flex-start;gap:var(--space-3);">
+        <span>Can edge AI models work offline?</span>
+        <span aria-hidden="true" style="color:var(--color-ink-faint);font-weight:400;flex-shrink:0;">+</span>
+      </summary>
+      <div style="margin-top:var(--space-3);color:var(--color-ink-muted);line-height:1.7;">
+        <p>Yes, that is a core advantage. Once deployed to device, SLMs require no network connection. This enables privacy-first applications like on-device summarization, local search, and real-time mobile assistance.</p>
+      </div>
+    </details>
+
+    <details class="faq-item" style="border-bottom:1px solid var(--color-rule);padding:var(--space-4) 0;">
+      <summary style="cursor:pointer;font-weight:600;font-size:var(--text-md);list-style:none;display:flex;justify-content:space-between;align-items:flex-start;gap:var(--space-3);">
+        <span>What hardware do I need for production edge AI?</span>
+        <span aria-hidden="true" style="color:var(--color-ink-faint);font-weight:400;flex-shrink:0;">+</span>
+      </summary>
+      <div style="margin-top:var(--space-3);color:var(--color-ink-muted);line-height:1.7;">
+        <p>Modern flagship phones (Snapdragon 8 Gen 3, A17 Pro) support 3-7B models well. For robotics and industrial use, NVIDIA Jetson Orin (275 TOPS) or Qualcomm QCS8550 provide more headroom. Budget-class devices are limited to &lt;1B parameter models.</p>
+      </div>
+    </details></div>
+      </section>
+          
+          <p style="font-size:var(--text-xs);color:var(--color-ink-faint);margin-top:var(--space-6);padding-top:var(--space-4);border-top:1px solid var(--color-rule);">
+            An <strong>AI Glimpse</strong> explainer. We update this guide as the field evolves.
+          </p>
+        </div>
+      </section>
+    </article>
+    <section class="section" aria-label="Related articles">
+      <div class="container container--narrow">
+        <div class="section-header">
+          <h2 class="section-title">More from AI Glimpse</h2>
+          <a href="/categories/tools" class="section-link">All Tools stories</a>
+        </div>
+        <div class="grid grid-3">
+          <article class="card card--medium">
+            <a href="/articles/ai-agents-vs-chatbots-difference"><div class="card-image"><picture><source srcset="/images/articles/ai-agents-vs-chatbots-difference.webp" type="image/webp"><img src="/images/articles/ai-agents-vs-chatbots-difference.jpg" alt="AI Agents vs Chatbots: Capabilities, Costs, and When to Build" loading="lazy" width="1200" height="630"></picture></div></a>
+            <div class="card-meta">
+              <span class="tag tag--tools">Tools</span>
+              <span class="card-byline"><time datetime="2026-08-21T06:29:43.360Z">Aug 21, 2026</time></span>
+            </div>
+            <a href="/articles/ai-agents-vs-chatbots-difference"><h3 class="card-title">AI Agents vs Chatbots: Capabilities, Costs, and When to Build</h3></a>
+          </article>
+          <article class="card card--medium">
+            <a href="/articles/openai-pauses-training-runs-as-astra-model-shows-advanced-hacking-skills-bf5bf582"><div class="card-image"><picture><source srcset="/images/articles/openai-pauses-training-runs-as-astra-model-shows-advanced-hacking-skills-bf5bf582.webp" type="image/webp"><img src="/images/articles/openai-pauses-training-runs-as-astra-model-shows-advanced-hacking-skills-bf5bf582.jpg" alt="OpenAI Pauses Training Runs as Astra Model Shows Advanced Hacking Skills" loading="lazy" width="1200" height="630"></picture></div></a>
+            <div class="card-meta">
+              <span class="tag tag--tools">Tools</span>
+              <span class="card-byline"><time datetime="2026-08-18T18:33:11.000Z">Aug 18, 2026</time></span>
+            </div>
+            <a href="/articles/openai-pauses-training-runs-as-astra-model-shows-advanced-hacking-skills-bf5bf582"><h3 class="card-title">OpenAI Pauses Training Runs as Astra Model Shows Advanced Hacking Skills</h3></a>
+          </article>
+          <article class="card card--medium">
+            <a href="/articles/spacex-veterans-launch-ai-powered-steel-manufacturing-startup-8cb6ee1a"><div class="card-image"><picture><source srcset="/images/articles/spacex-veterans-launch-ai-powered-steel-manufacturing-startup-8cb6ee1a.webp" type="image/webp"><img src="/images/articles/spacex-veterans-launch-ai-powered-steel-manufacturing-startup-8cb6ee1a.jpg" alt="SpaceX Veterans Launch AI-Powered Steel Manufacturing Startup" loading="lazy" width="1200" height="630"></picture></div></a>
+            <div class="card-meta">
+              <span class="tag tag--tools">Tools</span>
+              <span class="card-byline"><time datetime="2026-08-17T21:18:49.000Z">Aug 17, 2026</time></span>
+            </div>
+            <a href="/articles/spacex-veterans-launch-ai-powered-steel-manufacturing-startup-8cb6ee1a"><h3 class="card-title">SpaceX Veterans Launch AI-Powered Steel Manufacturing Startup</h3></a>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="/" class="logo">
+            <span class="logo-wordmark" aria-label="AI Glimpse">A<span class="iris-i" aria-hidden="true">ı</span><span aria-hidden="true"> Glimpse</span></span>
+          </a>
+          <p>Your daily glimpse into AI. Independent reporting and analysis on the people, products, and policies shaping artificial intelligence.</p>
+        </div>
+        <div class="footer-col">
+          <h5>Categories</h5>
+          <ul>
+            <li><a href="/categories/llms">LLMs</a></li>
+            <li><a href="/categories/research">Research</a></li>
+            <li><a href="/categories/tools">Tools</a></li>
+            <li><a href="/categories/business">Business</a></li>
+            <li><a href="/categories/ethics">Ethics</a></li>
+            <li><a href="/categories/industry">Industry</a></li>
+            <li><a href="/categories/robotics">Robotics</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h5>About</h5>
+          <ul>
+            <li><a href="/pages/about">About AI Glimpse</a></li>
+            <li><a href="/pages/contact">Contact</a></li>
+            <li><a href="/pages/editorial">Editorial Standards</a></li>
+            <li><a href="/pages/advertise">Advertise</a></li>
+            <li><a href="/guides">Guides &amp; Explainers</a></li>
+            <li><a href="/search">Search</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h5>Legal</h5>
+          <ul>
+            <li><a href="/pages/privacy">Privacy Policy</a></li>
+            <li><a href="/pages/terms">Terms of Service</a></li>
+            <li><a href="#" data-consent-open>Cookie preferences</a></li>
+            <li><a href="/rss.xml">RSS Feed</a></li>
+            <li><a href="/sitemap.xml">Sitemap</a></li>
+            <li><a href="/llms.txt">LLMs.txt</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div>© <span id="year">2026</span> AI Glimpse · aiglimpse.ai</div>
+        <div class="footer-social">
+          <a href="/rss.xml" aria-label="RSS"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M6.503 20.752c0 1.794-1.456 3.248-3.251 3.248-1.796 0-3.252-1.454-3.252-3.248 0-1.794 1.456-3.248 3.252-3.248 1.795 0 3.251 1.454 3.251 3.248zm-6.503-12.572v4.811c6.05.062 10.96 4.966 11.022 11.009h4.817c-.062-8.71-7.118-15.758-15.839-15.82zm0-3.368c10.58.046 19.152 8.594 19.183 19.188h4.817c-.03-13.231-10.755-23.954-24-24v4.812z"/></svg></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="/js/chrome.js"></script>
+  <script src="/js/main.js"></script>
+</body>
+</html>

@@ -12458,6 +12458,24 @@
         "devto": true,
         "hashnode": false
       }
+    },
+    "small-language-models-edge-ai": {
+      "syndicated_at": "2026-08-26T06:33:47.289Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/small-language-models-for-edge-ai-on-device-inference-guide-51k6",
+      "hashnode": null,
+      "gates": {
+        "medium": true,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 2737,
+      "category": "tools",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
     }
   }
 }
