@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "meta-faces-settlement-talks-in-multi-state-teen-addiction-lawsuit-26859e99",
+      "title": "Meta Faces Settlement Talks in Multi-State Teen Addiction Lawsuit",
+      "subtitle": "A coalition of 29 state attorneys general is negotiating with Meta over algorithmic design practices accused of harming adolescent users.",
+      "category": "ethics",
+      "publishedAt": "2026-08-26T03:35:58.000Z",
+      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-08-26/meta-states-have-discussed-settling-teen-social-media-harm-case",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/meta-faces-settlement-talks-in-multi-state-teen-addiction-lawsuit-26859e99.jpg"
+    },
+    {
       "slug": "new-training-method-cuts-ai-agent-learning-time-by-removing-synchronization-bott-9be5edd9",
       "title": "New Training Method Cuts AI Agent Learning Time by Removing Synchronization Bottleneck",
       "subtitle": "Researchers propose SPO++ to accelerate reinforcement learning for language models using tools, eliminating costly waiting periods during training.",
@@ -12057,6 +12068,7 @@
     "aebcecff6608afa8",
     "c1d1d086b9fa24cc",
     "fd2a3e095eee418d",
-    "9be5edd9e93e4c45"
+    "9be5edd9e93e4c45",
+    "26859e999f965c3b"
   ]
 }
