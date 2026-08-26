@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "why-most-hospital-ai-projects-fail-after-launch-c1d1d086",
+      "title": "Why Most Hospital AI Projects Fail After Launch",
+      "subtitle": "Healthcare systems struggle less with AI technology than with organizational change. Stanford's ChatEHR offers a blueprint for success.",
+      "category": "industry",
+      "publishedAt": "2026-08-25T21:41:18.000Z",
+      "sourceUrl": "https://www.beckershospitalreview.com/healthcare-information-technology/innovation/from-pilot-to-practice-how-to-operationalize-ai-inside-your-health-it-organization/",
+      "sourceName": "Becker's Hospital Review",
+      "sourceTier": 2,
+      "image": "/images/articles/why-most-hospital-ai-projects-fail-after-launch-c1d1d086.jpg"
+    },
+    {
       "slug": "epa-proposes-loosening-air-permit-rules-for-data-center-generators-aebcecff",
       "title": "EPA Proposes Loosening Air Permit Rules for Data Center Generators",
       "subtitle": "Regulatory shift could accelerate AI infrastructure expansion by reducing public oversight of diesel emissions from hyperscale facilities.",
@@ -12009,6 +12020,7 @@
     "b9499e539b6be25e",
     "bc54e07ce570a3cc",
     "f498f720f7e4c436",
-    "aebcecff6608afa8"
+    "aebcecff6608afa8",
+    "c1d1d086b9fa24cc"
   ]
 }
