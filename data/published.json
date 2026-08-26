@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "researchers-expose-critical-flaw-in-robot-world-models-fd2a3e09",
+      "title": "Researchers Expose Critical Flaw in Robot World Models",
+      "subtitle": "New diagnostic tool reveals that AI-trained robot simulators fail to properly follow non-expert commands, threatening the reliability of policy learning systems.",
+      "category": "research",
+      "publishedAt": "2026-08-25T17:59:49.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2608.24885v1",
+      "sourceName": "arXiv (Sixiang Chen, Jiaming Liu, Jixian Wu, Yichen Guo, Tinghao Wa…)",
+      "sourceTier": 1,
+      "image": "/images/articles/researchers-expose-critical-flaw-in-robot-world-models-fd2a3e09.jpg"
+    },
+    {
       "slug": "why-most-hospital-ai-projects-fail-after-launch-c1d1d086",
       "title": "Why Most Hospital AI Projects Fail After Launch",
       "subtitle": "Healthcare systems struggle less with AI technology than with organizational change. Stanford's ChatEHR offers a blueprint for success.",
@@ -12021,6 +12032,7 @@
     "bc54e07ce570a3cc",
     "f498f720f7e4c436",
     "aebcecff6608afa8",
-    "c1d1d086b9fa24cc"
+    "c1d1d086b9fa24cc",
+    "fd2a3e095eee418d"
   ]
 }

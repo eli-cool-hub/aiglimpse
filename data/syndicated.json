@@ -12440,6 +12440,24 @@
         "devto": true,
         "hashnode": false
       }
+    },
+    "researchers-expose-critical-flaw-in-robot-world-models-fd2a3e09": {
+      "syndicated_at": "2026-08-26T04:39:47.174Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/researchers-expose-critical-flaw-in-robot-world-models-4bg1",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 470,
+      "category": "research",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
     }
   }
 }
