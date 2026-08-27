@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "ai-agents-need-data-layer-governance-not-just-policy-promises-c4b10201",
+      "title": "AI Agents Need Data-Layer Governance, Not Just Policy Promises",
+      "subtitle": "As autonomous AI systems gain decision-making power, enterprise security must shift from abstract rules to executable controls embedded in databases themselves.",
+      "category": "business",
+      "publishedAt": "2026-08-27T12:01:00.000Z",
+      "sourceUrl": "https://venturebeat.com/security/when-agents-act-on-their-own-governance-has-to-live-in-the-data-layer",
+      "sourceName": "VentureBeat AI",
+      "sourceTier": 2,
+      "image": "/images/articles/ai-agents-need-data-layer-governance-not-just-policy-promises-c4b10201.jpg"
+    },
+    {
       "slug": "trump-administration-charts-aggressive-ai-expansion-in-healthcare-a375cf8f",
       "title": "Trump Administration Charts Aggressive AI Expansion in Healthcare",
       "subtitle": "New policies prioritize AI deployment while rolling back safety requirements and data oversight in hospitals.",
@@ -12093,6 +12104,7 @@
     "9be5edd9e93e4c45",
     "26859e999f965c3b",
     "0e9c83e8efa80e2c",
-    "a375cf8fe0e7e432"
+    "a375cf8fe0e7e432",
+    "c4b10201a7b4fb7a"
   ]
 }
