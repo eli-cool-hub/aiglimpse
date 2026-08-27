@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://aiglimpse.ai/articles/trump-administration-charts-aggressive-ai-expansion-in-healthcare-a375cf8f</loc>
+    <lastmod>2026-08-26</lastmod>
+    <news:news>
+      <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-08-26T22:00:37.000Z</news:publication_date>
+      <news:title>Trump Administration Charts Aggressive AI Expansion in Healthcare</news:title>
+    </news:news>
+    <changefreq>hourly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
     <loc>https://aiglimpse.ai/articles/bipartisan-group-pledges-ai-regulation-push-amid-infrastructure-concerns-0e9c83e8</loc>
     <lastmod>2026-08-26</lastmod>
     <news:news>
@@ -84,28 +95,6 @@
       <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-08-25T10:00:03.000Z</news:publication_date>
       <news:title>AI Robots Shift From Task Automation to Emotional Support in Homes</news:title>
-    </news:news>
-    <changefreq>hourly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://aiglimpse.ai/articles/nvidia-unveils-vera-cpu-architecture-for-next-generation-ai-workloads-bc54e07c</loc>
-    <lastmod>2026-08-25</lastmod>
-    <news:news>
-      <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-08-25T06:41:01.000Z</news:publication_date>
-      <news:title>Nvidia Unveils Vera CPU Architecture for Next-Generation AI Workloads</news:title>
-    </news:news>
-    <changefreq>hourly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://aiglimpse.ai/articles/dutch-regulator-imposes-record-gdpr-fine-on-uber-for-algorithmic-driver-suspensi-fa2d8637</loc>
-    <lastmod>2026-08-24</lastmod>
-    <news:news>
-      <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-08-24T23:03:01.000Z</news:publication_date>
-      <news:title>Dutch Regulator Imposes Record GDPR Fine on Uber for Algorithmic Driver Suspensions</news:title>
     </news:news>
     <changefreq>hourly</changefreq>
     <priority>0.9</priority>
