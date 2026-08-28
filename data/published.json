@@ -1,6 +1,18 @@
 {
   "articles": [
     {
+      "slug": "nvidia-gpu-ai-infrastructure-guide",
+      "title": "NVIDIA GPU Infrastructure for AI: Training vs Inference at Scale",
+      "subtitle": "How to architect, cost, and operationalize H100 clusters for production AI workloads",
+      "category": "business",
+      "publishedAt": "2026-08-28T17:54:28.293Z",
+      "sourceUrl": null,
+      "sourceName": "AI Glimpse Newsroom",
+      "sourceTier": 0,
+      "image": "/images/articles/nvidia-gpu-ai-infrastructure-guide.jpg",
+      "evergreen": true
+    },
+    {
       "slug": "new-method-lets-ai-learn-without-labels-during-testing-b8a6510d",
       "title": "New Method Lets AI Learn Without Labels During Testing",
       "subtitle": "Researchers achieve supervised performance without ground-truth data by using asymmetric training during inference, potentially unlocking faster AI model improvements.",
