@@ -7,6 +7,22 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>xAI Faces Lawsuit Over Alleged CSAM Use in Grok Training</title>
+      <link>https://aiglimpse.ai/articles/xai-faces-lawsuit-over-alleged-csam-use-in-grok-training-735d68e8</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/xai-faces-lawsuit-over-alleged-csam-use-in-grok-training-735d68e8</guid>
+      <description>Legal complaint alleges child abuse material was used to develop Elon Musk's AI chatbot, raising questions about training data oversight.</description>
+      <pubDate>Thu, 27 Aug 2026 20:52:31 GMT</pubDate>
+      <category>AI Tools &amp; Products</category>
+    </item>
+    <item>
+      <title>NVIDIA GPU Infrastructure for AI: Training vs Inference at Scale</title>
+      <link>https://aiglimpse.ai/articles/nvidia-gpu-ai-infrastructure-guide</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/nvidia-gpu-ai-infrastructure-guide</guid>
+      <description>How to architect, cost, and operationalize H100 clusters for production AI workloads</description>
+      <pubDate>Fri, 28 Aug 2026 17:54:28 GMT</pubDate>
+      <category>AI Business</category>
+    </item>
+    <item>
       <title>New Method Lets AI Learn Without Labels During Testing</title>
       <link>https://aiglimpse.ai/articles/new-method-lets-ai-learn-without-labels-during-testing-b8a6510d</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/new-method-lets-ai-learn-without-labels-during-testing-b8a6510d</guid>
@@ -389,22 +405,6 @@
       <description>The city-state is leveraging its diplomatic ties to offer financial firms unique access to both Western and Chinese AI systems.</description>
       <pubDate>Mon, 17 Aug 2026 03:28:56 GMT</pubDate>
       <category>Industry Applications</category>
-    </item>
-    <item>
-      <title>U.S. Plans to Expand AI Safety Rules Beyond Proprietary Models</title>
-      <link>https://aiglimpse.ai/articles/us-plans-to-expand-ai-safety-rules-beyond-proprietary-models-8a9a22c9</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/us-plans-to-expand-ai-safety-rules-beyond-proprietary-models-8a9a22c9</guid>
-      <description>The White House is preparing to subject open-source AI systems to federal oversight once they match the capabilities of leading commercial systems.</description>
-      <pubDate>Mon, 17 Aug 2026 00:12:02 GMT</pubDate>
-      <category>Ethics &amp; Policy</category>
-    </item>
-    <item>
-      <title>AI-Powered Robots Transform Stroke Recovery With Adaptive Therapy</title>
-      <link>https://aiglimpse.ai/articles/ai-powered-robots-transform-stroke-recovery-with-adaptive-therapy-f039deb1</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/ai-powered-robots-transform-stroke-recovery-with-adaptive-therapy-f039deb1</guid>
-      <description>Machine learning systems are personalizing neurological rehabilitation, accelerating brain rewiring while extending care beyond hospital walls.</description>
-      <pubDate>Sun, 16 Aug 2026 12:30:18 GMT</pubDate>
-      <category>Robotics</category>
     </item>
   </channel>
 </rss>

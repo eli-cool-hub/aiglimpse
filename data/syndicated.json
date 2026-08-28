@@ -12548,6 +12548,24 @@
         "devto": true,
         "hashnode": false
       }
+    },
+    "xai-faces-lawsuit-over-alleged-csam-use-in-grok-training-735d68e8": {
+      "syndicated_at": "2026-08-28T19:55:58.090Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/xai-faces-lawsuit-over-alleged-csam-use-in-grok-training-dap",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 475,
+      "category": "tools",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
     }
   }
 }

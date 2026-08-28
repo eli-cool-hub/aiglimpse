@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "xai-faces-lawsuit-over-alleged-csam-use-in-grok-training-735d68e8",
+      "title": "xAI Faces Lawsuit Over Alleged CSAM Use in Grok Training",
+      "subtitle": "Legal complaint alleges child abuse material was used to develop Elon Musk's AI chatbot, raising questions about training data oversight.",
+      "category": "tools",
+      "publishedAt": "2026-08-27T20:52:31.000Z",
+      "sourceUrl": "https://arstechnica.com/tech-policy/2026/08/elon-musks-xai-used-child-porn-to-train-grok-models-lawsuit-says/",
+      "sourceName": "Ars Technica AI",
+      "sourceTier": 2,
+      "image": "/images/articles/xai-faces-lawsuit-over-alleged-csam-use-in-grok-training-735d68e8.jpg"
+    },
+    {
       "slug": "nvidia-gpu-ai-infrastructure-guide",
       "title": "NVIDIA GPU Infrastructure for AI: Training vs Inference at Scale",
       "subtitle": "How to architect, cost, and operationalize H100 clusters for production AI workloads",
@@ -12129,6 +12140,7 @@
     "0e9c83e8efa80e2c",
     "a375cf8fe0e7e432",
     "c4b10201a7b4fb7a",
-    "b8a6510d404eee2e"
+    "b8a6510d404eee2e",
+    "735d68e865072a26"
   ]
 }

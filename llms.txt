@@ -20,6 +20,8 @@ All content is original reporting by the AI Glimpse newsroom. Primary sources ar
 
 ## Recent articles
 
+- [xAI Faces Lawsuit Over Alleged CSAM Use in Grok Training](https://aiglimpse.ai/articles/xai-faces-lawsuit-over-alleged-csam-use-in-grok-training-735d68e8) (2026-08-27): Legal complaint alleges child abuse material was used to develop Elon Musk's AI chatbot, raising questions about training data oversight.
+- [NVIDIA GPU Infrastructure for AI: Training vs Inference at Scale](https://aiglimpse.ai/articles/nvidia-gpu-ai-infrastructure-guide) (2026-08-28): How to architect, cost, and operationalize H100 clusters for production AI workloads
 - [New Method Lets AI Learn Without Labels During Testing](https://aiglimpse.ai/articles/new-method-lets-ai-learn-without-labels-during-testing-b8a6510d) (2026-08-27): Researchers achieve supervised performance without ground-truth data by using asymmetric training during inference, potentially unlocking faster AI model improvements.
 - [AI Agents Need Data-Layer Governance, Not Just Policy Promises](https://aiglimpse.ai/articles/ai-agents-need-data-layer-governance-not-just-policy-promises-c4b10201) (2026-08-27): As autonomous AI systems gain decision-making power, enterprise security must shift from abstract rules to executable controls embedded in databases themselves.
 - [Trump Administration Charts Aggressive AI Expansion in Healthcare](https://aiglimpse.ai/articles/trump-administration-charts-aggressive-ai-expansion-in-healthcare-a375cf8f) (2026-08-26): New policies prioritize AI deployment while rolling back safety requirements and data oversight in hospitals.
@@ -48,11 +50,10 @@ All content is original reporting by the AI Glimpse newsroom. Primary sources ar
 - [Marvell Secures Google Partnership With $12.2B Equity Deal](https://aiglimpse.ai/articles/marvell-secures-google-partnership-with-122b-equity-deal-3d9902a8) (2026-08-19): Google gains significant stake in chipmaker through warrant agreement tied to custom AI processor supply contract.
 - [AI-Generated Exploits Target Hospital Infrastructure Controls](https://aiglimpse.ai/articles/ai-generated-exploits-target-hospital-infrastructure-controls-b1b884d1) (2026-08-20): Federal agencies warn of machine learning tools automating attacks on building systems that keep hospitals operational.
 - [AI Agents vs Chatbots: Capabilities, Costs, and When to Build](https://aiglimpse.ai/articles/ai-agents-vs-chatbots-difference) (2026-08-21): A technical comparison for product teams deciding between conversational AI and agentic systems.
-- [Major Health Systems Overhaul AI Leadership Ranks in 2026](https://aiglimpse.ai/articles/major-health-systems-overhaul-ai-leadership-ranks-in-2026-8a34c47f) (2026-08-20): Five significant executive transitions signal growing institutional commitment to artificial intelligence strategy across U.S. hospital networks.
-- [Flock Safety's AI Tool Contradicts Public Claims on Facial Recognition](https://aiglimpse.ai/articles/flock-safetys-ai-tool-contradicts-public-claims-on-facial-recognition-cf9d2465) (2026-08-19): Surveillance vendor's new search capability undermines years of assurances that its camera network cannot identify individuals.
 
 ## Explainers (evergreen)
 
+- [NVIDIA GPU Infrastructure for AI: Training vs Inference at Scale](https://aiglimpse.ai/articles/nvidia-gpu-ai-infrastructure-guide) (2026-08-28): How to architect, cost, and operationalize H100 clusters for production AI workloads
 - [Small Language Models for Edge AI: On-Device Inference Guide](https://aiglimpse.ai/articles/small-language-models-edge-ai) (2026-08-26): How to run compact LLMs on phones and edge hardware with quantization, latency trade-offs, and framework options.
 - [Hybrid Search for RAG: BM25 + Vector Fusion Explained](https://aiglimpse.ai/articles/hybrid-search-rag-guide) (2026-08-24): Combine keyword and semantic retrieval to boost RAG recall. Implementation patterns, tuning strategies, and when hybrid beats pure vector search.
 - [AI Agents vs Chatbots: Capabilities, Costs, and When to Build](https://aiglimpse.ai/articles/ai-agents-vs-chatbots-difference) (2026-08-21): A technical comparison for product teams deciding between conversational AI and agentic systems.
@@ -88,7 +89,7 @@ All content is original reporting by the AI Glimpse newsroom. Primary sources ar
 
 - [Sitemap](https://aiglimpse.ai/sitemap.xml): Sitemap index (pages, articles, Google News last 48h).
 - [RSS](https://aiglimpse.ai/rss.xml): 50 most recent articles (RSS 2.0).
-- [Full content index](https://aiglimpse.ai/llms-full.txt): Extended article list for LLM crawlers (1009 articles).
+- [Full content index](https://aiglimpse.ai/llms-full.txt): Extended article list for LLM crawlers (1011 articles).
 
 ## About
 

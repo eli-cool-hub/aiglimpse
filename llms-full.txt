@@ -3,9 +3,16 @@
 > Machine-readable index for AI assistants, answer engines, and research crawlers.
 > Summary version: https://aiglimpse.ai/llms.txt
 
-Total articles: 1009 | Evergreen explainers: 30 | Generated: 2026-08-28
+Total articles: 1011 | Evergreen explainers: 31 | Generated: 2026-08-28
 
 ## Evergreen explainers
+
+### NVIDIA GPU Infrastructure for AI: Training vs Inference at Scale
+- URL: https://aiglimpse.ai/articles/nvidia-gpu-ai-infrastructure-guide
+- Published: 2026-08-28
+- Category: business
+- Summary: How to architect, cost, and operationalize H100 clusters for production AI workloads
+- Type: evergreen explainer (FAQ schema on page)
 
 ### Small Language Models for Edge AI: On-Device Inference Guide
 - URL: https://aiglimpse.ai/articles/small-language-models-edge-ai
@@ -218,6 +225,20 @@ Total articles: 1009 | Evergreen explainers: 30 | Generated: 2026-08-28
 - Type: evergreen explainer (FAQ schema on page)
 
 ## All articles (newest first)
+
+### xAI Faces Lawsuit Over Alleged CSAM Use in Grok Training
+- URL: https://aiglimpse.ai/articles/xai-faces-lawsuit-over-alleged-csam-use-in-grok-training-735d68e8
+- Published: 2026-08-27
+- Category: tools
+- Summary: Legal complaint alleges child abuse material was used to develop Elon Musk's AI chatbot, raising questions about training data oversight.
+- Source: https://arstechnica.com/tech-policy/2026/08/elon-musks-xai-used-child-porn-to-train-grok-models-lawsuit-says/
+
+### NVIDIA GPU Infrastructure for AI: Training vs Inference at Scale
+- URL: https://aiglimpse.ai/articles/nvidia-gpu-ai-infrastructure-guide
+- Published: 2026-08-28
+- Category: business
+- Summary: How to architect, cost, and operationalize H100 clusters for production AI workloads
+- Type: evergreen explainer (FAQ schema on page)
 
 ### New Method Lets AI Learn Without Labels During Testing
 - URL: https://aiglimpse.ai/articles/new-method-lets-ai-learn-without-labels-during-testing-b8a6510d
