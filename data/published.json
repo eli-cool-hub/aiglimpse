@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "new-method-lets-ai-learn-without-labels-during-testing-b8a6510d",
+      "title": "New Method Lets AI Learn Without Labels During Testing",
+      "subtitle": "Researchers achieve supervised performance without ground-truth data by using asymmetric training during inference, potentially unlocking faster AI model improvements.",
+      "category": "research",
+      "publishedAt": "2026-08-27T17:58:10.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2608.27448v1",
+      "sourceName": "arXiv (Aozhe Wang, Zhengxi Lu, Jianze Wang, Shangke Lv, Ying Liu, W…)",
+      "sourceTier": 1,
+      "image": "/images/articles/new-method-lets-ai-learn-without-labels-during-testing-b8a6510d.jpg"
+    },
+    {
       "slug": "ai-agents-need-data-layer-governance-not-just-policy-promises-c4b10201",
       "title": "AI Agents Need Data-Layer Governance, Not Just Policy Promises",
       "subtitle": "As autonomous AI systems gain decision-making power, enterprise security must shift from abstract rules to executable controls embedded in databases themselves.",
@@ -12105,6 +12116,7 @@
     "26859e999f965c3b",
     "0e9c83e8efa80e2c",
     "a375cf8fe0e7e432",
-    "c4b10201a7b4fb7a"
+    "c4b10201a7b4fb7a",
+    "b8a6510d404eee2e"
   ]
 }

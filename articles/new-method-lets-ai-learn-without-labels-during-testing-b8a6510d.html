@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>New Method Lets AI Learn Without Labels During Testing | AI Glimpse</title>
+  <meta name="description" content="Researchers develop TTPO method enabling LLMs to improve without labeled data at test time, matching supervised performance on mathematical reasoning benchmarks.">
+  <meta name="keywords" content="LLM training, test-time optimization, reinforcement learning, self-distillation, mathematical reasoning">
+  <link rel="canonical" href="https://aiglimpse.ai/articles/new-method-lets-ai-learn-without-labels-during-testing-b8a6510d">
+  <meta property="og:type" content="article"><meta property="og:site_name" content="AI Glimpse">
+  <meta property="og:title" content="New Method Lets AI Learn Without Labels During Testing">
+  <meta property="og:description" content="Researchers develop TTPO method enabling LLMs to improve without labeled data at test time, matching supervised performance on mathematical reasoning benchmarks.">
+  <meta property="og:url" content="https://aiglimpse.ai/articles/new-method-lets-ai-learn-without-labels-during-testing-b8a6510d">
+  <meta property="og:image" content="https://aiglimpse.ai/images/articles/new-method-lets-ai-learn-without-labels-during-testing-b8a6510d.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="article:published_time" content="2026-08-27T17:58:10.000Z">
+  <meta property="article:section" content="AI Research">
+  <meta property="article:tag" content="LLM training">
+  <meta property="article:tag" content="test-time optimization">
+  <meta property="article:tag" content="reinforcement learning">
+  <meta property="article:tag" content="self-distillation">
+  <meta property="article:tag" content="mathematical reasoning">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="New Method Lets AI Learn Without Labels During Testing">
+  <meta name="twitter:description" content="Researchers develop TTPO method enabling LLMs to improve without labeled data at test time, matching supervised performance on mathematical reasoning benchmarks.">
+  <meta name="twitter:image" content="https://aiglimpse.ai/images/articles/new-method-lets-ai-learn-without-labels-during-testing-b8a6510d.jpg">
+  <link rel="icon" type="image/svg+xml" href="/images/favicon.svg">
+  <link rel="alternate" type="application/rss+xml" title="AI Glimpse RSS" href="/rss.xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700;9..144,900&family=Inter+Tight:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap">
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="preload" as="image" href="/images/articles/new-method-lets-ai-learn-without-labels-during-testing-b8a6510d.webp" type="image/webp" fetchpriority="high">
+  <style>.reading-progress{position:fixed;top:0;left:0;height:3px;background:var(--color-accent);width:0%;z-index:200;transition:width 100ms linear;}</style>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"NewsArticle","mainEntityOfPage":{"@type":"WebPage","@id":"https://aiglimpse.ai/articles/new-method-lets-ai-learn-without-labels-during-testing-b8a6510d"},"headline":"New Method Lets AI Learn Without Labels During Testing","description":"Researchers develop TTPO method enabling LLMs to improve without labeled data at test time, matching supervised performance on mathematical reasoning benchmarks.","image":["https://aiglimpse.ai/images/articles/new-method-lets-ai-learn-without-labels-during-testing-b8a6510d.jpg"],"datePublished":"2026-08-27T17:58:10.000Z","dateModified":"2026-08-27T17:58:10.000Z","author":{"@type":"Organization","name":"AI Glimpse Newsroom"},"publisher":{"@type":"Organization","name":"AI Glimpse","logo":{"@type":"ImageObject","url":"https://aiglimpse.ai/images/logo.svg"}},"articleSection":"AI Research","keywords":"LLM training, test-time optimization, reinforcement learning, self-distillation, mathematical reasoning","isBasedOn":{"@type":"CreativeWork","url":"http://arxiv.org/abs/2608.27448v1","name":"TTPO: Test-Time Policy Optimization"}}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://aiglimpse.ai/"},{"@type":"ListItem","position":2,"name":"AI Research","item":"https://aiglimpse.ai/categories/research"},{"@type":"ListItem","position":3,"name":"New Method Lets AI Learn Without Labels During Testing","item":"https://aiglimpse.ai/articles/new-method-lets-ai-learn-without-labels-during-testing-b8a6510d"}]}</script>
+  <meta name="google-site-verification" content="B132aMlqf1nssWYhjOSKUgSjmfwNWgPgtozZsHDxWlU" />
+  <meta name="msvalidate.01" content="F3762E555B3E685836AE39C90B79ECBF" />
+  <!-- aiglimpse-consent-default v1: must run before AdSense, defaults all ad/analytics storage to denied -->
+  <script>(function(){window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}window.gtag=gtag;gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'denied',functionality_storage:'granted',security_storage:'granted',wait_for_update:500});try{var s=JSON.parse(localStorage.getItem('aiglimpse-consent')||'null');if(s&&s.choice==='granted'){gtag('consent','update',{ad_storage:'granted',ad_user_data:'granted',ad_personalization:'granted',analytics_storage:'granted'});}}catch(e){}})();</script>
+  <!-- aiglimpse-ga4 v1: gtag.js loaded after consent default, so it buffers events until consent is granted -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-EVZ52DNQ8S"></script>
+  <script>gtag('js', new Date()); gtag('config', 'G-EVZ52DNQ8S', { anonymize_ip: true });</script>
+</head>
+<body>
+  <div class="reading-progress" aria-hidden="true"></div>
+  <header class="site-header" role="banner">
+    <div class="container">
+      <div class="header-bar">
+        <a href="/" class="logo" aria-label="AI Glimpse home">
+          <span class="logo-wordmark" aria-label="AI Glimpse">A<span class="iris-i" aria-hidden="true">ı</span><span aria-hidden="true"> Glimpse</span></span>
+        </a>
+        <nav class="nav-primary" aria-label="Primary">
+          <a href="/categories/llms">LLMs</a>
+            <a href="/categories/research">Research</a>
+            <a href="/categories/tools">Tools</a>
+            <a href="/categories/business">Business</a>
+            <a href="/categories/ethics">Ethics</a>
+            <a href="/categories/industry">Industry</a>
+            <a href="/categories/robotics">Robotics</a>
+        </nav>
+        <div class="header-actions">
+          <a class="search-btn" href="/search" aria-label="Search">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="11" cy="11" r="7"/><path d="M21 21l-4.35-4.35"/>
+            </svg>
+          </a>
+          <a href="#newsletter" class="btn btn--primary btn--sm">Subscribe</a>
+          <button class="menu-btn" aria-label="Open menu">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+  <aside class="mobile-menu" aria-label="Mobile menu">
+    <div class="mobile-menu-header">
+      <a href="/" class="logo">
+        <span class="logo-wordmark" aria-label="AI Glimpse">A<span class="iris-i" aria-hidden="true">ı</span><span aria-hidden="true"> Glimpse</span></span>
+      </a>
+      <button class="mobile-menu-close" aria-label="Close menu" style="font-size:24px;">×</button>
+    </div>
+    <a href="/categories/llms">LLMs</a>
+    <a href="/categories/research">Research</a>
+    <a href="/categories/tools">Tools</a>
+    <a href="/categories/business">Business</a>
+    <a href="/categories/ethics">Ethics</a>
+    <a href="/categories/industry">Industry</a>
+    <a href="/categories/robotics">Robotics</a>
+    <a href="/search">Search</a>
+    <a href="/pages/about">About</a>
+    <a href="#newsletter">Subscribe</a>
+  </aside>
+  <main>
+    <article>
+      <section class="article-hero">
+        <div class="container container--narrow">
+          <nav aria-label="Breadcrumb" style="margin-bottom:var(--space-4);font-size:var(--text-xs);color:var(--color-ink-muted);">
+            <a href="/" style="color:inherit;">Home</a> /
+            <a href="/categories/research" style="color:inherit;">AI Research</a>
+          </nav>
+          <div class="article-hero-meta">
+            <span class="tag tag--research">AI Research</span>
+            <span class="eyebrow">2 min read</span>
+          </div>
+          <h1 class="article-hero-title">New Method Lets AI Learn Without Labels During Testing</h1>
+          <p class="article-hero-subtitle">Researchers achieve supervised performance without ground-truth data by using asymmetric training during inference, potentially unlocking faster AI model improvements.</p>
+          <div class="article-byline">
+            <div>By <strong>AI Glimpse Newsroom</strong></div><div>·</div>
+            <div><time datetime="2026-08-27T17:58:10.000Z" data-relative="false">August 27, 2026</time></div>
+          </div>
+        </div>
+      </section>
+      <section style="padding: var(--space-7) 0;">
+        <div class="container container--narrow">
+          <figure class="article-image"><picture><source srcset="/images/articles/new-method-lets-ai-learn-without-labels-during-testing-b8a6510d.webp" type="image/webp"><img src="/images/articles/new-method-lets-ai-learn-without-labels-during-testing-b8a6510d.jpg" alt="New Method Lets AI Learn Without Labels During Testing" loading="eager" fetchpriority="high" width="1200" height="630"></picture></figure>
+          <div class="article-body"><p>A team of machine learning researchers has developed a novel training approach that enables <a href="/articles/how-large-language-models-work-clear-explainer">large language models</a> to improve their reasoning capabilities without requiring labeled data at test time, addressing a longstanding limitation in how AI systems are refined after deployment.</p><p>The method, called Test-Time Policy Optimization (TTPO), tackles a fundamental problem in modern AI training. Current state-of-the-art approaches like reinforcement learning and self-distillation rely on ground-truth labels to guide model improvements, making it impossible to continue training once a model is in use. Researchers have attempted to replace these labels with majority-vote consensus from multiple model outputs, but this approach introduces instability: a single incorrect consensus corrupts the training signal for every subsequent token.</p><h2>Building Robustness Through Asymmetry</h2><p>According to arXiv, the key insight driving TTPO is that rollouts disagreeing with the majority-vote label are almost always incorrect regardless of whether the consensus itself is accurate. Rather than treating all training signals equally, the researchers engineered an asymmetric objective that handles agreeing and disagreeing rollouts differently.</p><p>The framework operates in two branches:</p><ul><li>Agreeing outputs are refined using on-policy self-distillation, a gentler training approach that reinforces correct patterns</li><li>Disagreeing outputs receive structured penalties through grouped reinforcement learning, actively discouraging erroneous predictions</li></ul><p>Token-level filtering adds another layer of robustness. The distillation branch automatically down-weights positions the model has already mastered, avoiding redundant training. The reinforcement learning branch penalizes only confident errors, ignoring uncertain mistakes that may resolve naturally as the model improves.</p><h2>Competitive Performance Without Supervision</h2><p>The results validate the approach's effectiveness across multiple domains. On five competition-level mathematical reasoning benchmarks, TTPO matched the performance of models trained with full label supervision. On a smaller Qwen model (1.7 billion parameters), the method improved accuracy from 38.0% to 45.2% through test-time training alone, without requiring any manual annotations.</p><p>The gains extend beyond labeled scenarios. When tested on reasoning tasks without extended thinking, TTPO delivered improvements ranging from 25.2% to 36.4%. The researchers also demonstrated strong cross-task generalization, suggesting the learned patterns transfer effectively to unseen problem categories.</p><h2>Implications for Production AI</h2><p>The significance of this work lies in its practical implications for deployed AI systems. Most commercial large <a href="/articles/how-large-language-models-work-clear-explainer">language models</a> today are frozen after training, unable to improve from user interactions. TTPO provides a pathway for continuous improvement without the cost and complexity of manual labeling. As models encounter new types of problems in production, they could potentially refine their own behavior in real time.</p><p>The asymmetric training philosophy also offers insight into how AI systems can remain stable under noisy supervision. Rather than assuming all feedback is equally valuable, the framework acknowledges the reality of imperfect signals and builds robustness accordingly.</p><p>The research opens questions about scaling this approach to larger models and more complex reasoning tasks, but the preliminary evidence suggests a significant step forward in making AI systems more autonomous and adaptable during deployment.</p></div>
+          <!-- Inline ad slot, will be re-enabled once AdSense is approved -->
+          <p style="font-size:var(--text-xs);color:var(--color-ink-faint);margin-top:var(--space-6);padding-top:var(--space-4);border-top:1px solid var(--color-rule);">
+            Based on reporting from <a href="http://arxiv.org/abs/2608.27448v1" rel="nofollow noopener" target="_blank" style="color:inherit;text-decoration:underline;">arXiv (Aozhe Wang, Zhengxi Lu, Jianze Wang, Shangke Lv, Ying Liu, W…)</a>.
+          </p>
+        </div>
+      </section>
+    </article>
+    <section class="section" aria-label="Related articles">
+      <div class="container container--narrow">
+        <div class="section-header">
+          <h2 class="section-title">More from AI Glimpse</h2>
+          <a href="/categories/research" class="section-link">All Research stories</a>
+        </div>
+        <div class="grid grid-3">
+          <article class="card card--medium">
+            <a href="/articles/new-training-method-cuts-ai-agent-learning-time-by-removing-synchronization-bott-9be5edd9"><div class="card-image"><picture><source srcset="/images/articles/new-training-method-cuts-ai-agent-learning-time-by-removing-synchronization-bott-9be5edd9.webp" type="image/webp"><img src="/images/articles/new-training-method-cuts-ai-agent-learning-time-by-removing-synchronization-bott-9be5edd9.jpg" alt="New Training Method Cuts AI Agent Learning Time by Removing Synchronization Bottleneck" loading="lazy" width="1200" height="630"></picture></div></a>
+            <div class="card-meta">
+              <span class="tag tag--research">Research</span>
+              <span class="card-byline"><time datetime="2026-08-25T17:52:19.000Z">Aug 25, 2026</time></span>
+            </div>
+            <a href="/articles/new-training-method-cuts-ai-agent-learning-time-by-removing-synchronization-bott-9be5edd9"><h3 class="card-title">New Training Method Cuts AI Agent Learning Time by Removing Synchronization Bottleneck</h3></a>
+          </article>
+          <article class="card card--medium">
+            <a href="/articles/researchers-expose-critical-flaw-in-robot-world-models-fd2a3e09"><div class="card-image"><picture><source srcset="/images/articles/researchers-expose-critical-flaw-in-robot-world-models-fd2a3e09.webp" type="image/webp"><img src="/images/articles/researchers-expose-critical-flaw-in-robot-world-models-fd2a3e09.jpg" alt="Researchers Expose Critical Flaw in Robot World Models" loading="lazy" width="1200" height="630"></picture></div></a>
+            <div class="card-meta">
+              <span class="tag tag--research">Research</span>
+              <span class="card-byline"><time datetime="2026-08-25T17:59:49.000Z">Aug 25, 2026</time></span>
+            </div>
+            <a href="/articles/researchers-expose-critical-flaw-in-robot-world-models-fd2a3e09"><h3 class="card-title">Researchers Expose Critical Flaw in Robot World Models</h3></a>
+          </article>
+          <article class="card card--medium">
+            <a href="/articles/ai-robots-shift-from-task-automation-to-emotional-support-in-homes-f498f720"><div class="card-image"><picture><source srcset="/images/articles/ai-robots-shift-from-task-automation-to-emotional-support-in-homes-f498f720.webp" type="image/webp"><img src="/images/articles/ai-robots-shift-from-task-automation-to-emotional-support-in-homes-f498f720.jpg" alt="AI Robots Shift From Task Automation to Emotional Support in Homes" loading="lazy" width="1200" height="630"></picture></div></a>
+            <div class="card-meta">
+              <span class="tag tag--research">Research</span>
+              <span class="card-byline"><time datetime="2026-08-25T10:00:03.000Z">Aug 25, 2026</time></span>
+            </div>
+            <a href="/articles/ai-robots-shift-from-task-automation-to-emotional-support-in-homes-f498f720"><h3 class="card-title">AI Robots Shift From Task Automation to Emotional Support in Homes</h3></a>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="/" class="logo">
+            <span class="logo-wordmark" aria-label="AI Glimpse">A<span class="iris-i" aria-hidden="true">ı</span><span aria-hidden="true"> Glimpse</span></span>
+          </a>
+          <p>Your daily glimpse into AI. Independent reporting and analysis on the people, products, and policies shaping artificial intelligence.</p>
+        </div>
+        <div class="footer-col">
+          <h5>Categories</h5>
+          <ul>
+            <li><a href="/categories/llms">LLMs</a></li>
+            <li><a href="/categories/research">Research</a></li>
+            <li><a href="/categories/tools">Tools</a></li>
+            <li><a href="/categories/business">Business</a></li>
+            <li><a href="/categories/ethics">Ethics</a></li>
+            <li><a href="/categories/industry">Industry</a></li>
+            <li><a href="/categories/robotics">Robotics</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h5>About</h5>
+          <ul>
+            <li><a href="/pages/about">About AI Glimpse</a></li>
+            <li><a href="/pages/contact">Contact</a></li>
+            <li><a href="/pages/editorial">Editorial Standards</a></li>
+            <li><a href="/pages/advertise">Advertise</a></li>
+            <li><a href="/guides">Guides &amp; Explainers</a></li>
+            <li><a href="/search">Search</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h5>Legal</h5>
+          <ul>
+            <li><a href="/pages/privacy">Privacy Policy</a></li>
+            <li><a href="/pages/terms">Terms of Service</a></li>
+            <li><a href="#" data-consent-open>Cookie preferences</a></li>
+            <li><a href="/rss.xml">RSS Feed</a></li>
+            <li><a href="/sitemap.xml">Sitemap</a></li>
+            <li><a href="/llms.txt">LLMs.txt</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div>© <span id="year">2026</span> AI Glimpse · aiglimpse.ai</div>
+        <div class="footer-social">
+          <a href="/rss.xml" aria-label="RSS"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M6.503 20.752c0 1.794-1.456 3.248-3.251 3.248-1.796 0-3.252-1.454-3.252-3.248 0-1.794 1.456-3.248 3.252-3.248 1.795 0 3.251 1.454 3.251 3.248zm-6.503-12.572v4.811c6.05.062 10.96 4.966 11.022 11.009h4.817c-.062-8.71-7.118-15.758-15.839-15.82zm0-3.368c10.58.046 19.152 8.594 19.183 19.188h4.817c-.03-13.231-10.755-23.954-24-24v4.812z"/></svg></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="/js/chrome.js"></script>
+  <script src="/js/main.js"></script>
+</body>
+</html>

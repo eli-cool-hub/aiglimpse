@@ -7,6 +7,14 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>New Method Lets AI Learn Without Labels During Testing</title>
+      <link>https://aiglimpse.ai/articles/new-method-lets-ai-learn-without-labels-during-testing-b8a6510d</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-method-lets-ai-learn-without-labels-during-testing-b8a6510d</guid>
+      <description>Researchers achieve supervised performance without ground-truth data by using asymmetric training during inference, potentially unlocking faster AI model improvements.</description>
+      <pubDate>Thu, 27 Aug 2026 17:58:10 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
       <title>AI Agents Need Data-Layer Governance, Not Just Policy Promises</title>
       <link>https://aiglimpse.ai/articles/ai-agents-need-data-layer-governance-not-just-policy-promises-c4b10201</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/ai-agents-need-data-layer-governance-not-just-policy-promises-c4b10201</guid>
@@ -397,14 +405,6 @@
       <description>Machine learning systems are personalizing neurological rehabilitation, accelerating brain rewiring while extending care beyond hospital walls.</description>
       <pubDate>Sun, 16 Aug 2026 12:30:18 GMT</pubDate>
       <category>Robotics</category>
-    </item>
-    <item>
-      <title>Y Combinator-backed startup uses AI to design personalized cancer vaccines for dogs</title>
-      <link>https://aiglimpse.ai/articles/y-combinator-backed-startup-uses-ai-to-design-personalized-cancer-vaccines-for-d-04475ed6</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/y-combinator-backed-startup-uses-ai-to-design-personalized-cancer-vaccines-for-d-04475ed6</guid>
-      <description>Gamgee sequences tumors and leverages machine learning to create custom immunotherapies, marking a significant expansion of AI applications in veterinary medicine.</description>
-      <pubDate>Sun, 16 Aug 2026 09:31:51 GMT</pubDate>
-      <category>Industry Applications</category>
     </item>
   </channel>
 </rss>

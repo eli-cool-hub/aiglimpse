@@ -3,7 +3,7 @@
 > Machine-readable index for AI assistants, answer engines, and research crawlers.
 > Summary version: https://aiglimpse.ai/llms.txt
 
-Total articles: 1008 | Evergreen explainers: 30 | Generated: 2026-08-27
+Total articles: 1009 | Evergreen explainers: 30 | Generated: 2026-08-28
 
 ## Evergreen explainers
 
@@ -218,6 +218,13 @@ Total articles: 1008 | Evergreen explainers: 30 | Generated: 2026-08-27
 - Type: evergreen explainer (FAQ schema on page)
 
 ## All articles (newest first)
+
+### New Method Lets AI Learn Without Labels During Testing
+- URL: https://aiglimpse.ai/articles/new-method-lets-ai-learn-without-labels-during-testing-b8a6510d
+- Published: 2026-08-27
+- Category: research
+- Summary: Researchers achieve supervised performance without ground-truth data by using asymmetric training during inference, potentially unlocking faster AI model improvements.
+- Source: http://arxiv.org/abs/2608.27448v1
 
 ### AI Agents Need Data-Layer Governance, Not Just Policy Promises
 - URL: https://aiglimpse.ai/articles/ai-agents-need-data-layer-governance-not-just-policy-promises-c4b10201
