@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "california-carves-out-linux-from-age-verification-law-2ca12e70",
+      "title": "California Carves Out Linux From Age Verification Law",
+      "subtitle": "Open-source software exemption sidesteps compliance burden for GPL, MIT, BSD, and Apache projects.",
+      "category": "ethics",
+      "publishedAt": "2026-08-30T00:30:51.000Z",
+      "sourceUrl": "https://www.tomshardware.com/software/linux/california-lawmakers-unanimously-pass-linux-exemption-from-age-verification-law-software-distributed-under-the-gpl-mit-bsd-and-apache-licenses-are-exempt",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/california-carves-out-linux-from-age-verification-law-2ca12e70.jpg"
+    },
+    {
       "slug": "xai-faces-lawsuit-over-alleged-csam-use-in-grok-training-735d68e8",
       "title": "xAI Faces Lawsuit Over Alleged CSAM Use in Grok Training",
       "subtitle": "Legal complaint alleges child abuse material was used to develop Elon Musk's AI chatbot, raising questions about training data oversight.",
@@ -12141,6 +12152,7 @@
     "a375cf8fe0e7e432",
     "c4b10201a7b4fb7a",
     "b8a6510d404eee2e",
-    "735d68e865072a26"
+    "735d68e865072a26",
+    "2ca12e70d92a5561"
   ]
 }
