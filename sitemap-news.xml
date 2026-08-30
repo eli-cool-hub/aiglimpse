@@ -22,15 +22,4 @@
     <changefreq>hourly</changefreq>
     <priority>0.9</priority>
   </url>
-  <url>
-    <loc>https://aiglimpse.ai/articles/nvidia-gpu-ai-infrastructure-guide</loc>
-    <lastmod>2026-08-28</lastmod>
-    <news:news>
-      <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-08-28T17:54:28.293Z</news:publication_date>
-      <news:title>NVIDIA GPU Infrastructure for AI: Training vs Inference at Scale</news:title>
-    </news:news>
-    <changefreq>hourly</changefreq>
-    <priority>0.9</priority>
-  </url>
 </urlset>
