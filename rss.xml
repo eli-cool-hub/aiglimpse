@@ -7,6 +7,14 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>U.S. Tightens AI Chip Controls With Remote Access Restrictions</title>
+      <link>https://aiglimpse.ai/articles/us-tightens-ai-chip-controls-with-remote-access-restrictions-b969b262</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/us-tightens-ai-chip-controls-with-remote-access-restrictions-b969b262</guid>
+      <description>Commerce Department moves to block Chinese firms from renting GPU computing power through overseas data centers, closing a major loophole in export controls.</description>
+      <pubDate>Sun, 30 Aug 2026 14:01:16 GMT</pubDate>
+      <category>Ethics &amp; Policy</category>
+    </item>
+    <item>
       <title>California Carves Out Linux From Age Verification Law</title>
       <link>https://aiglimpse.ai/articles/california-carves-out-linux-from-age-verification-law-2ca12e70</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/california-carves-out-linux-from-age-verification-law-2ca12e70</guid>
@@ -397,14 +405,6 @@
       <description>A new open-source language model delivers strong performance for local deployment but masks its capabilities behind a problematic preset configuration.</description>
       <pubDate>Mon, 17 Aug 2026 03:12:01 GMT</pubDate>
       <category>AI Business</category>
-    </item>
-    <item>
-      <title>LLM benchmarks explained: MMLU, HumanEval, MTEB, and what they actually measure</title>
-      <link>https://aiglimpse.ai/articles/ai-evaluation-benchmarks-explained</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/ai-evaluation-benchmarks-explained</guid>
-      <description>A technical guide to understanding what AI model benchmarks test, their blind spots, and how to evaluate responsibly.</description>
-      <pubDate>Mon, 17 Aug 2026 07:07:14 GMT</pubDate>
-      <category>AI Research</category>
     </item>
   </channel>
 </rss>

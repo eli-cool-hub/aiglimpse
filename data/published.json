@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "us-tightens-ai-chip-controls-with-remote-access-restrictions-b969b262",
+      "title": "U.S. Tightens AI Chip Controls With Remote Access Restrictions",
+      "subtitle": "Commerce Department moves to block Chinese firms from renting GPU computing power through overseas data centers, closing a major loophole in export controls.",
+      "category": "ethics",
+      "publishedAt": "2026-08-30T14:01:16.000Z",
+      "sourceUrl": "https://www.theinformation.com/articles/trump-administration-working-ai-rule-curb-chinas-remote-access-chips",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/us-tightens-ai-chip-controls-with-remote-access-restrictions-b969b262.jpg"
+    },
+    {
       "slug": "california-carves-out-linux-from-age-verification-law-2ca12e70",
       "title": "California Carves Out Linux From Age Verification Law",
       "subtitle": "Open-source software exemption sidesteps compliance burden for GPL, MIT, BSD, and Apache projects.",
@@ -12153,6 +12164,7 @@
     "c4b10201a7b4fb7a",
     "b8a6510d404eee2e",
     "735d68e865072a26",
-    "2ca12e70d92a5561"
+    "2ca12e70d92a5561",
+    "b969b2625485eae7"
   ]
 }
