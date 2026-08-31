@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "mollick-proposes-facilitator-agent-model-to-prevent-ai-overautomation-169b12c0",
+      "title": "Mollick Proposes 'Facilitator Agent' Model to Prevent AI Overautomation",
+      "subtitle": "Researcher argues AI systems need human-in-the-loop controllers after 700-agent OpenAI testing revealed automation risks.",
+      "category": "ethics",
+      "publishedAt": "2026-08-31T14:00:06.000Z",
+      "sourceUrl": "https://www.oneusefulthing.org/p/agency-and-agents",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/mollick-proposes-facilitator-agent-model-to-prevent-ai-overautomation-169b12c0.jpg"
+    },
+    {
       "slug": "australian-court-penalizes-worker-for-relying-on-flawed-ai-legal-counsel-8f837472",
       "title": "Australian Court Penalizes Worker for Relying on Flawed AI Legal Counsel",
       "subtitle": "A landmark case highlights the dangers of using large language models for specialized professional advice without expert oversight.",
@@ -12177,6 +12188,7 @@
     "735d68e865072a26",
     "2ca12e70d92a5561",
     "b969b2625485eae7",
-    "8f83747298cd2cbc"
+    "8f83747298cd2cbc",
+    "169b12c0a2ba8891"
   ]
 }
