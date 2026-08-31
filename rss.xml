@@ -7,6 +7,14 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Australian Court Penalizes Worker for Relying on Flawed AI Legal Counsel</title>
+      <link>https://aiglimpse.ai/articles/australian-court-penalizes-worker-for-relying-on-flawed-ai-legal-counsel-8f837472</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/australian-court-penalizes-worker-for-relying-on-flawed-ai-legal-counsel-8f837472</guid>
+      <description>A landmark case highlights the dangers of using large language models for specialized professional advice without expert oversight.</description>
+      <pubDate>Sun, 30 Aug 2026 12:33:52 GMT</pubDate>
+      <category>Ethics &amp; Policy</category>
+    </item>
+    <item>
       <title>U.S. Tightens AI Chip Controls With Remote Access Restrictions</title>
       <link>https://aiglimpse.ai/articles/us-tightens-ai-chip-controls-with-remote-access-restrictions-b969b262</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/us-tightens-ai-chip-controls-with-remote-access-restrictions-b969b262</guid>
@@ -397,14 +405,6 @@
       <description>A joint venture between Meta and BlackRock reveals infrastructure risks as AI companies race to build massive computing facilities for training large language models.</description>
       <pubDate>Mon, 17 Aug 2026 11:00:17 GMT</pubDate>
       <category>Industry Applications</category>
-    </item>
-    <item>
-      <title>Alibaba's Qwen 27B Model Shows Promise, Hampered by Default Settings</title>
-      <link>https://aiglimpse.ai/articles/alibabas-qwen-27b-model-shows-promise-hampered-by-default-settings-cb3777af</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/alibabas-qwen-27b-model-shows-promise-hampered-by-default-settings-cb3777af</guid>
-      <description>A new open-source language model delivers strong performance for local deployment but masks its capabilities behind a problematic preset configuration.</description>
-      <pubDate>Mon, 17 Aug 2026 03:12:01 GMT</pubDate>
-      <category>AI Business</category>
     </item>
   </channel>
 </rss>

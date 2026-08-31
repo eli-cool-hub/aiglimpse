@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "australian-court-penalizes-worker-for-relying-on-flawed-ai-legal-counsel-8f837472",
+      "title": "Australian Court Penalizes Worker for Relying on Flawed AI Legal Counsel",
+      "subtitle": "A landmark case highlights the dangers of using large language models for specialized professional advice without expert oversight.",
+      "category": "ethics",
+      "publishedAt": "2026-08-30T12:33:52.000Z",
+      "sourceUrl": "https://www.abc.net.au/news/2026-08-29/fair-work-commission-condemns-ai-legal-advice/107089766",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/australian-court-penalizes-worker-for-relying-on-flawed-ai-legal-counsel-8f837472.jpg"
+    },
+    {
       "slug": "us-tightens-ai-chip-controls-with-remote-access-restrictions-b969b262",
       "title": "U.S. Tightens AI Chip Controls With Remote Access Restrictions",
       "subtitle": "Commerce Department moves to block Chinese firms from renting GPU computing power through overseas data centers, closing a major loophole in export controls.",
@@ -12165,6 +12176,7 @@
     "b8a6510d404eee2e",
     "735d68e865072a26",
     "2ca12e70d92a5561",
-    "b969b2625485eae7"
+    "b969b2625485eae7",
+    "8f83747298cd2cbc"
   ]
 }
