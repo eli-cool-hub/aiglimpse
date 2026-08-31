@@ -132,9 +132,8 @@
 <h2>Model size, RAM, and device constraints</h2>
 <figure class="article-image article-image--inline">
   <picture><source srcset="/images/articles/small-language-models-edge-ai-inline-1.webp" type="image/webp"><img src="/images/articles/small-language-models-edge-ai-inline-1.jpg" alt="Model size, RAM, and device constraints" loading="lazy" width="1200" height="630"></picture>
-  <figcaption class="article-image-credit">Photo by <a href="https://www.pexels.com/photo/programming-code-on-computer-screen-5223887/" rel="nofollow noopener" target="_blank">Godfrey  Atima</a> on Pexels.</figcaption>
+  <figcaption class="article-image-credit">Photo by <a href="https://www.pexels.com/photo/man-using-laptop-wit-chat-gpt-16094044/" rel="nofollow noopener" target="_blank">Matheus Bertelli</a> on Pexels.</figcaption>
 </figure>
-
 
 <p>The relationship between model parameters, quantization, and available device memory is non-negotiable: understand it or your deployment will fail in production.</p>
 
@@ -166,12 +165,6 @@
 <p>Memory bandwidth is another constraint rarely discussed but critical in practice. Mobile phones are designed for multimedia, not sustained matrix math. The peak memory bandwidth on an iPhone 16 Pro is around 120 GB/s. A 7B model at 4-bit precision requires roughly 3.5GB of weight data. During a single forward pass, this data must move from memory to compute. If the compute itself takes only a few billion operations (which is common in inference, not training), the model quickly becomes memory-bandwidth limited rather than compute-limited. This means faster hardware does not always translate to proportionally faster inference.</p>
 
 <h2>Quantization: the core technique for edge deployment</h2>
-<figure class="article-image article-image--inline">
-  <picture><source srcset="/images/articles/small-language-models-edge-ai-inline-2.webp" type="image/webp"><img src="/images/articles/small-language-models-edge-ai-inline-2.jpg" alt="Quantization: the core technique for edge deployment" loading="lazy" width="1200" height="630"></picture>
-  <figcaption class="article-image-credit">Photo by <a href="https://www.pexels.com/photo/close-up-of-computer-screen-with-code-and-menu-options-34804017/" rel="nofollow noopener" target="_blank">Daniil Komov</a> on Pexels.</figcaption>
-</figure>
-
-
 <p>Quantization is not one technique but a family of methods to reduce model precision. For on-device SLMs, the most common approaches are post-training quantization (PTQ) and quantization-aware training (QAT).</p>
 
 <p>Post-training quantization happens after the model is fully trained. You take a model in FP32 and convert weights and activations to lower precision (e.g., Int8 or Int4) using calibration data. The appeal is speed: you do not retrain. The downside is that aggressive quantization (especially Int4) can degrade accuracy by 2-5% on reasoning tasks if not done carefully. Techniques like symmetric vs. asymmetric quantization, per-channel vs. per-layer scaling, and learned quantization parameters all affect the output quality.</p>

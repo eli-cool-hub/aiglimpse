@@ -132,9 +132,8 @@
 <h2>The core problem: why pure vector search leaves documents behind</h2>
 <figure class="article-image article-image--inline">
   <picture><source srcset="/images/articles/hybrid-search-rag-guide-inline-1.webp" type="image/webp"><img src="/images/articles/hybrid-search-rag-guide-inline-1.jpg" alt="The core problem: why pure vector search leaves documents behind" loading="lazy" width="1200" height="630"></picture>
-  <figcaption class="article-image-credit">Photo by <a href="https://www.pexels.com/photo/black-samsung-tablet-display-google-browser-on-screen-218717/" rel="nofollow noopener" target="_blank">AS Photography</a> on Pexels.</figcaption>
+  <figcaption class="article-image-credit">Photo by <a href="https://www.pexels.com/photo/macbook-air-on-grey-wooden-table-67112/" rel="nofollow noopener" target="_blank">Caio</a> on Pexels.</figcaption>
 </figure>
-
 
 <p>Vector embeddings map text into a continuous space where semantic similarity correlates with Euclidean distance. This works well for paraphrased queries and general-domain text. But embeddings have systematic blindspots.</p>
 
@@ -183,12 +182,6 @@ score(doc) = sum over systems: 1 / (k + rank(doc))
 </ul>
 
 <h2>Tuning hybrid search for your corpus and queries</h2>
-<figure class="article-image article-image--inline">
-  <picture><source srcset="/images/articles/hybrid-search-rag-guide-inline-2.webp" type="image/webp"><img src="/images/articles/hybrid-search-rag-guide-inline-2.jpg" alt="Tuning hybrid search for your corpus and queries" loading="lazy" width="1200" height="630"></picture>
-  <figcaption class="article-image-credit">Photo by <a href="https://www.pexels.com/photo/pictures-of-pregnant-woman-on-laptop-19809358/" rel="nofollow noopener" target="_blank">juliane Monari</a> on Pexels.</figcaption>
-</figure>
-
-
 <p>Raw hybrid search often underperforms because default weights and hyperparameters assume balanced, general-domain text. Domain-specific tuning can yield 5-20 point improvements in recall or precision.</p>
 
 <p><strong>Retrieve size (K) per system:</strong> BM25 and vector search should retrieve similar numbers. Common guidance is K=50 to K=200 per system, then fuse and re-rank the top 50-100. Too small (K=10) and rare-but-relevant documents are pruned before fusion. Too large (K=500) and you're re-ranking noise. Start at K=50 and measure recall@10 and precision@10 on a validation set. Increase K if recall drops below target; decrease if precision suffers.</p>

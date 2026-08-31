@@ -135,7 +135,6 @@
   <figcaption class="article-image-credit">Photo by <a href="https://www.pexels.com/photo/close-up-of-geforce-rtx-and-intel-core-stickers-33836894/" rel="nofollow noopener" target="_blank">Ruben Boekeloo</a> on Pexels.</figcaption>
 </figure>
 
-
 <p>Training and inference are opposite ends of the AI lifecycle and require different hardware and software stacks. Conflating them is a common mistake.</p>
 
 <p><strong>Training</strong> takes a model and a dataset, computes gradients, and updates weights iteratively. It demands the following:</p>
@@ -172,12 +171,6 @@
 <p>A rough ROI framework: if your annual inference volume is less than 100 million requests, or your training cluster will idle more than 30 percent of the time, cloud consumption (AWS EC2 with p4d instances, GCP with A100/H100 pods, Azure with ND-series) may be cheaper. If volume exceeds 500 million requests annually or training runs continuously, owned hardware typically breaks even within 24 to 36 months.</p>
 
 <h2>Cluster Architecture: Topology, Networking, and Fault Tolerance</h2>
-<figure class="article-image article-image--inline">
-  <picture><source srcset="/images/articles/nvidia-gpu-ai-infrastructure-guide-inline-2.webp" type="image/webp"><img src="/images/articles/nvidia-gpu-ai-infrastructure-guide-inline-2.jpg" alt="Cluster Architecture: Topology, Networking, and Fault Tolerance" loading="lazy" width="1200" height="630"></picture>
-  <figcaption class="article-image-credit">Photo by <a href="https://www.pexels.com/photo/close-up-of-computer-hardware-17489157/" rel="nofollow noopener" target="_blank">panumas nikhomkhai</a> on Pexels.</figcaption>
-</figure>
-
-
 <p>Building a GPU cluster is not just racking GPUs; the networking and software stack determine scalability and reliability.</p>
 
 <p><strong>Intra-node communication:</strong> Inside a single server, GPUs talk via PCIe (up to 128 GB/s per direction, limited by PCIe 5.0) or NVLink (up to 900 GB/s bi-directional on H100). Servers often house 2 to 8 GPUs per node. For training, 8 GPUs per node is common; for inference, fewer GPUs per node (1 to 4) may reduce contention and improve latency variance.</p>
