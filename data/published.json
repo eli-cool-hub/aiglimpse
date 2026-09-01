@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "trump-frames-data-center-expansion-as-essential-to-ai-economy-70ca6793",
+      "title": "Trump Frames Data Center Expansion as Essential to AI Economy",
+      "subtitle": "Former president warns communities opposing server facilities risk economic stagnation as AI infrastructure becomes central to national competitiveness.",
+      "category": "ethics",
+      "publishedAt": "2026-08-31T18:28:18.000Z",
+      "sourceUrl": "https://gizmodo.com/trump-to-communities-fighting-data-centers-have-fun-being-poor-2000805020",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/trump-frames-data-center-expansion-as-essential-to-ai-economy-70ca6793.jpg"
+    },
+    {
       "slug": "mollick-proposes-facilitator-agent-model-to-prevent-ai-overautomation-169b12c0",
       "title": "Mollick Proposes 'Facilitator Agent' Model to Prevent AI Overautomation",
       "subtitle": "Researcher argues AI systems need human-in-the-loop controllers after 700-agent OpenAI testing revealed automation risks.",
@@ -12189,6 +12200,7 @@
     "2ca12e70d92a5561",
     "b969b2625485eae7",
     "8f83747298cd2cbc",
-    "169b12c0a2ba8891"
+    "169b12c0a2ba8891",
+    "70ca67931e248795"
   ]
 }
