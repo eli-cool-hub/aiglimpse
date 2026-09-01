@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "the-hidden-vulnerabilities-threatening-robot-safety-beyond-physics-62c60ca2",
+      "title": "The Hidden Vulnerabilities Threatening Robot Safety Beyond Physics",
+      "subtitle": "New research reveals how attackers can manipulate robot behavior through compromised AI models, exploited systems, and runtime attacks without triggering conventional safety mechanisms.",
+      "category": "robotics",
+      "publishedAt": "2026-09-01T13:56:53.000Z",
+      "sourceUrl": "https://www.therobotreport.com/the-missing-layer-in-robot-safety-assurance/",
+      "sourceName": "The Robot Report",
+      "sourceTier": 3,
+      "image": "/images/articles/the-hidden-vulnerabilities-threatening-robot-safety-beyond-physics-62c60ca2.jpg"
+    },
+    {
       "slug": "openai-backs-california-bill-targeting-ai-safety-for-teenagers-330076d2",
       "title": "OpenAI Backs California Bill Targeting AI Safety for Teenagers",
       "subtitle": "The AI giant endorses legislation designed to establish age-appropriate protections while allowing young people to continue experimenting with generative tools.",
@@ -12213,6 +12224,7 @@
     "8f83747298cd2cbc",
     "169b12c0a2ba8891",
     "70ca67931e248795",
-    "330076d264c1b159"
+    "330076d264c1b159",
+    "62c60ca2fe89b499"
   ]
 }

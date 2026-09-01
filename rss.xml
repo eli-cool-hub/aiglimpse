@@ -7,6 +7,14 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>The Hidden Vulnerabilities Threatening Robot Safety Beyond Physics</title>
+      <link>https://aiglimpse.ai/articles/the-hidden-vulnerabilities-threatening-robot-safety-beyond-physics-62c60ca2</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/the-hidden-vulnerabilities-threatening-robot-safety-beyond-physics-62c60ca2</guid>
+      <description>New research reveals how attackers can manipulate robot behavior through compromised AI models, exploited systems, and runtime attacks without triggering conventional safety mechanisms.</description>
+      <pubDate>Tue, 01 Sep 2026 13:56:53 GMT</pubDate>
+      <category>Robotics</category>
+    </item>
+    <item>
       <title>OpenAI Backs California Bill Targeting AI Safety for Teenagers</title>
       <link>https://aiglimpse.ai/articles/openai-backs-california-bill-targeting-ai-safety-for-teenagers-330076d2</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/openai-backs-california-bill-targeting-ai-safety-for-teenagers-330076d2</guid>
@@ -397,14 +405,6 @@
       <description>Researchers propose BATON, a method that breaks long-horizon robot tasks into independently learnable subtasks, improving success rates by up to 15%.</description>
       <pubDate>Mon, 17 Aug 2026 17:59:57 GMT</pubDate>
       <category>AI Research</category>
-    </item>
-    <item>
-      <title>Healthcare AI Success Hinges on Workflow Design, Not Algorithm Power</title>
-      <link>https://aiglimpse.ai/articles/healthcare-ai-success-hinges-on-workflow-design-not-algorithm-power-66975711</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/healthcare-ai-success-hinges-on-workflow-design-not-algorithm-power-66975711</guid>
-      <description>As health systems scale AI beyond pilots, integration into existing processes matters far more than model accuracy.</description>
-      <pubDate>Mon, 17 Aug 2026 21:50:42 GMT</pubDate>
-      <category>Industry Applications</category>
     </item>
   </channel>
 </rss>
