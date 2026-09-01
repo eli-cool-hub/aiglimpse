@@ -12566,6 +12566,24 @@
         "devto": true,
         "hashnode": false
       }
+    },
+    "openai-backs-california-bill-targeting-ai-safety-for-teenagers-330076d2": {
+      "syndicated_at": "2026-09-01T09:13:50.345Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/openai-backs-california-bill-targeting-ai-safety-for-teenagers-2d6n",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 469,
+      "category": "llms",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
     }
   }
 }

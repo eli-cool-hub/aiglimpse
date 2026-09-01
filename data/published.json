@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "openai-backs-california-bill-targeting-ai-safety-for-teenagers-330076d2",
+      "title": "OpenAI Backs California Bill Targeting AI Safety for Teenagers",
+      "subtitle": "The AI giant endorses legislation designed to establish age-appropriate protections while allowing young people to continue experimenting with generative tools.",
+      "category": "llms",
+      "publishedAt": "2026-08-31T07:00:00.000Z",
+      "sourceUrl": "https://openai.com/index/supporting-california-bill-advance-ai-youth-safety",
+      "sourceName": "OpenAI",
+      "sourceTier": 1,
+      "image": "/images/articles/openai-backs-california-bill-targeting-ai-safety-for-teenagers-330076d2.jpg"
+    },
+    {
       "slug": "trump-frames-data-center-expansion-as-essential-to-ai-economy-70ca6793",
       "title": "Trump Frames Data Center Expansion as Essential to AI Economy",
       "subtitle": "Former president warns communities opposing server facilities risk economic stagnation as AI infrastructure becomes central to national competitiveness.",
@@ -12201,6 +12212,7 @@
     "b969b2625485eae7",
     "8f83747298cd2cbc",
     "169b12c0a2ba8891",
-    "70ca67931e248795"
+    "70ca67931e248795",
+    "330076d264c1b159"
   ]
 }
