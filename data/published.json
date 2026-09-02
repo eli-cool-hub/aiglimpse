@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "us-government-backs-openai-in-copyright-training-defense-2edf50f1",
+      "title": "U.S. Government Backs OpenAI in Copyright Training Defense",
+      "subtitle": "Justice Department files legal brief supporting fair-use doctrine for LLM training, reshaping AI industry litigation landscape.",
+      "category": "research",
+      "publishedAt": "2026-09-02T21:12:01.000Z",
+      "sourceUrl": "https://wired.com/story/trump-administration-sides-with-ai-giants-new-york-times-lawsuit",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/us-government-backs-openai-in-copyright-training-defense-2edf50f1.jpg"
+    },
+    {
       "slug": "court-orders-google-to-enable-ad-tech-interoperability-instead-of-divesting-adx-c9757255",
       "title": "Court Orders Google to Enable Ad-Tech Interoperability Instead of Divesting AdX",
       "subtitle": "A federal judge rejected forced divestiture, opting for behavioral remedies that could reshape how AI-powered ad systems compete and share data.",
@@ -12249,6 +12260,7 @@
     "330076d264c1b159",
     "62c60ca2fe89b499",
     "72490316d61324c9",
-    "c9757255b1099c35"
+    "c9757255b1099c35",
+    "2edf50f109ebf495"
   ]
 }
