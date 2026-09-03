@@ -7,6 +7,14 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>U.S. Government Backs OpenAI in Copyright Training Row</title>
+      <link>https://aiglimpse.ai/articles/us-government-backs-openai-in-copyright-training-row-558c635c</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/us-government-backs-openai-in-copyright-training-row-558c635c</guid>
+      <description>Federal filing argues AI companies' use of copyrighted material for model development qualifies as fair use, reshaping legal landscape.</description>
+      <pubDate>Wed, 02 Sep 2026 18:41:02 GMT</pubDate>
+      <category>AI Tools &amp; Products</category>
+    </item>
+    <item>
       <title>OpenAI's Astra Model Raises Safety Concerns With Novel Reasoning Method</title>
       <link>https://aiglimpse.ai/articles/openais-astra-model-raises-safety-concerns-with-novel-reasoning-method-432ae861</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/openais-astra-model-raises-safety-concerns-with-novel-reasoning-method-432ae861</guid>
@@ -397,14 +405,6 @@
       <description>The company's trust platform aims to make human-robot collaboration safer and more scalable across industrial sectors.</description>
       <pubDate>Tue, 18 Aug 2026 15:24:13 GMT</pubDate>
       <category>Robotics</category>
-    </item>
-    <item>
-      <title>Enterprise AI Security: Mitigating Prompt Injection and Data Leakage</title>
-      <link>https://aiglimpse.ai/articles/enterprise-ai-security-best-practices</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/enterprise-ai-security-best-practices</guid>
-      <description>A security checklist for deploying LLMs without exposing sensitive data or compromising model behavior</description>
-      <pubDate>Wed, 19 Aug 2026 06:29:24 GMT</pubDate>
-      <category>Ethics &amp; Policy</category>
     </item>
   </channel>
 </rss>

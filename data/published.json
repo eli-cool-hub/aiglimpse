@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "us-government-backs-openai-in-copyright-training-row-558c635c",
+      "title": "U.S. Government Backs OpenAI in Copyright Training Row",
+      "subtitle": "Federal filing argues AI companies' use of copyrighted material for model development qualifies as fair use, reshaping legal landscape.",
+      "category": "tools",
+      "publishedAt": "2026-09-02T18:41:02.000Z",
+      "sourceUrl": "https://www.wired.com/story/trump-administration-sides-with-ai-giants-new-york-times-lawsuit/",
+      "sourceName": "Wired AI",
+      "sourceTier": 2,
+      "image": "/images/articles/us-government-backs-openai-in-copyright-training-row-558c635c.jpg"
+    },
+    {
       "slug": "openais-astra-model-raises-safety-concerns-with-novel-reasoning-method-432ae861",
       "title": "OpenAI's Astra Model Raises Safety Concerns With Novel Reasoning Method",
       "subtitle": "The company's departure from sequential thinking introduces architectural risks that warrant closer examination from the research community.",
@@ -12273,6 +12284,7 @@
     "72490316d61324c9",
     "c9757255b1099c35",
     "2edf50f109ebf495",
-    "432ae861556084fa"
+    "432ae861556084fa",
+    "558c635cf0753a84"
   ]
 }
