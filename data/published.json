@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "openais-astra-model-raises-safety-concerns-with-novel-reasoning-method-432ae861",
+      "title": "OpenAI's Astra Model Raises Safety Concerns With Novel Reasoning Method",
+      "subtitle": "The company's departure from sequential thinking introduces architectural risks that warrant closer examination from the research community.",
+      "category": "business",
+      "publishedAt": "2026-09-02T20:19:14.000Z",
+      "sourceUrl": "https://techcrunch.com/2026/09/02/openais-new-reasoning-technique-alarms-ai-safety-experts/",
+      "sourceName": "TechCrunch AI",
+      "sourceTier": 2,
+      "image": "/images/articles/openais-astra-model-raises-safety-concerns-with-novel-reasoning-method-432ae861.jpg"
+    },
+    {
       "slug": "us-government-backs-openai-in-copyright-training-defense-2edf50f1",
       "title": "U.S. Government Backs OpenAI in Copyright Training Defense",
       "subtitle": "Justice Department files legal brief supporting fair-use doctrine for LLM training, reshaping AI industry litigation landscape.",
@@ -12261,6 +12272,7 @@
     "62c60ca2fe89b499",
     "72490316d61324c9",
     "c9757255b1099c35",
-    "2edf50f109ebf495"
+    "2edf50f109ebf495",
+    "432ae861556084fa"
   ]
 }
