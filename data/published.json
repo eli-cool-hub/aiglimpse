@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "police-ai-tool-shifts-from-license-plates-to-behavior-patterns-e809e038",
+      "title": "Police AI Tool Shifts From License Plates to Behavior Patterns",
+      "subtitle": "Flock Safety's new conversational search system lets officers query vehicles by location, time, and driving behavior, raising fresh surveillance concerns.",
+      "category": "ethics",
+      "publishedAt": "2026-09-03T15:12:01.000Z",
+      "sourceUrl": "https://wired.com/story/flock-ai-search-user-interface",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/police-ai-tool-shifts-from-license-plates-to-behavior-patterns-e809e038.jpg"
+    },
+    {
       "slug": "us-government-backs-openai-in-copyright-training-row-558c635c",
       "title": "U.S. Government Backs OpenAI in Copyright Training Row",
       "subtitle": "Federal filing argues AI companies' use of copyrighted material for model development qualifies as fair use, reshaping legal landscape.",
@@ -12285,6 +12296,7 @@
     "c9757255b1099c35",
     "2edf50f109ebf495",
     "432ae861556084fa",
-    "558c635cf0753a84"
+    "558c635cf0753a84",
+    "e809e038fab954df"
   ]
 }
