@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "sanders-and-casar-push-bill-to-ban-ai-superintelligence-c9bf02c9",
+      "title": "Sanders and Casar Push Bill to Ban AI Superintelligence",
+      "subtitle": "Legislation would impose criminal penalties for developing superintelligent AI and establish federal safety oversight before advancing frontier research.",
+      "category": "ethics",
+      "publishedAt": "2026-09-03T18:34:05.000Z",
+      "sourceUrl": "https://www.sanders.senate.gov/press-releases/news-sanders-casar-introduce-legislation-to-ban-artificial-superintelligence-and-temporarily-pause-advanced-ai-development/",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/sanders-and-casar-push-bill-to-ban-ai-superintelligence-c9bf02c9.jpg"
+    },
+    {
       "slug": "police-ai-tool-shifts-from-license-plates-to-behavior-patterns-e809e038",
       "title": "Police AI Tool Shifts From License Plates to Behavior Patterns",
       "subtitle": "Flock Safety's new conversational search system lets officers query vehicles by location, time, and driving behavior, raising fresh surveillance concerns.",
@@ -12297,6 +12308,7 @@
     "2edf50f109ebf495",
     "432ae861556084fa",
     "558c635cf0753a84",
-    "e809e038fab954df"
+    "e809e038fab954df",
+    "c9bf02c95b5fe233"
   ]
 }
