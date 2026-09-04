@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "harvard-adopts-dual-track-ai-policy-for-coursework-59d5ebef",
+      "title": "Harvard Adopts Dual-Track AI Policy for Coursework",
+      "subtitle": "Top university signals shift toward monitored exams while eliminating at-home assignments as graded work, establishing framework other institutions may follow.",
+      "category": "ethics",
+      "publishedAt": "2026-09-04T00:12:01.000Z",
+      "sourceUrl": "https://college.harvard.edu/about/deans-messages/starting-new-year-together",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/harvard-adopts-dual-track-ai-policy-for-coursework-59d5ebef.jpg"
+    },
+    {
       "slug": "eus-ai-transparency-rules-face-watermarking-loopholes-c5224fa5",
       "title": "EU's AI Transparency Rules Face Watermarking Loopholes",
       "subtitle": "New compliance requirements take effect but experts warn detection methods remain vulnerable to simple workarounds.",
@@ -12321,6 +12332,7 @@
     "558c635cf0753a84",
     "e809e038fab954df",
     "c9bf02c95b5fe233",
-    "c5224fa529e3f694"
+    "c5224fa529e3f694",
+    "59d5ebef40f28c3e"
   ]
 }
