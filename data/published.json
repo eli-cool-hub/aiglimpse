@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "federal-agency-scrutinizes-teslas-driverless-vehicle-certification-a19c8778",
+      "title": "Federal Agency Scrutinizes Tesla's Driverless Vehicle Certification",
+      "subtitle": "NHTSA launches formal investigation into how Tesla obtained regulatory approval for fully autonomous Cybercabs with no manual controls.",
+      "category": "ethics",
+      "publishedAt": "2026-09-04T12:28:46.000Z",
+      "sourceUrl": "https://techcrunch.com/2026/09/04/feds-launch-investigation-into-teslas-cybercab-deployment/",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/federal-agency-scrutinizes-teslas-driverless-vehicle-certification-a19c8778.jpg"
+    },
+    {
       "slug": "ai-assistants-learn-to-reject-requests-that-contradict-user-context-6363653d",
       "title": "AI Assistants Learn to Reject Requests That Contradict User Context",
       "subtitle": "New research argues personalized AI should refuse inappropriate requests based on user circumstances, not just policy rules.",
@@ -12345,6 +12356,7 @@
     "c9bf02c95b5fe233",
     "c5224fa529e3f694",
     "59d5ebef40f28c3e",
-    "6363653dcc6f2b56"
+    "6363653dcc6f2b56",
+    "a19c8778296b1cce"
   ]
 }
