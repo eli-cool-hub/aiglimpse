@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "openais-astra-model-raises-safety-concerns-with-novel-architecture-e4f02949",
+      "title": "OpenAI's Astra Model Raises Safety Concerns With Novel Architecture",
+      "subtitle": "The frontier AI model employs a computational technique that researchers worry could complicate oversight and control mechanisms.",
+      "category": "ethics",
+      "publishedAt": "2026-09-04T17:00:24.000Z",
+      "sourceUrl": "https://fortune.com/2026/09/03/reports-openais-astra-model-uses-a-new-more-efficient-ai-architecture-alarms-ai-safety-experts-who-worry-the-method-makes-models-harder-to-control/",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/openais-astra-model-raises-safety-concerns-with-novel-architecture-e4f02949.jpg"
+    },
+    {
       "slug": "federal-agency-scrutinizes-teslas-driverless-vehicle-certification-a19c8778",
       "title": "Federal Agency Scrutinizes Tesla's Driverless Vehicle Certification",
       "subtitle": "NHTSA launches formal investigation into how Tesla obtained regulatory approval for fully autonomous Cybercabs with no manual controls.",
@@ -12357,6 +12368,7 @@
     "c5224fa529e3f694",
     "59d5ebef40f28c3e",
     "6363653dcc6f2b56",
-    "a19c8778296b1cce"
+    "a19c8778296b1cce",
+    "e4f0294957d05dab"
   ]
 }
