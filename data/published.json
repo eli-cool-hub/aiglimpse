@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "bipartisan-bill-seeks-federal-standards-for-ai-agent-deployment-66ef7ee6",
+      "title": "Bipartisan Bill Seeks Federal Standards for AI Agent Deployment",
+      "subtitle": "New legislation would task NIST with creating security guidelines for autonomous AI systems within one year, marking a shift toward federal oversight of agent technology.",
+      "category": "ethics",
+      "publishedAt": "2026-09-05T21:28:40.000Z",
+      "sourceUrl": "https://www.axios.com/2026/09/03/house-bill-ai-agents-security",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/bipartisan-bill-seeks-federal-standards-for-ai-agent-deployment-66ef7ee6.jpg"
+    },
+    {
       "slug": "amd-threadripper-halo-brings-576gb-memory-to-local-ai-research-39afe736",
       "title": "AMD Threadripper Halo Brings 576GB Memory to Local AI Research",
       "subtitle": "New workstation targets researchers running trillion-parameter models on-premises, arriving in 2027 with massive memory bandwidth.",
@@ -12405,6 +12416,7 @@
     "e4f0294957d05dab",
     "208c795b0bafe4b9",
     "f9e0f0202ef5f679",
-    "39afe736d0866f0f"
+    "39afe736d0866f0f",
+    "66ef7ee6a28ac694"
   ]
 }
