@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "amd-threadripper-halo-brings-576gb-memory-to-local-ai-research-39afe736",
+      "title": "AMD Threadripper Halo Brings 576GB Memory to Local AI Research",
+      "subtitle": "New workstation targets researchers running trillion-parameter models on-premises, arriving in 2027 with massive memory bandwidth.",
+      "category": "industry",
+      "publishedAt": "2026-09-05T05:07:10.000Z",
+      "sourceUrl": "https://www.theregister.com/on-prem/2026/09/04/amds-threadripper-halo-is-a-local-ai-workstation-for-researchers-with-deep-pockets/5294616",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/amd-threadripper-halo-brings-576gb-memory-to-local-ai-research-39afe736.jpg"
+    },
+    {
       "slug": "us-and-china-to-hold-first-dedicated-ai-safety-talks-under-trump-f9e0f020",
       "title": "US and China to Hold First Dedicated AI Safety Talks Under Trump",
       "subtitle": "Treasury Secretary Bessent will lead Washington's delegation to Beijing next month in a rare diplomatic engagement focused on artificial intelligence governance.",
@@ -12393,6 +12404,7 @@
     "a19c8778296b1cce",
     "e4f0294957d05dab",
     "208c795b0bafe4b9",
-    "f9e0f0202ef5f679"
+    "f9e0f0202ef5f679",
+    "39afe736d0866f0f"
   ]
 }
