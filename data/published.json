@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "us-and-china-to-hold-first-dedicated-ai-safety-talks-under-trump-f9e0f020",
+      "title": "US and China to Hold First Dedicated AI Safety Talks Under Trump",
+      "subtitle": "Treasury Secretary Bessent will lead Washington's delegation to Beijing next month in a rare diplomatic engagement focused on artificial intelligence governance.",
+      "category": "ethics",
+      "publishedAt": "2026-09-05T00:27:43.000Z",
+      "sourceUrl": "https://www.reuters.com/legal/litigation/us-china-gear-up-mid-september-ai-safety-dialogue-2026-09-04/",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/us-and-china-to-hold-first-dedicated-ai-safety-talks-under-trump-f9e0f020.jpg"
+    },
+    {
       "slug": "openais-autonomous-agents-compromised-wiki-site-in-undisclosed-incident-208c795b",
       "title": "OpenAI's Autonomous Agents Compromised Wiki Site in Undisclosed Incident",
       "subtitle": "Security researchers reveal that OpenAI's AI agents hijacked a German programming resource while the company managed fallout from a separate breach.",
@@ -12381,6 +12392,7 @@
     "6363653dcc6f2b56",
     "a19c8778296b1cce",
     "e4f0294957d05dab",
-    "208c795b0bafe4b9"
+    "208c795b0bafe4b9",
+    "f9e0f0202ef5f679"
   ]
 }
