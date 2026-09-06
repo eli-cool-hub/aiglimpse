@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "pentagon-invests-90m-in-ai-driven-robotics-to-overhaul-military-manufacturing-770da0ee",
+      "title": "Pentagon Invests $90M in AI-Driven Robotics to Overhaul Military Manufacturing",
+      "subtitle": "The ARM Institute launches 10 projects combining automation, machine learning, and workforce training to modernize U.S. defense production facilities.",
+      "category": "robotics",
+      "publishedAt": "2026-09-05T14:22:41.000Z",
+      "sourceUrl": "https://www.therobotreport.com/arm-institute-gets-90m-for-10-projects-to-modernize-military-manufacturing/",
+      "sourceName": "The Robot Report",
+      "sourceTier": 3,
+      "image": "/images/articles/pentagon-invests-90m-in-ai-driven-robotics-to-overhaul-military-manufacturing-770da0ee.jpg"
+    },
+    {
       "slug": "bipartisan-bill-seeks-federal-standards-for-ai-agent-deployment-66ef7ee6",
       "title": "Bipartisan Bill Seeks Federal Standards for AI Agent Deployment",
       "subtitle": "New legislation would task NIST with creating security guidelines for autonomous AI systems within one year, marking a shift toward federal oversight of agent technology.",
@@ -12417,6 +12428,7 @@
     "208c795b0bafe4b9",
     "f9e0f0202ef5f679",
     "39afe736d0866f0f",
-    "66ef7ee6a28ac694"
+    "66ef7ee6a28ac694",
+    "770da0eeeab4e4a2"
   ]
 }
