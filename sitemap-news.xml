@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://aiglimpse.ai/articles/political-campaigns-circumvent-openais-ad-ban-through-direct-payments-26074255</loc>
+    <lastmod>2026-09-06</lastmod>
+    <news:news>
+      <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-09-06T07:58:28.000Z</news:publication_date>
+      <news:title>Political Campaigns Circumvent OpenAI's Ad Ban Through Direct Payments</news:title>
+    </news:news>
+    <changefreq>hourly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
     <loc>https://aiglimpse.ai/articles/pentagon-invests-90m-in-ai-driven-robotics-to-overhaul-military-manufacturing-770da0ee</loc>
     <lastmod>2026-09-05</lastmod>
     <news:news>
@@ -62,17 +73,6 @@
       <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-09-04T17:00:24.000Z</news:publication_date>
       <news:title>OpenAI's Astra Model Raises Safety Concerns With Novel Architecture</news:title>
-    </news:news>
-    <changefreq>hourly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://aiglimpse.ai/articles/federal-agency-scrutinizes-teslas-driverless-vehicle-certification-a19c8778</loc>
-    <lastmod>2026-09-04</lastmod>
-    <news:news>
-      <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-09-04T12:28:46.000Z</news:publication_date>
-      <news:title>Federal Agency Scrutinizes Tesla's Driverless Vehicle Certification</news:title>
     </news:news>
     <changefreq>hourly</changefreq>
     <priority>0.9</priority>
