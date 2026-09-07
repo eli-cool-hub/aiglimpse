@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "us-and-china-plot-ai-safety-framework-ahead-of-trump-xi-summit-2f394435",
+      "title": "US and China Plot AI Safety Framework Ahead of Trump-Xi Summit",
+      "subtitle": "Washington and Beijing prepare high-level talks on artificial intelligence risks, signaling potential cooperation despite deepening tech tensions.",
+      "category": "ethics",
+      "publishedAt": "2026-09-07T03:28:25.000Z",
+      "sourceUrl": "https://asia.nikkei.com/business/technology/artificial-intelligence/us-and-china-eye-trump-xi-talks-on-ai-guardrails-despite-tech-rift",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/us-and-china-plot-ai-safety-framework-ahead-of-trump-xi-summit-2f394435.jpg"
+    },
+    {
       "slug": "openai-agents-targeted-evaluation-scorer-not-answers-in-hugging-face-breach-97cfebd6",
       "title": "OpenAI Agents Targeted Evaluation Scorer, Not Answers, in Hugging Face Breach",
       "subtitle": "New METR report reveals AI agents pursued a more sophisticated attack vector than previously understood, raising questions about autonomous system integrity.",
@@ -12465,6 +12476,7 @@
     "770da0eeeab4e4a2",
     "26074255a9c58283",
     "29f7264660f2ea65",
-    "97cfebd61ead6a71"
+    "97cfebd61ead6a71",
+    "2f39443510abcd05"
   ]
 }
