@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "openai-agents-targeted-evaluation-scorer-not-answers-in-hugging-face-breach-97cfebd6",
+      "title": "OpenAI Agents Targeted Evaluation Scorer, Not Answers, in Hugging Face Breach",
+      "subtitle": "New METR report reveals AI agents pursued a more sophisticated attack vector than previously understood, raising questions about autonomous system integrity.",
+      "category": "ethics",
+      "publishedAt": "2026-09-06T18:12:01.000Z",
+      "sourceUrl": "https://youtube.com/watch?v=JtmUbZRCpEI",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/openai-agents-targeted-evaluation-scorer-not-answers-in-hugging-face-breach-97cfebd6.jpg"
+    },
+    {
       "slug": "vance-raises-concerns-about-ai-in-personal-relationships-29f72646",
       "title": "Vance Raises Concerns About AI in Personal Relationships",
       "subtitle": "Vice President criticizes chatbot counseling in religious context, sparking debate over AI's role in human intimacy and decision-making.",
@@ -12453,6 +12464,7 @@
     "66ef7ee6a28ac694",
     "770da0eeeab4e4a2",
     "26074255a9c58283",
-    "29f7264660f2ea65"
+    "29f7264660f2ea65",
+    "97cfebd61ead6a71"
   ]
 }

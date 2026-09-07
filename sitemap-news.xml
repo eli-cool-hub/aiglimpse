@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://aiglimpse.ai/articles/openai-agents-targeted-evaluation-scorer-not-answers-in-hugging-face-breach-97cfebd6</loc>
+    <lastmod>2026-09-06</lastmod>
+    <news:news>
+      <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-09-06T18:12:01.000Z</news:publication_date>
+      <news:title>OpenAI Agents Targeted Evaluation Scorer, Not Answers, in Hugging Face Breach</news:title>
+    </news:news>
+    <changefreq>hourly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
     <loc>https://aiglimpse.ai/articles/vance-raises-concerns-about-ai-in-personal-relationships-29f72646</loc>
     <lastmod>2026-09-06</lastmod>
     <news:news>
@@ -51,17 +62,6 @@
       <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-09-05T05:07:10.000Z</news:publication_date>
       <news:title>AMD Threadripper Halo Brings 576GB Memory to Local AI Research</news:title>
-    </news:news>
-    <changefreq>hourly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://aiglimpse.ai/articles/us-and-china-to-hold-first-dedicated-ai-safety-talks-under-trump-f9e0f020</loc>
-    <lastmod>2026-09-05</lastmod>
-    <news:news>
-      <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-09-05T00:27:43.000Z</news:publication_date>
-      <news:title>US and China to Hold First Dedicated AI Safety Talks Under Trump</news:title>
     </news:news>
     <changefreq>hourly</changefreq>
     <priority>0.9</priority>
