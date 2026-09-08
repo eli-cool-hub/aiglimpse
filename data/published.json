@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "anthropic-abandons-6b-decart-acquisition-over-due-diligence-concerns-3c241e23",
+      "title": "Anthropic Abandons $6B Decart Acquisition Over Due Diligence Concerns",
+      "subtitle": "The Claude maker's largest deal attempt collapses, signaling caution in AI infrastructure consolidation despite aggressive sector funding.",
+      "category": "industry",
+      "publishedAt": "2026-09-08T03:26:17.000Z",
+      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-09-08/anthropic-said-to-walk-away-from-6-billion-decart-acquisition",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/anthropic-abandons-6b-decart-acquisition-over-due-diligence-concerns-3c241e23.jpg"
+    },
+    {
       "slug": "factory-robotics-faces-deployment-crisis-not-data-shortage-5c072826",
       "title": "Factory Robotics Faces Deployment Crisis, Not Data Shortage",
       "subtitle": "Inbolt argues physical AI's real bottleneck is integration complexity, not model training, based on 40 million real-world robot cycles.",
@@ -12513,6 +12524,7 @@
     "2f39443510abcd05",
     "996ac9f96f1cd468",
     "1659ea5eabacf30d",
-    "5c0728264e23f5a7"
+    "5c0728264e23f5a7",
+    "3c241e230278e5ec"
   ]
 }
