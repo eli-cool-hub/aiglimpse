@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "factory-robotics-faces-deployment-crisis-not-data-shortage-5c072826",
+      "title": "Factory Robotics Faces Deployment Crisis, Not Data Shortage",
+      "subtitle": "Inbolt argues physical AI's real bottleneck is integration complexity, not model training, based on 40 million real-world robot cycles.",
+      "category": "robotics",
+      "publishedAt": "2026-09-07T14:00:13.000Z",
+      "sourceUrl": "https://www.therobotreport.com/inbolt-ceo-to-discuss-physical-ais-deployment-problem-at-robobusiness/",
+      "sourceName": "The Robot Report",
+      "sourceTier": 3,
+      "image": "/images/articles/factory-robotics-faces-deployment-crisis-not-data-shortage-5c072826.jpg"
+    },
+    {
       "slug": "uk-ai-agency-chair-steps-down-amid-anthropic-appointment-1659ea5e",
       "title": "UK AI Agency Chair Steps Down Amid Anthropic Appointment",
       "subtitle": "Leadership transition highlights growing tensions between government AI oversight and industry roles in the UK tech sector.",
@@ -12501,6 +12512,7 @@
     "97cfebd61ead6a71",
     "2f39443510abcd05",
     "996ac9f96f1cd468",
-    "1659ea5eabacf30d"
+    "1659ea5eabacf30d",
+    "5c0728264e23f5a7"
   ]
 }
