@@ -7,6 +7,14 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>New Method Lets AI Learn From Its Own Code During Testing</title>
+      <link>https://aiglimpse.ai/articles/new-method-lets-ai-learn-from-its-own-code-during-testing-a91379eb</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-method-lets-ai-learn-from-its-own-code-during-testing-a91379eb</guid>
+      <description>Researchers solve a fundamental problem that has blocked reinforcement learning approaches from improving code generation models at deployment time.</description>
+      <pubDate>Tue, 08 Sep 2026 17:54:13 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
       <title>AI Safety Standards Must Reflect Whose Values, Researchers Argue</title>
       <link>https://aiglimpse.ai/articles/ai-safety-standards-must-reflect-whose-values-researchers-argue-d5a3c1be</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/ai-safety-standards-must-reflect-whose-values-researchers-argue-d5a3c1be</guid>
@@ -397,14 +405,6 @@
       <description>The 825 million euro penalty highlights regulatory backlash against automated decision-making systems that affect people's livelihoods without meaningful human review.</description>
       <pubDate>Mon, 24 Aug 2026 23:03:01 GMT</pubDate>
       <category>Ethics &amp; Policy</category>
-    </item>
-    <item>
-      <title>Hybrid Search for RAG: BM25 + Vector Fusion Explained</title>
-      <link>https://aiglimpse.ai/articles/hybrid-search-rag-guide</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/hybrid-search-rag-guide</guid>
-      <description>Combine keyword and semantic retrieval to boost RAG recall. Implementation patterns, tuning strategies, and when hybrid beats pure vector search.</description>
-      <pubDate>Mon, 24 Aug 2026 07:10:54 GMT</pubDate>
-      <category>AI Research</category>
     </item>
   </channel>
 </rss>

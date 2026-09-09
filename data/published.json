@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "new-method-lets-ai-learn-from-its-own-code-during-testing-a91379eb",
+      "title": "New Method Lets AI Learn From Its Own Code During Testing",
+      "subtitle": "Researchers solve a fundamental problem that has blocked reinforcement learning approaches from improving code generation models at deployment time.",
+      "category": "research",
+      "publishedAt": "2026-09-08T17:54:13.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2609.09135v1",
+      "sourceName": "arXiv (Jiacheng Xu, Feng Chen, Xiuneng Xu, Bo An)",
+      "sourceTier": 1,
+      "image": "/images/articles/new-method-lets-ai-learn-from-its-own-code-during-testing-a91379eb.jpg"
+    },
+    {
       "slug": "ai-safety-standards-must-reflect-whose-values-researchers-argue-d5a3c1be",
       "title": "AI Safety Standards Must Reflect Whose Values, Researchers Argue",
       "subtitle": "New analysis challenges the notion that machine learning safeguards can be universally applied, questioning whose priorities shape content moderation.",
@@ -12537,6 +12548,7 @@
     "1659ea5eabacf30d",
     "5c0728264e23f5a7",
     "3c241e230278e5ec",
-    "d5a3c1be3e038230"
+    "d5a3c1be3e038230",
+    "a91379ebe4cb1ebb"
   ]
 }
