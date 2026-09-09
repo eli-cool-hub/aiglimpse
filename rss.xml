@@ -7,6 +7,14 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Smaller AI Models Learn Faster With Evolved System Prompts</title>
+      <link>https://aiglimpse.ai/articles/smaller-ai-models-learn-faster-with-evolved-system-prompts-6e35c221</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/smaller-ai-models-learn-faster-with-evolved-system-prompts-6e35c221</guid>
+      <description>Researchers discover how to combine automated prompt engineering with targeted fine-tuning to improve cost-effective AI agents on enterprise tasks.</description>
+      <pubDate>Tue, 08 Sep 2026 17:53:49 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
       <title>New Method Lets AI Learn From Its Own Code During Testing</title>
       <link>https://aiglimpse.ai/articles/new-method-lets-ai-learn-from-its-own-code-during-testing-a91379eb</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/new-method-lets-ai-learn-from-its-own-code-during-testing-a91379eb</guid>
@@ -397,14 +405,6 @@
       <description>A new vision-language system trained on expert assessments could dramatically expand safety inspections in resource-constrained regions.</description>
       <pubDate>Mon, 24 Aug 2026 17:58:41 GMT</pubDate>
       <category>AI Research</category>
-    </item>
-    <item>
-      <title>Dutch Regulator Imposes Record GDPR Fine on Uber for Algorithmic Driver Suspensions</title>
-      <link>https://aiglimpse.ai/articles/dutch-regulator-imposes-record-gdpr-fine-on-uber-for-algorithmic-driver-suspensi-fa2d8637</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/dutch-regulator-imposes-record-gdpr-fine-on-uber-for-algorithmic-driver-suspensi-fa2d8637</guid>
-      <description>The 825 million euro penalty highlights regulatory backlash against automated decision-making systems that affect people's livelihoods without meaningful human review.</description>
-      <pubDate>Mon, 24 Aug 2026 23:03:01 GMT</pubDate>
-      <category>Ethics &amp; Policy</category>
     </item>
   </channel>
 </rss>

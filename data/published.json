@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "smaller-ai-models-learn-faster-with-evolved-system-prompts-6e35c221",
+      "title": "Smaller AI Models Learn Faster With Evolved System Prompts",
+      "subtitle": "Researchers discover how to combine automated prompt engineering with targeted fine-tuning to improve cost-effective AI agents on enterprise tasks.",
+      "category": "research",
+      "publishedAt": "2026-09-08T17:53:49.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2609.09134v1",
+      "sourceName": "arXiv (Zhou Yu, Bin Bi, Shiva Kumar Pentyala, Shubham Mehrotra, Sou…)",
+      "sourceTier": 1,
+      "image": "/images/articles/smaller-ai-models-learn-faster-with-evolved-system-prompts-6e35c221.jpg"
+    },
+    {
       "slug": "new-method-lets-ai-learn-from-its-own-code-during-testing-a91379eb",
       "title": "New Method Lets AI Learn From Its Own Code During Testing",
       "subtitle": "Researchers solve a fundamental problem that has blocked reinforcement learning approaches from improving code generation models at deployment time.",
@@ -12549,6 +12560,7 @@
     "5c0728264e23f5a7",
     "3c241e230278e5ec",
     "d5a3c1be3e038230",
-    "a91379ebe4cb1ebb"
+    "a91379ebe4cb1ebb",
+    "6e35c2213216e9e0"
   ]
 }
