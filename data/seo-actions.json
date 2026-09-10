@@ -24,6 +24,16 @@
       "status": "done",
       "applied_at": "2026-09-04T09:55:04.296Z",
       "applied_note": "Added inbound links from 3 related article(s): critical-flaw-in-popular-python-framework-exposes-ai-agents-globally-dba2f662, fastapi-starlette-security-ai-agents-guide, ai-agent-autonomously-exploits-gym-website-without-user-intent-3d9a5f0e."
+    },
+    "low_ctr_page|https://aiglimpse.ai/articles/ai-agent-memory-architectures|": {
+      "status": "done",
+      "applied_at": "2026-09-10T09:55:28.536Z",
+      "applied_note": "Updated title + meta description for click-through (AI Agent Memory: Short-Term, Long-Term, and Vector-Backed Recall). Added inbound links from 2 related article(s): critical-flaw-in-popular-python-framework-exposes-ai-agents-globally-dba2f662, fastapi-starlette-security-ai-agents-guide."
+    },
+    "low_ctr_page|https://aiglimpse.ai/articles/multimodal-ai-models-explained|": {
+      "status": "done",
+      "applied_at": "2026-09-10T09:55:28.855Z",
+      "applied_note": "Updated title + meta description for click-through (Multimodal AI models explained: vision, audio, and unified interfaces). Added inbound links from 2 related article(s): critical-flaw-in-popular-python-framework-exposes-ai-agents-globally-dba2f662, fastapi-starlette-security-ai-agents-guide."
     }
   }
 }

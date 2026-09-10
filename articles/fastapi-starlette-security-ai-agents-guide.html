@@ -153,7 +153,7 @@
 
 <p>Starlette 0.x and early 1.x versions had several notable issues. The most significant was CVE-2021-41773 (inherited from Uvicorn), which allowed path traversal in static file serving when using path_regex patterns without anchors. This was patched in Starlette 0.20.2 and later.</p>
 
-<p>Starlette 0.26.0 through 0.28.0 had a minor vulnerability in the `TestClient` where session cookies were not properly isolated between test cases, but this only affects test code, not production deployments.</p>
+<p>Starlette 0.26.0 through 0.28.0 had a minor vulnerability in the `TestClient` where session cookies were not properly isolated between test cases, but this only affects test code, not <a href="/articles/multimodal-ai-models-explained">production deployments</a>.</p>
 
 <p>As of early 2026, Starlette 1.x (released in 2024) is the stable version and has no critical outstanding vulnerabilities. However, "no known vulnerabilities" does not mean "unhackable." The framework's design assumes developers will validate inputs, configure middleware correctly, and not expose internal APIs.</p>
 
@@ -240,7 +240,7 @@
 
 <h2>Conclusion and next steps</h2>
 
-<p>FastAPI and Starlette are production-ready frameworks, but agent deployments carry asymmetric risk because agents are not human users. They are automated, tireless, and incentivized to find edge cases. Start by upgrading to the latest Starlette and FastAPI, then work through the hardening checklist above. Bind internal APIs to localhost, use a reverse proxy for public traffic, implement per-agent rate limiting and authentication, and log all tool calls. None of these steps are novel, but their combination is what separates a research project from a production system that teams can rely on. After that, focus on the agent layer: validate outputs from external APIs before passing them to the LLM, implement instruction hierarchies so agents cannot redefine their own permissions, and monitor for anomalous tool use patterns. Security is a process, not a checklist.</p></div>
+<p>FastAPI and Starlette are production-ready frameworks, but <a href="/articles/ai-agent-memory-architectures">agent deployments</a> carry asymmetric risk because agents are not human users. They are automated, tireless, and incentivized to find edge cases. Start by upgrading to the latest Starlette and FastAPI, then work through the hardening checklist above. Bind internal APIs to localhost, use a reverse proxy for public traffic, implement per-agent rate limiting and authentication, and log all tool calls. None of these steps are novel, but their combination is what separates a research project from a production system that teams can rely on. After that, focus on the agent layer: validate outputs from external APIs before passing them to the LLM, implement instruction hierarchies so agents cannot redefine their own permissions, and monitor for anomalous tool use patterns. Security is a process, not a checklist.</p></div>
 
       <section style="margin-top: var(--space-8);">
         <h2 style="margin-bottom: var(--space-5);">Frequently asked questions</h2>
