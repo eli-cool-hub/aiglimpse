@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "anthropic-researchers-exit-sparks-debate-on-ai-safety-narratives-43cfd6e7",
+      "title": "Anthropic Researcher's Exit Sparks Debate on AI Safety Narratives",
+      "subtitle": "Industry observers challenge sensationalized coverage of a pretraining scientist's departure, questioning how fear-driven framing shapes AI discourse.",
+      "category": "ethics",
+      "publishedAt": "2026-09-10T16:57:44.000Z",
+      "sourceUrl": "https://www.interconnects.ai/p/one-resignation-turned-the-embers",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/anthropic-researchers-exit-sparks-debate-on-ai-safety-narratives-43cfd6e7.jpg"
+    },
+    {
       "slug": "ai-agents-overwhelm-government-services-across-multiple-countries-c45d5c0d",
       "title": "AI Agents Overwhelm Government Services Across Multiple Countries",
       "subtitle": "Research documents surge in automated requests flooding housing, financial, and judicial systems worldwide.",
@@ -12597,6 +12608,7 @@
     "6e35c2213216e9e0",
     "c075de8ddc57773e",
     "68aaecefa6b4e781",
-    "c45d5c0d850ee1b0"
+    "c45d5c0d850ee1b0",
+    "43cfd6e70319667f"
   ]
 }
