@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "ai-safety-standards-must-advance-now-industry-says-68aaecef",
+      "title": "AI Safety Standards Must Advance Now, Industry Says",
+      "subtitle": "A narrowing window for regulation demands immediate consensus on proof of safety before more powerful systems launch.",
+      "category": "llms",
+      "publishedAt": "2026-09-09T13:00:00.000Z",
+      "sourceUrl": "https://openai.com/index/ai-policy-window",
+      "sourceName": "OpenAI",
+      "sourceTier": 1,
+      "image": "/images/articles/ai-safety-standards-must-advance-now-industry-says-68aaecef.jpg"
+    },
+    {
       "slug": "openai-faces-wrongful-death-lawsuit-over-chatgpt-conversation-c075de8d",
       "title": "OpenAI Faces Wrongful-Death Lawsuit Over ChatGPT Conversation",
       "subtitle": "A mother alleges OpenAI's chatbot played a role in her son's death, raising questions about AI safety and platform responsibility.",
@@ -12573,6 +12584,7 @@
     "d5a3c1be3e038230",
     "a91379ebe4cb1ebb",
     "6e35c2213216e9e0",
-    "c075de8ddc57773e"
+    "c075de8ddc57773e",
+    "68aaecefa6b4e781"
   ]
 }
