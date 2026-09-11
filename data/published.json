@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "biden-officials-deny-andreessens-ai-startup-suppression-claims-9ed0b1b4",
+      "title": "Biden Officials Deny Andreessen's AI Startup Suppression Claims",
+      "subtitle": "Former White House aides push back on venture capitalist's repeated narrative about a secret plan to restrict AI company formation.",
+      "category": "ethics",
+      "publishedAt": "2026-09-11T15:29:33.000Z",
+      "sourceUrl": "https://www.politico.com/news/magazine/2026/09/10/marc-andreessen-trump-biden-ai-opinion-01045516",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/biden-officials-deny-andreessens-ai-startup-suppression-claims-9ed0b1b4.jpg"
+    },
+    {
       "slug": "y-combinators-tan-opposes-ai-distillation-restrictions-7242157c",
       "title": "Y Combinator's Tan Opposes AI Distillation Restrictions",
       "subtitle": "YC leader argues against regulatory crackdowns on model distillation, favoring market-based solutions over government intervention in AI policy.",
@@ -12645,6 +12656,7 @@
     "43cfd6e70319667f",
     "cfc3a00a92c0a545",
     "80190f5b081c1f9c",
-    "7242157cd9d54ad4"
+    "7242157cd9d54ad4",
+    "9ed0b1b4c5f6da1f"
   ]
 }

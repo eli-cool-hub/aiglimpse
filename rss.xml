@@ -7,6 +7,14 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Biden Officials Deny Andreessen's AI Startup Suppression Claims</title>
+      <link>https://aiglimpse.ai/articles/biden-officials-deny-andreessens-ai-startup-suppression-claims-9ed0b1b4</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/biden-officials-deny-andreessens-ai-startup-suppression-claims-9ed0b1b4</guid>
+      <description>Former White House aides push back on venture capitalist's repeated narrative about a secret plan to restrict AI company formation.</description>
+      <pubDate>Fri, 11 Sep 2026 15:29:33 GMT</pubDate>
+      <category>Ethics &amp; Policy</category>
+    </item>
+    <item>
       <title>Y Combinator's Tan Opposes AI Distillation Restrictions</title>
       <link>https://aiglimpse.ai/articles/y-combinators-tan-opposes-ai-distillation-restrictions-7242157c</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/y-combinators-tan-opposes-ai-distillation-restrictions-7242157c</guid>
@@ -397,14 +405,6 @@
       <description>A coalition of 29 state attorneys general is negotiating with Meta over algorithmic design practices accused of harming adolescent users.</description>
       <pubDate>Wed, 26 Aug 2026 03:35:58 GMT</pubDate>
       <category>Ethics &amp; Policy</category>
-    </item>
-    <item>
-      <title>New Training Method Cuts AI Agent Learning Time by Removing Synchronization Bottleneck</title>
-      <link>https://aiglimpse.ai/articles/new-training-method-cuts-ai-agent-learning-time-by-removing-synchronization-bott-9be5edd9</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-training-method-cuts-ai-agent-learning-time-by-removing-synchronization-bott-9be5edd9</guid>
-      <description>Researchers propose SPO++ to accelerate reinforcement learning for language models using tools, eliminating costly waiting periods during training.</description>
-      <pubDate>Tue, 25 Aug 2026 17:52:19 GMT</pubDate>
-      <category>AI Research</category>
     </item>
   </channel>
 </rss>
