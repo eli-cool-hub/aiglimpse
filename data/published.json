@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "oxford-lab-proposes-bayesian-framework-for-resolving-ai-policy-disputes-80190f5b",
+      "title": "Oxford Lab Proposes Bayesian Framework for Resolving AI Policy Disputes",
+      "subtitle": "Researchers argue that disagreements over AI governance stem from measurable uncertainty, not fundamental conflict.",
+      "category": "ethics",
+      "publishedAt": "2026-09-11T06:12:01.000Z",
+      "sourceUrl": "https://robots.ox.ac.uk/~mosb/bgl",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/oxford-lab-proposes-bayesian-framework-for-resolving-ai-policy-disputes-80190f5b.jpg"
+    },
+    {
       "slug": "openai-withdraws-from-caltech-math-competition-amid-academic-backlash-cfc3a00a",
       "title": "OpenAI Withdraws From Caltech Math Competition Amid Academic Backlash",
       "subtitle": "Mathematicians' concerns about AI companies exploiting research for marketing pressure major lab to exit sponsorship deal.",
@@ -12621,6 +12632,7 @@
     "68aaecefa6b4e781",
     "c45d5c0d850ee1b0",
     "43cfd6e70319667f",
-    "cfc3a00a92c0a545"
+    "cfc3a00a92c0a545",
+    "80190f5b081c1f9c"
   ]
 }

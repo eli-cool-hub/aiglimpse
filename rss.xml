@@ -7,6 +7,14 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Oxford Lab Proposes Bayesian Framework for Resolving AI Policy Disputes</title>
+      <link>https://aiglimpse.ai/articles/oxford-lab-proposes-bayesian-framework-for-resolving-ai-policy-disputes-80190f5b</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/oxford-lab-proposes-bayesian-framework-for-resolving-ai-policy-disputes-80190f5b</guid>
+      <description>Researchers argue that disagreements over AI governance stem from measurable uncertainty, not fundamental conflict.</description>
+      <pubDate>Fri, 11 Sep 2026 06:12:01 GMT</pubDate>
+      <category>Ethics &amp; Policy</category>
+    </item>
+    <item>
       <title>OpenAI Withdraws From Caltech Math Competition Amid Academic Backlash</title>
       <link>https://aiglimpse.ai/articles/openai-withdraws-from-caltech-math-competition-amid-academic-backlash-cfc3a00a</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/openai-withdraws-from-caltech-math-competition-amid-academic-backlash-cfc3a00a</guid>
@@ -397,14 +405,6 @@
       <description>How to run compact LLMs on phones and edge hardware with quantization, latency trade-offs, and framework options.</description>
       <pubDate>Wed, 26 Aug 2026 06:33:44 GMT</pubDate>
       <category>AI Tools &amp; Products</category>
-    </item>
-    <item>
-      <title>Researchers Expose Critical Flaw in Robot World Models</title>
-      <link>https://aiglimpse.ai/articles/researchers-expose-critical-flaw-in-robot-world-models-fd2a3e09</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/researchers-expose-critical-flaw-in-robot-world-models-fd2a3e09</guid>
-      <description>New diagnostic tool reveals that AI-trained robot simulators fail to properly follow non-expert commands, threatening the reliability of policy learning systems.</description>
-      <pubDate>Tue, 25 Aug 2026 17:59:49 GMT</pubDate>
-      <category>AI Research</category>
     </item>
   </channel>
 </rss>
