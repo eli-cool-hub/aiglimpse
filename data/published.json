@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "y-combinators-tan-opposes-ai-distillation-restrictions-7242157c",
+      "title": "Y Combinator's Tan Opposes AI Distillation Restrictions",
+      "subtitle": "YC leader argues against regulatory crackdowns on model distillation, favoring market-based solutions over government intervention in AI policy.",
+      "category": "ethics",
+      "publishedAt": "2026-09-11T12:30:06.000Z",
+      "sourceUrl": "https://www.cnbc.com/2026/09/11/y-combinator-garry-tan-says-do-nothing-about-distillation.html",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/y-combinators-tan-opposes-ai-distillation-restrictions-7242157c.jpg"
+    },
+    {
       "slug": "oxford-lab-proposes-bayesian-framework-for-resolving-ai-policy-disputes-80190f5b",
       "title": "Oxford Lab Proposes Bayesian Framework for Resolving AI Policy Disputes",
       "subtitle": "Researchers argue that disagreements over AI governance stem from measurable uncertainty, not fundamental conflict.",
@@ -12633,6 +12644,7 @@
     "c45d5c0d850ee1b0",
     "43cfd6e70319667f",
     "cfc3a00a92c0a545",
-    "80190f5b081c1f9c"
+    "80190f5b081c1f9c",
+    "7242157cd9d54ad4"
   ]
 }
