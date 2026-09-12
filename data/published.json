@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "leading-ai-researchers-question-theory-of-self-improving-models-c84ab0ac",
+      "title": "Leading AI Researchers Question Theory of Self-Improving Models",
+      "subtitle": "Experts argue rapid scaling gains reflect task persistence, not reasoning breakthroughs that would enable recursive advancement.",
+      "category": "ethics",
+      "publishedAt": "2026-09-12T01:56:34.000Z",
+      "sourceUrl": "https://www.dwarkesh.com/p/john-beren-charlie",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/leading-ai-researchers-question-theory-of-self-improving-models-c84ab0ac.jpg"
+    },
+    {
       "slug": "biden-officials-deny-andreessens-ai-startup-suppression-claims-9ed0b1b4",
       "title": "Biden Officials Deny Andreessen's AI Startup Suppression Claims",
       "subtitle": "Former White House aides push back on venture capitalist's repeated narrative about a secret plan to restrict AI company formation.",
@@ -12657,6 +12668,7 @@
     "cfc3a00a92c0a545",
     "80190f5b081c1f9c",
     "7242157cd9d54ad4",
-    "9ed0b1b4c5f6da1f"
+    "9ed0b1b4c5f6da1f",
+    "c84ab0ace9605e6d"
   ]
 }
