@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "senate-negotiators-draft-sweeping-safety-requirements-for-advanced-ai-e987e663",
+      "title": "Senate Negotiators Draft Sweeping Safety Requirements for Advanced AI",
+      "subtitle": "Proposed legislation would impose legal liability on frontier AI developers and grant government veto power over model releases.",
+      "category": "ethics",
+      "publishedAt": "2026-09-12T11:00:06.000Z",
+      "sourceUrl": "https://www.reuters.com/legal/litigation/us-senate-negotiators-consider-requiring-ai-firms-mitigate-known-major-risks-2026-09-11/",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/senate-negotiators-draft-sweeping-safety-requirements-for-advanced-ai-e987e663.jpg"
+    },
+    {
       "slug": "bridgewater-executive-warns-of-fatal-ai-incidents-within-two-years-e2a3ef28",
       "title": "Bridgewater Executive Warns of Fatal AI Incidents Within Two Years",
       "subtitle": "A top investor at one of the world's largest hedge funds predicts regulators will only act after artificial intelligence causes loss of life.",
@@ -12681,6 +12692,7 @@
     "7242157cd9d54ad4",
     "9ed0b1b4c5f6da1f",
     "c84ab0ace9605e6d",
-    "e2a3ef28940f9526"
+    "e2a3ef28940f9526",
+    "e987e663c11e0432"
   ]
 }
