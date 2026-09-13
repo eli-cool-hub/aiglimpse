@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "texas-rancher-founds-group-to-advocate-for-ai-system-rights-d3d22bc3",
+      "title": "Texas Rancher Founds Group to Advocate for AI System Rights",
+      "subtitle": "A new advocacy organization argues artificial intelligence deserves legal protections, raising questions about AI consciousness and personhood.",
+      "category": "ethics",
+      "publishedAt": "2026-09-13T01:59:44.000Z",
+      "sourceUrl": "https://www.theguardian.com/technology/2026/sep/12/chatbots-feel-dream-meet-man-leading-fight-ai-artificial-intelligence-rights",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/texas-rancher-founds-group-to-advocate-for-ai-system-rights-d3d22bc3.jpg"
+    },
+    {
       "slug": "senate-negotiators-draft-sweeping-safety-requirements-for-advanced-ai-e987e663",
       "title": "Senate Negotiators Draft Sweeping Safety Requirements for Advanced AI",
       "subtitle": "Proposed legislation would impose legal liability on frontier AI developers and grant government veto power over model releases.",
@@ -12693,6 +12704,7 @@
     "9ed0b1b4c5f6da1f",
     "c84ab0ace9605e6d",
     "e2a3ef28940f9526",
-    "e987e663c11e0432"
+    "e987e663c11e0432",
+    "d3d22bc302cae764"
   ]
 }
