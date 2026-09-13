@@ -7,6 +7,14 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>UK Police Record 16x Surge in AI-Generated Crime Cases Since 2023</title>
+      <link>https://aiglimpse.ai/articles/uk-police-record-16x-surge-in-ai-generated-crime-cases-since-2023-f06a10b4</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/uk-police-record-16x-surge-in-ai-generated-crime-cases-since-2023-f06a10b4</guid>
+      <description>Law enforcement documentation of deepfake and synthetic media offenses has skyrocketed, raising questions about enforcement capacity and technological drift.</description>
+      <pubDate>Sun, 13 Sep 2026 00:34:19 GMT</pubDate>
+      <category>Ethics &amp; Policy</category>
+    </item>
+    <item>
       <title>Texas Rancher Founds Group to Advocate for AI System Rights</title>
       <link>https://aiglimpse.ai/articles/texas-rancher-founds-group-to-advocate-for-ai-system-rights-d3d22bc3</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/texas-rancher-founds-group-to-advocate-for-ai-system-rights-d3d22bc3</guid>
@@ -397,14 +405,6 @@
       <description>How to architect, cost, and operationalize H100 clusters for production AI workloads</description>
       <pubDate>Fri, 28 Aug 2026 17:54:28 GMT</pubDate>
       <category>AI Business</category>
-    </item>
-    <item>
-      <title>New Method Lets AI Learn Without Labels During Testing</title>
-      <link>https://aiglimpse.ai/articles/new-method-lets-ai-learn-without-labels-during-testing-b8a6510d</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-method-lets-ai-learn-without-labels-during-testing-b8a6510d</guid>
-      <description>Researchers achieve supervised performance without ground-truth data by using asymmetric training during inference, potentially unlocking faster AI model improvements.</description>
-      <pubDate>Thu, 27 Aug 2026 17:58:10 GMT</pubDate>
-      <category>AI Research</category>
     </item>
   </channel>
 </rss>
