@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "federal-deregulation-tied-to-ai-data-centers-poses-health-risks-aec52332",
+      "title": "Federal Deregulation Tied to AI Data Centers Poses Health Risks",
+      "subtitle": "Former EPA officials document 30 rollbacks since January 2025 that could undermine environmental and public health protections for communities near AI infrastructure.",
+      "category": "ethics",
+      "publishedAt": "2026-09-14T01:58:00.000Z",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/994112/ai-data-center-pollution-health-epa",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/federal-deregulation-tied-to-ai-data-centers-poses-health-risks-aec52332.jpg"
+    },
+    {
       "slug": "uk-police-record-16x-surge-in-ai-generated-crime-cases-since-2023-f06a10b4",
       "title": "UK Police Record 16x Surge in AI-Generated Crime Cases Since 2023",
       "subtitle": "Law enforcement documentation of deepfake and synthetic media offenses has skyrocketed, raising questions about enforcement capacity and technological drift.",
@@ -12717,6 +12728,7 @@
     "e2a3ef28940f9526",
     "e987e663c11e0432",
     "d3d22bc302cae764",
-    "f06a10b48ccd9623"
+    "f06a10b48ccd9623",
+    "aec523321d3f0e1e"
   ]
 }
