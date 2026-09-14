@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "enterprise-ai-giants-restrict-anthropic-deployment-over-data-retention-policy-02f3ef86",
+      "title": "Enterprise AI Giants Restrict Anthropic Deployment Over Data Retention Policy",
+      "subtitle": "Security-conscious firms including Nvidia and Palantir are scaling back their use of Claude over concerns about usage log retention practices.",
+      "category": "ethics",
+      "publishedAt": "2026-09-14T16:58:57.000Z",
+      "sourceUrl": "https://www.theinformation.com/articles/anthropic-data-fears-prompt-nvidia-palantir-booz-allen-restrict-model-use",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/enterprise-ai-giants-restrict-anthropic-deployment-over-data-retention-policy-02f3ef86.jpg"
+    },
+    {
       "slug": "cohere-ceo-accuses-ai-leaders-of-collusion-over-industry-standards-93ac9875",
       "title": "Cohere CEO Accuses AI Leaders of Collusion Over Industry Standards",
       "subtitle": "Gomez claims major tech firms are seeking regulatory exemptions to coordinate AI development, raising fresh antitrust concerns.",
@@ -12741,6 +12752,7 @@
     "d3d22bc302cae764",
     "f06a10b48ccd9623",
     "aec523321d3f0e1e",
-    "93ac98751932e035"
+    "93ac98751932e035",
+    "02f3ef869dc2bbef"
   ]
 }
