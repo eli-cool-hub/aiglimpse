@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "cohere-ceo-accuses-ai-leaders-of-collusion-over-industry-standards-93ac9875",
+      "title": "Cohere CEO Accuses AI Leaders of Collusion Over Industry Standards",
+      "subtitle": "Gomez claims major tech firms are seeking regulatory exemptions to coordinate AI development, raising fresh antitrust concerns.",
+      "category": "ethics",
+      "publishedAt": "2026-09-14T07:57:41.000Z",
+      "sourceUrl": "https://cohere.com/blog/who-gets-to-define-the-rules-for-ai",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/cohere-ceo-accuses-ai-leaders-of-collusion-over-industry-standards-93ac9875.jpg"
+    },
+    {
       "slug": "federal-deregulation-tied-to-ai-data-centers-poses-health-risks-aec52332",
       "title": "Federal Deregulation Tied to AI Data Centers Poses Health Risks",
       "subtitle": "Former EPA officials document 30 rollbacks since January 2025 that could undermine environmental and public health protections for communities near AI infrastructure.",
@@ -12729,6 +12740,7 @@
     "e987e663c11e0432",
     "d3d22bc302cae764",
     "f06a10b48ccd9623",
-    "aec523321d3f0e1e"
+    "aec523321d3f0e1e",
+    "93ac98751932e035"
   ]
 }

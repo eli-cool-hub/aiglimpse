@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://aiglimpse.ai/articles/cohere-ceo-accuses-ai-leaders-of-collusion-over-industry-standards-93ac9875</loc>
+    <lastmod>2026-09-14</lastmod>
+    <news:news>
+      <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-09-14T07:57:41.000Z</news:publication_date>
+      <news:title>Cohere CEO Accuses AI Leaders of Collusion Over Industry Standards</news:title>
+    </news:news>
+    <changefreq>hourly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
     <loc>https://aiglimpse.ai/articles/federal-deregulation-tied-to-ai-data-centers-poses-health-risks-aec52332</loc>
     <lastmod>2026-09-14</lastmod>
     <news:news>
@@ -40,17 +51,6 @@
       <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-09-12T11:00:06.000Z</news:publication_date>
       <news:title>Senate Negotiators Draft Sweeping Safety Requirements for Advanced AI</news:title>
-    </news:news>
-    <changefreq>hourly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://aiglimpse.ai/articles/bridgewater-executive-warns-of-fatal-ai-incidents-within-two-years-e2a3ef28</loc>
-    <lastmod>2026-09-12</lastmod>
-    <news:news>
-      <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-09-12T06:39:18.000Z</news:publication_date>
-      <news:title>Bridgewater Executive Warns of Fatal AI Incidents Within Two Years</news:title>
     </news:news>
     <changefreq>hourly</changefreq>
     <priority>0.9</priority>
