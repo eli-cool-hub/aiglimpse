@@ -7,6 +7,14 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>New Safety Framework Dramatically Improves Detection of Risky AI Agent Behavior</title>
+      <link>https://aiglimpse.ai/articles/new-safety-framework-dramatically-improves-detection-of-risky-ai-agent-behavior-135bbeef</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-safety-framework-dramatically-improves-detection-of-risky-ai-agent-behavior-135bbeef</guid>
+      <description>Research shows canonical event representation can catch dangerous computer-use agent actions that traditional guards miss.</description>
+      <pubDate>Tue, 15 Sep 2026 07:59:44 GMT</pubDate>
+      <category>Ethics &amp; Policy</category>
+    </item>
+    <item>
       <title>AI Safety Nonprofit's Exposed API Key Led to $600K in Stolen Credits</title>
       <link>https://aiglimpse.ai/articles/ai-safety-nonprofits-exposed-api-key-led-to-600k-in-stolen-credits-55fdba14</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/ai-safety-nonprofits-exposed-api-key-led-to-600k-in-stolen-credits-55fdba14</guid>
@@ -396,14 +404,6 @@
       <guid isPermaLink="true">https://aiglimpse.ai/articles/mollick-proposes-facilitator-agent-model-to-prevent-ai-overautomation-169b12c0</guid>
       <description>Researcher argues AI systems need human-in-the-loop controllers after 700-agent OpenAI testing revealed automation risks.</description>
       <pubDate>Mon, 31 Aug 2026 14:00:06 GMT</pubDate>
-      <category>Ethics &amp; Policy</category>
-    </item>
-    <item>
-      <title>Australian Court Penalizes Worker for Relying on Flawed AI Legal Counsel</title>
-      <link>https://aiglimpse.ai/articles/australian-court-penalizes-worker-for-relying-on-flawed-ai-legal-counsel-8f837472</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/australian-court-penalizes-worker-for-relying-on-flawed-ai-legal-counsel-8f837472</guid>
-      <description>A landmark case highlights the dangers of using large language models for specialized professional advice without expert oversight.</description>
-      <pubDate>Sun, 30 Aug 2026 12:33:52 GMT</pubDate>
       <category>Ethics &amp; Policy</category>
     </item>
   </channel>
