@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "major-ai-labs-coordinate-on-safety-standards-amid-policy-pressure-dc266a08",
+      "title": "Major AI Labs Coordinate on Safety Standards Amid Policy Pressure",
+      "subtitle": "OpenAI, Anthropic, and Google DeepMind have engaged in weeks of collaborative discussions on AI safety protocols, even as the Trump administration prioritizes speed over precaution.",
+      "category": "business",
+      "publishedAt": "2026-09-15T15:47:03.000Z",
+      "sourceUrl": "https://techcrunch.com/2026/09/15/openai-anthropic-google-have-been-in-talks-on-ai-safety-for-weeks/",
+      "sourceName": "TechCrunch AI",
+      "sourceTier": 2,
+      "image": "/images/articles/major-ai-labs-coordinate-on-safety-standards-amid-policy-pressure-dc266a08.jpg"
+    },
+    {
       "slug": "new-safety-framework-dramatically-improves-detection-of-risky-ai-agent-behavior-135bbeef",
       "title": "New Safety Framework Dramatically Improves Detection of Risky AI Agent Behavior",
       "subtitle": "Research shows canonical event representation can catch dangerous computer-use agent actions that traditional guards miss.",
@@ -12777,6 +12788,7 @@
     "93ac98751932e035",
     "02f3ef869dc2bbef",
     "55fdba14ab686a36",
-    "135bbeef981379e6"
+    "135bbeef981379e6",
+    "dc266a080aa1434d"
   ]
 }
