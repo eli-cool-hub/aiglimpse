@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "canadian-educators-push-for-preemptive-ai-regulation-in-schools-914e1a7b",
+      "title": "Canadian Educators Push for Preemptive AI Regulation in Schools",
+      "subtitle": "Policy advocates argue K-12 AI systems warrant 'high-risk' classification before documented harms accumulate, citing social media litigation precedents.",
+      "category": "ethics",
+      "publishedAt": "2026-09-15T21:12:01.000Z",
+      "sourceUrl": "https://techpolicy.press/lets-not-wait-for-court-cases-to-address-cognitive-harms-in-education",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/canadian-educators-push-for-preemptive-ai-regulation-in-schools-914e1a7b.jpg"
+    },
+    {
       "slug": "major-ai-labs-coordinate-on-safety-standards-amid-policy-pressure-dc266a08",
       "title": "Major AI Labs Coordinate on Safety Standards Amid Policy Pressure",
       "subtitle": "OpenAI, Anthropic, and Google DeepMind have engaged in weeks of collaborative discussions on AI safety protocols, even as the Trump administration prioritizes speed over precaution.",
@@ -12789,6 +12800,7 @@
     "02f3ef869dc2bbef",
     "55fdba14ab686a36",
     "135bbeef981379e6",
-    "dc266a080aa1434d"
+    "dc266a080aa1434d",
+    "914e1a7b856609eb"
   ]
 }
