@@ -7,6 +7,14 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>AI Safety Nonprofit's Exposed API Key Led to $600K in Stolen Credits</title>
+      <link>https://aiglimpse.ai/articles/ai-safety-nonprofits-exposed-api-key-led-to-600k-in-stolen-credits-55fdba14</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/ai-safety-nonprofits-exposed-api-key-led-to-600k-in-stolen-credits-55fdba14</guid>
+      <description>A misconfigured authentication system at METR exposed model evaluation credentials, highlighting infrastructure vulnerabilities in AI research organizations.</description>
+      <pubDate>Tue, 15 Sep 2026 03:12:01 GMT</pubDate>
+      <category>Ethics &amp; Policy</category>
+    </item>
+    <item>
       <title>Enterprise AI Giants Restrict Anthropic Deployment Over Data Retention Policy</title>
       <link>https://aiglimpse.ai/articles/enterprise-ai-giants-restrict-anthropic-deployment-over-data-retention-policy-02f3ef86</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/enterprise-ai-giants-restrict-anthropic-deployment-over-data-retention-policy-02f3ef86</guid>
@@ -396,14 +404,6 @@
       <guid isPermaLink="true">https://aiglimpse.ai/articles/australian-court-penalizes-worker-for-relying-on-flawed-ai-legal-counsel-8f837472</guid>
       <description>A landmark case highlights the dangers of using large language models for specialized professional advice without expert oversight.</description>
       <pubDate>Sun, 30 Aug 2026 12:33:52 GMT</pubDate>
-      <category>Ethics &amp; Policy</category>
-    </item>
-    <item>
-      <title>U.S. Tightens AI Chip Controls With Remote Access Restrictions</title>
-      <link>https://aiglimpse.ai/articles/us-tightens-ai-chip-controls-with-remote-access-restrictions-b969b262</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/us-tightens-ai-chip-controls-with-remote-access-restrictions-b969b262</guid>
-      <description>Commerce Department moves to block Chinese firms from renting GPU computing power through overseas data centers, closing a major loophole in export controls.</description>
-      <pubDate>Sun, 30 Aug 2026 14:01:16 GMT</pubDate>
       <category>Ethics &amp; Policy</category>
     </item>
   </channel>

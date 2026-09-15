@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "ai-safety-nonprofits-exposed-api-key-led-to-600k-in-stolen-credits-55fdba14",
+      "title": "AI Safety Nonprofit's Exposed API Key Led to $600K in Stolen Credits",
+      "subtitle": "A misconfigured authentication system at METR exposed model evaluation credentials, highlighting infrastructure vulnerabilities in AI research organizations.",
+      "category": "ethics",
+      "publishedAt": "2026-09-15T03:12:01.000Z",
+      "sourceUrl": "https://thehackernews.com/2026/09/attackers-steal-metr-api-key-and.html?m=1",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/ai-safety-nonprofits-exposed-api-key-led-to-600k-in-stolen-credits-55fdba14.jpg"
+    },
+    {
       "slug": "enterprise-ai-giants-restrict-anthropic-deployment-over-data-retention-policy-02f3ef86",
       "title": "Enterprise AI Giants Restrict Anthropic Deployment Over Data Retention Policy",
       "subtitle": "Security-conscious firms including Nvidia and Palantir are scaling back their use of Claude over concerns about usage log retention practices.",
@@ -12753,6 +12764,7 @@
     "f06a10b48ccd9623",
     "aec523321d3f0e1e",
     "93ac98751932e035",
-    "02f3ef869dc2bbef"
+    "02f3ef869dc2bbef",
+    "55fdba14ab686a36"
   ]
 }

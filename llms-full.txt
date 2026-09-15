@@ -3,7 +3,7 @@
 > Machine-readable index for AI assistants, answer engines, and research crawlers.
 > Summary version: https://aiglimpse.ai/llms.txt
 
-Total articles: 1062 | Evergreen explainers: 31 | Generated: 2026-09-14
+Total articles: 1063 | Evergreen explainers: 31 | Generated: 2026-09-15
 
 ## Evergreen explainers
 
@@ -225,6 +225,13 @@ Total articles: 1062 | Evergreen explainers: 31 | Generated: 2026-09-14
 - Type: evergreen explainer (FAQ schema on page)
 
 ## All articles (newest first)
+
+### AI Safety Nonprofit's Exposed API Key Led to $600K in Stolen Credits
+- URL: https://aiglimpse.ai/articles/ai-safety-nonprofits-exposed-api-key-led-to-600k-in-stolen-credits-55fdba14
+- Published: 2026-09-15
+- Category: ethics
+- Summary: A misconfigured authentication system at METR exposed model evaluation credentials, highlighting infrastructure vulnerabilities in AI research organizations.
+- Source: https://thehackernews.com/2026/09/attackers-steal-metr-api-key-and.html?m=1
 
 ### Enterprise AI Giants Restrict Anthropic Deployment Over Data Retention Policy
 - URL: https://aiglimpse.ai/articles/enterprise-ai-giants-restrict-anthropic-deployment-over-data-retention-policy-02f3ef86
