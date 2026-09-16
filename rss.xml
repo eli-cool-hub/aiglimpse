@@ -7,6 +7,14 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>OpenAI and Anthropic Staff Clash Over Safety Oversight Plans</title>
+      <link>https://aiglimpse.ai/articles/openai-and-anthropic-staff-clash-over-safety-oversight-plans-86c839ab</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/openai-and-anthropic-staff-clash-over-safety-oversight-plans-86c839ab</guid>
+      <description>Internal tensions emerge as AI labs implement external evaluator programs, raising questions about intellectual property and operational security.</description>
+      <pubDate>Wed, 16 Sep 2026 13:57:33 GMT</pubDate>
+      <category>Ethics &amp; Policy</category>
+    </item>
+    <item>
       <title>Researchers Uncover Capacity Limits in AI Memory Networks</title>
       <link>https://aiglimpse.ai/articles/researchers-uncover-capacity-limits-in-ai-memory-networks-795020a1</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/researchers-uncover-capacity-limits-in-ai-memory-networks-795020a1</guid>
@@ -397,14 +405,6 @@
       <description>Researchers deploy a lightweight mixture-of-experts vision model that rivals much larger systems while maintaining strict privacy and cost constraints.</description>
       <pubDate>Tue, 01 Sep 2026 17:40:29 GMT</pubDate>
       <category>AI Research</category>
-    </item>
-    <item>
-      <title>The Hidden Vulnerabilities Threatening Robot Safety Beyond Physics</title>
-      <link>https://aiglimpse.ai/articles/the-hidden-vulnerabilities-threatening-robot-safety-beyond-physics-62c60ca2</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/the-hidden-vulnerabilities-threatening-robot-safety-beyond-physics-62c60ca2</guid>
-      <description>New research reveals how attackers can manipulate robot behavior through compromised AI models, exploited systems, and runtime attacks without triggering conventional safety mechanisms.</description>
-      <pubDate>Tue, 01 Sep 2026 13:56:53 GMT</pubDate>
-      <category>Robotics</category>
     </item>
   </channel>
 </rss>

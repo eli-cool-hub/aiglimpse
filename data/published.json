@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "openai-and-anthropic-staff-clash-over-safety-oversight-plans-86c839ab",
+      "title": "OpenAI and Anthropic Staff Clash Over Safety Oversight Plans",
+      "subtitle": "Internal tensions emerge as AI labs implement external evaluator programs, raising questions about intellectual property and operational security.",
+      "category": "ethics",
+      "publishedAt": "2026-09-16T13:57:33.000Z",
+      "sourceUrl": "https://www.ft.com/content/d085adc5-977b-4c7e-9641-9824d1d345d3",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/openai-and-anthropic-staff-clash-over-safety-oversight-plans-86c839ab.jpg"
+    },
+    {
       "slug": "researchers-uncover-capacity-limits-in-ai-memory-networks-795020a1",
       "title": "Researchers Uncover Capacity Limits in AI Memory Networks",
       "subtitle": "New analysis reveals how data bias fundamentally reshapes how much information neural networks can store reliably.",
@@ -12813,6 +12824,7 @@
     "135bbeef981379e6",
     "dc266a080aa1434d",
     "914e1a7b856609eb",
-    "795020a19731aeb3"
+    "795020a19731aeb3",
+    "86c839abccf853da"
   ]
 }
