@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "researchers-uncover-capacity-limits-in-ai-memory-networks-795020a1",
+      "title": "Researchers Uncover Capacity Limits in AI Memory Networks",
+      "subtitle": "New analysis reveals how data bias fundamentally reshapes how much information neural networks can store reliably.",
+      "category": "research",
+      "publishedAt": "2026-09-15T17:16:38.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2609.17477v1",
+      "sourceName": "arXiv (Yuto Sakurai, Takeaki Shimokawa, Kazunori Iwata, Kazushi Mim…)",
+      "sourceTier": 1,
+      "image": "/images/articles/researchers-uncover-capacity-limits-in-ai-memory-networks-795020a1.jpg"
+    },
+    {
       "slug": "canadian-educators-push-for-preemptive-ai-regulation-in-schools-914e1a7b",
       "title": "Canadian Educators Push for Preemptive AI Regulation in Schools",
       "subtitle": "Policy advocates argue K-12 AI systems warrant 'high-risk' classification before documented harms accumulate, citing social media litigation precedents.",
@@ -12801,6 +12812,7 @@
     "55fdba14ab686a36",
     "135bbeef981379e6",
     "dc266a080aa1434d",
-    "914e1a7b856609eb"
+    "914e1a7b856609eb",
+    "795020a19731aeb3"
   ]
 }

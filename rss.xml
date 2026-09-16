@@ -7,6 +7,14 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Researchers Uncover Capacity Limits in AI Memory Networks</title>
+      <link>https://aiglimpse.ai/articles/researchers-uncover-capacity-limits-in-ai-memory-networks-795020a1</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/researchers-uncover-capacity-limits-in-ai-memory-networks-795020a1</guid>
+      <description>New analysis reveals how data bias fundamentally reshapes how much information neural networks can store reliably.</description>
+      <pubDate>Tue, 15 Sep 2026 17:16:38 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
       <title>Canadian Educators Push for Preemptive AI Regulation in Schools</title>
       <link>https://aiglimpse.ai/articles/canadian-educators-push-for-preemptive-ai-regulation-in-schools-914e1a7b</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/canadian-educators-push-for-preemptive-ai-regulation-in-schools-914e1a7b</guid>
@@ -397,14 +405,6 @@
       <description>New research reveals how attackers can manipulate robot behavior through compromised AI models, exploited systems, and runtime attacks without triggering conventional safety mechanisms.</description>
       <pubDate>Tue, 01 Sep 2026 13:56:53 GMT</pubDate>
       <category>Robotics</category>
-    </item>
-    <item>
-      <title>OpenAI Backs California Bill Targeting AI Safety for Teenagers</title>
-      <link>https://aiglimpse.ai/articles/openai-backs-california-bill-targeting-ai-safety-for-teenagers-330076d2</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/openai-backs-california-bill-targeting-ai-safety-for-teenagers-330076d2</guid>
-      <description>The AI giant endorses legislation designed to establish age-appropriate protections while allowing young people to continue experimenting with generative tools.</description>
-      <pubDate>Mon, 31 Aug 2026 07:00:00 GMT</pubDate>
-      <category>LLMs &amp; Chatbots</category>
     </item>
   </channel>
 </rss>
