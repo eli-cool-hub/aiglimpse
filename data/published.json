@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "hidden-triggers-and-system-flaws-expose-new-attack-surface-in-ai-robots-48f163f6",
+      "title": "Hidden Triggers and System Flaws Expose New Attack Surface in AI Robots",
+      "subtitle": "As intelligent machines move into real-world environments, researchers reveal that adversaries can manipulate robot behavior through compromised AI models, wireless exploits, and runtime perception attacks.",
+      "category": "research",
+      "publishedAt": "2026-09-16T16:51:02.000Z",
+      "sourceUrl": "https://spectrum.ieee.org/physical-ai-robot-cybersecurity-vicone",
+      "sourceName": "IEEE Spectrum AI",
+      "sourceTier": 2,
+      "image": "/images/articles/hidden-triggers-and-system-flaws-expose-new-attack-surface-in-ai-robots-48f163f6.jpg"
+    },
+    {
       "slug": "new-technique-stabilizes-ai-training-when-systems-drift-d21ae60c",
       "title": "New Technique Stabilizes AI Training When Systems Drift",
       "subtitle": "Researchers propose a mathematical fix that makes reinforcement learning more reliable when training and inference engines differ.",
@@ -12861,6 +12872,7 @@
     "86c839abccf853da",
     "1eb51697cbfb7b01",
     "daa4a23126ef60de",
-    "d21ae60cb26eba54"
+    "d21ae60cb26eba54",
+    "48f163f68602c9d4"
   ]
 }

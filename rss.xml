@@ -7,6 +7,14 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Hidden Triggers and System Flaws Expose New Attack Surface in AI Robots</title>
+      <link>https://aiglimpse.ai/articles/hidden-triggers-and-system-flaws-expose-new-attack-surface-in-ai-robots-48f163f6</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/hidden-triggers-and-system-flaws-expose-new-attack-surface-in-ai-robots-48f163f6</guid>
+      <description>As intelligent machines move into real-world environments, researchers reveal that adversaries can manipulate robot behavior through compromised AI models, wireless exploits, and runtime perception attacks.</description>
+      <pubDate>Wed, 16 Sep 2026 16:51:02 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
       <title>New Technique Stabilizes AI Training When Systems Drift</title>
       <link>https://aiglimpse.ai/articles/new-technique-stabilizes-ai-training-when-systems-drift-d21ae60c</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/new-technique-stabilizes-ai-training-when-systems-drift-d21ae60c</guid>
@@ -397,14 +405,6 @@
       <description>Federal filing argues AI companies' use of copyrighted material for model development qualifies as fair use, reshaping legal landscape.</description>
       <pubDate>Wed, 02 Sep 2026 18:41:02 GMT</pubDate>
       <category>AI Tools &amp; Products</category>
-    </item>
-    <item>
-      <title>OpenAI's Astra Model Raises Safety Concerns With Novel Reasoning Method</title>
-      <link>https://aiglimpse.ai/articles/openais-astra-model-raises-safety-concerns-with-novel-reasoning-method-432ae861</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/openais-astra-model-raises-safety-concerns-with-novel-reasoning-method-432ae861</guid>
-      <description>The company's departure from sequential thinking introduces architectural risks that warrant closer examination from the research community.</description>
-      <pubDate>Wed, 02 Sep 2026 20:19:14 GMT</pubDate>
-      <category>AI Business</category>
     </item>
   </channel>
 </rss>

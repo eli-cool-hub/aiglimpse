@@ -3,7 +3,7 @@
 > Machine-readable index for AI assistants, answer engines, and research crawlers.
 > Summary version: https://aiglimpse.ai/llms.txt
 
-Total articles: 1071 | Evergreen explainers: 31 | Generated: 2026-09-18
+Total articles: 1072 | Evergreen explainers: 31 | Generated: 2026-09-18
 
 ## Evergreen explainers
 
@@ -225,6 +225,13 @@ Total articles: 1071 | Evergreen explainers: 31 | Generated: 2026-09-18
 - Type: evergreen explainer (FAQ schema on page)
 
 ## All articles (newest first)
+
+### Hidden Triggers and System Flaws Expose New Attack Surface in AI Robots
+- URL: https://aiglimpse.ai/articles/hidden-triggers-and-system-flaws-expose-new-attack-surface-in-ai-robots-48f163f6
+- Published: 2026-09-16
+- Category: research
+- Summary: As intelligent machines move into real-world environments, researchers reveal that adversaries can manipulate robot behavior through compromised AI models, wireless exploits, and runtime perception attacks.
+- Source: https://spectrum.ieee.org/physical-ai-robot-cybersecurity-vicone
 
 ### New Technique Stabilizes AI Training When Systems Drift
 - URL: https://aiglimpse.ai/articles/new-technique-stabilizes-ai-training-when-systems-drift-d21ae60c

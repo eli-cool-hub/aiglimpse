@@ -12800,6 +12800,24 @@
         "devto": true,
         "hashnode": false
       }
+    },
+    "hidden-triggers-and-system-flaws-expose-new-attack-surface-in-ai-robots-48f163f6": {
+      "syndicated_at": "2026-09-18T15:56:53.571Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/hidden-triggers-and-system-flaws-expose-new-attack-surface-in-ai-robots-2n8e",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 494,
+      "category": "research",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
     }
   }
 }
