@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "new-technique-stabilizes-ai-training-when-systems-drift-d21ae60c",
+      "title": "New Technique Stabilizes AI Training When Systems Drift",
+      "subtitle": "Researchers propose a mathematical fix that makes reinforcement learning more reliable when training and inference engines differ.",
+      "category": "research",
+      "publishedAt": "2026-09-17T17:58:17.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2609.20807v1",
+      "sourceName": "arXiv (Martin Marek, Max Ryabinin)",
+      "sourceTier": 1,
+      "image": "/images/articles/new-technique-stabilizes-ai-training-when-systems-drift-d21ae60c.jpg"
+    },
+    {
       "slug": "the-real-question-behind-ai-safety-regulation-or-power-daa4a231",
       "title": "The Real Question Behind AI Safety: Regulation or Power?",
       "subtitle": "Industry leaders clash over whether safety frameworks mask deeper concerns about controlling advanced AI systems.",
@@ -12849,6 +12860,7 @@
     "795020a19731aeb3",
     "86c839abccf853da",
     "1eb51697cbfb7b01",
-    "daa4a23126ef60de"
+    "daa4a23126ef60de",
+    "d21ae60cb26eba54"
   ]
 }

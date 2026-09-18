@@ -12782,6 +12782,24 @@
         "devto": true,
         "hashnode": false
       }
+    },
+    "new-technique-stabilizes-ai-training-when-systems-drift-d21ae60c": {
+      "syndicated_at": "2026-09-18T08:49:37.720Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/new-technique-stabilizes-ai-training-when-systems-drift-1oid",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 448,
+      "category": "research",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
     }
   }
 }

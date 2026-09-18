@@ -7,6 +7,14 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>New Technique Stabilizes AI Training When Systems Drift</title>
+      <link>https://aiglimpse.ai/articles/new-technique-stabilizes-ai-training-when-systems-drift-d21ae60c</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-technique-stabilizes-ai-training-when-systems-drift-d21ae60c</guid>
+      <description>Researchers propose a mathematical fix that makes reinforcement learning more reliable when training and inference engines differ.</description>
+      <pubDate>Thu, 17 Sep 2026 17:58:17 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
       <title>The Real Question Behind AI Safety: Regulation or Power?</title>
       <link>https://aiglimpse.ai/articles/the-real-question-behind-ai-safety-regulation-or-power-daa4a231</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/the-real-question-behind-ai-safety-regulation-or-power-daa4a231</guid>
@@ -397,14 +405,6 @@
       <description>The company's departure from sequential thinking introduces architectural risks that warrant closer examination from the research community.</description>
       <pubDate>Wed, 02 Sep 2026 20:19:14 GMT</pubDate>
       <category>AI Business</category>
-    </item>
-    <item>
-      <title>U.S. Government Backs OpenAI in Copyright Training Defense</title>
-      <link>https://aiglimpse.ai/articles/us-government-backs-openai-in-copyright-training-defense-2edf50f1</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/us-government-backs-openai-in-copyright-training-defense-2edf50f1</guid>
-      <description>Justice Department files legal brief supporting fair-use doctrine for LLM training, reshaping AI industry litigation landscape.</description>
-      <pubDate>Wed, 02 Sep 2026 21:12:01 GMT</pubDate>
-      <category>AI Research</category>
     </item>
   </channel>
 </rss>
