@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "viral-ai-safety-debates-expose-growing-challenge-of-separating-fact-from-fiction-d14b820e",
+      "title": "Viral AI Safety Debates Expose Growing Challenge of Separating Fact From Fiction",
+      "subtitle": "Two high-profile conversations about AI risks demonstrate how difficult it has become to verify claims in an increasingly complex technical landscape.",
+      "category": "business",
+      "publishedAt": "2026-09-19T15:00:00.000Z",
+      "sourceUrl": "https://techcrunch.com/2026/09/19/ai-safety-conversations-have-gotten-unbelievable/",
+      "sourceName": "TechCrunch AI",
+      "sourceTier": 2,
+      "image": "/images/articles/viral-ai-safety-debates-expose-growing-challenge-of-separating-fact-from-fiction-d14b820e.jpg"
+    },
+    {
       "slug": "openai-unveils-framework-for-protecting-young-users-from-ai-harms-44289467",
       "title": "OpenAI Unveils Framework for Protecting Young Users From AI Harms",
       "subtitle": "New six-pillar safety roadmap aims to establish industry standards for protecting minors in AI-driven digital environments.",
@@ -12909,6 +12920,7 @@
     "48f163f68602c9d4",
     "4c0c4cd36e57a35a",
     "76d4a74702610375",
-    "44289467d2dcd3f7"
+    "44289467d2dcd3f7",
+    "d14b820e9f87227e"
   ]
 }
