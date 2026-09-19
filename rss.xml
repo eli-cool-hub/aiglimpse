@@ -7,6 +7,14 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Real-World Testing, Not Lab Benchmarks, Essential for Medical AI</title>
+      <link>https://aiglimpse.ai/articles/real-world-testing-not-lab-benchmarks-essential-for-medical-ai-76d4a747</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/real-world-testing-not-lab-benchmarks-essential-for-medical-ai-76d4a747</guid>
+      <description>Researchers behind Google DeepMind's AMIE diagnostic tool argue that clinical acceptance requires prospective trials in actual hospital settings.</description>
+      <pubDate>Thu, 17 Sep 2026 09:12:01 GMT</pubDate>
+      <category>Industry Applications</category>
+    </item>
+    <item>
       <title>California Moves to Mandate AI Kill Switches and Speed Oversight</title>
       <link>https://aiglimpse.ai/articles/california-moves-to-mandate-ai-kill-switches-and-speed-oversight-4c0c4cd3</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/california-moves-to-mandate-ai-kill-switches-and-speed-oversight-4c0c4cd3</guid>
@@ -396,14 +404,6 @@
       <guid isPermaLink="true">https://aiglimpse.ai/articles/sanders-and-casar-push-bill-to-ban-ai-superintelligence-c9bf02c9</guid>
       <description>Legislation would impose criminal penalties for developing superintelligent AI and establish federal safety oversight before advancing frontier research.</description>
       <pubDate>Thu, 03 Sep 2026 18:34:05 GMT</pubDate>
-      <category>Ethics &amp; Policy</category>
-    </item>
-    <item>
-      <title>Police AI Tool Shifts From License Plates to Behavior Patterns</title>
-      <link>https://aiglimpse.ai/articles/police-ai-tool-shifts-from-license-plates-to-behavior-patterns-e809e038</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/police-ai-tool-shifts-from-license-plates-to-behavior-patterns-e809e038</guid>
-      <description>Flock Safety's new conversational search system lets officers query vehicles by location, time, and driving behavior, raising fresh surveillance concerns.</description>
-      <pubDate>Thu, 03 Sep 2026 15:12:01 GMT</pubDate>
       <category>Ethics &amp; Policy</category>
     </item>
   </channel>

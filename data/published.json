@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "real-world-testing-not-lab-benchmarks-essential-for-medical-ai-76d4a747",
+      "title": "Real-World Testing, Not Lab Benchmarks, Essential for Medical AI",
+      "subtitle": "Researchers behind Google DeepMind's AMIE diagnostic tool argue that clinical acceptance requires prospective trials in actual hospital settings.",
+      "category": "industry",
+      "publishedAt": "2026-09-17T09:12:01.000Z",
+      "sourceUrl": "https://nature.com/articles/s41591-026-04639-5?code=1402ac56-06ae-48bd-b6e1-7bd1ebfd5ace&error=cookies_not_supported",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/real-world-testing-not-lab-benchmarks-essential-for-medical-ai-76d4a747.jpg"
+    },
+    {
       "slug": "california-moves-to-mandate-ai-kill-switches-and-speed-oversight-4c0c4cd3",
       "title": "California Moves to Mandate AI Kill Switches and Speed Oversight",
       "subtitle": "Governor Newsom accelerates implementation of new AI audit laws while exploring mandatory emergency shutoff mechanisms for frontier models.",
@@ -12885,6 +12896,7 @@
     "daa4a23126ef60de",
     "d21ae60cb26eba54",
     "48f163f68602c9d4",
-    "4c0c4cd36e57a35a"
+    "4c0c4cd36e57a35a",
+    "76d4a74702610375"
   ]
 }
