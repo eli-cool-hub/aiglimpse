@@ -12854,6 +12854,24 @@
         "devto": true,
         "hashnode": false
       }
+    },
+    "openai-unveils-framework-for-protecting-young-users-from-ai-harms-44289467": {
+      "syndicated_at": "2026-09-19T08:35:55.987Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/openai-unveils-framework-for-protecting-young-users-from-ai-harms-1al8",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 512,
+      "category": "llms",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
     }
   }
 }

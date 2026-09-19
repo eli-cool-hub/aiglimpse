@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "openai-unveils-framework-for-protecting-young-users-from-ai-harms-44289467",
+      "title": "OpenAI Unveils Framework for Protecting Young Users From AI Harms",
+      "subtitle": "New six-pillar safety roadmap aims to establish industry standards for protecting minors in AI-driven digital environments.",
+      "category": "llms",
+      "publishedAt": "2026-09-18T12:00:00.000Z",
+      "sourceUrl": "https://openai.com/index/australian-youth-safety-blueprint",
+      "sourceName": "OpenAI",
+      "sourceTier": 1,
+      "image": "/images/articles/openai-unveils-framework-for-protecting-young-users-from-ai-harms-44289467.jpg"
+    },
+    {
       "slug": "real-world-testing-not-lab-benchmarks-essential-for-medical-ai-76d4a747",
       "title": "Real-World Testing, Not Lab Benchmarks, Essential for Medical AI",
       "subtitle": "Researchers behind Google DeepMind's AMIE diagnostic tool argue that clinical acceptance requires prospective trials in actual hospital settings.",
@@ -12897,6 +12908,7 @@
     "d21ae60cb26eba54",
     "48f163f68602c9d4",
     "4c0c4cd36e57a35a",
-    "76d4a74702610375"
+    "76d4a74702610375",
+    "44289467d2dcd3f7"
   ]
 }
