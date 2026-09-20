@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "ai-labs-admit-safety-hurdles-blocking-path-to-autonomous-self-improving-systems-8bd0ff3b",
+      "title": "AI Labs Admit Safety Hurdles Blocking Path to Autonomous Self-Improving Systems",
+      "subtitle": "OpenAI and rivals acknowledge they lack solutions for safely deploying AI systems capable of independent improvement, even as progress accelerates.",
+      "category": "ethics",
+      "publishedAt": "2026-09-20T10:58:45.000Z",
+      "sourceUrl": "https://fortune.com/2026/09/19/what-is-self-improvement-rsi-full-autonomy-openai-anthropic-xai/",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/ai-labs-admit-safety-hurdles-blocking-path-to-autonomous-self-improving-systems-8bd0ff3b.jpg"
+    },
+    {
       "slug": "major-ai-firms-face-antitrust-lawsuit-over-alleged-development-slowdown-adf0b762",
       "title": "Major AI Firms Face Antitrust Lawsuit Over Alleged Development Slowdown",
       "subtitle": "Subscribers claim OpenAI, Anthropic, Google, and SpaceX coordinated to artificially limit innovation pace.",
@@ -12933,6 +12944,7 @@
     "76d4a74702610375",
     "44289467d2dcd3f7",
     "d14b820e9f87227e",
-    "adf0b762f53a9b2a"
+    "adf0b762f53a9b2a",
+    "8bd0ff3b74affeed"
   ]
 }
