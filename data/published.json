@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "major-ai-firms-face-antitrust-lawsuit-over-alleged-development-slowdown-adf0b762",
+      "title": "Major AI Firms Face Antitrust Lawsuit Over Alleged Development Slowdown",
+      "subtitle": "Subscribers claim OpenAI, Anthropic, Google, and SpaceX coordinated to artificially limit innovation pace.",
+      "category": "ethics",
+      "publishedAt": "2026-09-19T18:28:49.000Z",
+      "sourceUrl": "https://www.cbsnews.com/news/ai-slowdown-lawsuit-openai-anthropic-google/",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/major-ai-firms-face-antitrust-lawsuit-over-alleged-development-slowdown-adf0b762.jpg"
+    },
+    {
       "slug": "viral-ai-safety-debates-expose-growing-challenge-of-separating-fact-from-fiction-d14b820e",
       "title": "Viral AI Safety Debates Expose Growing Challenge of Separating Fact From Fiction",
       "subtitle": "Two high-profile conversations about AI risks demonstrate how difficult it has become to verify claims in an increasingly complex technical landscape.",
@@ -12921,6 +12932,7 @@
     "4c0c4cd36e57a35a",
     "76d4a74702610375",
     "44289467d2dcd3f7",
-    "d14b820e9f87227e"
+    "d14b820e9f87227e",
+    "adf0b762f53a9b2a"
   ]
 }
