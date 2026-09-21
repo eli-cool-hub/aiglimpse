@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "openai-and-anthropic-nearly-formalized-mutual-ai-safety-testing-2bae3971",
+      "title": "OpenAI and Anthropic Nearly Formalized Mutual AI Safety Testing",
+      "subtitle": "The frontier labs explored a binding framework for adversarial evaluation before security concerns derailed negotiations.",
+      "category": "ethics",
+      "publishedAt": "2026-09-21T18:28:35.000Z",
+      "sourceUrl": "https://www.theinformation.com/articles/openai-anthropic-neared-deal-stress-test-others-ai",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/openai-and-anthropic-nearly-formalized-mutual-ai-safety-testing-2bae3971.jpg"
+    },
+    {
       "slug": "eu-mandates-efficiency-ratings-for-large-data-centres-a6e395a7",
       "title": "EU mandates efficiency ratings for large data centres",
       "subtitle": "New labeling scheme targets AI infrastructure as Europe tightens rules on computing resource consumption.",
@@ -12981,6 +12992,7 @@
     "8bd0ff3b74affeed",
     "2e78a687bd0e0adb",
     "93d83ab0626cceca",
-    "a6e395a7f833ee89"
+    "a6e395a7f833ee89",
+    "2bae3971485c87d1"
   ]
 }
