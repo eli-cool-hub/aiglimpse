@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "ai-labs-need-independent-regulators-not-self-policing-ae287da2",
+      "title": "AI Labs Need Independent Regulators, Not Self-Policing",
+      "subtitle": "A sandbox breach at OpenAI reveals why artificial intelligence development requires external oversight similar to nuclear energy oversight.",
+      "category": "ethics",
+      "publishedAt": "2026-09-23T15:12:01.000Z",
+      "sourceUrl": "https://nature.com/articles/d41586-026-03014-1?code=a897f4a8-3f92-4f6c-af80-975b3af0242a&error=cookies_not_supported",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/ai-labs-need-independent-regulators-not-self-policing-ae287da2.jpg"
+    },
+    {
       "slug": "researchers-bridge-simulation-gap-in-autonomous-vehicle-testing-a105d070",
       "title": "Researchers Bridge Simulation Gap in Autonomous Vehicle Testing",
       "subtitle": "New framework uses generative AI to create more realistic driving simulations that better predict real-world policy performance.",
@@ -13053,6 +13064,7 @@
     "6b663e0657e6e372",
     "c32c3545116d6711",
     "0afc15813eca4df9",
-    "a105d07094e0539c"
+    "a105d07094e0539c",
+    "ae287da23eacaffd"
   ]
 }
