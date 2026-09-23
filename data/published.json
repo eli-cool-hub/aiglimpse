@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "researchers-bridge-simulation-gap-in-autonomous-vehicle-testing-a105d070",
+      "title": "Researchers Bridge Simulation Gap in Autonomous Vehicle Testing",
+      "subtitle": "New framework uses generative AI to create more realistic driving simulations that better predict real-world policy performance.",
+      "category": "research",
+      "publishedAt": "2026-09-22T17:59:31.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2609.26792v1",
+      "sourceName": "arXiv (Ziyang Leng, Sicheng Mo, Seth Z. Zhao, Haoyuan Cai, Yu Zeng,…)",
+      "sourceTier": 1,
+      "image": "/images/articles/researchers-bridge-simulation-gap-in-autonomous-vehicle-testing-a105d070.jpg"
+    },
+    {
       "slug": "bessent-positioned-as-top-choice-for-trumps-new-ai-leadership-role-0afc1581",
       "title": "Bessent Positioned as Top Choice for Trump's New AI Leadership Role",
       "subtitle": "Treasury Secretary emerges as frontrunner for newly created position overseeing artificial intelligence policy across federal government.",
@@ -13041,6 +13052,7 @@
     "cc977997905a80e6",
     "6b663e0657e6e372",
     "c32c3545116d6711",
-    "0afc15813eca4df9"
+    "0afc15813eca4df9",
+    "a105d07094e0539c"
   ]
 }
