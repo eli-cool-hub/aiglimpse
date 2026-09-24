@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "safety-regulator-opens-inquiry-into-commaai-driver-assist-software-fb61645a",
+      "title": "Safety Regulator Opens Inquiry Into Comma.ai Driver-Assist Software",
+      "subtitle": "Federal investigation launched after crashes involving autonomous driving technology raise questions about aftermarket vehicle automation systems.",
+      "category": "ethics",
+      "publishedAt": "2026-09-24T07:59:02.000Z",
+      "sourceUrl": "https://techcrunch.com/2026/09/23/commas-hands-off-driving-tech-under-investigation-after-2-fatal-crashes/",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/safety-regulator-opens-inquiry-into-commaai-driver-assist-software-fb61645a.jpg"
+    },
+    {
       "slug": "sanders-and-casar-propose-cabinet-level-ai-agency-superintelligence-ban-644c8fd9",
       "title": "Sanders and Casar Propose Cabinet-Level AI Agency, Superintelligence Ban",
       "subtitle": "New legislation would criminalize development of AI systems matching human cognition and establish federal oversight of advanced AI research.",
@@ -13089,6 +13100,7 @@
     "a105d07094e0539c",
     "ae287da23eacaffd",
     "7b180bb87193519a",
-    "644c8fd99f217102"
+    "644c8fd99f217102",
+    "fb61645aeec8baf0"
   ]
 }
