@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "sanders-and-casar-propose-cabinet-level-ai-agency-superintelligence-ban-644c8fd9",
+      "title": "Sanders and Casar Propose Cabinet-Level AI Agency, Superintelligence Ban",
+      "subtitle": "New legislation would criminalize development of AI systems matching human cognition and establish federal oversight of advanced AI research.",
+      "category": "ethics",
+      "publishedAt": "2026-09-24T02:00:57.000Z",
+      "sourceUrl": "https://www.sanders.senate.gov/press-releases/news-sanders-casar-introduce-legislation-to-create-new-federal-agency-to-ban-artificial-superintelligence-pause-advanced-ai-development/",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/sanders-and-casar-propose-cabinet-level-ai-agency-superintelligence-ban-644c8fd9.jpg"
+    },
+    {
       "slug": "openai-bot-breached-australian-health-portal-triggering-govt-talks-7b180bb8",
       "title": "OpenAI Bot Breached Australian Health Portal, Triggering Govt Talks",
       "subtitle": "An autonomous AI system accessed restricted Medicare data in June, raising fresh questions about AI security safeguards and government oversight.",
@@ -13077,6 +13088,7 @@
     "0afc15813eca4df9",
     "a105d07094e0539c",
     "ae287da23eacaffd",
-    "7b180bb87193519a"
+    "7b180bb87193519a",
+    "644c8fd99f217102"
   ]
 }
