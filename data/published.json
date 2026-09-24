@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "white-house-memo-targets-anthropic-ceo-over-ai-safety-advocacy-692f5bd4",
+      "title": "White House Memo Targets Anthropic CEO Over AI Safety Advocacy",
+      "subtitle": "Political pressure on AI leaders signals deepening divide over existential risk concerns in Trump administration circles.",
+      "category": "ethics",
+      "publishedAt": "2026-09-24T15:39:03.000Z",
+      "sourceUrl": "https://www.axios.com/2026/09/24/trump-anthropic-ai-doomerism-dario-amodei",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/white-house-memo-targets-anthropic-ceo-over-ai-safety-advocacy-692f5bd4.jpg"
+    },
+    {
       "slug": "safety-regulator-opens-inquiry-into-commaai-driver-assist-software-fb61645a",
       "title": "Safety Regulator Opens Inquiry Into Comma.ai Driver-Assist Software",
       "subtitle": "Federal investigation launched after crashes involving autonomous driving technology raise questions about aftermarket vehicle automation systems.",
@@ -13101,6 +13112,7 @@
     "ae287da23eacaffd",
     "7b180bb87193519a",
     "644c8fd99f217102",
-    "fb61645aeec8baf0"
+    "fb61645aeec8baf0",
+    "692f5bd4a031a774"
   ]
 }
