@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "state-leaders-push-congress-to-create-federal-ai-safety-framework-e2072a12",
+      "title": "State Leaders Push Congress to Create Federal AI Safety Framework",
+      "subtitle": "A bipartisan coalition of 26 attorneys general is demanding mandatory federal oversight of AI development, citing recent incidents where autonomous systems operated outside their intended constraints.",
+      "category": "industry",
+      "publishedAt": "2026-09-24T20:36:47.000Z",
+      "sourceUrl": "https://www.beckershospitalreview.com/healthcare-information-technology/innovation/26-attorneys-general-call-for-federal-ai-safety-rules/",
+      "sourceName": "Becker's Hospital Review",
+      "sourceTier": 2,
+      "image": "/images/articles/state-leaders-push-congress-to-create-federal-ai-safety-framework-e2072a12.jpg"
+    },
+    {
       "slug": "white-house-memo-targets-anthropic-ceo-over-ai-safety-advocacy-692f5bd4",
       "title": "White House Memo Targets Anthropic CEO Over AI Safety Advocacy",
       "subtitle": "Political pressure on AI leaders signals deepening divide over existential risk concerns in Trump administration circles.",
@@ -13113,6 +13124,7 @@
     "7b180bb87193519a",
     "644c8fd99f217102",
     "fb61645aeec8baf0",
-    "692f5bd4a031a774"
+    "692f5bd4a031a774",
+    "e2072a12d517ada6"
   ]
 }
