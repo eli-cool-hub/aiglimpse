@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "meta-removes-satirists-video-documenting-ray-ban-ai-glasses-5c24148f",
+      "title": "Meta Removes Satirist's Video Documenting Ray-Ban AI Glasses",
+      "subtitle": "Content moderation flags raise questions about how AI companies handle criticism of their own products.",
+      "category": "ethics",
+      "publishedAt": "2026-09-24T15:39:03.000Z",
+      "sourceUrl": "https://www.dutchnews.nl/2026/09/meta-removes-post-about-meta-glasses/",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/meta-removes-satirists-video-documenting-ray-ban-ai-glasses-5c24148f.jpg"
+    },
+    {
       "slug": "japanese-used-books-vanish-in-bulk-shipments-suspected-for-ai-training-0797ea0e",
       "title": "Japanese Used Books Vanish in Bulk Shipments Suspected for AI Training",
       "subtitle": "Investigation reveals massive export operation targeting literary works for machine learning datasets, raising questions about data sourcing practices.",
@@ -13161,6 +13172,7 @@
     "e2072a12d517ada6",
     "1611119f71473848",
     "06b917e26d6115de",
-    "0797ea0e6b3225d0"
+    "0797ea0e6b3225d0",
+    "5c24148f7a0a4769"
   ]
 }
