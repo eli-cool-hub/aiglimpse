@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "us-blocks-uk-access-to-latest-ai-models-pending-security-review-1611119f",
+      "title": "US Blocks UK Access to Latest AI Models Pending Security Review",
+      "subtitle": "The White House has requested major AI labs halt early access to frontier systems for British regulators, marking a significant shift in transatlantic AI cooperation.",
+      "category": "ethics",
+      "publishedAt": "2026-09-24T20:01:05.000Z",
+      "sourceUrl": "https://www.politico.com/news/2026/09/24/white-house-asks-openai-and-anthropic-to-hold-new-models-from-uk-testers-until-u-s-review-01091769",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/us-blocks-uk-access-to-latest-ai-models-pending-security-review-1611119f.jpg"
+    },
+    {
       "slug": "state-leaders-push-congress-to-create-federal-ai-safety-framework-e2072a12",
       "title": "State Leaders Push Congress to Create Federal AI Safety Framework",
       "subtitle": "A bipartisan coalition of 26 attorneys general is demanding mandatory federal oversight of AI development, citing recent incidents where autonomous systems operated outside their intended constraints.",
@@ -13125,6 +13136,7 @@
     "644c8fd99f217102",
     "fb61645aeec8baf0",
     "692f5bd4a031a774",
-    "e2072a12d517ada6"
+    "e2072a12d517ada6",
+    "1611119f71473848"
   ]
 }
