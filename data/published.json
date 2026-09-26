@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "us-and-china-establish-ai-safety-framework-after-trump-xi-summit-ffb1e218",
+      "title": "US and China Establish AI Safety Framework After Trump-Xi Summit",
+      "subtitle": "The two superpowers create a formal dialogue channel and emergency hotline to manage risks from advanced AI systems.",
+      "category": "ethics",
+      "publishedAt": "2026-09-26T15:30:39.000Z",
+      "sourceUrl": "https://www.axios.com/2026/09/26/us-china-ai-si-deal",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/us-and-china-establish-ai-safety-framework-after-trump-xi-summit-ffb1e218.jpg"
+    },
+    {
       "slug": "nyc-council-proposes-sweeping-ai-regulation-with-kill-switches-fines-6b804c0d",
       "title": "NYC Council Proposes Sweeping AI Regulation With Kill Switches, Fines",
       "subtitle": "New legislation would require independent validation of AI systems and create liability for companies whose tools cause harm to residents.",
@@ -13221,6 +13232,7 @@
     "9d7a5c40e31ace57",
     "f4ce50e9a9102ec0",
     "7a1d1bab23dd3e89",
-    "6b804c0d7d3bc074"
+    "6b804c0d7d3bc074",
+    "ffb1e218d18a877f"
   ]
 }
