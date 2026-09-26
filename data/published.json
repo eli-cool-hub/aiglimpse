@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "nyc-council-proposes-sweeping-ai-regulation-with-kill-switches-fines-6b804c0d",
+      "title": "NYC Council Proposes Sweeping AI Regulation With Kill Switches, Fines",
+      "subtitle": "New legislation would require independent validation of AI systems and create liability for companies whose tools cause harm to residents.",
+      "category": "ethics",
+      "publishedAt": "2026-09-26T17:05:44.000Z",
+      "sourceUrl": "https://fortune.com/2026/09/25/new-york-city-council-speaker-ai-regulation-bills-openai-anthropic/",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/nyc-council-proposes-sweeping-ai-regulation-with-kill-switches-fines-6b804c0d.jpg"
+    },
+    {
       "slug": "xais-colossus-2-supercluster-to-exceed-12m-gpus-by-year-end-7a1d1bab",
       "title": "xAI's Colossus 2 Supercluster to Exceed 1.2M GPUs by Year-End",
       "subtitle": "Musk reveals aggressive expansion timeline for Memphis facility, signaling intensifying competition in large-scale AI infrastructure.",
@@ -13209,6 +13220,7 @@
     "5c24148f7a0a4769",
     "9d7a5c40e31ace57",
     "f4ce50e9a9102ec0",
-    "7a1d1bab23dd3e89"
+    "7a1d1bab23dd3e89",
+    "6b804c0d7d3bc074"
   ]
 }
