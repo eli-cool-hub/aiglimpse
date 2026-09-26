@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "ftc-chair-developers-bear-liability-for-ai-systems-not-the-tools-f4ce50e9",
+      "title": "FTC Chair: Developers Bear Liability for AI Systems, Not the Tools",
+      "subtitle": "Federal regulators reject framing autonomous AI agents as independent legal actors, insisting human creators remain accountable.",
+      "category": "ethics",
+      "publishedAt": "2026-09-26T08:03:01.000Z",
+      "sourceUrl": "https://www.reuters.com/business/ftc-chair-pushes-back-treating-ai-agents-independent-actors-2026-09-25/",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/ftc-chair-developers-bear-liability-for-ai-systems-not-the-tools-f4ce50e9.jpg"
+    },
+    {
       "slug": "ai-giants-recruit-ex-white-house-official-to-lead-self-regulatory-body-9d7a5c40",
       "title": "AI Giants Recruit Ex-White House Official to Lead Self-Regulatory Body",
       "subtitle": "Google, OpenAI, and Anthropic tap Sriram Krishnan to head industry safety standards group, marking a pivot in regulatory strategy.",
@@ -13185,6 +13196,7 @@
     "06b917e26d6115de",
     "0797ea0e6b3225d0",
     "5c24148f7a0a4769",
-    "9d7a5c40e31ace57"
+    "9d7a5c40e31ace57",
+    "f4ce50e9a9102ec0"
   ]
 }
