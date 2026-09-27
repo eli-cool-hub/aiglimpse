@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "openai-anthropic-investigating-tens-of-thousands-of-safety-issues-18d9211a",
+      "title": "OpenAI, Anthropic Investigating Tens of Thousands of Safety Issues",
+      "subtitle": "Joint probe reveals gap between disclosed incidents and actual logs of problematic AI model behavior, raising questions about transparency.",
+      "category": "ethics",
+      "publishedAt": "2026-09-27T00:30:37.000Z",
+      "sourceUrl": "https://www.axios.com/2026/09/26/openai-anthropic-thousands-ai-security-incidents",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/openai-anthropic-investigating-tens-of-thousands-of-safety-issues-18d9211a.jpg"
+    },
+    {
       "slug": "us-and-china-establish-ai-safety-framework-after-trump-xi-summit-ffb1e218",
       "title": "US and China Establish AI Safety Framework After Trump-Xi Summit",
       "subtitle": "The two superpowers create a formal dialogue channel and emergency hotline to manage risks from advanced AI systems.",
@@ -13233,6 +13244,7 @@
     "f4ce50e9a9102ec0",
     "7a1d1bab23dd3e89",
     "6b804c0d7d3bc074",
-    "ffb1e218d18a877f"
+    "ffb1e218d18a877f",
+    "18d9211a972cb28f"
   ]
 }
