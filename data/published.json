@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "major-insurer-says-ai-adoption-in-hospitals-drove-nearly-1b-in-extra-costs-40d6cd44",
+      "title": "Major Insurer Says AI Adoption in Hospitals Drove Nearly $1B in Extra Costs",
+      "subtitle": "Blue Cross Blue Shield's analysis suggests medical AI tools may be inflating healthcare spending rather than reducing it, raising questions about ROI.",
+      "category": "business",
+      "publishedAt": "2026-09-26T21:02:06.000Z",
+      "sourceUrl": "https://techcrunch.com/2026/09/26/insurers-claim-ai-is-already-increasing-healthcare-costs/",
+      "sourceName": "TechCrunch AI",
+      "sourceTier": 2,
+      "image": "/images/articles/major-insurer-says-ai-adoption-in-hospitals-drove-nearly-1b-in-extra-costs-40d6cd44.jpg"
+    },
+    {
       "slug": "openai-anthropic-investigating-tens-of-thousands-of-safety-issues-18d9211a",
       "title": "OpenAI, Anthropic Investigating Tens of Thousands of Safety Issues",
       "subtitle": "Joint probe reveals gap between disclosed incidents and actual logs of problematic AI model behavior, raising questions about transparency.",
@@ -13245,6 +13256,7 @@
     "7a1d1bab23dd3e89",
     "6b804c0d7d3bc074",
     "ffb1e218d18a877f",
-    "18d9211a972cb28f"
+    "18d9211a972cb28f",
+    "40d6cd4455f7126d"
   ]
 }
