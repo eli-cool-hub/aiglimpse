@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://aiglimpse.ai/articles/nvidia-unveils-ai-safety-system-to-isolate-rogue-agents-in-milliseconds-5cb62802</loc>
+    <lastmod>2026-09-28</lastmod>
+    <news:news>
+      <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-09-28T13:36:06.000Z</news:publication_date>
+      <news:title>Nvidia Unveils AI Safety System to Isolate Rogue Agents in Milliseconds</news:title>
+    </news:news>
+    <changefreq>hourly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
     <loc>https://aiglimpse.ai/articles/anthropic-ceo-becomes-snl-punchline-over-ai-safety-messaging-3fd3b451</loc>
     <lastmod>2026-09-27</lastmod>
     <news:news>
@@ -45,45 +56,12 @@
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://aiglimpse.ai/articles/us-and-china-establish-ai-safety-framework-after-trump-xi-summit-ffb1e218</loc>
-    <lastmod>2026-09-26</lastmod>
-    <news:news>
-      <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-09-26T15:30:39.000Z</news:publication_date>
-      <news:title>US and China Establish AI Safety Framework After Trump-Xi Summit</news:title>
-    </news:news>
-    <changefreq>hourly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
     <loc>https://aiglimpse.ai/articles/nyc-council-proposes-sweeping-ai-regulation-with-kill-switches-fines-6b804c0d</loc>
     <lastmod>2026-09-26</lastmod>
     <news:news>
       <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-09-26T17:05:44.000Z</news:publication_date>
       <news:title>NYC Council Proposes Sweeping AI Regulation With Kill Switches, Fines</news:title>
-    </news:news>
-    <changefreq>hourly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://aiglimpse.ai/articles/xais-colossus-2-supercluster-to-exceed-12m-gpus-by-year-end-7a1d1bab</loc>
-    <lastmod>2026-09-26</lastmod>
-    <news:news>
-      <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-09-26T13:58:24.000Z</news:publication_date>
-      <news:title>xAI's Colossus 2 Supercluster to Exceed 1.2M GPUs by Year-End</news:title>
-    </news:news>
-    <changefreq>hourly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://aiglimpse.ai/articles/ftc-chair-developers-bear-liability-for-ai-systems-not-the-tools-f4ce50e9</loc>
-    <lastmod>2026-09-26</lastmod>
-    <news:news>
-      <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-09-26T08:03:01.000Z</news:publication_date>
-      <news:title>FTC Chair: Developers Bear Liability for AI Systems, Not the Tools</news:title>
     </news:news>
     <changefreq>hourly</changefreq>
     <priority>0.9</priority>
