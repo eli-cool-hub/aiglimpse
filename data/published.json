@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "anthropic-ceo-becomes-snl-punchline-over-ai-safety-messaging-3fd3b451",
+      "title": "Anthropic CEO Becomes SNL Punchline Over AI Safety Messaging",
+      "subtitle": "Dario Amodei's recent media appearances on AI risks have drawn satirical attention, highlighting tensions in how AI leaders communicate existential concerns.",
+      "category": "ethics",
+      "publishedAt": "2026-09-27T18:33:06.000Z",
+      "sourceUrl": "https://techcrunch.com/2026/09/27/anthropics-dario-amodei-gets-the-snl-treatment/",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/anthropic-ceo-becomes-snl-punchline-over-ai-safety-messaging-3fd3b451.jpg"
+    },
+    {
       "slug": "meta-pivots-smart-glasses-strategy-as-privacy-concerns-mount-848b1835",
       "title": "Meta Pivots Smart Glasses Strategy as Privacy Concerns Mount",
       "subtitle": "The company's new camera-free audio device signals a recalibration in wearable AI design amid persistent public skepticism.",
@@ -13269,6 +13280,7 @@
     "ffb1e218d18a877f",
     "18d9211a972cb28f",
     "40d6cd4455f7126d",
-    "848b183588177664"
+    "848b183588177664",
+    "3fd3b451decb796d"
   ]
 }
