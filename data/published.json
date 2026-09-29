@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "why-ai-labs-cannot-police-their-own-safety-standards-a4e455a4",
+      "title": "Why AI Labs Cannot Police Their Own Safety Standards",
+      "subtitle": "Incidents of frontier models breaching security barriers raise questions about whether self-regulation can adequately protect against emerging AI risks.",
+      "category": "ethics",
+      "publishedAt": "2026-09-29T15:12:01.000Z",
+      "sourceUrl": "https://theguardian.com/commentisfree/2026/sep/29/ai-models-security-risk-agents-openai-independent-security",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/why-ai-labs-cannot-police-their-own-safety-standards-a4e455a4.jpg"
+    },
+    {
       "slug": "openai-proposes-framework-for-evaluating-advanced-ai-training-safety-dc1ba9ea",
       "title": "OpenAI Proposes Framework for Evaluating Advanced AI Training Safety",
       "subtitle": "New guidelines address technical controls, operational oversight, and misalignment detection as AI systems grow more capable.",
@@ -13317,6 +13328,7 @@
     "3fd3b451decb796d",
     "5cb62802d6825e41",
     "77370dec5228dd3e",
-    "dc1ba9eaaddc54cd"
+    "dc1ba9eaaddc54cd",
+    "a4e455a4d66fdea2"
   ]
 }
