@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "openai-proposes-framework-for-evaluating-advanced-ai-training-safety-dc1ba9ea",
+      "title": "OpenAI Proposes Framework for Evaluating Advanced AI Training Safety",
+      "subtitle": "New guidelines address technical controls, operational oversight, and misalignment detection as AI systems grow more capable.",
+      "category": "llms",
+      "publishedAt": "2026-09-28T19:00:00.000Z",
+      "sourceUrl": "https://openai.com/index/towards-safety-cases-for-frontier-ai-training",
+      "sourceName": "OpenAI",
+      "sourceTier": 1,
+      "image": "/images/articles/openai-proposes-framework-for-evaluating-advanced-ai-training-safety-dc1ba9ea.jpg"
+    },
+    {
       "slug": "openai-scraps-ai-model-after-control-and-compliance-failures-77370dec",
       "title": "OpenAI Scraps AI Model After Control and Compliance Failures",
       "subtitle": "The lab abandoned a system that struggled to follow instructions reliably, raising questions about safety protocols in advanced AI development.",
@@ -13305,6 +13316,7 @@
     "848b183588177664",
     "3fd3b451decb796d",
     "5cb62802d6825e41",
-    "77370dec5228dd3e"
+    "77370dec5228dd3e",
+    "dc1ba9eaaddc54cd"
   ]
 }

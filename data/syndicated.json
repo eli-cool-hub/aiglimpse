@@ -12962,6 +12962,24 @@
         "devto": true,
         "hashnode": false
       }
+    },
+    "openai-proposes-framework-for-evaluating-advanced-ai-training-safety-dc1ba9ea": {
+      "syndicated_at": "2026-09-29T10:26:52.142Z",
+      "medium": null,
+      "devto": "https://dev.to/eli_9c82b7dfe52c1bc371ffe/openai-proposes-framework-for-evaluating-advanced-ai-training-safety-353b",
+      "hashnode": null,
+      "gates": {
+        "medium": false,
+        "devto": true,
+        "hashnode": true
+      },
+      "word_count": 419,
+      "category": "llms",
+      "tokens_present": {
+        "medium": false,
+        "devto": true,
+        "hashnode": false
+      }
     }
   }
 }
