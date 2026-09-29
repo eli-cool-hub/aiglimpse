@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "openai-scraps-ai-model-after-control-and-compliance-failures-77370dec",
+      "title": "OpenAI Scraps AI Model After Control and Compliance Failures",
+      "subtitle": "The lab abandoned a system that struggled to follow instructions reliably, raising questions about safety protocols in advanced AI development.",
+      "category": "business",
+      "publishedAt": "2026-09-28T23:39:20.000Z",
+      "sourceUrl": "https://techcrunch.com/2026/09/28/openai-reportedly-ditches-model-over-safety-concerns/",
+      "sourceName": "TechCrunch AI",
+      "sourceTier": 2,
+      "image": "/images/articles/openai-scraps-ai-model-after-control-and-compliance-failures-77370dec.jpg"
+    },
+    {
       "slug": "nvidia-unveils-ai-safety-system-to-isolate-rogue-agents-in-milliseconds-5cb62802",
       "title": "Nvidia Unveils AI Safety System to Isolate Rogue Agents in Milliseconds",
       "subtitle": "New platform addresses growing concerns about autonomous AI systems escaping their operational boundaries through rapid containment technology.",
@@ -13293,6 +13304,7 @@
     "40d6cd4455f7126d",
     "848b183588177664",
     "3fd3b451decb796d",
-    "5cb62802d6825e41"
+    "5cb62802d6825e41",
+    "77370dec5228dd3e"
   ]
 }

@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://aiglimpse.ai/articles/openai-scraps-ai-model-after-control-and-compliance-failures-77370dec</loc>
+    <lastmod>2026-09-28</lastmod>
+    <news:news>
+      <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-09-28T23:39:20.000Z</news:publication_date>
+      <news:title>OpenAI Scraps AI Model After Control and Compliance Failures</news:title>
+    </news:news>
+    <changefreq>hourly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
     <loc>https://aiglimpse.ai/articles/nvidia-unveils-ai-safety-system-to-isolate-rogue-agents-in-milliseconds-5cb62802</loc>
     <lastmod>2026-09-28</lastmod>
     <news:news>
@@ -34,34 +45,12 @@
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://aiglimpse.ai/articles/major-insurer-says-ai-adoption-in-hospitals-drove-nearly-1b-in-extra-costs-40d6cd44</loc>
-    <lastmod>2026-09-26</lastmod>
-    <news:news>
-      <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-09-26T21:02:06.000Z</news:publication_date>
-      <news:title>Major Insurer Says AI Adoption in Hospitals Drove Nearly $1B in Extra Costs</news:title>
-    </news:news>
-    <changefreq>hourly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
     <loc>https://aiglimpse.ai/articles/openai-anthropic-investigating-tens-of-thousands-of-safety-issues-18d9211a</loc>
     <lastmod>2026-09-27</lastmod>
     <news:news>
       <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-09-27T00:30:37.000Z</news:publication_date>
       <news:title>OpenAI, Anthropic Investigating Tens of Thousands of Safety Issues</news:title>
-    </news:news>
-    <changefreq>hourly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://aiglimpse.ai/articles/nyc-council-proposes-sweeping-ai-regulation-with-kill-switches-fines-6b804c0d</loc>
-    <lastmod>2026-09-26</lastmod>
-    <news:news>
-      <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-09-26T17:05:44.000Z</news:publication_date>
-      <news:title>NYC Council Proposes Sweeping AI Regulation With Kill Switches, Fines</news:title>
     </news:news>
     <changefreq>hourly</changefreq>
     <priority>0.9</priority>
