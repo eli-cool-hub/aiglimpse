@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "white-house-ai-safety-pact-relies-on-voluntary-compliance-4da637de",
+      "title": "White House AI Safety Pact Relies on Voluntary Compliance",
+      "subtitle": "Six major AI firms pledge safeguards, but lack of enforcement raises questions about real-world impact.",
+      "category": "tools",
+      "publishedAt": "2026-09-30T20:30:09.000Z",
+      "sourceUrl": "https://www.wired.com/story/trumps-ai-safety-accord-is-a-fancy-pinky-swear/",
+      "sourceName": "Wired AI",
+      "sourceTier": 2,
+      "image": "/images/articles/white-house-ai-safety-pact-relies-on-voluntary-compliance-4da637de.jpg"
+    },
+    {
       "slug": "google-launches-publisher-payment-program-for-ai-overview-content-5cd89687",
       "title": "Google Launches Publisher Payment Program for AI Overview Content",
       "subtitle": "A selective pilot compensates roughly 100 publishers for content used in AI systems, but payouts vary wildly from six figures to pocket change.",
@@ -13353,6 +13364,7 @@
     "dc1ba9eaaddc54cd",
     "a4e455a4d66fdea2",
     "d033973ce62aae31",
-    "5cd896870feb2318"
+    "5cd896870feb2318",
+    "4da637de024c323f"
   ]
 }
