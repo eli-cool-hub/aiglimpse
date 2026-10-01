@@ -7,6 +7,14 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>New Training Method Fixes AI Model Reasoning Flaws</title>
+      <link>https://aiglimpse.ai/articles/new-training-method-fixes-ai-model-reasoning-flaws-0b0bfb82</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-training-method-fixes-ai-model-reasoning-flaws-0b0bfb82</guid>
+      <description>Researchers identify how language models get distracted by irrelevant prompt details and propose a technique to improve mathematical reasoning.</description>
+      <pubDate>Wed, 30 Sep 2026 17:59:56 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
       <title>White House AI Safety Pact Relies on Voluntary Compliance</title>
       <link>https://aiglimpse.ai/articles/white-house-ai-safety-pact-relies-on-voluntary-compliance-4da637de</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/white-house-ai-safety-pact-relies-on-voluntary-compliance-4da637de</guid>
@@ -397,14 +405,6 @@
       <description>OpenAI, Anthropic, and Google DeepMind have engaged in weeks of collaborative discussions on AI safety protocols, even as the Trump administration prioritizes speed over precaution.</description>
       <pubDate>Tue, 15 Sep 2026 15:47:03 GMT</pubDate>
       <category>AI Business</category>
-    </item>
-    <item>
-      <title>New Safety Framework Dramatically Improves Detection of Risky AI Agent Behavior</title>
-      <link>https://aiglimpse.ai/articles/new-safety-framework-dramatically-improves-detection-of-risky-ai-agent-behavior-135bbeef</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-safety-framework-dramatically-improves-detection-of-risky-ai-agent-behavior-135bbeef</guid>
-      <description>Research shows canonical event representation can catch dangerous computer-use agent actions that traditional guards miss.</description>
-      <pubDate>Tue, 15 Sep 2026 07:59:44 GMT</pubDate>
-      <category>Ethics &amp; Policy</category>
     </item>
   </channel>
 </rss>

@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://aiglimpse.ai/articles/new-training-method-fixes-ai-model-reasoning-flaws-0b0bfb82</loc>
+    <lastmod>2026-09-30</lastmod>
+    <news:news>
+      <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-09-30T17:59:56.000Z</news:publication_date>
+      <news:title>New Training Method Fixes AI Model Reasoning Flaws</news:title>
+    </news:news>
+    <changefreq>hourly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
     <loc>https://aiglimpse.ai/articles/white-house-ai-safety-pact-relies-on-voluntary-compliance-4da637de</loc>
     <lastmod>2026-09-30</lastmod>
     <news:news>
@@ -29,17 +40,6 @@
       <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-09-29T15:12:01.000Z</news:publication_date>
       <news:title>Why AI Labs Cannot Police Their Own Safety Standards</news:title>
-    </news:news>
-    <changefreq>hourly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://aiglimpse.ai/articles/openai-scraps-ai-model-after-control-and-compliance-failures-77370dec</loc>
-    <lastmod>2026-09-28</lastmod>
-    <news:news>
-      <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-09-28T23:39:20.000Z</news:publication_date>
-      <news:title>OpenAI Scraps AI Model After Control and Compliance Failures</news:title>
     </news:news>
     <changefreq>hourly</changefreq>
     <priority>0.9</priority>

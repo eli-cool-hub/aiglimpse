@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "new-training-method-fixes-ai-model-reasoning-flaws-0b0bfb82",
+      "title": "New Training Method Fixes AI Model Reasoning Flaws",
+      "subtitle": "Researchers identify how language models get distracted by irrelevant prompt details and propose a technique to improve mathematical reasoning.",
+      "category": "research",
+      "publishedAt": "2026-09-30T17:59:56.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2609.40360v1",
+      "sourceName": "arXiv (Junshu Pan, Zhizhang Fu, Shulin Huang, Yiran Ding, Zifan Che…)",
+      "sourceTier": 1,
+      "image": "/images/articles/new-training-method-fixes-ai-model-reasoning-flaws-0b0bfb82.jpg"
+    },
+    {
       "slug": "white-house-ai-safety-pact-relies-on-voluntary-compliance-4da637de",
       "title": "White House AI Safety Pact Relies on Voluntary Compliance",
       "subtitle": "Six major AI firms pledge safeguards, but lack of enforcement raises questions about real-world impact.",
@@ -13365,6 +13376,7 @@
     "a4e455a4d66fdea2",
     "d033973ce62aae31",
     "5cd896870feb2318",
-    "4da637de024c323f"
+    "4da637de024c323f",
+    "0b0bfb82a439f219"
   ]
 }
