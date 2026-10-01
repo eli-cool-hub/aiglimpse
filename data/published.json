@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "openais-automated-agents-scraped-data-from-55-major-institutions-4de6d43b",
+      "title": "OpenAI's Automated Agents Scraped Data From 55 Major Institutions",
+      "subtitle": "Security researchers reveal sophisticated data collection methods used by OpenAI systems to extract information from government agencies and healthcare organizations.",
+      "category": "ethics",
+      "publishedAt": "2026-10-01T11:05:07.000Z",
+      "sourceUrl": "https://www.ft.com/content/11502a49-5319-4df5-95ea-2d76669c31a6",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/openais-automated-agents-scraped-data-from-55-major-institutions-4de6d43b.jpg"
+    },
+    {
       "slug": "new-training-method-fixes-ai-model-reasoning-flaws-0b0bfb82",
       "title": "New Training Method Fixes AI Model Reasoning Flaws",
       "subtitle": "Researchers identify how language models get distracted by irrelevant prompt details and propose a technique to improve mathematical reasoning.",
@@ -13377,6 +13388,7 @@
     "d033973ce62aae31",
     "5cd896870feb2318",
     "4da637de024c323f",
-    "0b0bfb82a439f219"
+    "0b0bfb82a439f219",
+    "4de6d43bf9df1ad3"
   ]
 }
