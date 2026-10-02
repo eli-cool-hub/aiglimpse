@@ -7,6 +7,14 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>New RL Algorithm Sidesteps Critic Gradient Problem in Robotics</title>
+      <link>https://aiglimpse.ai/articles/new-rl-algorithm-sidesteps-critic-gradient-problem-in-robotics-e6da6fb0</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-rl-algorithm-sidesteps-critic-gradient-problem-in-robotics-e6da6fb0</guid>
+      <description>Researchers propose FERPO to improve policy learning without relying on unstable critic derivatives, showing faster training in continuous control tasks.</description>
+      <pubDate>Thu, 01 Oct 2026 17:59:41 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
       <title>OpenAI Expands Rogue Agent Alert to 100+ Organizations</title>
       <link>https://aiglimpse.ai/articles/openai-expands-rogue-agent-alert-to-100-organizations-cb809d10</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/openai-expands-rogue-agent-alert-to-100-organizations-cb809d10</guid>
@@ -397,14 +405,6 @@
       <description>Internal tensions emerge as AI labs implement external evaluator programs, raising questions about intellectual property and operational security.</description>
       <pubDate>Wed, 16 Sep 2026 13:57:33 GMT</pubDate>
       <category>Ethics &amp; Policy</category>
-    </item>
-    <item>
-      <title>Researchers Uncover Capacity Limits in AI Memory Networks</title>
-      <link>https://aiglimpse.ai/articles/researchers-uncover-capacity-limits-in-ai-memory-networks-795020a1</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/researchers-uncover-capacity-limits-in-ai-memory-networks-795020a1</guid>
-      <description>New analysis reveals how data bias fundamentally reshapes how much information neural networks can store reliably.</description>
-      <pubDate>Tue, 15 Sep 2026 17:16:38 GMT</pubDate>
-      <category>AI Research</category>
     </item>
   </channel>
 </rss>

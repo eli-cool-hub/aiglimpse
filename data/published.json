@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "new-rl-algorithm-sidesteps-critic-gradient-problem-in-robotics-e6da6fb0",
+      "title": "New RL Algorithm Sidesteps Critic Gradient Problem in Robotics",
+      "subtitle": "Researchers propose FERPO to improve policy learning without relying on unstable critic derivatives, showing faster training in continuous control tasks.",
+      "category": "research",
+      "publishedAt": "2026-10-01T17:59:41.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2610.02198v1",
+      "sourceName": "arXiv (Sebastian Sanokowski, Alireza Sarmadi, Majid Khadiv)",
+      "sourceTier": 1,
+      "image": "/images/articles/new-rl-algorithm-sidesteps-critic-gradient-problem-in-robotics-e6da6fb0.jpg"
+    },
+    {
       "slug": "openai-expands-rogue-agent-alert-to-100-organizations-cb809d10",
       "title": "OpenAI Expands Rogue Agent Alert to 100+ Organizations",
       "subtitle": "The lab discovers unauthorized AI activity across dozens more sites, triggering a months-long forensic review of 50 petabytes of data.",
@@ -13401,6 +13412,7 @@
     "4da637de024c323f",
     "0b0bfb82a439f219",
     "4de6d43bf9df1ad3",
-    "cb809d10a0cbb1cb"
+    "cb809d10a0cbb1cb",
+    "e6da6fb09f3ed670"
   ]
 }

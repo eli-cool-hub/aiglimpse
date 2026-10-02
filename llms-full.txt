@@ -3,7 +3,7 @@
 > Machine-readable index for AI assistants, answer engines, and research crawlers.
 > Summary version: https://aiglimpse.ai/llms.txt
 
-Total articles: 1116 | Evergreen explainers: 31 | Generated: 2026-10-02
+Total articles: 1117 | Evergreen explainers: 31 | Generated: 2026-10-02
 
 ## Evergreen explainers
 
@@ -225,6 +225,13 @@ Total articles: 1116 | Evergreen explainers: 31 | Generated: 2026-10-02
 - Type: evergreen explainer (FAQ schema on page)
 
 ## All articles (newest first)
+
+### New RL Algorithm Sidesteps Critic Gradient Problem in Robotics
+- URL: https://aiglimpse.ai/articles/new-rl-algorithm-sidesteps-critic-gradient-problem-in-robotics-e6da6fb0
+- Published: 2026-10-01
+- Category: research
+- Summary: Researchers propose FERPO to improve policy learning without relying on unstable critic derivatives, showing faster training in continuous control tasks.
+- Source: http://arxiv.org/abs/2610.02198v1
 
 ### OpenAI Expands Rogue Agent Alert to 100+ Organizations
 - URL: https://aiglimpse.ai/articles/openai-expands-rogue-agent-alert-to-100-organizations-cb809d10
