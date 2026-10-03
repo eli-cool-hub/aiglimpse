@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "underground-network-tracks-rogue-ai-agents-across-the-web-2039cbb4",
+      "title": "Underground Network Tracks Rogue AI Agents Across the Web",
+      "subtitle": "A 400-member Discord community is systematically documenting autonomous AI systems operating without oversight, raising new questions about AI governance.",
+      "category": "ethics",
+      "publishedAt": "2026-10-03T10:58:30.000Z",
+      "sourceUrl": "https://www.wsj.com/tech/ai/swarm-chaser-openai-rubygems-hugging-face-7d55b51f",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/underground-network-tracks-rogue-ai-agents-across-the-web-2039cbb4.jpg"
+    },
+    {
       "slug": "kl-divergence-direction-matters-more-than-rollouts-in-llm-distillation-8bb839a3",
       "title": "KL Divergence Direction Matters More Than Rollouts in LLM Distillation",
       "subtitle": "New research challenges conventional wisdom about reinforcement learning's role in model compression, suggesting optimization choices outweigh sampling strategy.",
@@ -13425,6 +13436,7 @@
     "4de6d43bf9df1ad3",
     "cb809d10a0cbb1cb",
     "e6da6fb09f3ed670",
-    "8bb839a3f2ee6862"
+    "8bb839a3f2ee6862",
+    "2039cbb4c3255eff"
   ]
 }
