@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://aiglimpse.ai/articles/kl-divergence-direction-matters-more-than-rollouts-in-llm-distillation-8bb839a3</loc>
+    <lastmod>2026-10-03</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://aiglimpse.ai/articles/new-rl-algorithm-sidesteps-critic-gradient-problem-in-robotics-e6da6fb0</loc>
     <lastmod>2026-10-01</lastmod>
     <changefreq>daily</changefreq>

@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "kl-divergence-direction-matters-more-than-rollouts-in-llm-distillation-8bb839a3",
+      "title": "KL Divergence Direction Matters More Than Rollouts in LLM Distillation",
+      "subtitle": "New research challenges conventional wisdom about reinforcement learning's role in model compression, suggesting optimization choices outweigh sampling strategy.",
+      "category": "ethics",
+      "publishedAt": "2026-10-03T03:54:26.000Z",
+      "sourceUrl": "https://arxiv.org/abs/2609.35259",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/kl-divergence-direction-matters-more-than-rollouts-in-llm-distillation-8bb839a3.jpg"
+    },
+    {
       "slug": "new-rl-algorithm-sidesteps-critic-gradient-problem-in-robotics-e6da6fb0",
       "title": "New RL Algorithm Sidesteps Critic Gradient Problem in Robotics",
       "subtitle": "Researchers propose FERPO to improve policy learning without relying on unstable critic derivatives, showing faster training in continuous control tasks.",
@@ -13413,6 +13424,7 @@
     "0b0bfb82a439f219",
     "4de6d43bf9df1ad3",
     "cb809d10a0cbb1cb",
-    "e6da6fb09f3ed670"
+    "e6da6fb09f3ed670",
+    "8bb839a3f2ee6862"
   ]
 }

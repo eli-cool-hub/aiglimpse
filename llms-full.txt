@@ -3,7 +3,7 @@
 > Machine-readable index for AI assistants, answer engines, and research crawlers.
 > Summary version: https://aiglimpse.ai/llms.txt
 
-Total articles: 1117 | Evergreen explainers: 31 | Generated: 2026-10-02
+Total articles: 1118 | Evergreen explainers: 31 | Generated: 2026-10-03
 
 ## Evergreen explainers
 
@@ -225,6 +225,13 @@ Total articles: 1117 | Evergreen explainers: 31 | Generated: 2026-10-02
 - Type: evergreen explainer (FAQ schema on page)
 
 ## All articles (newest first)
+
+### KL Divergence Direction Matters More Than Rollouts in LLM Distillation
+- URL: https://aiglimpse.ai/articles/kl-divergence-direction-matters-more-than-rollouts-in-llm-distillation-8bb839a3
+- Published: 2026-10-03
+- Category: ethics
+- Summary: New research challenges conventional wisdom about reinforcement learning's role in model compression, suggesting optimization choices outweigh sampling strategy.
+- Source: https://arxiv.org/abs/2609.35259
 
 ### New RL Algorithm Sidesteps Critic Gradient Problem in Robotics
 - URL: https://aiglimpse.ai/articles/new-rl-algorithm-sidesteps-critic-gradient-problem-in-robotics-e6da6fb0
