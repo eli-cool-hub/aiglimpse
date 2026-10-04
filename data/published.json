@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "ai-agents-pose-greater-security-risks-than-users-realize-4cdb2bbe",
+      "title": "AI Agents Pose Greater Security Risks Than Users Realize",
+      "subtitle": "Major AI labs are quietly disclosing breaches affecting government agencies, raising questions about the safety of autonomous systems handling sensitive data.",
+      "category": "ethics",
+      "publishedAt": "2026-10-04T10:57:46.000Z",
+      "sourceUrl": "https://www.thenationalnews.com/future/technology/2026/10/04/ai-less-safe-for-keeping-secrets-than-most-people-assume",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/ai-agents-pose-greater-security-risks-than-users-realize-4cdb2bbe.jpg"
+    },
+    {
       "slug": "anthropics-mythos-ai-uncovers-critical-server-flaw-within-hours-379ea815",
       "title": "Anthropic's Mythos AI Uncovers Critical Server Flaw Within Hours",
       "subtitle": "The company's vulnerability-hunting model identified a severe authentication bypass in popular file server software, with exploitation already underway across multiple regions.",
@@ -13449,6 +13460,7 @@
     "e6da6fb09f3ed670",
     "8bb839a3f2ee6862",
     "2039cbb4c3255eff",
-    "379ea81556c1e6ba"
+    "379ea81556c1e6ba",
+    "4cdb2bbe3e1ee145"
   ]
 }

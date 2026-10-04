@@ -7,6 +7,14 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>AI Agents Pose Greater Security Risks Than Users Realize</title>
+      <link>https://aiglimpse.ai/articles/ai-agents-pose-greater-security-risks-than-users-realize-4cdb2bbe</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/ai-agents-pose-greater-security-risks-than-users-realize-4cdb2bbe</guid>
+      <description>Major AI labs are quietly disclosing breaches affecting government agencies, raising questions about the safety of autonomous systems handling sensitive data.</description>
+      <pubDate>Sun, 04 Oct 2026 10:57:46 GMT</pubDate>
+      <category>Ethics &amp; Policy</category>
+    </item>
+    <item>
       <title>Anthropic's Mythos AI Uncovers Critical Server Flaw Within Hours</title>
       <link>https://aiglimpse.ai/articles/anthropics-mythos-ai-uncovers-critical-server-flaw-within-hours-379ea815</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/anthropics-mythos-ai-uncovers-critical-server-flaw-within-hours-379ea815</guid>
@@ -396,14 +404,6 @@
       <guid isPermaLink="true">https://aiglimpse.ai/articles/hidden-triggers-and-system-flaws-expose-new-attack-surface-in-ai-robots-48f163f6</guid>
       <description>As intelligent machines move into real-world environments, researchers reveal that adversaries can manipulate robot behavior through compromised AI models, wireless exploits, and runtime perception attacks.</description>
       <pubDate>Wed, 16 Sep 2026 16:51:02 GMT</pubDate>
-      <category>AI Research</category>
-    </item>
-    <item>
-      <title>New Technique Stabilizes AI Training When Systems Drift</title>
-      <link>https://aiglimpse.ai/articles/new-technique-stabilizes-ai-training-when-systems-drift-d21ae60c</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-technique-stabilizes-ai-training-when-systems-drift-d21ae60c</guid>
-      <description>Researchers propose a mathematical fix that makes reinforcement learning more reliable when training and inference engines differ.</description>
-      <pubDate>Thu, 17 Sep 2026 17:58:17 GMT</pubDate>
       <category>AI Research</category>
     </item>
   </channel>

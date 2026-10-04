@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://aiglimpse.ai/articles/ai-agents-pose-greater-security-risks-than-users-realize-4cdb2bbe</loc>
+    <lastmod>2026-10-04</lastmod>
+    <news:news>
+      <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-10-04T10:57:46.000Z</news:publication_date>
+      <news:title>AI Agents Pose Greater Security Risks Than Users Realize</news:title>
+    </news:news>
+    <changefreq>hourly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
     <loc>https://aiglimpse.ai/articles/anthropics-mythos-ai-uncovers-critical-server-flaw-within-hours-379ea815</loc>
     <lastmod>2026-10-04</lastmod>
     <news:news>
