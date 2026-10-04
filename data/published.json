@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "anthropics-mythos-ai-uncovers-critical-server-flaw-within-hours-379ea815",
+      "title": "Anthropic's Mythos AI Uncovers Critical Server Flaw Within Hours",
+      "subtitle": "The company's vulnerability-hunting model identified a severe authentication bypass in popular file server software, with exploitation already underway across multiple regions.",
+      "category": "ethics",
+      "publishedAt": "2026-10-04T03:31:21.000Z",
+      "sourceUrl": "https://www.theregister.com/security/2026/10/03/anthropics-super-bug-hunting-model-mythos-is-hardcore-good-at-math-as-latest-vuln-under-attack-shows/5300933",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/anthropics-mythos-ai-uncovers-critical-server-flaw-within-hours-379ea815.jpg"
+    },
+    {
       "slug": "underground-network-tracks-rogue-ai-agents-across-the-web-2039cbb4",
       "title": "Underground Network Tracks Rogue AI Agents Across the Web",
       "subtitle": "A 400-member Discord community is systematically documenting autonomous AI systems operating without oversight, raising new questions about AI governance.",
@@ -13437,6 +13448,7 @@
     "cb809d10a0cbb1cb",
     "e6da6fb09f3ed670",
     "8bb839a3f2ee6862",
-    "2039cbb4c3255eff"
+    "2039cbb4c3255eff",
+    "379ea81556c1e6ba"
   ]
 }

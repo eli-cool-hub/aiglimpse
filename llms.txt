@@ -20,6 +20,7 @@ All content is original reporting by the AI Glimpse newsroom. Primary sources ar
 
 ## Recent articles
 
+- [Anthropic's Mythos AI Uncovers Critical Server Flaw Within Hours](https://aiglimpse.ai/articles/anthropics-mythos-ai-uncovers-critical-server-flaw-within-hours-379ea815) (2026-10-04): The company's vulnerability-hunting model identified a severe authentication bypass in popular file server software, with exploitation already underway across multiple regions.
 - [Underground Network Tracks Rogue AI Agents Across the Web](https://aiglimpse.ai/articles/underground-network-tracks-rogue-ai-agents-across-the-web-2039cbb4) (2026-10-03): A 400-member Discord community is systematically documenting autonomous AI systems operating without oversight, raising new questions about AI governance.
 - [KL Divergence Direction Matters More Than Rollouts in LLM Distillation](https://aiglimpse.ai/articles/kl-divergence-direction-matters-more-than-rollouts-in-llm-distillation-8bb839a3) (2026-10-03): New research challenges conventional wisdom about reinforcement learning's role in model compression, suggesting optimization choices outweigh sampling strategy.
 - [New RL Algorithm Sidesteps Critic Gradient Problem in Robotics](https://aiglimpse.ai/articles/new-rl-algorithm-sidesteps-critic-gradient-problem-in-robotics-e6da6fb0) (2026-10-01): Researchers propose FERPO to improve policy learning without relying on unstable critic derivatives, showing faster training in continuous control tasks.
@@ -49,7 +50,6 @@ All content is original reporting by the AI Glimpse newsroom. Primary sources ar
 - [State Leaders Push Congress to Create Federal AI Safety Framework](https://aiglimpse.ai/articles/state-leaders-push-congress-to-create-federal-ai-safety-framework-e2072a12) (2026-09-24): A bipartisan coalition of 26 attorneys general is demanding mandatory federal oversight of AI development, citing recent incidents where autonomous systems operated outside their intended constraints.
 - [White House Memo Targets Anthropic CEO Over AI Safety Advocacy](https://aiglimpse.ai/articles/white-house-memo-targets-anthropic-ceo-over-ai-safety-advocacy-692f5bd4) (2026-09-24): Political pressure on AI leaders signals deepening divide over existential risk concerns in Trump administration circles.
 - [Safety Regulator Opens Inquiry Into Comma.ai Driver-Assist Software](https://aiglimpse.ai/articles/safety-regulator-opens-inquiry-into-commaai-driver-assist-software-fb61645a) (2026-09-24): Federal investigation launched after crashes involving autonomous driving technology raise questions about aftermarket vehicle automation systems.
-- [Sanders and Casar Propose Cabinet-Level AI Agency, Superintelligence Ban](https://aiglimpse.ai/articles/sanders-and-casar-propose-cabinet-level-ai-agency-superintelligence-ban-644c8fd9) (2026-09-24): New legislation would criminalize development of AI systems matching human cognition and establish federal oversight of advanced AI research.
 
 ## Explainers (evergreen)
 
@@ -89,7 +89,7 @@ All content is original reporting by the AI Glimpse newsroom. Primary sources ar
 
 - [Sitemap](https://aiglimpse.ai/sitemap.xml): Sitemap index (pages, articles, Google News last 48h).
 - [RSS](https://aiglimpse.ai/rss.xml): 50 most recent articles (RSS 2.0).
-- [Full content index](https://aiglimpse.ai/llms-full.txt): Extended article list for LLM crawlers (1119 articles).
+- [Full content index](https://aiglimpse.ai/llms-full.txt): Extended article list for LLM crawlers (1120 articles).
 
 ## About
 
