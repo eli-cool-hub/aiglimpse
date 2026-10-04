@@ -7,6 +7,14 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>AI Safety Researchers Challenge Extinction Risk Claims from Leading Labs</title>
+      <link>https://aiglimpse.ai/articles/ai-safety-researchers-challenge-extinction-risk-claims-from-leading-labs-2540caa6</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/ai-safety-researchers-challenge-extinction-risk-claims-from-leading-labs-2540caa6</guid>
+      <description>Independent experts question whether frontier AI companies' doomsday warnings rest on empirical evidence or speculation.</description>
+      <pubDate>Sun, 04 Oct 2026 09:12:02 GMT</pubDate>
+      <category>Ethics &amp; Policy</category>
+    </item>
+    <item>
       <title>AI Agents Pose Greater Security Risks Than Users Realize</title>
       <link>https://aiglimpse.ai/articles/ai-agents-pose-greater-security-risks-than-users-realize-4cdb2bbe</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/ai-agents-pose-greater-security-risks-than-users-realize-4cdb2bbe</guid>
@@ -397,14 +405,6 @@
       <description>Governor Newsom accelerates implementation of new AI audit laws while exploring mandatory emergency shutoff mechanisms for frontier models.</description>
       <pubDate>Fri, 18 Sep 2026 21:25:16 GMT</pubDate>
       <category>Industry Applications</category>
-    </item>
-    <item>
-      <title>Hidden Triggers and System Flaws Expose New Attack Surface in AI Robots</title>
-      <link>https://aiglimpse.ai/articles/hidden-triggers-and-system-flaws-expose-new-attack-surface-in-ai-robots-48f163f6</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/hidden-triggers-and-system-flaws-expose-new-attack-surface-in-ai-robots-48f163f6</guid>
-      <description>As intelligent machines move into real-world environments, researchers reveal that adversaries can manipulate robot behavior through compromised AI models, wireless exploits, and runtime perception attacks.</description>
-      <pubDate>Wed, 16 Sep 2026 16:51:02 GMT</pubDate>
-      <category>AI Research</category>
     </item>
   </channel>
 </rss>
