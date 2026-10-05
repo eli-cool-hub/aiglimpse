@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://aiglimpse.ai/articles/healthcare-leaders-struggle-to-define-what-ai-success-actually-looks-like-cd109dc0</loc>
+    <lastmod>2026-10-05</lastmod>
+    <news:news>
+      <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-10-05T16:06:26.000Z</news:publication_date>
+      <news:title>Healthcare Leaders Struggle to Define What AI Success Actually Looks Like</news:title>
+    </news:news>
+    <changefreq>hourly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
     <loc>https://aiglimpse.ai/articles/altman-and-anthropic-split-on-ai-regulation-strategy-2b4a50bb</loc>
     <lastmod>2026-10-04</lastmod>
     <news:news>
@@ -51,17 +62,6 @@
       <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-10-04T03:31:21.000Z</news:publication_date>
       <news:title>Anthropic's Mythos AI Uncovers Critical Server Flaw Within Hours</news:title>
-    </news:news>
-    <changefreq>hourly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://aiglimpse.ai/articles/underground-network-tracks-rogue-ai-agents-across-the-web-2039cbb4</loc>
-    <lastmod>2026-10-03</lastmod>
-    <news:news>
-      <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-10-03T10:58:30.000Z</news:publication_date>
-      <news:title>Underground Network Tracks Rogue AI Agents Across the Web</news:title>
     </news:news>
     <changefreq>hourly</changefreq>
     <priority>0.9</priority>

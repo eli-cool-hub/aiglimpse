@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "healthcare-leaders-struggle-to-define-what-ai-success-actually-looks-like-cd109dc0",
+      "title": "Healthcare Leaders Struggle to Define What AI Success Actually Looks Like",
+      "subtitle": "With only 4% of health systems proving AI value, hospital executives debate which metrics matter most for artificial intelligence investments.",
+      "category": "industry",
+      "publishedAt": "2026-10-05T16:06:26.000Z",
+      "sourceUrl": "https://www.beckershospitalreview.com/hospital-management-administration/what-ai-kpis-should-ceos-track-6-health-system-leaders-weigh-in/",
+      "sourceName": "Becker's Hospital Review",
+      "sourceTier": 2,
+      "image": "/images/articles/healthcare-leaders-struggle-to-define-what-ai-success-actually-looks-like-cd109dc0.jpg"
+    },
+    {
       "slug": "altman-and-anthropic-split-on-ai-regulation-strategy-2b4a50bb",
       "title": "Altman and Anthropic Split on AI Regulation Strategy",
       "subtitle": "OpenAI's leader argues for accepting some societal risks to maximize technology access, revealing fundamental disagreements with rivals on AI governance.",
@@ -13497,6 +13508,7 @@
     "4cdb2bbe3e1ee145",
     "2540caa629397c48",
     "fa4e4422bac8d757",
-    "2b4a50bbc311efbc"
+    "2b4a50bbc311efbc",
+    "cd109dc065be9a10"
   ]
 }
