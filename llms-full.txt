@@ -3,7 +3,7 @@
 > Machine-readable index for AI assistants, answer engines, and research crawlers.
 > Summary version: https://aiglimpse.ai/llms.txt
 
-Total articles: 1126 | Evergreen explainers: 31 | Generated: 2026-10-06
+Total articles: 1127 | Evergreen explainers: 31 | Generated: 2026-10-06
 
 ## Evergreen explainers
 
@@ -225,6 +225,13 @@ Total articles: 1126 | Evergreen explainers: 31 | Generated: 2026-10-06
 - Type: evergreen explainer (FAQ schema on page)
 
 ## All articles (newest first)
+
+### New Toolkit Targets Hidden Biases in AI Model Backbones
+- URL: https://aiglimpse.ai/articles/new-toolkit-targets-hidden-biases-in-ai-model-backbones-dd718fd0
+- Published: 2026-10-05
+- Category: research
+- Summary: Researchers introduce BiasFlow to detect and mitigate spurious feature reliance that standard accuracy metrics miss.
+- Source: http://arxiv.org/abs/2610.06846v1
 
 ### Top AI Researchers Go Public on Why They Left OpenAI, Anthropic, DeepMind
 - URL: https://aiglimpse.ai/articles/top-ai-researchers-go-public-on-why-they-left-openai-anthropic-deepmind-89a5740f

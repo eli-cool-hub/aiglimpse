@@ -7,6 +7,14 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>New Toolkit Targets Hidden Biases in AI Model Backbones</title>
+      <link>https://aiglimpse.ai/articles/new-toolkit-targets-hidden-biases-in-ai-model-backbones-dd718fd0</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-toolkit-targets-hidden-biases-in-ai-model-backbones-dd718fd0</guid>
+      <description>Researchers introduce BiasFlow to detect and mitigate spurious feature reliance that standard accuracy metrics miss.</description>
+      <pubDate>Mon, 05 Oct 2026 17:59:28 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
       <title>Top AI Researchers Go Public on Why They Left OpenAI, Anthropic, DeepMind</title>
       <link>https://aiglimpse.ai/articles/top-ai-researchers-go-public-on-why-they-left-openai-anthropic-deepmind-89a5740f</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/top-ai-researchers-go-public-on-why-they-left-openai-anthropic-deepmind-89a5740f</guid>
@@ -396,14 +404,6 @@
       <guid isPermaLink="true">https://aiglimpse.ai/articles/ai-labs-admit-safety-hurdles-blocking-path-to-autonomous-self-improving-systems-8bd0ff3b</guid>
       <description>OpenAI and rivals acknowledge they lack solutions for safely deploying AI systems capable of independent improvement, even as progress accelerates.</description>
       <pubDate>Sun, 20 Sep 2026 10:58:45 GMT</pubDate>
-      <category>Ethics &amp; Policy</category>
-    </item>
-    <item>
-      <title>Major AI Firms Face Antitrust Lawsuit Over Alleged Development Slowdown</title>
-      <link>https://aiglimpse.ai/articles/major-ai-firms-face-antitrust-lawsuit-over-alleged-development-slowdown-adf0b762</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/major-ai-firms-face-antitrust-lawsuit-over-alleged-development-slowdown-adf0b762</guid>
-      <description>Subscribers claim OpenAI, Anthropic, Google, and SpaceX coordinated to artificially limit innovation pace.</description>
-      <pubDate>Sat, 19 Sep 2026 18:28:49 GMT</pubDate>
       <category>Ethics &amp; Policy</category>
     </item>
   </channel>
