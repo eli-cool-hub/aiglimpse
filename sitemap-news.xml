@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://aiglimpse.ai/articles/anthropic-consolidates-security-research-program-with-reduced-ai-safeguards-326db13b</loc>
+    <lastmod>2026-10-06</lastmod>
+    <news:news>
+      <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-10-06T20:03:05.000Z</news:publication_date>
+      <news:title>Anthropic Consolidates Security Research Program With Reduced AI Safeguards</news:title>
+    </news:news>
+    <changefreq>hourly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
     <loc>https://aiglimpse.ai/articles/schiff-voluntary-ai-pledges-insufficient-without-formal-regulation-a071dead</loc>
     <lastmod>2026-10-05</lastmod>
     <news:news>
@@ -40,28 +51,6 @@
       <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-10-05T16:06:26.000Z</news:publication_date>
       <news:title>Healthcare Leaders Struggle to Define What AI Success Actually Looks Like</news:title>
-    </news:news>
-    <changefreq>hourly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://aiglimpse.ai/articles/altman-and-anthropic-split-on-ai-regulation-strategy-2b4a50bb</loc>
-    <lastmod>2026-10-04</lastmod>
-    <news:news>
-      <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-10-04T22:58:04.000Z</news:publication_date>
-      <news:title>Altman and Anthropic Split on AI Regulation Strategy</news:title>
-    </news:news>
-    <changefreq>hourly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://aiglimpse.ai/articles/can-ai-rebranding-efforts-fix-public-trust-without-real-safeguards-fa4e4422</loc>
-    <lastmod>2026-10-04</lastmod>
-    <news:news>
-      <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-10-04T20:08:34.000Z</news:publication_date>
-      <news:title>Can AI Rebranding Efforts Fix Public Trust Without Real Safeguards?</news:title>
     </news:news>
     <changefreq>hourly</changefreq>
     <priority>0.9</priority>
