@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "schiff-voluntary-ai-pledges-insufficient-without-formal-regulation-a071dead",
+      "title": "Schiff: Voluntary AI Pledges Insufficient Without Formal Regulation",
+      "subtitle": "California senator argues tech industry self-governance fails to address AI safety risks, calls for dedicated regulatory agency.",
+      "category": "tools",
+      "publishedAt": "2026-10-05T14:30:00.000Z",
+      "sourceUrl": "https://www.theverge.com/podcast/1004286/senator-adam-schiff-ai-trump-regulation-corruption",
+      "sourceName": "The Verge AI",
+      "sourceTier": 2,
+      "image": "/images/articles/schiff-voluntary-ai-pledges-insufficient-without-formal-regulation-a071dead.jpg"
+    },
+    {
       "slug": "new-toolkit-targets-hidden-biases-in-ai-model-backbones-dd718fd0",
       "title": "New Toolkit Targets Hidden Biases in AI Model Backbones",
       "subtitle": "Researchers introduce BiasFlow to detect and mitigate spurious feature reliance that standard accuracy metrics miss.",
@@ -13533,6 +13544,7 @@
     "2b4a50bbc311efbc",
     "cd109dc065be9a10",
     "89a5740fe3ad7218",
-    "dd718fd0b1059f2d"
+    "dd718fd0b1059f2d",
+    "a071dead47b1f626"
   ]
 }
