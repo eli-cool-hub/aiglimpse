@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "academics-challenge-uns-ai-safety-diagnosis-of-openai-breach-f737dd99",
+      "title": "Academics Challenge UN's AI Safety Diagnosis of OpenAI Breach",
+      "subtitle": "Researchers argue a UN panel conflated corporate security lapses with autonomous AI risks, misframing a data incident.",
+      "category": "ethics",
+      "publishedAt": "2026-10-07T00:12:01.000Z",
+      "sourceUrl": "https://techpolicy.press/the-uns-ai-panel-sees-misalignment-we-see-corporate-misbehavior",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/academics-challenge-uns-ai-safety-diagnosis-of-openai-breach-f737dd99.jpg"
+    },
+    {
       "slug": "anthropic-consolidates-security-research-program-with-reduced-ai-safeguards-326db13b",
       "title": "Anthropic Consolidates Security Research Program With Reduced AI Safeguards",
       "subtitle": "New three-tier framework gives vetted cybersecurity experts access to advanced Claude models with relaxed content filters for authorized testing.",
@@ -13557,6 +13568,7 @@
     "89a5740fe3ad7218",
     "dd718fd0b1059f2d",
     "a071dead47b1f626",
-    "326db13bf1275f58"
+    "326db13bf1275f58",
+    "f737dd99f0a918fa"
   ]
 }
