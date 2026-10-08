@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "anthropic-unveils-critical-infrastructure-defense-initiative-9115544f",
+      "title": "Anthropic Unveils Critical Infrastructure Defense Initiative",
+      "subtitle": "AI safety company partners with 11 major cybersecurity firms to deploy advanced models for protecting vital systems.",
+      "category": "ethics",
+      "publishedAt": "2026-10-08T20:05:05.000Z",
+      "sourceUrl": "https://www.anthropic.com/news/anthropic-cyber-mission",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/anthropic-unveils-critical-infrastructure-defense-initiative-9115544f.jpg"
+    },
+    {
       "slug": "ant-groups-uniskill-achieves-near-perfect-performance-on-web-task-benchmarks-8f95c085",
       "title": "Ant Group's UniSkill Achieves Near-Perfect Performance on Web Task Benchmarks",
       "subtitle": "New approach trains AI agents to autonomously improve their own capabilities, reaching 98.4% success on complex interactive environments.",
@@ -13605,6 +13616,7 @@
     "f737dd99f0a918fa",
     "ac8da1985bd2eebe",
     "63104887903429e5",
-    "8f95c085889385fd"
+    "8f95c085889385fd",
+    "9115544fe39b1304"
   ]
 }
