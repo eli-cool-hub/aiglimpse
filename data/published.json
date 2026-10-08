@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "ant-groups-uniskill-achieves-near-perfect-performance-on-web-task-benchmarks-8f95c085",
+      "title": "Ant Group's UniSkill Achieves Near-Perfect Performance on Web Task Benchmarks",
+      "subtitle": "New approach trains AI agents to autonomously improve their own capabilities, reaching 98.4% success on complex interactive environments.",
+      "category": "ethics",
+      "publishedAt": "2026-10-08T09:40:39.000Z",
+      "sourceUrl": "https://huggingface.co/papers/2610.10164",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/ant-groups-uniskill-achieves-near-perfect-performance-on-web-task-benchmarks-8f95c085.jpg"
+    },
+    {
       "slug": "ousted-openai-researchers-push-board-to-maintain-ai-transparency-63104887",
       "title": "Ousted OpenAI Researchers Push Board to Maintain AI Transparency",
       "subtitle": "Three fired safety scientists warn against scaling AI systems whose decision-making processes cannot be meaningfully inspected by humans.",
@@ -13593,6 +13604,7 @@
     "326db13bf1275f58",
     "f737dd99f0a918fa",
     "ac8da1985bd2eebe",
-    "63104887903429e5"
+    "63104887903429e5",
+    "8f95c085889385fd"
   ]
 }
