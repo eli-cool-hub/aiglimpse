@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "anthropic-tightens-claude-usage-rules-against-abuse-and-election-meddling-85a1f1c3",
+      "title": "Anthropic Tightens Claude Usage Rules Against Abuse and Election Meddling",
+      "subtitle": "New policy framework addresses systemic misuse while preserving legitimate criticism, signaling AI industry shift toward stricter guardrails.",
+      "category": "business",
+      "publishedAt": "2026-10-08T18:16:24.000Z",
+      "sourceUrl": "https://techcrunch.com/2026/10/08/anthropic-changes-usage-policy-to-ban-model-abuse-and-election-interference/",
+      "sourceName": "TechCrunch AI",
+      "sourceTier": 2,
+      "image": "/images/articles/anthropic-tightens-claude-usage-rules-against-abuse-and-election-meddling-85a1f1c3.jpg"
+    },
+    {
       "slug": "new-safety-filter-prevents-robots-from-harming-humans-during-complex-tasks-9f35fed2",
       "title": "New Safety Filter Prevents Robots from Harming Humans During Complex Tasks",
       "subtitle": "Researchers demonstrate a training-free method to make motion-generating AI systems context-aware, reducing dangerous actions by up to 90% in real-world robotic systems.",
@@ -13629,6 +13640,7 @@
     "63104887903429e5",
     "8f95c085889385fd",
     "9115544fe39b1304",
-    "9f35fed279be9591"
+    "9f35fed279be9591",
+    "85a1f1c335d520a7"
   ]
 }
