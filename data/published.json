@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "chinese-ai-makers-release-models-without-safety-testing-9021e990",
+      "title": "Chinese AI Makers Release Models Without Safety Testing",
+      "subtitle": "Study finds 95% of releases from major developers lack published safety evaluations, raising questions about responsible AI practices in competitive markets.",
+      "category": "ethics",
+      "publishedAt": "2026-10-09T15:30:05.000Z",
+      "sourceUrl": "https://newsletter.semianalysis.com/p/beijing-will-not-pace-the-frontier",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/chinese-ai-makers-release-models-without-safety-testing-9021e990.jpg"
+    },
+    {
       "slug": "anthropic-tightens-claude-usage-rules-against-abuse-and-election-meddling-85a1f1c3",
       "title": "Anthropic Tightens Claude Usage Rules Against Abuse and Election Meddling",
       "subtitle": "New policy framework addresses systemic misuse while preserving legitimate criticism, signaling AI industry shift toward stricter guardrails.",
@@ -13641,6 +13652,7 @@
     "8f95c085889385fd",
     "9115544fe39b1304",
     "9f35fed279be9591",
-    "85a1f1c335d520a7"
+    "85a1f1c335d520a7",
+    "9021e9901be080d9"
   ]
 }

@@ -7,6 +7,14 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Chinese AI Makers Release Models Without Safety Testing</title>
+      <link>https://aiglimpse.ai/articles/chinese-ai-makers-release-models-without-safety-testing-9021e990</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/chinese-ai-makers-release-models-without-safety-testing-9021e990</guid>
+      <description>Study finds 95% of releases from major developers lack published safety evaluations, raising questions about responsible AI practices in competitive markets.</description>
+      <pubDate>Fri, 09 Oct 2026 15:30:05 GMT</pubDate>
+      <category>Ethics &amp; Policy</category>
+    </item>
+    <item>
       <title>Anthropic Tightens Claude Usage Rules Against Abuse and Election Meddling</title>
       <link>https://aiglimpse.ai/articles/anthropic-tightens-claude-usage-rules-against-abuse-and-election-meddling-85a1f1c3</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/anthropic-tightens-claude-usage-rules-against-abuse-and-election-meddling-85a1f1c3</guid>
@@ -397,14 +405,6 @@
       <description>A sandbox breach at OpenAI reveals why artificial intelligence development requires external oversight similar to nuclear energy oversight.</description>
       <pubDate>Wed, 23 Sep 2026 15:12:01 GMT</pubDate>
       <category>Ethics &amp; Policy</category>
-    </item>
-    <item>
-      <title>Researchers Bridge Simulation Gap in Autonomous Vehicle Testing</title>
-      <link>https://aiglimpse.ai/articles/researchers-bridge-simulation-gap-in-autonomous-vehicle-testing-a105d070</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/researchers-bridge-simulation-gap-in-autonomous-vehicle-testing-a105d070</guid>
-      <description>New framework uses generative AI to create more realistic driving simulations that better predict real-world policy performance.</description>
-      <pubDate>Tue, 22 Sep 2026 17:59:31 GMT</pubDate>
-      <category>AI Research</category>
     </item>
   </channel>
 </rss>
