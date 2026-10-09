@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "new-safety-filter-prevents-robots-from-harming-humans-during-complex-tasks-9f35fed2",
+      "title": "New Safety Filter Prevents Robots from Harming Humans During Complex Tasks",
+      "subtitle": "Researchers demonstrate a training-free method to make motion-generating AI systems context-aware, reducing dangerous actions by up to 90% in real-world robotic systems.",
+      "category": "research",
+      "publishedAt": "2026-10-08T17:59:50.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2610.12467v1",
+      "sourceName": "arXiv (Lizhi Yang, Yiling Hou, Yao Tang, Junheng Li, Daniel Weng, B…)",
+      "sourceTier": 1,
+      "image": "/images/articles/new-safety-filter-prevents-robots-from-harming-humans-during-complex-tasks-9f35fed2.jpg"
+    },
+    {
       "slug": "anthropic-unveils-critical-infrastructure-defense-initiative-9115544f",
       "title": "Anthropic Unveils Critical Infrastructure Defense Initiative",
       "subtitle": "AI safety company partners with 11 major cybersecurity firms to deploy advanced models for protecting vital systems.",
@@ -13617,6 +13628,7 @@
     "ac8da1985bd2eebe",
     "63104887903429e5",
     "8f95c085889385fd",
-    "9115544fe39b1304"
+    "9115544fe39b1304",
+    "9f35fed279be9591"
   ]
 }
