@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "new-critic-framework-boosts-ai-coding-agents-by-15-percentage-points-22c29e12",
+      "title": "New Critic Framework Boosts AI Coding Agents by 15 Percentage Points",
+      "subtitle": "Opera's intervention method treats developer feedback as persistent notes, dramatically improving how AI handles complex repository-level coding tasks.",
+      "category": "ethics",
+      "publishedAt": "2026-10-10T14:02:24.000Z",
+      "sourceUrl": "https://huggingface.co/papers/2609.33987",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/new-critic-framework-boosts-ai-coding-agents-by-15-percentage-points-22c29e12.jpg"
+    },
+    {
       "slug": "tech-giants-shift-ai-data-center-costs-to-everyday-ratepayers-cdda06ae",
       "title": "Tech Giants Shift AI Data Center Costs to Everyday Ratepayers",
       "subtitle": "Senate investigation finds Amazon, Google, Meta, and Microsoft are not funding the full infrastructure upgrades their massive AI facilities require.",
@@ -13677,6 +13688,7 @@
     "85a1f1c335d520a7",
     "9021e9901be080d9",
     "ef0be4be518b22aa",
-    "cdda06ae7a95378e"
+    "cdda06ae7a95378e",
+    "22c29e12512a57da"
   ]
 }

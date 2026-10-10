@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://aiglimpse.ai/articles/new-critic-framework-boosts-ai-coding-agents-by-15-percentage-points-22c29e12</loc>
+    <lastmod>2026-10-10</lastmod>
+    <news:news>
+      <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-10-10T14:02:24.000Z</news:publication_date>
+      <news:title>New Critic Framework Boosts AI Coding Agents by 15 Percentage Points</news:title>
+    </news:news>
+    <changefreq>hourly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
     <loc>https://aiglimpse.ai/articles/tech-giants-shift-ai-data-center-costs-to-everyday-ratepayers-cdda06ae</loc>
     <lastmod>2026-10-10</lastmod>
     <news:news>
@@ -29,28 +40,6 @@
       <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-10-09T15:30:05.000Z</news:publication_date>
       <news:title>Chinese AI Makers Release Models Without Safety Testing</news:title>
-    </news:news>
-    <changefreq>hourly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://aiglimpse.ai/articles/anthropic-tightens-claude-usage-rules-against-abuse-and-election-meddling-85a1f1c3</loc>
-    <lastmod>2026-10-08</lastmod>
-    <news:news>
-      <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-10-08T18:16:24.000Z</news:publication_date>
-      <news:title>Anthropic Tightens Claude Usage Rules Against Abuse and Election Meddling</news:title>
-    </news:news>
-    <changefreq>hourly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://aiglimpse.ai/articles/new-safety-filter-prevents-robots-from-harming-humans-during-complex-tasks-9f35fed2</loc>
-    <lastmod>2026-10-08</lastmod>
-    <news:news>
-      <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-10-08T17:59:50.000Z</news:publication_date>
-      <news:title>New Safety Filter Prevents Robots from Harming Humans During Complex Tasks</news:title>
     </news:news>
     <changefreq>hourly</changefreq>
     <priority>0.9</priority>
