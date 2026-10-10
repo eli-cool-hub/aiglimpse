@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://aiglimpse.ai/articles/safeworld-launches-robot-safety-simulation-platform-with-122m-seed-ef0be4be</loc>
+    <lastmod>2026-10-08</lastmod>
+    <news:news>
+      <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-10-08T21:09:48.000Z</news:publication_date>
+      <news:title>SafeWorld Launches Robot Safety Simulation Platform With $12.2M Seed</news:title>
+    </news:news>
+    <changefreq>hourly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
     <loc>https://aiglimpse.ai/articles/chinese-ai-makers-release-models-without-safety-testing-9021e990</loc>
     <lastmod>2026-10-09</lastmod>
     <news:news>
@@ -51,17 +62,6 @@
       <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-10-08T09:40:39.000Z</news:publication_date>
       <news:title>Ant Group's UniSkill Achieves Near-Perfect Performance on Web Task Benchmarks</news:title>
-    </news:news>
-    <changefreq>hourly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://aiglimpse.ai/articles/ousted-openai-researchers-push-board-to-maintain-ai-transparency-63104887</loc>
-    <lastmod>2026-10-08</lastmod>
-    <news:news>
-      <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-10-08T00:41:20.000Z</news:publication_date>
-      <news:title>Ousted OpenAI Researchers Push Board to Maintain AI Transparency</news:title>
     </news:news>
     <changefreq>hourly</changefreq>
     <priority>0.9</priority>

@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "safeworld-launches-robot-safety-simulation-platform-with-122m-seed-ef0be4be",
+      "title": "SafeWorld Launches Robot Safety Simulation Platform With $12.2M Seed",
+      "subtitle": "New startup tackles the challenge of testing AI-powered robots in dangerous scenarios before real-world deployment.",
+      "category": "robotics",
+      "publishedAt": "2026-10-08T21:09:48.000Z",
+      "sourceUrl": "https://www.therobotreport.com/safeworld-emerges-stealth-build-deploy-robot-safety-simulation-technologies/",
+      "sourceName": "The Robot Report",
+      "sourceTier": 3,
+      "image": "/images/articles/safeworld-launches-robot-safety-simulation-platform-with-122m-seed-ef0be4be.jpg"
+    },
+    {
       "slug": "chinese-ai-makers-release-models-without-safety-testing-9021e990",
       "title": "Chinese AI Makers Release Models Without Safety Testing",
       "subtitle": "Study finds 95% of releases from major developers lack published safety evaluations, raising questions about responsible AI practices in competitive markets.",
@@ -13653,6 +13664,7 @@
     "9115544fe39b1304",
     "9f35fed279be9591",
     "85a1f1c335d520a7",
-    "9021e9901be080d9"
+    "9021e9901be080d9",
+    "ef0be4be518b22aa"
   ]
 }
