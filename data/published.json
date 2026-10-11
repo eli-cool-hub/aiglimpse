@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "anthropics-530b-infrastructure-sprint-hinges-on-rapid-data-center-activation-eb17f342",
+      "title": "Anthropic's $530B Infrastructure Sprint Hinges on Rapid Data Center Activation",
+      "subtitle": "The Claude maker is racing to bring massive computing capacity online, with financial incentives tied to accelerating deployment timelines by weeks.",
+      "category": "industry",
+      "publishedAt": "2026-10-11T18:43:16.000Z",
+      "sourceUrl": "https://www.theinformation.com/articles/attractive-economics-behind-anthropic-data-center-sprint",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/anthropics-530b-infrastructure-sprint-hinges-on-rapid-data-center-activation-eb17f342.jpg"
+    },
+    {
       "slug": "distrokids-mass-takedown-highlights-ai-detection-challenges-in-music-85aff316",
       "title": "DistroKid's Mass Takedown Highlights AI Detection Challenges in Music",
       "subtitle": "The distribution platform is removing thousands of tracks in response to UMG lawsuit allegations, but legitimate artists say their work is caught in the crossfire.",
@@ -13713,6 +13724,7 @@
     "cdda06ae7a95378e",
     "22c29e12512a57da",
     "d37592e040b22653",
-    "85aff316b1da0ab4"
+    "85aff316b1da0ab4",
+    "eb17f342dce4970f"
   ]
 }
