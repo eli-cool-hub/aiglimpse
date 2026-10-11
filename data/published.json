@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "voice-ai-still-lacks-killer-app-execs-say-context-gap-remains-4486fc0e",
+      "title": "Voice AI Still Lacks Killer App, Execs Say Context Gap Remains",
+      "subtitle": "Industry leaders argue conversational AI hasn't found its transformative moment as context processing failures plague the technology.",
+      "category": "business",
+      "publishedAt": "2026-10-11T14:00:00.000Z",
+      "sourceUrl": "https://techcrunch.com/2026/10/11/these-execs-think-voice-ai-hasnt-reached-its-chatgpt-moment-yet/",
+      "sourceName": "TechCrunch AI",
+      "sourceTier": 2,
+      "image": "/images/articles/voice-ai-still-lacks-killer-app-execs-say-context-gap-remains-4486fc0e.jpg"
+    },
+    {
       "slug": "anthropics-530b-infrastructure-sprint-hinges-on-rapid-data-center-activation-eb17f342",
       "title": "Anthropic's $530B Infrastructure Sprint Hinges on Rapid Data Center Activation",
       "subtitle": "The Claude maker is racing to bring massive computing capacity online, with financial incentives tied to accelerating deployment timelines by weeks.",
@@ -13725,6 +13736,7 @@
     "22c29e12512a57da",
     "d37592e040b22653",
     "85aff316b1da0ab4",
-    "eb17f342dce4970f"
+    "eb17f342dce4970f",
+    "4486fc0e6bb35dc4"
   ]
 }
