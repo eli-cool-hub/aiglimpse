@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "nyu-langone-deploys-ai-enhanced-imaging-center-on-upper-west-side-9f598611",
+      "title": "NYU Langone Deploys AI-Enhanced Imaging Center on Upper West Side",
+      "subtitle": "New Manhattan facility integrates validated machine learning tools into radiology workflows across multiple specialties.",
+      "category": "industry",
+      "publishedAt": "2026-10-12T17:08:39.000Z",
+      "sourceUrl": "https://www.beckershospitalreview.com/radiology/nyu-langone-opens-advanced-imaging-center/",
+      "sourceName": "Becker's Hospital Review",
+      "sourceTier": 2,
+      "image": "/images/articles/nyu-langone-deploys-ai-enhanced-imaging-center-on-upper-west-side-9f598611.jpg"
+    },
+    {
       "slug": "sakana-ai-demonstrates-single-model-excelling-across-solver-judge-and-optimizer-afad2d6e",
       "title": "Sakana AI Demonstrates Single Model Excelling Across Solver, Judge, and Optimizer Roles",
       "subtitle": "A 27-billion parameter language model achieves up to 1.6x performance gains by handling multiple task stages without external supervision.",
@@ -13749,6 +13760,7 @@
     "85aff316b1da0ab4",
     "eb17f342dce4970f",
     "4486fc0e6bb35dc4",
-    "afad2d6e967715aa"
+    "afad2d6e967715aa",
+    "9f5986114f8afbde"
   ]
 }
