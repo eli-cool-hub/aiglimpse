@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "sakana-ai-demonstrates-single-model-excelling-across-solver-judge-and-optimizer-afad2d6e",
+      "title": "Sakana AI Demonstrates Single Model Excelling Across Solver, Judge, and Optimizer Roles",
+      "subtitle": "A 27-billion parameter language model achieves up to 1.6x performance gains by handling multiple task stages without external supervision.",
+      "category": "ethics",
+      "publishedAt": "2026-10-12T00:30:01.000Z",
+      "sourceUrl": "https://pub.sakana.ai/mass/",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/sakana-ai-demonstrates-single-model-excelling-across-solver-judge-and-optimizer-afad2d6e.jpg"
+    },
+    {
       "slug": "voice-ai-still-lacks-killer-app-execs-say-context-gap-remains-4486fc0e",
       "title": "Voice AI Still Lacks Killer App, Execs Say Context Gap Remains",
       "subtitle": "Industry leaders argue conversational AI hasn't found its transformative moment as context processing failures plague the technology.",
@@ -13737,6 +13748,7 @@
     "d37592e040b22653",
     "85aff316b1da0ab4",
     "eb17f342dce4970f",
-    "4486fc0e6bb35dc4"
+    "4486fc0e6bb35dc4",
+    "afad2d6e967715aa"
   ]
 }
