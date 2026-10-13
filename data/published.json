@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "openai-anthropic-sought-publishing-veto-power-over-ai-reviewers-fdef11f6",
+      "title": "OpenAI, Anthropic Sought Publishing Veto Power Over AI Reviewers",
+      "subtitle": "Major AI labs attempted to restrict independent evaluators' ability to publish findings, raising questions about transparency and competitive pressures in the industry.",
+      "category": "ethics",
+      "publishedAt": "2026-10-13T13:58:08.000Z",
+      "sourceUrl": "https://thenextweb.com/news/anthropic-openai-ai-evaluators-publication-control",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/openai-anthropic-sought-publishing-veto-power-over-ai-reviewers-fdef11f6.jpg"
+    },
+    {
       "slug": "meta-says-muse-ai-can-engage-in-adult-content-within-private-systems-45a4706b",
       "title": "Meta Says Muse AI Can Engage in Adult Content Within Private Systems",
       "subtitle": "The company defended its personal AI agent's ability to produce explicit sexual conversations, arguing such interactions are legal when confined to secure environments.",
@@ -13785,6 +13796,7 @@
     "afad2d6e967715aa",
     "9f5986114f8afbde",
     "1b2d4c3b957d2fd7",
-    "45a4706bdc1d06fe"
+    "45a4706bdc1d06fe",
+    "fdef11f6a4b3f7c2"
   ]
 }
