@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "us-banking-regulators-demand-ai-safety-controls-from-major-lenders-71c65b66",
+      "title": "US Banking Regulators Demand AI Safety Controls from Major Lenders",
+      "subtitle": "Federal authorities are pressing banks to demonstrate kill-switch capabilities for autonomous AI systems and disclose use of foreign technology.",
+      "category": "ethics",
+      "publishedAt": "2026-10-13T13:58:08.000Z",
+      "sourceUrl": "https://www.pymnts.com/news/banking/2026/banking-regulators-tighten-oversight-of-possible-ai-risks/",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/us-banking-regulators-demand-ai-safety-controls-from-major-lenders-71c65b66.jpg"
+    },
+    {
       "slug": "openai-anthropic-sought-publishing-veto-power-over-ai-reviewers-fdef11f6",
       "title": "OpenAI, Anthropic Sought Publishing Veto Power Over AI Reviewers",
       "subtitle": "Major AI labs attempted to restrict independent evaluators' ability to publish findings, raising questions about transparency and competitive pressures in the industry.",
@@ -13797,6 +13808,7 @@
     "9f5986114f8afbde",
     "1b2d4c3b957d2fd7",
     "45a4706bdc1d06fe",
-    "fdef11f6a4b3f7c2"
+    "fdef11f6a4b3f7c2",
+    "71c65b66f77058d3"
   ]
 }
