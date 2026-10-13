@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "major-banks-retreat-on-volta-ai-infrastructure-5b-loan-deal-1b2d4c3b",
+      "title": "Major Banks Retreat on Volta AI Infrastructure $5B Loan Deal",
+      "subtitle": "JPMorgan and Goldman limit commitments on massive GPU financing, signaling caution in AI infrastructure lending markets.",
+      "category": "industry",
+      "publishedAt": "2026-10-12T23:03:19.000Z",
+      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-10-12/jpmorgan-goldman-curb-exposure-on-5-billion-volta-ai-loan-sale",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/major-banks-retreat-on-volta-ai-infrastructure-5b-loan-deal-1b2d4c3b.jpg"
+    },
+    {
       "slug": "nyu-langone-deploys-ai-enhanced-imaging-center-on-upper-west-side-9f598611",
       "title": "NYU Langone Deploys AI-Enhanced Imaging Center on Upper West Side",
       "subtitle": "New Manhattan facility integrates validated machine learning tools into radiology workflows across multiple specialties.",
@@ -13761,6 +13772,7 @@
     "eb17f342dce4970f",
     "4486fc0e6bb35dc4",
     "afad2d6e967715aa",
-    "9f5986114f8afbde"
+    "9f5986114f8afbde",
+    "1b2d4c3b957d2fd7"
   ]
 }
