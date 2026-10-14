@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "court-orders-openai-to-produce-forensic-data-in-apple-engineer-dispute-3c5565e1",
+      "title": "Court Orders OpenAI to Produce Forensic Data in Apple Engineer Dispute",
+      "subtitle": "Federal judge grants expedited discovery after finding risk of evidence destruction in trade secrets case involving AI startup's hiring practices.",
+      "category": "ethics",
+      "publishedAt": "2026-10-14T02:03:15.000Z",
+      "sourceUrl": "https://news.bloomberglaw.com/tech-and-telecom-law/apple-wins-early-access-to-openai-files-in-trade-secrets-suit",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/court-orders-openai-to-produce-forensic-data-in-apple-engineer-dispute-3c5565e1.jpg"
+    },
+    {
       "slug": "us-banking-regulators-demand-ai-safety-controls-from-major-lenders-71c65b66",
       "title": "US Banking Regulators Demand AI Safety Controls from Major Lenders",
       "subtitle": "Federal authorities are pressing banks to demonstrate kill-switch capabilities for autonomous AI systems and disclose use of foreign technology.",
@@ -13809,6 +13820,7 @@
     "1b2d4c3b957d2fd7",
     "45a4706bdc1d06fe",
     "fdef11f6a4b3f7c2",
-    "71c65b66f77058d3"
+    "71c65b66f77058d3",
+    "3c5565e12ff93649"
   ]
 }
