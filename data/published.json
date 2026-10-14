@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "new-framework-trains-robots-to-learn-from-messy-real-world-data-a508d4e5",
+      "title": "New Framework Trains Robots to Learn From Messy Real-World Data",
+      "subtitle": "Researchers demonstrate a method that improves robot performance by learning from both successes and failures during actual deployment.",
+      "category": "research",
+      "publishedAt": "2026-10-13T17:59:56.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2610.18873v1",
+      "sourceName": "arXiv (Wenxuan Guo, Yingping Liang, Zhaoguo Wang, Ziyuan Li, Angyua…)",
+      "sourceTier": 1,
+      "image": "/images/articles/new-framework-trains-robots-to-learn-from-messy-real-world-data-a508d4e5.jpg"
+    },
+    {
       "slug": "court-orders-openai-to-produce-forensic-data-in-apple-engineer-dispute-3c5565e1",
       "title": "Court Orders OpenAI to Produce Forensic Data in Apple Engineer Dispute",
       "subtitle": "Federal judge grants expedited discovery after finding risk of evidence destruction in trade secrets case involving AI startup's hiring practices.",
@@ -13821,6 +13832,7 @@
     "45a4706bdc1d06fe",
     "fdef11f6a4b3f7c2",
     "71c65b66f77058d3",
-    "3c5565e12ff93649"
+    "3c5565e12ff93649",
+    "a508d4e544d03137"
   ]
 }
