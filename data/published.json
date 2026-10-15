@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "researchers-crack-real-world-robot-learning-with-minimal-human-input-f7a9aa83",
+      "title": "Researchers Crack Real-World Robot Learning With Minimal Human Input",
+      "subtitle": "New framework enables mobile manipulators to master complex tasks in just 30 minutes of real-world training.",
+      "category": "research",
+      "publishedAt": "2026-10-14T17:59:52.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2610.20607v1",
+      "sourceName": "arXiv (Zhefei Gong, Hefeifei Jiang, Zehao Wang, Jiachen Li)",
+      "sourceTier": 1,
+      "image": "/images/articles/researchers-crack-real-world-robot-learning-with-minimal-human-input-f7a9aa83.jpg"
+    },
+    {
       "slug": "flock-safety-ceo-doubles-down-on-surveillance-ai-despite-industry-headwinds-a1db7169",
       "title": "Flock Safety CEO Doubles Down on Surveillance AI Despite Industry Headwinds",
       "subtitle": "The license-plate recognition platform defends its expansion strategy even as customer defections and staff cuts signal market resistance.",
@@ -13857,6 +13868,7 @@
     "3c5565e12ff93649",
     "a508d4e544d03137",
     "21b7dde4d6b4d9cf",
-    "a1db7169c099aad9"
+    "a1db7169c099aad9",
+    "f7a9aa839e9be872"
   ]
 }
