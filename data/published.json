@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "perplexity-opens-ai-safety-sandbox-tool-after-proven-security-record-7708f667",
+      "title": "Perplexity Opens AI Safety Sandbox Tool After Proven Security Record",
+      "subtitle": "The company released SPACE, its containment system for autonomous AI agents, after demonstrating zero escape attempts across 118 tests.",
+      "category": "ethics",
+      "publishedAt": "2026-10-15T21:28:30.000Z",
+      "sourceUrl": "https://www.semafor.com/article/10/15/2026/perplexity-to-give-away-its-ai-security-software",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/perplexity-opens-ai-safety-sandbox-tool-after-proven-security-record-7708f667.jpg"
+    },
+    {
       "slug": "beyond-automation-scholars-push-ai-research-toward-human-collaboration-7bafdc25",
       "title": "Beyond Automation: Scholars Push AI Research Toward Human Collaboration",
       "subtitle": "Stanford economists argue the field has overcorrected toward labor replacement, ignoring technical and economic benefits of human-AI partnership.",
@@ -13881,6 +13892,7 @@
     "21b7dde4d6b4d9cf",
     "a1db7169c099aad9",
     "f7a9aa839e9be872",
-    "7bafdc254302ceb8"
+    "7bafdc254302ceb8",
+    "7708f66772288940"
   ]
 }
