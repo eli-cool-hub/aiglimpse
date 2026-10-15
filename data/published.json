@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "beyond-automation-scholars-push-ai-research-toward-human-collaboration-7bafdc25",
+      "title": "Beyond Automation: Scholars Push AI Research Toward Human Collaboration",
+      "subtitle": "Stanford economists argue the field has overcorrected toward labor replacement, ignoring technical and economic benefits of human-AI partnership.",
+      "category": "ethics",
+      "publishedAt": "2026-10-14T19:56:44.000Z",
+      "sourceUrl": "https://www.normaltech.ai/p/steering-ai-beyond-automation",
+      "sourceName": "AI Snake Oil",
+      "sourceTier": 3,
+      "image": "/images/articles/beyond-automation-scholars-push-ai-research-toward-human-collaboration-7bafdc25.jpg"
+    },
+    {
       "slug": "researchers-crack-real-world-robot-learning-with-minimal-human-input-f7a9aa83",
       "title": "Researchers Crack Real-World Robot Learning With Minimal Human Input",
       "subtitle": "New framework enables mobile manipulators to master complex tasks in just 30 minutes of real-world training.",
@@ -13869,6 +13880,7 @@
     "a508d4e544d03137",
     "21b7dde4d6b4d9cf",
     "a1db7169c099aad9",
-    "f7a9aa839e9be872"
+    "f7a9aa839e9be872",
+    "7bafdc254302ceb8"
   ]
 }
