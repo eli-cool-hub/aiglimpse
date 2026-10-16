@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "china-expands-ai-export-controls-to-include-model-weights-code-81761a8c",
+      "title": "China Expands AI Export Controls to Include Model Weights, Code",
+      "subtitle": "Beijing's regulatory shift targets the software layer of artificial intelligence systems, marking a significant escalation in technology trade restrictions.",
+      "category": "ethics",
+      "publishedAt": "2026-10-16T11:01:01.000Z",
+      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-10-16/china-proposes-export-controls-on-ai-models-chips-and-agents",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/china-expands-ai-export-controls-to-include-model-weights-code-81761a8c.jpg"
+    },
+    {
       "slug": "metas-new-terms-grant-broad-ai-training-rights-over-news-sites-f4c7d1d3",
       "title": "Meta's New Terms Grant Broad AI Training Rights Over News Sites",
       "subtitle": "Updated commercial policies effective October 30 enable Meta to scrape publisher websites for machine learning without opt-out provisions.",
@@ -13905,6 +13916,7 @@
     "f7a9aa839e9be872",
     "7bafdc254302ceb8",
     "7708f66772288940",
-    "f4c7d1d3ff59331e"
+    "f4c7d1d3ff59331e",
+    "81761a8c929ce8c6"
   ]
 }
