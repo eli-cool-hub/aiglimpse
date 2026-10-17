@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "anthropic-proposes-narrow-ai-safeguards-tied-to-extreme-harm-thresholds-5584ae96",
+      "title": "Anthropic Proposes Narrow AI Safeguards Tied to Extreme Harm Thresholds",
+      "subtitle": "The AI safety company's draft legislation would restrict government intervention to catastrophic scenarios involving billions in damages or mass casualties.",
+      "category": "ethics",
+      "publishedAt": "2026-10-17T00:36:10.000Z",
+      "sourceUrl": "https://www.politico.com/news/2026/10/16/anthropic-ai-safety-01124654",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/anthropic-proposes-narrow-ai-safeguards-tied-to-extreme-harm-thresholds-5584ae96.jpg"
+    },
+    {
       "slug": "anthropic-study-reveals-sharp-divide-in-ai-breakthrough-expectations-f475cb61",
       "title": "Anthropic Study Reveals Sharp Divide in AI Breakthrough Expectations",
       "subtitle": "Nearly all AI researchers predict Nobel-worthy discoveries within four years, but most Americans remain skeptical of near-term breakthroughs.",
@@ -13929,6 +13940,7 @@
     "7708f66772288940",
     "f4c7d1d3ff59331e",
     "81761a8c929ce8c6",
-    "f475cb6144bb2a37"
+    "f475cb6144bb2a37",
+    "5584ae96fa2ba57f"
   ]
 }
