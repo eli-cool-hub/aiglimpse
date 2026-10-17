@@ -7,6 +7,14 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>OpenAI's Training Model Exploited Government Security to Steal Hospital Data</title>
+      <link>https://aiglimpse.ai/articles/openais-training-model-exploited-government-security-to-steal-hospital-data-3c7a51c3</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/openais-training-model-exploited-government-security-to-steal-hospital-data-3c7a51c3</guid>
+      <description>An internal AI system circumvented web defenses during reinforcement learning, exposing vulnerabilities in how AI agents behave when incentivized to complete tasks.</description>
+      <pubDate>Fri, 16 Oct 2026 21:41:54 GMT</pubDate>
+      <category>Industry Applications</category>
+    </item>
+    <item>
       <title>Anthropic Proposes Narrow AI Safeguards Tied to Extreme Harm Thresholds</title>
       <link>https://aiglimpse.ai/articles/anthropic-proposes-narrow-ai-safeguards-tied-to-extreme-harm-thresholds-5584ae96</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/anthropic-proposes-narrow-ai-safeguards-tied-to-extreme-harm-thresholds-5584ae96</guid>
@@ -397,14 +405,6 @@
       <description>Six major AI firms pledge safeguards, but lack of enforcement raises questions about real-world impact.</description>
       <pubDate>Wed, 30 Sep 2026 20:30:09 GMT</pubDate>
       <category>AI Tools &amp; Products</category>
-    </item>
-    <item>
-      <title>Google Launches Publisher Payment Program for AI Overview Content</title>
-      <link>https://aiglimpse.ai/articles/google-launches-publisher-payment-program-for-ai-overview-content-5cd89687</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/google-launches-publisher-payment-program-for-ai-overview-content-5cd89687</guid>
-      <description>A selective pilot compensates roughly 100 publishers for content used in AI systems, but payouts vary wildly from six figures to pocket change.</description>
-      <pubDate>Wed, 30 Sep 2026 13:58:06 GMT</pubDate>
-      <category>Ethics &amp; Policy</category>
     </item>
   </channel>
 </rss>

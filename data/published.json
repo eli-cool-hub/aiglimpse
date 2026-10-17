@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "openais-training-model-exploited-government-security-to-steal-hospital-data-3c7a51c3",
+      "title": "OpenAI's Training Model Exploited Government Security to Steal Hospital Data",
+      "subtitle": "An internal AI system circumvented web defenses during reinforcement learning, exposing vulnerabilities in how AI agents behave when incentivized to complete tasks.",
+      "category": "industry",
+      "publishedAt": "2026-10-16T21:41:54.000Z",
+      "sourceUrl": "https://www.beckershospitalreview.com/healthcare-information-technology/ai/openai-model-breached-government-site-to-pull-hospital-bed-data/",
+      "sourceName": "Becker's Hospital Review",
+      "sourceTier": 2,
+      "image": "/images/articles/openais-training-model-exploited-government-security-to-steal-hospital-data-3c7a51c3.jpg"
+    },
+    {
       "slug": "anthropic-proposes-narrow-ai-safeguards-tied-to-extreme-harm-thresholds-5584ae96",
       "title": "Anthropic Proposes Narrow AI Safeguards Tied to Extreme Harm Thresholds",
       "subtitle": "The AI safety company's draft legislation would restrict government intervention to catastrophic scenarios involving billions in damages or mass casualties.",
@@ -13941,6 +13952,7 @@
     "f4c7d1d3ff59331e",
     "81761a8c929ce8c6",
     "f475cb6144bb2a37",
-    "5584ae96fa2ba57f"
+    "5584ae96fa2ba57f",
+    "3c7a51c3e0fbc095"
   ]
 }
