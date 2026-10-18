@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>New Training Method Lifts Robot Generalization to 27.6% | AI Glimpse</title>
+  <meta name="description" content="Researchers boost robot generalization from 5.3% to 27.6% using CoDA, a method that co-evolves simulators and policies for better real-world performance.">
+  <meta name="keywords" content="robot learning, simulation, CoDA, out-of-distribution generalization, robotic control">
+  <link rel="canonical" href="https://aiglimpse.ai/articles/new-training-method-lifts-robot-generalization-to-276-fcd63434">
+  <meta property="og:type" content="article"><meta property="og:site_name" content="AI Glimpse">
+  <meta property="og:title" content="New Training Method Lifts Robot Generalization to 27.6%">
+  <meta property="og:description" content="Researchers boost robot generalization from 5.3% to 27.6% using CoDA, a method that co-evolves simulators and policies for better real-world performance.">
+  <meta property="og:url" content="https://aiglimpse.ai/articles/new-training-method-lifts-robot-generalization-to-276-fcd63434">
+  <meta property="og:image" content="https://aiglimpse.ai/images/articles/new-training-method-lifts-robot-generalization-to-276-fcd63434.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="article:published_time" content="2026-10-18T15:52:34.000Z">
+  <meta property="article:section" content="Robotics">
+  <meta property="article:tag" content="robot learning">
+  <meta property="article:tag" content="simulation">
+  <meta property="article:tag" content="CoDA">
+  <meta property="article:tag" content="out-of-distribution generalization">
+  <meta property="article:tag" content="robotic control">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="New Training Method Lifts Robot Generalization to 27.6%">
+  <meta name="twitter:description" content="Researchers boost robot generalization from 5.3% to 27.6% using CoDA, a method that co-evolves simulators and policies for better real-world performance.">
+  <meta name="twitter:image" content="https://aiglimpse.ai/images/articles/new-training-method-lifts-robot-generalization-to-276-fcd63434.jpg">
+  <link rel="icon" type="image/svg+xml" href="/images/favicon.svg">
+  <link rel="alternate" type="application/rss+xml" title="AI Glimpse RSS" href="/rss.xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700;9..144,900&family=Inter+Tight:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap">
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="preload" as="image" href="/images/articles/new-training-method-lifts-robot-generalization-to-276-fcd63434.webp" type="image/webp" fetchpriority="high">
+  <style>.reading-progress{position:fixed;top:0;left:0;height:3px;background:var(--color-accent);width:0%;z-index:200;transition:width 100ms linear;}</style>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"NewsArticle","mainEntityOfPage":{"@type":"WebPage","@id":"https://aiglimpse.ai/articles/new-training-method-lifts-robot-generalization-to-276-fcd63434"},"headline":"New Training Method Lifts Robot Generalization to 27.6%","description":"Researchers boost robot generalization from 5.3% to 27.6% using CoDA, a method that co-evolves simulators and policies for better real-world performance.","image":["https://aiglimpse.ai/images/articles/new-training-method-lifts-robot-generalization-to-276-fcd63434.jpg"],"datePublished":"2026-10-18T15:52:34.000Z","dateModified":"2026-10-18T15:52:34.000Z","author":{"@type":"Organization","name":"AI Glimpse Newsroom"},"publisher":{"@type":"Organization","name":"AI Glimpse","logo":{"@type":"ImageObject","url":"https://aiglimpse.ai/images/logo.svg"}},"articleSection":"Robotics","keywords":"robot learning, simulation, CoDA, out-of-distribution generalization, robotic control","isBasedOn":{"@type":"CreativeWork","url":"https://arxiv.org/abs/2610.22362","name":"CoDA co-evolves sim engine and policy, OOD rises to 27.6%"}}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://aiglimpse.ai/"},{"@type":"ListItem","position":2,"name":"Robotics","item":"https://aiglimpse.ai/categories/robotics"},{"@type":"ListItem","position":3,"name":"New Training Method Lifts Robot Generalization to 27.6%","item":"https://aiglimpse.ai/articles/new-training-method-lifts-robot-generalization-to-276-fcd63434"}]}</script>
+  <meta name="google-site-verification" content="B132aMlqf1nssWYhjOSKUgSjmfwNWgPgtozZsHDxWlU" />
+  <meta name="msvalidate.01" content="F3762E555B3E685836AE39C90B79ECBF" />
+  <!-- aiglimpse-consent-default v1: must run before AdSense, defaults all ad/analytics storage to denied -->
+  <script>(function(){window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}window.gtag=gtag;gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'denied',functionality_storage:'granted',security_storage:'granted',wait_for_update:500});try{var s=JSON.parse(localStorage.getItem('aiglimpse-consent')||'null');if(s&&s.choice==='granted'){gtag('consent','update',{ad_storage:'granted',ad_user_data:'granted',ad_personalization:'granted',analytics_storage:'granted'});}}catch(e){}})();</script>
+  <!-- aiglimpse-ga4 v1: gtag.js loaded after consent default, so it buffers events until consent is granted -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-EVZ52DNQ8S"></script>
+  <script>gtag('js', new Date()); gtag('config', 'G-EVZ52DNQ8S', { anonymize_ip: true });</script>
+</head>
+<body>
+  <div class="reading-progress" aria-hidden="true"></div>
+  <header class="site-header" role="banner">
+    <div class="container">
+      <div class="header-bar">
+        <a href="/" class="logo" aria-label="AI Glimpse home">
+          <span class="logo-wordmark" aria-label="AI Glimpse">A<span class="iris-i" aria-hidden="true">ı</span><span aria-hidden="true"> Glimpse</span></span>
+        </a>
+        <nav class="nav-primary" aria-label="Primary">
+          <a href="/categories/llms">LLMs</a>
+            <a href="/categories/research">Research</a>
+            <a href="/categories/tools">Tools</a>
+            <a href="/categories/business">Business</a>
+            <a href="/categories/ethics">Ethics</a>
+            <a href="/categories/industry">Industry</a>
+            <a href="/categories/robotics">Robotics</a>
+        </nav>
+        <div class="header-actions">
+          <a class="search-btn" href="/search" aria-label="Search">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="11" cy="11" r="7"/><path d="M21 21l-4.35-4.35"/>
+            </svg>
+          </a>
+          <a href="#newsletter" class="btn btn--primary btn--sm">Subscribe</a>
+          <button class="menu-btn" aria-label="Open menu">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+  <aside class="mobile-menu" aria-label="Mobile menu">
+    <div class="mobile-menu-header">
+      <a href="/" class="logo">
+        <span class="logo-wordmark" aria-label="AI Glimpse">A<span class="iris-i" aria-hidden="true">ı</span><span aria-hidden="true"> Glimpse</span></span>
+      </a>
+      <button class="mobile-menu-close" aria-label="Close menu" style="font-size:24px;">×</button>
+    </div>
+    <a href="/categories/llms">LLMs</a>
+    <a href="/categories/research">Research</a>
+    <a href="/categories/tools">Tools</a>
+    <a href="/categories/business">Business</a>
+    <a href="/categories/ethics">Ethics</a>
+    <a href="/categories/industry">Industry</a>
+    <a href="/categories/robotics">Robotics</a>
+    <a href="/search">Search</a>
+    <a href="/pages/about">About</a>
+    <a href="#newsletter">Subscribe</a>
+  </aside>
+  <main>
+    <article>
+      <section class="article-hero">
+        <div class="container container--narrow">
+          <nav aria-label="Breadcrumb" style="margin-bottom:var(--space-4);font-size:var(--text-xs);color:var(--color-ink-muted);">
+            <a href="/" style="color:inherit;">Home</a> /
+            <a href="/categories/robotics" style="color:inherit;">Robotics</a>
+          </nav>
+          <div class="article-hero-meta">
+            <span class="tag tag--robotics">Robotics</span>
+            <span class="eyebrow">2 min read</span>
+          </div>
+          <h1 class="article-hero-title">New Training Method Lifts Robot Generalization to 27.6%</h1>
+          <p class="article-hero-subtitle">CoDA framework shows how co-evolving simulators and policies can dramatically improve robot performance on unfamiliar tasks.</p>
+          <div class="article-byline">
+            <div>By <strong>AI Glimpse Newsroom</strong></div><div>·</div>
+            <div><time datetime="2026-10-18T15:52:34.000Z" data-relative="false">October 18, 2026</time></div>
+          </div>
+        </div>
+      </section>
+      <section style="padding: var(--space-7) 0;">
+        <div class="container container--narrow">
+          <figure class="article-image"><picture><source srcset="/images/articles/new-training-method-lifts-robot-generalization-to-276-fcd63434.webp" type="image/webp"><img src="/images/articles/new-training-method-lifts-robot-generalization-to-276-fcd63434.jpg" alt="New Training Method Lifts Robot Generalization to 27.6%" loading="eager" fetchpriority="high" width="1200" height="630"></picture></figure>
+          <div class="article-body"><p>Researchers have achieved a significant breakthrough in robot learning generalization, demonstrating that a tightly coupled training approach can raise out-of-distribution task success rates from 5.3% to 27.6%. The advancement suggests a new direction for building more adaptable robotic systems that perform reliably in novel environments.</p>
+
+<p>According to AI Weekly, a team led by researchers including Tianjiao Yu and Ismini Lourentzou developed CoDA, a training framework that fundamentally rethinks how simulation engines and robotic control policies improve together. Rather than treating the simulator and policy as separate components, the method creates a unified learning loop where both components refine themselves through shared feedback.</p>
+
+<h2>How Co-evolution Works</h2>
+
+<p>The core innovation behind CoDA involves maintaining what the researchers call a heterogeneous memory system. This shared repository tracks three critical data streams: environment construction details, moments when the policy fails to execute tasks correctly, and measurable signs of learning progress. As the policy encounters new challenges or fails at manipulation tasks, this information flows back into the simulator, which adjusts its internal models. Simultaneously, the policy network learns from the improved simulation environment, creating a feedback loop that strengthens both components.</p>
+
+<p>This approach contrasts sharply with traditional robotics pipelines, where engineers typically freeze the simulator once it achieves reasonable fidelity and focus purely on policy optimization. By allowing the simulation engine to evolve alongside the policy, CoDA adapts to capture the specific failure modes and edge cases that matter most for real-world robot control.</p>
+
+<h2>Why Generalization Matters</h2>
+
+<p>The jump from 5.3% to 27.6% success on out-of-distribution tasks represents more than a numerical improvement. Robots trained exclusively through supervised fine-tuning tend to memorize specific environments and task variations they encounter during training. When confronted with manipulation scenarios that differ from training data, performance collapses dramatically. The CoDA framework's five-fold improvement suggests that co-evolved policies and simulators develop more robust internal representations of physics and control principles.</p>
+
+<p>The research tested this approach across four distinct robot manipulation task families, indicating that the benefits extend beyond narrow, specialized applications. This consistency across diverse task domains signals that the underlying mechanism addresses fundamental limitations in how robots generalize learning.</p>
+
+<h2>Implications for Robot Deployment</h2>
+
+<p>The findings have immediate relevance for real-world robotics deployment. Currently, most commercial robotic systems require extensive task-specific tuning before deployment. Higher out-of-distribution performance could enable robots to function more effectively in varied, unpredictable environments with less engineering overhead.</p>
+
+<ul>
+<li>Better generalization reduces retraining requirements when robots face new scenarios</li>
+<li>Co-evolved simulators capture environment-specific physics more accurately</li>
+<li>Shared memory systems efficiently route learning signals across components</li>
+</ul>
+
+<p>The work remains preliminary, published on arXiv for community review. Researchers have not yet reported deployment results on physical robots, leaving open questions about sim-to-real transfer. Nevertheless, the CoDA framework provides a concrete methodology for building simulation systems that actively support policy learning rather than passively serving as training grounds.</p></div>
+          <!-- Inline ad slot, will be re-enabled once AdSense is approved -->
+          <p style="font-size:var(--text-xs);color:var(--color-ink-faint);margin-top:var(--space-6);padding-top:var(--space-4);border-top:1px solid var(--color-rule);">
+            Based on reporting from <a href="https://arxiv.org/abs/2610.22362" rel="nofollow noopener" target="_blank" style="color:inherit;text-decoration:underline;">AI Weekly</a>.
+          </p>
+        </div>
+      </section>
+    </article>
+    <section class="section" aria-label="Related articles">
+      <div class="container container--narrow">
+        <div class="section-header">
+          <h2 class="section-title">More from AI Glimpse</h2>
+          <a href="/categories/robotics" class="section-link">All Robotics stories</a>
+        </div>
+        <div class="grid grid-3">
+          <article class="card card--medium">
+            <a href="/articles/safeworld-launches-robot-safety-simulation-platform-with-122m-seed-ef0be4be"><div class="card-image"><picture><source srcset="/images/articles/safeworld-launches-robot-safety-simulation-platform-with-122m-seed-ef0be4be.webp" type="image/webp"><img src="/images/articles/safeworld-launches-robot-safety-simulation-platform-with-122m-seed-ef0be4be.jpg" alt="SafeWorld Launches Robot Safety Simulation Platform With $12.2M Seed" loading="lazy" width="1200" height="630"></picture></div></a>
+            <div class="card-meta">
+              <span class="tag tag--robotics">Robotics</span>
+              <span class="card-byline"><time datetime="2026-10-08T21:09:48.000Z">Oct 8, 2026</time></span>
+            </div>
+            <a href="/articles/safeworld-launches-robot-safety-simulation-platform-with-122m-seed-ef0be4be"><h3 class="card-title">SafeWorld Launches Robot Safety Simulation Platform With $12.2M Seed</h3></a>
+          </article>
+          <article class="card card--medium">
+            <a href="/articles/factory-robotics-faces-deployment-crisis-not-data-shortage-5c072826"><div class="card-image"><picture><source srcset="/images/articles/factory-robotics-faces-deployment-crisis-not-data-shortage-5c072826.webp" type="image/webp"><img src="/images/articles/factory-robotics-faces-deployment-crisis-not-data-shortage-5c072826.jpg" alt="Factory Robotics Faces Deployment Crisis, Not Data Shortage" loading="lazy" width="1200" height="630"></picture></div></a>
+            <div class="card-meta">
+              <span class="tag tag--robotics">Robotics</span>
+              <span class="card-byline"><time datetime="2026-09-07T14:00:13.000Z">Sep 7, 2026</time></span>
+            </div>
+            <a href="/articles/factory-robotics-faces-deployment-crisis-not-data-shortage-5c072826"><h3 class="card-title">Factory Robotics Faces Deployment Crisis, Not Data Shortage</h3></a>
+          </article>
+          <article class="card card--medium">
+            <a href="/articles/pentagon-invests-90m-in-ai-driven-robotics-to-overhaul-military-manufacturing-770da0ee"><div class="card-image"><picture><source srcset="/images/articles/pentagon-invests-90m-in-ai-driven-robotics-to-overhaul-military-manufacturing-770da0ee.webp" type="image/webp"><img src="/images/articles/pentagon-invests-90m-in-ai-driven-robotics-to-overhaul-military-manufacturing-770da0ee.jpg" alt="Pentagon Invests $90M in AI-Driven Robotics to Overhaul Military Manufacturing" loading="lazy" width="1200" height="630"></picture></div></a>
+            <div class="card-meta">
+              <span class="tag tag--robotics">Robotics</span>
+              <span class="card-byline"><time datetime="2026-09-05T14:22:41.000Z">Sep 5, 2026</time></span>
+            </div>
+            <a href="/articles/pentagon-invests-90m-in-ai-driven-robotics-to-overhaul-military-manufacturing-770da0ee"><h3 class="card-title">Pentagon Invests $90M in AI-Driven Robotics to Overhaul Military Manufacturing</h3></a>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="/" class="logo">
+            <span class="logo-wordmark" aria-label="AI Glimpse">A<span class="iris-i" aria-hidden="true">ı</span><span aria-hidden="true"> Glimpse</span></span>
+          </a>
+          <p>Your daily glimpse into AI. Independent reporting and analysis on the people, products, and policies shaping artificial intelligence.</p>
+        </div>
+        <div class="footer-col">
+          <h5>Categories</h5>
+          <ul>
+            <li><a href="/categories/llms">LLMs</a></li>
+            <li><a href="/categories/research">Research</a></li>
+            <li><a href="/categories/tools">Tools</a></li>
+            <li><a href="/categories/business">Business</a></li>
+            <li><a href="/categories/ethics">Ethics</a></li>
+            <li><a href="/categories/industry">Industry</a></li>
+            <li><a href="/categories/robotics">Robotics</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h5>About</h5>
+          <ul>
+            <li><a href="/pages/about">About AI Glimpse</a></li>
+            <li><a href="/pages/contact">Contact</a></li>
+            <li><a href="/pages/editorial">Editorial Standards</a></li>
+            <li><a href="/pages/advertise">Advertise</a></li>
+            <li><a href="/guides">Guides &amp; Explainers</a></li>
+            <li><a href="/search">Search</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h5>Legal</h5>
+          <ul>
+            <li><a href="/pages/privacy">Privacy Policy</a></li>
+            <li><a href="/pages/terms">Terms of Service</a></li>
+            <li><a href="#" data-consent-open>Cookie preferences</a></li>
+            <li><a href="/rss.xml">RSS Feed</a></li>
+            <li><a href="/sitemap.xml">Sitemap</a></li>
+            <li><a href="/llms.txt">LLMs.txt</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div>© <span id="year">2026</span> AI Glimpse · aiglimpse.ai</div>
+        <div class="footer-social">
+          <a href="/rss.xml" aria-label="RSS"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M6.503 20.752c0 1.794-1.456 3.248-3.251 3.248-1.796 0-3.252-1.454-3.252-3.248 0-1.794 1.456-3.248 3.252-3.248 1.795 0 3.251 1.454 3.251 3.248zm-6.503-12.572v4.811c6.05.062 10.96 4.966 11.022 11.009h4.817c-.062-8.71-7.118-15.758-15.839-15.82zm0-3.368c10.58.046 19.152 8.594 19.183 19.188h4.817c-.03-13.231-10.755-23.954-24-24v4.812z"/></svg></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="/js/chrome.js"></script>
+  <script src="/js/main.js"></script>
+</body>
+</html>

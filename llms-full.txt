@@ -3,7 +3,7 @@
 > Machine-readable index for AI assistants, answer engines, and research crawlers.
 > Summary version: https://aiglimpse.ai/llms.txt
 
-Total articles: 1163 | Evergreen explainers: 31 | Generated: 2026-10-18
+Total articles: 1164 | Evergreen explainers: 31 | Generated: 2026-10-18
 
 ## Evergreen explainers
 
@@ -225,6 +225,13 @@ Total articles: 1163 | Evergreen explainers: 31 | Generated: 2026-10-18
 - Type: evergreen explainer (FAQ schema on page)
 
 ## All articles (newest first)
+
+### New Training Method Lifts Robot Generalization to 27.6%
+- URL: https://aiglimpse.ai/articles/new-training-method-lifts-robot-generalization-to-276-fcd63434
+- Published: 2026-10-18
+- Category: robotics
+- Summary: CoDA framework shows how co-evolving simulators and policies can dramatically improve robot performance on unfamiliar tasks.
+- Source: https://arxiv.org/abs/2610.22362
 
 ### New Training Method Breaks Through Long-Horizon Reinforcement Learning Bottleneck
 - URL: https://aiglimpse.ai/articles/new-training-method-breaks-through-long-horizon-reinforcement-learning-bottlenec-38dc3ee8

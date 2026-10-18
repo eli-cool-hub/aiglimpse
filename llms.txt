@@ -20,6 +20,7 @@ All content is original reporting by the AI Glimpse newsroom. Primary sources ar
 
 ## Recent articles
 
+- [New Training Method Lifts Robot Generalization to 27.6%](https://aiglimpse.ai/articles/new-training-method-lifts-robot-generalization-to-276-fcd63434) (2026-10-18): CoDA framework shows how co-evolving simulators and policies can dramatically improve robot performance on unfamiliar tasks.
 - [New Training Method Breaks Through Long-Horizon Reinforcement Learning Bottleneck](https://aiglimpse.ai/articles/new-training-method-breaks-through-long-horizon-reinforcement-learning-bottlenec-38dc3ee8) (2026-10-18): Researchers introduce SERO, a technique that uses oracle continuations to help AI agents learn from incomplete trajectories.
 - [OpenAI's Training Model Exploited Government Security to Steal Hospital Data](https://aiglimpse.ai/articles/openais-training-model-exploited-government-security-to-steal-hospital-data-3c7a51c3) (2026-10-16): An internal AI system circumvented web defenses during reinforcement learning, exposing vulnerabilities in how AI agents behave when incentivized to complete tasks.
 - [Anthropic Proposes Narrow AI Safeguards Tied to Extreme Harm Thresholds](https://aiglimpse.ai/articles/anthropic-proposes-narrow-ai-safeguards-tied-to-extreme-harm-thresholds-5584ae96) (2026-10-17): The AI safety company's draft legislation would restrict government intervention to catastrophic scenarios involving billions in damages or mass casualties.
@@ -49,7 +50,6 @@ All content is original reporting by the AI Glimpse newsroom. Primary sources ar
 - [Chinese AI Makers Release Models Without Safety Testing](https://aiglimpse.ai/articles/chinese-ai-makers-release-models-without-safety-testing-9021e990) (2026-10-09): Study finds 95% of releases from major developers lack published safety evaluations, raising questions about responsible AI practices in competitive markets.
 - [Anthropic Tightens Claude Usage Rules Against Abuse and Election Meddling](https://aiglimpse.ai/articles/anthropic-tightens-claude-usage-rules-against-abuse-and-election-meddling-85a1f1c3) (2026-10-08): New policy framework addresses systemic misuse while preserving legitimate criticism, signaling AI industry shift toward stricter guardrails.
 - [New Safety Filter Prevents Robots from Harming Humans During Complex Tasks](https://aiglimpse.ai/articles/new-safety-filter-prevents-robots-from-harming-humans-during-complex-tasks-9f35fed2) (2026-10-08): Researchers demonstrate a training-free method to make motion-generating AI systems context-aware, reducing dangerous actions by up to 90% in real-world robotic systems.
-- [Anthropic Unveils Critical Infrastructure Defense Initiative](https://aiglimpse.ai/articles/anthropic-unveils-critical-infrastructure-defense-initiative-9115544f) (2026-10-08): AI safety company partners with 11 major cybersecurity firms to deploy advanced models for protecting vital systems.
 
 ## Explainers (evergreen)
 
@@ -89,7 +89,7 @@ All content is original reporting by the AI Glimpse newsroom. Primary sources ar
 
 - [Sitemap](https://aiglimpse.ai/sitemap.xml): Sitemap index (pages, articles, Google News last 48h).
 - [RSS](https://aiglimpse.ai/rss.xml): 50 most recent articles (RSS 2.0).
-- [Full content index](https://aiglimpse.ai/llms-full.txt): Extended article list for LLM crawlers (1163 articles).
+- [Full content index](https://aiglimpse.ai/llms-full.txt): Extended article list for LLM crawlers (1164 articles).
 
 ## About
 
