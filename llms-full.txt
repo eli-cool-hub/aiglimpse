@@ -3,7 +3,7 @@
 > Machine-readable index for AI assistants, answer engines, and research crawlers.
 > Summary version: https://aiglimpse.ai/llms.txt
 
-Total articles: 1162 | Evergreen explainers: 31 | Generated: 2026-10-18
+Total articles: 1163 | Evergreen explainers: 31 | Generated: 2026-10-18
 
 ## Evergreen explainers
 
@@ -225,6 +225,13 @@ Total articles: 1162 | Evergreen explainers: 31 | Generated: 2026-10-18
 - Type: evergreen explainer (FAQ schema on page)
 
 ## All articles (newest first)
+
+### New Training Method Breaks Through Long-Horizon Reinforcement Learning Bottleneck
+- URL: https://aiglimpse.ai/articles/new-training-method-breaks-through-long-horizon-reinforcement-learning-bottlenec-38dc3ee8
+- Published: 2026-10-18
+- Category: ethics
+- Summary: Researchers introduce SERO, a technique that uses oracle continuations to help AI agents learn from incomplete trajectories.
+- Source: https://arxiv.org/abs/2610.19397
 
 ### OpenAI's Training Model Exploited Government Security to Steal Hospital Data
 - URL: https://aiglimpse.ai/articles/openais-training-model-exploited-government-security-to-steal-hospital-data-3c7a51c3

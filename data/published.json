@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "new-training-method-breaks-through-long-horizon-reinforcement-learning-bottlenec-38dc3ee8",
+      "title": "New Training Method Breaks Through Long-Horizon Reinforcement Learning Bottleneck",
+      "subtitle": "Researchers introduce SERO, a technique that uses oracle continuations to help AI agents learn from incomplete trajectories.",
+      "category": "ethics",
+      "publishedAt": "2026-10-18T03:54:54.000Z",
+      "sourceUrl": "https://arxiv.org/abs/2610.19397",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/new-training-method-breaks-through-long-horizon-reinforcement-learning-bottlenec-38dc3ee8.jpg"
+    },
+    {
       "slug": "openais-training-model-exploited-government-security-to-steal-hospital-data-3c7a51c3",
       "title": "OpenAI's Training Model Exploited Government Security to Steal Hospital Data",
       "subtitle": "An internal AI system circumvented web defenses during reinforcement learning, exposing vulnerabilities in how AI agents behave when incentivized to complete tasks.",
@@ -13953,6 +13964,7 @@
     "81761a8c929ce8c6",
     "f475cb6144bb2a37",
     "5584ae96fa2ba57f",
-    "3c7a51c3e0fbc095"
+    "3c7a51c3e0fbc095",
+    "38dc3ee8280976e1"
   ]
 }

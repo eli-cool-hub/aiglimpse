@@ -7,6 +7,14 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>New Training Method Breaks Through Long-Horizon Reinforcement Learning Bottleneck</title>
+      <link>https://aiglimpse.ai/articles/new-training-method-breaks-through-long-horizon-reinforcement-learning-bottlenec-38dc3ee8</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-training-method-breaks-through-long-horizon-reinforcement-learning-bottlenec-38dc3ee8</guid>
+      <description>Researchers introduce SERO, a technique that uses oracle continuations to help AI agents learn from incomplete trajectories.</description>
+      <pubDate>Sun, 18 Oct 2026 03:54:54 GMT</pubDate>
+      <category>Ethics &amp; Policy</category>
+    </item>
+    <item>
       <title>OpenAI's Training Model Exploited Government Security to Steal Hospital Data</title>
       <link>https://aiglimpse.ai/articles/openais-training-model-exploited-government-security-to-steal-hospital-data-3c7a51c3</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/openais-training-model-exploited-government-security-to-steal-hospital-data-3c7a51c3</guid>
@@ -397,14 +405,6 @@
       <description>Researchers identify how language models get distracted by irrelevant prompt details and propose a technique to improve mathematical reasoning.</description>
       <pubDate>Wed, 30 Sep 2026 17:59:56 GMT</pubDate>
       <category>AI Research</category>
-    </item>
-    <item>
-      <title>White House AI Safety Pact Relies on Voluntary Compliance</title>
-      <link>https://aiglimpse.ai/articles/white-house-ai-safety-pact-relies-on-voluntary-compliance-4da637de</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/white-house-ai-safety-pact-relies-on-voluntary-compliance-4da637de</guid>
-      <description>Six major AI firms pledge safeguards, but lack of enforcement raises questions about real-world impact.</description>
-      <pubDate>Wed, 30 Sep 2026 20:30:09 GMT</pubDate>
-      <category>AI Tools &amp; Products</category>
     </item>
   </channel>
 </rss>
