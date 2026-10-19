@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "why-americans-and-chinese-have-radically-different-views-of-ai-c396405f",
+      "title": "Why Americans and Chinese have radically different views of AI",
+      "subtitle": "A vast trust gap between nations reflects deeper philosophical divides about how technology should fit into society.",
+      "category": "ethics",
+      "publishedAt": "2026-10-18T21:12:01.000Z",
+      "sourceUrl": "https://foreignpolicy.com/2026/08/11/ai-china-us-data-center-opposition-regulation-trump-xi-summit/",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/why-americans-and-chinese-have-radically-different-views-of-ai-c396405f.jpg"
+    },
+    {
       "slug": "new-training-method-lifts-robot-generalization-to-276-fcd63434",
       "title": "New Training Method Lifts Robot Generalization to 27.6%",
       "subtitle": "CoDA framework shows how co-evolving simulators and policies can dramatically improve robot performance on unfamiliar tasks.",
@@ -13977,6 +13988,7 @@
     "5584ae96fa2ba57f",
     "3c7a51c3e0fbc095",
     "38dc3ee8280976e1",
-    "fcd63434e151ecfa"
+    "fcd63434e151ecfa",
+    "c396405fc086a5d7"
   ]
 }

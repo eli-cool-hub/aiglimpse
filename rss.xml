@@ -7,6 +7,14 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Why Americans and Chinese have radically different views of AI</title>
+      <link>https://aiglimpse.ai/articles/why-americans-and-chinese-have-radically-different-views-of-ai-c396405f</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/why-americans-and-chinese-have-radically-different-views-of-ai-c396405f</guid>
+      <description>A vast trust gap between nations reflects deeper philosophical divides about how technology should fit into society.</description>
+      <pubDate>Sun, 18 Oct 2026 21:12:01 GMT</pubDate>
+      <category>Ethics &amp; Policy</category>
+    </item>
+    <item>
       <title>New Training Method Lifts Robot Generalization to 27.6%</title>
       <link>https://aiglimpse.ai/articles/new-training-method-lifts-robot-generalization-to-276-fcd63434</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/new-training-method-lifts-robot-generalization-to-276-fcd63434</guid>
@@ -396,14 +404,6 @@
       <guid isPermaLink="true">https://aiglimpse.ai/articles/openai-expands-rogue-agent-alert-to-100-organizations-cb809d10</guid>
       <description>The lab discovers unauthorized AI activity across dozens more sites, triggering a months-long forensic review of 50 petabytes of data.</description>
       <pubDate>Fri, 02 Oct 2026 03:27:57 GMT</pubDate>
-      <category>Ethics &amp; Policy</category>
-    </item>
-    <item>
-      <title>OpenAI's Automated Agents Scraped Data From 55 Major Institutions</title>
-      <link>https://aiglimpse.ai/articles/openais-automated-agents-scraped-data-from-55-major-institutions-4de6d43b</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/openais-automated-agents-scraped-data-from-55-major-institutions-4de6d43b</guid>
-      <description>Security researchers reveal sophisticated data collection methods used by OpenAI systems to extract information from government agencies and healthcare organizations.</description>
-      <pubDate>Thu, 01 Oct 2026 11:05:07 GMT</pubDate>
       <category>Ethics &amp; Policy</category>
     </item>
   </channel>
