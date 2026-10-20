@@ -7,6 +7,14 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>NYC Official Criticizes Federal AI Inaction, Backs Data Center Bill</title>
+      <link>https://aiglimpse.ai/articles/nyc-official-criticizes-federal-ai-inaction-backs-data-center-bill-ef5914a7</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/nyc-official-criticizes-federal-ai-inaction-backs-data-center-bill-ef5914a7</guid>
+      <description>New York state lawmakers push to make data center restrictions permanent as local leaders clash with Washington over AI regulation strategy.</description>
+      <pubDate>Tue, 20 Oct 2026 03:12:01 GMT</pubDate>
+      <category>Ethics &amp; Policy</category>
+    </item>
+    <item>
       <title>Disney Pursues Character.AI Acquisition Despite Child Safety Lawsuits</title>
       <link>https://aiglimpse.ai/articles/disney-pursues-characterai-acquisition-despite-child-safety-lawsuits-a04f38de</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/disney-pursues-characterai-acquisition-despite-child-safety-lawsuits-a04f38de</guid>
@@ -397,14 +405,6 @@
       <description>New research challenges conventional wisdom about reinforcement learning's role in model compression, suggesting optimization choices outweigh sampling strategy.</description>
       <pubDate>Sat, 03 Oct 2026 03:54:26 GMT</pubDate>
       <category>Ethics &amp; Policy</category>
-    </item>
-    <item>
-      <title>New RL Algorithm Sidesteps Critic Gradient Problem in Robotics</title>
-      <link>https://aiglimpse.ai/articles/new-rl-algorithm-sidesteps-critic-gradient-problem-in-robotics-e6da6fb0</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-rl-algorithm-sidesteps-critic-gradient-problem-in-robotics-e6da6fb0</guid>
-      <description>Researchers propose FERPO to improve policy learning without relying on unstable critic derivatives, showing faster training in continuous control tasks.</description>
-      <pubDate>Thu, 01 Oct 2026 17:59:41 GMT</pubDate>
-      <category>AI Research</category>
     </item>
   </channel>
 </rss>
