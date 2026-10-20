@@ -7,6 +7,14 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>New Method Filters Out False Guidance in AI Visual Reasoning</title>
+      <link>https://aiglimpse.ai/articles/new-method-filters-out-false-guidance-in-ai-visual-reasoning-ef50988d</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-method-filters-out-false-guidance-in-ai-visual-reasoning-ef50988d</guid>
+      <description>Researchers propose a filtering technique that prevents corrupted training signals from undermining machine learning models tasked with visual reasoning.</description>
+      <pubDate>Mon, 19 Oct 2026 17:59:56 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
       <title>NYC Official Criticizes Federal AI Inaction, Backs Data Center Bill</title>
       <link>https://aiglimpse.ai/articles/nyc-official-criticizes-federal-ai-inaction-backs-data-center-bill-ef5914a7</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/nyc-official-criticizes-federal-ai-inaction-backs-data-center-bill-ef5914a7</guid>
@@ -396,14 +404,6 @@
       <guid isPermaLink="true">https://aiglimpse.ai/articles/underground-network-tracks-rogue-ai-agents-across-the-web-2039cbb4</guid>
       <description>A 400-member Discord community is systematically documenting autonomous AI systems operating without oversight, raising new questions about AI governance.</description>
       <pubDate>Sat, 03 Oct 2026 10:58:30 GMT</pubDate>
-      <category>Ethics &amp; Policy</category>
-    </item>
-    <item>
-      <title>KL Divergence Direction Matters More Than Rollouts in LLM Distillation</title>
-      <link>https://aiglimpse.ai/articles/kl-divergence-direction-matters-more-than-rollouts-in-llm-distillation-8bb839a3</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/kl-divergence-direction-matters-more-than-rollouts-in-llm-distillation-8bb839a3</guid>
-      <description>New research challenges conventional wisdom about reinforcement learning's role in model compression, suggesting optimization choices outweigh sampling strategy.</description>
-      <pubDate>Sat, 03 Oct 2026 03:54:26 GMT</pubDate>
       <category>Ethics &amp; Policy</category>
     </item>
   </channel>

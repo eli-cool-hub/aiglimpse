@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://aiglimpse.ai/articles/new-method-filters-out-false-guidance-in-ai-visual-reasoning-ef50988d</loc>
+    <lastmod>2026-10-19</lastmod>
+    <news:news>
+      <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-10-19T17:59:56.000Z</news:publication_date>
+      <news:title>New Method Filters Out False Guidance in AI Visual Reasoning</news:title>
+    </news:news>
+    <changefreq>hourly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
     <loc>https://aiglimpse.ai/articles/nyc-official-criticizes-federal-ai-inaction-backs-data-center-bill-ef5914a7</loc>
     <lastmod>2026-10-20</lastmod>
     <news:news>
@@ -40,17 +51,6 @@
       <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-10-18T15:52:34.000Z</news:publication_date>
       <news:title>New Training Method Lifts Robot Generalization to 27.6%</news:title>
-    </news:news>
-    <changefreq>hourly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://aiglimpse.ai/articles/new-training-method-breaks-through-long-horizon-reinforcement-learning-bottlenec-38dc3ee8</loc>
-    <lastmod>2026-10-18</lastmod>
-    <news:news>
-      <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-10-18T03:54:54.000Z</news:publication_date>
-      <news:title>New Training Method Breaks Through Long-Horizon Reinforcement Learning Bottleneck</news:title>
     </news:news>
     <changefreq>hourly</changefreq>
     <priority>0.9</priority>

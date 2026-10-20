@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "new-method-filters-out-false-guidance-in-ai-visual-reasoning-ef50988d",
+      "title": "New Method Filters Out False Guidance in AI Visual Reasoning",
+      "subtitle": "Researchers propose a filtering technique that prevents corrupted training signals from undermining machine learning models tasked with visual reasoning.",
+      "category": "research",
+      "publishedAt": "2026-10-19T17:59:56.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2610.26856v1",
+      "sourceName": "arXiv (Shiao Xie, Siyu Chen, Jianwei Lv, Xiandong Li, Yujin Wang)",
+      "sourceTier": 1,
+      "image": "/images/articles/new-method-filters-out-false-guidance-in-ai-visual-reasoning-ef50988d.jpg"
+    },
+    {
       "slug": "nyc-official-criticizes-federal-ai-inaction-backs-data-center-bill-ef5914a7",
       "title": "NYC Official Criticizes Federal AI Inaction, Backs Data Center Bill",
       "subtitle": "New York state lawmakers push to make data center restrictions permanent as local leaders clash with Washington over AI regulation strategy.",
@@ -14013,6 +14024,7 @@
     "fcd63434e151ecfa",
     "c396405fc086a5d7",
     "a04f38deb879c72a",
-    "ef5914a7df2556bc"
+    "ef5914a7df2556bc",
+    "ef50988d53e49193"
   ]
 }
