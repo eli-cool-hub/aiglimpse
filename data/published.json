@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "altman-outlines-three-paths-for-ai-superintelligence-race-b2c8e747",
+      "title": "Altman Outlines Three Paths for AI Superintelligence Race",
+      "subtitle": "OpenAI leadership maps potential endgames for artificial general intelligence competition, ranging from international oversight to corporate consolidation.",
+      "category": "ethics",
+      "publishedAt": "2026-10-20T18:42:29.000Z",
+      "sourceUrl": "https://www.theinformation.com/articles/altman-describes-three-endgames-ai-including-one-single-firm-melts-everyone-elses-gpus",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/altman-outlines-three-paths-for-ai-superintelligence-race-b2c8e747.jpg"
+    },
+    {
       "slug": "internal-watchdogs-wont-solve-ai-safety-hugging-face-warns-431dcc93",
       "title": "Internal Watchdogs Won't Solve AI Safety, Hugging Face Warns",
       "subtitle": "The push for embedded evaluators inside AI labs faces fundamental challenges that oversight alone cannot overcome.",
@@ -14037,6 +14048,7 @@
     "a04f38deb879c72a",
     "ef5914a7df2556bc",
     "ef50988d53e49193",
-    "431dcc935f9741fe"
+    "431dcc935f9741fe",
+    "b2c8e747f8f7af64"
   ]
 }
