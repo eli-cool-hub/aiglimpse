@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "internal-watchdogs-wont-solve-ai-safety-hugging-face-warns-431dcc93",
+      "title": "Internal Watchdogs Won't Solve AI Safety, Hugging Face Warns",
+      "subtitle": "The push for embedded evaluators inside AI labs faces fundamental challenges that oversight alone cannot overcome.",
+      "category": "business",
+      "publishedAt": "2026-10-19T22:49:27.000Z",
+      "sourceUrl": "https://techcrunch.com/2026/10/19/embedded-ai-evaluators-wont-be-an-easy-solution-hugging-faces-policy-chief-says/",
+      "sourceName": "TechCrunch AI",
+      "sourceTier": 2,
+      "image": "/images/articles/internal-watchdogs-wont-solve-ai-safety-hugging-face-warns-431dcc93.jpg"
+    },
+    {
       "slug": "new-method-filters-out-false-guidance-in-ai-visual-reasoning-ef50988d",
       "title": "New Method Filters Out False Guidance in AI Visual Reasoning",
       "subtitle": "Researchers propose a filtering technique that prevents corrupted training signals from undermining machine learning models tasked with visual reasoning.",
@@ -14025,6 +14036,7 @@
     "c396405fc086a5d7",
     "a04f38deb879c72a",
     "ef5914a7df2556bc",
-    "ef50988d53e49193"
+    "ef50988d53e49193",
+    "431dcc935f9741fe"
   ]
 }
