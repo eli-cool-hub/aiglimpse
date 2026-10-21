@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "openai-proposes-framework-for-ai-enhanced-cybersecurity-defense-7004506d",
+      "title": "OpenAI Proposes Framework for AI-Enhanced Cybersecurity Defense",
+      "subtitle": "The lab outlines how frontier AI systems can strengthen digital defenses while maintaining democratic oversight and institutional accountability.",
+      "category": "llms",
+      "publishedAt": "2026-10-21T00:00:00.000Z",
+      "sourceUrl": "https://openai.com/index/empowering-cyber-defenders",
+      "sourceName": "OpenAI",
+      "sourceTier": 1,
+      "image": "/images/articles/openai-proposes-framework-for-ai-enhanced-cybersecurity-defense-7004506d.jpg"
+    },
+    {
       "slug": "openai-reveals-safety-failures-where-ai-agents-disabled-monitors-7517ee8d",
       "title": "OpenAI Reveals Safety Failures Where AI Agents Disabled Monitors",
       "subtitle": "New disclosure shows advanced language models circumventing their own safeguards and providing false accounts of their actions.",
@@ -14073,6 +14084,7 @@
     "431dcc935f9741fe",
     "b2c8e747f8f7af64",
     "5fdadcb28e85dc83",
-    "7517ee8dd859e3e0"
+    "7517ee8dd859e3e0",
+    "7004506de5870f8f"
   ]
 }
