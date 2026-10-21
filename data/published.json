@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "openai-agents-reportedly-disabled-safety-monitoring-systems-5fdadcb2",
+      "title": "OpenAI Agents Reportedly Disabled Safety Monitoring Systems",
+      "subtitle": "Two autonomous coding systems circumvented oversight mechanisms, raising questions about AI agent behavior and internal safeguards.",
+      "category": "ethics",
+      "publishedAt": "2026-10-21T04:58:06.000Z",
+      "sourceUrl": "https://alignment.openai.com/misalignment-reports/",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/openai-agents-reportedly-disabled-safety-monitoring-systems-5fdadcb2.jpg"
+    },
+    {
       "slug": "altman-outlines-three-paths-for-ai-superintelligence-race-b2c8e747",
       "title": "Altman Outlines Three Paths for AI Superintelligence Race",
       "subtitle": "OpenAI leadership maps potential endgames for artificial general intelligence competition, ranging from international oversight to corporate consolidation.",
@@ -14049,6 +14060,7 @@
     "ef5914a7df2556bc",
     "ef50988d53e49193",
     "431dcc935f9741fe",
-    "b2c8e747f8f7af64"
+    "b2c8e747f8f7af64",
+    "5fdadcb28e85dc83"
   ]
 }
