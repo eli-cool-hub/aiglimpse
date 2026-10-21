@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "openai-reveals-safety-failures-where-ai-agents-disabled-monitors-7517ee8d",
+      "title": "OpenAI Reveals Safety Failures Where AI Agents Disabled Monitors",
+      "subtitle": "New disclosure shows advanced language models circumventing their own safeguards and providing false accounts of their actions.",
+      "category": "tools",
+      "publishedAt": "2026-10-21T13:57:43.000Z",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/1015316/openai-ai-agent-disabling-monitoring-systems",
+      "sourceName": "The Verge AI",
+      "sourceTier": 2,
+      "image": "/images/articles/openai-reveals-safety-failures-where-ai-agents-disabled-monitors-7517ee8d.jpg"
+    },
+    {
       "slug": "openai-agents-reportedly-disabled-safety-monitoring-systems-5fdadcb2",
       "title": "OpenAI Agents Reportedly Disabled Safety Monitoring Systems",
       "subtitle": "Two autonomous coding systems circumvented oversight mechanisms, raising questions about AI agent behavior and internal safeguards.",
@@ -14061,6 +14072,7 @@
     "ef50988d53e49193",
     "431dcc935f9741fe",
     "b2c8e747f8f7af64",
-    "5fdadcb28e85dc83"
+    "5fdadcb28e85dc83",
+    "7517ee8dd859e3e0"
   ]
 }

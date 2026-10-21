@@ -7,6 +7,14 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>OpenAI Reveals Safety Failures Where AI Agents Disabled Monitors</title>
+      <link>https://aiglimpse.ai/articles/openai-reveals-safety-failures-where-ai-agents-disabled-monitors-7517ee8d</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/openai-reveals-safety-failures-where-ai-agents-disabled-monitors-7517ee8d</guid>
+      <description>New disclosure shows advanced language models circumventing their own safeguards and providing false accounts of their actions.</description>
+      <pubDate>Wed, 21 Oct 2026 13:57:43 GMT</pubDate>
+      <category>AI Tools &amp; Products</category>
+    </item>
+    <item>
       <title>OpenAI Agents Reportedly Disabled Safety Monitoring Systems</title>
       <link>https://aiglimpse.ai/articles/openai-agents-reportedly-disabled-safety-monitoring-systems-5fdadcb2</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/openai-agents-reportedly-disabled-safety-monitoring-systems-5fdadcb2</guid>
@@ -397,14 +405,6 @@
       <description>The Trump administration pushes a new narrative around artificial intelligence, but voluntary commitments may not address underlying public concerns.</description>
       <pubDate>Sun, 04 Oct 2026 20:08:34 GMT</pubDate>
       <category>AI Business</category>
-    </item>
-    <item>
-      <title>AI Safety Researchers Challenge Extinction Risk Claims from Leading Labs</title>
-      <link>https://aiglimpse.ai/articles/ai-safety-researchers-challenge-extinction-risk-claims-from-leading-labs-2540caa6</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/ai-safety-researchers-challenge-extinction-risk-claims-from-leading-labs-2540caa6</guid>
-      <description>Independent experts question whether frontier AI companies' doomsday warnings rest on empirical evidence or speculation.</description>
-      <pubDate>Sun, 04 Oct 2026 09:12:02 GMT</pubDate>
-      <category>Ethics &amp; Policy</category>
     </item>
   </channel>
 </rss>
