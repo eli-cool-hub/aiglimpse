@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://aiglimpse.ai/articles/federal-judge-blocks-trump-epa-power-grab-in-data-center-pollution-case-b5009f50</loc>
+    <lastmod>2026-10-21</lastmod>
+    <news:news>
+      <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-10-21T18:20:40.000Z</news:publication_date>
+      <news:title>Federal Judge Blocks Trump EPA Power Grab in Data Center Pollution Case</news:title>
+    </news:news>
+    <changefreq>hourly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
     <loc>https://aiglimpse.ai/articles/openai-charts-new-path-for-disclosing-ai-found-security-flaws-84b1f532</loc>
     <lastmod>2026-10-22</lastmod>
     <news:news>
@@ -62,17 +73,6 @@
       <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-10-21T04:58:06.000Z</news:publication_date>
       <news:title>OpenAI Agents Reportedly Disabled Safety Monitoring Systems</news:title>
-    </news:news>
-    <changefreq>hourly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://aiglimpse.ai/articles/altman-outlines-three-paths-for-ai-superintelligence-race-b2c8e747</loc>
-    <lastmod>2026-10-20</lastmod>
-    <news:news>
-      <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-10-20T18:42:29.000Z</news:publication_date>
-      <news:title>Altman Outlines Three Paths for AI Superintelligence Race</news:title>
     </news:news>
     <changefreq>hourly</changefreq>
     <priority>0.9</priority>
