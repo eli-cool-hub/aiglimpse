@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "ropedias-donic-system-achieves-major-leap-in-dual-arm-robot-control-abb7f464",
+      "title": "Ropedia's DONIC System Achieves Major Leap in Dual-Arm Robot Control",
+      "subtitle": "A unified reinforcement learning model reaches 86.79% accuracy on previously unseen bimanual manipulation tasks, a 9x improvement over existing methods.",
+      "category": "ethics",
+      "publishedAt": "2026-10-22T04:57:36.000Z",
+      "sourceUrl": "https://huggingface.co/papers/2610.29997",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/ropedias-donic-system-achieves-major-leap-in-dual-arm-robot-control-abb7f464.jpg"
+    },
+    {
       "slug": "lightweight-ai-agent-gains-major-performance-boost-through-adaptive-training-08bab7e2",
       "title": "Lightweight AI Agent Gains Major Performance Boost Through Adaptive Training",
       "subtitle": "New method co-trains policy and execution framework together, lifting code-solving accuracy by up to 12.6 percentage points on industry benchmarks.",
@@ -14097,6 +14108,7 @@
     "5fdadcb28e85dc83",
     "7517ee8dd859e3e0",
     "7004506de5870f8f",
-    "08bab7e2424e15e9"
+    "08bab7e2424e15e9",
+    "abb7f464d3ed6cb3"
   ]
 }
