@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "openai-charts-new-path-for-disclosing-ai-found-security-flaws-84b1f532",
+      "title": "OpenAI Charts New Path for Disclosing AI-Found Security Flaws",
+      "subtitle": "The company outlines a coordinated five-stage process after advanced AI models uncovered critical PHP vulnerabilities ahead of malicious actors.",
+      "category": "ethics",
+      "publishedAt": "2026-10-22T11:01:55.000Z",
+      "sourceUrl": "https://www.helpnetsecurity.com/2026/10/22/openai-vulnerability-disclosure-plan/",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/openai-charts-new-path-for-disclosing-ai-found-security-flaws-84b1f532.jpg"
+    },
+    {
       "slug": "ropedias-donic-system-achieves-major-leap-in-dual-arm-robot-control-abb7f464",
       "title": "Ropedia's DONIC System Achieves Major Leap in Dual-Arm Robot Control",
       "subtitle": "A unified reinforcement learning model reaches 86.79% accuracy on previously unseen bimanual manipulation tasks, a 9x improvement over existing methods.",
@@ -14109,6 +14120,7 @@
     "7517ee8dd859e3e0",
     "7004506de5870f8f",
     "08bab7e2424e15e9",
-    "abb7f464d3ed6cb3"
+    "abb7f464d3ed6cb3",
+    "84b1f532086199a9"
   ]
 }
