@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://aiglimpse.ai/articles/lightweight-ai-agent-gains-major-performance-boost-through-adaptive-training-08bab7e2</loc>
+    <lastmod>2026-10-22</lastmod>
+    <news:news>
+      <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-10-22T00:29:28.000Z</news:publication_date>
+      <news:title>Lightweight AI Agent Gains Major Performance Boost Through Adaptive Training</news:title>
+    </news:news>
+    <changefreq>hourly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
     <loc>https://aiglimpse.ai/articles/openai-proposes-framework-for-ai-enhanced-cybersecurity-defense-7004506d</loc>
     <lastmod>2026-10-21</lastmod>
     <news:news>
@@ -40,17 +51,6 @@
       <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-10-20T18:42:29.000Z</news:publication_date>
       <news:title>Altman Outlines Three Paths for AI Superintelligence Race</news:title>
-    </news:news>
-    <changefreq>hourly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://aiglimpse.ai/articles/nyc-official-criticizes-federal-ai-inaction-backs-data-center-bill-ef5914a7</loc>
-    <lastmod>2026-10-20</lastmod>
-    <news:news>
-      <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-10-20T03:12:01.000Z</news:publication_date>
-      <news:title>NYC Official Criticizes Federal AI Inaction, Backs Data Center Bill</news:title>
     </news:news>
     <changefreq>hourly</changefreq>
     <priority>0.9</priority>

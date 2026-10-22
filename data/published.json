@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "lightweight-ai-agent-gains-major-performance-boost-through-adaptive-training-08bab7e2",
+      "title": "Lightweight AI Agent Gains Major Performance Boost Through Adaptive Training",
+      "subtitle": "New method co-trains policy and execution framework together, lifting code-solving accuracy by up to 12.6 percentage points on industry benchmarks.",
+      "category": "ethics",
+      "publishedAt": "2026-10-22T00:29:28.000Z",
+      "sourceUrl": "https://huggingface.co/papers/2610.28069",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/lightweight-ai-agent-gains-major-performance-boost-through-adaptive-training-08bab7e2.jpg"
+    },
+    {
       "slug": "openai-proposes-framework-for-ai-enhanced-cybersecurity-defense-7004506d",
       "title": "OpenAI Proposes Framework for AI-Enhanced Cybersecurity Defense",
       "subtitle": "The lab outlines how frontier AI systems can strengthen digital defenses while maintaining democratic oversight and institutional accountability.",
@@ -14085,6 +14096,7 @@
     "b2c8e747f8f7af64",
     "5fdadcb28e85dc83",
     "7517ee8dd859e3e0",
-    "7004506de5870f8f"
+    "7004506de5870f8f",
+    "08bab7e2424e15e9"
   ]
 }
