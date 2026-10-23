@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "four-legged-robot-autonomously-solves-giant-rubiks-cube-d4295d7c",
+      "title": "Four-Legged Robot Autonomously Solves Giant Rubik's Cube",
+      "subtitle": "Breakthrough demonstrates quadruped robots can perform complex manipulation tasks without human intervention, advancing physical AI capabilities.",
+      "category": "robotics",
+      "publishedAt": "2026-10-23T15:30:02.000Z",
+      "sourceUrl": "https://spectrum.ieee.org/video-friday-rubiks-cube-robot",
+      "sourceName": "IEEE Spectrum Robotics",
+      "sourceTier": 2,
+      "image": "/images/articles/four-legged-robot-autonomously-solves-giant-rubiks-cube-d4295d7c.jpg"
+    },
+    {
       "slug": "openai-and-polands-nask-join-forces-on-ai-safety-research-ace0e82a",
       "title": "OpenAI and Poland's NASK Join Forces on AI Safety Research",
       "subtitle": "The collaboration targets critical vulnerabilities in AI systems while building stronger defenses against emerging risks in the digital landscape.",
@@ -14157,6 +14168,7 @@
     "84b1f532086199a9",
     "b5009f503e753b45",
     "7407a3953211dcb3",
-    "ace0e82a38eca3fa"
+    "ace0e82a38eca3fa",
+    "d4295d7c9d9cfd4a"
   ]
 }
