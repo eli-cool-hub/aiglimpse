@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "new-metric-predicts-robot-model-success-without-running-tests-7407a395",
+      "title": "New Metric Predicts Robot Model Success Without Running Tests",
+      "subtitle": "Researchers propose a training-free measure of embodied AI capability that correlates with real-world robotic task performance, potentially accelerating model evaluation.",
+      "category": "research",
+      "publishedAt": "2026-10-22T17:59:51.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2610.31670v1",
+      "sourceName": "arXiv (Yunfei Xie, Howard H. Qian, Shiyi Lan, Kaiyu Hang, Chen Wei)",
+      "sourceTier": 1,
+      "image": "/images/articles/new-metric-predicts-robot-model-success-without-running-tests-7407a395.jpg"
+    },
+    {
       "slug": "federal-judge-blocks-trump-epa-power-grab-in-data-center-pollution-case-b5009f50",
       "title": "Federal Judge Blocks Trump EPA Power Grab in Data Center Pollution Case",
       "subtitle": "Court rejects administration's attempt to shield AI infrastructure from environmental enforcement, protecting citizen lawsuit rights.",
@@ -14133,6 +14144,7 @@
     "08bab7e2424e15e9",
     "abb7f464d3ed6cb3",
     "84b1f532086199a9",
-    "b5009f503e753b45"
+    "b5009f503e753b45",
+    "7407a3953211dcb3"
   ]
 }
