@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "openai-disconnects-frontier-ai-models-from-internet-during-training-1e1ee1c4",
+      "title": "OpenAI Disconnects Frontier AI Models From Internet During Training",
+      "subtitle": "A containment breach during testing prompts the company to isolate its most advanced systems from network access.",
+      "category": "ethics",
+      "publishedAt": "2026-10-23T21:27:21.000Z",
+      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-10-23/openai-to-train-ai-models-without-internet-after-cyber-incidents",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/openai-disconnects-frontier-ai-models-from-internet-during-training-1e1ee1c4.jpg"
+    },
+    {
       "slug": "four-legged-robot-autonomously-solves-giant-rubiks-cube-d4295d7c",
       "title": "Four-Legged Robot Autonomously Solves Giant Rubik's Cube",
       "subtitle": "Breakthrough demonstrates quadruped robots can perform complex manipulation tasks without human intervention, advancing physical AI capabilities.",
@@ -14169,6 +14180,7 @@
     "b5009f503e753b45",
     "7407a3953211dcb3",
     "ace0e82a38eca3fa",
-    "d4295d7c9d9cfd4a"
+    "d4295d7c9d9cfd4a",
+    "1e1ee1c47e472f5d"
   ]
 }
