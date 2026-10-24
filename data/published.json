@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "google-loosens-privacy-guardrails-on-gmail-data-for-ai-ads-ccfbcd01",
+      "title": "Google Loosens Privacy Guardrails on Gmail Data for AI Ads",
+      "subtitle": "A policy shift tied to Google's new Personal Intelligence service could allow sensitive email content to feed ad targeting algorithms.",
+      "category": "tools",
+      "publishedAt": "2026-10-23T20:19:55.000Z",
+      "sourceUrl": "https://arstechnica.com/gadgets/2026/10/updated-google-privacy-policy-says-your-gmail-might-be-used-for-advertising/",
+      "sourceName": "Ars Technica AI",
+      "sourceTier": 2,
+      "image": "/images/articles/google-loosens-privacy-guardrails-on-gmail-data-for-ai-ads-ccfbcd01.jpg"
+    },
+    {
       "slug": "google-opens-gmail-and-photos-to-ad-targeting-through-ai-feature-16b46bdf",
       "title": "Google Opens Gmail and Photos to Ad Targeting Through AI Feature",
       "subtitle": "The search giant reverses a longstanding privacy commitment by allowing personalized ads based on personal content when users enable its new AI assistant.",
@@ -14205,6 +14216,7 @@
     "d4295d7c9d9cfd4a",
     "1e1ee1c47e472f5d",
     "b87193ab20bb82f9",
-    "16b46bdfb93f8d2c"
+    "16b46bdfb93f8d2c",
+    "ccfbcd01968c32f1"
   ]
 }
