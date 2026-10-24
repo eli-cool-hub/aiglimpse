@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "openai-researchers-challenge-companys-breach-of-trust-rationale-76329cc1",
+      "title": "OpenAI Researchers Challenge Company's 'Breach of Trust' Rationale",
+      "subtitle": "Two fired safety scientists dispute the official narrative around their October dismissal, revealing internal disputes over auditor communications.",
+      "category": "ethics",
+      "publishedAt": "2026-10-24T21:30:32.000Z",
+      "sourceUrl": "https://www.npr.org/2026/10/23/nx-s1-6012298/fired-openai-researchers-give-their-first-interview-since-their-dramatic-dismissal",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/openai-researchers-challenge-companys-breach-of-trust-rationale-76329cc1.jpg"
+    },
+    {
       "slug": "google-loosens-privacy-guardrails-on-gmail-data-for-ai-ads-ccfbcd01",
       "title": "Google Loosens Privacy Guardrails on Gmail Data for AI Ads",
       "subtitle": "A policy shift tied to Google's new Personal Intelligence service could allow sensitive email content to feed ad targeting algorithms.",
@@ -14217,6 +14228,7 @@
     "1e1ee1c47e472f5d",
     "b87193ab20bb82f9",
     "16b46bdfb93f8d2c",
-    "ccfbcd01968c32f1"
+    "ccfbcd01968c32f1",
+    "76329cc1ef998a8a"
   ]
 }
