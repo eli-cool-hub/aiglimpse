@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "google-opens-gmail-and-photos-to-ad-targeting-through-ai-feature-16b46bdf",
+      "title": "Google Opens Gmail and Photos to Ad Targeting Through AI Feature",
+      "subtitle": "The search giant reverses a longstanding privacy commitment by allowing personalized ads based on personal content when users enable its new AI assistant.",
+      "category": "ethics",
+      "publishedAt": "2026-10-24T00:42:45.000Z",
+      "sourceUrl": "https://9to5google.com/2026/10/23/google-will-target-ads-based-on-gmail-photos-data-if-personal-intelligence-is-enabled/",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/google-opens-gmail-and-photos-to-ad-targeting-through-ai-feature-16b46bdf.jpg"
+    },
+    {
       "slug": "uk-launches-100m-ai-biosecurity-lab-with-openai-anthropic-b87193ab",
       "title": "UK Launches £100M AI Biosecurity Lab With OpenAI, Anthropic",
       "subtitle": "Major new facility aims to harness AI capabilities to prevent biological threats, backed by £200M in computing resources from leading AI firms.",
@@ -14193,6 +14204,7 @@
     "ace0e82a38eca3fa",
     "d4295d7c9d9cfd4a",
     "1e1ee1c47e472f5d",
-    "b87193ab20bb82f9"
+    "b87193ab20bb82f9",
+    "16b46bdfb93f8d2c"
   ]
 }
