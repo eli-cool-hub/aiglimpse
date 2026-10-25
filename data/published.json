@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "metas-ai-systems-flag-hundreds-of-violent-threats-to-police-annually-2bb081e2",
+      "title": "Meta's AI Systems Flag Hundreds of Violent Threats to Police Annually",
+      "subtitle": "The social media giant uses machine learning to detect threats of violence across its platforms, including interactions with AI chatbots, in an effort to prevent real-world attacks.",
+      "category": "ethics",
+      "publishedAt": "2026-10-24T18:31:58.000Z",
+      "sourceUrl": "https://www.newyorker.com/news/the-lede/inside-metas-efforts-to-prevent-school-shootings",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/metas-ai-systems-flag-hundreds-of-violent-threats-to-police-annually-2bb081e2.jpg"
+    },
+    {
       "slug": "openai-researchers-challenge-companys-breach-of-trust-rationale-76329cc1",
       "title": "OpenAI Researchers Challenge Company's 'Breach of Trust' Rationale",
       "subtitle": "Two fired safety scientists dispute the official narrative around their October dismissal, revealing internal disputes over auditor communications.",
@@ -14229,6 +14240,7 @@
     "b87193ab20bb82f9",
     "16b46bdfb93f8d2c",
     "ccfbcd01968c32f1",
-    "76329cc1ef998a8a"
+    "76329cc1ef998a8a",
+    "2bb081e26b658e5f"
   ]
 }

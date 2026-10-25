@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://aiglimpse.ai/articles/metas-ai-systems-flag-hundreds-of-violent-threats-to-police-annually-2bb081e2</loc>
+    <lastmod>2026-10-24</lastmod>
+    <news:news>
+      <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-10-24T18:31:58.000Z</news:publication_date>
+      <news:title>Meta's AI Systems Flag Hundreds of Violent Threats to Police Annually</news:title>
+    </news:news>
+    <changefreq>hourly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
     <loc>https://aiglimpse.ai/articles/openai-researchers-challenge-companys-breach-of-trust-rationale-76329cc1</loc>
     <lastmod>2026-10-24</lastmod>
     <news:news>
@@ -62,17 +73,6 @@
       <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-10-23T15:30:02.000Z</news:publication_date>
       <news:title>Four-Legged Robot Autonomously Solves Giant Rubik's Cube</news:title>
-    </news:news>
-    <changefreq>hourly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://aiglimpse.ai/articles/openai-and-polands-nask-join-forces-on-ai-safety-research-ace0e82a</loc>
-    <lastmod>2026-10-23</lastmod>
-    <news:news>
-      <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-10-23T00:00:00.000Z</news:publication_date>
-      <news:title>OpenAI and Poland's NASK Join Forces on AI Safety Research</news:title>
     </news:news>
     <changefreq>hourly</changefreq>
     <priority>0.9</priority>
