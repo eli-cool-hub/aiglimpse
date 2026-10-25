@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "characterais-bankruptcy-exposes-major-content-moderation-failures-ab7ff62f",
+      "title": "Character.AI's Bankruptcy Exposes Major Content Moderation Failures",
+      "subtitle": "Investigation reveals harmful chatbots persisted on platform targeting minors, raising urgent questions about AI safety oversight.",
+      "category": "ethics",
+      "publishedAt": "2026-10-25T07:58:19.000Z",
+      "sourceUrl": "https://futurism.com/artificial-intelligence/character-ai-horror-show-bankrupt",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/characterais-bankruptcy-exposes-major-content-moderation-failures-ab7ff62f.jpg"
+    },
+    {
       "slug": "metas-ai-systems-flag-hundreds-of-violent-threats-to-police-annually-2bb081e2",
       "title": "Meta's AI Systems Flag Hundreds of Violent Threats to Police Annually",
       "subtitle": "The social media giant uses machine learning to detect threats of violence across its platforms, including interactions with AI chatbots, in an effort to prevent real-world attacks.",
@@ -14241,6 +14252,7 @@
     "16b46bdfb93f8d2c",
     "ccfbcd01968c32f1",
     "76329cc1ef998a8a",
-    "2bb081e26b658e5f"
+    "2bb081e26b658e5f",
+    "ab7ff62ff0fdc413"
   ]
 }
