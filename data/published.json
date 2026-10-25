@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "brazilian-court-challenges-metas-ai-content-moderation-in-election-20394603",
+      "title": "Brazilian Court Challenges Meta's AI Content Moderation in Election",
+      "subtitle": "Regulators order Meta to stop restricting political content as AI image generation tools show bias in campaign material.",
+      "category": "ethics",
+      "publishedAt": "2026-10-25T09:34:58.000Z",
+      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-10-24/meta-unseats-musk-as-tech-villain-for-lula-in-brazil-s-election",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/brazilian-court-challenges-metas-ai-content-moderation-in-election-20394603.jpg"
+    },
+    {
       "slug": "characterais-bankruptcy-exposes-major-content-moderation-failures-ab7ff62f",
       "title": "Character.AI's Bankruptcy Exposes Major Content Moderation Failures",
       "subtitle": "Investigation reveals harmful chatbots persisted on platform targeting minors, raising urgent questions about AI safety oversight.",
@@ -14253,6 +14264,7 @@
     "ccfbcd01968c32f1",
     "76329cc1ef998a8a",
     "2bb081e26b658e5f",
-    "ab7ff62ff0fdc413"
+    "ab7ff62ff0fdc413",
+    "20394603237d9e28"
   ]
 }
