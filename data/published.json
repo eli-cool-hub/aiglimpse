@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "hospital-ai-cuts-chart-completion-time-by-nearly-40-percent-0f178846",
+      "title": "Hospital AI Cuts Chart Completion Time by Nearly 40 Percent",
+      "subtitle": "Jefferson Health's ambient documentation system reclaims significant clinician time while maintaining patient satisfaction metrics.",
+      "category": "industry",
+      "publishedAt": "2026-10-23T21:08:55.000Z",
+      "sourceUrl": "https://www.beckershospitalreview.com/healthcare-information-technology/ai/jefferson-healths-ambient-ai-users-closed-charts-up-to-39-faster/",
+      "sourceName": "Becker's Hospital Review",
+      "sourceTier": 2,
+      "image": "/images/articles/hospital-ai-cuts-chart-completion-time-by-nearly-40-percent-0f178846.jpg"
+    },
+    {
       "slug": "brazilian-court-challenges-metas-ai-content-moderation-in-election-20394603",
       "title": "Brazilian Court Challenges Meta's AI Content Moderation in Election",
       "subtitle": "Regulators order Meta to stop restricting political content as AI image generation tools show bias in campaign material.",
@@ -14265,6 +14276,7 @@
     "76329cc1ef998a8a",
     "2bb081e26b658e5f",
     "ab7ff62ff0fdc413",
-    "20394603237d9e28"
+    "20394603237d9e28",
+    "0f1788466d79b84d"
   ]
 }
