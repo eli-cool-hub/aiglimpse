@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "language-bias-in-ai-models-creates-steep-cost-disparity-for-non-english-users-f683f901",
+      "title": "Language Bias in AI Models Creates Steep Cost Disparity for Non-English Users",
+      "subtitle": "New research reveals developers using non-English languages face token expenses up to 17 times higher, raising concerns about global AI equity.",
+      "category": "ethics",
+      "publishedAt": "2026-10-26T21:27:23.000Z",
+      "sourceUrl": "https://restofworld.org/2026/ai-tokenizer-tax-non-english-languages-cost-inequity/",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/language-bias-in-ai-models-creates-steep-cost-disparity-for-non-english-users-f683f901.jpg"
+    },
+    {
       "slug": "new-map-exposes-global-network-behind-ai-data-labeling-9e6c5b2c",
       "title": "New Map Exposes Global Network Behind AI Data Labeling",
       "subtitle": "Interactive visualization reveals how 141 companies rely on 13 contractors across developing nations to train artificial intelligence systems.",
@@ -14313,6 +14324,7 @@
     "0f1788466d79b84d",
     "151668187b66554b",
     "a04e4ffc15adc27b",
-    "9e6c5b2cb64262e5"
+    "9e6c5b2cb64262e5",
+    "f683f901d610cc75"
   ]
 }
