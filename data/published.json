@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "new-map-exposes-global-network-behind-ai-data-labeling-9e6c5b2c",
+      "title": "New Map Exposes Global Network Behind AI Data Labeling",
+      "subtitle": "Interactive visualization reveals how 141 companies rely on 13 contractors across developing nations to train artificial intelligence systems.",
+      "category": "ethics",
+      "publishedAt": "2026-10-26T15:29:00.000Z",
+      "sourceUrl": "https://www.brown.edu/news/2026-10-26/ai-data-workers",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/new-map-exposes-global-network-behind-ai-data-labeling-9e6c5b2c.jpg"
+    },
+    {
       "slug": "global-ai-access-gap-threatens-to-widen-economic-inequality-a04e4ffc",
       "title": "Global AI Access Gap Threatens to Widen Economic Inequality",
       "subtitle": "UN telecommunications official warns that unequal AI adoption could deepen economic divides between developed and developing nations.",
@@ -14301,6 +14312,7 @@
     "20394603237d9e28",
     "0f1788466d79b84d",
     "151668187b66554b",
-    "a04e4ffc15adc27b"
+    "a04e4ffc15adc27b",
+    "9e6c5b2cb64262e5"
   ]
 }
