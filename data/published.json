@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "global-ai-access-gap-threatens-to-widen-economic-inequality-a04e4ffc",
+      "title": "Global AI Access Gap Threatens to Widen Economic Inequality",
+      "subtitle": "UN telecommunications official warns that unequal AI adoption could deepen economic divides between developed and developing nations.",
+      "category": "ethics",
+      "publishedAt": "2026-10-26T02:00:41.000Z",
+      "sourceUrl": "https://aljazeera.com/news/2026/10/25/ais-opportunity-divide-could-deepen-global-inequality-un-official-warns",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/global-ai-access-gap-threatens-to-widen-economic-inequality-a04e4ffc.jpg"
+    },
+    {
       "slug": "ai-data-center-construction-delays-now-cost-5m-daily-spurring-insurance-innovati-15166818",
       "title": "AI Data Center Construction Delays Now Cost $5M Daily, Spurring Insurance Innovation",
       "subtitle": "Skyrocketing penalty clauses for late delivery of AI infrastructure are forcing developers to seek specialized coverage as the sector races to meet demand.",
@@ -14289,6 +14300,7 @@
     "ab7ff62ff0fdc413",
     "20394603237d9e28",
     "0f1788466d79b84d",
-    "151668187b66554b"
+    "151668187b66554b",
+    "a04e4ffc15adc27b"
   ]
 }
