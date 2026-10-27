@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "adversarial-inputs-pose-hidden-risk-to-robot-safety-systems-61eecae3",
+      "title": "Adversarial Inputs Pose Hidden Risk to Robot Safety Systems",
+      "subtitle": "Security researchers reveal how manipulated sensor data can bypass the protective mechanisms designed to keep robots from harming humans.",
+      "category": "research",
+      "publishedAt": "2026-10-27T16:14:39.000Z",
+      "sourceUrl": "https://spectrum.ieee.org/ai-robot-safety-cybersecurity-vicone",
+      "sourceName": "IEEE Spectrum AI",
+      "sourceTier": 2,
+      "image": "/images/articles/adversarial-inputs-pose-hidden-risk-to-robot-safety-systems-61eecae3.jpg"
+    },
+    {
       "slug": "self-improving-ai-system-outperforms-human-designed-skills-in-benchmark-deb9d00b",
       "title": "Self-Improving AI System Outperforms Human-Designed Skills in Benchmark",
       "subtitle": "A recursive self-improvement approach shows promise for building AI systems that optimize their own learning mechanisms.",
@@ -14337,6 +14348,7 @@
     "a04e4ffc15adc27b",
     "9e6c5b2cb64262e5",
     "f683f901d610cc75",
-    "deb9d00b6df23b24"
+    "deb9d00b6df23b24",
+    "61eecae3221f3771"
   ]
 }

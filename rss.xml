@@ -7,6 +7,14 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Adversarial Inputs Pose Hidden Risk to Robot Safety Systems</title>
+      <link>https://aiglimpse.ai/articles/adversarial-inputs-pose-hidden-risk-to-robot-safety-systems-61eecae3</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/adversarial-inputs-pose-hidden-risk-to-robot-safety-systems-61eecae3</guid>
+      <description>Security researchers reveal how manipulated sensor data can bypass the protective mechanisms designed to keep robots from harming humans.</description>
+      <pubDate>Tue, 27 Oct 2026 16:14:39 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
       <title>Self-Improving AI System Outperforms Human-Designed Skills in Benchmark</title>
       <link>https://aiglimpse.ai/articles/self-improving-ai-system-outperforms-human-designed-skills-in-benchmark-deb9d00b</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/self-improving-ai-system-outperforms-human-designed-skills-in-benchmark-deb9d00b</guid>
@@ -397,14 +405,6 @@
       <description>New Manhattan facility integrates validated machine learning tools into radiology workflows across multiple specialties.</description>
       <pubDate>Mon, 12 Oct 2026 17:08:39 GMT</pubDate>
       <category>Industry Applications</category>
-    </item>
-    <item>
-      <title>Sakana AI Demonstrates Single Model Excelling Across Solver, Judge, and Optimizer Roles</title>
-      <link>https://aiglimpse.ai/articles/sakana-ai-demonstrates-single-model-excelling-across-solver-judge-and-optimizer-afad2d6e</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/sakana-ai-demonstrates-single-model-excelling-across-solver-judge-and-optimizer-afad2d6e</guid>
-      <description>A 27-billion parameter language model achieves up to 1.6x performance gains by handling multiple task stages without external supervision.</description>
-      <pubDate>Mon, 12 Oct 2026 00:30:01 GMT</pubDate>
-      <category>Ethics &amp; Policy</category>
     </item>
   </channel>
 </rss>
