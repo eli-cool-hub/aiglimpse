@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "self-improving-ai-system-outperforms-human-designed-skills-in-benchmark-deb9d00b",
+      "title": "Self-Improving AI System Outperforms Human-Designed Skills in Benchmark",
+      "subtitle": "A recursive self-improvement approach shows promise for building AI systems that optimize their own learning mechanisms.",
+      "category": "ethics",
+      "publishedAt": "2026-10-27T06:45:31.000Z",
+      "sourceUrl": "https://arxiv.org/abs/2610.35434",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/self-improving-ai-system-outperforms-human-designed-skills-in-benchmark-deb9d00b.jpg"
+    },
+    {
       "slug": "language-bias-in-ai-models-creates-steep-cost-disparity-for-non-english-users-f683f901",
       "title": "Language Bias in AI Models Creates Steep Cost Disparity for Non-English Users",
       "subtitle": "New research reveals developers using non-English languages face token expenses up to 17 times higher, raising concerns about global AI equity.",
@@ -14325,6 +14336,7 @@
     "151668187b66554b",
     "a04e4ffc15adc27b",
     "9e6c5b2cb64262e5",
-    "f683f901d610cc75"
+    "f683f901d610cc75",
+    "deb9d00b6df23b24"
   ]
 }

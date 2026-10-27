@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://aiglimpse.ai/articles/self-improving-ai-system-outperforms-human-designed-skills-in-benchmark-deb9d00b</loc>
+    <lastmod>2026-10-27</lastmod>
+    <news:news>
+      <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-10-27T06:45:31.000Z</news:publication_date>
+      <news:title>Self-Improving AI System Outperforms Human-Designed Skills in Benchmark</news:title>
+    </news:news>
+    <changefreq>hourly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
     <loc>https://aiglimpse.ai/articles/language-bias-in-ai-models-creates-steep-cost-disparity-for-non-english-users-f683f901</loc>
     <lastmod>2026-10-26</lastmod>
     <news:news>
@@ -40,28 +51,6 @@
       <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-10-25T19:57:24.000Z</news:publication_date>
       <news:title>AI Data Center Construction Delays Now Cost $5M Daily, Spurring Insurance Innovation</news:title>
-    </news:news>
-    <changefreq>hourly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://aiglimpse.ai/articles/brazilian-court-challenges-metas-ai-content-moderation-in-election-20394603</loc>
-    <lastmod>2026-10-25</lastmod>
-    <news:news>
-      <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-10-25T09:34:58.000Z</news:publication_date>
-      <news:title>Brazilian Court Challenges Meta's AI Content Moderation in Election</news:title>
-    </news:news>
-    <changefreq>hourly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://aiglimpse.ai/articles/characterais-bankruptcy-exposes-major-content-moderation-failures-ab7ff62f</loc>
-    <lastmod>2026-10-25</lastmod>
-    <news:news>
-      <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-10-25T07:58:19.000Z</news:publication_date>
-      <news:title>Character.AI's Bankruptcy Exposes Major Content Moderation Failures</news:title>
     </news:news>
     <changefreq>hourly</changefreq>
     <priority>0.9</priority>
