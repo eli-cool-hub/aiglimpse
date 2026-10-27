@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "ftc-escalates-ai-safety-investigation-with-executive-testimony-demands-aa743df4",
+      "title": "FTC Escalates AI Safety Investigation with Executive Testimony Demands",
+      "subtitle": "Federal regulators are intensifying scrutiny of Anthropic's safety practices as the AI startup approaches public markets.",
+      "category": "ethics",
+      "publishedAt": "2026-10-27T21:35:55.000Z",
+      "sourceUrl": "https://www.axios.com/2026/10/26/ftc-ai-safety-probe-anthropic-openai",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/ftc-escalates-ai-safety-investigation-with-executive-testimony-demands-aa743df4.jpg"
+    },
+    {
       "slug": "adversarial-inputs-pose-hidden-risk-to-robot-safety-systems-61eecae3",
       "title": "Adversarial Inputs Pose Hidden Risk to Robot Safety Systems",
       "subtitle": "Security researchers reveal how manipulated sensor data can bypass the protective mechanisms designed to keep robots from harming humans.",
@@ -14349,6 +14360,7 @@
     "9e6c5b2cb64262e5",
     "f683f901d610cc75",
     "deb9d00b6df23b24",
-    "61eecae3221f3771"
+    "61eecae3221f3771",
+    "aa743df44977d82d"
   ]
 }
