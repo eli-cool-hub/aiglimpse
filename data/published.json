@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "training-fix-boosts-ai-models-ability-to-credit-information-sources-a329e980",
+      "title": "Training Fix Boosts AI Models' Ability to Credit Information Sources",
+      "subtitle": "New research shows frontier AI systems rarely cite external influences, but targeted training can improve attribution accuracy to near-human levels.",
+      "category": "ethics",
+      "publishedAt": "2026-10-28T02:02:24.000Z",
+      "sourceUrl": "https://huggingface.co/papers/2610.35295",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/training-fix-boosts-ai-models-ability-to-credit-information-sources-a329e980.jpg"
+    },
+    {
       "slug": "ftc-escalates-ai-safety-investigation-with-executive-testimony-demands-aa743df4",
       "title": "FTC Escalates AI Safety Investigation with Executive Testimony Demands",
       "subtitle": "Federal regulators are intensifying scrutiny of Anthropic's safety practices as the AI startup approaches public markets.",
@@ -14361,6 +14372,7 @@
     "f683f901d610cc75",
     "deb9d00b6df23b24",
     "61eecae3221f3771",
-    "aa743df44977d82d"
+    "aa743df44977d82d",
+    "a329e980119d2627"
   ]
 }
