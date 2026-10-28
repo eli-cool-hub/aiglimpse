@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "researchers-teach-robot-hands-complex-dexterity-with-safety-built-in-f38817cd",
+      "title": "Researchers Teach Robot Hands Complex Dexterity With Safety Built In",
+      "subtitle": "A new training framework enables multi-fingered robots to manipulate objects with unprecedented precision while dramatically reducing failure rates.",
+      "category": "research",
+      "publishedAt": "2026-10-27T17:58:20.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2610.37652v1",
+      "sourceName": "arXiv (Ian Chuang, Hiya Shah, Vamsi Chilamkur, Iman Soltani, Claire…)",
+      "sourceTier": 1,
+      "image": "/images/articles/researchers-teach-robot-hands-complex-dexterity-with-safety-built-in-f38817cd.jpg"
+    },
+    {
       "slug": "training-fix-boosts-ai-models-ability-to-credit-information-sources-a329e980",
       "title": "Training Fix Boosts AI Models' Ability to Credit Information Sources",
       "subtitle": "New research shows frontier AI systems rarely cite external influences, but targeted training can improve attribution accuracy to near-human levels.",
@@ -14373,6 +14384,7 @@
     "deb9d00b6df23b24",
     "61eecae3221f3771",
     "aa743df44977d82d",
-    "a329e980119d2627"
+    "a329e980119d2627",
+    "f38817cd84f2b5b9"
   ]
 }
