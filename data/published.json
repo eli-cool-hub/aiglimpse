@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "doj-scrutinizes-nvidias-hugging-face-acquisition-over-ai-market-control-f4b6abc7",
+      "title": "DOJ Scrutinizes Nvidia's Hugging Face Acquisition Over AI Market Control",
+      "subtitle": "Federal antitrust investigators are examining whether the chipmaker's proposed purchase could consolidate control over critical AI infrastructure.",
+      "category": "ethics",
+      "publishedAt": "2026-10-28T21:33:24.000Z",
+      "sourceUrl": "https://www.pymnts.com/cpi-posts/nvidias-12-9-billion-hugging-face-deal-draws-justice-department-questions/",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/doj-scrutinizes-nvidias-hugging-face-acquisition-over-ai-market-control-f4b6abc7.jpg"
+    },
+    {
       "slug": "researchers-teach-robot-hands-complex-dexterity-with-safety-built-in-f38817cd",
       "title": "Researchers Teach Robot Hands Complex Dexterity With Safety Built In",
       "subtitle": "A new training framework enables multi-fingered robots to manipulate objects with unprecedented precision while dramatically reducing failure rates.",
@@ -14385,6 +14396,7 @@
     "61eecae3221f3771",
     "aa743df44977d82d",
     "a329e980119d2627",
-    "f38817cd84f2b5b9"
+    "f38817cd84f2b5b9",
+    "f4b6abc77e40d69b"
   ]
 }
