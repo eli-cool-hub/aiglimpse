@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "openai-and-servicenow-deepen-integration-across-enterprise-systems-ede17f87",
+      "title": "OpenAI and ServiceNow Deepen Integration Across Enterprise Systems",
+      "subtitle": "The expanded partnership embeds AI models into ServiceNow's workflow platform while connecting enterprise tools to ChatGPT, reshaping how businesses automate complex operations.",
+      "category": "llms",
+      "publishedAt": "2026-10-28T13:15:00.000Z",
+      "sourceUrl": "https://openai.com/index/openai-servicenow-partnership-expansion",
+      "sourceName": "OpenAI",
+      "sourceTier": 1,
+      "image": "/images/articles/openai-and-servicenow-deepen-integration-across-enterprise-systems-ede17f87.jpg"
+    },
+    {
       "slug": "doj-scrutinizes-nvidias-hugging-face-acquisition-over-ai-market-control-f4b6abc7",
       "title": "DOJ Scrutinizes Nvidia's Hugging Face Acquisition Over AI Market Control",
       "subtitle": "Federal antitrust investigators are examining whether the chipmaker's proposed purchase could consolidate control over critical AI infrastructure.",
@@ -14397,6 +14408,7 @@
     "aa743df44977d82d",
     "a329e980119d2627",
     "f38817cd84f2b5b9",
-    "f4b6abc77e40d69b"
+    "f4b6abc77e40d69b",
+    "ede17f8757d28e7a"
   ]
 }
