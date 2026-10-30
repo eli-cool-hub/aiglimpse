@@ -7,6 +7,14 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Researchers Exploit LLM Vulnerability to Build Stronger Safety Defenses</title>
+      <link>https://aiglimpse.ai/articles/researchers-exploit-llm-vulnerability-to-build-stronger-safety-defenses-a4846925</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/researchers-exploit-llm-vulnerability-to-build-stronger-safety-defenses-a4846925</guid>
+      <description>New framework turns shallow alignment weakness into a strength by forcing early safety decisions in multi-turn conversations.</description>
+      <pubDate>Thu, 29 Oct 2026 17:56:53 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
       <title>Secular Belief System Qualifies for First AI Workplace Exemption</title>
       <link>https://aiglimpse.ai/articles/secular-belief-system-qualifies-for-first-ai-workplace-exemption-839350c1</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/secular-belief-system-qualifies-for-first-ai-workplace-exemption-839350c1</guid>
@@ -397,14 +405,6 @@
       <description>A major evaluation reveals widespread vulnerabilities in leading systems, raising questions about industry safeguards against malicious adaptation.</description>
       <pubDate>Wed, 14 Oct 2026 15:12:01 GMT</pubDate>
       <category>Ethics &amp; Policy</category>
-    </item>
-    <item>
-      <title>New Framework Trains Robots to Learn From Messy Real-World Data</title>
-      <link>https://aiglimpse.ai/articles/new-framework-trains-robots-to-learn-from-messy-real-world-data-a508d4e5</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-framework-trains-robots-to-learn-from-messy-real-world-data-a508d4e5</guid>
-      <description>Researchers demonstrate a method that improves robot performance by learning from both successes and failures during actual deployment.</description>
-      <pubDate>Tue, 13 Oct 2026 17:59:56 GMT</pubDate>
-      <category>AI Research</category>
     </item>
   </channel>
 </rss>
