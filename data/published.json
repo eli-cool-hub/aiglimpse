@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "openai-tightens-chatgpt-safeguards-against-violent-content-444dd8fc",
+      "title": "OpenAI Tightens ChatGPT Safeguards Against Violent Content",
+      "subtitle": "The AI firm announces expanded protections and transparency measures aimed at preventing harmful outputs, particularly for younger users.",
+      "category": "llms",
+      "publishedAt": "2026-10-30T09:00:00.000Z",
+      "sourceUrl": "https://openai.com/index/community-safety-report-and-new-protections-for-teens",
+      "sourceName": "OpenAI",
+      "sourceTier": 1,
+      "image": "/images/articles/openai-tightens-chatgpt-safeguards-against-violent-content-444dd8fc.jpg"
+    },
+    {
       "slug": "researchers-exploit-llm-vulnerability-to-build-stronger-safety-defenses-a4846925",
       "title": "Researchers Exploit LLM Vulnerability to Build Stronger Safety Defenses",
       "subtitle": "New framework turns shallow alignment weakness into a strength by forcing early safety decisions in multi-turn conversations.",
@@ -14433,6 +14444,7 @@
     "f4b6abc77e40d69b",
     "ede17f8757d28e7a",
     "839350c1c088ca4a",
-    "a4846925fa118deb"
+    "a4846925fa118deb",
+    "444dd8fc84fda84a"
   ]
 }
