@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "court-clears-path-for-naacp-challenge-to-xai-data-center-5bb6c924",
+      "title": "Court Clears Path for NAACP Challenge to xAI Data Center",
+      "subtitle": "Environmental lawsuit alleging Clean Air Act violations by Elon Musk's AI firm advances to next phase, raising questions about industrial impact of AI infrastructure.",
+      "category": "business",
+      "publishedAt": "2026-10-31T21:17:03.000Z",
+      "sourceUrl": "https://techcrunch.com/2026/10/31/judge-allows-naacp-lawsuit-over-xai-data-center-pollution-to-move-forward/",
+      "sourceName": "TechCrunch AI",
+      "sourceTier": 2,
+      "image": "/images/articles/court-clears-path-for-naacp-challenge-to-xai-data-center-5bb6c924.jpg"
+    },
+    {
       "slug": "theranos-whistleblower-warns-ais-opacity-creates-perfect-cover-for-fraud-8f1bfea5",
       "title": "Theranos Whistleblower Warns AI's Opacity Creates Perfect Cover for Fraud",
       "subtitle": "Tyler Shultz argues the difficulty of auditing AI systems makes them ideal vehicles for deception, echoing lessons from the blood-testing scandal.",
@@ -14481,6 +14492,7 @@
     "444dd8fc84fda84a",
     "ae831a247253a1b7",
     "8f36bc6a22637b46",
-    "8f1bfea588cbc0ac"
+    "8f1bfea588cbc0ac",
+    "5bb6c924bbb79349"
   ]
 }
