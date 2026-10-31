@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "federal-agencies-seek-to-align-with-states-on-clinical-ai-rules-ae831a24",
+      "title": "Federal Agencies Seek to Align With States on Clinical AI Rules",
+      "subtitle": "FDA and CMS are negotiating regulatory boundaries with states to prevent confusion as autonomous AI systems enter medical practice.",
+      "category": "ethics",
+      "publishedAt": "2026-10-30T22:57:11.000Z",
+      "sourceUrl": "https://www.statnews.com/2026/10/30/fda-cms-health-ai-regulation-state-sandboxes-run-into-federal-rules/",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/federal-agencies-seek-to-align-with-states-on-clinical-ai-rules-ae831a24.jpg"
+    },
+    {
       "slug": "openai-tightens-chatgpt-safeguards-against-violent-content-444dd8fc",
       "title": "OpenAI Tightens ChatGPT Safeguards Against Violent Content",
       "subtitle": "The AI firm announces expanded protections and transparency measures aimed at preventing harmful outputs, particularly for younger users.",
@@ -14445,6 +14456,7 @@
     "ede17f8757d28e7a",
     "839350c1c088ca4a",
     "a4846925fa118deb",
-    "444dd8fc84fda84a"
+    "444dd8fc84fda84a",
+    "ae831a247253a1b7"
   ]
 }
