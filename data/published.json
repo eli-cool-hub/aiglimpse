@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "openai-proposes-regulatory-framework-for-advanced-ai-model-deployment-8cda9f4a",
+      "title": "OpenAI Proposes Regulatory Framework for Advanced AI Model Deployment",
+      "subtitle": "The company plans a major policy push after midterms, advocating for new safeguards on the most capable AI systems.",
+      "category": "ethics",
+      "publishedAt": "2026-11-01T22:58:03.000Z",
+      "sourceUrl": "https://www.axios.com/2026/11/01/scoop-openai-post-midterm-policy",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/openai-proposes-regulatory-framework-for-advanced-ai-model-deployment-8cda9f4a.jpg"
+    },
+    {
       "slug": "murata-doubles-down-on-ai-chip-components-with-63b-investment-a4b97425",
       "title": "Murata Doubles Down on AI Chip Components With $6.3B Investment",
       "subtitle": "The world's largest ceramic capacitor maker commits to massive production expansion as AI servers drive unprecedented demand for critical hardware components.",
@@ -14505,6 +14516,7 @@
     "8f36bc6a22637b46",
     "8f1bfea588cbc0ac",
     "5bb6c924bbb79349",
-    "a4b97425c4a7acd7"
+    "a4b97425c4a7acd7",
+    "8cda9f4aaa899c4c"
   ]
 }
