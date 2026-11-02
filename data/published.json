@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "massive-deepfake-app-network-evades-store-reviews-with-trojan-design-a7b62b73",
+      "title": "Massive Deepfake App Network Evades Store Reviews With Trojan Design",
+      "subtitle": "Over 400 deceptive applications disguised as innocent tools contained hidden capabilities for generating abusive synthetic media, exposing gaps in platform moderation.",
+      "category": "ethics",
+      "publishedAt": "2026-11-02T12:41:16.000Z",
+      "sourceUrl": "https://www.wired.com/story/hundreds-of-mundane-ai-apps-are-hiding-abusive-deepfake-features/",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/massive-deepfake-app-network-evades-store-reviews-with-trojan-design-a7b62b73.jpg"
+    },
+    {
       "slug": "openai-proposes-regulatory-framework-for-advanced-ai-model-deployment-8cda9f4a",
       "title": "OpenAI Proposes Regulatory Framework for Advanced AI Model Deployment",
       "subtitle": "The company plans a major policy push after midterms, advocating for new safeguards on the most capable AI systems.",
@@ -14517,6 +14528,7 @@
     "8f1bfea588cbc0ac",
     "5bb6c924bbb79349",
     "a4b97425c4a7acd7",
-    "8cda9f4aaa899c4c"
+    "8cda9f4aaa899c4c",
+    "a7b62b738fed1a39"
   ]
 }
