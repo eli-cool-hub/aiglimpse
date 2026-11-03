@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "uk-energy-firm-drax-plans-massive-ai-data-center-expansion-b823f8f3",
+      "title": "UK Energy Firm Drax Plans Massive AI Data Center Expansion",
+      "subtitle": "Three-way partnership targets over 1 gigawatt of capacity in Yorkshire, signaling major infrastructure shift for AI workloads in Europe.",
+      "category": "industry",
+      "publishedAt": "2026-11-03T10:57:07.000Z",
+      "sourceUrl": "https://www.cnbc.com/2026/11/03/brookfield-ai-data-center-yorkshire-drax.html",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/uk-energy-firm-drax-plans-massive-ai-data-center-expansion-b823f8f3.jpg"
+    },
+    {
       "slug": "massive-deepfake-app-network-evades-store-reviews-with-trojan-design-a7b62b73",
       "title": "Massive Deepfake App Network Evades Store Reviews With Trojan Design",
       "subtitle": "Over 400 deceptive applications disguised as innocent tools contained hidden capabilities for generating abusive synthetic media, exposing gaps in platform moderation.",
@@ -14529,6 +14540,7 @@
     "5bb6c924bbb79349",
     "a4b97425c4a7acd7",
     "8cda9f4aaa899c4c",
-    "a7b62b738fed1a39"
+    "a7b62b738fed1a39",
+    "b823f8f3dc9dd926"
   ]
 }
