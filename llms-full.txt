@@ -3,7 +3,7 @@
 > Machine-readable index for AI assistants, answer engines, and research crawlers.
 > Summary version: https://aiglimpse.ai/llms.txt
 
-Total articles: 1212 | Evergreen explainers: 31 | Generated: 2026-11-04
+Total articles: 1213 | Evergreen explainers: 31 | Generated: 2026-11-04
 
 ## Evergreen explainers
 
@@ -225,6 +225,13 @@ Total articles: 1212 | Evergreen explainers: 31 | Generated: 2026-11-04
 - Type: evergreen explainer (FAQ schema on page)
 
 ## All articles (newest first)
+
+### Reinforcement Learning Achieves Millimeter-Precision Robot Control
+- URL: https://aiglimpse.ai/articles/reinforcement-learning-achieves-millimeter-precision-robot-control-ebfccece
+- Published: 2026-11-03
+- Category: research
+- Summary: New PolicyIK system outperforms traditional methods for inverse kinematics, enabling more reliable robot arm manipulation across different hardware platforms.
+- Source: http://arxiv.org/abs/2611.05372v1
 
 ### Anthropic Launches Cryptographic System to Verify AI Model Authenticity
 - URL: https://aiglimpse.ai/articles/anthropic-launches-cryptographic-system-to-verify-ai-model-authenticity-a746bbab

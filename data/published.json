@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "reinforcement-learning-achieves-millimeter-precision-robot-control-ebfccece",
+      "title": "Reinforcement Learning Achieves Millimeter-Precision Robot Control",
+      "subtitle": "New PolicyIK system outperforms traditional methods for inverse kinematics, enabling more reliable robot arm manipulation across different hardware platforms.",
+      "category": "research",
+      "publishedAt": "2026-11-03T18:59:14.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2611.05372v1",
+      "sourceName": "arXiv (Yuhan Liu, Xinqi Liu, Zixuan Dong, Keith W. Ross, Shenji Wan)",
+      "sourceTier": 1,
+      "image": "/images/articles/reinforcement-learning-achieves-millimeter-precision-robot-control-ebfccece.jpg"
+    },
+    {
       "slug": "anthropic-launches-cryptographic-system-to-verify-ai-model-authenticity-a746bbab",
       "title": "Anthropic Launches Cryptographic System to Verify AI Model Authenticity",
       "subtitle": "FlashProve enables providers to mathematically prove AI responses originated from claimed model weights without exposing proprietary parameters.",
@@ -14553,6 +14564,7 @@
     "8cda9f4aaa899c4c",
     "a7b62b738fed1a39",
     "b823f8f3dc9dd926",
-    "a746bbab427eb1fa"
+    "a746bbab427eb1fa",
+    "ebfccece493c559f"
   ]
 }
