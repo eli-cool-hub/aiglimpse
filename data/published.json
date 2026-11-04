@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "open-source-ais-economics-challenge-value-capture-in-a-world-of-free-models-bbd722f6",
+      "title": "Open Source AI's Economics Challenge: Value Capture in a World of Free Models",
+      "subtitle": "As open-source AI becomes mainstream, companies face a fundamental question: how to profit when capable models are freely available.",
+      "category": "business",
+      "publishedAt": "2026-11-04T18:44:57.000Z",
+      "sourceUrl": "https://techcrunch.com/podcast/building-on-open-source-ai-hugging-faces-policy-chief-on-the-costs-risks-and-trade-offs/",
+      "sourceName": "TechCrunch AI",
+      "sourceTier": 2,
+      "image": "/images/articles/open-source-ais-economics-challenge-value-capture-in-a-world-of-free-models-bbd722f6.jpg"
+    },
+    {
       "slug": "reinforcement-learning-achieves-millimeter-precision-robot-control-ebfccece",
       "title": "Reinforcement Learning Achieves Millimeter-Precision Robot Control",
       "subtitle": "New PolicyIK system outperforms traditional methods for inverse kinematics, enabling more reliable robot arm manipulation across different hardware platforms.",
@@ -14565,6 +14576,7 @@
     "a7b62b738fed1a39",
     "b823f8f3dc9dd926",
     "a746bbab427eb1fa",
-    "ebfccece493c559f"
+    "ebfccece493c559f",
+    "bbd722f61f6d5791"
   ]
 }

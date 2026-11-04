@@ -7,6 +7,14 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Open Source AI's Economics Challenge: Value Capture in a World of Free Models</title>
+      <link>https://aiglimpse.ai/articles/open-source-ais-economics-challenge-value-capture-in-a-world-of-free-models-bbd722f6</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/open-source-ais-economics-challenge-value-capture-in-a-world-of-free-models-bbd722f6</guid>
+      <description>As open-source AI becomes mainstream, companies face a fundamental question: how to profit when capable models are freely available.</description>
+      <pubDate>Wed, 04 Nov 2026 18:44:57 GMT</pubDate>
+      <category>AI Business</category>
+    </item>
+    <item>
       <title>Reinforcement Learning Achieves Millimeter-Precision Robot Control</title>
       <link>https://aiglimpse.ai/articles/reinforcement-learning-achieves-millimeter-precision-robot-control-ebfccece</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/reinforcement-learning-achieves-millimeter-precision-robot-control-ebfccece</guid>
@@ -397,14 +405,6 @@
       <description>A vast trust gap between nations reflects deeper philosophical divides about how technology should fit into society.</description>
       <pubDate>Sun, 18 Oct 2026 21:12:01 GMT</pubDate>
       <category>Ethics &amp; Policy</category>
-    </item>
-    <item>
-      <title>New Training Method Lifts Robot Generalization to 27.6%</title>
-      <link>https://aiglimpse.ai/articles/new-training-method-lifts-robot-generalization-to-276-fcd63434</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-training-method-lifts-robot-generalization-to-276-fcd63434</guid>
-      <description>CoDA framework shows how co-evolving simulators and policies can dramatically improve robot performance on unfamiliar tasks.</description>
-      <pubDate>Sun, 18 Oct 2026 15:52:34 GMT</pubDate>
-      <category>Robotics</category>
     </item>
   </channel>
 </rss>
