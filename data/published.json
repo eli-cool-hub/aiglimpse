@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "anthropic-launches-cryptographic-system-to-verify-ai-model-authenticity-a746bbab",
+      "title": "Anthropic Launches Cryptographic System to Verify AI Model Authenticity",
+      "subtitle": "FlashProve enables providers to mathematically prove AI responses originated from claimed model weights without exposing proprietary parameters.",
+      "category": "ethics",
+      "publishedAt": "2026-11-03T21:28:56.000Z",
+      "sourceUrl": "https://www.anthropic.com/research/provable-inference",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/anthropic-launches-cryptographic-system-to-verify-ai-model-authenticity-a746bbab.jpg"
+    },
+    {
       "slug": "uk-energy-firm-drax-plans-massive-ai-data-center-expansion-b823f8f3",
       "title": "UK Energy Firm Drax Plans Massive AI Data Center Expansion",
       "subtitle": "Three-way partnership targets over 1 gigawatt of capacity in Yorkshire, signaling major infrastructure shift for AI workloads in Europe.",
@@ -14541,6 +14552,7 @@
     "a4b97425c4a7acd7",
     "8cda9f4aaa899c4c",
     "a7b62b738fed1a39",
-    "b823f8f3dc9dd926"
+    "b823f8f3dc9dd926",
+    "a746bbab427eb1fa"
   ]
 }
