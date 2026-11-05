@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "apple-deploys-ai-content-moderation-to-shared-icloud-files-04c3fffe",
+      "title": "Apple Deploys AI Content Moderation to Shared iCloud Files",
+      "subtitle": "New automated scanning system targets harmful material in public cloud links, raising questions about scale and accuracy of machine-based enforcement.",
+      "category": "ethics",
+      "publishedAt": "2026-11-04T22:56:12.000Z",
+      "sourceUrl": "https://9to5mac.com/2026/11/04/with-ios-27-3-apple-will-start-checking-icloud-public-links-for-harmful-content/",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/apple-deploys-ai-content-moderation-to-shared-icloud-files-04c3fffe.jpg"
+    },
+    {
       "slug": "open-source-ais-economics-challenge-value-capture-in-a-world-of-free-models-bbd722f6",
       "title": "Open Source AI's Economics Challenge: Value Capture in a World of Free Models",
       "subtitle": "As open-source AI becomes mainstream, companies face a fundamental question: how to profit when capable models are freely available.",
@@ -14577,6 +14588,7 @@
     "b823f8f3dc9dd926",
     "a746bbab427eb1fa",
     "ebfccece493c559f",
-    "bbd722f61f6d5791"
+    "bbd722f61f6d5791",
+    "04c3fffe25e394ad"
   ]
 }
