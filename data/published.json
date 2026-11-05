@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "robots-learn-multiple-tasks-better-through-online-reinforcement-learning-24913e5c",
+      "title": "Robots Learn Multiple Tasks Better Through Online Reinforcement Learning",
+      "subtitle": "New research shows foundation model robots can improve across diverse tasks simultaneously during deployment, challenging assumptions about narrow task adaptation.",
+      "category": "research",
+      "publishedAt": "2026-11-04T18:52:28.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2611.06905v1",
+      "sourceName": "arXiv (Michal Korniak, Marco Bagatella, Ralf Römer, Michal Nauman, …)",
+      "sourceTier": 1,
+      "image": "/images/articles/robots-learn-multiple-tasks-better-through-online-reinforcement-learning-24913e5c.jpg"
+    },
+    {
       "slug": "apple-deploys-ai-content-moderation-to-shared-icloud-files-04c3fffe",
       "title": "Apple Deploys AI Content Moderation to Shared iCloud Files",
       "subtitle": "New automated scanning system targets harmful material in public cloud links, raising questions about scale and accuracy of machine-based enforcement.",
@@ -14589,6 +14600,7 @@
     "a746bbab427eb1fa",
     "ebfccece493c559f",
     "bbd722f61f6d5791",
-    "04c3fffe25e394ad"
+    "04c3fffe25e394ad",
+    "24913e5c1cf462df"
   ]
 }

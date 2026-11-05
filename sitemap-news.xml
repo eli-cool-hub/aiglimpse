@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://aiglimpse.ai/articles/robots-learn-multiple-tasks-better-through-online-reinforcement-learning-24913e5c</loc>
+    <lastmod>2026-11-04</lastmod>
+    <news:news>
+      <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-11-04T18:52:28.000Z</news:publication_date>
+      <news:title>Robots Learn Multiple Tasks Better Through Online Reinforcement Learning</news:title>
+    </news:news>
+    <changefreq>hourly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
     <loc>https://aiglimpse.ai/articles/apple-deploys-ai-content-moderation-to-shared-icloud-files-04c3fffe</loc>
     <lastmod>2026-11-04</lastmod>
     <news:news>
@@ -40,17 +51,6 @@
       <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-11-03T21:28:56.000Z</news:publication_date>
       <news:title>Anthropic Launches Cryptographic System to Verify AI Model Authenticity</news:title>
-    </news:news>
-    <changefreq>hourly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://aiglimpse.ai/articles/uk-energy-firm-drax-plans-massive-ai-data-center-expansion-b823f8f3</loc>
-    <lastmod>2026-11-03</lastmod>
-    <news:news>
-      <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-11-03T10:57:07.000Z</news:publication_date>
-      <news:title>UK Energy Firm Drax Plans Massive AI Data Center Expansion</news:title>
     </news:news>
     <changefreq>hourly</changefreq>
     <priority>0.9</priority>
