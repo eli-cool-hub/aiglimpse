@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "new-ai-system-rates-cyclist-safety-in-real-time-using-handlebar-cameras-3d8f57d4",
+      "title": "New AI System Rates Cyclist Safety in Real Time Using Handlebar Cameras",
+      "subtitle": "Researchers combine vision models and explainable machine learning to continuously monitor perceived hazards on urban routes, offering planners quantifiable infrastructure impact metrics.",
+      "category": "research",
+      "publishedAt": "2026-11-05T18:33:58.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2611.08441v1",
+      "sourceName": "arXiv (Hongsen Cao, Chia-Yen Chiang, Mona Jaber, Meihui Wang, Yasmi…)",
+      "sourceTier": 1,
+      "image": "/images/articles/new-ai-system-rates-cyclist-safety-in-real-time-using-handlebar-cameras-3d8f57d4.jpg"
+    },
+    {
       "slug": "new-research-reveals-how-large-step-sizes-change-adversarial-training-dynamics-1c05db85",
       "title": "New Research Reveals How Large Step Sizes Change Adversarial Training Dynamics",
       "subtitle": "Study shows gradient descent behaves fundamentally differently when hardening AI models against attacks, with implications for training efficiency.",
@@ -14613,6 +14624,7 @@
     "bbd722f61f6d5791",
     "04c3fffe25e394ad",
     "24913e5c1cf462df",
-    "1c05db85ac952437"
+    "1c05db85ac952437",
+    "3d8f57d4778fbc6c"
   ]
 }

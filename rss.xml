@@ -7,6 +7,14 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>New AI System Rates Cyclist Safety in Real Time Using Handlebar Cameras</title>
+      <link>https://aiglimpse.ai/articles/new-ai-system-rates-cyclist-safety-in-real-time-using-handlebar-cameras-3d8f57d4</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-ai-system-rates-cyclist-safety-in-real-time-using-handlebar-cameras-3d8f57d4</guid>
+      <description>Researchers combine vision models and explainable machine learning to continuously monitor perceived hazards on urban routes, offering planners quantifiable infrastructure impact metrics.</description>
+      <pubDate>Thu, 05 Nov 2026 18:33:58 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
       <title>New Research Reveals How Large Step Sizes Change Adversarial Training Dynamics</title>
       <link>https://aiglimpse.ai/articles/new-research-reveals-how-large-step-sizes-change-adversarial-training-dynamics-1c05db85</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/new-research-reveals-how-large-step-sizes-change-adversarial-training-dynamics-1c05db85</guid>
@@ -397,14 +405,6 @@
       <description>The push for embedded evaluators inside AI labs faces fundamental challenges that oversight alone cannot overcome.</description>
       <pubDate>Mon, 19 Oct 2026 22:49:27 GMT</pubDate>
       <category>AI Business</category>
-    </item>
-    <item>
-      <title>New Method Filters Out False Guidance in AI Visual Reasoning</title>
-      <link>https://aiglimpse.ai/articles/new-method-filters-out-false-guidance-in-ai-visual-reasoning-ef50988d</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-method-filters-out-false-guidance-in-ai-visual-reasoning-ef50988d</guid>
-      <description>Researchers propose a filtering technique that prevents corrupted training signals from undermining machine learning models tasked with visual reasoning.</description>
-      <pubDate>Mon, 19 Oct 2026 17:59:56 GMT</pubDate>
-      <category>AI Research</category>
     </item>
   </channel>
 </rss>
