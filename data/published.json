@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "doj-charges-three-in-129m-ai-voice-scam-targeting-corporate-executives-83e72ae8",
+      "title": "DOJ Charges Three in $129M AI Voice Scam Targeting Corporate Executives",
+      "subtitle": "Synthetic voice technology used to impersonate CEOs in elaborate fraud scheme demonstrates emerging security vulnerabilities in business communications.",
+      "category": "ethics",
+      "publishedAt": "2026-11-06T19:56:30.000Z",
+      "sourceUrl": "https://www.nbcnews.com/news/us-news/3-foreign-nationals-allegedly-used-ai-mimic-ceos-129m-scheme-doj-says-rcna607818",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/doj-charges-three-in-129m-ai-voice-scam-targeting-corporate-executives-83e72ae8.jpg"
+    },
+    {
       "slug": "new-ai-system-rates-cyclist-safety-in-real-time-using-handlebar-cameras-3d8f57d4",
       "title": "New AI System Rates Cyclist Safety in Real Time Using Handlebar Cameras",
       "subtitle": "Researchers combine vision models and explainable machine learning to continuously monitor perceived hazards on urban routes, offering planners quantifiable infrastructure impact metrics.",
@@ -14625,6 +14636,7 @@
     "04c3fffe25e394ad",
     "24913e5c1cf462df",
     "1c05db85ac952437",
-    "3d8f57d4778fbc6c"
+    "3d8f57d4778fbc6c",
+    "83e72ae8fb737b93"
   ]
 }
