@@ -7,6 +7,14 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>New Research Reveals How Large Step Sizes Change Adversarial Training Dynamics</title>
+      <link>https://aiglimpse.ai/articles/new-research-reveals-how-large-step-sizes-change-adversarial-training-dynamics-1c05db85</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-research-reveals-how-large-step-sizes-change-adversarial-training-dynamics-1c05db85</guid>
+      <description>Study shows gradient descent behaves fundamentally differently when hardening AI models against attacks, with implications for training efficiency.</description>
+      <pubDate>Thu, 05 Nov 2026 18:48:50 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
       <title>Robots Learn Multiple Tasks Better Through Online Reinforcement Learning</title>
       <link>https://aiglimpse.ai/articles/robots-learn-multiple-tasks-better-through-online-reinforcement-learning-24913e5c</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/robots-learn-multiple-tasks-better-through-online-reinforcement-learning-24913e5c</guid>
@@ -397,14 +405,6 @@
       <description>Researchers propose a filtering technique that prevents corrupted training signals from undermining machine learning models tasked with visual reasoning.</description>
       <pubDate>Mon, 19 Oct 2026 17:59:56 GMT</pubDate>
       <category>AI Research</category>
-    </item>
-    <item>
-      <title>NYC Official Criticizes Federal AI Inaction, Backs Data Center Bill</title>
-      <link>https://aiglimpse.ai/articles/nyc-official-criticizes-federal-ai-inaction-backs-data-center-bill-ef5914a7</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/nyc-official-criticizes-federal-ai-inaction-backs-data-center-bill-ef5914a7</guid>
-      <description>New York state lawmakers push to make data center restrictions permanent as local leaders clash with Washington over AI regulation strategy.</description>
-      <pubDate>Tue, 20 Oct 2026 03:12:01 GMT</pubDate>
-      <category>Ethics &amp; Policy</category>
     </item>
   </channel>
 </rss>
