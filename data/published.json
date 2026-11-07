@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "aws-enables-fine-grained-gpu-sharing-on-sagemaker-inference-4a6a3dba",
+      "title": "AWS Enables Fine-Grained GPU Sharing on SageMaker Inference",
+      "subtitle": "Amazon's new GPU partitioning capability allows models to share accelerators, reducing infrastructure costs and improving hardware utilization for ML inference workloads.",
+      "category": "industry",
+      "publishedAt": "2026-11-07T14:01:00.000Z",
+      "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/sagemaker-inference-now-supports-multi-instance-gpu-to-maximize-gpu-utilization-for-model-endpoints/",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/aws-enables-fine-grained-gpu-sharing-on-sagemaker-inference-4a6a3dba.jpg"
+    },
+    {
       "slug": "google-acquires-wyoming-data-center-project-from-crusoe-energy-0dfb4b5d",
       "title": "Google Acquires Wyoming Data Center Project From Crusoe Energy",
       "subtitle": "Tech giant takes direct control of AI infrastructure site after startup fails to secure anchor customers for the $17 billion facility.",
@@ -14649,6 +14660,7 @@
     "1c05db85ac952437",
     "3d8f57d4778fbc6c",
     "83e72ae8fb737b93",
-    "0dfb4b5dc3a39014"
+    "0dfb4b5dc3a39014",
+    "4a6a3dbae0d76a45"
   ]
 }

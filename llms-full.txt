@@ -3,7 +3,7 @@
 > Machine-readable index for AI assistants, answer engines, and research crawlers.
 > Summary version: https://aiglimpse.ai/llms.txt
 
-Total articles: 1220 | Evergreen explainers: 31 | Generated: 2026-11-07
+Total articles: 1221 | Evergreen explainers: 31 | Generated: 2026-11-07
 
 ## Evergreen explainers
 
@@ -225,6 +225,13 @@ Total articles: 1220 | Evergreen explainers: 31 | Generated: 2026-11-07
 - Type: evergreen explainer (FAQ schema on page)
 
 ## All articles (newest first)
+
+### AWS Enables Fine-Grained GPU Sharing on SageMaker Inference
+- URL: https://aiglimpse.ai/articles/aws-enables-fine-grained-gpu-sharing-on-sagemaker-inference-4a6a3dba
+- Published: 2026-11-07
+- Category: industry
+- Summary: Amazon's new GPU partitioning capability allows models to share accelerators, reducing infrastructure costs and improving hardware utilization for ML inference workloads.
+- Source: https://aws.amazon.com/blogs/machine-learning/sagemaker-inference-now-supports-multi-instance-gpu-to-maximize-gpu-utilization-for-model-endpoints/
 
 ### Google Acquires Wyoming Data Center Project From Crusoe Energy
 - URL: https://aiglimpse.ai/articles/google-acquires-wyoming-data-center-project-from-crusoe-energy-0dfb4b5d

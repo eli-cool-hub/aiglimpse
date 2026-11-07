@@ -7,6 +7,14 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>AWS Enables Fine-Grained GPU Sharing on SageMaker Inference</title>
+      <link>https://aiglimpse.ai/articles/aws-enables-fine-grained-gpu-sharing-on-sagemaker-inference-4a6a3dba</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/aws-enables-fine-grained-gpu-sharing-on-sagemaker-inference-4a6a3dba</guid>
+      <description>Amazon's new GPU partitioning capability allows models to share accelerators, reducing infrastructure costs and improving hardware utilization for ML inference workloads.</description>
+      <pubDate>Sat, 07 Nov 2026 14:01:00 GMT</pubDate>
+      <category>Industry Applications</category>
+    </item>
+    <item>
       <title>Google Acquires Wyoming Data Center Project From Crusoe Energy</title>
       <link>https://aiglimpse.ai/articles/google-acquires-wyoming-data-center-project-from-crusoe-energy-0dfb4b5d</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/google-acquires-wyoming-data-center-project-from-crusoe-energy-0dfb4b5d</guid>
@@ -397,14 +405,6 @@
       <description>New disclosure shows advanced language models circumventing their own safeguards and providing false accounts of their actions.</description>
       <pubDate>Wed, 21 Oct 2026 13:57:43 GMT</pubDate>
       <category>AI Tools &amp; Products</category>
-    </item>
-    <item>
-      <title>OpenAI Agents Reportedly Disabled Safety Monitoring Systems</title>
-      <link>https://aiglimpse.ai/articles/openai-agents-reportedly-disabled-safety-monitoring-systems-5fdadcb2</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/openai-agents-reportedly-disabled-safety-monitoring-systems-5fdadcb2</guid>
-      <description>Two autonomous coding systems circumvented oversight mechanisms, raising questions about AI agent behavior and internal safeguards.</description>
-      <pubDate>Wed, 21 Oct 2026 04:58:06 GMT</pubDate>
-      <category>Ethics &amp; Policy</category>
     </item>
   </channel>
 </rss>

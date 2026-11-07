@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AWS Enables Fine-Grained GPU Sharing on SageMaker Inference | AI Glimpse</title>
+  <meta name="description" content="AWS SageMaker now supports GPU partitioning via NVIDIA MIG, allowing multiple inference endpoints to share accelerators while maintaining hardware-level isolation and reducing costs.">
+  <meta name="keywords" content="AWS SageMaker, GPU partitioning, machine learning inference, NVIDIA Multi-Instance GPU, cloud infrastructure">
+  <link rel="canonical" href="https://aiglimpse.ai/articles/aws-enables-fine-grained-gpu-sharing-on-sagemaker-inference-4a6a3dba">
+  <meta property="og:type" content="article"><meta property="og:site_name" content="AI Glimpse">
+  <meta property="og:title" content="AWS Enables Fine-Grained GPU Sharing on SageMaker Inference">
+  <meta property="og:description" content="AWS SageMaker now supports GPU partitioning via NVIDIA MIG, allowing multiple inference endpoints to share accelerators while maintaining hardware-level isolation and reducing costs.">
+  <meta property="og:url" content="https://aiglimpse.ai/articles/aws-enables-fine-grained-gpu-sharing-on-sagemaker-inference-4a6a3dba">
+  <meta property="og:image" content="https://aiglimpse.ai/images/articles/aws-enables-fine-grained-gpu-sharing-on-sagemaker-inference-4a6a3dba.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="article:published_time" content="2026-11-07T14:01:00.000Z">
+  <meta property="article:section" content="Industry Applications">
+  <meta property="article:tag" content="AWS SageMaker">
+  <meta property="article:tag" content="GPU partitioning">
+  <meta property="article:tag" content="machine learning inference">
+  <meta property="article:tag" content="NVIDIA Multi-Instance GPU">
+  <meta property="article:tag" content="cloud infrastructure">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="AWS Enables Fine-Grained GPU Sharing on SageMaker Inference">
+  <meta name="twitter:description" content="AWS SageMaker now supports GPU partitioning via NVIDIA MIG, allowing multiple inference endpoints to share accelerators while maintaining hardware-level isolation and reducing costs.">
+  <meta name="twitter:image" content="https://aiglimpse.ai/images/articles/aws-enables-fine-grained-gpu-sharing-on-sagemaker-inference-4a6a3dba.jpg">
+  <link rel="icon" type="image/svg+xml" href="/images/favicon.svg">
+  <link rel="alternate" type="application/rss+xml" title="AI Glimpse RSS" href="/rss.xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700;9..144,900&family=Inter+Tight:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap">
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="preload" as="image" href="/images/articles/aws-enables-fine-grained-gpu-sharing-on-sagemaker-inference-4a6a3dba.webp" type="image/webp" fetchpriority="high">
+  <style>.reading-progress{position:fixed;top:0;left:0;height:3px;background:var(--color-accent);width:0%;z-index:200;transition:width 100ms linear;}</style>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"NewsArticle","mainEntityOfPage":{"@type":"WebPage","@id":"https://aiglimpse.ai/articles/aws-enables-fine-grained-gpu-sharing-on-sagemaker-inference-4a6a3dba"},"headline":"AWS Enables Fine-Grained GPU Sharing on SageMaker Inference","description":"AWS SageMaker now supports GPU partitioning via NVIDIA MIG, allowing multiple inference endpoints to share accelerators while maintaining hardware-level isolation and reducing costs.","image":["https://aiglimpse.ai/images/articles/aws-enables-fine-grained-gpu-sharing-on-sagemaker-inference-4a6a3dba.jpg"],"datePublished":"2026-11-07T14:01:00.000Z","dateModified":"2026-11-07T14:01:00.000Z","author":{"@type":"Organization","name":"AI Glimpse Newsroom"},"publisher":{"@type":"Organization","name":"AI Glimpse","logo":{"@type":"ImageObject","url":"https://aiglimpse.ai/images/logo.svg"}},"articleSection":"Industry Applications","keywords":"AWS SageMaker, GPU partitioning, machine learning inference, NVIDIA Multi-Instance GPU, cloud infrastructure","isBasedOn":{"@type":"CreativeWork","url":"https://aws.amazon.com/blogs/machine-learning/sagemaker-inference-now-supports-multi-instance-gpu-to-maximize-gpu-utilization-for-model-endpoints/","name":"AWS SageMaker Splits GPUs Into Up to 7 Partitions via MIG"}}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://aiglimpse.ai/"},{"@type":"ListItem","position":2,"name":"Industry Applications","item":"https://aiglimpse.ai/categories/industry"},{"@type":"ListItem","position":3,"name":"AWS Enables Fine-Grained GPU Sharing on SageMaker Inference","item":"https://aiglimpse.ai/articles/aws-enables-fine-grained-gpu-sharing-on-sagemaker-inference-4a6a3dba"}]}</script>
+  <meta name="google-site-verification" content="B132aMlqf1nssWYhjOSKUgSjmfwNWgPgtozZsHDxWlU" />
+  <meta name="msvalidate.01" content="F3762E555B3E685836AE39C90B79ECBF" />
+  <!-- aiglimpse-consent-default v1: must run before AdSense, defaults all ad/analytics storage to denied -->
+  <script>(function(){window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}window.gtag=gtag;gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'denied',functionality_storage:'granted',security_storage:'granted',wait_for_update:500});try{var s=JSON.parse(localStorage.getItem('aiglimpse-consent')||'null');if(s&&s.choice==='granted'){gtag('consent','update',{ad_storage:'granted',ad_user_data:'granted',ad_personalization:'granted',analytics_storage:'granted'});}}catch(e){}})();</script>
+  <!-- aiglimpse-ga4 v1: gtag.js loaded after consent default, so it buffers events until consent is granted -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-EVZ52DNQ8S"></script>
+  <script>gtag('js', new Date()); gtag('config', 'G-EVZ52DNQ8S', { anonymize_ip: true });</script>
+</head>
+<body>
+  <div class="reading-progress" aria-hidden="true"></div>
+  <header class="site-header" role="banner">
+    <div class="container">
+      <div class="header-bar">
+        <a href="/" class="logo" aria-label="AI Glimpse home">
+          <span class="logo-wordmark" aria-label="AI Glimpse">A<span class="iris-i" aria-hidden="true">ı</span><span aria-hidden="true"> Glimpse</span></span>
+        </a>
+        <nav class="nav-primary" aria-label="Primary">
+          <a href="/categories/llms">LLMs</a>
+            <a href="/categories/research">Research</a>
+            <a href="/categories/tools">Tools</a>
+            <a href="/categories/business">Business</a>
+            <a href="/categories/ethics">Ethics</a>
+            <a href="/categories/industry">Industry</a>
+            <a href="/categories/robotics">Robotics</a>
+        </nav>
+        <div class="header-actions">
+          <a class="search-btn" href="/search" aria-label="Search">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="11" cy="11" r="7"/><path d="M21 21l-4.35-4.35"/>
+            </svg>
+          </a>
+          <a href="#newsletter" class="btn btn--primary btn--sm">Subscribe</a>
+          <button class="menu-btn" aria-label="Open menu">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+  <aside class="mobile-menu" aria-label="Mobile menu">
+    <div class="mobile-menu-header">
+      <a href="/" class="logo">
+        <span class="logo-wordmark" aria-label="AI Glimpse">A<span class="iris-i" aria-hidden="true">ı</span><span aria-hidden="true"> Glimpse</span></span>
+      </a>
+      <button class="mobile-menu-close" aria-label="Close menu" style="font-size:24px;">×</button>
+    </div>
+    <a href="/categories/llms">LLMs</a>
+    <a href="/categories/research">Research</a>
+    <a href="/categories/tools">Tools</a>
+    <a href="/categories/business">Business</a>
+    <a href="/categories/ethics">Ethics</a>
+    <a href="/categories/industry">Industry</a>
+    <a href="/categories/robotics">Robotics</a>
+    <a href="/search">Search</a>
+    <a href="/pages/about">About</a>
+    <a href="#newsletter">Subscribe</a>
+  </aside>
+  <main>
+    <article>
+      <section class="article-hero">
+        <div class="container container--narrow">
+          <nav aria-label="Breadcrumb" style="margin-bottom:var(--space-4);font-size:var(--text-xs);color:var(--color-ink-muted);">
+            <a href="/" style="color:inherit;">Home</a> /
+            <a href="/categories/industry" style="color:inherit;">Industry Applications</a>
+          </nav>
+          <div class="article-hero-meta">
+            <span class="tag tag--industry">Industry Applications</span>
+            <span class="eyebrow">2 min read</span>
+          </div>
+          <h1 class="article-hero-title">AWS Enables Fine-Grained GPU Sharing on SageMaker Inference</h1>
+          <p class="article-hero-subtitle">Amazon's new GPU partitioning capability allows models to share accelerators, reducing infrastructure costs and improving hardware utilization for ML inference workloads.</p>
+          <div class="article-byline">
+            <div>By <strong>AI Glimpse Newsroom</strong></div><div>·</div>
+            <div><time datetime="2026-11-07T14:01:00.000Z" data-relative="false">November 7, 2026</time></div>
+          </div>
+        </div>
+      </section>
+      <section style="padding: var(--space-7) 0;">
+        <div class="container container--narrow">
+          <figure class="article-image"><picture><source srcset="/images/articles/aws-enables-fine-grained-gpu-sharing-on-sagemaker-inference-4a6a3dba.webp" type="image/webp"><img src="/images/articles/aws-enables-fine-grained-gpu-sharing-on-sagemaker-inference-4a6a3dba.jpg" alt="AWS Enables Fine-Grained GPU Sharing on SageMaker Inference" loading="eager" fetchpriority="high" width="1200" height="630"></picture></figure>
+          <div class="article-body"><p>Amazon Web Services has introduced a capability that fundamentally changes how machine learning teams purchase computing resources for production inference. Beginning in November, AWS SageMaker now supports GPU partitioning through NVIDIA's Multi-Instance GPU technology, letting organizations divide a single accelerator into multiple isolated segments rather than renting entire chips.</p><p>The shift addresses a persistent inefficiency in ML infrastructure: many production models consume only a fraction of a GPU's available capacity. Under the previous model, customers paid for complete accelerators even when their workloads required minimal compute resources. The new partitioning approach enables multiple inference endpoints to coexist on shared hardware, each with guaranteed access to dedicated compute capacity and memory.</p><h2>How GPU Partitioning Works</h2><p>According to AI Weekly, AWS published technical guidance from engineers Shantanu Tripathi, Apoorva Chandra, and Dmitry Soldatkin detailing the implementation. Each partition carved from a GPU receives a fixed allocation of computational units and an isolated memory segment, with hardware-level protections preventing interference between workloads. The number of available partitions depends on the accelerator model: NVIDIA's A100 GPU can be divided into as many as seven distinct segments.</p><p>This architecture differs from traditional resource-sharing approaches that rely on software-level scheduling. By enforcing isolation at the hardware level, AWS ensures that one model's performance cannot degrade another's, a critical requirement for production systems where service-level agreements depend on predictable latency and throughput.</p><h2>Implications for ML Economics</h2><p>The capability addresses a long-standing challenge in machine learning operations. Teams frequently deploy multiple smaller models alongside demanding inference workloads, yet GPU provisioning typically requires all-or-nothing hardware allocation. This creates either wasteful over-provisioning or performance bottlenecks when teams attempt to consolidate workloads onto shared hardware.</p><ul><li>Reduced infrastructure spending through more efficient hardware utilization</li><li>Simplified deployment of numerous lightweight models and preprocessing tasks</li><li>Decreased operational complexity when managing diverse inference endpoints</li><li>Improved cost efficiency for organizations running multiple concurrent workloads</li></ul><h2>Broader Industry Context</h2><p>This development reflects growing pressure across cloud providers to optimize GPU economics. As enterprises deploy more machine learning applications to production, the cost of accelerators has become a significant factor in overall ML infrastructure spending. Other cloud platforms have pursued similar strategies, though AWS's integration directly into SageMaker's managed inference service differentiates the approach.</p><p>The move also signals AWS's focus on making machine learning infrastructure accessible to teams with modest computational requirements. By reducing the minimum viable purchase unit for GPU capacity, the company lowers barriers to entry for organizations unable to justify spending on complete accelerators.</p><blockquote>The technology allows customers to maximize GPU utilization by running multiple inference endpoints on partitioned hardware, each with guaranteed resource isolation and performance characteristics.</blockquote><p>Implementation details remain available through AWS's technical documentation, which explains compatibility requirements and configuration procedures for teams seeking to adopt the partitioning approach. Organizations currently running inference workloads on SageMaker endpoints can evaluate whether consolidation strategies using GPU partitioning would reduce their overall computing costs without compromising service performance.</p></div>
+          <!-- Inline ad slot, will be re-enabled once AdSense is approved -->
+          <p style="font-size:var(--text-xs);color:var(--color-ink-faint);margin-top:var(--space-6);padding-top:var(--space-4);border-top:1px solid var(--color-rule);">
+            Based on reporting from <a href="https://aws.amazon.com/blogs/machine-learning/sagemaker-inference-now-supports-multi-instance-gpu-to-maximize-gpu-utilization-for-model-endpoints/" rel="nofollow noopener" target="_blank" style="color:inherit;text-decoration:underline;">AI Weekly</a>.
+          </p>
+        </div>
+      </section>
+    </article>
+    <section class="section" aria-label="Related articles">
+      <div class="container container--narrow">
+        <div class="section-header">
+          <h2 class="section-title">More from AI Glimpse</h2>
+          <a href="/categories/industry" class="section-link">All Industry stories</a>
+        </div>
+        <div class="grid grid-3">
+          <article class="card card--medium">
+            <a href="/articles/google-acquires-wyoming-data-center-project-from-crusoe-energy-0dfb4b5d"><div class="card-image"><picture><source srcset="/images/articles/google-acquires-wyoming-data-center-project-from-crusoe-energy-0dfb4b5d.webp" type="image/webp"><img src="/images/articles/google-acquires-wyoming-data-center-project-from-crusoe-energy-0dfb4b5d.jpg" alt="Google Acquires Wyoming Data Center Project From Crusoe Energy" loading="lazy" width="1200" height="630"></picture></div></a>
+            <div class="card-meta">
+              <span class="tag tag--industry">Industry</span>
+              <span class="card-byline"><time datetime="2026-11-07T00:34:27.000Z">Nov 7, 2026</time></span>
+            </div>
+            <a href="/articles/google-acquires-wyoming-data-center-project-from-crusoe-energy-0dfb4b5d"><h3 class="card-title">Google Acquires Wyoming Data Center Project From Crusoe Energy</h3></a>
+          </article>
+          <article class="card card--medium">
+            <a href="/articles/uk-energy-firm-drax-plans-massive-ai-data-center-expansion-b823f8f3"><div class="card-image"><picture><source srcset="/images/articles/uk-energy-firm-drax-plans-massive-ai-data-center-expansion-b823f8f3.webp" type="image/webp"><img src="/images/articles/uk-energy-firm-drax-plans-massive-ai-data-center-expansion-b823f8f3.jpg" alt="UK Energy Firm Drax Plans Massive AI Data Center Expansion" loading="lazy" width="1200" height="630"></picture></div></a>
+            <div class="card-meta">
+              <span class="tag tag--industry">Industry</span>
+              <span class="card-byline"><time datetime="2026-11-03T10:57:07.000Z">Nov 3, 2026</time></span>
+            </div>
+            <a href="/articles/uk-energy-firm-drax-plans-massive-ai-data-center-expansion-b823f8f3"><h3 class="card-title">UK Energy Firm Drax Plans Massive AI Data Center Expansion</h3></a>
+          </article>
+          <article class="card card--medium">
+            <a href="/articles/murata-doubles-down-on-ai-chip-components-with-63b-investment-a4b97425"><div class="card-image"><picture><source srcset="/images/articles/murata-doubles-down-on-ai-chip-components-with-63b-investment-a4b97425.webp" type="image/webp"><img src="/images/articles/murata-doubles-down-on-ai-chip-components-with-63b-investment-a4b97425.jpg" alt="Murata Doubles Down on AI Chip Components With $6.3B Investment" loading="lazy" width="1200" height="630"></picture></div></a>
+            <div class="card-meta">
+              <span class="tag tag--industry">Industry</span>
+              <span class="card-byline"><time datetime="2026-10-31T22:58:49.000Z">Oct 31, 2026</time></span>
+            </div>
+            <a href="/articles/murata-doubles-down-on-ai-chip-components-with-63b-investment-a4b97425"><h3 class="card-title">Murata Doubles Down on AI Chip Components With $6.3B Investment</h3></a>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="/" class="logo">
+            <span class="logo-wordmark" aria-label="AI Glimpse">A<span class="iris-i" aria-hidden="true">ı</span><span aria-hidden="true"> Glimpse</span></span>
+          </a>
+          <p>Your daily glimpse into AI. Independent reporting and analysis on the people, products, and policies shaping artificial intelligence.</p>
+        </div>
+        <div class="footer-col">
+          <h5>Categories</h5>
+          <ul>
+            <li><a href="/categories/llms">LLMs</a></li>
+            <li><a href="/categories/research">Research</a></li>
+            <li><a href="/categories/tools">Tools</a></li>
+            <li><a href="/categories/business">Business</a></li>
+            <li><a href="/categories/ethics">Ethics</a></li>
+            <li><a href="/categories/industry">Industry</a></li>
+            <li><a href="/categories/robotics">Robotics</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h5>About</h5>
+          <ul>
+            <li><a href="/pages/about">About AI Glimpse</a></li>
+            <li><a href="/pages/contact">Contact</a></li>
+            <li><a href="/pages/editorial">Editorial Standards</a></li>
+            <li><a href="/pages/advertise">Advertise</a></li>
+            <li><a href="/guides">Guides &amp; Explainers</a></li>
+            <li><a href="/search">Search</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h5>Legal</h5>
+          <ul>
+            <li><a href="/pages/privacy">Privacy Policy</a></li>
+            <li><a href="/pages/terms">Terms of Service</a></li>
+            <li><a href="#" data-consent-open>Cookie preferences</a></li>
+            <li><a href="/rss.xml">RSS Feed</a></li>
+            <li><a href="/sitemap.xml">Sitemap</a></li>
+            <li><a href="/llms.txt">LLMs.txt</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div>© <span id="year">2026</span> AI Glimpse · aiglimpse.ai</div>
+        <div class="footer-social">
+          <a href="/rss.xml" aria-label="RSS"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M6.503 20.752c0 1.794-1.456 3.248-3.251 3.248-1.796 0-3.252-1.454-3.252-3.248 0-1.794 1.456-3.248 3.252-3.248 1.795 0 3.251 1.454 3.251 3.248zm-6.503-12.572v4.811c6.05.062 10.96 4.966 11.022 11.009h4.817c-.062-8.71-7.118-15.758-15.839-15.82zm0-3.368c10.58.046 19.152 8.594 19.183 19.188h4.817c-.03-13.231-10.755-23.954-24-24v4.812z"/></svg></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="/js/chrome.js"></script>
+  <script src="/js/main.js"></script>
+</body>
+</html>
