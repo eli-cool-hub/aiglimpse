@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "music-rights-holders-challenge-ai-voice-cloning-platform-suno-836b04c3",
+      "title": "Music Rights Holders Challenge AI Voice Cloning Platform Suno",
+      "subtitle": "Legal action over synthetic vocal generation raises questions about AI music tools and artist consent protections.",
+      "category": "ethics",
+      "publishedAt": "2026-11-07T18:39:20.000Z",
+      "sourceUrl": "https://variety.com/2026/music/news/elvis-eminem-sue-suno-ai-music-generator-1236941798/",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/music-rights-holders-challenge-ai-voice-cloning-platform-suno-836b04c3.jpg"
+    },
+    {
       "slug": "aws-enables-fine-grained-gpu-sharing-on-sagemaker-inference-4a6a3dba",
       "title": "AWS Enables Fine-Grained GPU Sharing on SageMaker Inference",
       "subtitle": "Amazon's new GPU partitioning capability allows models to share accelerators, reducing infrastructure costs and improving hardware utilization for ML inference workloads.",
@@ -14661,6 +14672,7 @@
     "3d8f57d4778fbc6c",
     "83e72ae8fb737b93",
     "0dfb4b5dc3a39014",
-    "4a6a3dbae0d76a45"
+    "4a6a3dbae0d76a45",
+    "836b04c350b47999"
   ]
 }
