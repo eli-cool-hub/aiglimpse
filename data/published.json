@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "new-training-method-boosts-ai-agent-performance-across-multiple-tasks-6b0a4c1e",
+      "title": "New Training Method Boosts AI Agent Performance Across Multiple Tasks",
+      "subtitle": "Researchers introduce Harness-S, a reinforcement learning technique that trains agent policies using diverse execution environments to improve real-world deployment.",
+      "category": "ethics",
+      "publishedAt": "2026-11-07T15:56:32.000Z",
+      "sourceUrl": "https://arxiv.org/abs/2611.04277",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/new-training-method-boosts-ai-agent-performance-across-multiple-tasks-6b0a4c1e.jpg"
+    },
+    {
       "slug": "music-rights-holders-challenge-ai-voice-cloning-platform-suno-836b04c3",
       "title": "Music Rights Holders Challenge AI Voice Cloning Platform Suno",
       "subtitle": "Legal action over synthetic vocal generation raises questions about AI music tools and artist consent protections.",
@@ -14673,6 +14684,7 @@
     "83e72ae8fb737b93",
     "0dfb4b5dc3a39014",
     "4a6a3dbae0d76a45",
-    "836b04c350b47999"
+    "836b04c350b47999",
+    "6b0a4c1e98f3ecf4"
   ]
 }
