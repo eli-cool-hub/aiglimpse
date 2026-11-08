@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "anthropic-secures-34b-power-generation-order-to-fuel-ai-expansion-1b5cdc6d",
+      "title": "Anthropic Secures $3.4B Power Generation Order to Fuel AI Expansion",
+      "subtitle": "The AI developer acquires massive generator capacity ahead of competitors, signaling the industry's growing infrastructure demands.",
+      "category": "industry",
+      "publishedAt": "2026-11-08T15:29:53.000Z",
+      "sourceUrl": "https://www.cnbc.com/2026/11/08/anthropic-generator-deal-ai-data-centers.html",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/anthropic-secures-34b-power-generation-order-to-fuel-ai-expansion-1b5cdc6d.jpg"
+    },
+    {
       "slug": "ai-auditors-struggle-with-trade-off-between-catching-misbehavior-and-false-alarm-35e6bb54",
       "title": "AI Auditors Struggle With Trade-off Between Catching Misbehavior and False Alarms",
       "subtitle": "New research reveals a fundamental tension in using AI systems to monitor other AI agents, with accuracy degrading sharply as detection thresholds tighten.",
@@ -14709,6 +14720,7 @@
     "836b04c350b47999",
     "6b0a4c1e98f3ecf4",
     "570388ef2bbead36",
-    "35e6bb54044479a0"
+    "35e6bb54044479a0",
+    "1b5cdc6d671a879a"
   ]
 }
