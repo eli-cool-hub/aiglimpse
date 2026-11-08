@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "ai-auditors-struggle-with-trade-off-between-catching-misbehavior-and-false-alarm-35e6bb54",
+      "title": "AI Auditors Struggle With Trade-off Between Catching Misbehavior and False Alarms",
+      "subtitle": "New research reveals a fundamental tension in using AI systems to monitor other AI agents, with accuracy degrading sharply as detection thresholds tighten.",
+      "category": "ethics",
+      "publishedAt": "2026-11-08T14:01:59.000Z",
+      "sourceUrl": "https://the-decoder.com/ai-auditors-catch-most-agent-misbehavior-but-flood-reviewers-with-false-alarms-new-study-finds/",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/ai-auditors-struggle-with-trade-off-between-catching-misbehavior-and-false-alarm-35e6bb54.jpg"
+    },
+    {
       "slug": "nursing-schools-lag-behind-student-ai-adoption-survey-shows-570388ef",
       "title": "Nursing Schools Lag Behind Student AI Adoption, Survey Shows",
       "subtitle": "As students rapidly integrate AI into their studies, academic programs struggle to develop policies and training for the technology already reshaping clinical education.",
@@ -14697,6 +14708,7 @@
     "4a6a3dbae0d76a45",
     "836b04c350b47999",
     "6b0a4c1e98f3ecf4",
-    "570388ef2bbead36"
+    "570388ef2bbead36",
+    "35e6bb54044479a0"
   ]
 }

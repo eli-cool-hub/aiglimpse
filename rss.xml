@@ -7,6 +7,14 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>AI Auditors Struggle With Trade-off Between Catching Misbehavior and False Alarms</title>
+      <link>https://aiglimpse.ai/articles/ai-auditors-struggle-with-trade-off-between-catching-misbehavior-and-false-alarm-35e6bb54</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/ai-auditors-struggle-with-trade-off-between-catching-misbehavior-and-false-alarm-35e6bb54</guid>
+      <description>New research reveals a fundamental tension in using AI systems to monitor other AI agents, with accuracy degrading sharply as detection thresholds tighten.</description>
+      <pubDate>Sun, 08 Nov 2026 14:01:59 GMT</pubDate>
+      <category>Ethics &amp; Policy</category>
+    </item>
+    <item>
       <title>Nursing Schools Lag Behind Student AI Adoption, Survey Shows</title>
       <link>https://aiglimpse.ai/articles/nursing-schools-lag-behind-student-ai-adoption-survey-shows-570388ef</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/nursing-schools-lag-behind-student-ai-adoption-survey-shows-570388ef</guid>
@@ -396,14 +404,6 @@
       <guid isPermaLink="true">https://aiglimpse.ai/articles/openai-charts-new-path-for-disclosing-ai-found-security-flaws-84b1f532</guid>
       <description>The company outlines a coordinated five-stage process after advanced AI models uncovered critical PHP vulnerabilities ahead of malicious actors.</description>
       <pubDate>Thu, 22 Oct 2026 11:01:55 GMT</pubDate>
-      <category>Ethics &amp; Policy</category>
-    </item>
-    <item>
-      <title>Ropedia's DONIC System Achieves Major Leap in Dual-Arm Robot Control</title>
-      <link>https://aiglimpse.ai/articles/ropedias-donic-system-achieves-major-leap-in-dual-arm-robot-control-abb7f464</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/ropedias-donic-system-achieves-major-leap-in-dual-arm-robot-control-abb7f464</guid>
-      <description>A unified reinforcement learning model reaches 86.79% accuracy on previously unseen bimanual manipulation tasks, a 9x improvement over existing methods.</description>
-      <pubDate>Thu, 22 Oct 2026 04:57:36 GMT</pubDate>
       <category>Ethics &amp; Policy</category>
     </item>
   </channel>
