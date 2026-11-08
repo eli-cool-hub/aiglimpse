@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "nursing-schools-lag-behind-student-ai-adoption-survey-shows-570388ef",
+      "title": "Nursing Schools Lag Behind Student AI Adoption, Survey Shows",
+      "subtitle": "As students rapidly integrate AI into their studies, academic programs struggle to develop policies and training for the technology already reshaping clinical education.",
+      "category": "industry",
+      "publishedAt": "2026-11-06T21:26:09.000Z",
+      "sourceUrl": "https://www.beckershospitalreview.com/quality/nursing/nursing-students-are-using-ai-faster-than-schools-can-govern-it-survey/",
+      "sourceName": "Becker's Hospital Review",
+      "sourceTier": 2,
+      "image": "/images/articles/nursing-schools-lag-behind-student-ai-adoption-survey-shows-570388ef.jpg"
+    },
+    {
       "slug": "new-training-method-boosts-ai-agent-performance-across-multiple-tasks-6b0a4c1e",
       "title": "New Training Method Boosts AI Agent Performance Across Multiple Tasks",
       "subtitle": "Researchers introduce Harness-S, a reinforcement learning technique that trains agent policies using diverse execution environments to improve real-world deployment.",
@@ -14685,6 +14696,7 @@
     "0dfb4b5dc3a39014",
     "4a6a3dbae0d76a45",
     "836b04c350b47999",
-    "6b0a4c1e98f3ecf4"
+    "6b0a4c1e98f3ecf4",
+    "570388ef2bbead36"
   ]
 }
