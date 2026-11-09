@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://aiglimpse.ai/articles/tencent-ai-chief-warns-of-imminent-biological-risks-from-frontier-models-0285f8af</loc>
+    <lastmod>2026-11-09</lastmod>
+    <news:news>
+      <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-11-09T03:27:13.000Z</news:publication_date>
+      <news:title>Tencent AI Chief Warns of Imminent Biological Risks From Frontier Models</news:title>
+    </news:news>
+    <changefreq>hourly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
     <loc>https://aiglimpse.ai/articles/anthropic-secures-34b-power-generation-order-to-fuel-ai-expansion-1b5cdc6d</loc>
     <lastmod>2026-11-08</lastmod>
     <news:news>
@@ -18,17 +29,6 @@
       <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-11-08T14:01:59.000Z</news:publication_date>
       <news:title>AI Auditors Struggle With Trade-off Between Catching Misbehavior and False Alarms</news:title>
-    </news:news>
-    <changefreq>hourly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://aiglimpse.ai/articles/nursing-schools-lag-behind-student-ai-adoption-survey-shows-570388ef</loc>
-    <lastmod>2026-11-06</lastmod>
-    <news:news>
-      <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-11-06T21:26:09.000Z</news:publication_date>
-      <news:title>Nursing Schools Lag Behind Student AI Adoption, Survey Shows</news:title>
     </news:news>
     <changefreq>hourly</changefreq>
     <priority>0.9</priority>
@@ -62,17 +62,6 @@
       <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-11-07T14:01:00.000Z</news:publication_date>
       <news:title>AWS Enables Fine-Grained GPU Sharing on SageMaker Inference</news:title>
-    </news:news>
-    <changefreq>hourly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://aiglimpse.ai/articles/google-acquires-wyoming-data-center-project-from-crusoe-energy-0dfb4b5d</loc>
-    <lastmod>2026-11-07</lastmod>
-    <news:news>
-      <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-11-07T00:34:27.000Z</news:publication_date>
-      <news:title>Google Acquires Wyoming Data Center Project From Crusoe Energy</news:title>
     </news:news>
     <changefreq>hourly</changefreq>
     <priority>0.9</priority>
