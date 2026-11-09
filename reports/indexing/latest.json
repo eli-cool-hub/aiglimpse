@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-08T15:14:44.212Z",
+  "generated_at": "2026-11-09T18:50:51.318Z",
   "site": "https://aiglimpse.ai/",
   "sitemap": "https://aiglimpse.ai/sitemap.xml",
   "sitemaps": [
@@ -8,7 +8,7 @@
     "https://aiglimpse.ai/sitemap-articles.xml",
     "https://aiglimpse.ai/sitemap-news.xml"
   ],
-  "url_count": 1304,
+  "url_count": 1307,
   "inspected_this_run": 220,
   "inspect_timeouts": 0,
   "inspect_http_errors": 0,
@@ -16,9 +16,9 @@
   "indexnow": "ok",
   "summary": {
     "indexed": 450,
-    "waiting": 803,
+    "waiting": 807,
     "not_indexed": 0,
-    "unknown": 51
+    "unknown": 50
   },
   "urls": [
     {
@@ -68,7 +68,7 @@
       "bucket": "indexed",
       "robotsTxtState": "ALLOWED",
       "indexingState": "INDEXING_ALLOWED",
-      "lastCrawlTime": "2026-11-06T08:43:24Z",
+      "lastCrawlTime": "2026-11-08T22:45:34Z",
       "pageFetchState": "SUCCESSFUL"
     },
     {
@@ -88,7 +88,7 @@
       "bucket": "indexed",
       "robotsTxtState": "ALLOWED",
       "indexingState": "INDEXING_ALLOWED",
-      "lastCrawlTime": "2026-11-08T08:41:57Z",
+      "lastCrawlTime": "2026-11-08T21:35:33Z",
       "pageFetchState": "SUCCESSFUL"
     },
     {
@@ -184,8 +184,8 @@
     {
       "url": "/categories/llms-3",
       "verdict": "NEUTRAL",
-      "coverageState": "URL is unknown to Google",
-      "bucket": "unknown",
+      "coverageState": "Discovered - currently not indexed",
+      "bucket": "waiting",
       "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
       "indexingState": "INDEXING_STATE_UNSPECIFIED",
       "lastCrawlTime": null,
@@ -214,8 +214,8 @@
     {
       "url": "/categories/llms-6",
       "verdict": "NEUTRAL",
-      "coverageState": "URL is unknown to Google",
-      "bucket": "unknown",
+      "coverageState": "Discovered - currently not indexed",
+      "bucket": "waiting",
       "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
       "indexingState": "INDEXING_STATE_UNSPECIFIED",
       "lastCrawlTime": null,
@@ -264,8 +264,8 @@
     {
       "url": "/categories/research-5",
       "verdict": "NEUTRAL",
-      "coverageState": "URL is unknown to Google",
-      "bucket": "unknown",
+      "coverageState": "Discovered - currently not indexed",
+      "bucket": "waiting",
       "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
       "indexingState": "INDEXING_STATE_UNSPECIFIED",
       "lastCrawlTime": null,
@@ -324,8 +324,8 @@
     {
       "url": "/categories/research-11",
       "verdict": "NEUTRAL",
-      "coverageState": "URL is unknown to Google",
-      "bucket": "unknown",
+      "coverageState": "Discovered - currently not indexed",
+      "bucket": "waiting",
       "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
       "indexingState": "INDEXING_STATE_UNSPECIFIED",
       "lastCrawlTime": null,
@@ -364,8 +364,8 @@
     {
       "url": "/categories/research-15",
       "verdict": "NEUTRAL",
-      "coverageState": "Discovered - currently not indexed",
-      "bucket": "waiting",
+      "coverageState": "URL is unknown to Google",
+      "bucket": "unknown",
       "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
       "indexingState": "INDEXING_STATE_UNSPECIFIED",
       "lastCrawlTime": null,
@@ -374,8 +374,8 @@
     {
       "url": "/categories/research-16",
       "verdict": "NEUTRAL",
-      "coverageState": "Discovered - currently not indexed",
-      "bucket": "waiting",
+      "coverageState": "URL is unknown to Google",
+      "bucket": "unknown",
       "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
       "indexingState": "INDEXING_STATE_UNSPECIFIED",
       "lastCrawlTime": null,
@@ -384,8 +384,8 @@
     {
       "url": "/categories/research-17",
       "verdict": "NEUTRAL",
-      "coverageState": "URL is unknown to Google",
-      "bucket": "unknown",
+      "coverageState": "Discovered - currently not indexed",
+      "bucket": "waiting",
       "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
       "indexingState": "INDEXING_STATE_UNSPECIFIED",
       "lastCrawlTime": null,
@@ -394,8 +394,8 @@
     {
       "url": "/categories/research-18",
       "verdict": "NEUTRAL",
-      "coverageState": "URL is unknown to Google",
-      "bucket": "unknown",
+      "coverageState": "Discovered - currently not indexed",
+      "bucket": "waiting",
       "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
       "indexingState": "INDEXING_STATE_UNSPECIFIED",
       "lastCrawlTime": null,
@@ -414,8 +414,8 @@
     {
       "url": "/categories/research-20",
       "verdict": "NEUTRAL",
-      "coverageState": "Discovered - currently not indexed",
-      "bucket": "waiting",
+      "coverageState": "URL is unknown to Google",
+      "bucket": "unknown",
       "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
       "indexingState": "INDEXING_STATE_UNSPECIFIED",
       "lastCrawlTime": null,
@@ -444,8 +444,8 @@
     {
       "url": "/categories/tools-4",
       "verdict": "NEUTRAL",
-      "coverageState": "Discovered - currently not indexed",
-      "bucket": "waiting",
+      "coverageState": "URL is unknown to Google",
+      "bucket": "unknown",
       "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
       "indexingState": "INDEXING_STATE_UNSPECIFIED",
       "lastCrawlTime": null,
@@ -454,8 +454,8 @@
     {
       "url": "/categories/tools-5",
       "verdict": "NEUTRAL",
-      "coverageState": "Discovered - currently not indexed",
-      "bucket": "waiting",
+      "coverageState": "URL is unknown to Google",
+      "bucket": "unknown",
       "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
       "indexingState": "INDEXING_STATE_UNSPECIFIED",
       "lastCrawlTime": null,
@@ -464,8 +464,8 @@
     {
       "url": "/categories/tools-6",
       "verdict": "NEUTRAL",
-      "coverageState": "URL is unknown to Google",
-      "bucket": "unknown",
+      "coverageState": "Discovered - currently not indexed",
+      "bucket": "waiting",
       "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
       "indexingState": "INDEXING_STATE_UNSPECIFIED",
       "lastCrawlTime": null,
@@ -494,8 +494,8 @@
     {
       "url": "/categories/tools-9",
       "verdict": "NEUTRAL",
-      "coverageState": "Discovered - currently not indexed",
-      "bucket": "waiting",
+      "coverageState": "URL is unknown to Google",
+      "bucket": "unknown",
       "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
       "indexingState": "INDEXING_STATE_UNSPECIFIED",
       "lastCrawlTime": null,
@@ -524,8 +524,8 @@
     {
       "url": "/categories/tools-12",
       "verdict": "NEUTRAL",
-      "coverageState": "URL is unknown to Google",
-      "bucket": "unknown",
+      "coverageState": "Discovered - currently not indexed",
+      "bucket": "waiting",
       "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
       "indexingState": "INDEXING_STATE_UNSPECIFIED",
       "lastCrawlTime": null,
@@ -574,8 +574,8 @@
     {
       "url": "/categories/business-6",
       "verdict": "NEUTRAL",
-      "coverageState": "Discovered - currently not indexed",
-      "bucket": "waiting",
+      "coverageState": "URL is unknown to Google",
+      "bucket": "unknown",
       "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
       "indexingState": "INDEXING_STATE_UNSPECIFIED",
       "lastCrawlTime": null,
@@ -628,7 +628,7 @@
       "bucket": "indexed",
       "robotsTxtState": "ALLOWED",
       "indexingState": "INDEXING_ALLOWED",
-      "lastCrawlTime": "2026-09-05T10:16:15Z",
+      "lastCrawlTime": "2026-11-08T18:52:59Z",
       "pageFetchState": "SUCCESSFUL"
     },
     {
@@ -684,8 +684,8 @@
     {
       "url": "/categories/ethics-8",
       "verdict": "NEUTRAL",
-      "coverageState": "Discovered - currently not indexed",
-      "bucket": "waiting",
+      "coverageState": "URL is unknown to Google",
+      "bucket": "unknown",
       "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
       "indexingState": "INDEXING_STATE_UNSPECIFIED",
       "lastCrawlTime": null,
@@ -764,8 +764,8 @@
     {
       "url": "/categories/industry-5",
       "verdict": "NEUTRAL",
-      "coverageState": "Discovered - currently not indexed",
-      "bucket": "waiting",
+      "coverageState": "URL is unknown to Google",
+      "bucket": "unknown",
       "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
       "indexingState": "INDEXING_STATE_UNSPECIFIED",
       "lastCrawlTime": null,
@@ -774,8 +774,8 @@
     {
       "url": "/categories/industry-6",
       "verdict": "NEUTRAL",
-      "coverageState": "URL is unknown to Google",
-      "bucket": "unknown",
+      "coverageState": "Discovered - currently not indexed",
+      "bucket": "waiting",
       "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
       "indexingState": "INDEXING_STATE_UNSPECIFIED",
       "lastCrawlTime": null,
@@ -803,6 +803,36 @@
     },
     {
       "url": "/categories/robotics-3",
+      "verdict": "NEUTRAL",
+      "coverageState": "Discovered - currently not indexed",
+      "bucket": "waiting",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "/articles/trump-dismisses-ai-safety-concerns-threatens-unspecified-executive-ada7a7ec",
+      "verdict": "NEUTRAL",
+      "coverageState": "Discovered - currently not indexed",
+      "bucket": "waiting",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "/articles/tencent-ai-chief-warns-of-imminent-biological-risks-from-frontier-models-0285f8af",
+      "verdict": "NEUTRAL",
+      "coverageState": "Discovered - currently not indexed",
+      "bucket": "waiting",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "/articles/anthropic-secures-34b-power-generation-order-to-fuel-ai-expansion-1b5cdc6d",
       "verdict": "NEUTRAL",
       "coverageState": "Discovered - currently not indexed",
       "bucket": "waiting",
@@ -894,8 +924,8 @@
     {
       "url": "/articles/new-research-reveals-how-large-step-sizes-change-adversarial-training-dynamics-1c05db85",
       "verdict": "NEUTRAL",
-      "coverageState": "Discovered - currently not indexed",
-      "bucket": "waiting",
+      "coverageState": "URL is unknown to Google",
+      "bucket": "unknown",
       "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
       "indexingState": "INDEXING_STATE_UNSPECIFIED",
       "lastCrawlTime": null,
@@ -904,8 +934,8 @@
     {
       "url": "/articles/robots-learn-multiple-tasks-better-through-online-reinforcement-learning-24913e5c",
       "verdict": "NEUTRAL",
-      "coverageState": "Discovered - currently not indexed",
-      "bucket": "waiting",
+      "coverageState": "URL is unknown to Google",
+      "bucket": "unknown",
       "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
       "indexingState": "INDEXING_STATE_UNSPECIFIED",
       "lastCrawlTime": null,
@@ -914,8 +944,8 @@
     {
       "url": "/articles/apple-deploys-ai-content-moderation-to-shared-icloud-files-04c3fffe",
       "verdict": "NEUTRAL",
-      "coverageState": "URL is unknown to Google",
-      "bucket": "unknown",
+      "coverageState": "Discovered - currently not indexed",
+      "bucket": "waiting",
       "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
       "indexingState": "INDEXING_STATE_UNSPECIFIED",
       "lastCrawlTime": null,
@@ -1004,8 +1034,8 @@
     {
       "url": "/articles/theranos-whistleblower-warns-ais-opacity-creates-perfect-cover-for-fraud-8f1bfea5",
       "verdict": "NEUTRAL",
-      "coverageState": "URL is unknown to Google",
-      "bucket": "unknown",
+      "coverageState": "Discovered - currently not indexed",
+      "bucket": "waiting",
       "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
       "indexingState": "INDEXING_STATE_UNSPECIFIED",
       "lastCrawlTime": null,
@@ -1054,8 +1084,8 @@
     {
       "url": "/articles/secular-belief-system-qualifies-for-first-ai-workplace-exemption-839350c1",
       "verdict": "NEUTRAL",
-      "coverageState": "Discovered - currently not indexed",
-      "bucket": "waiting",
+      "coverageState": "URL is unknown to Google",
+      "bucket": "unknown",
       "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
       "indexingState": "INDEXING_STATE_UNSPECIFIED",
       "lastCrawlTime": null,
@@ -1064,8 +1094,8 @@
     {
       "url": "/articles/openai-and-servicenow-deepen-integration-across-enterprise-systems-ede17f87",
       "verdict": "NEUTRAL",
-      "coverageState": "Discovered - currently not indexed",
-      "bucket": "waiting",
+      "coverageState": "URL is unknown to Google",
+      "bucket": "unknown",
       "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
       "indexingState": "INDEXING_STATE_UNSPECIFIED",
       "lastCrawlTime": null,
@@ -1074,8 +1104,8 @@
     {
       "url": "/articles/doj-scrutinizes-nvidias-hugging-face-acquisition-over-ai-market-control-f4b6abc7",
       "verdict": "NEUTRAL",
-      "coverageState": "Discovered - currently not indexed",
-      "bucket": "waiting",
+      "coverageState": "URL is unknown to Google",
+      "bucket": "unknown",
       "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
       "indexingState": "INDEXING_STATE_UNSPECIFIED",
       "lastCrawlTime": null,
@@ -1094,8 +1124,8 @@
     {
       "url": "/articles/training-fix-boosts-ai-models-ability-to-credit-information-sources-a329e980",
       "verdict": "NEUTRAL",
-      "coverageState": "Discovered - currently not indexed",
-      "bucket": "waiting",
+      "coverageState": "URL is unknown to Google",
+      "bucket": "unknown",
       "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
       "indexingState": "INDEXING_STATE_UNSPECIFIED",
       "lastCrawlTime": null,
@@ -1104,8 +1134,8 @@
     {
       "url": "/articles/ftc-escalates-ai-safety-investigation-with-executive-testimony-demands-aa743df4",
       "verdict": "NEUTRAL",
-      "coverageState": "URL is unknown to Google",
-      "bucket": "unknown",
+      "coverageState": "Discovered - currently not indexed",
+      "bucket": "waiting",
       "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
       "indexingState": "INDEXING_STATE_UNSPECIFIED",
       "lastCrawlTime": null,
@@ -1184,8 +1214,8 @@
     {
       "url": "/articles/brazilian-court-challenges-metas-ai-content-moderation-in-election-20394603",
       "verdict": "NEUTRAL",
-      "coverageState": "Discovered - currently not indexed",
-      "bucket": "waiting",
+      "coverageState": "URL is unknown to Google",
+      "bucket": "unknown",
       "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
       "indexingState": "INDEXING_STATE_UNSPECIFIED",
       "lastCrawlTime": null,
@@ -1444,8 +1474,8 @@
     {
       "url": "/articles/openais-training-model-exploited-government-security-to-steal-hospital-data-3c7a51c3",
       "verdict": "NEUTRAL",
-      "coverageState": "Discovered - currently not indexed",
-      "bucket": "waiting",
+      "coverageState": "URL is unknown to Google",
+      "bucket": "unknown",
       "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
       "indexingState": "INDEXING_STATE_UNSPECIFIED",
       "lastCrawlTime": null,
@@ -1544,8 +1574,8 @@
     {
       "url": "/articles/new-framework-trains-robots-to-learn-from-messy-real-world-data-a508d4e5",
       "verdict": "NEUTRAL",
-      "coverageState": "URL is unknown to Google",
-      "bucket": "unknown",
+      "coverageState": "Discovered - currently not indexed",
+      "bucket": "waiting",
       "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
       "indexingState": "INDEXING_STATE_UNSPECIFIED",
       "lastCrawlTime": null,
@@ -1574,8 +1604,8 @@
     {
       "url": "/articles/openai-anthropic-sought-publishing-veto-power-over-ai-reviewers-fdef11f6",
       "verdict": "NEUTRAL",
-      "coverageState": "URL is unknown to Google",
-      "bucket": "unknown",
+      "coverageState": "Discovered - currently not indexed",
+      "bucket": "waiting",
       "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
       "indexingState": "INDEXING_STATE_UNSPECIFIED",
       "lastCrawlTime": null,
@@ -1604,8 +1634,8 @@
     {
       "url": "/articles/nyu-langone-deploys-ai-enhanced-imaging-center-on-upper-west-side-9f598611",
       "verdict": "NEUTRAL",
-      "coverageState": "URL is unknown to Google",
-      "bucket": "unknown",
+      "coverageState": "Discovered - currently not indexed",
+      "bucket": "waiting",
       "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
       "indexingState": "INDEXING_STATE_UNSPECIFIED",
       "lastCrawlTime": null,
@@ -1634,8 +1664,8 @@
     {
       "url": "/articles/anthropics-530b-infrastructure-sprint-hinges-on-rapid-data-center-activation-eb17f342",
       "verdict": "NEUTRAL",
-      "coverageState": "URL is unknown to Google",
-      "bucket": "unknown",
+      "coverageState": "Discovered - currently not indexed",
+      "bucket": "waiting",
       "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
       "indexingState": "INDEXING_STATE_UNSPECIFIED",
       "lastCrawlTime": null,
@@ -1654,8 +1684,8 @@
     {
       "url": "/articles/republicans-dominate-ai-generated-political-ad-spending-ahead-of-midterms-d37592e0",
       "verdict": "NEUTRAL",
-      "coverageState": "Discovered - currently not indexed",
-      "bucket": "waiting",
+      "coverageState": "URL is unknown to Google",
+      "bucket": "unknown",
       "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
       "indexingState": "INDEXING_STATE_UNSPECIFIED",
       "lastCrawlTime": null,
@@ -1664,8 +1694,8 @@
     {
       "url": "/articles/new-critic-framework-boosts-ai-coding-agents-by-15-percentage-points-22c29e12",
       "verdict": "NEUTRAL",
-      "coverageState": "Discovered - currently not indexed",
-      "bucket": "waiting",
+      "coverageState": "URL is unknown to Google",
+      "bucket": "unknown",
       "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
       "indexingState": "INDEXING_STATE_UNSPECIFIED",
       "lastCrawlTime": null,
@@ -1674,8 +1704,8 @@
     {
       "url": "/articles/tech-giants-shift-ai-data-center-costs-to-everyday-ratepayers-cdda06ae",
       "verdict": "NEUTRAL",
-      "coverageState": "URL is unknown to Google",
-      "bucket": "unknown",
+      "coverageState": "Discovered - currently not indexed",
+      "bucket": "waiting",
       "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
       "indexingState": "INDEXING_STATE_UNSPECIFIED",
       "lastCrawlTime": null,
@@ -1764,8 +1794,8 @@
     {
       "url": "/articles/academics-challenge-uns-ai-safety-diagnosis-of-openai-breach-f737dd99",
       "verdict": "NEUTRAL",
-      "coverageState": "URL is unknown to Google",
-      "bucket": "unknown",
+      "coverageState": "Discovered - currently not indexed",
+      "bucket": "waiting",
       "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
       "indexingState": "INDEXING_STATE_UNSPECIFIED",
       "lastCrawlTime": null,
@@ -1844,8 +1874,8 @@
     {
       "url": "/articles/ai-safety-researchers-challenge-extinction-risk-claims-from-leading-labs-2540caa6",
       "verdict": "NEUTRAL",
-      "coverageState": "Discovered - currently not indexed",
-      "bucket": "waiting",
+      "coverageState": "URL is unknown to Google",
+      "bucket": "unknown",
       "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
       "indexingState": "INDEXING_STATE_UNSPECIFIED",
       "lastCrawlTime": null,
@@ -1914,8 +1944,8 @@
     {
       "url": "/articles/openais-automated-agents-scraped-data-from-55-major-institutions-4de6d43b",
       "verdict": "NEUTRAL",
-      "coverageState": "Discovered - currently not indexed",
-      "bucket": "waiting",
+      "coverageState": "URL is unknown to Google",
+      "bucket": "unknown",
       "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
       "indexingState": "INDEXING_STATE_UNSPECIFIED",
       "lastCrawlTime": null,
@@ -1964,8 +1994,8 @@
     {
       "url": "/articles/why-ai-labs-cannot-police-their-own-safety-standards-a4e455a4",
       "verdict": "NEUTRAL",
-      "coverageState": "URL is unknown to Google",
-      "bucket": "unknown",
+      "coverageState": "Discovered - currently not indexed",
+      "bucket": "waiting",
       "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
       "indexingState": "INDEXING_STATE_UNSPECIFIED",
       "lastCrawlTime": null,
@@ -1984,8 +2014,8 @@
     {
       "url": "/articles/openai-scraps-ai-model-after-control-and-compliance-failures-77370dec",
       "verdict": "NEUTRAL",
-      "coverageState": "URL is unknown to Google",
-      "bucket": "unknown",
+      "coverageState": "Discovered - currently not indexed",
+      "bucket": "waiting",
       "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
       "indexingState": "INDEXING_STATE_UNSPECIFIED",
       "lastCrawlTime": null,
@@ -1994,8 +2024,8 @@
     {
       "url": "/articles/nvidia-unveils-ai-safety-system-to-isolate-rogue-agents-in-milliseconds-5cb62802",
       "verdict": "NEUTRAL",
-      "coverageState": "URL is unknown to Google",
-      "bucket": "unknown",
+      "coverageState": "Discovered - currently not indexed",
+      "bucket": "waiting",
       "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
       "indexingState": "INDEXING_STATE_UNSPECIFIED",
       "lastCrawlTime": null,
@@ -2084,8 +2114,8 @@
     {
       "url": "/articles/ai-giants-recruit-ex-white-house-official-to-lead-self-regulatory-body-9d7a5c40",
       "verdict": "NEUTRAL",
-      "coverageState": "Discovered - currently not indexed",
-      "bucket": "waiting",
+      "coverageState": "URL is unknown to Google",
+      "bucket": "unknown",
       "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
       "indexingState": "INDEXING_STATE_UNSPECIFIED",
       "lastCrawlTime": null,
@@ -2124,8 +2154,8 @@
     {
       "url": "/articles/us-blocks-uk-access-to-latest-ai-models-pending-security-review-1611119f",
       "verdict": "NEUTRAL",
-      "coverageState": "URL is unknown to Google",
-      "bucket": "unknown",
+      "coverageState": "Discovered - currently not indexed",
+      "bucket": "waiting",
       "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
       "indexingState": "INDEXING_STATE_UNSPECIFIED",
       "lastCrawlTime": null,
@@ -2144,8 +2174,8 @@
     {
       "url": "/articles/white-house-memo-targets-anthropic-ceo-over-ai-safety-advocacy-692f5bd4",
       "verdict": "NEUTRAL",
-      "coverageState": "URL is unknown to Google",
-      "bucket": "unknown",
+      "coverageState": "Discovered - currently not indexed",
+      "bucket": "waiting",
       "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
       "indexingState": "INDEXING_STATE_UNSPECIFIED",
       "lastCrawlTime": null,
@@ -2154,8 +2184,8 @@
     {
       "url": "/articles/safety-regulator-opens-inquiry-into-commaai-driver-assist-software-fb61645a",
       "verdict": "NEUTRAL",
-      "coverageState": "URL is unknown to Google",
-      "bucket": "unknown",
+      "coverageState": "Discovered - currently not indexed",
+      "bucket": "waiting",
       "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
       "indexingState": "INDEXING_STATE_UNSPECIFIED",
       "lastCrawlTime": null,
@@ -3118,7 +3148,7 @@
       "bucket": "indexed",
       "robotsTxtState": "ALLOWED",
       "indexingState": "INDEXING_ALLOWED",
-      "lastCrawlTime": "2026-10-21T19:56:42Z",
+      "lastCrawlTime": "2026-11-08T16:11:19Z",
       "pageFetchState": "SUCCESSFUL"
     },
     {
@@ -4304,8 +4334,8 @@
     {
       "url": "/articles/semantic-search-embeddings-guide",
       "verdict": "NEUTRAL",
-      "coverageState": "Discovered - currently not indexed",
-      "bucket": "waiting",
+      "coverageState": "URL is unknown to Google",
+      "bucket": "unknown",
       "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
       "indexingState": "INDEXING_STATE_UNSPECIFIED",
       "lastCrawlTime": null,
@@ -8744,8 +8774,8 @@
     {
       "url": "/articles/llm-api-pricing-comparison-2026",
       "verdict": "NEUTRAL",
-      "coverageState": "Discovered - currently not indexed",
-      "bucket": "waiting",
+      "coverageState": "URL is unknown to Google",
+      "bucket": "unknown",
       "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
       "indexingState": "INDEXING_STATE_UNSPECIFIED",
       "lastCrawlTime": null,
@@ -9684,8 +9714,8 @@
     {
       "url": "/articles/vector-databases-rag-guide-2026",
       "verdict": "NEUTRAL",
-      "coverageState": "URL is unknown to Google",
-      "bucket": "unknown",
+      "coverageState": "Discovered - currently not indexed",
+      "bucket": "waiting",
       "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
       "indexingState": "INDEXING_STATE_UNSPECIFIED",
       "lastCrawlTime": null,
