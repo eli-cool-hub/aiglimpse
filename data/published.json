@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "trump-dismisses-ai-safety-concerns-threatens-unspecified-executive-ada7a7ec",
+      "title": "Trump Dismisses AI Safety Concerns, Threatens Unspecified Executive",
+      "subtitle": "In 60 Minutes appearance, president downplays industry warnings about AI risks while claiming DOJ enforcement.",
+      "category": "tools",
+      "publishedAt": "2026-11-09T15:50:38.000Z",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/1029802/trump-60-minutes-ai",
+      "sourceName": "The Verge AI",
+      "sourceTier": 2,
+      "image": "/images/articles/trump-dismisses-ai-safety-concerns-threatens-unspecified-executive-ada7a7ec.jpg"
+    },
+    {
       "slug": "tencent-ai-chief-warns-of-imminent-biological-risks-from-frontier-models-0285f8af",
       "title": "Tencent AI Chief Warns of Imminent Biological Risks From Frontier Models",
       "subtitle": "Leading researcher flags critical safety threshold as artificial intelligence gains capabilities in biology, signaling urgent need for new safeguards.",
@@ -14733,6 +14744,7 @@
     "570388ef2bbead36",
     "35e6bb54044479a0",
     "1b5cdc6d671a879a",
-    "0285f8afe1126742"
+    "0285f8afe1126742",
+    "ada7a7ec25692a36"
   ]
 }

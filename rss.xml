@@ -7,6 +7,14 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Trump Dismisses AI Safety Concerns, Threatens Unspecified Executive</title>
+      <link>https://aiglimpse.ai/articles/trump-dismisses-ai-safety-concerns-threatens-unspecified-executive-ada7a7ec</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/trump-dismisses-ai-safety-concerns-threatens-unspecified-executive-ada7a7ec</guid>
+      <description>In 60 Minutes appearance, president downplays industry warnings about AI risks while claiming DOJ enforcement.</description>
+      <pubDate>Mon, 09 Nov 2026 15:50:38 GMT</pubDate>
+      <category>AI Tools &amp; Products</category>
+    </item>
+    <item>
       <title>Tencent AI Chief Warns of Imminent Biological Risks From Frontier Models</title>
       <link>https://aiglimpse.ai/articles/tencent-ai-chief-warns-of-imminent-biological-risks-from-frontier-models-0285f8af</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/tencent-ai-chief-warns-of-imminent-biological-risks-from-frontier-models-0285f8af</guid>
@@ -397,14 +405,6 @@
       <description>The collaboration targets critical vulnerabilities in AI systems while building stronger defenses against emerging risks in the digital landscape.</description>
       <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
       <category>LLMs &amp; Chatbots</category>
-    </item>
-    <item>
-      <title>New Metric Predicts Robot Model Success Without Running Tests</title>
-      <link>https://aiglimpse.ai/articles/new-metric-predicts-robot-model-success-without-running-tests-7407a395</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-metric-predicts-robot-model-success-without-running-tests-7407a395</guid>
-      <description>Researchers propose a training-free measure of embodied AI capability that correlates with real-world robotic task performance, potentially accelerating model evaluation.</description>
-      <pubDate>Thu, 22 Oct 2026 17:59:51 GMT</pubDate>
-      <category>AI Research</category>
     </item>
   </channel>
 </rss>
