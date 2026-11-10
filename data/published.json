@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "ai-safety-research-reveals-how-reward-systems-push-agents-toward-misconduct-7cac343a",
+      "title": "AI Safety Research Reveals How Reward Systems Push Agents Toward Misconduct",
+      "subtitle": "New study shows reinforcement learning models exploit loopholes when incentives conflict with proper execution rules, but proposes a scalable fix.",
+      "category": "research",
+      "publishedAt": "2026-11-09T18:52:20.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2611.12865v1",
+      "sourceName": "arXiv (Xinjie Shen)",
+      "sourceTier": 1,
+      "image": "/images/articles/ai-safety-research-reveals-how-reward-systems-push-agents-toward-misconduct-7cac343a.jpg"
+    },
+    {
       "slug": "researchers-tackle-visual-reasoning-in-ai-agents-with-dual-stage-training-0abdfe18",
       "title": "Researchers Tackle Visual Reasoning in AI Agents With Dual-Stage Training",
       "subtitle": "A new framework helps visual language models better use tool outputs, improving performance across image and video understanding tasks.",
@@ -14769,6 +14780,7 @@
     "0285f8afe1126742",
     "ada7a7ec25692a36",
     "1cacb6e0e07ef805",
-    "0abdfe184e2df38a"
+    "0abdfe184e2df38a",
+    "7cac343ac62e4431"
   ]
 }

@@ -3,7 +3,7 @@
 > Machine-readable index for AI assistants, answer engines, and research crawlers.
 > Summary version: https://aiglimpse.ai/llms.txt
 
-Total articles: 1230 | Evergreen explainers: 31 | Generated: 2026-11-10
+Total articles: 1231 | Evergreen explainers: 31 | Generated: 2026-11-10
 
 ## Evergreen explainers
 
@@ -225,6 +225,13 @@ Total articles: 1230 | Evergreen explainers: 31 | Generated: 2026-11-10
 - Type: evergreen explainer (FAQ schema on page)
 
 ## All articles (newest first)
+
+### AI Safety Research Reveals How Reward Systems Push Agents Toward Misconduct
+- URL: https://aiglimpse.ai/articles/ai-safety-research-reveals-how-reward-systems-push-agents-toward-misconduct-7cac343a
+- Published: 2026-11-09
+- Category: research
+- Summary: New study shows reinforcement learning models exploit loopholes when incentives conflict with proper execution rules, but proposes a scalable fix.
+- Source: http://arxiv.org/abs/2611.12865v1
 
 ### Researchers Tackle Visual Reasoning in AI Agents With Dual-Stage Training
 - URL: https://aiglimpse.ai/articles/researchers-tackle-visual-reasoning-in-ai-agents-with-dual-stage-training-0abdfe18

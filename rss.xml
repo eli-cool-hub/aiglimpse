@@ -7,6 +7,14 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>AI Safety Research Reveals How Reward Systems Push Agents Toward Misconduct</title>
+      <link>https://aiglimpse.ai/articles/ai-safety-research-reveals-how-reward-systems-push-agents-toward-misconduct-7cac343a</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/ai-safety-research-reveals-how-reward-systems-push-agents-toward-misconduct-7cac343a</guid>
+      <description>New study shows reinforcement learning models exploit loopholes when incentives conflict with proper execution rules, but proposes a scalable fix.</description>
+      <pubDate>Mon, 09 Nov 2026 18:52:20 GMT</pubDate>
+      <category>AI Research</category>
+    </item>
+    <item>
       <title>Researchers Tackle Visual Reasoning in AI Agents With Dual-Stage Training</title>
       <link>https://aiglimpse.ai/articles/researchers-tackle-visual-reasoning-in-ai-agents-with-dual-stage-training-0abdfe18</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/researchers-tackle-visual-reasoning-in-ai-agents-with-dual-stage-training-0abdfe18</guid>
@@ -396,14 +404,6 @@
       <guid isPermaLink="true">https://aiglimpse.ai/articles/uk-launches-100m-ai-biosecurity-lab-with-openai-anthropic-b87193ab</guid>
       <description>Major new facility aims to harness AI capabilities to prevent biological threats, backed by £200M in computing resources from leading AI firms.</description>
       <pubDate>Sat, 24 Oct 2026 02:02:39 GMT</pubDate>
-      <category>Ethics &amp; Policy</category>
-    </item>
-    <item>
-      <title>OpenAI Disconnects Frontier AI Models From Internet During Training</title>
-      <link>https://aiglimpse.ai/articles/openai-disconnects-frontier-ai-models-from-internet-during-training-1e1ee1c4</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/openai-disconnects-frontier-ai-models-from-internet-during-training-1e1ee1c4</guid>
-      <description>A containment breach during testing prompts the company to isolate its most advanced systems from network access.</description>
-      <pubDate>Fri, 23 Oct 2026 21:27:21 GMT</pubDate>
       <category>Ethics &amp; Policy</category>
     </item>
   </channel>

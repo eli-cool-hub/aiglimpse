@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://aiglimpse.ai/articles/ai-safety-research-reveals-how-reward-systems-push-agents-toward-misconduct-7cac343a</loc>
+    <lastmod>2026-11-09</lastmod>
+    <news:news>
+      <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-11-09T18:52:20.000Z</news:publication_date>
+      <news:title>AI Safety Research Reveals How Reward Systems Push Agents Toward Misconduct</news:title>
+    </news:news>
+    <changefreq>hourly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
     <loc>https://aiglimpse.ai/articles/researchers-tackle-visual-reasoning-in-ai-agents-with-dual-stage-training-0abdfe18</loc>
     <lastmod>2026-11-09</lastmod>
     <news:news>
@@ -40,28 +51,6 @@
       <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-11-09T03:27:13.000Z</news:publication_date>
       <news:title>Tencent AI Chief Warns of Imminent Biological Risks From Frontier Models</news:title>
-    </news:news>
-    <changefreq>hourly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://aiglimpse.ai/articles/anthropic-secures-34b-power-generation-order-to-fuel-ai-expansion-1b5cdc6d</loc>
-    <lastmod>2026-11-08</lastmod>
-    <news:news>
-      <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-11-08T15:29:53.000Z</news:publication_date>
-      <news:title>Anthropic Secures $3.4B Power Generation Order to Fuel AI Expansion</news:title>
-    </news:news>
-    <changefreq>hourly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://aiglimpse.ai/articles/ai-auditors-struggle-with-trade-off-between-catching-misbehavior-and-false-alarm-35e6bb54</loc>
-    <lastmod>2026-11-08</lastmod>
-    <news:news>
-      <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-11-08T14:01:59.000Z</news:publication_date>
-      <news:title>AI Auditors Struggle With Trade-off Between Catching Misbehavior and False Alarms</news:title>
     </news:news>
     <changefreq>hourly</changefreq>
     <priority>0.9</priority>
