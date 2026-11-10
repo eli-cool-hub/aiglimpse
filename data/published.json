@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "researchers-tackle-visual-reasoning-in-ai-agents-with-dual-stage-training-0abdfe18",
+      "title": "Researchers Tackle Visual Reasoning in AI Agents With Dual-Stage Training",
+      "subtitle": "A new framework helps visual language models better use tool outputs, improving performance across image and video understanding tasks.",
+      "category": "research",
+      "publishedAt": "2026-11-09T18:59:54.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2611.12886v1",
+      "sourceName": "arXiv (Haozhi Yuan, Handong Li, Yifan Zhang, Qianshan Wei)",
+      "sourceTier": 1,
+      "image": "/images/articles/researchers-tackle-visual-reasoning-in-ai-agents-with-dual-stage-training-0abdfe18.jpg"
+    },
+    {
       "slug": "tech-policy-agenda-extends-beyond-ai-as-democrats-plot-regulatory-overhaul-1cacb6e0",
       "title": "Tech Policy Agenda Extends Beyond AI as Democrats Plot Regulatory Overhaul",
       "subtitle": "A comprehensive legislative framework targets subscription practices, data access, and platform accountability across the technology sector.",
@@ -14757,6 +14768,7 @@
     "1b5cdc6d671a879a",
     "0285f8afe1126742",
     "ada7a7ec25692a36",
-    "1cacb6e0e07ef805"
+    "1cacb6e0e07ef805",
+    "0abdfe184e2df38a"
   ]
 }
