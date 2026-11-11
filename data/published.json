@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "ai-safety-debate-misses-the-mark-on-real-risks-9baca86e",
+      "title": "AI Safety Debate Misses the Mark on Real Risks",
+      "subtitle": "Experts argue the field has fixated on distant hypotheticals while overlooking imminent threats from current systems.",
+      "category": "tools",
+      "publishedAt": "2026-11-10T11:00:00.000Z",
+      "sourceUrl": "https://www.wired.com/story/the-ai-safety-debate-has-lost-the-plot-we-asked-10-experts-what-the-real-nightmares-are/",
+      "sourceName": "Wired AI",
+      "sourceTier": 2,
+      "image": "/images/articles/ai-safety-debate-misses-the-mark-on-real-risks-9baca86e.jpg"
+    },
+    {
       "slug": "new-york-launches-ai-developer-registry-under-raise-act-549974c9",
       "title": "New York Launches AI Developer Registry Under RAISE Act",
       "subtitle": "Major AI labs face Jan. 1 deadline and strict compliance rules as first state-level oversight framework takes effect.",
@@ -14805,6 +14816,7 @@
     "0abdfe184e2df38a",
     "7cac343ac62e4431",
     "542493846b2bd35c",
-    "549974c9c014ba64"
+    "549974c9c014ba64",
+    "9baca86e14c78068"
   ]
 }

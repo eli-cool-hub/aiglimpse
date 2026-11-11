@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://aiglimpse.ai/articles/ai-safety-debate-misses-the-mark-on-real-risks-9baca86e</loc>
+    <lastmod>2026-11-10</lastmod>
+    <news:news>
+      <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-11-10T11:00:00.000Z</news:publication_date>
+      <news:title>AI Safety Debate Misses the Mark on Real Risks</news:title>
+    </news:news>
+    <changefreq>hourly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
     <loc>https://aiglimpse.ai/articles/new-york-launches-ai-developer-registry-under-raise-act-549974c9</loc>
     <lastmod>2026-11-11</lastmod>
     <news:news>
@@ -18,39 +29,6 @@
       <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-11-10T22:59:45.000Z</news:publication_date>
       <news:title>US Delays AI Chip Export Controls, Leaving Megaspeed Unblocked</news:title>
-    </news:news>
-    <changefreq>hourly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://aiglimpse.ai/articles/ai-safety-research-reveals-how-reward-systems-push-agents-toward-misconduct-7cac343a</loc>
-    <lastmod>2026-11-09</lastmod>
-    <news:news>
-      <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-11-09T18:52:20.000Z</news:publication_date>
-      <news:title>AI Safety Research Reveals How Reward Systems Push Agents Toward Misconduct</news:title>
-    </news:news>
-    <changefreq>hourly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://aiglimpse.ai/articles/researchers-tackle-visual-reasoning-in-ai-agents-with-dual-stage-training-0abdfe18</loc>
-    <lastmod>2026-11-09</lastmod>
-    <news:news>
-      <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-11-09T18:59:54.000Z</news:publication_date>
-      <news:title>Researchers Tackle Visual Reasoning in AI Agents With Dual-Stage Training</news:title>
-    </news:news>
-    <changefreq>hourly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://aiglimpse.ai/articles/tech-policy-agenda-extends-beyond-ai-as-democrats-plot-regulatory-overhaul-1cacb6e0</loc>
-    <lastmod>2026-11-09</lastmod>
-    <news:news>
-      <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-11-09T21:12:01.000Z</news:publication_date>
-      <news:title>Tech Policy Agenda Extends Beyond AI as Democrats Plot Regulatory Overhaul</news:title>
     </news:news>
     <changefreq>hourly</changefreq>
     <priority>0.9</priority>
