@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "new-york-launches-ai-developer-registry-under-raise-act-549974c9",
+      "title": "New York Launches AI Developer Registry Under RAISE Act",
+      "subtitle": "Major AI labs face Jan. 1 deadline and strict compliance rules as first state-level oversight framework takes effect.",
+      "category": "ethics",
+      "publishedAt": "2026-11-11T10:58:13.000Z",
+      "sourceUrl": "https://techcrunch.com/2026/11/10/openai-anthropic-face-new-oversight-as-new-yorks-ai-safety-law-takes-effect/",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/new-york-launches-ai-developer-registry-under-raise-act-549974c9.jpg"
+    },
+    {
       "slug": "us-delays-ai-chip-export-controls-leaving-megaspeed-unblocked-54249384",
       "title": "US Delays AI Chip Export Controls, Leaving Megaspeed Unblocked",
       "subtitle": "Commerce Department postpones Entity List expansion despite Pentagon and State Department calls to restrict a Singapore firm's acquisition of billions in advanced AI hardware.",
@@ -14793,6 +14804,7 @@
     "1cacb6e0e07ef805",
     "0abdfe184e2df38a",
     "7cac343ac62e4431",
-    "542493846b2bd35c"
+    "542493846b2bd35c",
+    "549974c9c014ba64"
   ]
 }
