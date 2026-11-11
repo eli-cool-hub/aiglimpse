@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://aiglimpse.ai/articles/us-delays-ai-chip-export-controls-leaving-megaspeed-unblocked-54249384</loc>
+    <lastmod>2026-11-10</lastmod>
+    <news:news>
+      <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-11-10T22:59:45.000Z</news:publication_date>
+      <news:title>US Delays AI Chip Export Controls, Leaving Megaspeed Unblocked</news:title>
+    </news:news>
+    <changefreq>hourly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
     <loc>https://aiglimpse.ai/articles/ai-safety-research-reveals-how-reward-systems-push-agents-toward-misconduct-7cac343a</loc>
     <lastmod>2026-11-09</lastmod>
     <news:news>
@@ -40,17 +51,6 @@
       <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-11-09T15:50:38.000Z</news:publication_date>
       <news:title>Trump Dismisses AI Safety Concerns, Threatens Unspecified Executive</news:title>
-    </news:news>
-    <changefreq>hourly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://aiglimpse.ai/articles/tencent-ai-chief-warns-of-imminent-biological-risks-from-frontier-models-0285f8af</loc>
-    <lastmod>2026-11-09</lastmod>
-    <news:news>
-      <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-11-09T03:27:13.000Z</news:publication_date>
-      <news:title>Tencent AI Chief Warns of Imminent Biological Risks From Frontier Models</news:title>
     </news:news>
     <changefreq>hourly</changefreq>
     <priority>0.9</priority>

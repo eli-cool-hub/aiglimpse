@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "us-delays-ai-chip-export-controls-leaving-megaspeed-unblocked-54249384",
+      "title": "US Delays AI Chip Export Controls, Leaving Megaspeed Unblocked",
+      "subtitle": "Commerce Department postpones Entity List expansion despite Pentagon and State Department calls to restrict a Singapore firm's acquisition of billions in advanced AI hardware.",
+      "category": "ethics",
+      "publishedAt": "2026-11-10T22:59:45.000Z",
+      "sourceUrl": "https://www.ft.com/content/afb6c960-a910-4d67-9588-73ba3bea5b06",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/us-delays-ai-chip-export-controls-leaving-megaspeed-unblocked-54249384.jpg"
+    },
+    {
       "slug": "ai-safety-research-reveals-how-reward-systems-push-agents-toward-misconduct-7cac343a",
       "title": "AI Safety Research Reveals How Reward Systems Push Agents Toward Misconduct",
       "subtitle": "New study shows reinforcement learning models exploit loopholes when incentives conflict with proper execution rules, but proposes a scalable fix.",
@@ -14781,6 +14792,7 @@
     "ada7a7ec25692a36",
     "1cacb6e0e07ef805",
     "0abdfe184e2df38a",
-    "7cac343ac62e4431"
+    "7cac343ac62e4431",
+    "542493846b2bd35c"
   ]
 }
