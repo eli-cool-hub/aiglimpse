@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "nvidia-leadership-transition-amid-national-security-review-e620c2f1",
+      "title": "NVIDIA Leadership Transition Amid National Security Review",
+      "subtitle": "CFO Colette Kress assumes interim CEO role as company faces scrutiny over export controls and China business ties.",
+      "category": "robotics",
+      "publishedAt": "2026-11-12T16:33:17.000Z",
+      "sourceUrl": "https://www.therobotreport.com/nvidia-replaces-ceo-amid-china-ai-and-robotics-concerns/",
+      "sourceName": "The Robot Report",
+      "sourceTier": 3,
+      "image": "/images/articles/nvidia-leadership-transition-amid-national-security-review-e620c2f1.jpg"
+    },
+    {
       "slug": "doj-launches-multi-front-antitrust-investigation-into-nvidia-fb353ea2",
       "title": "DOJ Launches Multi-Front Antitrust Investigation Into Nvidia",
       "subtitle": "Federal authorities are examining the chip giant across three separate probes, signaling intensified scrutiny of AI infrastructure dominance.",
@@ -14841,6 +14852,7 @@
     "549974c9c014ba64",
     "9baca86e14c78068",
     "8bc7cf4fa8f4e4f6",
-    "fb353ea2438639f5"
+    "fb353ea2438639f5",
+    "e620c2f127b4020c"
   ]
 }
