@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "doj-launches-multi-front-antitrust-investigation-into-nvidia-fb353ea2",
+      "title": "DOJ Launches Multi-Front Antitrust Investigation Into Nvidia",
+      "subtitle": "Federal authorities are examining the chip giant across three separate probes, signaling intensified scrutiny of AI infrastructure dominance.",
+      "category": "ethics",
+      "publishedAt": "2026-11-12T20:08:43.000Z",
+      "sourceUrl": "https://www.semafor.com/article/11/12/2026/us-doj-probes-nvidia",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/doj-launches-multi-front-antitrust-investigation-into-nvidia-fb353ea2.jpg"
+    },
+    {
       "slug": "democrats-demand-records-on-nvidia-chip-export-controls-8bc7cf4f",
       "title": "Democrats Demand Records on Nvidia Chip Export Controls",
       "subtitle": "Senators Warren and Coons order preservation of documents related to semiconductor sales to China amid national security scrutiny.",
@@ -14829,6 +14840,7 @@
     "542493846b2bd35c",
     "549974c9c014ba64",
     "9baca86e14c78068",
-    "8bc7cf4fa8f4e4f6"
+    "8bc7cf4fa8f4e4f6",
+    "fb353ea2438639f5"
   ]
 }

@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://aiglimpse.ai/articles/doj-launches-multi-front-antitrust-investigation-into-nvidia-fb353ea2</loc>
+    <lastmod>2026-11-12</lastmod>
+    <news:news>
+      <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-11-12T20:08:43.000Z</news:publication_date>
+      <news:title>DOJ Launches Multi-Front Antitrust Investigation Into Nvidia</news:title>
+    </news:news>
+    <changefreq>hourly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
     <loc>https://aiglimpse.ai/articles/democrats-demand-records-on-nvidia-chip-export-controls-8bc7cf4f</loc>
     <lastmod>2026-11-12</lastmod>
     <news:news>
@@ -18,17 +29,6 @@
       <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
       <news:publication_date>2026-11-11T10:58:13.000Z</news:publication_date>
       <news:title>New York Launches AI Developer Registry Under RAISE Act</news:title>
-    </news:news>
-    <changefreq>hourly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://aiglimpse.ai/articles/us-delays-ai-chip-export-controls-leaving-megaspeed-unblocked-54249384</loc>
-    <lastmod>2026-11-10</lastmod>
-    <news:news>
-      <news:publication><news:name>AI Glimpse</news:name><news:language>en</news:language></news:publication>
-      <news:publication_date>2026-11-10T22:59:45.000Z</news:publication_date>
-      <news:title>US Delays AI Chip Export Controls, Leaving Megaspeed Unblocked</news:title>
     </news:news>
     <changefreq>hourly</changefreq>
     <priority>0.9</priority>
