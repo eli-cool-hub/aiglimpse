@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "national-flight-halt-raises-questions-about-faas-new-ai-system-62c0198d",
+      "title": "National Flight Halt Raises Questions About FAA's New AI System",
+      "subtitle": "A widespread aviation disruption occurred days after the agency deployed an artificial intelligence tool across all regional control centers.",
+      "category": "ethics",
+      "publishedAt": "2026-11-13T23:07:19.000Z",
+      "sourceUrl": "https://futurism.com/artificial-intelligence/us-airspace-shuts-down-faa-rolled-out-ai",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/national-flight-halt-raises-questions-about-faas-new-ai-system-62c0198d.jpg"
+    },
+    {
       "slug": "eu-leaders-convene-on-ai-strategy-as-washington-and-beijing-advance-f6475601",
       "title": "EU Leaders Convene on AI Strategy as Washington and Beijing Advance",
       "subtitle": "Europe's first dedicated summit on artificial intelligence signals the bloc's determination to compete globally while addressing safety and regulatory concerns.",
@@ -14865,6 +14876,7 @@
     "8bc7cf4fa8f4e4f6",
     "fb353ea2438639f5",
     "e620c2f127b4020c",
-    "f6475601e53e4e77"
+    "f6475601e53e4e77",
+    "62c0198d5eb9f15c"
   ]
 }
