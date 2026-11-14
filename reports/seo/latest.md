@@ -1,30 +1,33 @@
 # AI Glimpse SEO + Traffic Report
-_Generated 2026-11-13T13:17:33.794Z_
+_Generated 2026-11-14T12:22:15.093Z_
 
 Dashboard: https://aiglimpse.ai/dashboard.html (Basic Auth required)
 
 ## Morning briefing — Needs attention
 
-Several issues need review today. Search visibility -16.3% DoD (343 impressions), traffic -100.0% DoD (0 sessions). Organic search is still minimal while Google indexes new URLs. 3 issue(s) flagged below.
+Several issues need review today. Search visibility -14.9% DoD (292 impressions), traffic +100.0% DoD (5 sessions). Organic search contributed 3 session(s) this week. 2 issue(s) flagged below.
 
 ### Wins
 
+- GA4 sessions +100.0% since yesterday (0 → 5).
+- Pageviews +100.0% since yesterday.
+- Week-over-week momentum: impressions -56.2%, sessions +400.0%.
+- 3 organic search session(s) in 7d (60% of traffic).
 - 2 search click(s) in the last 7 days.
-- 2 article(s) published in the last 24h — cadence matches the indexing throttle.
+- 3 article(s) published in the last 24h — cadence matches the indexing throttle.
 - 31 evergreen guides live — good hub depth.
-- 484 URL(s) confirmed indexed in Search Console (37% of 1315).
-- GSC sitemap counter (2642) is above live (1317) — stale GSC tally; live sitemap is authoritative.
+- 516 URL(s) confirmed indexed in Search Console (39% of 1317).
+- GSC sitemap counter (2646) is above live (1321) — stale GSC tally; live sitemap is authoritative.
 - 721 articles syndicated (Dev.to 721, Medium 0).
 
 ### Watch list
 
-- GSC impressions down -51.8% vs 7 days ago.
+- GSC impressions down -56.2% vs 7 days ago.
 
 ### Issues
 
-- GSC impressions fell -16.3% since yesterday.
-- Indexing coverage only 37% (484/1315) with 762 waiting — slow news volume until Google catches up.
-- Search visibility declining: impressions -51.8% WoW with 0 organic sessions — throttle news, push evergreen hubs + distribution.
+- GSC impressions fell -14.9% since yesterday.
+- Indexing coverage only 39% (516/1317) with 749 waiting — slow news volume until Google catches up.
 
 ### Suggested actions
 
@@ -32,40 +35,39 @@ Several issues need review today. Search visibility -16.3% DoD (343 impressions)
 
 ### Operations snapshot
 
-- Articles on site: **1237** (2 in last 24h)
-- Organic sessions (7d): **0**
-- Indexing: **484** indexed (37%), **762** waiting, **69** unknown
+- Articles on site: **1240** (3 in last 24h)
+- Organic sessions (7d): **3**
+- Indexing: **516** indexed (39%), **749** waiting, **52** unknown
 
 ## At a glance (last 7 days)
 
 | | GSC | GA4 |
 |---|---:|---:|
 | Clicks | 2 | - |
-| Impressions | 343 | - |
-| Avg position | 26.3 | - |
-| Sessions | - | 0 |
-| Users | - | 0 |
-| Pageviews | - | 0 |
+| Impressions | 292 | - |
+| Avg position | 27.0 | - |
+| Sessions | - | 5 |
+| Users | - | 4 |
+| Pageviews | - | 5 |
 
 ## Sitemap
 
-- GSC submitted tally: **2642**
+- GSC submitted tally: **2646**
 - GSC sitemap "indexed" counter: **0** (often stays 0)
-- URL Inspection: **484** indexed, **762** waiting, **69** unknown (1315 live URLs)
+- URL Inspection: **516** indexed, **749** waiting, **52** unknown (1317 live URLs)
 - Errors: 0
-- Last downloaded: 2026-11-12T16:46:07.917Z
+- Last downloaded: 2026-11-13T16:14:16.178Z
 
 ## Recommendations
 
-- **[high] ✓ done** Page is at position 9.7 with 11 impressions. Add 2-3 internal links from related articles to push it to page 1. _(Added inbound links from 3 related article(s): healthcare-systems-must-control-ai-agent-access-before-debating-governance-1e74fc36, leading-ai-labs-face-scrutiny-over-security-failures-in-agent-testing-e920387e, new-research-reveals-critical-vulnerability-in-ai-agent-safety-checks-30e1ed11.)_
-- **[info]** GSC sitemap API still reports 0 indexed of 2642 submitted. That counter is often empty — trust URL Inspection coverage on the dashboard instead.
-- **[info]** No GA4 sessions recorded in the last 7 days. Tag is live; this is normal until Google indexes the site and visitors arrive.
+- **[high] ✓ done** Page is at position 10.1 with 10 impressions. Add 2-3 internal links from related articles to push it to page 1. _(Added inbound links from 3 related article(s): healthcare-systems-must-control-ai-agent-access-before-debating-governance-1e74fc36, leading-ai-labs-face-scrutiny-over-security-failures-in-agent-testing-e920387e, new-research-reveals-critical-vulnerability-in-ai-agent-safety-checks-30e1ed11.)_
+- **[info]** GSC sitemap API still reports 0 indexed of 2646 submitted. That counter is often empty — trust URL Inspection coverage on the dashboard instead.
 
 ## Top queries (GSC, 7d)
 
 | Query | Clicks | Impressions | CTR | Position |
 |---|---:|---:|---:|---:|
-| ai agents vs chatbots | 0 | 5 | 0.0% | 83.8 |
+| ai agents vs chatbots | 0 | 4 | 0.0% | 84.0 |
 | ai chatbots & intelligent agents | 0 | 1 | 0.0% | 76.0 |
 | ai data hub | 0 | 1 | 0.0% | 89.0 |
 | ai hardware manufacturing mexico | 0 | 1 | 0.0% | 54.0 |
@@ -87,16 +89,31 @@ Several issues need review today. Search visibility -16.3% DoD (343 impressions)
 |---|---:|---:|---:|---:|
 | /articles/ai-assistants-learn-to-reject-requests-that-contradict-user-context-6363653d | 1 | 2 | 50.0% | 4.5 |
 | /articles/central-asia-emerges-as-ai-infrastructure-hub-with-major-data-center-push-a41501aa | 1 | 3 | 33.3% | 48.0 |
-| / | 0 | 3 | 0.0% | 27.3 |
-| /articles/ai-agents-vs-chatbots-difference | 0 | 8 | 0.0% | 83.9 |
+| / | 0 | 2 | 0.0% | 40.5 |
+| /articles/ai-agents-vs-chatbots-difference | 0 | 7 | 0.0% | 84.0 |
 | /articles/ai-evaluation-benchmarks-explained | 0 | 1 | 0.0% | 9.0 |
-| /articles/ai-generated-music-breaks-through-creative-barriers-in-producers-latest-ep-9edda249 | 0 | 3 | 0.0% | 9.0 |
-| /articles/ai-models-waste-context-by-copying-input-researchers-find-fix-f26f0779 | 0 | 1 | 0.0% | 28.0 |
 | /articles/ai-powered-robots-tackle-logistics-nomagic-expands-warehouse-automation-a53a628a | 0 | 3 | 0.0% | 14.7 |
-| /articles/ai-transcription-pricing-comparison-2026 | 0 | 16 | 0.0% | 60.0 |
+| /articles/ai-transcription-pricing-comparison-2026 | 0 | 14 | 0.0% | 55.8 |
 | /articles/cryptography-expert-builds-ai-tool-to-automate-cipher-analysis-8a0e1f84 | 0 | 1 | 0.0% | 8.0 |
-| /articles/deepseek-releases-speed-boost-for-ai-model-inference-8be5ab4f | 0 | 1 | 0.0% | 8.0 |
 | /articles/denmark-mandates-oral-exams-to-combat-ai-cheating-in-schools-80e4e8bd | 0 | 1 | 0.0% | 7.0 |
 | /articles/disney-pursues-characterai-acquisition-despite-child-safety-lawsuits-a04f38de | 0 | 2 | 0.0% | 7.5 |
 | /articles/dutch-ai-researchers-push-government-to-enforce-autonomous-weapons-controls-9f6e1799 | 0 | 2 | 0.0% | 10.0 |
-| /articles/embedding-models-compared-2026 | 0 | 17 | 0.0% | 48.4 |
+| /articles/embedding-models-compared-2026 | 0 | 15 | 0.0% | 54.1 |
+| /articles/engineers-test-advanced-alternatives-to-lora-fine-tuning-49a4209e | 0 | 2 | 0.0% | 8.0 |
+| /articles/fcc-import-limits-reshape-us-robot-policy-as-ai-perception-advances-833c2a5b | 0 | 4 | 0.0% | 8.8 |
+| /articles/general-catalysts-healthcare-ai-experiment-takes-shape-at-summa-health-1f8ac8a1 | 0 | 10 | 0.0% | 10.1 |
+
+## Top pages (GA4, 7d)
+
+| Page | Views | Users |
+|---|---:|---:|
+| /articles/meta-says-muse-ai-can-engage-in-adult-content-within-private-systems-45a4706b | 3 | 3 |
+| /articles/semantic-search-embeddings-guide | 2 | 1 |
+
+## Traffic sources (GA4, 7d)
+
+| Channel | Source | Sessions | Users |
+|---|---|---:|---:|
+| Cross-network | (data not available) | 2 | 2 |
+| Organic Search | bing | 2 | 1 |
+| Organic Search | yahoo | 1 | 1 |
