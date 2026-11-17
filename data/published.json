@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "new-training-method-pushes-visual-ai-agents-to-read-evidence-9132b754",
+      "title": "New Training Method Pushes Visual AI Agents to Read Evidence",
+      "subtitle": "Researchers introduce CrossRPO, a reinforcement learning technique that forces AI systems to analyze high-resolution images rather than relying on guesswork.",
+      "category": "research",
+      "publishedAt": "2026-11-16T18:59:04.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2611.21605v1",
+      "sourceName": "arXiv (Huawei Lin, Jinting Liu, Tongyan Wang, Xuyang Chen, Ruihua S…)",
+      "sourceTier": 1,
+      "image": "/images/articles/new-training-method-pushes-visual-ai-agents-to-read-evidence-9132b754.jpg"
+    },
+    {
       "slug": "ai-music-mills-deploy-copyright-strikes-against-human-artists-0f892275",
       "title": "AI Music Mills Deploy Copyright Strikes Against Human Artists",
       "subtitle": "Automated content factories are weaponizing copyright claims to silence independent musicians, raising questions about AI accountability.",
@@ -14961,6 +14972,7 @@
     "5aee74bbe2c47a76",
     "87a9eb78d7b5a928",
     "761b2fd90b05d639",
-    "0f892275553b339f"
+    "0f892275553b339f",
+    "9132b7544c8edf21"
   ]
 }
