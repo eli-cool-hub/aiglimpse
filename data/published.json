@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "ieees-decade-long-push-to-embed-ethics-into-ai-design-62a1793d",
+      "title": "IEEE's Decade-Long Push to Embed Ethics Into AI Design",
+      "subtitle": "A major standards body marks ten years of institutional effort to make responsible AI development the norm, not an afterthought.",
+      "category": "research",
+      "publishedAt": "2026-11-17T19:00:03.000Z",
+      "sourceUrl": "https://spectrum.ieee.org/ieee-ethics-ai-systems",
+      "sourceName": "IEEE Spectrum AI",
+      "sourceTier": 2,
+      "image": "/images/articles/ieees-decade-long-push-to-embed-ethics-into-ai-design-62a1793d.jpg"
+    },
+    {
       "slug": "sec-launches-civil-investigation-into-nvidias-investor-disclosures-4b5cbd34",
       "title": "SEC Launches Civil Investigation Into Nvidia's Investor Disclosures",
       "subtitle": "Regulatory scrutiny of the AI chipmaker comes amid leadership turmoil, raising questions about transparency in a sector critical to AI advancement.",
@@ -14985,6 +14996,7 @@
     "761b2fd90b05d639",
     "0f892275553b339f",
     "9132b7544c8edf21",
-    "4b5cbd34f4c5124f"
+    "4b5cbd34f4c5124f",
+    "62a1793d52c956b6"
   ]
 }
