@@ -7,6 +7,14 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>NYU Tandon publishes AI policy framework for educators</title>
+      <link>https://aiglimpse.ai/articles/nyu-tandon-publishes-ai-policy-framework-for-educators-8f982790</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/nyu-tandon-publishes-ai-policy-framework-for-educators-8f982790</guid>
+      <description>New playbook helps universities detect AI misuse by analyzing performance gaps between assignments and exams.</description>
+      <pubDate>Thu, 19 Nov 2026 21:12:01 GMT</pubDate>
+      <category>Ethics &amp; Policy</category>
+    </item>
+    <item>
       <title>OpenAI Pivots to Cybersecurity as Brockman Takes Operational Lead</title>
       <link>https://aiglimpse.ai/articles/openai-pivots-to-cybersecurity-as-brockman-takes-operational-lead-665d2d92</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/openai-pivots-to-cybersecurity-as-brockman-takes-operational-lead-665d2d92</guid>
@@ -397,14 +405,6 @@
       <description>The AI firm announces expanded protections and transparency measures aimed at preventing harmful outputs, particularly for younger users.</description>
       <pubDate>Fri, 30 Oct 2026 09:00:00 GMT</pubDate>
       <category>LLMs &amp; Chatbots</category>
-    </item>
-    <item>
-      <title>Researchers Exploit LLM Vulnerability to Build Stronger Safety Defenses</title>
-      <link>https://aiglimpse.ai/articles/researchers-exploit-llm-vulnerability-to-build-stronger-safety-defenses-a4846925</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/researchers-exploit-llm-vulnerability-to-build-stronger-safety-defenses-a4846925</guid>
-      <description>New framework turns shallow alignment weakness into a strength by forcing early safety decisions in multi-turn conversations.</description>
-      <pubDate>Thu, 29 Oct 2026 17:56:53 GMT</pubDate>
-      <category>AI Research</category>
     </item>
   </channel>
 </rss>

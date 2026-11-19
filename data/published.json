@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "nyu-tandon-publishes-ai-policy-framework-for-educators-8f982790",
+      "title": "NYU Tandon publishes AI policy framework for educators",
+      "subtitle": "New playbook helps universities detect AI misuse by analyzing performance gaps between assignments and exams.",
+      "category": "ethics",
+      "publishedAt": "2026-11-19T21:12:01.000Z",
+      "sourceUrl": "https://ultraviolet.library.nyu.edu/records/xp9wz-9gn51",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/nyu-tandon-publishes-ai-policy-framework-for-educators-8f982790.jpg"
+    },
+    {
       "slug": "openai-pivots-to-cybersecurity-as-brockman-takes-operational-lead-665d2d92",
       "title": "OpenAI Pivots to Cybersecurity as Brockman Takes Operational Lead",
       "subtitle": "The AI safety debate deepens as OpenAI's president expands into enterprise security tools and shifts strategic priorities.",
@@ -15021,6 +15032,7 @@
     "4b5cbd34f4c5124f",
     "62a1793d52c956b6",
     "dd8b2b16d9251d64",
-    "665d2d92ff4c65ac"
+    "665d2d92ff4c65ac",
+    "8f982790f97967d3"
   ]
 }
