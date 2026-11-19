@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "openai-pivots-to-cybersecurity-as-brockman-takes-operational-lead-665d2d92",
+      "title": "OpenAI Pivots to Cybersecurity as Brockman Takes Operational Lead",
+      "subtitle": "The AI safety debate deepens as OpenAI's president expands into enterprise security tools and shifts strategic priorities.",
+      "category": "ethics",
+      "publishedAt": "2026-11-19T09:12:02.000Z",
+      "sourceUrl": "https://theinformation.com/articles/brockman-pushes-openai-toward-cybersecurity-and-showdown-ai-safety",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/openai-pivots-to-cybersecurity-as-brockman-takes-operational-lead-665d2d92.jpg"
+    },
+    {
       "slug": "beijing-signals-trade-retaliation-over-us-ai-chip-export-controls-dd8b2b16",
       "title": "Beijing Signals Trade Retaliation Over US AI Chip Export Controls",
       "subtitle": "China escalates rhetoric as Washington imposes licensing requirements on advanced processors bound for five Asian and Latin American nations.",
@@ -15009,6 +15020,7 @@
     "9132b7544c8edf21",
     "4b5cbd34f4c5124f",
     "62a1793d52c956b6",
-    "dd8b2b16d9251d64"
+    "dd8b2b16d9251d64",
+    "665d2d92ff4c65ac"
   ]
 }
