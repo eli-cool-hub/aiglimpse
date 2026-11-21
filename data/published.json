@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "anthropics-public-debut-exposes-tensions-between-safety-mission-and-shareholder-6b64f3e9",
+      "title": "Anthropic's Public Debut Exposes Tensions Between Safety Mission and Shareholder Demands",
+      "subtitle": "The AI safety-focused startup must now balance its founding principles against the financial pressures of operating as a publicly traded company.",
+      "category": "tools",
+      "publishedAt": "2026-11-21T15:00:00.000Z",
+      "sourceUrl": "https://www.theverge.com/podcast/1038701/anthropic-ipo-ai-safety-openai-nvidia-structure",
+      "sourceName": "The Verge AI",
+      "sourceTier": 2,
+      "image": "/images/articles/anthropics-public-debut-exposes-tensions-between-safety-mission-and-shareholder-6b64f3e9.jpg"
+    },
+    {
       "slug": "nyu-tandon-publishes-ai-policy-framework-for-educators-8f982790",
       "title": "NYU Tandon publishes AI policy framework for educators",
       "subtitle": "New playbook helps universities detect AI misuse by analyzing performance gaps between assignments and exams.",
@@ -15033,6 +15044,7 @@
     "62a1793d52c956b6",
     "dd8b2b16d9251d64",
     "665d2d92ff4c65ac",
-    "8f982790f97967d3"
+    "8f982790f97967d3",
+    "6b64f3e958d08c3c"
   ]
 }
