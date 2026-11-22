@@ -7,6 +7,14 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Formal Verification Tool Uncovers 38 Critical Bugs in GPU Kernels</title>
+      <link>https://aiglimpse.ai/articles/formal-verification-tool-uncovers-38-critical-bugs-in-gpu-kernels-53af2c15</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/formal-verification-tool-uncovers-38-critical-bugs-in-gpu-kernels-53af2c15</guid>
+      <description>Columbia and CertiK researchers reveal widespread correctness issues in compiled accelerator code, including flaws in widely-used AI libraries.</description>
+      <pubDate>Sun, 22 Nov 2026 11:02:11 GMT</pubDate>
+      <category>Ethics &amp; Policy</category>
+    </item>
+    <item>
       <title>Anthropic's Public Debut Exposes Tensions Between Safety Mission and Shareholder Demands</title>
       <link>https://aiglimpse.ai/articles/anthropics-public-debut-exposes-tensions-between-safety-mission-and-shareholder-6b64f3e9</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/anthropics-public-debut-exposes-tensions-between-safety-mission-and-shareholder-6b64f3e9</guid>
@@ -396,14 +404,6 @@
       <guid isPermaLink="true">https://aiglimpse.ai/articles/privacy-first-ai-assistant-ollie-shutters-weeks-after-75m-funding-8f36bc6a</guid>
       <description>The early collapse raises questions about consumer AI viability and investor expectations in a crowded personal assistant market.</description>
       <pubDate>Sat, 31 Oct 2026 09:32:00 GMT</pubDate>
-      <category>Ethics &amp; Policy</category>
-    </item>
-    <item>
-      <title>Federal Agencies Seek to Align With States on Clinical AI Rules</title>
-      <link>https://aiglimpse.ai/articles/federal-agencies-seek-to-align-with-states-on-clinical-ai-rules-ae831a24</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/federal-agencies-seek-to-align-with-states-on-clinical-ai-rules-ae831a24</guid>
-      <description>FDA and CMS are negotiating regulatory boundaries with states to prevent confusion as autonomous AI systems enter medical practice.</description>
-      <pubDate>Fri, 30 Oct 2026 22:57:11 GMT</pubDate>
       <category>Ethics &amp; Policy</category>
     </item>
   </channel>

@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formal Verification Tool Uncovers 38 Critical Bugs in GPU Kernels | AI Glimpse</title>
+  <meta name="description" content="Columbia and CertiK identify 38 bugs in GPU kernels using formal verification, exposing reliability gaps in critical AI infrastructure libraries.">
+  <meta name="keywords" content="GPU kernels, formal verification, deep learning, FlashAttention, code correctness">
+  <link rel="canonical" href="https://aiglimpse.ai/articles/formal-verification-tool-uncovers-38-critical-bugs-in-gpu-kernels-53af2c15">
+  <meta property="og:type" content="article"><meta property="og:site_name" content="AI Glimpse">
+  <meta property="og:title" content="Formal Verification Tool Uncovers 38 Critical Bugs in GPU Kernels">
+  <meta property="og:description" content="Columbia and CertiK identify 38 bugs in GPU kernels using formal verification, exposing reliability gaps in critical AI infrastructure libraries.">
+  <meta property="og:url" content="https://aiglimpse.ai/articles/formal-verification-tool-uncovers-38-critical-bugs-in-gpu-kernels-53af2c15">
+  <meta property="og:image" content="https://aiglimpse.ai/images/articles/formal-verification-tool-uncovers-38-critical-bugs-in-gpu-kernels-53af2c15.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="article:published_time" content="2026-11-22T11:02:11.000Z">
+  <meta property="article:section" content="Ethics & Policy">
+  <meta property="article:tag" content="GPU kernels">
+  <meta property="article:tag" content="formal verification">
+  <meta property="article:tag" content="deep learning">
+  <meta property="article:tag" content="FlashAttention">
+  <meta property="article:tag" content="code correctness">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Formal Verification Tool Uncovers 38 Critical Bugs in GPU Kernels">
+  <meta name="twitter:description" content="Columbia and CertiK identify 38 bugs in GPU kernels using formal verification, exposing reliability gaps in critical AI infrastructure libraries.">
+  <meta name="twitter:image" content="https://aiglimpse.ai/images/articles/formal-verification-tool-uncovers-38-critical-bugs-in-gpu-kernels-53af2c15.jpg">
+  <link rel="icon" type="image/svg+xml" href="/images/favicon.svg">
+  <link rel="alternate" type="application/rss+xml" title="AI Glimpse RSS" href="/rss.xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700;9..144,900&family=Inter+Tight:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap">
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="preload" as="image" href="/images/articles/formal-verification-tool-uncovers-38-critical-bugs-in-gpu-kernels-53af2c15.webp" type="image/webp" fetchpriority="high">
+  <style>.reading-progress{position:fixed;top:0;left:0;height:3px;background:var(--color-accent);width:0%;z-index:200;transition:width 100ms linear;}</style>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"NewsArticle","mainEntityOfPage":{"@type":"WebPage","@id":"https://aiglimpse.ai/articles/formal-verification-tool-uncovers-38-critical-bugs-in-gpu-kernels-53af2c15"},"headline":"Formal Verification Tool Uncovers 38 Critical Bugs in GPU Kernels","description":"Columbia and CertiK identify 38 bugs in GPU kernels using formal verification, exposing reliability gaps in critical AI infrastructure libraries.","image":["https://aiglimpse.ai/images/articles/formal-verification-tool-uncovers-38-critical-bugs-in-gpu-kernels-53af2c15.jpg"],"datePublished":"2026-11-22T11:02:11.000Z","dateModified":"2026-11-22T11:02:11.000Z","author":{"@type":"Organization","name":"AI Glimpse Newsroom"},"publisher":{"@type":"Organization","name":"AI Glimpse","logo":{"@type":"ImageObject","url":"https://aiglimpse.ai/images/logo.svg"}},"articleSection":"Ethics & Policy","keywords":"GPU kernels, formal verification, deep learning, FlashAttention, code correctness","isBasedOn":{"@type":"CreativeWork","url":"https://www.marktechpost.com/2026/11/21/columbia-certik-tensorlean-formal-verification-gpu-kernels/","name":"Columbia, CertiK's TensorLean Verifies PTX, Finds 38 Kernel Bugs"}}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://aiglimpse.ai/"},{"@type":"ListItem","position":2,"name":"Ethics & Policy","item":"https://aiglimpse.ai/categories/ethics"},{"@type":"ListItem","position":3,"name":"Formal Verification Tool Uncovers 38 Critical Bugs in GPU Kernels","item":"https://aiglimpse.ai/articles/formal-verification-tool-uncovers-38-critical-bugs-in-gpu-kernels-53af2c15"}]}</script>
+  <meta name="google-site-verification" content="B132aMlqf1nssWYhjOSKUgSjmfwNWgPgtozZsHDxWlU" />
+  <meta name="msvalidate.01" content="F3762E555B3E685836AE39C90B79ECBF" />
+  <!-- aiglimpse-consent-default v1: must run before AdSense, defaults all ad/analytics storage to denied -->
+  <script>(function(){window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}window.gtag=gtag;gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'denied',functionality_storage:'granted',security_storage:'granted',wait_for_update:500});try{var s=JSON.parse(localStorage.getItem('aiglimpse-consent')||'null');if(s&&s.choice==='granted'){gtag('consent','update',{ad_storage:'granted',ad_user_data:'granted',ad_personalization:'granted',analytics_storage:'granted'});}}catch(e){}})();</script>
+  <!-- aiglimpse-ga4 v1: gtag.js loaded after consent default, so it buffers events until consent is granted -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-EVZ52DNQ8S"></script>
+  <script>gtag('js', new Date()); gtag('config', 'G-EVZ52DNQ8S', { anonymize_ip: true });</script>
+</head>
+<body>
+  <div class="reading-progress" aria-hidden="true"></div>
+  <header class="site-header" role="banner">
+    <div class="container">
+      <div class="header-bar">
+        <a href="/" class="logo" aria-label="AI Glimpse home">
+          <span class="logo-wordmark" aria-label="AI Glimpse">A<span class="iris-i" aria-hidden="true">ı</span><span aria-hidden="true"> Glimpse</span></span>
+        </a>
+        <nav class="nav-primary" aria-label="Primary">
+          <a href="/categories/llms">LLMs</a>
+            <a href="/categories/research">Research</a>
+            <a href="/categories/tools">Tools</a>
+            <a href="/categories/business">Business</a>
+            <a href="/categories/ethics">Ethics</a>
+            <a href="/categories/industry">Industry</a>
+            <a href="/categories/robotics">Robotics</a>
+        </nav>
+        <div class="header-actions">
+          <a class="search-btn" href="/search" aria-label="Search">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="11" cy="11" r="7"/><path d="M21 21l-4.35-4.35"/>
+            </svg>
+          </a>
+          <a href="#newsletter" class="btn btn--primary btn--sm">Subscribe</a>
+          <button class="menu-btn" aria-label="Open menu">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+  <aside class="mobile-menu" aria-label="Mobile menu">
+    <div class="mobile-menu-header">
+      <a href="/" class="logo">
+        <span class="logo-wordmark" aria-label="AI Glimpse">A<span class="iris-i" aria-hidden="true">ı</span><span aria-hidden="true"> Glimpse</span></span>
+      </a>
+      <button class="mobile-menu-close" aria-label="Close menu" style="font-size:24px;">×</button>
+    </div>
+    <a href="/categories/llms">LLMs</a>
+    <a href="/categories/research">Research</a>
+    <a href="/categories/tools">Tools</a>
+    <a href="/categories/business">Business</a>
+    <a href="/categories/ethics">Ethics</a>
+    <a href="/categories/industry">Industry</a>
+    <a href="/categories/robotics">Robotics</a>
+    <a href="/search">Search</a>
+    <a href="/pages/about">About</a>
+    <a href="#newsletter">Subscribe</a>
+  </aside>
+  <main>
+    <article>
+      <section class="article-hero">
+        <div class="container container--narrow">
+          <nav aria-label="Breadcrumb" style="margin-bottom:var(--space-4);font-size:var(--text-xs);color:var(--color-ink-muted);">
+            <a href="/" style="color:inherit;">Home</a> /
+            <a href="/categories/ethics" style="color:inherit;">Ethics & Policy</a>
+          </nav>
+          <div class="article-hero-meta">
+            <span class="tag tag--ethics">Ethics & Policy</span>
+            <span class="eyebrow">2 min read</span>
+          </div>
+          <h1 class="article-hero-title">Formal Verification Tool Uncovers 38 Critical Bugs in GPU Kernels</h1>
+          <p class="article-hero-subtitle">Columbia and CertiK researchers reveal widespread correctness issues in compiled accelerator code, including flaws in widely-used AI libraries.</p>
+          <div class="article-byline">
+            <div>By <strong>AI Glimpse Newsroom</strong></div><div>·</div>
+            <div><time datetime="2026-11-22T11:02:11.000Z" data-relative="false">November 22, 2026</time></div>
+          </div>
+        </div>
+      </section>
+      <section style="padding: var(--space-7) 0;">
+        <div class="container container--narrow">
+          <figure class="article-image"><picture><source srcset="/images/articles/formal-verification-tool-uncovers-38-critical-bugs-in-gpu-kernels-53af2c15.webp" type="image/webp"><img src="/images/articles/formal-verification-tool-uncovers-38-critical-bugs-in-gpu-kernels-53af2c15.jpg" alt="Formal Verification Tool Uncovers 38 Critical Bugs in GPU Kernels" loading="eager" fetchpriority="high" width="1200" height="630"></picture></figure>
+          <div class="article-body"><p>A collaborative effort between Columbia University and blockchain security firm CertiK has exposed a troubling gap in GPU kernel reliability. The team deployed TensorLean, a formal verification framework built on the Lean proof assistant, to systematically audit compiled GPU kernels used in machine learning workloads. The results suggest that correctness validation in this critical infrastructure layer remains inadequate.</p><p>Researchers analyzed 149 compiled GPU kernel instances and successfully verified only 83 as correct. The remaining 66 kernels contained 38 previously unknown bugs, according to documentation reviewed by AI Weekly. The discovery is particularly significant because two of the most popular libraries in deep learning were affected: FlashAttention, a critical optimization for transformer attention mechanisms, contained 23 of the identified defects, while DeepGEMM, a GEMM (general matrix multiply) library, harbored at least two.</p><h2>Why This Matters for AI Infrastructure</h2><p>GPU kernels form the bedrock of modern machine learning systems. These low-level, hand-optimized code sequences execute the mathematical operations that power everything from <a href="/articles/how-large-language-models-work-clear-explainer">large language models</a> to computer vision systems. When kernels contain correctness bugs, they can produce silently incorrect results, leading to degraded model performance or subtle numerical errors that cascade through training pipelines.</p><p>The scale of the problem revealed by TensorLean suggests the industry has relied on informal testing methods that miss edge cases. Traditional validation approaches rely on unit tests and empirical benchmarking, which cannot guarantee absence of errors across all possible input conditions.</p><h2>How TensorLean Works</h2><p>The verification framework represents the first systematic attempt to formally prove properties of compiled GPU kernels at scale. The tool accepts PTX (Parallel Thread Execution) bytecode, the intermediate representation for NVIDIA GPUs, and applies mathematical reasoning to verify correctness guarantees. According to AI Weekly, the researchers created TensorLean to handle the specific challenges of GPU programs, which involve complex memory access patterns and synchronization primitives that traditional verifiers struggle to reason about.</p><p>The team, led by Wei Qiang, Ganxiang Yang, Yi Rong, and Ronghui Gu at Columbia, alongside Xupeng Li at CertiK, designed the framework to work with real-world compiled code rather than requiring developers to rewrite libraries in verification-friendly languages.</p><h2>Implications for Library Maintainers</h2><p>The findings carry immediate practical consequences for teams maintaining widely-used GPU accelerator libraries. FlashAttention, particularly, is central to inference and training optimizations across the industry. The identification of 23 bugs creates an urgent maintenance responsibility, though the severity of individual defects remains unclear without additional technical details.</p><p>This work underscores a broader challenge in AI infrastructure: as models grow larger and more complex, the systems delivering them must offer stronger correctness guarantees. Formal verification, once relegated to safety-critical domains like aviation and nuclear systems, may now be essential for the core libraries powering artificial intelligence.</p><p>The research opens a new avenue for addressing reliability in GPU computing, suggesting that similar verification efforts could be expanded across other critical computational libraries that lack formal guarantees today.</p></div>
+          <!-- Inline ad slot, will be re-enabled once AdSense is approved -->
+          <p style="font-size:var(--text-xs);color:var(--color-ink-faint);margin-top:var(--space-6);padding-top:var(--space-4);border-top:1px solid var(--color-rule);">
+            Based on reporting from <a href="https://www.marktechpost.com/2026/11/21/columbia-certik-tensorlean-formal-verification-gpu-kernels/" rel="nofollow noopener" target="_blank" style="color:inherit;text-decoration:underline;">AI Weekly</a>.
+          </p>
+        </div>
+      </section>
+    </article>
+    <section class="section" aria-label="Related articles">
+      <div class="container container--narrow">
+        <div class="section-header">
+          <h2 class="section-title">More from AI Glimpse</h2>
+          <a href="/categories/ethics" class="section-link">All Ethics stories</a>
+        </div>
+        <div class="grid grid-3">
+          <article class="card card--medium">
+            <a href="/articles/nyu-tandon-publishes-ai-policy-framework-for-educators-8f982790"><div class="card-image"><picture><source srcset="/images/articles/nyu-tandon-publishes-ai-policy-framework-for-educators-8f982790.webp" type="image/webp"><img src="/images/articles/nyu-tandon-publishes-ai-policy-framework-for-educators-8f982790.jpg" alt="NYU Tandon publishes AI policy framework for educators" loading="lazy" width="1200" height="630"></picture></div></a>
+            <div class="card-meta">
+              <span class="tag tag--ethics">Ethics</span>
+              <span class="card-byline"><time datetime="2026-11-19T21:12:01.000Z">Nov 19, 2026</time></span>
+            </div>
+            <a href="/articles/nyu-tandon-publishes-ai-policy-framework-for-educators-8f982790"><h3 class="card-title">NYU Tandon publishes AI policy framework for educators</h3></a>
+          </article>
+          <article class="card card--medium">
+            <a href="/articles/openai-pivots-to-cybersecurity-as-brockman-takes-operational-lead-665d2d92"><div class="card-image"><picture><source srcset="/images/articles/openai-pivots-to-cybersecurity-as-brockman-takes-operational-lead-665d2d92.webp" type="image/webp"><img src="/images/articles/openai-pivots-to-cybersecurity-as-brockman-takes-operational-lead-665d2d92.jpg" alt="OpenAI Pivots to Cybersecurity as Brockman Takes Operational Lead" loading="lazy" width="1200" height="630"></picture></div></a>
+            <div class="card-meta">
+              <span class="tag tag--ethics">Ethics</span>
+              <span class="card-byline"><time datetime="2026-11-19T09:12:02.000Z">Nov 19, 2026</time></span>
+            </div>
+            <a href="/articles/openai-pivots-to-cybersecurity-as-brockman-takes-operational-lead-665d2d92"><h3 class="card-title">OpenAI Pivots to Cybersecurity as Brockman Takes Operational Lead</h3></a>
+          </article>
+          <article class="card card--medium">
+            <a href="/articles/beijing-signals-trade-retaliation-over-us-ai-chip-export-controls-dd8b2b16"><div class="card-image"><picture><source srcset="/images/articles/beijing-signals-trade-retaliation-over-us-ai-chip-export-controls-dd8b2b16.webp" type="image/webp"><img src="/images/articles/beijing-signals-trade-retaliation-over-us-ai-chip-export-controls-dd8b2b16.jpg" alt="Beijing Signals Trade Retaliation Over US AI Chip Export Controls" loading="lazy" width="1200" height="630"></picture></div></a>
+            <div class="card-meta">
+              <span class="tag tag--ethics">Ethics</span>
+              <span class="card-byline"><time datetime="2026-11-18T13:59:48.000Z">Nov 18, 2026</time></span>
+            </div>
+            <a href="/articles/beijing-signals-trade-retaliation-over-us-ai-chip-export-controls-dd8b2b16"><h3 class="card-title">Beijing Signals Trade Retaliation Over US AI Chip Export Controls</h3></a>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="/" class="logo">
+            <span class="logo-wordmark" aria-label="AI Glimpse">A<span class="iris-i" aria-hidden="true">ı</span><span aria-hidden="true"> Glimpse</span></span>
+          </a>
+          <p>Your daily glimpse into AI. Independent reporting and analysis on the people, products, and policies shaping artificial intelligence.</p>
+        </div>
+        <div class="footer-col">
+          <h5>Categories</h5>
+          <ul>
+            <li><a href="/categories/llms">LLMs</a></li>
+            <li><a href="/categories/research">Research</a></li>
+            <li><a href="/categories/tools">Tools</a></li>
+            <li><a href="/categories/business">Business</a></li>
+            <li><a href="/categories/ethics">Ethics</a></li>
+            <li><a href="/categories/industry">Industry</a></li>
+            <li><a href="/categories/robotics">Robotics</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h5>About</h5>
+          <ul>
+            <li><a href="/pages/about">About AI Glimpse</a></li>
+            <li><a href="/pages/contact">Contact</a></li>
+            <li><a href="/pages/editorial">Editorial Standards</a></li>
+            <li><a href="/pages/advertise">Advertise</a></li>
+            <li><a href="/guides">Guides &amp; Explainers</a></li>
+            <li><a href="/search">Search</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h5>Legal</h5>
+          <ul>
+            <li><a href="/pages/privacy">Privacy Policy</a></li>
+            <li><a href="/pages/terms">Terms of Service</a></li>
+            <li><a href="#" data-consent-open>Cookie preferences</a></li>
+            <li><a href="/rss.xml">RSS Feed</a></li>
+            <li><a href="/sitemap.xml">Sitemap</a></li>
+            <li><a href="/llms.txt">LLMs.txt</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div>© <span id="year">2026</span> AI Glimpse · aiglimpse.ai</div>
+        <div class="footer-social">
+          <a href="/rss.xml" aria-label="RSS"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M6.503 20.752c0 1.794-1.456 3.248-3.251 3.248-1.796 0-3.252-1.454-3.252-3.248 0-1.794 1.456-3.248 3.252-3.248 1.795 0 3.251 1.454 3.251 3.248zm-6.503-12.572v4.811c6.05.062 10.96 4.966 11.022 11.009h4.817c-.062-8.71-7.118-15.758-15.839-15.82zm0-3.368c10.58.046 19.152 8.594 19.183 19.188h4.817c-.03-13.231-10.755-23.954-24-24v4.812z"/></svg></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="/js/chrome.js"></script>
+  <script src="/js/main.js"></script>
+</body>
+</html>

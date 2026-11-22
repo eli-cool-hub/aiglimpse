@@ -3,7 +3,7 @@
 > Machine-readable index for AI assistants, answer engines, and research crawlers.
 > Summary version: https://aiglimpse.ai/llms.txt
 
-Total articles: 1253 | Evergreen explainers: 31 | Generated: 2026-11-22
+Total articles: 1254 | Evergreen explainers: 31 | Generated: 2026-11-22
 
 ## Evergreen explainers
 
@@ -225,6 +225,13 @@ Total articles: 1253 | Evergreen explainers: 31 | Generated: 2026-11-22
 - Type: evergreen explainer (FAQ schema on page)
 
 ## All articles (newest first)
+
+### Formal Verification Tool Uncovers 38 Critical Bugs in GPU Kernels
+- URL: https://aiglimpse.ai/articles/formal-verification-tool-uncovers-38-critical-bugs-in-gpu-kernels-53af2c15
+- Published: 2026-11-22
+- Category: ethics
+- Summary: Columbia and CertiK researchers reveal widespread correctness issues in compiled accelerator code, including flaws in widely-used AI libraries.
+- Source: https://www.marktechpost.com/2026/11/21/columbia-certik-tensorlean-formal-verification-gpu-kernels/
 
 ### Anthropic's Public Debut Exposes Tensions Between Safety Mission and Shareholder Demands
 - URL: https://aiglimpse.ai/articles/anthropics-public-debut-exposes-tensions-between-safety-mission-and-shareholder-6b64f3e9
