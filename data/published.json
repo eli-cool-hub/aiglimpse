@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "chinese-military-warns-ai-could-slash-us-nuclear-response-time-to-90-seconds-a41e0890",
+      "title": "Chinese Military Warns AI Could Slash US Nuclear Response Time to 90 Seconds",
+      "subtitle": "Beijing researchers fear automated systems may compress critical launch decisions, reshaping nuclear deterrence calculations.",
+      "category": "ethics",
+      "publishedAt": "2026-11-23T11:03:51.000Z",
+      "sourceUrl": "https://www.nytimes.com/2026/11/23/world/asia/china-us-nuclear-ai.html",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/chinese-military-warns-ai-could-slash-us-nuclear-response-time-to-90-seconds-a41e0890.jpg"
+    },
+    {
       "slug": "trump-proposes-us-china-cooperation-on-ai-safety-standards-83e765f1",
       "title": "Trump Proposes US-China Cooperation on AI Safety Standards",
       "subtitle": "Post-election shift signals potential diplomatic opening on artificial intelligence regulation between world's two leading tech powers.",
@@ -15081,6 +15092,7 @@
     "6b64f3e958d08c3c",
     "53af2c15cbbe5362",
     "1d55242439f089df",
-    "83e765f1dd2ba7d8"
+    "83e765f1dd2ba7d8",
+    "a41e08901e1585ec"
   ]
 }
