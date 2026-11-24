@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "why-ai-wont-replace-management-consultants-despite-hype-9859054e",
+      "title": "Why AI Won't Replace Management Consultants, Despite Hype",
+      "subtitle": "Researchers argue that consulting's true value lies beyond information processing, insulating the industry from AI disruption.",
+      "category": "ethics",
+      "publishedAt": "2026-11-23T20:12:32.000Z",
+      "sourceUrl": "https://www.normaltech.ai/p/management-consulting-is-not-a-thin",
+      "sourceName": "AI Snake Oil",
+      "sourceTier": 3,
+      "image": "/images/articles/why-ai-wont-replace-management-consultants-despite-hype-9859054e.jpg"
+    },
+    {
       "slug": "chinese-military-warns-ai-could-slash-us-nuclear-response-time-to-90-seconds-a41e0890",
       "title": "Chinese Military Warns AI Could Slash US Nuclear Response Time to 90 Seconds",
       "subtitle": "Beijing researchers fear automated systems may compress critical launch decisions, reshaping nuclear deterrence calculations.",
@@ -15093,6 +15104,7 @@
     "53af2c15cbbe5362",
     "1d55242439f089df",
     "83e765f1dd2ba7d8",
-    "a41e08901e1585ec"
+    "a41e08901e1585ec",
+    "9859054e67fd4536"
   ]
 }
