@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "new-ai-system-controls-million-robot-types-with-single-policy-0fab2948",
+      "title": "New AI System Controls Million Robot Types With Single Policy",
+      "subtitle": "Researchers demonstrate how machine learning can adapt a unified control system across vastly different robot morphologies by embedding kinematic understanding.",
+      "category": "research",
+      "publishedAt": "2026-11-24T18:59:58.000Z",
+      "sourceUrl": "http://arxiv.org/abs/2611.33158v1",
+      "sourceName": "arXiv (Xiang Fan, Yuheng Wang, Jiayuan Yan, Bohan Fang, Wisdom Oluc…)",
+      "sourceTier": 1,
+      "image": "/images/articles/new-ai-system-controls-million-robot-types-with-single-policy-0fab2948.jpg"
+    },
+    {
       "slug": "why-ai-wont-replace-management-consultants-despite-hype-9859054e",
       "title": "Why AI Won't Replace Management Consultants, Despite Hype",
       "subtitle": "Researchers argue that consulting's true value lies beyond information processing, insulating the industry from AI disruption.",
@@ -15105,6 +15116,7 @@
     "1d55242439f089df",
     "83e765f1dd2ba7d8",
     "a41e08901e1585ec",
-    "9859054e67fd4536"
+    "9859054e67fd4536",
+    "0fab29483bbcd098"
   ]
 }
