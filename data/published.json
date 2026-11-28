@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "new-robot-training-method-achieves-98-success-rate-on-complex-tasks-356cc6d9",
+      "title": "New Robot Training Method Achieves 98% Success Rate on Complex Tasks",
+      "subtitle": "Boundary-Aware Policy Learning bridges a critical gap in robotic control by addressing handoff failures between planning and execution layers.",
+      "category": "ethics",
+      "publishedAt": "2026-11-28T03:54:42.000Z",
+      "sourceUrl": "https://arxiv.org/abs/2611.32238",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/new-robot-training-method-achieves-98-success-rate-on-complex-tasks-356cc6d9.jpg"
+    },
+    {
       "slug": "top-ai-researchers-clash-over-timeline-for-fully-automated-research-514a1598",
       "title": "Top AI Researchers Clash Over Timeline for Fully Automated Research",
       "subtitle": "Competing visions of when AI will independently advance itself reveal deep uncertainty among experts about the field's near-term trajectory.",
@@ -15141,6 +15152,7 @@
     "9859054e67fd4536",
     "0fab29483bbcd098",
     "7f8baabcf2cd0a0b",
-    "514a1598ae09d5cd"
+    "514a1598ae09d5cd",
+    "356cc6d92f869b03"
   ]
 }

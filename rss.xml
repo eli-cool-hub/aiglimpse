@@ -7,6 +7,14 @@
     <language>en-us</language>
     <atom:link href="https://aiglimpse.ai/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>New Robot Training Method Achieves 98% Success Rate on Complex Tasks</title>
+      <link>https://aiglimpse.ai/articles/new-robot-training-method-achieves-98-success-rate-on-complex-tasks-356cc6d9</link>
+      <guid isPermaLink="true">https://aiglimpse.ai/articles/new-robot-training-method-achieves-98-success-rate-on-complex-tasks-356cc6d9</guid>
+      <description>Boundary-Aware Policy Learning bridges a critical gap in robotic control by addressing handoff failures between planning and execution layers.</description>
+      <pubDate>Sat, 28 Nov 2026 03:54:42 GMT</pubDate>
+      <category>Ethics &amp; Policy</category>
+    </item>
+    <item>
       <title>Top AI Researchers Clash Over Timeline for Fully Automated Research</title>
       <link>https://aiglimpse.ai/articles/top-ai-researchers-clash-over-timeline-for-fully-automated-research-514a1598</link>
       <guid isPermaLink="true">https://aiglimpse.ai/articles/top-ai-researchers-clash-over-timeline-for-fully-automated-research-514a1598</guid>
@@ -397,14 +405,6 @@
       <description>New PolicyIK system outperforms traditional methods for inverse kinematics, enabling more reliable robot arm manipulation across different hardware platforms.</description>
       <pubDate>Tue, 03 Nov 2026 18:59:14 GMT</pubDate>
       <category>AI Research</category>
-    </item>
-    <item>
-      <title>Anthropic Launches Cryptographic System to Verify AI Model Authenticity</title>
-      <link>https://aiglimpse.ai/articles/anthropic-launches-cryptographic-system-to-verify-ai-model-authenticity-a746bbab</link>
-      <guid isPermaLink="true">https://aiglimpse.ai/articles/anthropic-launches-cryptographic-system-to-verify-ai-model-authenticity-a746bbab</guid>
-      <description>FlashProve enables providers to mathematically prove AI responses originated from claimed model weights without exposing proprietary parameters.</description>
-      <pubDate>Tue, 03 Nov 2026 21:28:56 GMT</pubDate>
-      <category>Ethics &amp; Policy</category>
     </item>
   </channel>
 </rss>
