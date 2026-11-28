@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "slug": "top-ai-researchers-clash-over-timeline-for-fully-automated-research-514a1598",
+      "title": "Top AI Researchers Clash Over Timeline for Fully Automated Research",
+      "subtitle": "Competing visions of when AI will independently advance itself reveal deep uncertainty among experts about the field's near-term trajectory.",
+      "category": "ethics",
+      "publishedAt": "2026-11-27T21:30:46.000Z",
+      "sourceUrl": "https://www.dwarkesh.com/p/daniel-kokotajlo-ege-erdil",
+      "sourceName": "AI Weekly",
+      "sourceTier": 2,
+      "image": "/images/articles/top-ai-researchers-clash-over-timeline-for-fully-automated-research-514a1598.jpg"
+    },
+    {
       "slug": "trustedrouters-encrypted-ai-traffic-surges-to-6b-daily-tokens-7f8baabc",
       "title": "TrustedRouter's Encrypted AI Traffic Surges to 6B Daily Tokens",
       "subtitle": "Miami startup demonstrates six-fold growth in privacy-focused AI processing, raising questions about enterprise adoption of encrypted LLM infrastructure.",
@@ -15129,6 +15140,7 @@
     "a41e08901e1585ec",
     "9859054e67fd4536",
     "0fab29483bbcd098",
-    "7f8baabcf2cd0a0b"
+    "7f8baabcf2cd0a0b",
+    "514a1598ae09d5cd"
   ]
 }
